@@ -313,7 +313,7 @@ public class Class1 implements Interface13 {
 		if (1 == i)
 			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
 		else if (i == 2)
-			aString44 = class536_sub33.method9695((byte) 67);
+			aString44 = class536_sub33.readString((byte) 67);
 		else if (4 == i)
 			anInt47 = class536_sub33.readUnsignedShort((short) -23737) * 246930165;
 		else if (5 == i)
@@ -331,7 +331,7 @@ public class Class1 implements Interface13 {
 		} else if (i == 11)
 			anInt34 = -201081757;
 		else if (12 == i)
-			anInt36 = class536_sub33.method9709(-671543858) * 384998359;
+			anInt36 = class536_sub33.readInt(-671543858) * 384998359;
 		else if (i == 13)
 			anInt42 = class536_sub33.readUnsignedByte(-1183967052) * 507874001;
 		else if (i == 14)
@@ -351,9 +351,9 @@ public class Class1 implements Interface13 {
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte(1369464471) * 1533255093;
 		else if (i >= 30 && i < 35)
-			aStringArray38[i - 30] = class536_sub33.method9695((byte) 64);
+			aStringArray38[i - 30] = class536_sub33.readString((byte) 64);
 		else if (i >= 35 && i < 40)
-			aStringArray24[i - 35] = class536_sub33.method9695((byte) 72);
+			aStringArray24[i - 35] = class536_sub33.readString((byte) 72);
 		else if (i == 40) {
 			int i_31_ = class536_sub33.readUnsignedByte(-1733124474);
 			aShortArray28 = new short[i_31_];
@@ -376,7 +376,7 @@ public class Class1 implements Interface13 {
 			for (int i_36_ = 0; i_36_ < i_35_; i_36_++)
 				aByteArray87[i_36_] = class536_sub33.readByte(-1130771090);
 		} else if (43 == i) {
-			anInt40 = class536_sub33.method9709(-269112797) * -1485044269;
+			anInt40 = class536_sub33.readInt(-269112797) * -1485044269;
 			aBool84 = true;
 		} else if (44 == i) {
 			int i_37_ = class536_sub33.readUnsignedShort((short) -5933);
@@ -497,7 +497,7 @@ public class Class1 implements Interface13 {
 			else if (163 == i)
 				anInt50 = class536_sub33.readUnsignedShort((short) 15262) * 907842985;
 			else if (i == 164)
-				aString21 = class536_sub33.method9695((byte) 101);
+				aString21 = class536_sub33.readString((byte) 101);
 			else if (i == 165)
 				anInt34 = -402163514;
 			else if (i == 249) {
@@ -508,12 +508,12 @@ public class Class1 implements Interface13 {
 				}
 				for (int i_51_ = 0; i_51_ < i_49_; i_51_++) {
 					boolean bool = class536_sub33.readUnsignedByte(1906805015) == 1;
-					int i_52_ = class536_sub33.method9742(2129841103);
+					int i_52_ = class536_sub33.read24BitUnsignedInteger(2129841103);
 					Class536 class536;
 					if (bool)
-						class536 = new Class536_Sub13(class536_sub33.method9695((byte) 82));
+						class536 = new Class536_Sub13(class536_sub33.readString((byte) 82));
 					else
-						class536 = new Class536_Sub26(class536_sub33.method9709(-432435878));
+						class536 = new Class536_Sub26(class536_sub33.readInt(-432435878));
 					aClass4_79.method560(class536, (long) i_52_);
 				}
 			}
@@ -935,7 +935,7 @@ public class Class1 implements Interface13 {
 		if (1 == i)
 			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
 		else if (i == 2)
-			aString44 = class536_sub33.method9695((byte) 81);
+			aString44 = class536_sub33.readString((byte) 81);
 		else if (4 == i)
 			anInt47 = class536_sub33.readUnsignedShort((short) -3177) * 246930165;
 		else if (5 == i)
@@ -953,7 +953,7 @@ public class Class1 implements Interface13 {
 		} else if (i == 11)
 			anInt34 = -201081757;
 		else if (12 == i)
-			anInt36 = class536_sub33.method9709(-1148337152) * 384998359;
+			anInt36 = class536_sub33.readInt(-1148337152) * 384998359;
 		else if (i == 13)
 			anInt42 = class536_sub33.readUnsignedByte(464852192) * 507874001;
 		else if (i == 14)
@@ -973,9 +973,9 @@ public class Class1 implements Interface13 {
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte(-182965921) * 1533255093;
 		else if (i >= 30 && i < 35)
-			aStringArray38[i - 30] = class536_sub33.method9695((byte) 76);
+			aStringArray38[i - 30] = class536_sub33.readString((byte) 76);
 		else if (i >= 35 && i < 40)
-			aStringArray24[i - 35] = class536_sub33.method9695((byte) 104);
+			aStringArray24[i - 35] = class536_sub33.readString((byte) 104);
 		else if (i == 40) {
 			int i_100_ = class536_sub33.readUnsignedByte(840467669);
 			aShortArray28 = new short[i_100_];
@@ -998,7 +998,7 @@ public class Class1 implements Interface13 {
 			for (int i_105_ = 0; i_105_ < i_104_; i_105_++)
 				aByteArray87[i_105_] = class536_sub33.readByte(-465116716);
 		} else if (43 == i) {
-			anInt40 = class536_sub33.method9709(-527874007) * -1485044269;
+			anInt40 = class536_sub33.readInt(-527874007) * -1485044269;
 			aBool84 = true;
 		} else if (44 == i) {
 			int i_106_ = class536_sub33.readUnsignedShort((short) -6030);
@@ -1119,7 +1119,7 @@ public class Class1 implements Interface13 {
 			else if (163 == i)
 				anInt50 = class536_sub33.readUnsignedShort((short) 15032) * 907842985;
 			else if (i == 164)
-				aString21 = class536_sub33.method9695((byte) 122);
+				aString21 = class536_sub33.readString((byte) 122);
 			else if (i == 165)
 				anInt34 = -402163514;
 			else if (i == 249) {
@@ -1130,12 +1130,12 @@ public class Class1 implements Interface13 {
 				}
 				for (int i_120_ = 0; i_120_ < i_118_; i_120_++) {
 					boolean bool = class536_sub33.readUnsignedByte(-233124499) == 1;
-					int i_121_ = class536_sub33.method9742(2017910998);
+					int i_121_ = class536_sub33.read24BitUnsignedInteger(2017910998);
 					Class536 class536;
 					if (bool)
-						class536 = new Class536_Sub13(class536_sub33.method9695((byte) 38));
+						class536 = new Class536_Sub13(class536_sub33.readString((byte) 38));
 					else
-						class536 = new Class536_Sub26(class536_sub33.method9709(-253588571));
+						class536 = new Class536_Sub26(class536_sub33.readInt(-253588571));
 					aClass4_79.method560(class536, (long) i_121_);
 				}
 			}
@@ -1221,7 +1221,7 @@ public class Class1 implements Interface13 {
 		if (1 == i)
 			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
 		else if (i == 2)
-			aString44 = class536_sub33.method9695((byte) 63);
+			aString44 = class536_sub33.readString((byte) 63);
 		else if (4 == i)
 			anInt47 = class536_sub33.readUnsignedShort((short) -2138) * 246930165;
 		else if (5 == i)
@@ -1239,7 +1239,7 @@ public class Class1 implements Interface13 {
 		} else if (i == 11)
 			anInt34 = -201081757;
 		else if (12 == i)
-			anInt36 = class536_sub33.method9709(-1418439852) * 384998359;
+			anInt36 = class536_sub33.readInt(-1418439852) * 384998359;
 		else if (i == 13)
 			anInt42 = class536_sub33.readUnsignedByte(-426723278) * 507874001;
 		else if (i == 14)
@@ -1259,9 +1259,9 @@ public class Class1 implements Interface13 {
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte(-184772352) * 1533255093;
 		else if (i >= 30 && i < 35)
-			aStringArray38[i - 30] = class536_sub33.method9695((byte) 100);
+			aStringArray38[i - 30] = class536_sub33.readString((byte) 100);
 		else if (i >= 35 && i < 40)
-			aStringArray24[i - 35] = class536_sub33.method9695((byte) 103);
+			aStringArray24[i - 35] = class536_sub33.readString((byte) 103);
 		else if (i == 40) {
 			int i_128_ = class536_sub33.readUnsignedByte(1616191949);
 			aShortArray28 = new short[i_128_];
@@ -1284,7 +1284,7 @@ public class Class1 implements Interface13 {
 			for (int i_133_ = 0; i_133_ < i_132_; i_133_++)
 				aByteArray87[i_133_] = class536_sub33.readByte(1350162888);
 		} else if (43 == i) {
-			anInt40 = class536_sub33.method9709(-502643033) * -1485044269;
+			anInt40 = class536_sub33.readInt(-502643033) * -1485044269;
 			aBool84 = true;
 		} else if (44 == i) {
 			int i_134_ = class536_sub33.readUnsignedShort((short) 8177);
@@ -1405,7 +1405,7 @@ public class Class1 implements Interface13 {
 			else if (163 == i)
 				anInt50 = class536_sub33.readUnsignedShort((short) -3572) * 907842985;
 			else if (i == 164)
-				aString21 = class536_sub33.method9695((byte) 69);
+				aString21 = class536_sub33.readString((byte) 69);
 			else if (i == 165)
 				anInt34 = -402163514;
 			else if (i == 249) {
@@ -1416,12 +1416,12 @@ public class Class1 implements Interface13 {
 				}
 				for (int i_148_ = 0; i_148_ < i_146_; i_148_++) {
 					boolean bool = class536_sub33.readUnsignedByte(321709216) == 1;
-					int i_149_ = class536_sub33.method9742(1506915603);
+					int i_149_ = class536_sub33.read24BitUnsignedInteger(1506915603);
 					Class536 class536;
 					if (bool)
-						class536 = new Class536_Sub13(class536_sub33.method9695((byte) 18));
+						class536 = new Class536_Sub13(class536_sub33.readString((byte) 18));
 					else
-						class536 = new Class536_Sub26(class536_sub33.method9709(-728593519));
+						class536 = new Class536_Sub26(class536_sub33.readInt(-728593519));
 					aClass4_79.method560(class536, (long) i_149_);
 				}
 			}
@@ -1451,7 +1451,7 @@ public class Class1 implements Interface13 {
 	}
 
 	static Class536_Sub18_Sub14 method526(RSByteBuffer class536_sub33, int i, int i_150_) {
-		Class536_Sub18_Sub14 class536_sub18_sub14 = new Class536_Sub18_Sub14(i, class536_sub33.method9695((byte) 96), class536_sub33.method9695((byte) 91), class536_sub33.method9709(-582738512), class536_sub33.method9709(-1360416274), (class536_sub33.readUnsignedByte(447086158) == 1), class536_sub33.readUnsignedByte(116174951), class536_sub33.readUnsignedByte(1367775586));
+		Class536_Sub18_Sub14 class536_sub18_sub14 = new Class536_Sub18_Sub14(i, class536_sub33.readString((byte) 96), class536_sub33.readString((byte) 91), class536_sub33.readInt(-582738512), class536_sub33.readInt(-1360416274), (class536_sub33.readUnsignedByte(447086158) == 1), class536_sub33.readUnsignedByte(116174951), class536_sub33.readUnsignedByte(1367775586));
 		int i_151_ = class536_sub33.readUnsignedByte(-1810105629);
 		for (int i_152_ = 0; i_152_ < i_151_; i_152_++)
 			class536_sub18_sub14.aClass708_11768.method8335(new Class536_Sub32(class536_sub33.readUnsignedByte(1819168004), class536_sub33.readUnsignedShort((short) 3725), class536_sub33.readUnsignedShort((short) -13209), class536_sub33.readUnsignedShort((short) -4889), class536_sub33.readUnsignedShort((short) -9977), class536_sub33.readUnsignedShort((short) 1436), class536_sub33.readUnsignedShort((short) -2415), class536_sub33.readUnsignedShort((short) 5763), class536_sub33.readUnsignedShort((short) 14527)), -1534855635);

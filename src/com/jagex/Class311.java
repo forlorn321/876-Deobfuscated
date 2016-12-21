@@ -38,7 +38,7 @@ public class Class311 implements Interface13, Interface7 {
 		else if (i == 5)
 			anInt3483 = class536_sub33.method9720((byte) 1) * 718669759;
 		else if (i == 6)
-			anInt3481 = class536_sub33.method9742(1308808177) * -496105867;
+			anInt3481 = class536_sub33.read24BitUnsignedInteger(1308808177) * -496105867;
 		else if (7 == i) {
 			anInt3475 = class536_sub33.readShort((byte) -88) * -1777370783;
 			anInt3484 = class536_sub33.readShort((byte) -65) * -580593381;

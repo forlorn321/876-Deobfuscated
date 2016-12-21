@@ -307,7 +307,7 @@ public final class Class655 {
 	}
 
 	public static Object[] method7940(RSByteBuffer class536_sub33, Class453[] class453s, int i) {
-		int i_2_ = class536_sub33.method9690(1167748127);
+		int i_2_ = class536_sub33.readUnsignedSmart(1167748127);
 		Object[] objects = new Object[class453s.length * i_2_];
 		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
 			for (int i_4_ = 0; i_4_ < class453s.length; i_4_++) {

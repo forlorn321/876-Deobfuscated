@@ -54,12 +54,12 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 			}
 			for (int i_7_ = 0; i_7_ < i_5_; i_7_++) {
 				boolean bool = class536_sub33.readUnsignedByte(-1627632578) == 1;
-				int i_8_ = class536_sub33.method9742(1196325211);
+				int i_8_ = class536_sub33.read24BitUnsignedInteger(1196325211);
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.method9695((byte) 7));
+					class536 = new Class536_Sub13(class536_sub33.readString((byte) 7));
 				else
-					class536 = new Class536_Sub26(class536_sub33.method9709(-655883902));
+					class536 = new Class536_Sub26(class536_sub33.readInt(-655883902));
 				aClass4_11331.method560(class536, (long) i_8_);
 			}
 		}
@@ -100,12 +100,12 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 			}
 			for (int i_13_ = 0; i_13_ < i_11_; i_13_++) {
 				boolean bool = class536_sub33.readUnsignedByte(-1653948911) == 1;
-				int i_14_ = class536_sub33.method9742(1019026108);
+				int i_14_ = class536_sub33.read24BitUnsignedInteger(1019026108);
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.method9695((byte) 45));
+					class536 = new Class536_Sub13(class536_sub33.readString((byte) 45));
 				else
-					class536 = new Class536_Sub26(class536_sub33.method9709(268821290));
+					class536 = new Class536_Sub26(class536_sub33.readInt(268821290));
 				aClass4_11331.method560(class536, (long) i_14_);
 			}
 		}
@@ -120,12 +120,12 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 			}
 			for (int i_17_ = 0; i_17_ < i_15_; i_17_++) {
 				boolean bool = class536_sub33.readUnsignedByte(-908032899) == 1;
-				int i_18_ = class536_sub33.method9742(1832238836);
+				int i_18_ = class536_sub33.read24BitUnsignedInteger(1832238836);
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.method9695((byte) 116));
+					class536 = new Class536_Sub13(class536_sub33.readString((byte) 116));
 				else
-					class536 = new Class536_Sub26(class536_sub33.method9709(-1755086433));
+					class536 = new Class536_Sub26(class536_sub33.readInt(-1755086433));
 				aClass4_11331.method560(class536, (long) i_18_);
 			}
 		}

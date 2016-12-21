@@ -79,7 +79,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 		if (Class678.aClass678_8619 == Class47.aClass678_578 && 423156687 * client.anInt11160 >= 2)
 			aClass623_12201 = Class623.aClass623_8130;
 		method11098(class536_sub33, i_1_, (byte) -56);
-		aString12192 = class536_sub33.method9695((byte) 57);
+		aString12192 = class536_sub33.readString((byte) 57);
 		aString12184 = aString12192;
 		if (this == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591)
 			RuntimeException_Sub1.aString12036 = aString12192;

@@ -25,7 +25,7 @@ public class Class205_Sub22 extends Class205 {
 	Class205_Sub22(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
 		anInt9961 = class536_sub33.readUnsignedShort((short) -16543) * -1559616293;
-		int i = class536_sub33.method9709(-627126422);
+		int i = class536_sub33.readInt(-627126422);
 		anInt9960 = -762107213 * (i >>> 16);
 		anInt9962 = 1363798677 * (i & 0xffff);
 		anInt9963 = class536_sub33.readUnsignedByte(-922954581) * 433143377;

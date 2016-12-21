@@ -26,9 +26,9 @@ public class Class454 {
 
 	Class454(RSByteBuffer class536_sub33) {
 		aClass463_5147 = ((Class463) Class682.method8091(Class463.method5621(1853825189), class536_sub33.readUnsignedByte(1278169621), 1858049507));
-		anInt5146 = class536_sub33.method9709(-26971223) * 1923018853;
+		anInt5146 = class536_sub33.readInt(-26971223) * 1923018853;
 		if (Class463.aClass463_5222 != aClass463_5147)
-			anInt5145 = class536_sub33.method9709(-1750806239) * 1345143653;
+			anInt5145 = class536_sub33.readInt(-1750806239) * 1345143653;
 		else
 			anInt5145 = anInt5146 * -1632872703;
 	}

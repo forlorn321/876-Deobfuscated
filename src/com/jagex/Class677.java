@@ -126,7 +126,7 @@ public class Class677 implements Interface13 {
 				anInt8608 = class536_sub33.readUnsignedShort((short) 14724) * -1205010889;
 			} else if (16 == i) {
 				aByte8602 = (byte) 3;
-				anInt8608 = class536_sub33.method9709(-1329952131) * -1205010889;
+				anInt8608 = class536_sub33.readInt(-1329952131) * -1205010889;
 			} else if (i == 40) {
 				int i_16_ = class536_sub33.readUnsignedByte(-585419297);
 				aShortArray8595 = new short[i_16_];

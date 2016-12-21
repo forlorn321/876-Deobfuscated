@@ -124,7 +124,7 @@ public class Class536_Sub15 extends Class536 {
 			i_4_ = class536_sub33.readUnsignedByte(231163197);
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
-		aString10485 = class536_sub33.method9695((byte) 96);
+		aString10485 = class536_sub33.readString((byte) 96);
 		class536_sub33.readUnsignedByte(701568340);
 		aByte10487 = class536_sub33.readByte(1991845387);
 		aByte10486 = class536_sub33.readByte(-1079669582);
@@ -136,7 +136,7 @@ public class Class536_Sub15 extends Class536 {
 				if (aBool10480)
 					class536_sub33.method9711(702869087);
 				if (aBool10481)
-					class349.aString3695 = class536_sub33.method9695((byte) 105);
+					class349.aString3695 = class536_sub33.readString((byte) 105);
 				class349.aByte3696 = class536_sub33.readByte(-1002937021);
 				class349.anInt3697 = class536_sub33.readUnsignedShort((short) 13605) * 451662555;
 				if (i_4_ >= 3)
@@ -173,7 +173,7 @@ public class Class536_Sub15 extends Class536 {
 			i_7_ = class536_sub33.readUnsignedByte(-1728878716);
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
-		aString10485 = class536_sub33.method9695((byte) 12);
+		aString10485 = class536_sub33.readString((byte) 12);
 		class536_sub33.readUnsignedByte(1373076124);
 		aByte10487 = class536_sub33.readByte(-845075524);
 		aByte10486 = class536_sub33.readByte(936691625);
@@ -185,7 +185,7 @@ public class Class536_Sub15 extends Class536 {
 				if (aBool10480)
 					class536_sub33.method9711(702869087);
 				if (aBool10481)
-					class349.aString3695 = class536_sub33.method9695((byte) 91);
+					class349.aString3695 = class536_sub33.readString((byte) 91);
 				class349.aByte3696 = class536_sub33.readByte(92040895);
 				class349.anInt3697 = class536_sub33.readUnsignedShort((short) 1124) * 451662555;
 				if (i_7_ >= 3)
@@ -206,7 +206,7 @@ public class Class536_Sub15 extends Class536 {
 			i_9_ = class536_sub33.readUnsignedByte(-1213849458);
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
-		aString10485 = class536_sub33.method9695((byte) 19);
+		aString10485 = class536_sub33.readString((byte) 19);
 		class536_sub33.readUnsignedByte(1399027115);
 		aByte10487 = class536_sub33.readByte(-1113407239);
 		aByte10486 = class536_sub33.readByte(477536138);
@@ -218,7 +218,7 @@ public class Class536_Sub15 extends Class536 {
 				if (aBool10480)
 					class536_sub33.method9711(702869087);
 				if (aBool10481)
-					class349.aString3695 = class536_sub33.method9695((byte) 31);
+					class349.aString3695 = class536_sub33.readString((byte) 31);
 				class349.aByte3696 = class536_sub33.readByte(1529799542);
 				class349.anInt3697 = class536_sub33.readUnsignedShort((short) 8159) * 451662555;
 				if (i_9_ >= 3)
@@ -239,7 +239,7 @@ public class Class536_Sub15 extends Class536 {
 			i_11_ = class536_sub33.readUnsignedByte(694212020);
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
-		aString10485 = class536_sub33.method9695((byte) 112);
+		aString10485 = class536_sub33.readString((byte) 112);
 		class536_sub33.readUnsignedByte(1163468048);
 		aByte10487 = class536_sub33.readByte(40704581);
 		aByte10486 = class536_sub33.readByte(2090033781);
@@ -251,7 +251,7 @@ public class Class536_Sub15 extends Class536 {
 				if (aBool10480)
 					class536_sub33.method9711(702869087);
 				if (aBool10481)
-					class349.aString3695 = class536_sub33.method9695((byte) 88);
+					class349.aString3695 = class536_sub33.readString((byte) 88);
 				class349.aByte3696 = class536_sub33.readByte(-53550684);
 				class349.anInt3697 = class536_sub33.readUnsignedShort((short) -17357) * 451662555;
 				if (i_11_ >= 3)

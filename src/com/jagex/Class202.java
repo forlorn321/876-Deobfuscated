@@ -43,7 +43,7 @@ public class Class202 {
 	}
 
 	Class202(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.method9690(1482228482);
+		int i = class536_sub33.readUnsignedSmart(1482228482);
 		anIntArray2229 = new int[i];
 		anIntArray2224 = new int[i];
 		anIntArray2228 = new int[i];

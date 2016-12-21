@@ -38,7 +38,7 @@ public class Class14 implements Interface13, Interface7 {
 				int i_5_ = class536_sub33.readUnsignedByte(2064233753);
 				Class453[] class453s = new Class453[i_5_];
 				for (int i_6_ = 0; i_6_ < i_5_; i_6_++)
-					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.method9690(817183114), 1858049507));
+					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.readUnsignedSmart(817183114), 1858049507));
 				anObjectArrayArray163[i_4_] = Class655.method7940(class536_sub33, class453s, 1594603721);
 				aClass453ArrayArray162[i_4_] = class453s;
 			}
@@ -89,7 +89,7 @@ public class Class14 implements Interface13, Interface7 {
 				int i_10_ = class536_sub33.readUnsignedByte(284481902);
 				Class453[] class453s = new Class453[i_10_];
 				for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
-					class453s[i_11_] = ((Class453) Class682.method8091(Class453.method5438((byte) 85), class536_sub33.method9690(-574705817), 1858049507));
+					class453s[i_11_] = ((Class453) Class682.method8091(Class453.method5438((byte) 85), class536_sub33.readUnsignedSmart(-574705817), 1858049507));
 				anObjectArrayArray163[i_9_] = Class655.method7940(class536_sub33, class453s, 1594603721);
 				aClass453ArrayArray162[i_9_] = class453s;
 			}

@@ -73,7 +73,7 @@ public class Class205_Sub11 extends Class205 {
 	}
 
 	public static Class384 method9070(RSByteBuffer class536_sub33, int i) {
-		int i_0_ = class536_sub33.method9709(113723514);
+		int i_0_ = class536_sub33.readInt(113723514);
 		return new Class384(i_0_);
 	}
 }

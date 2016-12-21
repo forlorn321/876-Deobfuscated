@@ -232,7 +232,7 @@ public class Class251 {
 		anInt2728 = class536_sub33.readUnsignedByte(1062980785) * -611060941;
 		if ((anInt2728 * 1049444347 & 0x80) != 0) {
 			anInt2728 = (1049444347 * anInt2728 & 0x7f) * -611060941;
-			aString2557 = class536_sub33.method9695((byte) 31);
+			aString2557 = class536_sub33.readString((byte) 31);
 		}
 		anInt2562 = class536_sub33.readUnsignedShort((short) -19136) * -657760679;
 		anInt2567 = class536_sub33.readShort((byte) -10) * -45108559;
@@ -259,17 +259,17 @@ public class Class251 {
 				aBool2708 = class536_sub33.readUnsignedByte(63934850) == 1;
 		}
 		if (5 == 1049444347 * anInt2728) {
-			anInt2592 = class536_sub33.method9709(-1653276395) * -2093350021;
+			anInt2592 = class536_sub33.readInt(-1653276395) * -2093350021;
 			anInt2593 = class536_sub33.readUnsignedShort((short) -10525) * -207488001;
 			int i_5_ = class536_sub33.readUnsignedByte(196273605);
 			aBool2594 = (i_5_ & 0x1) != 0;
 			aBool2649 = (i_5_ & 0x2) != 0;
 			anInt2589 = class536_sub33.readUnsignedByte(-1002164589) * 1266192547;
 			anInt2720 = class536_sub33.readUnsignedByte(-394370715) * 483071525;
-			anInt2596 = class536_sub33.method9709(-935013261) * -87772689;
+			anInt2596 = class536_sub33.readInt(-935013261) * -87772689;
 			aBool2597 = class536_sub33.readUnsignedByte(824399224) == 1;
 			aBool2598 = class536_sub33.readUnsignedByte(-1804809307) == 1;
-			anInt2587 = class536_sub33.method9709(-2104015492) * 1647150685;
+			anInt2587 = class536_sub33.readInt(-2104015492) * 1647150685;
 			if (i_3_ >= 3)
 				aBool2677 = class536_sub33.readUnsignedByte(-236424355) == 1;
 		}
@@ -307,27 +307,27 @@ public class Class251 {
 			anInt2636 = class536_sub33.method9720((byte) 1) * 1355450591;
 			if (i_3_ >= 2)
 				aBool2637 = class536_sub33.readUnsignedByte(1727619707) == 1;
-			aString2638 = class536_sub33.method9695((byte) 30);
+			aString2638 = class536_sub33.readString((byte) 30);
 			anInt2721 = class536_sub33.readUnsignedByte(-1831033049) * -1326793683;
 			anInt2640 = class536_sub33.readUnsignedByte(-1598593184) * -70230299;
 			anInt2641 = class536_sub33.readUnsignedByte(-1286639781) * -358806889;
 			aBool2644 = class536_sub33.readUnsignedByte(-1578005988) == 1;
-			anInt2587 = class536_sub33.method9709(-1972013149) * 1647150685;
+			anInt2587 = class536_sub33.readInt(-1972013149) * 1647150685;
 			anInt2589 = class536_sub33.readUnsignedByte(1689006356) * 1266192547;
 			if (i_3_ >= 0)
 				anInt2643 = class536_sub33.readUnsignedByte(-1244742356) * -1108499687;
 		}
 		if (3 == 1049444347 * anInt2728) {
-			anInt2587 = class536_sub33.method9709(-1140520189) * 1647150685;
+			anInt2587 = class536_sub33.readInt(-1140520189) * 1647150685;
 			aBool2642 = class536_sub33.readUnsignedByte(-1009674649) == 1;
 			anInt2589 = class536_sub33.readUnsignedByte(-33932256) * 1266192547;
 		}
 		if (1049444347 * anInt2728 == 9) {
 			anInt2590 = class536_sub33.readUnsignedByte(1492992735) * -1272549053;
-			anInt2587 = class536_sub33.method9709(-1528516004) * 1647150685;
+			anInt2587 = class536_sub33.readInt(-1528516004) * 1647150685;
 			aBool2692 = class536_sub33.readUnsignedByte(-241649626) == 1;
 		}
-		int i_7_ = class536_sub33.method9742(1115932125);
+		int i_7_ = class536_sub33.read24BitUnsignedInteger(1115932125);
 		int i_8_ = class536_sub33.readUnsignedByte(1844911690);
 		if (i_8_ != 0) {
 			aByteArrayArray2647 = new byte[11][];
@@ -349,14 +349,14 @@ public class Class251 {
 				aByteArrayArray2648[i_9_] = new byte[] { i_11_ };
 			}
 		}
-		aString2556 = class536_sub33.method9695((byte) 26);
+		aString2556 = class536_sub33.readString((byte) 26);
 		int i_12_ = class536_sub33.readUnsignedByte(605834642);
 		int i_13_ = i_12_ & 0xf;
 		int i_14_ = i_12_ >> 4;
 		if (i_13_ > 0) {
 			aStringArray2657 = new String[i_13_];
 			for (int i_15_ = 0; i_15_ < i_13_; i_15_++)
-				aStringArray2657[i_15_] = class536_sub33.method9695((byte) 116);
+				aStringArray2657[i_15_] = class536_sub33.readString((byte) 116);
 		}
 		if (i_14_ > 0) {
 			int i_16_ = class536_sub33.readUnsignedByte(-273576654);
@@ -369,13 +369,13 @@ public class Class251 {
 			int i_18_ = class536_sub33.readUnsignedByte(1427587052);
 			anIntArray2668[i_18_] = class536_sub33.readUnsignedShort((short) -8259);
 		}
-		aString2566 = class536_sub33.method9695((byte) 2);
+		aString2566 = class536_sub33.readString((byte) 2);
 		if (aString2566.equals(""))
 			aString2566 = null;
 		anInt2600 = class536_sub33.readUnsignedByte(1338867171) * -881661827;
 		anInt2663 = class536_sub33.readUnsignedByte(720217478) * 1261514709;
 		anInt2534 = class536_sub33.readUnsignedByte(951598298) * 52080145;
-		aString2665 = class536_sub33.method9695((byte) 79);
+		aString2665 = class536_sub33.readString((byte) 79);
 		int i_19_ = -1;
 		if (Class703.method8258(i_7_, 2109459857) != 0) {
 			i_19_ = class536_sub33.readUnsignedShort((short) -13737);
@@ -397,13 +397,13 @@ public class Class251 {
 		if (i_3_ >= 0) {
 			int i_20_ = class536_sub33.readUnsignedByte(-1727562613);
 			for (int i_21_ = 0; i_21_ < i_20_; i_21_++) {
-				int i_22_ = class536_sub33.method9742(773993057);
-				int i_23_ = class536_sub33.method9709(-2060734893);
+				int i_22_ = class536_sub33.read24BitUnsignedInteger(773993057);
+				int i_23_ = class536_sub33.readInt(-2060734893);
 				aClass4_2630.method560(new Class536_Sub26(i_23_), (long) i_22_);
 			}
 			int i_24_ = class536_sub33.readUnsignedByte(927854925);
 			for (int i_25_ = 0; i_25_ < i_24_; i_25_++) {
-				int i_26_ = class536_sub33.method9742(1184258397);
+				int i_26_ = class536_sub33.read24BitUnsignedInteger(1184258397);
 				String string = class536_sub33.method9714((byte) 29);
 				aClass4_2630.method560(new Class536_Sub13(string), (long) i_26_);
 			}
@@ -445,9 +445,9 @@ public class Class251 {
 		for (int i_28_ = 0; i_28_ < i_27_; i_28_++) {
 			int i_29_ = class536_sub33.readUnsignedByte(174804425);
 			if (0 == i_29_)
-				objects[i_28_] = new Integer(class536_sub33.method9709(-1416406806));
+				objects[i_28_] = new Integer(class536_sub33.readInt(-1416406806));
 			else if (1 == i_29_)
-				objects[i_28_] = class536_sub33.method9695((byte) 3);
+				objects[i_28_] = class536_sub33.readString((byte) 3);
 		}
 		aBool2666 = true;
 		return objects;
@@ -459,7 +459,7 @@ public class Class251 {
 			return null;
 		int[] is = new int[i_30_];
 		for (int i_31_ = 0; i_31_ < i_30_; i_31_++)
-			is[i_31_] = class536_sub33.method9709(-1690033927);
+			is[i_31_] = class536_sub33.readInt(-1690033927);
 		return is;
 	}
 

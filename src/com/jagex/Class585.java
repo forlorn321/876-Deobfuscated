@@ -12,19 +12,19 @@ public class Class585 implements Interface68 {
 
 	public void method296() {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4437, client.aClass106_11322.aClass15_1258, 1584643573);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9770(anInt7707 * -838200363, (byte) 0);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt7707 * -838200363, (byte) 0);
 		client.aClass106_11322.method1409(class536_sub23, 587312823);
 	}
 
 	public void method206(int i) {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4437, client.aClass106_11322.aClass15_1258, 1109648525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9770(anInt7707 * -838200363, (byte) 0);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt7707 * -838200363, (byte) 0);
 		client.aClass106_11322.method1409(class536_sub23, 1552353646);
 	}
 
 	public void method131() {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4437, client.aClass106_11322.aClass15_1258, 1829232360);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9770(anInt7707 * -838200363, (byte) 0);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt7707 * -838200363, (byte) 0);
 		client.aClass106_11322.method1409(class536_sub23, 2138462249);
 	}
 

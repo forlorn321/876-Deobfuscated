@@ -78,14 +78,14 @@ public class Class164 {
 			anInt1815 = 1414859264;
 		else if (i_1_ == 4)
 			anInt1815 = -1465248768;
-		int i_2_ = class536_sub33.method9709(-1884694860);
+		int i_2_ = class536_sub33.readInt(-1884694860);
 		aBool1814 = 0 != (i_2_ & 0x1);
 		aBool1813 = (i_2_ & 0x2) != 0;
 		aBool1800 = (i_2_ & 0x10) != 0;
 		int i_3_ = (byte) class536_sub33.readUnsignedByte(-731722235);
 		aByte1807 = (byte) (i_3_ & 0x7);
 		aByte1787 = (byte) (i_3_ >> 3 & 0x7);
-		int i_4_ = class536_sub33.method9709(7195292);
+		int i_4_ = class536_sub33.readInt(7195292);
 		if (0 != (i_4_ & 0x10)) {
 			class536_sub33.method9712(71349394);
 			class536_sub33.method9712(-2002775574);
@@ -93,15 +93,15 @@ public class Class164 {
 		if (aBool1813)
 			class536_sub33.method9712(252827172);
 		if ((i_4_ & 0x20) != 0)
-			class536_sub33.method9709(-2000643528);
+			class536_sub33.readInt(-2000643528);
 		if ((i_4_ & 0x40) != 0)
-			class536_sub33.method9709(310864363);
+			class536_sub33.readInt(310864363);
 		if (0 != (i_4_ & 0x80))
-			class536_sub33.method9709(-667483234);
+			class536_sub33.readInt(-667483234);
 		if ((i_4_ & 0x100) != 0)
-			class536_sub33.method9709(146144910);
+			class536_sub33.readInt(146144910);
 		if ((i_4_ & 0x200) != 0)
-			class536_sub33.method9709(-672640249);
+			class536_sub33.readInt(-672640249);
 		aBool1804 = class536_sub33.readUnsignedByte(2145181879) == 1;
 		Class682.method8091(Class109.method1448((byte) 3), class536_sub33.readUnsignedByte(-32960766), 1858049507);
 		Class682.method8091(Class93.method1237(1364919226), class536_sub33.readUnsignedByte(703703928), 1858049507);
@@ -116,7 +116,7 @@ public class Class164 {
 		if (class536_sub33.readUnsignedByte(967883975) == 1) {
 			aByte1797 = (byte) class536_sub33.readUnsignedByte(47855445);
 			aByte1823 = (byte) class536_sub33.readUnsignedByte(415073642);
-			anInt1824 = class536_sub33.method9709(-449973135) * -735583649;
+			anInt1824 = class536_sub33.readInt(-449973135) * -735583649;
 			aByte1830 = (byte) class536_sub33.readUnsignedByte(-1596996475);
 			class536_sub33.readUnsignedByte(1262452078);
 			aByte1825 = (byte) class536_sub33.readUnsignedByte(-486423531);

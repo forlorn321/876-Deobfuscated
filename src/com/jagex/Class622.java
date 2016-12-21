@@ -38,19 +38,19 @@ public class Class622 {
 			if (0 == i_0_)
 				break;
 			if (1 == i_0_)
-				anInt8118 = class536_sub33.method9709(-1630543065) * -576652699;
+				anInt8118 = class536_sub33.readInt(-1630543065) * -576652699;
 			else if (2 == i_0_)
-				anInt8119 = class536_sub33.method9709(-572667858) * -266523553;
+				anInt8119 = class536_sub33.readInt(-572667858) * -266523553;
 			else if (3 == i_0_)
-				anInt8120 = class536_sub33.method9709(-1482561777) * -122991621;
+				anInt8120 = class536_sub33.readInt(-1482561777) * -122991621;
 			else if (4 == i_0_)
 				anInt8125 = class536_sub33.readUnsignedByte(261847487) * 2043721265;
 			else if (i_0_ == 5)
 				anInt8122 = class536_sub33.readUnsignedByte(389351295) * -1183133043;
 			else if (i_0_ == 6)
-				anInt8123 = class536_sub33.method9709(-1801379778) * 1083493521;
+				anInt8123 = class536_sub33.readInt(-1801379778) * 1083493521;
 			else if (7 == i_0_)
-				anInt8124 = class536_sub33.method9709(-1151297333) * 1371157433;
+				anInt8124 = class536_sub33.readInt(-1151297333) * 1371157433;
 			else if (i_0_ >= 100) {
 				i_0_ -= 100;
 				anIntArrayArray8107[i_0_ & (int) (Math.pow(2.0, 3.0) - 1.0)][i_0_ >> 3] = class536_sub33.readUnsignedShort((short) -12567);
@@ -72,19 +72,19 @@ public class Class622 {
 			if (0 == i)
 				break;
 			if (1 == i)
-				anInt8118 = class536_sub33.method9709(-787345436) * -576652699;
+				anInt8118 = class536_sub33.readInt(-787345436) * -576652699;
 			else if (2 == i)
-				anInt8119 = class536_sub33.method9709(-1854147655) * -266523553;
+				anInt8119 = class536_sub33.readInt(-1854147655) * -266523553;
 			else if (3 == i)
-				anInt8120 = class536_sub33.method9709(-1155849354) * -122991621;
+				anInt8120 = class536_sub33.readInt(-1155849354) * -122991621;
 			else if (4 == i)
 				anInt8125 = class536_sub33.readUnsignedByte(-778473523) * 2043721265;
 			else if (i == 5)
 				anInt8122 = class536_sub33.readUnsignedByte(-552606997) * -1183133043;
 			else if (i == 6)
-				anInt8123 = class536_sub33.method9709(-2010017022) * 1083493521;
+				anInt8123 = class536_sub33.readInt(-2010017022) * 1083493521;
 			else if (7 == i)
-				anInt8124 = class536_sub33.method9709(-742576669) * 1371157433;
+				anInt8124 = class536_sub33.readInt(-742576669) * 1371157433;
 			else if (i >= 100) {
 				i -= 100;
 				anIntArrayArray8107[i & (int) (Math.pow(2.0, 3.0) - 1.0)][i >> 3] = class536_sub33.readUnsignedShort((short) -8917);

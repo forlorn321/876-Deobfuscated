@@ -157,16 +157,16 @@ public class Class381 {
 		} else if (2 == i)
 			class536_sub33.readUnsignedByte(-1163269683);
 		else if (3 == i) {
-			anInt3957 = class536_sub33.method9709(-12230231) * -1585762069;
-			anInt3942 = class536_sub33.method9709(-1027289047) * 1845250855;
+			anInt3957 = class536_sub33.readInt(-12230231) * -1585762069;
+			anInt3942 = class536_sub33.readInt(-1027289047) * 1845250855;
 		} else if (i == 4) {
 			anInt3943 = class536_sub33.readUnsignedByte(445457380) * 739848699;
 			anInt3983 = class536_sub33.readByte(-195459802) * -1695918591;
 		} else if (i == 5)
 			anInt4008 = (anInt4006 = (class536_sub33.readUnsignedShort((short) 7415) << 12 << 2) * -1837906659) * -393381289;
 		else if (6 == i) {
-			anInt3951 = class536_sub33.method9709(-71789725) * 1226251759;
-			anInt3952 = class536_sub33.method9709(-1050625884) * 1775120847;
+			anInt3951 = class536_sub33.readInt(-71789725) * 1226251759;
+			anInt3952 = class536_sub33.readInt(-1050625884) * 1775120847;
 		} else if (i == 7) {
 			anInt3958 = class536_sub33.readUnsignedShort((short) -5092) * 1360267477;
 			anInt3959 = class536_sub33.readUnsignedShort((short) 25129) * -493431617;
@@ -199,7 +199,7 @@ public class Class381 {
 		} else if (i == 17)
 			anInt3976 = class536_sub33.readUnsignedShort((short) -8011) * 1095106785;
 		else if (18 == i)
-			anInt3963 = class536_sub33.method9709(-1607004122) * 942940523;
+			anInt3963 = class536_sub33.readInt(-1607004122) * 942940523;
 		else if (i == 19)
 			anInt3947 = class536_sub33.readUnsignedByte(452621113) * -1882973379;
 		else if (i == 20)
@@ -207,7 +207,7 @@ public class Class381 {
 		else if (i == 21)
 			anInt3982 = class536_sub33.readUnsignedByte(-310773456) * 434724861;
 		else if (i == 22)
-			anInt3945 = class536_sub33.method9709(-877705443) * 644653579;
+			anInt3945 = class536_sub33.readInt(-877705443) * 644653579;
 		else if (i == 23)
 			anInt3946 = class536_sub33.readUnsignedByte(-1149338396) * -490675625;
 		else if (24 == i)
@@ -327,16 +327,16 @@ public class Class381 {
 		} else if (2 == i)
 			class536_sub33.readUnsignedByte(1647192986);
 		else if (3 == i) {
-			anInt3957 = class536_sub33.method9709(-1459654208) * -1585762069;
-			anInt3942 = class536_sub33.method9709(-729314421) * 1845250855;
+			anInt3957 = class536_sub33.readInt(-1459654208) * -1585762069;
+			anInt3942 = class536_sub33.readInt(-729314421) * 1845250855;
 		} else if (i == 4) {
 			anInt3943 = class536_sub33.readUnsignedByte(589131643) * 739848699;
 			anInt3983 = class536_sub33.readByte(344471527) * -1695918591;
 		} else if (i == 5)
 			anInt4008 = (anInt4006 = (class536_sub33.readUnsignedShort((short) 15611) << 12 << 2) * -1837906659) * -393381289;
 		else if (6 == i) {
-			anInt3951 = class536_sub33.method9709(-1767094242) * 1226251759;
-			anInt3952 = class536_sub33.method9709(-1786785410) * 1775120847;
+			anInt3951 = class536_sub33.readInt(-1767094242) * 1226251759;
+			anInt3952 = class536_sub33.readInt(-1786785410) * 1775120847;
 		} else if (i == 7) {
 			anInt3958 = class536_sub33.readUnsignedShort((short) -19193) * 1360267477;
 			anInt3959 = class536_sub33.readUnsignedShort((short) -1985) * -493431617;
@@ -369,7 +369,7 @@ public class Class381 {
 		} else if (i == 17)
 			anInt3976 = class536_sub33.readUnsignedShort((short) -31308) * 1095106785;
 		else if (18 == i)
-			anInt3963 = class536_sub33.method9709(-1660628356) * 942940523;
+			anInt3963 = class536_sub33.readInt(-1660628356) * 942940523;
 		else if (i == 19)
 			anInt3947 = class536_sub33.readUnsignedByte(1221757105) * -1882973379;
 		else if (i == 20)
@@ -377,7 +377,7 @@ public class Class381 {
 		else if (i == 21)
 			anInt3982 = class536_sub33.readUnsignedByte(1750862709) * 434724861;
 		else if (i == 22)
-			anInt3945 = class536_sub33.method9709(-10689288) * 644653579;
+			anInt3945 = class536_sub33.readInt(-10689288) * 644653579;
 		else if (i == 23)
 			anInt3946 = class536_sub33.readUnsignedByte(1991813615) * -490675625;
 		else if (24 == i)
@@ -437,16 +437,16 @@ public class Class381 {
 		} else if (2 == i)
 			class536_sub33.readUnsignedByte(-1353288237);
 		else if (3 == i) {
-			anInt3957 = class536_sub33.method9709(-360615264) * -1585762069;
-			anInt3942 = class536_sub33.method9709(270946529) * 1845250855;
+			anInt3957 = class536_sub33.readInt(-360615264) * -1585762069;
+			anInt3942 = class536_sub33.readInt(270946529) * 1845250855;
 		} else if (i == 4) {
 			anInt3943 = class536_sub33.readUnsignedByte(-920098576) * 739848699;
 			anInt3983 = class536_sub33.readByte(1750653703) * -1695918591;
 		} else if (i == 5)
 			anInt4008 = (anInt4006 = (class536_sub33.readUnsignedShort((short) -6539) << 12 << 2) * -1837906659) * -393381289;
 		else if (6 == i) {
-			anInt3951 = class536_sub33.method9709(-1666182779) * 1226251759;
-			anInt3952 = class536_sub33.method9709(-1148192058) * 1775120847;
+			anInt3951 = class536_sub33.readInt(-1666182779) * 1226251759;
+			anInt3952 = class536_sub33.readInt(-1148192058) * 1775120847;
 		} else if (i == 7) {
 			anInt3958 = class536_sub33.readUnsignedShort((short) 7869) * 1360267477;
 			anInt3959 = class536_sub33.readUnsignedShort((short) -61) * -493431617;
@@ -479,7 +479,7 @@ public class Class381 {
 		} else if (i == 17)
 			anInt3976 = class536_sub33.readUnsignedShort((short) 8267) * 1095106785;
 		else if (18 == i)
-			anInt3963 = class536_sub33.method9709(205116551) * 942940523;
+			anInt3963 = class536_sub33.readInt(205116551) * 942940523;
 		else if (i == 19)
 			anInt3947 = class536_sub33.readUnsignedByte(-1570187732) * -1882973379;
 		else if (i == 20)
@@ -487,7 +487,7 @@ public class Class381 {
 		else if (i == 21)
 			anInt3982 = class536_sub33.readUnsignedByte(1383087596) * 434724861;
 		else if (i == 22)
-			anInt3945 = class536_sub33.method9709(242301967) * 644653579;
+			anInt3945 = class536_sub33.readInt(242301967) * 644653579;
 		else if (i == 23)
 			anInt3946 = class536_sub33.readUnsignedByte(-1064243621) * -490675625;
 		else if (24 == i)
@@ -662,7 +662,7 @@ public class Class381 {
 			throw new RuntimeException("");
 		if (null != client.aClass106_11322) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4491, client.aClass106_11322.aClass15_1258, 1815077435);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9736(1858049507 * class598.anInt7839, -1411037171);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(1858049507 * class598.anInt7839, -1411037171);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9729(class680.method78(), -1570457746);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1479112045 * class598.anInt7840, -1778059594);
 			client.aClass106_11322.method1409(class536_sub23, 12804733);

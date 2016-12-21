@@ -35,14 +35,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2770(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_1_ = class536_sub33.method9690(1941205572);
+			int i_1_ = class536_sub33.readUnsignedSmart(1941205572);
 			for (int i_2_ = 0; i_2_ < i_1_; i_2_++)
-				aBoolArray2126[class536_sub33.method9690(-1273046870)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart(-1273046870)] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte(442282637);
-			int i_3_ = class536_sub33.method9690(-638171424);
+			int i_3_ = class536_sub33.readUnsignedSmart(-638171424);
 			for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
-				class536_sub33.method9690(-1380878739);
+				class536_sub33.readUnsignedSmart(-1380878739);
 				class536_sub33.readUnsignedByte(-1202269587);
 			}
 		}
@@ -59,14 +59,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2771(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_6_ = class536_sub33.method9690(152287371);
+			int i_6_ = class536_sub33.readUnsignedSmart(152287371);
 			for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
-				aBoolArray2126[class536_sub33.method9690(151464011)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart(151464011)] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte(1728314678);
-			int i_8_ = class536_sub33.method9690(-604333065);
+			int i_8_ = class536_sub33.readUnsignedSmart(-604333065);
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				class536_sub33.method9690(1772916952);
+				class536_sub33.readUnsignedSmart(1772916952);
 				class536_sub33.readUnsignedByte(1048317976);
 			}
 		}
@@ -83,14 +83,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2772(RSByteBuffer class536_sub33, int i, int i_10_) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_11_ = class536_sub33.method9690(-1704255993);
+			int i_11_ = class536_sub33.readUnsignedSmart(-1704255993);
 			for (int i_12_ = 0; i_12_ < i_11_; i_12_++)
-				aBoolArray2126[class536_sub33.method9690(520800640)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart(520800640)] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte(-815126785);
-			int i_13_ = class536_sub33.method9690(1630040071);
+			int i_13_ = class536_sub33.readUnsignedSmart(1630040071);
 			for (int i_14_ = 0; i_14_ < i_13_; i_14_++) {
-				class536_sub33.method9690(-1300569648);
+				class536_sub33.readUnsignedSmart(-1300569648);
 				class536_sub33.readUnsignedByte(1929722784);
 			}
 		}
@@ -99,14 +99,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2773(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_15_ = class536_sub33.method9690(1105482392);
+			int i_15_ = class536_sub33.readUnsignedSmart(1105482392);
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++)
-				aBoolArray2126[class536_sub33.method9690(545594290)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart(545594290)] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte(1923239522);
-			int i_17_ = class536_sub33.method9690(-588048016);
+			int i_17_ = class536_sub33.readUnsignedSmart(-588048016);
 			for (int i_18_ = 0; i_18_ < i_17_; i_18_++) {
-				class536_sub33.method9690(2120385843);
+				class536_sub33.readUnsignedSmart(2120385843);
 				class536_sub33.readUnsignedByte(-324985688);
 			}
 		}

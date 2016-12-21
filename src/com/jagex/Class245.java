@@ -25,8 +25,8 @@ public final class Class245 {
 			class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4499, client.aClass106_11322.aClass15_1258, 1885004815);
 		Class598 class598 = client.aClass515_11066.method6255(-1252219861);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(-1608490852) ? 1 : 0, (byte) 91);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9770(i_2_ + class598.anInt7840 * 1479112045, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9736(i + class598.anInt7839 * 1858049507, -1411037171);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_2_ + class598.anInt7840 * 1479112045, (byte) 0);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i + class598.anInt7839 * 1858049507, -1411037171);
 		Class101.anInt1205 = -1245738949 * i;
 		Class101.anInt1194 = i_2_ * 1934813789;
 		Class101.aBool1206 = false;

@@ -59,7 +59,7 @@ public class Class602 implements Iterable {
 				for (int i_10_ = class536_sub33.readUnsignedByte(-1739121346); 255 != i_10_; i_10_ = class536_sub33.readUnsignedByte(-1665095338)) {
 					int[] is = new int[class536_sub33.readUnsignedShort((short) 6575)];
 					for (int i_11_ = 0; i_11_ < is.length; i_11_++)
-						is[i_11_] = class536_sub33.method9709(-106045525);
+						is[i_11_] = class536_sub33.readInt(-106045525);
 					aClass635Array7855[i_10_] = new Class635(is);
 				}
 			}

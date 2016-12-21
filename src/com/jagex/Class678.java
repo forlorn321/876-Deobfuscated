@@ -170,7 +170,7 @@ public class Class678 implements Interface75 {
 							client.aLong11299 = -4401799186768191899L * l;
 						}
 						class536_sub23.aClass536_Sub33_Sub2_10528.method9753(client.anInt6856 * -311312947, -1507508787);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9737(Class398.aClass654_4123.anInt8493 * -1190285297, -1952316498);
+						class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(Class398.aClass654_4123.anInt8493 * -1190285297, -1952316498);
 						class536_sub23.aClass536_Sub33_Sub2_10528.method9753(i_7_, 791960341);
 						client.aClass106_11322.method1409(class536_sub23, 855284612);
 						Class398.aClass654_4123 = null;

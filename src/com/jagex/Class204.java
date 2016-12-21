@@ -14,7 +14,7 @@ public class Class204 {
 	public static Class143 aClass143_2234;
 
 	Class204(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.method9690(412258029);
+		int i = class536_sub33.readUnsignedSmart(412258029);
 		anIntArray2233 = new int[i];
 		anIntArray2231 = new int[i];
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {

@@ -152,7 +152,7 @@ public class Class660 implements Interface19 {
 	static String method7972(RSByteBuffer class536_sub33, int i, int i_2_) {
 		String string;
 		try {
-			int i_3_ = class536_sub33.method9690(-918732388);
+			int i_3_ = class536_sub33.readUnsignedSmart(-918732388);
 			if (i_3_ > i)
 				i_3_ = i;
 			byte[] is = new byte[i_3_];

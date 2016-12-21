@@ -18,8 +18,8 @@ public class Class205_Sub19 extends Class205 {
 		super(class536_sub33);
 		anInt9953 = class536_sub33.readUnsignedShort((short) -9412) * 1096006303;
 		anInt9955 = class536_sub33.readUnsignedShort((short) 9603) * -391625445;
-		aString9954 = class536_sub33.method9695((byte) 8);
-		anInt9956 = class536_sub33.method9709(-425693265) * 1015721695;
+		aString9954 = class536_sub33.readString((byte) 8);
+		anInt9956 = class536_sub33.readInt(-425693265) * 1015721695;
 		anInt9952 = class536_sub33.readUnsignedShort((short) -2523) * 470568045;
 	}
 

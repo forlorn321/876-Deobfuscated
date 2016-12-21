@@ -44,12 +44,12 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 				if (anIntArray11798 == null)
 					anIntArray11798 = new int[i_2_];
 				class499 = Class499.aClass499_6448;
-				anIntArray11798[i] = class536_sub33.method9709(-173221853);
+				anIntArray11798[i] = class536_sub33.readInt(-173221853);
 				break;
 			case 2:
 				if (null == anObjectArray11796)
 					anObjectArray11796 = new Object[i_2_];
-				anObjectArray11796[i] = class536_sub33.method9695((byte) 93).intern();
+				anObjectArray11796[i] = class536_sub33.readString((byte) 93).intern();
 				break;
 			case 3:
 				if (null == anObjectArray11796)
@@ -72,7 +72,7 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 			if (null == anIntArray11798)
 				anIntArray11798 = new int[i_2_];
 			if (class499 != null && class499.aBool6358)
-				anIntArray11798[i] = class536_sub33.method9709(-1444450787);
+				anIntArray11798[i] = class536_sub33.readInt(-1444450787);
 			else
 				anIntArray11798[i] = class536_sub33.readUnsignedByte(1881954336);
 		}
@@ -96,7 +96,7 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 		int i_6_ = class536_sub33.readUnsignedShort((short) 10643);
 		int i_7_ = class536_sub33.buffer.length - 2 - i_6_ - 16;
 		class536_sub33.off = 516175515 * i_7_;
-		int i_8_ = class536_sub33.method9709(-740277310);
+		int i_8_ = class536_sub33.readInt(-740277310);
 		anInt11795 = class536_sub33.readUnsignedShort((short) -9144) * 756272105;
 		anInt11799 = class536_sub33.readUnsignedShort((short) 19829) * -2144602595;
 		anInt11802 = class536_sub33.readUnsignedShort((short) 76) * -698386297;
@@ -111,8 +111,8 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 				Class4 class4 = new Class4(Class528.method6434(i_11_, -1769342731));
 				aClass4Array11806[i_10_] = class4;
 				while (i_11_-- > 0) {
-					int i_12_ = class536_sub33.method9709(-510481363);
-					int i_13_ = class536_sub33.method9709(110256294);
+					int i_12_ = class536_sub33.readInt(-510481363);
+					int i_13_ = class536_sub33.readInt(110256294);
 					class4.method560(new Class536_Sub26(i_13_), (long) i_12_);
 				}
 			}

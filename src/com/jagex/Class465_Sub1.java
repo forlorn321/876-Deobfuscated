@@ -309,13 +309,13 @@ public class Class465_Sub1 extends Class465 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_75_ = -1;
 		for (;;) {
-			int i_76_ = class536_sub33.method9719(-2110490428);
+			int i_76_ = class536_sub33.readSmart(-2110490428);
 			if (i_76_ == 0)
 				break;
 			i_75_ += i_76_;
 			int i_77_ = 0;
 			for (;;) {
-				int i_78_ = class536_sub33.method9690(1901383775);
+				int i_78_ = class536_sub33.readUnsignedSmart(1901383775);
 				if (0 == i_78_)
 					break;
 				i_77_ += i_78_ - 1;
@@ -651,13 +651,13 @@ public class Class465_Sub1 extends Class465 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_161_ = -1;
 		for (;;) {
-			int i_162_ = class536_sub33.method9719(-1565976432);
+			int i_162_ = class536_sub33.readSmart(-1565976432);
 			if (0 == i_162_)
 				break;
 			i_161_ += i_162_;
 			int i_163_ = 0;
 			for (;;) {
-				int i_164_ = class536_sub33.method9690(1855240029);
+				int i_164_ = class536_sub33.readUnsignedSmart(1855240029);
 				if (0 == i_164_)
 					break;
 				i_163_ += i_164_ - 1;
@@ -850,7 +850,7 @@ public class Class465_Sub1 extends Class465 {
 	public static void method9386(int i, int i_196_, byte i_197_) {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4482, client.aClass106_11322.aClass15_1258, 1683364185);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_196_, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9738(i, (byte) -40);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i, (byte) -40);
 		client.aClass106_11322.method1409(class536_sub23, 401806054);
 	}
 

@@ -42,19 +42,19 @@ public class Class39 implements Interface13, Interface7 {
 			char c = Class281.method3764(class536_sub33.readByte(2068514673), -695216348);
 			aClass453_483 = Class453.method5440(c, 1098691315);
 		} else if (3 == i)
-			aString484 = class536_sub33.method9695((byte) 102);
+			aString484 = class536_sub33.readString((byte) 102);
 		else if (4 == i)
-			anInt485 = class536_sub33.method9709(-1674050710) * 10943101;
+			anInt485 = class536_sub33.readInt(-1674050710) * 10943101;
 		else if (i == 5 || i == 6) {
 			anInt487 = class536_sub33.readUnsignedShort((short) 1) * 2095643085;
 			aMap488 = new HashMap(anInt487 * -50029819);
 			for (int i_2_ = 0; i_2_ < anInt487 * -50029819; i_2_++) {
-				int i_3_ = class536_sub33.method9709(-337059622);
+				int i_3_ = class536_sub33.readInt(-337059622);
 				java.io.Serializable serializable;
 				if (i == 5)
-					serializable = class536_sub33.method9695((byte) 63);
+					serializable = class536_sub33.readString((byte) 63);
 				else
-					serializable = new Integer(class536_sub33.method9709(-1349202863));
+					serializable = new Integer(class536_sub33.readInt(-1349202863));
 				aMap488.put(new Integer(i_3_), serializable);
 			}
 		} else if (i == 7 || i == 8) {
@@ -64,14 +64,14 @@ public class Class39 implements Interface13, Interface7 {
 			for (int i_5_ = 0; i_5_ < anInt487 * -50029819; i_5_++) {
 				int i_6_ = class536_sub33.readUnsignedShort((short) 3228);
 				if (i == 7)
-					anObjectArray489[i_6_] = class536_sub33.method9695((byte) 61);
+					anObjectArray489[i_6_] = class536_sub33.readString((byte) 61);
 				else
-					anObjectArray489[i_6_] = new Integer(class536_sub33.method9709(63081409));
+					anObjectArray489[i_6_] = new Integer(class536_sub33.readInt(63081409));
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 58), class536_sub33.method9690(-501017840), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 58), class536_sub33.readUnsignedSmart(-501017840), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 31), class536_sub33.method9690(-747636635), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 31), class536_sub33.readUnsignedSmart(-747636635), 1858049507));
 	}
 
 	void method850(int i) {
@@ -198,19 +198,19 @@ public class Class39 implements Interface13, Interface7 {
 			char c = Class281.method3764(class536_sub33.readByte(-286230852), -706383699);
 			aClass453_483 = Class453.method5440(c, -1618723157);
 		} else if (3 == i)
-			aString484 = class536_sub33.method9695((byte) 58);
+			aString484 = class536_sub33.readString((byte) 58);
 		else if (4 == i)
-			anInt485 = class536_sub33.method9709(-1307654993) * 10943101;
+			anInt485 = class536_sub33.readInt(-1307654993) * 10943101;
 		else if (i == 5 || i == 6) {
 			anInt487 = class536_sub33.readUnsignedShort((short) 10459) * 2095643085;
 			aMap488 = new HashMap(anInt487 * -50029819);
 			for (int i_14_ = 0; i_14_ < anInt487 * -50029819; i_14_++) {
-				int i_15_ = class536_sub33.method9709(131504733);
+				int i_15_ = class536_sub33.readInt(131504733);
 				java.io.Serializable serializable;
 				if (i == 5)
-					serializable = class536_sub33.method9695((byte) 14);
+					serializable = class536_sub33.readString((byte) 14);
 				else
-					serializable = new Integer(class536_sub33.method9709(-927678349));
+					serializable = new Integer(class536_sub33.readInt(-927678349));
 				aMap488.put(new Integer(i_15_), serializable);
 			}
 		} else if (i == 7 || i == 8) {
@@ -220,14 +220,14 @@ public class Class39 implements Interface13, Interface7 {
 			for (int i_17_ = 0; i_17_ < anInt487 * -50029819; i_17_++) {
 				int i_18_ = class536_sub33.readUnsignedShort((short) -6781);
 				if (i == 7)
-					anObjectArray489[i_18_] = class536_sub33.method9695((byte) 78);
+					anObjectArray489[i_18_] = class536_sub33.readString((byte) 78);
 				else
-					anObjectArray489[i_18_] = new Integer(class536_sub33.method9709(-1019669397));
+					anObjectArray489[i_18_] = new Integer(class536_sub33.readInt(-1019669397));
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 63), class536_sub33.method9690(2073343256), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 63), class536_sub33.readUnsignedSmart(2073343256), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 65), class536_sub33.method9690(917064884), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 65), class536_sub33.readUnsignedSmart(917064884), 1858049507));
 	}
 
 	void method857(RSByteBuffer class536_sub33, int i) {
@@ -238,19 +238,19 @@ public class Class39 implements Interface13, Interface7 {
 			char c = Class281.method3764(class536_sub33.readByte(1211832966), -1872947005);
 			aClass453_483 = Class453.method5440(c, 1072674618);
 		} else if (3 == i)
-			aString484 = class536_sub33.method9695((byte) 59);
+			aString484 = class536_sub33.readString((byte) 59);
 		else if (4 == i)
-			anInt485 = class536_sub33.method9709(-189702723) * 10943101;
+			anInt485 = class536_sub33.readInt(-189702723) * 10943101;
 		else if (i == 5 || i == 6) {
 			anInt487 = class536_sub33.readUnsignedShort((short) -20970) * 2095643085;
 			aMap488 = new HashMap(anInt487 * -50029819);
 			for (int i_19_ = 0; i_19_ < anInt487 * -50029819; i_19_++) {
-				int i_20_ = class536_sub33.method9709(-401396471);
+				int i_20_ = class536_sub33.readInt(-401396471);
 				java.io.Serializable serializable;
 				if (i == 5)
-					serializable = class536_sub33.method9695((byte) 49);
+					serializable = class536_sub33.readString((byte) 49);
 				else
-					serializable = new Integer(class536_sub33.method9709(-2130432096));
+					serializable = new Integer(class536_sub33.readInt(-2130432096));
 				aMap488.put(new Integer(i_20_), serializable);
 			}
 		} else if (i == 7 || i == 8) {
@@ -260,14 +260,14 @@ public class Class39 implements Interface13, Interface7 {
 			for (int i_22_ = 0; i_22_ < anInt487 * -50029819; i_22_++) {
 				int i_23_ = class536_sub33.readUnsignedShort((short) -3482);
 				if (i == 7)
-					anObjectArray489[i_23_] = class536_sub33.method9695((byte) 6);
+					anObjectArray489[i_23_] = class536_sub33.readString((byte) 6);
 				else
-					anObjectArray489[i_23_] = new Integer(class536_sub33.method9709(-770577658));
+					anObjectArray489[i_23_] = new Integer(class536_sub33.readInt(-770577658));
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.method9690(842834334), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.readUnsignedSmart(842834334), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 84), class536_sub33.method9690(1671981577), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 84), class536_sub33.readUnsignedSmart(1671981577), 1858049507));
 	}
 
 	public int method858(int i) {
@@ -300,19 +300,19 @@ public class Class39 implements Interface13, Interface7 {
 			char c = Class281.method3764(class536_sub33.readByte(-1110485713), 51829259);
 			aClass453_483 = Class453.method5440(c, -2098169536);
 		} else if (3 == i)
-			aString484 = class536_sub33.method9695((byte) 29);
+			aString484 = class536_sub33.readString((byte) 29);
 		else if (4 == i)
-			anInt485 = class536_sub33.method9709(280574137) * 10943101;
+			anInt485 = class536_sub33.readInt(280574137) * 10943101;
 		else if (i == 5 || i == 6) {
 			anInt487 = class536_sub33.readUnsignedShort((short) -22543) * 2095643085;
 			aMap488 = new HashMap(anInt487 * -50029819);
 			for (int i_24_ = 0; i_24_ < anInt487 * -50029819; i_24_++) {
-				int i_25_ = class536_sub33.method9709(-1717171351);
+				int i_25_ = class536_sub33.readInt(-1717171351);
 				java.io.Serializable serializable;
 				if (i == 5)
-					serializable = class536_sub33.method9695((byte) 79);
+					serializable = class536_sub33.readString((byte) 79);
 				else
-					serializable = new Integer(class536_sub33.method9709(174583545));
+					serializable = new Integer(class536_sub33.readInt(174583545));
 				aMap488.put(new Integer(i_25_), serializable);
 			}
 		} else if (i == 7 || i == 8) {
@@ -322,14 +322,14 @@ public class Class39 implements Interface13, Interface7 {
 			for (int i_27_ = 0; i_27_ < anInt487 * -50029819; i_27_++) {
 				int i_28_ = class536_sub33.readUnsignedShort((short) 18483);
 				if (i == 7)
-					anObjectArray489[i_28_] = class536_sub33.method9695((byte) 121);
+					anObjectArray489[i_28_] = class536_sub33.readString((byte) 121);
 				else
-					anObjectArray489[i_28_] = new Integer(class536_sub33.method9709(-1890462836));
+					anObjectArray489[i_28_] = new Integer(class536_sub33.readInt(-1890462836));
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 2), class536_sub33.method9690(132054215), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 2), class536_sub33.readUnsignedSmart(132054215), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.method9690(333829475), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(333829475), 1858049507));
 	}
 
 	public int method862() {

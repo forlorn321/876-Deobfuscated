@@ -81,7 +81,7 @@ public class Class66 {
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
-			class536_sub33.method9693(((Long) entry.getKey()).longValue());
+			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
 			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
 		}
 	}
@@ -128,7 +128,7 @@ public class Class66 {
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
-			class536_sub33.method9693(((Long) entry.getKey()).longValue());
+			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
 			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
 		}
 	}
@@ -139,7 +139,7 @@ public class Class66 {
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
-			class536_sub33.method9693(((Long) entry.getKey()).longValue());
+			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
 			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
 		}
 	}
@@ -187,7 +187,7 @@ public class Class66 {
 				int i_4_ = class536_sub33.readUnsignedByte(-1293841509);
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 					long l = class536_sub33.method9711(702869087);
-					int i_6_ = class536_sub33.method9709(-1221681143);
+					int i_6_ = class536_sub33.readInt(-1221681143);
 					aLinkedHashMap722.put(Long.valueOf(l), Integer.valueOf(i_6_));
 				}
 			}

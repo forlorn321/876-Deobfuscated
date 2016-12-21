@@ -43,7 +43,7 @@ public class Class536_Sub18_Sub13 extends Class536_Sub18 {
 	void method10756(RSByteBuffer class536_sub33, int i, byte i_2_) {
 		do {
 			if (i == 1)
-				aString11757 = class536_sub33.method9695((byte) 82);
+				aString11757 = class536_sub33.readString((byte) 82);
 			else if (i == 2) {
 				int i_3_ = class536_sub33.readUnsignedByte(1085769145);
 				anIntArray11758 = new int[i_3_];
@@ -91,7 +91,7 @@ public class Class536_Sub18_Sub13 extends Class536_Sub18 {
 	void method10759(RSByteBuffer class536_sub33, int i) {
 		do {
 			if (i == 1)
-				aString11757 = class536_sub33.method9695((byte) 43);
+				aString11757 = class536_sub33.readString((byte) 43);
 			else if (i == 2) {
 				int i_12_ = class536_sub33.readUnsignedByte(-971212307);
 				anIntArray11758 = new int[i_12_];
@@ -122,7 +122,7 @@ public class Class536_Sub18_Sub13 extends Class536_Sub18 {
 	void method10760(RSByteBuffer class536_sub33, int i) {
 		do {
 			if (i == 1)
-				aString11757 = class536_sub33.method9695((byte) 87);
+				aString11757 = class536_sub33.readString((byte) 87);
 			else if (i == 2) {
 				int i_18_ = class536_sub33.readUnsignedByte(-1778006551);
 				anIntArray11758 = new int[i_18_];

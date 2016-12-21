@@ -23,7 +23,7 @@ public class Class212 implements Interface27 {
 		int i = class536_sub33.readUnsignedShort((short) 12672);
 		if (65535 != i) {
 			anInt2294 = -308941477 * i;
-			anInt2293 = class536_sub33.method9709(-643681586) * 738155763;
+			anInt2293 = class536_sub33.readInt(-643681586) * 738155763;
 		} else {
 			anInt2294 = 308941477;
 			anInt2293 = 0;

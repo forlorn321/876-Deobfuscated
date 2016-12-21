@@ -240,10 +240,10 @@ public class Class465 {
 			if ((i_45_ & 0x1) != 0) {
 				if (bool) {
 					class536_sub33.readUnsignedByte(539932743);
-					class536_sub33.method9690(1049340241);
+					class536_sub33.readUnsignedSmart(1049340241);
 				} else {
 					int i_46_ = class536_sub33.readUnsignedByte(1938038646);
-					aShortArrayArrayArray5251[i][i_37_][i_38_] = (short) class536_sub33.method9690(-10189450);
+					aShortArrayArrayArray5251[i][i_37_][i_38_] = (short) class536_sub33.readUnsignedSmart(-10189450);
 					aByteArrayArrayArray5267[i][i_37_][i_38_] = (byte) (i_46_ >> 2);
 					aByteArrayArrayArray5249[i][i_37_][i_38_] = (byte) (i_46_ + i_43_ & 0x3);
 				}
@@ -256,9 +256,9 @@ public class Class465 {
 			}
 			if (0 != (i_45_ & 0x4)) {
 				if (bool)
-					class536_sub33.method9690(-1642428507);
+					class536_sub33.readUnsignedSmart(-1642428507);
 				else
-					aShortArrayArrayArray5297[i][i_37_][i_38_] = (short) class536_sub33.method9690(676079446);
+					aShortArrayArrayArray5297[i][i_37_][i_38_] = (short) class536_sub33.readUnsignedSmart(676079446);
 			}
 			if (0 != (i_45_ & 0x8)) {
 				int i_47_ = class536_sub33.readUnsignedByte(-678145255);
@@ -281,12 +281,12 @@ public class Class465 {
 			int i_48_ = class536_sub33.readUnsignedByte(-1510536867);
 			if ((i_48_ & 0x1) != 0) {
 				class536_sub33.readUnsignedByte(-516938882);
-				class536_sub33.method9690(975062169);
+				class536_sub33.readUnsignedSmart(975062169);
 			}
 			if ((i_48_ & 0x2) != 0)
 				class536_sub33.off += 516175515;
 			if ((i_48_ & 0x4) != 0)
-				class536_sub33.method9690(-634765368);
+				class536_sub33.readUnsignedSmart(-634765368);
 			if ((i_48_ & 0x8) != 0)
 				class536_sub33.readUnsignedByte(-891238090);
 		}

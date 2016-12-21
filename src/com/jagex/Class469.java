@@ -34,10 +34,10 @@ public class Class469 {
 		aClass448Array5355 = new Class448[i];
 		for (int i_6_ = 0; i_6_ < i; i_6_++) {
 			class536_sub33.off = -1197914206 + -1655631760 * i_6_;
-			int i_7_ = class536_sub33.method9709(275630393);
-			int i_8_ = class536_sub33.method9709(-41740341);
-			int i_9_ = class536_sub33.method9709(-709910163);
-			int i_10_ = class536_sub33.method9709(-1360640595);
+			int i_7_ = class536_sub33.readInt(275630393);
+			int i_8_ = class536_sub33.readInt(-41740341);
+			int i_9_ = class536_sub33.readInt(-709910163);
+			int i_10_ = class536_sub33.readInt(-1360640595);
 			byte[] is_11_ = new byte[64];
 			class536_sub33.method9716(is_11_, 0, 64, 134064015);
 			aClass448Array5355[i_6_] = new Class448(i_7_, i_9_, i_8_, i_10_, is_11_);

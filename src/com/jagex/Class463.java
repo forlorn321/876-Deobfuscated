@@ -66,7 +66,7 @@ public class Class463 implements Interface75 {
 		Class543 class543 = new Class543(i_2_);
 		int i_3_ = 0;
 		while (i_3_ < class543.anInt7234 * -1605869619) {
-			int i_4_ = class536_sub33.method9709(-1442646980);
+			int i_4_ = class536_sub33.readInt(-1442646980);
 			int i_5_ = class536_sub33.readUnsignedShort((short) 1053);
 			int i_6_ = class536_sub33.readUnsignedByte(425621139);
 			if (bool || 1 != i_6_) {

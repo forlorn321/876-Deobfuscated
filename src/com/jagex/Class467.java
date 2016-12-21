@@ -34,7 +34,7 @@ public class Class467 {
 		if (i < 5 || i > 7)
 			throw new RuntimeException();
 		if (i >= 6)
-			anInt5343 = class536_sub33.method9709(-751670345) * -1621242877;
+			anInt5343 = class536_sub33.readInt(-751670345) * -1621242877;
 		else
 			anInt5343 = 0;
 		int i_0_ = class536_sub33.readUnsignedByte(1184954128);
@@ -77,14 +77,14 @@ public class Class467 {
 			for (int i_8_ = 0; i_8_ < 608172963 * anInt5333; i_8_++)
 				anIntArray5328[i_8_] = -1;
 			for (int i_9_ = 0; i_9_ < 1483398979 * anInt5329; i_9_++)
-				anIntArray5328[anIntArray5330[i_9_]] = class536_sub33.method9709(-1000301379);
+				anIntArray5328[anIntArray5330[i_9_]] = class536_sub33.readInt(-1000301379);
 			aClass260_5325 = new Class260(anIntArray5328);
 		}
 		for (int i_10_ = 0; i_10_ < 1483398979 * anInt5329; i_10_++)
-			anIntArray5334[anIntArray5330[i_10_]] = class536_sub33.method9709(-791791804);
+			anIntArray5334[anIntArray5330[i_10_]] = class536_sub33.readInt(-791791804);
 		if (bool_3_) {
 			for (int i_11_ = 0; i_11_ < anInt5329 * 1483398979; i_11_++)
-				anIntArray5332[i_11_] = class536_sub33.method9709(-876086744);
+				anIntArray5332[i_11_] = class536_sub33.readInt(-876086744);
 		}
 		if (bool_1_) {
 			for (int i_12_ = 0; i_12_ < 1483398979 * anInt5329; i_12_++) {
@@ -97,12 +97,12 @@ public class Class467 {
 			anIntArray5338 = new int[608172963 * anInt5333];
 			anIntArray5339 = new int[anInt5333 * 608172963];
 			for (int i_14_ = 0; i_14_ < 1483398979 * anInt5329; i_14_++) {
-				anIntArray5338[anIntArray5330[i_14_]] = class536_sub33.method9709(-2021844509);
-				anIntArray5339[anIntArray5330[i_14_]] = class536_sub33.method9709(195703550);
+				anIntArray5338[anIntArray5330[i_14_]] = class536_sub33.readInt(-2021844509);
+				anIntArray5339[anIntArray5330[i_14_]] = class536_sub33.readInt(195703550);
 			}
 		}
 		for (int i_15_ = 0; i_15_ < anInt5329 * 1483398979; i_15_++)
-			anIntArray5337[anIntArray5330[i_15_]] = class536_sub33.method9709(-639257761);
+			anIntArray5337[anIntArray5330[i_15_]] = class536_sub33.readInt(-639257761);
 		if (i >= 7) {
 			for (int i_16_ = 0; i_16_ < 1483398979 * anInt5329; i_16_++)
 				anIntArray5340[anIntArray5330[i_16_]] = class536_sub33.method9765((short) 29624);
@@ -155,7 +155,7 @@ public class Class467 {
 						i_35_ = anIntArrayArray5341[i_31_][i_34_];
 					else
 						i_35_ = i_34_;
-					anIntArrayArray5327[i_31_][i_35_] = class536_sub33.method9709(-1066009118);
+					anIntArrayArray5327[i_31_][i_35_] = class536_sub33.readInt(-1066009118);
 				}
 				aClass260Array5335[i_31_] = new Class260(anIntArrayArray5327[i_31_]);
 			}
@@ -168,7 +168,7 @@ public class Class467 {
 		if (i < 5 || i > 7)
 			throw new RuntimeException();
 		if (i >= 6)
-			anInt5343 = class536_sub33.method9709(-777467171) * -1621242877;
+			anInt5343 = class536_sub33.readInt(-777467171) * -1621242877;
 		else
 			anInt5343 = 0;
 		int i_36_ = class536_sub33.readUnsignedByte(-1018192569);
@@ -211,14 +211,14 @@ public class Class467 {
 			for (int i_44_ = 0; i_44_ < 608172963 * anInt5333; i_44_++)
 				anIntArray5328[i_44_] = -1;
 			for (int i_45_ = 0; i_45_ < 1483398979 * anInt5329; i_45_++)
-				anIntArray5328[anIntArray5330[i_45_]] = class536_sub33.method9709(200631497);
+				anIntArray5328[anIntArray5330[i_45_]] = class536_sub33.readInt(200631497);
 			aClass260_5325 = new Class260(anIntArray5328);
 		}
 		for (int i_46_ = 0; i_46_ < 1483398979 * anInt5329; i_46_++)
-			anIntArray5334[anIntArray5330[i_46_]] = class536_sub33.method9709(-1384967550);
+			anIntArray5334[anIntArray5330[i_46_]] = class536_sub33.readInt(-1384967550);
 		if (bool_39_) {
 			for (int i_47_ = 0; i_47_ < anInt5329 * 1483398979; i_47_++)
-				anIntArray5332[i_47_] = class536_sub33.method9709(-686308639);
+				anIntArray5332[i_47_] = class536_sub33.readInt(-686308639);
 		}
 		if (bool_37_) {
 			for (int i_48_ = 0; i_48_ < 1483398979 * anInt5329; i_48_++) {
@@ -231,12 +231,12 @@ public class Class467 {
 			anIntArray5338 = new int[608172963 * anInt5333];
 			anIntArray5339 = new int[anInt5333 * 608172963];
 			for (int i_50_ = 0; i_50_ < 1483398979 * anInt5329; i_50_++) {
-				anIntArray5338[anIntArray5330[i_50_]] = class536_sub33.method9709(-159291391);
-				anIntArray5339[anIntArray5330[i_50_]] = class536_sub33.method9709(163005040);
+				anIntArray5338[anIntArray5330[i_50_]] = class536_sub33.readInt(-159291391);
+				anIntArray5339[anIntArray5330[i_50_]] = class536_sub33.readInt(163005040);
 			}
 		}
 		for (int i_51_ = 0; i_51_ < anInt5329 * 1483398979; i_51_++)
-			anIntArray5337[anIntArray5330[i_51_]] = class536_sub33.method9709(-1525806753);
+			anIntArray5337[anIntArray5330[i_51_]] = class536_sub33.readInt(-1525806753);
 		if (i >= 7) {
 			for (int i_52_ = 0; i_52_ < 1483398979 * anInt5329; i_52_++)
 				anIntArray5340[anIntArray5330[i_52_]] = class536_sub33.method9765((short) 10334);
@@ -289,7 +289,7 @@ public class Class467 {
 						i_71_ = anIntArrayArray5341[i_67_][i_70_];
 					else
 						i_71_ = i_70_;
-					anIntArrayArray5327[i_67_][i_71_] = class536_sub33.method9709(-82637162);
+					anIntArrayArray5327[i_67_][i_71_] = class536_sub33.readInt(-82637162);
 				}
 				aClass260Array5335[i_67_] = new Class260(anIntArrayArray5327[i_67_]);
 			}
@@ -302,7 +302,7 @@ public class Class467 {
 		if (i_72_ < 5 || i_72_ > 7)
 			throw new RuntimeException();
 		if (i_72_ >= 6)
-			anInt5343 = class536_sub33.method9709(-1830096642) * -1621242877;
+			anInt5343 = class536_sub33.readInt(-1830096642) * -1621242877;
 		else
 			anInt5343 = 0;
 		int i_73_ = class536_sub33.readUnsignedByte(-754344730);
@@ -345,14 +345,14 @@ public class Class467 {
 			for (int i_81_ = 0; i_81_ < 608172963 * anInt5333; i_81_++)
 				anIntArray5328[i_81_] = -1;
 			for (int i_82_ = 0; i_82_ < 1483398979 * anInt5329; i_82_++)
-				anIntArray5328[anIntArray5330[i_82_]] = class536_sub33.method9709(-1317197544);
+				anIntArray5328[anIntArray5330[i_82_]] = class536_sub33.readInt(-1317197544);
 			aClass260_5325 = new Class260(anIntArray5328);
 		}
 		for (int i_83_ = 0; i_83_ < 1483398979 * anInt5329; i_83_++)
-			anIntArray5334[anIntArray5330[i_83_]] = class536_sub33.method9709(-1679747367);
+			anIntArray5334[anIntArray5330[i_83_]] = class536_sub33.readInt(-1679747367);
 		if (bool_76_) {
 			for (int i_84_ = 0; i_84_ < anInt5329 * 1483398979; i_84_++)
-				anIntArray5332[i_84_] = class536_sub33.method9709(-56774284);
+				anIntArray5332[i_84_] = class536_sub33.readInt(-56774284);
 		}
 		if (bool_74_) {
 			for (int i_85_ = 0; i_85_ < 1483398979 * anInt5329; i_85_++) {
@@ -365,12 +365,12 @@ public class Class467 {
 			anIntArray5338 = new int[608172963 * anInt5333];
 			anIntArray5339 = new int[anInt5333 * 608172963];
 			for (int i_87_ = 0; i_87_ < 1483398979 * anInt5329; i_87_++) {
-				anIntArray5338[anIntArray5330[i_87_]] = class536_sub33.method9709(172257008);
-				anIntArray5339[anIntArray5330[i_87_]] = class536_sub33.method9709(-1651847510);
+				anIntArray5338[anIntArray5330[i_87_]] = class536_sub33.readInt(172257008);
+				anIntArray5339[anIntArray5330[i_87_]] = class536_sub33.readInt(-1651847510);
 			}
 		}
 		for (int i_88_ = 0; i_88_ < anInt5329 * 1483398979; i_88_++)
-			anIntArray5337[anIntArray5330[i_88_]] = class536_sub33.method9709(-766282907);
+			anIntArray5337[anIntArray5330[i_88_]] = class536_sub33.readInt(-766282907);
 		if (i_72_ >= 7) {
 			for (int i_89_ = 0; i_89_ < 1483398979 * anInt5329; i_89_++)
 				anIntArray5340[anIntArray5330[i_89_]] = class536_sub33.method9765((short) 32629);
@@ -423,7 +423,7 @@ public class Class467 {
 						i_108_ = anIntArrayArray5341[i_104_][i_107_];
 					else
 						i_108_ = i_107_;
-					anIntArrayArray5327[i_104_][i_108_] = class536_sub33.method9709(-609025813);
+					anIntArrayArray5327[i_104_][i_108_] = class536_sub33.readInt(-609025813);
 				}
 				aClass260Array5335[i_104_] = new Class260(anIntArrayArray5327[i_104_]);
 			}

@@ -191,11 +191,11 @@ public class Class542 {
 			int i_18_ = aClass536_Sub33_7182.readUnsignedByte(-1279923359);
 			anIntArray7221 = new int[i_18_];
 			for (int i_19_ = 0; i_19_ < i_18_; i_19_++)
-				anIntArray7221[i_19_] = aClass536_Sub33_7182.method9690(942554429);
+				anIntArray7221[i_19_] = aClass536_Sub33_7182.readUnsignedSmart(942554429);
 			int i_20_ = aClass536_Sub33_7182.readUnsignedByte(169284862);
 			anIntArray7209 = new int[i_20_];
 			for (int i_21_ = 0; i_21_ < i_20_; i_21_++)
-				anIntArray7209[i_21_] = aClass536_Sub33_7182.method9690(1104877178);
+				anIntArray7209[i_21_] = aClass536_Sub33_7182.readUnsignedSmart(1104877178);
 		}
 		while (aClass536_Sub33_7182 != null && (aClass536_Sub33_7182.off * -810172525 < aClass536_Sub33_7182.buffer.length) && (!bool || (Class249.method3450(1822579398) < l + (long) anInt7217))) {
 			if (aClass536_Sub33_7182.readUnsignedByte(-1045255013) == 0) {
@@ -290,7 +290,7 @@ public class Class542 {
 			int i_52_ = i_51_ >> 2 & 0x3f;
 			if (i_52_ != 62) {
 				if (i_52_ == 63)
-					i_52_ = class536_sub33.method9690(-699129949);
+					i_52_ = class536_sub33.readUnsignedSmart(-699129949);
 				else if (bool)
 					i_52_ = is[i_52_];
 				else
@@ -301,7 +301,7 @@ public class Class542 {
 				} else {
 					aShortArray7193[i_48_ + i_49_ * anInt7187] = (short) i_52_;
 					aByteArray7194[i_48_ + i_49_ * anInt7187] = (byte) 0;
-					aShortArray7229[i_48_ + i_49_ * anInt7187] = (short) class536_sub33.method9690(876268746);
+					aShortArray7229[i_48_ + i_49_ * anInt7187] = (short) class536_sub33.readUnsignedSmart(876268746);
 				}
 			}
 		} else {
@@ -309,11 +309,11 @@ public class Class542 {
 			boolean bool = (i_51_ & 0x8) != 0;
 			boolean bool_54_ = (i_51_ & 0x10) != 0;
 			for (int i_55_ = 0; i_55_ < i_53_; i_55_++) {
-				int i_56_ = class536_sub33.method9690(-1050911008);
+				int i_56_ = class536_sub33.readUnsignedSmart(-1050911008);
 				int i_57_ = 0;
 				int i_58_ = 0;
 				if (bool) {
-					i_57_ = class536_sub33.method9690(-1189497544);
+					i_57_ = class536_sub33.readUnsignedSmart(-1189497544);
 					i_58_ = class536_sub33.readUnsignedByte(895685683);
 				}
 				int i_59_ = 0;

@@ -43,9 +43,9 @@ public class Class621 {
 			else if (i_0_ == 11)
 				aBool8096 = true;
 			else if (12 == i_0_)
-				anInt8103 = class536_sub33.method9709(-2135567407) * 2023279373;
+				anInt8103 = class536_sub33.readInt(-2135567407) * 2023279373;
 			else if (i_0_ == 13)
-				anInt8102 = class536_sub33.method9709(-1302080595) * -2052310489;
+				anInt8102 = class536_sub33.readInt(-1302080595) * -2052310489;
 		}
 	}
 
@@ -82,9 +82,9 @@ public class Class621 {
 			else if (i == 11)
 				aBool8096 = true;
 			else if (12 == i)
-				anInt8103 = class536_sub33.method9709(-556591882) * 2023279373;
+				anInt8103 = class536_sub33.readInt(-556591882) * 2023279373;
 			else if (i == 13)
-				anInt8102 = class536_sub33.method9709(136630539) * -2052310489;
+				anInt8102 = class536_sub33.readInt(136630539) * -2052310489;
 		}
 	}
 
@@ -116,9 +116,9 @@ public class Class621 {
 			else if (i == 11)
 				aBool8096 = true;
 			else if (12 == i)
-				anInt8103 = class536_sub33.method9709(306355846) * 2023279373;
+				anInt8103 = class536_sub33.readInt(306355846) * 2023279373;
 			else if (i == 13)
-				anInt8102 = class536_sub33.method9709(-825992233) * -2052310489;
+				anInt8102 = class536_sub33.readInt(-825992233) * -2052310489;
 		}
 	}
 

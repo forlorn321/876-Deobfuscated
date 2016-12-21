@@ -148,7 +148,7 @@ final class Class629 implements Interface74 {
 								class536_sub33_sub2.writeByte(0, 465637339);
 							else if (object instanceof Number) {
 								class536_sub33_sub2.writeByte(1, 465637339);
-								class536_sub33_sub2.method9693(((Number) object).longValue());
+								class536_sub33_sub2.writeLong(((Number) object).longValue());
 							} else if (object instanceof String) {
 								class536_sub33_sub2.writeByte(2, 465637339);
 								class536_sub33_sub2.writeString((String) object, 1402624694);

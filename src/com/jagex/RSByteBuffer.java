@@ -46,7 +46,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int method9690(int i) {
+	public int readUnsignedSmart(int i) {
 		int i_5_ = buffer[off * -810172525] & 0xff;
 		if (i_5_ < 128)
 			return readUnsignedByte(-761215470);
@@ -60,7 +60,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
 	}
 
-	public void method9692(long l) {
+	public void write44BitLong(long l) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 40);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 32);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 24);
@@ -69,7 +69,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) l;
 	}
 
-	public void method9693(long l) {
+	public void writeLong(long l) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 56);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 48);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 40);
@@ -87,7 +87,7 @@ public class RSByteBuffer extends Class536 {
 			buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> i_8_);
 	}
 
-	public String method9695(byte i) {
+	public String readString(byte i) {
 		int i_9_ = off * -810172525;
 		while (buffer[(off += 516175515) * -810172525 - 1] != 0) {
 			/* empty */
@@ -186,7 +186,7 @@ public class RSByteBuffer extends Class536 {
 
 	public long method9707(byte i) {
 		long l = (long) readUnsignedShort((short) 7801) & 0xffffffffL;
-		long l_21_ = (long) method9709(-2118332834) & 0xffffffffL;
+		long l_21_ = (long) readInt(-2118332834) & 0xffffffffL;
 		return (l << 32) + l_21_;
 	}
 
@@ -198,25 +198,25 @@ public class RSByteBuffer extends Class536 {
 		return i_22_;
 	}
 
-	public int method9709(int i) {
+	public int readInt(int i) {
 		off += 2064702060;
 		return (((buffer[off * -810172525 - 2] & 0xff) << 8) + (((buffer[off * -810172525 - 4] & 0xff) << 24) + ((buffer[off * -810172525 - 3] & 0xff) << 16)) + (buffer[-810172525 * off - 1] & 0xff));
 	}
 
 	public long method9710(int i) {
 		long l = (long) readUnsignedByte(1784719236) & 0xffffffffL;
-		long l_23_ = (long) method9709(-1493296210) & 0xffffffffL;
+		long l_23_ = (long) readInt(-1493296210) & 0xffffffffL;
 		return (l << 32) + l_23_;
 	}
 
 	public long method9711(int i) {
-		long l = (long) method9709(-1082760135) & 0xffffffffL;
-		long l_24_ = (long) method9709(-1874386449) & 0xffffffffL;
+		long l = (long) readInt(-1082760135) & 0xffffffffL;
+		long l_24_ = (long) readInt(-1874386449) & 0xffffffffL;
 		return l_24_ + (l << 32);
 	}
 
 	public float method9712(int i) {
-		return Float.intBitsToFloat(method9709(-341200706));
+		return Float.intBitsToFloat(readInt(-341200706));
 	}
 
 	public String method9713(int i) {
@@ -224,7 +224,7 @@ public class RSByteBuffer extends Class536 {
 			off += 516175515;
 			return null;
 		}
-		return method9695((byte) 37);
+		return readString((byte) 37);
 	}
 
 	public String method9714(byte i) {
@@ -272,10 +272,10 @@ public class RSByteBuffer extends Class536 {
 		return readUnsignedShort((short) -7898) - 32769;
 	}
 
-	public int method9719(int i) {
+	public int readSmart(int i) {
 		int i_35_ = 0;
 		int i_36_;
-		for (i_36_ = method9690(-219704208); 32767 == i_36_; i_36_ = method9690(2038838021))
+		for (i_36_ = readUnsignedSmart(-219704208); 32767 == i_36_; i_36_ = readUnsignedSmart(2038838021))
 			i_35_ += 32767;
 		i_35_ += i_36_;
 		return i_35_;
@@ -283,7 +283,7 @@ public class RSByteBuffer extends Class536 {
 
 	public int method9720(byte i) {
 		if (buffer[off * -810172525] < 0)
-			return method9709(-1282207959) & 0x7fffffff;
+			return readInt(-1282207959) & 0x7fffffff;
 		int i_37_ = readUnsignedShort((short) 3400);
 		if (32767 == i_37_)
 			return -1;
@@ -302,8 +302,8 @@ public class RSByteBuffer extends Class536 {
 		int i_38_ = off * -810172525 / 8;
 		off = 0;
 		for (int i_39_ = 0; i_39_ < i_38_; i_39_++) {
-			int i_40_ = method9709(-1546755786);
-			int i_41_ = method9709(-1377338881);
+			int i_40_ = readInt(-1546755786);
+			int i_41_ = readInt(-1377338881);
 			int i_42_ = 0;
 			int i_43_ = -1640531527;
 			int i_44_ = 32;
@@ -322,8 +322,8 @@ public class RSByteBuffer extends Class536 {
 		int i_45_ = -810172525 * off / 8;
 		off = 0;
 		for (int i_46_ = 0; i_46_ < i_45_; i_46_++) {
-			int i_47_ = method9709(-1588312795);
-			int i_48_ = method9709(-698949474);
+			int i_47_ = readInt(-1588312795);
+			int i_48_ = readInt(-698949474);
 			int i_49_ = -957401312;
 			int i_50_ = -1640531527;
 			int i_51_ = 32;
@@ -343,8 +343,8 @@ public class RSByteBuffer extends Class536 {
 		off = 516175515 * i;
 		int i_55_ = (i_52_ - i) / 8;
 		for (int i_56_ = 0; i_56_ < i_55_; i_56_++) {
-			int i_57_ = method9709(-406587383);
-			int i_58_ = method9709(254141213);
+			int i_57_ = readInt(-406587383);
+			int i_58_ = readInt(254141213);
 			int i_59_ = 0;
 			int i_60_ = -1640531527;
 			int i_61_ = 32;
@@ -376,7 +376,7 @@ public class RSByteBuffer extends Class536 {
 	public boolean method9727(byte i) {
 		off -= 2064702060;
 		int i_67_ = Class205_Sub5.method9059(buffer, 0, -810172525 * off, (byte) 1);
-		int i_68_ = method9709(-587974728);
+		int i_68_ = readInt(-587974728);
 		if (i_67_ == i_68_)
 			return true;
 		return false;
@@ -402,19 +402,19 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int method9731(int i) {
+	public int readUnsignedByteC(int i) {
 		return (0 - buffer[(off += 516175515) * -810172525 - 1] & 0xff);
 	}
 
-	public int method9732(short i) {
+	public int readUnsigned128Byte(short i) {
 		return ((128 - buffer[(off += 516175515) * -810172525 - 1]) & 0xff);
 	}
 
-	public byte method9733(int i) {
+	public byte readByte128(int i) {
 		return (byte) ((buffer[(off += 516175515) * -810172525 - 1]) - 128);
 	}
 
-	public byte method9734(byte i) {
+	public byte readByteC(byte i) {
 		return (byte) (0 - (buffer[(off += 516175515) * -810172525 - 1]));
 	}
 
@@ -426,7 +426,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
 	}
 
-	public void method9736(int i, int i_73_) {
+	public void writeLEShort(int i, int i_73_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
@@ -435,12 +435,12 @@ public class RSByteBuffer extends Class536 {
 		buffer = Class705.method8269(i, bool, -731672108);
 	}
 
-	public void method9737(int i, int i_74_) {
+	public void write128Short(int i, int i_74_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 + i);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
 
-	public void method9738(int i, byte i_75_) {
+	public void writeIntV2(int i, byte i_75_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
@@ -465,12 +465,12 @@ public class RSByteBuffer extends Class536 {
 		return i_76_;
 	}
 
-	public int method9742(int i) {
+	public int read24BitUnsignedInteger(int i) {
 		off += 1548526545;
 		return ((buffer[off * -810172525 - 1] & 0xff) + (((buffer[-810172525 * off - 3] & 0xff) << 16) + ((buffer[off * -810172525 - 2] & 0xff) << 8)));
 	}
 
-	public int method9743(byte i) {
+	public int readShortLE(byte i) {
 		off += 1032351030;
 		int i_77_ = (((buffer[off * -810172525 - 1] & 0xff) << 8) + (buffer[-810172525 * off - 2] - 128 & 0xff));
 		if (i_77_ > 32767)
@@ -483,30 +483,30 @@ public class RSByteBuffer extends Class536 {
 		return ((buffer[off * -810172525 - 2] & 0xff) + (((buffer[off * -810172525 - 1] & 0xff) << 8) + ((buffer[-810172525 * off - 3] & 0xff) << 16)));
 	}
 
-	public void method9745(int i, int i_78_) {
+	public void writeIntLE(int i, int i_78_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
 	}
 
-	public int method9746(short i) {
+	public int readLEInt(short i) {
 		off += 2064702060;
 		return ((buffer[off * -810172525 - 4] & 0xff) + (((buffer[off * -810172525 - 3] & 0xff) << 8) + (((buffer[off * -810172525 - 2] & 0xff) << 16) + ((buffer[off * -810172525 - 1] & 0xff) << 24))));
 	}
 
-	public void method9748(int i, int i_79_) {
+	public void writeIntV1(int i, int i_79_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
 	}
 
-	public byte method9749(int i) {
+	public byte read128Byte(int i) {
 		return (byte) (128 - (buffer[(off += 516175515) * -810172525 - 1]));
 	}
 
-	public int method9750(byte i) {
+	public int readIntV2(byte i) {
 		off += 2064702060;
 		return (((buffer[off * -810172525 - 1] & 0xff) << 8) + (((buffer[-810172525 * off - 3] & 0xff) << 24) + ((buffer[off * -810172525 - 4] & 0xff) << 16)) + (buffer[-810172525 * off - 2] & 0xff));
 	}
@@ -593,7 +593,7 @@ public class RSByteBuffer extends Class536 {
 
 	public int method9765(short i) {
 		if (buffer[-810172525 * off] < 0)
-			return method9709(-60683548) & 0x7fffffff;
+			return readInt(-60683548) & 0x7fffffff;
 		return readUnsignedShort((short) -20720);
 	}
 
@@ -607,7 +607,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public void method9770(int i, byte i_98_) {
+	public void writeShort128(int i, byte i_98_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 + i);
 	}
@@ -626,8 +626,8 @@ public class RSByteBuffer extends Class536 {
 		off = 516175515 * i;
 		int i_105_ = (i_102_ - i) / 8;
 		for (int i_106_ = 0; i_106_ < i_105_; i_106_++) {
-			int i_107_ = method9709(-725652301);
-			int i_108_ = method9709(-1889003327);
+			int i_107_ = readInt(-725652301);
+			int i_108_ = readInt(-1889003327);
 			int i_109_ = -957401312;
 			int i_110_ = -1640531527;
 			int i_111_ = 32;
@@ -643,12 +643,12 @@ public class RSByteBuffer extends Class536 {
 		off = i_104_ * 516175515;
 	}
 
-	public int method9783(int i) {
+	public int readIntV1(int i) {
 		off += 2064702060;
 		return (((buffer[-810172525 * off - 4] & 0xff) << 8) + (((buffer[off * -810172525 - 1] & 0xff) << 16) + ((buffer[off * -810172525 - 2] & 0xff) << 24)) + (buffer[-810172525 * off - 3] & 0xff));
 	}
 
-	public int method9784(int i) {
+	public int readUnsignedShortLE(int i) {
 		off += 1032351030;
 		return (((buffer[off * -810172525 - 1] & 0xff) << 8) + (buffer[off * -810172525 - 2] & 0xff));
 	}
@@ -662,15 +662,14 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
 	}
 
-
 	public void method9790(RSByteBuffer class536_sub33_113_, int i) {
 		method9696(class536_sub33_113_.buffer, 0, -810172525 * class536_sub33_113_.off, (byte) 65);
 	}
 
 	public static Class392 method9791(RSByteBuffer class536_sub33, int i) {
 		Class392 class392 = Class392.method4864(class536_sub33, -317645171);
-		int i_114_ = class536_sub33.method9709(-578457384);
-		int i_115_ = class536_sub33.method9709(-286813584);
+		int i_114_ = class536_sub33.readInt(-578457384);
+		int i_115_ = class536_sub33.readInt(-286813584);
 		return new Class392_Sub1(class392.aClass395_4064, class392.aClass399_4065, 316945261 * class392.anInt4066, 1917287119 * class392.anInt4069, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, 1694830205 * class392.anInt4071, class392.anInt4072 * -369678755, i_114_, i_115_);
 	}
 }

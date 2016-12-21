@@ -78,9 +78,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.method9742(1847838876) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger(1847838876) * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.method9742(1338761853) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger(1338761853) * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -120,11 +120,11 @@ public class Class628 {
 			else if (i == 16)
 				aBool8211 = true;
 			else if (17 == i)
-				anInt8200 = class536_sub33.method9709(78590507) * 1146723269;
+				anInt8200 = class536_sub33.readInt(78590507) * 1146723269;
 			else if (i == 18)
-				anInt8213 = class536_sub33.method9709(-845135096) * -1310538059;
+				anInt8213 = class536_sub33.readInt(-845135096) * -1310538059;
 			else if (i == 19)
-				anInt8214 = class536_sub33.method9709(-1437436682) * -1839086529;
+				anInt8214 = class536_sub33.readInt(-1437436682) * -1839086529;
 			else if (20 == i) {
 				aShort8186 = (short) class536_sub33.readUnsignedShort((short) -3119);
 				aByte8199 = (byte) class536_sub33.readUnsignedByte(-866742362);
@@ -206,9 +206,9 @@ public class Class628 {
 			} else if (4 == i_13_)
 				aBool8218 = false;
 			else if (5 == i_13_)
-				anInt8195 = class536_sub33.method9742(1869077864) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger(1869077864) * 1563873595;
 			else if (6 == i_13_)
-				anInt8225 = class536_sub33.method9742(855814435) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger(855814435) * 864400697;
 			else if (7 == i_13_) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -248,11 +248,11 @@ public class Class628 {
 			else if (i_13_ == 16)
 				aBool8211 = true;
 			else if (17 == i_13_)
-				anInt8200 = class536_sub33.method9709(-881698885) * 1146723269;
+				anInt8200 = class536_sub33.readInt(-881698885) * 1146723269;
 			else if (i_13_ == 18)
-				anInt8213 = class536_sub33.method9709(-1392355211) * -1310538059;
+				anInt8213 = class536_sub33.readInt(-1392355211) * -1310538059;
 			else if (i_13_ == 19)
-				anInt8214 = class536_sub33.method9709(-1113331333) * -1839086529;
+				anInt8214 = class536_sub33.readInt(-1113331333) * -1839086529;
 			else if (20 == i_13_) {
 				aShort8186 = (short) class536_sub33.readUnsignedShort((short) -8);
 				aByte8199 = (byte) class536_sub33.readUnsignedByte(-1321791745);
@@ -334,9 +334,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.method9742(1863202120) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger(1863202120) * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.method9742(1497707761) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger(1497707761) * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -376,11 +376,11 @@ public class Class628 {
 			else if (i == 16)
 				aBool8211 = true;
 			else if (17 == i)
-				anInt8200 = class536_sub33.method9709(-160834348) * 1146723269;
+				anInt8200 = class536_sub33.readInt(-160834348) * 1146723269;
 			else if (i == 18)
-				anInt8213 = class536_sub33.method9709(-165106232) * -1310538059;
+				anInt8213 = class536_sub33.readInt(-165106232) * -1310538059;
 			else if (i == 19)
-				anInt8214 = class536_sub33.method9709(-1337950438) * -1839086529;
+				anInt8214 = class536_sub33.readInt(-1337950438) * -1839086529;
 			else if (20 == i) {
 				aShort8186 = (short) class536_sub33.readUnsignedShort((short) -1605);
 				aByte8199 = (byte) class536_sub33.readUnsignedByte(1536585827);
@@ -462,9 +462,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.method9742(1449431842) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger(1449431842) * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.method9742(1724315829) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger(1724315829) * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -504,11 +504,11 @@ public class Class628 {
 			else if (i == 16)
 				aBool8211 = true;
 			else if (17 == i)
-				anInt8200 = class536_sub33.method9709(-266864837) * 1146723269;
+				anInt8200 = class536_sub33.readInt(-266864837) * 1146723269;
 			else if (i == 18)
-				anInt8213 = class536_sub33.method9709(-1945653821) * -1310538059;
+				anInt8213 = class536_sub33.readInt(-1945653821) * -1310538059;
 			else if (i == 19)
-				anInt8214 = class536_sub33.method9709(-1785395449) * -1839086529;
+				anInt8214 = class536_sub33.readInt(-1785395449) * -1839086529;
 			else if (20 == i) {
 				aShort8186 = (short) class536_sub33.readUnsignedShort((short) -23669);
 				aByte8199 = (byte) class536_sub33.readUnsignedByte(-1579189906);
@@ -628,9 +628,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.method9742(2013652493) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger(2013652493) * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.method9742(1185879678) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger(1185879678) * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -670,11 +670,11 @@ public class Class628 {
 			else if (i == 16)
 				aBool8211 = true;
 			else if (17 == i)
-				anInt8200 = class536_sub33.method9709(-1086559541) * 1146723269;
+				anInt8200 = class536_sub33.readInt(-1086559541) * 1146723269;
 			else if (i == 18)
-				anInt8213 = class536_sub33.method9709(-238592395) * -1310538059;
+				anInt8213 = class536_sub33.readInt(-238592395) * -1310538059;
 			else if (i == 19)
-				anInt8214 = class536_sub33.method9709(-1667260419) * -1839086529;
+				anInt8214 = class536_sub33.readInt(-1667260419) * -1839086529;
 			else if (20 == i) {
 				aShort8186 = (short) class536_sub33.readUnsignedShort((short) -2506);
 				aByte8199 = (byte) class536_sub33.readUnsignedByte(-337479529);

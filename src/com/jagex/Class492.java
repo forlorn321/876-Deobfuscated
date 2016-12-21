@@ -109,11 +109,11 @@ public class Class492 {
 				RSByteBuffer class536_sub33 = new RSByteBuffer(is_4_);
 				if (class536_sub33.readUnsignedByte(-1596906375) != 74 || class536_sub33.readUnsignedByte(-899125192) != 65 || class536_sub33.readUnsignedByte(118168251) != 71 || class536_sub33.readUnsignedByte(236772352) != 65)
 					throw new RuntimeException("");
-				anInt5524 = class536_sub33.method9709(-1740666315) * 269118443;
-				anInt5491 = class536_sub33.method9709(-756084200) * 1414429427;
-				anInt5493 = class536_sub33.method9709(173497277) * 752681551;
-				anInt5520 = class536_sub33.method9709(-1819727512) * -729674031;
-				anInt5494 = class536_sub33.method9709(-1550542587) * 1103211933;
+				anInt5524 = class536_sub33.readInt(-1740666315) * 269118443;
+				anInt5491 = class536_sub33.readInt(-756084200) * 1414429427;
+				anInt5493 = class536_sub33.readInt(173497277) * 752681551;
+				anInt5520 = class536_sub33.readInt(-1819727512) * -729674031;
+				anInt5494 = class536_sub33.readInt(-1550542587) * 1103211933;
 				if (anObject5489 == null) {
 					anObject5489 = aClass360_5502.method4728(1037503025 * anInt5520, anInt5493 * -1436625745, anInterface43_5474.method291(), anInterface43_5474.method294(), -22869281 * anInt5487, aFloat5481, (byte) -26);
 					if (anObject5489 == null) {
@@ -128,8 +128,8 @@ public class Class492 {
 				int i_6_ = (anInt5494 * 736757160 + -810172525 * class536_sub33.off);
 				for (int i_7_ = 0; i_7_ < 1165836469 * anInt5494; i_7_++) {
 					anIntArray5495[i_7_] = i_6_;
-					anIntArray5498[i_7_] = class536_sub33.method9709(-1295570240);
-					anIntArray5497[i_7_] = class536_sub33.method9709(-876268804);
+					anIntArray5498[i_7_] = class536_sub33.readInt(-1295570240);
+					anIntArray5497[i_7_] = class536_sub33.readInt(-876268804);
 					i_6_ += anIntArray5498[i_7_];
 				}
 				anInt5477 = class536_sub33.off * 1263018237;

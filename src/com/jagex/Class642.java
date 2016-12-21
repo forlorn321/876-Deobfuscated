@@ -169,7 +169,7 @@ public class Class642 {
 			return false;
 		}
 		if ((i_2_ & Class643.aClass643_8346.anInt8345 * -742426051) != 0)
-			anInt8329 = class536_sub33.method9709(-1485704209) * -1621326771;
+			anInt8329 = class536_sub33.readInt(-1485704209) * -1621326771;
 		if ((i_2_ & -742426051 * Class643.aClass643_8335.anInt8345) != 0)
 			aFloat8332 = class536_sub33.method9712(203863450);
 		if (0 != (i_2_ & -742426051 * Class643.aClass643_8337.anInt8345))
@@ -179,7 +179,7 @@ public class Class642 {
 		if (0 != (i_2_ & -742426051 * Class643.aClass643_8339.anInt8345))
 			aClass436_8318 = Class436.method5241(class536_sub33);
 		if ((i_2_ & Class643.aClass643_8336.anInt8345 * -742426051) != 0)
-			anInt8320 = class536_sub33.method9709(-1596792281) * 665291457;
+			anInt8320 = class536_sub33.readInt(-1596792281) * 665291457;
 		if (0 != (i_2_ & Class643.aClass643_8341.anInt8345 * -742426051))
 			anInt8317 = class536_sub33.readUnsignedShort((short) -569) * 1944002621;
 		if ((i_2_ & -742426051 * Class643.aClass643_8350.anInt8345) != 0)

@@ -114,8 +114,8 @@ public class Class705 {
 
 	public static Class392 method8275(RSByteBuffer class536_sub33, int i) {
 		Class392 class392 = Class392.method4864(class536_sub33, 277638295);
-		int i_5_ = class536_sub33.method9709(-1012160213);
-		int i_6_ = class536_sub33.method9709(-812563541);
+		int i_5_ = class536_sub33.readInt(-1012160213);
+		int i_6_ = class536_sub33.readInt(-812563541);
 		int i_7_ = class536_sub33.method9720((byte) 1);
 		return new Class392_Sub2(class392.aClass395_4064, class392.aClass399_4065, class392.anInt4066 * 316945261, class392.anInt4069 * 1917287119, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i_5_, i_6_, i_7_);
 	}
@@ -129,11 +129,11 @@ public class Class705 {
 				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_9_]];
 				if (null != class649_sub1_sub5_sub1_sub2.aString12184 && class649_sub1_sub5_sub1_sub2.aString12184.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9770(client.anInt11184 * -678599443, (byte) 0);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
 					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(0, (byte) 125);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9738(Class663.anInt8515 * 1625551467, (byte) 56);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9736(is[i_9_], -1411037171);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9736(-1059472497 * client.anInt11183, -1411037171);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(Class663.anInt8515 * 1625551467, (byte) 56);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(is[i_9_], -1411037171);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
 					client.aClass106_11322.method1409(class536_sub23, 1390331548);
 					Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub2.anIntArray11945[0]), (byte) -94);
 					bool = true;

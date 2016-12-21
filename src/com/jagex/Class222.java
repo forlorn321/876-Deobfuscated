@@ -156,7 +156,7 @@ public class Class222 {
 		for (int i_8_ = 0; i_8_ < aClass618Array2316.length; i_8_++) {
 			Class618 class618 = (aClass618Array2316[i_8_] = new Class618(interface28.method159(1445042368).method7174(i_8_, (byte) -40), true));
 			if (i_8_ < i_7_)
-				class618.method7380(class536_sub33.method9709(96181410), (byte) 58);
+				class618.method7380(class536_sub33.readInt(96181410), (byte) 58);
 			else
 				class618.method7380(0, (byte) 64);
 			class618.method7376(class618.method7374((byte) -18), 155186799);

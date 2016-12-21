@@ -89,8 +89,8 @@ public class Class710_Sub13 extends Class710 {
 	}
 
 	static void method10051(Class536_Sub23 class536_sub23, int i, int i_2_, int i_3_, int i_4_) {
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9770(i_2_, (byte) 0);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_2_, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_3_, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9738(i, (byte) 33);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i, (byte) 33);
 	}
 }

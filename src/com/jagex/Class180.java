@@ -317,7 +317,7 @@ public class Class180 {
 				if (aShortArray1982 != null) {
 					if (aShortArray1957[i_70_] != -1) {
 						if (anInt1949 >= 16)
-							aShortArray1982[i_70_] = (short) (class536_sub33_5_.method9690(-1171833351) - 1);
+							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedSmart(-1171833351) - 1);
 						else
 							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedByte(-962449944) - 1);
 					} else
@@ -750,12 +750,12 @@ public class Class180 {
 					if (anInt1949 < 14)
 						anIntArray1985[i] = class536_sub33_146_.readUnsignedShort((short) -6432);
 					else
-						anIntArray1985[i] = class536_sub33_146_.method9742(2015603265);
+						anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(2015603265);
 					anIntArray1986[i] = class536_sub33_146_.readUnsignedShort((short) 1443);
 				} else {
-					anIntArray1950[i] = class536_sub33_146_.method9742(1457721048);
-					anIntArray1985[i] = class536_sub33_146_.method9742(1995636224);
-					anIntArray1986[i] = class536_sub33_146_.method9742(1527594390);
+					anIntArray1950[i] = class536_sub33_146_.read24BitUnsignedInteger(1457721048);
+					anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(1995636224);
+					anIntArray1986[i] = class536_sub33_146_.read24BitUnsignedInteger(1527594390);
 				}
 				aByteArray1990[i] = class536_sub33_147_.readByte(1347387075);
 				aByteArray1991[i] = class536_sub33_148_.readByte(2053557082);
@@ -770,12 +770,12 @@ public class Class180 {
 					if (anInt1949 < 14)
 						anIntArray1985[i] = class536_sub33_146_.readUnsignedShort((short) 5330);
 					else
-						anIntArray1985[i] = class536_sub33_146_.method9742(1036785825);
+						anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(1036785825);
 					anIntArray1986[i] = class536_sub33_146_.readUnsignedShort((short) -5648);
 				} else {
-					anIntArray1950[i] = class536_sub33_146_.method9742(999916609);
-					anIntArray1985[i] = class536_sub33_146_.method9742(1914530924);
-					anIntArray1986[i] = class536_sub33_146_.method9742(1098955015);
+					anIntArray1950[i] = class536_sub33_146_.read24BitUnsignedInteger(999916609);
+					anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(1914530924);
+					anIntArray1986[i] = class536_sub33_146_.read24BitUnsignedInteger(1098955015);
 				}
 				aByteArray1990[i] = class536_sub33_147_.readByte(828443632);
 				aByteArray1991[i] = class536_sub33_148_.readByte(-627354644);
@@ -792,12 +792,12 @@ public class Class180 {
 					if (anInt1949 < 14)
 						anIntArray1985[i] = class536_sub33_146_.readUnsignedShort((short) 11509);
 					else
-						anIntArray1985[i] = class536_sub33_146_.method9742(777785575);
+						anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(777785575);
 					anIntArray1986[i] = class536_sub33_146_.readUnsignedShort((short) -3329);
 				} else {
-					anIntArray1950[i] = class536_sub33_146_.method9742(1942470757);
-					anIntArray1985[i] = class536_sub33_146_.method9742(2028810234);
-					anIntArray1986[i] = class536_sub33_146_.method9742(1296144521);
+					anIntArray1950[i] = class536_sub33_146_.read24BitUnsignedInteger(1942470757);
+					anIntArray1985[i] = class536_sub33_146_.read24BitUnsignedInteger(2028810234);
+					anIntArray1986[i] = class536_sub33_146_.read24BitUnsignedInteger(1296144521);
 				}
 				aByteArray1990[i] = class536_sub33_147_.readByte(-466245032);
 				aByteArray1991[i] = class536_sub33_148_.readByte(55857575);

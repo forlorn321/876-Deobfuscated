@@ -111,7 +111,7 @@ public class Class283 implements Interface75 {
 							class536_sub33.writeInt((1051867059 * client.anInt10987), -149241618);
 							for (int i_4_ = 0; i_4_ < 5; i_4_++)
 								class536_sub33.writeInt((int) (Math.random() * 9.9999999E7), -149241618);
-							class536_sub33.method9693(client.aLong11025 * 6862939200387171825L);
+							class536_sub33.writeLong(client.aLong11025 * 6862939200387171825L);
 							class536_sub33.writeByte((client.aClass670_11043.anInt8567) * 273023065, 465637339);
 							class536_sub33.writeByte((int) (Math.random() * 9.9999999E7), 465637339);
 							class536_sub33.method9726(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, 1699688896);
@@ -208,7 +208,7 @@ public class Class283 implements Interface75 {
 								if (-1L == (Class61.aLong649 * -7692785137277514277L))
 									class536_sub33_sub2.writeString(Class61.aString679, 139127958);
 								else
-									class536_sub33_sub2.method9693(Class61.aLong649 * -7692785137277514277L);
+									class536_sub33_sub2.writeLong(Class61.aLong649 * -7692785137277514277L);
 							}
 							class536_sub33_sub2.writeByte(Class315.method4212((byte) 108), 465637339);
 							class536_sub33_sub2.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
@@ -263,7 +263,7 @@ public class Class283 implements Interface75 {
 								if (Class61.aLong649 * -7692785137277514277L == -1L)
 									class536_sub33_sub2.writeString(Class61.aString679, 2079138510);
 								else
-									class536_sub33_sub2.method9693(Class61.aLong649 * -7692785137277514277L);
+									class536_sub33_sub2.writeLong(Class61.aLong649 * -7692785137277514277L);
 							}
 							class536_sub33_sub2.writeByte((273023065 * (client.aClass670_11043.anInt8567)), 465637339);
 							class536_sub33_sub2.writeByte(Class459.aClass664_5178.method78(), 465637339);
@@ -387,7 +387,7 @@ public class Class283 implements Interface75 {
 					} else if (-129171495 * Class61.anInt680 == 245) {
 						if (Class586.aClass106_7710.method1413((short) -3724).method6897(4, -763799203)) {
 							Class586.aClass106_7710.method1413((short) 9652).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 4, 1117853473);
-							Class61.anInt659 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.method9709(-1914867320) * -1676086137;
+							Class61.anInt659 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readInt(-1914867320) * -1676086137;
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
 							Class61.anInt680 = 0;
 							Class537.method6507(53, 1280785913);
@@ -432,7 +432,7 @@ public class Class283 implements Interface75 {
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.method10776(is, 0, Class61.anInt686 * 261187593, -399442820);
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
 							RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-							String string = class536_sub33.method9695((byte) 69);
+							String string = class536_sub33.readString((byte) 69);
 							Class380.method4809(string, true, client.aBool11228, 1612663522);
 							Class537.method6507(Class434.anInt4845 * 862241013, 1280785913);
 							if (107 == 1382700277 * Class76_Sub1.anInt10981 && -708374433 * client.anInt11101 != 4)
@@ -521,7 +521,7 @@ public class Class283 implements Interface75 {
 								client.aBool11290 = class536_sub33_sub2.readUnsignedByte(1765783126) == 1;
 								Class75.anInt819 = class536_sub33_sub2.method9708((byte) 83) * 89794997;
 								client.aBool11123 = class536_sub33_sub2.readUnsignedByte(-1274929514) == 1;
-								Class522.aString7077 = class536_sub33_sub2.method9695((byte) 63);
+								Class522.aString7077 = class536_sub33_sub2.readString((byte) 63);
 								Class292.aLong3244 = ((class536_sub33_sub2.method9707((byte) 1) - Class249.method3450(1328868475)) * 8806393363580464715L);
 								client.aClass515_11066.method6280(-1073841494).method10357(client.aBool11123, -2110300175);
 								Class266.aClass503_2867.method6045(-1621113628).method6280(-1073841494).method10357(client.aBool11123, -1245173619);
@@ -545,12 +545,12 @@ public class Class283 implements Interface75 {
 								int i_17_ = class536_sub33_sub2.readUnsignedByte(2104814671);
 								client.aBool11290 = 0 != (i_17_ & 0x1);
 								Class598.aBool7841 = (i_17_ & 0x2) != 0;
-								Class486.anInt5443 = (class536_sub33_sub2.method9709(-1635045136) * -1872014567);
-								Class141.anInt1659 = class536_sub33_sub2.method9709(-620455575) * -423557781;
+								Class486.anInt5443 = (class536_sub33_sub2.readInt(-1635045136) * -1872014567);
+								Class141.anInt1659 = class536_sub33_sub2.readInt(-620455575) * -423557781;
 								Class619.anInt8093 = (class536_sub33_sub2.readUnsignedShort((short) 12552) * -1512061491);
 								Class690.anInt8699 = (class536_sub33_sub2.readUnsignedShort((short) -9275) * 1487665559);
 								Class292.anInt3243 = (class536_sub33_sub2.readUnsignedShort((short) 17654) * 1013602285);
-								Class24.anInt232 = class536_sub33_sub2.method9709(-2110007910) * 899842251;
+								Class24.anInt232 = class536_sub33_sub2.readInt(-2110007910) * 899842251;
 								Class374.aClass33_3907 = new Class33(Class24.anInt232 * -80091933);
 								new Thread(Class374.aClass33_3907).start();
 								Class172.anInt1923 = (class536_sub33_sub2.readUnsignedByte(-254015463) * -2143180617);
@@ -559,7 +559,7 @@ public class Class283 implements Interface75 {
 								Class151.aBool1712 = class536_sub33_sub2.readUnsignedByte(1724184066) == 1;
 								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.method9714((byte) 101);
 								Class646.anInt8360 = class536_sub33_sub2.readUnsignedByte(-88328059) * 431261749;
-								Class622.anInt8127 = class536_sub33_sub2.method9709(-1220226992) * 57169007;
+								Class622.anInt8127 = class536_sub33_sub2.readInt(-1220226992) * 57169007;
 								Class23.aClass5_228 = new Class5();
 								Class23.aClass5_228.anInt111 = (class536_sub33_sub2.readUnsignedShort((short) 3912) * 1232605419);
 								if (Class23.aClass5_228.anInt111 * 1318197187 == 65535)

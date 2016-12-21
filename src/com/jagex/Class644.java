@@ -382,8 +382,8 @@ public final class Class644 {
 				i_25_ = (int) client.aFloat11106 >> 3;
 			}
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4481, client.aClass106_11322.aClass15_1258, 2016299251);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9737(i_25_, -1952316498);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9736(i_24_, -1411037171);
+			class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(i_25_, -1952316498);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i_24_, -1411037171);
 			client.aClass106_11322.method1409(class536_sub23, 1017832344);
 		}
 		if (Class659.aBool8504 != Class67_Sub1.aBool10601) {

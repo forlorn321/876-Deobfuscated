@@ -132,7 +132,7 @@ public final class Class189 {
 		case 0:
 			anInt2140 = class536_sub33.method9720((byte) 1) * 1262115521;
 		}
-		class536_sub33.method9695((byte) 115);
+		class536_sub33.readString((byte) 115);
 	}
 
 	void method2808() {

@@ -330,12 +330,12 @@ public class Class515 {
 	}
 
 	void method6265(Class536_Sub33_Sub2 class536_sub33_sub2, byte i) {
-		int i_38_ = class536_sub33_sub2.method9784(-1304591787);
+		int i_38_ = class536_sub33_sub2.readUnsignedShortLE(-1304591787);
 		int i_39_ = class536_sub33_sub2.readUnsignedShort128(-1275132226);
-		int i_40_ = class536_sub33_sub2.method9731(2051369115);
+		int i_40_ = class536_sub33_sub2.readUnsignedByteC(2051369115);
 		boolean bool = class536_sub33_sub2.readUnsignedByte(-645552579) == 1;
-		int i_41_ = class536_sub33_sub2.method9732((short) 6408);
-		anInt7035 = class536_sub33_sub2.method9732((short) 6408) * 974659739;
+		int i_41_ = class536_sub33_sub2.readUnsigned128Byte((short) 6408);
+		anInt7035 = class536_sub33_sub2.readUnsigned128Byte((short) 6408) * 974659739;
 		if (!aBool7005)
 			method6268(1787021816);
 		method6299(Class510.method6188(i_40_, -717012590), 1121434602);
@@ -361,7 +361,7 @@ public class Class515 {
 	}
 
 	void method6266(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
-		int i_44_ = class536_sub33_sub2.method9732((short) 6408);
+		int i_44_ = class536_sub33_sub2.readUnsigned128Byte((short) 6408);
 		if (i_44_ == 1)
 			aClass498_6992 = Class498.aClass498_5558;
 		else if (2 == i_44_)
@@ -370,10 +370,10 @@ public class Class515 {
 			aClass498_6992 = Class498.aClass498_5560;
 		else if (i_44_ == 4)
 			aClass498_6992 = Class498.aClass498_5561;
-		int i_45_ = class536_sub33_sub2.method9784(-1865605607);
+		int i_45_ = class536_sub33_sub2.readUnsignedShortLE(-1865605607);
 		int i_46_ = class536_sub33_sub2.readUnsignedShort128(48472459);
-		int i_47_ = class536_sub33_sub2.method9732((short) 6408);
-		int i_48_ = class536_sub33_sub2.method9732((short) 6408);
+		int i_47_ = class536_sub33_sub2.readUnsigned128Byte((short) 6408);
+		int i_48_ = class536_sub33_sub2.readUnsigned128Byte((short) 6408);
 		boolean bool = 0 != (i_48_ & 0x1);
 		anInt7035 = class536_sub33_sub2.readUnsignedByte128((byte) 0) * 974659739;
 		if (!aBool7005)

@@ -51,7 +51,7 @@ public final class Class461 {
 			is_6_ = Class51.method931(anObjectArray5205[i], true, -1947306627);
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is_6_);
 			int i_7_ = class536_sub33.readUnsignedByte(-975351480);
-			int i_8_ = class536_sub33.method9709(-1247371573);
+			int i_8_ = class536_sub33.readInt(-1247371573);
 			int i_9_ = (i_7_ == Class463.aClass463_5222.method78() ? 5 : 9) + i_8_;
 			class536_sub33.method9781(is, 5, i_9_, (byte) -24);
 		} else
@@ -75,7 +75,7 @@ public final class Class461 {
 				for (int i_14_ = 0; i_14_ < i_12_; i_14_++) {
 					int i_15_ = 0;
 					for (int i_16_ = 0; i_16_ < i_2_; i_16_++) {
-						i_15_ += class536_sub33.method9709(-983361593);
+						i_15_ += class536_sub33.readInt(-983361593);
 						is_13_[i_16_] += i_15_;
 					}
 				}
@@ -89,7 +89,7 @@ public final class Class461 {
 				for (int i_20_ = 0; i_20_ < i_12_; i_20_++) {
 					int i_21_ = 0;
 					for (int i_22_ = 0; i_22_ < i_2_; i_22_++) {
-						i_21_ += class536_sub33.method9709(-1317094467);
+						i_21_ += class536_sub33.readInt(-1317094467);
 						System.arraycopy(is_10_, i_19_, is_17_[i_22_], is_13_[i_22_], i_21_);
 						is_13_[i_22_] += i_21_;
 						i_19_ += i_21_;
@@ -117,7 +117,7 @@ public final class Class461 {
 				for (int i_29_ = 0; i_29_ < i_26_; i_29_++) {
 					int i_30_ = 0;
 					for (int i_31_ = 0; i_31_ < i_2_; i_31_++) {
-						i_30_ += class536_sub33.method9709(-2022610143);
+						i_30_ += class536_sub33.readInt(-2022610143);
 						int i_32_;
 						if (null == is_3_)
 							i_32_ = i_31_;
@@ -138,7 +138,7 @@ public final class Class461 {
 				for (int i_35_ = 0; i_35_ < i_26_; i_35_++) {
 					int i_36_ = 0;
 					for (int i_37_ = 0; i_37_ < i_2_; i_37_++) {
-						i_36_ += class536_sub33.method9709(-1455149674);
+						i_36_ += class536_sub33.readInt(-1455149674);
 						int i_38_;
 						if (null == is_3_)
 							i_38_ = i_37_;

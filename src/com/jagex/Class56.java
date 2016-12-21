@@ -25,7 +25,7 @@ public class Class56 implements Interface13 {
 			if (1 == i)
 				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
 			else if (i == 2)
-				anInt605 = class536_sub33.method9742(1969591302) * -1631318095;
+				anInt605 = class536_sub33.read24BitUnsignedInteger(1969591302) * -1631318095;
 			else if (i == 3)
 				aBool607 = true;
 			else if (4 == i)
@@ -112,7 +112,7 @@ public class Class56 implements Interface13 {
 			if (1 == i)
 				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
 			else if (i == 2)
-				anInt605 = class536_sub33.method9742(1228698049) * -1631318095;
+				anInt605 = class536_sub33.read24BitUnsignedInteger(1228698049) * -1631318095;
 			else if (i == 3)
 				aBool607 = true;
 			else if (4 == i)
@@ -127,7 +127,7 @@ public class Class56 implements Interface13 {
 			if (1 == i)
 				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
 			else if (i == 2)
-				anInt605 = class536_sub33.method9742(783504920) * -1631318095;
+				anInt605 = class536_sub33.read24BitUnsignedInteger(783504920) * -1631318095;
 			else if (i == 3)
 				aBool607 = true;
 			else if (4 == i)

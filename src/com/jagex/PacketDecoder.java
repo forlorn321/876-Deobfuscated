@@ -109,12 +109,12 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4749 == class106.aClass422_1261) {
-			int i_5_ = stream.method9746((short) -26835);
+			int i_5_ = stream.readLEInt((short) -26835);
 			int i_6_ = i_5_ >> 28 & 0x3;
 			int i_7_ = i_5_ >> 14 & 0x3fff;
 			int i_8_ = i_5_ & 0x3fff;
-			int i_9_ = stream.method9732((short) 6408);
-			int i_10_ = stream.method9750((byte) 107);
+			int i_9_ = stream.readUnsigned128Byte((short) 6408);
+			int i_10_ = stream.readIntV2((byte) 107);
 			int i_11_ = stream.readUnsignedByte(1672187083);
 			int i_12_ = i_11_ >> 2;
 			int i_13_ = i_11_ & 0x3;
@@ -127,9 +127,9 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4655) {
-			String string = stream.method9695((byte) 34);
+			String string = stream.readString((byte) 34);
 			long l = (long) stream.readUnsignedShort((short) 268);
-			long l_15_ = (long) stream.method9742(1584315645);
+			long l_15_ = (long) stream.read24BitUnsignedInteger(1584315645);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-1461571648), stream.readUnsignedByte(1225969962), 1858049507));
 			boolean bool = stream.readUnsignedByte(986134451) == 1;
 			long l_16_ = l_15_ + (l << 32);
@@ -166,17 +166,17 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4730) {
-			int i_21_ = stream.method9784(-559851406);
-			int i_22_ = stream.method9783(62347087);
-			int i_23_ = stream.method9783(-1678133306);
+			int i_21_ = stream.readUnsignedShortLE(-559851406);
+			int i_22_ = stream.readIntV1(62347087);
+			int i_23_ = stream.readIntV1(-1678133306);
 			Class307.method4133(1982666117);
 			Class206.method2961(i_23_, 3, i_21_, i_22_, 1736035179);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4748) {
-			int i_24_ = stream.method9750((byte) 59);
-			int i_25_ = stream.method9784(-704471229);
+			int i_24_ = stream.readIntV2((byte) 59);
+			int i_25_ = stream.readUnsignedShortLE(-704471229);
 			int i_26_ = stream.readUnsignedShort((short) 403);
 			int i_27_ = stream.readUnsignedByte128((byte) 0);
 			Class307.method4133(854331345);
@@ -199,7 +199,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4773 == class106.aClass422_1261) {
-			int i_30_ = stream.method9709(307941635);
+			int i_30_ = stream.readInt(307941635);
 			Class374.aClass33_3907 = new Class33(i_30_);
 			Thread thread = new Thread(Class374.aClass33_3907);
 			thread.setPriority(1);
@@ -208,14 +208,14 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4636) {
-			String string = stream.method9695((byte) 58);
+			String string = stream.readString((byte) 58);
 			Class512.method6211(string, false, false, (byte) 27);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4661) {
-			Class302.anInt3405 = (stream.method9733(1800599339) << 3) * 1163453749;
-			Class512.anInt6935 = stream.method9731(2096972023) * -200495015;
+			Class302.anInt3405 = (stream.readByte128(1800599339) << 3) * 1163453749;
+			Class512.anInt6935 = stream.readUnsignedByteC(2096972023) * -200495015;
 			Class618.anInt8089 = (stream.readByte(505464161) << 3) * 1712069097;
 			class106.aClass422_1261 = null;
 			return true;
@@ -243,19 +243,19 @@ public class PacketDecoder {
 			int i_33_ = stream.readUnsignedByte128((byte) 0);
 			if (i_33_ == 255)
 				i_33_ = -1;
-			int i_34_ = stream.method9784(2061742607);
-			int i_35_ = stream.method9784(267313175);
-			int i_36_ = stream.method9731(2014780550);
+			int i_34_ = stream.readUnsignedShortLE(2061742607);
+			int i_35_ = stream.readUnsignedShortLE(267313175);
+			int i_36_ = stream.readUnsignedByteC(2014780550);
 			int i_37_ = stream.readUnsignedShortLE128(2021638625);
 			int i_38_ = stream.readUnsignedShort((short) 11910);
-			int i_39_ = stream.method9784(1857721091);
-			int i_40_ = stream.method9734((byte) 0);
-			int i_41_ = stream.method9732((short) 6408) * 4;
-			int i_42_ = stream.method9743((byte) -36);
-			int i_43_ = stream.method9749(1767720971);
+			int i_39_ = stream.readUnsignedShortLE(1857721091);
+			int i_40_ = stream.readByteC((byte) 0);
+			int i_41_ = stream.readUnsigned128Byte((short) 6408) * 4;
+			int i_42_ = stream.readShortLE((byte) -36);
+			int i_43_ = stream.read128Byte(1767720971);
 			int i_44_ = stream.readUnsignedShort((short) -8099);
 			int i_45_ = stream.readUnsignedByte128((byte) 0);
-			int i_46_ = stream.method9743((byte) 2);
+			int i_46_ = stream.readShortLE((byte) 2);
 			boolean bool = 0 != (i_36_ & 0x1);
 			boolean bool_47_ = 0 != (i_36_ & 0x2);
 			int i_48_ = bool_47_ ? i_36_ >> 2 : -1;
@@ -297,8 +297,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4762 == class106.aClass422_1261) {
-			int i_51_ = stream.method9709(177512929);
-			int i_52_ = stream.method9746((short) 17000);
+			int i_51_ = stream.readInt(177512929);
+			int i_52_ = stream.readLEInt((short) 17000);
 			Class307.method4133(535796566);
 			Class206.method2961(i_51_, 1, i_52_, -1, -1187242940);
 			class106.aClass422_1261 = null;
@@ -314,9 +314,9 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4739) {
 			if (!client.aBool11172) {
 				try {
-					int i_53_ = stream.method9732((short) 6408);
-					int i_54_ = stream.method9731(2146787458);
-					int i_55_ = stream.method9731(2087792396);
+					int i_53_ = stream.readUnsigned128Byte((short) 6408);
+					int i_54_ = stream.readUnsignedByteC(2146787458);
+					int i_55_ = stream.readUnsignedByteC(2087792396);
 					client.aClass231_11088.method3301(i_54_, (byte) 96).method3171(i_53_, i_55_, 1375161968);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) 12);
@@ -332,7 +332,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4676 == class106.aClass422_1261) {
-			int i_56_ = stream.method9709(245373128);
+			int i_56_ = stream.readInt(245373128);
 			int i_57_ = stream.readUnsignedShortLE128(836343643);
 			Class307.method4133(1498609946);
 			Class458_Sub1.method9335(i_56_, i_57_, (byte) 41);
@@ -340,8 +340,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN) {
-			int i_58_ = stream.method9731(2092511843);
-			int i_59_ = stream.method9783(-1696944063);
+			int i_58_ = stream.readUnsignedByteC(2092511843);
+			int i_59_ = stream.readIntV1(-1696944063);
 			int i_60_ = stream.readUnsignedByte128((byte) 0);
 			Class611.aClass602_7930.method7174(i_60_, (byte) 97);
 			Class465_Sub1.aClass96_10352.aClass618Array1167[i_60_].method7380(i_59_, (byte) 18);
@@ -359,7 +359,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4718 == class106.aClass422_1261) {
 			int i_62_ = stream.readUnsignedShortLE128(864524272);
-			int i_63_ = stream.method9709(189278483);
+			int i_63_ = stream.readInt(189278483);
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7270((Class324) Class56.aClass34_Sub14_608.method70(i_62_, (byte) -70), i_63_, (byte) -30);
 			class106.aClass422_1261 = null;
 			return true;
@@ -372,12 +372,12 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4638) {
 			boolean bool = stream.readUnsignedByte(-1837796039) == 1;
-			String string = stream.method9695((byte) 12);
+			String string = stream.readString((byte) 12);
 			String string_64_ = string;
 			if (bool)
-				string_64_ = stream.method9695((byte) 84);
+				string_64_ = stream.readString((byte) 84);
 			long l = (long) stream.readUnsignedShort((short) 18822);
-			long l_65_ = (long) stream.method9742(1417052576);
+			long l_65_ = (long) stream.read24BitUnsignedInteger(1417052576);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(992299809), stream.readUnsignedByte(-781469006), 1858049507));
 			int i_66_ = stream.readUnsignedShort((short) 3002);
 			long l_67_ = l_65_ + (l << 32);
@@ -407,8 +407,8 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4772 == class106.aClass422_1261) {
 			if (!client.aBool11172) {
 				try {
-					int i_71_ = stream.method9750((byte) 48);
-					byte i_72_ = stream.method9733(-558707467);
+					int i_71_ = stream.readIntV2((byte) 48);
+					byte i_72_ = stream.readByte128(-558707467);
 					client.aClass231_11088.method3312(new Class223(i_71_), i_72_, (byte) 45);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) 5);
@@ -426,16 +426,16 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4757 == class106.aClass422_1261) {
-			Class605.method7209(stream.method9695((byte) 26), -495480453);
+			Class605.method7209(stream.readString((byte) 26), -495480453);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.INTERFACE_SETTINGS) {
-			int i_75_ = stream.method9709(-98296257);
-			int i_76_ = stream.method9784(-1304136376);
+			int i_75_ = stream.readInt(-98296257);
+			int i_76_ = stream.readUnsignedShortLE(-1304136376);
 			if (65535 == i_76_)
 				i_76_ = -1;
-			int i_77_ = stream.method9783(1917565545);
+			int i_77_ = stream.readIntV1(1917565545);
 			int i_78_ = stream.readUnsignedShort128(-1859364434);
 			if (65535 == i_78_)
 				i_78_ = -1;
@@ -461,7 +461,7 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4637) {
 			if (!client.aBool11172) {
 				try {
-					int i_81_ = stream.method9731(2119084835);
+					int i_81_ = stream.readUnsignedByteC(2119084835);
 					client.aClass231_11088.method3304(i_81_, (byte) 1);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) 48);
@@ -472,7 +472,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4741) {
-			int i_82_ = stream.method9746((short) -25363);
+			int i_82_ = stream.readLEInt((short) -25363);
 			Class307.method4133(701092169);
 			Class536_Sub36 class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method556((long) i_82_));
 			if (class536_sub36 != null)
@@ -497,8 +497,8 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4597 == class106.aClass422_1261) {
 			if (!client.aBool11172) {
 				try {
-					int i_83_ = stream.method9732((short) 6408);
-					int i_84_ = stream.method9731(2112267845);
+					int i_83_ = stream.readUnsigned128Byte((short) 6408);
+					int i_84_ = stream.readUnsignedByteC(2112267845);
 					client.aClass231_11088.method3301(i_83_, (byte) 112).method3196(i_84_, -1142076290);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) 6);
@@ -509,10 +509,10 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4618 == class106.aClass422_1261) {
-			int i_85_ = stream.method9732((short) 6408);
-			int i_86_ = stream.method9732((short) 6408);
+			int i_85_ = stream.readUnsigned128Byte((short) 6408);
+			int i_86_ = stream.readUnsigned128Byte((short) 6408);
 			int i_87_ = stream.readUnsignedShortLE128(397896859);
-			int i_88_ = stream.method9731(2091196352);
+			int i_88_ = stream.readUnsignedByteC(2091196352);
 			int i_89_ = stream.readUnsignedByte(1619798121);
 			Class307.method4133(1669230654);
 			client.aBoolArray11270[i_89_] = true;
@@ -529,13 +529,13 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4608) {
 			boolean bool = stream.readUnsignedByte(-930175198) == 1;
-			String string = stream.method9695((byte) 90);
+			String string = stream.readString((byte) 90);
 			String string_90_ = string;
 			if (bool)
-				string_90_ = stream.method9695((byte) 37);
-			String string_91_ = stream.method9695((byte) 48);
+				string_90_ = stream.readString((byte) 37);
+			String string_91_ = stream.readString((byte) 48);
 			long l = (long) stream.readUnsignedShort((short) 19043);
-			long l_92_ = (long) stream.method9742(1868228596);
+			long l_92_ = (long) stream.read24BitUnsignedInteger(1868228596);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-969837515), stream.readUnsignedByte(1482402622), 1858049507));
 			int i_93_ = stream.readUnsignedShort((short) -3694);
 			long l_94_ = l_92_ + (l << 32);
@@ -574,7 +574,7 @@ public class PacketDecoder {
 			Class307.method4133(1238636060);
 			if (Class463.aClass234Array5227[i_98_] != null) {
 				for (int i_101_ = i_99_; i_101_ < i_100_; i_101_++) {
-					int i_102_ = stream.method9742(1254797117);
+					int i_102_ = stream.read24BitUnsignedInteger(1254797117);
 					if (i_101_ < (Class463.aClass234Array5227[i_98_].aClass251Array2378).length && (Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_]) != null)
 						Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_].anInt2558 = 2115749181 * i_102_;
 				}
@@ -583,8 +583,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4765) {
-			int i_103_ = stream.method9709(-1691091547);
-			int i_104_ = stream.method9783(1694378789);
+			int i_103_ = stream.readInt(-1691091547);
+			int i_104_ = stream.readIntV1(1694378789);
 			Class307.method4133(623975570);
 			Class523.method6406(i_104_, i_103_, 1706383974);
 			class106.aClass422_1261 = null;
@@ -627,7 +627,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.CS_VAR_STRING_2 == class106.aClass422_1261) {
 			int i_112_ = stream.readUnsignedShortLE128(-1241584089);
-			String string = stream.method9695((byte) 118);
+			String string = stream.readString((byte) 118);
 			Class307.method4133(2058386477);
 			Class310.method4178(i_112_, string, 728541324);
 			class106.aClass422_1261 = null;
@@ -685,10 +685,10 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4752) {
 			int i_116_ = stream.readUnsignedShortLE128(600034402);
 			int i_117_ = stream.readUnsignedByte128((byte) 0);
-			int i_118_ = stream.method9746((short) -7190);
+			int i_118_ = stream.readLEInt((short) -7190);
 			int i_119_ = stream.readUnsignedByte128((byte) 0);
 			int i_120_ = stream.readUnsignedShort((short) 21015);
-			int i_121_ = stream.method9784(1551211564);
+			int i_121_ = stream.readUnsignedShortLE(1551211564);
 			if (65535 == i_121_)
 				i_121_ = -1;
 			int i_122_ = i_119_ & 0x7;
@@ -820,7 +820,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4774) {
 			int i_144_ = stream.readUnsignedShortLE128(2100742014);
-			int i_145_ = stream.method9784(1201014281);
+			int i_145_ = stream.readUnsignedShortLE(1201014281);
 			Class307.method4133(2039713116);
 			OutgoingPacket.method5027(i_144_, i_145_, 0, (byte) 22);
 			class106.aClass422_1261 = null;
@@ -829,8 +829,8 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4725 == class106.aClass422_1261) {
 			int i_146_ = stream.readUnsignedByte(-818198616);
 			int i_147_ = stream.method9756((byte) 81);
-			int i_148_ = stream.method9784(-1943478255);
-			int i_149_ = stream.method9709(-957469783);
+			int i_148_ = stream.readUnsignedShortLE(-1943478255);
+			int i_149_ = stream.readInt(-957469783);
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_148_));
 			if (null != class536_sub13) {
 				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
@@ -843,7 +843,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4680 == class106.aClass422_1261) {
-			int i_150_ = stream.method9746((short) -3695);
+			int i_150_ = stream.readLEInt((short) -3695);
 			int i_151_ = stream.readUnsignedByte128((byte) 0);
 			Class307.method4133(504751876);
 			Class89.method1228(i_150_, i_151_, 65535);
@@ -860,15 +860,15 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4742) {
-			int i_154_ = stream.method9709(-1618774957);
-			boolean bool = stream.method9731(2114444613) == 1;
+			int i_154_ = stream.readInt(-1618774957);
+			boolean bool = stream.readUnsignedByteC(2114444613) == 1;
 			Class307.method4133(1937765040);
 			Class176.method2455(i_154_, bool, -1287959245);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4663) {
-			int i_155_ = stream.method9709(-393742228);
+			int i_155_ = stream.readInt(-393742228);
 			Class307.method4133(875585948);
 			if (i_155_ == -1) {
 				Class658.anInt8498 = -662013517;
@@ -899,11 +899,11 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4732 == class106.aClass422_1261) {
-			int i_158_ = stream.method9732((short) 6408);
-			int i_159_ = stream.method9732((short) 6408);
-			int i_160_ = stream.method9709(-1009424132);
-			int i_161_ = stream.method9783(-2118483565);
-			int i_162_ = stream.method9731(2129791960);
+			int i_158_ = stream.readUnsigned128Byte((short) 6408);
+			int i_159_ = stream.readUnsigned128Byte((short) 6408);
+			int i_160_ = stream.readInt(-1009424132);
+			int i_161_ = stream.readIntV1(-2118483565);
+			int i_162_ = stream.readUnsignedByteC(2129791960);
 			int i_163_ = i_161_ >> 28;
 			int i_164_ = i_161_ >> 14 & 0x3fff;
 			int i_165_ = i_161_ & 0x3fff;
@@ -916,7 +916,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4756) {
-			int i_166_ = stream.method9783(-2043287527);
+			int i_166_ = stream.readIntV1(-2043287527);
 			int i_167_ = stream.readShort((byte) -93);
 			int i_168_ = stream.method9756((byte) 43);
 			Class307.method4133(2123388555);
@@ -934,11 +934,11 @@ public class PacketDecoder {
 				class106.aClass422_1261 = null;
 				return true;
 			}
-			client.aString11265 = stream.method9695((byte) 7);
+			client.aString11265 = stream.readString((byte) 7);
 			boolean bool = stream.readUnsignedByte(-729681356) == 1;
 			if (bool)
-				stream.method9695((byte) 46);
-			client.aString11137 = stream.method9695((byte) 60);
+				stream.readString((byte) 46);
+			client.aString11137 = stream.readString((byte) 60);
 			Class205_Sub14.aByte9920 = stream.readByte(239997560);
 			int i_169_ = stream.readUnsignedByte(1862599945);
 			if (255 == i_169_) {
@@ -949,16 +949,16 @@ public class PacketDecoder {
 			Class94[] class94s = new Class94[100];
 			for (int i_170_ = 0; i_170_ < Class269.anInt2880 * -918987073; i_170_++) {
 				class94s[i_170_] = new Class94();
-				class94s[i_170_].aString1143 = stream.method9695((byte) 79);
+				class94s[i_170_].aString1143 = stream.readString((byte) 79);
 				bool = stream.readUnsignedByte(536290552) == 1;
 				if (bool)
-					class94s[i_170_].aString1146 = stream.method9695((byte) 21);
+					class94s[i_170_].aString1146 = stream.readString((byte) 21);
 				else
 					class94s[i_170_].aString1146 = class94s[i_170_].aString1143;
 				class94s[i_170_].aString1144 = Class473.method5740(class94s[i_170_].aString1146, Class302.aClass74_3406, (byte) -19);
 				class94s[i_170_].anInt1145 = (stream.readUnsignedShort((short) -6067) * 1991460897);
 				class94s[i_170_].aByte1147 = stream.readByte(712683893);
-				class94s[i_170_].aString1142 = stream.method9695((byte) 104);
+				class94s[i_170_].aString1142 = stream.readString((byte) 104);
 				if (class94s[i_170_].aString1146.equals(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184))
 					Class446.aByte4903 = class94s[i_170_].aByte1147;
 			}
@@ -989,7 +989,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4727) {
 			int i_174_ = stream.readUnsignedShort((short) 6186);
-			String string = stream.method9695((byte) 91);
+			String string = stream.readString((byte) 91);
 			int i_175_ = stream.readUnsignedShort((short) 13533);
 			int i_176_ = stream.readUnsignedShort((short) -12738);
 			boolean bool = stream.readUnsignedByte(2090667502) == 1;
@@ -1002,7 +1002,7 @@ public class PacketDecoder {
 			return false;
 		}
 		if (IncomingPacket.aClass422_4684 == class106.aClass422_1261) {
-			Class689.aString8692 = (class106.anInt1262 * 610303591 > 2 ? stream.method9695((byte) 122) : Class38.aClass38_310.method840(Class459.aClass664_5178, 1640018385));
+			Class689.aString8692 = (class106.anInt1262 * 610303591 > 2 ? stream.readString((byte) 122) : Class38.aClass38_310.method840(Class459.aClass664_5178, 1640018385));
 			client.anInt11035 = (610303591 * class106.anInt1262 > 0 ? stream.readUnsignedShort((short) 4671) : -1) * -1003121495;
 			if (client.anInt11035 * -1869983847 == 65535)
 				client.anInt11035 = 1003121495;
@@ -1010,9 +1010,9 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.CHUNK_SCENE) {
-			Class512.anInt6935 = stream.method9732((short) 6408) * -200495015;
-			Class618.anInt8089 = (stream.method9734((byte) 0) << 3) * 1712069097;
-			Class302.anInt3405 = (stream.method9749(939071228) << 3) * 1163453749;
+			Class512.anInt6935 = stream.readUnsigned128Byte((short) 6408) * -200495015;
+			Class618.anInt8089 = (stream.readByteC((byte) 0) << 3) * 1712069097;
+			Class302.anInt3405 = (stream.read128Byte(939071228) << 3) * 1163453749;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
 				SubIncomingPacket class409 = (Class200.method2916(2017668169)[stream.readUnsignedByte(1008589602)]);
 				PacketDecoder.method4486(class409, (byte) 2);
@@ -1029,7 +1029,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4640) {
-			String string = stream.method9695((byte) 101);
+			String string = stream.readString((byte) 101);
 			String string_177_ = Class166.method1997(Class323.method4257(stream, (byte) 65), (byte) 53);
 			Class635.method7564(6, 0, string, string, string, string_177_, null, -1538266173);
 			class106.aClass422_1261 = null;
@@ -1053,15 +1053,15 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4705 == class106.aClass422_1261) {
-			int i_183_ = stream.method9709(-848875950);
-			boolean bool = stream.method9732((short) 6408) == 1;
+			int i_183_ = stream.readInt(-848875950);
+			boolean bool = stream.readUnsigned128Byte((short) 6408) == 1;
 			Class307.method4133(1525994782);
 			Class538.method6510(i_183_, bool, -659581542);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.aClass422_4743 == class106.aClass422_1261) {
-			int i_184_ = stream.method9750((byte) 27);
+			int i_184_ = stream.readIntV2((byte) 27);
 			if (i_184_ != -1262289085 * Class141.anInt1659) {
 				Class141.anInt1659 = i_184_ * -423557781;
 				Class170.method2421(Class570.aClass570_7618, -1, -1, -2053231966);
@@ -1077,14 +1077,14 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.VARP_1 == class106.aClass422_1261) {
-			int i_185_ = stream.method9784(-243057790);
+			int i_185_ = stream.readUnsignedShortLE(-243057790);
 			byte i_186_ = stream.readByte(459111745);
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7269((Class153) Class532.aClass98_Sub1_Sub1_7122.method70(i_185_, (byte) -6), i_186_, 315754912);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.CS_VAR_2 == class106.aClass422_1261) {
-			int i_187_ = stream.method9750((byte) 5);
+			int i_187_ = stream.readIntV2((byte) 5);
 			int i_188_ = stream.readUnsignedShort((short) -4572);
 			Class307.method4133(1584800844);
 			Class619.method7397(i_188_, i_187_, (byte) 5);
@@ -1093,7 +1093,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.CS_VAR_STRING_1 == class106.aClass422_1261) {
 			int i_189_ = stream.readUnsignedShort((short) -15680);
-			String string = stream.method9695((byte) 48);
+			String string = stream.readString((byte) 48);
 			Class307.method4133(910931344);
 			Class310.method4178(i_189_, string, 728541324);
 			class106.aClass422_1261 = null;
@@ -1105,7 +1105,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4783 == class106.aClass422_1261) {
-			int i_190_ = stream.method9783(874406149);
+			int i_190_ = stream.readIntV1(874406149);
 			Class307.method4133(924952918);
 			Class206.method2961(i_190_, 3, -1791435655 * client.anInt11156, 0, -963718975);
 			class106.aClass422_1261 = null;
@@ -1113,7 +1113,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.MINIMAP_FLAG) {
 			int i_191_ = stream.readUnsignedByte128((byte) 0);
-			int i_192_ = stream.method9731(2118523357);
+			int i_192_ = stream.readUnsignedByteC(2118523357);
 			if (i_192_ == 255) {
 				i_192_ = -1;
 				i_191_ = -1;
@@ -1141,13 +1141,13 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.SET_INTERFACE == class106.aClass422_1261) {
-			int i_195_ = stream.method9732((short) 6408);
-			int i_196_ = stream.method9746((short) -20035);
-			int i_197_ = stream.method9709(-587577476);
-			int i_198_ = stream.method9783(1321714052);
-			int i_199_ = stream.method9783(878440047);
+			int i_195_ = stream.readUnsigned128Byte((short) 6408);
+			int i_196_ = stream.readLEInt((short) -20035);
+			int i_197_ = stream.readInt(-587577476);
+			int i_198_ = stream.readIntV1(1321714052);
+			int i_199_ = stream.readIntV1(878440047);
 			int i_200_ = stream.readUnsignedShort((short) 1733);
-			int i_201_ = stream.method9709(-1859424081);
+			int i_201_ = stream.readInt(-1859424081);
 			Class307.method4133(1648803142);
 			Class681.method8089(i_198_, new Class536_Sub36(i_200_, i_195_), new int[] { i_197_, i_199_, i_201_, i_196_ }, false, 381545503);
 			class106.aClass422_1261 = null;
@@ -1157,8 +1157,8 @@ public class PacketDecoder {
 			if (!client.aBool11172) {
 				try {
 					int i_202_ = stream.readUnsignedByte128((byte) 0);
-					byte i_203_ = stream.method9749(1729044114);
-					int i_204_ = stream.method9750((byte) 109);
+					byte i_203_ = stream.read128Byte(1729044114);
+					int i_204_ = stream.readIntV2((byte) 109);
 					client.aClass231_11088.method3301(i_202_, (byte) 76).method3155(i_204_, i_203_, 1473192922);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) -17);
@@ -1174,7 +1174,7 @@ public class PacketDecoder {
 					for (byte i_205_ = stream.readByte(-1933501494); i_205_ != -1; i_205_ = stream.readByte(732708284)) {
 						for (byte i_206_ = stream.readByte(-703423727); i_206_ != -1; i_206_ = stream.readByte(-989328964)) {
 							for (byte i_207_ = stream.readByte(-1745709370); i_207_ != -1; i_207_ = stream.readByte(-224033791))
-								client.aClass231_11088.method3301(i_205_, (byte) 27).method3173(i_206_, i_207_, Integer.valueOf(stream.method9709(-1935351294)), -829537588);
+								client.aClass231_11088.method3301(i_205_, (byte) 27).method3173(i_206_, i_207_, Integer.valueOf(stream.readInt(-1935351294)), -829537588);
 						}
 					}
 				} catch (RuntimeException runtimeexception) {
@@ -1186,8 +1186,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.CS_VAR_1 == class106.aClass422_1261) {
-			byte i_208_ = stream.method9749(1977713430);
-			int i_209_ = stream.method9784(-283444790);
+			byte i_208_ = stream.read128Byte(1977713430);
+			int i_209_ = stream.readUnsignedShortLE(-283444790);
 			Class307.method4133(442315253);
 			Class619.method7397(i_209_, i_208_, (byte) -49);
 			class106.aClass422_1261 = null;
@@ -1202,7 +1202,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4710) {
-			String string = stream.method9695((byte) 29);
+			String string = stream.readString((byte) 29);
 			int i_213_ = stream.readUnsignedShort((short) -10671);
 			int i_214_ = stream.readUnsignedShort((short) -16582);
 			int i_215_ = stream.readUnsignedShort((short) -21946);
@@ -1214,8 +1214,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4778 == class106.aClass422_1261) {
-			int i_216_ = stream.method9746((short) -10774);
-			int i_217_ = stream.method9746((short) -5842);
+			int i_216_ = stream.readLEInt((short) -10774);
+			int i_217_ = stream.readLEInt((short) -5842);
 			Class307.method4133(1110924356);
 			Class101.method1357(i_216_, i_217_, -1848645974);
 			class106.aClass422_1261 = null;
@@ -1223,9 +1223,9 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4635 == class106.aClass422_1261) {
 			boolean bool = stream.readUnsignedByte(-827153986) == 1;
-			String string = stream.method9695((byte) 127);
+			String string = stream.readString((byte) 127);
 			long l = (long) stream.readUnsignedShort((short) 19692);
-			long l_218_ = (long) stream.method9742(1607406376);
+			long l_218_ = (long) stream.read24BitUnsignedInteger(1607406376);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(1056117194), stream.readUnsignedByte(1693976803), 1858049507));
 			int i_219_ = stream.readUnsignedShort((short) 17345);
 			long l_220_ = l_218_ + (l << 32);
@@ -1285,12 +1285,12 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4717 == class106.aClass422_1261) {
 			boolean bool = stream.readUnsignedByte(483837548) == 1;
-			String string = stream.method9695((byte) 30);
+			String string = stream.readString((byte) 30);
 			String string_226_ = string;
 			if (bool)
-				string_226_ = stream.method9695((byte) 30);
+				string_226_ = stream.readString((byte) 30);
 			long l = (long) stream.readUnsignedShort((short) 3698);
-			long l_227_ = (long) stream.method9742(1856093933);
+			long l_227_ = (long) stream.read24BitUnsignedInteger(1856093933);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-88856294), stream.readUnsignedByte(2051171637), 1858049507));
 			long l_228_ = l_227_ + (l << 32);
 			boolean bool_229_ = false;
@@ -1322,14 +1322,14 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4596) {
-			client.aClass634_11165 = (Class634) Class682.method8091(Class634.method7547((byte) 3), stream.method9732((short) 6408), 1858049507);
+			client.aClass634_11165 = (Class634) Class682.method8091(Class634.method7547((byte) 3), stream.readUnsigned128Byte((short) 6408), 1858049507);
 			if (null == client.aClass634_11165)
 				client.aClass634_11165 = Class634.aClass634_8264;
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.aClass422_4726 == class106.aClass422_1261) {
-			int i_233_ = stream.method9746((short) -12521);
+			int i_233_ = stream.readLEInt((short) -12521);
 			int i_234_ = stream.readUnsignedShort128(-945405436);
 			if (65535 == i_234_)
 				i_234_ = -1;
@@ -1372,15 +1372,15 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.CLIENT_SCRIPT == class106.aClass422_1261) {
-			String string = stream.method9695((byte) 70);
+			String string = stream.readString((byte) 70);
 			Object[] objects = new Object[string.length() + 1];
 			for (int i_241_ = string.length() - 1; i_241_ >= 0; i_241_--) {
 				if (string.charAt(i_241_) == 's')
-					objects[1 + i_241_] = stream.method9695((byte) 70);
+					objects[1 + i_241_] = stream.readString((byte) 70);
 				else
-					objects[1 + i_241_] = new Integer(stream.method9709(-68831783));
+					objects[1 + i_241_] = new Integer(stream.readInt(-68831783));
 			}
-			objects[0] = new Integer(stream.method9709(-534813872));
+			objects[0] = new Integer(stream.readInt(-534813872));
 			Class307.method4133(1612289971);
 			Class536_Sub42 class536_sub42 = new Class536_Sub42();
 			class536_sub42.anObjectArray10802 = objects;
@@ -1400,7 +1400,7 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4758) {
 			boolean bool = stream.readUnsignedByte(-450182029) == 1;
 			long l = (long) stream.readUnsignedShort((short) 6715);
-			long l_242_ = (long) stream.method9742(1049136975);
+			long l_242_ = (long) stream.read24BitUnsignedInteger(1049136975);
 			long l_243_ = l_242_ + (l << 32);
 			boolean bool_244_ = false;
 			Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
@@ -1425,7 +1425,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4712 == class106.aClass422_1261) {
-			int i_247_ = stream.method9709(1278194);
+			int i_247_ = stream.readInt(1278194);
 			if (-271820503 * Class486.anInt5443 != i_247_) {
 				Class486.anInt5443 = -1872014567 * i_247_;
 				Class170.method2421(Class570.aClass570_7616, -1, -1, -1087469756);
@@ -1434,8 +1434,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4716 == class106.aClass422_1261) {
-			int i_248_ = stream.method9709(-236462700);
-			int i_249_ = stream.method9750((byte) 31);
+			int i_248_ = stream.readInt(-236462700);
+			int i_249_ = stream.readIntV2((byte) 31);
 			Class307.method4133(449491630);
 			Class536_Sub36 class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method556((long) i_249_));
 			Class536_Sub36 class536_sub36_250_ = ((Class536_Sub36) client.aClass4_11008.method556((long) i_248_));
@@ -1486,7 +1486,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4592 == class106.aClass422_1261) {
 			int i_254_ = stream.readUnsignedShort((short) 14857);
-			byte i_255_ = stream.method9749(949908795);
+			byte i_255_ = stream.read128Byte(949908795);
 			Class307.method4133(462894061);
 			Class632.method7542(i_254_, i_255_, 1007728958);
 			class106.aClass422_1261 = null;
@@ -1504,7 +1504,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4688) {
-			String string = stream.method9695((byte) 108);
+			String string = stream.readString((byte) 108);
 			Class94.method1288(string, 1216065667);
 			class106.aClass422_1261 = null;
 			return true;
@@ -1520,19 +1520,19 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.GAME_MESSAGE) {
-			int i_256_ = stream.method9690(-1716578671);
-			int i_257_ = stream.method9709(-695986967);
+			int i_256_ = stream.readUnsignedSmart(-1716578671);
+			int i_257_ = stream.readInt(-695986967);
 			int i_258_ = stream.readUnsignedByte(-168339786);
 			String string = "";
 			String string_259_ = string;
 			if (0 != (i_258_ & 0x1)) {
-				string = stream.method9695((byte) 41);
+				string = stream.readString((byte) 41);
 				if (0 != (i_258_ & 0x2))
-					string_259_ = stream.method9695((byte) 86);
+					string_259_ = stream.readString((byte) 86);
 				else
 					string_259_ = string;
 			}
-			String string_260_ = stream.method9695((byte) 12);
+			String string_260_ = stream.readString((byte) 12);
 			if (i_256_ == 99)
 				Class214.method3077(string_260_, -1501945626);
 			else if (98 == i_256_)
@@ -1557,15 +1557,15 @@ public class PacketDecoder {
 			client.aClass231_11088.method3314(-563827227);
 			int i_261_ = stream.readUnsignedByte(-1593848934);
 			for (int i_262_ = 0; i_262_ < i_261_; i_262_++) {
-				int i_263_ = stream.method9709(-884294818);
+				int i_263_ = stream.readInt(-884294818);
 				Class223 class223 = new Class223(i_263_);
 				client.aClass231_11088.method3302(class223, -150234020);
 				int i_264_ = stream.readUnsignedByte(-1623816447);
 				for (int i_265_ = 0; i_265_ < i_264_; i_265_++)
-					class223.method3195(stream.method9709(-1892577959), (byte) -73);
+					class223.method3195(stream.readInt(-1892577959), (byte) -73);
 				int i_266_ = stream.readUnsignedByte(-330101115);
 				for (int i_267_ = 0; i_267_ < i_266_; i_267_++)
-					class223.method3158(stream.method9709(-1618612880), -1259532821);
+					class223.method3158(stream.readInt(-1618612880), -1259532821);
 				for (int i_268_ = 0; i_268_ < i_264_; i_268_++) {
 					byte i_269_ = stream.readByte(-550996363);
 					class223.method3191(i_268_, i_269_, (byte) -27);
@@ -1573,7 +1573,7 @@ public class PacketDecoder {
 						if (stream.readUnsignedByte(-255499592) == 0)
 							class223.method3173(i_268_, i_270_, null, -829537588);
 						else
-							class223.method3173(i_268_, i_270_, Integer.valueOf(stream.method9709(-1933913595)), -829537588);
+							class223.method3173(i_268_, i_270_, Integer.valueOf(stream.readInt(-1933913595)), -829537588);
 					}
 				}
 			}
@@ -1597,9 +1597,9 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4701) {
-			int i_272_ = stream.method9784(-1973088763);
+			int i_272_ = stream.readUnsignedShortLE(-1973088763);
 			int i_273_ = stream.readUnsignedShort128(274892118);
-			int i_274_ = stream.method9783(1710491557);
+			int i_274_ = stream.readIntV1(1710491557);
 			client.aClass515_11066.method6249(458468733).method6739(i_272_, i_274_, i_273_, (byte) 121);
 			class106.aClass422_1261 = null;
 			return true;
@@ -1622,8 +1622,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4776 == class106.aClass422_1261) {
-			int i_275_ = stream.method9709(-1555224967);
-			int i_276_ = stream.method9732((short) 6408);
+			int i_275_ = stream.readInt(-1555224967);
+			int i_276_ = stream.readUnsigned128Byte((short) 6408);
 			i_276_ = -i_276_ - 2;
 			Class307.method4133(1626847991);
 			Class206.method2961(i_275_, 5, i_276_, 0, 619898817);
@@ -1631,7 +1631,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4670) {
-			int i_277_ = stream.method9750((byte) 56);
+			int i_277_ = stream.readIntV2((byte) 56);
 			Class307.method4133(587203635);
 			Class206.method2961(i_277_, 5, -1791435655 * client.anInt11156, 0, 1281313370);
 			class106.aClass422_1261 = null;
@@ -1659,7 +1659,7 @@ public class PacketDecoder {
 				int i_288_ = stream.readUnsignedShort((short) 12329);
 				int i_289_ = stream.readUnsignedByte(-1718329229);
 				if (i_289_ == 255)
-					i_289_ = stream.method9709(-1693906420);
+					i_289_ = stream.readInt(-1693906420);
 				Class21 class21 = null;
 				if (bool_285_) {
 					int i_290_ = stream.readUnsignedByte(-1746643723);
@@ -1678,9 +1678,9 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.OBJECT_RELATED_MAYBE) {
-			Class302.anInt3405 = (stream.method9733(2048685786) << 3) * 1163453749;
-			Class512.anInt6935 = stream.method9732((short) 6408) * -200495015;
-			Class618.anInt8089 = (stream.method9734((byte) 0) << 3) * 1712069097;
+			Class302.anInt3405 = (stream.readByte128(2048685786) << 3) * 1163453749;
+			Class512.anInt6935 = stream.readUnsigned128Byte((short) 6408) * -200495015;
+			Class618.anInt8089 = (stream.readByteC((byte) 0) << 3) * 1712069097;
 			Class598 class598 = client.aClass515_11066.method6255(-1402585475);
 			for (Class536_Sub9 class536_sub9 = ((Class536_Sub9) client.aClass4_11170.method562(-2130479919)); null != class536_sub9; class536_sub9 = (Class536_Sub9) client.aClass4_11170.method567(-960496680)) {
 				int i_291_ = (int) ((class536_sub9.aLong7133 * -6909195213925454795L >> 28) & 0x3L);
@@ -1708,9 +1708,9 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4761 == class106.aClass422_1261) {
 			if (!client.aBool11172) {
 				try {
-					int i_296_ = stream.method9732((short) 6408);
+					int i_296_ = stream.readUnsigned128Byte((short) 6408);
 					int i_297_ = stream.readUnsignedByte(841860034);
-					int i_298_ = stream.method9732((short) 6408);
+					int i_298_ = stream.readUnsigned128Byte((short) 6408);
 					client.aClass231_11088.method3301(i_296_, (byte) 15).method3173(i_298_, i_297_, null, -829537588);
 				} catch (RuntimeException runtimeexception) {
 					Class81.method1165(null, runtimeexception, (byte) -72);
@@ -1771,8 +1771,8 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4591) {
 			if (!client.aBool11172) {
 				try {
-					int i_304_ = stream.method9783(1745653635);
-					byte i_305_ = stream.method9733(1826306673);
+					int i_304_ = stream.readIntV1(1745653635);
+					byte i_305_ = stream.readByte128(1826306673);
 					int i_306_ = stream.readUnsignedByte128((byte) 0);
 					client.aClass231_11088.method3301(i_306_, (byte) 75).method3162(i_304_, i_305_, -1566474308);
 				} catch (RuntimeException runtimeexception) {
@@ -1784,10 +1784,10 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4679 == class106.aClass422_1261) {
-			int i_307_ = stream.method9784(518961735);
+			int i_307_ = stream.readUnsignedShortLE(518961735);
 			int[] is = new int[4];
 			for (int i_308_ = 0; i_308_ < 4; i_308_++)
-				is[i_308_] = stream.method9709(-805049950);
+				is[i_308_] = stream.readInt(-805049950);
 			int i_309_ = stream.readUnsignedByte(-310201989);
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_307_));
 			if (null != class536_sub13)
@@ -1796,7 +1796,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4652 == class106.aClass422_1261) {
-			int i_310_ = stream.method9731(2049527275);
+			int i_310_ = stream.readUnsignedByteC(2049527275);
 			Class307.method4133(656864585);
 			client.anInt11132 = 1448609337 * i_310_;
 			class106.aClass422_1261 = null;
@@ -1804,7 +1804,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4711) {
 			int i_311_ = stream.readUnsignedShortLE128(989500869);
-			int i_312_ = stream.method9746((short) -3173);
+			int i_312_ = stream.readLEInt((short) -3173);
 			Class307.method4133(582300002);
 			Class96.method1313(i_312_, i_311_, (byte) 5);
 			class106.aClass422_1261 = null;
@@ -1830,9 +1830,9 @@ public class PacketDecoder {
 			boolean bool = stream.readUnsignedByte(513500533) == 1;
 			stream.method10776(is, 0, class106.anInt1262 * 610303591 - 1, -399442820);
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-			String string = class536_sub33.method9695((byte) 20);
+			String string = class536_sub33.readString((byte) 20);
 			if (bool) {
-				String string_313_ = class536_sub33.method9695((byte) 84);
+				String string_313_ = class536_sub33.readString((byte) 84);
 				if (string_313_.length() == 0)
 					string_313_ = string;
 				if (!client.aBool10984 || Class241.aString2456.startsWith("mac") || !Class575.method7000(string, 1, Class412.aClass412_4392.method5005(1262993710), -1538496515))
@@ -1843,18 +1843,18 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4627) {
-			int i_314_ = stream.method9783(1269064996);
-			int i_315_ = stream.method9783(-349710077);
-			int i_316_ = stream.method9709(114870310);
-			int i_317_ = stream.method9709(19496994);
-			Class598 class598 = new Class598(stream.method9709(-1128931701));
+			int i_314_ = stream.readIntV1(1269064996);
+			int i_315_ = stream.readIntV1(-349710077);
+			int i_316_ = stream.readInt(114870310);
+			int i_317_ = stream.readInt(19496994);
+			Class598 class598 = new Class598(stream.readInt(-1128931701));
 			int i_318_ = stream.readUnsignedByte(1174713833);
 			int i_319_ = stream.readUnsignedShort128(2110211738);
-			int i_320_ = stream.method9750((byte) 70);
-			int i_321_ = stream.method9731(2049164705);
+			int i_320_ = stream.readIntV2((byte) 70);
+			int i_321_ = stream.readUnsignedByteC(2049164705);
 			int i_322_ = i_321_ >> 2;
 			int i_323_ = i_321_ & 0x3;
-			int i_324_ = stream.method9709(-1923838278);
+			int i_324_ = stream.readInt(-1923838278);
 			Class307.method4133(1327782545);
 			Class681.method8089(i_324_, new Class536_Sub36_Sub4(i_319_, i_318_, new Class675(class598, i_322_, i_323_, i_320_)), new int[] { i_314_, i_317_, i_315_, i_316_ }, false, -747535247);
 			class106.aClass422_1261 = null;
@@ -1882,9 +1882,9 @@ public class PacketDecoder {
 			int i_328_ = stream.readUnsignedShortLE128(1250656143);
 			if (65535 == i_328_)
 				i_328_ = -1;
-			String string = stream.method9695((byte) 15);
-			int i_329_ = stream.method9731(2117636233);
-			int i_330_ = stream.method9731(2121530556);
+			String string = stream.readString((byte) 15);
+			int i_329_ = stream.readUnsignedByteC(2117636233);
+			int i_330_ = stream.readUnsignedByteC(2121530556);
 			if (i_329_ >= 1 && i_329_ <= 8) {
 				if (string.equalsIgnoreCase("null"))
 					string = null;
@@ -1897,9 +1897,9 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4681 == class106.aClass422_1261) {
 			boolean bool = stream.readUnsignedByte(-1560390849) == 1;
-			String string = stream.method9695((byte) 41);
+			String string = stream.readString((byte) 41);
 			long l = (long) stream.readUnsignedShort((short) 5379);
-			long l_331_ = (long) stream.method9742(1867459018);
+			long l_331_ = (long) stream.read24BitUnsignedInteger(1867459018);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-1200400101), stream.readUnsignedByte(-1433169905), 1858049507));
 			long l_332_ = l_331_ + (l << 32);
 			boolean bool_333_ = false;
@@ -1937,8 +1937,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4683 == class106.aClass422_1261) {
-			int i_337_ = stream.method9750((byte) 78);
-			int i_338_ = stream.method9783(345668772);
+			int i_337_ = stream.readIntV2((byte) 78);
+			int i_338_ = stream.readIntV1(345668772);
 			Class307.method4133(2078426416);
 			Class639.method7667(i_337_, i_338_, (short) 18545);
 			class106.aClass422_1261 = null;
@@ -1962,9 +1962,9 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4744 == class106.aClass422_1261) {
-			int i_339_ = stream.method9783(1732890326);
-			int i_340_ = stream.method9783(985714510);
-			int i_341_ = stream.method9784(570231657);
+			int i_339_ = stream.readIntV1(1732890326);
+			int i_340_ = stream.readIntV1(985714510);
+			int i_341_ = stream.readUnsignedShortLE(570231657);
 			Class307.method4133(2129576418);
 			Class206.method2961(i_340_, 5, i_341_, i_339_, -1639689697);
 			class106.aClass422_1261 = null;
@@ -1998,11 +1998,11 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4664) {
-			int i_344_ = stream.method9709(-821986113);
-			int i_345_ = stream.method9709(-1872946599);
-			int i_346_ = stream.method9709(-1785370321);
-			int i_347_ = stream.method9746((short) -20275);
-			int i_348_ = stream.method9784(1374129592);
+			int i_344_ = stream.readInt(-821986113);
+			int i_345_ = stream.readInt(-1872946599);
+			int i_346_ = stream.readInt(-1785370321);
+			int i_347_ = stream.readLEInt((short) -20275);
+			int i_348_ = stream.readUnsignedShortLE(1374129592);
 			stream.readUnsignedByte(1136283640);
 			Class307.method4133(2093223952);
 			int[] is = { i_347_, i_346_, i_345_, i_344_ };
@@ -2034,36 +2034,36 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4603 == class106.aClass422_1261) {
-			int i_350_ = stream.method9746((short) -13328);
-			int i_351_ = stream.method9784(-1132308925);
-			Class598 class598 = new Class598(stream.method9750((byte) 64));
-			int i_352_ = stream.method9783(1675826448);
+			int i_350_ = stream.readLEInt((short) -13328);
+			int i_351_ = stream.readUnsignedShortLE(-1132308925);
+			Class598 class598 = new Class598(stream.readIntV2((byte) 64));
+			int i_352_ = stream.readIntV1(1675826448);
 			int i_353_ = stream.readUnsignedShort((short) -11626);
-			int i_354_ = stream.method9746((short) -7759);
-			int i_355_ = stream.method9783(148470886);
-			int i_356_ = stream.method9732((short) 6408);
-			int i_357_ = stream.method9709(-1884410711);
+			int i_354_ = stream.readLEInt((short) -7759);
+			int i_355_ = stream.readIntV1(148470886);
+			int i_356_ = stream.readUnsigned128Byte((short) 6408);
+			int i_357_ = stream.readInt(-1884410711);
 			Class307.method4133(1623836219);
 			Class681.method8089(i_354_, new Class536_Sub36_Sub1(i_351_, i_356_, new Class666(class598, i_353_)), new int[] { i_357_, i_355_, i_352_, i_350_ }, false, -1604120929);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.VARP_2 == class106.aClass422_1261) {
-			int i_358_ = stream.method9783(1516315141);
+			int i_358_ = stream.readIntV1(1516315141);
 			int i_359_ = stream.readUnsignedShortLE128(2024123955);
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7269((Class153) Class532.aClass98_Sub1_Sub1_7122.method70(i_359_, (byte) 19), i_358_, 315754912);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4707) {
-			int i_360_ = stream.method9750((byte) 99);
-			int i_361_ = stream.method9783(1995401690);
+			int i_360_ = stream.readIntV2((byte) 99);
+			int i_361_ = stream.readIntV1(1995401690);
 			int i_362_ = stream.readUnsignedShort((short) -8692);
-			int i_363_ = stream.method9783(36536670);
-			int i_364_ = stream.method9783(-1264097841);
+			int i_363_ = stream.readIntV1(36536670);
+			int i_364_ = stream.readIntV1(-1264097841);
 			int i_365_ = stream.readUnsignedByte128((byte) 0);
 			int i_366_ = stream.readUnsignedShort((short) -10905);
-			int i_367_ = stream.method9783(222574626);
+			int i_367_ = stream.readIntV1(222574626);
 			Class307.method4133(1247866678);
 			Class681.method8089(i_361_, new Class536_Sub36_Sub2(i_366_, i_365_, i_362_), new int[] { i_364_, i_363_, i_367_, i_360_ }, false, -176012196);
 			class106.aClass422_1261 = null;
@@ -2076,13 +2076,13 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4660 == class106.aClass422_1261) {
 			boolean bool = stream.readUnsignedByte(-524597996) == 1;
-			String string = stream.method9695((byte) 41);
+			String string = stream.readString((byte) 41);
 			String string_368_ = string;
 			if (bool)
-				string_368_ = stream.method9695((byte) 61);
-			String string_369_ = stream.method9695((byte) 76);
+				string_368_ = stream.readString((byte) 61);
+			String string_369_ = stream.readString((byte) 76);
 			long l = (long) stream.readUnsignedShort((short) -12598);
-			long l_370_ = (long) stream.method9742(1954072536);
+			long l_370_ = (long) stream.read24BitUnsignedInteger(1954072536);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-142450876), stream.readUnsignedByte(1174713083), 1858049507));
 			long l_371_ = l_370_ + (l << 32);
 			boolean bool_372_ = false;
@@ -2118,14 +2118,14 @@ public class PacketDecoder {
 			boolean bool = 0 != (i_376_ & 0x1);
 			boolean bool_377_ = (i_376_ & 0x2) != 0;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
-				int i_378_ = stream.method9690(-884015614);
+				int i_378_ = stream.readUnsignedSmart(-884015614);
 				int i_379_ = stream.readUnsignedShort((short) 9163);
 				int i_380_ = 0;
 				Class21 class21 = null;
 				if (i_379_ != 0) {
 					i_380_ = stream.readUnsignedByte(349034117);
 					if (255 == i_380_)
-						i_380_ = stream.method9709(-1032806409);
+						i_380_ = stream.readInt(-1032806409);
 					if (bool_377_) {
 						int i_381_ = stream.readUnsignedByte(1081634806);
 						if (i_381_ > 0) {
@@ -2189,7 +2189,7 @@ public class PacketDecoder {
 					class103.anInt1227 = ((stream.readUnsignedByte(1879070793) << 2) * -842481877);
 					class103.anInt1228 = (stream.readUnsignedShort((short) 4811) * -511359211);
 				}
-				class103.anInt1229 = stream.method9709(-2089672735) * -275637823;
+				class103.anInt1229 = stream.readInt(-2089672735) * -275637823;
 				client.aClass103Array11020[i_383_] = class103;
 			}
 			class106.aClass422_1261 = null;
@@ -2197,7 +2197,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4699) {
 			int i_385_ = stream.readUnsignedShortLE128(-2055158136);
-			int i_386_ = stream.method9750((byte) 124);
+			int i_386_ = stream.readIntV2((byte) 124);
 			Class307.method4133(2066628023);
 			Class632.method7542(i_385_, i_386_, 1007728958);
 			class106.aClass422_1261 = null;
@@ -2207,7 +2207,7 @@ public class PacketDecoder {
 			int i_387_ = stream.readUnsignedShortLE128(1519482618);
 			if (i_387_ == 65535)
 				i_387_ = -1;
-			int i_388_ = stream.method9731(2057652562);
+			int i_388_ = stream.readUnsignedByteC(2057652562);
 			Class184_Sub2.aClass211_9442.method3010(i_387_, i_388_, -2081939247);
 			class106.aClass422_1261 = null;
 			return true;
@@ -2232,7 +2232,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4619 == class106.aClass422_1261) {
-			String string = stream.method9695((byte) 107);
+			String string = stream.readString((byte) 107);
 			int i_391_ = stream.readUnsignedShort((short) -10126);
 			String string_392_ = Class198.aClass32_2216.method788(i_391_, (byte) -1).method10712(stream, (byte) -92);
 			Class536_Sub18_Sub2.method10491(19, 0, string, string, string, string_392_, null, i_391_, null, -705262347);
@@ -2246,7 +2246,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4698 == class106.aClass422_1261) {
 			int i_393_ = stream.readUnsignedShort128(-104959035);
-			int i_394_ = stream.method9746((short) -8270);
+			int i_394_ = stream.readLEInt((short) -8270);
 			int i_395_ = stream.readUnsignedShortLE128(-1553252779);
 			int i_396_ = stream.readUnsignedShortLE128(1108270550);
 			Class307.method4133(633901917);
@@ -2255,8 +2255,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4625) {
-			String string = stream.method9695((byte) 70);
-			int i_397_ = stream.method9746((short) 3810);
+			String string = stream.readString((byte) 70);
+			int i_397_ = stream.readLEInt((short) 3810);
 			Class307.method4133(904620690);
 			Class98_Sub1_Sub1.method10476(i_397_, string, (byte) 2);
 			class106.aClass422_1261 = null;
@@ -2290,19 +2290,19 @@ public class PacketDecoder {
 			int i_405_ = stream.readUnsignedByte(-645910243);
 			int i_406_ = stream.readUnsignedShort((short) 18081);
 			int i_407_ = stream.readUnsignedShortLE128(184267289);
-			int i_408_ = stream.method9709(-1826815411);
-			int i_409_ = stream.method9750((byte) 95);
-			int i_410_ = stream.method9750((byte) 33);
-			int i_411_ = stream.method9709(-1784482402);
-			int i_412_ = stream.method9750((byte) 86);
+			int i_408_ = stream.readInt(-1826815411);
+			int i_409_ = stream.readIntV2((byte) 95);
+			int i_410_ = stream.readIntV2((byte) 33);
+			int i_411_ = stream.readInt(-1784482402);
+			int i_412_ = stream.readIntV2((byte) 86);
 			Class307.method4133(2023747132);
 			Class681.method8089(i_412_, new Class536_Sub36_Sub3(i_407_, i_405_, i_406_), new int[] { i_409_, i_410_, i_408_, i_411_ }, false, 373228862);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.aClass422_4747 == class106.aClass422_1261) {
-			int i_413_ = stream.method9783(685232434);
-			int i_414_ = stream.method9709(-1215175031);
+			int i_413_ = stream.readIntV1(685232434);
+			int i_414_ = stream.readInt(-1215175031);
 			Class307.method4133(641389734);
 			Class251 class251 = Class264.method3678(i_413_, -689214737);
 			class251.anInt2604 = -1513859745 * i_414_;
@@ -2334,8 +2334,8 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4771) {
 			while (stream.off * -810172525 < 610303591 * class106.anInt1262) {
 				boolean bool = stream.readUnsignedByte(721358896) == 1;
-				String string = stream.method9695((byte) 44);
-				String string_419_ = stream.method9695((byte) 53);
+				String string = stream.readString((byte) 44);
+				String string_419_ = stream.readString((byte) 53);
 				int i_420_ = stream.readUnsignedShort((short) -14360);
 				int i_421_ = stream.readUnsignedByte(2030086391);
 				int i_422_ = stream.readUnsignedByte(-46628619);
@@ -2345,11 +2345,11 @@ public class PacketDecoder {
 				int i_426_ = -1;
 				int i_427_ = 0;
 				if (i_420_ > 0) {
-					string_425_ = stream.method9695((byte) 12);
+					string_425_ = stream.readString((byte) 12);
 					i_426_ = stream.readUnsignedByte(144194719);
-					i_427_ = stream.method9709(254323523);
+					i_427_ = stream.readInt(254323523);
 				}
-				String string_428_ = stream.method9695((byte) 12);
+				String string_428_ = stream.readString((byte) 12);
 				for (int i_429_ = 0; i_429_ < 142551095 * client.anInt11288; i_429_++) {
 					Class31 class31 = client.aClass31Array11291[i_429_];
 					if (!bool) {
@@ -2439,9 +2439,9 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4593 == class106.aClass422_1261) {
 			int i_436_ = stream.readUnsignedShortLE128(1924573080);
-			int i_437_ = stream.method9784(-1203516850);
-			int i_438_ = stream.method9709(-544146677);
-			int i_439_ = stream.method9784(908741859);
+			int i_437_ = stream.readUnsignedShortLE(-1203516850);
+			int i_438_ = stream.readInt(-544146677);
+			int i_439_ = stream.readUnsignedShortLE(908741859);
 			Class307.method4133(1743113828);
 			Class504_Sub1.method9322(i_438_, i_437_, i_436_, i_439_, (byte) -42);
 			class106.aClass422_1261 = null;
@@ -2469,8 +2469,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4700 == class106.aClass422_1261) {
-			int i_442_ = stream.method9709(-949612800);
-			int i_443_ = stream.method9783(538073548);
+			int i_442_ = stream.readInt(-949612800);
+			int i_443_ = stream.readIntV1(538073548);
 			int i_444_ = stream.readUnsignedShort128(1157186173);
 			if (i_444_ == 65535)
 				i_444_ = -1;
@@ -2486,9 +2486,9 @@ public class PacketDecoder {
 			while (stream.off * -810172525 < 610303591 * class106.anInt1262) {
 				int i_445_ = stream.readUnsignedByte(825309493);
 				boolean bool = (i_445_ & 0x1) == 1;
-				String string = stream.method9695((byte) 29);
-				String string_446_ = stream.method9695((byte) 20);
-				String string_447_ = stream.method9695((byte) 31);
+				String string = stream.readString((byte) 29);
+				String string_446_ = stream.readString((byte) 20);
+				String string_447_ = stream.readString((byte) 31);
 				for (int i_448_ = 0; i_448_ < 1857706641 * client.anInt11293; i_448_++) {
 					Class30 class30 = client.aClass30Array11295[i_448_];
 					if (bool) {
@@ -2541,8 +2541,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4695 == class106.aClass422_1261) {
-			int i_450_ = stream.method9709(-1089719132);
-			int i_451_ = stream.method9709(-1404030183);
+			int i_450_ = stream.readInt(-1089719132);
+			int i_451_ = stream.readInt(-1404030183);
 			Class307.method4133(487387222);
 			Class206.method2961(i_450_, 2, i_451_, -1, -900449254);
 			class106.aClass422_1261 = null;
@@ -2558,7 +2558,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4641) {
 			int i_453_ = stream.readUnsignedByte128((byte) 0);
-			int i_454_ = stream.method9731(2019135956);
+			int i_454_ = stream.readUnsignedByteC(2019135956);
 			int i_455_ = stream.readUnsignedShort128(129373237) << 2;
 			int i_456_ = stream.readUnsignedByte128((byte) 0);
 			int i_457_ = stream.readUnsignedByte128((byte) 0);
@@ -2568,10 +2568,10 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4662) {
-			int i_458_ = stream.method9750((byte) 4);
-			int i_459_ = stream.method9784(165099853);
-			int i_460_ = stream.method9784(727870195);
-			int i_461_ = stream.method9732((short) 6408);
+			int i_458_ = stream.readIntV2((byte) 4);
+			int i_459_ = stream.readUnsignedShortLE(165099853);
+			int i_460_ = stream.readUnsignedShortLE(727870195);
+			int i_461_ = stream.readUnsigned128Byte((short) 6408);
 			Class307.method4133(1618062267);
 			Class193.method2852(i_458_, i_461_, i_460_, i_459_, -2047575529);
 			class106.aClass422_1261 = null;
@@ -2601,9 +2601,9 @@ public class PacketDecoder {
 			return false;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4751) {
-			String string = stream.method9695((byte) 118);
+			String string = stream.readString((byte) 118);
 			long l = (long) stream.readUnsignedShort((short) 8567);
-			long l_464_ = (long) stream.method9742(1995733377);
+			long l_464_ = (long) stream.read24BitUnsignedInteger(1995733377);
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-153815932), stream.readUnsignedByte(214482197), 1858049507));
 			boolean bool = stream.readUnsignedByte(-1608350713) == 1;
 			int i_465_ = stream.readUnsignedShort((short) 2844);
@@ -2637,22 +2637,22 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4714 == class106.aClass422_1261) {
-			int i_471_ = stream.method9709(81059795);
-			int i_472_ = stream.method9709(-1909749949);
+			int i_471_ = stream.readInt(81059795);
+			int i_472_ = stream.readInt(-1909749949);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4432, class106.aClass15_1258, 2050670086);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9738(i_471_, (byte) 38);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9745(i_472_, 1795793310);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i_471_, (byte) 38);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(i_472_, 1795793310);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt6856 * -311312947, 465637339);
 			class106.method1409(class536_sub23, 1563853139);
 			class106.aClass422_1261 = null;
 			return true;
 		}
 		if (IncomingPacket.aClass422_4781 == class106.aClass422_1261) {
-			String string = stream.method9695((byte) 46);
+			String string = stream.readString((byte) 46);
 			boolean bool = stream.readUnsignedByte(63137111) == 1;
 			String string_473_;
 			if (bool)
-				string_473_ = stream.method9695((byte) 32);
+				string_473_ = stream.readString((byte) 32);
 			else
 				string_473_ = string;
 			int i_474_ = stream.readUnsignedShort((short) -10710);
@@ -2677,7 +2677,7 @@ public class PacketDecoder {
 					Class360_Sub1.aClass94Array10168[(Class269.anInt2880 * -918987073)] = null;
 				}
 			} else {
-				String string_479_ = stream.method9695((byte) 103);
+				String string_479_ = stream.readString((byte) 103);
 				Class94 class94 = new Class94();
 				class94.aString1143 = string;
 				class94.aString1146 = string_473_;
@@ -2743,11 +2743,11 @@ public class PacketDecoder {
 					Class52.method934(-502818839 * Class512.anInt6935, i_20_, i_18_, (byte) -78);
 			}
 		} else if (packet == SubIncomingPacket.aClass409_4318) {
-			int i_23_ = stream.method9750((byte) 25);
-			int i_24_ = stream.method9732((short) 6408);
+			int i_23_ = stream.readIntV2((byte) 25);
+			int i_24_ = stream.readUnsigned128Byte((short) 6408);
 			int i_25_ = (i_24_ >> 4 & 0x7) + 421791005 * Class302.anInt3405;
 			int i_26_ = (i_24_ & 0x7) + 1895190105 * Class618.anInt8089;
-			int i_27_ = stream.method9732((short) 6408);
+			int i_27_ = stream.readUnsigned128Byte((short) 6408);
 			int i_28_ = stream.readUnsignedByte(1906791061);
 			int i_29_ = i_28_ >> 2;
 			int i_30_ = i_28_ & 0x3;
@@ -2755,12 +2755,12 @@ public class PacketDecoder {
 			if (client.aClass515_11066.method6315(-1448576844) != Class498.aClass498_5556)
 				Class400.method4919(Class512.anInt6935 * -502818839, i_25_, i_26_, i_31_, i_29_, i_30_, i_23_, i_27_, -1602183746);
 		} else if (SubIncomingPacket.aClass409_4309 == packet) {
-			int i_32_ = stream.method9732((short) 6408);
+			int i_32_ = stream.readUnsigned128Byte((short) 6408);
 			int i_33_ = stream.readUnsignedByte128((byte) 0);
 			int i_34_ = 421791005 * Class302.anInt3405 + (i_33_ >> 4 & 0x7);
 			int i_35_ = (i_33_ & 0x7) + Class618.anInt8089 * 1895190105;
-			int i_36_ = stream.method9750((byte) 109);
-			int i_37_ = stream.method9732((short) 6408);
+			int i_36_ = stream.readIntV2((byte) 109);
+			int i_37_ = stream.readUnsigned128Byte((short) 6408);
 			int i_38_ = i_37_ >> 2;
 			int i_39_ = client.anIntArray11315[i_38_];
 			if (i_38_ == -723459231 * Class606.aClass606_7894.anInt7878)
@@ -2773,7 +2773,7 @@ public class PacketDecoder {
 					int i_40_ = stream.readUnsignedByte(-86223438);
 					is = new int[i_40_];
 					for (int i_41_ = 0; i_41_ < i_40_; i_41_++)
-						is[i_41_] = stream.method9709(-817802818);
+						is[i_41_] = stream.readInt(-817802818);
 				}
 				short[] is_42_ = null;
 				if ((i_32_ & 0x4) == 4) {
@@ -2823,19 +2823,19 @@ public class PacketDecoder {
 				}
 			}
 		} else if (SubIncomingPacket.aClass409_4321 == packet) {
-			int i_59_ = stream.method9709(-1852249529);
+			int i_59_ = stream.readInt(-1852249529);
 			int i_60_ = stream.readUnsignedByte(971206581);
 			((Class612) client.aClass515_11066.method6280(-1073841494).method70(i_59_, (byte) 92)).method7286(i_60_, 900619132);
 		} else if (SubIncomingPacket.aClass409_4308 == packet) {
 			int i_61_ = stream.readUnsignedShort128(-1623947832);
-			int i_62_ = stream.method9784(-676623503);
-			int i_63_ = stream.method9731(2019893646);
+			int i_62_ = stream.readUnsignedShortLE(-676623503);
+			int i_63_ = stream.readUnsignedByteC(2019893646);
 			Class598 class598 = client.aClass515_11066.method6255(-1484901764);
 			int i_64_ = (i_63_ & 0x7) + 1895190105 * Class618.anInt8089;
 			int i_65_ = class598.anInt7840 * 1479112045 + i_64_;
 			int i_66_ = (i_63_ >> 4 & 0x7) + 421791005 * Class302.anInt3405;
 			int i_67_ = class598.anInt7839 * 1858049507 + i_66_;
-			int i_68_ = stream.method9784(950360396);
+			int i_68_ = stream.readUnsignedShortLE(950360396);
 			if (i_61_ != client.anInt11156 * -1791435655) {
 				boolean bool = (i_66_ >= 0 && i_64_ >= 0 && i_66_ < client.aClass515_11066.method6321((byte) 77) && (i_64_ < client.aClass515_11066.method6243(177401017)));
 				if (bool || client.aClass515_11066.method6315(-1959926438).method6015((short) -8192)) {
@@ -2845,7 +2845,7 @@ public class PacketDecoder {
 				}
 			}
 		} else if (SubIncomingPacket.aClass409_4316 == packet) {
-			int i_69_ = stream.method9731(2039686976);
+			int i_69_ = stream.readUnsignedByteC(2039686976);
 			int i_70_ = i_69_ >> 2;
 			int i_71_ = i_69_ & 0x3;
 			int i_72_ = client.anIntArray11315[i_70_];
@@ -2882,8 +2882,8 @@ public class PacketDecoder {
 			int i_84_ = (i_82_ & 0x7) + Class618.anInt8089 * 1895190105;
 			int i_85_ = stream.readUnsignedShort((short) -19424);
 			int i_86_ = stream.readUnsignedByte(-1405516636);
-			int i_87_ = stream.method9742(2015090931);
-			String string = stream.method9695((byte) 48);
+			int i_87_ = stream.read24BitUnsignedInteger(2015090931);
+			String string = stream.readString((byte) 48);
 			if (client.aClass515_11066.method6315(95863962) != Class498.aClass498_5556)
 				Class21.method707(-502818839 * Class512.anInt6935, i_83_, i_84_, i_86_, i_85_, i_87_, string, 217843226);
 		} else if (SubIncomingPacket.aClass409_4312 == packet) {
@@ -2975,14 +2975,14 @@ public class PacketDecoder {
 				}
 			}
 		} else if (SubIncomingPacket.aClass409_4311 == packet) {
-			int i_127_ = stream.method9732((short) 6408);
+			int i_127_ = stream.readUnsigned128Byte((short) 6408);
 			int i_128_ = i_127_ >> 2;
 			int i_129_ = i_127_ & 0x3;
 			int i_130_ = client.anIntArray11315[i_128_];
 			int i_131_ = stream.readUnsignedByte128((byte) 0);
 			int i_132_ = Class302.anInt3405 * 421791005 + (i_131_ >> 4 & 0x7);
 			int i_133_ = (i_131_ & 0x7) + Class618.anInt8089 * 1895190105;
-			int i_134_ = stream.method9746((short) 3822);
+			int i_134_ = stream.readLEInt((short) 3822);
 			if (client.aClass515_11066.method6315(-434956694).method6015((short) -8192) || (i_132_ >= 0 && i_133_ >= 0 && i_132_ < client.aClass515_11066.method6321((byte) 48) && i_133_ < client.aClass515_11066.method6243(177401017)))
 				SubIncomingPacket.method4972(Class512.anInt6935 * -502818839, i_132_, i_133_, i_130_, i_134_, i_128_, i_129_, (byte) 35);
 		} else if (packet == SubIncomingPacket.aClass409_4320) {

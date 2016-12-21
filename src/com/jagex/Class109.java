@@ -66,7 +66,7 @@ public class Class109 {
 		int i_0_ = class536_sub33.readShort((byte) -76);
 		int i_1_ = class536_sub33.readShort((byte) -20);
 		int i_2_ = class536_sub33.method9720((byte) 1);
-		int i_3_ = class536_sub33.method9709(-1725565352);
+		int i_3_ = class536_sub33.readInt(-1725565352);
 		int i_4_ = class536_sub33.readUnsignedByte(-68858208);
 		return new Class394(class395, class399, i_0_, i_1_, i_2_, i_3_, i_4_);
 	}

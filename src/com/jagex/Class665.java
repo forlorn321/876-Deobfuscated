@@ -22,7 +22,7 @@ public class Class665 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_6_ = -1;
 		for (;;) {
-			int i_7_ = class536_sub33.method9719(-2142398867);
+			int i_7_ = class536_sub33.readSmart(-2142398867);
 			if (i_7_ == 0)
 				break;
 			i_6_ += i_7_;
@@ -30,12 +30,12 @@ public class Class665 {
 			boolean bool = false;
 			for (;;) {
 				if (bool) {
-					int i_9_ = class536_sub33.method9690(1373299542);
+					int i_9_ = class536_sub33.readUnsignedSmart(1373299542);
 					if (0 == i_9_)
 						break;
 					class536_sub33.readUnsignedByte(918185060);
 				} else {
-					int i_10_ = class536_sub33.method9690(-165930225);
+					int i_10_ = class536_sub33.readUnsignedSmart(-165930225);
 					if (i_10_ == 0)
 						break;
 					i_8_ += i_10_ - 1;
