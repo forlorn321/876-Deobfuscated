@@ -14,7 +14,7 @@ public class Class14 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(2094166406);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			method625(class536_sub33, i_0_, 2136956551);
@@ -29,13 +29,13 @@ public class Class14 implements Interface13, Interface7 {
 
 	void method625(RSByteBuffer class536_sub33, int i, int i_2_) {
 		if (i == 3) {
-			int i_3_ = class536_sub33.readUnsignedByte(629120211);
+			int i_3_ = class536_sub33.readUnsignedByte();
 			if (anObjectArrayArray163 == null) {
 				anObjectArrayArray163 = new Object[i_3_][];
 				aClass453ArrayArray162 = new Class453[i_3_][];
 			}
-			for (int i_4_ = class536_sub33.readUnsignedByte(636028548); i_4_ != 255; i_4_ = class536_sub33.readUnsignedByte(-511011414)) {
-				int i_5_ = class536_sub33.readUnsignedByte(2064233753);
+			for (int i_4_ = class536_sub33.readUnsignedByte(); i_4_ != 255; i_4_ = class536_sub33.readUnsignedByte()) {
+				int i_5_ = class536_sub33.readUnsignedByte();
 				Class453[] class453s = new Class453[i_5_];
 				for (int i_6_ = 0; i_6_ < i_5_; i_6_++)
 					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.readUnsignedSmart(817183114), 1858049507));
@@ -51,7 +51,7 @@ public class Class14 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-1788770001);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method625(class536_sub33, i, 2144856946);
@@ -80,13 +80,13 @@ public class Class14 implements Interface13, Interface7 {
 
 	void method626(RSByteBuffer class536_sub33, int i) {
 		if (i == 3) {
-			int i_8_ = class536_sub33.readUnsignedByte(1879427844);
+			int i_8_ = class536_sub33.readUnsignedByte();
 			if (anObjectArrayArray163 == null) {
 				anObjectArrayArray163 = new Object[i_8_][];
 				aClass453ArrayArray162 = new Class453[i_8_][];
 			}
-			for (int i_9_ = class536_sub33.readUnsignedByte(-1320034841); i_9_ != 255; i_9_ = class536_sub33.readUnsignedByte(1193398871)) {
-				int i_10_ = class536_sub33.readUnsignedByte(284481902);
+			for (int i_9_ = class536_sub33.readUnsignedByte(); i_9_ != 255; i_9_ = class536_sub33.readUnsignedByte()) {
+				int i_10_ = class536_sub33.readUnsignedByte();
 				Class453[] class453s = new Class453[i_10_];
 				for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 					class453s[i_11_] = ((Class453) Class682.method8091(Class453.method5438((byte) 85), class536_sub33.readUnsignedSmart(-574705817), 1858049507));

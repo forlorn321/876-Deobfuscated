@@ -34,7 +34,7 @@ public class Class622 {
 
 	void method7414(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-990260025);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			if (1 == i_0_)
@@ -44,9 +44,9 @@ public class Class622 {
 			else if (3 == i_0_)
 				anInt8120 = class536_sub33.readInt() * -122991621;
 			else if (4 == i_0_)
-				anInt8125 = class536_sub33.readUnsignedByte(261847487) * 2043721265;
+				anInt8125 = class536_sub33.readUnsignedByte() * 2043721265;
 			else if (i_0_ == 5)
-				anInt8122 = class536_sub33.readUnsignedByte(389351295) * -1183133043;
+				anInt8122 = class536_sub33.readUnsignedByte() * -1183133043;
 			else if (i_0_ == 6)
 				anInt8123 = class536_sub33.readInt() * 1083493521;
 			else if (7 == i_0_)
@@ -68,7 +68,7 @@ public class Class622 {
 
 	void method7415(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-647868047);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			if (1 == i)
@@ -78,9 +78,9 @@ public class Class622 {
 			else if (3 == i)
 				anInt8120 = class536_sub33.readInt() * -122991621;
 			else if (4 == i)
-				anInt8125 = class536_sub33.readUnsignedByte(-778473523) * 2043721265;
+				anInt8125 = class536_sub33.readUnsignedByte() * 2043721265;
 			else if (i == 5)
-				anInt8122 = class536_sub33.readUnsignedByte(-552606997) * -1183133043;
+				anInt8122 = class536_sub33.readUnsignedByte() * -1183133043;
 			else if (i == 6)
 				anInt8123 = class536_sub33.readInt() * 1083493521;
 			else if (7 == i)

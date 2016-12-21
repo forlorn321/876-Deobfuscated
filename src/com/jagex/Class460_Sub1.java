@@ -102,7 +102,7 @@ public class Class460_Sub1 extends Class460 {
 					aClass536_Sub33_5199.off += 516175515 * i_4_;
 					if (aClass536_Sub33_5199.off * -810172525 >= 5) {
 						aClass536_Sub33_5199.off = 0;
-						int i_6_ = aClass536_Sub33_5199.readUnsignedByte(912308683);
+						int i_6_ = aClass536_Sub33_5199.readUnsignedByte();
 						int i_7_ = aClass536_Sub33_5199.readInt();
 						boolean bool_8_ = (i_7_ & ~0x7fffffff) != 0;
 						int i_9_ = i_7_ & 0x7fffffff;
@@ -146,7 +146,7 @@ public class Class460_Sub1 extends Class460 {
 						aClass536_Sub33_5200.off += i_10_ * 516175515;
 						if (aClass536_Sub33_5200.off * -810172525 >= 5) {
 							aClass536_Sub33_5200.off = 0;
-							int i_12_ = aClass536_Sub33_5200.readUnsignedByte(-1610964705);
+							int i_12_ = aClass536_Sub33_5200.readUnsignedByte();
 							int i_13_ = aClass536_Sub33_5200.readInt();
 							int i_14_ = 5;
 							if (i_12_ != Class463.aClass463_5222.method78())
@@ -341,7 +341,7 @@ public class Class460_Sub1 extends Class460 {
 					aClass536_Sub33_5199.off += 516175515 * i_19_;
 					if (aClass536_Sub33_5199.off * -810172525 >= 5) {
 						aClass536_Sub33_5199.off = 0;
-						int i_21_ = aClass536_Sub33_5199.readUnsignedByte(239073951);
+						int i_21_ = aClass536_Sub33_5199.readUnsignedByte();
 						int i_22_ = aClass536_Sub33_5199.readInt();
 						boolean bool_23_ = (i_22_ & ~0x7fffffff) != 0;
 						int i_24_ = i_22_ & 0x7fffffff;
@@ -385,7 +385,7 @@ public class Class460_Sub1 extends Class460 {
 						aClass536_Sub33_5200.off += i_25_ * 516175515;
 						if (aClass536_Sub33_5200.off * -810172525 >= 5) {
 							aClass536_Sub33_5200.off = 0;
-							int i_27_ = aClass536_Sub33_5200.readUnsignedByte(-396665850);
+							int i_27_ = aClass536_Sub33_5200.readUnsignedByte();
 							int i_28_ = aClass536_Sub33_5200.readInt();
 							int i_29_ = 5;
 							if (i_27_ != Class463.aClass463_5222.method78())
@@ -494,7 +494,7 @@ public class Class460_Sub1 extends Class460 {
 					aClass536_Sub33_5199.off += 516175515 * i_34_;
 					if (aClass536_Sub33_5199.off * -810172525 >= 5) {
 						aClass536_Sub33_5199.off = 0;
-						int i_36_ = aClass536_Sub33_5199.readUnsignedByte(1805547090);
+						int i_36_ = aClass536_Sub33_5199.readUnsignedByte();
 						int i_37_ = aClass536_Sub33_5199.readInt();
 						boolean bool_38_ = (i_37_ & ~0x7fffffff) != 0;
 						int i_39_ = i_37_ & 0x7fffffff;
@@ -538,7 +538,7 @@ public class Class460_Sub1 extends Class460 {
 						aClass536_Sub33_5200.off += i_40_ * 516175515;
 						if (aClass536_Sub33_5200.off * -810172525 >= 5) {
 							aClass536_Sub33_5200.off = 0;
-							int i_42_ = aClass536_Sub33_5200.readUnsignedByte(1528287487);
+							int i_42_ = aClass536_Sub33_5200.readUnsignedByte();
 							int i_43_ = aClass536_Sub33_5200.readInt();
 							int i_44_ = 5;
 							if (i_42_ != Class463.aClass463_5222.method78())

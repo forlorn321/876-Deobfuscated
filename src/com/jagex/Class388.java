@@ -33,7 +33,7 @@ public class Class388 implements Interface49 {
 	static void method4849(byte[] is, byte i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		for (;;) {
-			int i_1_ = class536_sub33.readUnsignedByte(-1155982523);
+			int i_1_ = class536_sub33.readUnsignedByte();
 			if (i_1_ == 0)
 				break;
 			if (1 == i_1_)

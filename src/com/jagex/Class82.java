@@ -18,7 +18,7 @@ public class Class82 {
 	}
 
 	void method1167(RSByteBuffer class536_sub33, int i) {
-		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 49), class536_sub33.readUnsignedByte(-627153052), 1858049507));
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 49), class536_sub33.readUnsignedByte(), 1858049507));
 		int i_0_ = class536_sub33.method9760(1002504547);
 		aMap862 = new HashMap(i_0_);
 		while (i_0_-- > 0) {
@@ -34,7 +34,7 @@ public class Class82 {
 	}
 
 	void method1168(RSByteBuffer class536_sub33) {
-		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 4), class536_sub33.readUnsignedByte(-121320683), 1858049507));
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 4), class536_sub33.readUnsignedByte(), 1858049507));
 		int i = class536_sub33.method9760(-583183743);
 		aMap862 = new HashMap(i);
 		while (i-- > 0) {
@@ -50,7 +50,7 @@ public class Class82 {
 	}
 
 	void method1169(RSByteBuffer class536_sub33) {
-		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) -26), class536_sub33.readUnsignedByte(278390821), 1858049507));
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) -26), class536_sub33.readUnsignedByte(), 1858049507));
 		int i = class536_sub33.method9760(-726109448);
 		aMap862 = new HashMap(i);
 		while (i-- > 0) {

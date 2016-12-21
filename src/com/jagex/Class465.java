@@ -236,13 +236,13 @@ public class Class465 {
 		if (i_37_ >= 0 && i_37_ < 312855363 * anInt5242 && i_38_ >= 0 && i_38_ < -183622811 * anInt5284) {
 			if (!aBool5298 && !bool)
 				aClass455_5232.aByteArrayArrayArray5154[i][i_37_][i_38_] = (byte) 0;
-			int i_45_ = class536_sub33.readUnsignedByte(-636320033);
+			int i_45_ = class536_sub33.readUnsignedByte();
 			if ((i_45_ & 0x1) != 0) {
 				if (bool) {
-					class536_sub33.readUnsignedByte(539932743);
+					class536_sub33.readUnsignedByte();
 					class536_sub33.readUnsignedSmart(1049340241);
 				} else {
-					int i_46_ = class536_sub33.readUnsignedByte(1938038646);
+					int i_46_ = class536_sub33.readUnsignedByte();
 					aShortArrayArrayArray5251[i][i_37_][i_38_] = (short) class536_sub33.readUnsignedSmart(-10189450);
 					aByteArrayArrayArray5267[i][i_37_][i_38_] = (byte) (i_46_ >> 2);
 					aByteArrayArrayArray5249[i][i_37_][i_38_] = (byte) (i_46_ + i_43_ & 0x3);
@@ -261,7 +261,7 @@ public class Class465 {
 					aShortArrayArrayArray5297[i][i_37_][i_38_] = (short) class536_sub33.readUnsignedSmart(676079446);
 			}
 			if (0 != (i_45_ & 0x8)) {
-				int i_47_ = class536_sub33.readUnsignedByte(-678145255);
+				int i_47_ = class536_sub33.readUnsignedByte();
 				if (!aBool5298) {
 					if (1 == i_47_)
 						i_47_ = 0;
@@ -278,9 +278,9 @@ public class Class465 {
 			else
 				anIntArrayArrayArray5245[i][i_39_ + i_37_][i_38_ + i_40_] = (anIntArrayArrayArray5245[i - 1][i_39_ + i_37_][i_40_ + i_38_]) - 960;
 		} else {
-			int i_48_ = class536_sub33.readUnsignedByte(-1510536867);
+			int i_48_ = class536_sub33.readUnsignedByte();
 			if ((i_48_ & 0x1) != 0) {
-				class536_sub33.readUnsignedByte(-516938882);
+				class536_sub33.readUnsignedByte();
 				class536_sub33.readUnsignedSmart(975062169);
 			}
 			if ((i_48_ & 0x2) != 0)
@@ -288,7 +288,7 @@ public class Class465 {
 			if ((i_48_ & 0x4) != 0)
 				class536_sub33.readUnsignedSmart(-634765368);
 			if ((i_48_ & 0x8) != 0)
-				class536_sub33.readUnsignedByte(-891238090);
+				class536_sub33.readUnsignedByte();
 		}
 	}
 

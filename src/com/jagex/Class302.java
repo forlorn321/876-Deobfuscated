@@ -8,7 +8,7 @@ public class Class302 {
 	static Class302 aClass302_3402 = new Class302(0);
 	int anInt3403;
 	static Class302 aClass302_3404 = new Class302(1);
-	static int anInt3405;
+	static int sceneX;
 	static Class74 aClass74_3406;
 
 	static {
@@ -54,11 +54,11 @@ public class Class302 {
 			class536_sub33_sub2.readUnsignedShort();
 			int i_9_ = Class95.anIntArray1160[i_8_];
 			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_9_];
-			int i_10_ = class536_sub33_sub2.readUnsignedByte(436508792);
+			int i_10_ = class536_sub33_sub2.readUnsignedByte();
 			if (0 != (i_10_ & 0x80))
-				i_10_ += class536_sub33_sub2.readUnsignedByte(1375913767) << 8;
+				i_10_ += class536_sub33_sub2.readUnsignedByte() << 8;
 			if ((i_10_ & 0x800) != 0)
-				i_10_ += class536_sub33_sub2.readUnsignedByte(1232302269) << 16;
+				i_10_ += class536_sub33_sub2.readUnsignedByte() << 16;
 			Class630.method7528(class536_sub33_sub2, i_9_, class649_sub1_sub5_sub1_sub2, i_10_, -1006281053);
 		}
 	}

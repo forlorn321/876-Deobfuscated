@@ -54,7 +54,7 @@ public class Class190 {
 
 	Class190(RSByteBuffer class536_sub33) {
 		anInt2151 = class536_sub33.method9720((byte) 1) * -1653441889;
-		aClass606_2147 = ((Class606) Class682.method8091(Class145.method1800((byte) 41), class536_sub33.readUnsignedByte(48062149), 1858049507));
+		aClass606_2147 = ((Class606) Class682.method8091(Class145.method1800((byte) 41), class536_sub33.readUnsignedByte(), 1858049507));
 	}
 
 	void method2822() {

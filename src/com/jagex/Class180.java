@@ -67,17 +67,17 @@ public class Class180 {
 		RSByteBuffer class536_sub33_3_ = new RSByteBuffer(is);
 		RSByteBuffer class536_sub33_4_ = new RSByteBuffer(is);
 		RSByteBuffer class536_sub33_5_ = new RSByteBuffer(is);
-		int i = class536_sub33.readUnsignedByte(-754494728);
+		int i = class536_sub33.readUnsignedByte();
 		if (i != 1)
 			System.out.println(new StringBuilder().append("").append(i).toString());
 		else {
-			class536_sub33.readUnsignedByte(-1394872575);
-			anInt1949 = class536_sub33.readUnsignedByte(2024470016);
+			class536_sub33.readUnsignedByte();
+			anInt1949 = class536_sub33.readUnsignedByte();
 			class536_sub33.off = (is.length - 26) * 516175515;
 			anInt1947 = class536_sub33.readUnsignedShort();
 			anInt1961 = class536_sub33.readUnsignedShort();
 			anInt1983 = class536_sub33.readUnsignedShort();
-			int i_6_ = class536_sub33.readUnsignedByte(689930672);
+			int i_6_ = class536_sub33.readUnsignedByte();
 			boolean bool = (i_6_ & 0x1) == 1;
 			boolean bool_7_ = (i_6_ & 0x2) == 2;
 			boolean bool_8_ = (i_6_ & 0x4) == 4;
@@ -85,11 +85,11 @@ public class Class180 {
 			boolean bool_10_ = (i_6_ & 0x20) == 32;
 			boolean bool_11_ = (i_6_ & 0x40) == 64;
 			boolean bool_12_ = (i_6_ & 0x80) == 128;
-			int i_13_ = class536_sub33.readUnsignedByte(-1358366833);
-			int i_14_ = class536_sub33.readUnsignedByte(-463364679);
-			int i_15_ = class536_sub33.readUnsignedByte(-1504477819);
-			int i_16_ = class536_sub33.readUnsignedByte(-1739634526);
-			int i_17_ = class536_sub33.readUnsignedByte(1737328774);
+			int i_13_ = class536_sub33.readUnsignedByte();
+			int i_14_ = class536_sub33.readUnsignedByte();
+			int i_15_ = class536_sub33.readUnsignedByte();
+			int i_16_ = class536_sub33.readUnsignedByte();
+			int i_17_ = class536_sub33.readUnsignedByte();
 			int i_18_ = class536_sub33.readUnsignedShort();
 			int i_19_ = class536_sub33.readUnsignedShort();
 			int i_20_ = class536_sub33.readUnsignedShort();
@@ -241,7 +241,7 @@ public class Class180 {
 			int i_61_ = 0;
 			int i_62_ = 0;
 			for (int i_63_ = 0; i_63_ < anInt1947; i_63_++) {
-				int i_64_ = class536_sub33.readUnsignedByte(591455118);
+				int i_64_ = class536_sub33.readUnsignedByte();
 				int i_65_ = 0;
 				if ((i_64_ & 0x1) != 0)
 					i_65_ = class536_sub33_0_.method9717(820906235);
@@ -261,7 +261,7 @@ public class Class180 {
 					if (bool_9_)
 						anIntArray1953[i_63_] = class536_sub33_3_.method9718(-548226866);
 					else {
-						anIntArray1953[i_63_] = class536_sub33_3_.readUnsignedByte(237594799);
+						anIntArray1953[i_63_] = class536_sub33_3_.readUnsignedByte();
 						if (anIntArray1953[i_63_] == 255)
 							anIntArray1953[i_63_] = -1;
 					}
@@ -276,7 +276,7 @@ public class Class180 {
 				int i_69_ = 0;
 				for (/**/; i_68_ < anInt1947; i_68_++) {
 					anIntArray1955[i_68_] = i_69_;
-					i_69_ += class536_sub33.readUnsignedByte(-438283524);
+					i_69_ += class536_sub33.readUnsignedByte();
 				}
 				aByteArray1965 = new byte[anInt1961];
 				aByteArray1966 = new byte[anInt1961];
@@ -307,7 +307,7 @@ public class Class180 {
 					if (bool_10_)
 						anIntArray1974[i_70_] = class536_sub33_3_.method9718(-1797195785);
 					else {
-						anIntArray1974[i_70_] = class536_sub33_3_.readUnsignedByte(-578003960);
+						anIntArray1974[i_70_] = class536_sub33_3_.readUnsignedByte();
 						if (anIntArray1974[i_70_] == 255)
 							anIntArray1974[i_70_] = -1;
 					}
@@ -319,7 +319,7 @@ public class Class180 {
 						if (anInt1949 >= 16)
 							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedSmart(-1171833351) - 1);
 						else
-							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedByte(-962449944) - 1);
+							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedByte() - 1);
 					} else
 						aShortArray1982[i_70_] = (short) -1;
 				}
@@ -338,7 +338,7 @@ public class Class180 {
 			method2696(class536_sub33, class536_sub33_0_, class536_sub33_1_, class536_sub33_2_, class536_sub33_3_, class536_sub33_4_);
 			class536_sub33.off = i_52_ * 516175515;
 			if (bool_7_) {
-				int i_71_ = class536_sub33.readUnsignedByte(707242869);
+				int i_71_ = class536_sub33.readUnsignedByte();
 				if (i_71_ > 0) {
 					aClass172Array1992 = new Class172[i_71_];
 					for (int i_72_ = 0; i_72_ < i_71_; i_72_++) {
@@ -352,7 +352,7 @@ public class Class180 {
 						aClass172Array1992[i_72_] = new Class172(i_73_, i_74_, aShortArray1962[i_74_], aShortArray1979[i_74_], aShortArray1964[i_74_], i_75_);
 					}
 				}
-				int i_76_ = class536_sub33.readUnsignedByte(1949668045);
+				int i_76_ = class536_sub33.readUnsignedByte();
 				if (i_76_ > 0) {
 					aClass156Array1993 = new Class156[i_76_];
 					for (int i_77_ = 0; i_77_ < i_76_; i_77_++) {
@@ -363,7 +363,7 @@ public class Class180 {
 				}
 			}
 			if (bool_8_) {
-				int i_80_ = class536_sub33.readUnsignedByte(481128948);
+				int i_80_ = class536_sub33.readUnsignedByte();
 				if (i_80_ > 0) {
 					aClass170Array1994 = new Class170[i_80_];
 					for (int i_81_ = 0; i_81_ < i_80_; i_81_++) {
@@ -373,7 +373,7 @@ public class Class180 {
 						if (bool_11_)
 							i_84_ = class536_sub33.method9718(1501331514);
 						else {
-							i_84_ = class536_sub33.readUnsignedByte(1476953775);
+							i_84_ = class536_sub33.readUnsignedByte();
 							if (i_84_ == 255)
 								i_84_ = -1;
 						}
@@ -391,7 +391,7 @@ public class Class180 {
 		short i_89_ = 0;
 		int i_90_ = 0;
 		for (int i_91_ = 0; i_91_ < anInt1961; i_91_++) {
-			int i_92_ = class536_sub33_86_.readUnsignedByte(987625960);
+			int i_92_ = class536_sub33_86_.readUnsignedByte();
 			int i_93_ = i_92_ & 0x7;
 			if (i_93_ == 1) {
 				aShortArray1962[i_91_] = i = (short) (class536_sub33.method9717(-1668628526) + i_90_);
@@ -440,9 +440,9 @@ public class Class180 {
 					anInt1951 = i_89_;
 			}
 			if (anInt1963 > 0 && (i_92_ & 0x8) != 0) {
-				aByteArray1965[i_91_] = (byte) class536_sub33_87_.readUnsignedByte(-366307523);
-				aByteArray1966[i_91_] = (byte) class536_sub33_87_.readUnsignedByte(-1644487906);
-				aByteArray1967[i_91_] = (byte) class536_sub33_87_.readUnsignedByte(1698301414);
+				aByteArray1965[i_91_] = (byte) class536_sub33_87_.readUnsignedByte();
+				aByteArray1966[i_91_] = (byte) class536_sub33_87_.readUnsignedByte();
+				aByteArray1967[i_91_] = (byte) class536_sub33_87_.readUnsignedByte();
 			}
 		}
 		anInt1951++;

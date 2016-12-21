@@ -113,9 +113,9 @@ public class Class677 implements Interface13 {
 			else if (i == 6)
 				anInt8606 = class536_sub33.readUnsignedShort() * -826171463;
 			else if (7 == i)
-				anInt8603 = class536_sub33.readUnsignedByte(1496970537) * 2036244865;
+				anInt8603 = class536_sub33.readUnsignedByte() * 2036244865;
 			else if (8 == i)
-				anInt8597 = class536_sub33.readUnsignedByte(-187321902) * 1566793321;
+				anInt8597 = class536_sub33.readUnsignedByte() * 1566793321;
 			else if (i == 10)
 				aBool8604 = true;
 			else if (i == 9) {
@@ -128,7 +128,7 @@ public class Class677 implements Interface13 {
 				aByte8602 = (byte) 3;
 				anInt8608 = class536_sub33.readInt() * -1205010889;
 			} else if (i == 40) {
-				int i_16_ = class536_sub33.readUnsignedByte(-585419297);
+				int i_16_ = class536_sub33.readUnsignedByte();
 				aShortArray8595 = new short[i_16_];
 				aShortArray8596 = new short[i_16_];
 				for (int i_17_ = 0; i_17_ < i_16_; i_17_++) {
@@ -136,7 +136,7 @@ public class Class677 implements Interface13 {
 					aShortArray8596[i_17_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_18_ = class536_sub33.readUnsignedByte(264828832);
+				int i_18_ = class536_sub33.readUnsignedByte();
 				aShortArray8594 = new short[i_18_];
 				aShortArray8598 = new short[i_18_];
 				for (int i_19_ = 0; i_19_ < i_18_; i_19_++) {
@@ -192,7 +192,7 @@ public class Class677 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-284090080);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method8044(class536_sub33, i, (byte) -32);
@@ -240,7 +240,7 @@ public class Class677 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_45_ = class536_sub33.readUnsignedByte(-1124297716);
+			int i_45_ = class536_sub33.readUnsignedByte();
 			if (0 == i_45_)
 				break;
 			method8044(class536_sub33, i_45_, (byte) -16);
@@ -329,8 +329,8 @@ public class Class677 implements Interface13 {
 					i_51_ -= class589.anIntArrayArray7775[i_50_][1];
 			}
 		}
-		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-193218004), i, -502818839 * Class512.anInt6935, Class512.anInt6935 * -502818839, i_53_, i_54_, i_51_, client.anInt11014 + i_57_, client.anInt11014 + i_58_, i_59_, i_60_, i_48_, i_49_, i_52_, bool, i_50_, i_61_);
-		class649_sub1_sub5_sub6.method11046(i_55_, i_56_, Class54.method944(i_55_, i_56_, -502818839 * Class512.anInt6935, 1507692935) - i_52_, i_57_ + client.anInt11014, -1657848192);
+		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-193218004), i, -502818839 * Class512.scenePlane, Class512.scenePlane * -502818839, i_53_, i_54_, i_51_, client.anInt11014 + i_57_, client.anInt11014 + i_58_, i_59_, i_60_, i_48_, i_49_, i_52_, bool, i_50_, i_61_);
+		class649_sub1_sub5_sub6.method11046(i_55_, i_56_, Class54.method944(i_55_, i_56_, -502818839 * Class512.scenePlane, 1507692935) - i_52_, i_57_ + client.anInt11014, -1657848192);
 		client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), -419514451);
 	}
 

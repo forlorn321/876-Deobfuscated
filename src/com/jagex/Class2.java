@@ -435,19 +435,19 @@ public class Class2 {
 	Class2(byte[] is, Interface4 interface4) {
 		anInterface4_94 = interface4;
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-		int i = class536_sub33.readUnsignedByte(-829072627);
+		int i = class536_sub33.readUnsignedByte();
 		if (0 != i)
 			throw new RuntimeException("");
-		boolean bool = class536_sub33.readUnsignedByte(1205703563) == 1;
+		boolean bool = class536_sub33.readUnsignedByte() == 1;
 		aByteArray88 = new byte[256];
 		class536_sub33.method9716(aByteArray88, 0, 256, -741920053);
 		if (bool) {
 			int[] is_73_ = new int[256];
 			int[] is_74_ = new int[256];
 			for (int i_75_ = 0; i_75_ < 256; i_75_++)
-				is_73_[i_75_] = class536_sub33.readUnsignedByte(1834796416);
+				is_73_[i_75_] = class536_sub33.readUnsignedByte();
 			for (int i_76_ = 0; i_76_ < 256; i_76_++)
-				is_74_[i_76_] = class536_sub33.readUnsignedByte(-1359637577);
+				is_74_[i_76_] = class536_sub33.readUnsignedByte();
 			byte[][] is_77_ = new byte[256][];
 			for (int i_78_ = 0; i_78_ < 256; i_78_++) {
 				is_77_[i_78_] = new byte[is_73_[i_78_]];
@@ -477,10 +477,10 @@ public class Class2 {
 			}
 			anInt90 = (is_74_[32] + is_73_[32]) * 510043469;
 		} else
-			anInt90 = class536_sub33.readUnsignedByte(2136047983) * 510043469;
-		class536_sub33.readUnsignedByte(-143191872);
-		class536_sub33.readUnsignedByte(-1647788727);
-		anInt91 = class536_sub33.readUnsignedByte(2035577082) * -823578575;
-		anInt92 = class536_sub33.readUnsignedByte(-400340417) * 1130301475;
+			anInt90 = class536_sub33.readUnsignedByte() * 510043469;
+		class536_sub33.readUnsignedByte();
+		class536_sub33.readUnsignedByte();
+		anInt91 = class536_sub33.readUnsignedByte() * -823578575;
+		anInt92 = class536_sub33.readUnsignedByte() * 1130301475;
 	}
 }

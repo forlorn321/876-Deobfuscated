@@ -200,11 +200,11 @@ public class Class333_Sub2 extends Class333 {
 	}
 
 	public void method4348(RSByteBuffer class536_sub33, byte i) {
-		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(1040712873), (byte) 99);
+		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(), (byte) 99);
 		int i_29_ = class536_sub33.readUnsignedShort();
 		aClass436_10027.method5242(class536_sub33);
 		aClass425_10030.method5085(class536_sub33);
-		if (class536_sub33.readUnsignedByte(1174380179) == 1)
+		if (class536_sub33.readUnsignedByte() == 1)
 			aBool10026 = true;
 		else
 			aBool10026 = false;
@@ -301,11 +301,11 @@ public class Class333_Sub2 extends Class333 {
 	}
 
 	public void method4358(RSByteBuffer class536_sub33) {
-		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(1261496755), (byte) 37);
+		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(), (byte) 37);
 		int i = class536_sub33.readUnsignedShort();
 		aClass436_10027.method5242(class536_sub33);
 		aClass425_10030.method5085(class536_sub33);
-		if (class536_sub33.readUnsignedByte(-1738206720) == 1)
+		if (class536_sub33.readUnsignedByte() == 1)
 			aBool10026 = true;
 		else
 			aBool10026 = false;

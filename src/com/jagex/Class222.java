@@ -146,11 +146,11 @@ public class Class222 {
 			aLong2313 = -589872936712312469L;
 		if (bool_6_)
 			aString2319 = class536_sub33.method9713(16509697);
-		int i = class536_sub33.readUnsignedByte(1378872148);
+		int i = class536_sub33.readUnsignedByte();
 		aBool2318 = (i & 0x1) != 0;
 		aBool2322 = 0 != (i & 0x2);
 		aClass618Array2316 = new Class618[interface28.method159(1739425037).method7173(-1912091677)];
-		int i_7_ = class536_sub33.readUnsignedByte(-1083811250);
+		int i_7_ = class536_sub33.readUnsignedByte();
 		if (i_7_ > aClass618Array2316.length)
 			throw new IllegalStateException("");
 		for (int i_8_ = 0; i_8_ < aClass618Array2316.length; i_8_++) {
@@ -170,9 +170,9 @@ public class Class222 {
 		anInt2317 = class536_sub33.readUnsignedShort() * -963005091;
 		if (65535 == -1314502923 * anInt2317)
 			anInt2317 = 963005091;
-		anInt2325 = class536_sub33.readUnsignedByte(178993579) * 596265079;
-		aClass246_2323 = ((Class246) Class682.method8091(Class246.method3415(-2121886593), class536_sub33.readUnsignedByte(-1056336788), 1858049507));
-		anInt2324 = class536_sub33.readUnsignedByte(1003155142) * -1738511797;
+		anInt2325 = class536_sub33.readUnsignedByte() * 596265079;
+		aClass246_2323 = ((Class246) Class682.method8091(Class246.method3415(-2121886593), class536_sub33.readUnsignedByte(), 1858049507));
+		anInt2324 = class536_sub33.readUnsignedByte() * -1738511797;
 	}
 
 	void method3140(int i) {

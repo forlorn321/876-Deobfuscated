@@ -44,9 +44,9 @@ public class Class205_Sub6 extends Class205 {
 	Class205_Sub6(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
 		anInt9875 = class536_sub33.readUnsignedShort() * 1535445565;
-		anInt9872 = class536_sub33.readUnsignedByte(487650987) * -331994215;
-		anInt9873 = class536_sub33.readUnsignedByte(726271276) * 1948376181;
-		anInt9871 = class536_sub33.readUnsignedByte(325171306) * -77836677;
+		anInt9872 = class536_sub33.readUnsignedByte() * -331994215;
+		anInt9873 = class536_sub33.readUnsignedByte() * 1948376181;
+		anInt9871 = class536_sub33.readUnsignedByte() * -77836677;
 		aClass479_9874 = (Class184_Sub2.aClass211_9442.method3003(Class198.aClass198_2211, this, anInt9875 * -1967760107, anInt9871 * 937779379, anInt9872 * -22415191, Class188.aClass188_2133.method2788(-284392861), Class207.aClass207_2242, 0.0F, 0.0F, null, 0, anInt9873 * 13112285, false, (byte) 14));
 		if (aClass479_9874 != null)
 			aClass479_9874.method5767(1200324088);

@@ -34,7 +34,7 @@ public class Class185 {
 		try {
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 			RSByteBuffer class536_sub33_0_ = new RSByteBuffer(is);
-			int i = class536_sub33.readUnsignedByte(-8846425);
+			int i = class536_sub33.readUnsignedByte();
 			class536_sub33.off += 1032351030;
 			int i_1_ = class536_sub33.readUnsignedShort();
 			int i_2_ = 0;
@@ -45,7 +45,7 @@ public class Class185 {
 				int i_6_ = aClass536_Sub17_2118.anIntArray10505[i_5_];
 				if (i_6_ == 0)
 					i_3_ = i_5_;
-				int i_7_ = class536_sub33.readUnsignedByte(478113382);
+				int i_7_ = class536_sub33.readUnsignedByte();
 				if (i_7_ > 0) {
 					if (i_6_ == 0)
 						i_4_ = i_5_;

@@ -13,7 +13,7 @@ public class Class92 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(1822736827);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method1230(class536_sub33, i_0_, 2100384398);
@@ -22,7 +22,7 @@ public class Class92 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(143984845);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method1230(class536_sub33, i, 1698024886);
@@ -47,13 +47,13 @@ public class Class92 implements Interface13, Interface7 {
 
 	void method1230(RSByteBuffer class536_sub33, int i, int i_2_) {
 		if (i == 1) {
-			int i_3_ = class536_sub33.readUnsignedByte(1425410430);
+			int i_3_ = class536_sub33.readUnsignedByte();
 			if (aClass453ArrayArray885 == null)
 				aClass453ArrayArray885 = new Class453[i_3_][];
-			for (int i_4_ = class536_sub33.readUnsignedByte(-436906374); i_4_ != 255; i_4_ = class536_sub33.readUnsignedByte(230629429)) {
+			for (int i_4_ = class536_sub33.readUnsignedByte(); i_4_ != 255; i_4_ = class536_sub33.readUnsignedByte()) {
 				int i_5_ = i_4_ & 0x7f;
 				boolean bool = (i_4_ & 0x80) != 0;
-				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte(-967038783)];
+				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte()];
 				for (int i_6_ = 0; i_6_ < class453s.length; i_6_++)
 					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 50), class536_sub33.readUnsignedSmart(99879056), 1858049507));
 				aClass453ArrayArray885[i_5_] = class453s;
@@ -76,13 +76,13 @@ public class Class92 implements Interface13, Interface7 {
 
 	void method1231(RSByteBuffer class536_sub33, int i) {
 		if (i == 1) {
-			int i_7_ = class536_sub33.readUnsignedByte(74838268);
+			int i_7_ = class536_sub33.readUnsignedByte();
 			if (aClass453ArrayArray885 == null)
 				aClass453ArrayArray885 = new Class453[i_7_][];
-			for (int i_8_ = class536_sub33.readUnsignedByte(1829736920); i_8_ != 255; i_8_ = class536_sub33.readUnsignedByte(-574535142)) {
+			for (int i_8_ = class536_sub33.readUnsignedByte(); i_8_ != 255; i_8_ = class536_sub33.readUnsignedByte()) {
 				int i_9_ = i_8_ & 0x7f;
 				boolean bool = (i_8_ & 0x80) != 0;
-				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte(229218169)];
+				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte()];
 				for (int i_10_ = 0; i_10_ < class453s.length; i_10_++)
 					class453s[i_10_] = ((Class453) Class682.method8091(Class453.method5438((byte) 55), class536_sub33.readUnsignedSmart(395583840), 1858049507));
 				aClass453ArrayArray885[i_9_] = class453s;

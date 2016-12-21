@@ -33,7 +33,7 @@ public class Class665 {
 					int i_9_ = class536_sub33.readUnsignedSmart(1373299542);
 					if (0 == i_9_)
 						break;
-					class536_sub33.readUnsignedByte(918185060);
+					class536_sub33.readUnsignedByte();
 				} else {
 					int i_10_ = class536_sub33.readUnsignedSmart(-165930225);
 					if (i_10_ == 0)
@@ -41,7 +41,7 @@ public class Class665 {
 					i_8_ += i_10_ - 1;
 					int i_11_ = i_8_ & 0x3f;
 					int i_12_ = i_8_ >> 6 & 0x3f;
-					int i_13_ = class536_sub33.readUnsignedByte(-101011533) >> 2;
+					int i_13_ = class536_sub33.readUnsignedByte() >> 2;
 					int i_14_ = i_13_ & 0x3;
 					i_13_ >>= 2;
 					int i_15_ = i + i_12_;

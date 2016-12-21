@@ -100,7 +100,7 @@ class Class154 implements Runnable {
 				if (Class45.aClass42_525 == Class42.aClass42_507) {
 					if (client.aClass106_11218.method1413((short) 16381) == null)
 						Class442.method5336((byte) 1);
-					else if (client.aClass106_11218.method1413((short) 16167).method6897(1, -1036446546)) {
+					else if (client.aClass106_11218.method1413((short) 16167).bitsRemaining(1, -1036446546)) {
 						client.aClass106_11218.method1413((short) -17086).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, -1779776192);
 						Class45.aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(2053659211), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == Class45.aClass709_521) {

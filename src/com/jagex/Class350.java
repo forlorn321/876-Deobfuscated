@@ -329,10 +329,10 @@ public class Class350 {
 	}
 
 	void method4613(RSByteBuffer class536_sub33, int i) {
-		int i_35_ = class536_sub33.readUnsignedByte(505320892);
+		int i_35_ = class536_sub33.readUnsignedByte();
 		if (i_35_ < 1 || i_35_ > 6)
 			throw new RuntimeException(new StringBuilder().append("").append(i_35_).toString());
-		int i_36_ = class536_sub33.readUnsignedByte(1397119823);
+		int i_36_ = class536_sub33.readUnsignedByte();
 		if (0 != (i_36_ & 0x1))
 			aBool3699 = true;
 		if (0 != (i_36_ & 0x2))
@@ -350,11 +350,11 @@ public class Class350 {
 		if (i_35_ <= 3 && 1101587653 * anInt3705 != 0)
 			anInt3705 += 114369824;
 		anInt3710 = class536_sub33.readUnsignedShort() * 2010033781;
-		anInt3719 = class536_sub33.readUnsignedByte(-1225515529) * 772237047;
+		anInt3719 = class536_sub33.readUnsignedByte() * 772237047;
 		aString3707 = class536_sub33.readString();
 		if (i_35_ >= 4)
 			class536_sub33.readInt();
-		aBool3724 = class536_sub33.readUnsignedByte(-247719243) == 1;
+		aBool3724 = class536_sub33.readUnsignedByte() == 1;
 		aByte3706 = class536_sub33.readByte();
 		aByte3698 = class536_sub33.readByte();
 		aByte3708 = class536_sub33.readByte();
@@ -385,7 +385,7 @@ public class Class350 {
 				else
 					anIntArray3721[i_37_] = 0;
 				if (i_35_ >= 6)
-					aBoolArray3716[i_37_] = class536_sub33.readUnsignedByte(-389412582) == 1;
+					aBoolArray3716[i_37_] = class536_sub33.readUnsignedByte() == 1;
 				else
 					aBoolArray3716[i_37_] = false;
 			}
@@ -836,10 +836,10 @@ public class Class350 {
 	}
 
 	void method4634(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedByte(1279610592);
+		int i = class536_sub33.readUnsignedByte();
 		if (i < 1 || i > 6)
 			throw new RuntimeException(new StringBuilder().append("").append(i).toString());
-		int i_65_ = class536_sub33.readUnsignedByte(1426672905);
+		int i_65_ = class536_sub33.readUnsignedByte();
 		if (0 != (i_65_ & 0x1))
 			aBool3699 = true;
 		if (0 != (i_65_ & 0x2))
@@ -857,11 +857,11 @@ public class Class350 {
 		if (i <= 3 && 1101587653 * anInt3705 != 0)
 			anInt3705 += 114369824;
 		anInt3710 = class536_sub33.readUnsignedShort() * 2010033781;
-		anInt3719 = class536_sub33.readUnsignedByte(-378708717) * 772237047;
+		anInt3719 = class536_sub33.readUnsignedByte() * 772237047;
 		aString3707 = class536_sub33.readString();
 		if (i >= 4)
 			class536_sub33.readInt();
-		aBool3724 = class536_sub33.readUnsignedByte(1022215534) == 1;
+		aBool3724 = class536_sub33.readUnsignedByte() == 1;
 		aByte3706 = class536_sub33.readByte();
 		aByte3698 = class536_sub33.readByte();
 		aByte3708 = class536_sub33.readByte();
@@ -892,7 +892,7 @@ public class Class350 {
 				else
 					anIntArray3721[i_66_] = 0;
 				if (i >= 6)
-					aBoolArray3716[i_66_] = class536_sub33.readUnsignedByte(1115615656) == 1;
+					aBoolArray3716[i_66_] = class536_sub33.readUnsignedByte() == 1;
 				else
 					aBoolArray3716[i_66_] = false;
 			}

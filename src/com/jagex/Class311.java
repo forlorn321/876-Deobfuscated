@@ -34,7 +34,7 @@ public class Class311 implements Interface13, Interface7 {
 			anInt3478 = class536_sub33.readShort((byte) -89) * 306678829;
 			anInt3479 = class536_sub33.readShort((byte) -5) * -875688417;
 		} else if (i == 4)
-			anInt3482 = class536_sub33.readUnsignedByte(1224726754) * -2107798657;
+			anInt3482 = class536_sub33.readUnsignedByte() * -2107798657;
 		else if (i == 5)
 			anInt3483 = class536_sub33.method9720((byte) 1) * 718669759;
 		else if (i == 6)
@@ -48,7 +48,7 @@ public class Class311 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_1_ = class536_sub33.readUnsignedByte(1413905674);
+			int i_1_ = class536_sub33.readUnsignedByte();
 			if (i_1_ == 0)
 				break;
 			method4179(class536_sub33, i_1_, 1664182739);
@@ -61,7 +61,7 @@ public class Class311 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-482475344);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method4179(class536_sub33, i, 936918943);

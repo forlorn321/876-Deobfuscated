@@ -200,9 +200,9 @@ public class Class226 {
 
 	public Class226(long l, RSByteBuffer class536_sub33, boolean bool, Interface28 interface28) {
 		aLong2349 = -4896674547777097105L * l;
-		int i = class536_sub33.readUnsignedByte(1980055253);
+		int i = class536_sub33.readUnsignedByte();
 		if (i == 1) {
-			int i_14_ = class536_sub33.readUnsignedByte(1948181526);
+			int i_14_ = class536_sub33.readUnsignedByte();
 			aBool2348 = (i_14_ & 0x1) != 0;
 			aBool2353 = 0 != (i_14_ & 0x2);
 			aBool2341 = 0 != (i_14_ & 0x4);

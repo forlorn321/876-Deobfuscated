@@ -36,8 +36,8 @@ public class Class390 {
 
 	public static Class398 method4854(RSByteBuffer class536_sub33, byte i) {
 		int i_0_ = class536_sub33.method9720((byte) 1);
-		Class395 class395 = (Class333_Sub3.method9230(1586724215)[class536_sub33.readUnsignedByte(1106389489)]);
-		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(1523241065)]);
+		Class395 class395 = (Class333_Sub3.method9230(1586724215)[class536_sub33.readUnsignedByte()]);
+		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
 		int i_1_ = class536_sub33.readShort((byte) -36);
 		int i_2_ = class536_sub33.readShort((byte) -37);
 		return new Class398(i_0_, class395, class399, i_1_, i_2_);

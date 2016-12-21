@@ -14,12 +14,12 @@ public class Class524 {
 	static Class21 method6407(RSByteBuffer class536_sub33, Class98_Sub1 class98_sub1, int i) {
 		Class21 class21 = new Class21(class98_sub1);
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-1497766582);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 255)
 				break;
 			Class478 class478 = (Class478) Class457.method5488(com.jagex.Class478.class, i_0_, -1787209896);
 			for (;;) {
-				int i_1_ = class536_sub33.readUnsignedByte(1231602253);
+				int i_1_ = class536_sub33.readUnsignedByte();
 				if (i_1_ == 255)
 					break;
 				class536_sub33.off -= 516175515;

@@ -25,7 +25,7 @@ public class Class625 {
 	float[] aFloatArray8152;
 
 	public void method7430(RSByteBuffer class536_sub33, Class636 class636, byte i) {
-		int i_0_ = class536_sub33.readUnsignedByte(70927858);
+		int i_0_ = class536_sub33.readUnsignedByte();
 		if (Class710.aClass536_Sub40_8843.aClass710_Sub14_10755.method10066((byte) 0) == 1 && Class677.aClass167_8609.method2108() > 0) {
 			if (0 != (i_0_ & Class643.aClass643_8346.anInt8345 * -742426051))
 				anInt8150 = class536_sub33.readInt() * -570918605;

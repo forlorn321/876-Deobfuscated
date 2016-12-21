@@ -122,7 +122,7 @@ public class Class71 {
 
 	public static void method1122(RSByteBuffer class536_sub33, int i) {
 		Class536_Sub34 class536_sub34 = new Class536_Sub34();
-		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte(-1138036135) * 1530398673;
+		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte() * 1530398673;
 		class536_sub34.anInt10621 = class536_sub33.readInt() * -251386325;
 		class536_sub34.anIntArray10622 = new int[class536_sub34.anInt10619 * 1706012977];
 		class536_sub34.anIntArray10624 = new int[1706012977 * class536_sub34.anInt10619];
@@ -132,7 +132,7 @@ public class Class71 {
 		class536_sub34.aByteArrayArrayArray10626 = new byte[class536_sub34.anInt10619 * 1706012977][][];
 		for (int i_6_ = 0; i_6_ < class536_sub34.anInt10619 * 1706012977; i_6_++) {
 			try {
-				int i_7_ = class536_sub33.readUnsignedByte(-1643763379);
+				int i_7_ = class536_sub33.readUnsignedByte();
 				if (0 == i_7_ || 1 == i_7_ || i_7_ == 2) {
 					String string = class536_sub33.readString();
 					String string_8_ = class536_sub33.readString();
@@ -147,7 +147,7 @@ public class Class71 {
 				} else if (i_7_ == 3 || i_7_ == 4) {
 					String string = class536_sub33.readString();
 					String string_10_ = class536_sub33.readString();
-					int i_11_ = class536_sub33.readUnsignedByte(-1400142131);
+					int i_11_ = class536_sub33.readUnsignedByte();
 					String[] strings = new String[i_11_];
 					for (int i_12_ = 0; i_12_ < i_11_; i_12_++)
 						strings[i_12_] = class536_sub33.readString();
@@ -205,7 +205,7 @@ public class Class71 {
 
 	public static void method1123(RSByteBuffer class536_sub33, int i) {
 		Class536_Sub34 class536_sub34 = new Class536_Sub34();
-		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte(-733617722) * 1530398673;
+		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte() * 1530398673;
 		class536_sub34.anInt10621 = class536_sub33.readInt() * -251386325;
 		class536_sub34.anIntArray10622 = new int[class536_sub34.anInt10619 * 1706012977];
 		class536_sub34.anIntArray10624 = new int[1706012977 * class536_sub34.anInt10619];
@@ -215,7 +215,7 @@ public class Class71 {
 		class536_sub34.aByteArrayArrayArray10626 = new byte[class536_sub34.anInt10619 * 1706012977][][];
 		for (int i_21_ = 0; i_21_ < class536_sub34.anInt10619 * 1706012977; i_21_++) {
 			try {
-				int i_22_ = class536_sub33.readUnsignedByte(1865229913);
+				int i_22_ = class536_sub33.readUnsignedByte();
 				if (0 == i_22_ || 1 == i_22_ || i_22_ == 2) {
 					String string = class536_sub33.readString();
 					String string_23_ = class536_sub33.readString();
@@ -230,7 +230,7 @@ public class Class71 {
 				} else if (i_22_ == 3 || i_22_ == 4) {
 					String string = class536_sub33.readString();
 					String string_25_ = class536_sub33.readString();
-					int i_26_ = class536_sub33.readUnsignedByte(196680433);
+					int i_26_ = class536_sub33.readUnsignedByte();
 					String[] strings = new String[i_26_];
 					for (int i_27_ = 0; i_27_ < i_26_; i_27_++)
 						strings[i_27_] = class536_sub33.readString();

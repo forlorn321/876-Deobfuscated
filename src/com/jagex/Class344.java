@@ -25,7 +25,7 @@ public class Class344 {
 	void method4478(RSByteBuffer class536_sub33) {
 		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
-		for (int i = class536_sub33.readUnsignedByte(1700796822); i != 0; i = class536_sub33.readUnsignedByte(783925090)) {
+		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
 			if (3 == i)
 				class536_sub22 = new Class536_Sub22_Sub14(this);
@@ -65,7 +65,7 @@ public class Class344 {
 	void method4479(RSByteBuffer class536_sub33, byte i) {
 		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
-		for (int i_0_ = class536_sub33.readUnsignedByte(2112619846); i_0_ != 0; i_0_ = class536_sub33.readUnsignedByte(306715286)) {
+		for (int i_0_ = class536_sub33.readUnsignedByte(); i_0_ != 0; i_0_ = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
 			if (3 == i_0_)
 				class536_sub22 = new Class536_Sub22_Sub14(this);
@@ -113,7 +113,7 @@ public class Class344 {
 	void method4481(RSByteBuffer class536_sub33) {
 		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
-		for (int i = class536_sub33.readUnsignedByte(651254664); i != 0; i = class536_sub33.readUnsignedByte(1774198745)) {
+		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
 			if (3 == i)
 				class536_sub22 = new Class536_Sub22_Sub14(this);

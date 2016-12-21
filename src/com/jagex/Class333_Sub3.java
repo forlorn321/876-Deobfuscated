@@ -112,7 +112,7 @@ public abstract class Class333_Sub3 extends Class333 {
 		aFloat10116 = 0.0F;
 		aFloat10112 = 0.0F;
 		anInt10115 = 0;
-		int i = class536_sub33.readUnsignedByte(1935054098);
+		int i = class536_sub33.readUnsignedByte();
 		aClass439Array10114 = new Class439[i];
 		aFloatArray10113 = new float[i];
 		for (int i_8_ = 0; i_8_ < i; i_8_++) {
@@ -265,7 +265,7 @@ public abstract class Class333_Sub3 extends Class333 {
 		aFloat10116 = 0.0F;
 		aFloat10112 = 0.0F;
 		anInt10115 = 0;
-		int i_21_ = class536_sub33.readUnsignedByte(329899068);
+		int i_21_ = class536_sub33.readUnsignedByte();
 		aClass439Array10114 = new Class439[i_21_];
 		aFloatArray10113 = new float[i_21_];
 		for (int i_22_ = 0; i_22_ < i_21_; i_22_++) {

@@ -13,8 +13,8 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 
 	void method9585(RSByteBuffer class536_sub33, int i) {
 		anInt11703 = class536_sub33.readUnsignedShort() * 1289097625;
-		class536_sub33.readUnsignedByte(-540017427);
-		if (class536_sub33.readUnsignedByte(198652656) != 255) {
+		class536_sub33.readUnsignedByte();
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			class536_sub33.method9711(702869087);
 		}
@@ -26,8 +26,8 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 
 	void method9586(RSByteBuffer class536_sub33) {
 		anInt11703 = class536_sub33.readUnsignedShort() * 1289097625;
-		class536_sub33.readUnsignedByte(1296535658);
-		if (class536_sub33.readUnsignedByte(984457436) != 255) {
+		class536_sub33.readUnsignedByte();
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			class536_sub33.method9711(702869087);
 		}
@@ -39,8 +39,8 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 
 	void method9588(RSByteBuffer class536_sub33) {
 		anInt11703 = class536_sub33.readUnsignedShort() * 1289097625;
-		class536_sub33.readUnsignedByte(535337542);
-		if (class536_sub33.readUnsignedByte(-1135458885) != 255) {
+		class536_sub33.readUnsignedByte();
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			class536_sub33.method9711(702869087);
 		}

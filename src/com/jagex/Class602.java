@@ -22,28 +22,28 @@ public class Class602 implements Iterable {
 
 	void method7172(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(229246722);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			if (i_0_ == 1) {
-				int i_1_ = class536_sub33.readUnsignedByte(-378548029);
+				int i_1_ = class536_sub33.readUnsignedByte();
 				int i_2_ = 0;
 				LinkedList linkedlist = new LinkedList();
 				for (int i_3_ = 0; i_3_ < i_1_; i_3_++) {
-					int i_4_ = class536_sub33.readUnsignedByte(214844706);
+					int i_4_ = class536_sub33.readUnsignedByte();
 					int i_5_ = class536_sub33.readUnsignedShort();
-					int i_6_ = class536_sub33.readUnsignedByte(1460115748);
+					int i_6_ = class536_sub33.readUnsignedByte();
 					int i_7_ = 0;
 					Class635 class635 = Class635.aClass635_8267;
 					byte i_8_ = 1;
 					boolean bool = 0 != (i_6_ & 0x1);
 					if (0 != (i_6_ & 0x2))
-						i_7_ = class536_sub33.readUnsignedByte(-130730146);
+						i_7_ = class536_sub33.readUnsignedByte();
 					if (0 != (i_6_ & 0x4))
-						class635 = (aClass635Array7855[class536_sub33.readUnsignedByte(605589535)]);
+						class635 = (aClass635Array7855[class536_sub33.readUnsignedByte()]);
 					if ((i_6_ & 0x8) != 0)
 						i_8_ = class536_sub33.readByte();
-					boolean bool_9_ = class536_sub33.readUnsignedByte(1748338773) == 1;
+					boolean bool_9_ = class536_sub33.readUnsignedByte() == 1;
 					linkedlist.add(new Class630(i_4_, i_5_, bool, bool_9_, i_7_, class635, i_8_));
 					if (i_4_ > i_2_)
 						i_2_ = i_4_;
@@ -55,8 +55,8 @@ public class Class602 implements Iterable {
 					aClass630Array7854[class630.method7504(1316515273)] = class630;
 				}
 			} else if (2 == i_0_) {
-				aClass635Array7855 = new Class635[class536_sub33.readUnsignedByte(902105595)];
-				for (int i_10_ = class536_sub33.readUnsignedByte(-1739121346); 255 != i_10_; i_10_ = class536_sub33.readUnsignedByte(-1665095338)) {
+				aClass635Array7855 = new Class635[class536_sub33.readUnsignedByte()];
+				for (int i_10_ = class536_sub33.readUnsignedByte(); 255 != i_10_; i_10_ = class536_sub33.readUnsignedByte()) {
 					int[] is = new int[class536_sub33.readUnsignedShort()];
 					for (int i_11_ = 0; i_11_ < is.length; i_11_++)
 						is[i_11_] = class536_sub33.readInt();

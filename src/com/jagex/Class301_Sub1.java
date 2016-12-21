@@ -14,10 +14,10 @@ public class Class301_Sub1 extends Class301 {
 
 	public void method9198(RSByteBuffer class536_sub33, int i, int i_0_) {
 		int i_1_ = -810172525 * class536_sub33.off;
-		int i_2_ = class536_sub33.readUnsignedByte(1569702074);
+		int i_2_ = class536_sub33.readUnsignedByte();
 		method4033(Class646.method7809(i_2_ & 0x1, 1017591568), -693000904);
 		if ((i_2_ & 0x8) != 0) {
-			Class300 class300 = Class642.method7734(class536_sub33.readUnsignedByte(1520115635), (byte) 10);
+			Class300 class300 = Class642.method7734(class536_sub33.readUnsignedByte(), (byte) 10);
 			if (aClass300_3366 != class300) {
 				try {
 					method4082(class300, true, (byte) 0);
@@ -27,7 +27,7 @@ public class Class301_Sub1 extends Class301 {
 			}
 		}
 		if ((i_2_ & 0x10) != 0) {
-			Class290 class290 = Class243.method3399(class536_sub33.readUnsignedByte(650898336), 1855636510);
+			Class290 class290 = Class243.method3399(class536_sub33.readUnsignedByte(), 1855636510);
 			if (class290 != aClass290_3371) {
 				try {
 					method4031(class290, true, -203145218);
@@ -55,25 +55,25 @@ public class Class301_Sub1 extends Class301 {
 				aFloat3398 = class536_sub33.method9712(-413426940);
 			}
 			if ((i_3_ >> Class295.aClass295_3255.anInt3264 * -1131119493 & 0x1) == 1)
-				aClass302_3365 = Class580.method7014(class536_sub33.readUnsignedByte(-1501923841), (byte) 2);
+				aClass302_3365 = Class580.method7014(class536_sub33.readUnsignedByte(), (byte) 2);
 			if ((i_3_ >> Class295.aClass295_3256.anInt3264 * -1131119493 & 0x1) == 1) {
 				anInt3376 = class536_sub33.read24BitUnsignedInteger(1295985534) * -86569843;
-				class536_sub33.readUnsignedByte(1236267804);
+				class536_sub33.readUnsignedByte();
 			}
 			if ((i_3_ >> Class295.aClass295_3251.anInt3264 * -1131119493 & 0x1) == 1) {
-				int i_4_ = class536_sub33.readUnsignedByte(778136761);
+				int i_4_ = class536_sub33.readUnsignedByte();
 				aBool3395 = (i_4_ & 0x1) == 1;
 				aBool3363 = 2 == (i_4_ & 0x2);
 			}
 			if ((i_3_ >> -1131119493 * Class295.aClass295_3258.anInt3264 & 0x1) == 1) {
-				int i_5_ = class536_sub33.readUnsignedByte(558181344);
+				int i_5_ = class536_sub33.readUnsignedByte();
 				for (int i_6_ = 0; i_6_ < i_5_; i_6_++) {
-					int i_7_ = class536_sub33.readUnsignedByte(-446872792);
-					int i_8_ = class536_sub33.readUnsignedByte(-1171544828);
+					int i_7_ = class536_sub33.readUnsignedByte();
+					int i_8_ = class536_sub33.readUnsignedByte();
 					if (i_7_ == 0)
 						method4089(i_8_, (byte) 21);
 					else {
-						Class288 class288 = Class306.method4130(class536_sub33.readUnsignedByte(-1204258624), -2147298823);
+						Class288 class288 = Class306.method4130(class536_sub33.readUnsignedByte(), -2147298823);
 						boolean bool = true;
 						Iterator iterator = aClass4_3399.iterator();
 						while (iterator.hasNext()) {
@@ -94,7 +94,7 @@ public class Class301_Sub1 extends Class301 {
 				aFloat3390 = class536_sub33.method9712(-1837192895);
 			}
 			if ((i_3_ >> -1131119493 * Class295.aClass295_3259.anInt3264 & 0x1) == 1)
-				aClass298_3379 = Class267.method3704(class536_sub33.readUnsignedByte(1648525214), -601537386);
+				aClass298_3379 = Class267.method3704(class536_sub33.readUnsignedByte(), -601537386);
 			if ((i_3_ >> Class295.aClass295_3261.anInt3264 * -1131119493 & 0x1) == 1) {
 				aClass436_3385.method5242(class536_sub33);
 				aClass436_3386.method5242(class536_sub33);

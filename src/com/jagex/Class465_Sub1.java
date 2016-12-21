@@ -26,14 +26,14 @@ public class Class465_Sub1 extends Class465 {
 			Class625 class625 = null;
 			boolean bool_2_ = false;
 			while (-810172525 * class536_sub33.off < class536_sub33.buffer.length) {
-				int i_3_ = class536_sub33.readUnsignedByte(572374951);
+				int i_3_ = class536_sub33.readUnsignedByte();
 				if (0 == i_3_) {
 					if (null == class625)
 						class625 = new Class625(class536_sub33, aClass636_10346);
 					else
 						class625.method7430(class536_sub33, aClass636_10346, (byte) -78);
 				} else if (1 == i_3_) {
-					int i_4_ = class536_sub33.readUnsignedByte(-793385816);
+					int i_4_ = class536_sub33.readUnsignedByte();
 					if (i_4_ > 0) {
 						for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 							Class562 class562 = new Class562(class167, (1893698405 * aClass553_5269.anInt7444), class536_sub33, 2);
@@ -184,14 +184,14 @@ public class Class465_Sub1 extends Class465 {
 			int i_42_ = 8 * (i_37_ & 0x7);
 			int i_43_ = (i_38_ & 0x7) * 8;
 			while (-810172525 * class536_sub33.off < class536_sub33.buffer.length) {
-				int i_44_ = class536_sub33.readUnsignedByte(1275740409);
+				int i_44_ = class536_sub33.readUnsignedByte();
 				if (i_44_ == 0) {
 					if (null == class625)
 						class625 = new Class625(class536_sub33, aClass636_10346);
 					else
 						class625.method7430(class536_sub33, aClass636_10346, (byte) -56);
 				} else if (1 == i_44_) {
-					int i_45_ = class536_sub33.readUnsignedByte(1525694725);
+					int i_45_ = class536_sub33.readUnsignedByte();
 					if (i_45_ > 0) {
 						for (int i_46_ = 0; i_46_ < i_45_; i_46_++) {
 							Class562 class562 = new Class562(class167, (aClass553_5269.anInt7444 * 1893698405), class536_sub33, 2);
@@ -322,7 +322,7 @@ public class Class465_Sub1 extends Class465 {
 				int i_79_ = i_77_ & 0x3f;
 				int i_80_ = i_77_ >> 6 & 0x3f;
 				int i_81_ = i_77_ >> 12;
-				int i_82_ = class536_sub33.readUnsignedByte(1937878540);
+				int i_82_ = class536_sub33.readUnsignedByte();
 				int i_83_ = i_82_ >> 2;
 				int i_84_ = i_82_ & 0x3;
 				if (i_70_ == i_81_ && i_80_ >= i_71_ && i_80_ < i_71_ + 8 && i_79_ >= i_72_ && i_79_ < i_72_ + 8) {
@@ -664,7 +664,7 @@ public class Class465_Sub1 extends Class465 {
 				int i_165_ = i_163_ & 0x3f;
 				int i_166_ = i_163_ >> 6 & 0x3f;
 				int i_167_ = i_163_ >> 12;
-				int i_168_ = class536_sub33.readUnsignedByte(-11542989);
+				int i_168_ = class536_sub33.readUnsignedByte();
 				int i_169_ = i_168_ >> 2;
 				int i_170_ = i_168_ & 0x3;
 				int i_171_ = i + i_166_;

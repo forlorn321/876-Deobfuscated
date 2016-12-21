@@ -34,12 +34,12 @@ public class Class518 {
 	}
 
 	static Class568 method6331(RSByteBuffer class536_sub33, byte i) {
-		int i_1_ = class536_sub33.readUnsignedByte(1209844470);
-		int i_2_ = class536_sub33.readUnsignedByte(-927985591);
-		int i_3_ = class536_sub33.readUnsignedByte(-1456998101);
+		int i_1_ = class536_sub33.readUnsignedByte();
+		int i_2_ = class536_sub33.readUnsignedByte();
+		int i_3_ = class536_sub33.readUnsignedByte();
 		int[] is = new int[i_3_];
 		for (int i_4_ = 0; i_4_ < i_3_; i_4_++)
-			is[i_4_] = class536_sub33.readUnsignedByte(1468923198);
+			is[i_4_] = class536_sub33.readUnsignedByte();
 		return new Class568(i_1_, i_2_, is);
 	}
 

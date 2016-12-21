@@ -42,14 +42,14 @@ public class Class562 {
 	public Class562(Class167 class167, int i, RSByteBuffer class536_sub33, int i_0_) {
 		if (null == Class34_Sub22.anIntArray10982)
 			Class504.method6076(-1422444650);
-		anInt7570 = class536_sub33.readUnsignedByte(237766996) * 917894701;
+		anInt7570 = class536_sub33.readUnsignedByte() * 917894701;
 		aBool7569 = 0 != (anInt7570 * -2071213659 & 0x8);
 		aBool7563 = (-2071213659 * anInt7570 & 0x10) != 0;
 		anInt7570 = (anInt7570 * -2071213659 & 0x7) * 917894701;
 		int i_1_ = class536_sub33.readUnsignedShort() << i_0_;
 		int i_2_ = class536_sub33.readUnsignedShort() << i_0_;
 		int i_3_ = class536_sub33.readUnsignedShort() << i_0_;
-		int i_4_ = class536_sub33.readUnsignedByte(-576579523);
+		int i_4_ = class536_sub33.readUnsignedByte();
 		int i_5_ = 1 + i_4_ * 2;
 		aShortArray7571 = new short[i_5_];
 		for (int i_6_ = 0; i_6_ < aShortArray7571.length; i_6_++) {
@@ -64,7 +64,7 @@ public class Class562 {
 		}
 		i_4_ = (i_4_ << i) + (1 << i >> 1);
 		int i_10_ = (Class639.anIntArray8309 != null ? (Class639.anIntArray8309[class536_sub33.readUnsignedShort()]) : (Class639.anIntArray8308[Class254.method3537(class536_sub33.readUnsignedShort(), 1409175155) & 0xffff]));
-		int i_11_ = class536_sub33.readUnsignedByte(814893962);
+		int i_11_ = class536_sub33.readUnsignedByte();
 		anInt7572 = -1693577401 * (i_11_ & 0x1f);
 		anInt7575 = ((i_11_ & 0xe0) << 3) * -1893390687;
 		if (31 != anInt7572 * -1719604617)

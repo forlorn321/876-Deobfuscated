@@ -165,7 +165,7 @@ public abstract class Class309 implements Interface6 {
 	static void method4154(byte[] is, int i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		for (;;) {
-			int i_4_ = class536_sub33.readUnsignedByte(-173069620);
+			int i_4_ = class536_sub33.readUnsignedByte();
 			if (i_4_ == 0)
 				break;
 			if (1 == i_4_) {

@@ -34,24 +34,24 @@ public abstract class Class153 implements Interface14 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-458508466);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			Class144 class144 = ((Class144) Class682.method8091(Class518.method6330(-1935711188), i_0_, 1858049507));
 			if (class144 != null) {
 				switch (195626555 * class144.anInt1677) {
 				case 3:
-					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(764544543), class536_sub33.readUnsignedByte(-627484868), 1858049507));
+					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(764544543), class536_sub33.readUnsignedByte(), 1858049507));
 					break;
 				case 4: {
-					int i_1_ = class536_sub33.readUnsignedByte(1077146698);
+					int i_1_ = class536_sub33.readUnsignedByte();
 					aClass453_1716 = ((Class453) Class682.method8091(Class453.method5438((byte) 79), i_1_, 1858049507));
 					if (aClass453_1716 == null)
 						throw new IllegalStateException("");
 					break;
 				}
 				case 5:
-					Class682.method8091(Class34_Sub20.method10363(-1722009605), class536_sub33.readUnsignedByte(-873110798), 1858049507);
+					Class682.method8091(Class34_Sub20.method10363(-1722009605), class536_sub33.readUnsignedByte(), 1858049507);
 					break;
 				default:
 					throw new IllegalStateException("");
@@ -70,24 +70,24 @@ public abstract class Class153 implements Interface14 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-1623642871);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			Class144 class144 = ((Class144) Class682.method8091(Class518.method6330(-1347896725), i, 1858049507));
 			if (class144 != null) {
 				switch (195626555 * class144.anInt1677) {
 				case 3:
-					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(908933648), class536_sub33.readUnsignedByte(1312220719), 1858049507));
+					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(908933648), class536_sub33.readUnsignedByte(), 1858049507));
 					break;
 				case 4: {
-					int i_2_ = class536_sub33.readUnsignedByte(-215020055);
+					int i_2_ = class536_sub33.readUnsignedByte();
 					aClass453_1716 = ((Class453) Class682.method8091(Class453.method5438((byte) 28), i_2_, 1858049507));
 					if (aClass453_1716 == null)
 						throw new IllegalStateException("");
 					break;
 				}
 				case 5:
-					Class682.method8091(Class34_Sub20.method10363(-370159668), class536_sub33.readUnsignedByte(1247923985), 1858049507);
+					Class682.method8091(Class34_Sub20.method10363(-370159668), class536_sub33.readUnsignedByte(), 1858049507);
 					break;
 				default:
 					throw new IllegalStateException("");

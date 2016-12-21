@@ -37,7 +37,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_1_ = class536_sub33.readUnsignedByte(922171447);
+			int i_1_ = class536_sub33.readUnsignedByte();
 			if (i_1_ == 0)
 				break;
 			method693(class536_sub33, i_1_, 1962967612);
@@ -103,7 +103,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-79483386);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method693(class536_sub33, i, -176934254);

@@ -182,9 +182,9 @@ public class Class66 {
 
 	Class66(RSByteBuffer class536_sub33) {
 		if (class536_sub33 != null && class536_sub33.buffer != null) {
-			int i = class536_sub33.readUnsignedByte(1396738742);
+			int i = class536_sub33.readUnsignedByte();
 			if (i > 0 && i <= 1) {
-				int i_4_ = class536_sub33.readUnsignedByte(-1293841509);
+				int i_4_ = class536_sub33.readUnsignedByte();
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 					long l = class536_sub33.method9711(702869087);
 					int i_6_ = class536_sub33.readInt();

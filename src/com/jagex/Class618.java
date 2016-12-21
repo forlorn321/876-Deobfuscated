@@ -10,7 +10,7 @@ public class Class618 {
 	int anInt8086 = 0;
 	static final int anInt8087 = 2000000000;
 	int anInt8088;
-	static int anInt8089;
+	static int sceneY;
 	static Class143 aClass143_8090;
 	static Class2 aClass2_8091;
 

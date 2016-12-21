@@ -264,7 +264,7 @@ public class Class273 {
 
 	static void method3725(RSByteBuffer class536_sub33, byte i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(309768062);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			switch (i_0_) {
 			case 255:
 				return;

@@ -78,7 +78,7 @@ public class Class100 {
 		for (int i_3_ = 0; i_3_ < -537974539 * Class593.anInt7807; i_3_++) {
 			int i_4_ = class536_sub33.readUnsignedSmart(-1409328853);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_4_] = new Class603_Sub1();
-			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(-791647611) * 809472901;
+			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte() * 809472901;
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(2070051773) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)

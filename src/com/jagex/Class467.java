@@ -30,14 +30,14 @@ public class Class467 {
 
 	void method5686(byte[] is) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(Class469.method5700(is, (byte) -15));
-		int i = class536_sub33.readUnsignedByte(519661334);
+		int i = class536_sub33.readUnsignedByte();
 		if (i < 5 || i > 7)
 			throw new RuntimeException();
 		if (i >= 6)
 			anInt5343 = class536_sub33.readInt() * -1621242877;
 		else
 			anInt5343 = 0;
-		int i_0_ = class536_sub33.readUnsignedByte(1184954128);
+		int i_0_ = class536_sub33.readUnsignedByte();
 		boolean bool = 0 != (i_0_ & 0x1);
 		boolean bool_1_ = 0 != (i_0_ & 0x2);
 		boolean bool_2_ = (i_0_ & 0x4) != 0;
@@ -164,14 +164,14 @@ public class Class467 {
 
 	void method5687(byte[] is) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(Class469.method5700(is, (byte) -32));
-		int i = class536_sub33.readUnsignedByte(1372887013);
+		int i = class536_sub33.readUnsignedByte();
 		if (i < 5 || i > 7)
 			throw new RuntimeException();
 		if (i >= 6)
 			anInt5343 = class536_sub33.readInt() * -1621242877;
 		else
 			anInt5343 = 0;
-		int i_36_ = class536_sub33.readUnsignedByte(-1018192569);
+		int i_36_ = class536_sub33.readUnsignedByte();
 		boolean bool = 0 != (i_36_ & 0x1);
 		boolean bool_37_ = 0 != (i_36_ & 0x2);
 		boolean bool_38_ = (i_36_ & 0x4) != 0;
@@ -298,14 +298,14 @@ public class Class467 {
 
 	void method5688(byte[] is, int i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(Class469.method5700(is, (byte) -43));
-		int i_72_ = class536_sub33.readUnsignedByte(1106342427);
+		int i_72_ = class536_sub33.readUnsignedByte();
 		if (i_72_ < 5 || i_72_ > 7)
 			throw new RuntimeException();
 		if (i_72_ >= 6)
 			anInt5343 = class536_sub33.readInt() * -1621242877;
 		else
 			anInt5343 = 0;
-		int i_73_ = class536_sub33.readUnsignedByte(-754344730);
+		int i_73_ = class536_sub33.readUnsignedByte();
 		boolean bool = 0 != (i_73_ & 0x1);
 		boolean bool_74_ = 0 != (i_73_ & 0x2);
 		boolean bool_75_ = (i_73_ & 0x4) != 0;

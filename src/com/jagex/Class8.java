@@ -25,7 +25,7 @@ public class Class8 {
 	}
 
 	static void method605(Class536_Sub33_Sub2 class536_sub33_sub2, byte i) {
-		boolean bool = class536_sub33_sub2.readUnsignedByte(665287957) == 1;
+		boolean bool = class536_sub33_sub2.readUnsignedByte() == 1;
 		if (bool) {
 			boolean bool_0_ = false;
 			int i_1_ = class536_sub33_sub2.method10777((byte) 87) << 24;

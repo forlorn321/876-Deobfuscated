@@ -12,7 +12,7 @@ public abstract class Class567 {
 		/* empty */
 	}
 
-	public abstract boolean method6897(int i, int i_0_) throws IOException;
+	public abstract boolean bitsRemaining(int i, int i_0_) throws IOException;
 
 	public abstract int method6898(int i) throws IOException;
 

@@ -14,13 +14,13 @@ public class Class574 implements Interface13, Interface7 {
 		if (1 == i)
 			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
-			anIntArray7642 = new int[class536_sub33.readUnsignedByte(-255148278)];
+			anIntArray7642 = new int[class536_sub33.readUnsignedByte()];
 			for (int i_0_ = 0; i_0_ < anIntArray7642.length; i_0_++)
 				anIntArray7642[i_0_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
-			anInt7640 = class536_sub33.readUnsignedByte(1289382787) * 2117524411;
+			anInt7640 = class536_sub33.readUnsignedByte() * 2117524411;
 		else if (4 == i)
-			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(1105811138), class536_sub33.readUnsignedByte(-1741986387), 1858049507));
+			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(1105811138), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
 			anInt7644 = class536_sub33.method9720((byte) 1) * 2144736261;
 		else if (i == 6)
@@ -35,13 +35,13 @@ public class Class574 implements Interface13, Interface7 {
 		if (1 == i)
 			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
-			anIntArray7642 = new int[class536_sub33.readUnsignedByte(2017979937)];
+			anIntArray7642 = new int[class536_sub33.readUnsignedByte()];
 			for (int i_3_ = 0; i_3_ < anIntArray7642.length; i_3_++)
 				anIntArray7642[i_3_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
-			anInt7640 = class536_sub33.readUnsignedByte(458265865) * 2117524411;
+			anInt7640 = class536_sub33.readUnsignedByte() * 2117524411;
 		else if (4 == i)
-			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(-1541528916), class536_sub33.readUnsignedByte(1736129585), 1858049507));
+			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(-1541528916), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
 			anInt7644 = class536_sub33.method9720((byte) 1) * 2144736261;
 		else if (i == 6)
@@ -58,7 +58,7 @@ public class Class574 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1974695741);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method6944(class536_sub33, i, 1033731633);
@@ -77,7 +77,7 @@ public class Class574 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_4_ = class536_sub33.readUnsignedByte(-148327739);
+			int i_4_ = class536_sub33.readUnsignedByte();
 			if (i_4_ == 0)
 				break;
 			method6944(class536_sub33, i_4_, -960777401);
@@ -92,13 +92,13 @@ public class Class574 implements Interface13, Interface7 {
 		if (1 == i)
 			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
-			anIntArray7642 = new int[class536_sub33.readUnsignedByte(2099348273)];
+			anIntArray7642 = new int[class536_sub33.readUnsignedByte()];
 			for (int i_5_ = 0; i_5_ < anIntArray7642.length; i_5_++)
 				anIntArray7642[i_5_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
-			anInt7640 = class536_sub33.readUnsignedByte(-1814596186) * 2117524411;
+			anInt7640 = class536_sub33.readUnsignedByte() * 2117524411;
 		else if (4 == i)
-			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(861976295), class536_sub33.readUnsignedByte(848797718), 1858049507));
+			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(861976295), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
 			anInt7644 = class536_sub33.method9720((byte) 1) * 2144736261;
 		else if (i == 6)

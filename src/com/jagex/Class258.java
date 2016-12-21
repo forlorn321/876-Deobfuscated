@@ -395,7 +395,7 @@ public class Class258 implements Interface43 {
 	}
 
 	boolean method3558(RSByteBuffer class536_sub33) {
-		if (class536_sub33.readUnsignedByte(-1648332732) != 79 || class536_sub33.readUnsignedByte(1115711285) != 103 || class536_sub33.readUnsignedByte(-127391832) != 103 || class536_sub33.readUnsignedByte(-379715417) != 83)
+		if (class536_sub33.readUnsignedByte() != 79 || class536_sub33.readUnsignedByte() != 103 || class536_sub33.readUnsignedByte() != 103 || class536_sub33.readUnsignedByte() != 83)
 			return false;
 		return true;
 	}
@@ -1445,12 +1445,12 @@ public class Class258 implements Interface43 {
 				anInt2815++;
 			aList2820.clear();
 			aList2788.clear();
-			aClass536_Sub33_2833.readUnsignedByte(-220693377);
-			int i_171_ = aClass536_Sub33_2833.readUnsignedByte(-28571506);
-			int i_172_ = (aClass536_Sub33_2833.readUnsignedByte(2145203814) & 0xff | (aClass536_Sub33_2833.readUnsignedByte(168261500) & 0xff) << 8 | (aClass536_Sub33_2833.readUnsignedByte(-889821642) & 0xff) << 16 | aClass536_Sub33_2833.readUnsignedByte(282606451) << 24);
+			aClass536_Sub33_2833.readUnsignedByte();
+			int i_171_ = aClass536_Sub33_2833.readUnsignedByte();
+			int i_172_ = (aClass536_Sub33_2833.readUnsignedByte() & 0xff | (aClass536_Sub33_2833.readUnsignedByte() & 0xff) << 8 | (aClass536_Sub33_2833.readUnsignedByte() & 0xff) << 16 | aClass536_Sub33_2833.readUnsignedByte() << 24);
 			i_169_ = i_172_ - i_169_;
 			aClass536_Sub33_2833.off += -331126352;
-			int i_173_ = aClass536_Sub33_2833.readUnsignedByte(-504969847);
+			int i_173_ = aClass536_Sub33_2833.readUnsignedByte();
 			int i_174_ = aClass536_Sub33_2833.off * -810172525;
 			int i_175_ = i_174_ + i_173_;
 			if (i_175_ > i_168_ + anInt2829) {
@@ -1666,12 +1666,12 @@ public class Class258 implements Interface43 {
 				anInt2815++;
 			aList2820.clear();
 			aList2788.clear();
-			aClass536_Sub33_2833.readUnsignedByte(949623588);
-			int i_204_ = aClass536_Sub33_2833.readUnsignedByte(-1547862572);
-			int i_205_ = (aClass536_Sub33_2833.readUnsignedByte(1987757295) & 0xff | (aClass536_Sub33_2833.readUnsignedByte(495193995) & 0xff) << 8 | (aClass536_Sub33_2833.readUnsignedByte(816551447) & 0xff) << 16 | aClass536_Sub33_2833.readUnsignedByte(292938252) << 24);
+			aClass536_Sub33_2833.readUnsignedByte();
+			int i_204_ = aClass536_Sub33_2833.readUnsignedByte();
+			int i_205_ = (aClass536_Sub33_2833.readUnsignedByte() & 0xff | (aClass536_Sub33_2833.readUnsignedByte() & 0xff) << 8 | (aClass536_Sub33_2833.readUnsignedByte() & 0xff) << 16 | aClass536_Sub33_2833.readUnsignedByte() << 24);
 			i_202_ = i_205_ - i_202_;
 			aClass536_Sub33_2833.off += -331126352;
-			int i_206_ = aClass536_Sub33_2833.readUnsignedByte(-837102460);
+			int i_206_ = aClass536_Sub33_2833.readUnsignedByte();
 			int i_207_ = aClass536_Sub33_2833.off * -810172525;
 			int i_208_ = i_207_ + i_206_;
 			if (i_208_ > i_201_ + anInt2829) {

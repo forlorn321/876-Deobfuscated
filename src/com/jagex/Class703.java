@@ -62,9 +62,9 @@ public final class Class703 {
 	}
 
 	public static Class387 method8257(RSByteBuffer class536_sub33, byte i) {
-		int i_0_ = class536_sub33.readUnsignedByte(1337622854);
-		Class395 class395 = (Class333_Sub3.method9230(1524574745)[class536_sub33.readUnsignedByte(-859853028)]);
-		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(1824502340)]);
+		int i_0_ = class536_sub33.readUnsignedByte();
+		Class395 class395 = (Class333_Sub3.method9230(1524574745)[class536_sub33.readUnsignedByte()]);
+		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
 		int i_1_ = class536_sub33.readShort((byte) -46);
 		int i_2_ = class536_sub33.readShort((byte) -32);
 		int i_3_ = class536_sub33.readUnsignedShort();
@@ -72,7 +72,7 @@ public final class Class703 {
 		int i_5_ = class536_sub33.readInt();
 		int i_6_ = class536_sub33.readInt();
 		int i_7_ = class536_sub33.readInt();
-		boolean bool = class536_sub33.readUnsignedByte(1341064553) == 1;
+		boolean bool = class536_sub33.readUnsignedByte() == 1;
 		return new Class387(i_0_, class395, class399, i_1_, i_2_, i_3_, i_4_, i_5_, i_6_, i_7_, bool);
 	}
 

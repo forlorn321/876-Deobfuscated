@@ -29,7 +29,7 @@ public class Class546 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(278633160);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method6613(class536_sub33, i_0_, -491726257);
@@ -40,15 +40,15 @@ public class Class546 implements Interface13 {
 		if (1 == i)
 			class536_sub33.readUnsignedShort();
 		else if (i == 2)
-			anInt7287 = class536_sub33.readUnsignedByte(-1605290596) * 1000746937;
+			anInt7287 = class536_sub33.readUnsignedByte() * 1000746937;
 		else if (3 == i)
-			anInt7278 = class536_sub33.readUnsignedByte(-1801274475) * -2053405977;
+			anInt7278 = class536_sub33.readUnsignedByte() * -2053405977;
 		else if (4 == i)
 			anInt7281 = 0;
 		else if (i == 5)
 			anInt7284 = class536_sub33.readUnsignedShort() * 1289295945;
 		else if (6 == i)
-			class536_sub33.readUnsignedByte(452406413);
+			class536_sub33.readUnsignedByte();
 		else if (i == 7)
 			anInt7285 = class536_sub33.method9720((byte) 1) * 141824123;
 		else if (i == 8)
@@ -110,15 +110,15 @@ public class Class546 implements Interface13 {
 		if (1 == i)
 			class536_sub33.readUnsignedShort();
 		else if (i == 2)
-			anInt7287 = class536_sub33.readUnsignedByte(-963358644) * 1000746937;
+			anInt7287 = class536_sub33.readUnsignedByte() * 1000746937;
 		else if (3 == i)
-			anInt7278 = class536_sub33.readUnsignedByte(-369197153) * -2053405977;
+			anInt7278 = class536_sub33.readUnsignedByte() * -2053405977;
 		else if (4 == i)
 			anInt7281 = 0;
 		else if (i == 5)
 			anInt7284 = class536_sub33.readUnsignedShort() * 1289295945;
 		else if (6 == i)
-			class536_sub33.readUnsignedByte(-130897732);
+			class536_sub33.readUnsignedByte();
 		else if (i == 7)
 			anInt7285 = class536_sub33.method9720((byte) 1) * 141824123;
 		else if (i == 8)
@@ -156,7 +156,7 @@ public class Class546 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-1552975056);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method6613(class536_sub33, i, -1015727939);

@@ -26,7 +26,7 @@ public class Class158 {
 
 	public static void method1889(RSByteBuffer class536_sub33, int i, short i_1_) {
 		Class536_Sub34 class536_sub34 = new Class536_Sub34();
-		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte(-957761069) * 1530398673;
+		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte() * 1530398673;
 		class536_sub34.anInt10621 = class536_sub33.readInt() * -251386325;
 		class536_sub34.anIntArray10622 = new int[class536_sub34.anInt10619 * 1706012977];
 		class536_sub34.anIntArray10624 = new int[1706012977 * class536_sub34.anInt10619];
@@ -36,7 +36,7 @@ public class Class158 {
 		class536_sub34.aByteArrayArrayArray10626 = new byte[class536_sub34.anInt10619 * 1706012977][][];
 		for (int i_2_ = 0; i_2_ < class536_sub34.anInt10619 * 1706012977; i_2_++) {
 			try {
-				int i_3_ = class536_sub33.readUnsignedByte(-698733238);
+				int i_3_ = class536_sub33.readUnsignedByte();
 				if (0 == i_3_ || 1 == i_3_ || i_3_ == 2) {
 					String string = class536_sub33.readString();
 					String string_4_ = class536_sub33.readString();
@@ -51,7 +51,7 @@ public class Class158 {
 				} else if (i_3_ == 3 || i_3_ == 4) {
 					String string = class536_sub33.readString();
 					String string_6_ = class536_sub33.readString();
-					int i_7_ = class536_sub33.readUnsignedByte(-61835438);
+					int i_7_ = class536_sub33.readUnsignedByte();
 					String[] strings = new String[i_7_];
 					for (int i_8_ = 0; i_8_ < i_7_; i_8_++)
 						strings[i_8_] = class536_sub33.readString();

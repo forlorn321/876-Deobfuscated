@@ -13,7 +13,7 @@ public class Class56 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(881142849);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			method957(class536_sub33, i_0_, (byte) -93);
@@ -96,7 +96,7 @@ public class Class56 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1525372046);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method957(class536_sub33, i, (byte) 29);

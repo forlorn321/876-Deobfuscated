@@ -25,7 +25,7 @@ public class Class567_Sub1 extends Class567 {
 		aClass561_10813.method6842((short) 255);
 	}
 
-	public boolean method6897(int i, int i_0_) throws IOException {
+	public boolean bitsRemaining(int i, int i_0_) throws IOException {
 		return aClass561_10813.method6833(i, -1018890561);
 	}
 

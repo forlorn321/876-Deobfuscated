@@ -50,7 +50,7 @@ public final class Class461 {
 		if (is != null && (0 != is[0] || is[1] != 0 || is[2] != 0 || is[3] != 0)) {
 			is_6_ = Class51.method931(anObjectArray5205[i], true, -1947306627);
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is_6_);
-			int i_7_ = class536_sub33.readUnsignedByte(-975351480);
+			int i_7_ = class536_sub33.readUnsignedByte();
 			int i_8_ = class536_sub33.readInt();
 			int i_9_ = (i_7_ == Class463.aClass463_5222.method78() ? 5 : 9) + i_8_;
 			class536_sub33.method9781(is, 5, i_9_, (byte) -24);

@@ -89,11 +89,11 @@ public class Class706_Sub2 extends Class706 {
 	}
 
 	public void method8277(RSByteBuffer class536_sub33, int i) {
-		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(-148363424), (byte) 16);
+		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(), (byte) 16);
 		int i_7_ = class536_sub33.readUnsignedShort();
 		anInterface31_10927 = aClass301_8821.method4080(1839776536).method205(class308, i_7_, 1782280427);
 		aClass436_10928.method5242(class536_sub33);
-		if (class536_sub33.readUnsignedByte(1992402473) == 1)
+		if (class536_sub33.readUnsignedByte() == 1)
 			aBool10931 = true;
 		else
 			aBool10931 = false;
@@ -163,22 +163,22 @@ public class Class706_Sub2 extends Class706 {
 	}
 
 	public void method8280(RSByteBuffer class536_sub33) {
-		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(-1821279536), (byte) 22);
+		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(), (byte) 22);
 		int i = class536_sub33.readUnsignedShort();
 		anInterface31_10927 = aClass301_8821.method4080(-1465422324).method205(class308, i, 1276646006);
 		aClass436_10928.method5242(class536_sub33);
-		if (class536_sub33.readUnsignedByte(-133868121) == 1)
+		if (class536_sub33.readUnsignedByte() == 1)
 			aBool10931 = true;
 		else
 			aBool10931 = false;
 	}
 
 	public void method8294(RSByteBuffer class536_sub33) {
-		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(-866340556), (byte) 21);
+		Class308 class308 = Class441.method5332(class536_sub33.readUnsignedByte(), (byte) 21);
 		int i = class536_sub33.readUnsignedShort();
 		anInterface31_10927 = aClass301_8821.method4080(1887999867).method205(class308, i, 1971101544);
 		aClass436_10928.method5242(class536_sub33);
-		if (class536_sub33.readUnsignedByte(983051549) == 1)
+		if (class536_sub33.readUnsignedByte() == 1)
 			aBool10931 = true;
 		else
 			aBool10931 = false;

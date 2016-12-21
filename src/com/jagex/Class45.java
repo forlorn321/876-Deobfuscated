@@ -136,7 +136,7 @@ public class Class45 {
 				if (aClass42_525 == Class42.aClass42_507) {
 					if (client.aClass106_11218.method1413((short) 8153) == null)
 						Class442.method5336((byte) 1);
-					else if (client.aClass106_11218.method1413((short) -14134).method6897(1, -898157126)) {
+					else if (client.aClass106_11218.method1413((short) -14134).bitsRemaining(1, -898157126)) {
 						client.aClass106_11218.method1413((short) -3273).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, 1800558659);
 						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1250980362), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
@@ -213,7 +213,7 @@ public class Class45 {
 				if (aClass42_525 == Class42.aClass42_507) {
 					if (client.aClass106_11218.method1413((short) -4931) == null)
 						Class442.method5336((byte) 1);
-					else if (client.aClass106_11218.method1413((short) -6132).method6897(1, -2011593291)) {
+					else if (client.aClass106_11218.method1413((short) -6132).bitsRemaining(1, -2011593291)) {
 						client.aClass106_11218.method1413((short) -27077).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, 1094601941);
 						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1428313437), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
@@ -290,7 +290,7 @@ public class Class45 {
 				if (aClass42_525 == Class42.aClass42_507) {
 					if (client.aClass106_11218.method1413((short) -16941) == null)
 						Class442.method5336((byte) 1);
-					else if (client.aClass106_11218.method1413((short) 1130).method6897(1, -662258788)) {
+					else if (client.aClass106_11218.method1413((short) 1130).bitsRemaining(1, -662258788)) {
 						client.aClass106_11218.method1413((short) -7151).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, -1422109342);
 						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1656210352), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
@@ -355,7 +355,7 @@ public class Class45 {
 	}
 
 	public static Class243 method898(RSByteBuffer class536_sub33, int i) {
-		int i_13_ = class536_sub33.readUnsignedByte(-1571768522);
+		int i_13_ = class536_sub33.readUnsignedByte();
 		if (0 == i_13_)
 			return null;
 		i_13_--;
@@ -363,7 +363,7 @@ public class Class45 {
 		int i_14_ = class536_sub33.readInt();
 		Object[] objects = new Object[i_13_];
 		for (int i_15_ = 0; i_15_ < i_13_; i_15_++) {
-			int i_16_ = class536_sub33.readUnsignedByte(1523881484);
+			int i_16_ = class536_sub33.readUnsignedByte();
 			if (i_16_ == 0)
 				objects[i_15_] = Class478.method5754(java.lang.Integer.class, (byte) 15).method68(class536_sub33, (short) -15529);
 			else if (1 == i_16_)

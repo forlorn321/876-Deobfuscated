@@ -404,13 +404,13 @@ public class Class306 implements Interface30 {
 
 	public static Class386 method4119(RSByteBuffer class536_sub33, int i) {
 		String string = class536_sub33.readString();
-		Class395 class395 = (Class333_Sub3.method9230(1525738188)[class536_sub33.readUnsignedByte(1168561056)]);
-		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(-1846490431)]);
+		Class395 class395 = (Class333_Sub3.method9230(1525738188)[class536_sub33.readUnsignedByte()]);
+		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
 		int i_24_ = class536_sub33.readShort((byte) -17);
 		int i_25_ = class536_sub33.readShort((byte) -100);
-		int i_26_ = class536_sub33.readUnsignedByte(-666356365);
-		int i_27_ = class536_sub33.readUnsignedByte(5555935);
-		int i_28_ = class536_sub33.readUnsignedByte(-251055230);
+		int i_26_ = class536_sub33.readUnsignedByte();
+		int i_27_ = class536_sub33.readUnsignedByte();
+		int i_28_ = class536_sub33.readUnsignedByte();
 		int i_29_ = class536_sub33.readUnsignedShort();
 		int i_30_ = class536_sub33.readUnsignedShort();
 		int i_31_ = class536_sub33.method9720((byte) 1);

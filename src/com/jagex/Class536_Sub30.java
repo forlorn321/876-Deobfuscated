@@ -11,7 +11,7 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 	public int anInt10568;
 
 	public void method64(RSByteBuffer class536_sub33) {
-		anInt10565 = class536_sub33.readUnsignedByte(123598781) * 1968946045;
+		anInt10565 = class536_sub33.readUnsignedByte() * 1968946045;
 		anInt10568 = class536_sub33.readInt() * 1921344143;
 		anInt10564 = class536_sub33.readInt() * 524680463;
 		anInt10567 = class536_sub33.readInt() * -377587009;
@@ -71,14 +71,14 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 	}
 
 	public void method65(RSByteBuffer class536_sub33) {
-		anInt10565 = class536_sub33.readUnsignedByte(1905021836) * 1968946045;
+		anInt10565 = class536_sub33.readUnsignedByte() * 1968946045;
 		anInt10568 = class536_sub33.readInt() * 1921344143;
 		anInt10564 = class536_sub33.readInt() * 524680463;
 		anInt10567 = class536_sub33.readInt() * -377587009;
 	}
 
 	public void method61(RSByteBuffer class536_sub33, int i) {
-		anInt10565 = class536_sub33.readUnsignedByte(-906087978) * 1968946045;
+		anInt10565 = class536_sub33.readUnsignedByte() * 1968946045;
 		anInt10568 = class536_sub33.readInt() * 1921344143;
 		anInt10564 = class536_sub33.readInt() * 524680463;
 		anInt10567 = class536_sub33.readInt() * -377587009;
@@ -175,7 +175,7 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 	}
 
 	public void method66(RSByteBuffer class536_sub33) {
-		anInt10565 = class536_sub33.readUnsignedByte(-287187857) * 1968946045;
+		anInt10565 = class536_sub33.readUnsignedByte() * 1968946045;
 		anInt10568 = class536_sub33.readInt() * 1921344143;
 		anInt10564 = class536_sub33.readInt() * 524680463;
 		anInt10567 = class536_sub33.readInt() * -377587009;

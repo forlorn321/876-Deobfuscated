@@ -49,7 +49,7 @@ public class Class213 {
 		anInterface28_2296 = interface28;
 		aLong2297 = class536_sub33.method9711(702869087) * -775646023304102589L;
 		anInt2295 = class536_sub33.readInt() * 488725477;
-		for (int i = class536_sub33.readUnsignedByte(-638706409); 0 != i; i = class536_sub33.readUnsignedByte(-1621279053)) {
+		for (int i = class536_sub33.readUnsignedByte(); 0 != i; i = class536_sub33.readUnsignedByte()) {
 			Class237 class237 = ((Class237) Class682.method8091(Class237.method3352(1555544768), i, 1858049507));
 			Interface27 interface27;
 			switch (class237.anInt2420 * -783149299) {

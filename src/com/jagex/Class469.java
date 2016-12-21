@@ -12,7 +12,7 @@ public class Class469 {
 
 	Class469(RSByteBuffer class536_sub33, BigInteger biginteger, BigInteger biginteger_0_) {
 		class536_sub33.off = -1714089721;
-		int i = class536_sub33.readUnsignedByte(1280678888);
+		int i = class536_sub33.readUnsignedByte();
 		class536_sub33.off += -1655631760 * i;
 		byte[] is = new byte[(class536_sub33.buffer.length - -810172525 * class536_sub33.off)];
 		class536_sub33.method9716(is, 0, is.length, -1269729029);

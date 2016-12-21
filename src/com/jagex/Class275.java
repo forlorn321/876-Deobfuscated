@@ -26,7 +26,7 @@ final class Class275 implements Interface29 {
 
 	static Class12 method3736(Class1 class1, RSByteBuffer class536_sub33, int i, int i_0_) {
 		Class12 class12 = new Class12(class1);
-		int i_1_ = class536_sub33.readUnsignedByte(6144354);
+		int i_1_ = class536_sub33.readUnsignedByte();
 		boolean bool = (i_1_ & 0x1) != 0;
 		boolean bool_2_ = 0 != (i_1_ & 0x2);
 		boolean bool_3_ = (i_1_ & 0x4) != 0;
@@ -89,7 +89,7 @@ final class Class275 implements Interface29 {
 			}
 		}
 		if (bool_4_) {
-			int i_7_ = class536_sub33.readUnsignedByte(1843756799);
+			int i_7_ = class536_sub33.readUnsignedByte();
 			int[] is = new int[2];
 			is[0] = i_7_ & 0xf;
 			is[1] = i_7_ >> 4 & 0xf;

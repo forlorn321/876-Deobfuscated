@@ -12,7 +12,7 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-1466251806);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			method10483(class536_sub33, i_0_, -1093384679);
@@ -47,13 +47,13 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 
 	void method10483(RSByteBuffer class536_sub33, int i, int i_4_) {
 		if (i == 249) {
-			int i_5_ = class536_sub33.readUnsignedByte(1784909094);
+			int i_5_ = class536_sub33.readUnsignedByte();
 			if (aClass4_11331 == null) {
 				int i_6_ = Class528.method6434(i_5_, -749369397);
 				aClass4_11331 = new Class4(i_6_);
 			}
 			for (int i_7_ = 0; i_7_ < i_5_; i_7_++) {
-				boolean bool = class536_sub33.readUnsignedByte(-1627632578) == 1;
+				boolean bool = class536_sub33.readUnsignedByte() == 1;
 				int i_8_ = class536_sub33.read24BitUnsignedInteger(1196325211);
 				Class536 class536;
 				if (bool)
@@ -67,7 +67,7 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-1524732401);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method10483(class536_sub33, i, 2069724290);
@@ -93,13 +93,13 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 
 	void method10485(RSByteBuffer class536_sub33, int i) {
 		if (i == 249) {
-			int i_11_ = class536_sub33.readUnsignedByte(590558523);
+			int i_11_ = class536_sub33.readUnsignedByte();
 			if (aClass4_11331 == null) {
 				int i_12_ = Class528.method6434(i_11_, -1479389088);
 				aClass4_11331 = new Class4(i_12_);
 			}
 			for (int i_13_ = 0; i_13_ < i_11_; i_13_++) {
-				boolean bool = class536_sub33.readUnsignedByte(-1653948911) == 1;
+				boolean bool = class536_sub33.readUnsignedByte() == 1;
 				int i_14_ = class536_sub33.read24BitUnsignedInteger(1019026108);
 				Class536 class536;
 				if (bool)
@@ -113,13 +113,13 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 
 	void method10486(RSByteBuffer class536_sub33, int i) {
 		if (i == 249) {
-			int i_15_ = class536_sub33.readUnsignedByte(-931668047);
+			int i_15_ = class536_sub33.readUnsignedByte();
 			if (aClass4_11331 == null) {
 				int i_16_ = Class528.method6434(i_15_, -2133544801);
 				aClass4_11331 = new Class4(i_16_);
 			}
 			for (int i_17_ = 0; i_17_ < i_15_; i_17_++) {
-				boolean bool = class536_sub33.readUnsignedByte(-908032899) == 1;
+				boolean bool = class536_sub33.readUnsignedByte() == 1;
 				int i_18_ = class536_sub33.read24BitUnsignedInteger(1832238836);
 				Class536 class536;
 				if (bool)

@@ -18,7 +18,7 @@ public class Class400 {
 
 	void method4914(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(1527797084);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method4915(class536_sub33, i_0_, i, (byte) 101);
@@ -36,9 +36,9 @@ public class Class400 {
 		} else if (3 == i)
 			class536_sub33.readByte();
 		else if (i == 4)
-			anInt4133 = class536_sub33.readUnsignedByte(2147477091) * 877307167;
+			anInt4133 = class536_sub33.readUnsignedByte() * 877307167;
 		else if (5 == i)
-			anInt4135 = class536_sub33.readUnsignedByte(-1329453493) * 1821475021;
+			anInt4135 = class536_sub33.readUnsignedByte() * 1821475021;
 		else if (i == 6)
 			aBool4134 = true;
 		else if (i == 7)
@@ -47,7 +47,7 @@ public class Class400 {
 
 	void method4916(RSByteBuffer class536_sub33, int i, byte i_3_) {
 		for (;;) {
-			int i_4_ = class536_sub33.readUnsignedByte(-1725254578);
+			int i_4_ = class536_sub33.readUnsignedByte();
 			if (i_4_ == 0)
 				break;
 			method4915(class536_sub33, i_4_, i, (byte) 25);
@@ -65,9 +65,9 @@ public class Class400 {
 		} else if (3 == i)
 			class536_sub33.readByte();
 		else if (i == 4)
-			anInt4133 = class536_sub33.readUnsignedByte(-1619202314) * 877307167;
+			anInt4133 = class536_sub33.readUnsignedByte() * 877307167;
 		else if (5 == i)
-			anInt4135 = class536_sub33.readUnsignedByte(-853040802) * 1821475021;
+			anInt4135 = class536_sub33.readUnsignedByte() * 1821475021;
 		else if (i == 6)
 			aBool4134 = true;
 		else if (i == 7)

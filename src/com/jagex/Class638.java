@@ -21,7 +21,7 @@ public class Class638 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(110577206);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method7644(class536_sub33, i_0_, 1185921697);
@@ -32,8 +32,8 @@ public class Class638 implements Interface13 {
 		if (i == 1)
 			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
 		else if (i == 2) {
-			anInt8304 = class536_sub33.readUnsignedByte(-308973081) * 148675805;
-			anInt8305 = class536_sub33.readUnsignedByte(1969746524) * 847276645;
+			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
+			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
 		}
 	}
 
@@ -53,7 +53,7 @@ public class Class638 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1282103248);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method7644(class536_sub33, i, 1085720358);
@@ -68,8 +68,8 @@ public class Class638 implements Interface13 {
 		if (i == 1)
 			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
 		else if (i == 2) {
-			anInt8304 = class536_sub33.readUnsignedByte(-1707884603) * 148675805;
-			anInt8305 = class536_sub33.readUnsignedByte(-1050196507) * 847276645;
+			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
+			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
 		}
 	}
 
@@ -77,8 +77,8 @@ public class Class638 implements Interface13 {
 		if (i == 1)
 			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
 		else if (i == 2) {
-			anInt8304 = class536_sub33.readUnsignedByte(2087699710) * 148675805;
-			anInt8305 = class536_sub33.readUnsignedByte(-45190832) * 847276645;
+			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
+			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
 		}
 	}
 
@@ -86,8 +86,8 @@ public class Class638 implements Interface13 {
 		if (i == 1)
 			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
 		else if (i == 2) {
-			anInt8304 = class536_sub33.readUnsignedByte(1236906456) * 148675805;
-			anInt8305 = class536_sub33.readUnsignedByte(-1607557649) * 847276645;
+			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
+			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
 		}
 	}
 

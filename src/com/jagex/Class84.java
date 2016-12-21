@@ -11,7 +11,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1178(RSByteBuffer class536_sub33, int i, int i_0_) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(1366800927) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)
@@ -22,7 +22,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_1_ = class536_sub33.readUnsignedByte(2098144538);
+			int i_1_ = class536_sub33.readUnsignedByte();
 			if (0 == i_1_)
 				break;
 			method1178(class536_sub33, i_1_, -796815401);
@@ -53,7 +53,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(939889399);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method1178(class536_sub33, i, -12418057);
@@ -70,7 +70,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1179(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(-706293004) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)
@@ -81,7 +81,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1180(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(-1059494403) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)
@@ -92,7 +92,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1181(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(1678101963) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)
@@ -103,7 +103,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1182(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(1845969376) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)
@@ -114,7 +114,7 @@ public class Class84 implements Interface13, Interface7 {
 
 	void method1183(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt867 = class536_sub33.readUnsignedByte(1574515825) * 1103714185;
+			anInt867 = class536_sub33.readUnsignedByte() * 1103714185;
 		else if (i == 2)
 			anInt864 = class536_sub33.readUnsignedShort() * -1927758131;
 		else if (i == 3)

@@ -12,7 +12,7 @@ public class Class536_Sub22_Sub3 extends Class536_Sub22 {
 	Class344 this$0;
 
 	void method9579(RSByteBuffer class536_sub33) {
-		aBool11638 = class536_sub33.readUnsignedByte(-208465741) == 1;
+		aBool11638 = class536_sub33.readUnsignedByte() == 1;
 		aByte11636 = class536_sub33.readByte();
 		aByte11637 = class536_sub33.readByte();
 		aByte11639 = class536_sub33.readByte();
@@ -20,7 +20,7 @@ public class Class536_Sub22_Sub3 extends Class536_Sub22 {
 	}
 
 	void method9578(RSByteBuffer class536_sub33, int i) {
-		aBool11638 = class536_sub33.readUnsignedByte(1441727551) == 1;
+		aBool11638 = class536_sub33.readUnsignedByte() == 1;
 		aByte11636 = class536_sub33.readByte();
 		aByte11637 = class536_sub33.readByte();
 		aByte11639 = class536_sub33.readByte();
@@ -28,7 +28,7 @@ public class Class536_Sub22_Sub3 extends Class536_Sub22 {
 	}
 
 	void method9577(RSByteBuffer class536_sub33) {
-		aBool11638 = class536_sub33.readUnsignedByte(-457779485) == 1;
+		aBool11638 = class536_sub33.readUnsignedByte() == 1;
 		aByte11636 = class536_sub33.readByte();
 		aByte11637 = class536_sub33.readByte();
 		aByte11639 = class536_sub33.readByte();

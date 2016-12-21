@@ -7,17 +7,17 @@ public class Class83 {
 	public Interface49[] anInterface49Array863;
 
 	void method1171(RSByteBuffer class536_sub33) {
-		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte(-1219205190)];
+		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte()];
 		Class390[] class390s = Class270.method3714((byte) 94);
 		for (int i = 0; i < anInterface49Array863.length; i++)
-			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte(-994889245)], -1278413334);
+			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte()], -1278413334);
 	}
 
 	void method1172(RSByteBuffer class536_sub33) {
-		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte(334037286)];
+		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte()];
 		Class390[] class390s = Class270.method3714((byte) 109);
 		for (int i = 0; i < anInterface49Array863.length; i++)
-			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte(-700545595)], -2071266229);
+			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte()], -2071266229);
 	}
 
 	Interface49 method1173(RSByteBuffer class536_sub33, Class390 class390, int i) {
@@ -47,10 +47,10 @@ public class Class83 {
 	}
 
 	void method1174(RSByteBuffer class536_sub33) {
-		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte(-1575047977)];
+		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte()];
 		Class390[] class390s = Class270.method3714((byte) 97);
 		for (int i = 0; i < anInterface49Array863.length; i++)
-			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte(1869497193)], -875760412);
+			anInterface49Array863[i] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte()], -875760412);
 	}
 
 	Class83() {
@@ -58,10 +58,10 @@ public class Class83 {
 	}
 
 	void method1175(RSByteBuffer class536_sub33, int i) {
-		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte(-1790090987)];
+		anInterface49Array863 = new Interface49[class536_sub33.readUnsignedByte()];
 		Class390[] class390s = Class270.method3714((byte) 106);
 		for (int i_0_ = 0; i_0_ < anInterface49Array863.length; i_0_++)
-			anInterface49Array863[i_0_] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte(-968251348)], -417407818);
+			anInterface49Array863[i_0_] = method1173(class536_sub33, class390s[class536_sub33.readUnsignedByte()], -417407818);
 	}
 
 	static final void method1176(Class668 class668, byte i) {

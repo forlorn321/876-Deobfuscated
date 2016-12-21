@@ -13,15 +13,15 @@ public class Class536_Sub22_Sub2 extends Class536_Sub22 {
 	void method9578(RSByteBuffer class536_sub33, int i) {
 		anInt11623 = class536_sub33.readUnsignedShort() * 901195655;
 		anInt11620 = class536_sub33.readInt() * 885483315;
-		anInt11622 = class536_sub33.readUnsignedByte(1540130326) * 585623837;
-		anInt11621 = class536_sub33.readUnsignedByte(1272254172) * 918309631;
+		anInt11622 = class536_sub33.readUnsignedByte() * 585623837;
+		anInt11621 = class536_sub33.readUnsignedByte() * 918309631;
 	}
 
 	void method9577(RSByteBuffer class536_sub33) {
 		anInt11623 = class536_sub33.readUnsignedShort() * 901195655;
 		anInt11620 = class536_sub33.readInt() * 885483315;
-		anInt11622 = class536_sub33.readUnsignedByte(905061026) * 585623837;
-		anInt11621 = class536_sub33.readUnsignedByte(1401459331) * 918309631;
+		anInt11622 = class536_sub33.readUnsignedByte() * 585623837;
+		anInt11621 = class536_sub33.readUnsignedByte() * 918309631;
 	}
 
 	void method9581(Class350 class350, int i) {
@@ -35,8 +35,8 @@ public class Class536_Sub22_Sub2 extends Class536_Sub22 {
 	void method9579(RSByteBuffer class536_sub33) {
 		anInt11623 = class536_sub33.readUnsignedShort() * 901195655;
 		anInt11620 = class536_sub33.readInt() * 885483315;
-		anInt11622 = class536_sub33.readUnsignedByte(-362114349) * 585623837;
-		anInt11621 = class536_sub33.readUnsignedByte(-704977641) * 918309631;
+		anInt11622 = class536_sub33.readUnsignedByte() * 585623837;
+		anInt11621 = class536_sub33.readUnsignedByte() * 918309631;
 	}
 
 	Class536_Sub22_Sub2(Class344 class344) {

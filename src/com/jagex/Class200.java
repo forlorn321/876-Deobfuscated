@@ -228,7 +228,23 @@ class Class200 implements Interface55 {
 		return class536_sub1.anIntArray10300[i_67_];
 	}
 
-	public static SubIncomingPacket[] method2916(int i) {
-		return (new SubIncomingPacket[] { SubIncomingPacket.aClass409_4307, SubIncomingPacket.aClass409_4308, SubIncomingPacket.aClass409_4309, SubIncomingPacket.aClass409_4313, SubIncomingPacket.aClass409_4317, SubIncomingPacket.aClass409_4312, SubIncomingPacket.REMOVE_GROUND_ITEM, SubIncomingPacket.aClass409_4314, SubIncomingPacket.ADD_GROUND_ITEM, SubIncomingPacket.aClass409_4316, SubIncomingPacket.aClass409_4321, SubIncomingPacket.aClass409_4318, SubIncomingPacket.aClass409_4319, SubIncomingPacket.aClass409_4320, SubIncomingPacket.aClass409_4311 });
+	public static SubIncomingPacket[] method2916() {
+		return (new SubIncomingPacket[] { 
+				SubIncomingPacket.aClass409_4307, //0
+				SubIncomingPacket.aClass409_4308, 
+				SubIncomingPacket.aClass409_4309, 
+				SubIncomingPacket.aClass409_4313, 
+				SubIncomingPacket.aClass409_4317, 
+				SubIncomingPacket.aClass409_4312, 
+				SubIncomingPacket.REMOVE_GROUND_ITEM, 
+				SubIncomingPacket.aClass409_4314, 
+				SubIncomingPacket.ADD_GROUND_ITEM, 
+				SubIncomingPacket.aClass409_4316, 
+				SubIncomingPacket.aClass409_4321, 
+				SubIncomingPacket.aClass409_4318, 
+				SubIncomingPacket.aClass409_4319, 
+				SubIncomingPacket.aClass409_4320,
+				SubIncomingPacket.aClass409_4311 
+				});
 	}
 }

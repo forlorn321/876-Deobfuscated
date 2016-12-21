@@ -17,7 +17,7 @@ public class Class225 implements Interface26 {
 
 	Class225(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		boolean bool = class536_sub33.readUnsignedByte(-968697710) != 255;
+		boolean bool = class536_sub33.readUnsignedByte() != 255;
 		if (bool)
 			class536_sub33.off -= 516175515;
 		aClass224_2340 = new Class224(class536_sub33, bool, true);

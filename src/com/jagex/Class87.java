@@ -60,19 +60,19 @@ public class Class87 {
 	public Class87(Class670 class670, Class664 class664, Class461 class461) {
 		aClass461_873 = class461;
 		RSByteBuffer class536_sub33 = new RSByteBuffer(aClass461_873.method5556(0, 0, (byte) 1));
-		int i = ((class536_sub33.buffer == null || class536_sub33.buffer.length < 1) ? -1 : class536_sub33.readUnsignedByte(1147458897));
+		int i = ((class536_sub33.buffer == null || class536_sub33.buffer.length < 1) ? -1 : class536_sub33.readUnsignedByte());
 		if (i < 4) {
 			aClass90Array871 = new Class90[0];
 			anInt874 = 252218945;
 		} else {
-			int i_7_ = class536_sub33.readUnsignedByte(472395257);
+			int i_7_ = class536_sub33.readUnsignedByte();
 			Class390[] class390s = Class270.method3714((byte) 30);
 			boolean bool = true;
 			if (i_7_ != class390s.length)
 				bool = false;
 			else {
 				for (int i_8_ = 0; i_8_ < class390s.length; i_8_++) {
-					int i_9_ = class536_sub33.readUnsignedByte(-1723639064);
+					int i_9_ = class536_sub33.readUnsignedByte();
 					if (1392117351 * class390s[i_8_].anInt4055 != i_9_) {
 						bool = false;
 						break;
@@ -80,8 +80,8 @@ public class Class87 {
 				}
 			}
 			if (bool) {
-				int i_10_ = class536_sub33.readUnsignedByte(-406203771);
-				int i_11_ = class536_sub33.readUnsignedByte(-1034967186);
+				int i_10_ = class536_sub33.readUnsignedByte();
+				int i_11_ = class536_sub33.readUnsignedByte();
 				int i_12_;
 				int i_13_;
 				if (i > 2) {
@@ -95,8 +95,8 @@ public class Class87 {
 				}
 				aClass90Array871 = new Class90[i_11_ + 1];
 				for (int i_14_ = 0; i_14_ < i_10_; i_14_++) {
-					int i_15_ = class536_sub33.readUnsignedByte(2068218298);
-					boolean bool_16_ = class536_sub33.readUnsignedByte(-1728909295) == 1;
+					int i_15_ = class536_sub33.readUnsignedByte();
+					boolean bool_16_ = class536_sub33.readUnsignedByte() == 1;
 					int i_17_ = class536_sub33.readUnsignedShort();
 					Class88[] class88s;
 					if (anInt874 * -1600029121 == -1) {

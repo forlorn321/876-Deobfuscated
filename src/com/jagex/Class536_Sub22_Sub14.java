@@ -9,7 +9,7 @@ public class Class536_Sub22_Sub14 extends Class536_Sub22 {
 	Class344 this$0;
 
 	void method9577(RSByteBuffer class536_sub33) {
-		if (class536_sub33.readUnsignedByte(-1301941881) != 255) {
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			aLong11702 = class536_sub33.method9711(702869087) * 6999452287882596215L;
 		}
@@ -17,7 +17,7 @@ public class Class536_Sub22_Sub14 extends Class536_Sub22 {
 	}
 
 	void method9578(RSByteBuffer class536_sub33, int i) {
-		if (class536_sub33.readUnsignedByte(-17098633) != 255) {
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			aLong11702 = class536_sub33.method9711(702869087) * 6999452287882596215L;
 		}
@@ -35,7 +35,7 @@ public class Class536_Sub22_Sub14 extends Class536_Sub22 {
 	}
 
 	void method9579(RSByteBuffer class536_sub33) {
-		if (class536_sub33.readUnsignedByte(190829171) != 255) {
+		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
 			aLong11702 = class536_sub33.method9711(702869087) * 6999452287882596215L;
 		}

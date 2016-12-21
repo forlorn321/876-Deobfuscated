@@ -20,7 +20,7 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10709(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(1624720683);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method10710(class536_sub33, i_0_, -713406020);
@@ -31,12 +31,12 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 		if (1 == i)
 			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -38);
 		else if (i == 2) {
-			int i_2_ = class536_sub33.readUnsignedByte(859398782);
+			int i_2_ = class536_sub33.readUnsignedByte();
 			anIntArray11724 = new int[i_2_];
 			for (int i_3_ = 0; i_3_ < i_2_; i_3_++)
 				anIntArray11724[i_3_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
-			int i_4_ = class536_sub33.readUnsignedByte(-1497156000);
+			int i_4_ = class536_sub33.readUnsignedByte();
 			anIntArray11722 = new int[i_4_];
 			anIntArrayArray11720 = new int[i_4_][];
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
@@ -98,12 +98,12 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 		if (1 == i)
 			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -72);
 		else if (i == 2) {
-			int i_13_ = class536_sub33.readUnsignedByte(2101532257);
+			int i_13_ = class536_sub33.readUnsignedByte();
 			anIntArray11724 = new int[i_13_];
 			for (int i_14_ = 0; i_14_ < i_13_; i_14_++)
 				anIntArray11724[i_14_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
-			int i_15_ = class536_sub33.readUnsignedByte(-395302504);
+			int i_15_ = class536_sub33.readUnsignedByte();
 			anIntArray11722 = new int[i_15_];
 			anIntArrayArray11720 = new int[i_15_][];
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++) {
@@ -137,7 +137,7 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10718(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1283712964);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method10710(class536_sub33, i, -173888311);
@@ -146,7 +146,7 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10719(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-850345198);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method10710(class536_sub33, i, 640708437);
@@ -198,7 +198,7 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10724(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1632844114);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			method10710(class536_sub33, i, 182480715);
@@ -221,12 +221,12 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 		if (1 == i)
 			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -86);
 		else if (i == 2) {
-			int i_25_ = class536_sub33.readUnsignedByte(-887982710);
+			int i_25_ = class536_sub33.readUnsignedByte();
 			anIntArray11724 = new int[i_25_];
 			for (int i_26_ = 0; i_26_ < i_25_; i_26_++)
 				anIntArray11724[i_26_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
-			int i_27_ = class536_sub33.readUnsignedByte(1450323154);
+			int i_27_ = class536_sub33.readUnsignedByte();
 			anIntArray11722 = new int[i_27_];
 			anIntArrayArray11720 = new int[i_27_][];
 			for (int i_28_ = 0; i_28_ < i_27_; i_28_++) {

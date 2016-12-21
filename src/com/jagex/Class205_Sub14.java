@@ -162,15 +162,15 @@ public class Class205_Sub14 extends Class205 {
 			anInt9912 = class536_sub33.readUnsignedShort() * -1934237115;
 		}
 		if (i == 0 && 0 == i_16_)
-			anInt9906 = class536_sub33.readUnsignedByte(-1064143224) * 591877505;
+			anInt9906 = class536_sub33.readUnsignedByte() * 591877505;
 		else
 			anInt9906 = -591877505;
 		anInt9910 = class536_sub33.readUnsignedShort() * 1208451057;
-		anInt9918 = class536_sub33.readUnsignedByte(204228200) * -86326947;
-		anInt9915 = class536_sub33.readUnsignedByte(-547591177) * -1667516553;
+		anInt9918 = class536_sub33.readUnsignedByte() * -86326947;
+		anInt9915 = class536_sub33.readUnsignedByte() * -1667516553;
 		anInt9917 = class536_sub33.read24BitUnsignedInteger(912386209) * 1189889357;
 		anInt9905 = class536_sub33.readUnsignedShort() * 288637087;
-		anInt9919 = class536_sub33.readUnsignedByte(604116022) * -1827769969;
+		anInt9919 = class536_sub33.readUnsignedByte() * -1827769969;
 	}
 
 	public static final void method9073(boolean bool, int i) {

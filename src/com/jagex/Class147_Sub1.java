@@ -277,7 +277,7 @@ public final class Class147_Sub1 extends Class147 {
 						}
 						break;
 					}
-					int i_11_ = class536_sub33.readUnsignedByte(1167894895);
+					int i_11_ = class536_sub33.readUnsignedByte();
 					if (i_11_ < 0 || i_11_ > 1) {
 						try {
 							class6.method585(-1411037171);

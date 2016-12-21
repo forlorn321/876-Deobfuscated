@@ -701,7 +701,7 @@ public final class client extends Class505 {
 						Class522.aString7077 = string_0_;
 						break;
 					default:
-						Class81.method1165("", new RuntimeException(), (byte) -96);
+						//Class81.method1165("", new RuntimeException(), (byte) -96);
 						break;
 					case 14:
 						break;
@@ -3102,7 +3102,7 @@ public final class client extends Class505 {
 					Class95.aLong1163 = (Class249.method3450(1485070864) * 8318299307769190309L);
 				}
 				if (anInt11041 * -275818405 == 2) {
-					if (Class582.aClass567_7700.method6897(1, -458960978)) {
+					if (Class582.aClass567_7700.bitsRemaining(1, -458960978)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, -508252472);
 						if (0 != is[0]) {
@@ -3118,7 +3118,7 @@ public final class client extends Class505 {
 				if (-275818405 * anInt11041 == 3) {
 					Class59[] class59s = Class59.method983(-2140404394);
 					int i = class59s.length * 4;
-					if (Class582.aClass567_7700.method6897(i, -2065178589)) {
+					if (Class582.aClass567_7700.bitsRemaining(i, -2065178589)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 239261002);
 						for (int i_155_ = 0; i_155_ < class59s.length; i_155_++)
@@ -4437,7 +4437,7 @@ public final class client extends Class505 {
 					Class95.aLong1163 = (Class249.method3450(1614797338) * 8318299307769190309L);
 				}
 				if (anInt11041 * -275818405 == 2) {
-					if (Class582.aClass567_7700.method6897(1, -1483849144)) {
+					if (Class582.aClass567_7700.bitsRemaining(1, -1483849144)) {
 						byte[] is = new byte[1];
 						int i_231_ = Class582.aClass567_7700.method6899(is, 0, 1, 1580523327);
 						if (0 != is[0]) {
@@ -4453,7 +4453,7 @@ public final class client extends Class505 {
 				if (-275818405 * anInt11041 == 3) {
 					Class59[] class59s = Class59.method983(-2132919323);
 					int i_232_ = class59s.length * 4;
-					if (Class582.aClass567_7700.method6897(i_232_, -1160328489)) {
+					if (Class582.aClass567_7700.bitsRemaining(i_232_, -1160328489)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i_232_);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1774523566);
 						for (int i_233_ = 0; i_233_ < class59s.length; i_233_++)
@@ -4950,7 +4950,7 @@ public final class client extends Class505 {
 					Class95.aLong1163 = (Class249.method3450(1936562489) * 8318299307769190309L);
 				}
 				if (anInt11041 * -275818405 == 2) {
-					if (Class582.aClass567_7700.method6897(1, -1362771204)) {
+					if (Class582.aClass567_7700.bitsRemaining(1, -1362771204)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, 1621321128);
 						if (0 != is[0]) {
@@ -4966,7 +4966,7 @@ public final class client extends Class505 {
 				if (-275818405 * anInt11041 == 3) {
 					Class59[] class59s = Class59.method983(-2128907348);
 					int i = class59s.length * 4;
-					if (Class582.aClass567_7700.method6897(i, -1660393165)) {
+					if (Class582.aClass567_7700.bitsRemaining(i, -1660393165)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1622897807);
 						for (int i_261_ = 0; i_261_ < class59s.length; i_261_++)
@@ -5043,7 +5043,7 @@ public final class client extends Class505 {
 					Class95.aLong1163 = (Class249.method3450(2084433943) * 8318299307769190309L);
 				}
 				if (anInt11041 * -275818405 == 2) {
-					if (Class582.aClass567_7700.method6897(1, -2121696846)) {
+					if (Class582.aClass567_7700.bitsRemaining(1, -2121696846)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, 956205467);
 						if (0 != is[0]) {
@@ -5059,7 +5059,7 @@ public final class client extends Class505 {
 				if (-275818405 * anInt11041 == 3) {
 					Class59[] class59s = Class59.method983(-2123212533);
 					int i = class59s.length * 4;
-					if (Class582.aClass567_7700.method6897(i, -1560624441)) {
+					if (Class582.aClass567_7700.bitsRemaining(i, -1560624441)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 471066595);
 						for (int i_262_ = 0; i_262_ < class59s.length; i_262_++)

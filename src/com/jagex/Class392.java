@@ -50,8 +50,8 @@ public class Class392 implements Interface49 {
 	}
 
 	static Class392 method4864(RSByteBuffer class536_sub33, int i) {
-		Class395 class395 = (Class333_Sub3.method9230(1704986689)[class536_sub33.readUnsignedByte(853447515)]);
-		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(1377178413)]);
+		Class395 class395 = (Class333_Sub3.method9230(1704986689)[class536_sub33.readUnsignedByte()]);
+		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
 		int i_8_ = class536_sub33.readShort((byte) -60);
 		int i_9_ = class536_sub33.readShort((byte) -39);
 		int i_10_ = class536_sub33.readUnsignedShort();

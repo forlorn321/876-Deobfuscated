@@ -15,7 +15,7 @@ public class Class205_Sub1 extends Class205 {
 		super(class536_sub33);
 		anInt9856 = class536_sub33.readUnsignedShort() * 362021527;
 		anInt9855 = class536_sub33.readUnsignedShort() * 1093093763;
-		anInt9857 = class536_sub33.readUnsignedByte(-622415479) * -921148139;
+		anInt9857 = class536_sub33.readUnsignedByte() * -921148139;
 	}
 
 	public void method2940(int i) {

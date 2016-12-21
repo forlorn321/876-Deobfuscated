@@ -29,16 +29,16 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 	void method10787(RSByteBuffer class536_sub33, int i, Class499 class499, byte i_1_) {
 		int i_2_ = aClass499Array11797.length;
 		if (Class499.aClass499_5566 == class499 || Class499.aClass499_6519 == class499) {
-			Class458 class458 = ((Class458) Class682.method8091(Class458.method5497((byte) 14), class536_sub33.readUnsignedByte(-1606860894), 1858049507));
+			Class458 class458 = ((Class458) Class682.method8091(Class458.method5497((byte) 14), class536_sub33.readUnsignedByte(), 1858049507));
 			int i_3_ = class536_sub33.readUnsignedShort();
 			if (anObjectArray11796 == null)
 				anObjectArray11796 = new Object[i_2_];
 			anObjectArray11796[i] = anInterface20_11807.method124(class458, i_3_, 323730415);
 			if (null == anIntArray11798)
 				anIntArray11798 = new int[i_2_];
-			anIntArray11798[i] = class536_sub33.readUnsignedByte(-1682856040);
+			anIntArray11798[i] = class536_sub33.readUnsignedByte();
 		} else if (class499 == Class499.aClass499_5570) {
-			Class478 class478 = ((Class478) Class682.method8091(Class478.method5757((byte) -31), class536_sub33.readUnsignedByte(895602021), 1858049507));
+			Class478 class478 = ((Class478) Class682.method8091(Class478.method5757((byte) -31), class536_sub33.readUnsignedByte(), 1858049507));
 			switch (class478.anInt5383 * -1645921193) {
 			case 0:
 				if (anIntArray11798 == null)
@@ -67,14 +67,14 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 			anObjectArray11796[i] = anInterface20_11807.method123(i_4_, -1018286558);
 			if (null == anIntArray11798)
 				anIntArray11798 = new int[i_2_];
-			anIntArray11798[i] = class536_sub33.readUnsignedByte(-1562495251);
+			anIntArray11798[i] = class536_sub33.readUnsignedByte();
 		} else {
 			if (null == anIntArray11798)
 				anIntArray11798 = new int[i_2_];
 			if (class499 != null && class499.aBool6358)
 				anIntArray11798[i] = class536_sub33.readInt();
 			else
-				anIntArray11798[i] = class536_sub33.readUnsignedByte(1881954336);
+				anIntArray11798[i] = class536_sub33.readUnsignedByte();
 		}
 		aClass499Array11797[i] = class499;
 	}
@@ -103,7 +103,7 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 		anInt11803 = class536_sub33.readUnsignedShort() * -1864917601;
 		anInt11804 = class536_sub33.readUnsignedShort() * -1768934361;
 		anInt11805 = class536_sub33.readUnsignedShort() * -563611559;
-		int i_9_ = class536_sub33.readUnsignedByte(-843649701);
+		int i_9_ = class536_sub33.readUnsignedByte();
 		if (i_9_ > 0) {
 			aClass4Array11806 = new Class4[i_9_];
 			for (int i_10_ = 0; i_10_ < i_9_; i_10_++) {

@@ -61,13 +61,13 @@ public class Class109 {
 	}
 
 	public static Class394 method1449(RSByteBuffer class536_sub33, int i) {
-		Class395 class395 = (Class333_Sub3.method9230(1822744981)[class536_sub33.readUnsignedByte(-339308244)]);
-		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(650143115)]);
+		Class395 class395 = (Class333_Sub3.method9230(1822744981)[class536_sub33.readUnsignedByte()]);
+		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
 		int i_0_ = class536_sub33.readShort((byte) -76);
 		int i_1_ = class536_sub33.readShort((byte) -20);
 		int i_2_ = class536_sub33.method9720((byte) 1);
 		int i_3_ = class536_sub33.readInt();
-		int i_4_ = class536_sub33.readUnsignedByte(-68858208);
+		int i_4_ = class536_sub33.readUnsignedByte();
 		return new Class394(class395, class399, i_0_, i_1_, i_2_, i_3_, i_4_);
 	}
 

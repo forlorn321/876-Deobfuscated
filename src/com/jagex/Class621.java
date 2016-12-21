@@ -17,7 +17,7 @@ public class Class621 {
 
 	void method7405(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-1109691103);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			if (i_0_ == 1)
@@ -56,7 +56,7 @@ public class Class621 {
 
 	void method7406(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(549049691);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			if (i == 1)
@@ -90,7 +90,7 @@ public class Class621 {
 
 	void method7407(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-1211794749);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			if (i == 1)

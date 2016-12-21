@@ -35,10 +35,10 @@ public class Class40 {
 
 	public static boolean method870(byte[] is, int i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-		int i_0_ = class536_sub33.readUnsignedByte(-271301033);
+		int i_0_ = class536_sub33.readUnsignedByte();
 		if (2 != i_0_)
 			return false;
-		boolean bool = class536_sub33.readUnsignedByte(-1668079461) == 1;
+		boolean bool = class536_sub33.readUnsignedByte() == 1;
 		if (bool)
 			Class100.method1335(class536_sub33, 1031291051);
 		Class344.method4488(class536_sub33, 383327791);
@@ -51,7 +51,7 @@ public class Class40 {
 	}
 
 	static Class205 method872(RSByteBuffer class536_sub33, int i) {
-		int i_1_ = class536_sub33.readUnsignedByte(840977122);
+		int i_1_ = class536_sub33.readUnsignedByte();
 		Class79 class79 = Class205.method2949(i_1_, -1870301746);
 		Class205 class205 = null;
 		switch (class79.anInt855 * -1314982477) {

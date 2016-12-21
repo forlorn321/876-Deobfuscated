@@ -20,30 +20,30 @@ public class Class631 {
 
 	void method7529(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(-395940190);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			if (i_0_ == 1) {
-				int i_1_ = class536_sub33.readUnsignedByte(865218764);
+				int i_1_ = class536_sub33.readUnsignedByte();
 				anIntArray8241 = new int[i_1_];
 				for (int i_2_ = 0; i_2_ < anIntArray8241.length; i_2_++) {
-					anIntArray8241[i_2_] = class536_sub33.readUnsignedByte(-1144536620);
+					anIntArray8241[i_2_] = class536_sub33.readUnsignedByte();
 					if (0 != anIntArray8241[i_2_] && 2 != anIntArray8241[i_2_]) {
 						/* empty */
 					}
 				}
 			} else if (i_0_ == 3)
-				anInt8242 = class536_sub33.readUnsignedByte(489111305) * -802846703;
+				anInt8242 = class536_sub33.readUnsignedByte() * -802846703;
 			else if (4 == i_0_)
-				anInt8243 = class536_sub33.readUnsignedByte(98187992) * -1199033349;
+				anInt8243 = class536_sub33.readUnsignedByte() * -1199033349;
 			else if (5 == i_0_) {
-				anIntArray8244 = new int[class536_sub33.readUnsignedByte(2006163726)];
+				anIntArray8244 = new int[class536_sub33.readUnsignedByte()];
 				for (int i_3_ = 0; i_3_ < anIntArray8244.length; i_3_++)
-					anIntArray8244[i_3_] = class536_sub33.readUnsignedByte(1650393674);
+					anIntArray8244[i_3_] = class536_sub33.readUnsignedByte();
 			} else if (i_0_ == 6) {
-				anIntArray8245 = new int[class536_sub33.readUnsignedByte(656676741)];
+				anIntArray8245 = new int[class536_sub33.readUnsignedByte()];
 				for (int i_4_ = 0; i_4_ < anIntArray8245.length; i_4_++)
-					anIntArray8245[i_4_] = class536_sub33.readUnsignedByte(2097900117);
+					anIntArray8245[i_4_] = class536_sub33.readUnsignedByte();
 			}
 		}
 		if (anIntArray8241 == null)
@@ -52,30 +52,30 @@ public class Class631 {
 
 	void method7530(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1095200153);
+			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
 			if (i == 1) {
-				int i_5_ = class536_sub33.readUnsignedByte(1703521007);
+				int i_5_ = class536_sub33.readUnsignedByte();
 				anIntArray8241 = new int[i_5_];
 				for (int i_6_ = 0; i_6_ < anIntArray8241.length; i_6_++) {
-					anIntArray8241[i_6_] = class536_sub33.readUnsignedByte(-902585079);
+					anIntArray8241[i_6_] = class536_sub33.readUnsignedByte();
 					if (0 != anIntArray8241[i_6_] && 2 != anIntArray8241[i_6_]) {
 						/* empty */
 					}
 				}
 			} else if (i == 3)
-				anInt8242 = class536_sub33.readUnsignedByte(1593067664) * -802846703;
+				anInt8242 = class536_sub33.readUnsignedByte() * -802846703;
 			else if (4 == i)
-				anInt8243 = class536_sub33.readUnsignedByte(1391739502) * -1199033349;
+				anInt8243 = class536_sub33.readUnsignedByte() * -1199033349;
 			else if (5 == i) {
-				anIntArray8244 = new int[class536_sub33.readUnsignedByte(-426621231)];
+				anIntArray8244 = new int[class536_sub33.readUnsignedByte()];
 				for (int i_7_ = 0; i_7_ < anIntArray8244.length; i_7_++)
-					anIntArray8244[i_7_] = class536_sub33.readUnsignedByte(329067657);
+					anIntArray8244[i_7_] = class536_sub33.readUnsignedByte();
 			} else if (i == 6) {
-				anIntArray8245 = new int[class536_sub33.readUnsignedByte(1887257787)];
+				anIntArray8245 = new int[class536_sub33.readUnsignedByte()];
 				for (int i_8_ = 0; i_8_ < anIntArray8245.length; i_8_++)
-					anIntArray8245[i_8_] = class536_sub33.readUnsignedByte(-879054500);
+					anIntArray8245[i_8_] = class536_sub33.readUnsignedByte();
 			}
 		}
 		if (anIntArray8241 == null)

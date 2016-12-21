@@ -206,12 +206,12 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 						throw new IOException();
 				}
 				class536_sub33.off = 0;
-				i_21_ = class536_sub33.readUnsignedByte(-31899215);
+				i_21_ = class536_sub33.readUnsignedByte();
 				if (i_21_ < 1 || i_21_ > 3)
 					throw new IOException(new StringBuilder().append("").append(i_21_).toString());
 				int i_22_ = 0;
 				if (i_21_ > 1)
-					i_22_ = class536_sub33.readUnsignedByte(-1773872356);
+					i_22_ = class536_sub33.readUnsignedByte();
 				if (i_21_ <= 2) {
 					string_19_ = class536_sub33.method9714((byte) 94);
 					if (1 == i_22_)

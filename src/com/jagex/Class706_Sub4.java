@@ -147,7 +147,7 @@ public abstract class Class706_Sub4 extends Class706 {
 		aFloat10959 = 0.0F;
 		aFloat10957 = 0.0F;
 		anInt10960 = 0;
-		int i_8_ = class536_sub33.readUnsignedByte(-665879589);
+		int i_8_ = class536_sub33.readUnsignedByte();
 		aClass439Array10961 = new Class439[i_8_];
 		aFloatArray10958 = new float[i_8_];
 		for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
@@ -298,7 +298,7 @@ public abstract class Class706_Sub4 extends Class706 {
 		aFloat10959 = 0.0F;
 		aFloat10957 = 0.0F;
 		anInt10960 = 0;
-		int i = class536_sub33.readUnsignedByte(-1152761937);
+		int i = class536_sub33.readUnsignedByte();
 		aClass439Array10961 = new Class439[i];
 		aFloatArray10958 = new float[i];
 		for (int i_24_ = 0; i_24_ < i; i_24_++) {
@@ -312,7 +312,7 @@ public abstract class Class706_Sub4 extends Class706 {
 		aFloat10959 = 0.0F;
 		aFloat10957 = 0.0F;
 		anInt10960 = 0;
-		int i = class536_sub33.readUnsignedByte(755212041);
+		int i = class536_sub33.readUnsignedByte();
 		aClass439Array10961 = new Class439[i];
 		aFloatArray10958 = new float[i];
 		for (int i_25_ = 0; i_25_ < i; i_25_++) {

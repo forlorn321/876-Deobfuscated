@@ -38,7 +38,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4622;
 	public static IncomingPacket PING;
 	public static IncomingPacket aClass422_4624;
-	public static IncomingPacket aClass422_4625;
+	public static IncomingPacket ICOMPONENT_TEXT;
 	public static IncomingPacket aClass422_4626;
 	public static IncomingPacket aClass422_4627;
 	public static IncomingPacket aClass422_4628;
@@ -93,7 +93,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4677;
 	public static IncomingPacket CS_VAR_2;
 	public static IncomingPacket aClass422_4679;
-	public static IncomingPacket aClass422_4680;
+	public static IncomingPacket HIDE_ICOMPONENT;
 	public static IncomingPacket aClass422_4681;
 	public static IncomingPacket OBJECT_RELATED_MAYBE;
 	public static IncomingPacket aClass422_4683;
@@ -241,7 +241,7 @@ public class IncomingPacket {
 		aClass422_4622 = new IncomingPacket(31, 3);
 		PING = new IncomingPacket(32, 0);
 		aClass422_4624 = new IncomingPacket(33, 10);
-		aClass422_4625 = new IncomingPacket(34, -2);
+		ICOMPONENT_TEXT = new IncomingPacket(34, -2);
 		aClass422_4606 = new IncomingPacket(35, -1);
 		aClass422_4627 = new IncomingPacket(36, 32);
 		aClass422_4628 = new IncomingPacket(37, 0);
@@ -341,7 +341,7 @@ public class IncomingPacket {
 		aClass422_4722 = new IncomingPacket(131, 21);
 		aClass422_4644 = new IncomingPacket(132, 8);
 		aClass422_4724 = new IncomingPacket(133, 1);
-		aClass422_4680 = new IncomingPacket(134, 5);
+		HIDE_ICOMPONENT = new IncomingPacket(134, 5);
 		aClass422_4726 = new IncomingPacket(135, 10);
 		aClass422_4727 = new IncomingPacket(136, -1);
 		aClass422_4728 = new IncomingPacket(137, 3);

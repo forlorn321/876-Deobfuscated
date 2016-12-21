@@ -19,12 +19,12 @@ public class Class536_Sub27 extends Class536 {
 		anInt10534 = (i >>> 28) * 2053824531;
 		anInt10540 = (i >>> 14 & 0x3fff) * -341775319;
 		anInt10536 = -1292521283 * (i & 0x3fff);
-		anInt10542 = class536_sub33.readUnsignedByte(1369693945) * -178808363;
-		anInt10541 = class536_sub33.readUnsignedByte(-666066874) * -835195391;
-		anInt10537 = class536_sub33.readUnsignedByte(2064895687) * -1320321757;
-		anInt10535 = class536_sub33.readUnsignedByte(1767645991) * 1504014115;
-		anInt10539 = class536_sub33.readUnsignedByte(-1250274939) * -1530712073;
-		anInt10538 = class536_sub33.readUnsignedByte(-1746552944) * -295840071;
+		anInt10542 = class536_sub33.readUnsignedByte() * -178808363;
+		anInt10541 = class536_sub33.readUnsignedByte() * -835195391;
+		anInt10537 = class536_sub33.readUnsignedByte() * -1320321757;
+		anInt10535 = class536_sub33.readUnsignedByte() * 1504014115;
+		anInt10539 = class536_sub33.readUnsignedByte() * -1530712073;
+		anInt10538 = class536_sub33.readUnsignedByte() * -295840071;
 	}
 
 	static void method9594(Class668 class668, int i) {

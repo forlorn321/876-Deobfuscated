@@ -29,7 +29,7 @@ public class Class593 {
 		for (int i_1_ = 0; i_1_ < -537974539 * anInt7807; i_1_++) {
 			int i_2_ = class536_sub33.readUnsignedSmart(-1246782921);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_2_] = new Class603_Sub1();
-			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(613843187) * 809472901;
+			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte() * 809472901;
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-480191768) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
@@ -61,7 +61,7 @@ public class Class593 {
 		for (int i_4_ = 0; i_4_ < -537974539 * anInt7807; i_4_++) {
 			int i_5_ = class536_sub33.readUnsignedSmart(1116999799);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_5_] = new Class603_Sub1();
-			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(741218900) * 809472901;
+			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte() * 809472901;
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-620612441) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
@@ -89,7 +89,7 @@ public class Class593 {
 		for (int i_7_ = 0; i_7_ < -537974539 * anInt7807; i_7_++) {
 			int i_8_ = class536_sub33.readUnsignedSmart(540185066);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_8_] = new Class603_Sub1();
-			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(18007096) * 809472901;
+			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte() * 809472901;
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(437081542) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)

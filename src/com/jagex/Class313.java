@@ -20,15 +20,15 @@ public class Class313 implements Interface13 {
 
 	void method4185(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			class536_sub33.readUnsignedByte(1944299613);
+			class536_sub33.readUnsignedByte();
 		else if (i == 2) {
-			int i_0_ = class536_sub33.readUnsignedByte(1109810836);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			anIntArray3491 = new int[i_0_];
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++)
 				anIntArray3491[i_1_] = class536_sub33.method9720((byte) 1);
 		} else if (3 != i) {
 			if (40 == i) {
-				int i_2_ = class536_sub33.readUnsignedByte(-906148488);
+				int i_2_ = class536_sub33.readUnsignedByte();
 				aShortArray3490 = new short[i_2_];
 				aShortArray3488 = new short[i_2_];
 				for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
@@ -36,7 +36,7 @@ public class Class313 implements Interface13 {
 					aShortArray3488[i_3_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_4_ = class536_sub33.readUnsignedByte(1445946172);
+				int i_4_ = class536_sub33.readUnsignedByte();
 				aShortArray3492 = new short[i_4_];
 				aShortArray3495 = new short[i_4_];
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
@@ -82,15 +82,15 @@ public class Class313 implements Interface13 {
 
 	void method4186(RSByteBuffer class536_sub33, int i, byte i_16_) {
 		if (i == 1)
-			class536_sub33.readUnsignedByte(1784754237);
+			class536_sub33.readUnsignedByte();
 		else if (i == 2) {
-			int i_17_ = class536_sub33.readUnsignedByte(1038251613);
+			int i_17_ = class536_sub33.readUnsignedByte();
 			anIntArray3491 = new int[i_17_];
 			for (int i_18_ = 0; i_18_ < i_17_; i_18_++)
 				anIntArray3491[i_18_] = class536_sub33.method9720((byte) 1);
 		} else if (3 != i) {
 			if (40 == i) {
-				int i_19_ = class536_sub33.readUnsignedByte(281971139);
+				int i_19_ = class536_sub33.readUnsignedByte();
 				aShortArray3490 = new short[i_19_];
 				aShortArray3488 = new short[i_19_];
 				for (int i_20_ = 0; i_20_ < i_19_; i_20_++) {
@@ -98,7 +98,7 @@ public class Class313 implements Interface13 {
 					aShortArray3488[i_20_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_21_ = class536_sub33.readUnsignedByte(-986988816);
+				int i_21_ = class536_sub33.readUnsignedByte();
 				aShortArray3492 = new short[i_21_];
 				aShortArray3495 = new short[i_21_];
 				for (int i_22_ = 0; i_22_ < i_21_; i_22_++) {
@@ -187,15 +187,15 @@ public class Class313 implements Interface13 {
 
 	void method4189(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			class536_sub33.readUnsignedByte(601038530);
+			class536_sub33.readUnsignedByte();
 		else if (i == 2) {
-			int i_38_ = class536_sub33.readUnsignedByte(-749639542);
+			int i_38_ = class536_sub33.readUnsignedByte();
 			anIntArray3491 = new int[i_38_];
 			for (int i_39_ = 0; i_39_ < i_38_; i_39_++)
 				anIntArray3491[i_39_] = class536_sub33.method9720((byte) 1);
 		} else if (3 != i) {
 			if (40 == i) {
-				int i_40_ = class536_sub33.readUnsignedByte(1481488706);
+				int i_40_ = class536_sub33.readUnsignedByte();
 				aShortArray3490 = new short[i_40_];
 				aShortArray3488 = new short[i_40_];
 				for (int i_41_ = 0; i_41_ < i_40_; i_41_++) {
@@ -203,7 +203,7 @@ public class Class313 implements Interface13 {
 					aShortArray3488[i_41_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_42_ = class536_sub33.readUnsignedByte(801220442);
+				int i_42_ = class536_sub33.readUnsignedByte();
 				aShortArray3492 = new short[i_42_];
 				aShortArray3495 = new short[i_42_];
 				for (int i_43_ = 0; i_43_ < i_42_; i_43_++) {
@@ -270,7 +270,7 @@ public class Class313 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(2096631398);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method4186(class536_sub33, i, (byte) -65);
@@ -279,15 +279,15 @@ public class Class313 implements Interface13 {
 
 	void method4191(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			class536_sub33.readUnsignedByte(1510390384);
+			class536_sub33.readUnsignedByte();
 		else if (i == 2) {
-			int i_59_ = class536_sub33.readUnsignedByte(-265693416);
+			int i_59_ = class536_sub33.readUnsignedByte();
 			anIntArray3491 = new int[i_59_];
 			for (int i_60_ = 0; i_60_ < i_59_; i_60_++)
 				anIntArray3491[i_60_] = class536_sub33.method9720((byte) 1);
 		} else if (3 != i) {
 			if (40 == i) {
-				int i_61_ = class536_sub33.readUnsignedByte(593904845);
+				int i_61_ = class536_sub33.readUnsignedByte();
 				aShortArray3490 = new short[i_61_];
 				aShortArray3488 = new short[i_61_];
 				for (int i_62_ = 0; i_62_ < i_61_; i_62_++) {
@@ -295,7 +295,7 @@ public class Class313 implements Interface13 {
 					aShortArray3488[i_62_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_63_ = class536_sub33.readUnsignedByte(-664632933);
+				int i_63_ = class536_sub33.readUnsignedByte();
 				aShortArray3492 = new short[i_63_];
 				aShortArray3495 = new short[i_63_];
 				for (int i_64_ = 0; i_64_ < i_63_; i_64_++) {
@@ -352,15 +352,15 @@ public class Class313 implements Interface13 {
 
 	void method4193(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			class536_sub33.readUnsignedByte(564700429);
+			class536_sub33.readUnsignedByte();
 		else if (i == 2) {
-			int i_76_ = class536_sub33.readUnsignedByte(1710126697);
+			int i_76_ = class536_sub33.readUnsignedByte();
 			anIntArray3491 = new int[i_76_];
 			for (int i_77_ = 0; i_77_ < i_76_; i_77_++)
 				anIntArray3491[i_77_] = class536_sub33.method9720((byte) 1);
 		} else if (3 != i) {
 			if (40 == i) {
-				int i_78_ = class536_sub33.readUnsignedByte(591192602);
+				int i_78_ = class536_sub33.readUnsignedByte();
 				aShortArray3490 = new short[i_78_];
 				aShortArray3488 = new short[i_78_];
 				for (int i_79_ = 0; i_79_ < i_78_; i_79_++) {
@@ -368,7 +368,7 @@ public class Class313 implements Interface13 {
 					aShortArray3488[i_79_] = (short) class536_sub33.readUnsignedShort();
 				}
 			} else if (i == 41) {
-				int i_80_ = class536_sub33.readUnsignedByte(1402380313);
+				int i_80_ = class536_sub33.readUnsignedByte();
 				aShortArray3492 = new short[i_80_];
 				aShortArray3495 = new short[i_80_];
 				for (int i_81_ = 0; i_81_ < i_80_; i_81_++) {
@@ -410,7 +410,7 @@ public class Class313 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_92_ = class536_sub33.readUnsignedByte(880086921);
+			int i_92_ = class536_sub33.readUnsignedByte();
 			if (0 == i_92_)
 				break;
 			method4186(class536_sub33, i_92_, (byte) -71);

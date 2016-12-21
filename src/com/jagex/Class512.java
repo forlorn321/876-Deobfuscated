@@ -11,7 +11,7 @@ public class Class512 {
 	static Class512 aClass512_6932;
 	static Class512 aClass512_6933;
 	public static Class512 aClass512_6934 = new Class512();
-	static int anInt6935;
+	static int scenePlane;
 	static int anInt6936;
 
 	static {

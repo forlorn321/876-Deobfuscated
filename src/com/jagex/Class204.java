@@ -18,7 +18,7 @@ public class Class204 {
 		anIntArray2233 = new int[i];
 		anIntArray2231 = new int[i];
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
-			int i_1_ = class536_sub33.readUnsignedByte(2141780890);
+			int i_1_ = class536_sub33.readUnsignedByte();
 			anIntArray2233[i_0_] = i_1_;
 			int i_2_ = class536_sub33.readUnsignedShort();
 			int i_3_ = class536_sub33.readUnsignedShort();

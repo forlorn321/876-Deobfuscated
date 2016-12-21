@@ -9,7 +9,7 @@ public class Class619 {
 
 	void method7392(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-308418791);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			if (i == 1)
@@ -19,7 +19,7 @@ public class Class619 {
 
 	void method7393(RSByteBuffer class536_sub33, byte i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(1427895520);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			if (i_0_ == 1)

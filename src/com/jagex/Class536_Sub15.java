@@ -114,18 +114,18 @@ public class Class536_Sub15 extends Class536 {
 	}
 
 	void method9512(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedByte(112844453);
+		int i = class536_sub33.readUnsignedByte();
 		if ((i & 0x1) != 0)
 			aBool10480 = true;
 		if (0 != (i & 0x2))
 			aBool10481 = true;
 		int i_4_ = 2;
 		if ((i & 0x4) != 0)
-			i_4_ = class536_sub33.readUnsignedByte(231163197);
+			i_4_ = class536_sub33.readUnsignedByte();
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
 		aString10485 = class536_sub33.readString();
-		class536_sub33.readUnsignedByte(701568340);
+		class536_sub33.readUnsignedByte();
 		aByte10487 = class536_sub33.readByte();
 		aByte10486 = class536_sub33.readByte();
 		anInt10482 = class536_sub33.readUnsignedShort() * -274940659;
@@ -140,7 +140,7 @@ public class Class536_Sub15 extends Class536 {
 				class349.aByte3696 = class536_sub33.readByte();
 				class349.anInt3697 = class536_sub33.readUnsignedShort() * 451662555;
 				if (i_4_ >= 3)
-					class536_sub33.readUnsignedByte(-616126951);
+					class536_sub33.readUnsignedByte();
 				aClass349Array10479[i_5_] = class349;
 			}
 		}
@@ -163,18 +163,18 @@ public class Class536_Sub15 extends Class536 {
 	}
 
 	void method9515(RSByteBuffer class536_sub33, int i) {
-		int i_6_ = class536_sub33.readUnsignedByte(806197091);
+		int i_6_ = class536_sub33.readUnsignedByte();
 		if ((i_6_ & 0x1) != 0)
 			aBool10480 = true;
 		if (0 != (i_6_ & 0x2))
 			aBool10481 = true;
 		int i_7_ = 2;
 		if ((i_6_ & 0x4) != 0)
-			i_7_ = class536_sub33.readUnsignedByte(-1728878716);
+			i_7_ = class536_sub33.readUnsignedByte();
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
 		aString10485 = class536_sub33.readString();
-		class536_sub33.readUnsignedByte(1373076124);
+		class536_sub33.readUnsignedByte();
 		aByte10487 = class536_sub33.readByte();
 		aByte10486 = class536_sub33.readByte();
 		anInt10482 = class536_sub33.readUnsignedShort() * -274940659;
@@ -189,25 +189,25 @@ public class Class536_Sub15 extends Class536 {
 				class349.aByte3696 = class536_sub33.readByte();
 				class349.anInt3697 = class536_sub33.readUnsignedShort() * 451662555;
 				if (i_7_ >= 3)
-					class536_sub33.readUnsignedByte(759942185);
+					class536_sub33.readUnsignedByte();
 				aClass349Array10479[i_8_] = class349;
 			}
 		}
 	}
 
 	void method9516(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedByte(356000427);
+		int i = class536_sub33.readUnsignedByte();
 		if ((i & 0x1) != 0)
 			aBool10480 = true;
 		if (0 != (i & 0x2))
 			aBool10481 = true;
 		int i_9_ = 2;
 		if ((i & 0x4) != 0)
-			i_9_ = class536_sub33.readUnsignedByte(-1213849458);
+			i_9_ = class536_sub33.readUnsignedByte();
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
 		aString10485 = class536_sub33.readString();
-		class536_sub33.readUnsignedByte(1399027115);
+		class536_sub33.readUnsignedByte();
 		aByte10487 = class536_sub33.readByte();
 		aByte10486 = class536_sub33.readByte();
 		anInt10482 = class536_sub33.readUnsignedShort() * -274940659;
@@ -222,25 +222,25 @@ public class Class536_Sub15 extends Class536 {
 				class349.aByte3696 = class536_sub33.readByte();
 				class349.anInt3697 = class536_sub33.readUnsignedShort() * 451662555;
 				if (i_9_ >= 3)
-					class536_sub33.readUnsignedByte(-265232390);
+					class536_sub33.readUnsignedByte();
 				aClass349Array10479[i_10_] = class349;
 			}
 		}
 	}
 
 	void method9517(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedByte(223435916);
+		int i = class536_sub33.readUnsignedByte();
 		if ((i & 0x1) != 0)
 			aBool10480 = true;
 		if (0 != (i & 0x2))
 			aBool10481 = true;
 		int i_11_ = 2;
 		if ((i & 0x4) != 0)
-			i_11_ = class536_sub33.readUnsignedByte(694212020);
+			i_11_ = class536_sub33.readUnsignedByte();
 		aLong7133 = class536_sub33.method9711(702869087) * -6756113042487376355L;
 		aLong10484 = class536_sub33.method9711(702869087) * -6958170873332875355L;
 		aString10485 = class536_sub33.readString();
-		class536_sub33.readUnsignedByte(1163468048);
+		class536_sub33.readUnsignedByte();
 		aByte10487 = class536_sub33.readByte();
 		aByte10486 = class536_sub33.readByte();
 		anInt10482 = class536_sub33.readUnsignedShort() * -274940659;
@@ -255,7 +255,7 @@ public class Class536_Sub15 extends Class536 {
 				class349.aByte3696 = class536_sub33.readByte();
 				class349.anInt3697 = class536_sub33.readUnsignedShort() * 451662555;
 				if (i_11_ >= 3)
-					class536_sub33.readUnsignedByte(-1399549486);
+					class536_sub33.readUnsignedByte();
 				aClass349Array10479[i_12_] = class349;
 			}
 		}

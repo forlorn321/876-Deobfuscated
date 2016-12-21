@@ -121,7 +121,7 @@ public final class Class189 {
 
 	Class189(RSByteBuffer class536_sub33, int i) {
 		anInt2139 = i * -1479238739;
-		int i_14_ = class536_sub33.readUnsignedByte(1138192332);
+		int i_14_ = class536_sub33.readUnsignedByte();
 		switch (i_14_) {
 		default:
 			anInt2140 = -1262115521;

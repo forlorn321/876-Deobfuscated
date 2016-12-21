@@ -329,8 +329,8 @@ public class Class410 implements Interface4 {
 	}
 
 	static Class581 method4998(RSByteBuffer class536_sub33, int i) {
-		int i_20_ = class536_sub33.readUnsignedByte(-1105064435);
-		int i_21_ = class536_sub33.readUnsignedByte(-703269461);
+		int i_20_ = class536_sub33.readUnsignedByte();
+		int i_21_ = class536_sub33.readUnsignedByte();
 		return new Class581(i_20_, i_21_);
 	}
 

@@ -36,7 +36,7 @@ public class Class587 implements Interface13 {
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(2067277761);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
 				break;
 			method7066(class536_sub33, i_0_, (byte) -31);
@@ -68,7 +68,7 @@ public class Class587 implements Interface13 {
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
-			anInt7730 = class536_sub33.readUnsignedByte(-307995047) * -217317801;
+			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
 			anInt7733 = class536_sub33.readShort((byte) -54) * -1019225517;
 		else if (i == 14)
@@ -89,7 +89,7 @@ public class Class587 implements Interface13 {
 				if (i_2_ == 65535)
 					i_2_ = -1;
 			}
-			int i_3_ = class536_sub33.readUnsignedByte(302269136);
+			int i_3_ = class536_sub33.readUnsignedByte();
 			anIntArray7734 = new int[i_3_ + 2];
 			for (int i_4_ = 0; i_4_ <= i_3_; i_4_++) {
 				anIntArray7734[i_4_] = class536_sub33.readUnsignedShort();
@@ -131,7 +131,7 @@ public class Class587 implements Interface13 {
 
 	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(1927076451);
+			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
 			method7066(class536_sub33, i, (byte) -55);
@@ -257,7 +257,7 @@ public class Class587 implements Interface13 {
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
-			anInt7730 = class536_sub33.readUnsignedByte(1275860406) * -217317801;
+			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
 			anInt7733 = class536_sub33.readShort((byte) -91) * -1019225517;
 		else if (i == 14)
@@ -278,7 +278,7 @@ public class Class587 implements Interface13 {
 				if (i_9_ == 65535)
 					i_9_ = -1;
 			}
-			int i_10_ = class536_sub33.readUnsignedByte(-1205497342);
+			int i_10_ = class536_sub33.readUnsignedByte();
 			anIntArray7734 = new int[i_10_ + 2];
 			for (int i_11_ = 0; i_11_ <= i_10_; i_11_++) {
 				anIntArray7734[i_11_] = class536_sub33.readUnsignedShort();
@@ -372,7 +372,7 @@ public class Class587 implements Interface13 {
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
-			anInt7730 = class536_sub33.readUnsignedByte(1116248376) * -217317801;
+			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
 			anInt7733 = class536_sub33.readShort((byte) -92) * -1019225517;
 		else if (i == 14)
@@ -393,7 +393,7 @@ public class Class587 implements Interface13 {
 				if (i_12_ == 65535)
 					i_12_ = -1;
 			}
-			int i_13_ = class536_sub33.readUnsignedByte(-1517082602);
+			int i_13_ = class536_sub33.readUnsignedByte();
 			anIntArray7734 = new int[i_13_ + 2];
 			for (int i_14_ = 0; i_14_ <= i_13_; i_14_++) {
 				anIntArray7734[i_14_] = class536_sub33.readUnsignedShort();

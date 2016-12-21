@@ -64,7 +64,7 @@ public class Class193 {
 				return false;
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 			Class273.method3725(class536_sub33, (byte) -19);
-			int i_0_ = class536_sub33.readUnsignedByte(497238078);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++)
 				aClass708_2181.method8335(new Class536_Sub27(class536_sub33), 455245122);
 			int i_2_ = class536_sub33.readUnsignedSmart(71942457);
@@ -122,7 +122,7 @@ public class Class193 {
 
 	static void method2846(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-581362223);
+			int i = class536_sub33.readUnsignedByte();
 			switch (i) {
 			case 255:
 				return;
@@ -135,7 +135,7 @@ public class Class193 {
 
 	static void method2847(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class536_sub33.readUnsignedByte(-9312273);
+			int i = class536_sub33.readUnsignedByte();
 			switch (i) {
 			case 255:
 				return;

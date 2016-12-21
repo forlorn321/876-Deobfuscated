@@ -107,7 +107,7 @@ public class Class492 {
 			}
 			if (null != is_4_) {
 				RSByteBuffer class536_sub33 = new RSByteBuffer(is_4_);
-				if (class536_sub33.readUnsignedByte(-1596906375) != 74 || class536_sub33.readUnsignedByte(-899125192) != 65 || class536_sub33.readUnsignedByte(118168251) != 71 || class536_sub33.readUnsignedByte(236772352) != 65)
+				if (class536_sub33.readUnsignedByte() != 74 || class536_sub33.readUnsignedByte() != 65 || class536_sub33.readUnsignedByte() != 71 || class536_sub33.readUnsignedByte() != 65)
 					throw new RuntimeException("");
 				anInt5524 = class536_sub33.readInt() * 269118443;
 				anInt5491 = class536_sub33.readInt() * 1414429427;

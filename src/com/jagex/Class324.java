@@ -25,7 +25,7 @@ public class Class324 implements Interface14 {
 
 	void method4261(RSByteBuffer class536_sub33, boolean bool, byte i) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte(1617224480);
+			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
 			method4262(class536_sub33, i_0_, bool, (byte) 96);
@@ -42,13 +42,13 @@ public class Class324 implements Interface14 {
 		case 7:
 			break;
 		case 14:
-			anInt3554 = class536_sub33.readUnsignedByte(1618528113) * 1672464191;
-			anInt3551 = class536_sub33.readUnsignedByte(262448056) * 47506311;
+			anInt3554 = class536_sub33.readUnsignedByte() * 1672464191;
+			anInt3551 = class536_sub33.readUnsignedByte() * 47506311;
 			break;
 		default:
 			break;
 		case 13: {
-			int i_2_ = class536_sub33.readUnsignedByte(1848443353);
+			int i_2_ = class536_sub33.readUnsignedByte();
 			aClass458_3557 = ((Class458) Class682.method8091(Class458.method5497((byte) 14), i_2_, 1858049507));
 			if (aClass458_3557 == null)
 				throw new IllegalStateException("");

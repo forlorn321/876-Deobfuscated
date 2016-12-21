@@ -30,12 +30,12 @@ public class Class536_Sub17 extends Class536 {
 		aBoolArray10504 = new boolean[anInt10491 * -138825073];
 		anIntArray10490 = new int[anInt10491 * -138825073];
 		for (int i_0_ = 0; i_0_ < anInt10491 * -138825073; i_0_++) {
-			anIntArray10505[i_0_] = class536_sub33.readUnsignedByte(-945857428);
+			anIntArray10505[i_0_] = class536_sub33.readUnsignedByte();
 			if (6 == anIntArray10505[i_0_])
 				anIntArray10505[i_0_] = 2;
 		}
 		for (int i_1_ = 0; i_1_ < anInt10491 * -138825073; i_1_++)
-			aBoolArray10504[i_1_] = class536_sub33.readUnsignedByte(1961985859) == 1;
+			aBoolArray10504[i_1_] = class536_sub33.readUnsignedByte() == 1;
 		for (int i_2_ = 0; i_2_ < anInt10491 * -138825073; i_2_++)
 			anIntArray10490[i_2_] = class536_sub33.readUnsignedShort();
 		for (int i_3_ = 0; i_3_ < anInt10491 * -138825073; i_3_++)

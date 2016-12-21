@@ -39,10 +39,10 @@ public abstract class Class459 {
 	abstract int method5517(int i);
 
 	public static Class579 method5518(RSByteBuffer class536_sub33, int i) {
-		int i_3_ = class536_sub33.readUnsignedByte(118808872);
+		int i_3_ = class536_sub33.readUnsignedByte();
 		int[] is = new int[i_3_];
 		for (int i_4_ = 0; i_4_ < i_3_; i_4_++)
-			is[i_4_] = class536_sub33.readUnsignedByte(-1758249239);
+			is[i_4_] = class536_sub33.readUnsignedByte();
 		return new Class579(is);
 	}
 

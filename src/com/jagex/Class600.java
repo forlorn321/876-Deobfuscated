@@ -291,7 +291,7 @@ public class Class600 implements Interface71 {
 				return false;
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 			Class273.method3725(class536_sub33, (byte) -4);
-			int i_8_ = class536_sub33.readUnsignedByte(766772811);
+			int i_8_ = class536_sub33.readUnsignedByte();
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++)
 				Class193.aClass708_2181.method8335(new Class536_Sub27(class536_sub33), 181504675);
 			int i_10_ = class536_sub33.readUnsignedSmart(590464116);

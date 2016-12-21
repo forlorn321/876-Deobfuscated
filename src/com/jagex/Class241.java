@@ -22,7 +22,7 @@ public class Class241 implements Interface26 {
 
 	Class241(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		boolean bool = class536_sub33.readUnsignedByte(1809778017) != 255;
+		boolean bool = class536_sub33.readUnsignedByte() != 255;
 		if (bool)
 			class536_sub33.off -= 516175515;
 		aClass222_2455 = new Class222(class536_sub33, bool, true, class213.anInterface28_2296);

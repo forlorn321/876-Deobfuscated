@@ -28,8 +28,8 @@ public class Class205_Sub22 extends Class205 {
 		int i = class536_sub33.readInt();
 		anInt9960 = -762107213 * (i >>> 16);
 		anInt9962 = 1363798677 * (i & 0xffff);
-		anInt9963 = class536_sub33.readUnsignedByte(-922954581) * 433143377;
-		anInt9959 = class536_sub33.readUnsignedByte(-1676163834) * 1150079681;
+		anInt9963 = class536_sub33.readUnsignedByte() * 433143377;
+		anInt9959 = class536_sub33.readUnsignedByte() * 1150079681;
 	}
 
 	static final void method9097(Class668 class668, int i) {

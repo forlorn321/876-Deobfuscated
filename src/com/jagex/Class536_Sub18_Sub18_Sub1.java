@@ -15,7 +15,7 @@ public class Class536_Sub18_Sub18_Sub1 extends Class536_Sub18_Sub18 {
 
 	Class536_Sub18_Sub18_Sub1(int i, RSByteBuffer class536_sub33) {
 		super(i);
-		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(917288526), (byte) -35);
+		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(), (byte) -35);
 		aFloat12092 = class536_sub33.method9712(-559901009);
 		aFloat12090 = class536_sub33.method9712(-1597241673);
 	}
@@ -25,13 +25,13 @@ public class Class536_Sub18_Sub18_Sub1 extends Class536_Sub18_Sub18 {
 	}
 
 	public void method10811(RSByteBuffer class536_sub33) {
-		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(1319230549), (byte) 69);
+		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(), (byte) 69);
 		aFloat12092 = class536_sub33.method9712(1505102187);
 		aFloat12090 = class536_sub33.method9712(863144254);
 	}
 
 	public void method10809(RSByteBuffer class536_sub33, int i) {
-		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(-68324406), (byte) 25);
+		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(), (byte) 25);
 		aFloat12092 = class536_sub33.method9712(1493681104);
 		aFloat12090 = class536_sub33.method9712(-38638098);
 	}
@@ -140,13 +140,13 @@ public class Class536_Sub18_Sub18_Sub1 extends Class536_Sub18_Sub18 {
 	}
 
 	public void method10812(RSByteBuffer class536_sub33) {
-		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(3038879), (byte) -102);
+		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(), (byte) -102);
 		aFloat12092 = class536_sub33.method9712(-1635317643);
 		aFloat12090 = class536_sub33.method9712(-649533445);
 	}
 
 	public void method10806(RSByteBuffer class536_sub33) {
-		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(148058667), (byte) -26);
+		aClass281_12091 = Class520.method6350(class536_sub33.readUnsignedByte(), (byte) -26);
 		aFloat12092 = class536_sub33.method9712(-285680936);
 		aFloat12090 = class536_sub33.method9712(1924089849);
 	}

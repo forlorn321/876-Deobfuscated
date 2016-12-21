@@ -28,7 +28,7 @@ public abstract class Class205_Sub4 extends Class205 {
 		super(class536_sub33);
 		anInt9865 = class536_sub33.readUnsignedShort() * -833716395;
 		anInt9866 = class536_sub33.readUnsignedShort() * 909018553;
-		anInt9867 = class536_sub33.readUnsignedByte(220657629) * 1901171693;
+		anInt9867 = class536_sub33.readUnsignedByte() * 1901171693;
 	}
 
 	static final void method9056(Class668 class668, int i) {

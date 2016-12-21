@@ -333,7 +333,7 @@ public class Class515 {
 		int i_38_ = class536_sub33_sub2.readUnsignedShortLE();
 		int i_39_ = class536_sub33_sub2.readUnsignedShort128();
 		int i_40_ = class536_sub33_sub2.readUnsignedByteC(2051369115);
-		boolean bool = class536_sub33_sub2.readUnsignedByte(-645552579) == 1;
+		boolean bool = class536_sub33_sub2.readUnsignedByte() == 1;
 		int i_41_ = class536_sub33_sub2.readUnsigned128Byte();
 		anInt7035 = class536_sub33_sub2.readUnsigned128Byte() * 974659739;
 		if (!aBool7005)

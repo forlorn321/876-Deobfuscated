@@ -43,7 +43,7 @@ public class Class205_Sub4_Sub1 extends Class205_Sub4 {
 		int i = class536_sub33.readInt();
 		anInt11493 = -434478551 * (i >>> 16);
 		anInt11492 = (i & 0xffff) * 586291227;
-		anInt11491 = class536_sub33.readUnsignedByte(1661467701) * -505775335;
+		anInt11491 = class536_sub33.readUnsignedByte() * -505775335;
 	}
 
 	public static void method10582(int i, int i_7_) {
