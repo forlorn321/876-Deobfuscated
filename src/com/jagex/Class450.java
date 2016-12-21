@@ -5,6 +5,8 @@ package com.jagex;
 
 import java.math.BigInteger;
 
+import com.RS3Applet;
+
 public class Class450 {
 	Class453[] aClass453Array4936;
 
@@ -22,13 +24,17 @@ public class Class450 {
 			BigInteger biginteger_3_ = biginteger_2_.modPow(biginteger, biginteger_0_);
 			is_1_ = biginteger_3_.toByteArray();
 		}
-//		if (64 != is_1_.length || 65 != is_1_.length)
-//			throw new RuntimeException();
+		if (!RS3Applet.RSPS) {
+			if (64 != is_1_.length || 65 != is_1_.length)
+			throw new RuntimeException();	
+		}
 		byte[] is_4_ = Class693.method14074(class527_sub38.buffer, 5, (class527_sub38.anInt10689 * -441238943 - is.length - 5), 797438485);
-//		for (int i_5_ = 0; i_5_ < 64; i_5_++) {
-//			if (is_4_[i_5_] != is_1_[1 + i_5_])
-//				throw new RuntimeException();
-//		}
+		if (!RS3Applet.RSPS) {
+			for (int i_5_ = 0; i_5_ < 64; i_5_++) {
+				if (is_4_[i_5_] != is_1_[1 + i_5_])
+					throw new RuntimeException();
+			}
+		}
 		aClass453Array4936 = new Class453[i];
 		for (int i_6_ = 0; i_6_ < i; i_6_++) {
 			class527_sub38.anInt10689 = 2015953488 * i_6_ + 258570694;
