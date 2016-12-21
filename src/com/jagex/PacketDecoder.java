@@ -2860,17 +2860,17 @@ public class PacketDecoder {
 				}
 			}
 		} else if (SubIncomingPacket.ADD_GROUND_ITEM == packet) {
-			int i_34_ = stream.readUnsignedShortLE128();
+			int id = stream.readUnsignedShortLE128();
 			int i_35_ = stream.readUnsignedByte128();
 			Class592 class592 = client.aClass509_11072.method8283((short) 29279);
 			int i_36_ = (i_35_ & 0x7) + 1941718227 * Class304.anInt3428;
 			int i_37_ = i_36_ + class592.anInt7799 * -2029646807;
 			int i_38_ = (i_35_ >> 4 & 0x7) + Class5.anInt53 * -509846287;
 			int i_39_ = 153371143 * class592.anInt7798 + i_38_;
-			int i_40_ = stream.readUnsignedShort();
+			int amount = stream.readUnsignedShort();
 			boolean bool = (i_38_ >= 0 && i_36_ >= 0 && i_38_ < client.aClass509_11072.method8284((byte) 107) && i_36_ < client.aClass509_11072.method8285(1530066415));
 			if (bool || client.aClass509_11072.method8279(-836223142).method8211((byte) -26)) {
-				Class568.method9568(1551166221 * Class579.anInt7673, i_39_, i_37_, new Class527_Sub22(i_34_, i_40_), -264567387);
+				Class568.method9568(1551166221 * Class579.anInt7673, i_39_, i_37_, new Class527_Sub22(id, amount), -264567387);
 				if (bool)
 					Class375.method6385(Class579.anInt7673 * 1551166221, i_38_, i_36_, 1394761684);
 			}
