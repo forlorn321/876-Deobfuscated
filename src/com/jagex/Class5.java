@@ -11,7 +11,7 @@ public class Class5 implements Interface69 {
 	boolean aBool50;
 	int anInt51;
 	int anInt52;
-	static int anInt53;
+	static int localX;
 
 	public long method4() {
 		long[] ls = RSByteBuffer.aLongArray10688;

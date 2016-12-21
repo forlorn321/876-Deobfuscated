@@ -4,7 +4,7 @@
 package com.jagex;
 
 final class Class304 implements Interface20 {
-	static int anInt3428;
+	static int localY;
 
 	public Class160 method125(Class465 class465, int i, int i_0_) {
 		return (Class160) ((Interface13) Class104.aMap1293.get(class465)).method81(i, -611605015);
