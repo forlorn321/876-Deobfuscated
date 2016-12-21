@@ -2911,25 +2911,25 @@ public class PacketDecoder {
 				}
 			}
 		} else if (packet == SubIncomingPacket.REMOVE_GROUND_ITEM) {
-			int i_55_ = stream.readUnsignedShort128();
-			int i_56_ = stream.readUnsignedByte128();
+			int itemId = stream.readUnsignedShort128();
+			int locationHash = stream.readUnsignedByte128();
 			Class592 class592 = client.aClass509_11072.method8283((short) 25076);
-			int i_57_ = 1941718227 * Class304.anInt3428 + (i_56_ & 0x7);
-			int i_58_ = -2029646807 * class592.anInt7799 + i_57_;
-			int i_59_ = (i_56_ >> 4 & 0x7) + Class5.anInt53 * -509846287;
-			int i_60_ = i_59_ + class592.anInt7798 * 153371143;
-			Class527_Sub12 class527_sub12 = ((Class527_Sub12) client.aClass14_11253.method709((long) ((Class579.anInt7673 * 1551166221) << 28 | i_58_ << 14 | i_60_)));
+			int localY = 1941718227 * Class304.anInt3428 + (locationHash & 0x7);
+			int y = -2029646807 * class592.anInt7799 + localY;
+			int localX = (locationHash >> 4 & 0x7) + Class5.anInt53 * -509846287;
+			int x = localX + class592.anInt7798 * 153371143;
+			Class527_Sub12 class527_sub12 = ((Class527_Sub12) client.aClass14_11253.method709((long) ((Class579.anInt7673 * 1551166221) << 28 | y << 14 | x)));
 			if (null != class527_sub12) {
 				for (Class527_Sub22 class527_sub22 = (Class527_Sub22) class527_sub12.aClass694_10444.method14081((short) 9073); class527_sub22 != null; class527_sub22 = (Class527_Sub22) class527_sub12.aClass694_10444.method14086(-65534)) {
-					if (i_55_ == class527_sub22.anInt10494 * -875637783) {
+					if (itemId == class527_sub22.anInt10494 * -875637783) {
 						class527_sub22.method8735(-1889161967);
 						break;
 					}
 				}
 				if (class527_sub12.aClass694_10444.method14088(-329955939))
 					class527_sub12.method8735(-1889161967);
-				if (i_59_ >= 0 && i_57_ >= 0 && i_59_ < client.aClass509_11072.method8284((byte) 59) && i_57_ < client.aClass509_11072.method8285(1059334151))
-					Class375.method6385(1551166221 * Class579.anInt7673, i_59_, i_57_, 1394761684);
+				if (localX >= 0 && localY >= 0 && localX < client.aClass509_11072.method8284((byte) 59) && localY < client.aClass509_11072.method8285(1059334151))
+					Class375.method6385(1551166221 * Class579.anInt7673, localX, localY, 1394761684);
 			}
 		} else if (packet == SubIncomingPacket.aClass421_4606) {
 			int i_61_ = stream.readUnsignedByte();
