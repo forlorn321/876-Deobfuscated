@@ -15,7 +15,7 @@ public class Class536_Sub27 extends Class536 {
 	public int anInt10542;
 
 	Class536_Sub27(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readInt(-1912628612);
+		int i = class536_sub33.readInt();
 		anInt10534 = (i >>> 28) * 2053824531;
 		anInt10540 = (i >>> 14 & 0x3fff) * -341775319;
 		anInt10536 = -1292521283 * (i & 0x3fff);

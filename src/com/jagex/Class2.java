@@ -453,7 +453,7 @@ public class Class2 {
 				is_77_[i_78_] = new byte[is_73_[i_78_]];
 				byte i_79_ = 0;
 				for (int i_80_ = 0; i_80_ < is_77_[i_78_].length; i_80_++) {
-					i_79_ += class536_sub33.readByte(1775596061);
+					i_79_ += class536_sub33.readByte();
 					is_77_[i_78_][i_80_] = i_79_;
 				}
 			}
@@ -462,7 +462,7 @@ public class Class2 {
 				is_81_[i_82_] = new byte[is_73_[i_82_]];
 				byte i_83_ = 0;
 				for (int i_84_ = 0; i_84_ < is_81_[i_82_].length; i_84_++) {
-					i_83_ += class536_sub33.readByte(1854110974);
+					i_83_ += class536_sub33.readByte();
 					is_81_[i_82_][i_84_] = i_83_;
 				}
 			}

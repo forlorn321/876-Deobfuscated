@@ -20,8 +20,8 @@ public class Class204 {
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
 			int i_1_ = class536_sub33.readUnsignedByte(2141780890);
 			anIntArray2233[i_0_] = i_1_;
-			int i_2_ = class536_sub33.readUnsignedShort((short) -11106);
-			int i_3_ = class536_sub33.readUnsignedShort((short) 4280);
+			int i_2_ = class536_sub33.readUnsignedShort();
+			int i_3_ = class536_sub33.readUnsignedShort();
 			anIntArray2231[i_0_] = (i_2_ << 16) + i_3_;
 		}
 	}

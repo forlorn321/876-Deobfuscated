@@ -37,9 +37,9 @@ public class Class388 implements Interface49 {
 			if (i_1_ == 0)
 				break;
 			if (1 == i_1_)
-				Class636.anInt8286 = class536_sub33.readUnsignedShort((short) 29412) * -730890537;
+				Class636.anInt8286 = class536_sub33.readUnsignedShort() * -730890537;
 			else if (10 == i_1_)
-				class536_sub33.readUnsignedShort((short) 16848);
+				class536_sub33.readUnsignedShort();
 		}
 	}
 

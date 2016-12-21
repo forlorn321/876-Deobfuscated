@@ -7,11 +7,11 @@ final class Class474 implements Interface11 {
 	static int[] anIntArray5371;
 
 	public Object method68(RSByteBuffer class536_sub33, short i) {
-		return Integer.valueOf(class536_sub33.readInt(-278336193));
+		return Integer.valueOf(class536_sub33.readInt());
 	}
 
 	public Object method69(RSByteBuffer class536_sub33) {
-		return Integer.valueOf(class536_sub33.readInt(-100052767));
+		return Integer.valueOf(class536_sub33.readInt());
 	}
 
 	static final void method5742(Class668 class668, int i) throws Exception_Sub3 {

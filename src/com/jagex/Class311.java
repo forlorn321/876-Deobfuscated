@@ -26,7 +26,7 @@ public class Class311 implements Interface13, Interface7 {
 
 	void method4179(RSByteBuffer class536_sub33, int i, int i_0_) {
 		if (1 == i)
-			anInt3476 = class536_sub33.readUnsignedShort((short) -3925) * -1771813205;
+			anInt3476 = class536_sub33.readUnsignedShort() * -1771813205;
 		else if (2 == i)
 			aBool3480 = true;
 		else if (3 == i) {

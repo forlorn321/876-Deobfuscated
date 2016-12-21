@@ -206,32 +206,32 @@ public class Class226 {
 			aBool2348 = (i_14_ & 0x1) != 0;
 			aBool2353 = 0 != (i_14_ & 0x2);
 			aBool2341 = 0 != (i_14_ & 0x4);
-			anInt2356 = class536_sub33.readInt(-1518694887) * -1006532289;
+			anInt2356 = class536_sub33.readInt() * -1006532289;
 			aLong2346 = class536_sub33.method9711(702869087) * 5009906337283657983L;
-			aString2355 = class536_sub33.readString((byte) 88);
+			aString2355 = class536_sub33.readString();
 			anInt2354 = class536_sub33.readShort((byte) -125) * 1044707155;
-			class536_sub33.readInt(-666071968);
+			class536_sub33.readInt();
 			class536_sub33.method9711(702869087);
-			int i_15_ = class536_sub33.readUnsignedShort((short) 5434);
+			int i_15_ = class536_sub33.readUnsignedShort();
 			anArrayList2351 = new ArrayList(i_15_);
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++)
 				anArrayList2351.add(new Class222(class536_sub33, aBool2353, aBool2341, interface28));
-			int i_17_ = class536_sub33.readUnsignedShort((short) 3722);
+			int i_17_ = class536_sub33.readUnsignedShort();
 			anArrayList2352 = new ArrayList(i_17_);
 			for (int i_18_ = 0; i_18_ < i_17_; i_18_++)
 				anArrayList2352.add(new Class224(class536_sub33, aBool2353, aBool2341));
 			aClass21_2350 = new Class21(interface28.method165((byte) 71));
-			int i_19_ = class536_sub33.readUnsignedShort((short) 1041);
+			int i_19_ = class536_sub33.readUnsignedShort();
 			for (int i_20_ = 0; i_20_ < i_19_; i_20_++) {
 				Class430 class430 = interface28.method165((byte) -46).method8388(class536_sub33, 1451305599);
 				aClass21_2350.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) 72);
 			}
 			if (!bool) {
-				class536_sub33.readUnsignedShort((short) 21834);
-				class536_sub33.readUnsignedShort((short) 6901);
-				class536_sub33.readUnsignedShort((short) -3283);
-				class536_sub33.readUnsignedShort((short) 24483);
-				class536_sub33.readUnsignedShort((short) 22428);
+				class536_sub33.readUnsignedShort();
+				class536_sub33.readUnsignedShort();
+				class536_sub33.readUnsignedShort();
+				class536_sub33.readUnsignedShort();
+				class536_sub33.readUnsignedShort();
 			}
 			method3225((short) 24672);
 		}

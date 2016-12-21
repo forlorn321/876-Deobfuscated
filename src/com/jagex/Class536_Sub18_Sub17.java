@@ -34,7 +34,7 @@ public class Class536_Sub18_Sub17 extends Class536_Sub18 {
 			byte[] is = aByteArrayArray11819[i_1_];
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 			class536_sub33.off = 516175515;
-			int i_2_ = class536_sub33.readUnsignedShort((short) -29620);
+			int i_2_ = class536_sub33.readUnsignedShort();
 			synchronized (aClass461_11816) {
 				bool &= aClass461_11816.method5580(i_2_, -964514165);
 			}
@@ -52,7 +52,7 @@ public class Class536_Sub18_Sub17 extends Class536_Sub18 {
 			byte[] is_5_ = aByteArrayArray11819[i_4_];
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is_5_);
 			class536_sub33.off = 516175515;
-			int i_6_ = class536_sub33.readUnsignedShort((short) -6515);
+			int i_6_ = class536_sub33.readUnsignedShort();
 			Class536_Sub17 class536_sub17 = null;
 			for (Class536_Sub17 class536_sub17_7_ = (Class536_Sub17) class708.method8308(1867269829); class536_sub17_7_ != null; class536_sub17_7_ = (Class536_Sub17) class708.method8311(1096264029)) {
 				if (i_6_ == -510633581 * class536_sub17_7_.anInt10493) {
@@ -108,7 +108,7 @@ public class Class536_Sub18_Sub17 extends Class536_Sub18 {
 			byte[] is = aByteArrayArray11819[i];
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 			class536_sub33.off = 516175515;
-			int i_11_ = class536_sub33.readUnsignedShort((short) 5621);
+			int i_11_ = class536_sub33.readUnsignedShort();
 			synchronized (aClass461_11816) {
 				bool &= aClass461_11816.method5580(i_11_, -964514165);
 			}
@@ -126,7 +126,7 @@ public class Class536_Sub18_Sub17 extends Class536_Sub18 {
 			byte[] is_12_ = aByteArrayArray11819[i];
 			RSByteBuffer class536_sub33 = new RSByteBuffer(is_12_);
 			class536_sub33.off = 516175515;
-			int i_13_ = class536_sub33.readUnsignedShort((short) 6907);
+			int i_13_ = class536_sub33.readUnsignedShort();
 			Class536_Sub17 class536_sub17 = null;
 			for (Class536_Sub17 class536_sub17_14_ = (Class536_Sub17) class708.method8308(1867269829); class536_sub17_14_ != null; class536_sub17_14_ = (Class536_Sub17) class708.method8311(947704946)) {
 				if (i_13_ == -510633581 * class536_sub17_14_.anInt10493) {

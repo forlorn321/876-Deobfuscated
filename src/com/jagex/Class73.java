@@ -19,14 +19,14 @@ public class Class73 implements Interface13, Interface7 {
 
 	void method1127(RSByteBuffer class536_sub33, int i, int i_0_) {
 		if (1 == i) {
-			char c = Class281.method3764(class536_sub33.readByte(2065459194), 838295628);
+			char c = Class281.method3764(class536_sub33.readByte(), 838295628);
 			aClass453_804 = Class453.method5440(c, 1079519051);
 		} else if (i == 2)
-			anInt803 = class536_sub33.readInt(-1328873377) * -726716033;
+			anInt803 = class536_sub33.readInt() * -726716033;
 		else if (i == 4)
 			aBool802 = false;
 		else if (5 == i)
-			aString805 = class536_sub33.readString((byte) 107);
+			aString805 = class536_sub33.readString();
 		else if (i == 101)
 			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(-74667204), 1858049507));
 	}
@@ -75,14 +75,14 @@ public class Class73 implements Interface13, Interface7 {
 
 	void method1129(RSByteBuffer class536_sub33, int i) {
 		if (1 == i) {
-			char c = Class281.method3764(class536_sub33.readByte(770707129), 731931135);
+			char c = Class281.method3764(class536_sub33.readByte(), 731931135);
 			aClass453_804 = Class453.method5440(c, -1663603691);
 		} else if (i == 2)
-			anInt803 = class536_sub33.readInt(-124781835) * -726716033;
+			anInt803 = class536_sub33.readInt() * -726716033;
 		else if (i == 4)
 			aBool802 = false;
 		else if (5 == i)
-			aString805 = class536_sub33.readString((byte) 68);
+			aString805 = class536_sub33.readString();
 		else if (i == 101)
 			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 89), class536_sub33.readUnsignedSmart(-239843930), 1858049507));
 	}

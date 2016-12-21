@@ -87,7 +87,7 @@ public class Class87 {
 				if (i > 2) {
 					anInt874 = class536_sub33.readShort((byte) -30) * -252218945;
 					i_12_ = class536_sub33.read24BitUnsignedInteger(1312689680);
-					i_13_ = class536_sub33.readUnsignedShort((short) 28071);
+					i_13_ = class536_sub33.readUnsignedShort();
 				} else {
 					anInt874 = 252218945;
 					i_12_ = 0;
@@ -97,14 +97,14 @@ public class Class87 {
 				for (int i_14_ = 0; i_14_ < i_10_; i_14_++) {
 					int i_15_ = class536_sub33.readUnsignedByte(2068218298);
 					boolean bool_16_ = class536_sub33.readUnsignedByte(-1728909295) == 1;
-					int i_17_ = class536_sub33.readUnsignedShort((short) 12630);
+					int i_17_ = class536_sub33.readUnsignedShort();
 					Class88[] class88s;
 					if (anInt874 * -1600029121 == -1) {
 						class88s = new Class88[i_17_];
 						for (int i_18_ = 0; i_18_ < i_17_; i_18_++) {
-							int i_19_ = class536_sub33.readUnsignedShort((short) 660);
+							int i_19_ = class536_sub33.readUnsignedShort();
 							int i_20_ = class536_sub33.read24BitUnsignedInteger(792151557);
-							int i_21_ = class536_sub33.readUnsignedShort((short) -15998);
+							int i_21_ = class536_sub33.readUnsignedShort();
 							class88s[i_18_] = new Class88(i_19_, i_20_, i_21_);
 						}
 						aClass90Array871[i_15_] = new Class90(bool_16_, class88s);
@@ -112,9 +112,9 @@ public class Class87 {
 						class88s = new Class88[i_17_ + 1];
 						class88s[0] = new Class88(-1600029121 * anInt874, i_12_, i_13_);
 						for (int i_22_ = 0; i_22_ < i_17_; i_22_++) {
-							int i_23_ = class536_sub33.readUnsignedShort((short) 3452);
+							int i_23_ = class536_sub33.readUnsignedShort();
 							int i_24_ = class536_sub33.read24BitUnsignedInteger(1938738036);
-							int i_25_ = class536_sub33.readUnsignedShort((short) -13662);
+							int i_25_ = class536_sub33.readUnsignedShort();
 							class88s[1 + i_22_] = new Class88(i_23_, i_24_, i_25_);
 						}
 					}

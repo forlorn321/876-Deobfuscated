@@ -3122,7 +3122,7 @@ public final class client extends Class505 {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 239261002);
 						for (int i_155_ = 0; i_155_ < class59s.length; i_155_++)
-							class59s[i_155_].method977(class536_sub33.readInt(-81182353), 1854131966);
+							class59s[i_155_].method977(class536_sub33.readInt(), 1854131966);
 						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1664510884) || Class566.method6895(anInt11101 * -708374433, 347229948) || Class233.method3334(-708374433 * anInt11101, (byte) -24));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 34);
 						Class321.aSocket3543 = null;
@@ -4457,7 +4457,7 @@ public final class client extends Class505 {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i_232_);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1774523566);
 						for (int i_233_ = 0; i_233_ < class59s.length; i_233_++)
-							class59s[i_233_].method977(class536_sub33.readInt(-2094260298), 1854131966);
+							class59s[i_233_].method977(class536_sub33.readInt(), 1854131966);
 						boolean bool = (Class482.method5837(anInt11101 * -708374433, -486831229) || Class566.method6895(anInt11101 * -708374433, 702071024) || Class233.method3334(-708374433 * anInt11101, (byte) -20));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 47);
 						Class321.aSocket3543 = null;
@@ -4970,7 +4970,7 @@ public final class client extends Class505 {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1622897807);
 						for (int i_261_ = 0; i_261_ < class59s.length; i_261_++)
-							class59s[i_261_].method977(class536_sub33.readInt(2913101), 1854131966);
+							class59s[i_261_].method977(class536_sub33.readInt(), 1854131966);
 						boolean bool = (Class482.method5837(anInt11101 * -708374433, 1122171088) || Class566.method6895(anInt11101 * -708374433, -91207182) || Class233.method3334(-708374433 * anInt11101, (byte) -80));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 106);
 						Class321.aSocket3543 = null;
@@ -5063,7 +5063,7 @@ public final class client extends Class505 {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
 						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 471066595);
 						for (int i_262_ = 0; i_262_ < class59s.length; i_262_++)
-							class59s[i_262_].method977(class536_sub33.readInt(-486645620), 1854131966);
+							class59s[i_262_].method977(class536_sub33.readInt(), 1854131966);
 						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1586324867) || Class566.method6895(anInt11101 * -708374433, 1794890183) || Class233.method3334(-708374433 * anInt11101, (byte) -26));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 14);
 						Class321.aSocket3543 = null;

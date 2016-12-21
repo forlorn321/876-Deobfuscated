@@ -24,11 +24,11 @@ public class Class20 implements Interface13, Interface7 {
 			anInt208 = class536_sub33.read24BitUnsignedInteger(755615122) * 973856227;
 			method694(-20295733 * anInt208, (byte) 21);
 		} else if (2 == i) {
-			anInt207 = class536_sub33.readUnsignedShort((short) 19393) * -39893207;
+			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
 			if (anInt207 * -542882535 == 65535)
 				anInt207 = 39893207;
 		} else if (3 == i)
-			anInt214 = (class536_sub33.readUnsignedShort((short) 14145) << 2) * 1489795809;
+			anInt214 = (class536_sub33.readUnsignedShort() << 2) * 1489795809;
 		else if (4 == i)
 			aBool209 = false;
 		else if (i == 5)
@@ -168,11 +168,11 @@ public class Class20 implements Interface13, Interface7 {
 			anInt208 = class536_sub33.read24BitUnsignedInteger(935581440) * 973856227;
 			method694(-20295733 * anInt208, (byte) 17);
 		} else if (2 == i) {
-			anInt207 = class536_sub33.readUnsignedShort((short) -3068) * -39893207;
+			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
 			if (anInt207 * -542882535 == 65535)
 				anInt207 = 39893207;
 		} else if (3 == i)
-			anInt214 = (class536_sub33.readUnsignedShort((short) 20787) << 2) * 1489795809;
+			anInt214 = (class536_sub33.readUnsignedShort() << 2) * 1489795809;
 		else if (4 == i)
 			aBool209 = false;
 		else if (i == 5)
@@ -188,11 +188,11 @@ public class Class20 implements Interface13, Interface7 {
 			anInt208 = class536_sub33.read24BitUnsignedInteger(1044414566) * 973856227;
 			method694(-20295733 * anInt208, (byte) -4);
 		} else if (2 == i) {
-			anInt207 = class536_sub33.readUnsignedShort((short) 3618) * -39893207;
+			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
 			if (anInt207 * -542882535 == 65535)
 				anInt207 = 39893207;
 		} else if (3 == i)
-			anInt214 = (class536_sub33.readUnsignedShort((short) 2150) << 2) * 1489795809;
+			anInt214 = (class536_sub33.readUnsignedShort() << 2) * 1489795809;
 		else if (4 == i)
 			aBool209 = false;
 		else if (i == 5)
@@ -208,11 +208,11 @@ public class Class20 implements Interface13, Interface7 {
 			anInt208 = class536_sub33.read24BitUnsignedInteger(1133914970) * 973856227;
 			method694(-20295733 * anInt208, (byte) -48);
 		} else if (2 == i) {
-			anInt207 = class536_sub33.readUnsignedShort((short) 6510) * -39893207;
+			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
 			if (anInt207 * -542882535 == 65535)
 				anInt207 = 39893207;
 		} else if (3 == i)
-			anInt214 = ((class536_sub33.readUnsignedShort((short) -11217) << 2) * 1489795809);
+			anInt214 = ((class536_sub33.readUnsignedShort() << 2) * 1489795809);
 		else if (4 == i)
 			aBool209 = false;
 		else if (i == 5)

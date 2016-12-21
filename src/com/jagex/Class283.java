@@ -148,7 +148,7 @@ public class Class283 implements Interface75 {
 							break;
 						Class586.aClass106_7710.method1413((short) -3206).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 2, 654157741);
 						Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
-						Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort((short) 21158) * 516175515;
+						Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort() * 516175515;
 						Class61.anInt680 = -546220716;
 					}
 					if (52 == -129171495 * Class61.anInt680) {
@@ -387,7 +387,7 @@ public class Class283 implements Interface75 {
 					} else if (-129171495 * Class61.anInt680 == 245) {
 						if (Class586.aClass106_7710.method1413((short) -3724).method6897(4, -763799203)) {
 							Class586.aClass106_7710.method1413((short) 9652).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 4, 1117853473);
-							Class61.anInt659 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readInt(-1914867320) * -1676086137;
+							Class61.anInt659 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readInt() * -1676086137;
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
 							Class61.anInt680 = 0;
 							Class537.method6507(53, 1280785913);
@@ -420,7 +420,7 @@ public class Class283 implements Interface75 {
 						if (Class586.aClass106_7710.method1413((short) -139).method6897(2, -1143363952)) {
 							Class586.aClass106_7710.method1413((short) -1854).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 2, -534642974);
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
-							Class61.anInt686 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort((short) 24507) * 1281009209;
+							Class61.anInt686 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort() * 1281009209;
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
 							Class61.anInt680 = 1629766046;
 						}
@@ -432,7 +432,7 @@ public class Class283 implements Interface75 {
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.method10776(is, 0, Class61.anInt686 * 261187593, -399442820);
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
 							RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-							String string = class536_sub33.readString((byte) 69);
+							String string = class536_sub33.readString();
 							Class380.method4809(string, true, client.aBool11228, 1612663522);
 							Class537.method6507(Class434.anInt4845 * 862241013, 1280785913);
 							if (107 == 1382700277 * Class76_Sub1.anInt10981 && -708374433 * client.anInt11101 != 4)
@@ -449,7 +449,7 @@ public class Class283 implements Interface75 {
 								break;
 							Class586.aClass106_7710.method1413((short) -5627).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 2, 324355780);
 							Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
-							Class586.aClass106_7710.anInt1262 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort((short) -893) * 925220183;
+							Class586.aClass106_7710.anInt1262 = Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort() * 925220183;
 							Class61.anInt680 = -790827960;
 						}
 						if (264 == -129171495 * Class61.anInt680) {
@@ -517,11 +517,11 @@ public class Class283 implements Interface75 {
 								client.aBool11163 = class536_sub33_sub2.readUnsignedByte(1467381040) == 1;
 								client.aBool11303 = class536_sub33_sub2.readUnsignedByte(-664564883) == 1;
 								client.aBool11166 = class536_sub33_sub2.readUnsignedByte(-831043185) == 1;
-								client.anInt11156 = (class536_sub33_sub2.readUnsignedShort((short) -11016) * 213831113);
+								client.anInt11156 = (class536_sub33_sub2.readUnsignedShort() * 213831113);
 								client.aBool11290 = class536_sub33_sub2.readUnsignedByte(1765783126) == 1;
 								Class75.anInt819 = class536_sub33_sub2.method9708((byte) 83) * 89794997;
 								client.aBool11123 = class536_sub33_sub2.readUnsignedByte(-1274929514) == 1;
-								Class522.aString7077 = class536_sub33_sub2.readString((byte) 63);
+								Class522.aString7077 = class536_sub33_sub2.readString();
 								Class292.aLong3244 = ((class536_sub33_sub2.method9707((byte) 1) - Class249.method3450(1328868475)) * 8806393363580464715L);
 								client.aClass515_11066.method6280(-1073841494).method10357(client.aBool11123, -2110300175);
 								Class266.aClass503_2867.method6045(-1621113628).method6280(-1073841494).method10357(client.aBool11123, -1245173619);
@@ -545,28 +545,28 @@ public class Class283 implements Interface75 {
 								int i_17_ = class536_sub33_sub2.readUnsignedByte(2104814671);
 								client.aBool11290 = 0 != (i_17_ & 0x1);
 								Class598.aBool7841 = (i_17_ & 0x2) != 0;
-								Class486.anInt5443 = (class536_sub33_sub2.readInt(-1635045136) * -1872014567);
-								Class141.anInt1659 = class536_sub33_sub2.readInt(-620455575) * -423557781;
-								Class619.anInt8093 = (class536_sub33_sub2.readUnsignedShort((short) 12552) * -1512061491);
-								Class690.anInt8699 = (class536_sub33_sub2.readUnsignedShort((short) -9275) * 1487665559);
-								Class292.anInt3243 = (class536_sub33_sub2.readUnsignedShort((short) 17654) * 1013602285);
-								Class24.anInt232 = class536_sub33_sub2.readInt(-2110007910) * 899842251;
+								Class486.anInt5443 = (class536_sub33_sub2.readInt() * -1872014567);
+								Class141.anInt1659 = class536_sub33_sub2.readInt() * -423557781;
+								Class619.anInt8093 = (class536_sub33_sub2.readUnsignedShort() * -1512061491);
+								Class690.anInt8699 = (class536_sub33_sub2.readUnsignedShort() * 1487665559);
+								Class292.anInt3243 = (class536_sub33_sub2.readUnsignedShort() * 1013602285);
+								Class24.anInt232 = class536_sub33_sub2.readInt() * 899842251;
 								Class374.aClass33_3907 = new Class33(Class24.anInt232 * -80091933);
 								new Thread(Class374.aClass33_3907).start();
 								Class172.anInt1923 = (class536_sub33_sub2.readUnsignedByte(-254015463) * -2143180617);
-								Class66.anInt723 = (class536_sub33_sub2.readUnsignedShort((short) 21802) * -860628261);
-								Class307.anInt3454 = (class536_sub33_sub2.readUnsignedShort((short) 11912) * 434166907);
+								Class66.anInt723 = (class536_sub33_sub2.readUnsignedShort() * -860628261);
+								Class307.anInt3454 = (class536_sub33_sub2.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = class536_sub33_sub2.readUnsignedByte(1724184066) == 1;
 								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.method9714((byte) 101);
 								Class646.anInt8360 = class536_sub33_sub2.readUnsignedByte(-88328059) * 431261749;
-								Class622.anInt8127 = class536_sub33_sub2.readInt(-1220226992) * 57169007;
+								Class622.anInt8127 = class536_sub33_sub2.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();
-								Class23.aClass5_228.anInt111 = (class536_sub33_sub2.readUnsignedShort((short) 3912) * 1232605419);
+								Class23.aClass5_228.anInt111 = (class536_sub33_sub2.readUnsignedShort() * 1232605419);
 								if (Class23.aClass5_228.anInt111 * 1318197187 == 65535)
 									Class23.aClass5_228.anInt111 = -1232605419;
 								Class23.aClass5_228.aString112 = class536_sub33_sub2.method9714((byte) 106);
-								Class23.aClass5_228.anInt110 = (class536_sub33_sub2.readUnsignedShort((short) 3476) * -1803928197);
-								Class23.aClass5_228.anInt108 = (class536_sub33_sub2.readUnsignedShort((short) -6343) * -1753280203);
+								Class23.aClass5_228.anInt110 = (class536_sub33_sub2.readUnsignedShort() * -1803928197);
+								Class23.aClass5_228.anInt108 = (class536_sub33_sub2.readUnsignedShort() * -1753280203);
 								if ((Class47.aClass678_578 != Class678.aClass678_8616) && ((Class678.aClass678_8612 != Class47.aClass678_578) || client.anInt11160 * 423156687 < 2) && (Class23.aClass5_221.method579(Class23.aClass5_222, (byte) 27)))
 									Class706.method8297((byte) -55);
 							}
@@ -617,7 +617,7 @@ public class Class283 implements Interface75 {
 								Class586.aClass106_7710.method1413((short) -3391).method6899(class536_sub33_sub2.buffer, 3, 1, -2057318191);
 							}
 							Class586.aClass106_7710.aClass422_1261 = (Class374.method4778(1774670600)[class536_sub33_sub2.method10778(694140266)]);
-							Class586.aClass106_7710.anInt1262 = class536_sub33_sub2.readUnsignedShort((short) -16808) * 925220183;
+							Class586.aClass106_7710.anInt1262 = class536_sub33_sub2.readUnsignedShort() * 925220183;
 							Class61.anInt680 = -1671613313;
 						}
 						if (167 == -129171495 * Class61.anInt680) {
@@ -649,7 +649,7 @@ public class Class283 implements Interface75 {
 									break;
 								Class586.aClass106_7710.method1413((short) -4516).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, 2, -2072283285);
 								Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off = 0;
-								Class586.aClass106_7710.anInt1262 = (Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort((short) -14229) * 925220183);
+								Class586.aClass106_7710.anInt1262 = (Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.readUnsignedShort() * 925220183);
 							}
 							if (Class586.aClass106_7710.method1413((short) 9424).method6897(610303591 * Class586.aClass106_7710.anInt1262, -1358651921)) {
 								Class586.aClass106_7710.method1413((short) 15744).method6899((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), 0, (Class586.aClass106_7710.anInt1262 * 610303591), -2141813157);

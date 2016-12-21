@@ -197,11 +197,11 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4781;
 	public static IncomingPacket aClass422_4782;
 	public static IncomingPacket aClass422_4783;
-	public int anInt4784;
+	public int id;
 	public static IncomingPacket aClass422_4785;
 
 	IncomingPacket(int i, int i_0_) {
-		anInt4784 = i * 2069387581;
+		id = i * 2069387581;
 		anInt4750 = i_0_ * -1415459355;
 	}
 

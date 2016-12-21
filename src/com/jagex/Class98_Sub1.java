@@ -51,14 +51,14 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 	}
 
 	public Class430 method8388(RSByteBuffer class536_sub33, int i) {
-		int i_2_ = class536_sub33.readUnsignedShort((short) -22748);
+		int i_2_ = class536_sub33.readUnsignedShort();
 		Class153 class153 = (Class153) method70(i_2_, (byte) -18);
 		if (!class153.method1857((byte) 40))
 			throw new IllegalStateException("");
 		Class430 class430 = new Class430(i_2_);
 		Class var_class = class153.aClass453_1716.method5437(65280).aClass5390;
 		if (var_class == java.lang.Integer.class)
-			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt(-599826672));
+			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt());
 		else if (var_class == java.lang.Long.class)
 			class430.anObject4819 = Long.valueOf(class536_sub33.method9711(702869087));
 		else if (java.lang.String.class == var_class)
@@ -108,11 +108,11 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 	}
 
 	public Class430 method8390(RSByteBuffer class536_sub33, Class478 class478, int i) {
-		int i_4_ = class536_sub33.readUnsignedShort((short) -1227);
+		int i_4_ = class536_sub33.readUnsignedShort();
 		Class430 class430 = new Class430(i_4_);
 		Class var_class = class478.aClass5390;
 		if (java.lang.Integer.class == var_class)
-			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt(-1576874121));
+			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt());
 		else if (java.lang.Long.class == var_class)
 			class430.anObject4819 = Long.valueOf(class536_sub33.method9711(702869087));
 		else if (java.lang.String.class == var_class)

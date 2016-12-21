@@ -169,7 +169,7 @@ public abstract class Class309 implements Interface6 {
 			if (i_4_ == 0)
 				break;
 			if (1 == i_4_) {
-				int i_5_ = class536_sub33.readUnsignedShort((short) -19388);
+				int i_5_ = class536_sub33.readUnsignedShort();
 				Class184_Sub2.aClass211_9442.method3007(i_5_, -829236946);
 			}
 		}

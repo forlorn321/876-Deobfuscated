@@ -73,19 +73,22 @@ public class RS3Applet extends Applet implements AppletStub {
 	
 	static {
 		IDENTIFIED.add(IncomingPacket.PING); // Lobby ping? idk
-		IDENTIFIED.add(IncomingPacket.PING_2);
-		IDENTIFIED.add(IncomingPacket.VARP_1);
-		IDENTIFIED.add(IncomingPacket.VARP_2);
-		IDENTIFIED.add(IncomingPacket.CS_VAR_1);
-		IDENTIFIED.add(IncomingPacket.CS_VAR_2);
-		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_1);
-		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_2);
-		IDENTIFIED.add(IncomingPacket.SET_INTERFACE);
-		IDENTIFIED.add(IncomingPacket.CLIENT_SCRIPT);
-		IDENTIFIED.add(IncomingPacket.WORLD_LIST);
-		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK);
+		IDENTIFIED.add(IncomingPacket.PING_2); //implemented
+		IDENTIFIED.add(IncomingPacket.VARP_1); //implemented
+		IDENTIFIED.add(IncomingPacket.VARP_2); //implemented
+		IDENTIFIED.add(IncomingPacket.CS_VAR_1); //implemented
+		IDENTIFIED.add(IncomingPacket.CS_VAR_2); //implemented
+		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_1); //implemented
+		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_2); //implemented
+		IDENTIFIED.add(IncomingPacket.SET_INTERFACE); //implemented
+		IDENTIFIED.add(IncomingPacket.CLIENT_SCRIPT); //implemented
+		IDENTIFIED.add(IncomingPacket.WORLD_LIST); //implemented
+		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK); //implemented
+		IDENTIFIED.add(IncomingPacket.INTERFACE_SETTINGS); //implemented
+		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);
+		
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.CHUNK_SCENE);
@@ -93,7 +96,6 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.PLAYER_UPDATE);
 		IDENTIFIED.add(IncomingPacket.GAME_MESSAGE);
 		IDENTIFIED.add(IncomingPacket.MINIMAP_FLAG);
-		IDENTIFIED.add(IncomingPacket.INTERFACE_SETTINGS);
 		IDENTIFIED.add(IncomingPacket.PLAYER_OPTION);
 		IDENTIFIED.add(IncomingPacket.HINT_ICON);
 		IDENTIFIED.add(IncomingPacket.SOUND_EFFECT);
@@ -115,7 +117,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = false;
+	public static boolean DUMP = true;
 
 	/**
 	 * The parameters of the client.

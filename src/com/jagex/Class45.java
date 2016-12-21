@@ -360,7 +360,7 @@ public class Class45 {
 			return null;
 		i_13_--;
 		class536_sub33.off += 516175515;
-		int i_14_ = class536_sub33.readInt(-207393381);
+		int i_14_ = class536_sub33.readInt();
 		Object[] objects = new Object[i_13_];
 		for (int i_15_ = 0; i_15_ < i_13_; i_15_++) {
 			int i_16_ = class536_sub33.readUnsignedByte(1523881484);

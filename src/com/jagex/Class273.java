@@ -269,8 +269,8 @@ public class Class273 {
 			case 255:
 				return;
 			case 0:
-				Class193.anInt2186 = class536_sub33.readUnsignedShort((short) 2164) * 1035695039;
-				Class193.anInt2178 = class536_sub33.readUnsignedShort((short) -20167) * -727646765;
+				Class193.anInt2186 = class536_sub33.readUnsignedShort() * 1035695039;
+				Class193.anInt2178 = class536_sub33.readUnsignedShort() * -727646765;
 			}
 		}
 	}

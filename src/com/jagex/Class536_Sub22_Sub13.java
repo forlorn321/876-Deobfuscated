@@ -9,13 +9,13 @@ public class Class536_Sub22_Sub13 extends Class536_Sub22 {
 	Class344 this$0;
 
 	void method9577(RSByteBuffer class536_sub33) {
-		anInt11699 = class536_sub33.readInt(-713125030) * 526379135;
-		aString11700 = class536_sub33.readString((byte) 72);
+		anInt11699 = class536_sub33.readInt() * 526379135;
+		aString11700 = class536_sub33.readString();
 	}
 
 	void method9578(RSByteBuffer class536_sub33, int i) {
-		anInt11699 = class536_sub33.readInt(-1138488642) * 526379135;
-		aString11700 = class536_sub33.readString((byte) 65);
+		anInt11699 = class536_sub33.readInt() * 526379135;
+		aString11700 = class536_sub33.readString();
 	}
 
 	Class536_Sub22_Sub13(Class344 class344) {
@@ -31,7 +31,7 @@ public class Class536_Sub22_Sub13 extends Class536_Sub22 {
 	}
 
 	void method9579(RSByteBuffer class536_sub33) {
-		anInt11699 = class536_sub33.readInt(-1948014480) * 526379135;
-		aString11700 = class536_sub33.readString((byte) 65);
+		anInt11699 = class536_sub33.readInt() * 526379135;
+		aString11700 = class536_sub33.readString();
 	}
 }

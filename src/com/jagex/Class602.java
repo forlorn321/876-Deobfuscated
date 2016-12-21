@@ -31,7 +31,7 @@ public class Class602 implements Iterable {
 				LinkedList linkedlist = new LinkedList();
 				for (int i_3_ = 0; i_3_ < i_1_; i_3_++) {
 					int i_4_ = class536_sub33.readUnsignedByte(214844706);
-					int i_5_ = class536_sub33.readUnsignedShort((short) -29459);
+					int i_5_ = class536_sub33.readUnsignedShort();
 					int i_6_ = class536_sub33.readUnsignedByte(1460115748);
 					int i_7_ = 0;
 					Class635 class635 = Class635.aClass635_8267;
@@ -42,7 +42,7 @@ public class Class602 implements Iterable {
 					if (0 != (i_6_ & 0x4))
 						class635 = (aClass635Array7855[class536_sub33.readUnsignedByte(605589535)]);
 					if ((i_6_ & 0x8) != 0)
-						i_8_ = class536_sub33.readByte(1429961340);
+						i_8_ = class536_sub33.readByte();
 					boolean bool_9_ = class536_sub33.readUnsignedByte(1748338773) == 1;
 					linkedlist.add(new Class630(i_4_, i_5_, bool, bool_9_, i_7_, class635, i_8_));
 					if (i_4_ > i_2_)
@@ -57,9 +57,9 @@ public class Class602 implements Iterable {
 			} else if (2 == i_0_) {
 				aClass635Array7855 = new Class635[class536_sub33.readUnsignedByte(902105595)];
 				for (int i_10_ = class536_sub33.readUnsignedByte(-1739121346); 255 != i_10_; i_10_ = class536_sub33.readUnsignedByte(-1665095338)) {
-					int[] is = new int[class536_sub33.readUnsignedShort((short) 6575)];
+					int[] is = new int[class536_sub33.readUnsignedShort()];
 					for (int i_11_ = 0; i_11_ < is.length; i_11_++)
-						is[i_11_] = class536_sub33.readInt(-106045525);
+						is[i_11_] = class536_sub33.readInt();
 					aClass635Array7855[i_10_] = new Class635(is);
 				}
 			}

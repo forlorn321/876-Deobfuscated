@@ -37,7 +37,7 @@ public abstract class Class205 {
 	}
 
 	Class205(RSByteBuffer class536_sub33) {
-		anInt2235 = class536_sub33.readUnsignedShort((short) -9901) * -746986755;
+		anInt2235 = class536_sub33.readUnsignedShort() * -746986755;
 	}
 
 	static final void method2948(Class668 class668, int i) {

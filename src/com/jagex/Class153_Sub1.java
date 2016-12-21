@@ -12,13 +12,13 @@ public class Class153_Sub1 extends Class153 {
 	void method1859(RSByteBuffer class536_sub33, int i) {
 		Class236 class236 = (Class236) Class682.method8091(Class66.method1073(617262572), i, 1858049507);
 		if (Class236.aClass236_2396 == class236)
-			anInt8867 = class536_sub33.readUnsignedShort((short) -14335) * 578611583;
+			anInt8867 = class536_sub33.readUnsignedShort() * 578611583;
 	}
 
 	void method1858(RSByteBuffer class536_sub33, int i, int i_0_) {
 		Class236 class236 = (Class236) Class682.method8091(Class66.method1073(314952450), i, 1858049507);
 		if (Class236.aClass236_2396 == class236)
-			anInt8867 = class536_sub33.readUnsignedShort((short) -9473) * 578611583;
+			anInt8867 = class536_sub33.readUnsignedShort() * 578611583;
 	}
 
 	public void method75(byte i) {
@@ -28,13 +28,13 @@ public class Class153_Sub1 extends Class153 {
 	void method1863(RSByteBuffer class536_sub33, int i) {
 		Class236 class236 = (Class236) Class682.method8091(Class66.method1073(-677319559), i, 1858049507);
 		if (Class236.aClass236_2396 == class236)
-			anInt8867 = class536_sub33.readUnsignedShort((short) -17319) * 578611583;
+			anInt8867 = class536_sub33.readUnsignedShort() * 578611583;
 	}
 
 	void method1860(RSByteBuffer class536_sub33, int i) {
 		Class236 class236 = (Class236) Class682.method8091(Class66.method1073(-234847798), i, 1858049507);
 		if (Class236.aClass236_2396 == class236)
-			anInt8867 = class536_sub33.readUnsignedShort((short) 30359) * 578611583;
+			anInt8867 = class536_sub33.readUnsignedShort() * 578611583;
 	}
 
 	public void method77() {

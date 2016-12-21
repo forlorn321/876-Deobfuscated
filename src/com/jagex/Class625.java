@@ -28,30 +28,30 @@ public class Class625 {
 		int i_0_ = class536_sub33.readUnsignedByte(70927858);
 		if (Class710.aClass536_Sub40_8843.aClass710_Sub14_10755.method10066((byte) 0) == 1 && Class677.aClass167_8609.method2108() > 0) {
 			if (0 != (i_0_ & Class643.aClass643_8346.anInt8345 * -742426051))
-				anInt8150 = class536_sub33.readInt(-1784847935) * -570918605;
+				anInt8150 = class536_sub33.readInt() * -570918605;
 			else
 				anInt8150 = 1426556621;
 			if ((i_0_ & -742426051 * Class643.aClass643_8335.anInt8345) != 0)
-				aFloat8135 = (float) class536_sub33.readUnsignedShort((short) 3919) / 256.0F;
+				aFloat8135 = (float) class536_sub33.readUnsignedShort() / 256.0F;
 			else
 				aFloat8135 = 1.1523438F;
 			if (0 != (i_0_ & -742426051 * Class643.aClass643_8337.anInt8345))
-				aFloat8141 = (float) class536_sub33.readUnsignedShort((short) 9849) / 256.0F;
+				aFloat8141 = (float) class536_sub33.readUnsignedShort() / 256.0F;
 			else
 				aFloat8141 = 0.69921875F;
 			if ((i_0_ & -742426051 * Class643.aClass643_8338.anInt8345) != 0)
-				aFloat8137 = ((float) class536_sub33.readUnsignedShort((short) 25079) / 256.0F);
+				aFloat8137 = ((float) class536_sub33.readUnsignedShort() / 256.0F);
 			else
 				aFloat8137 = 1.2F;
 		} else {
 			if ((i_0_ & Class643.aClass643_8346.anInt8345 * -742426051) != 0)
-				class536_sub33.readInt(-435638448);
+				class536_sub33.readInt();
 			if ((i_0_ & -742426051 * Class643.aClass643_8335.anInt8345) != 0)
-				class536_sub33.readUnsignedShort((short) -9833);
+				class536_sub33.readUnsignedShort();
 			if (0 != (i_0_ & -742426051 * Class643.aClass643_8337.anInt8345))
-				class536_sub33.readUnsignedShort((short) -14965);
+				class536_sub33.readUnsignedShort();
 			if ((i_0_ & -742426051 * Class643.aClass643_8338.anInt8345) != 0)
-				class536_sub33.readUnsignedShort((short) 16717);
+				class536_sub33.readUnsignedShort();
 			anInt8150 = 1426556621;
 			aFloat8137 = 1.2F;
 			aFloat8141 = 0.69921875F;
@@ -62,15 +62,15 @@ public class Class625 {
 		else
 			aClass436_8138 = Class436.method5257(-50.0F, -60.0F, -50.0F);
 		if (0 != (i_0_ & -742426051 * Class643.aClass643_8336.anInt8345))
-			anInt8140 = class536_sub33.readInt(-522260560) * 2042993843;
+			anInt8140 = class536_sub33.readInt() * 2042993843;
 		else
 			anInt8140 = -1962076808;
 		if ((i_0_ & -742426051 * Class643.aClass643_8341.anInt8345) != 0)
-			anInt8143 = class536_sub33.readUnsignedShort((short) -18090) * -246653865;
+			anInt8143 = class536_sub33.readUnsignedShort() * -246653865;
 		else
 			anInt8143 = 0;
 		if ((i_0_ & Class643.aClass643_8350.anInt8345 * -742426051) != 0) {
-			int i_1_ = class536_sub33.readUnsignedShort((short) -3258);
+			int i_1_ = class536_sub33.readUnsignedShort();
 			aClass176_8139 = class636.method7573(i_1_, 241337155);
 		} else
 			aClass176_8139 = RuntimeException_Sub4.aClass176_12094;
@@ -321,7 +321,7 @@ public class Class625 {
 	}
 
 	void method7438(RSByteBuffer class536_sub33, int i, byte i_35_) {
-		anIntArray8151[i] = class536_sub33.readUnsignedShort((short) -5587);
+		anIntArray8151[i] = class536_sub33.readUnsignedShort();
 		aFloatArray8152[i] = class536_sub33.method9712(-1905531903);
 	}
 
@@ -368,11 +368,11 @@ public class Class625 {
 	}
 
 	public void method7443(RSByteBuffer class536_sub33, Class636 class636, int i) {
-		int i_38_ = class536_sub33.readUnsignedShort((short) -16738);
+		int i_38_ = class536_sub33.readUnsignedShort();
 		int i_39_ = class536_sub33.readShort((byte) -118);
 		int i_40_ = class536_sub33.readShort((byte) -17);
 		int i_41_ = class536_sub33.readShort((byte) -78);
-		int i_42_ = class536_sub33.readUnsignedShort((short) -2146);
+		int i_42_ = class536_sub33.readUnsignedShort();
 		Class206_Sub1.anInt10025 = i_42_ * 76870447;
 		aClass507_8145 = class636.method7612(i_38_, i_39_, i_40_, i_41_, (short) 16383);
 	}

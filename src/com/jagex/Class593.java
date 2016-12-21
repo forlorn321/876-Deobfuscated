@@ -30,7 +30,7 @@ public class Class593 {
 			int i_2_ = class536_sub33.readUnsignedSmart(-1246782921);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_2_] = new Class603_Sub1();
 			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(613843187) * 809472901;
-			class603_sub1.anInt7862 = class536_sub33.readInt(-213736786) * -261605043;
+			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-480191768) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
 				class603_sub1.aString10559 = class536_sub33.method9714((byte) 80);
@@ -38,7 +38,7 @@ public class Class593 {
 			class603_sub1.aString10556 = class536_sub33.method9714((byte) 36);
 			class603_sub1.aString10555 = class536_sub33.method9714((byte) 41);
 		}
-		anInt7809 = class536_sub33.readInt(-165600051) * 591411205;
+		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
 	}
 
@@ -62,7 +62,7 @@ public class Class593 {
 			int i_5_ = class536_sub33.readUnsignedSmart(1116999799);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_5_] = new Class603_Sub1();
 			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(741218900) * 809472901;
-			class603_sub1.anInt7862 = class536_sub33.readInt(-714892367) * -261605043;
+			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-620612441) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
 				class603_sub1.aString10559 = class536_sub33.method9714((byte) 31);
@@ -70,7 +70,7 @@ public class Class593 {
 			class603_sub1.aString10556 = class536_sub33.method9714((byte) 23);
 			class603_sub1.aString10555 = class536_sub33.method9714((byte) 21);
 		}
-		anInt7809 = class536_sub33.readInt(-1591670286) * 591411205;
+		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
 	}
 
@@ -90,7 +90,7 @@ public class Class593 {
 			int i_8_ = class536_sub33.readUnsignedSmart(540185066);
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_8_] = new Class603_Sub1();
 			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte(18007096) * 809472901;
-			class603_sub1.anInt7862 = class536_sub33.readInt(-768654661) * -261605043;
+			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(437081542) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
 				class603_sub1.aString10559 = class536_sub33.method9714((byte) 45);
@@ -98,7 +98,7 @@ public class Class593 {
 			class603_sub1.aString10556 = class536_sub33.method9714((byte) 55);
 			class603_sub1.aString10555 = class536_sub33.method9714((byte) 2);
 		}
-		anInt7809 = class536_sub33.readInt(-1204539181) * 591411205;
+		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
 	}
 

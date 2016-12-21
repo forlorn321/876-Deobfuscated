@@ -23,25 +23,25 @@ public class Class205_Sub8 extends Class205 {
 
 	Class205_Sub8(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9881 = class536_sub33.readUnsignedShort((short) 29121) * -482244103;
+		anInt9881 = class536_sub33.readUnsignedShort() * -482244103;
 		int i = class536_sub33.readUnsignedByte(-992191323);
 		if (0 != (i & 0x1)) {
-			anInt9880 = class536_sub33.readUnsignedShort((short) 28970) * 428807641;
-			anInt9879 = class536_sub33.readUnsignedShort((short) 14167) * -678626205;
+			anInt9880 = class536_sub33.readUnsignedShort() * 428807641;
+			anInt9879 = class536_sub33.readUnsignedShort() * -678626205;
 		} else {
 			anInt9880 = -428807641;
 			anInt9879 = 678626205;
 		}
 		if (0 != (i & 0x2)) {
-			anInt9882 = class536_sub33.readUnsignedShort((short) -13027) * -349561165;
-			anInt9883 = class536_sub33.readUnsignedShort((short) 20766) * 943502791;
+			anInt9882 = class536_sub33.readUnsignedShort() * -349561165;
+			anInt9883 = class536_sub33.readUnsignedShort() * 943502791;
 		} else {
 			anInt9882 = 349561165;
 			anInt9883 = -943502791;
 		}
 		if ((i & 0x4) != 0) {
-			int i_0_ = class536_sub33.readUnsignedShort((short) -21342);
-			int i_1_ = class536_sub33.readUnsignedShort((short) 29429);
+			int i_0_ = class536_sub33.readUnsignedShort();
+			int i_1_ = class536_sub33.readUnsignedShort();
 			int i_2_ = 255 * i_0_ / i_1_;
 			if (i_0_ > 0 && i_2_ < 1) {
 				boolean bool = true;

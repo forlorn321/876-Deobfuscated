@@ -16,11 +16,11 @@ public class Class205_Sub19 extends Class205 {
 
 	Class205_Sub19(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9953 = class536_sub33.readUnsignedShort((short) -9412) * 1096006303;
-		anInt9955 = class536_sub33.readUnsignedShort((short) 9603) * -391625445;
-		aString9954 = class536_sub33.readString((byte) 8);
-		anInt9956 = class536_sub33.readInt(-425693265) * 1015721695;
-		anInt9952 = class536_sub33.readUnsignedShort((short) -2523) * 470568045;
+		anInt9953 = class536_sub33.readUnsignedShort() * 1096006303;
+		anInt9955 = class536_sub33.readUnsignedShort() * -391625445;
+		aString9954 = class536_sub33.readString();
+		anInt9956 = class536_sub33.readInt() * 1015721695;
+		anInt9952 = class536_sub33.readUnsignedShort() * 470568045;
 	}
 
 	public void method2942() {

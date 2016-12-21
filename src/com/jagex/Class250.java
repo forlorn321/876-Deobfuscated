@@ -20,8 +20,8 @@ public class Class250 implements Interface27 {
 
 	Class250(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		anInt2531 = class536_sub33.readUnsignedShort((short) 2624) * 655715717;
-		anInt2530 = class536_sub33.readUnsignedShort((short) -1621) * -13276439;
+		anInt2531 = class536_sub33.readUnsignedShort() * 655715717;
+		anInt2530 = class536_sub33.readUnsignedShort() * -13276439;
 	}
 
 	public void method153(Class226 class226) {

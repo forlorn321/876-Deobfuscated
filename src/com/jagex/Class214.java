@@ -19,7 +19,7 @@ public class Class214 implements Interface27 {
 
 	Class214(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		anInt2300 = class536_sub33.readUnsignedShort((short) -17188) * -921146847;
+		anInt2300 = class536_sub33.readUnsignedShort() * -921146847;
 		aClass222_2299 = new Class222(class536_sub33, false, false, class213.anInterface28_2296);
 	}
 

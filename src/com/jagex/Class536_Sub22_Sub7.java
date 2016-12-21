@@ -13,12 +13,12 @@ public class Class536_Sub22_Sub7 extends Class536_Sub22 {
 	}
 
 	void method9578(RSByteBuffer class536_sub33, int i) {
-		anInt11681 = class536_sub33.readInt(-1491209766) * 910487829;
+		anInt11681 = class536_sub33.readInt() * 910487829;
 		aLong11682 = class536_sub33.method9711(702869087) * 7953056938319692343L;
 	}
 
 	void method9577(RSByteBuffer class536_sub33) {
-		anInt11681 = class536_sub33.readInt(-1515158240) * 910487829;
+		anInt11681 = class536_sub33.readInt() * 910487829;
 		aLong11682 = class536_sub33.method9711(702869087) * 7953056938319692343L;
 	}
 
@@ -27,7 +27,7 @@ public class Class536_Sub22_Sub7 extends Class536_Sub22 {
 	}
 
 	void method9579(RSByteBuffer class536_sub33) {
-		anInt11681 = class536_sub33.readInt(311584021) * 910487829;
+		anInt11681 = class536_sub33.readInt() * 910487829;
 		aLong11682 = class536_sub33.method9711(702869087) * 7953056938319692343L;
 	}
 

@@ -70,7 +70,7 @@ public class Class604 implements Interface75 {
 
 	public static Class382 method7205(RSByteBuffer class536_sub33, int i) {
 		Class382 class382 = new Class382();
-		class382.anInt4013 = class536_sub33.readUnsignedShort((short) -1118) * -203156379;
+		class382.anInt4013 = class536_sub33.readUnsignedShort() * -203156379;
 		class382.aClass536_Sub18_Sub10_4012 = Class198.aClass32_2216.method788(810974573 * class382.anInt4013, (byte) 35);
 		return class382;
 	}

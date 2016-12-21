@@ -52,11 +52,11 @@ public class Class202 {
 		anIntArray2223 = new int[i];
 		anIntArray2225 = new int[i];
 		for (int i_3_ = 0; i_3_ < i; i_3_++) {
-			anIntArray2229[i_3_] = class536_sub33.readUnsignedShort((short) 14711) - 5120;
-			anIntArray2228[i_3_] = class536_sub33.readUnsignedShort((short) 1878) - 5120;
+			anIntArray2229[i_3_] = class536_sub33.readUnsignedShort() - 5120;
+			anIntArray2228[i_3_] = class536_sub33.readUnsignedShort() - 5120;
 			anIntArray2224[i_3_] = class536_sub33.readShort((byte) -50);
-			anIntArray2227[i_3_] = class536_sub33.readUnsignedShort((short) -21559) - 5120;
-			anIntArray2225[i_3_] = class536_sub33.readUnsignedShort((short) 8094) - 5120;
+			anIntArray2227[i_3_] = class536_sub33.readUnsignedShort() - 5120;
+			anIntArray2225[i_3_] = class536_sub33.readUnsignedShort() - 5120;
 			anIntArray2223[i_3_] = class536_sub33.readShort((byte) -123);
 			anIntArray2226[i_3_] = class536_sub33.readShort((byte) -86);
 		}

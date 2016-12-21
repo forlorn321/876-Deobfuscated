@@ -26,7 +26,7 @@ public class Class219 implements Interface27 {
 
 	Class219(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		anInt2309 = class536_sub33.readUnsignedShort((short) -14849) * -125569493;
+		anInt2309 = class536_sub33.readUnsignedShort() * -125569493;
 	}
 
 	public void method153(Class226 class226) {

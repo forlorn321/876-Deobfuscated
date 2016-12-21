@@ -294,7 +294,7 @@ public final class Class147_Sub1 extends Class147 {
 						}
 						break;
 					}
-					int i_12_ = class536_sub33.readUnsignedShort((short) 8648);
+					int i_12_ = class536_sub33.readUnsignedShort();
 					if ((class536_sub33.buffer.length - -810172525 * class536_sub33.off) < i_12_ * 6) {
 						try {
 							class6.method585(-1411037171);

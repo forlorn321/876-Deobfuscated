@@ -26,7 +26,7 @@ public class Class257 implements Interface27 {
 
 	Class257(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		anInt2764 = class536_sub33.readUnsignedShort((short) 8436) * -1064836235;
+		anInt2764 = class536_sub33.readUnsignedShort() * -1064836235;
 		anInt2763 = class536_sub33.readUnsignedByte(1535597785) * 1558450847;
 	}
 

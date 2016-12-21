@@ -27,7 +27,7 @@ public class Class158 {
 	public static void method1889(RSByteBuffer class536_sub33, int i, short i_1_) {
 		Class536_Sub34 class536_sub34 = new Class536_Sub34();
 		class536_sub34.anInt10619 = class536_sub33.readUnsignedByte(-957761069) * 1530398673;
-		class536_sub34.anInt10621 = class536_sub33.readInt(265685866) * -251386325;
+		class536_sub34.anInt10621 = class536_sub33.readInt() * -251386325;
 		class536_sub34.anIntArray10622 = new int[class536_sub34.anInt10619 * 1706012977];
 		class536_sub34.anIntArray10624 = new int[1706012977 * class536_sub34.anInt10619];
 		class536_sub34.aFieldArray10623 = new Field[class536_sub34.anInt10619 * 1706012977];
@@ -38,28 +38,28 @@ public class Class158 {
 			try {
 				int i_3_ = class536_sub33.readUnsignedByte(-698733238);
 				if (0 == i_3_ || 1 == i_3_ || i_3_ == 2) {
-					String string = class536_sub33.readString((byte) 95);
-					String string_4_ = class536_sub33.readString((byte) 120);
+					String string = class536_sub33.readString();
+					String string_4_ = class536_sub33.readString();
 					int i_5_ = 0;
 					if (1 == i_3_)
-						i_5_ = class536_sub33.readInt(-1315305648);
+						i_5_ = class536_sub33.readInt();
 					class536_sub34.anIntArray10622[i_2_] = i_3_;
 					class536_sub34.anIntArray10620[i_2_] = i_5_;
 					if (Class541.method6530(string, 885421783).getClassLoader() == null)
 						throw new SecurityException();
 					class536_sub34.aFieldArray10623[i_2_] = Class541.method6530(string, 2045140281).getDeclaredField(string_4_);
 				} else if (i_3_ == 3 || i_3_ == 4) {
-					String string = class536_sub33.readString((byte) 105);
-					String string_6_ = class536_sub33.readString((byte) 87);
+					String string = class536_sub33.readString();
+					String string_6_ = class536_sub33.readString();
 					int i_7_ = class536_sub33.readUnsignedByte(-61835438);
 					String[] strings = new String[i_7_];
 					for (int i_8_ = 0; i_8_ < i_7_; i_8_++)
-						strings[i_8_] = class536_sub33.readString((byte) 36);
-					String string_9_ = class536_sub33.readString((byte) 126);
+						strings[i_8_] = class536_sub33.readString();
+					String string_9_ = class536_sub33.readString();
 					byte[][] is = new byte[i_7_][];
 					if (i_3_ == 3) {
 						for (int i_10_ = 0; i_10_ < i_7_; i_10_++) {
-							int i_11_ = class536_sub33.readInt(-1807773547);
+							int i_11_ = class536_sub33.readInt();
 							is[i_10_] = new byte[i_11_];
 							class536_sub33.method9716(is[i_10_], 0, i_11_, -1013284220);
 						}

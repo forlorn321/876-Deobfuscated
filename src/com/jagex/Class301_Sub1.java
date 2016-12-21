@@ -37,7 +37,7 @@ public class Class301_Sub1 extends Class301 {
 			}
 		}
 		if (1 == (i_2_ >> 7 & 0x1)) {
-			int i_3_ = class536_sub33.readUnsignedShort((short) -16708);
+			int i_3_ = class536_sub33.readUnsignedShort();
 			if ((i_3_ >> Class295.aClass295_3257.anInt3264 * -1131119493 & 0x1) == 1)
 				aClass436_3374.method5242(class536_sub33);
 			if (1 == (i_3_ >> -1131119493 * Class295.aClass295_3249.anInt3264 & 0x1))
@@ -90,7 +90,7 @@ public class Class301_Sub1 extends Class301 {
 				}
 			}
 			if ((i_3_ >> Class295.aClass295_3260.anInt3264 * -1131119493 & 0x1) == 1) {
-				anInt3394 = class536_sub33.readUnsignedShort((short) 199) * 734446143;
+				anInt3394 = class536_sub33.readUnsignedShort() * 734446143;
 				aFloat3390 = class536_sub33.method9712(-1837192895);
 			}
 			if ((i_3_ >> -1131119493 * Class295.aClass295_3259.anInt3264 & 0x1) == 1)

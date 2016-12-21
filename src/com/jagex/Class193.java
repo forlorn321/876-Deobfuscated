@@ -127,8 +127,8 @@ public class Class193 {
 			case 255:
 				return;
 			case 0:
-				anInt2186 = class536_sub33.readUnsignedShort((short) -16894) * 1035695039;
-				anInt2178 = class536_sub33.readUnsignedShort((short) 11869) * -727646765;
+				anInt2186 = class536_sub33.readUnsignedShort() * 1035695039;
+				anInt2178 = class536_sub33.readUnsignedShort() * -727646765;
 			}
 		}
 	}
@@ -140,8 +140,8 @@ public class Class193 {
 			case 255:
 				return;
 			case 0:
-				anInt2186 = class536_sub33.readUnsignedShort((short) -10261) * 1035695039;
-				anInt2178 = class536_sub33.readUnsignedShort((short) -13388) * -727646765;
+				anInt2186 = class536_sub33.readUnsignedShort() * 1035695039;
+				anInt2178 = class536_sub33.readUnsignedShort() * -727646765;
 			}
 		}
 	}

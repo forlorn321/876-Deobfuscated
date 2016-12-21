@@ -67,11 +67,11 @@ public final class Class703 {
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(1824502340)]);
 		int i_1_ = class536_sub33.readShort((byte) -46);
 		int i_2_ = class536_sub33.readShort((byte) -32);
-		int i_3_ = class536_sub33.readUnsignedShort((short) -828);
-		int i_4_ = class536_sub33.readUnsignedShort((short) -29359);
-		int i_5_ = class536_sub33.readInt(75410792);
-		int i_6_ = class536_sub33.readInt(-392838177);
-		int i_7_ = class536_sub33.readInt(58460041);
+		int i_3_ = class536_sub33.readUnsignedShort();
+		int i_4_ = class536_sub33.readUnsignedShort();
+		int i_5_ = class536_sub33.readInt();
+		int i_6_ = class536_sub33.readInt();
+		int i_7_ = class536_sub33.readInt();
 		boolean bool = class536_sub33.readUnsignedByte(1341064553) == 1;
 		return new Class387(i_0_, class395, class399, i_1_, i_2_, i_3_, i_4_, i_5_, i_6_, i_7_, bool);
 	}

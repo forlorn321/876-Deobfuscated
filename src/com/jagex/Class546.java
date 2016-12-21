@@ -38,7 +38,7 @@ public class Class546 implements Interface13 {
 
 	void method6613(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (1 == i)
-			class536_sub33.readUnsignedShort((short) 20447);
+			class536_sub33.readUnsignedShort();
 		else if (i == 2)
 			anInt7287 = class536_sub33.readUnsignedByte(-1605290596) * 1000746937;
 		else if (3 == i)
@@ -46,7 +46,7 @@ public class Class546 implements Interface13 {
 		else if (4 == i)
 			anInt7281 = 0;
 		else if (i == 5)
-			anInt7284 = class536_sub33.readUnsignedShort((short) 2439) * 1289295945;
+			anInt7284 = class536_sub33.readUnsignedShort() * 1289295945;
 		else if (6 == i)
 			class536_sub33.readUnsignedByte(452406413);
 		else if (i == 7)
@@ -58,7 +58,7 @@ public class Class546 implements Interface13 {
 		else if (10 == i)
 			anInt7288 = class536_sub33.method9720((byte) 1) * 983682455;
 		else if (i == 11)
-			anInt7281 = class536_sub33.readUnsignedShort((short) 26103) * 747781677;
+			anInt7281 = class536_sub33.readUnsignedShort() * 747781677;
 		else if (i == 12)
 			anInt7289 = class536_sub33.method9720((byte) 1) * 1892081071;
 		else if (13 == i)
@@ -108,7 +108,7 @@ public class Class546 implements Interface13 {
 
 	void method6616(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			class536_sub33.readUnsignedShort((short) -1891);
+			class536_sub33.readUnsignedShort();
 		else if (i == 2)
 			anInt7287 = class536_sub33.readUnsignedByte(-963358644) * 1000746937;
 		else if (3 == i)
@@ -116,7 +116,7 @@ public class Class546 implements Interface13 {
 		else if (4 == i)
 			anInt7281 = 0;
 		else if (i == 5)
-			anInt7284 = class536_sub33.readUnsignedShort((short) -5324) * 1289295945;
+			anInt7284 = class536_sub33.readUnsignedShort() * 1289295945;
 		else if (6 == i)
 			class536_sub33.readUnsignedByte(-130897732);
 		else if (i == 7)
@@ -128,7 +128,7 @@ public class Class546 implements Interface13 {
 		else if (10 == i)
 			anInt7288 = class536_sub33.method9720((byte) 1) * 983682455;
 		else if (i == 11)
-			anInt7281 = class536_sub33.readUnsignedShort((short) 4055) * 747781677;
+			anInt7281 = class536_sub33.readUnsignedShort() * 747781677;
 		else if (i == 12)
 			anInt7289 = class536_sub33.method9720((byte) 1) * 1892081071;
 		else if (13 == i)

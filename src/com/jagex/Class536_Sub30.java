@@ -12,9 +12,9 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 
 	public void method64(RSByteBuffer class536_sub33) {
 		anInt10565 = class536_sub33.readUnsignedByte(123598781) * 1968946045;
-		anInt10568 = class536_sub33.readInt(90011794) * 1921344143;
-		anInt10564 = class536_sub33.readInt(113643697) * 524680463;
-		anInt10567 = class536_sub33.readInt(-1116567395) * -377587009;
+		anInt10568 = class536_sub33.readInt() * 1921344143;
+		anInt10564 = class536_sub33.readInt() * 524680463;
+		anInt10567 = class536_sub33.readInt() * -377587009;
 	}
 
 	Class536_Sub30(Class536_Sub30 class536_sub30_0_) {
@@ -72,16 +72,16 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 
 	public void method65(RSByteBuffer class536_sub33) {
 		anInt10565 = class536_sub33.readUnsignedByte(1905021836) * 1968946045;
-		anInt10568 = class536_sub33.readInt(-1692921264) * 1921344143;
-		anInt10564 = class536_sub33.readInt(-1677279193) * 524680463;
-		anInt10567 = class536_sub33.readInt(-94018751) * -377587009;
+		anInt10568 = class536_sub33.readInt() * 1921344143;
+		anInt10564 = class536_sub33.readInt() * 524680463;
+		anInt10567 = class536_sub33.readInt() * -377587009;
 	}
 
 	public void method61(RSByteBuffer class536_sub33, int i) {
 		anInt10565 = class536_sub33.readUnsignedByte(-906087978) * 1968946045;
-		anInt10568 = class536_sub33.readInt(-824451811) * 1921344143;
-		anInt10564 = class536_sub33.readInt(-501456860) * 524680463;
-		anInt10567 = class536_sub33.readInt(108272111) * -377587009;
+		anInt10568 = class536_sub33.readInt() * 1921344143;
+		anInt10564 = class536_sub33.readInt() * 524680463;
+		anInt10567 = class536_sub33.readInt() * -377587009;
 	}
 
 	public String method9631() {
@@ -176,9 +176,9 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 
 	public void method66(RSByteBuffer class536_sub33) {
 		anInt10565 = class536_sub33.readUnsignedByte(-287187857) * 1968946045;
-		anInt10568 = class536_sub33.readInt(-961326752) * 1921344143;
-		anInt10564 = class536_sub33.readInt(-1389539793) * 524680463;
-		anInt10567 = class536_sub33.readInt(-1783979157) * -377587009;
+		anInt10568 = class536_sub33.readInt() * 1921344143;
+		anInt10564 = class536_sub33.readInt() * 524680463;
+		anInt10567 = class536_sub33.readInt() * -377587009;
 	}
 
 	public int method10() {

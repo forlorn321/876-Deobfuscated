@@ -156,18 +156,18 @@ public class Class222 {
 		for (int i_8_ = 0; i_8_ < aClass618Array2316.length; i_8_++) {
 			Class618 class618 = (aClass618Array2316[i_8_] = new Class618(interface28.method159(1445042368).method7174(i_8_, (byte) -40), true));
 			if (i_8_ < i_7_)
-				class618.method7380(class536_sub33.readInt(96181410), (byte) 58);
+				class618.method7380(class536_sub33.readInt(), (byte) 58);
 			else
 				class618.method7380(0, (byte) 64);
 			class618.method7376(class618.method7374((byte) -18), 155186799);
 		}
-		int i_9_ = class536_sub33.readUnsignedShort((short) -7001);
+		int i_9_ = class536_sub33.readUnsignedShort();
 		aClass21_2321 = new Class21(interface28.method162(-1062537651));
 		for (int i_10_ = 0; i_10_ < i_9_; i_10_++) {
 			Class430 class430 = interface28.method162(-1062537651).method8388(class536_sub33, 1503111938);
 			aClass21_2321.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) 34);
 		}
-		anInt2317 = class536_sub33.readUnsignedShort((short) -16139) * -963005091;
+		anInt2317 = class536_sub33.readUnsignedShort() * -963005091;
 		if (65535 == -1314502923 * anInt2317)
 			anInt2317 = 963005091;
 		anInt2325 = class536_sub33.readUnsignedByte(178993579) * 596265079;

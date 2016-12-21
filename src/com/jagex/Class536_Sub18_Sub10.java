@@ -29,24 +29,24 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10710(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (1 == i)
-			aStringArray11725 = Class344.method4483(class536_sub33.readString((byte) 29), '<', (byte) -38);
+			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -38);
 		else if (i == 2) {
 			int i_2_ = class536_sub33.readUnsignedByte(859398782);
 			anIntArray11724 = new int[i_2_];
 			for (int i_3_ = 0; i_3_ < i_2_; i_3_++)
-				anIntArray11724[i_3_] = class536_sub33.readUnsignedShort((short) 7550);
+				anIntArray11724[i_3_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
 			int i_4_ = class536_sub33.readUnsignedByte(-1497156000);
 			anIntArray11722 = new int[i_4_];
 			anIntArrayArray11720 = new int[i_4_][];
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-				int i_6_ = class536_sub33.readUnsignedShort((short) 13550);
+				int i_6_ = class536_sub33.readUnsignedShort();
 				Class614 class614 = Class55.method950(i_6_, (byte) -50);
 				if (class614 != null) {
 					anIntArray11722[i_5_] = i_6_;
 					anIntArrayArray11720[i_5_] = new int[class614.anInt8031 * -1771725915];
 					for (int i_7_ = 0; i_7_ < class614.anInt8031 * -1771725915; i_7_++)
-						anIntArrayArray11720[i_5_][i_7_] = class536_sub33.readUnsignedShort((short) -25673);
+						anIntArrayArray11720[i_5_][i_7_] = class536_sub33.readUnsignedShort();
 				}
 			}
 		} else if (i == 4)
@@ -96,24 +96,24 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10715(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			aStringArray11725 = Class344.method4483(class536_sub33.readString((byte) 90), '<', (byte) -72);
+			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -72);
 		else if (i == 2) {
 			int i_13_ = class536_sub33.readUnsignedByte(2101532257);
 			anIntArray11724 = new int[i_13_];
 			for (int i_14_ = 0; i_14_ < i_13_; i_14_++)
-				anIntArray11724[i_14_] = class536_sub33.readUnsignedShort((short) -29373);
+				anIntArray11724[i_14_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
 			int i_15_ = class536_sub33.readUnsignedByte(-395302504);
 			anIntArray11722 = new int[i_15_];
 			anIntArrayArray11720 = new int[i_15_][];
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++) {
-				int i_17_ = class536_sub33.readUnsignedShort((short) 9273);
+				int i_17_ = class536_sub33.readUnsignedShort();
 				Class614 class614 = Class55.method950(i_17_, (byte) -35);
 				if (class614 != null) {
 					anIntArray11722[i_16_] = i_17_;
 					anIntArrayArray11720[i_16_] = new int[class614.anInt8031 * -1771725915];
 					for (int i_18_ = 0; i_18_ < class614.anInt8031 * -1771725915; i_18_++)
-						anIntArrayArray11720[i_16_][i_18_] = class536_sub33.readUnsignedShort((short) -13458);
+						anIntArrayArray11720[i_16_][i_18_] = class536_sub33.readUnsignedShort();
 				}
 			}
 		} else if (i == 4)
@@ -219,24 +219,24 @@ public class Class536_Sub18_Sub10 extends Class536_Sub18 {
 
 	void method10727(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			aStringArray11725 = Class344.method4483(class536_sub33.readString((byte) 77), '<', (byte) -86);
+			aStringArray11725 = Class344.method4483(class536_sub33.readString(), '<', (byte) -86);
 		else if (i == 2) {
 			int i_25_ = class536_sub33.readUnsignedByte(-887982710);
 			anIntArray11724 = new int[i_25_];
 			for (int i_26_ = 0; i_26_ < i_25_; i_26_++)
-				anIntArray11724[i_26_] = class536_sub33.readUnsignedShort((short) -28121);
+				anIntArray11724[i_26_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i) {
 			int i_27_ = class536_sub33.readUnsignedByte(1450323154);
 			anIntArray11722 = new int[i_27_];
 			anIntArrayArray11720 = new int[i_27_][];
 			for (int i_28_ = 0; i_28_ < i_27_; i_28_++) {
-				int i_29_ = class536_sub33.readUnsignedShort((short) -1520);
+				int i_29_ = class536_sub33.readUnsignedShort();
 				Class614 class614 = Class55.method950(i_29_, (byte) 60);
 				if (class614 != null) {
 					anIntArray11722[i_28_] = i_29_;
 					anIntArrayArray11720[i_28_] = new int[class614.anInt8031 * -1771725915];
 					for (int i_30_ = 0; i_30_ < class614.anInt8031 * -1771725915; i_30_++)
-						anIntArrayArray11720[i_28_][i_30_] = class536_sub33.readUnsignedShort((short) -2500);
+						anIntArrayArray11720[i_28_][i_30_] = class536_sub33.readUnsignedShort();
 				}
 			}
 		} else if (i == 4)

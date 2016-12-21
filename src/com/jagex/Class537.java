@@ -320,7 +320,7 @@ public class Class537 {
 			return true;
 		} catch (Exception exception) {
 			Class598 class598 = client.aClass515_11066.method6255(-1858708269);
-			String string = new StringBuilder().append(null != class106.aClass422_1261 ? -798865899 * class106.aClass422_1261.anInt4784 : -1).append(Class40.aString491).append(null != class106.aClass422_1271 ? -798865899 * class106.aClass422_1271.anInt4784 : -1).append(Class40.aString491).append(class106.aClass422_1274 != null ? -798865899 * class106.aClass422_1274.anInt4784 : -1).append(" ").append(610303591 * class106.anInt1262).append(Class40.aString491)
+			String string = new StringBuilder().append(null != class106.aClass422_1261 ? -798865899 * class106.aClass422_1261.id : -1).append(Class40.aString491).append(null != class106.aClass422_1271 ? -798865899 * class106.aClass422_1271.id : -1).append(Class40.aString491).append(class106.aClass422_1274 != null ? -798865899 * class106.aClass422_1274.id : -1).append(" ").append(610303591 * class106.anInt1262).append(Class40.aString491)
 					.append(1858049507 * class598.anInt7839 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0])).append(" ").toString();
 			for (int i_33_ = 0; i_33_ < class106.anInt1262 * 610303591 && i_33_ < 50; i_33_++)
 				string = new StringBuilder().append(string).append(class106.aClass536_Sub33_Sub2_1267.buffer[i_33_]).append(Class40.aString491).toString();

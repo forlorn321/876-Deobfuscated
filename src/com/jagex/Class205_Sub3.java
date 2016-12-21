@@ -48,8 +48,8 @@ public class Class205_Sub3 extends Class205 {
 
 	Class205_Sub3(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9864 = class536_sub33.readUnsignedShort((short) 4971) * 560902225;
-		anInt9863 = class536_sub33.readInt(-507522093) * 311339927;
+		anInt9864 = class536_sub33.readUnsignedShort() * 560902225;
+		anInt9863 = class536_sub33.readInt() * 311339927;
 	}
 
 	static final void method9055(int i, int i_0_) {

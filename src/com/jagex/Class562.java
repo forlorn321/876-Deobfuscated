@@ -46,14 +46,14 @@ public class Class562 {
 		aBool7569 = 0 != (anInt7570 * -2071213659 & 0x8);
 		aBool7563 = (-2071213659 * anInt7570 & 0x10) != 0;
 		anInt7570 = (anInt7570 * -2071213659 & 0x7) * 917894701;
-		int i_1_ = class536_sub33.readUnsignedShort((short) 4973) << i_0_;
-		int i_2_ = class536_sub33.readUnsignedShort((short) 3345) << i_0_;
-		int i_3_ = class536_sub33.readUnsignedShort((short) -17826) << i_0_;
+		int i_1_ = class536_sub33.readUnsignedShort() << i_0_;
+		int i_2_ = class536_sub33.readUnsignedShort() << i_0_;
+		int i_3_ = class536_sub33.readUnsignedShort() << i_0_;
 		int i_4_ = class536_sub33.readUnsignedByte(-576579523);
 		int i_5_ = 1 + i_4_ * 2;
 		aShortArray7571 = new short[i_5_];
 		for (int i_6_ = 0; i_6_ < aShortArray7571.length; i_6_++) {
-			int i_7_ = (short) class536_sub33.readUnsignedShort((short) -15407);
+			int i_7_ = (short) class536_sub33.readUnsignedShort();
 			int i_8_ = i_7_ >>> 8;
 			int i_9_ = i_7_ & 0xff;
 			if (i_8_ >= i_5_)
@@ -63,7 +63,7 @@ public class Class562 {
 			aShortArray7571[i_6_] = (short) (i_8_ << 8 | i_9_);
 		}
 		i_4_ = (i_4_ << i) + (1 << i >> 1);
-		int i_10_ = (Class639.anIntArray8309 != null ? (Class639.anIntArray8309[class536_sub33.readUnsignedShort((short) 9968)]) : (Class639.anIntArray8308[Class254.method3537(class536_sub33.readUnsignedShort((short) -19718), 1409175155) & 0xffff]));
+		int i_10_ = (Class639.anIntArray8309 != null ? (Class639.anIntArray8309[class536_sub33.readUnsignedShort()]) : (Class639.anIntArray8308[Class254.method3537(class536_sub33.readUnsignedShort(), 1409175155) & 0xffff]));
 		int i_11_ = class536_sub33.readUnsignedByte(814893962);
 		anInt7572 = -1693577401 * (i_11_ & 0x1f);
 		anInt7575 = ((i_11_ & 0xe0) << 3) * -1893390687;

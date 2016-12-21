@@ -20,8 +20,8 @@ public class Class205_Sub5 extends Class205 {
 
 	Class205_Sub5(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		aString9868 = class536_sub33.readString((byte) 72);
-		anInt9869 = class536_sub33.readUnsignedShort((short) -9221) * 2120742079;
+		aString9868 = class536_sub33.readString();
+		anInt9869 = class536_sub33.readUnsignedShort() * 2120742079;
 	}
 
 	public void method2942() {

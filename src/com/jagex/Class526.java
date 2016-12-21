@@ -101,11 +101,11 @@ public class Class526 {
 		anInt7098 = class536_sub33.method9717(1138181829) * -436081483;
 		anIntArray7101 = new int[anInt7098 * 463774109];
 		anIntArray7102 = new int[463774109 * anInt7098];
-		int i_8_ = class536_sub33.readUnsignedShort((short) -3472);
-		int i_9_ = class536_sub33.readUnsignedShort((short) -60);
+		int i_8_ = class536_sub33.readUnsignedShort();
+		int i_9_ = class536_sub33.readUnsignedShort();
 		for (int i_10_ = 0; i_10_ < anInt7098 * 463774109; i_10_++) {
-			anIntArray7101[i_10_] = i_8_ + class536_sub33.readByte(-363536834);
-			anIntArray7102[i_10_] = i_9_ + class536_sub33.readByte(-514656181);
+			anIntArray7101[i_10_] = i_8_ + class536_sub33.readByte();
+			anIntArray7102[i_10_] = i_9_ + class536_sub33.readByte();
 		}
 		aClass177_7103 = method6413(class167, 1477212954);
 	}

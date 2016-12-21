@@ -201,7 +201,7 @@ public class Class536_Sub38 extends Class536 {
 						class536_sub33.writeLEInt((class44.anInt519 * -355001951), 1254891104);
 						class536_sub33.writeLEInt((class44.anInt518 * -1485991535), 1772016271);
 						class536_sub33.off = 0;
-						aString10694 = class536_sub33.readString((byte) 71);
+						aString10694 = class536_sub33.readString();
 					}
 					Class44 class44_11_ = (Class44) hashmap.get(Integer.valueOf(1));
 					if (null != class44_11_) {
@@ -225,7 +225,7 @@ public class Class536_Sub38 extends Class536 {
 						}
 					}
 					class536_sub33.off = 0;
-					aString10673 = class536_sub33.readString((byte) 12);
+					aString10673 = class536_sub33.readString();
 				}
 				String[][] strings = HardwareInfo.getDXDiagDisplayDevicesProps();
 				if (null != strings && strings.length > 0 && strings[0] != null) {

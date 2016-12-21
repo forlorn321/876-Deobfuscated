@@ -54,11 +54,11 @@ public class Class392 implements Interface49 {
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte(1377178413)]);
 		int i_8_ = class536_sub33.readShort((byte) -60);
 		int i_9_ = class536_sub33.readShort((byte) -39);
-		int i_10_ = class536_sub33.readUnsignedShort((short) 1944);
-		int i_11_ = class536_sub33.readUnsignedShort((short) -11312);
+		int i_10_ = class536_sub33.readUnsignedShort();
+		int i_11_ = class536_sub33.readUnsignedShort();
 		int i_12_ = class536_sub33.readShort((byte) -110);
 		int i_13_ = class536_sub33.method9720((byte) 1);
-		int i_14_ = class536_sub33.readInt(-548654667);
+		int i_14_ = class536_sub33.readInt();
 		return new Class392(class395, class399, i_8_, i_9_, i_10_, i_11_, i_12_, i_13_, i_14_);
 	}
 

@@ -232,7 +232,7 @@ public class Class536_Sub40 extends Class536 {
 					aClass710_Sub18_10789 = new Class710_Sub18(class536_sub33.readUnsignedByte(1352072244), this);
 					aClass710_Sub1_10768 = new Class710_Sub1(class536_sub33.readUnsignedByte(976402499), this);
 					aClass710_Sub32_10775 = new Class710_Sub32(class536_sub33.readUnsignedByte(-277564112), this);
-					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(-541972654), this);
+					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(), this);
 				}
 				if (i_0_ >= 36) {
 					aClass710_Sub38_10777 = new Class710_Sub38(class536_sub33.readUnsignedByte(-459879343), this);
@@ -556,7 +556,7 @@ public class Class536_Sub40 extends Class536 {
 					aClass710_Sub18_10789 = new Class710_Sub18(class536_sub33.readUnsignedByte(1200022960), this);
 					aClass710_Sub1_10768 = new Class710_Sub1(class536_sub33.readUnsignedByte(-542779375), this);
 					aClass710_Sub32_10775 = new Class710_Sub32(class536_sub33.readUnsignedByte(-146027953), this);
-					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(-194055365), this);
+					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(), this);
 				}
 				if (i >= 36) {
 					aClass710_Sub38_10777 = new Class710_Sub38(class536_sub33.readUnsignedByte(1357074132), this);
@@ -646,7 +646,7 @@ public class Class536_Sub40 extends Class536 {
 					aClass710_Sub18_10789 = new Class710_Sub18(class536_sub33.readUnsignedByte(-1575131347), this);
 					aClass710_Sub1_10768 = new Class710_Sub1(class536_sub33.readUnsignedByte(2143395673), this);
 					aClass710_Sub32_10775 = new Class710_Sub32(class536_sub33.readUnsignedByte(-1493854629), this);
-					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(1675533562), this);
+					aClass710_Sub22_10776 = new Class710_Sub22(class536_sub33.readByte(), this);
 				}
 				if (i >= 36) {
 					aClass710_Sub38_10777 = new Class710_Sub38(class536_sub33.readUnsignedByte(-1365522583), this);
@@ -823,14 +823,14 @@ public class Class536_Sub40 extends Class536 {
 		else
 			aClass710_Sub35_10790 = new Class710_Sub35(aClass710_Sub35_10750.method10213(-2052807084), this);
 		if (i >= 1) {
-			class536_sub33.readUnsignedShort((short) -15053);
-			class536_sub33.readUnsignedShort((short) 10925);
+			class536_sub33.readUnsignedShort();
+			class536_sub33.readUnsignedShort();
 		}
 		if (i >= 3 && i < 6)
 			class536_sub33.readUnsignedByte(-222637447);
 		if (i >= 4)
 			aClass710_Sub4_10759 = new Class710_Sub4(class536_sub33.readUnsignedByte(661389374), this);
-		class536_sub33.readInt(-1860892256);
+		class536_sub33.readInt();
 		if (i >= 6)
 			aClass710_Sub12_10769 = new Class710_Sub12(class536_sub33.readUnsignedByte(678862974), this);
 		if (i >= 7)
@@ -903,14 +903,14 @@ public class Class536_Sub40 extends Class536 {
 		else
 			aClass710_Sub35_10790 = new Class710_Sub35(aClass710_Sub35_10750.method10213(-691218673), this);
 		if (i >= 1) {
-			class536_sub33.readUnsignedShort((short) -2221);
-			class536_sub33.readUnsignedShort((short) -16957);
+			class536_sub33.readUnsignedShort();
+			class536_sub33.readUnsignedShort();
 		}
 		if (i >= 3 && i < 6)
 			class536_sub33.readUnsignedByte(-1438443438);
 		if (i >= 4)
 			aClass710_Sub4_10759 = new Class710_Sub4(class536_sub33.readUnsignedByte(1985214995), this);
-		class536_sub33.readInt(-1663437385);
+		class536_sub33.readInt();
 		if (i >= 6)
 			aClass710_Sub12_10769 = new Class710_Sub12(class536_sub33.readUnsignedByte(-331851147), this);
 		if (i >= 7)
@@ -1095,14 +1095,14 @@ public class Class536_Sub40 extends Class536 {
 		else
 			aClass710_Sub35_10790 = new Class710_Sub35(aClass710_Sub35_10750.method10213(-1216005098), this);
 		if (i >= 1) {
-			class536_sub33.readUnsignedShort((short) -3359);
-			class536_sub33.readUnsignedShort((short) -6051);
+			class536_sub33.readUnsignedShort();
+			class536_sub33.readUnsignedShort();
 		}
 		if (i >= 3 && i < 6)
 			class536_sub33.readUnsignedByte(-1382332860);
 		if (i >= 4)
 			aClass710_Sub4_10759 = new Class710_Sub4(class536_sub33.readUnsignedByte(-1539851324), this);
-		class536_sub33.readInt(-2032861344);
+		class536_sub33.readInt();
 		if (i >= 6)
 			aClass710_Sub12_10769 = new Class710_Sub12(class536_sub33.readUnsignedByte(1794746149), this);
 		if (i >= 7)
@@ -1182,14 +1182,14 @@ public class Class536_Sub40 extends Class536 {
 		else
 			aClass710_Sub35_10790 = new Class710_Sub35(aClass710_Sub35_10750.method10213(-1205513059), this);
 		if (i >= 1) {
-			class536_sub33.readUnsignedShort((short) -5785);
-			class536_sub33.readUnsignedShort((short) 5060);
+			class536_sub33.readUnsignedShort();
+			class536_sub33.readUnsignedShort();
 		}
 		if (i >= 3 && i < 6)
 			class536_sub33.readUnsignedByte(2048879272);
 		if (i >= 4)
 			aClass710_Sub4_10759 = new Class710_Sub4(class536_sub33.readUnsignedByte(-1040962251), this);
-		class536_sub33.readInt(-804897175);
+		class536_sub33.readInt();
 		if (i >= 6)
 			aClass710_Sub12_10769 = new Class710_Sub12(class536_sub33.readUnsignedByte(255756059), this);
 		if (i >= 7)

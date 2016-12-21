@@ -17,12 +17,12 @@ public class Class205_Sub10 extends Class205 {
 
 	Class205_Sub10(RSByteBuffer class536_sub33, boolean bool) {
 		super(class536_sub33);
-		int i = class536_sub33.readUnsignedShort((short) 6682);
+		int i = class536_sub33.readUnsignedShort();
 		if (bool)
 			aLong9888 = -4144112053334291867L * (0x100000000L | (long) i);
 		else
 			aLong9888 = -4144112053334291867L * (long) i;
-		anInt9889 = class536_sub33.readInt(48407114) * -658884811;
+		anInt9889 = class536_sub33.readInt() * -658884811;
 	}
 
 	public void method2942() {

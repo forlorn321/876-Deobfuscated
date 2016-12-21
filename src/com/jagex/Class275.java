@@ -33,16 +33,16 @@ final class Class275 implements Interface29 {
 		boolean bool_4_ = (i_1_ & 0x8) != 0;
 		if (bool) {
 			if (i <= 1) {
-				class12.anIntArray149[0] = class536_sub33.readUnsignedShort((short) -6712);
-				class12.anIntArray152[0] = class536_sub33.readUnsignedShort((short) -6795);
+				class12.anIntArray149[0] = class536_sub33.readUnsignedShort();
+				class12.anIntArray152[0] = class536_sub33.readUnsignedShort();
 			} else {
 				class12.anIntArray149[0] = class536_sub33.method9720((byte) 1);
 				class12.anIntArray152[0] = class536_sub33.method9720((byte) 1);
 			}
 			if (-1 != class1.anInt46 * 661594531 || -490119801 * class1.anInt48 != -1) {
 				if (i <= 1) {
-					class12.anIntArray149[1] = class536_sub33.readUnsignedShort((short) -2108);
-					class12.anIntArray152[1] = class536_sub33.readUnsignedShort((short) -26204);
+					class12.anIntArray149[1] = class536_sub33.readUnsignedShort();
+					class12.anIntArray152[1] = class536_sub33.readUnsignedShort();
 				} else {
 					class12.anIntArray149[1] = class536_sub33.method9720((byte) 1);
 					class12.anIntArray152[1] = class536_sub33.method9720((byte) 1);
@@ -50,8 +50,8 @@ final class Class275 implements Interface29 {
 			}
 			if (-1 != 1280785913 * class1.anInt66 || class1.anInt20 * 835049345 != -1) {
 				if (i <= 1) {
-					class12.anIntArray149[2] = class536_sub33.readUnsignedShort((short) 19121);
-					class12.anIntArray152[2] = class536_sub33.readUnsignedShort((short) -19992);
+					class12.anIntArray149[2] = class536_sub33.readUnsignedShort();
+					class12.anIntArray152[2] = class536_sub33.readUnsignedShort();
 				} else {
 					class12.anIntArray149[2] = class536_sub33.method9720((byte) 1);
 					class12.anIntArray152[2] = class536_sub33.method9720((byte) 1);
@@ -60,16 +60,16 @@ final class Class275 implements Interface29 {
 		}
 		if (bool_2_) {
 			if (i <= 1) {
-				class12.anIntArray153[0] = class536_sub33.readUnsignedShort((short) 29005);
-				class12.anIntArray154[0] = class536_sub33.readUnsignedShort((short) -2975);
+				class12.anIntArray153[0] = class536_sub33.readUnsignedShort();
+				class12.anIntArray154[0] = class536_sub33.readUnsignedShort();
 			} else {
 				class12.anIntArray153[0] = class536_sub33.method9720((byte) 1);
 				class12.anIntArray154[0] = class536_sub33.method9720((byte) 1);
 			}
 			if (-1 != class1.anInt58 * -869646663 || class1.anInt82 * 1550687287 != -1) {
 				if (i <= 1) {
-					class12.anIntArray153[1] = class536_sub33.readUnsignedShort((short) 30514);
-					class12.anIntArray154[1] = class536_sub33.readUnsignedShort((short) -14517);
+					class12.anIntArray153[1] = class536_sub33.readUnsignedShort();
+					class12.anIntArray154[1] = class536_sub33.readUnsignedShort();
 				} else {
 					class12.anIntArray153[1] = class536_sub33.method9720((byte) 1);
 					class12.anIntArray154[1] = class536_sub33.method9720((byte) 1);
@@ -77,7 +77,7 @@ final class Class275 implements Interface29 {
 			}
 		}
 		if (bool_3_) {
-			int i_5_ = class536_sub33.readUnsignedShort((short) 29857);
+			int i_5_ = class536_sub33.readUnsignedShort();
 			int[] is = new int[4];
 			is[0] = i_5_ & 0xf;
 			is[1] = i_5_ >> 4 & 0xf;
@@ -85,7 +85,7 @@ final class Class275 implements Interface29 {
 			is[3] = i_5_ >> 12 & 0xf;
 			for (int i_6_ = 0; i_6_ < 4; i_6_++) {
 				if (15 != is[i_6_])
-					class12.aShortArray155[is[i_6_]] = (short) class536_sub33.readUnsignedShort((short) -13604);
+					class12.aShortArray155[is[i_6_]] = (short) class536_sub33.readUnsignedShort();
 			}
 		}
 		if (bool_4_) {
@@ -95,7 +95,7 @@ final class Class275 implements Interface29 {
 			is[1] = i_7_ >> 4 & 0xf;
 			for (int i_8_ = 0; i_8_ < 2; i_8_++) {
 				if (is[i_8_] != 15)
-					class12.aShortArray156[is[i_8_]] = (short) class536_sub33.readUnsignedShort((short) 21536);
+					class12.aShortArray156[is[i_8_]] = (short) class536_sub33.readUnsignedShort();
 			}
 		}
 		return class12;

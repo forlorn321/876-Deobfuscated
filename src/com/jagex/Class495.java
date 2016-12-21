@@ -5,11 +5,11 @@ package com.jagex;
 
 final class Class495 implements Interface11 {
 	public Object method69(RSByteBuffer class536_sub33) {
-		return class536_sub33.readString((byte) 92);
+		return class536_sub33.readString();
 	}
 
 	public Object method68(RSByteBuffer class536_sub33, short i) {
-		return class536_sub33.readString((byte) 81);
+		return class536_sub33.readString();
 	}
 
 	static final void method5994(Class668 class668, int i) {

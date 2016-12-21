@@ -19,7 +19,7 @@ public class Class232 implements Interface27 {
 
 	Class232(Class213 class213, RSByteBuffer class536_sub33) {
 		this$0 = class213;
-		if (class536_sub33.readUnsignedShort((short) -13384) != 65535) {
+		if (class536_sub33.readUnsignedShort() != 65535) {
 			class536_sub33.off -= 1032351030;
 			aClass430_2368 = class213.anInterface28_2296.method165((byte) 8).method8388(class536_sub33, 81361887);
 		} else

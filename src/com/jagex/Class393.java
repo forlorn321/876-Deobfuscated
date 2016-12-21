@@ -44,16 +44,16 @@ public class Class393 {
 
 	void method4870(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (i == 1)
-			anInt4084 = class536_sub33.readUnsignedShort((short) -15354) * 44638793;
+			anInt4084 = class536_sub33.readUnsignedShort() * 44638793;
 		else if (2 == i)
 			class536_sub33.readUnsignedByte(-1199668308);
 		else if (3 == i) {
-			anInt4085 = class536_sub33.readInt(91207813) * -993473915;
-			anInt4086 = class536_sub33.readInt(-1930467273) * -318206821;
-			anInt4073 = class536_sub33.readInt(155307627) * 1471434127;
+			anInt4085 = class536_sub33.readInt() * -993473915;
+			anInt4086 = class536_sub33.readInt() * -318206821;
+			anInt4073 = class536_sub33.readInt() * 1471434127;
 		} else if (i == 4) {
 			anInt4080 = class536_sub33.readUnsignedByte(-1186297205) * 1427460131;
-			anInt4089 = class536_sub33.readInt(-1571296065) * 300759077;
+			anInt4089 = class536_sub33.readInt() * 300759077;
 		} else if (6 == i)
 			anInt4087 = class536_sub33.readUnsignedByte(-1307366596) * -210216285;
 		else if (8 == i)
@@ -85,16 +85,16 @@ public class Class393 {
 
 	void method4872(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt4084 = class536_sub33.readUnsignedShort((short) -4845) * 44638793;
+			anInt4084 = class536_sub33.readUnsignedShort() * 44638793;
 		else if (2 == i)
 			class536_sub33.readUnsignedByte(-420789008);
 		else if (3 == i) {
-			anInt4085 = class536_sub33.readInt(-1287348421) * -993473915;
-			anInt4086 = class536_sub33.readInt(-1207128821) * -318206821;
-			anInt4073 = class536_sub33.readInt(-74512866) * 1471434127;
+			anInt4085 = class536_sub33.readInt() * -993473915;
+			anInt4086 = class536_sub33.readInt() * -318206821;
+			anInt4073 = class536_sub33.readInt() * 1471434127;
 		} else if (i == 4) {
 			anInt4080 = class536_sub33.readUnsignedByte(-706437397) * 1427460131;
-			anInt4089 = class536_sub33.readInt(-1360561903) * 300759077;
+			anInt4089 = class536_sub33.readInt() * 300759077;
 		} else if (6 == i)
 			anInt4087 = class536_sub33.readUnsignedByte(1528600035) * -210216285;
 		else if (8 == i)
@@ -116,16 +116,16 @@ public class Class393 {
 
 	void method4874(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt4084 = class536_sub33.readUnsignedShort((short) 2158) * 44638793;
+			anInt4084 = class536_sub33.readUnsignedShort() * 44638793;
 		else if (2 == i)
 			class536_sub33.readUnsignedByte(-150967949);
 		else if (3 == i) {
-			anInt4085 = class536_sub33.readInt(223252583) * -993473915;
-			anInt4086 = class536_sub33.readInt(-1458548687) * -318206821;
-			anInt4073 = class536_sub33.readInt(-125810396) * 1471434127;
+			anInt4085 = class536_sub33.readInt() * -993473915;
+			anInt4086 = class536_sub33.readInt() * -318206821;
+			anInt4073 = class536_sub33.readInt() * 1471434127;
 		} else if (i == 4) {
 			anInt4080 = class536_sub33.readUnsignedByte(-681225366) * 1427460131;
-			anInt4089 = class536_sub33.readInt(121048836) * 300759077;
+			anInt4089 = class536_sub33.readInt() * 300759077;
 		} else if (6 == i)
 			anInt4087 = class536_sub33.readUnsignedByte(1446876698) * -210216285;
 		else if (8 == i)

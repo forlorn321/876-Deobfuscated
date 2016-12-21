@@ -28,12 +28,12 @@ public class Class485 {
 	}
 
 	public Class485(RSByteBuffer class536_sub33, Class98_Sub1 class98_sub1) {
-		aByte5438 = class536_sub33.readByte(790122021);
-		anInt5442 = class536_sub33.readUnsignedShort((short) 15914) * 389835411;
-		anInt5439 = class536_sub33.readInt(-1907228660) * -562153739;
-		anInt5437 = class536_sub33.readInt(6502798) * -63553687;
-		anInt5441 = class536_sub33.readInt(-1337537293) * 1709462743;
-		anInt5440 = class536_sub33.readInt(-251755419) * -1559793033;
+		aByte5438 = class536_sub33.readByte();
+		anInt5442 = class536_sub33.readUnsignedShort() * 389835411;
+		anInt5439 = class536_sub33.readInt() * -562153739;
+		anInt5437 = class536_sub33.readInt() * -63553687;
+		anInt5441 = class536_sub33.readInt() * 1709462743;
+		anInt5440 = class536_sub33.readInt() * -1559793033;
 		if (null != class98_sub1)
 			Class524.method6407(class536_sub33, class98_sub1, 1775435078);
 	}

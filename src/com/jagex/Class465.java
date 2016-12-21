@@ -250,7 +250,7 @@ public class Class465 {
 			}
 			if (0 != (i_45_ & 0x2)) {
 				if (!aBool5298 && !bool)
-					aClass455_5232.aByteArrayArrayArray5154[i][i_37_][i_38_] = class536_sub33.readByte(-1645836736);
+					aClass455_5232.aByteArrayArrayArray5154[i][i_37_][i_38_] = class536_sub33.readByte();
 				else
 					class536_sub33.off += 516175515;
 			}

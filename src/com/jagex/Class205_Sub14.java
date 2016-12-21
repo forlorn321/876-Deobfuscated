@@ -142,34 +142,34 @@ public class Class205_Sub14 extends Class205 {
 	Class205_Sub14(RSByteBuffer class536_sub33, int i, int i_16_) {
 		super(class536_sub33);
 		if (i == 0) {
-			int i_17_ = class536_sub33.readInt(158356778);
+			int i_17_ = class536_sub33.readInt();
 			anInt9909 = (i_17_ >>> 16) * 1022956353;
 			anInt9911 = (i_17_ & 0xffff) * 839517563;
 			anInt9908 = 1362475641;
 		} else {
 			anInt9909 = -1022956353;
 			anInt9911 = -839517563;
-			anInt9908 = class536_sub33.readUnsignedShort((short) -8517) * -1362475641;
+			anInt9908 = class536_sub33.readUnsignedShort() * -1362475641;
 		}
 		if (i_16_ == 0) {
-			int i_18_ = class536_sub33.readInt(-695421245);
+			int i_18_ = class536_sub33.readInt();
 			anInt9913 = -908566695 * (i_18_ >>> 16);
 			anInt9914 = (i_18_ & 0xffff) * -2020844477;
 			anInt9912 = 1934237115;
 		} else {
 			anInt9913 = 908566695;
 			anInt9914 = 2020844477;
-			anInt9912 = class536_sub33.readUnsignedShort((short) -248) * -1934237115;
+			anInt9912 = class536_sub33.readUnsignedShort() * -1934237115;
 		}
 		if (i == 0 && 0 == i_16_)
 			anInt9906 = class536_sub33.readUnsignedByte(-1064143224) * 591877505;
 		else
 			anInt9906 = -591877505;
-		anInt9910 = class536_sub33.readUnsignedShort((short) -4312) * 1208451057;
+		anInt9910 = class536_sub33.readUnsignedShort() * 1208451057;
 		anInt9918 = class536_sub33.readUnsignedByte(204228200) * -86326947;
 		anInt9915 = class536_sub33.readUnsignedByte(-547591177) * -1667516553;
 		anInt9917 = class536_sub33.read24BitUnsignedInteger(912386209) * 1189889357;
-		anInt9905 = class536_sub33.readUnsignedShort((short) 29993) * 288637087;
+		anInt9905 = class536_sub33.readUnsignedShort() * 288637087;
 		anInt9919 = class536_sub33.readUnsignedByte(604116022) * -1827769969;
 	}
 

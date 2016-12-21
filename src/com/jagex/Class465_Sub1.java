@@ -38,7 +38,7 @@ public class Class465_Sub1 extends Class465 {
 						for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 							Class562 class562 = new Class562(class167, (1893698405 * aClass553_5269.anInt7444), class536_sub33, 2);
 							if (31 == class562.anInt7572 * -1719604617) {
-								Class84 class84 = ((Class84) (Class642.aClass34_Sub20_8334.method70(class536_sub33.readUnsignedShort((short) -7099), (byte) 86)));
+								Class84 class84 = ((Class84) (Class642.aClass34_Sub20_8334.method70(class536_sub33.readUnsignedShort(), (byte) 86)));
 								class562.method6853(1832144569 * class84.anInt867, -1068933627 * class84.anInt864, class84.anInt866 * -1538266173, 1778741949 * class84.anInt865, (byte) -44);
 							}
 							if (class167.method2108() > 0) {
@@ -70,7 +70,7 @@ public class Class465_Sub1 extends Class465 {
 					if (aByteArrayArrayArray5246 == null)
 						aByteArrayArrayArray5246 = new byte[4][][];
 					for (int i_10_ = 0; i_10_ < 4; i_10_++) {
-						byte i_11_ = class536_sub33.readByte(1590728763);
+						byte i_11_ = class536_sub33.readByte();
 						if (i_11_ == 0 && null != aByteArrayArrayArray5246[i_10_]) {
 							int i_12_ = i;
 							int i_13_ = 64 + i;
@@ -101,7 +101,7 @@ public class Class465_Sub1 extends Class465 {
 								aByteArrayArrayArray5246[i_10_] = (new byte[1 + 312855363 * anInt5242][-183622811 * anInt5284 + 1]);
 							for (int i_16_ = 0; i_16_ < 64; i_16_ += 4) {
 								for (int i_17_ = 0; i_17_ < 64; i_17_ += 4) {
-									byte i_18_ = class536_sub33.readByte(-566567851);
+									byte i_18_ = class536_sub33.readByte();
 									for (int i_19_ = i_16_ + i; i_19_ < 4 + (i + i_16_); i_19_++) {
 										for (int i_20_ = i_0_ + i_17_; i_20_ < 4 + (i_17_ + i_0_); i_20_++) {
 											if (i_19_ >= 0 && (i_19_ < anInt5242 * 312855363) && i_20_ >= 0 && (i_20_ < anInt5284 * -183622811))
@@ -196,7 +196,7 @@ public class Class465_Sub1 extends Class465 {
 						for (int i_46_ = 0; i_46_ < i_45_; i_46_++) {
 							Class562 class562 = new Class562(class167, (aClass553_5269.anInt7444 * 1893698405), class536_sub33, 2);
 							if (class562.anInt7572 * -1719604617 == 31) {
-								Class84 class84 = ((Class84) (Class642.aClass34_Sub20_8334.method70(class536_sub33.readUnsignedShort((short) 4555), (byte) 106)));
+								Class84 class84 = ((Class84) (Class642.aClass34_Sub20_8334.method70(class536_sub33.readUnsignedShort(), (byte) 106)));
 								class562.method6853(1832144569 * class84.anInt867, -1068933627 * class84.anInt864, class84.anInt866 * -1538266173, class84.anInt865 * 1778741949, (byte) -1);
 							}
 							if (class167.method2108() > 0) {
@@ -233,7 +233,7 @@ public class Class465_Sub1 extends Class465 {
 					if (null == aByteArrayArrayArray5246)
 						aByteArrayArrayArray5246 = new byte[4][][];
 					for (int i_51_ = 0; i_51_ < 4; i_51_++) {
-						byte i_52_ = class536_sub33.readByte(-1143771330);
+						byte i_52_ = class536_sub33.readByte();
 						if (i_52_ == 0 && aByteArrayArrayArray5246[i] != null) {
 							if (i_51_ <= i_36_) {
 								int i_53_ = i_34_;
@@ -266,7 +266,7 @@ public class Class465_Sub1 extends Class465 {
 								aByteArrayArrayArray5246[i] = (new byte[1 + 312855363 * anInt5242][-183622811 * anInt5284 + 1]);
 							for (int i_57_ = 0; i_57_ < 64; i_57_ += 4) {
 								for (int i_58_ = 0; i_58_ < 64; i_58_ += 4) {
-									byte i_59_ = class536_sub33.readByte(1847395131);
+									byte i_59_ = class536_sub33.readByte();
 									if (i_51_ <= i_36_) {
 										for (int i_60_ = i_57_; i_60_ < 4 + i_57_; i_60_++) {
 											for (int i_61_ = i_58_; i_61_ < 4 + i_58_; i_61_++) {

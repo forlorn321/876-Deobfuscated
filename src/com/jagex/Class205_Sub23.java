@@ -13,11 +13,11 @@ public class Class205_Sub23 extends Class205 {
 
 	Class205_Sub23(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9967 = class536_sub33.readUnsignedShort((short) 6964) * 1700689393;
+		anInt9967 = class536_sub33.readUnsignedShort() * 1700689393;
 		anIntArray9964 = new int[4];
 		anInt9965 = class536_sub33.method9720((byte) 1) * 2040275723;
 		Arrays.fill(anIntArray9964, 0, anIntArray9964.length, anInt9965 * 1565462691);
-		anInt9966 = class536_sub33.readInt(-546333039) * -1832742327;
+		anInt9966 = class536_sub33.readInt() * -1832742327;
 	}
 
 	public void method2940(int i) {

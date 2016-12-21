@@ -26,8 +26,8 @@ public abstract class Class205_Sub4 extends Class205 {
 
 	Class205_Sub4(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9865 = class536_sub33.readUnsignedShort((short) -13468) * -833716395;
-		anInt9866 = class536_sub33.readUnsignedShort((short) 9797) * 909018553;
+		anInt9865 = class536_sub33.readUnsignedShort() * -833716395;
+		anInt9866 = class536_sub33.readUnsignedShort() * 909018553;
 		anInt9867 = class536_sub33.readUnsignedByte(220657629) * 1901171693;
 	}
 

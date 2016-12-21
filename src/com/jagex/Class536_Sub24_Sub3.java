@@ -19,21 +19,21 @@ public class Class536_Sub24_Sub3 extends Class536_Sub24 {
 
 	void method9585(RSByteBuffer class536_sub33, int i) {
 		class536_sub33.readUnsignedByte(-1302447213);
-		anInt11691 = class536_sub33.readUnsignedShort((short) -18614) * -1065176085;
-		aByte11690 = class536_sub33.readByte(220818321);
-		anInt11692 = class536_sub33.readUnsignedShort((short) -9971) * 2025890579;
+		anInt11691 = class536_sub33.readUnsignedShort() * -1065176085;
+		aByte11690 = class536_sub33.readByte();
+		anInt11692 = class536_sub33.readUnsignedShort() * 2025890579;
 		class536_sub33.method9711(702869087);
-		aString11693 = class536_sub33.readString((byte) 10);
+		aString11693 = class536_sub33.readString();
 		class536_sub33.readUnsignedByte(1848928873);
 	}
 
 	void method9586(RSByteBuffer class536_sub33) {
 		class536_sub33.readUnsignedByte(-1278498886);
-		anInt11691 = class536_sub33.readUnsignedShort((short) 12121) * -1065176085;
-		aByte11690 = class536_sub33.readByte(117363244);
-		anInt11692 = class536_sub33.readUnsignedShort((short) -694) * 2025890579;
+		anInt11691 = class536_sub33.readUnsignedShort() * -1065176085;
+		aByte11690 = class536_sub33.readByte();
+		anInt11692 = class536_sub33.readUnsignedShort() * 2025890579;
 		class536_sub33.method9711(702869087);
-		aString11693 = class536_sub33.readString((byte) 79);
+		aString11693 = class536_sub33.readString();
 		class536_sub33.readUnsignedByte(1291539973);
 	}
 
@@ -46,11 +46,11 @@ public class Class536_Sub24_Sub3 extends Class536_Sub24 {
 
 	void method9588(RSByteBuffer class536_sub33) {
 		class536_sub33.readUnsignedByte(-569828414);
-		anInt11691 = class536_sub33.readUnsignedShort((short) 26625) * -1065176085;
-		aByte11690 = class536_sub33.readByte(-922232950);
-		anInt11692 = class536_sub33.readUnsignedShort((short) 1496) * 2025890579;
+		anInt11691 = class536_sub33.readUnsignedShort() * -1065176085;
+		aByte11690 = class536_sub33.readByte();
+		anInt11692 = class536_sub33.readUnsignedShort() * 2025890579;
 		class536_sub33.method9711(702869087);
-		aString11693 = class536_sub33.readString((byte) 47);
+		aString11693 = class536_sub33.readString();
 		class536_sub33.readUnsignedByte(1466815151);
 	}
 

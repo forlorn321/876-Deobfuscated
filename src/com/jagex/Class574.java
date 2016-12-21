@@ -12,11 +12,11 @@ public class Class574 implements Interface13, Interface7 {
 
 	void method6943(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			anInt7643 = class536_sub33.readUnsignedShort((short) -3602) * -280628181;
+			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
 			anIntArray7642 = new int[class536_sub33.readUnsignedByte(-255148278)];
 			for (int i_0_ = 0; i_0_ < anIntArray7642.length; i_0_++)
-				anIntArray7642[i_0_] = class536_sub33.readUnsignedShort((short) -7876);
+				anIntArray7642[i_0_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
 			anInt7640 = class536_sub33.readUnsignedByte(1289382787) * 2117524411;
 		else if (4 == i)
@@ -33,11 +33,11 @@ public class Class574 implements Interface13, Interface7 {
 
 	void method6944(RSByteBuffer class536_sub33, int i, int i_2_) {
 		if (1 == i)
-			anInt7643 = class536_sub33.readUnsignedShort((short) -18712) * -280628181;
+			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
 			anIntArray7642 = new int[class536_sub33.readUnsignedByte(2017979937)];
 			for (int i_3_ = 0; i_3_ < anIntArray7642.length; i_3_++)
-				anIntArray7642[i_3_] = class536_sub33.readUnsignedShort((short) 25655);
+				anIntArray7642[i_3_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
 			anInt7640 = class536_sub33.readUnsignedByte(458265865) * 2117524411;
 		else if (4 == i)
@@ -90,11 +90,11 @@ public class Class574 implements Interface13, Interface7 {
 
 	void method6945(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			anInt7643 = class536_sub33.readUnsignedShort((short) -13742) * -280628181;
+			anInt7643 = class536_sub33.readUnsignedShort() * -280628181;
 		else if (2 == i) {
 			anIntArray7642 = new int[class536_sub33.readUnsignedByte(2099348273)];
 			for (int i_5_ = 0; i_5_ < anIntArray7642.length; i_5_++)
-				anIntArray7642[i_5_] = class536_sub33.readUnsignedShort((short) 5941);
+				anIntArray7642[i_5_] = class536_sub33.readUnsignedShort();
 		} else if (3 == i)
 			anInt7640 = class536_sub33.readUnsignedByte(-1814596186) * 2117524411;
 		else if (4 == i)

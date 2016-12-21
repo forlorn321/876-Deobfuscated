@@ -12,7 +12,7 @@ public class Class536_Sub22_Sub4 extends Class536_Sub22 {
 	}
 
 	void method9578(RSByteBuffer class536_sub33, int i) {
-		anInt11641 = class536_sub33.readUnsignedShort((short) -4115) * 84836271;
+		anInt11641 = class536_sub33.readUnsignedShort() * 84836271;
 	}
 
 	Class536_Sub22_Sub4(Class344 class344) {
@@ -25,11 +25,11 @@ public class Class536_Sub22_Sub4 extends Class536_Sub22 {
 	}
 
 	void method9579(RSByteBuffer class536_sub33) {
-		anInt11641 = class536_sub33.readUnsignedShort((short) 2411) * 84836271;
+		anInt11641 = class536_sub33.readUnsignedShort() * 84836271;
 	}
 
 	void method9577(RSByteBuffer class536_sub33) {
-		anInt11641 = class536_sub33.readUnsignedShort((short) -26999) * 84836271;
+		anInt11641 = class536_sub33.readUnsignedShort() * 84836271;
 	}
 
 	static final void method10657(Class668 class668, int i) {

@@ -24,7 +24,7 @@ public class Class536_Sub17 extends Class536 {
 	Class536_Sub17(int i, byte[] is) {
 		anInt10493 = i * -1882608485;
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-		anInt10491 = class536_sub33.readUnsignedShort((short) -329) * 1627729007;
+		anInt10491 = class536_sub33.readUnsignedShort() * 1627729007;
 		anIntArray10505 = new int[-138825073 * anInt10491];
 		anIntArrayArray10503 = new int[-138825073 * anInt10491][];
 		aBoolArray10504 = new boolean[anInt10491 * -138825073];
@@ -37,7 +37,7 @@ public class Class536_Sub17 extends Class536 {
 		for (int i_1_ = 0; i_1_ < anInt10491 * -138825073; i_1_++)
 			aBoolArray10504[i_1_] = class536_sub33.readUnsignedByte(1961985859) == 1;
 		for (int i_2_ = 0; i_2_ < anInt10491 * -138825073; i_2_++)
-			anIntArray10490[i_2_] = class536_sub33.readUnsignedShort((short) -2951);
+			anIntArray10490[i_2_] = class536_sub33.readUnsignedShort();
 		for (int i_3_ = 0; i_3_ < anInt10491 * -138825073; i_3_++)
 			anIntArrayArray10503[i_3_] = new int[class536_sub33.readUnsignedSmart(-646910072)];
 		for (int i_4_ = 0; i_4_ < -138825073 * anInt10491; i_4_++) {

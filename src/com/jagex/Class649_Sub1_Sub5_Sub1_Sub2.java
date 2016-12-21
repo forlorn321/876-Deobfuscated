@@ -75,17 +75,17 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 			aString12181 = class536_sub33.method9714((byte) 2);
 		else
 			aString12181 = null;
-		aClass623_12201 = ((Class623) Class682.method8091(Class623.method7422((byte) 1), class536_sub33.readByte(-1348066099), 1858049507));
+		aClass623_12201 = ((Class623) Class682.method8091(Class623.method7422((byte) 1), class536_sub33.readByte(), 1858049507));
 		if (Class678.aClass678_8619 == Class47.aClass678_578 && 423156687 * client.anInt11160 >= 2)
 			aClass623_12201 = Class623.aClass623_8130;
 		method11098(class536_sub33, i_1_, (byte) -56);
-		aString12192 = class536_sub33.readString((byte) 57);
+		aString12192 = class536_sub33.readString();
 		aString12184 = aString12192;
 		if (this == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591)
 			RuntimeException_Sub1.aString12036 = aString12192;
 		anInt12186 = class536_sub33.readUnsignedByte(-601288907) * 1288777103;
 		if (bool) {
-			anInt12189 = class536_sub33.readUnsignedShort((short) 17385) * 407837897;
+			anInt12189 = class536_sub33.readUnsignedShort() * 407837897;
 			if (65535 == anInt12189 * -1543258759)
 				anInt12189 = -407837897;
 			anInt12187 = anInt12186 * -1476570285;
@@ -105,10 +105,10 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 			int i_8_ = 381085537 * anInt12195;
 			int i_9_ = anInt12196 * 984444251;
 			int i_10_ = anInt12178 * -378853165;
-			anInt12193 = class536_sub33.readUnsignedShort((short) -19955) * -2015033897;
-			anInt12198 = class536_sub33.readUnsignedShort((short) -23613) * 288862015;
-			anInt12195 = class536_sub33.readUnsignedShort((short) -12724) * -665453407;
-			anInt12196 = class536_sub33.readUnsignedShort((short) -862) * 1376582355;
+			anInt12193 = class536_sub33.readUnsignedShort() * -2015033897;
+			anInt12198 = class536_sub33.readUnsignedShort() * 288862015;
+			anInt12195 = class536_sub33.readUnsignedShort() * -665453407;
+			anInt12196 = class536_sub33.readUnsignedShort() * 1376582355;
 			anInt12178 = class536_sub33.readUnsignedByte(-912036926) * 1037528923;
 			if (i_5_ != 692832581 * anInt12199 || anInt12193 * -1674002969 != i_6_ || i_7_ != 1606140095 * anInt12198 || i_8_ != 381085537 * anInt12195 || i_9_ != anInt12196 * 984444251 || i_10_ != -378853165 * anInt12178)
 				Class145.method1801(this, (byte) -26);
@@ -792,7 +792,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 		for (int i_83_ = 0; i_83_ < anIntArray12183.length; i_83_++) {
 			if (0 != (i_82_ & 1 << i_83_)) {
 				int i_84_ = class536_sub33.readUnsignedByte(309082171);
-				int i_85_ = class536_sub33.readUnsignedShort((short) -22344);
+				int i_85_ = class536_sub33.readUnsignedShort();
 				anIntArray12183[i_83_] = i_84_;
 				anIntArray12179[i_83_] = i_85_;
 			} else {
@@ -1148,7 +1148,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 			}
 		}
 		if (-1 == i_124_) {
-			int i_130_ = class536_sub33.readUnsignedShort((short) 17341);
+			int i_130_ = class536_sub33.readUnsignedShort();
 			int i_131_ = 0;
 			for (int i_132_ = 0; i_132_ < Class71.aClass631_796.anIntArray8241.length; i_132_++) {
 				if (0 == Class71.aClass631_796.anIntArray8241[i_132_]) {
@@ -1172,7 +1172,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 				i_138_ = 0;
 			is_136_[i_137_] = i_138_;
 		}
-		anInt12182 = class536_sub33.readUnsignedShort((short) 4864) * 1741785803;
+		anInt12182 = class536_sub33.readUnsignedShort() * 1741785803;
 		if (aClass617_12202 == null)
 			aClass617_12202 = new Class617();
 		int i_139_ = aClass617_12202.anInt8079 * -587726343;

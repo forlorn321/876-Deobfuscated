@@ -29,12 +29,12 @@ public class Class205_Sub17 extends Class205 {
 
 	Class205_Sub17(RSByteBuffer class536_sub33) {
 		super(class536_sub33);
-		anInt9943 = class536_sub33.readUnsignedShort((short) -9204) * -737333875;
-		anInt9944 = class536_sub33.readUnsignedShort((short) 16209) * 1360870923;
-		anInt9945 = class536_sub33.readUnsignedShort((short) 2541) * 325772475;
-		anInt9946 = class536_sub33.readUnsignedShort((short) -2543) * 386357129;
-		anInt9947 = class536_sub33.readUnsignedShort((short) 1557) * 1135314929;
-		anInt9948 = class536_sub33.readUnsignedShort((short) -13538) * 1124567841;
+		anInt9943 = class536_sub33.readUnsignedShort() * -737333875;
+		anInt9944 = class536_sub33.readUnsignedShort() * 1360870923;
+		anInt9945 = class536_sub33.readUnsignedShort() * 325772475;
+		anInt9946 = class536_sub33.readUnsignedShort() * 386357129;
+		anInt9947 = class536_sub33.readUnsignedShort() * 1135314929;
+		anInt9948 = class536_sub33.readUnsignedShort() * 1124567841;
 	}
 
 	public void method2942() {
