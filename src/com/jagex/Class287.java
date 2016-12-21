@@ -3,77 +3,59 @@
  */
 package com.jagex;
 
+import java.util.Date;
+
 public class Class287 {
-	public Class260[] aClass260Array3212;
-	public String aString3213;
-	public String aString3214;
-	public String aString3215;
-	public Class260[] aClass260Array3216;
-	static String aString3217;
+	static Class287 aClass287_3201;
+	static Class287 aClass287_3202;
+	static Class287 aClass287_3203;
+	public int anInt3204;
+	static Class287 aClass287_3205;
+	static Class287 aClass287_3206;
+	public int anInt3207;
+	public static Class287 aClass287_3208 = new Class287(0, 104);
+	static Class2 aClass2_3209;
 
-	void method5212(Class278 class278) {
-		aString3214 = class278.method5157(-123882494);
-		aString3213 = class278.method5157(-123882494);
-		aString3215 = class278.method5157(-123882494);
-		int i = class278.method5158((byte) 117);
-		int i_0_ = class278.method5158((byte) 62);
-		aClass260Array3212 = i == 0 ? null : new Class260[i];
-		aClass260Array3216 = i_0_ == 0 ? null : new Class260[i_0_];
-		for (int i_1_ = 0; i_1_ < i; i_1_++) {
-			aClass260Array3212[i_1_] = new Class260();
-			aClass260Array3212[i_1_].method4788(class278, (byte) -24);
-		}
-		for (int i_2_ = 0; i_2_ < i_0_; i_2_++) {
-			aClass260Array3216[i_2_] = new Class260();
-			aClass260Array3216[i_2_].method4788(class278, (byte) 24);
-		}
+	static {
+		aClass287_3202 = new Class287(1, 120);
+		aClass287_3205 = new Class287(2, 136);
+		aClass287_3201 = new Class287(3, 168);
+		aClass287_3203 = new Class287(4, 72);
+		aClass287_3206 = new Class287(5, 256);
 	}
 
-	Class287() {
-		/* empty */
+	Class287(int i, int i_0_) {
+		anInt3207 = i * -1176729841;
+		anInt3204 = -2094658831 * i_0_;
 	}
 
-	void method5213(Class278 class278) {
-		aString3214 = class278.method5157(-123882494);
-		aString3213 = class278.method5157(-123882494);
-		aString3215 = class278.method5157(-123882494);
-		int i = class278.method5158((byte) 125);
-		int i_3_ = class278.method5158((byte) 9);
-		aClass260Array3212 = i == 0 ? null : new Class260[i];
-		aClass260Array3216 = i_3_ == 0 ? null : new Class260[i_3_];
-		for (int i_4_ = 0; i_4_ < i; i_4_++) {
-			aClass260Array3212[i_4_] = new Class260();
-			aClass260Array3212[i_4_].method4788(class278, (byte) -99);
-		}
-		for (int i_5_ = 0; i_5_ < i_3_; i_5_++) {
-			aClass260Array3216[i_5_] = new Class260();
-			aClass260Array3216[i_5_].method4788(class278, (byte) 57);
-		}
+	static void method3911(int i) {
+		Class291.aClass199_3230.method2884((byte) -22);
 	}
 
-	void method5214(Class278 class278, int i) {
-		aString3214 = class278.method5157(-123882494);
-		aString3213 = class278.method5157(-123882494);
-		aString3215 = class278.method5157(-123882494);
-		int i_6_ = class278.method5158((byte) 18);
-		int i_7_ = class278.method5158((byte) 23);
-		aClass260Array3212 = i_6_ == 0 ? null : new Class260[i_6_];
-		aClass260Array3216 = i_7_ == 0 ? null : new Class260[i_7_];
-		for (int i_8_ = 0; i_8_ < i_6_; i_8_++) {
-			aClass260Array3212[i_8_] = new Class260();
-			aClass260Array3212[i_8_].method4788(class278, (byte) 11);
-		}
-		for (int i_9_ = 0; i_9_ < i_7_; i_9_++) {
-			aClass260Array3216[i_9_] = new Class260();
-			aClass260Array3216[i_9_].method4788(class278, (byte) -19);
-		}
+	static final void method3912(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11085 * 616246675;
 	}
 
-	static final void method5215(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 0;
+	static String method3913(long l) {
+		return Class252.method3517(new Date(l), "EEE dd-MMM-yyyy HH:mm:ss zzz", (byte) 1);
 	}
 
-	public static void method5216(int i, int i_10_, int i_11_, byte i_12_) {
-		Class472.method7735(new Class68_Sub1(i, i_10_, i_11_, -1830559883 * client.anInt11046, Class454.aClass452_4972.anInt4949 * 784881143, Class454.aClass452_4972.anInt4942 * 1936772959, Class454.aClass452_4972.method7299((byte) -28), Class454.aClass452_4972.method7323(-1810852713), Class26_Sub1.aClass461_10572.method7583((short) -8397)), (byte) -88);
+	static final void method3914(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_1_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_2_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		int i_3_ = 0;
+		int i_4_ = i_2_ >>> 8;
+		int i_5_ = i_2_ & 0xff;
+		Class14 class14 = (Class14) Class228.aClass34_2360.method70(i_1_, (byte) -61);
+		Class92 class92 = ((Class92) Class205_Sub17.aClass34_9949.method70(i_4_, (byte) -13));
+		Class453[] class453s = class92.aClass453ArrayArray885[i_5_];
+		Object[] objects = class14.method624(i_5_, -454071675);
+		if (objects == null && class92.anObjectArrayArray886 != null)
+			objects = class92.anObjectArrayArray886[i_5_];
+		if (objects != null)
+			i_3_ = objects.length / class453s.length;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_3_;
 	}
 }

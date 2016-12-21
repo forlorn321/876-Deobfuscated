@@ -3,67 +3,68 @@
  */
 package com.jagex;
 
-public class Class581 implements Interface76 {
-	static Class581 aClass581_7674 = new Class581(0);
-	public static Class581 aClass581_7675 = new Class581(1);
-	int anInt7676;
-	public static Class22 aClass22_7677;
+import java.util.Iterator;
 
-	public int method42() {
-		return anInt7676 * 811411869;
+public class Class581 implements Interface66 {
+	int anInt7696;
+	int anInt7697;
+	static int anInt7698;
+
+	Class581(int i, int i_0_) {
+		anInt7696 = i * -201695347;
+		anInt7697 = 280782435 * i_0_;
 	}
 
-	public int method87() {
-		return anInt7676 * 811411869;
+	public boolean method422(Class536_Sub31 class536_sub31, Interface63[] interface63s, int i, Class549 class549, int i_1_) {
+		for (int i_2_ = 0; i_2_ < i && i_2_ < interface63s.length; i_2_++) {
+			Interface63 interface63 = interface63s[i_2_];
+			if (null != interface63 && interface63.method413(2041088027) == anInt7696 * 359267141 && (interface63.method419(-1062654062) == 1134906187 * anInt7697))
+				return true;
+		}
+		return false;
 	}
 
-	public int method91() {
-		return anInt7676 * 811411869;
+	public boolean method424(Class536_Sub31 class536_sub31, Interface63[] interface63s, int i, Class549 class549) {
+		for (int i_3_ = 0; i_3_ < i && i_3_ < interface63s.length; i_3_++) {
+			Interface63 interface63 = interface63s[i_3_];
+			if (null != interface63 && interface63.method413(1713764919) == anInt7696 * 359267141 && interface63.method419(-810946637) == 1134906187 * anInt7697)
+				return true;
+		}
+		return false;
 	}
 
-	static Class581[] method9664() {
-		return new Class581[] { aClass581_7674, aClass581_7675 };
+	public boolean method423(Class536_Sub31 class536_sub31, Interface63[] interface63s, int i, Class549 class549) {
+		for (int i_4_ = 0; i_4_ < i && i_4_ < interface63s.length; i_4_++) {
+			Interface63 interface63 = interface63s[i_4_];
+			if (null != interface63 && interface63.method413(2049567893) == anInt7696 * 359267141 && interface63.method419(-701301564) == 1134906187 * anInt7697)
+				return true;
+		}
+		return false;
 	}
 
-	static Class581[] method9665() {
-		return new Class581[] { aClass581_7674, aClass581_7675 };
+	static final void method7019(Class668 class668, int i) {
+		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_5_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_5_ >> 16];
+		Class500.method6026(class251, class234, class668, 270983320);
 	}
 
-	Class581(int i) {
-		anInt7676 = i * -997350219;
+	static final void method7020(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1915701445 * Class314.anInt3504;
 	}
 
-	public static Class22 method9666(Class459 class459, int i, Interface2 interface2, byte i_0_) {
-		byte[] is = class459.method7512(i, 1447980132);
-		if (null == is)
-			return null;
-		return new Class22(is, interface2);
+	static final void method7021(Class668 class668, int i) {
+		class668.anInt8542 -= 61855783;
+		Class426.method5130((class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), 843097661);
 	}
 
-	public static Class392 method9667(RSByteBuffer class527_sub38, int i) {
-		Class400 class400 = (Class183.method3556(-1217941132)[class527_sub38.readUnsignedByte()]);
-		Class384 class384 = (Class644.method10743(-1015693904)[class527_sub38.readUnsignedByte()]);
-		int i_1_ = class527_sub38.readShort();
-		int i_2_ = class527_sub38.readShort();
-		int i_3_ = class527_sub38.method16466(-1604957753);
-		int i_4_ = class527_sub38.readInt();
-		int i_5_ = class527_sub38.readUnsignedByte();
-		return new Class392(class400, class384, i_1_, i_2_, i_3_, i_4_, i_5_);
-	}
-
-	public static void method9668(byte i) {
-		if (client.anInt11048 * -1927019389 == 16 && (!Class266.method5045((byte) 1) && !Class472.method7739(1853897047)))
-			Class78.method1560(13, (byte) 0);
-	}
-
-	static final void method9669(int i, int[] is, byte i_6_) {
-		if (Class189.method3666(i, is, -374584257)) {
-			Class243[] class243s = Class183.aClass240Array2100[i].aClass243Array2392;
-			for (int i_7_ = 0; i_7_ < class243s.length; i_7_++) {
-				Class243 class243 = class243s[i_7_];
-				if (null != class243 && class243.aClass695_2664 != null)
-					class243.aClass695_2664.method14179(1014236581);
-			}
+	static final void method7022(int i) {
+		Iterator iterator = client.aClass4_11175.iterator();
+		while (iterator.hasNext()) {
+			Class536_Sub18_Sub4 class536_sub18_sub4 = (Class536_Sub18_Sub4) iterator.next();
+			Class649_Sub1_Sub5_Sub4 class649_sub1_sub5_sub4 = class536_sub18_sub4.aClass649_Sub1_Sub5_Sub4_11619;
+			if (client.aClass515_11066.method6249(-678261090) != null && class649_sub1_sub5_sub4.method11039(-2019035536))
+				client.aClass515_11066.method6249(-1543350227).method6711(class649_sub1_sub5_sub4, true, 894975877);
 		}
 	}
 }

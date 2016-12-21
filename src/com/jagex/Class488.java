@@ -3,38 +3,237 @@
  */
 package com.jagex;
 
-class Class488 implements Interface57 {
-	Class483 this$0;
-	static int anInt5471;
-	static Class174 aClass174_5472;
+import jaclib.memory.heap.NativeHeapBuffer;
 
-	Class488(Class483 class483) {
-		this$0 = class483;
+import jaggl.OpenGL;
+
+public abstract class Class488 implements Interface37 {
+	int anInt5444;
+	static final int anInt5445 = 34963;
+	Class167_Sub3_Sub1 aClass167_Sub3_Sub1_5446;
+	static final int anInt5447 = 34962;
+	int anInt5448;
+	int anInt5449 = -1;
+	int anInt5450;
+	static int[] anIntArray5451 = new int[1];
+	NativeHeapBuffer aNativeHeapBuffer5452;
+	boolean aBool5453;
+
+	public boolean method264(int i, int i_0_, long l) {
+		method5865();
+		if (anInt5449 > 0) {
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			OpenGL.glBufferSubDataARBa(anInt5450, i, i_0_, l);
+		} else
+			aNativeHeapBuffer5452.aNativeHeap1105.copy(aNativeHeapBuffer5452.method2() + (long) i, l, i_0_);
+		return true;
 	}
 
-	public byte[] method364(int i, int i_0_) {
-		return this$0.anInterface70_5432.method462(i, 102380841);
+	void method284(int i) {
+		if (i > anInt5444) {
+			method5865();
+			if (anInt5449 > 0) {
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+				OpenGL.glBufferDataARBub(anInt5450, i, null, 0, aBool5453 ? 35040 : 35044);
+				aClass167_Sub3_Sub1_5446.anInt9557 += i - anInt5444;
+			} else
+				aNativeHeapBuffer5452 = aClass167_Sub3_Sub1_5446.method8736(i, false);
+			anInt5444 = i;
+		}
+		anInt5448 = i;
 	}
 
-	public byte[] method365(int i) {
-		return this$0.anInterface70_5432.method462(i, 102380841);
+	public int method73() {
+		return anInt5448;
 	}
 
-	static final void method7967(Class665 class665, int i) {
-		int i_1_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class527_Sub8_Sub12 class527_sub8_sub12 = Class529.method8752(i_1_);
-		if (class527_sub8_sub12 == null)
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = -1;
-		else
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = -1417497333 * class527_sub8_sub12.anInt11760;
+	long method5864() {
+		return anInt5449 == 0 ? aNativeHeapBuffer5452.method2() : 0L;
 	}
 
-	static final void method7968(Class665 class665, byte i) {
-		int i_2_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class703.aClass219_8825.method3992(i_2_, 1765972119).method3913(-391427232).method87();
+	void method283(int i) {
+		if (i > anInt5444) {
+			method5865();
+			if (anInt5449 > 0) {
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+				OpenGL.glBufferDataARBub(anInt5450, i, null, 0, aBool5453 ? 35040 : 35044);
+				aClass167_Sub3_Sub1_5446.anInt9557 += i - anInt5444;
+			} else
+				aNativeHeapBuffer5452 = aClass167_Sub3_Sub1_5446.method8736(i, false);
+			anInt5444 = i;
+		}
+		anInt5448 = i;
 	}
 
-	public static String method7969(int i) {
-		return Class502.aFile6872.getAbsolutePath();
+	void method5865() {
+		if (anInt5449 < 0) {
+			if (aClass167_Sub3_Sub1_5446.aBool11433) {
+				OpenGL.glGenBuffersARB(1, anIntArray5451, 0);
+				anInt5449 = anIntArray5451[0];
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			} else
+				anInt5449 = 0;
+		}
+	}
+
+	public void method270() {
+		OpenGL.glUnmapBufferARB(anInt5450);
+	}
+
+	public void method265() {
+		OpenGL.glUnmapBufferARB(anInt5450);
+	}
+
+	public long method269(int i, int i_1_) {
+		OpenGL.glBindBufferARB(anInt5450, anInt5449);
+		return OpenGL.glMapBufferARB(anInt5450, 35001) + (long) i;
+	}
+
+	Class488(Class167_Sub3_Sub1 class167_sub3_sub1, int i, boolean bool) {
+		aClass167_Sub3_Sub1_5446 = class167_sub3_sub1;
+		anInt5450 = i;
+		aBool5453 = bool;
+	}
+
+	public void finalize() throws Throwable {
+		method131();
+		super.finalize();
+	}
+
+	void method130() {
+		if (anInt5449 > 0) {
+			aClass167_Sub3_Sub1_5446.method10560(anInt5449, anInt5448);
+			anInt5449 = -1;
+		}
+	}
+
+	void method129() {
+		if (anInt5449 > 0) {
+			aClass167_Sub3_Sub1_5446.method10560(anInt5449, anInt5448);
+			anInt5449 = -1;
+		}
+	}
+
+	void method5866() throws Throwable {
+		method131();
+		super.finalize();
+	}
+
+	void method5867() throws Throwable {
+		method131();
+		super.finalize();
+	}
+
+	public int method9() {
+		return anInt5448;
+	}
+
+	void method131() {
+		if (anInt5449 > 0) {
+			aClass167_Sub3_Sub1_5446.method10560(anInt5449, anInt5448);
+			anInt5449 = -1;
+		}
+	}
+
+	public boolean method266(int i, int i_2_, long l) {
+		method5865();
+		if (anInt5449 > 0) {
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			OpenGL.glBufferSubDataARBa(anInt5450, i, i_2_, l);
+		} else
+			aNativeHeapBuffer5452.aNativeHeap1105.copy(aNativeHeapBuffer5452.method2() + (long) i, l, i_2_);
+		return true;
+	}
+
+	public long method268(int i, int i_3_) {
+		OpenGL.glBindBufferARB(anInt5450, anInt5449);
+		return OpenGL.glMapBufferARB(anInt5450, 35001) + (long) i;
+	}
+
+	void method5868() {
+		if (aClass167_Sub3_Sub1_5446.aBool11433)
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
+	}
+
+	public long method263(int i, int i_4_) {
+		OpenGL.glBindBufferARB(anInt5450, anInt5449);
+		return OpenGL.glMapBufferARB(anInt5450, 35001) + (long) i;
+	}
+
+	void method280(int i) {
+		if (i > anInt5444) {
+			method5865();
+			if (anInt5449 > 0) {
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+				OpenGL.glBufferDataARBub(anInt5450, i, null, 0, aBool5453 ? 35040 : 35044);
+				aClass167_Sub3_Sub1_5446.anInt9557 += i - anInt5444;
+			} else
+				aNativeHeapBuffer5452 = aClass167_Sub3_Sub1_5446.method8736(i, false);
+			anInt5444 = i;
+		}
+		anInt5448 = i;
+	}
+
+	public int method267() {
+		return anInt5448;
+	}
+
+	void method5869() {
+		if (anInt5449 < 0) {
+			if (aClass167_Sub3_Sub1_5446.aBool11433) {
+				OpenGL.glGenBuffersARB(1, anIntArray5451, 0);
+				anInt5449 = anIntArray5451[0];
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			} else
+				anInt5449 = 0;
+		}
+	}
+
+	void method5870() {
+		if (anInt5449 < 0) {
+			if (aClass167_Sub3_Sub1_5446.aBool11433) {
+				OpenGL.glGenBuffersARB(1, anIntArray5451, 0);
+				anInt5449 = anIntArray5451[0];
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			} else
+				anInt5449 = 0;
+		}
+	}
+
+	void method5871() {
+		if (anInt5449 < 0) {
+			if (aClass167_Sub3_Sub1_5446.aBool11433) {
+				OpenGL.glGenBuffersARB(1, anIntArray5451, 0);
+				anInt5449 = anIntArray5451[0];
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			} else
+				anInt5449 = 0;
+		}
+	}
+
+	void method5872() {
+		if (anInt5449 < 0) {
+			if (aClass167_Sub3_Sub1_5446.aBool11433) {
+				OpenGL.glGenBuffersARB(1, anIntArray5451, 0);
+				anInt5449 = anIntArray5451[0];
+				OpenGL.glBindBufferARB(anInt5450, anInt5449);
+			} else
+				anInt5449 = 0;
+		}
+	}
+
+	void method5873() {
+		if (aClass167_Sub3_Sub1_5446.aBool11433)
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
+	}
+
+	void method5874() {
+		if (aClass167_Sub3_Sub1_5446.aBool11433)
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
+	}
+
+	void method5875() {
+		if (aClass167_Sub3_Sub1_5446.aBool11433)
+			OpenGL.glBindBufferARB(anInt5450, anInt5449);
 	}
 }

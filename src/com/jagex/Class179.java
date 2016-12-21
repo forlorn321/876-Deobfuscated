@@ -4,40 +4,135 @@
 package com.jagex;
 
 public abstract class Class179 {
+	public abstract int method2630();
+
+	public abstract boolean method2631();
+
+	public abstract int method2632();
+
+	public abstract int method2633();
+
+	public abstract int method2634();
+
+	public abstract int method2635();
+
+	public abstract int method2636();
+
+	public abstract int method2637();
+
+	public abstract int method2638();
+
+	public abstract int method2639(int i, int i_0_);
+
+	public abstract int method2640();
+
+	public abstract boolean method2641();
+
+	public abstract void method2642(int i);
+
+	public abstract int[] method2643(boolean bool);
+
+	public abstract void method2644(int i);
+
+	public abstract void method2645(int i);
+
+	public abstract void method2646();
+
+	public abstract void method2647();
+
+	public abstract void method2648();
+
+	public abstract void method2649(int i, int i_1_, int i_2_);
+
+	public abstract int method2650(int i, int i_3_);
+
+	public abstract void method2651();
+
+	public abstract int method2652();
+
+	public abstract boolean method2653();
+
+	public abstract boolean method2654();
+
+	public abstract void method2655(int i);
+
+	public abstract int method2656();
+
+	public abstract int method2657();
+
+	public abstract int method2658();
+
+	public abstract int[] method2659(boolean bool);
+
+	public abstract int method2660();
+
+	public abstract void method2661();
+
+	public abstract int method2662();
+
+	public abstract int method2663();
+
+	public abstract int method2664();
+
+	public abstract int method2665();
+
 	Class179() {
 		/* empty */
 	}
 
-	static final void method3070(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class392.method6484(class243, class240, class665, -1250237075);
-	}
+	public abstract void method2666();
 
-	static final void method3071(Class665 class665, byte i) {
-		Class204.aClass527_Sub31_2213.method16350(Class204.aClass527_Sub31_2213.aClass700_Sub21_10638, (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]) == 1 ? 1 : 0, 1879618806);
-		Class631.method10465(1113728022);
-		client.aBool11020 = false;
-	}
+	public abstract int method2667();
 
-	static int method3072(char c, Class671 class671, int i) {
-		int i_0_ = c << 4;
-		if (Character.isUpperCase(c) || Character.isTitleCase(c)) {
-			c = Character.toLowerCase(c);
-			i_0_ = 1 + (c << 4);
-		}
-		if (241 == c && Class671.aClass671_8578 == class671)
-			i_0_ = 1762;
-		return i_0_;
-	}
+	public abstract int method2668();
 
-	static void method3073(Class665 class665, byte i) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 385644742)).anIntArrayArray2844[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]][0]);
-		class665.anInt8526 -= 102380841;
-	}
+	public abstract int method2669();
 
-	static final void method3074(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class204.aClass527_Sub31_2213.aClass700_Sub10_10611.method16937(-1928547371) ? 1 : 0;
-	}
+	public abstract int method2670();
+
+	public abstract int method2671();
+
+	public abstract void method2672(int i);
+
+	public abstract void method2673();
+
+	public abstract void method2674();
+
+	public abstract void method2675();
+
+	public abstract void method2676();
+
+	public abstract int method2677();
+
+	public abstract void method2678();
+
+	public abstract int[] method2679(boolean bool);
+
+	public abstract int[] method2680(boolean bool);
+
+	public abstract void method2681();
+
+	public abstract void method2682(int i, int i_4_, int i_5_);
+
+	public abstract void method2683(int i, int i_6_, int i_7_);
+
+	public abstract int method2684(int i, int i_8_);
+
+	public abstract void method2685(int i);
+
+	public abstract int method2686(int i, int i_9_);
+
+	public abstract int method2687();
+
+	public abstract int method2688();
+
+	public abstract int method2689();
+
+	public abstract boolean method2690();
+
+	public abstract int method2691();
+
+	public abstract boolean method2692();
+
+	public abstract int method2693();
 }

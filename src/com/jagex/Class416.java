@@ -3,101 +3,46 @@
  */
 package com.jagex;
 
-import jagdx.IUnknown;
+public class Class416 {
+	public static final int anInt4533 = 4;
+	public static final int anInt4534 = 1;
+	public static final int anInt4535 = 18;
+	public static final int anInt4536 = 23;
+	public static final int anInt4537 = 25;
+	public static final int anInt4538 = 43;
+	public static final int anInt4539 = 5;
+	public static final int anInt4540 = 6;
+	public static final int anInt4541 = 9;
+	public static final int anInt4542 = 17;
+	public static final int anInt4543 = 0;
+	public static final int anInt4544 = 19;
+	public static final int anInt4545 = 20;
+	public static final int anInt4546 = 22;
+	public static final int anInt4547 = 2;
+	public static final int anInt4548 = 7;
+	public static final int anInt4549 = 3;
+	public static final int anInt4550 = 41;
+	public static final int anInt4551 = 42;
+	public static final int anInt4552 = 24;
+	public static final int anInt4553 = 44;
+	public static final int anInt4554 = 45;
+	public static final int anInt4555 = 46;
+	public static final int anInt4556 = 98;
+	public static final int anInt4557 = 99;
 
-public abstract class Class416 implements Interface36 {
-	Class157 aClass157_4514;
-	Class184 aClass184_4515;
-	Class180_Sub2_Sub2 aClass180_Sub2_Sub2_4516;
-	boolean aBool4517;
-	long aLong4518 = 0L;
-
-	Class416(Class180_Sub2_Sub2 class180_sub2_sub2, Class157 class157, Class184 class184, boolean bool, int i) {
-		aClass180_Sub2_Sub2_4516 = class180_sub2_sub2;
-		aClass157_4514 = class157;
-		aClass184_4515 = class184;
-		aBool4517 = bool;
-		aClass180_Sub2_Sub2_4516.method15055(this);
+	Class416() throws Throwable {
+		throw new Error();
 	}
 
-	long method6642() {
-		return aLong4518;
+	static final void method5033(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class200.method2914(class251, class234, class668, 65280);
 	}
 
-	void method6643() {
-		method6644();
-	}
-
-	public void method129() {
-		if (aLong4518 != 0L) {
-			IUnknown.Release(aLong4518);
-			aLong4518 = 0L;
-		}
-		aClass180_Sub2_Sub2_4516.method14886(this);
-	}
-
-	void method6644() {
-		if (aLong4518 != 0L) {
-			aClass180_Sub2_Sub2_4516.method18107(aLong4518);
-			aLong4518 = 0L;
-		}
-	}
-
-	void method6645() {
-		method6644();
-	}
-
-	public void method130() {
-		if (aLong4518 != 0L) {
-			IUnknown.Release(aLong4518);
-			aLong4518 = 0L;
-		}
-		aClass180_Sub2_Sub2_4516.method14886(this);
-	}
-
-	void method6646() {
-		method6644();
-	}
-
-	void method6647() {
-		method6644();
-	}
-
-	void method6648() {
-		method6644();
-	}
-
-	void method6649() {
-		if (aLong4518 != 0L) {
-			aClass180_Sub2_Sub2_4516.method18107(aLong4518);
-			aLong4518 = 0L;
-		}
-	}
-
-	public void method273(Class343 class343) {
-		/* empty */
-	}
-
-	public void method274(Class343 class343) {
-		/* empty */
-	}
-
-	long method6650() {
-		return aLong4518;
-	}
-
-	long method6651() {
-		return aLong4518;
-	}
-
-	public void finalize() {
-		method6644();
-	}
-
-	void method6652() {
-		if (aLong4518 != 0L) {
-			aClass180_Sub2_Sub2_4516.method18107(aLong4518);
-			aLong4518 = 0L;
-		}
+	static final void method5034(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 }

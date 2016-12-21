@@ -5,29 +5,29 @@ package jaclib.memory.heap;
 
 public final class NativeHeap {
 	long peer;
-	private int anInt1357;
-	private boolean aBool1358;
+	private int anInt1328;
+	private boolean aBool1329;
 
 	public NativeHeap(int i) {
-		anInt1357 = -867221101 * i;
-		allocateHeap(120521883 * anInt1357);
-		aBool1358 = true;
+		anInt1328 = -1514118655 * i;
+		allocateHeap(anInt1328 * -138174975);
+		aBool1329 = true;
 	}
 
-	synchronized boolean method1939() {
-		return aBool1358;
+	synchronized boolean method1439() {
+		return aBool1329;
 	}
 
-	public NativeHeapBuffer method1940(int i, boolean bool) {
-		if (!aBool1358)
+	public NativeHeapBuffer method1440(int i, boolean bool) {
+		if (!aBool1329)
 			throw new IllegalStateException();
 		return new NativeHeapBuffer(this, allocateBuffer(i, bool), i);
 	}
 
-	public synchronized void method1941() {
-		if (aBool1358)
+	public synchronized void method1441() {
+		if (aBool1329)
 			deallocateHeap();
-		aBool1358 = false;
+		aBool1329 = false;
 	}
 
 	private native void allocateHeap(int i);
@@ -48,57 +48,36 @@ public final class NativeHeap {
 
 	protected synchronized void finalize() throws Throwable {
 		super.finalize();
-		method1941();
+		method1441();
 	}
 
-	protected synchronized void method1942() throws Throwable {
+	protected synchronized void method1442() throws Throwable {
 		super.finalize();
-		method1941();
+		method1441();
 	}
 
-	protected synchronized void method1943() throws Throwable {
+	protected synchronized void method1443() throws Throwable {
 		super.finalize();
-		method1941();
+		method1441();
 	}
 
-	protected synchronized void method1944() throws Throwable {
-		super.finalize();
-		method1941();
+	synchronized boolean method1444() {
+		return aBool1329;
 	}
 
-	protected synchronized void method1945() throws Throwable {
-		super.finalize();
-		method1941();
+	synchronized boolean method1445() {
+		return aBool1329;
 	}
 
-	protected synchronized void method1946() throws Throwable {
-		super.finalize();
-		method1941();
+	public synchronized void method1446() {
+		if (aBool1329)
+			deallocateHeap();
+		aBool1329 = false;
 	}
 
-	synchronized boolean method1947() {
-		return aBool1358;
-	}
-
-	synchronized boolean method1948() {
-		return aBool1358;
-	}
-
-	public NativeHeapBuffer method1949(int i, boolean bool) {
-		if (!aBool1358)
-			throw new IllegalStateException();
-		return new NativeHeapBuffer(this, allocateBuffer(i, bool), i);
-	}
-
-	public NativeHeapBuffer method1950(int i, boolean bool) {
-		if (!aBool1358)
-			throw new IllegalStateException();
-		return new NativeHeapBuffer(this, allocateBuffer(i, bool), i);
-	}
-
-	public NativeHeapBuffer method1951(int i, boolean bool) {
-		if (!aBool1358)
-			throw new IllegalStateException();
-		return new NativeHeapBuffer(this, allocateBuffer(i, bool), i);
+	public synchronized void method1447() {
+		if (aBool1329)
+			deallocateHeap();
+		aBool1329 = false;
 	}
 }

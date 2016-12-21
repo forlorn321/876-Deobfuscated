@@ -4,40 +4,27 @@
 package com.jagex;
 
 public class Class75 {
-	Class82[] aClass82Array794;
-	boolean aBool795;
+	public static int anInt819;
 
-	Class75(boolean bool, Class82[] class82s) {
-		aBool795 = bool;
-		aClass82Array794 = class82s;
+	public static int method1140(int i) {
+		return i >>> 8;
 	}
 
-	static final void method1529(Class665 class665, byte i) {
-		String string = null;
-		if (Class200.aClass50_2203 != null)
-			string = Class200.aClass50_2203.method1269(-1859307751);
-		if (null == string)
-			string = "";
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = string;
+	Class75() throws Throwable {
+		throw new Error();
 	}
 
-	public static void method1530(Class243 class243, int i, int i_0_, byte i_1_) {
-		if (class243 != null) {
-			if (class243.anObjectArray2617 != null) {
-				Class527_Sub33 class527_sub33 = new Class527_Sub33();
-				class527_sub33.aClass243_10648 = class243;
-				class527_sub33.anObjectArray10650 = class243.anObjectArray2617;
-				Class491.method7980(class527_sub33, -49304516);
-			}
-			client.aBool11188 = true;
-			Class275.anInt3157 = 776207741 * class243.anInt2504;
-			client.anInt11078 = class243.anInt2675 * -211402523;
-			Class477.anInt5388 = i * 1215979159;
-			Class665.anInt8550 = -980155095 * i_0_;
-			client.anInt11190 = 1578551897 * class243.anInt2572;
-			Class634.anInt8296 = -1639491433 * class243.anInt2510;
-			client.anInt11185 = -1909672971 * class243.anInt2520;
-			Class430.method6876(class243, (byte) 57);
-		}
+	static final void method1141(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class512.method6218(class251, class234, class668, (short) -28958);
+	}
+
+	static final void method1142(Class668 class668, int i) {
+		if (client.aString11137 != null)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -918987073 * Class269.anInt2880;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 }

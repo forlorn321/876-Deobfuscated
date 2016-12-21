@@ -3,324 +3,139 @@
  */
 package com.jagex;
 
-import java.util.Random;
-
 public class Class93 {
-	static Random aRandom882;
-	static Object anObject883 = new Object();
+	static final int anInt887 = 1;
+	static final int anInt888 = 12;
+	static char[] aCharArray889 = { ' ', '\u00a0', '_', '-', '\u00e0', '\u00e1', '\u00e2', '\u00e4', '\u00e3', '\u00c0', '\u00c1', '\u00c2', '\u00c4', '\u00c3', '\u00e8', '\u00e9', '\u00ea', '\u00eb', '\u00c8', '\u00c9', '\u00ca', '\u00cb', '\u00ed', '\u00ee', '\u00ef', '\u00cd', '\u00ce', '\u00cf', '\u00f2', '\u00f3', '\u00f4', '\u00f6', '\u00f5', '\u00d2', '\u00d3', '\u00d4', '\u00d6', '\u00d5', '\u00f9', '\u00fa', '\u00fb', '\u00fc', '\u00d9', '\u00da', '\u00db', '\u00dc', '\u00e7', '\u00c7',
+			'\u00ff', '\u0178', '\u00f1', '\u00d1', '\u00df' };
+	static char[] aCharArray890 = { '[', ']', '#' };
 
-	public static int method1653(Random random, int i) {
-		if (null == random) {
-			random = aRandom882;
-			if (null == random) {
-				synchronized (anObject883) {
-					if (null == aRandom882)
-						aRandom882 = new Random();
-					random = aRandom882;
-				}
-			}
+	static char method1233(char c) {
+		switch (c) {
+		case '\u00cd':
+		case '\u00ce':
+		case '\u00cf':
+		case '\u00ed':
+		case '\u00ee':
+		case '\u00ef':
+			return 'i';
+		case '\u00c8':
+		case '\u00c9':
+		case '\u00ca':
+		case '\u00cb':
+		case '\u00e8':
+		case '\u00e9':
+		case '\u00ea':
+		case '\u00eb':
+			return 'e';
+		case '\u00d2':
+		case '\u00d3':
+		case '\u00d4':
+		case '\u00d5':
+		case '\u00d6':
+		case '\u00f2':
+		case '\u00f3':
+		case '\u00f4':
+		case '\u00f5':
+		case '\u00f6':
+			return 'o';
+		case '\u00d9':
+		case '\u00da':
+		case '\u00db':
+		case '\u00dc':
+		case '\u00f9':
+		case '\u00fa':
+		case '\u00fb':
+		case '\u00fc':
+			return 'u';
+		case ' ':
+		case '-':
+		case '_':
+		case '\u00a0':
+			return '_';
+		case '\u00c7':
+		case '\u00e7':
+			return 'c';
+		case '#':
+		case '[':
+		case ']':
+			return c;
+		case '\u00df':
+			return 'b';
+		case '\u00ff':
+		case '\u0178':
+			return 'y';
+		case '\u00d1':
+		case '\u00f1':
+			return 'n';
+		default:
+			return Character.toLowerCase(c);
+		case '\u00c0':
+		case '\u00c1':
+		case '\u00c2':
+		case '\u00c3':
+		case '\u00c4':
+		case '\u00e0':
+		case '\u00e1':
+		case '\u00e2':
+		case '\u00e3':
+		case '\u00e4':
+			return 'a';
 		}
-		if (i <= 0)
-			throw new IllegalArgumentException();
-		if (Class143.method2383(i, 1959130309))
-			return (int) (((long) random.nextInt() & 0xffffffffL) * (long) i >> 32);
-		int i_0_ = -2147483648 - (int) (4294967296L % (long) i);
-		int i_1_;
-		do
-			i_1_ = random.nextInt();
-		while (i_1_ >= i_0_);
-		return Class24.method848(i_1_, i, -1494078768);
 	}
 
-	static int method1654(int i, int i_2_) {
-		int i_3_ = i >> 31 & i_2_ - 1;
-		return i_3_ + ((i >>> 31) + i) % i_2_;
+	static final boolean method1234(char c) {
+		if (Character.isISOControl(c))
+			return false;
+		if (Class608.method7260(c, 1512197856))
+			return true;
+		char[] cs = aCharArray889;
+		for (int i = 0; i < cs.length; i++) {
+			char c_0_ = cs[i];
+			if (c == c_0_)
+				return true;
+		}
+		cs = aCharArray890;
+		for (int i = 0; i < cs.length; i++) {
+			char c_1_ = cs[i];
+			if (c == c_1_)
+				return true;
+		}
+		return false;
 	}
 
-	public static int method1655(int i) {
-		i = --i | i >>> 1;
-		i |= i >>> 2;
-		i |= i >>> 4;
-		i |= i >>> 8;
-		i |= i >>> 16;
-		return 1 + i;
-	}
-
-	public static int method1656(int i) {
-		i = --i | i >>> 1;
-		i |= i >>> 2;
-		i |= i >>> 4;
-		i |= i >>> 8;
-		i |= i >>> 16;
-		return 1 + i;
-	}
-
-	static int method1657(int i, int i_4_) {
-		int i_5_ = i >> 31 & i_4_ - 1;
-		return i_5_ + ((i >>> 31) + i) % i_4_;
-	}
-
-	public static int method1658(int i) {
-		int i_6_ = i >>> 1;
-		i_6_ |= i_6_ >>> 1;
-		i_6_ |= i_6_ >>> 2;
-		i_6_ |= i_6_ >>> 4;
-		i_6_ |= i_6_ >>> 8;
-		i_6_ |= i_6_ >>> 16;
-		return i & (i_6_ ^ 0xffffffff);
-	}
-
-	public static boolean method1659(int i) {
-		return (i & -i) == i;
-	}
-
-	public static int method1660(int i) {
-		int i_7_ = 0;
-		if (i < 0 || i >= 65536) {
-			i >>>= 16;
-			i_7_ += 16;
-		}
-		if (i >= 256) {
-			i >>>= 8;
-			i_7_ += 8;
-		}
-		if (i >= 16) {
-			i >>>= 4;
-			i_7_ += 4;
-		}
-		if (i >= 4) {
-			i >>>= 2;
-			i_7_ += 2;
-		}
-		if (i >= 1) {
-			i >>>= 1;
-			i_7_++;
-		}
-		return i + i_7_;
-	}
-
-	public static int method1661(int i) {
-		int i_8_ = 0;
-		if (i < 0 || i >= 65536) {
-			i >>>= 16;
-			i_8_ += 16;
-		}
-		if (i >= 256) {
-			i >>>= 8;
-			i_8_ += 8;
-		}
-		if (i >= 16) {
-			i >>>= 4;
-			i_8_ += 4;
-		}
-		if (i >= 4) {
-			i >>>= 2;
-			i_8_ += 2;
-		}
-		if (i >= 1) {
-			i >>>= 1;
-			i_8_++;
-		}
-		return i + i_8_;
-	}
-
-	public static int method1662(int i) {
-		int i_9_ = 0;
-		if (i < 0 || i >= 65536) {
-			i >>>= 16;
-			i_9_ += 16;
-		}
-		if (i >= 256) {
-			i >>>= 8;
-			i_9_ += 8;
-		}
-		if (i >= 16) {
-			i >>>= 4;
-			i_9_ += 4;
-		}
-		if (i >= 4) {
-			i >>>= 2;
-			i_9_ += 2;
-		}
-		if (i >= 1) {
-			i >>>= 1;
-			i_9_++;
-		}
-		return i + i_9_;
-	}
-
-	public static int method1663(int i) {
-		int i_10_ = 0;
-		if (i < 0 || i >= 65536) {
-			i >>>= 16;
-			i_10_ += 16;
-		}
-		if (i >= 256) {
-			i >>>= 8;
-			i_10_ += 8;
-		}
-		if (i >= 16) {
-			i >>>= 4;
-			i_10_ += 4;
-		}
-		if (i >= 4) {
-			i >>>= 2;
-			i_10_ += 2;
-		}
-		if (i >= 1) {
-			i >>>= 1;
-			i_10_++;
-		}
-		return i + i_10_;
-	}
-
-	public static int method1664(int i, int i_11_) {
-		int i_12_ = 0;
-		for (/**/; i_11_ > 0; i_11_--) {
-			i_12_ = i_12_ << 1 | i & 0x1;
-			i >>>= 1;
-		}
-		return i_12_;
-	}
-
-	public static int method1665(int i, int i_13_) {
-		int i_14_ = 0;
-		for (/**/; i_13_ > 0; i_13_--) {
-			i_14_ = i_14_ << 1 | i & 0x1;
-			i >>>= 1;
-		}
-		return i_14_;
-	}
-
-	public static int method1666(int i) {
-		int i_15_ = i >>> 1;
-		i_15_ |= i_15_ >>> 1;
-		i_15_ |= i_15_ >>> 2;
-		i_15_ |= i_15_ >>> 4;
-		i_15_ |= i_15_ >>> 8;
-		i_15_ |= i_15_ >>> 16;
-		return i & (i_15_ ^ 0xffffffff);
-	}
-
-	static int method1667(int i, int i_16_) {
-		int i_17_ = i >> 31 & i_16_ - 1;
-		return i_17_ + ((i >>> 31) + i) % i_16_;
+	static final boolean method1235(char c) {
+		return c == '\u00a0' || c == ' ' || c == '_' || c == '-';
 	}
 
 	Class93() throws Throwable {
 		throw new Error();
 	}
 
-	public static int method1668(int i) {
-		int i_18_ = i >>> 1;
-		i_18_ |= i_18_ >>> 1;
-		i_18_ |= i_18_ >>> 2;
-		i_18_ |= i_18_ >>> 4;
-		i_18_ |= i_18_ >>> 8;
-		i_18_ |= i_18_ >>> 16;
-		return i & (i_18_ ^ 0xffffffff);
+	static final void method1236(Class668 class668, byte i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		if (2 == -1484801557 * client.anInt11289 && i_2_ < 142551095 * client.anInt11288)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -377205431 * client.aClass31Array11291[i_2_].anInt270;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 
-	public static int method1669(Random random, int i) {
-		if (null == random) {
-			random = aRandom882;
-			if (null == random) {
-				synchronized (anObject883) {
-					if (null == aRandom882)
-						aRandom882 = new Random();
-					random = aRandom882;
-				}
-			}
-		}
-		if (i <= 0)
-			throw new IllegalArgumentException();
-		if (Class143.method2383(i, 1658283487))
-			return (int) (((long) random.nextInt() & 0xffffffffL) * (long) i >> 32);
-		int i_19_ = -2147483648 - (int) (4294967296L % (long) i);
-		int i_20_;
-		do
-			i_20_ = random.nextInt();
-		while (i_20_ >= i_19_);
-		return Class24.method848(i_20_, i, -1494078768);
+	public static Class597[] method1237(int i) {
+		return (new Class597[] { Class597.aClass597_7831, Class597.aClass597_7833, Class597.aClass597_7837, Class597.aClass597_7832, Class597.aClass597_7835, Class597.aClass597_7834 });
 	}
 
-	public static int method1670(Random random, int i) {
-		if (null == random) {
-			random = aRandom882;
-			if (null == random) {
-				synchronized (anObject883) {
-					if (null == aRandom882)
-						aRandom882 = new Random();
-					random = aRandom882;
-				}
-			}
-		}
-		if (i <= 0)
-			throw new IllegalArgumentException();
-		if (Class143.method2383(i, 1561974463))
-			return (int) (((long) random.nextInt() & 0xffffffffL) * (long) i >> 32);
-		int i_21_ = -2147483648 - (int) (4294967296L % (long) i);
-		int i_22_;
-		do
-			i_22_ = random.nextInt();
-		while (i_22_ >= i_21_);
-		return Class24.method848(i_22_, i, -1494078768);
+	public static void method1238(int i) {
+		if (-708374433 * client.anInt11101 == 16 && (!Class344.method4487(-440129613) && !Class81.method1164(65280)))
+			Class673.method8026(13, -1798113843);
 	}
 
-	public static int method1671(Random random, int i) {
-		if (null == random) {
-			random = aRandom882;
-			if (null == random) {
-				synchronized (anObject883) {
-					if (null == aRandom882)
-						aRandom882 = new Random();
-					random = aRandom882;
-				}
-			}
-		}
-		if (i <= 0)
-			throw new IllegalArgumentException();
-		if (Class143.method2383(i, 2071929391))
-			return (int) (((long) random.nextInt() & 0xffffffffL) * (long) i >> 32);
-		int i_23_ = -2147483648 - (int) (4294967296L % (long) i);
-		int i_24_;
-		do
-			i_24_ = random.nextInt();
-		while (i_24_ >= i_23_);
-		return Class24.method848(i_24_, i, -1494078768);
-	}
-
-	public static void method1672(boolean bool, int i) {
-		for (Class527_Sub28 class527_sub28 = ((Class527_Sub28) Class527_Sub28.aClass694_10526.method14081((short) -6779)); class527_sub28 != null; class527_sub28 = (Class527_Sub28) Class527_Sub28.aClass694_10526.method14086(-65534)) {
-			if (null != class527_sub28.aClass483_10551) {
-				class527_sub28.aClass483_10551.method7864(150, (byte) 6);
-				Class245.aClass226_2698.method4215(class527_sub28.aClass483_10551, (byte) -1);
-				class527_sub28.aClass483_10551 = null;
-			}
-			if (class527_sub28.aClass483_10525 != null) {
-				class527_sub28.aClass483_10525.method7864(150, (byte) 6);
-				Class245.aClass226_2698.method4215(class527_sub28.aClass483_10525, (byte) -1);
-				class527_sub28.aClass483_10525 = null;
-			}
-			class527_sub28.method8735(-1889161967);
-		}
-		if (bool) {
-			for (Class527_Sub28 class527_sub28 = (Class527_Sub28) Class527_Sub28.aClass694_10527.method14081((short) -19296); class527_sub28 != null; class527_sub28 = ((Class527_Sub28) Class527_Sub28.aClass694_10527.method14086(-65534))) {
-				if (null != class527_sub28.aClass483_10551) {
-					class527_sub28.aClass483_10551.method7864(150, (byte) 6);
-					Class245.aClass226_2698.method4215(class527_sub28.aClass483_10551, (byte) -1);
-					class527_sub28.aClass483_10551 = null;
-				}
-				class527_sub28.method8735(-1889161967);
-			}
-			for (Class527_Sub28 class527_sub28 = ((Class527_Sub28) Class527_Sub28.aClass14_10545.method713((byte) -27)); class527_sub28 != null; class527_sub28 = ((Class527_Sub28) Class527_Sub28.aClass14_10545.method717(725944298))) {
-				if (null != class527_sub28.aClass483_10551) {
-					class527_sub28.aClass483_10551.method7864(150, (byte) 6);
-					Class245.aClass226_2698.method4215(class527_sub28.aClass483_10551, (byte) -1);
-					class527_sub28.aClass483_10551 = null;
-				}
-				class527_sub28.method8735(-1889161967);
-			}
-		}
+	static final void method1239(boolean bool, Class668 class668, short i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		if (bool)
+			Class171.method2425(class234, class251, 324055827);
+		else
+			Class402.method4925(class234, class251, (byte) 56);
 	}
 }

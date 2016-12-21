@@ -3,169 +3,64 @@
  */
 package com.jagex;
 
-public final class Class710 {
-	Class522_Sub6 aClass522_Sub6_8850;
-	public Class522_Sub6 aClass522_Sub6_8851 = new Class522_Sub6();
+public abstract class Class710 {
+	protected static final int anInt8838 = 2;
+	protected static final int anInt8839 = 1;
+	public static final int anInt8840 = 3;
+	protected Class536_Sub40 aClass536_Sub40_8841;
+	protected int anInt8842;
+	public static Class536_Sub40 aClass536_Sub40_8843;
 
-	public Class522_Sub6 method14398() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8850;
-		if (class522_sub6 == aClass522_Sub6_8851) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
+	abstract void method8346(int i);
+
+	Class710(int i, Class536_Sub40 class536_sub40) {
+		anInt8842 = i * -1100148889;
+		aClass536_Sub40_8841 = class536_sub40;
 	}
 
-	public Class522_Sub6 method14399(int i) {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8850;
-		if (class522_sub6 == aClass522_Sub6_8851) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
+	abstract int method8347(byte i);
+
+	abstract int method8348(int i, int i_0_);
+
+	void method8349(int i, int i_1_) {
+		if (method8348(i, -1102005131) != 3)
+			method8350(i, -16777216);
 	}
 
-	public Class522_Sub6 method14400(int i) {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-		if (aClass522_Sub6_8851 == class522_sub6) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
+	abstract void method8350(int i, int i_2_);
+
+	Class710(Class536_Sub40 class536_sub40) {
+		aClass536_Sub40_8841 = class536_sub40;
+		anInt8842 = method8347((byte) 3) * -1100148889;
 	}
 
-	public void method14401(Class522_Sub6 class522_sub6) {
-		if (null != class522_sub6.aClass522_Sub6_10328)
-			class522_sub6.method15990((byte) -43);
-		class522_sub6.aClass522_Sub6_10328 = aClass522_Sub6_8851.aClass522_Sub6_10328;
-		class522_sub6.aClass522_Sub6_10329 = aClass522_Sub6_8851;
-		class522_sub6.aClass522_Sub6_10328.aClass522_Sub6_10329 = class522_sub6;
-		class522_sub6.aClass522_Sub6_10329.aClass522_Sub6_10328 = class522_sub6;
+	abstract int method8351();
+
+	abstract int method8352();
+
+	abstract int method8353();
+
+	abstract void method8354(int i);
+
+	abstract int method8355(int i);
+
+	abstract int method8356(int i);
+
+	abstract int method8357(int i);
+
+	abstract int method8358(int i);
+
+	void method8359(int i) {
+		if (method8348(i, -1102005131) != 3)
+			method8350(i, -16777216);
 	}
 
-	public void method14402(Class522_Sub6 class522_sub6, int i) {
-		if (null != class522_sub6.aClass522_Sub6_10328)
-			class522_sub6.method15990((byte) -52);
-		class522_sub6.aClass522_Sub6_10328 = aClass522_Sub6_8851.aClass522_Sub6_10328;
-		class522_sub6.aClass522_Sub6_10329 = aClass522_Sub6_8851;
-		class522_sub6.aClass522_Sub6_10328.aClass522_Sub6_10329 = class522_sub6;
-		class522_sub6.aClass522_Sub6_10329.aClass522_Sub6_10328 = class522_sub6;
+	void method8360(int i) {
+		if (method8348(i, -1102005131) != 3)
+			method8350(i, -16777216);
 	}
 
-	public void method14403(int i) {
-		for (;;) {
-			Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-			if (aClass522_Sub6_8851 == class522_sub6)
-				break;
-			class522_sub6.method15990((byte) -36);
-		}
-		aClass522_Sub6_8850 = null;
-	}
-
-	public void method14404(Class522_Sub6 class522_sub6) {
-		if (null != class522_sub6.aClass522_Sub6_10328)
-			class522_sub6.method15990((byte) -55);
-		class522_sub6.aClass522_Sub6_10328 = aClass522_Sub6_8851.aClass522_Sub6_10328;
-		class522_sub6.aClass522_Sub6_10329 = aClass522_Sub6_8851;
-		class522_sub6.aClass522_Sub6_10328.aClass522_Sub6_10329 = class522_sub6;
-		class522_sub6.aClass522_Sub6_10329.aClass522_Sub6_10328 = class522_sub6;
-	}
-
-	public Class522_Sub6 method14405() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-		if (aClass522_Sub6_8851 == class522_sub6) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
-	}
-
-	public Class522_Sub6 method14406() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-		if (aClass522_Sub6_8851 == class522_sub6) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
-	}
-
-	public Class522_Sub6 method14407() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-		if (aClass522_Sub6_8851 == class522_sub6) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
-	}
-
-	public Class522_Sub6 method14408() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-		if (aClass522_Sub6_8851 == class522_sub6) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
-	}
-
-	public Class522_Sub6 method14409() {
-		Class522_Sub6 class522_sub6 = aClass522_Sub6_8850;
-		if (class522_sub6 == aClass522_Sub6_8851) {
-			aClass522_Sub6_8850 = null;
-			return null;
-		}
-		aClass522_Sub6_8850 = class522_sub6.aClass522_Sub6_10329;
-		return class522_sub6;
-	}
-
-	public Class710() {
-		aClass522_Sub6_8851.aClass522_Sub6_10329 = aClass522_Sub6_8851;
-		aClass522_Sub6_8851.aClass522_Sub6_10328 = aClass522_Sub6_8851;
-	}
-
-	public void method14410() {
-		for (;;) {
-			Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-			if (aClass522_Sub6_8851 == class522_sub6)
-				break;
-			class522_sub6.method15990((byte) -86);
-		}
-		aClass522_Sub6_8850 = null;
-	}
-
-	public void method14411() {
-		for (;;) {
-			Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-			if (aClass522_Sub6_8851 == class522_sub6)
-				break;
-			class522_sub6.method15990((byte) -118);
-		}
-		aClass522_Sub6_8850 = null;
-	}
-
-	public void method14412() {
-		for (;;) {
-			Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-			if (aClass522_Sub6_8851 == class522_sub6)
-				break;
-			class522_sub6.method15990((byte) -48);
-		}
-		aClass522_Sub6_8850 = null;
-	}
-
-	public void method14413() {
-		for (;;) {
-			Class522_Sub6 class522_sub6 = aClass522_Sub6_8851.aClass522_Sub6_10329;
-			if (aClass522_Sub6_8851 == class522_sub6)
-				break;
-			class522_sub6.method15990((byte) -82);
-		}
-		aClass522_Sub6_8850 = null;
+	public static int method8361(String string, int i) {
+		return Class536_Sub42.aTwitchTV10811.ChatSendMessage(string);
 	}
 }

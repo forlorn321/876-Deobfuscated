@@ -3,10 +3,7 @@
  */
 package com.jagex;
 
-public interface Interface76 {
-	public int method91();
+import java.lang.annotation.Annotation;
 
-	public int method87();
-
-	public int method42();
+public interface Interface76 extends Annotation {
 }

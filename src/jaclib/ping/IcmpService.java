@@ -18,11 +18,15 @@ public abstract class IcmpService implements Runnable {
 
 	public static native boolean available();
 
-	public native void g();
+	public native void u();
 
-	public native void c();
+	protected abstract void method1260(int i);
 
-	protected abstract void method1689(int i);
+	protected abstract void method1261(int i);
 
-	protected abstract void method1690(int i, int i_2_, int i_3_);
+	protected abstract void method1262(int i);
+
+	protected abstract void method1263(int i, int i_2_, int i_3_);
+
+	protected abstract void method1264(int i, int i_4_, int i_5_);
 }

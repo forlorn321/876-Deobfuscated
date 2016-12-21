@@ -3,76 +3,122 @@
  */
 package com.jagex;
 
+import java.awt.Point;
+
 public class Class303 {
-	boolean aBool3422;
+	static Class303 aClass303_3407;
+	static Class303 aClass303_3408;
+	static Class303 aClass303_3409;
+	static Class303 aClass303_3410;
+	static Class303 aClass303_3411;
+	Class38 aClass38_3412;
+	static Class303 aClass303_3413;
+	static Class303 aClass303_3414;
+	static Class303 aClass303_3415;
+	static Class303 aClass303_3416 = new Class303(0, Class38.aClass38_371, 2);
+	static Class303 aClass303_3417;
+	static Class303 aClass303_3418;
+	static Class303 aClass303_3419;
+	static Class303 aClass303_3420;
+	static Class303 aClass303_3421;
+	static Class303 aClass303_3422;
 	static Class303 aClass303_3423;
 	static Class303 aClass303_3424;
-	int anInt3425;
-	static Class303 aClass303_3426 = new Class303(0, true);
-	static int anInt3427;
+	public int anInt3425;
+	Class38 aClass38_3426;
+	boolean aBool3427;
+	static Class303 aClass303_3428;
+	int anInt3429;
+	boolean aBool3430;
+	int anInt3431;
+	public static Class461 aClass461_3432;
 
-	public static Class303 method5579(int i) {
-		if (-660298349 * aClass303_3426.anInt3425 == i)
-			return aClass303_3426;
-		if (i == -660298349 * aClass303_3423.anInt3425)
-			return aClass303_3423;
-		if (aClass303_3424.anInt3425 * -660298349 == i)
-			return aClass303_3424;
-		return null;
+	Class303(int i, Class38 class38, Class38 class38_0_, int i_1_, int i_2_) {
+		this(i, class38, class38_0_, i_1_, i_2_, true, false);
+	}
+
+	Class303(int i, Class38 class38, int i_3_) {
+		this(i, class38, class38, i_3_, i_3_, true, false);
 	}
 
 	static {
-		aClass303_3423 = new Class303(1, true);
-		aClass303_3424 = new Class303(2, false);
+		aClass303_3415 = new Class303(1, Class38.aClass38_371, Class38.aClass38_371, 2, 3);
+		aClass303_3409 = new Class303(2, Class38.aClass38_371, 3);
+		aClass303_3410 = new Class303(3, Class38.aClass38_371, Class38.aClass38_371, 3, 4);
+		aClass303_3411 = new Class303(4, Class38.aClass38_371, 4);
+		aClass303_3408 = new Class303(5, Class38.aClass38_371, Class38.aClass38_371, 4, 5);
+		aClass303_3423 = new Class303(6, Class38.aClass38_371, Class38.aClass38_371, 5, 98, true, true);
+		aClass303_3414 = new Class303(7, Class38.aClass38_371, 99);
+		aClass303_3413 = new Class303(8, Class38.aClass38_371, 100);
+		aClass303_3407 = new Class303(9, Class38.aClass38_407, Class38.aClass38_407, 0, 92, true, true);
+		aClass303_3417 = new Class303(10, Class38.aClass38_407, Class38.aClass38_407, 92, 93);
+		aClass303_3418 = new Class303(11, Class38.aClass38_407, Class38.aClass38_407, 94, 95);
+		aClass303_3419 = new Class303(12, Class38.aClass38_407, Class38.aClass38_407, 96, 97);
+		aClass303_3420 = new Class303(13, Class38.aClass38_407, 97);
+		aClass303_3421 = new Class303(14, Class38.aClass38_407, 97);
+		aClass303_3422 = new Class303(15, Class38.aClass38_407, 100);
+		aClass303_3428 = new Class303(16, Class38.aClass38_407, 100);
+		aClass303_3424 = new Class303(17, Class38.aClass38_407, 100);
 	}
 
-	public static Class303 method5580(int i) {
-		if (-660298349 * aClass303_3426.anInt3425 == i)
-			return aClass303_3426;
-		if (i == -660298349 * aClass303_3423.anInt3425)
-			return aClass303_3423;
-		if (aClass303_3424.anInt3425 * -660298349 == i)
-			return aClass303_3424;
-		return null;
+	Class303(int i, Class38 class38, Class38 class38_4_, int i_5_, int i_6_, boolean bool, boolean bool_7_) {
+		anInt3425 = i * -91522527;
+		aClass38_3426 = class38;
+		aClass38_3412 = class38_4_;
+		anInt3431 = i_5_ * 204029329;
+		anInt3429 = i_6_ * -2013131057;
+		aBool3430 = bool;
+		aBool3427 = bool_7_;
 	}
 
-	Class303(int i, boolean bool) {
-		anInt3425 = 1011433627 * i;
-		aBool3422 = bool;
+	static Class303[] method4103(byte i) {
+		return (new Class303[] { aClass303_3416, aClass303_3415, aClass303_3409, aClass303_3410, aClass303_3411, aClass303_3408, aClass303_3423, aClass303_3414, aClass303_3413, aClass303_3407, aClass303_3417, aClass303_3418, aClass303_3419, aClass303_3420, aClass303_3421, aClass303_3422, aClass303_3428, aClass303_3424 });
 	}
 
-	public static Class303 method5581(int i) {
-		if (-660298349 * aClass303_3426.anInt3425 == i)
-			return aClass303_3426;
-		if (i == -660298349 * aClass303_3423.anInt3425)
-			return aClass303_3423;
-		if (aClass303_3424.anInt3425 * -660298349 == i)
-			return aClass303_3424;
-		return null;
-	}
-
-	static final void method5582(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 0;
-	}
-
-	static final void method5583(Class665 class665, int i) {
-		if (Class208_Sub10.aClass296_Sub1_9923.method5376((byte) -89) != Class301.aClass301_3418)
+	public static void method4104(Class641 class641, int i) {
+		if (Class376.aClass376_3913 == class641.aClass376_8313)
+			Class653.aClass360_8489 = new Class360_Sub1(class641);
+		else if (Class376.aClass376_3912 == class641.aClass376_8313)
+			Class653.aClass360_8489 = new Class360_Sub2(class641);
+		else
 			throw new RuntimeException();
-		Class327_Sub2 class327_sub2 = ((Class327_Sub2) Class208_Sub10.aClass296_Sub1_9923.method5372((byte) 0));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) ((double) class327_sub2.method15734((byte) -23) * 2607.5945876176133) & 0x3fff;
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) ((double) class327_sub2.method15747(-522129280) * 2607.5945876176133) & 0x3fff;
 	}
 
-	static final void method5584(Class665 class665, byte i) {
-		Class204.aClass527_Sub31_2213.method16350(Class204.aClass527_Sub31_2213.aClass700_Sub24_10634, (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]), -209168263);
-		Class631.method10465(897326178);
-		client.aBool11020 = false;
+	public static void method4105(int i, int i_8_, int i_9_, boolean bool, byte i_10_) {
+		Class536_Sub18_Sub14 class536_sub18_sub14 = Class542_Sub1.aClass536_Sub18_Sub14_7202;
+		Class542_Sub1.method6564(i);
+		Class542_Sub1.aBool7220 = false;
+		if (Class542_Sub1.aClass536_Sub18_Sub14_7202 != class536_sub18_sub14)
+			Class465_Sub1.method9387(-931943004);
+		Class542_Sub1.anInt10709 = i_8_ * -1556558237;
+		Class542_Sub1.anInt10710 = i_9_ * 382996535;
+		Class542_Sub1.aBool10711 = bool;
 	}
 
-	static final void method5585(Class665 class665, byte i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, 1431312733);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class383.method6410(class243, class240, class665, -405443684);
+	static void method4106(int i) {
+		synchronized (Class659.aQueue8499) {
+			Point point;
+			if (Class399.aCanvas4127.isShowing())
+				point = Class399.aCanvas4127.getLocationOnScreen();
+			else
+				point = null;
+			for (;;) {
+				Class536_Sub31_Sub2 class536_sub31_sub2 = (Class536_Sub31_Sub2) Class659.aQueue8499.poll();
+				if (null == class536_sub31_sub2)
+					break;
+				if (point == null || !Class399.aCanvas4127.isShowing() || !Class67_Sub1.aBool10601)
+					class536_sub31_sub2.method9641(-2116460162);
+				else {
+					class536_sub31_sub2.method10822(point, 223728158);
+					if (!class536_sub31_sub2.method10821(1110273650) && (class536_sub31_sub2.method9647(-2034738443) < Class144.anInt1679 * -1804846931) && (class536_sub31_sub2.method9643((byte) 1) < 589116499 * Class34_Sub6.anInt10965) && class536_sub31_sub2.method9647(-2023242735) >= 0 && class536_sub31_sub2.method9643((byte) 1) >= 0) {
+						int i_11_ = class536_sub31_sub2.method9642(-752068600);
+						if (class536_sub31_sub2.method9642(-760716819) == -1)
+							Class659.aClass637_Sub1_8503.method7640(class536_sub31_sub2, -1975375597);
+						else if (Class160.method1960(i_11_, (byte) 50))
+							Class659.aClass637_Sub1_8503.method9914(class536_sub31_sub2, -454158271);
+					}
+				}
+			}
+		}
 	}
 }

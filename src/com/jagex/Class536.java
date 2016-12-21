@@ -3,27 +3,79 @@
  */
 package com.jagex;
 
-public class Class536 {
-	Class324[] aClass324Array7222;
-	Class324[] aClass324Array7223;
-	Class537 this$0;
-	public static Class615 aClass615_7224;
+import java.net.MalformedURLException;
+import java.net.URL;
 
-	Class536(Class537 class537) {
-		this$0 = class537;
-		aClass324Array7222 = new Class324[16];
-		aClass324Array7223 = new Class324[16];
-		new Class324(8);
-		for (int i = 0; i < 16; i++) {
-			aClass324Array7222[i] = new Class324(3);
-			aClass324Array7223[i] = new Class324(3);
+public class Class536 {
+	public Class536 aClass536_7132;
+	public long aLong7133;
+	public Class536 aClass536_7134;
+
+	public void method6483() {
+		if (null != aClass536_7134) {
+			aClass536_7134.aClass536_7132 = aClass536_7132;
+			aClass536_7132.aClass536_7134 = aClass536_7134;
+			aClass536_7132 = null;
+			aClass536_7134 = null;
 		}
 	}
 
-	static final void method8984(Class665 class665, byte i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class455.method7343(class243, class240, class665, -1554063441);
+	public void method6484(int i) {
+		if (null != aClass536_7134) {
+			aClass536_7134.aClass536_7132 = aClass536_7132;
+			aClass536_7132.aClass536_7134 = aClass536_7134;
+			aClass536_7132 = null;
+			aClass536_7134 = null;
+		}
+	}
+
+	public void method6485() {
+		if (null != aClass536_7134) {
+			aClass536_7134.aClass536_7132 = aClass536_7132;
+			aClass536_7132.aClass536_7134 = aClass536_7134;
+			aClass536_7132 = null;
+			aClass536_7134 = null;
+		}
+	}
+
+	public boolean method6486() {
+		if (null == aClass536_7134)
+			return false;
+		return true;
+	}
+
+	public boolean method6487(byte i) {
+		if (null == aClass536_7134)
+			return false;
+		return true;
+	}
+
+	public boolean method6488() {
+		if (null == aClass536_7134)
+			return false;
+		return true;
+	}
+
+	public boolean method6489() {
+		if (null == aClass536_7134)
+			return false;
+		return true;
+	}
+
+	public boolean method6490() {
+		if (null == aClass536_7134)
+			return false;
+		return true;
+	}
+
+	static boolean method6491(String string, int i) {
+		if (null == string)
+			return false;
+		try {
+			new URL(string);
+		} catch (MalformedURLException malformedurlexception) {
+			return false;
+		}
+		return true;
 	}
 }

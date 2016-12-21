@@ -4,7 +4,11 @@
 package com.jagex;
 
 public interface Interface42 {
-	public float method278(int i);
+	public float method285(int i);
 
-	public float method279();
+	public float method286();
+
+	public float method287();
+
+	public float method288();
 }

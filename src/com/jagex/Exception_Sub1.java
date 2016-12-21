@@ -4,21 +4,16 @@
 package com.jagex;
 
 public class Exception_Sub1 extends Exception {
-	int anInt11348;
+	public int anInt11344;
+	public String aString11345;
 
-	Exception_Sub1() throws Throwable {
-		throw new Error();
+	Exception_Sub1(int i, String string, Throwable throwable) {
+		super(throwable);
+		aString11345 = string;
+		anInt11344 = i * 1630668169;
 	}
 
-	public int method17915(int i) {
-		return anInt11348 * 425879617;
-	}
-
-	public int method17916() {
-		return anInt11348 * 425879617;
-	}
-
-	public int method17917() {
-		return anInt11348 * 425879617;
+	Exception_Sub1(int i, String string) {
+		this(i, string, null);
 	}
 }

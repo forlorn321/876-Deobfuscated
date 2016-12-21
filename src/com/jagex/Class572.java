@@ -3,67 +3,88 @@
  */
 package com.jagex;
 
-public class Class572 implements Interface65 {
-	int anInt7625;
-	int anInt7626;
+import com.jagex.twitchtv.TwitchWebcamDevice;
 
-	Class572(int i, int i_0_) {
-		anInt7626 = -508652777 * i;
-		anInt7625 = i_0_ * 1226020057;
+public class Class572 implements Interface75, Interface67 {
+	public static Class572 aClass572_7634;
+	public static Class572 aClass572_7635;
+	public static Class572 aClass572_7636 = new Class572(0, "", new Class453[] { Class453.aClass453_5008, Class453.aClass453_5084 });
+	static Class572 aClass572_7637;
+	int anInt7638;
+	Class453[] aClass453Array7639;
+
+	static {
+		aClass572_7635 = new Class572(1, "", new Class453[] { Class453.aClass453_5008, Class453.aClass453_5008 });
+		aClass572_7634 = new Class572(2, "", new Class453[] { Class453.aClass453_5084, Class453.aClass453_5084 });
+		aClass572_7637 = new Class572(3, "", new Class453[] { Class453.aClass453_5008, Class453.aClass453_5008, Class453.aClass453_5084 });
 	}
 
-	public boolean method420(Class527_Sub34 class527_sub34, Interface64[] interface64s, int i, Class554 class554, byte i_1_) {
-		for (int i_2_ = 0; i_2_ < i && i_2_ < interface64s.length; i_2_++) {
-			Interface64 interface64 = interface64s[i_2_];
-			if (null != interface64 && interface64.method396(754050486) == 847893671 * anInt7626 && interface64.method415(-864137654) == 1409526633 * anInt7625)
-				return true;
+	public int method12() {
+		return 351085287 * anInt7638;
+	}
+
+	public int method78() {
+		return 351085287 * anInt7638;
+	}
+
+	Class572(int i, String string, Class453[] class453s) {
+		anInt7638 = 1747243223 * i;
+		aClass453Array7639 = class453s;
+		Class453[] class453s_0_ = aClass453Array7639;
+		for (int i_1_ = 0; i_1_ < class453s_0_.length; i_1_++) {
+			Class453 class453 = class453s_0_[i_1_];
+			switch (-1645921193 * class453.aClass478_5077.anInt5383) {
+			case 0:
+				break;
+			case 3:
+				break;
+			default:
+				break;
+			case 2:
+				/* empty */
+			}
 		}
-		return false;
 	}
 
-	static Class572 method9604(RSByteBuffer class527_sub38) {
-		int i = class527_sub38.readUnsignedByte();
-		int i_3_ = class527_sub38.readUnsignedByte();
-		return new Class572(i, i_3_);
+	public int method73() {
+		return 351085287 * anInt7638;
 	}
 
-	static Class572 method9605(RSByteBuffer class527_sub38) {
-		int i = class527_sub38.readUnsignedByte();
-		int i_4_ = class527_sub38.readUnsignedByte();
-		return new Class572(i, i_4_);
+	static void method6934(Class668 class668, int i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		TwitchWebcamDevice twitchwebcamdevice = Class484.method5843(i_2_, -1263361632);
+		if (null == twitchwebcamdevice)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = twitchwebcamdevice.method1267();
 	}
 
-	static Class572 method9606(RSByteBuffer class527_sub38) {
-		int i = class527_sub38.readUnsignedByte();
-		int i_5_ = class527_sub38.readUnsignedByte();
-		return new Class572(i, i_5_);
+	static final void method6935(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_3_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_4_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (client.aClass485ArrayArray11266[i_4_][i_3_].anInt5441 * -1406935321);
 	}
 
-	public boolean method419(Class527_Sub34 class527_sub34, Interface64[] interface64s, int i, Class554 class554) {
-		for (int i_6_ = 0; i_6_ < i && i_6_ < interface64s.length; i_6_++) {
-			Interface64 interface64 = interface64s[i_6_];
-			if (null != interface64 && interface64.method396(1299006652) == 847893671 * anInt7626 && interface64.method415(250015200) == 1409526633 * anInt7625)
-				return true;
-		}
-		return false;
+	static final void method6936(Class668 class668, byte i) {
+		if (Class2.anIntArray96 == null || -1156908483 * Class596.anInt7830 >= Class2.anIntArray96.length)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class2.anIntArray96[(Class596.anInt7830 += 572255509) * -1156908483 - 1]) & 0xffff);
 	}
 
-	static void method9607(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class208_Sub11.method15616(Class402.aClass180_4150, 2100982645);
+	static final void method6937(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9894(-1017210055) == 2 ? 1 : 0;
 	}
 
-	public static void method9608(int i, int i_7_, int i_8_, boolean bool, int i_9_) {
-		Class527_Sub8_Sub12 class527_sub8_sub12 = Class529_Sub1.aClass527_Sub8_Sub12_7123;
-		Class529_Sub1.method8749(i);
-		Class529_Sub1.aBool7172 = false;
-		if (class527_sub8_sub12 != Class529_Sub1.aClass527_Sub8_Sub12_7123)
-			Class592.method9876((byte) -12);
-		Class529_Sub1.anInt10776 = 974227339 * i_7_;
-		Class529_Sub1.anInt10777 = i_8_ * -1984324647;
-		Class529_Sub1.aBool10778 = bool;
-	}
-
-	static final void method9609(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class498.aString5584.startsWith("mac") ? 1 : 0;
+	static final void method6938(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_5_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_6_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		if (Class707.aBool8822) {
+			Class15.method640(3, i_5_, i_6_, false, -1475430026);
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = null != Class223.aFrame2336 ? 1 : 0;
+		} else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 }

@@ -3,115 +3,162 @@
  */
 package com.jagex;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Stack;
+public abstract class Class153 implements Interface14 {
+	public Class452 aClass452_1714 = Class452.aClass452_4952;
+	public int anInt1715;
+	public Class453 aClass453_1716;
+	public Class458 aClass458_1717;
+	public boolean aBool1718 = true;
+	static int anInt1719;
 
-class Class153 implements Runnable {
-	Class358_Sub2 this$0;
-	static Class22 aClass22_1715;
-	public static Class24_Sub14 aClass24_Sub14_1716;
-
-	Class153(Class358_Sub2 class358_sub2) {
-		this$0 = class358_sub2;
+	public Object method1855(byte i) {
+		return aClass458_1717.method5493(this, 1956706202);
 	}
 
-	public void run() {
-		try {
-			while (!this$0.aBool10287) {
-				HashMap hashmap = this$0.method15932(-2078215399);
-				Iterator iterator = hashmap.keySet().iterator();
-				while (iterator.hasNext()) {
-					Class485 class485 = (Class485) iterator.next();
-					if (!class485.aBool5457) {
-						Class494[] class494s = (Class494[]) hashmap.get(class485);
-						for (int i = 0; i < class494s.length; i++)
-							class494s[i].method8032((byte) 0);
-					}
+	Class153(Class458 class458, int i) {
+		aClass458_1717 = class458;
+		anInt1715 = i * -1641977763;
+	}
+
+	boolean method1856() {
+		if (null == aClass458_1717 || aClass453_1716 == null)
+			return false;
+		return true;
+	}
+
+	boolean method1857(byte i) {
+		if (null == aClass458_1717 || aClass453_1716 == null)
+			return false;
+		return true;
+	}
+
+	public void method74(RSByteBuffer class536_sub33, int i) {
+		for (;;) {
+			int i_0_ = class536_sub33.readUnsignedByte(-458508466);
+			if (i_0_ == 0)
+				break;
+			Class144 class144 = ((Class144) Class682.method8091(Class518.method6330(-1935711188), i_0_, 1858049507));
+			if (class144 != null) {
+				switch (195626555 * class144.anInt1677) {
+				case 3:
+					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(764544543), class536_sub33.readUnsignedByte(-627484868), 1858049507));
+					break;
+				case 4: {
+					int i_1_ = class536_sub33.readUnsignedByte(1077146698);
+					aClass453_1716 = ((Class453) Class682.method8091(Class453.method5438((byte) 79), i_1_, 1858049507));
+					if (aClass453_1716 == null)
+						throw new IllegalStateException("");
+					break;
 				}
-				Class518.method8635(50L);
-			}
-		} catch (Exception exception) {
-			Class180.method3542(null, exception, 1604547405);
+				case 5:
+					Class682.method8091(Class34_Sub20.method10363(-1722009605), class536_sub33.readUnsignedByte(-873110798), 1858049507);
+					break;
+				default:
+					throw new IllegalStateException("");
+				case 6:
+					break;
+				case 1:
+					aBool1718 = false;
+					break;
+				case 2:
+					class536_sub33.method9714((byte) 108);
+				}
+			} else
+				method1858(class536_sub33, i_0_, -1091278725);
 		}
 	}
 
-	public void method2521() {
-		try {
-			while (!this$0.aBool10287) {
-				HashMap hashmap = this$0.method15932(-1861829114);
-				Iterator iterator = hashmap.keySet().iterator();
-				while (iterator.hasNext()) {
-					Class485 class485 = (Class485) iterator.next();
-					if (!class485.aBool5457) {
-						Class494[] class494s = (Class494[]) hashmap.get(class485);
-						for (int i = 0; i < class494s.length; i++)
-							class494s[i].method8032((byte) 0);
-					}
+	public void method76(RSByteBuffer class536_sub33) {
+		for (;;) {
+			int i = class536_sub33.readUnsignedByte(-1623642871);
+			if (i == 0)
+				break;
+			Class144 class144 = ((Class144) Class682.method8091(Class518.method6330(-1347896725), i, 1858049507));
+			if (class144 != null) {
+				switch (195626555 * class144.anInt1677) {
+				case 3:
+					aClass452_1714 = ((Class452) Class682.method8091(Class74.method1137(908933648), class536_sub33.readUnsignedByte(1312220719), 1858049507));
+					break;
+				case 4: {
+					int i_2_ = class536_sub33.readUnsignedByte(-215020055);
+					aClass453_1716 = ((Class453) Class682.method8091(Class453.method5438((byte) 28), i_2_, 1858049507));
+					if (aClass453_1716 == null)
+						throw new IllegalStateException("");
+					break;
 				}
-				Class518.method8635(50L);
-			}
-		} catch (Exception exception) {
-			Class180.method3542(null, exception, 1604547405);
+				case 5:
+					Class682.method8091(Class34_Sub20.method10363(-370159668), class536_sub33.readUnsignedByte(1247923985), 1858049507);
+					break;
+				default:
+					throw new IllegalStateException("");
+				case 6:
+					break;
+				case 1:
+					aBool1718 = false;
+					break;
+				case 2:
+					class536_sub33.method9714((byte) 88);
+				}
+			} else
+				method1858(class536_sub33, i, -1091278725);
 		}
 	}
 
-	public void method2522() {
-		try {
-			while (!this$0.aBool10287) {
-				HashMap hashmap = this$0.method15932(-1831328810);
-				Iterator iterator = hashmap.keySet().iterator();
-				while (iterator.hasNext()) {
-					Class485 class485 = (Class485) iterator.next();
-					if (!class485.aBool5457) {
-						Class494[] class494s = (Class494[]) hashmap.get(class485);
-						for (int i = 0; i < class494s.length; i++)
-							class494s[i].method8032((byte) 0);
-					}
-				}
-				Class518.method8635(50L);
-			}
-		} catch (Exception exception) {
-			Class180.method3542(null, exception, 1604547405);
-		}
+	abstract void method1858(RSByteBuffer class536_sub33, int i, int i_3_);
+
+	abstract void method1859(RSByteBuffer class536_sub33, int i);
+
+	abstract void method1860(RSByteBuffer class536_sub33, int i);
+
+	boolean method1861() {
+		if (null == aClass458_1717 || aClass453_1716 == null)
+			return false;
+		return true;
 	}
 
-	public static void method2523(Class459 class459, Class181 class181, Interface24 interface24, int i) {
-		Class269.aClass459_3121 = class459;
-		Class25.aClass181_237 = class181;
-		Class511.anInterface24_6980 = interface24;
+	boolean method1862() {
+		if (null == aClass458_1717 || aClass453_1716 == null)
+			return false;
+		return true;
 	}
 
-	static final void method2524(Class243 class243, Class240 class240, Class665 class665, byte i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		if (Class243.anInt2676 * 1866237161 == i_0_ || Class243.anInt2473 * 200616817 == i_0_ || -1281262299 * Class243.anInt2474 == i_0_ || 633613451 * Class243.anInt2475 == i_0_)
-			class243.anInt2604 = 1170849881 * i_0_;
+	abstract void method1863(RSByteBuffer class536_sub33, int i);
+
+	public Object method1864() {
+		return aClass458_1717.method5493(this, 1951411192);
 	}
 
-	static final void method2525(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = ((null != Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183) && (Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183.aBool8278)) ? 1 : 0;
+	static void method1865(int i) {
+		Class575.aTwitchWebcamDeviceArray7674 = Class536_Sub42.aTwitchTV10811.GetWebcamDevices();
 	}
 
-	static final void method2526(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class272.method5084((byte) 50).method87();
+	public static void method1866(int i, byte i_4_) {
+		Class649_Sub1_Sub2_Sub1.anInt11973 = -738987877 * i;
+		Class251.aClass199_2694.method2884((byte) -68);
 	}
 
-	static final void method2527(Class665 class665, byte i) {
-		class665.anInt8528 -= 1299028551;
-		String string = ((String) class665.anObjectArray8541[class665.anInt8528 * 318492261]);
-		String string_1_ = ((String) class665.anObjectArray8541[class665.anInt8528 * 318492261 + 1]);
-		String string_2_ = ((String) class665.anObjectArray8541[class665.anInt8528 * 318492261 + 2]);
-		boolean bool = ((class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]) == 1);
-		Class532.method8929(string, string_1_, string_2_, bool, -1873945662);
+	static final void method1867(Class251 class251, Class668 class668, byte i) {
+		class668.anInt8542 -= 1472892954;
+		int i_5_ = class668.anIntArray8541[class668.anInt8542 * 1867269829] - 1;
+		int i_6_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		if (i_5_ < 0 || i_5_ > 9)
+			throw new RuntimeException();
+		Class99.method1325(class251, i_5_, i_6_, class668, 1193607769);
 	}
 
-	static final void method2528(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = -1;
+	static final void method1868(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2577 * -1940204141;
 	}
 
-	public static void method2529(int i) {
-		synchronized (Class558.aStack7531) {
-			Class558.aStack7531 = new Stack();
+	public static final void method1869(String string, byte i) {
+		if (Class360_Sub1.aClass94Array10168 != null) {
+			Class106 class106 = Class536_Sub41.method9871(2077853800);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4426, class106.aClass15_1258, 1760076756);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1774742804), 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -681467780);
+			class106.method1409(class536_sub23, 1890482058);
 		}
 	}
 }

@@ -3,89 +3,62 @@
  */
 package com.jagex;
 
-class Class230 implements Interface42 {
-	Class226 this$0;
-	static int anInt2355;
+public class Class230 implements Interface27 {
+	int anInt2364;
+	boolean aBool2365;
+	Class213 this$0;
 
-	public float method279() {
-		return ((float) Class204.aClass527_Sub31_2213.aClass700_Sub24_10634.method17139((byte) -96) / 255.0F);
+	public void method155(Class226 class226) {
+		class226.method3236(-1157950953 * anInt2364, aBool2365, -494813110);
+		class226.method3227(anInt2364 * -1157950953, -781094290).method3123(368312517);
 	}
 
-	Class230(Class226 class226) {
-		this$0 = class226;
+	public void method154(Class226 class226, short i) {
+		class226.method3236(-1157950953 * anInt2364, aBool2365, -1081893980);
+		class226.method3227(anInt2364 * -1157950953, -781094290).method3123(368312517);
 	}
 
-	public float method278(int i) {
-		return ((float) Class204.aClass527_Sub31_2213.aClass700_Sub24_10634.method17139((byte) -100) / 255.0F);
+	public void method153(Class226 class226) {
+		class226.method3236(-1157950953 * anInt2364, aBool2365, 276067389);
+		class226.method3227(anInt2364 * -1157950953, -781094290).method3123(368312517);
 	}
 
-	static char method4319(char c, Class671 class671, byte i) {
-		if (c >= '\u00c0' && c <= '\u00ff') {
-			if (c >= '\u00c0' && c <= '\u00c6')
-				return 'A';
-			if (c == '\u00c7')
-				return 'C';
-			if (c >= '\u00c8' && c <= '\u00cb')
-				return 'E';
-			if (c >= '\u00cc' && c <= '\u00cf')
-				return 'I';
-			if ('\u00d1' == c && class671 != Class671.aClass671_8578)
-				return 'N';
-			if (c >= '\u00d2' && c <= '\u00d6')
-				return 'O';
-			if (c >= '\u00d9' && c <= '\u00dc')
-				return 'U';
-			if (c == '\u00dd')
-				return 'Y';
-			if ('\u00df' == c)
-				return 's';
-			if (c >= '\u00e0' && c <= '\u00e6')
-				return 'a';
-			if ('\u00e7' == c)
-				return 'c';
-			if (c >= '\u00e8' && c <= '\u00eb')
-				return 'e';
-			if (c >= '\u00ec' && c <= '\u00ef')
-				return 'i';
-			if (c == '\u00f1' && Class671.aClass671_8578 != class671)
-				return 'n';
-			if (c >= '\u00f2' && c <= '\u00f6')
-				return 'o';
-			if (c >= '\u00f9' && c <= '\u00fc')
-				return 'u';
-			if ('\u00fd' == c || '\u00ff' == c)
-				return 'y';
-		}
-		if (c == '\u0152')
-			return 'O';
-		if ('\u0153' == c)
-			return 'o';
-		if (c == '\u0178')
-			return 'Y';
-		return c;
+	Class230(Class213 class213, RSByteBuffer class536_sub33) {
+		this$0 = class213;
+		anInt2364 = class536_sub33.readUnsignedShort((short) 6411) * 1640056231;
+		aBool2365 = class536_sub33.readUnsignedByte(-1219696038) == 1;
 	}
 
-	static void method4320(Class522_Sub2 class522_sub2, int i) {
-		class522_sub2.aClass640_Sub1_Sub2_Sub1_10295 = null;
-		if (-1635477087 * Class522_Sub2.anInt10294 < 20) {
-			Class522_Sub2.aClass705_10299.method14322(class522_sub2, -2138591433);
-			Class522_Sub2.anInt10294 += 961645153;
-		}
+	static final void method3294(Class668 class668, byte i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class1 class1 = (Class1) Class111.aClass34_Sub13_1391.method70(i_0_, (byte) 102);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class1.anInt18 * -1423460053;
 	}
 
-	static boolean method4321(int i, int i_0_) {
-		if (9 == i || i == 10 || i == 11 || 12 == i || 13 == i || 1003 == i)
-			return true;
-		if (8 == i)
-			return true;
-		return false;
+	static final void method3295(Class668 class668, int i) throws Exception_Sub3 {
+		class668.anInt8542 -= -1349181388;
+		float f = (float) class668.anIntArray8541[1867269829 * class668.anInt8542];
+		float f_1_ = (float) (class668.anIntArray8541[1867269829 * class668.anInt8542 + 1]);
+		float f_2_ = (float) (class668.anIntArray8541[2 + 1867269829 * class668.anInt8542]);
+		float f_3_ = ((float) (class668.anIntArray8541[1867269829 * class668.anInt8542 + 3]) / 1000.0F);
+		Class683.aClass301_Sub1_8651.method4084(Class436.method5257(f, f_1_, f_2_), f_3_, (short) 21500);
 	}
 
-	static void method4322(int i, int i_1_, int i_2_, int i_3_, int i_4_) {
-		Class527_Sub8_Sub9 class527_sub8_sub9 = Class532.method8930(10, (long) i);
-		class527_sub8_sub9.method18187(-1852385068);
-		class527_sub8_sub9.anInt11676 = i_1_ * -281159195;
-		class527_sub8_sub9.anInt11667 = i_2_ * -164049787;
-		class527_sub8_sub9.anInt11678 = i_3_ * 1405416095;
+	static final void method3296(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_4_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_5_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1];
+		Class273.method3730(2, i_4_, i_5_, "", -2031217715);
+	}
+
+	static final void method3297(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class685.method8111(class251, class234, class668, 1700180549);
+	}
+
+	static final void method3298(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class251.anInt2663 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1261514709;
 	}
 }

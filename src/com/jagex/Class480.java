@@ -3,858 +3,130 @@
  */
 package com.jagex;
 
-import jaggl.OpenGL;
-
-public abstract class Class480 implements Interface41 {
-	static final int anInt5406 = 0;
-	static final int anInt5407 = 3553;
-	static final int anInt5408 = 34067;
-	Class184 aClass184_5409;
-	static final int anInt5410 = 32879;
+public class Class480 {
 	int anInt5411;
-	int anInt5412;
-	Class157 aClass157_5413;
-	Class343 aClass343_5414 = Class343.aClass343_3692;
-	boolean aBool5415;
-	Class180_Sub2_Sub1 aClass180_Sub2_Sub1_5416;
-	int anInt5417;
-	static int[] anIntArray5418 = new int[1];
+	static Class480 aClass480_5412;
+	static Class480 aClass480_5413;
+	static Class480 aClass480_5414;
+	static Class480 aClass480_5415;
+	static Class480 aClass480_5416 = new Class480(3);
+	static Class480 aClass480_5417;
+	static Class480 aClass480_5418;
 
-	public void method130() {
-		if (anInt5411 != 0) {
-			aClass180_Sub2_Sub1_5416.anInt9445 -= method7817();
-			int[] is = new int[1];
-			is[0] = anInt5411;
-			OpenGL.glDeleteTextures(1, is, 0);
-			anInt5411 = 0;
-		}
+	static {
+		aClass480_5412 = new Class480(5);
+		aClass480_5413 = new Class480(1);
+		aClass480_5414 = new Class480(4);
+		aClass480_5415 = new Class480(0);
+		aClass480_5418 = new Class480(6);
+		aClass480_5417 = new Class480(2);
 	}
 
-	public void method273(Class343 class343) {
-		if (aClass343_5414 != class343) {
-			aClass343_5414 = class343;
-			method7827();
-		}
+	Class480(int i) {
+		anInt5411 = 1847955927 * i;
 	}
 
-	void method7803(int i, int i_0_, int i_1_, byte[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_0_ > 0 && !Class143.method2383(i_0_, 1660422705))
-			throw new IllegalArgumentException("");
-		if (i_1_ > 0 && !Class143.method2383(i_1_, 1642651770))
-			throw new IllegalArgumentException("");
-		int i_2_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_3_ = 0;
-		int i_4_ = i_0_ < i_1_ ? i_0_ : i_1_;
-		int i_5_ = i_0_ >> 1;
-		int i_6_ = i_1_ >> 1;
-		byte[] is_7_ = is;
-		byte[] is_8_ = new byte[i_5_ * i_6_ * i_2_];
-		for (;;) {
-			OpenGL.glTexImage2Dub(i, i_3_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_0_, i_1_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5121, is_7_, 0);
-			if (i_4_ <= 1)
-				break;
-			int i_9_ = i_0_ * i_2_;
-			for (int i_10_ = 0; i_10_ < i_2_; i_10_++) {
-				int i_11_ = i_10_;
-				int i_12_ = i_10_;
-				int i_13_ = i_12_ + i_9_;
-				for (int i_14_ = 0; i_14_ < i_6_; i_14_++) {
-					for (int i_15_ = 0; i_15_ < i_5_; i_15_++) {
-						int i_16_ = is_7_[i_12_];
-						i_12_ += i_2_;
-						i_16_ += is_7_[i_12_];
-						i_12_ += i_2_;
-						i_16_ += is_7_[i_13_];
-						i_13_ += i_2_;
-						i_16_ += is_7_[i_13_];
-						i_13_ += i_2_;
-						is_8_[i_11_] = (byte) (i_16_ >> 2);
-						i_11_ += i_2_;
-					}
-					i_12_ += i_9_;
-					i_13_ += i_9_;
-				}
+	public static int method5826(int i) {
+		return Class192.aClass292_2177.method3931(-1866498609);
+	}
+
+	public static Class499[] method5827(int i) {
+		return (new Class499[] { Class499.aClass499_5930, Class499.aClass499_5848, Class499.aClass499_6399, Class499.aClass499_5705, Class499.aClass499_6501, Class499.aClass499_6263, Class499.aClass499_5956, Class499.aClass499_6615, Class499.aClass499_5816, Class499.aClass499_6637, Class499.aClass499_5596, Class499.aClass499_6824, Class499.aClass499_6770, Class499.aClass499_5789, Class499.aClass499_5684, Class499.aClass499_6614, Class499.aClass499_6696, Class499.aClass499_6240,
+				Class499.aClass499_6359, Class499.aClass499_6374, Class499.aClass499_6799, Class499.aClass499_6331, Class499.aClass499_5729, Class499.aClass499_6465, Class499.aClass499_6783, Class499.aClass499_6406, Class499.aClass499_5872, Class499.aClass499_6667, Class499.aClass499_6526, Class499.aClass499_6578, Class499.aClass499_6613, Class499.aClass499_6102, Class499.aClass499_6014, Class499.aClass499_6108, Class499.aClass499_6432, Class499.aClass499_6697, Class499.aClass499_5940,
+				Class499.aClass499_6810, Class499.aClass499_6792, Class499.aClass499_5687, Class499.aClass499_6117, Class499.aClass499_5747, Class499.aClass499_6266, Class499.aClass499_5941, Class499.aClass499_5911, Class499.aClass499_6790, Class499.aClass499_6431, Class499.aClass499_6298, Class499.aClass499_5796, Class499.aClass499_6127, Class499.aClass499_5836, Class499.aClass499_6756, Class499.aClass499_5630, Class499.aClass499_5746, Class499.aClass499_6568, Class499.aClass499_6750,
+				Class499.aClass499_6779, Class499.aClass499_6780, Class499.aClass499_6776, Class499.aClass499_5576, Class499.aClass499_5824, Class499.aClass499_6607, Class499.aClass499_5764, Class499.aClass499_6267, Class499.aClass499_6296, Class499.aClass499_5874, Class499.aClass499_6323, Class499.aClass499_6719, Class499.aClass499_6016, Class499.aClass499_5900, Class499.aClass499_6649, Class499.aClass499_6403, Class499.aClass499_6391, Class499.aClass499_6741, Class499.aClass499_5938,
+				Class499.aClass499_6470, Class499.aClass499_6704, Class499.aClass499_5653, Class499.aClass499_6669, Class499.aClass499_5635, Class499.aClass499_6740, Class499.aClass499_5584, Class499.aClass499_5583, Class499.aClass499_5970, Class499.aClass499_6290, Class499.aClass499_6105, Class499.aClass499_6636, Class499.aClass499_5910, Class499.aClass499_6287, Class499.aClass499_6342, Class499.aClass499_5719, Class499.aClass499_5637, Class499.aClass499_6515, Class499.aClass499_6232,
+				Class499.aClass499_6722, Class499.aClass499_5790, Class499.aClass499_6623, Class499.aClass499_6557, Class499.aClass499_6685, Class499.aClass499_5688, Class499.aClass499_5833, Class499.aClass499_5779, Class499.aClass499_5977, Class499.aClass499_6483, Class499.aClass499_6237, Class499.aClass499_5778, Class499.aClass499_6372, Class499.aClass499_6822, Class499.aClass499_6492, Class499.aClass499_6268, Class499.aClass499_6226, Class499.aClass499_6377, Class499.aClass499_6344,
+				Class499.aClass499_6746, Class499.aClass499_6065, Class499.aClass499_5858, Class499.aClass499_6019, Class499.aClass499_6309, Class499.aClass499_6313, Class499.aClass499_6749, Class499.aClass499_6236, Class499.aClass499_6131, Class499.aClass499_6513, Class499.aClass499_5973, Class499.aClass499_6379, Class499.aClass499_5763, Class499.aClass499_5867, Class499.aClass499_5597, Class499.aClass499_6182, Class499.aClass499_6206, Class499.aClass499_6203, Class499.aClass499_5897,
+				Class499.aClass499_6354, Class499.aClass499_6337, Class499.aClass499_5585, Class499.aClass499_6593, Class499.aClass499_6020, Class499.aClass499_5826, Class499.aClass499_5814, Class499.aClass499_6458, Class499.aClass499_5821, Class499.aClass499_5639, Class499.aClass499_6389, Class499.aClass499_6384, Class499.aClass499_5692, Class499.aClass499_6521, Class499.aClass499_6520, Class499.aClass499_6315, Class499.aClass499_5830, Class499.aClass499_6675, Class499.aClass499_6171,
+				Class499.aClass499_6731, Class499.aClass499_5820, Class499.aClass499_6085, Class499.aClass499_6251, Class499.aClass499_6047, Class499.aClass499_6235, Class499.aClass499_6405, Class499.aClass499_6485, Class499.aClass499_5864, Class499.aClass499_6519, Class499.aClass499_6612, Class499.aClass499_6300, Class499.aClass499_6051, Class499.aClass499_6587, Class499.aClass499_5969, Class499.aClass499_6433, Class499.aClass499_6588, Class499.aClass499_6467, Class499.aClass499_6280,
+				Class499.aClass499_6321, Class499.aClass499_5971, Class499.aClass499_5825, Class499.aClass499_5671, Class499.aClass499_6142, Class499.aClass499_6574, Class499.aClass499_6145, Class499.aClass499_6688, Class499.aClass499_6191, Class499.aClass499_6808, Class499.aClass499_6737, Class499.aClass499_5582, Class499.aClass499_6476, Class499.aClass499_6430, Class499.aClass499_6599, Class499.aClass499_6074, Class499.aClass499_6658, Class499.aClass499_6106, Class499.aClass499_6663,
+				Class499.aClass499_6094, Class499.aClass499_6537, Class499.aClass499_6444, Class499.aClass499_6566, Class499.aClass499_6184, Class499.aClass499_5793, Class499.aClass499_6278, Class499.aClass499_6312, Class499.aClass499_5797, Class499.aClass499_6096, Class499.aClass499_5601, Class499.aClass499_6082, Class499.aClass499_5914, Class499.aClass499_6706, Class499.aClass499_6075, Class499.aClass499_6489, Class499.aClass499_5963, Class499.aClass499_6728, Class499.aClass499_5766,
+				Class499.aClass499_6730, Class499.aClass499_6659, Class499.aClass499_6714, Class499.aClass499_6386, Class499.aClass499_6672, Class499.aClass499_5731, Class499.aClass499_5587, Class499.aClass499_6641, Class499.aClass499_6239, Class499.aClass499_6103, Class499.aClass499_5887, Class499.aClass499_6747, Class499.aClass499_6025, Class499.aClass499_6826, Class499.aClass499_5786, Class499.aClass499_5871, Class499.aClass499_6545, Class499.aClass499_6460, Class499.aClass499_6416,
+				Class499.aClass499_6651, Class499.aClass499_6556, Class499.aClass499_6644, Class499.aClass499_5572, Class499.aClass499_5902, Class499.aClass499_5811, Class499.aClass499_5842, Class499.aClass499_6558, Class499.aClass499_6415, Class499.aClass499_5854, Class499.aClass499_6073, Class499.aClass499_6500, Class499.aClass499_6138, Class499.aClass499_6785, Class499.aClass499_6155, Class499.aClass499_5656, Class499.aClass499_6733, Class499.aClass499_6569, Class499.aClass499_6656,
+				Class499.aClass499_5622, Class499.aClass499_5931, Class499.aClass499_5992, Class499.aClass499_6580, Class499.aClass499_6035, Class499.aClass499_5838, Class499.aClass499_5636, Class499.aClass499_5758, Class499.aClass499_6160, Class499.aClass499_6036, Class499.aClass499_6561, Class499.aClass499_6214, Class499.aClass499_5638, Class499.aClass499_6250, Class499.aClass499_6414, Class499.aClass499_6081, Class499.aClass499_6543, Class499.aClass499_5772, Class499.aClass499_6130,
+				Class499.aClass499_6071, Class499.aClass499_5672, Class499.aClass499_6514, Class499.aClass499_5875, Class499.aClass499_6283, Class499.aClass499_6594, Class499.aClass499_6698, Class499.aClass499_5723, Class499.aClass499_5739, Class499.aClass499_5976, Class499.aClass499_6548, Class499.aClass499_5666, Class499.aClass499_5616, Class499.aClass499_6183, Class499.aClass499_5942, Class499.aClass499_6575, Class499.aClass499_5923, Class499.aClass499_6585, Class499.aClass499_6445,
+				Class499.aClass499_6595, Class499.aClass499_6139, Class499.aClass499_5732, Class499.aClass499_5957, Class499.aClass499_5664, Class499.aClass499_5581, Class499.aClass499_6634, Class499.aClass499_6447, Class499.aClass499_6370, Class499.aClass499_6788, Class499.aClass499_5881, Class499.aClass499_5909, Class499.aClass499_5753, Class499.aClass499_5805, Class499.aClass499_6070, Class499.aClass499_6080, Class499.aClass499_6293, Class499.aClass499_6223, Class499.aClass499_6197,
+				Class499.aClass499_5691, Class499.aClass499_5736, Class499.aClass499_6013, Class499.aClass499_6395, Class499.aClass499_6069, Class499.aClass499_6469, Class499.aClass499_6834, Class499.aClass499_6412, Class499.aClass499_6104, Class499.aClass499_6360, Class499.aClass499_6118, Class499.aClass499_6241, Class499.aClass499_5915, Class499.aClass499_5709, Class499.aClass499_5979, Class499.aClass499_5628, Class499.aClass499_5725, Class499.aClass499_6602, Class499.aClass499_6496,
+				Class499.aClass499_6744, Class499.aClass499_6531, Class499.aClass499_6346, Class499.aClass499_6436, Class499.aClass499_6376, Class499.aClass499_6033, Class499.aClass499_5925, Class499.aClass499_6330, Class499.aClass499_5868, Class499.aClass499_5720, Class499.aClass499_6119, Class499.aClass499_5712, Class499.aClass499_6774, Class499.aClass499_6828, Class499.aClass499_6357, Class499.aClass499_6471, Class499.aClass499_5965, Class499.aClass499_6544, Class499.aClass499_5803,
+				Class499.aClass499_6617, Class499.aClass499_6276, Class499.aClass499_6518, Class499.aClass499_6720, Class499.aClass499_6402, Class499.aClass499_6307, Class499.aClass499_6801, Class499.aClass499_5652, Class499.aClass499_6647, Class499.aClass499_6809, Class499.aClass499_5593, Class499.aClass499_6459, Class499.aClass499_6525, Class499.aClass499_5876, Class499.aClass499_6167, Class499.aClass499_6564, Class499.aClass499_5738, Class499.aClass499_6245, Class499.aClass499_5812,
+				Class499.aClass499_6163, Class499.aClass499_5655, Class499.aClass499_6721, Class499.aClass499_5697, Class499.aClass499_6711, Class499.aClass499_6773, Class499.aClass499_6371, Class499.aClass499_6829, Class499.aClass499_5890, Class499.aClass499_6821, Class499.aClass499_6673, Class499.aClass499_6555, Class499.aClass499_6310, Class499.aClass499_5600, Class499.aClass499_5685, Class499.aClass499_6401, Class499.aClass499_6825, Class499.aClass499_5681, Class499.aClass499_6786,
+				Class499.aClass499_5837, Class499.aClass499_5592, Class499.aClass499_6582, Class499.aClass499_6209, Class499.aClass499_6095, Class499.aClass499_5726, Class499.aClass499_6378, Class499.aClass499_6624, Class499.aClass499_5968, Class499.aClass499_5606, Class499.aClass499_6093, Class499.aClass499_6340, Class499.aClass499_6177, Class499.aClass499_5801, Class499.aClass499_6153, Class499.aClass499_6539, Class499.aClass499_6425, Class499.aClass499_6679, Class499.aClass499_5734,
+				Class499.aClass499_6003, Class499.aClass499_5694, Class499.aClass499_6502, Class499.aClass499_6796, Class499.aClass499_6450, Class499.aClass499_5602, Class499.aClass499_6479, Class499.aClass499_6176, Class499.aClass499_5996, Class499.aClass499_6512, Class499.aClass499_6787, Class499.aClass499_6665, Class499.aClass499_6067, Class499.aClass499_6631, Class499.aClass499_6418, Class499.aClass499_6549, Class499.aClass499_6328, Class499.aClass499_5703, Class499.aClass499_5975,
+				Class499.aClass499_6007, Class499.aClass499_5818, Class499.aClass499_5689, Class499.aClass499_6396, Class499.aClass499_5774, Class499.aClass499_6334, Class499.aClass499_6605, Class499.aClass499_6481, Class499.aClass499_6499, Class499.aClass499_5663, Class499.aClass499_6168, Class499.aClass499_6393, Class499.aClass499_6666, Class499.aClass499_5777, Class499.aClass499_6597, Class499.aClass499_6329, Class499.aClass499_5823, Class499.aClass499_5958, Class499.aClass499_5851,
+				Class499.aClass499_6225, Class499.aClass499_6201, Class499.aClass499_5621, Class499.aClass499_6645, Class499.aClass499_6083, Class499.aClass499_5991, Class499.aClass499_6820, Class499.aClass499_5834, Class499.aClass499_6050, Class499.aClass499_6421, Class499.aClass499_6030, Class499.aClass499_5918, Class499.aClass499_6336, Class499.aClass499_6087, Class499.aClass499_6724, Class499.aClass499_5682, Class499.aClass499_6243, Class499.aClass499_6536, Class499.aClass499_6121,
+				Class499.aClass499_5997, Class499.aClass499_6772, Class499.aClass499_6299, Class499.aClass499_6054, Class499.aClass499_6550, Class499.aClass499_6124, Class499.aClass499_5810, Class499.aClass499_6683, Class499.aClass499_5912, Class499.aClass499_6736, Class499.aClass499_6715, Class499.aClass499_6028, Class499.aClass499_6375, Class499.aClass499_5669, Class499.aClass499_5947, Class499.aClass499_5754, Class499.aClass499_5569, Class499.aClass499_6294, Class499.aClass499_5850,
+				Class499.aClass499_5892, Class499.aClass499_5946, Class499.aClass499_6708, Class499.aClass499_6417, Class499.aClass499_6752, Class499.aClass499_5794, Class499.aClass499_6018, Class499.aClass499_6553, Class499.aClass499_6111, Class499.aClass499_6052, Class499.aClass499_6175, Class499.aClass499_5889, Class499.aClass499_5791, Class499.aClass499_6233, Class499.aClass499_6487, Class499.aClass499_6710, Class499.aClass499_6823, Class499.aClass499_6123, Class499.aClass499_6125,
+				Class499.aClass499_6365, Class499.aClass499_5643, Class499.aClass499_5566, Class499.aClass499_6137, Class499.aClass499_6061, Class499.aClass499_6099, Class499.aClass499_6134, Class499.aClass499_6056, Class499.aClass499_6590, Class499.aClass499_6090, Class499.aClass499_6804, Class499.aClass499_5901, Class499.aClass499_6506, Class499.aClass499_5701, Class499.aClass499_5839, Class499.aClass499_6511, Class499.aClass499_6628, Class499.aClass499_5586, Class499.aClass499_5577,
+				Class499.aClass499_5724, Class499.aClass499_5598, Class499.aClass499_5740, Class499.aClass499_6170, Class499.aClass499_6126, Class499.aClass499_6284, Class499.aClass499_5927, Class499.aClass499_5893, Class499.aClass499_6498, Class499.aClass499_6219, Class499.aClass499_5700, Class499.aClass499_6627, Class499.aClass499_5935, Class499.aClass499_6509, Class499.aClass499_6164, Class499.aClass499_6297, Class499.aClass499_5651, Class499.aClass499_5654, Class499.aClass499_6482,
+				Class499.aClass499_6092, Class499.aClass499_6695, Class499.aClass499_6199, Class499.aClass499_6473, Class499.aClass499_6453, Class499.aClass499_5913, Class499.aClass499_6653, Class499.aClass499_6461, Class499.aClass499_5788, Class499.aClass499_6622, Class499.aClass499_6270, Class499.aClass499_6356, Class499.aClass499_6534, Class499.aClass499_5609, Class499.aClass499_6314, Class499.aClass499_6049, Class499.aClass499_6002, Class499.aClass499_5809, Class499.aClass499_6029,
+				Class499.aClass499_5588, Class499.aClass499_5690, Class499.aClass499_5615, Class499.aClass499_6419, Class499.aClass499_6540, Class499.aClass499_6522, Class499.aClass499_6674, Class499.aClass499_6077, Class499.aClass499_6041, Class499.aClass499_5995, Class499.aClass499_5660, Class499.aClass499_6678, Class499.aClass499_6408, Class499.aClass499_5686, Class499.aClass499_6079, Class499.aClass499_6272, Class499.aClass499_6435, Class499.aClass499_6275, Class499.aClass499_6285,
+				Class499.aClass499_6486, Class499.aClass499_6242, Class499.aClass499_6010, Class499.aClass499_6230, Class499.aClass499_6319, Class499.aClass499_6735, Class499.aClass499_5822, Class499.aClass499_5951, Class499.aClass499_6759, Class499.aClass499_5678, Class499.aClass499_6552, Class499.aClass499_6249, Class499.aClass499_5802, Class499.aClass499_6462, Class499.aClass499_6383, Class499.aClass499_6818, Class499.aClass499_5785, Class499.aClass499_5661, Class499.aClass499_6684,
+				Class499.aClass499_6157, Class499.aClass499_6265, Class499.aClass499_5620, Class499.aClass499_6633, Class499.aClass499_6643, Class499.aClass499_6345, Class499.aClass499_6407, Class499.aClass499_6060, Class499.aClass499_5873, Class499.aClass499_6316, Class499.aClass499_6192, Class499.aClass499_5632, Class499.aClass499_6150, Class499.aClass499_6367, Class499.aClass499_6699, Class499.aClass499_6341, Class499.aClass499_5707, Class499.aClass499_6211, Class499.aClass499_5677,
+				Class499.aClass499_5699, Class499.aClass499_6248, Class499.aClass499_5675, Class499.aClass499_5752, Class499.aClass499_5982, Class499.aClass499_5855, Class499.aClass499_6229, Class499.aClass499_6529, Class499.aClass499_5573, Class499.aClass499_6269, Class499.aClass499_5714, Class499.aClass499_6603, Class499.aClass499_6798, Class499.aClass499_6611, Class499.aClass499_6806, Class499.aClass499_6132, Class499.aClass499_6563, Class499.aClass499_6200, Class499.aClass499_6771,
+				Class499.aClass499_5806, Class499.aClass499_5768, Class499.aClass499_6830, Class499.aClass499_5880, Class499.aClass499_5988, Class499.aClass499_6224, Class499.aClass499_6086, Class499.aClass499_5769, Class499.aClass499_6288, Class499.aClass499_5618, Class499.aClass499_6692, Class499.aClass499_5813, Class499.aClass499_5896, Class499.aClass499_6448, Class499.aClass499_6712, Class499.aClass499_6837, Class499.aClass499_5905, Class499.aClass499_6244, Class499.aClass499_6608,
+				Class499.aClass499_6619, Class499.aClass499_6795, Class499.aClass499_6289, Class499.aClass499_5735, Class499.aClass499_6409, Class499.aClass499_6451, Class499.aClass499_5693, Class499.aClass499_6057, Class499.aClass499_6745, Class499.aClass499_5924, Class499.aClass499_5619, Class499.aClass499_5845, Class499.aClass499_5756, Class499.aClass499_5978, Class499.aClass499_6766, Class499.aClass499_6811, Class499.aClass499_6439, Class499.aClass499_6273, Class499.aClass499_5933,
+				Class499.aClass499_5984, Class499.aClass499_6528, Class499.aClass499_6110, Class499.aClass499_5878, Class499.aClass499_5599, Class499.aClass499_5852, Class499.aClass499_6754, Class499.aClass499_6259, Class499.aClass499_6274, Class499.aClass499_6257, Class499.aClass499_5662, Class499.aClass499_6437, Class499.aClass499_5761, Class499.aClass499_5835, Class499.aClass499_6204, Class499.aClass499_6215, Class499.aClass499_6038, Class499.aClass499_6062, Class499.aClass499_6601,
+				Class499.aClass499_6682, Class499.aClass499_5865, Class499.aClass499_6503, Class499.aClass499_6390, Class499.aClass499_6231, Class499.aClass499_6317, Class499.aClass499_5748, Class499.aClass499_5817, Class499.aClass499_6442, Class499.aClass499_6146, Class499.aClass499_5641, Class499.aClass499_5771, Class499.aClass499_5728, Class499.aClass499_6652, Class499.aClass499_5702, Class499.aClass499_6308, Class499.aClass499_5962, Class499.aClass499_5657, Class499.aClass499_6045,
+				Class499.aClass499_5683, Class499.aClass499_5849, Class499.aClass499_6076, Class499.aClass499_6100, Class499.aClass499_5827, Class499.aClass499_6676, Class499.aClass499_5999, Class499.aClass499_6835, Class499.aClass499_6831, Class499.aClass499_6661, Class499.aClass499_6306, Class499.aClass499_5908, Class499.aClass499_6152, Class499.aClass499_6701, Class499.aClass499_6400, Class499.aClass499_6107, Class499.aClass499_5614, Class499.aClass499_5782, Class499.aClass499_5861,
+				Class499.aClass499_5718, Class499.aClass499_6301, Class499.aClass499_6625, Class499.aClass499_6006, Class499.aClass499_5985, Class499.aClass499_6348, Class499.aClass499_6596, Class499.aClass499_6190, Class499.aClass499_6303, Class499.aClass499_5860, Class499.aClass499_5948, Class499.aClass499_5934, Class499.aClass499_6387, Class499.aClass499_6246, Class499.aClass499_5856, Class499.aClass499_6803, Class499.aClass499_5750, Class499.aClass499_6510, Class499.aClass499_6011,
+				Class499.aClass499_5922, Class499.aClass499_5926, Class499.aClass499_6031, Class499.aClass499_6764, Class499.aClass499_6630, Class499.aClass499_6362, Class499.aClass499_6198, Class499.aClass499_6366, Class499.aClass499_6189, Class499.aClass499_6015, Class499.aClass499_5674, Class499.aClass499_6732, Class499.aClass499_5869, Class499.aClass499_6535, Class499.aClass499_6042, Class499.aClass499_5899, Class499.aClass499_6705, Class499.aClass499_6638, Class499.aClass499_5767,
+				Class499.aClass499_6797, Class499.aClass499_6228, Class499.aClass499_5575, Class499.aClass499_6113, Class499.aClass499_5989, Class499.aClass499_6318, Class499.aClass499_6022, Class499.aClass499_6635, Class499.aClass499_6281, Class499.aClass499_6271, Class499.aClass499_6530, Class499.aClass499_6449, Class499.aClass499_6420, Class499.aClass499_5708, Class499.aClass499_6063, Class499.aClass499_5727, Class499.aClass499_6048, Class499.aClass499_5853, Class499.aClass499_6576,
+				Class499.aClass499_5966, Class499.aClass499_6517, Class499.aClass499_6027, Class499.aClass499_6008, Class499.aClass499_6541, Class499.aClass499_6626, Class499.aClass499_6768, Class499.aClass499_6217, Class499.aClass499_5757, Class499.aClass499_6484, Class499.aClass499_6044, Class499.aClass499_6394, Class499.aClass499_6478, Class499.aClass499_5673, Class499.aClass499_5624, Class499.aClass499_6606, Class499.aClass499_6392, Class499.aClass499_6120, Class499.aClass499_6254,
+				Class499.aClass499_5665, Class499.aClass499_5857, Class499.aClass499_5579, Class499.aClass499_6398, Class499.aClass499_6642, Class499.aClass499_6136, Class499.aClass499_6064, Class499.aClass499_6355, Class499.aClass499_6727, Class499.aClass499_6423, Class499.aClass499_5627, Class499.aClass499_6068, Class499.aClass499_6464, Class499.aClass499_6347, Class499.aClass499_5706, Class499.aClass499_6234, Class499.aClass499_6385, Class499.aClass499_5959, Class499.aClass499_6490,
+				Class499.aClass499_5843, Class499.aClass499_5633, Class499.aClass499_6762, Class499.aClass499_5667, Class499.aClass499_6260, Class499.aClass499_6114, Class499.aClass499_5578, Class499.aClass499_6761, Class499.aClass499_6238, Class499.aClass499_6369, Class499.aClass499_5990, Class499.aClass499_5745, Class499.aClass499_6180, Class499.aClass499_6457, Class499.aClass499_5949, Class499.aClass499_6655, Class499.aClass499_6032, Class499.aClass499_5743, Class499.aClass499_5879,
+				Class499.aClass499_6632, Class499.aClass499_5888, Class499.aClass499_6836, Class499.aClass499_6382, Class499.aClass499_6322, Class499.aClass499_5751, Class499.aClass499_6703, Class499.aClass499_6043, Class499.aClass499_5648, Class499.aClass499_6559, Class499.aClass499_5695, Class499.aClass499_5565, Class499.aClass499_5955, Class499.aClass499_6258, Class499.aClass499_6616, Class499.aClass499_5898, Class499.aClass499_5741, Class499.aClass499_6495, Class499.aClass499_5670,
+				Class499.aClass499_6277, Class499.aClass499_5815, Class499.aClass499_5589, Class499.aClass499_5594, Class499.aClass499_6291, Class499.aClass499_6193, Class499.aClass499_6227, Class499.aClass499_6748, Class499.aClass499_6339, Class499.aClass499_5784, Class499.aClass499_6046, Class499.aClass499_6178, Class499.aClass499_6202, Class499.aClass499_6554, Class499.aClass499_5859, Class499.aClass499_6154, Class499.aClass499_5595, Class499.aClass499_6621, Class499.aClass499_5832,
+				Class499.aClass499_5644, Class499.aClass499_6195, Class499.aClass499_6491, Class499.aClass499_6194, Class499.aClass499_6349, Class499.aClass499_6059, Class499.aClass499_6508, Class499.aClass499_5916, Class499.aClass499_6475, Class499.aClass499_6078, Class499.aClass499_6034, Class499.aClass499_6216, Class499.aClass499_5954, Class499.aClass499_6516, Class499.aClass499_6116, Class499.aClass499_6546, Class499.aClass499_5943, Class499.aClass499_6161, Class499.aClass499_6827,
+				Class499.aClass499_6671, Class499.aClass499_5780, Class499.aClass499_5631, Class499.aClass499_6039, Class499.aClass499_6181, Class499.aClass499_5907, Class499.aClass499_6757, Class499.aClass499_5906, Class499.aClass499_5676, Class499.aClass499_5571, Class499.aClass499_6325, Class499.aClass499_6252, Class499.aClass499_6610, Class499.aClass499_6166, Class499.aClass499_6179, Class499.aClass499_6186, Class499.aClass499_6819, Class499.aClass499_6507, Class499.aClass499_5800,
+				Class499.aClass499_6686, Class499.aClass499_5783, Class499.aClass499_6681, Class499.aClass499_6222, Class499.aClass499_6581, Class499.aClass499_6005, Class499.aClass499_5847, Class499.aClass499_6527, Class499.aClass499_5829, Class499.aClass499_6446, Class499.aClass499_6207, Class499.aClass499_6648, Class499.aClass499_6220, Class499.aClass499_6397, Class499.aClass499_6187, Class499.aClass499_5762, Class499.aClass499_6089, Class499.aClass499_6352, Class499.aClass499_6680,
+				Class499.aClass499_6286, Class499.aClass499_6135, Class499.aClass499_5626, Class499.aClass499_5828, Class499.aClass499_6589, Class499.aClass499_6343, Class499.aClass499_5884, Class499.aClass499_5730, Class499.aClass499_5649, Class499.aClass499_6833, Class499.aClass499_5742, Class499.aClass499_5603, Class499.aClass499_6726, Class499.aClass499_6434, Class499.aClass499_5711, Class499.aClass499_5980, Class499.aClass499_6751, Class499.aClass499_6579, Class499.aClass499_6040,
+				Class499.aClass499_6282, Class499.aClass499_5993, Class499.aClass499_6368, Class499.aClass499_6213, Class499.aClass499_6148, Class499.aClass499_6468, Class499.aClass499_5929, Class499.aClass499_6169, Class499.aClass499_5799, Class499.aClass499_6428, Class499.aClass499_5987, Class499.aClass499_6058, Class499.aClass499_6729, Class499.aClass499_6664, Class499.aClass499_6493, Class499.aClass499_5787, Class499.aClass499_6524, Class499.aClass499_6262, Class499.aClass499_5698,
+				Class499.aClass499_6800, Class499.aClass499_6560, Class499.aClass499_6480, Class499.aClass499_5646, Class499.aClass499_6609, Class499.aClass499_6332, Class499.aClass499_5733, Class499.aClass499_5885, Class499.aClass499_5964, Class499.aClass499_6691, Class499.aClass499_6364, Class499.aClass499_5716, Class499.aClass499_5580, Class499.aClass499_6472, Class499.aClass499_6380, Class499.aClass499_6668, Class499.aClass499_6353, Class499.aClass499_6789, Class499.aClass499_6026,
+				Class499.aClass499_6208, Class499.aClass499_5574, Class499.aClass499_6805, Class499.aClass499_6570, Class499.aClass499_6586, Class499.aClass499_6305, Class499.aClass499_6474, Class499.aClass499_5866, Class499.aClass499_5986, Class499.aClass499_6452, Class499.aClass499_5612, Class499.aClass499_6702, Class499.aClass499_6210, Class499.aClass499_6424, Class499.aClass499_6302, Class499.aClass499_5961, Class499.aClass499_6162, Class499.aClass499_5819, Class499.aClass499_6717,
+				Class499.aClass499_6158, Class499.aClass499_5668, Class499.aClass499_6547, Class499.aClass499_6055, Class499.aClass499_5863, Class499.aClass499_6755, Class499.aClass499_6363, Class499.aClass499_6156, Class499.aClass499_5623, Class499.aClass499_6523, Class499.aClass499_6813, Class499.aClass499_6716, Class499.aClass499_6650, Class499.aClass499_5792, Class499.aClass499_6173, Class499.aClass499_5894, Class499.aClass499_5883, Class499.aClass499_6144, Class499.aClass499_6646,
+				Class499.aClass499_5647, Class499.aClass499_6497, Class499.aClass499_6373, Class499.aClass499_6097, Class499.aClass499_5625, Class499.aClass499_5717, Class499.aClass499_6689, Class499.aClass499_5870, Class499.aClass499_5936, Class499.aClass499_6600, Class499.aClass499_6326, Class499.aClass499_6053, Class499.aClass499_6775, Class499.aClass499_6440, Class499.aClass499_6279, Class499.aClass499_5591, Class499.aClass499_6381, Class499.aClass499_6657, Class499.aClass499_5920,
+				Class499.aClass499_6816, Class499.aClass499_6793, Class499.aClass499_6629, Class499.aClass499_6129, Class499.aClass499_6734, Class499.aClass499_6009, Class499.aClass499_6538, Class499.aClass499_6713, Class499.aClass499_5570, Class499.aClass499_6021, Class499.aClass499_6253, Class499.aClass499_6101, Class499.aClass499_6815, Class499.aClass499_6832, Class499.aClass499_5610, Class499.aClass499_6324, Class499.aClass499_6767, Class499.aClass499_5640, Class499.aClass499_5715,
+				Class499.aClass499_6494, Class499.aClass499_6000, Class499.aClass499_5722, Class499.aClass499_5759, Class499.aClass499_6256, Class499.aClass499_6004, Class499.aClass499_6690, Class499.aClass499_6084, Class499.aClass499_5613, Class499.aClass499_6024, Class499.aClass499_5983, Class499.aClass499_6218, Class499.aClass499_6091, Class499.aClass499_6172, Class499.aClass499_5760, Class499.aClass499_6261, Class499.aClass499_6778, Class499.aClass499_6463, Class499.aClass499_6441,
+				Class499.aClass499_6466, Class499.aClass499_6017, Class499.aClass499_6072, Class499.aClass499_6388, Class499.aClass499_5932, Class499.aClass499_5755, Class499.aClass499_6565, Class499.aClass499_5877, Class499.aClass499_6122, Class499.aClass499_6777, Class499.aClass499_6532, Class499.aClass499_6141, Class499.aClass499_6295, Class499.aClass499_6723, Class499.aClass499_6817, Class499.aClass499_6088, Class499.aClass499_6247, Class499.aClass499_6427, Class499.aClass499_6023,
+				Class499.aClass499_6802, Class499.aClass499_5981, Class499.aClass499_6149, Class499.aClass499_6147, Class499.aClass499_6438, Class499.aClass499_6753, Class499.aClass499_6577, Class499.aClass499_5937, Class499.aClass499_5841, Class499.aClass499_5607, Class499.aClass499_6662, Class499.aClass499_6196, Class499.aClass499_6333, Class499.aClass499_6660, Class499.aClass499_6443, Class499.aClass499_5749, Class499.aClass499_5891, Class499.aClass499_5895, Class499.aClass499_6707,
+				Class499.aClass499_6505, Class499.aClass499_5798, Class499.aClass499_5773, Class499.aClass499_6112, Class499.aClass499_6174, Class499.aClass499_6327, Class499.aClass499_5737, Class499.aClass499_6784, Class499.aClass499_5928, Class499.aClass499_6185, Class499.aClass499_6725, Class499.aClass499_6350, Class499.aClass499_6640, Class499.aClass499_6165, Class499.aClass499_6604, Class499.aClass499_6255, Class499.aClass499_6781, Class499.aClass499_5945, Class499.aClass499_6159,
+				Class499.aClass499_6542, Class499.aClass499_5659, Class499.aClass499_5953, Class499.aClass499_5605, Class499.aClass499_5903, Class499.aClass499_5944, Class499.aClass499_5804, Class499.aClass499_6765, Class499.aClass499_6592, Class499.aClass499_5590, Class499.aClass499_5994, Class499.aClass499_6551, Class499.aClass499_6807, Class499.aClass499_5846, Class499.aClass499_6212, Class499.aClass499_6567, Class499.aClass499_5680, Class499.aClass499_5939, Class499.aClass499_5921,
+				Class499.aClass499_5781, Class499.aClass499_6709, Class499.aClass499_5645, Class499.aClass499_5642, Class499.aClass499_5721, Class499.aClass499_5917, Class499.aClass499_5960, Class499.aClass499_6351, Class499.aClass499_6361, Class499.aClass499_6758, Class499.aClass499_5650, Class499.aClass499_6455, Class499.aClass499_5629, Class499.aClass499_6742, Class499.aClass499_6639, Class499.aClass499_6687, Class499.aClass499_6677, Class499.aClass499_5713, Class499.aClass499_6694,
+				Class499.aClass499_6812, Class499.aClass499_5776, Class499.aClass499_5844, Class499.aClass499_6221, Class499.aClass499_5886, Class499.aClass499_6814, Class499.aClass499_5974, Class499.aClass499_6763, Class499.aClass499_6128, Class499.aClass499_6426, Class499.aClass499_6583, Class499.aClass499_6001, Class499.aClass499_6782, Class499.aClass499_6456, Class499.aClass499_6311, Class499.aClass499_5604, Class499.aClass499_6572, Class499.aClass499_5679, Class499.aClass499_5840,
+				Class499.aClass499_5634, Class499.aClass499_6338, Class499.aClass499_6066, Class499.aClass499_6133, Class499.aClass499_5704, Class499.aClass499_5808, Class499.aClass499_6413, Class499.aClass499_5658, Class499.aClass499_6304, Class499.aClass499_6488, Class499.aClass499_5967, Class499.aClass499_6109, Class499.aClass499_5775, Class499.aClass499_5807, Class499.aClass499_6454, Class499.aClass499_6670, Class499.aClass499_6739, Class499.aClass499_6422, Class499.aClass499_6037,
+				Class499.aClass499_6620, Class499.aClass499_6571, Class499.aClass499_5710, Class499.aClass499_5795, Class499.aClass499_6143, Class499.aClass499_6098, Class499.aClass499_5882, Class499.aClass499_5765, Class499.aClass499_5972, Class499.aClass499_5952, Class499.aClass499_6791, Class499.aClass499_6504, Class499.aClass499_6738, Class499.aClass499_6264, Class499.aClass499_6115, Class499.aClass499_5568, Class499.aClass499_5862, Class499.aClass499_6769, Class499.aClass499_6573,
+				Class499.aClass499_6404, Class499.aClass499_6012, Class499.aClass499_5744, Class499.aClass499_6140, Class499.aClass499_6477, Class499.aClass499_6411, Class499.aClass499_5998, Class499.aClass499_5770, Class499.aClass499_5904, Class499.aClass499_6598, Class499.aClass499_6618, Class499.aClass499_6562, Class499.aClass499_5567, Class499.aClass499_5617, Class499.aClass499_5831, Class499.aClass499_6533, Class499.aClass499_6292, Class499.aClass499_6591, Class499.aClass499_6693,
+				Class499.aClass499_6335, Class499.aClass499_6654, Class499.aClass499_6205, Class499.aClass499_6700, Class499.aClass499_6718, Class499.aClass499_5696, Class499.aClass499_6794, Class499.aClass499_6151, Class499.aClass499_6320, Class499.aClass499_6410, Class499.aClass499_6429, Class499.aClass499_5919, Class499.aClass499_6188, Class499.aClass499_5950, Class499.aClass499_5611, Class499.aClass499_6760, Class499.aClass499_6584, Class499.aClass499_6743 });
+	}
+
+	public static boolean method5828(char c, int i) {
+		if (c > 0 && c < '\u0080' || c >= '\u00a0' && c <= '\u00ff')
+			return true;
+		if (c != 0) {
+			char[] cs = Class667.aCharArray8534;
+			for (int i_0_ = 0; i_0_ < cs.length; i_0_++) {
+				char c_1_ = cs[i_0_];
+				if (c_1_ == c)
+					return true;
 			}
-			byte[] is_17_ = is_8_;
-			is_8_ = is_7_;
-			is_7_ = is_17_;
-			i_0_ = i_5_;
-			i_1_ = i_6_;
-			i_5_ >>= 1;
-			i_6_ >>= 1;
-			i_4_ >>= 1;
-			i_3_++;
 		}
+		return false;
 	}
 
-	public void finalize() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	boolean method260() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = method7817();
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glEnable(anInt5412);
-		OpenGL.glGenerateMipmapEXT(anInt5412);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glDisable(anInt5412);
-		aBool5415 = true;
-		method7827();
-		method7805(i);
-		return true;
-	}
-
-	Class480(Class180_Sub2_Sub1 class180_sub2_sub1, int i, Class157 class157, Class184 class184, int i_18_, boolean bool) {
-		aClass180_Sub2_Sub1_5416 = class180_sub2_sub1;
-		anInt5412 = i;
-		aClass157_5413 = class157;
-		aClass184_5409 = class184;
-		aBool5415 = bool;
-		anInt5417 = i_18_;
-		OpenGL.glGenTextures(1, anIntArray5418, 0);
-		anInt5411 = anIntArray5418[0];
-		method7827();
-		method7805(0);
-	}
-
-	public void method277() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = aClass180_Sub2_Sub1_5416.method15171();
-		int i_19_ = aClass180_Sub2_Sub1_5416.anIntArray11478[i];
-		if (i_19_ != anInt5412) {
-			if (i_19_ != 0) {
-				OpenGL.glBindTexture(i_19_, 0);
-				OpenGL.glDisable(i_19_);
-			}
-			OpenGL.glEnable(anInt5412);
-			aClass180_Sub2_Sub1_5416.anIntArray11478[i] = anInt5412;
+	static String method5829(Class251 class251, int i, short i_2_) {
+		if (!client.method10389(class251).method9472(i, -1495350477) && class251.anObjectArray2705 == null)
+			return null;
+		if (null == class251.aStringArray2657 || class251.aStringArray2657.length <= i || null == class251.aStringArray2657[i] || class251.aStringArray2657[i].trim().length() == 0) {
+			if (client.aBool11010)
+				return new StringBuilder().append("Hidden-").append(i).toString();
+			return null;
 		}
-		OpenGL.glBindTexture(anInt5412, anInt5411);
+		return class251.aStringArray2657[i];
 	}
 
-	void method7804(int i, int i_20_, int i_21_, float[] fs) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_20_ > 0 && !Class143.method2383(i_20_, 1946512584))
-			throw new IllegalArgumentException("");
-		if (i_21_ > 0 && !Class143.method2383(i_21_, 1797046402))
-			throw new IllegalArgumentException("");
-		int i_22_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_23_ = 0;
-		int i_24_ = i_20_ < i_21_ ? i_20_ : i_21_;
-		int i_25_ = i_20_ >> 1;
-		int i_26_ = i_21_ >> 1;
-		float[] fs_27_ = fs;
-		float[] fs_28_ = new float[i_25_ * i_26_ * i_22_];
-		for (;;) {
-			OpenGL.glTexImage2Df(i, i_23_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_20_, i_21_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5126, fs_27_, 0);
-			if (i_24_ <= 1)
-				break;
-			int i_29_ = i_20_ * i_22_;
-			for (int i_30_ = 0; i_30_ < i_22_; i_30_++) {
-				int i_31_ = i_30_;
-				int i_32_ = i_30_;
-				int i_33_ = i_32_ + i_29_;
-				for (int i_34_ = 0; i_34_ < i_26_; i_34_++) {
-					for (int i_35_ = 0; i_35_ < i_25_; i_35_++) {
-						float f = fs_27_[i_32_];
-						i_32_ += i_22_;
-						f += fs_27_[i_32_];
-						i_32_ += i_22_;
-						f += fs_27_[i_33_];
-						i_33_ += i_22_;
-						f += fs_27_[i_33_];
-						i_33_ += i_22_;
-						fs_28_[i_31_] = f * 0.25F;
-						i_31_ += i_22_;
-					}
-					i_32_ += i_29_;
-					i_33_ += i_29_;
-				}
-			}
-			float[] fs_36_ = fs_28_;
-			fs_28_ = fs_27_;
-			fs_27_ = fs_36_;
-			i_20_ = i_25_;
-			i_21_ = i_26_;
-			i_25_ >>= 1;
-			i_26_ >>= 1;
-			i_24_ >>= 1;
-			i_23_++;
-		}
-	}
-
-	void method7805(int i) {
-		aClass180_Sub2_Sub1_5416.anInt9445 -= i;
-		aClass180_Sub2_Sub1_5416.anInt9445 += method7817();
-	}
-
-	void method7806(int i) {
-		aClass180_Sub2_Sub1_5416.anInt9445 -= i;
-		aClass180_Sub2_Sub1_5416.anInt9445 += method7817();
-	}
-
-	public void method129() {
-		if (anInt5411 != 0) {
-			aClass180_Sub2_Sub1_5416.anInt9445 -= method7817();
-			int[] is = new int[1];
-			is[0] = anInt5411;
-			OpenGL.glDeleteTextures(1, is, 0);
-			anInt5411 = 0;
-		}
-	}
-
-	void method7807() {
-		if (anInt5411 != 0) {
-			aClass180_Sub2_Sub1_5416.method18005(anInt5411, method7817());
-			anInt5411 = 0;
-		}
-	}
-
-	int method7808() {
-		int i = (aClass157_5413.anInt1722 * -1216378097 * (aClass184_5409.anInt2111 * 408933829) * anInt5417);
-		return aBool5415 ? i * 4 / 3 : i;
-	}
-
-	void method7809(int i, int i_37_, int i_38_, float[] fs) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_37_ > 0 && !Class143.method2383(i_37_, 1997460434))
-			throw new IllegalArgumentException("");
-		if (i_38_ > 0 && !Class143.method2383(i_38_, 2045166199))
-			throw new IllegalArgumentException("");
-		int i_39_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_40_ = 0;
-		int i_41_ = i_37_ < i_38_ ? i_37_ : i_38_;
-		int i_42_ = i_37_ >> 1;
-		int i_43_ = i_38_ >> 1;
-		float[] fs_44_ = fs;
-		float[] fs_45_ = new float[i_42_ * i_43_ * i_39_];
-		for (;;) {
-			OpenGL.glTexImage2Df(i, i_40_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_37_, i_38_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5126, fs_44_, 0);
-			if (i_41_ <= 1)
-				break;
-			int i_46_ = i_37_ * i_39_;
-			for (int i_47_ = 0; i_47_ < i_39_; i_47_++) {
-				int i_48_ = i_47_;
-				int i_49_ = i_47_;
-				int i_50_ = i_49_ + i_46_;
-				for (int i_51_ = 0; i_51_ < i_43_; i_51_++) {
-					for (int i_52_ = 0; i_52_ < i_42_; i_52_++) {
-						float f = fs_44_[i_49_];
-						i_49_ += i_39_;
-						f += fs_44_[i_49_];
-						i_49_ += i_39_;
-						f += fs_44_[i_50_];
-						i_50_ += i_39_;
-						f += fs_44_[i_50_];
-						i_50_ += i_39_;
-						fs_45_[i_48_] = f * 0.25F;
-						i_48_ += i_39_;
-					}
-					i_49_ += i_46_;
-					i_50_ += i_46_;
-				}
-			}
-			float[] fs_53_ = fs_45_;
-			fs_45_ = fs_44_;
-			fs_44_ = fs_53_;
-			i_37_ = i_42_;
-			i_38_ = i_43_;
-			i_42_ >>= 1;
-			i_43_ >>= 1;
-			i_41_ >>= 1;
-			i_40_++;
-		}
-	}
-
-	int method7810() {
-		int i = (aClass157_5413.anInt1722 * -1216378097 * (aClass184_5409.anInt2111 * 408933829) * anInt5417);
-		return aBool5415 ? i * 4 / 3 : i;
-	}
-
-	void method7811() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	void method7812() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	void method7813() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	void method7814() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	void method7815() throws Throwable {
-		method7807();
-		super.finalize();
-	}
-
-	void method7816() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass343_5414 == Class343.aClass343_3692) {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9987 : 9729);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9729);
-		} else {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9984 : 9728);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9728);
-		}
-	}
-
-	boolean method236() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = method7817();
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glEnable(anInt5412);
-		OpenGL.glGenerateMipmapEXT(anInt5412);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glDisable(anInt5412);
-		aBool5415 = true;
-		method7827();
-		method7805(i);
-		return true;
-	}
-
-	public void method275() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = aClass180_Sub2_Sub1_5416.method15171();
-		int i_54_ = aClass180_Sub2_Sub1_5416.anIntArray11478[i];
-		if (i_54_ != anInt5412) {
-			if (i_54_ != 0) {
-				OpenGL.glBindTexture(i_54_, 0);
-				OpenGL.glDisable(i_54_);
-			}
-			OpenGL.glEnable(anInt5412);
-			aClass180_Sub2_Sub1_5416.anIntArray11478[i] = anInt5412;
-		}
-		OpenGL.glBindTexture(anInt5412, anInt5411);
-	}
-
-	public void method276() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = aClass180_Sub2_Sub1_5416.method15171();
-		int i_55_ = aClass180_Sub2_Sub1_5416.anIntArray11478[i];
-		if (i_55_ != anInt5412) {
-			if (i_55_ != 0) {
-				OpenGL.glBindTexture(i_55_, 0);
-				OpenGL.glDisable(i_55_);
-			}
-			OpenGL.glEnable(anInt5412);
-			aClass180_Sub2_Sub1_5416.anIntArray11478[i] = anInt5412;
-		}
-		OpenGL.glBindTexture(anInt5412, anInt5411);
-	}
-
-	int method7817() {
-		int i = (aClass157_5413.anInt1722 * -1216378097 * (aClass184_5409.anInt2111 * 408933829) * anInt5417);
-		return aBool5415 ? i * 4 / 3 : i;
-	}
-
-	void method7818(int i, int i_56_, int i_57_, int[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_56_ > 0 && !Class143.method2383(i_56_, 1868978222))
-			throw new IllegalArgumentException("");
-		if (i_57_ > 0 && !Class143.method2383(i_57_, 2034100901))
-			throw new IllegalArgumentException("");
-		if (aClass157_5413 != Class157.aClass157_1723)
-			throw new IllegalArgumentException("");
-		int i_58_ = 0;
-		int i_59_ = i_56_ < i_57_ ? i_56_ : i_57_;
-		int i_60_ = i_56_ >> 1;
-		int i_61_ = i_57_ >> 1;
-		int[] is_62_ = is;
-		int[] is_63_ = new int[i_60_ * i_61_];
-		for (;;) {
-			OpenGL.glTexImage2Di(i, i_58_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_56_, i_57_, 0, 32993, aClass180_Sub2_Sub1_5416.anInt11495, is_62_, 0);
-			if (i_59_ <= 1)
-				break;
-			int i_64_ = 0;
-			int i_65_ = 0;
-			int i_66_ = i_65_ + i_56_;
-			for (int i_67_ = 0; i_67_ < i_61_; i_67_++) {
-				for (int i_68_ = 0; i_68_ < i_60_; i_68_++) {
-					int i_69_ = is_62_[i_65_++];
-					int i_70_ = is_62_[i_65_++];
-					int i_71_ = is_62_[i_66_++];
-					int i_72_ = is_62_[i_66_++];
-					int i_73_ = i_69_ >> 24 & 0xff;
-					int i_74_ = i_69_ >> 16 & 0xff;
-					int i_75_ = i_69_ >> 8 & 0xff;
-					int i_76_ = i_69_ & 0xff;
-					i_73_ += i_70_ >> 24 & 0xff;
-					i_74_ += i_70_ >> 16 & 0xff;
-					i_75_ += i_70_ >> 8 & 0xff;
-					i_76_ += i_70_ & 0xff;
-					i_73_ += i_71_ >> 24 & 0xff;
-					i_74_ += i_71_ >> 16 & 0xff;
-					i_75_ += i_71_ >> 8 & 0xff;
-					i_76_ += i_71_ & 0xff;
-					i_73_ += i_72_ >> 24 & 0xff;
-					i_74_ += i_72_ >> 16 & 0xff;
-					i_75_ += i_72_ >> 8 & 0xff;
-					i_76_ += i_72_ & 0xff;
-					is_63_[i_64_++] = ((i_73_ & 0x3fc) << 22 | (i_74_ & 0x3fc) << 14 | (i_75_ & 0x3fc) << 6 | (i_76_ & 0x3fc) >> 2);
-				}
-				i_65_ += i_56_;
-				i_66_ += i_56_;
-			}
-			int[] is_77_ = is_63_;
-			is_63_ = is_62_;
-			is_62_ = is_77_;
-			i_56_ = i_60_;
-			i_57_ = i_61_;
-			i_60_ >>= 1;
-			i_61_ >>= 1;
-			i_59_ >>= 1;
-			i_58_++;
-		}
-	}
-
-	void method7819() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass343_5414 == Class343.aClass343_3692) {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9987 : 9729);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9729);
-		} else {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9984 : 9728);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9728);
-		}
-	}
-
-	void method7820() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass343_5414 == Class343.aClass343_3692) {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9987 : 9729);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9729);
-		} else {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9984 : 9728);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9728);
-		}
-	}
-
-	void method7821(int i, int i_78_, int i_79_, int[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_78_ > 0 && !Class143.method2383(i_78_, 2062704095))
-			throw new IllegalArgumentException("");
-		if (i_79_ > 0 && !Class143.method2383(i_79_, 1508977159))
-			throw new IllegalArgumentException("");
-		if (aClass157_5413 != Class157.aClass157_1723)
-			throw new IllegalArgumentException("");
-		int i_80_ = 0;
-		int i_81_ = i_78_ < i_79_ ? i_78_ : i_79_;
-		int i_82_ = i_78_ >> 1;
-		int i_83_ = i_79_ >> 1;
-		int[] is_84_ = is;
-		int[] is_85_ = new int[i_82_ * i_83_];
-		for (;;) {
-			OpenGL.glTexImage2Di(i, i_80_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_78_, i_79_, 0, 32993, aClass180_Sub2_Sub1_5416.anInt11495, is_84_, 0);
-			if (i_81_ <= 1)
-				break;
-			int i_86_ = 0;
-			int i_87_ = 0;
-			int i_88_ = i_87_ + i_78_;
-			for (int i_89_ = 0; i_89_ < i_83_; i_89_++) {
-				for (int i_90_ = 0; i_90_ < i_82_; i_90_++) {
-					int i_91_ = is_84_[i_87_++];
-					int i_92_ = is_84_[i_87_++];
-					int i_93_ = is_84_[i_88_++];
-					int i_94_ = is_84_[i_88_++];
-					int i_95_ = i_91_ >> 24 & 0xff;
-					int i_96_ = i_91_ >> 16 & 0xff;
-					int i_97_ = i_91_ >> 8 & 0xff;
-					int i_98_ = i_91_ & 0xff;
-					i_95_ += i_92_ >> 24 & 0xff;
-					i_96_ += i_92_ >> 16 & 0xff;
-					i_97_ += i_92_ >> 8 & 0xff;
-					i_98_ += i_92_ & 0xff;
-					i_95_ += i_93_ >> 24 & 0xff;
-					i_96_ += i_93_ >> 16 & 0xff;
-					i_97_ += i_93_ >> 8 & 0xff;
-					i_98_ += i_93_ & 0xff;
-					i_95_ += i_94_ >> 24 & 0xff;
-					i_96_ += i_94_ >> 16 & 0xff;
-					i_97_ += i_94_ >> 8 & 0xff;
-					i_98_ += i_94_ & 0xff;
-					is_85_[i_86_++] = ((i_95_ & 0x3fc) << 22 | (i_96_ & 0x3fc) << 14 | (i_97_ & 0x3fc) << 6 | (i_98_ & 0x3fc) >> 2);
-				}
-				i_87_ += i_78_;
-				i_88_ += i_78_;
-			}
-			int[] is_99_ = is_85_;
-			is_85_ = is_84_;
-			is_84_ = is_99_;
-			i_78_ = i_82_;
-			i_79_ = i_83_;
-			i_82_ >>= 1;
-			i_83_ >>= 1;
-			i_81_ >>= 1;
-			i_80_++;
-		}
-	}
-
-	void method7822(int i, int i_100_, int i_101_, int[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_100_ > 0 && !Class143.method2383(i_100_, 1577785495))
-			throw new IllegalArgumentException("");
-		if (i_101_ > 0 && !Class143.method2383(i_101_, 1697828809))
-			throw new IllegalArgumentException("");
-		if (aClass157_5413 != Class157.aClass157_1723)
-			throw new IllegalArgumentException("");
-		int i_102_ = 0;
-		int i_103_ = i_100_ < i_101_ ? i_100_ : i_101_;
-		int i_104_ = i_100_ >> 1;
-		int i_105_ = i_101_ >> 1;
-		int[] is_106_ = is;
-		int[] is_107_ = new int[i_104_ * i_105_];
-		for (;;) {
-			OpenGL.glTexImage2Di(i, i_102_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_100_, i_101_, 0, 32993, aClass180_Sub2_Sub1_5416.anInt11495, is_106_, 0);
-			if (i_103_ <= 1)
-				break;
-			int i_108_ = 0;
-			int i_109_ = 0;
-			int i_110_ = i_109_ + i_100_;
-			for (int i_111_ = 0; i_111_ < i_105_; i_111_++) {
-				for (int i_112_ = 0; i_112_ < i_104_; i_112_++) {
-					int i_113_ = is_106_[i_109_++];
-					int i_114_ = is_106_[i_109_++];
-					int i_115_ = is_106_[i_110_++];
-					int i_116_ = is_106_[i_110_++];
-					int i_117_ = i_113_ >> 24 & 0xff;
-					int i_118_ = i_113_ >> 16 & 0xff;
-					int i_119_ = i_113_ >> 8 & 0xff;
-					int i_120_ = i_113_ & 0xff;
-					i_117_ += i_114_ >> 24 & 0xff;
-					i_118_ += i_114_ >> 16 & 0xff;
-					i_119_ += i_114_ >> 8 & 0xff;
-					i_120_ += i_114_ & 0xff;
-					i_117_ += i_115_ >> 24 & 0xff;
-					i_118_ += i_115_ >> 16 & 0xff;
-					i_119_ += i_115_ >> 8 & 0xff;
-					i_120_ += i_115_ & 0xff;
-					i_117_ += i_116_ >> 24 & 0xff;
-					i_118_ += i_116_ >> 16 & 0xff;
-					i_119_ += i_116_ >> 8 & 0xff;
-					i_120_ += i_116_ & 0xff;
-					is_107_[i_108_++] = ((i_117_ & 0x3fc) << 22 | (i_118_ & 0x3fc) << 14 | (i_119_ & 0x3fc) << 6 | (i_120_ & 0x3fc) >> 2);
-				}
-				i_109_ += i_100_;
-				i_110_ += i_100_;
-			}
-			int[] is_121_ = is_107_;
-			is_107_ = is_106_;
-			is_106_ = is_121_;
-			i_100_ = i_104_;
-			i_101_ = i_105_;
-			i_104_ >>= 1;
-			i_105_ >>= 1;
-			i_103_ >>= 1;
-			i_102_++;
-		}
-	}
-
-	void method7823(int i) {
-		aClass180_Sub2_Sub1_5416.anInt9445 -= i;
-		aClass180_Sub2_Sub1_5416.anInt9445 += method7817();
-	}
-
-	void method7824(int i, int i_122_, int i_123_, byte[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_122_ > 0 && !Class143.method2383(i_122_, 1772284441))
-			throw new IllegalArgumentException("");
-		if (i_123_ > 0 && !Class143.method2383(i_123_, 2097794939))
-			throw new IllegalArgumentException("");
-		int i_124_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_125_ = 0;
-		int i_126_ = i_122_ < i_123_ ? i_122_ : i_123_;
-		int i_127_ = i_122_ >> 1;
-		int i_128_ = i_123_ >> 1;
-		byte[] is_129_ = is;
-		byte[] is_130_ = new byte[i_127_ * i_128_ * i_124_];
-		for (;;) {
-			OpenGL.glTexImage2Dub(i, i_125_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_122_, i_123_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5121, is_129_, 0);
-			if (i_126_ <= 1)
-				break;
-			int i_131_ = i_122_ * i_124_;
-			for (int i_132_ = 0; i_132_ < i_124_; i_132_++) {
-				int i_133_ = i_132_;
-				int i_134_ = i_132_;
-				int i_135_ = i_134_ + i_131_;
-				for (int i_136_ = 0; i_136_ < i_128_; i_136_++) {
-					for (int i_137_ = 0; i_137_ < i_127_; i_137_++) {
-						int i_138_ = is_129_[i_134_];
-						i_134_ += i_124_;
-						i_138_ += is_129_[i_134_];
-						i_134_ += i_124_;
-						i_138_ += is_129_[i_135_];
-						i_135_ += i_124_;
-						i_138_ += is_129_[i_135_];
-						i_135_ += i_124_;
-						is_130_[i_133_] = (byte) (i_138_ >> 2);
-						i_133_ += i_124_;
-					}
-					i_134_ += i_131_;
-					i_135_ += i_131_;
-				}
-			}
-			byte[] is_139_ = is_130_;
-			is_130_ = is_129_;
-			is_129_ = is_139_;
-			i_122_ = i_127_;
-			i_123_ = i_128_;
-			i_127_ >>= 1;
-			i_128_ >>= 1;
-			i_126_ >>= 1;
-			i_125_++;
-		}
-	}
-
-	void method7825(int i, int i_140_, int i_141_, float[] fs) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_140_ > 0 && !Class143.method2383(i_140_, 1552433163))
-			throw new IllegalArgumentException("");
-		if (i_141_ > 0 && !Class143.method2383(i_141_, 1763336093))
-			throw new IllegalArgumentException("");
-		int i_142_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_143_ = 0;
-		int i_144_ = i_140_ < i_141_ ? i_140_ : i_141_;
-		int i_145_ = i_140_ >> 1;
-		int i_146_ = i_141_ >> 1;
-		float[] fs_147_ = fs;
-		float[] fs_148_ = new float[i_145_ * i_146_ * i_142_];
-		for (;;) {
-			OpenGL.glTexImage2Df(i, i_143_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_140_, i_141_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5126, fs_147_, 0);
-			if (i_144_ <= 1)
-				break;
-			int i_149_ = i_140_ * i_142_;
-			for (int i_150_ = 0; i_150_ < i_142_; i_150_++) {
-				int i_151_ = i_150_;
-				int i_152_ = i_150_;
-				int i_153_ = i_152_ + i_149_;
-				for (int i_154_ = 0; i_154_ < i_146_; i_154_++) {
-					for (int i_155_ = 0; i_155_ < i_145_; i_155_++) {
-						float f = fs_147_[i_152_];
-						i_152_ += i_142_;
-						f += fs_147_[i_152_];
-						i_152_ += i_142_;
-						f += fs_147_[i_153_];
-						i_153_ += i_142_;
-						f += fs_147_[i_153_];
-						i_153_ += i_142_;
-						fs_148_[i_151_] = f * 0.25F;
-						i_151_ += i_142_;
-					}
-					i_152_ += i_149_;
-					i_153_ += i_149_;
-				}
-			}
-			float[] fs_156_ = fs_148_;
-			fs_148_ = fs_147_;
-			fs_147_ = fs_156_;
-			i_140_ = i_145_;
-			i_141_ = i_146_;
-			i_145_ >>= 1;
-			i_146_ >>= 1;
-			i_144_ >>= 1;
-			i_143_++;
-		}
-	}
-
-	void method7826(int i, int i_157_, int i_158_, float[] fs) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_157_ > 0 && !Class143.method2383(i_157_, 2004254275))
-			throw new IllegalArgumentException("");
-		if (i_158_ > 0 && !Class143.method2383(i_158_, 1993234630))
-			throw new IllegalArgumentException("");
-		int i_159_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_160_ = 0;
-		int i_161_ = i_157_ < i_158_ ? i_157_ : i_158_;
-		int i_162_ = i_157_ >> 1;
-		int i_163_ = i_158_ >> 1;
-		float[] fs_164_ = fs;
-		float[] fs_165_ = new float[i_162_ * i_163_ * i_159_];
-		for (;;) {
-			OpenGL.glTexImage2Df(i, i_160_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_157_, i_158_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5126, fs_164_, 0);
-			if (i_161_ <= 1)
-				break;
-			int i_166_ = i_157_ * i_159_;
-			for (int i_167_ = 0; i_167_ < i_159_; i_167_++) {
-				int i_168_ = i_167_;
-				int i_169_ = i_167_;
-				int i_170_ = i_169_ + i_166_;
-				for (int i_171_ = 0; i_171_ < i_163_; i_171_++) {
-					for (int i_172_ = 0; i_172_ < i_162_; i_172_++) {
-						float f = fs_164_[i_169_];
-						i_169_ += i_159_;
-						f += fs_164_[i_169_];
-						i_169_ += i_159_;
-						f += fs_164_[i_170_];
-						i_170_ += i_159_;
-						f += fs_164_[i_170_];
-						i_170_ += i_159_;
-						fs_165_[i_168_] = f * 0.25F;
-						i_168_ += i_159_;
-					}
-					i_169_ += i_166_;
-					i_170_ += i_166_;
-				}
-			}
-			float[] fs_173_ = fs_165_;
-			fs_165_ = fs_164_;
-			fs_164_ = fs_173_;
-			i_157_ = i_162_;
-			i_158_ = i_163_;
-			i_162_ >>= 1;
-			i_163_ >>= 1;
-			i_161_ >>= 1;
-			i_160_++;
-		}
-	}
-
-	public void method274(Class343 class343) {
-		if (aClass343_5414 != class343) {
-			aClass343_5414 = class343;
-			method7827();
-		}
-	}
-
-	void method7827() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass343_5414 == Class343.aClass343_3692) {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9987 : 9729);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9729);
-		} else {
-			OpenGL.glTexParameteri(anInt5412, 10241, aBool5415 ? 9984 : 9728);
-			OpenGL.glTexParameteri(anInt5412, 10240, 9728);
-		}
-	}
-
-	void method7828(int i) {
-		aClass180_Sub2_Sub1_5416.anInt9445 -= i;
-		aClass180_Sub2_Sub1_5416.anInt9445 += method7817();
-	}
-
-	int method7829() {
-		int i = (aClass157_5413.anInt1722 * -1216378097 * (aClass184_5409.anInt2111 * 408933829) * anInt5417);
-		return aBool5415 ? i * 4 / 3 : i;
-	}
-
-	int method7830() {
-		int i = (aClass157_5413.anInt1722 * -1216378097 * (aClass184_5409.anInt2111 * 408933829) * anInt5417);
-		return aBool5415 ? i * 4 / 3 : i;
-	}
-
-	boolean method240() {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		int i = method7817();
-		aClass180_Sub2_Sub1_5416.method14971(this);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glEnable(anInt5412);
-		OpenGL.glGenerateMipmapEXT(anInt5412);
-		if (aClass180_Sub2_Sub1_5416.aBool11508)
-			OpenGL.glDisable(anInt5412);
-		aBool5415 = true;
-		method7827();
-		method7805(i);
-		return true;
-	}
-
-	void method7831(int i, int i_174_, int i_175_, byte[] is) {
-		if (anInt5411 == 0)
-			throw new IllegalStateException("");
-		if (i_174_ > 0 && !Class143.method2383(i_174_, 2125475763))
-			throw new IllegalArgumentException("");
-		if (i_175_ > 0 && !Class143.method2383(i_175_, 2141881904))
-			throw new IllegalArgumentException("");
-		int i_176_ = aClass157_5413.anInt1722 * -1216378097;
-		int i_177_ = 0;
-		int i_178_ = i_174_ < i_175_ ? i_174_ : i_175_;
-		int i_179_ = i_174_ >> 1;
-		int i_180_ = i_175_ >> 1;
-		byte[] is_181_ = is;
-		byte[] is_182_ = new byte[i_179_ * i_180_ * i_176_];
-		for (;;) {
-			OpenGL.glTexImage2Dub(i, i_177_, Class180_Sub2_Sub1.method18015(aClass157_5413, aClass184_5409), i_174_, i_175_, 0, Class180_Sub2_Sub1.method18008(aClass157_5413), 5121, is_181_, 0);
-			if (i_178_ <= 1)
-				break;
-			int i_183_ = i_174_ * i_176_;
-			for (int i_184_ = 0; i_184_ < i_176_; i_184_++) {
-				int i_185_ = i_184_;
-				int i_186_ = i_184_;
-				int i_187_ = i_186_ + i_183_;
-				for (int i_188_ = 0; i_188_ < i_180_; i_188_++) {
-					for (int i_189_ = 0; i_189_ < i_179_; i_189_++) {
-						int i_190_ = is_181_[i_186_];
-						i_186_ += i_176_;
-						i_190_ += is_181_[i_186_];
-						i_186_ += i_176_;
-						i_190_ += is_181_[i_187_];
-						i_187_ += i_176_;
-						i_190_ += is_181_[i_187_];
-						i_187_ += i_176_;
-						is_182_[i_185_] = (byte) (i_190_ >> 2);
-						i_185_ += i_176_;
-					}
-					i_186_ += i_183_;
-					i_187_ += i_183_;
-				}
-			}
-			byte[] is_191_ = is_182_;
-			is_182_ = is_181_;
-			is_181_ = is_191_;
-			i_174_ = i_179_;
-			i_175_ = i_180_;
-			i_179_ >>= 1;
-			i_180_ >>= 1;
-			i_178_ >>= 1;
-			i_177_++;
-		}
-	}
-
-	void method7832() {
-		if (anInt5411 != 0) {
-			aClass180_Sub2_Sub1_5416.method18005(anInt5411, method7817());
-			anInt5411 = 0;
-		}
-	}
-
-	void method7833() {
-		if (anInt5411 != 0) {
-			aClass180_Sub2_Sub1_5416.method18005(anInt5411, method7817());
-			anInt5411 = 0;
-		}
+	static final void method5830(Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		Class153.method1869(string, (byte) 1);
 	}
 }

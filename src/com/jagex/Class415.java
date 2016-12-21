@@ -3,126 +3,182 @@
  */
 package com.jagex;
 
+import jagdx.Class284;
 import jagdx.IDirect3DDevice;
+import jagdx.IDirect3DIndexBuffer;
 import jagdx.IUnknown;
 
-public class Class415 implements Interface51 {
-	long aLong4509;
-	Class184 aClass184_4510;
-	int anInt4511;
-	int anInt4512;
-	Class180_Sub2_Sub2 aClass180_Sub2_Sub2_4513;
+public class Class415 implements Interface41 {
+	Class171 aClass171_4527;
+	Class167_Sub3_Sub2 aClass167_Sub3_Sub2_4528;
+	int anInt4529;
+	boolean aBool4530;
+	int anInt4531;
+	long aLong4532 = 0L;
 
-	Class415(Class180_Sub2_Sub2 class180_sub2_sub2, Class184 class184, int i, int i_0_, int i_1_) {
-		aClass180_Sub2_Sub2_4513 = class180_sub2_sub2;
-		anInt4511 = i;
-		anInt4512 = i_0_;
-		aClass184_4510 = class184;
-		aLong4509 = (IDirect3DDevice.CreateDepthStencilSurface(aClass180_Sub2_Sub2_4513.aLong11572, i, i_0_, Class180_Sub2_Sub2.method18092(aClass184_4510), 0 + i_1_, 0, false));
-		aClass180_Sub2_Sub2_4513.method15055(this);
+	public Class171 method281() {
+		return aClass171_4527;
 	}
 
-	public int method1() {
-		return anInt4511;
+	public int method73() {
+		return anInt4531;
 	}
 
-	public long method95() {
-		return aLong4509;
+	public int method9() {
+		return anInt4531;
 	}
 
-	public long method346() {
-		return aLong4509;
-	}
-
-	public void method129() {
-		if (aLong4509 != 0L) {
-			IUnknown.Release(aLong4509);
-			aLong4509 = 0L;
-		}
-		aClass180_Sub2_Sub2_4513.method14886(this);
-	}
-
-	public void method343() {
-		if (aLong4509 != 0L) {
-			aClass180_Sub2_Sub2_4513.method18107(aLong4509);
-			aLong4509 = 0L;
+	public void method283(int i) {
+		anInt4531 = aClass171_4527.anInt1898 * -147747987 * i;
+		if (anInt4531 > anInt4529) {
+			if (aLong4532 != 0L)
+				IUnknown.Release(aLong4532);
+			int i_0_ = 8;
+			int i_1_;
+			if (aBool4530) {
+				i_1_ = 0;
+				i_0_ |= 0x200;
+			} else
+				i_1_ = 1;
+			aLong4532 = (IDirect3DDevice.CreateIndexBuffer(aClass167_Sub3_Sub2_4528.aLong11573, anInt4531, i_0_, aClass171_4527 == Class171.aClass171_1899 ? 101 : 102, i_1_));
+			anInt4529 = anInt4531;
 		}
 	}
 
-	void method6637() {
-		method343();
+	public long method263(int i, int i_2_) {
+		return IDirect3DIndexBuffer.Lock(aLong4532, i, i_2_, aBool4530 ? 8192 : 0);
 	}
 
-	public int method42() {
-		return anInt4511;
+	public long method269(int i, int i_3_) {
+		return IDirect3DIndexBuffer.Lock(aLong4532, i, i_3_, aBool4530 ? 8192 : 0);
 	}
 
-	public void method344() {
-		if (aLong4509 != 0L) {
-			aClass180_Sub2_Sub2_4513.method18107(aLong4509);
-			aLong4509 = 0L;
+	public boolean method264(int i, int i_4_, long l) {
+		return Class284.method3779(IDirect3DIndexBuffer.Upload(aLong4532, i, i_4_, (aBool4530 ? 8192 : 0), l));
+	}
+
+	public void method131() {
+		if (aLong4532 != 0L) {
+			IUnknown.Release(aLong4532);
+			aLong4532 = 0L;
 		}
+		anInt4529 = 0;
+		anInt4531 = 0;
+		aClass167_Sub3_Sub2_4528.method8936(this);
 	}
 
-	public int method6() {
-		return anInt4512;
+	void method5029() {
+		if (aLong4532 != 0L) {
+			aClass167_Sub3_Sub2_4528.method10620(aLong4532);
+			aLong4532 = 0L;
+		}
+		anInt4529 = 0;
+		anInt4531 = 0;
+	}
+
+	public void method265() {
+		IDirect3DIndexBuffer.Unlock(aLong4532);
+	}
+
+	public void method280(int i) {
+		anInt4531 = aClass171_4527.anInt1898 * -147747987 * i;
+		if (anInt4531 > anInt4529) {
+			if (aLong4532 != 0L)
+				IUnknown.Release(aLong4532);
+			int i_5_ = 8;
+			int i_6_;
+			if (aBool4530) {
+				i_6_ = 0;
+				i_5_ |= 0x200;
+			} else
+				i_6_ = 1;
+			aLong4532 = (IDirect3DDevice.CreateIndexBuffer(aClass167_Sub3_Sub2_4528.aLong11573, anInt4531, i_5_, aClass171_4527 == Class171.aClass171_1899 ? 101 : 102, i_6_));
+			anInt4529 = anInt4531;
+		}
 	}
 
 	public void method130() {
-		if (aLong4509 != 0L) {
-			IUnknown.Release(aLong4509);
-			aLong4509 = 0L;
+		if (aLong4532 != 0L) {
+			IUnknown.Release(aLong4532);
+			aLong4532 = 0L;
 		}
-		aClass180_Sub2_Sub2_4513.method14886(this);
+		anInt4529 = 0;
+		anInt4531 = 0;
+		aClass167_Sub3_Sub2_4528.method8936(this);
 	}
 
-	void method6638() {
-		method343();
+	void method5030() {
+		method5029();
+	}
+
+	Class415(Class167_Sub3_Sub2 class167_sub3_sub2, Class171 class171, boolean bool) {
+		aClass167_Sub3_Sub2_4528 = class167_sub3_sub2;
+		aClass171_4527 = class171;
+		aBool4530 = bool;
+		aClass167_Sub3_Sub2_4528.method8894(this);
+	}
+
+	public void method270() {
+		IDirect3DIndexBuffer.Unlock(aLong4532);
+	}
+
+	public int method267() {
+		return anInt4531;
+	}
+
+	public boolean method266(int i, int i_7_, long l) {
+		return Class284.method3779(IDirect3DIndexBuffer.Upload(aLong4532, i, i_7_, (aBool4530 ? 8192 : 0), l));
+	}
+
+	public long method268(int i, int i_8_) {
+		return IDirect3DIndexBuffer.Lock(aLong4532, i, i_8_, aBool4530 ? 8192 : 0);
 	}
 
 	public void finalize() {
-		method343();
+		method5029();
 	}
 
-	void method6639() {
-		method343();
+	public void method129() {
+		if (aLong4532 != 0L) {
+			IUnknown.Release(aLong4532);
+			aLong4532 = 0L;
+		}
+		anInt4529 = 0;
+		anInt4531 = 0;
+		aClass167_Sub3_Sub2_4528.method8936(this);
 	}
 
-	void method6640() {
-		method343();
+	public Class171 method282() {
+		return aClass171_4527;
 	}
 
-	public int method91() {
-		return anInt4512;
+	void method5031() {
+		method5029();
 	}
 
-	public long method345() {
-		return aLong4509;
-	}
-
-	public long method96() {
-		return aLong4509;
-	}
-
-	public int method87() {
-		return anInt4512;
-	}
-
-	void method6641() {
-		method343();
-	}
-
-	public void method342() {
-		if (aLong4509 != 0L) {
-			aClass180_Sub2_Sub2_4513.method18107(aLong4509);
-			aLong4509 = 0L;
+	public void method284(int i) {
+		anInt4531 = aClass171_4527.anInt1898 * -147747987 * i;
+		if (anInt4531 > anInt4529) {
+			if (aLong4532 != 0L)
+				IUnknown.Release(aLong4532);
+			int i_9_ = 8;
+			int i_10_;
+			if (aBool4530) {
+				i_10_ = 0;
+				i_9_ |= 0x200;
+			} else
+				i_10_ = 1;
+			aLong4532 = (IDirect3DDevice.CreateIndexBuffer(aClass167_Sub3_Sub2_4528.aLong11573, anInt4531, i_9_, aClass171_4527 == Class171.aClass171_1899 ? 101 : 102, i_10_));
+			anInt4529 = anInt4531;
 		}
 	}
 
-	public void method347() {
-		if (aLong4509 != 0L) {
-			aClass180_Sub2_Sub2_4513.method18107(aLong4509);
-			aLong4509 = 0L;
+	void method5032() {
+		if (aLong4532 != 0L) {
+			aClass167_Sub3_Sub2_4528.method10620(aLong4532);
+			aLong4532 = 0L;
 		}
+		anInt4529 = 0;
+		anInt4531 = 0;
 	}
 }

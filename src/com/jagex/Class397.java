@@ -3,92 +3,101 @@
  */
 package com.jagex;
 
-public class Class397 implements Interface49 {
-	Class459 aClass459_4120;
-	Class205 aClass205_4121 = new Class205(64);
+import java.awt.EventQueue;
 
-	public void method6509(int i) {
-		aClass205_4121.method3793((byte) 119);
+import com.jagex.twitchtv.TwitchEventResult;
+
+public class Class397 implements Interface48 {
+	Class199 aClass199_4112 = new Class199(64);
+	Class461 aClass461_4113;
+	public static Class461 aClass461_4114;
+	static Class251[] aClass251Array4115;
+	static EventQueue anEventQueue4116;
+
+	public synchronized Class381 method339(int i) {
+		Class381 class381 = (Class381) aClass199_4112.method2886((long) i);
+		if (null != class381)
+			return class381;
+		byte[] is = aClass461_4113.method5556(0, i, (byte) 1);
+		class381 = new Class381();
+		if (is != null)
+			class381.method4811(new RSByteBuffer(is), (short) 8192);
+		class381.method4810(-594992518);
+		aClass199_4112.method2881(class381, (long) i);
+		return class381;
 	}
 
-	public Class388 method337(int i) {
-		Class388 class388 = (Class388) aClass205_4121.method3787((long) i);
-		if (class388 != null)
-			return class388;
-		byte[] is = aClass459_4120.method7470(1, i, (byte) -82);
-		class388 = new Class388();
-		class388.anInt3975 = 1329650645 * i;
-		if (null != is)
-			class388.method6444(new RSByteBuffer(is), 456151903);
-		class388.method6453(1999821874);
-		aClass205_4121.method3790(class388, (long) i);
-		return class388;
+	public synchronized Class381 method338(int i, byte i_0_) {
+		Class381 class381 = (Class381) aClass199_4112.method2886((long) i);
+		if (null != class381)
+			return class381;
+		byte[] is = aClass461_4113.method5556(0, i, (byte) 1);
+		class381 = new Class381();
+		if (is != null)
+			class381.method4811(new RSByteBuffer(is), (short) 8192);
+		class381.method4810(-743000566);
+		aClass199_4112.method2881(class381, (long) i);
+		return class381;
 	}
 
-	public Class397(Class459 class459) {
-		aClass459_4120 = class459;
+	public void method4891(int i) {
+		aClass199_4112.method2884((byte) -92);
 	}
 
-	public Class388 method339(int i, byte i_0_) {
-		Class388 class388 = (Class388) aClass205_4121.method3787((long) i);
-		if (class388 != null)
-			return class388;
-		byte[] is = aClass459_4120.method7470(1, i, (byte) -51);
-		class388 = new Class388();
-		class388.anInt3975 = 1329650645 * i;
-		if (null != is)
-			class388.method6444(new RSByteBuffer(is), 456151903);
-		class388.method6453(1999821874);
-		aClass205_4121.method3790(class388, (long) i);
-		return class388;
+	public Class397(Class461 class461) {
+		aClass461_4113 = class461;
 	}
 
-	public Class388 method338(int i) {
-		Class388 class388 = (Class388) aClass205_4121.method3787((long) i);
-		if (class388 != null)
-			return class388;
-		byte[] is = aClass459_4120.method7470(1, i, (byte) -55);
-		class388 = new Class388();
-		class388.anInt3975 = 1329650645 * i;
-		if (null != is)
-			class388.method6444(new RSByteBuffer(is), 456151903);
-		class388.method6453(1999821874);
-		aClass205_4121.method3790(class388, (long) i);
-		return class388;
+	public void method4892() {
+		aClass199_4112.method2884((byte) -50);
 	}
 
-	public void method6510() {
-		aClass205_4121.method3793((byte) 119);
+	public synchronized Class381 method341(int i) {
+		Class381 class381 = (Class381) aClass199_4112.method2886((long) i);
+		if (null != class381)
+			return class381;
+		byte[] is = aClass461_4113.method5556(0, i, (byte) 1);
+		class381 = new Class381();
+		if (is != null)
+			class381.method4811(new RSByteBuffer(is), (short) 8192);
+		class381.method4810(941587169);
+		aClass199_4112.method2881(class381, (long) i);
+		return class381;
 	}
 
-	public void method6511() {
-		aClass205_4121.method3793((byte) 73);
+	public void method4893() {
+		aClass199_4112.method2884((byte) -67);
 	}
 
-	static final void method6512(Class665 class665, int i) {
-		String string = (String) (class665.anObjectArray8541[(class665.anInt8528 -= 433009517) * 318492261]);
-		int i_1_ = 0;
-		if (Class281.method5186(string, 2135970854))
-			i_1_ = Class360.method6326(string, (byte) 27);
-		Class527_Sub15 class527_sub15 = Class70.method1489(OutgoingPacket.aClass414_4465, client.aClass109_11067.aClass2_1367, (byte) 57);
-		class527_sub15.buffer.writeInt(i_1_, 900740643);
-		client.aClass109_11067.method1969(class527_sub15, (byte) 1);
+	public synchronized Class381 method340(int i) {
+		Class381 class381 = (Class381) aClass199_4112.method2886((long) i);
+		if (null != class381)
+			return class381;
+		byte[] is = aClass461_4113.method5556(0, i, (byte) 1);
+		class381 = new Class381();
+		if (is != null)
+			class381.method4811(new RSByteBuffer(is), (short) 8192);
+		class381.method4810(-1448524625);
+		aClass199_4112.method2881(class381, (long) i);
+		return class381;
 	}
 
-	public static void method6513(Class240 class240, Class243 class243, boolean bool, int i) {
-		Class296_Sub1.method15695(class240.aClass243Array2392, class243, bool, 1785185870);
+	public void method4894() {
+		aClass199_4112.method2884((byte) -40);
 	}
 
-	static Class389 method6514(RSByteBuffer class527_sub38, int i) {
-		Class400 class400 = (Class183.method3556(1641508725)[class527_sub38.readUnsignedByte()]);
-		Class384 class384 = (Class644.method10743(-1015693904)[class527_sub38.readUnsignedByte()]);
-		int i_2_ = class527_sub38.readShort();
-		int i_3_ = class527_sub38.readShort();
-		int i_4_ = class527_sub38.readUnsignedShort();
-		int i_5_ = class527_sub38.readUnsignedShort();
-		int i_6_ = class527_sub38.readShort();
-		int i_7_ = class527_sub38.method16466(-1982472463);
-		int i_8_ = class527_sub38.readInt();
-		return new Class389(class400, class384, i_2_, i_3_, i_4_, i_5_, i_6_, i_7_, i_8_);
+	public void method4895() {
+		aClass199_4112.method2884((byte) -118);
+	}
+
+	static void method4896(int i, int i_1_, byte i_2_) {
+		TwitchEventResult twitcheventresult = new TwitchEventResult(i, i_1_);
+		Class572 class572 = twitcheventresult.method4952();
+		if (class572 != null)
+			Class306.method4121(class572.method78(), twitcheventresult, (byte) 1);
+	}
+
+	static final void method4897(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(2121927808);
 	}
 }

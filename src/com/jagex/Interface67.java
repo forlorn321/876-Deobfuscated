@@ -4,7 +4,4 @@
 package com.jagex;
 
 public interface Interface67 {
-	public void method421(int i);
-
-	public void method285();
 }

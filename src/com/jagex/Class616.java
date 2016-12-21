@@ -4,121 +4,58 @@
 package com.jagex;
 
 public class Class616 {
-	public static final int anInt8083 = 0;
-	public static final int anInt8084 = 1;
-	public int anInt8085;
-	public int[] anIntArray8086;
-	static final int anInt8087 = 2;
-	public int anInt8088 = 2028894439;
-	public int[] anIntArray8089;
-	public int[] anIntArray8090;
-	public static Class459 aClass459_8091;
+	int anInt8052;
+	int anInt8053;
+	int anInt8054;
+	int anInt8055;
+	int anInt8056;
+	int anInt8057;
+	int anInt8058;
+	int anInt8059;
+	int anInt8060;
+	int anInt8061;
+	int anInt8062;
+	int anInt8063;
 
-	public Class616(Class459 class459) {
-		anInt8085 = 1604547405;
-		byte[] is = class459.method7512((1088756673 * Class632.aClass632_8263.anInt8258), 1447980132);
-		method10190(new RSByteBuffer(is), (short) -20354);
+	Class616() {
+		/* empty */
 	}
 
-	void method10190(RSByteBuffer class527_sub38, short i) {
-		for (;;) {
-			int i_0_ = class527_sub38.readUnsignedByte();
-			if (i_0_ == 0)
-				break;
-			if (i_0_ == 1) {
-				int i_1_ = class527_sub38.readUnsignedByte();
-				anIntArray8086 = new int[i_1_];
-				for (int i_2_ = 0; i_2_ < anIntArray8086.length; i_2_++) {
-					anIntArray8086[i_2_] = class527_sub38.readUnsignedByte();
-					if (0 != anIntArray8086[i_2_] && anIntArray8086[i_2_] != 2) {
-						/* empty */
-					}
-				}
-			} else if (3 == i_0_)
-				anInt8088 = class527_sub38.readUnsignedByte() * -2028894439;
-			else if (i_0_ == 4)
-				anInt8085 = class527_sub38.readUnsignedByte() * -1604547405;
-			else if (i_0_ == 5) {
-				anIntArray8089 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_3_ = 0; i_3_ < anIntArray8089.length; i_3_++)
-					anIntArray8089[i_3_] = class527_sub38.readUnsignedByte();
-			} else if (6 == i_0_) {
-				anIntArray8090 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_4_ = 0; i_4_ < anIntArray8090.length; i_4_++)
-					anIntArray8090[i_4_] = class527_sub38.readUnsignedByte();
-			}
+	boolean method7334(Class616 class616_0_, int i) {
+		if (-1837432399 * class616_0_.anInt8061 == anInt8061 * -1837432399 && -725078749 * class616_0_.anInt8062 == anInt8062 * -725078749 && -1458391911 * anInt8052 == class616_0_.anInt8052 * -1458391911)
+			return true;
+		return false;
+	}
+
+	static final void method7335(Class668 class668, short i) {
+		class668.anInt8542 -= 1472892954;
+		int i_1_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_2_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_2_ + i_1_;
+	}
+
+	public static int method7336(CharSequence charsequence, int i) {
+		int i_3_ = charsequence.length();
+		int i_4_ = 0;
+		for (int i_5_ = 0; i_5_ < i_3_; i_5_++)
+			i_4_ = ((i_4_ << 5) - i_4_ + Class543.method6581(charsequence.charAt(i_5_), -5823823));
+		return i_4_;
+	}
+
+	static void method7337(Class167 class167, int i, int i_6_, Class251 class251, byte i_7_) {
+		int i_8_ = 127;
+		int i_9_ = 7;
+		for (int i_10_ = 63; i_10_ >= 0; i_10_--) {
+			int i_11_ = (i_10_ & 0x3f) << 10 | (i_9_ & 0x7) << 7 | i_8_ & 0x7f;
+			Class38.method845(false, true, 84200204);
+			int i_12_ = Class639.anIntArray8308[i_11_];
+			Class613.method7316(false, true, (short) 192);
+			class167.method2063(i, (223822141 * class251.anInt2574 * (63 - i_10_) >> 6) + i_6_, class251.anInt2573 * -1606950689, (class251.anInt2574 * 223822141 >> 6) + 1, ~0xffffff | i_12_, 0);
 		}
-		if (null == anIntArray8086)
-			throw new RuntimeException("");
 	}
 
-	void method10191(RSByteBuffer class527_sub38) {
-		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
-			if (i == 0)
-				break;
-			if (i == 1) {
-				int i_5_ = class527_sub38.readUnsignedByte();
-				anIntArray8086 = new int[i_5_];
-				for (int i_6_ = 0; i_6_ < anIntArray8086.length; i_6_++) {
-					anIntArray8086[i_6_] = class527_sub38.readUnsignedByte();
-					if (0 != anIntArray8086[i_6_] && anIntArray8086[i_6_] != 2) {
-						/* empty */
-					}
-				}
-			} else if (3 == i)
-				anInt8088 = class527_sub38.readUnsignedByte() * -2028894439;
-			else if (i == 4)
-				anInt8085 = class527_sub38.readUnsignedByte() * -1604547405;
-			else if (i == 5) {
-				anIntArray8089 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_7_ = 0; i_7_ < anIntArray8089.length; i_7_++)
-					anIntArray8089[i_7_] = class527_sub38.readUnsignedByte();
-			} else if (6 == i) {
-				anIntArray8090 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_8_ = 0; i_8_ < anIntArray8090.length; i_8_++)
-					anIntArray8090[i_8_] = class527_sub38.readUnsignedByte();
-			}
-		}
-		if (null == anIntArray8086)
-			throw new RuntimeException("");
-	}
-
-	void method10192(RSByteBuffer class527_sub38) {
-		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
-			if (i == 0)
-				break;
-			if (i == 1) {
-				int i_9_ = class527_sub38.readUnsignedByte();
-				anIntArray8086 = new int[i_9_];
-				for (int i_10_ = 0; i_10_ < anIntArray8086.length; i_10_++) {
-					anIntArray8086[i_10_] = class527_sub38.readUnsignedByte();
-					if (0 != anIntArray8086[i_10_] && anIntArray8086[i_10_] != 2) {
-						/* empty */
-					}
-				}
-			} else if (3 == i)
-				anInt8088 = class527_sub38.readUnsignedByte() * -2028894439;
-			else if (i == 4)
-				anInt8085 = class527_sub38.readUnsignedByte() * -1604547405;
-			else if (i == 5) {
-				anIntArray8089 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_11_ = 0; i_11_ < anIntArray8089.length; i_11_++)
-					anIntArray8089[i_11_] = class527_sub38.readUnsignedByte();
-			} else if (6 == i) {
-				anIntArray8090 = new int[class527_sub38.readUnsignedByte()];
-				for (int i_12_ = 0; i_12_ < anIntArray8090.length; i_12_++)
-					anIntArray8090[i_12_] = class527_sub38.readUnsignedByte();
-			}
-		}
-		if (null == anIntArray8086)
-			throw new RuntimeException("");
-	}
-
-	static final void method10193(Class665 class665, int i) {
-		boolean bool = ((class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]) != 0);
-		if (Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183 != null)
-			Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183.method10479(bool, 1744374166);
+	public static void method7338(int i, byte i_13_) {
+		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(10, (long) i);
+		class536_sub18_sub5.method10669(4705472);
 	}
 }

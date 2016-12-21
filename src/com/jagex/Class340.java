@@ -3,133 +3,80 @@
  */
 package com.jagex;
 
-public abstract class Class340 {
-	protected Class180_Sub2 aClass180_Sub2_3673;
-	boolean aBool3674;
+public class Class340 {
+	Class199 aClass199_3658 = new Class199(10485760, 256);
+	Interface24 anInterface24_3659;
+	Class167_Sub3 aClass167_Sub3_3660;
 
-	abstract int method6034();
-
-	abstract boolean method6035();
-
-	abstract boolean method6036();
-
-	boolean method6037() {
-		return aBool3674;
+	Class340(Class167_Sub3 class167_sub3, Interface24 interface24) {
+		aClass167_Sub3_3660 = class167_sub3;
+		anInterface24_3659 = interface24;
 	}
 
-	abstract boolean method6038();
-
-	abstract void method6039();
-
-	abstract void method6040(int i, int i_0_);
-
-	abstract void method6041(int i);
-
-	void method6042() {
-		/* empty */
+	void method4451() {
+		aClass199_3658.method2883(5, -1558243897);
 	}
 
-	int method6043() {
-		return 1;
+	Interface36 method4452(Class164 class164, int i) {
+		long l = (long) (i << 16 | class164.anInt1801 * -398625547);
+		Interface36 interface36 = (Interface36) aClass199_3658.method2886(l);
+		if (interface36 != null)
+			return interface36;
+		if (!method4453(class164, i))
+			return null;
+		if (i == -1)
+			i = class164.anInt1815 * -1174323635;
+		Interface36 interface36_0_;
+		if (!class164.aBool1804 || !aClass167_Sub3_3660.method2124()) {
+			int[] is;
+			if (class164.aClass595_1805 != Class595.aClass595_7820 || !Class16_Sub1.method10359(class164.aByte1797, 1662636228))
+				is = anInterface24_3659.method134(Class599.aClass599_7843, (class164.anInt1801 * -398625547), 0.7F, i, i, false, -2006193931);
+			else
+				is = anInterface24_3659.method133(Class599.aClass599_7843, (class164.anInt1801 * -398625547), 0.7F, i, i, true, -1804844223);
+			if (is == null)
+				return null;
+			interface36_0_ = aClass167_Sub3_3660.method8771(i, i, true, is);
+		} else {
+			float[] fs = anInterface24_3659.method148(Class599.aClass599_7843, class164.anInt1801 * -398625547, 0.7F, i, i, false, (byte) -51);
+			interface36_0_ = aClass167_Sub3_3660.method8773(Class155.aClass155_1722, i, i, true, fs);
+		}
+		interface36_0_.method222(class164.aByte1807 == 1, class164.aByte1787 == 1);
+		aClass199_3658.method2882(interface36_0_, l, i * i, (byte) 47);
+		return interface36_0_;
 	}
 
-	int method6044() {
-		return 1;
+	boolean method4453(Class164 class164, int i) {
+		if (i == -1)
+			i = class164.anInt1815 * -1174323635;
+		if (!class164.aBool1804 || !aClass167_Sub3_3660.method2124()) {
+			if (class164.aClass595_1805 != Class595.aClass595_7820 || !Class16_Sub1.method10359(class164.aByte1797, 884558418))
+				return anInterface24_3659.method137(Class599.aClass599_7843, (class164.anInt1801 * -398625547), Class594.aClass594_7815, 0.7F, i, i, false, 2143956846);
+			return anInterface24_3659.method137(Class599.aClass599_7843, (class164.anInt1801 * -398625547), Class594.aClass594_7814, 0.7F, i, i, true, 2094165895);
+		}
+		return anInterface24_3659.method137(Class599.aClass599_7843, class164.anInt1801 * -398625547, Class594.aClass594_7813, 0.7F, i, i, false, 2081500806);
 	}
 
-	int method6045() {
-		return 0;
+	void method4454() {
+		aClass199_3658.method2883(5, -1133484551);
 	}
 
-	abstract int method6046();
-
-	void method6047() {
-		/* empty */
+	void method4455() {
+		aClass199_3658.method2884((byte) -50);
 	}
 
-	abstract boolean method6048();
-
-	abstract boolean method6049();
-
-	abstract boolean method6050();
-
-	abstract void method6051(int i, int i_1_);
-
-	abstract boolean method6052();
-
-	abstract boolean method6053();
-
-	abstract boolean method6054();
-
-	abstract boolean method6055();
-
-	boolean method6056() {
-		return method6055();
+	Interface36 method4456(Class164 class164) {
+		return method4452(class164, class164.anInt1815 * -1174323635);
 	}
 
-	abstract void method6057();
-
-	abstract void method6058();
-
-	abstract void method6059(int i, Class171_Sub2 class171_sub2, Interface38 interface38, Interface23 interface23, Interface38 interface38_2_, boolean bool);
-
-	abstract void method6060(int i);
-
-	abstract void method6061(int i);
-
-	boolean method6062() {
-		return method6055();
+	void method4457() {
+		aClass199_3658.method2883(5, -1240154926);
 	}
 
-	void method6063() {
-		/* empty */
+	void method4458() {
+		aClass199_3658.method2884((byte) -117);
 	}
 
-	int method6064() {
-		return 0;
+	void method4459() {
+		aClass199_3658.method2884((byte) -24);
 	}
-
-	boolean method6065() {
-		return aBool3674;
-	}
-
-	boolean method6066() {
-		return aBool3674;
-	}
-
-	Class340(Class180_Sub2 class180_sub2) {
-		aClass180_Sub2_3673 = class180_sub2;
-	}
-
-	abstract boolean method6067();
-
-	void method6068() {
-		/* empty */
-	}
-
-	void method6069() {
-		/* empty */
-	}
-
-	abstract void method6070(int i, Class171_Sub2 class171_sub2, Interface38 interface38, Interface23 interface23, Interface38 interface38_3_, boolean bool);
-
-	abstract int method6071();
-
-	abstract boolean method6072();
-
-	abstract boolean method6073();
-
-	abstract boolean method6074();
-
-	void method6075() {
-		/* empty */
-	}
-
-	boolean method6076() {
-		return method6055();
-	}
-
-	abstract void method6077(int i, int i_4_);
-
-	abstract void method6078(int i, int i_5_);
 }

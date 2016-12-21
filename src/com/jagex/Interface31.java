@@ -4,37 +4,31 @@
 package com.jagex;
 
 public interface Interface31 {
-	public void method174(boolean bool);
+	public Class536_Sub30 method190(int i);
 
-	public boolean method175(long l);
+	public Class308 method191();
 
-	public void method176(boolean bool, byte i);
+	public Class308 method192(int i);
 
-	public void method177(int i);
+	public Class425 method193(byte i);
 
-	public boolean method178(long l);
+	public Class436 method194(int i);
 
-	public void method33();
+	public Class536_Sub30 method195();
 
-	public int method179(int i);
+	public Class308 method196();
 
-	public void method180();
+	public Class308 method197();
 
-	public int method181(int i);
+	public Class425 method198();
 
-	public void method32();
+	public int method199(short i);
 
-	public void method34();
+	public Class536_Sub30 method200();
 
-	public void method182(int i);
+	public int method9();
 
-	public int method183();
+	public Class425 method201();
 
-	public boolean method184(long l);
-
-	public int method185();
-
-	public boolean method186(long l);
-
-	public int method187();
+	public Class436 method202();
 }

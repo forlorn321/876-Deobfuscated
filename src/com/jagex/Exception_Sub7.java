@@ -3,16 +3,21 @@
  */
 package com.jagex;
 
-public final class Exception_Sub7 extends Exception {
-	Exception_Sub7(String string, int i, int i_0_) {
-		super("");
+public class Exception_Sub7 extends Exception {
+	public Exception_Sub7(String string) {
+		super(string);
 	}
 
-	public static void method17974(int i) {
-		Class418.method6663((byte) 4);
-		Class35.aBool338 = false;
-		Class554_Sub1.method16829(-1375491723 * Class230.anInt2355, Class80.anInt807 * 479584441, -1309847599 * Class100.anInt1187, Class317.anInt3532 * -830760507, (byte) 3);
-		Class200.aClass527_Sub8_Sub7_2202 = null;
-		Class42.aClass527_Sub8_Sub7_457 = null;
+	public static int method10552(int i, int i_0_) {
+		Class279 class279 = (Class279) Class262.aMap2848.get(Integer.valueOf(i));
+		if (null == class279)
+			return 0;
+		return class279.method3758(-880668486);
+	}
+
+	static final void method10553(Class668 class668, byte i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2572 * -712740187;
 	}
 }

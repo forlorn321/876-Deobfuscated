@@ -4,16 +4,10 @@
 package com.jagex;
 
 public class Class342 {
-	static Class342 aClass342_3688;
-	static Class342 aClass342_3689;
-	static Class342 aClass342_3690 = new Class342();
+	static Class342 aClass342_3662 = new Class342();
+	public static Class342 aClass342_3663 = new Class342();
 
 	Class342() {
 		/* empty */
-	}
-
-	static {
-		aClass342_3688 = new Class342();
-		aClass342_3689 = new Class342();
 	}
 }

@@ -3,24 +3,10 @@
  */
 package com.jagex;
 
-public interface Interface54 extends Interface21 {
-	public long method95();
+public interface Interface54 {
+	public Object method357(int i, int i_0_);
 
-	public void method129();
+	public Object method358(int i);
 
-	public void method343();
-
-	public void method347();
-
-	public long method345();
-
-	public long method96();
-
-	public void method342();
-
-	public void method344();
-
-	public void method130();
-
-	public long method346();
+	public Object method359(int i);
 }

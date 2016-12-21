@@ -3,118 +3,57 @@
  */
 package com.jagex;
 
-public class Class475 implements Interface76 {
-	public static Class475 aClass475_5374 = new Class475(3, 0, java.lang.Integer.class, new Class474());
-	public static Class475 aClass475_5375 = new Class475(1, 1, java.lang.Long.class, new Class481());
-	public static Class475 aClass475_5376 = new Class475(2, 2, java.lang.String.class, new Class495());
-	public int anInt5377;
+public class Class475 {
+	public static Class475 aClass475_5372;
+	public static Class475 aClass475_5373;
+	static Class475 aClass475_5374;
+	static Class475 aClass475_5375 = new Class475(0);
+	public static Class475 aClass475_5376;
+	static Class475 aClass475_5377;
 	static Class475 aClass475_5378;
-	static Class475 aClass475_5379 = new Class475(4, 3, com.jagex.Class527_Sub36.class, new Class487());
-	int anInt5380;
-	public Class aClass5381;
-	Interface11 anInterface11_5382;
-	static int anInt5383;
+	public static Class475 aClass475_5379;
+	static Class475 aClass475_5380;
+	int anInt5381;
 
-	public int method91() {
-		return anInt5380 * -1823376441;
-	}
-
-	Class475(int i, int i_0_, Class var_class, Interface11 interface11) {
-		anInt5377 = 692807343 * i;
-		anInt5380 = -629942793 * i_0_;
-		aClass5381 = var_class;
-		anInterface11_5382 = interface11;
-	}
-
-	static Class475 method7757(Class var_class, int i) {
-		Class475[] class475s = method7767((byte) -18);
-		for (int i_1_ = 0; i_1_ < class475s.length; i_1_++) {
-			Class475 class475 = class475s[i_1_];
-			if (var_class == class475.aClass5381)
-				return class475;
-		}
-		return null;
-	}
-
-	public static Interface11 method7758(Class var_class, int i) {
-		Class475 class475 = method7757(var_class, 1793658459);
-		if (class475 == null)
-			throw new IllegalArgumentException();
-		return class475.anInterface11_5382;
-	}
-
-	public int method87() {
-		return anInt5380 * -1823376441;
-	}
-
-	public Object method7759(RSByteBuffer class527_sub38, int i) {
-		return anInterface11_5382.method75(class527_sub38, (byte) -25);
-	}
-
-	public static Class475[] method7760() {
-		return new Class475[] { aClass475_5376, aClass475_5375, aClass475_5374, aClass475_5379, aClass475_5378 };
-	}
-
-	public int method42() {
-		return anInt5380 * -1823376441;
-	}
-
-	static Class475 method7761(Class var_class) {
-		Class475[] class475s = method7767((byte) -91);
-		for (int i = 0; i < class475s.length; i++) {
-			Class475 class475 = class475s[i];
-			if (var_class == class475.aClass5381)
-				return class475;
-		}
-		return null;
-	}
-
-	public static Class475[] method7762() {
-		return new Class475[] { aClass475_5376, aClass475_5375, aClass475_5374, aClass475_5379, aClass475_5378 };
-	}
-
-	public static Interface11 method7763(Class var_class) {
-		Class475 class475 = method7757(var_class, 872545591);
-		if (class475 == null)
-			throw new IllegalArgumentException();
-		return class475.anInterface11_5382;
-	}
-
-	public Object method7764(RSByteBuffer class527_sub38) {
-		return anInterface11_5382.method75(class527_sub38, (byte) 19);
+	Class475(int i) {
+		anInt5381 = 544702879 * i;
 	}
 
 	static {
-		aClass475_5378 = new Class475(0, 4, com.jagex.Class255.class, new Class476());
+		aClass475_5373 = new Class475(1);
+		aClass475_5378 = new Class475(2);
+		aClass475_5372 = new Class475(3);
+		aClass475_5376 = new Class475(4);
+		aClass475_5379 = new Class475(5);
+		aClass475_5377 = new Class475(6);
+		aClass475_5374 = new Class475(7);
+		aClass475_5380 = new Class475(8);
 	}
 
-	public static Interface11 method7765(Class var_class) {
-		Class475 class475 = method7757(var_class, -1331610382);
-		if (class475 == null)
-			throw new IllegalArgumentException();
-		return class475.anInterface11_5382;
+	static final void method5743(Class251 class251, Class668 class668, byte i) {
+		int i_0_ = 10;
+		Class406.method4945(class251, i_0_, class668, -1801935638);
 	}
 
-	public static Interface11 method7766(Class var_class) {
-		Class475 class475 = method7757(var_class, -1675792142);
-		if (class475 == null)
-			throw new IllegalArgumentException();
-		return class475.anInterface11_5382;
+	public static float method5744(Class425 class425, byte i) {
+		Class436 class436 = Class436.method5257(0.0F, 0.0F, 1.0F);
+		class436.method5263(class425);
+		double d = 1.5707963267948966 - Math.acos((double) class436.aFloat4852);
+		class436.method5239();
+		return (float) d;
 	}
 
-	public static Class475[] method7767(byte i) {
-		return new Class475[] { aClass475_5376, aClass475_5375, aClass475_5374, aClass475_5379, aClass475_5378 };
+	public static int method5745(int i) {
+		if (!Class575.aBool7662)
+			return 12;
+		Class554.method6782(Class677.aClass167_8609, (byte) 113);
+		return Class536_Sub42.aTwitchTV10811.Logout();
 	}
 
-	public Object method7768(RSByteBuffer class527_sub38) {
-		return anInterface11_5382.method75(class527_sub38, (byte) 6);
-	}
-
-	public Object method7769(RSByteBuffer class527_sub38) {
-		return anInterface11_5382.method75(class527_sub38, (byte) -10);
-	}
-
-	static boolean method7770(int i) {
-		return Class510.method8443(Class271.aClass624_3128.aClass586_8159, -826393053);
+	static final void method5746(Class668 class668, byte i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class328_Sub2.method9152(class251, class234, class668, -1379450258);
 	}
 }

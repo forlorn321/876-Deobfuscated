@@ -3,118 +3,122 @@
  */
 package com.jagex;
 
-import java.util.Comparator;
+import jaggl.OpenGL;
 
-class Class146 implements Comparator {
-	Class358_Sub2 this$0;
+public class Class146 {
+	Class167_Sub2 aClass167_Sub2_1693;
+	Class137 aClass137_1694;
+	static final String aString1695 = "uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n";
 
-	Class146(Class358_Sub2 class358_sub2) {
-		this$0 = class358_sub2;
-	}
-
-	int method2391(Class494 class494, Class494 class494_0_, int i) {
-		float f = class494.method8018((byte) 21);
-		float f_1_ = class494_0_.method8018((byte) 44);
-		if (f_1_ > f)
-			return 1;
-		if (f_1_ < f)
-			return -1;
-		return 0;
-	}
-
-	public int compare(Object object, Object object_2_) {
-		return method2391((Class494) object, (Class494) object_2_, -1269545815);
-	}
-
-	public boolean equals(Object object) {
-		return super.equals(object);
-	}
-
-	public int method2392(Object object, Object object_3_) {
-		return method2391((Class494) object, (Class494) object_3_, -357828068);
-	}
-
-	public boolean method2393(Object object) {
-		return super.equals(object);
-	}
-
-	public int method2394(Object object, Object object_4_) {
-		return method2391((Class494) object, (Class494) object_4_, 2110211478);
-	}
-
-	public boolean method2395(Object object) {
-		return super.equals(object);
-	}
-
-	static final void method2396(Class665 class665, int i) {
-		int i_5_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_5_, -1154944509);
-		Class240 class240 = Class183.aClass240Array2100[i_5_ >> 16];
-		Class648.method10832(class243, class240, class665, -1497370920);
-	}
-
-	static final void method2397(Class665 class665, short i) {
-		class665.anInt8526 -= 204761682;
-		Class245.aClass226_2698.method4273((class665.anIntArray8525[class665.anInt8526 * 1769813785]), 255, (byte) 8);
-	}
-
-	static final void method2398(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 0;
-	}
-
-	static final void method2399(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class498.aString5584.startsWith("win") ? 1 : 0;
-	}
-
-	static final void method2400(Class665 class665, int i) {
-		class665.anInt8530 -= 65273226;
-		if (class665.aLongArray8529[class665.anInt8530 * -2076258291] <= class665.aLongArray8529[1 + -2076258291 * class665.anInt8530])
-			class665.anInt8527 += (-1038991169 * class665.anIntArray8545[891367231 * class665.anInt8527]);
-	}
-
-	static void method2401(byte i) {
-		if (Class529_Sub1.anInt10783 * -502443805 < 0) {
-			Class529_Sub1.anInt10783 = 0;
-			Class529_Sub1.anInt10779 = -1449615877;
-			Class529_Sub1.anInt10772 = -1784395681;
+	boolean method1802() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
 		}
-		if (Class529_Sub1.anInt10783 * -502443805 > Class529_Sub1.anInt7131) {
-			Class529_Sub1.anInt10783 = 2049864907 * Class529_Sub1.anInt7131;
-			Class529_Sub1.anInt10779 = -1449615877;
-			Class529_Sub1.anInt10772 = -1784395681;
-		}
-		if (Class635.anInt8302 * 1891819005 < 0) {
-			Class635.anInt8302 = 0;
-			Class529_Sub1.anInt10779 = -1449615877;
-			Class529_Sub1.anInt10772 = -1784395681;
-		}
-		if (Class635.anInt8302 * 1891819005 > Class529_Sub1.anInt7167) {
-			Class635.anInt8302 = Class529_Sub1.anInt7167 * -1224612011;
-			Class529_Sub1.anInt10779 = -1449615877;
-			Class529_Sub1.anInt10772 = -1784395681;
-		}
+		return aClass137_1694 != null;
 	}
 
-	static final void method2402(Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		int i_6_ = class665.anIntArray8525[class665.anInt8526 * 1769813785];
-		int i_7_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		Class80 class80 = ((Class80) Class679.aClass24_Sub21_8628.method81(i_7_, -1538474000));
-		if (class80.method1566(-111611547))
-			class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class295) Class381.aClass24_Sub9_3936.method81(i_6_, -367067387)).method5306(i_7_, class80.aString806, 988987490);
-		else
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = (((Class295) Class381.aClass24_Sub9_3936.method81(i_6_, 548008769)).method5331(i_7_, class80.anInt804 * 780718929, (byte) -19));
+	boolean method1803() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
+		}
+		return aClass137_1694 != null;
 	}
 
-	static void method2403(Class180 class180, int i, int i_8_, Class243 class243, int i_9_) {
-		int i_10_ = 127;
-		int i_11_ = 7;
-		for (int i_12_ = 63; i_12_ >= 0; i_12_--) {
-			int i_13_ = (i_12_ & 0x3f) << 10 | (i_11_ & 0x7) << 7 | i_10_ & 0x7f;
-			Class25.method851(false, true, (byte) 3);
-			int i_14_ = Class656.anIntArray8393[i_13_];
-			Class520.method8664(false, true, -94254998);
-			class180.method3348(i, (-1386504031 * class243.anInt2514 * (63 - i_12_) >> 6) + i_8_, -1054537975 * class243.anInt2511, 1 + (-1386504031 * class243.anInt2514 >> 6), ~0xffffff | i_14_, 0);
+	Class146(Class167_Sub2 class167_sub2) {
+		aClass167_Sub2_1693 = class167_sub2;
+	}
+
+	boolean method1804() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
 		}
+		return aClass137_1694 != null;
+	}
+
+	boolean method1805() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
+		}
+		return aClass137_1694 != null;
+	}
+
+	boolean method1806() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
+		}
+		return aClass137_1694 != null;
+	}
+
+	boolean method1807(Class124_Sub2 class124_sub2, Class124_Sub2 class124_sub2_0_, float f) {
+		if (!method1803())
+			return false;
+		Class183_Sub2_Sub3 class183_sub2_sub3 = aClass167_Sub2_1693.aClass183_Sub2_Sub3_9314;
+		Class536_Sub18_Sub3 class536_sub18_sub3 = new Class536_Sub18_Sub3(aClass167_Sub2_1693, Class155.aClass155_1722, Class171.aClass171_1905, class124_sub2.anInt8895, class124_sub2.anInt8894);
+		boolean bool = false;
+		aClass167_Sub2_1693.method2028(class183_sub2_sub3, -409819235);
+		class183_sub2_sub3.method9035(0, class536_sub18_sub3);
+		if (class183_sub2_sub3.method9036()) {
+			OpenGL.glPushMatrix();
+			OpenGL.glLoadIdentity();
+			OpenGL.glMatrixMode(5889);
+			OpenGL.glPushMatrix();
+			OpenGL.glLoadIdentity();
+			OpenGL.glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+			OpenGL.glPushAttrib(2048);
+			OpenGL.glViewport(0, 0, class124_sub2.anInt8895, class124_sub2.anInt8894);
+			OpenGL.glUseProgram(aClass137_1694.anInt1635);
+			OpenGL.glUniform1i(OpenGL.glGetUniformLocation((aClass137_1694.anInt1635), "heightMap"), 0);
+			OpenGL.glUniform1f(OpenGL.glGetUniformLocation((aClass137_1694.anInt1635), "rcpRelief"), 1.0F / f);
+			OpenGL.glUniform2f(OpenGL.glGetUniformLocation((aClass137_1694.anInt1635), "sampleSize"), 1.0F / (float) class124_sub2_0_.anInt8895, 1.0F / (float) class124_sub2_0_.anInt8894);
+			for (int i = 0; i < class124_sub2.anInt8896; i++) {
+				float f_1_ = (float) i / (float) class124_sub2.anInt8896;
+				aClass167_Sub2_1693.method8617(class124_sub2_0_);
+				OpenGL.glBegin(7);
+				OpenGL.glTexCoord3f(0.0F, 0.0F, f_1_);
+				OpenGL.glVertex2f(0.0F, 0.0F);
+				OpenGL.glTexCoord3f(1.0F, 0.0F, f_1_);
+				OpenGL.glVertex2f(1.0F, 0.0F);
+				OpenGL.glTexCoord3f(1.0F, 1.0F, f_1_);
+				OpenGL.glVertex2f(1.0F, 1.0F);
+				OpenGL.glTexCoord3f(0.0F, 1.0F, f_1_);
+				OpenGL.glVertex2f(0.0F, 1.0F);
+				OpenGL.glEnd();
+				class124_sub2.method8414(0, 0, i, class124_sub2.anInt8895, class124_sub2.anInt8894, 0, 0);
+			}
+			OpenGL.glUseProgram(0);
+			OpenGL.glPopAttrib();
+			OpenGL.glPopMatrix();
+			OpenGL.glMatrixMode(5888);
+			OpenGL.glPopMatrix();
+			bool = true;
+		}
+		class183_sub2_sub3.method9035(0, null);
+		aClass167_Sub2_1693.method2029(class183_sub2_sub3, (byte) 1);
+		return bool;
+	}
+
+	boolean method1808() {
+		if (aClass167_Sub2_1693.aBool9289 && aClass167_Sub2_1693.aBool9306 && aClass137_1694 == null) {
+			Class119 class119 = (Class119.method1600(aClass167_Sub2_1693, 35632,
+					"uniform float rcpRelief;\nuniform vec2 sampleSize;\nuniform sampler3D heightMap;\nvoid main() {\nfloat dx = texture3D(heightMap, vec3(-sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(sampleSize.x, 0.0, 0.0)+gl_TexCoord[0].xyz).r;\nfloat dy = texture3D(heightMap, vec3(0.0, -sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r - texture3D(heightMap, vec3(0.0, sampleSize.y, 0.0)+gl_TexCoord[0].xyz).r;\ngl_FragColor = vec4(0.5+normalize(vec3(dx, dy, rcpRelief))*0.5, texture3D(heightMap, gl_TexCoord[0].xyz).r);\n}\n"));
+			if (class119 != null)
+				aClass137_1694 = Class137.method1686(aClass167_Sub2_1693, new Class119[] { class119 });
+		}
+		return aClass137_1694 != null;
 	}
 }

@@ -4,40 +4,34 @@
 package com.jagex;
 
 public class Class376 {
-	Interface37 anInterface37_3917;
-	int anInt3918;
-	Class180_Sub2 this$0;
+	public static Class376 aClass376_3912 = new Class376();
+	public static Class376 aClass376_3913 = new Class376();
 
-	void method6386() {
-		anInterface37_3917.method129();
+	Class376() {
+		/* empty */
 	}
 
-	void method6387() {
-		anInterface37_3917 = this$0.method15035(true);
-		this$0.method14999(new Class372[] { new Class372(new Class347[] { Class347.aClass347_3742, Class347.aClass347_3734 }) });
-		this$0.method14999(new Class372[] { new Class372(new Class347[] { Class347.aClass347_3742, Class347.aClass347_3734 }) });
-		this$0.method14999(new Class372[] { new Class372(new Class347[] { Class347.aClass347_3742, Class347.aClass347_3734 }) });
-		anInt3918 = 16;
+	static final void method4792(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_0_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_1_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class317.method4227(i_0_, i_1_, false, -1709021167);
 	}
 
-	Class376(Class180_Sub2 class180_sub2, int i) {
-		this$0 = class180_sub2;
-		method6387();
-		method6388(i, anInt3918);
-	}
-
-	void method6388(int i, int i_0_) {
-		if (!anInterface37_3917.method219(i, i_0_))
-			System.out.println("PrimitiveVertexBuffer:ensureSize: failed vertexBuffer.allocate !");
-	}
-
-	void method6389(int i, int i_1_) {
-		if (!anInterface37_3917.method219(i, i_1_))
-			System.out.println("PrimitiveVertexBuffer:ensureSize: failed vertexBuffer.allocate !");
-	}
-
-	void method6390(int i, int i_2_) {
-		if (!anInterface37_3917.method219(i, i_2_))
-			System.out.println("PrimitiveVertexBuffer:ensureSize: failed vertexBuffer.allocate !");
+	static final void method4793(Class668 class668, byte i) {
+		class668.anInt8542 -= 61855783;
+		int i_2_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_3_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
+		int i_4_ = class668.anIntArray8541[2 + class668.anInt8542 * 1867269829];
+		if (i_3_ == -1)
+			throw new RuntimeException();
+		Class39 class39 = (Class39) Class676.aClass34_Sub6_8589.method70(i_3_, (byte) 59);
+		if (class39.aClass453_483.method78() != i_2_)
+			throw new RuntimeException();
+		int[] is = class39.method854(Integer.valueOf(i_4_), -1652617414);
+		int i_5_ = 0;
+		if (null != is)
+			i_5_ = is.length;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_5_;
 	}
 }

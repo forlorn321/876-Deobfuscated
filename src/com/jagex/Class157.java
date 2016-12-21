@@ -3,88 +3,70 @@
  */
 package com.jagex;
 
-import java.awt.Point;
+import jaggl.OpenGL;
 
-public class Class157 {
-	public int anInt1722;
-	public static Class157 aClass157_1723;
-	public static Class157 aClass157_1724;
-	public static Class157 aClass157_1725;
-	public static Class157 aClass157_1726;
-	public static Class157 aClass157_1727;
-	public static Class157 aClass157_1728 = new Class157(6, 3);
-	static Class157 aClass157_1729;
-	public int anInt1730;
-	public static Class157 aClass157_1731;
-	static Class157 aClass157_1732;
-	public static Class157 aClass157_1733;
+public class Class157 implements Interface16 {
+	Class124_Sub1 aClass124_Sub1_1741;
+	int anInt1742;
 
-	Class157(int i, int i_0_) {
-		anInt1730 = i * -450006189;
-		anInt1722 = i_0_ * -369884177;
+	public void method90(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass124_Sub1_1741.anInt1496, aClass124_Sub1_1741.anInt1497, anInt1742);
 	}
 
-	static {
-		aClass157_1723 = new Class157(1, 4);
-		aClass157_1724 = new Class157(5, 1);
-		aClass157_1725 = new Class157(8, 1);
-		aClass157_1726 = new Class157(4, 2);
-		aClass157_1727 = new Class157(7, 1);
-		aClass157_1732 = new Class157(0, 3);
-		aClass157_1729 = new Class157(9, 4);
-		aClass157_1733 = new Class157(3, 1);
-		aClass157_1731 = new Class157(2, 1);
+	public int method12() {
+		return aClass124_Sub1_1741.anInt8871;
 	}
 
-	public static final boolean method2559(char c, byte i) {
-		return (c >= '!' && c < '0' || c >= ':' && c <= '@' && '<' != c || c >= '[' && c <= '_' || c >= '{');
+	public int method78() {
+		return aClass124_Sub1_1741.anInt8870;
 	}
 
-	static final void method2560(int i) {
-		Class32.aLong321 = -2730100241404364287L;
-		Class32.aLong304 = 0L;
-		Class32.anInt274 = 1833818503;
+	public void method56(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass124_Sub1_1741.anInt1496, aClass124_Sub1_1741.anInt1497, anInt1742);
 	}
 
-	static final void method2561(int i, int i_1_, int i_2_, byte i_3_) {
-		String string = new StringBuilder().append("tele ").append(i).append(Class33.aString325).append(i_1_ >> 6).append(Class33.aString325).append(i_2_ >> 6).append(Class33.aString325).append(i_1_ & 0x3f).append(Class33.aString325).append(i_2_ & 0x3f).toString();
-		System.out.println(string);
-		Class29.method868(string, true, false, -65185715);
+	public void method131() {
+		/* empty */
 	}
 
-	static void method2562(int i) {
-		synchronized (Class642.aQueue8341) {
-			Point point;
-			if (Class451.aCanvas4939.isShowing())
-				point = Class451.aCanvas4939.getLocationOnScreen();
-			else
-				point = null;
-			for (;;) {
-				Class527_Sub34_Sub1 class527_sub34_sub1 = (Class527_Sub34_Sub1) Class642.aQueue8341.poll();
-				if (null == class527_sub34_sub1)
-					break;
-				if (point == null || !Class451.aCanvas4939.isShowing() || !Class333.aBool3628)
-					class527_sub34_sub1.method16363(182953128);
-				else {
-					class527_sub34_sub1.method18363(point, -1946613323);
-					if (!class527_sub34_sub1.method18367(788762965) && (class527_sub34_sub1.method16356(1319623125) < -1803844265 * Class289.anInt3223) && (class527_sub34_sub1.method16357(719777205) < Class611.anInt8009 * -471480167) && class527_sub34_sub1.method16356(1319623125) >= 0 && class527_sub34_sub1.method16357(719777205) >= 0) {
-						int i_4_ = class527_sub34_sub1.method16355(1029210433);
-						if (class527_sub34_sub1.method16355(1029210433) == -1)
-							Class642.aClass639_Sub2_8345.method10605(class527_sub34_sub1, -1553373411);
-						else if (Class465_Sub5.method16026(i_4_, (byte) -20))
-							Class642.aClass639_Sub2_8345.method16974(class527_sub34_sub1, -687096558);
-					}
-				}
-			}
-		}
+	public int method83() {
+		return aClass124_Sub1_1741.anInt8870;
 	}
 
-	static final boolean method2563(Class24_Sub6 class24_sub6, int i, int i_5_, int i_6_) {
-		Class602 class602 = (Class602) class24_sub6.method81(i, 940169840);
-		if (i_5_ == 11)
-			i_5_ = 10;
-		if (i_5_ >= 5 && i_5_ <= 8)
-			i_5_ = 4;
-		return class602.method9958(i_5_, 775441102);
+	public int method73() {
+		return aClass124_Sub1_1741.anInt8871;
+	}
+
+	public int method82() {
+		return aClass124_Sub1_1741.anInt8871;
+	}
+
+	public void method130() {
+		/* empty */
+	}
+
+	public int method8() {
+		return aClass124_Sub1_1741.anInt8870;
+	}
+
+	public int method9() {
+		return aClass124_Sub1_1741.anInt8870;
+	}
+
+	public void method89(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass124_Sub1_1741.anInt1496, aClass124_Sub1_1741.anInt1497, anInt1742);
+	}
+
+	public void method129() {
+		/* empty */
+	}
+
+	Class157(Class124_Sub1 class124_sub1, int i) {
+		anInt1742 = i;
+		aClass124_Sub1_1741 = class124_sub1;
+	}
+
+	public int method1() {
+		return aClass124_Sub1_1741.anInt8871;
 	}
 }

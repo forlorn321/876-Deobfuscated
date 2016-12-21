@@ -4,21 +4,34 @@
 package com.jagex;
 
 public class Class288 {
-	static Class288 aClass288_3218 = new Class288(0);
-	static Class288 aClass288_3219 = new Class288(1);
+	int anInt3210;
+	static Class288 aClass288_3211;
+	static Class288 aClass288_3212 = new Class288(0);
+
+	static {
+		aClass288_3211 = new Class288(1);
+	}
 
 	Class288(int i) {
-		/* empty */
+		anInt3210 = 1865017257 * i;
 	}
 
-	static final void method5217(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, 659029651);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class645.method10744(class243, class240, class665, (byte) -64);
+	static void method3915(RSByteBuffer class536_sub33, int i, int i_0_) {
+		if (Class505.aClass18_6878 != null) {
+			try {
+				Class505.aClass18_6878.method673(0L);
+				Class505.aClass18_6878.method678((class536_sub33.buffer), i, 24, -1030297220);
+			} catch (Exception exception) {
+				/* empty */
+			}
+		}
 	}
 
-	static final void method5218(Class665 class665, int i) {
-		Class474.method7753(class665, Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937, (byte) 80);
+	static final void method3916(Class668 class668, int i) {
+		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub14_10755, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
+		Class184.method2769(1441080267);
+		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
+		Class27.method763(1916697484);
+		client.aBool11015 = false;
 	}
 }

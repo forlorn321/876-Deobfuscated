@@ -3,7 +3,7 @@
  */
 package com.jagex.twitchtv;
 
-import com.jagex.Class578;
+import com.jagex.Class572;
 
 public class TwitchEventReport extends TwitchEvent {
 	public String message;
@@ -13,32 +13,24 @@ public class TwitchEventReport extends TwitchEvent {
 		message = string;
 	}
 
-	public void method6560(int[] is, long[] ls, Object[] objects) {
+	public void method4951(int[] is, long[] ls, Object[] objects) {
 		is[0] = eventType;
 		objects[0] = message;
 	}
 
-	public Class578 method6561() {
-		return Class578.aClass578_7643;
+	public Class572 method4952() {
+		return Class572.aClass572_7636;
 	}
 
-	public Class578 method6562() {
-		return Class578.aClass578_7643;
+	public Class572 method4953() {
+		return Class572.aClass572_7636;
 	}
 
-	public Class578 method6563() {
-		return Class578.aClass578_7643;
+	public Class572 method4954() {
+		return Class572.aClass572_7636;
 	}
 
-	public Class578 method6564() {
-		return Class578.aClass578_7643;
-	}
-
-	public Class578 method6565() {
-		return Class578.aClass578_7643;
-	}
-
-	public void method6566(int[] is, long[] ls, Object[] objects) {
+	public void method4955(int[] is, long[] ls, Object[] objects) {
 		is[0] = eventType;
 		objects[0] = message;
 	}

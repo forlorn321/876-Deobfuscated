@@ -3,69 +3,82 @@
  */
 package com.jagex;
 
-public class Class698 implements Interface76 {
-	static Class698 aClass698_8763;
-	public static Class698 aClass698_8764;
-	static Class698 aClass698_8765;
-	public static Class698 aClass698_8766;
-	public static Class698 aClass698_8767 = new Class698(-2);
-	static Class698 aClass698_8768;
-	int anInt8769;
+public final class Class698 {
+	boolean[] aBoolArray8746;
+	int anInt8747 = 16;
+	int anInt8748 = 258;
+	int anInt8749;
+	int anInt8750;
+	int anInt8751 = 18002;
+	byte[] aByteArray8752;
+	int anInt8753;
+	int anInt8754;
+	byte[] aByteArray8755;
+	int anInt8756 = 4096;
+	int anInt8757;
+	int anInt8758;
+	byte aByte8759;
+	int anInt8760;
+	int[] anIntArray8761;
+	int anInt8762;
+	int anInt8763;
+	int anInt8764;
+	int anInt8765;
+	int anInt8766;
+	int[] anIntArray8767;
+	int anInt8768;
+	int[] anIntArray8769;
+	int anInt8770;
+	boolean[] aBoolArray8771;
+	int anInt8772 = 50;
+	byte[] aByteArray8773;
+	byte[] aByteArray8774;
+	int anInt8775;
+	byte[] aByteArray8776;
+	byte[] aByteArray8777;
+	byte[][] aByteArrayArray8778;
+	int[][] anIntArrayArray8779;
+	int[][] anIntArrayArray8780;
+	int[][] anIntArrayArray8781;
+	int[] anIntArray8782;
+	int anInt8783 = 6;
 
-	public int method87() {
-		return anInt8769 * -1859348849;
+	Class698() {
+		anInt8747 = 16;
+		anInt8748 = 258;
+		anInt8783 = 6;
+		anInt8772 = 50;
+		anInt8751 = 18002;
+		anInt8753 = 0;
+		anInt8758 = 0;
+		anIntArray8767 = new int[256];
+		anIntArray8769 = new int[257];
+		aBoolArray8771 = new boolean[256];
+		aBoolArray8746 = new boolean[16];
+		aByteArray8773 = new byte[256];
+		aByteArray8774 = new byte[4096];
+		anIntArray8761 = new int[16];
+		aByteArray8776 = new byte[18002];
+		aByteArray8777 = new byte[18002];
+		aByteArrayArray8778 = new byte[6][258];
+		anIntArrayArray8779 = new int[6][258];
+		anIntArrayArray8780 = new int[6][258];
+		anIntArrayArray8781 = new int[6][258];
+		anIntArray8782 = new int[6];
 	}
 
-	public int method42() {
-		return anInt8769 * -1859348849;
-	}
-
-	static {
-		aClass698_8764 = new Class698(-3);
-		aClass698_8763 = new Class698(2);
-		aClass698_8766 = new Class698(3);
-		aClass698_8765 = new Class698(21);
-		aClass698_8768 = new Class698(20);
-	}
-
-	Class698(int i) {
-		anInt8769 = -456800145 * i;
-	}
-
-	public int method91() {
-		return anInt8769 * -1859348849;
-	}
-
-	public static Class698[] method14269() {
-		return (new Class698[] { aClass698_8768, aClass698_8763, aClass698_8764, aClass698_8765, aClass698_8766, aClass698_8767 });
-	}
-
-	public static Class698[] method14270() {
-		return (new Class698[] { aClass698_8768, aClass698_8763, aClass698_8764, aClass698_8765, aClass698_8766, aClass698_8767 });
-	}
-
-	public static int method14271(int i, int i_0_, boolean bool, int i_1_) {
-		Class527_Sub1 class527_sub1 = Class263.method4962(i, bool, (byte) 48);
-		if (class527_sub1 == null)
-			return -1;
-		if (i_0_ < 0 || i_0_ >= class527_sub1.anIntArray10332.length)
-			return -1;
-		return class527_sub1.anIntArray10332[i_0_];
-	}
-
-	static final void method14272(Class665 class665, byte i) {
-		int i_2_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class204.aClass527_Sub31_2213.aClass700_Sub40_10604.method14289(i_2_, 1196591228);
-	}
-
-	public static void method14273(int i) {
-		Class106.anInt1321 = 1830047253;
-	}
-
-	static final void method14274(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		int i_3_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_4_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = client.aClass223_11241.method4154(i_3_, -1572954).method4082(i_4_, (byte) 81) ? 1 : 0;
+	static void method8234(int i) {
+		int i_0_ = -1804846931 * Class144.anInt1679;
+		int i_1_ = Class34_Sub6.anInt10965 * 589116499;
+		if (569699291 * Class500.anInt6841 < i_0_)
+			i_0_ = 569699291 * Class500.anInt6841;
+		if (160996593 * Class313.anInt3499 < i_1_)
+			i_1_ = Class313.anInt3499 * 160996593;
+		try {
+			if (null != Class710.aClass536_Sub40_8843)
+				Class412.aClass412_4386.method5007((new Object[] { Integer.valueOf(i_0_), Integer.valueOf(i_1_), Integer.valueOf(Class315.method4212((byte) 65)), Integer.valueOf(Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-1729661639)) }), -1134142030);
+		} catch (Throwable throwable) {
+			/* empty */
+		}
 	}
 }

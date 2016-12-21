@@ -4,7 +4,9 @@
 package com.jagex;
 
 public interface Interface47 {
-	public Class396 method333();
+	public Class400 method335(int i, byte i_0_);
 
-	public Class396 method334(int i);
+	public Class400 method336(int i);
+
+	public Class400 method337(int i);
 }

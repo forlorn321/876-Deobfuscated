@@ -3,16 +3,24 @@
  */
 package com.jagex;
 
-public interface Interface37 extends Interface34, Interface36 {
-	public boolean method218(int i, int i_0_);
+public interface Interface37 {
+	public long method263(int i, int i_0_);
 
-	public void method129();
+	public boolean method264(int i, int i_1_, long l);
 
-	public void method130();
+	public void method265();
 
-	public boolean method219(int i, int i_1_);
+	public boolean method266(int i, int i_2_, long l);
 
-	public boolean method220(int i, int i_2_);
+	public int method9();
 
-	public boolean method221(int i, int i_3_);
+	public int method267();
+
+	public int method73();
+
+	public long method268(int i, int i_3_);
+
+	public long method269(int i, int i_4_);
+
+	public void method270();
 }

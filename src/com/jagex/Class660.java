@@ -3,189 +3,165 @@
  */
 package com.jagex;
 
-public class Class660 implements Interface14, Interface7 {
-	public int anInt8498 = 0;
-	static final int anInt8499 = 1190717;
-	public int anInt8500;
-	public int anInt8501 = -845580999;
-	public boolean aBool8502 = true;
-	public int anInt8503;
-	public int anInt8504;
-	public int anInt8505 = -1046254465;
-	public int anInt8506;
-	public boolean aBool8507;
-	public int anInt8508;
-	int anInt8509;
-	public boolean aBool8510;
-	public int anInt8511;
-	public int anInt8512;
-	public int anInt8513;
+public class Class660 implements Interface19 {
+	Class350 aClass350_8505;
 
-	static int method11014(int i) {
-		if (16711935 == i)
-			return -1;
-		return Class57.method1365(i, 1859361840);
+	public void method106(Class324 class324, int i) {
+		throw new UnsupportedOperationException();
 	}
 
-	public void method82(RSByteBuffer class527_sub38, int i) {
-		for (;;) {
-			int i_0_ = class527_sub38.readUnsignedByte();
-			if (i_0_ == 0)
-				break;
-			method11016(class527_sub38, i_0_, -1097820699);
+	public int method99(Class153 class153, int i) {
+		Integer integer = aClass350_8505.method4599((273023065 * (client.aClass670_11043.anInt8567) << 16 | class153.anInt1715 * -1786401803), 1189197950);
+		if (integer == null)
+			return ((Integer) class153.method1855((byte) -93)).intValue();
+		return integer.intValue();
+	}
+
+	public void method121(Class324 class324, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public int method97(Class153 class153) {
+		Integer integer = aClass350_8505.method4599((273023065 * (client.aClass670_11043.anInt8567) << 16 | class153.anInt1715 * -1786401803), 1379500454);
+		if (integer == null)
+			return ((Integer) class153.method1855((byte) -102)).intValue();
+		return integer.intValue();
+	}
+
+	public int method96(Class324 class324, int i) {
+		return class324.method4263(method99(class324.aClass153_3555, 1616025799), (byte) 12);
+	}
+
+	public Object method116(Class153 class153) {
+		if (class153.aClass453_1716 != Class453.aClass453_5084)
+			throw new IllegalArgumentException("");
+		return aClass350_8505.method4601(((client.aClass670_11043.anInt8567 * 273023065) << 16 | class153.anInt1715 * -1786401803), -1943471146);
+	}
+
+	public void method119(Class153 class153, long l) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method105(Class153 class153, Object object, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method107(Class324 class324, int i, byte i_0_) {
+		throw new UnsupportedOperationException();
+	}
+
+	public long method108(Class153 class153) {
+		Long var_long = aClass350_8505.method4600(((client.aClass670_11043.anInt8567 * 273023065) << 16 | -1786401803 * class153.anInt1715), 1591965685);
+		if (null == var_long)
+			return ((Long) class153.method1855((byte) -15)).longValue();
+		return var_long.longValue();
+	}
+
+	public int method98(Class153 class153) {
+		Integer integer = aClass350_8505.method4599((273023065 * (client.aClass670_11043.anInt8567) << 16 | class153.anInt1715 * -1786401803), 987402843);
+		if (integer == null)
+			return ((Integer) class153.method1855((byte) -124)).intValue();
+		return integer.intValue();
+	}
+
+	public int method95(Class324 class324) {
+		return class324.method4263(method99(class324.aClass153_3555, 1987326172), (byte) 12);
+	}
+
+	public void method109(Class153 class153, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method113(Class153 class153, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method111(Class153 class153, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method112(Class153 class153, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method115(Class153 class153, int i) {
+		throw new UnsupportedOperationException();
+	}
+
+	public long method102(Class153 class153, int i) {
+		Long var_long = aClass350_8505.method4600(((client.aClass670_11043.anInt8567 * 273023065) << 16 | -1786401803 * class153.anInt1715), 336477041);
+		if (null == var_long)
+			return ((Long) class153.method1855((byte) -89)).longValue();
+		return var_long.longValue();
+	}
+
+	public long method114(Class153 class153) {
+		Long var_long = aClass350_8505.method4600(((client.aClass670_11043.anInt8567 * 273023065) << 16 | -1786401803 * class153.anInt1715), 1325361635);
+		if (null == var_long)
+			return ((Long) class153.method1855((byte) -19)).longValue();
+		return var_long.longValue();
+	}
+
+	public void method110(Class153 class153, long l) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method120(Class153 class153, Object object) {
+		throw new UnsupportedOperationException();
+	}
+
+	public Object method117(Class153 class153) {
+		if (class153.aClass453_1716 != Class453.aClass453_5084)
+			throw new IllegalArgumentException("");
+		return aClass350_8505.method4601(((client.aClass670_11043.anInt8567 * 273023065) << 16 | class153.anInt1715 * -1786401803), -1943471146);
+	}
+
+	public Object method104(Class153 class153, byte i) {
+		if (class153.aClass453_1716 != Class453.aClass453_5084)
+			throw new IllegalArgumentException("");
+		return aClass350_8505.method4601(((client.aClass670_11043.anInt8567 * 273023065) << 16 | class153.anInt1715 * -1786401803), -1943471146);
+	}
+
+	public void method103(Class153 class153, Object object) {
+		throw new UnsupportedOperationException();
+	}
+
+	public Object method118(Class153 class153) {
+		if (class153.aClass453_1716 != Class453.aClass453_5084)
+			throw new IllegalArgumentException("");
+		return aClass350_8505.method4601(((client.aClass670_11043.anInt8567 * 273023065) << 16 | class153.anInt1715 * -1786401803), -1943471146);
+	}
+
+	Class660(Class350 class350) {
+		aClass350_8505 = class350;
+	}
+
+	public void method101(Class153 class153, int i, int i_1_) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void method100(Class153 class153, Object object) {
+		throw new UnsupportedOperationException();
+	}
+
+	static void method7971(Class668 class668, int i) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -11));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
+	}
+
+	static String method7972(RSByteBuffer class536_sub33, int i, int i_2_) {
+		String string;
+		try {
+			int i_3_ = class536_sub33.method9690(-918732388);
+			if (i_3_ > i)
+				i_3_ = i;
+			byte[] is = new byte[i_3_];
+			class536_sub33.off += (Class266.aClass282_2866.method3769((class536_sub33.buffer), (-810172525 * (class536_sub33.off)), is, 0, i_3_, 377832910) * 516175515);
+			String string_4_ = Class202.method2925(is, 0, i_3_, -1694498816);
+			string = string_4_;
+		} catch (Exception exception) {
+			return "Cabbage";
 		}
-	}
-
-	public void method60(int i) {
-		anInt8509 = i * 1516987325;
-	}
-
-	Class660() {
-		anInt8504 = 1032071680;
-		aBool8510 = true;
-		anInt8500 = -181960120;
-		aBool8507 = false;
-		anInt8508 = 1899303369;
-		anInt8506 = 1906868928;
-		anInt8512 = 765094033;
-		anInt8511 = -1082686907;
-		anInt8503 = 0;
-		anInt8513 = -1192915776;
-	}
-
-	public void method16(int i, int i_1_) {
-		anInt8509 = i * 1516987325;
-	}
-
-	public void method83(RSByteBuffer class527_sub38) {
-		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
-			if (i == 0)
-				break;
-			method11016(class527_sub38, i, 91847731);
-		}
-	}
-
-	public void method73(RSByteBuffer class527_sub38) {
-		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
-			if (i == 0)
-				break;
-			method11016(class527_sub38, i, -1961377452);
-		}
-	}
-
-	public void method85() {
-		anInt8500 = ((anInt8500 * 194118137 << 8 | anInt8509 * 1614835605) * 2124738633);
-	}
-
-	public void method86(int i) {
-		anInt8500 = ((anInt8500 * 194118137 << 8 | anInt8509 * 1614835605) * 2124738633);
-	}
-
-	public void method84() {
-		anInt8500 = ((anInt8500 * 194118137 << 8 | anInt8509 * 1614835605) * 2124738633);
-	}
-
-	void method11015(RSByteBuffer class527_sub38, int i) {
-		if (1 == i)
-			anInt8498 = Class271.method5074(class527_sub38.read24BitUnsignedInteger(1176354116), (byte) 111) * -2074997671;
-		else if (2 == i)
-			anInt8501 = class527_sub38.readUnsignedByte() * 845580999;
-		else if (i == 3) {
-			anInt8501 = class527_sub38.readUnsignedShort() * 845580999;
-			if (65535 == 482678519 * anInt8501)
-				anInt8501 = -845580999;
-		} else if (i == 5)
-			aBool8502 = false;
-		else if (i == 7)
-			anInt8505 = Class271.method5074(class527_sub38.read24BitUnsignedInteger(1009509056), (byte) 73) * 1046254465;
-		else if (8 != i) {
-			if (i == 9)
-				anInt8504 = (class527_sub38.readUnsignedShort() << 2) * 765379093;
-			else if (10 == i)
-				aBool8510 = false;
-			else if (11 == i)
-				anInt8500 = class527_sub38.readUnsignedByte() * 2124738633;
-			else if (i == 12)
-				aBool8507 = true;
-			else if (i == 13)
-				anInt8508 = class527_sub38.read24BitUnsignedInteger(654036311) * 1080105341;
-			else if (i == 14)
-				anInt8506 = ((class527_sub38.readUnsignedByte() << 2) * -574184949);
-			else if (16 == i)
-				anInt8512 = class527_sub38.readUnsignedByte() * 1047266927;
-			else if (20 == i)
-				anInt8511 = class527_sub38.readUnsignedShort() * 1550818427;
-			else if (i == 21)
-				anInt8503 = class527_sub38.readUnsignedByte() * 99795185;
-			else if (i == 22)
-				anInt8513 = class527_sub38.readUnsignedShort() * -622619085;
-		}
-	}
-
-	void method11016(RSByteBuffer class527_sub38, int i, int i_2_) {
-		if (1 == i)
-			anInt8498 = Class271.method5074(class527_sub38.read24BitUnsignedInteger(720862932), (byte) 88) * -2074997671;
-		else if (2 == i)
-			anInt8501 = class527_sub38.readUnsignedByte() * 845580999;
-		else if (i == 3) {
-			anInt8501 = class527_sub38.readUnsignedShort() * 845580999;
-			if (65535 == 482678519 * anInt8501)
-				anInt8501 = -845580999;
-		} else if (i == 5)
-			aBool8502 = false;
-		else if (i == 7)
-			anInt8505 = Class271.method5074(class527_sub38.read24BitUnsignedInteger(1611676846), (byte) 65) * 1046254465;
-		else if (8 != i) {
-			if (i == 9)
-				anInt8504 = (class527_sub38.readUnsignedShort() << 2) * 765379093;
-			else if (10 == i)
-				aBool8510 = false;
-			else if (11 == i)
-				anInt8500 = class527_sub38.readUnsignedByte() * 2124738633;
-			else if (i == 12)
-				aBool8507 = true;
-			else if (i == 13)
-				anInt8508 = class527_sub38.read24BitUnsignedInteger(150894560) * 1080105341;
-			else if (i == 14)
-				anInt8506 = ((class527_sub38.readUnsignedByte() << 2) * -574184949);
-			else if (16 == i)
-				anInt8512 = class527_sub38.readUnsignedByte() * 1047266927;
-			else if (20 == i)
-				anInt8511 = class527_sub38.readUnsignedShort() * 1550818427;
-			else if (i == 21)
-				anInt8503 = class527_sub38.readUnsignedByte() * 99795185;
-			else if (i == 22)
-				anInt8513 = class527_sub38.readUnsignedShort() * -622619085;
-		}
-	}
-
-	static int method11017(int i) {
-		if (16711935 == i)
-			return -1;
-		return Class57.method1365(i, 2016233837);
-	}
-
-	static final void method11018(Class665 class665, byte i) {
-		Class278.method5165((String) (class665.anObjectArray8541[((class665.anInt8528 -= 433009517) * 318492261)]), (byte) -113);
-	}
-
-	static final void method11019(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 44791937 * Class3.aClass13_34.anInt181;
-	}
-
-	static final void method11020(Class665 class665, int i) {
-		int i_3_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class249 class249 = ((Class249) Class457.aClass24_Sub12_5063.method81(i_3_, -864431398));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = -1771553873 * class249.anInt2777;
-	}
-
-	static String method11021(long l, int i, int i_4_) {
-		Class565.method9496(l);
-		int i_5_ = Class85.aCalendar816.get(5);
-		int i_6_ = Class85.aCalendar816.get(2) + 1;
-		int i_7_ = Class85.aCalendar816.get(1);
-		return new StringBuilder().append(Integer.toString(i_5_ / 10)).append(i_5_ % 10).append("/").append(i_6_ / 10).append(i_6_ % 10).append("/").append(i_7_ % 100 / 10).append(i_7_ % 10).toString();
+		return string;
 	}
 }

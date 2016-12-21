@@ -3,74 +3,137 @@
  */
 package com.jagex;
 
-public class Class338 {
-	static final int anInt3646 = 3;
-	long aLong3647 = 7474804210649232953L;
-	static final int anInt3648 = 1;
-	long aLong3649;
-	static final int anInt3650 = 2;
-	Class694 aClass694_3651 = new Class694();
-	static final int anInt3652 = 4;
-	static final int anInt3653 = 5;
-	static String[] aStringArray3654;
-	public static int anInt3655;
-	public static Class459 aClass459_3656;
+public abstract class Class338 {
+	protected Class167_Sub3 aClass167_Sub3_3647;
+	boolean aBool3648;
 
-	public void method6012(Class527_Sub21 class527_sub21) {
-		if ((aLong3649 * 291682620618178897L != -8168620736534281759L * class527_sub21.aLong7106) || (class527_sub21.aLong10488 * 3745362570088719233L != aLong3647 * 5608012410107226103L))
-			throw new RuntimeException("");
-		for (Class527_Sub4 class527_sub4 = (Class527_Sub4) aClass694_3651.method14081((short) 25328); null != class527_sub4; class527_sub4 = (Class527_Sub4) aClass694_3651.method14086(-65534))
-			class527_sub4.method16048(class527_sub21, (byte) -12);
-		class527_sub21.aLong10488 += -8734652902227993471L;
+	abstract int method4385();
+
+	abstract boolean method4386();
+
+	abstract boolean method4387();
+
+	abstract boolean method4388();
+
+	boolean method4389() {
+		return method4388();
 	}
 
-	void method6013(RSByteBuffer class527_sub38, byte i) {
-		aLong3649 = class527_sub38.method16612((byte) 1) * -2186605181456226383L;
-		aLong3647 = class527_sub38.method16612((byte) 1) * -7474804210649232953L;
-		for (int i_0_ = class527_sub38.readUnsignedByte(); 0 != i_0_; i_0_ = class527_sub38.readUnsignedByte()) {
-			Class527_Sub4 class527_sub4;
-			if (1 == i_0_)
-				class527_sub4 = new Class527_Sub4_Sub2(this);
-			else if (i_0_ == 4)
-				class527_sub4 = new Class527_Sub4_Sub4(this);
-			else if (3 == i_0_)
-				class527_sub4 = new Class527_Sub4_Sub1(this);
-			else if (2 == i_0_)
-				class527_sub4 = new Class527_Sub4_Sub5(this);
-			else if (i_0_ == 5)
-				class527_sub4 = new Class527_Sub4_Sub3(this);
-			else
-				throw new RuntimeException("");
-			class527_sub4.method16049(class527_sub38, (byte) 98);
-			aClass694_3651.method14147(class527_sub4, -1282892231);
-		}
+	abstract void method4390();
+
+	abstract void method4391(int i, int i_0_);
+
+	abstract void method4392(int i, Class183_Sub2 class183_sub2, Interface36 interface36, Interface21 interface21, Interface36 interface36_1_, boolean bool);
+
+	boolean method4393() {
+		return method4388();
 	}
 
-	public Class338(RSByteBuffer class527_sub38) {
-		method6013(class527_sub38, (byte) -39);
+	abstract void method4394(int i, Class183_Sub2 class183_sub2, Interface36 interface36, Interface21 interface21, Interface36 interface36_2_, boolean bool);
+
+	Class338(Class167_Sub3 class167_sub3) {
+		aClass167_Sub3_3647 = class167_sub3;
 	}
 
-	public void method6014(Class527_Sub21 class527_sub21) {
-		if ((aLong3649 * 291682620618178897L != -8168620736534281759L * class527_sub21.aLong7106) || (class527_sub21.aLong10488 * 3745362570088719233L != aLong3647 * 5608012410107226103L))
-			throw new RuntimeException("");
-		for (Class527_Sub4 class527_sub4 = (Class527_Sub4) aClass694_3651.method14081((short) -1337); null != class527_sub4; class527_sub4 = (Class527_Sub4) aClass694_3651.method14086(-65534))
-			class527_sub4.method16048(class527_sub21, (byte) -45);
-		class527_sub21.aLong10488 += -8734652902227993471L;
+	int method4395() {
+		return 0;
 	}
 
-	public void method6015(Class527_Sub21 class527_sub21, int i) {
-		if ((aLong3649 * 291682620618178897L != -8168620736534281759L * class527_sub21.aLong7106) || (class527_sub21.aLong10488 * 3745362570088719233L != aLong3647 * 5608012410107226103L))
-			throw new RuntimeException("");
-		for (Class527_Sub4 class527_sub4 = (Class527_Sub4) aClass694_3651.method14081((short) 20034); null != class527_sub4; class527_sub4 = (Class527_Sub4) aClass694_3651.method14086(-65534))
-			class527_sub4.method16048(class527_sub21, (byte) -17);
-		class527_sub21.aLong10488 += -8734652902227993471L;
+	boolean method4396() {
+		return aBool3648;
 	}
 
-	public void method6016(Class527_Sub21 class527_sub21) {
-		if ((aLong3649 * 291682620618178897L != -8168620736534281759L * class527_sub21.aLong7106) || (class527_sub21.aLong10488 * 3745362570088719233L != aLong3647 * 5608012410107226103L))
-			throw new RuntimeException("");
-		for (Class527_Sub4 class527_sub4 = (Class527_Sub4) aClass694_3651.method14081((short) 18155); null != class527_sub4; class527_sub4 = (Class527_Sub4) aClass694_3651.method14086(-65534))
-			class527_sub4.method16048(class527_sub21, (byte) -38);
-		class527_sub21.aLong10488 += -8734652902227993471L;
+	void method4397() {
+		/* empty */
 	}
+
+	abstract boolean method4398();
+
+	abstract boolean method4399();
+
+	abstract boolean method4400();
+
+	abstract boolean method4401();
+
+	abstract boolean method4402();
+
+	abstract int method4403();
+
+	abstract boolean method4404();
+
+	abstract boolean method4405();
+
+	boolean method4406() {
+		return aBool3648;
+	}
+
+	abstract void method4407(int i);
+
+	boolean method4408() {
+		return method4388();
+	}
+
+	abstract void method4409();
+
+	abstract boolean method4410();
+
+	boolean method4411() {
+		return method4388();
+	}
+
+	abstract void method4412();
+
+	abstract void method4413();
+
+	abstract void method4414(int i, int i_3_);
+
+	abstract void method4415(int i, Class183_Sub2 class183_sub2, Interface36 interface36, Interface21 interface21, Interface36 interface36_4_, boolean bool);
+
+	abstract void method4416(int i);
+
+	int method4417() {
+		return 1;
+	}
+
+	abstract int method4418();
+
+	abstract int method4419();
+
+	boolean method4420() {
+		return aBool3648;
+	}
+
+	int method4421() {
+		return 0;
+	}
+
+	int method4422() {
+		return 0;
+	}
+
+	int method4423() {
+		return 0;
+	}
+
+	boolean method4424() {
+		return aBool3648;
+	}
+
+	abstract void method4425();
+
+	abstract void method4426(int i, int i_5_);
+
+	abstract boolean method4427();
+
+	abstract boolean method4428();
+
+	abstract void method4429(int i);
+
+	int method4430() {
+		return 1;
+	}
+
+	abstract void method4431(int i);
+
+	abstract void method4432(int i);
 }

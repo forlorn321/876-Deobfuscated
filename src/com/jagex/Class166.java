@@ -3,71 +3,68 @@
  */
 package com.jagex;
 
-import java.nio.ByteBuffer;
-import java.util.Arrays;
+import java.awt.Canvas;
+import java.lang.reflect.Method;
 
 public class Class166 {
-	public static final int anInt1834 = 8191;
-	public static int[] anIntArray1835 = { 3, 7, 15 };
-	public static final int anInt1836 = 16;
-	public static final int anInt1837 = 32;
-	public static final int anInt1838 = 1;
-	public static final int anInt1839 = 2;
-	public static final int anInt1840 = 0;
-	public static final int anInt1841 = 1023;
-	public static final int anInt1842 = 64;
-	public static final int anInt1843 = 16;
-	public static final int anInt1844 = 0;
-	public static int[] anIntArray1845 = { 2047, 16383, 65535 };
-	public static final int anInt1846 = 8;
-	public static final int anInt1847 = 2;
+	public static final int anInt1840 = 8191;
+	public Class703 aClass703_1841 = new Class703();
+	static Class251 aClass251_1842;
 
-	Class166() throws Throwable {
-		throw new Error();
+	static final void method1994(Class668 class668, byte i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
+		Class524.method6409(class251, class234, class668, 2003687979);
 	}
 
-	public static Class396[] method2667(int i) {
-		return (new Class396[] { Class396.aClass396_4109, Class396.aClass396_4108, Class396.aClass396_4107, Class396.aClass396_4110, Class396.aClass396_4117, Class396.aClass396_4112, Class396.aClass396_4111, Class396.aClass396_4114, Class396.aClass396_4115, Class396.aClass396_4116, Class396.aClass396_4113 });
+	static final void method1995(Class668 class668, byte i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
+		Class320.method4244(class251, class234, class668, 637295437);
 	}
 
-	public static Object method2668(byte[] is, boolean bool, short i) {
-		if (is == null)
-			return null;
-		if (is.length > 136) {
-			ByteBuffer bytebuffer = ByteBuffer.allocateDirect(is.length);
-			bytebuffer.position(0);
-			bytebuffer.put(is);
-			return bytebuffer;
+	static final void method1996(Class668 class668, int i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aString2638;
+	}
+
+	public static String method1997(String string, byte i) {
+		int i_3_ = string.length();
+		int i_4_ = 0;
+		for (int i_5_ = 0; i_5_ < i_3_; i_5_++) {
+			char c = string.charAt(i_5_);
+			if (c == '<' || c == '>')
+				i_4_ += 3;
 		}
-		if (bool)
-			return Arrays.copyOf(is, is.length);
-		return is;
-	}
-
-	public static String method2669(CharSequence charsequence, byte i) {
-		int i_0_ = charsequence.length();
-		StringBuilder stringbuilder = new StringBuilder(i_0_);
-		for (int i_1_ = 0; i_1_ < i_0_; i_1_++) {
-			char c = charsequence.charAt(i_1_);
-			if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z' || c >= '0' && c <= '9' || '.' == c || c == '-' || '*' == c || '_' == c)
+		StringBuilder stringbuilder = new StringBuilder(i_4_ + i_3_);
+		for (int i_6_ = 0; i_6_ < i_3_; i_6_++) {
+			char c = string.charAt(i_6_);
+			if ('<' == c)
+				stringbuilder.append("<lt>");
+			else if (c == '>')
+				stringbuilder.append("<gt>");
+			else
 				stringbuilder.append(c);
-			else if (c == ' ')
-				stringbuilder.append('+');
-			else {
-				int i_2_ = Class676.method13876(c, 1907269876);
-				stringbuilder.append('%');
-				int i_3_ = i_2_ >> 4 & 0xf;
-				if (i_3_ >= 10)
-					stringbuilder.append((char) (55 + i_3_));
-				else
-					stringbuilder.append((char) (i_3_ + 48));
-				i_3_ = i_2_ & 0xf;
-				if (i_3_ >= 10)
-					stringbuilder.append((char) (i_3_ + 55));
-				else
-					stringbuilder.append((char) (i_3_ + 48));
-			}
 		}
 		return stringbuilder.toString();
+	}
+
+	static final void method1998(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2711 * -1484799213;
+	}
+
+	public static void method1999(Canvas canvas, int i) {
+		try {
+			Class var_class = Class.forName("java.awt.Canvas");
+			Method method = var_class.getMethod("setIgnoreRepaint", new Class[] { Boolean.TYPE });
+			method.invoke(canvas, new Object[] { Boolean.TRUE });
+		} catch (Exception exception) {
+			/* empty */
+		}
 	}
 }

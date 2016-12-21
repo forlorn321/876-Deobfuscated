@@ -3,185 +3,135 @@
  */
 package com.jagex;
 
-public class Class252 {
-	int[] anIntArray2794;
-	int[] anIntArray2795;
-	int[] anIntArray2796 = null;
-	int[] anIntArray2797;
-	int[] anIntArray2798;
-	Class241 aClass241_2799;
-	int anInt2800;
-	int anInt2801;
+import java.awt.Frame;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TimeZone;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
-	void method4673(Class241 class241) {
-		aClass241_2799 = class241;
-		int i = aClass241_2799.method4402();
-		aClass241_2799.method4413(16);
-		anInt2801 = (aClass241_2799.method4416() != 0 ? aClass241_2799.method4413(4) + 1 : 1);
-		if (aClass241_2799.method4416() != 0) {
-			anInt2800 = aClass241_2799.method4413(8) + 1;
-			if (anIntArray2794 == null || anIntArray2794.length != anInt2800)
-				anIntArray2794 = new int[anInt2800];
-			else
-				method4674(anIntArray2794);
-			if (anIntArray2795 == null || anIntArray2795.length != anInt2800)
-				anIntArray2795 = new int[anInt2800];
-			else
-				method4674(anIntArray2795);
-			for (int i_0_ = 0; i_0_ < anInt2800; i_0_++) {
-				anIntArray2794[i_0_] = aClass241_2799.method4413(method4676(i - 1));
-				anIntArray2795[i_0_] = aClass241_2799.method4413(method4676(i - 1));
+public final class Class252 {
+	static Map aMap2741;
+	public static final long aLong2742 = 60000L;
+	static HashMap aHashMap2743 = new HashMap();
+	public static final long aLong2744 = 1000L;
+	static Class461 aClass461_2745;
+	public static int anInt2746;
+
+	static TimeZone method3515(int i) {
+		return method3518("Europe/London", -1627402089);
+	}
+
+	Class252() throws Throwable {
+		throw new Error();
+	}
+
+	static String method3516(Date date, String string, TimeZone timezone, Class664 class664, byte i) {
+		if (null == aMap2741) {
+			aMap2741 = new HashMap(7);
+			Class664[] class664s = Class664.method7995((byte) 11);
+			for (int i_0_ = 0; i_0_ < class664s.length; i_0_++) {
+				Class664 class664_1_ = class664s[i_0_];
+				aMap2741.put(class664_1_, new ConcurrentLinkedQueue());
 			}
-		} else
-			anInt2800 = 0;
-		aClass241_2799.method4413(2);
-		if (anInt2801 > 1) {
-			anIntArray2796 = new int[i];
-			for (int i_1_ = 0; i_1_ < i; i_1_++)
-				anIntArray2796[i_1_] = aClass241_2799.method4413(4);
 		}
-		if (anIntArray2797 == null || anIntArray2797.length != anInt2801)
-			anIntArray2797 = new int[anInt2801];
+		ConcurrentLinkedQueue concurrentlinkedqueue = (ConcurrentLinkedQueue) aMap2741.get(class664);
+		SimpleDateFormat simpledateformat = (SimpleDateFormat) concurrentlinkedqueue.poll();
+		if (simpledateformat == null)
+			simpledateformat = new SimpleDateFormat(string, class664.method7991((byte) -55));
 		else
-			method4674(anIntArray2797);
-		if (anIntArray2798 == null || anIntArray2798.length != anInt2801)
-			anIntArray2798 = new int[anInt2801];
-		else
-			method4674(anIntArray2798);
-		for (int i_2_ = 0; i_2_ < anInt2801; i_2_++) {
-			aClass241_2799.method4413(8);
-			anIntArray2797[i_2_] = aClass241_2799.method4413(8);
-			anIntArray2798[i_2_] = aClass241_2799.method4413(8);
-		}
+			simpledateformat.applyPattern(string);
+		simpledateformat.setTimeZone(timezone);
+		String string_2_ = simpledateformat.format(date);
+		concurrentlinkedqueue.add(simpledateformat);
+		return string_2_;
 	}
 
-	void method4674(int[] is) {
-		if (is != null) {
-			for (int i = 0; i < is.length; i++)
-				is[i] = 0;
-		}
+	public static String method3517(Date date, String string, byte i) {
+		return method3516(date, string, method3515(-235980715), Class664.aClass664_8524, (byte) -99);
 	}
 
-	void method4675(Class241 class241) {
-		aClass241_2799 = class241;
-		int i = aClass241_2799.method4402();
-		aClass241_2799.method4413(16);
-		anInt2801 = (aClass241_2799.method4416() != 0 ? aClass241_2799.method4413(4) + 1 : 1);
-		if (aClass241_2799.method4416() != 0) {
-			anInt2800 = aClass241_2799.method4413(8) + 1;
-			if (anIntArray2794 == null || anIntArray2794.length != anInt2800)
-				anIntArray2794 = new int[anInt2800];
-			else
-				method4674(anIntArray2794);
-			if (anIntArray2795 == null || anIntArray2795.length != anInt2800)
-				anIntArray2795 = new int[anInt2800];
-			else
-				method4674(anIntArray2795);
-			for (int i_3_ = 0; i_3_ < anInt2800; i_3_++) {
-				anIntArray2794[i_3_] = aClass241_2799.method4413(method4676(i - 1));
-				anIntArray2795[i_3_] = aClass241_2799.method4413(method4676(i - 1));
+	static {
+		Calendar.getInstance(method3518("Europe/London", -1817505204));
+	}
+
+	static TimeZone method3518(String string, int i) {
+		synchronized (aHashMap2743) {
+			TimeZone timezone = (TimeZone) aHashMap2743.get(string);
+			if (null == timezone) {
+				timezone = TimeZone.getTimeZone(string);
+				aHashMap2743.put(string, timezone);
 			}
-		} else
-			anInt2800 = 0;
-		aClass241_2799.method4413(2);
-		if (anInt2801 > 1) {
-			anIntArray2796 = new int[i];
-			for (int i_4_ = 0; i_4_ < i; i_4_++)
-				anIntArray2796[i_4_] = aClass241_2799.method4413(4);
-		}
-		if (anIntArray2797 == null || anIntArray2797.length != anInt2801)
-			anIntArray2797 = new int[anInt2801];
-		else
-			method4674(anIntArray2797);
-		if (anIntArray2798 == null || anIntArray2798.length != anInt2801)
-			anIntArray2798 = new int[anInt2801];
-		else
-			method4674(anIntArray2798);
-		for (int i_5_ = 0; i_5_ < anInt2801; i_5_++) {
-			aClass241_2799.method4413(8);
-			anIntArray2797[i_5_] = aClass241_2799.method4413(8);
-			anIntArray2798[i_5_] = aClass241_2799.method4413(8);
+			TimeZone timezone_3_ = timezone;
+			return timezone_3_;
 		}
 	}
 
-	int method4676(int i) {
-		int i_6_ = 0;
-		for (/**/; i > 0; i >>= 1)
-			i_6_++;
-		return i_6_;
+	static final void method3519(Class668 class668, int i) {
+		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_4_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_4_ >> 16];
+		Class453.method5447(class251, class234, class668, (byte) 24);
 	}
 
-	void method4677(int[] is) {
-		if (is != null) {
-			for (int i = 0; i < is.length; i++)
-				is[i] = 0;
+	static final void method3520(Class668 class668, int i) {
+		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class536_Sub18_Sub14 class536_sub18_sub14 = Class542.method6563(i_5_);
+		if (null == class536_sub18_sub14) {
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+		} else {
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1539255617 * class536_sub18_sub14.anInt11769;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1266410161 * class536_sub18_sub14.anInt11771;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub14.anInt11770 * 615226225;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub14.anInt11772 * 888731475;
 		}
 	}
 
-	void method4678(int[] is) {
-		if (is != null) {
-			for (int i = 0; i < is.length; i++)
-				is[i] = 0;
-		}
-	}
-
-	Class252() {
-		/* empty */
-	}
-
-	void method4679(Class241 class241) {
-		aClass241_2799 = class241;
-		int i = aClass241_2799.method4402();
-		aClass241_2799.method4413(16);
-		anInt2801 = (aClass241_2799.method4416() != 0 ? aClass241_2799.method4413(4) + 1 : 1);
-		if (aClass241_2799.method4416() != 0) {
-			anInt2800 = aClass241_2799.method4413(8) + 1;
-			if (anIntArray2794 == null || anIntArray2794.length != anInt2800)
-				anIntArray2794 = new int[anInt2800];
-			else
-				method4674(anIntArray2794);
-			if (anIntArray2795 == null || anIntArray2795.length != anInt2800)
-				anIntArray2795 = new int[anInt2800];
-			else
-				method4674(anIntArray2795);
-			for (int i_7_ = 0; i_7_ < anInt2800; i_7_++) {
-				anIntArray2794[i_7_] = aClass241_2799.method4413(method4676(i - 1));
-				anIntArray2795[i_7_] = aClass241_2799.method4413(method4676(i - 1));
+	public static Frame method3521(Class691 class691, int i, int i_6_, int i_7_, int i_8_, byte i_9_) {
+		if (i_7_ == 0) {
+			Class697[] class697s = Class250.method3461(class691, (byte) 0);
+			if (class697s == null)
+				return null;
+			boolean bool = false;
+			for (int i_10_ = 0; i_10_ < class697s.length; i_10_++) {
+				if (class697s[i_10_].anInt8744 * -1090373425 == i && class697s[i_10_].anInt8743 * 832859273 == i_6_ && (i_8_ == 0 || i_8_ == -842437639 * class697s[i_10_].anInt8742) && (!bool || 1117205975 * class697s[i_10_].anInt8745 > i_7_)) {
+					i_7_ = class697s[i_10_].anInt8745 * 1117205975;
+					bool = true;
+				}
 			}
-		} else
-			anInt2800 = 0;
-		aClass241_2799.method4413(2);
-		if (anInt2801 > 1) {
-			anIntArray2796 = new int[i];
-			for (int i_8_ = 0; i_8_ < i; i_8_++)
-				anIntArray2796[i_8_] = aClass241_2799.method4413(4);
+			if (!bool)
+				return null;
 		}
-		if (anIntArray2797 == null || anIntArray2797.length != anInt2801)
-			anIntArray2797 = new int[anInt2801];
-		else
-			method4674(anIntArray2797);
-		if (anIntArray2798 == null || anIntArray2798.length != anInt2801)
-			anIntArray2798 = new int[anInt2801];
-		else
-			method4674(anIntArray2798);
-		for (int i_9_ = 0; i_9_ < anInt2801; i_9_++) {
-			aClass241_2799.method4413(8);
-			anIntArray2797[i_9_] = aClass241_2799.method4413(8);
-			anIntArray2798[i_9_] = aClass241_2799.method4413(8);
-		}
+		Frame frame = new Frame("Jagex Full Screen");
+		frame.setResizable(false);
+		class691.method8193(frame, i, i_6_, i_7_, i_8_, 755264394);
+		return frame;
 	}
 
-	int method4680(int i) {
-		int i_10_ = 0;
-		for (/**/; i > 0; i >>= 1)
-			i_10_++;
-		return i_10_;
-	}
-
-	int method4681(int i) {
-		int i_11_ = 0;
-		for (/**/; i > 0; i >>= 1)
-			i_11_++;
-		return i_11_;
+	public static void method3522(short i) {
+		if (Class23.aBool227) {
+			if (Class23.anInt218 * -885753039 < -805119937 * Class220.anInt2310)
+				Class23.anInt218 = Class220.anInt2310 * -2095002001;
+			while (Class23.anInt218 * -885753039 < Class593.anInt7808 * 870600939) {
+				Class603_Sub1 class603_sub1 = Class324.method4269(-885753039 * Class23.anInt218, 664317011);
+				if (null == class603_sub1 || class603_sub1.anInt10558 * 2023817915 != -1)
+					Class23.anInt218 += 417922513;
+				else {
+					if (null == Class23.aClass654_223)
+						Class23.aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.aString10555, -1688650340));
+					int i_11_ = -1190285297 * Class23.aClass654_223.anInt8493;
+					if (-1 == i_11_)
+						break;
+					class603_sub1.anInt10558 = 1767240307 * i_11_;
+					Class23.anInt218 += 417922513;
+					Class23.aClass654_223 = null;
+				}
+			}
+		}
 	}
 }

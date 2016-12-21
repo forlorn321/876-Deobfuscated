@@ -4,49 +4,57 @@
 package com.jagex;
 
 public interface Interface19 extends Interface18 {
-	public int method101(Class160 class160, int i);
+	public void method100(Class153 class153, Object object);
 
-	public void method105(Class160 class160, int i, byte i_0_);
+	public void method101(Class153 class153, int i, int i_0_);
 
-	public int method100(Class333 class333, short i);
+	public long method102(Class153 class153, int i);
 
-	public int method104(Class160 class160);
+	public void method103(Class153 class153, Object object);
 
-	public Object method106(Class160 class160, int i);
+	public Object method104(Class153 class153, byte i);
 
-	public void method107(Class160 class160, int i);
+	public void method105(Class153 class153, Object object, int i);
 
-	public long method108(Class160 class160);
+	public void method106(Class324 class324, int i) throws Exception_Sub4;
 
-	public void method109(Class333 class333, int i, int i_1_) throws Exception_Sub7;
+	public void method107(Class324 class324, int i, byte i_1_) throws Exception_Sub4;
 
-	public void method110(Class160 class160, long l);
+	public long method108(Class153 class153);
 
-	public void method111(Class160 class160, Object object, int i);
+	public int method98(Class153 class153);
 
-	public int method103(Class160 class160);
+	public int method95(Class324 class324);
 
-	public long method112(Class160 class160);
+	public void method109(Class153 class153, int i);
 
-	public long method113(Class160 class160, byte i);
+	public void method110(Class153 class153, long l);
 
-	public void method114(Class160 class160, long l);
+	public void method111(Class153 class153, int i);
 
-	public Object method115(Class160 class160);
+	public void method112(Class153 class153, int i);
 
-	public Object method116(Class160 class160);
+	public int method96(Class324 class324, int i);
 
-	public Object method117(Class160 class160);
+	public void method113(Class153 class153, int i);
 
-	public void method118(Class160 class160, Object object);
+	public long method114(Class153 class153);
 
-	public void method119(Class333 class333, int i) throws Exception_Sub7;
+	public void method115(Class153 class153, int i);
 
-	public void method120(Class333 class333, int i) throws Exception_Sub7;
+	public Object method116(Class153 class153);
 
-	public void method121(Class160 class160, int i);
+	public Object method117(Class153 class153);
 
-	public int method102(Class333 class333);
+	public Object method118(Class153 class153);
 
-	public void method122(Class160 class160, int i);
+	public void method119(Class153 class153, long l);
+
+	public int method97(Class153 class153);
+
+	public void method120(Class153 class153, Object object);
+
+	public void method121(Class324 class324, int i) throws Exception_Sub4;
+
+	public int method99(Class153 class153, int i);
 }

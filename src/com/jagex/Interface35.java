@@ -3,5 +3,10 @@
  */
 package com.jagex;
 
-public interface Interface35 extends Interface41 {
+public interface Interface35 {
+	public void method131();
+
+	public void method130();
+
+	public void method129();
 }

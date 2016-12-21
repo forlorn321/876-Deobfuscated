@@ -4,83 +4,32 @@
 package com.jagex;
 
 public class Class445 {
-	public Class438 aClass438_4926;
-	public Class442 aClass442_4927;
-
-	public final void method7246() {
-		aClass438_4926.method7033();
-		aClass442_4927.method7149();
-		aClass442_4927.method7157(aClass438_4926);
+	public static void method5397(Class436 class436, Class436 class436_0_, Class436 class436_1_, float f, Class436[] class436s) {
+		Class436 class436_2_ = Class436.method5252(class436, class436_1_);
+		float f_3_ = Class436.method5254(class436_2_, class436_2_) - f * f;
+		float f_4_ = Class436.method5254(class436_0_, class436_2_);
+		float f_5_ = f_4_ * f_4_ - f_3_;
+		if (f_5_ < 0.0F) {
+			Class436[] class436s_6_ = class436s;
+			class436s[1] = null;
+			class436s_6_[0] = null;
+		} else if (f_5_ >= 9.765625E-4F) {
+			float f_7_ = (float) Math.sqrt((double) f_5_);
+			class436s[0] = Class436.method5238();
+			class436s[0].method5272(class436);
+			class436s[0].method5248(Class436.method5281(Class436.method5240(class436_0_), -f_4_ - f_7_));
+			class436s[1] = Class436.method5238();
+			class436s[1].method5272(class436);
+			class436s[1].method5248(Class436.method5281(Class436.method5240(class436_0_), -f_4_ + f_7_));
+		} else {
+			class436s[0] = Class436.method5238();
+			class436s[0].method5272(class436);
+			class436s[0].method5248(Class436.method5281(Class436.method5240(class436_0_), -f_4_));
+			class436s[1] = null;
+		}
 	}
 
-	public Class445() {
-		aClass438_4926 = new Class438();
-		aClass442_4927 = new Class442();
-	}
-
-	public final void method7247() {
-		aClass438_4926.method7033();
-		aClass442_4927.method7149();
-		aClass442_4927.method7157(aClass438_4926);
-	}
-
-	public final void method7248(Class445 class445_0_) {
-		aClass438_4926.method7019(class445_0_.aClass438_4926);
-		aClass442_4927.method7157(class445_0_.aClass438_4926);
-		aClass442_4927.method7219(class445_0_.aClass442_4927);
-	}
-
-	public final void method7249(Class445 class445_1_) {
-		aClass438_4926.method7019(class445_1_.aClass438_4926);
-		aClass442_4927.method7157(class445_1_.aClass438_4926);
-		aClass442_4927.method7219(class445_1_.aClass442_4927);
-	}
-
-	public String toString() {
-		return new StringBuilder().append("[").append(aClass438_4926.toString()).append("|").append(aClass442_4927.toString()).append("]").toString();
-	}
-
-	public String method7250() {
-		return new StringBuilder().append("[").append(aClass438_4926.toString()).append("|").append(aClass442_4927.toString()).append("]").toString();
-	}
-
-	public void method7251(Class445 class445_2_) {
-		aClass438_4926.method7054(class445_2_.aClass438_4926);
-		aClass442_4927.method7146(class445_2_.aClass442_4927);
-	}
-
-	public Class445(Class445 class445_3_) {
-		aClass438_4926 = new Class438();
-		aClass442_4927 = new Class442();
-		method7251(class445_3_);
-	}
-
-	public final void method7252() {
-		aClass438_4926.method7033();
-		aClass442_4927.method7149();
-		aClass442_4927.method7157(aClass438_4926);
-	}
-
-	public final void method7253() {
-		aClass438_4926.method7033();
-		aClass442_4927.method7149();
-		aClass442_4927.method7157(aClass438_4926);
-	}
-
-	public void method7254(Class445 class445_4_) {
-		aClass438_4926.method7054(class445_4_.aClass438_4926);
-		aClass442_4927.method7146(class445_4_.aClass442_4927);
-	}
-
-	public final void method7255(Class445 class445_5_) {
-		aClass438_4926.method7019(class445_5_.aClass438_4926);
-		aClass442_4927.method7157(class445_5_.aClass438_4926);
-		aClass442_4927.method7219(class445_5_.aClass442_4927);
-	}
-
-	public final void method7256(Class445 class445_6_) {
-		aClass438_4926.method7019(class445_6_.aClass438_4926);
-		aClass442_4927.method7157(class445_6_.aClass438_4926);
-		aClass442_4927.method7219(class445_6_.aClass442_4927);
+	Class445() throws Throwable {
+		throw new Error();
 	}
 }

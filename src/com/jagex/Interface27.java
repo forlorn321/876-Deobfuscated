@@ -4,7 +4,9 @@
 package com.jagex;
 
 public interface Interface27 {
-	public void method150(Class219 class219, int i);
+	public void method153(Class226 class226);
 
-	public void method151(Class219 class219);
+	public void method154(Class226 class226, short i);
+
+	public void method155(Class226 class226);
 }

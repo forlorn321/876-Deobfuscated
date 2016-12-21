@@ -3,69 +3,51 @@
  */
 package com.jagex;
 
-public abstract class Class646 {
-	Class459 aClass459_8349;
-	Class205 aClass205_8350 = new Class205(2);
+public class Class646 {
+	Class536_Sub18_Sub16 aClass536_Sub18_Sub16_8355;
+	int anInt8356 = 367307443;
+	int[] anIntArray8357;
+	Object[] anObjectArray8358;
+	long[] aLongArray8359;
+	public static int anInt8360;
+	public static Class536_Sub15 aClass536_Sub15_8361;
 
-	void method10748(int i) {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3792(i, (byte) -22);
-		}
+	Class646() {
+		/* empty */
 	}
 
-	void method10749(int i) {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3793((byte) 74);
-		}
+	static final void method7807(Class668 class668, byte i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.method10439(class251) ? 1 : 0;
 	}
 
-	void method10750(int i) {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3792(i, (byte) -62);
-		}
+	static final void method7808(Class668 class668, int i) throws Exception_Sub3 {
+		class668.anInt8542 -= -1349181388;
+		float f = (float) class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		float f_1_ = (float) (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1]);
+		float f_2_ = (float) (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2]);
+		float f_3_ = ((float) (class668.anIntArray8541[1867269829 * class668.anInt8542 + 3]) / 1000.0F);
+		Class683.aClass301_Sub1_8651.method4042(Class436.method5257(f, f_1_, f_2_), f_3_, (byte) 15);
 	}
 
-	void method10751(byte i) {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3820(-312006809);
-		}
+	static Class293 method7809(int i, int i_4_) {
+		if (851866579 * Class293.aClass293_3247.anInt3248 == i)
+			return Class293.aClass293_3247;
+		if (i == Class293.aClass293_3246.anInt3248 * 851866579)
+			return Class293.aClass293_3246;
+		return null;
 	}
 
-	Class646(Class459 class459) {
-		aClass459_8349 = class459;
-	}
-
-	void method10752(int i, int i_0_) {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3792(i, (byte) -46);
-		}
-	}
-
-	void method10753() {
-		synchronized (aClass205_8350) {
-			aClass205_8350.method3820(-492610235);
-		}
-	}
-
-	static final void method10754(Class665 class665, short i) {
-		int i_1_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		if (i_1_ < 0)
-			i_1_ = 0;
-		client.anInt11036 = 1591906877 * (i_1_ + client.anInt11117 * 2014593057);
-	}
-
-	static final int method10755(int i, int i_2_, int i_3_) {
-		int i_4_ = i + 57 * i_2_;
-		i_4_ = i_4_ << 13 ^ i_4_;
-		int i_5_ = i_4_ * (789221 + i_4_ * i_4_ * 15731) + 1376312589 & 0x7fffffff;
-		return i_5_ >> 19 & 0xff;
-	}
-
-	static final void method10756(Class665 class665, byte i) {
-		Class211.method3879(-800710789);
-		Class467.method7667(-791920877);
-		client.aClass509_11072.method8361(-428559959);
-		Class631.method10465(309418460);
-		client.aBool11020 = false;
+	public static RuntimeException_Sub1 method7810(Throwable throwable, String string) {
+		RuntimeException_Sub1 runtimeexception_sub1;
+		if (throwable instanceof RuntimeException_Sub1) {
+			runtimeexception_sub1 = (RuntimeException_Sub1) throwable;
+			StringBuilder stringbuilder = new StringBuilder();
+			RuntimeException_Sub1 runtimeexception_sub1_5_ = runtimeexception_sub1;
+			runtimeexception_sub1_5_.aString12037 = stringbuilder.append(runtimeexception_sub1_5_.aString12037).append(' ').append(string).toString();
+		} else
+			runtimeexception_sub1 = new RuntimeException_Sub1(throwable, string);
+		return runtimeexception_sub1;
 	}
 }

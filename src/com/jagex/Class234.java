@@ -3,53 +3,45 @@
  */
 package com.jagex;
 
-public final class Class234 {
-	static long aLong2371;
-	static long aLong2372;
-	public static String aString2373;
-	public static Class539 aClass539_2374;
-	public static Class24_Sub18 aClass24_Sub18_2375;
+public class Class234 {
+	Class251[] aClass251Array2377;
+	public Class251[] aClass251Array2378;
+	public boolean aBool2379;
+	static int[] anIntArray2380;
+	static int anInt2381;
 
-	Class234() throws Throwable {
-		throw new Error();
+	public Class251 method3337(int i, int i_0_) {
+		if (i >>> 16 != -1591767037 * aClass251Array2378[0].anInt2559 >>> 16)
+			throw new IllegalArgumentException();
+		return aClass251Array2378[i & 0xffff];
 	}
 
-	public static final synchronized long method4347(int i) {
-		long l = System.currentTimeMillis();
-		if (l < aLong2371 * 2008414051713072741L)
-			aLong2372 += 3714074417190756217L * (2008414051713072741L * aLong2371 - l);
-		aLong2371 = l * -7643567606725164179L;
-		return l + 6582159358268005065L * aLong2372;
+	Class234(boolean bool, Class251[] class251s) {
+		aClass251Array2378 = class251s;
+		aBool2379 = bool;
 	}
 
-	public static final synchronized long method4348() {
-		long l = System.currentTimeMillis();
-		if (l < aLong2371 * 2008414051713072741L)
-			aLong2372 += 3714074417190756217L * (2008414051713072741L * aLong2371 - l);
-		aLong2371 = l * -7643567606725164179L;
-		return l + 6582159358268005065L * aLong2372;
-	}
-
-	public static final synchronized long method4349() {
-		long l = System.currentTimeMillis();
-		if (l < aLong2371 * 2008414051713072741L)
-			aLong2372 += 3714074417190756217L * (2008414051713072741L * aLong2371 - l);
-		aLong2371 = l * -7643567606725164179L;
-		return l + 6582159358268005065L * aLong2372;
-	}
-
-	static String method4350(int i, int i_0_) {
-		return new StringBuilder().append("<col=").append(Integer.toHexString(i)).append(">").toString();
-	}
-
-	static final void method4351(int i, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_) {
-		for (Class522_Sub3 class522_sub3 = ((Class522_Sub3) client.aClass705_11182.method14317(297060422)); null != class522_sub3; class522_sub3 = (Class522_Sub3) client.aClass705_11182.method14320((byte) -127)) {
-			if (client.anInt11019 >= -597795203 * class522_sub3.anInt10304)
-				class522_sub3.method8682(98613600);
-			else {
-				Class638.method10576(-1058577441 * class522_sub3.anInt10301, (333227581 * class522_sub3.anInt10305 << 9) + 256, (256 + (1427941475 * class522_sub3.anInt10302 << 9)), 0, -2113695354 * class522_sub3.anInt10303, false, false, (short) 5172);
-				Class29.aClass174_262.method2745(class522_sub3.aString10306, (int) (client.aFloatArray11139[0] + (float) i), (int) (client.aFloatArray11139[1] + (float) i_1_), ~0xffffff | -1268086981 * class522_sub3.anInt10300, 0, 1348145444);
-			}
+	public Class251[] method3338(int i) {
+		if (aClass251Array2377 == null) {
+			int i_1_ = aClass251Array2378.length;
+			aClass251Array2377 = new Class251[i_1_];
+			System.arraycopy(aClass251Array2378, 0, aClass251Array2377, 0, aClass251Array2378.length);
 		}
+		return aClass251Array2377;
+	}
+
+	public Class251[] method3339(int i) {
+		return (aClass251Array2377 == null ? aClass251Array2378 : aClass251Array2377);
+	}
+
+	static final void method3340(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub37_10791.method10226(-1404949445) == 1 ? 1 : 0;
+	}
+
+	static final void method3341(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_2_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_3_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
+		class668.aClass382_8551.anIntArray4014[i_2_] = i_3_;
 	}
 }

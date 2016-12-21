@@ -3,8 +3,22 @@
  */
 package com.jagex;
 
-public interface Interface50 {
-	public Object method340(byte[] is, Class22 class22, boolean bool);
+public interface Interface50 extends Interface21 {
+	public void method129();
 
-	public Object method341(byte[] is, Class22 class22, boolean bool, short i);
+	public void method131();
+
+	public void method345();
+
+	public void method130();
+
+	public void method346();
+
+	public long method347();
+
+	public long method79();
+
+	public long method348();
+
+	public long method88();
 }

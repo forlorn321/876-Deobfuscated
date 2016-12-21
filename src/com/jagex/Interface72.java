@@ -4,11 +4,17 @@
 package com.jagex;
 
 public interface Interface72 {
-	public String method478(Class618 class618, int[] is, long l);
+	public int method481(int i, byte i_0_);
 
-	public String method479(Class618 class618, int[] is, long l);
+	public int method482(int i);
 
-	public String method480(Class618 class618, int[] is, long l);
+	public int method483(int i);
 
-	public String method481(Class618 class618, int[] is, long l);
+	public int method484(int i);
+
+	public int method485(int i);
+
+	public int method486(int i);
+
+	public int method487(int i);
 }

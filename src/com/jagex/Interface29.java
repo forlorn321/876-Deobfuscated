@@ -4,7 +4,11 @@
 package com.jagex;
 
 public interface Interface29 {
-	public long method168(String string);
+	public long method167(String string);
 
-	public long method169(String string, int i);
+	public long method168(String string, int i);
+
+	public long method169(String string);
+
+	public long method170(String string);
 }

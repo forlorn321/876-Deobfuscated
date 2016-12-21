@@ -4,9 +4,7 @@
 package com.jagex;
 
 public interface Interface45 {
-	public void method205(byte i);
+	public void method332(byte i);
 
-	public void method285();
-
-	public void method129();
+	public void method296();
 }

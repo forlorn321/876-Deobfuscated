@@ -3,79 +3,139 @@
  */
 package com.jagex;
 
-public abstract class Class700 {
-	protected static final int anInt8781 = 2;
-	protected static final int anInt8782 = 1;
-	public static final int anInt8783 = 3;
-	protected Class527_Sub31 aClass527_Sub31_8784;
-	protected int anInt8785;
+import java.util.Iterator;
 
-	abstract int method14279(byte i);
+public class Class700 implements Iterable {
+	public Class536_Sub18 aClass536_Sub18_8794 = new Class536_Sub18();
+	Class536_Sub18 aClass536_Sub18_8795;
 
-	void method14280(int i) {
-		if (method14289(i, 1526438896) != 3)
-			method14284(i, -1613750355);
+	public Class536_Sub18 method8237(int i) {
+		Class536_Sub18 class536_sub18 = aClass536_Sub18_8794.aClass536_Sub18_10506;
+		if (class536_sub18 == aClass536_Sub18_8794)
+			return null;
+		class536_sub18.method9521(-1118392533);
+		return class536_sub18;
 	}
 
-	abstract void method14281(int i);
-
-	void method14282(int i, int i_0_) {
-		if (method14289(i, -181316000) != 3)
-			method14284(i, 800858924);
+	public void method8238(int i) {
+		while (aClass536_Sub18_8794.aClass536_Sub18_10506 != aClass536_Sub18_8794)
+			aClass536_Sub18_8794.aClass536_Sub18_10506.method9521(-215113255);
 	}
 
-	void method14283(int i) {
-		if (method14289(i, -1505658207) != 3)
-			method14284(i, -883987375);
+	public void method8239(Class536_Sub18 class536_sub18, byte i) {
+		if (null != class536_sub18.aClass536_Sub18_10508)
+			class536_sub18.method9521(-1976898080);
+		class536_sub18.aClass536_Sub18_10508 = aClass536_Sub18_8794.aClass536_Sub18_10508;
+		class536_sub18.aClass536_Sub18_10506 = aClass536_Sub18_8794;
+		class536_sub18.aClass536_Sub18_10508.aClass536_Sub18_10506 = class536_sub18;
+		class536_sub18.aClass536_Sub18_10506.aClass536_Sub18_10508 = class536_sub18;
 	}
 
-	abstract void method14284(int i, int i_1_);
-
-	abstract int method14285(int i);
-
-	abstract int method14286(int i);
-
-	abstract void method14287(int i);
-
-	Class700(int i, Class527_Sub31 class527_sub31) {
-		anInt8785 = i * -380424163;
-		aClass527_Sub31_8784 = class527_sub31;
+	public Class700() {
+		aClass536_Sub18_8794.aClass536_Sub18_10506 = aClass536_Sub18_8794;
+		aClass536_Sub18_8794.aClass536_Sub18_10508 = aClass536_Sub18_8794;
 	}
 
-	abstract int method14288();
-
-	Class700(Class527_Sub31 class527_sub31) {
-		aClass527_Sub31_8784 = class527_sub31;
-		anInt8785 = method14279((byte) -58) * -380424163;
+	public void method8240() {
+		while (aClass536_Sub18_8794.aClass536_Sub18_10506 != aClass536_Sub18_8794)
+			aClass536_Sub18_8794.aClass536_Sub18_10506.method9521(-1975427462);
 	}
 
-	abstract int method14289(int i, int i_2_);
-
-	void method14290(int i) {
-		if (method14289(i, 1341967793) != 3)
-			method14284(i, -1446013039);
-	}
-
-	public static void method14291(int i) {
-		if (client.aBool11188) {
-			Class243 class243 = Class447.method7260(847840847 * Class275.anInt3157, 968228363 * client.anInt11078, 92768371);
-			if (class243 != null && null != class243.anObjectArray2618) {
-				Class527_Sub33 class527_sub33 = new Class527_Sub33();
-				class527_sub33.aClass243_10648 = class243;
-				class527_sub33.anObjectArray10650 = class243.anObjectArray2618;
-				Class491.method7980(class527_sub33, -1412066083);
-			}
-			client.anInt11185 = 1544143943;
-			client.anInt11190 = 789917847;
-			client.aBool11188 = false;
-			if (null != class243)
-				Class430.method6876(class243, (byte) 86);
+	public Class536_Sub18 method8241(int i) {
+		Class536_Sub18 class536_sub18 = aClass536_Sub18_8795;
+		if (class536_sub18 == aClass536_Sub18_8794) {
+			aClass536_Sub18_8795 = null;
+			return null;
 		}
+		aClass536_Sub18_8795 = class536_sub18.aClass536_Sub18_10506;
+		return class536_sub18;
 	}
 
-	static final void method14292(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class235.method4356(class243, class665, 1738675576);
+	public Iterator iterator() {
+		return new Class689(this);
+	}
+
+	public Iterator method8242() {
+		return new Class689(this);
+	}
+
+	public Iterator method8243() {
+		return new Class689(this);
+	}
+
+	public Iterator method8244() {
+		return new Class689(this);
+	}
+
+	public void method8245() {
+		while (aClass536_Sub18_8794.aClass536_Sub18_10506 != aClass536_Sub18_8794)
+			aClass536_Sub18_8794.aClass536_Sub18_10506.method9521(-1725442253);
+	}
+
+	public int method8246(byte i) {
+		int i_0_ = 0;
+		for (Class536_Sub18 class536_sub18 = aClass536_Sub18_8794.aClass536_Sub18_10506; class536_sub18 != aClass536_Sub18_8794; class536_sub18 = class536_sub18.aClass536_Sub18_10506)
+			i_0_++;
+		return i_0_;
+	}
+
+	Class536_Sub18 method8247(Class536_Sub18 class536_sub18, int i) {
+		Class536_Sub18 class536_sub18_1_;
+		if (null == class536_sub18)
+			class536_sub18_1_ = aClass536_Sub18_8794.aClass536_Sub18_10506;
+		else
+			class536_sub18_1_ = class536_sub18;
+		if (class536_sub18_1_ == aClass536_Sub18_8794) {
+			aClass536_Sub18_8795 = null;
+			return null;
+		}
+		aClass536_Sub18_8795 = class536_sub18_1_.aClass536_Sub18_10506;
+		return class536_sub18_1_;
+	}
+
+	public Class536_Sub18 method8248(int i) {
+		return method8247(null, 325441285);
+	}
+
+	public int method8249() {
+		int i = 0;
+		for (Class536_Sub18 class536_sub18 = aClass536_Sub18_8794.aClass536_Sub18_10506; class536_sub18 != aClass536_Sub18_8794; class536_sub18 = class536_sub18.aClass536_Sub18_10506)
+			i++;
+		return i;
+	}
+
+	static int method8250(byte[][] is, byte[][] is_2_, int[] is_3_, byte[] is_4_, int[] is_5_, int i, int i_6_, byte i_7_) {
+		int i_8_ = is_3_[i];
+		int i_9_ = i_8_ + is_5_[i];
+		int i_10_ = is_3_[i_6_];
+		int i_11_ = i_10_ + is_5_[i_6_];
+		int i_12_ = i_8_;
+		if (i_10_ > i_8_)
+			i_12_ = i_10_;
+		int i_13_ = i_9_;
+		if (i_11_ < i_9_)
+			i_13_ = i_11_;
+		int i_14_ = is_4_[i] & 0xff;
+		if ((is_4_[i_6_] & 0xff) < i_14_)
+			i_14_ = is_4_[i_6_] & 0xff;
+		byte[] is_15_ = is_2_[i];
+		byte[] is_16_ = is[i_6_];
+		int i_17_ = i_12_ - i_8_;
+		int i_18_ = i_12_ - i_10_;
+		for (int i_19_ = i_12_; i_19_ < i_13_; i_19_++) {
+			int i_20_ = is_15_[i_17_++] + is_16_[i_18_++];
+			if (i_20_ < i_14_)
+				i_14_ = i_20_;
+		}
+		return -i_14_;
+	}
+
+	static final void method8251(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class668.anInt8542 -= -1349181388;
+		class251.anInt2623 = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * -475660893);
+		class251.anInt2681 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] * 863180553);
+		class251.anInt2625 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2] * 1666957795);
+		class251.anInt2687 = (class668.anIntArray8541[3 + class668.anInt8542 * 1867269829] * 1162256095);
+		Class668.method8011(class251, 263642117);
 	}
 }

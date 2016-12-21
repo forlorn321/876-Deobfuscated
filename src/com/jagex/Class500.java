@@ -4,30 +4,52 @@
 package com.jagex;
 
 public class Class500 {
-	public static Class500 aClass500_5594;
-	static Class500 aClass500_5595 = new Class500();
-	public static Class500 aClass500_5596;
-	static Class500 aClass500_5597;
+	public int anInt6838;
+	public int anInt6839 = -1673100765;
+	public int anInt6840;
+	protected static int anInt6841;
+	public int anInt6842;
+	public Class688 aClass688_6843;
+	public static short[][] aShortArrayArray6844;
 
-	Class500() {
-		/* empty */
+	Class500(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1) {
+		aClass688_6843 = new Class688_Sub2(class649_sub1_sub5_sub1, false);
 	}
 
-	static {
-		aClass500_5594 = new Class500();
-		aClass500_5596 = new Class500();
-		aClass500_5597 = new Class500();
+	static final void method6026(Class251 class251, Class234 class234, Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1142987460) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2673 = Class33.method796(string, class668, (short) -1420);
+		class251.aBool2666 = true;
 	}
 
-	static void method8188(Class665 class665, short i) {
-		class665.anInt8526 -= 204761682;
-		class665.anIntArray8525[1769813785 * class665.anInt8526] = Class194.method3703((class665.anIntArray8525[class665.anInt8526 * 1769813785]), (class665.anIntArray8525[class665.anInt8526 * 1769813785 + 1]), -2102812732);
-		class665.anInt8526 += 102380841;
+	static final void method6027(Class668 class668, int i) throws Exception_Sub3 {
+		class668.anInt8542 -= 1472892954;
+		int i_0_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_1_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		Class436 class436 = Class436.method5257((float) i_0_, (float) i_0_, (float) i_0_);
+		if (-1.0F == class436.aFloat4850)
+			class436.aFloat4850 = Float.POSITIVE_INFINITY;
+		if (class436.aFloat4852 == -1.0F)
+			class436.aFloat4852 = Float.POSITIVE_INFINITY;
+		if (class436.aFloat4853 == -1.0F)
+			class436.aFloat4853 = Float.POSITIVE_INFINITY;
+		Class683.aClass301_Sub1_8651.method4037(class436, 1919749668);
+		Class683.aClass301_Sub1_8651.method4034((float) i_1_ / 1000.0F, 1805138400);
+		class436.method5239();
 	}
 
-	static boolean method8189(int i) {
-		if (Class606.method10059(client.anInt11048 * -1927019389, (byte) 1))
-			return false;
-		return true;
+	static final void method6028(Class668 class668, int i) {
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static Class670[] method6029(byte i) {
+		return (new Class670[] { Class670.aClass670_8569, Class670.aClass670_8568, Class670.aClass670_8571, Class670.aClass670_8570, Class670.aClass670_8575, Class670.aClass670_8572 });
+	}
+
+	static final void method6030(Class668 class668, byte i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Integer.toString(i_2_);
 	}
 }

@@ -4,95 +4,53 @@
 package com.jagex;
 
 public class Class667 {
-	static int[] anIntArray8562;
-	static char[] aCharArray8563;
-	static char[] aCharArray8564;
-	static char[] aCharArray8565 = new char[64];
-	static String[] aStringArray8566;
+	static char[] aCharArray8534 = { '\u20ac', '\0', '\u201a', '\u0192', '\u201e', '\u2026', '\u2020', '\u2021', '\u02c6', '\u2030', '\u0160', '\u2039', '\u0152', '\0', '\u017d', '\0', '\0', '\u2018', '\u2019', '\u201c', '\u201d', '\u2022', '\u2013', '\u2014', '\u02dc', '\u2122', '\u0161', '\u203a', '\u0153', '\0', '\u017e', '\u0178' };
+	public static int anInt8535;
 
-	static {
-		for (int i = 0; i < 26; i++)
-			aCharArray8565[i] = (char) (i + 65);
-		for (int i = 26; i < 52; i++)
-			aCharArray8565[i] = (char) (97 + i - 26);
-		for (int i = 52; i < 62; i++)
-			aCharArray8565[i] = (char) (i + 48 - 52);
-		aCharArray8565[62] = '+';
-		aCharArray8565[63] = '/';
-		aCharArray8563 = new char[64];
-		for (int i = 0; i < 26; i++)
-			aCharArray8563[i] = (char) (65 + i);
-		for (int i = 26; i < 52; i++)
-			aCharArray8563[i] = (char) (97 + i - 26);
-		for (int i = 52; i < 62; i++)
-			aCharArray8563[i] = (char) (48 + i - 52);
-		aCharArray8563[62] = '*';
-		aCharArray8563[63] = '-';
-		aCharArray8564 = new char[64];
-		for (int i = 0; i < 26; i++)
-			aCharArray8564[i] = (char) (65 + i);
-		for (int i = 26; i < 52; i++)
-			aCharArray8564[i] = (char) (97 + i - 26);
-		for (int i = 52; i < 62; i++)
-			aCharArray8564[i] = (char) (48 + i - 52);
-		aCharArray8564[62] = '-';
-		aCharArray8564[63] = '_';
-		anIntArray8562 = new int[128];
-		for (int i = 0; i < anIntArray8562.length; i++)
-			anIntArray8562[i] = -1;
-		for (int i = 65; i <= 90; i++)
-			anIntArray8562[i] = i - 65;
-		for (int i = 97; i <= 122; i++)
-			anIntArray8562[i] = 26 + (i - 97);
-		for (int i = 48; i <= 57; i++)
-			anIntArray8562[i] = 52 + (i - 48);
-		int[] is = anIntArray8562;
-		anIntArray8562[43] = 62;
-		is[42] = 62;
-		int[] is_0_ = anIntArray8562;
-		anIntArray8562[47] = 63;
-		is_0_[45] = 63;
+	public static boolean method8003(char c) {
+		if (c > 0 && c < '\u0080' || c >= '\u00a0' && c <= '\u00ff')
+			return true;
+		if (c != 0) {
+			char[] cs = aCharArray8534;
+			for (int i = 0; i < cs.length; i++) {
+				char c_0_ = cs[i];
+				if (c_0_ == c)
+					return true;
+			}
+		}
+		return false;
 	}
 
-	static String method13743(byte[] is, int i, int i_1_) {
-		StringBuilder stringbuilder = new StringBuilder();
-		for (int i_2_ = i; i_2_ < i + i_1_; i_2_ += 3) {
-			int i_3_ = is[i_2_] & 0xff;
-			stringbuilder.append(aCharArray8565[i_3_ >>> 2]);
-			if (i_2_ < i_1_ - 1) {
-				int i_4_ = is[i_2_ + 1] & 0xff;
-				stringbuilder.append(aCharArray8565[(i_3_ & 0x3) << 4 | i_4_ >>> 4]);
-				if (i_2_ < i_1_ - 2) {
-					int i_5_ = is[2 + i_2_] & 0xff;
-					stringbuilder.append(aCharArray8565[(i_4_ & 0xf) << 2 | i_5_ >>> 6]).append(aCharArray8565[i_5_ & 0x3f]);
-				} else
-					stringbuilder.append(aCharArray8565[(i_4_ & 0xf) << 2]).append('=');
-			} else
-				stringbuilder.append(aCharArray8565[(i_3_ & 0x3) << 4]).append('=').append('=');
+	public static boolean method8004(char c) {
+		if (c > 0 && c < '\u0080' || c >= '\u00a0' && c <= '\u00ff')
+			return true;
+		if (c != 0) {
+			char[] cs = aCharArray8534;
+			for (int i = 0; i < cs.length; i++) {
+				char c_1_ = cs[i];
+				if (c_1_ == c)
+					return true;
+			}
 		}
-		return stringbuilder.toString();
-	}
-
-	static String method13744(byte[] is, int i, int i_6_) {
-		StringBuilder stringbuilder = new StringBuilder();
-		for (int i_7_ = i; i_7_ < i + i_6_; i_7_ += 3) {
-			int i_8_ = is[i_7_] & 0xff;
-			stringbuilder.append(aCharArray8565[i_8_ >>> 2]);
-			if (i_7_ < i_6_ - 1) {
-				int i_9_ = is[i_7_ + 1] & 0xff;
-				stringbuilder.append(aCharArray8565[(i_8_ & 0x3) << 4 | i_9_ >>> 4]);
-				if (i_7_ < i_6_ - 2) {
-					int i_10_ = is[2 + i_7_] & 0xff;
-					stringbuilder.append(aCharArray8565[(i_9_ & 0xf) << 2 | i_10_ >>> 6]).append(aCharArray8565[i_10_ & 0x3f]);
-				} else
-					stringbuilder.append(aCharArray8565[(i_9_ & 0xf) << 2]).append('=');
-			} else
-				stringbuilder.append(aCharArray8565[(i_8_ & 0x3) << 4]).append('=').append('=');
-		}
-		return stringbuilder.toString();
+		return false;
 	}
 
 	Class667() throws Throwable {
 		throw new Error();
+	}
+
+	static void method8005(int i) {
+		Class18.aClass184_190 = null;
+		Class536_Sub15.aClass184_10488 = null;
+		Class26.aClass184_248 = null;
+		Class458_Sub5.aClass143Array10338 = null;
+		Class688_Sub2_Sub1.aClass143Array11872 = null;
+		Class610.aClass143Array7922 = null;
+		Class28.aClass143Array259 = null;
+		Class35.aClass143Array292 = null;
+		Class195.aClass143Array2201 = null;
+		Class618.aClass143_8090 = null;
+		Class289.aClass143_3215 = null;
+		Class62.aClass143Array701 = null;
 	}
 }

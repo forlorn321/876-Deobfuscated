@@ -1,674 +1,676 @@
-/* Class527_Sub38 - Decompiled by JODE
+/* Class536_Sub33 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
 package com.jagex;
 
 import java.math.BigInteger;
 
-public class RSByteBuffer extends Class527 {
+public class RSByteBuffer extends Class536 {
+	public static long[] aLongArray10595;
+	public int off;
+	static int[] anIntArray10597 = new int[256];
 	public byte[] buffer;
-	public static long[] aLongArray10688;
-	public int anInt10689;
-	static int[] anIntArray10690 = new int[256];
-
-	public RSByteBuffer(int i, boolean bool) {
-		buffer = Class706.method14340(i, bool, -740746889);
-	}
 
 	public RSByteBuffer(byte[] is) {
 		buffer = is;
-		anInt10689 = 0;
+		off = 0;
 	}
 
-	public void writeIntLE(int i, byte i_2_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 24);
+	public void method9685(int i) {
+		if (null != buffer)
+			Class705.method8270(buffer, 1184229658);
+		buffer = null;
 	}
 
-	public void writeByte(int i, int i_3_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
+	int method9686(int i) {
+		int i_0_ = buffer[(off += 516175515) * -810172525 - 1];
+		int i_1_ = 0;
+		for (/**/; i_0_ < 0; i_0_ = buffer[(off += 516175515) * -810172525 - 1])
+			i_1_ = (i_1_ | i_0_ & 0x7f) << 7;
+		return i_1_ | i_0_;
 	}
 
-	public void writeShort(int i, int i_4_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
+	public void writeShort(int i, int i_2_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public void writeInt(int i, int i_6_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
+	public void writeShortLE(int i, int i_3_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
 
-	public void method16429(long l) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 40);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 32);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) l;
+	public void write24BitInt(int i, int i_4_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public void writeLong(long l) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 56);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 48);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 40);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 32);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) l;
+	public int method9690(int i) {
+		int i_5_ = buffer[off * -810172525] & 0xff;
+		if (i_5_ < 128)
+			return readUnsignedByte(-761215470);
+		return readUnsignedShort((short) 2254) - 32768;
 	}
 
-	public void method16431(long l, int i, int i_8_) {
+	public void writeLEInt(int i, int i_6_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
+	}
+
+	public void method9692(long l) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 40);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 32);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) l;
+	}
+
+	public void method9693(long l) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 56);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 48);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 40);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 32);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) l;
+	}
+
+	public void method9694(long l, int i, int i_7_) {
 		if (--i < 0 || i > 7)
 			throw new IllegalArgumentException();
-		for (int i_9_ = 8 * i; i_9_ >= 0; i_9_ -= 8)
-			buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> i_9_);
+		for (int i_8_ = 8 * i; i_8_ >= 0; i_8_ -= 8)
+			buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> i_8_);
 	}
 
-	public void writeString(String string, int i) {
-		int i_10_ = string.indexOf('\0');
-		if (i_10_ >= 0)
-			throw new IllegalArgumentException("");
-		anInt10689 += Class464.method7629(string, 0, string.length(), buffer, -441238943 * anInt10689, (byte) 2) * 1474750881;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) 0;
+	public String method9695(byte i) {
+		int i_9_ = off * -810172525;
+		while (buffer[(off += 516175515) * -810172525 - 1] != 0) {
+			/* empty */
+		}
+		int i_10_ = off * -810172525 - i_9_ - 1;
+		if (i_10_ == 0)
+			return "";
+		return Class202.method2925(buffer, i_9_, i_10_, -1694498816);
 	}
 
-	public void writeGJString3(String string, short i) {
-		int i_11_ = string.indexOf('\0');
-		if (i_11_ >= 0)
-			throw new IllegalArgumentException("");
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) 0;
-		anInt10689 += Class464.method7629(string, 0, string.length(), buffer, anInt10689 * -441238943, (byte) 2) * 1474750881;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) 0;
+	public void method9696(byte[] is, int i, int i_11_, byte i_12_) {
+		for (int i_13_ = i; i_13_ < i_11_ + i; i_13_++)
+			buffer[(off += 516175515) * -810172525 - 1] = is[i_13_];
 	}
 
-	public void writeGJString(CharSequence charsequence, int i) {
-		int i_12_ = Class702.method14302(charsequence, (byte) -48);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) 0;
-		method16594(i_12_, (byte) 104);
-		anInt10689 += Class221.method4147(buffer, -441238943 * anInt10689, charsequence, (byte) 11) * 1474750881;
+	public int method9697(int i) {
+		off += 2064702060;
+		return ((buffer[-810172525 * off - 4] & 0xff) + (((buffer[off * -810172525 - 2] & 0xff) << 16) + ((buffer[off * -810172525 - 1] & 0xff) << 24) + ((buffer[-810172525 * off - 3] & 0xff) << 8)));
 	}
 
-	public void writeBuffer(RSByteBuffer class527_sub38_13_, byte i) {
-		writeBytes(class527_sub38_13_.buffer, 0, -441238943 * class527_sub38_13_.anInt10689, (byte) 46);
-	}
-
-	public void method16437(int i, int i_14_) {
+	public void method9698(int i, int i_14_) {
 		if (i < 0 || i > 65535)
 			throw new IllegalArgumentException();
-		buffer[-441238943 * anInt10689 - i - 2] = (byte) (i >> 8);
-		buffer[anInt10689 * -441238943 - i - 1] = (byte) i;
+		buffer[-810172525 * off - i - 2] = (byte) (i >> 8);
+		buffer[-810172525 * off - i - 1] = (byte) i;
 	}
 
-	public void writeShortLE128(int i, int i_15_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (128 + i);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
+	public void method9699(int i, int i_15_) {
+		if (i < 0 || i > 255)
+			throw new IllegalArgumentException();
+		buffer[off * -810172525 - i - 1] = (byte) i;
 	}
 
-	public void method16439(int i, byte i_16_) {
+	public void method9700(int i, byte i_16_) {
 		if (i < 64 && i >= -64)
-			writeByte(i + 64, -960612499);
+			writeByte(i + 64, 465637339);
 		else if (i < 16384 && i >= -16384)
-			writeShort(49152 + i, 1404835786);
+			writeShort(i + 49152, -1778059594);
 		else
 			throw new IllegalArgumentException();
 	}
 
-	public void writeLE24BitInt(int i, byte i_17_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-	}
-
-	public void writeShortLE(int i, int i_24_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		
-	}
-
-	public byte readByte() {
-		return buffer[(anInt10689 += 1474750881) * -441238943 - 1];
-	}
-
-	public int readUnsignedShort() {
-		anInt10689 += -1345465534;
-		return ((buffer[-441238943 * anInt10689 - 1] & 0xff) + ((buffer[-441238943 * anInt10689 - 2] & 0xff) << 8));
-	}
-
-	public int readShort() {
-		anInt10689 += -1345465534;
-		int i_25_ = (((buffer[anInt10689 * -441238943 - 2] & 0xff) << 8) + (buffer[anInt10689 * -441238943 - 1] & 0xff));
-		if (i_25_ > 32767)
-			i_25_ -= 65536;
-		return i_25_;
-	}
-
-	public int read24BitUnsignedInteger(int i) {
-		anInt10689 += 129285347;
-		return ((buffer[-441238943 * anInt10689 - 1] & 0xff) + (((buffer[-441238943 * anInt10689 - 2] & 0xff) << 8) + ((buffer[-441238943 * anInt10689 - 3] & 0xff) << 16)));
-	}
-
-	public int readInt() {
-		anInt10689 += 1604036228;
-		return ((buffer[anInt10689 * -441238943 - 1] & 0xff) + (((buffer[anInt10689 * -441238943 - 3] & 0xff) << 16) + ((buffer[-441238943 * anInt10689 - 4] & 0xff) << 24) + ((buffer[-441238943 * anInt10689 - 2] & 0xff) << 8)));
-	}
-
-	public int readIntLE(byte i) {
-		anInt10689 += 1604036228;
-		return (((buffer[-441238943 * anInt10689 - 3] & 0xff) << 8) + (((buffer[anInt10689 * -441238943 - 1] & 0xff) << 24) + ((buffer[-441238943 * anInt10689 - 2] & 0xff) << 16)) + (buffer[-441238943 * anInt10689 - 4] & 0xff));
-	}
-
-	public long method16451(byte i) {
-		long l = (long) readUnsignedByte() & 0xffffffffL;
-		long l_26_ = (long) readInt() & 0xffffffffL;
-		return l_26_ + (l << 32);
-	}
-
-	public long method16454(int i, int i_27_) {
-		if (--i < 0 || i > 7)
+	public void method9701(int i, int i_17_) {
+		if (i >= 0 && i < 128)
+			writeByte(i, 465637339);
+		else if (i >= 0 && i < 32768)
+			writeShort(i + 32768, -1778059594);
+		else
 			throw new IllegalArgumentException();
-		int i_28_ = 8 * i;
-		long l = 0L;
-		for (/**/; i_28_ >= 0; i_28_ -= 8)
-			l |= ((long) (buffer[(anInt10689 += 1474750881) * -441238943 - 1]) & 0xffL) << i_28_;
-		return l;
 	}
 
-	public float readFloat(int i) {
-		return Float.intBitsToFloat(readInt());
+	public void method9702(int i, int i_18_) {
+		if (i < -1)
+			throw new IllegalArgumentException();
+		if (i == -1)
+			writeShort(32767, -1778059594);
+		else if (i < 32767)
+			writeShort(i, -1778059594);
+		else {
+			writeInt(i, -149241618);
+			buffer[-810172525 * off - 4] |= 0x80;
+		}
 	}
 
-	public String method16456(byte i) {
-		if (0 == buffer[anInt10689 * -441238943]) {
-			anInt10689 += 1474750881;
+	void method9703(int i, int i_19_) {
+		if ((i & ~0x7f) != 0) {
+			if ((i & ~0x3fff) != 0) {
+				if (0 != (i & ~0x1fffff)) {
+					if ((i & ~0xfffffff) != 0)
+						writeByte(i >>> 28 | 0x80, 465637339);
+					writeByte(i >>> 21 | 0x80, 465637339);
+				}
+				writeByte(i >>> 14 | 0x80, 465637339);
+			}
+			writeByte(i >>> 7 | 0x80, 465637339);
+		}
+		writeByte(i & 0x7f, 465637339);
+	}
+
+	public int readUnsignedByte(int i) {
+		return (buffer[(off += 516175515) * -810172525 - 1] & 0xff);
+	}
+
+	public int readUnsignedShort(short i) {
+		off += 1032351030;
+		return (((buffer[off * -810172525 - 2] & 0xff) << 8) + (buffer[off * -810172525 - 1] & 0xff));
+	}
+
+	public int readShort(byte i) {
+		off += 1032351030;
+		int i_20_ = ((buffer[off * -810172525 - 1] & 0xff) + ((buffer[-810172525 * off - 2] & 0xff) << 8));
+		if (i_20_ > 32767)
+			i_20_ -= 65536;
+		return i_20_;
+	}
+
+	public long method9707(byte i) {
+		long l = (long) readUnsignedShort((short) 7801) & 0xffffffffL;
+		long l_21_ = (long) method9709(-2118332834) & 0xffffffffL;
+		return (l << 32) + l_21_;
+	}
+
+	public int method9708(byte i) {
+		off += 1548526545;
+		int i_22_ = ((buffer[-810172525 * off - 1] & 0xff) + (((buffer[-810172525 * off - 2] & 0xff) << 8) + ((buffer[-810172525 * off - 3] & 0xff) << 16)));
+		if (i_22_ > 8388607)
+			i_22_ -= 16777216;
+		return i_22_;
+	}
+
+	public int method9709(int i) {
+		off += 2064702060;
+		return (((buffer[off * -810172525 - 2] & 0xff) << 8) + (((buffer[off * -810172525 - 4] & 0xff) << 24) + ((buffer[off * -810172525 - 3] & 0xff) << 16)) + (buffer[-810172525 * off - 1] & 0xff));
+	}
+
+	public long method9710(int i) {
+		long l = (long) readUnsignedByte(1784719236) & 0xffffffffL;
+		long l_23_ = (long) method9709(-1493296210) & 0xffffffffL;
+		return (l << 32) + l_23_;
+	}
+
+	public long method9711(int i) {
+		long l = (long) method9709(-1082760135) & 0xffffffffL;
+		long l_24_ = (long) method9709(-1874386449) & 0xffffffffL;
+		return l_24_ + (l << 32);
+	}
+
+	public float method9712(int i) {
+		return Float.intBitsToFloat(method9709(-341200706));
+	}
+
+	public String method9713(int i) {
+		if (0 == buffer[off * -810172525]) {
+			off += 516175515;
 			return null;
 		}
-		return readString(2093307958);
+		return method9695((byte) 37);
 	}
 
-	public int readSmartVariant(int i) {
-		int i_29_ = buffer[anInt10689 * -441238943] & 0xff;
-		if (i_29_ < 128)
-			return readUnsignedByte() - 64;
-		return readUnsignedShort() - 49152;
-	}
-
-	public String readVersionedString(int i) {
-		byte i_30_ = buffer[(anInt10689 += 1474750881) * -441238943 - 1];
-		if (i_30_ != 0)
+	public String method9714(byte i) {
+		byte i_25_ = buffer[(off += 516175515) * -810172525 - 1];
+		if (i_25_ != 0)
 			throw new IllegalStateException("");
-		int i_31_ = anInt10689 * -441238943;
-		while (buffer[(anInt10689 += 1474750881) * -441238943 - 1] != 0) {
+		int i_26_ = -810172525 * off;
+		while (buffer[(off += 516175515) * -810172525 - 1] != 0) {
 			/* empty */
 		}
-		int i_32_ = -441238943 * anInt10689 - i_31_ - 1;
-		if (0 == i_32_)
+		int i_27_ = off * -810172525 - i_26_ - 1;
+		if (i_27_ == 0)
 			return "";
-		return Class539.method9000(buffer, i_31_, i_32_, -1902650054);
+		return Class202.method2925(buffer, i_26_, i_27_, -1694498816);
 	}
 
-	public String method16459(int i) {
-		byte i_33_ = buffer[(anInt10689 += 1474750881) * -441238943 - 1];
-		if (0 != i_33_)
+	public String method9715(int i) {
+		byte i_28_ = buffer[(off += 516175515) * -810172525 - 1];
+		if (0 != i_28_)
 			throw new IllegalStateException("");
-		int i_34_ = method16467((byte) -109);
-		if (i_34_ + anInt10689 * -441238943 > buffer.length)
+		int i_29_ = method9686(1283778802);
+		if (off * -810172525 + i_29_ > buffer.length)
 			throw new IllegalStateException("");
-		String string = Class325.method5753(buffer, anInt10689 * -441238943, i_34_, (byte) 0);
-		anInt10689 += i_34_ * 1474750881;
+		String string = Class508.method6175(buffer, off * -810172525, i_29_, 186009753);
+		off += i_29_ * 516175515;
 		return string;
 	}
 
-	public void method16460(byte[] is, int i, int i_35_, int i_36_) {
-		for (int i_37_ = i; i_37_ < i_35_ + i; i_37_++)
-			is[i_37_] = buffer[(anInt10689 += 1474750881) * -441238943 - 1];
+	public void method9716(byte[] is, int i, int i_30_, int i_31_) {
+		for (int i_32_ = i; i_32_ < i_30_ + i; i_32_++)
+			is[i_32_] = buffer[(off += 516175515) * -810172525 - 1];
 	}
 
-	public int readUnsignedSmart(byte i) {
-		int i_38_ = buffer[-441238943 * anInt10689] & 0xff;
-		if (i_38_ < 128)
-			return readUnsignedByte();
-		return readUnsignedShort() - 32768;
+	public int method9717(int i) {
+		int i_33_ = buffer[off * -810172525] & 0xff;
+		if (i_33_ < 128)
+			return readUnsignedByte(-452542728) - 64;
+		return readUnsignedShort((short) 1613) - 49152;
 	}
 
-	public int readSmart(int i) {
-		int i_39_ = 0;
-		int i_40_;
-		for (i_40_ = readUnsignedSmart((byte) -40); i_40_ == 32767; i_40_ = readUnsignedSmart((byte) -66))
-			i_39_ += 32767;
-		i_39_ += i_40_;
-		return i_39_;
+	public int method9718(int i) {
+		int i_34_ = buffer[-810172525 * off] & 0xff;
+		if (i_34_ < 128)
+			return readUnsignedByte(641687181) - 1;
+		return readUnsignedShort((short) -7898) - 32769;
 	}
 
-	public void method16465(int[] is, byte i) {
-		int i_41_ = anInt10689 * -441238943 / 8;
-		anInt10689 = 0;
-		for (int i_42_ = 0; i_42_ < i_41_; i_42_++) {
-			int i_43_ = readInt();
-			int i_44_ = readInt();
-			int i_45_ = 0;
-			int i_46_ = -1640531527;
-			int i_47_ = 32;
-			while (i_47_-- > 0) {
-				i_43_ += (i_44_ + (i_44_ << 4 ^ i_44_ >>> 5) ^ is[i_45_ & 0x3] + i_45_);
-				i_45_ += i_46_;
-				i_44_ += ((i_43_ << 4 ^ i_43_ >>> 5) + i_43_ ^ i_45_ + is[i_45_ >>> 11 & 0x3]);
-			}
-			anInt10689 -= -1086894840;
-			writeInt(i_43_, -1409167800);
-			writeInt(i_44_, 954247542);
-		}
+	public int method9719(int i) {
+		int i_35_ = 0;
+		int i_36_;
+		for (i_36_ = method9690(-219704208); 32767 == i_36_; i_36_ = method9690(2038838021))
+			i_35_ += 32767;
+		i_35_ += i_36_;
+		return i_35_;
 	}
 
-	public int method16466(int i) {
-		if (buffer[anInt10689 * -441238943] < 0)
-			return readInt() & 0x7fffffff;
-		int i_48_ = readUnsignedShort();
-		if (32767 == i_48_)
+	public int method9720(byte i) {
+		if (buffer[off * -810172525] < 0)
+			return method9709(-1282207959) & 0x7fffffff;
+		int i_37_ = readUnsignedShort((short) 3400);
+		if (32767 == i_37_)
 			return -1;
-		return i_48_;
+		return i_37_;
 	}
 
-	int method16467(byte i) {
-		int i_49_ = buffer[(anInt10689 += 1474750881) * -441238943 - 1];
-		int i_50_ = 0;
-		for (/**/; i_49_ < 0; i_49_ = (buffer[(anInt10689 += 1474750881) * -441238943 - 1]))
-			i_50_ = (i_50_ | i_49_ & 0x7f) << 7;
-		return i_50_ | i_49_;
+	public void method9721(long l) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 32);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) l;
 	}
 
-	public int method16468(byte i) {
-		int i_51_ = 0;
-		int i_52_ = 0;
-		int i_53_;
-		do {
-			i_53_ = readUnsignedByte();
-			i_51_ |= (i_53_ & 0x7f) << i_52_;
-			i_52_ += 7;
-		} while (i_53_ > 127);
-		return i_51_;
-	}
-
-	public void writeBytes(byte[] is, int i, int i_54_, byte i_55_) {
-		for (int i_56_ = i; i_56_ < i_54_ + i; i_56_++)
-			buffer[(anInt10689 += 1474750881) * -441238943 - 1] = is[i_56_];
-	}
-
-	public void method16470(int[] is, int i) {
-		int i_57_ = anInt10689 * -441238943 / 8;
-		anInt10689 = 0;
-		for (int i_58_ = 0; i_58_ < i_57_; i_58_++) {
-			int i_59_ = readInt();
-			int i_60_ = readInt();
-			int i_61_ = -957401312;
-			int i_62_ = -1640531527;
-			int i_63_ = 32;
-			while (i_63_-- > 0) {
-				i_60_ -= ((i_59_ << 4 ^ i_59_ >>> 5) + i_59_ ^ is[i_61_ >>> 11 & 0x3] + i_61_);
-				i_61_ -= i_62_;
-				i_59_ -= ((i_60_ << 4 ^ i_60_ >>> 5) + i_60_ ^ is[i_61_ & 0x3] + i_61_);
+	public void method9723(int[] is, int i) {
+		int i_38_ = off * -810172525 / 8;
+		off = 0;
+		for (int i_39_ = 0; i_39_ < i_38_; i_39_++) {
+			int i_40_ = method9709(-1546755786);
+			int i_41_ = method9709(-1377338881);
+			int i_42_ = 0;
+			int i_43_ = -1640531527;
+			int i_44_ = 32;
+			while (i_44_-- > 0) {
+				i_40_ += ((i_41_ << 4 ^ i_41_ >>> 5) + i_41_ ^ i_42_ + is[i_42_ & 0x3]);
+				i_42_ += i_43_;
+				i_41_ += ((i_40_ << 4 ^ i_40_ >>> 5) + i_40_ ^ i_42_ + is[i_42_ >>> 11 & 0x3]);
 			}
-			anInt10689 -= -1086894840;
-			writeInt(i_59_, -619775168);
-			writeInt(i_60_, -1646419816);
+			off -= -165563176;
+			writeInt(i_40_, -149241618);
+			writeInt(i_41_, -149241618);
 		}
 	}
 
-	public void method16471(int[] is, int i, int i_64_, byte i_65_) {
-		int i_66_ = -441238943 * anInt10689;
-		anInt10689 = 1474750881 * i;
-		int i_67_ = (i_64_ - i) / 8;
-		for (int i_68_ = 0; i_68_ < i_67_; i_68_++) {
-			int i_69_ = readInt();
-			int i_70_ = readInt();
-			int i_71_ = 0;
-			int i_72_ = -1640531527;
-			int i_73_ = 32;
-			while (i_73_-- > 0) {
-				i_69_ += ((i_70_ << 4 ^ i_70_ >>> 5) + i_70_ ^ is[i_71_ & 0x3] + i_71_);
-				i_71_ += i_72_;
-				i_70_ += ((i_69_ << 4 ^ i_69_ >>> 5) + i_69_ ^ is[i_71_ >>> 11 & 0x3] + i_71_);
+	public void method9724(int[] is, int i) {
+		int i_45_ = -810172525 * off / 8;
+		off = 0;
+		for (int i_46_ = 0; i_46_ < i_45_; i_46_++) {
+			int i_47_ = method9709(-1588312795);
+			int i_48_ = method9709(-698949474);
+			int i_49_ = -957401312;
+			int i_50_ = -1640531527;
+			int i_51_ = 32;
+			while (i_51_-- > 0) {
+				i_48_ -= ((i_47_ << 4 ^ i_47_ >>> 5) + i_47_ ^ i_49_ + is[i_49_ >>> 11 & 0x3]);
+				i_49_ -= i_50_;
+				i_47_ -= ((i_48_ << 4 ^ i_48_ >>> 5) + i_48_ ^ i_49_ + is[i_49_ & 0x3]);
 			}
-			anInt10689 -= -1086894840;
-			writeInt(i_69_, -1179226341);
-			writeInt(i_70_, -1047663002);
+			off -= -165563176;
+			writeInt(i_47_, -149241618);
+			writeInt(i_48_, -149241618);
 		}
-		anInt10689 = i_66_ * 1474750881;
 	}
 
-	public int method16474(int i, byte i_74_) {
-		int i_75_ = Class482.method7845(buffer, i, anInt10689 * -441238943, 1976593891);
-		writeInt(i_75_, 1167653668);
-		return i_75_;
+	public void method9725(int[] is, int i, int i_52_, int i_53_) {
+		int i_54_ = -810172525 * off;
+		off = 516175515 * i;
+		int i_55_ = (i_52_ - i) / 8;
+		for (int i_56_ = 0; i_56_ < i_55_; i_56_++) {
+			int i_57_ = method9709(-406587383);
+			int i_58_ = method9709(254141213);
+			int i_59_ = 0;
+			int i_60_ = -1640531527;
+			int i_61_ = 32;
+			while (i_61_-- > 0) {
+				i_57_ += ((i_58_ << 4 ^ i_58_ >>> 5) + i_58_ ^ is[i_59_ & 0x3] + i_59_);
+				i_59_ += i_60_;
+				i_58_ += ((i_57_ << 4 ^ i_57_ >>> 5) + i_57_ ^ i_59_ + is[i_59_ >>> 11 & 0x3]);
+			}
+			off -= -165563176;
+			writeInt(i_57_, -149241618);
+			writeInt(i_58_, -149241618);
+		}
+		off = 516175515 * i_54_;
 	}
 
-	public boolean method16475(int i) {
-		anInt10689 -= 1604036228;
-		int i_76_ = Class482.method7845(buffer, 0, anInt10689 * -441238943, 2023025648);
-		int i_77_ = readInt();
-		if (i_76_ == i_77_)
+	public void method9726(BigInteger biginteger, BigInteger biginteger_62_, int i) {
+		int i_63_ = off * -810172525;
+		off = 0;
+		byte[] is = new byte[i_63_];
+		method9716(is, 0, i_63_, 1518599019);
+		BigInteger biginteger_64_ = new BigInteger(is);
+		BigInteger biginteger_65_ = biginteger_64_.modPow(biginteger, biginteger_62_);
+		byte[] is_66_ = biginteger_65_.toByteArray();
+		off = 0;
+		writeShort(is_66_.length, -1778059594);
+		method9696(is_66_, 0, is_66_.length, (byte) 107);
+	}
+
+	public boolean method9727(byte i) {
+		off -= 2064702060;
+		int i_67_ = Class205_Sub5.method9059(buffer, 0, -810172525 * off, (byte) 1);
+		int i_68_ = method9709(-587974728);
+		if (i_67_ == i_68_)
 			return true;
 		return false;
 	}
 
-	public void writeByte128(int i, int i_78_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (128 + i);
+	public void method9728(int i, byte i_69_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i + 128);
 	}
 
-	public void writeShort128(int i, int i_79_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i + 128);
+	public void method9729(int i, int i_70_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (0 - i);
 	}
 
-	public void write128Byte(int i, byte i_80_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (128 - i);
+	public RSByteBuffer(int i) {
+		buffer = Class705.method8268(i, 1413422708);
+		off = 0;
 	}
 
-	public int readUnsignedByte128() {
-		return ((buffer[(anInt10689 += 1474750881) * -441238943 - 1] - 128) & 0xff);
+	public void writeInt(int i, int i_71_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int readUnsignedByteC(int i) {
-		return (0 - (buffer[(anInt10689 += 1474750881) * -441238943 - 1]) & 0xff);
+	public int method9731(int i) {
+		return (0 - buffer[(off += 516175515) * -810172525 - 1] & 0xff);
 	}
 
-	public int method16481(int i) {
-		anInt10689 += -1345465534;
-		int i_81_ = (((buffer[-441238943 * anInt10689 - 1] & 0xff) << 8) + (buffer[anInt10689 * -441238943 - 2] & 0xff));
-		if (i_81_ > 32767)
-			i_81_ -= 65536;
-		return i_81_;
+	public int method9732(short i) {
+		return ((128 - buffer[(off += 516175515) * -810172525 - 1]) & 0xff);
 	}
 
-	public byte readByte128(byte i) {
-		return (byte) ((buffer[(anInt10689 += 1474750881) * -441238943 - 1]) - 128);
+	public byte method9733(int i) {
+		return (byte) ((buffer[(off += 516175515) * -810172525 - 1]) - 128);
 	}
 
-	public byte readByteC(byte i) {
-		return (byte) (0 - (buffer[(anInt10689 += 1474750881) * -441238943 - 1]));
+	public byte method9734(byte i) {
+		return (byte) (0 - (buffer[(off += 516175515) * -810172525 - 1]));
 	}
 
-	public byte read128Byte(byte i) {
-		return (byte) (128 - (buffer[(anInt10689 += 1474750881) * -441238943 - 1]));
+	public void writeString(String string, int i) {
+		int i_72_ = string.indexOf('\0');
+		if (i_72_ >= 0)
+			throw new IllegalArgumentException("");
+		off += Class671.method8016(string, 0, string.length(), buffer, off * -810172525, 1975381117) * 516175515;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
 	}
 
-	public void writeShortLE2(int i, byte i_82_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
+	public void method9736(int i, int i_73_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
 
-	public void method16488(int[] is, int i, int i_86_, int i_87_) {
-		int i_88_ = -441238943 * anInt10689;
-		anInt10689 = i * 1474750881;
-		int i_89_ = (i_86_ - i) / 8;
-		for (int i_90_ = 0; i_90_ < i_89_; i_90_++) {
-			int i_91_ = readInt();
-			int i_92_ = readInt();
-			int i_93_ = -957401312;
-			int i_94_ = -1640531527;
-			int i_95_ = 32;
-			while (i_95_-- > 0) {
-				i_92_ -= ((i_91_ << 4 ^ i_91_ >>> 5) + i_91_ ^ i_93_ + is[i_93_ >>> 11 & 0x3]);
-				i_93_ -= i_94_;
-				i_91_ -= ((i_92_ << 4 ^ i_92_ >>> 5) + i_92_ ^ i_93_ + is[i_93_ & 0x3]);
-			}
-			anInt10689 -= -1086894840;
-			writeInt(i_91_, 951423978);
-			writeInt(i_92_, 2128391908);
-		}
-		anInt10689 = i_88_ * 1474750881;
+	public RSByteBuffer(int i, boolean bool) {
+		buffer = Class705.method8269(i, bool, -731672108);
 	}
 
-	public int readUnsignedShort128() {
-		anInt10689 += -1345465534;
-		return ((buffer[anInt10689 * -441238943 - 1] - 128 & 0xff) + ((buffer[-441238943 * anInt10689 - 2] & 0xff) << 8));
+	public void method9737(int i, int i_74_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 + i);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
 
-	public int readUnsignedShortLE128() {
-		anInt10689 += -1345465534;
-		return (((buffer[anInt10689 * -441238943 - 1] & 0xff) << 8) + (buffer[-441238943 * anInt10689 - 2] - 128 & 0xff));
+	public void method9738(int i, byte i_75_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}
 
-	public int read24BitUnsignedIntegerV2(int i) {
-		anInt10689 += 129285347;
-		return (((buffer[anInt10689 * -441238943 - 1] & 0xff) << 8) + ((buffer[anInt10689 * -441238943 - 3] & 0xff) << 16) + (buffer[anInt10689 * -441238943 - 2] & 0xff));
+	public int readUnsignedShort128(int i) {
+		off += 1032351030;
+		return (((buffer[-810172525 * off - 2] & 0xff) << 8) + (buffer[off * -810172525 - 1] - 128 & 0xff));
 	}
 
-	public void writeIntLE2(int i, byte i_100_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 24);
+	public int readUnsignedShortLE128(int i) {
+		off += 1032351030;
+		return (((buffer[-810172525 * off - 1] & 0xff) << 8) + (buffer[off * -810172525 - 2] - 128 & 0xff));
 	}
 
-	public void writeIntV1(int i, byte i_101_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
+	public int method9741(byte i) {
+		off += 1032351030;
+		int i_76_ = ((buffer[-810172525 * off - 2] & 0xff) + ((buffer[off * -810172525 - 1] & 0xff) << 8));
+		if (i_76_ > 32767)
+			i_76_ -= 65536;
+		return i_76_;
 	}
 
-	public void writeIntV2(int i, byte i_102_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
+	public int method9742(int i) {
+		off += 1548526545;
+		return ((buffer[off * -810172525 - 1] & 0xff) + (((buffer[-810172525 * off - 3] & 0xff) << 16) + ((buffer[off * -810172525 - 2] & 0xff) << 8)));
 	}
 
-	public long method16500(byte i) {
-		long l = (long) readUnsignedShort() & 0xffffffffL;
-		long l_103_ = (long) readInt() & 0xffffffffL;
-		return l_103_ + (l << 32);
+	public int method9743(byte i) {
+		off += 1032351030;
+		int i_77_ = (((buffer[off * -810172525 - 1] & 0xff) << 8) + (buffer[-810172525 * off - 2] - 128 & 0xff));
+		if (i_77_ > 32767)
+			i_77_ -= 65536;
+		return i_77_;
 	}
 
-	public int readIntV2() {
-		anInt10689 += 1604036228;
-		return (((buffer[anInt10689 * -441238943 - 3] & 0xff) << 24) + ((buffer[anInt10689 * -441238943 - 4] & 0xff) << 16) + ((buffer[anInt10689 * -441238943 - 1] & 0xff) << 8) + (buffer[anInt10689 * -441238943 - 2] & 0xff));
+	public int method9744(int i) {
+		off += 1548526545;
+		return ((buffer[off * -810172525 - 2] & 0xff) + (((buffer[off * -810172525 - 1] & 0xff) << 8) + ((buffer[-810172525 * off - 3] & 0xff) << 16)));
+	}
+
+	public void method9745(int i, int i_78_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
+	}
+
+	public int method9746(short i) {
+		off += 2064702060;
+		return ((buffer[off * -810172525 - 4] & 0xff) + (((buffer[off * -810172525 - 3] & 0xff) << 8) + (((buffer[off * -810172525 - 2] & 0xff) << 16) + ((buffer[off * -810172525 - 1] & 0xff) << 24))));
+	}
+
+	public void method9748(int i, int i_79_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+	}
+
+	public byte method9749(int i) {
+		return (byte) (128 - (buffer[(off += 516175515) * -810172525 - 1]));
+	}
+
+	public int method9750(byte i) {
+		off += 2064702060;
+		return (((buffer[off * -810172525 - 1] & 0xff) << 8) + (((buffer[-810172525 * off - 3] & 0xff) << 24) + ((buffer[off * -810172525 - 4] & 0xff) << 16)) + (buffer[-810172525 * off - 2] & 0xff));
+	}
+
+	public long method9751(int i, int i_80_) {
+		if (--i < 0 || i > 7)
+			throw new IllegalArgumentException();
+		int i_81_ = 8 * i;
+		long l = 0L;
+		for (/**/; i_81_ >= 0; i_81_ -= 8)
+			l |= ((long) (buffer[(off += 516175515) * -810172525 - 1]) & 0xffL) << i_81_;
+		return l;
+	}
+
+	public void method9752(CharSequence charsequence, int i) {
+		int i_82_ = Class248.method3445(charsequence, -1288789377);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
+		method9703(i_82_, -1074820527);
+		off += Class187.method2781(buffer, -810172525 * off, charsequence, 1314403458) * 516175515;
+	}
+
+	public void method9753(int i, int i_83_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 - i);
+	}
+
+	public void method9754(int i, int i_84_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
+	}
+
+	public int method9756(byte i) {
+		off += 1032351030;
+		int i_85_ = ((buffer[off * -810172525 - 1] - 128 & 0xff) + ((buffer[-810172525 * off - 2] & 0xff) << 8));
+		if (i_85_ > 32767)
+			i_85_ -= 65536;
+		return i_85_;
+	}
+
+	public int readUnsignedByte128(byte i) {
+		return ((buffer[(off += 516175515) * -810172525 - 1] - 128) & 0xff);
+	}
+
+	public int method9760(int i) {
+		int i_86_ = 0;
+		int i_87_ = 0;
+		int i_88_;
+		do {
+			i_88_ = readUnsignedByte(2000334644);
+			i_86_ |= (i_88_ & 0x7f) << i_87_;
+			i_87_ += 7;
+		} while (i_88_ > 127);
+		return i_86_;
+	}
+
+	public void method9762(byte[] is, int i, int i_89_, int i_90_) {
+		for (int i_91_ = i + i_89_ - 1; i_91_ >= i; i_91_--)
+			is[i_91_] = buffer[(off += 516175515) * -810172525 - 1];
 	}
 
 	static {
 		for (int i = 0; i < 256; i++) {
-			int i_105_ = i;
-			for (int i_106_ = 0; i_106_ < 8; i_106_++) {
-				if (1 == (i_105_ & 0x1))
-					i_105_ = i_105_ >>> 1 ^ ~0x12477cdf;
+			int i_92_ = i;
+			for (int i_93_ = 0; i_93_ < 8; i_93_++) {
+				if (1 == (i_92_ & 0x1))
+					i_92_ = i_92_ >>> 1 ^ ~0x12477cdf;
 				else
-					i_105_ >>>= 1;
+					i_92_ >>>= 1;
 			}
-			anIntArray10690[i] = i_105_;
+			anIntArray10597[i] = i_92_;
 		}
-		aLongArray10688 = new long[256];
+		aLongArray10595 = new long[256];
 		for (int i = 0; i < 256; i++) {
 			long l = (long) i;
-			for (int i_107_ = 0; i_107_ < 8; i_107_++) {
+			for (int i_94_ = 0; i_94_ < 8; i_94_++) {
 				if ((l & 0x1L) == 1L)
 					l = l >>> 1 ^ ~0x3693a86a2878f0bdL;
 				else
 					l >>>= 1;
 			}
-			aLongArray10688[i] = l;
+			aLongArray10595[i] = l;
 		}
 	}
 
-	public int readLEInt() {
-		anInt10689 += 1604036228;
-		return  ((buffer[-441238943 * anInt10689 - 4] & 0xff) + 
-			   (((buffer[-441238943 * anInt10689 - 1] & 0xff) << 24) + 
-				((buffer[anInt10689 * -441238943 - 2] & 0xff) << 16) + 
-				((buffer[-441238943 * anInt10689 - 3] & 0xff) << 8)));
+	public int method9765(short i) {
+		if (buffer[-810172525 * off] < 0)
+			return method9709(-60683548) & 0x7fffffff;
+		return readUnsignedShort((short) -20720);
 	}
 
-	public void method16520(int i, int i_120_) {
-		if (i < -1)
-			throw new IllegalArgumentException();
-		if (-1 == i)
-			writeShort(32767, 1404835786);
-		else if (i < 32767)
-			writeShort(i, 1404835786);
-		else {
-			writeInt(i, -83066367);
-			buffer[-441238943 * anInt10689 - 4] |= 0x80;
-		}
+	public int method9768(int i, byte i_95_) {
+		int i_96_ = Class205_Sub5.method9059(buffer, i, off * -810172525, (byte) 1);
+		writeInt(i_96_, -149241618);
+		return i_96_;
 	}
 
-	public int method16526(int i) {
-		if (buffer[anInt10689 * -441238943] < 0)
-			return readInt() & 0x7fffffff;
-		return readUnsignedShort();
+	public void writeByte(int i, int i_97_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int readUnsigned128Byte() {
-		return (128 - (buffer[(anInt10689 += 1474750881) * -441238943 - 1]) & 0xff);
+	public void method9770(int i, byte i_98_) {
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 + i);
 	}
 
-	public int readUnsignedShortLE(byte i) {
-		anInt10689 += -1345465534;
-		return ((buffer[anInt10689 * -441238943 - 2] & 0xff) + ((buffer[-441238943 * anInt10689 - 1] & 0xff) << 8));
+	public byte readByte(int i) {
+		return buffer[(off += 516175515) * -810172525 - 1];
 	}
 
-	public void method16534(int i, int i_121_) {
-		if (i < 0 || i > 255)
-			throw new IllegalArgumentException();
-		buffer[-441238943 * anInt10689 - i - 1] = (byte) i;
+	public void method9780(byte[] is, int i, int i_99_, int i_100_) {
+		for (int i_101_ = i + i_99_ - 1; i_101_ >= i; i_101_--)
+			is[i_101_] = (byte) ((buffer[(off += 516175515) * -810172525 - 1]) - 128);
 	}
 
-	public void method16557(int i, int i_127_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-	}
-
-	public int readUnsignedByte() {
-		return (buffer[(anInt10689 += 1474750881) * -441238943 - 1] & 0xff);
-	}
-
-	public int method16581(int i) {
-		anInt10689 += 129285347;
-		int i_145_ = ((buffer[anInt10689 * -441238943 - 1] & 0xff) + (((buffer[anInt10689 * -441238943 - 3] & 0xff) << 16) + ((buffer[anInt10689 * -441238943 - 2] & 0xff) << 8)));
-		if (i_145_ > 8388607)
-			i_145_ -= 16777216;
-		return i_145_;
-	}
-
-	public void method16586(int i, int i_147_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (0 - i);
-	}
-
-	public String readString(int i) {
-		int i_148_ = -441238943 * anInt10689;
-		while (buffer[(anInt10689 += 1474750881) * -441238943 - 1] != 0) {
-			/* empty */
-		}
-		int i_149_ = anInt10689 * -441238943 - i_148_ - 1;
-		if (0 == i_149_)
-			return "";
-		return Class539.method9000(buffer, i_148_, i_149_, -1799456365);
-	}
-
-	public void writeTriByte(int i, int i_152_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-	}
-
-	void method16594(int i, byte i_156_) {
-		if (0 != (i & ~0x7f)) {
-			if ((i & ~0x3fff) != 0) {
-				if ((i & ~0x1fffff) != 0) {
-					if (0 != (i & ~0xfffffff))
-						writeByte(i >>> 28 | 0x80, 1217887878);
-					writeByte(i >>> 21 | 0x80, -259979140);
-				}
-				writeByte(i >>> 14 | 0x80, 1200140774);
+	public void method9781(int[] is, int i, int i_102_, byte i_103_) {
+		int i_104_ = -810172525 * off;
+		off = 516175515 * i;
+		int i_105_ = (i_102_ - i) / 8;
+		for (int i_106_ = 0; i_106_ < i_105_; i_106_++) {
+			int i_107_ = method9709(-725652301);
+			int i_108_ = method9709(-1889003327);
+			int i_109_ = -957401312;
+			int i_110_ = -1640531527;
+			int i_111_ = 32;
+			while (i_111_-- > 0) {
+				i_108_ -= (i_107_ + (i_107_ << 4 ^ i_107_ >>> 5) ^ is[i_109_ >>> 11 & 0x3] + i_109_);
+				i_109_ -= i_110_;
+				i_107_ -= ((i_108_ << 4 ^ i_108_ >>> 5) + i_108_ ^ i_109_ + is[i_109_ & 0x3]);
 			}
-			writeByte(i >>> 7 | 0x80, 1622524358);
+			off -= -165563176;
+			writeInt(i_107_, -149241618);
+			writeInt(i_108_, -149241618);
 		}
-		writeByte(i & 0x7f, -1795737002);
+		off = i_104_ * 516175515;
 	}
 
-	public void method16599(byte i) {
-		if (buffer != null)
-			Class706.method14342(buffer, (byte) -43);
-		buffer = null;
+	public int method9783(int i) {
+		off += 2064702060;
+		return (((buffer[-810172525 * off - 4] & 0xff) << 8) + (((buffer[off * -810172525 - 1] & 0xff) << 16) + ((buffer[off * -810172525 - 2] & 0xff) << 24)) + (buffer[-810172525 * off - 3] & 0xff));
 	}
 
-	public void method16602(int i, byte i_186_) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) i;
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (i >> 8);
+	public int method9784(int i) {
+		off += 1032351030;
+		return (((buffer[off * -810172525 - 1] & 0xff) << 8) + (buffer[off * -810172525 - 2] & 0xff));
 	}
 
-	public int method16606(int i) {
-		int i_189_ = buffer[anInt10689 * -441238943] & 0xff;
-		if (i_189_ < 128)
-			return readUnsignedByte() - 1;
-		return readUnsignedShort() - 32769;
+	public void method9785(String string, byte i) {
+		int i_112_ = string.indexOf('\0');
+		if (i_112_ >= 0)
+			throw new IllegalArgumentException("");
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
+		off += Class671.method8016(string, 0, string.length(), buffer, -810172525 * off, 1979027636) * 516175515;
+		buffer[(off += 516175515) * -810172525 - 1] = (byte) 0;
 	}
 
-	public long method16612(byte i) {
-		long l = (long) readInt() & 0xffffffffL;
-		long l_197_ = (long) readInt() & 0xffffffffL;
-		return l_197_ + (l << 32);
+
+	public void method9790(RSByteBuffer class536_sub33_113_, int i) {
+		method9696(class536_sub33_113_.buffer, 0, -810172525 * class536_sub33_113_.off, (byte) 65);
 	}
 
-	public int readIntV1() {
-		anInt10689 += 1604036228;
-		return (((buffer[anInt10689 * -441238943 - 4] & 0xff) << 8) + (((buffer[anInt10689 * -441238943 - 1] & 0xff) << 16) + ((buffer[anInt10689 * -441238943 - 2] & 0xff) << 24)) + (buffer[-441238943 * anInt10689 - 3] & 0xff));
-	}
-
-	public void method16650(BigInteger biginteger, BigInteger biginteger_207_, byte i) {
-		int i_208_ = -441238943 * anInt10689;
-		anInt10689 = 0;
-		byte[] is = new byte[i_208_];
-		method16460(is, 0, i_208_, -1902805705);
-		BigInteger biginteger_209_ = new BigInteger(is);
-		BigInteger biginteger_210_ = biginteger_209_.modPow(biginteger, biginteger_207_);
-		byte[] is_211_ = biginteger_210_.toByteArray();
-		anInt10689 = 0;
-		writeShort(is_211_.length, 1404835786);
-		writeBytes(is_211_, 0, is_211_.length, (byte) 90);
-	}
-
-	public void method16652(int i, int i_212_) {
-		if (i >= 0 && i < 128)
-			writeByte(i, -2002134787);
-		else if (i >= 0 && i < 32768)
-			writeShort(32768 + i, 1404835786);
-		else
-			throw new IllegalArgumentException();
-	}
-
-	public RSByteBuffer(int i) {
-		buffer = Class706.method14341(i, -257729101);
-		anInt10689 = 0;
-	}
-
-	public void write36BitLong(long l) {
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 32);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 24);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 16);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) (l >> 8);
-		buffer[(anInt10689 += 1474750881) * -441238943 - 1] = (byte) (int) l;
-	}
-
-	public void readBytes(byte[] is, int i, int i_213_, int i_214_) {
-		for (int i_215_ = i + i_213_ - 1; i_215_ >= i; i_215_--)
-			is[i_215_] = buffer[(anInt10689 += 1474750881) * -441238943 - 1];
-	}
-
-	static final void method16664(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class186.method3650(class243, class240, class665, 999745152);
-	}
-
-	static final void method16665(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (Class204.aClass527_Sub31_2213.aClass700_Sub37_10589.method17281(1769973735) && Class402.aClass180_4150.method3251()) ? 1 : 0;
+	public static Class392 method9791(RSByteBuffer class536_sub33, int i) {
+		Class392 class392 = Class392.method4864(class536_sub33, -317645171);
+		int i_114_ = class536_sub33.method9709(-578457384);
+		int i_115_ = class536_sub33.method9709(-286813584);
+		return new Class392_Sub1(class392.aClass395_4064, class392.aClass399_4065, 316945261 * class392.anInt4066, 1917287119 * class392.anInt4069, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, 1694830205 * class392.anInt4071, class392.anInt4072 * -369678755, i_114_, i_115_);
 	}
 }

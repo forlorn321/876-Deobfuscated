@@ -3,458 +3,352 @@
  */
 package com.jagex;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.MediaTracker;
-import java.awt.Toolkit;
-import java.awt.geom.AffineTransform;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+public class Class292 implements Runnable {
+	Class303 aClass303_3232;
+	boolean aBool3233;
+	Interface30 anInterface30_3234;
+	volatile boolean aBool3235;
+	long aLong3236;
+	int anInt3237;
+	long aLong3238;
+	String aString3239;
+	String aString3240;
+	int anInt3241;
+	Interface30 anInterface30_3242 = new Class306();
+	public static int anInt3243;
+	public static long aLong3244;
+	static int anInt3245;
 
-public class Class292 implements Interface31 {
-	boolean aBool3250;
-	boolean aBool3251;
-	List aList3252 = new ArrayList();
-	boolean aBool3253;
-	String aString3254;
-	AffineTransform anAffineTransform3255 = new AffineTransform();
-	String aString3256;
-	boolean aBool3257;
-
-	public int method187() {
-		return 100;
+	int method3931(int i) {
+		return -354297595 * anInt3237;
 	}
 
-	final int method5258(int i, int i_0_) {
-		if (aBool3253)
-			return (-1803844265 * Class289.anInt3223 - i) / 2;
-		return 0;
+	synchronized void method3932() {
+		aBool3233 = true;
 	}
 
-	final int method5259(int i, int i_1_) {
-		if (aBool3257)
-			return (-471480167 * Class611.anInt8009 - i) / 2;
-		return 0;
+	synchronized boolean method3933(int i) {
+		return anInterface30_3242.method175(-1633045531321851775L * aLong3236);
 	}
 
-	final int method5260(int i) {
-		if (aBool3253)
-			return (-1803844265 * Class289.anInt3223 - i) / 2;
-		return 0;
+	synchronized void method3934(Interface30 interface30, int i) {
+		anInterface30_3234 = anInterface30_3242;
+		anInterface30_3242 = interface30;
+		aLong3236 = Class249.method3450(1693639977) * 5631515777316855681L;
 	}
 
-	Image method5261(String string, byte i) throws IOException {
-		InputStream inputstream = null;
-		try {
-			Image image;
-			try {
-				inputstream = Class212.anApplet2258.getClass().getClassLoader().getResourceAsStream(string);
-				byte[] is = new byte[12000];
-				int i_2_ = 0;
-				int i_3_;
-				while ((i_3_ = inputstream.read()) != -1)
-					is[i_2_++] = (byte) i_3_;
-				Image image_4_ = Toolkit.getDefaultToolkit().createImage(is);
-				inputstream.close();
-				image = image_4_;
-			} catch (Exception exception) {
-				throw new IOException();
-			}
-			if (null != inputstream)
-				inputstream.close();
-			return image;
-		} catch (Exception object) {
-			if (null != inputstream)
-				inputstream.close();
-			throw object;
-		}
-	}
-
-	void method5262(byte i) {
-		Class219.method4066(Class290.aClass300_3229.method5541(49672619), Class290.aClass300_3229.method5532(650028368), client.aColorArray11098[-1289997611 * client.anInt10993], client.aColorArray11044[-1289997611 * client.anInt10993], client.aColorArray11057[-1289997611 * client.anInt10993], -1282923130);
-	}
-
-	public void method177(int i) {
-		Class534.method8956(1976067308);
-	}
-
-	public void method182(int i) {
-		/* empty */
-	}
-
-	public void method176(boolean bool, byte i) {
-		if (!aBool3250 && !aBool3251) {
-			aBool3251 = true;
-			try {
-				String[] strings = Class592.method9875(client.aString11002, '|', (short) -18277);
-				if (strings.length < 3)
-					aBool3250 = true;
-				else {
-					MediaTracker mediatracker = new MediaTracker(Class451.aCanvas4939);
-					int i_5_ = 0;
-					for (int i_6_ = 0; i_6_ < strings.length; i_6_++) {
-						String[] strings_7_ = Class592.method9875(strings[i_6_].trim(), '=', (short) -13691);
-						if (strings_7_[0].equals("halign"))
-							aBool3253 = Boolean.parseBoolean(strings_7_[1]);
-						else if (strings_7_[0].equals("valign"))
-							aBool3257 = Boolean.parseBoolean(strings_7_[1]);
-						else if (strings_7_[0].equals("image")) {
-							String[] strings_8_ = Class592.method9875(strings_7_[1], ',', (short) -969);
-							Image image;
-							try {
-								image = method5261(strings_8_[0], (byte) 44);
-							} catch (Exception exception) {
-								image = null;
-							}
-							if (image != null) {
-								mediatracker.addImage(image, i_5_++);
-								aList3252.add(new Class314_Sub2(this, image, Class360.method6326(strings_8_[1], (byte) 75), Class360.method6326(strings_8_[2], (byte) 34)));
-							}
-						} else if (strings_7_[0].equals("rotatingimage")) {
-							String[] strings_9_ = Class592.method9875(strings_7_[1], ',', (short) -25614);
-							Image image;
-							try {
-								image = method5261(strings_9_[0], (byte) 44);
-							} catch (Exception exception) {
-								image = null;
-							}
-							if (image != null) {
-								mediatracker.addImage(image, i_5_++);
-								aList3252.add(new Class314_Sub2_Sub1(this, image, Class360.method6326(strings_9_[1], (byte) -51), Class360.method6326(strings_9_[2], (byte) -32), Float.parseFloat(strings_9_[3])));
-							}
-						} else if (strings_7_[0].equals("progress")) {
-							String[] strings_10_ = Class592.method9875(strings_7_[1], ',', (short) -8245);
-							aList3252.add(new Class314_Sub1(this, Boolean.parseBoolean(strings_10_[0]), strings_10_[1], Class360.method6326(strings_10_[2], (byte) 21), Integer.decode(strings_10_[3]).intValue(), Class360.method6326(strings_10_[4], (byte) 4), Class360.method6326(strings_10_[5], (byte) -8)));
-						}
-					}
-					mediatracker.waitForAll();
-				}
-			} catch (Exception exception) {
-				aBool3250 = true;
-			}
-		}
-		if (aBool3250)
-			method5262((byte) -62);
-		else {
-			Graphics graphics = Class451.aCanvas4939.getGraphics();
-			if (graphics != null) {
-				try {
-					aString3254 = new StringBuilder().append("").append(Class290.aClass300_3229.method5541(49672619)).append("%").toString();
-					aString3256 = Class290.aClass300_3229.method5532(1194956939);
-					if (Class629.anImage8217 == null)
-						Class629.anImage8217 = (Class451.aCanvas4939.createImage(Class289.anInt3223 * -1803844265, -471480167 * Class611.anInt8009));
-					Graphics graphics_11_ = Class629.anImage8217.getGraphics();
-					graphics_11_.setColor(Color.BLACK);
-					graphics_11_.fillRect(0, 0, -1803844265 * Class289.anInt3223, Class611.anInt8009 * -471480167);
-					Iterator iterator = aList3252.iterator();
-					while (iterator.hasNext()) {
-						Class314 class314 = (Class314) iterator.next();
-						class314.method5660(graphics_11_, 1771048140);
-					}
-					graphics.drawImage(Class629.anImage8217, 0, 0, null);
-				} catch (Exception exception) {
-					aBool3250 = true;
-				}
-			} else
-				Class451.aCanvas4939.repaint();
-		}
-	}
-
-	public boolean method178(long l) {
-		return true;
+	synchronized void method3935(long l, String string, String string_0_, int i, Class303 class303, int i_1_) {
+		aLong3238 = 8677187914260377009L * l;
+		aString3240 = string;
+		aString3239 = string_0_;
+		anInt3241 = i * 1211966861;
+		aClass303_3232 = class303;
 	}
 
 	Class292() {
-		/* empty */
+		anInterface30_3234 = null;
 	}
 
-	final int method5263(int i) {
-		if (aBool3253)
-			return (-1803844265 * Class289.anInt3223 - i) / 2;
-		return 0;
+	public String method3936(byte i) {
+		return aString3239;
 	}
 
-	public int method185() {
-		return 0;
+	public int method3937(int i) {
+		if (null == aClass303_3232)
+			return 0;
+		int i_2_ = -783382047 * aClass303_3232.anInt3425;
+		if (aClass303_3232.aBool3427 && 1624614213 * anInt3241 < aClass303_3232.anInt3429 * -1375848401)
+			return 1 + anInt3241 * 1624614213;
+		if (i_2_ < 0 || i_2_ >= Class310.aClass303Array3467.length - 1)
+			return 100;
+		if (anInt3241 * 1624614213 == aClass303_3232.anInt3431 * -1949228175)
+			return -1375848401 * aClass303_3232.anInt3429;
+		return aClass303_3232.anInt3431 * -1949228175;
 	}
 
-	public void method174(boolean bool) {
-		if (!aBool3250 && !aBool3251) {
-			aBool3251 = true;
-			try {
-				String[] strings = Class592.method9875(client.aString11002, '|', (short) -2723);
-				if (strings.length < 3)
-					aBool3250 = true;
-				else {
-					MediaTracker mediatracker = new MediaTracker(Class451.aCanvas4939);
-					int i = 0;
-					for (int i_12_ = 0; i_12_ < strings.length; i_12_++) {
-						String[] strings_13_ = Class592.method9875(strings[i_12_].trim(), '=', (short) -14067);
-						if (strings_13_[0].equals("halign"))
-							aBool3253 = Boolean.parseBoolean(strings_13_[1]);
-						else if (strings_13_[0].equals("valign"))
-							aBool3257 = Boolean.parseBoolean(strings_13_[1]);
-						else if (strings_13_[0].equals("image")) {
-							String[] strings_14_ = Class592.method9875(strings_13_[1], ',', (short) -1916);
-							Image image;
-							try {
-								image = method5261(strings_14_[0], (byte) 44);
-							} catch (Exception exception) {
-								image = null;
+	public long method3938() {
+		return -4167224886854370479L * aLong3238;
+	}
+
+	public long method3939(int i) {
+		return -4167224886854370479L * aLong3238;
+	}
+
+	public Class303 method3940(int i) {
+		return aClass303_3232;
+	}
+
+	void method3941(short i) {
+		aBool3235 = true;
+	}
+
+	synchronized void method3942(int i) {
+		aBool3233 = true;
+	}
+
+	public int method3943() {
+		if (null == aClass303_3232)
+			return 0;
+		int i = -783382047 * aClass303_3232.anInt3425;
+		if (aClass303_3232.aBool3427 && 1624614213 * anInt3241 < aClass303_3232.anInt3429 * -1375848401)
+			return 1 + anInt3241 * 1624614213;
+		if (i < 0 || i >= Class310.aClass303Array3467.length - 1)
+			return 100;
+		if (anInt3241 * 1624614213 == aClass303_3232.anInt3431 * -1949228175)
+			return -1375848401 * aClass303_3232.anInt3429;
+		return aClass303_3232.anInt3431 * -1949228175;
+	}
+
+	public int method3944(int i) {
+		return 1624614213 * anInt3241;
+	}
+
+	synchronized void method3945() {
+		aBool3233 = true;
+	}
+
+	int method3946() {
+		return -354297595 * anInt3237;
+	}
+
+	int method3947() {
+		return -354297595 * anInt3237;
+	}
+
+	public void method3948() {
+		while (!aBool3235) {
+			long l = Class249.method3450(1326302172);
+			synchronized (this) {
+				try {
+					anInt3237 += 1378487245;
+					if (anInterface30_3242 instanceof Class306)
+						anInterface30_3242.method188(aBool3233, (byte) 61);
+					else {
+						long l_3_ = Class249.method3450(2115602407);
+						if (null != Class677.aClass167_8609 && null != anInterface30_3234 && anInterface30_3234.method173(-1798719505) != 0 && (-1633045531321851775L * aLong3236 >= (l_3_ - (long) anInterface30_3234.method173(-1293695142)))) {
+							int i = (int) ((l_3_ - aLong3236 * -1633045531321851775L) * 255L / (long) anInterface30_3234.method173(-1399539178));
+							int i_4_ = 255 - i;
+							i = i << 24 | 0xffffff;
+							i_4_ = i_4_ << 24 | 0xffffff;
+							Class477.method5751((byte) -107);
+							Class677.aClass167_8609.method2000(1, 0);
+							Class143 class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -675301968));
+							Class183_Sub2 class183_sub2 = Class677.aClass167_8609.method2304();
+							class183_sub2.method9035(0, class143.method1782());
+							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
+							anInterface30_3234.method188(true, (byte) 34);
+							Class677.aClass167_8609.method2029(class183_sub2, (byte) 1);
+							class143.method1729(0, 0, 0, i_4_, 1);
+							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
+							Class677.aClass167_8609.method2000(1, 0);
+							anInterface30_3242.method188(true, (byte) 46);
+							Class677.aClass167_8609.method2029(class183_sub2, (byte) 1);
+							class143.method1729(0, 0, 0, i, 1);
+						} else {
+							if (anInterface30_3234 != null) {
+								aBool3233 = true;
+								anInterface30_3234.method182(1981443792);
+								anInterface30_3234 = null;
 							}
-							if (image != null) {
-								mediatracker.addImage(image, i++);
-								aList3252.add(new Class314_Sub2(this, image, Class360.method6326(strings_14_[1], (byte) 15), Class360.method6326(strings_14_[2], (byte) -53)));
+							if (aBool3233) {
+								Class477.method5751((byte) -38);
+								if (null != Class677.aClass167_8609)
+									Class677.aClass167_8609.method2000(1, 0);
 							}
-						} else if (strings_13_[0].equals("rotatingimage")) {
-							String[] strings_15_ = Class592.method9875(strings_13_[1], ',', (short) -18320);
-							Image image;
-							try {
-								image = method5261(strings_15_[0], (byte) 44);
-							} catch (Exception exception) {
-								image = null;
-							}
-							if (image != null) {
-								mediatracker.addImage(image, i++);
-								aList3252.add(new Class314_Sub2_Sub1(this, image, Class360.method6326(strings_15_[1], (byte) 79), Class360.method6326(strings_15_[2], (byte) -17), Float.parseFloat(strings_15_[3])));
-							}
-						} else if (strings_13_[0].equals("progress")) {
-							String[] strings_16_ = Class592.method9875(strings_13_[1], ',', (short) -15589);
-							aList3252.add(new Class314_Sub1(this, Boolean.parseBoolean(strings_16_[0]), strings_16_[1], Class360.method6326(strings_16_[2], (byte) 79), Integer.decode(strings_16_[3]).intValue(), Class360.method6326(strings_16_[4], (byte) -106), Class360.method6326(strings_16_[5], (byte) -10)));
+							anInterface30_3242.method188(aBool3233 || (Class677.aClass167_8609 != null && Class677.aClass167_8609.method2010()), (byte) 87);
+						}
+						try {
+							if (Class677.aClass167_8609 != null && !(anInterface30_3242 instanceof Class306))
+								Class677.aClass167_8609.method2002((byte) 73);
+						} catch (Exception_Sub5 exception_sub5) {
+							Class81.method1165(new StringBuilder().append(exception_sub5.getMessage()).append(Class313.aclient3500.method6092(490878200)).toString(), exception_sub5, (byte) -51);
+							Class704.method8264(0, true, (byte) 34);
 						}
 					}
-					mediatracker.waitForAll();
-				}
-			} catch (Exception exception) {
-				aBool3250 = true;
-			}
-		}
-		if (aBool3250)
-			method5262((byte) -70);
-		else {
-			Graphics graphics = Class451.aCanvas4939.getGraphics();
-			if (graphics != null) {
-				try {
-					aString3254 = new StringBuilder().append("").append(Class290.aClass300_3229.method5541(49672619)).append("%").toString();
-					aString3256 = Class290.aClass300_3229.method5532(-1948707817);
-					if (Class629.anImage8217 == null)
-						Class629.anImage8217 = (Class451.aCanvas4939.createImage(Class289.anInt3223 * -1803844265, -471480167 * Class611.anInt8009));
-					Graphics graphics_17_ = Class629.anImage8217.getGraphics();
-					graphics_17_.setColor(Color.BLACK);
-					graphics_17_.fillRect(0, 0, -1803844265 * Class289.anInt3223, Class611.anInt8009 * -471480167);
-					Iterator iterator = aList3252.iterator();
-					while (iterator.hasNext()) {
-						Class314 class314 = (Class314) iterator.next();
-						class314.method5660(graphics_17_, 2059683587);
-					}
-					graphics.drawImage(Class629.anImage8217, 0, 0, null);
+					aBool3233 = false;
+					if (null != Class677.aClass167_8609 && !(anInterface30_3242 instanceof Class306) && (-783382047 * aClass303_3232.anInt3425 < Class303.aClass303_3422.anInt3425 * -783382047))
+						Class205_Sub1.method9054(-803601661);
 				} catch (Exception exception) {
-					aBool3250 = true;
+					continue;
 				}
-			} else
-				Class451.aCanvas4939.repaint();
-		}
-	}
-
-	public int method179(int i) {
-		return 0;
-	}
-
-	Image method5264(String string) throws IOException {
-		InputStream inputstream = null;
-		try {
-			Image image;
-			try {
-				inputstream = Class212.anApplet2258.getClass().getClassLoader().getResourceAsStream(string);
-				byte[] is = new byte[12000];
-				int i = 0;
-				int i_18_;
-				while ((i_18_ = inputstream.read()) != -1)
-					is[i++] = (byte) i_18_;
-				Image image_19_ = Toolkit.getDefaultToolkit().createImage(is);
-				inputstream.close();
-				image = image_19_;
-			} catch (Exception exception) {
-				throw new IOException();
 			}
-			if (null != inputstream)
-				inputstream.close();
-			return image;
-		} catch (Exception object) {
-			if (null != inputstream)
-				inputstream.close();
-			throw object;
+			long l_5_ = Class249.method3450(2145471168);
+			int i = (int) (20L - (l_5_ - l));
+			if (i > 0)
+				Class212.method3067((long) i);
 		}
 	}
 
-	Image method5265(String string) throws IOException {
-		InputStream inputstream = null;
-		try {
-			Image image;
-			try {
-				inputstream = Class212.anApplet2258.getClass().getClassLoader().getResourceAsStream(string);
-				byte[] is = new byte[12000];
-				int i = 0;
-				int i_20_;
-				while ((i_20_ = inputstream.read()) != -1)
-					is[i++] = (byte) i_20_;
-				Image image_21_ = Toolkit.getDefaultToolkit().createImage(is);
-				inputstream.close();
-				image = image_21_;
-			} catch (Exception exception) {
-				throw new IOException();
+	synchronized void method3949() {
+		aBool3233 = true;
+	}
+
+	synchronized boolean method3950() {
+		return anInterface30_3242.method175(-1633045531321851775L * aLong3236);
+	}
+
+	synchronized boolean method3951() {
+		return anInterface30_3242.method175(-1633045531321851775L * aLong3236);
+	}
+
+	public String method3952(int i) {
+		return aString3240;
+	}
+
+	synchronized boolean method3953() {
+		return anInterface30_3242.method175(-1633045531321851775L * aLong3236);
+	}
+
+	synchronized boolean method3954() {
+		return anInterface30_3242.method175(-1633045531321851775L * aLong3236);
+	}
+
+	public void run() {
+		while (!aBool3235) {
+			long l = Class249.method3450(1606799209);
+			synchronized (this) {
+				try {
+					anInt3237 += 1378487245;
+					if (anInterface30_3242 instanceof Class306)
+						anInterface30_3242.method188(aBool3233, (byte) 8);
+					else {
+						long l_6_ = Class249.method3450(1613194567);
+						if (null != Class677.aClass167_8609 && null != anInterface30_3234 && anInterface30_3234.method173(-2075429389) != 0 && (-1633045531321851775L * aLong3236 >= (l_6_ - (long) anInterface30_3234.method173(-1304627920)))) {
+							int i = (int) ((l_6_ - aLong3236 * -1633045531321851775L) * 255L / (long) anInterface30_3234.method173(-1582215306));
+							int i_7_ = 255 - i;
+							i = i << 24 | 0xffffff;
+							i_7_ = i_7_ << 24 | 0xffffff;
+							Class477.method5751((byte) -12);
+							Class677.aClass167_8609.method2000(1, 0);
+							Class143 class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -1172746711));
+							Class183_Sub2 class183_sub2 = Class677.aClass167_8609.method2304();
+							class183_sub2.method9035(0, class143.method1782());
+							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
+							anInterface30_3234.method188(true, (byte) 64);
+							Class677.aClass167_8609.method2029(class183_sub2, (byte) 1);
+							class143.method1729(0, 0, 0, i_7_, 1);
+							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
+							Class677.aClass167_8609.method2000(1, 0);
+							anInterface30_3242.method188(true, (byte) 112);
+							Class677.aClass167_8609.method2029(class183_sub2, (byte) 1);
+							class143.method1729(0, 0, 0, i, 1);
+						} else {
+							if (anInterface30_3234 != null) {
+								aBool3233 = true;
+								anInterface30_3234.method182(2107944387);
+								anInterface30_3234 = null;
+							}
+							if (aBool3233) {
+								Class477.method5751((byte) -119);
+								if (null != Class677.aClass167_8609)
+									Class677.aClass167_8609.method2000(1, 0);
+							}
+							anInterface30_3242.method188(aBool3233 || (Class677.aClass167_8609 != null && Class677.aClass167_8609.method2010()), (byte) 123);
+						}
+						try {
+							if (Class677.aClass167_8609 != null && !(anInterface30_3242 instanceof Class306))
+								Class677.aClass167_8609.method2002((byte) 51);
+						} catch (Exception_Sub5 exception_sub5) {
+							Class81.method1165(new StringBuilder().append(exception_sub5.getMessage()).append(Class313.aclient3500.method6092(736268227)).toString(), exception_sub5, (byte) 0);
+							Class704.method8264(0, true, (byte) 41);
+						}
+					}
+					aBool3233 = false;
+					if (null != Class677.aClass167_8609 && !(anInterface30_3242 instanceof Class306) && (-783382047 * aClass303_3232.anInt3425 < Class303.aClass303_3422.anInt3425 * -783382047))
+						Class205_Sub1.method9054(1240044306);
+				} catch (Exception exception) {
+					continue;
+				}
 			}
-			if (null != inputstream)
-				inputstream.close();
-			return image;
-		} catch (Exception object) {
-			if (null != inputstream)
-				inputstream.close();
-			throw object;
+			long l_8_ = Class249.method3450(1408441477);
+			int i = (int) (20L - (l_8_ - l));
+			if (i > 0)
+				Class212.method3067((long) i);
 		}
 	}
 
-	Image method5266(String string) throws IOException {
-		InputStream inputstream = null;
-		try {
-			Image image;
-			try {
-				inputstream = Class212.anApplet2258.getClass().getClassLoader().getResourceAsStream(string);
-				byte[] is = new byte[12000];
-				int i = 0;
-				int i_22_;
-				while ((i_22_ = inputstream.read()) != -1)
-					is[i++] = (byte) i_22_;
-				Image image_23_ = Toolkit.getDefaultToolkit().createImage(is);
-				inputstream.close();
-				image = image_23_;
-			} catch (Exception exception) {
-				throw new IOException();
-			}
-			if (null != inputstream)
-				inputstream.close();
-			return image;
-		} catch (Exception object) {
-			if (null != inputstream)
-				inputstream.close();
-			throw object;
-		}
+	public int method3955() {
+		if (null == aClass303_3232)
+			return 0;
+		int i = -783382047 * aClass303_3232.anInt3425;
+		if (aClass303_3232.aBool3427 && 1624614213 * anInt3241 < aClass303_3232.anInt3429 * -1375848401)
+			return 1 + anInt3241 * 1624614213;
+		if (i < 0 || i >= Class310.aClass303Array3467.length - 1)
+			return 100;
+		if (anInt3241 * 1624614213 == aClass303_3232.anInt3431 * -1949228175)
+			return -1375848401 * aClass303_3232.anInt3429;
+		return aClass303_3232.anInt3431 * -1949228175;
 	}
 
-	public boolean method175(long l) {
-		return true;
+	public int method3956() {
+		if (null == aClass303_3232)
+			return 0;
+		int i = -783382047 * aClass303_3232.anInt3425;
+		if (aClass303_3232.aBool3427 && 1624614213 * anInt3241 < aClass303_3232.anInt3429 * -1375848401)
+			return 1 + anInt3241 * 1624614213;
+		if (i < 0 || i >= Class310.aClass303Array3467.length - 1)
+			return 100;
+		if (anInt3241 * 1624614213 == aClass303_3232.anInt3431 * -1949228175)
+			return -1375848401 * aClass303_3232.anInt3429;
+		return aClass303_3232.anInt3431 * -1949228175;
 	}
 
-	void method5267() {
-		Class219.method4066(Class290.aClass300_3229.method5541(49672619), Class290.aClass300_3229.method5532(1897416533), client.aColorArray11098[-1289997611 * client.anInt10993], client.aColorArray11044[-1289997611 * client.anInt10993], client.aColorArray11057[-1289997611 * client.anInt10993], -879710019);
+	public int method3957() {
+		return 1624614213 * anInt3241;
 	}
 
-	public void method180() {
-		Class534.method8956(1411877080);
+	int method3958() {
+		return -354297595 * anInt3237;
 	}
 
-	public void method32() {
-		Class534.method8956(1579819079);
+	int method3959() {
+		return -354297595 * anInt3237;
 	}
 
-	public int method181(int i) {
-		return 100;
+	void method3960() {
+		aBool3235 = true;
 	}
 
-	public void method34() {
-		/* empty */
+	void method3961() {
+		aBool3235 = true;
 	}
 
-	void method5268() {
-		Class219.method4066(Class290.aClass300_3229.method5541(49672619), Class290.aClass300_3229.method5532(290238964), client.aColorArray11098[-1289997611 * client.anInt10993], client.aColorArray11044[-1289997611 * client.anInt10993], client.aColorArray11057[-1289997611 * client.anInt10993], -1868930086);
+	void method3962() {
+		aBool3235 = true;
 	}
 
-	public int method183() {
-		return 100;
+	void method3963() {
+		aBool3235 = true;
 	}
 
-	public boolean method184(long l) {
-		return true;
+	public static boolean method3964(int i) {
+		return Class575.aBool7667;
 	}
 
-	Image method5269(String string) throws IOException {
-		InputStream inputstream = null;
-		try {
-			Image image;
-			try {
-				inputstream = Class212.anApplet2258.getClass().getClassLoader().getResourceAsStream(string);
-				byte[] is = new byte[12000];
-				int i = 0;
-				int i_24_;
-				while ((i_24_ = inputstream.read()) != -1)
-					is[i++] = (byte) i_24_;
-				Image image_25_ = Toolkit.getDefaultToolkit().createImage(is);
-				inputstream.close();
-				image = image_25_;
-			} catch (Exception exception) {
-				throw new IOException();
-			}
-			if (null != inputstream)
-				inputstream.close();
-			return image;
-		} catch (Exception object) {
-			if (null != inputstream)
-				inputstream.close();
-			throw object;
-		}
+	static void method3965(Class668 class668, byte i) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -80));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3036 ? 0 : class277.anIntArray3036.length);
 	}
 
-	public void method33() {
-		Class534.method8956(1554557099);
+	static final void method3966(Class668 class668, int i) {
+		class668.anInt8542 -= 61855783;
+		Class184_Sub2.aClass211_9442.method3010(class668.anIntArray8541[1867269829 * class668.anInt8542], class668.anIntArray8541[1 + 1867269829 * class668.anInt8542], 1217993769);
 	}
 
-	public boolean method186(long l) {
-		return true;
-	}
-
-	static final void method5270(Class243 class243, Class240 class240, Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		class243.anInt2525 = (class665.anIntArray8525[class665.anInt8526 * 1769813785] * -892747571);
-		class243.anInt2526 = (class665.anIntArray8525[class665.anInt8526 * 1769813785 + 1] * -2022317685);
-		Class430.method6876(class243, (byte) 39);
-		if (0 == class243.anInt2501 * -270144907)
-			Class397.method6513(class240, class243, false, 1742480300);
-	}
-
-	static final void method5271(Class665 class665, int i) {
-		if ((Class208_Sub10.aClass296_Sub1_9923.method5376((byte) 17) != Class301.aClass301_3418) || (Class208_Sub10.aClass296_Sub1_9923.method5378((byte) -69) != Class309.aClass309_3455))
-			throw new RuntimeException();
-		Class442 class442 = ((Class327_Sub2) Class208_Sub10.aClass296_Sub1_9923.method5372((byte) 0)).method15732((byte) 120);
-		Class442 class442_26_ = ((Class696_Sub3) Class208_Sub10.aClass296_Sub1_9923.method5472(502106250)).method17229((byte) -108);
-		Class442 class442_27_ = Class442.method7139(class442);
-		class442_27_.method7154(class442_26_);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) class442_27_.method7160();
-	}
-
-	static final void method5272(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class265.method5042(547612020);
-	}
-
-	public static void method5273(int i, byte i_28_) {
-		synchronized (Class633.aClass205_8288) {
-			Class633.aClass205_8288.method3792(i, (byte) -75);
-		}
-		synchronized (Class633.aClass205_8289) {
-			Class633.aClass205_8289.method3792(i, (byte) -28);
-		}
-	}
-
-	static final void method5274(boolean bool, Class665 class665, byte i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		if (bool)
-			Class171_Sub1.method14734(class240, class243, (byte) -62);
+	static final void method3967(Class668 class668, byte i) {
+		int i_9_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class536_Sub18_Sub14 class536_sub18_sub14 = Class542.method6535(i_9_ >> 14 & 0x3fff, i_9_ & 0x3fff);
+		if (class536_sub18_sub14 == null)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
 		else
-			Class69.method1480(class240, class243, 2083375724);
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -673647059 * class536_sub18_sub14.anInt11765;
+	}
+
+	static final void method3968(Class251 class251, Class234 class234, Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1996770834) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2707 = Class33.method796(string, class668, (short) 308);
+		class251.aBool2666 = true;
 	}
 }

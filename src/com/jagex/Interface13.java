@@ -3,20 +3,12 @@
  */
 package com.jagex;
 
-public interface Interface13 extends Iterable {
-	public Interface14 method76(int i);
+public interface Interface13 {
+	public void method74(RSByteBuffer class536_sub33, int i);
 
-	public int method77(int i);
+	public void method75(byte i);
 
-	public int method46();
+	public void method76(RSByteBuffer class536_sub33);
 
-	public Interface14 method78(int i);
-
-	public Interface14 method79(int i);
-
-	public Interface14 method80(int i);
-
-	public Interface14 method81(int i, int i_0_);
-
-	public int method7();
+	public void method77();
 }

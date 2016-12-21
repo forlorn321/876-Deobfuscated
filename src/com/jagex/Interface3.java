@@ -4,57 +4,53 @@
 package com.jagex;
 
 public interface Interface3 extends Iterable {
-	public void method13(int i, int i_0_);
+	public void method13();
 
-	public void method14(int i, int i_1_, int i_2_);
+	public void method14(int i, int i_0_, int i_1_);
 
-	public long method15(int i, byte i_3_);
+	public long method15(int i);
 
-	public void method16(int i, int i_4_);
+	public void method16(int i, long l);
 
-	public void method17(int i, Object object);
+	public Object method17(int i, int i_2_);
 
-	public void method18(int i, Object object, int i_5_);
+	public void method18(int i, Object object, byte i_3_);
 
-	public void method19(byte i);
+	public void method19(int i);
 
-	public void method20(int i, long l);
+	public void method20(int i, byte i_4_);
 
-	public int method21(int i, byte i_6_);
+	public void method21();
 
-	public long method22(int i);
+	public int method22(int i);
 
-	public long method23(int i);
+	public long method23(int i, byte i_5_);
 
-	public long method24(int i);
+	public void method24(int i, int i_6_);
 
-	public void method25(int i, Object object);
+	public void method25(int i, int i_7_);
 
-	public int method26(int i);
+	public Object method26(int i);
 
-	public void method27(int i, long l);
+	public long method27(int i);
 
-	public void method28(int i, Object object);
+	public long method28(int i);
 
-	public void method29(int i, Object object);
+	public void method29(int i);
 
-	public long method30(int i);
+	public void method30(int i, long l);
 
-	public Object method31(int i, int i_7_);
+	public void method31(int i, long l);
 
-	public void method32();
+	public int method32(int i, int i_8_);
 
-	public void method33();
+	public Object method33(int i);
 
-	public void method34();
+	public void method34(int i, Object object);
 
 	public void method35(int i, long l);
 
-	public void method36(int i);
+	public void method36(int i, int i_9_);
 
-	public Object method37(int i);
-
-	public void method38(int i, int i_8_);
-
-	public void method39(int i);
+	public int method37(int i);
 }

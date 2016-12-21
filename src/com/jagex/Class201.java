@@ -3,57 +3,62 @@
  */
 package com.jagex;
 
-public class Class201 {
-	static Class201 aClass201_2204;
-	int anInt2205;
-	static Class201 aClass201_2206 = new Class201(2);
-	static Class201 aClass201_2207;
-	static Class201 aClass201_2208;
-	static Class201 aClass201_2209;
-	static Class201 aClass201_2210;
-	public static int anInt2211;
+import java.util.Iterator;
 
-	static {
-		aClass201_2204 = new Class201(1);
-		aClass201_2210 = new Class201(5);
-		aClass201_2207 = new Class201(0);
-		aClass201_2208 = new Class201(3);
-		aClass201_2209 = new Class201(4);
+class Class201 implements Interface25 {
+	Class211 this$0;
+
+	public void method151(Object object, int i) {
+		method2917((Interface71) object, -1445847732);
 	}
 
-	int method3766(int i) {
-		if (this == aClass201_2206)
-			return -1;
-		return 0x1000000 | -1453260601 * anInt2205;
+	void method2917(Interface71 interface71, int i) {
+		Iterator iterator = this$0.method2988((byte) -12).iterator();
+		while (iterator.hasNext()) {
+			Class479 class479 = (Class479) iterator.next();
+			if (class479.method5768(-1348887859) == interface71) {
+				class479.method5766((byte) 42);
+				iterator.remove();
+			}
+		}
 	}
 
-	Class201(int i) {
-		anInt2205 = -1449803529 * i;
+	public void method150(Object object) {
+		method2917((Interface71) object, -123255022);
 	}
 
-	int method3767() {
-		if (this == aClass201_2206)
-			return -1;
-		return 0x1000000 | -1453260601 * anInt2205;
+	public void method152(Object object) {
+		method2917((Interface71) object, -1857091870);
 	}
 
-	int method3768() {
-		if (this == aClass201_2206)
-			return -1;
-		return 0x1000000 | -1453260601 * anInt2205;
+	public void method149(Object object) {
+		method2917((Interface71) object, 1416219867);
 	}
 
-	static final void method3769(Class665 class665, byte i) {
-		Class243 class243 = Class648.method10837(class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)], -472957321);
-		class243.aClass243Array2665 = null;
-		class243.aClass243Array2666 = null;
-		Class430.method6876(class243, (byte) 107);
+	void method2918(Interface71 interface71) {
+		Iterator iterator = this$0.method2988((byte) 78).iterator();
+		while (iterator.hasNext()) {
+			Class479 class479 = (Class479) iterator.next();
+			if (class479.method5768(-1924257418) == interface71) {
+				class479.method5766((byte) 80);
+				iterator.remove();
+			}
+		}
 	}
 
-	static final void method3770(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class383.method6410(class243, class240, class665, 914241477);
+	Class201(Class211 class211) {
+		this$0 = class211;
+	}
+
+	static final void method2919(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11014;
+	}
+
+	static final void method2920(Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		class668.anInt8542 -= 1472892954;
+		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_1_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string.substring(i_0_, i_1_);
 	}
 }

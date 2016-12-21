@@ -3,83 +3,28 @@
  */
 package com.jagex;
 
-import java.io.IOException;
-import java.net.InetAddress;
-import java.net.Socket;
-
 public class Class13 {
-	boolean aBool177;
-	public String aString178;
-	public int anInt179;
-	public int anInt180;
-	public int anInt181;
-	boolean aBool182 = true;
+	static Class13 aClass13_157 = new Class13();
+	static Class13 aClass13_158 = new Class13();
+	static Class13 aClass13_159 = new Class13();
+	static Class13 aClass13_160 = new Class13();
+	static int anInt161;
 
-	public void method700(int i) {
-		if (!aBool182) {
-			aBool182 = true;
-			aBool177 = true;
-		} else if (aBool177)
-			aBool177 = false;
+	Class13() {
+		/* empty */
+	}
+
+	static final void method622(Class668 class668, byte i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1382035527 * class251.anInt2585;
+	}
+
+	static final void method623(Class668 class668, int i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		if (client.anInt11289 * -1484801557 == 2 && i_1_ < 142551095 * client.anInt11288)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aClass31Array11291[i_1_].anInt272 * -32584767;
 		else
-			aBool182 = false;
-	}
-
-	public void method701() {
-		if (!aBool182) {
-			aBool182 = true;
-			aBool177 = true;
-		} else if (aBool177)
-			aBool177 = false;
-		else
-			aBool182 = false;
-	}
-
-	public Socket method702() throws IOException {
-		if (!aBool177)
-			return new Socket(InetAddress.getByName(aString178), (aBool182 ? -941127567 * anInt180 : anInt179 * 375656933));
-		return Class305.method5598(aString178, aBool182 ? anInt180 * -941127567 : 375656933 * anInt179, 1832322120).method874((byte) 57);
-	}
-
-	public boolean method703(Class13 class13_0_, int i) {
-		if (class13_0_ == null)
-			return false;
-		return (44791937 * class13_0_.anInt181 == anInt181 * 44791937 && aString178.equals(class13_0_.aString178) && anInt179 * 375656933 == class13_0_.anInt179 * 375656933 && anInt180 * -941127567 == -941127567 * class13_0_.anInt180);
-	}
-
-	public Socket method704() throws IOException {
-		if (!aBool177)
-			return new Socket(InetAddress.getByName(aString178), (aBool182 ? -941127567 * anInt180 : anInt179 * 375656933));
-		return Class305.method5598(aString178, aBool182 ? anInt180 * -941127567 : 375656933 * anInt179, 1293501268).method874((byte) -20);
-	}
-
-	public Socket method705(byte i) throws IOException {
-		if (!aBool177)
-			return new Socket(InetAddress.getByName(aString178), (aBool182 ? -941127567 * anInt180 : anInt179 * 375656933));
-		return Class305.method5598(aString178, aBool182 ? anInt180 * -941127567 : 375656933 * anInt179, 1878669204).method874((byte) 29);
-	}
-
-	public Class13() {
-		aBool177 = false;
-	}
-
-	public void method706() {
-		if (!aBool182) {
-			aBool182 = true;
-			aBool177 = true;
-		} else if (aBool177)
-			aBool177 = false;
-		else
-			aBool182 = false;
-	}
-
-	public void method707() {
-		if (!aBool182) {
-			aBool182 = true;
-			aBool177 = true;
-		} else if (aBool177)
-			aBool177 = false;
-		else
-			aBool182 = false;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 }

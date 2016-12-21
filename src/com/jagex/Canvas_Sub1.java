@@ -8,33 +8,34 @@ import java.awt.Component;
 import java.awt.Graphics;
 
 public final class Canvas_Sub1 extends Canvas {
-	Component aComponent11873;
+	Component aComponent11874;
+	static int anInt11875;
 
-	public final void method18496(Graphics graphics) {
-		aComponent11873.update(graphics);
+	public final void method10839(Graphics graphics) {
+		aComponent11874.update(graphics);
 	}
 
 	public final void update(Graphics graphics) {
-		aComponent11873.update(graphics);
+		aComponent11874.update(graphics);
 	}
 
 	public final void paint(Graphics graphics) {
-		aComponent11873.paint(graphics);
+		aComponent11874.paint(graphics);
 	}
 
-	public final void method18497(Graphics graphics) {
-		aComponent11873.update(graphics);
+	public final void method10840(Graphics graphics) {
+		aComponent11874.update(graphics);
 	}
 
 	Canvas_Sub1(Component component) {
-		aComponent11873 = component;
+		aComponent11874 = component;
 	}
 
-	public final void method18498(Graphics graphics) {
-		aComponent11873.update(graphics);
+	public final void method10841(Graphics graphics) {
+		aComponent11874.paint(graphics);
 	}
 
-	public final void method18499(Graphics graphics) {
-		aComponent11873.update(graphics);
+	public final void method10842(Graphics graphics) {
+		aComponent11874.paint(graphics);
 	}
 }

@@ -4,60 +4,25 @@
 package com.jagex;
 
 public class Class372 {
-	int anInt3905;
-	long aLong3906;
+	boolean aBool3886;
+	int anInt3887;
+	int anInt3888;
+	int anInt3889;
+	short aShort3890;
+	short aShort3891;
+	short aShort3892;
+	int anInt3893;
+	int anInt3894;
 
-	public final int method6364() {
-		return anInt3905;
-	}
-
-	Class372(Class347[] class347s) {
-		for (int i = 0; i < class347s.length; i++)
-			method6368(class347s[i]);
-	}
-
-	public final int method6365() {
-		return anInt3905;
-	}
-
-	public final Class347 method6366(int i) {
-		return Class347.method6162(method6370(i));
-	}
-
-	final int method6367(int i) {
-		return (int) (aLong3906 >> Class347.anInt3746 * i) & 0xf;
-	}
-
-	final void method6368(Class347 class347) {
-		aLong3906 |= (long) (class347.anInt3747 << Class347.anInt3746 * anInt3905++);
-	}
-
-	Class372(Class347 class347) {
-		aLong3906 = (long) class347.anInt3747;
-		anInt3905 = 1;
-	}
-
-	public final int method6369() {
-		return anInt3905;
-	}
-
-	final int method6370(int i) {
-		return (int) (aLong3906 >> Class347.anInt3746 * i) & 0xf;
-	}
-
-	public final int method6371() {
-		return anInt3905;
-	}
-
-	public final Class347 method6372(int i) {
-		return Class347.method6162(method6370(i));
-	}
-
-	public final Class347 method6373(int i) {
-		return Class347.method6162(method6370(i));
-	}
-
-	public final int method6374() {
-		return anInt3905;
+	Class372(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, boolean bool, boolean bool_8_, int i_9_) {
+		anInt3889 = i;
+		anInt3893 = i_0_;
+		anInt3887 = i_1_;
+		anInt3888 = i_2_;
+		aShort3890 = (short) i_3_;
+		aShort3891 = (short) i_4_;
+		aShort3892 = (short) i_5_;
+		aBool3886 = bool_8_;
+		anInt3894 = i_9_;
 	}
 }

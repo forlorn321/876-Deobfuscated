@@ -3,58 +3,31 @@
  */
 package com.jagex;
 
-public class Class98 implements Interface21 {
-	int anInt1163;
-	int anInt1164;
-	int[] anIntArray1165;
-	public static Class95_Sub1_Sub2 aClass95_Sub1_Sub2_1166;
+public abstract class Class98 implements Interface12 {
+	protected int anInt1180;
+	static short aShort1181;
 
-	public int method42() {
-		return anInt1164 * 2070435273;
+	public int method73() {
+		return 1628850519 * anInt1180;
 	}
 
-	Class98(int i, int i_0_, int[] is) {
-		anInt1164 = 368956537 * i;
-		anInt1163 = i_0_ * 597719171;
-		anIntArray1165 = is;
+	public int method71(int i) {
+		return 1628850519 * anInt1180;
 	}
 
-	public int method6() {
-		return anInt1163 * -1683646933;
+	public int method12() {
+		return 1628850519 * anInt1180;
 	}
 
-	public int method87() {
-		return anInt1163 * -1683646933;
+	Class98(Class670 class670, Class664 class664, int i) {
+		anInt1180 = 1862709863 * i;
 	}
 
-	Class98(int i, int i_1_) {
-		this(i, i_1_, new int[i_1_ * i]);
-	}
-
-	public int method1() {
-		return anInt1164 * 2070435273;
-	}
-
-	public int method91() {
-		return anInt1163 * -1683646933;
-	}
-
-	public void method130() {
-		/* empty */
-	}
-
-	public void method129() {
-		/* empty */
-	}
-
-	static final void method1751(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		int i_2_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_3_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class254.method4703(i_2_, i_3_, false, false, -1095709588);
-	}
-
-	public static void method1752(long[] ls, int[] is, int i) {
-		Class172.method2737(ls, is, 0, ls.length - 1, (byte) 10);
+	static final void method1322(Class251 class251, Class234 class234, Class668 class668, byte i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1519907750) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2599 = Class33.method796(string, class668, (short) 14501);
+		class251.aBool2666 = true;
 	}
 }

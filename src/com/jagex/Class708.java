@@ -3,119 +3,302 @@
  */
 package com.jagex;
 
-public class Class708 {
-	boolean aBool8842;
-	int anInt8843;
-	boolean aBool8844;
-	int anInt8845;
-	boolean aBool8846;
-	public static Class463 aClass463_8847;
+import java.util.Collection;
+import java.util.Iterator;
 
-	public boolean method14366(int i) {
-		return aBool8842;
+public class Class708 implements Iterable, Collection {
+	static Class87 aClass87_8824;
+	Class536 aClass536_8825;
+	public Class536 aClass536_8826 = new Class536();
+
+	public boolean method8303() {
+		return aClass536_8826.aClass536_7132 == aClass536_8826;
 	}
 
-	Class708(int i, int i_0_, boolean bool, boolean bool_1_, boolean bool_2_) {
-		anInt8845 = -1181966595 * i;
-		anInt8843 = 494115785 * i_0_;
-		aBool8844 = bool;
-		aBool8846 = bool_1_;
-		aBool8842 = bool_2_;
+	public void method8304(int i) {
+		while (aClass536_8826 != aClass536_8826.aClass536_7132)
+			aClass536_8826.aClass536_7132.method6484(-310388310);
 	}
 
-	public int method14367(int i) {
-		return anInt8843 * -611094919;
+	public boolean remove(Object object) {
+		throw new RuntimeException();
 	}
 
-	public boolean method14368() {
-		return aBool8842;
+	public Class536 method8305(int i) {
+		Class536 class536 = aClass536_8826.aClass536_7132;
+		if (aClass536_8826 == class536)
+			return null;
+		class536.method6484(1974861999);
+		return class536;
 	}
 
-	public boolean method14369(byte i) {
-		return aBool8846;
-	}
-
-	public boolean method14370(byte i) {
-		return aBool8844;
-	}
-
-	public int method14371() {
-		return anInt8845 * -226431403;
-	}
-
-	public boolean method14372() {
-		return aBool8844;
-	}
-
-	public boolean method14373() {
-		return aBool8844;
-	}
-
-	public boolean method14374() {
-		return aBool8846;
-	}
-
-	public int method14375(int i) {
-		return anInt8845 * -226431403;
-	}
-
-	static RSByteBuffer method14376(int i) {
-		RSByteBuffer class527_sub38 = new RSByteBuffer(518);
-		Class32.anIntArray272 = new int[4];
-		Class32.anIntArray272[0] = (int) (Math.random() * 9.9999999E7);
-		Class32.anIntArray272[1] = (int) (Math.random() * 9.9999999E7);
-		Class32.anIntArray272[2] = (int) (Math.random() * 9.9999999E7);
-		Class32.anIntArray272[3] = (int) (Math.random() * 9.9999999E7);
-		class527_sub38.writeByte(10, -1790771613);
-		class527_sub38.writeInt(Class32.anIntArray272[0], 1221058921);
-		class527_sub38.writeInt(Class32.anIntArray272[1], -1531631817);
-		class527_sub38.writeInt(Class32.anIntArray272[2], 1290640855);
-		class527_sub38.writeInt(Class32.anIntArray272[3], -1176756261);
-		return class527_sub38;
-	}
-
-	static final void method14377(Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		if (class665.anIntArray8525[class665.anInt8526 * 1769813785] != class665.anIntArray8525[class665.anInt8526 * 1769813785 + 1])
-			class665.anInt8527 += (-1038991169 * class665.anIntArray8545[class665.anInt8527 * 891367231]);
-	}
-
-	static final void method14378(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class32.anInt311 * -1928963105;
-	}
-
-	static final void method14379(int i, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, int i_9_) {
-		int i_10_ = i_8_ - 334;
-		if (i_10_ < 0)
-			i_10_ = 0;
-		else if (i_10_ > 100)
-			i_10_ = 100;
-		int i_11_ = (client.aShort11283 + i_10_ * (client.aShort11284 - client.aShort11283) / 100);
-		i_7_ = i_7_ * i_11_ >> 8;
-		int i_12_ = 16384 - i_5_ & 0x3fff;
-		int i_13_ = 16384 - i_6_ & 0x3fff;
-		int i_14_ = 0;
-		int i_15_ = 0;
-		int i_16_ = i_7_;
-		if (i_12_ != 0) {
-			i_15_ = Class428.anIntArray4825[i_12_] * -i_16_ >> 14;
-			i_16_ = Class428.anIntArray4819[i_12_] * i_16_ >> 14;
+	void method8306(Class708 class708_0_, Class536 class536, byte i) {
+		Class536 class536_1_ = aClass536_8826.aClass536_7134;
+		aClass536_8826.aClass536_7134 = class536.aClass536_7134;
+		class536.aClass536_7134.aClass536_7132 = aClass536_8826;
+		if (aClass536_8826 != class536) {
+			class536.aClass536_7134 = class708_0_.aClass536_8826.aClass536_7134;
+			class536.aClass536_7134.aClass536_7132 = class536;
+			class536_1_.aClass536_7132 = class708_0_.aClass536_8826;
+			class708_0_.aClass536_8826.aClass536_7134 = class536_1_;
 		}
-		if (i_13_ != 0) {
-			i_14_ = Class428.anIntArray4825[i_13_] * i_16_ >> 14;
-			i_16_ = Class428.anIntArray4819[i_13_] * i_16_ >> 14;
-		}
-		Class320.anInt3543 = 1149154509 * (i - i_14_);
-		Class142.anInt1657 = (i_3_ - i_15_) * -1960018167;
-		Class201.anInt2211 = (i_4_ - i_16_) * 421295465;
-		Class700_Sub34.anInt10928 = -290107601 * i_5_;
-		Class12.anInt176 = i_6_ * 355973435;
-		Class689.anInt8692 = 0;
 	}
 
-	static void method14380(int i, boolean bool, short i_17_) {
-		Class527_Sub8_Sub9 class527_sub8_sub9 = Class532.method8930(23, (long) i);
-		class527_sub8_sub9.method18187(-2130091046);
-		class527_sub8_sub9.anInt11676 = (bool ? 1 : 0) * -281159195;
+	public void method8307() {
+		while (aClass536_8826 != aClass536_8826.aClass536_7132)
+			aClass536_8826.aClass536_7132.method6484(-1365232204);
+	}
+
+	public Class536 method8308(int i) {
+		return method8325(null, (byte) 72);
+	}
+
+	public Class536 method8309(int i) {
+		return method8310(null, (byte) 8);
+	}
+
+	Class536 method8310(Class536 class536, byte i) {
+		Class536 class536_2_;
+		if (null == class536)
+			class536_2_ = aClass536_8826.aClass536_7134;
+		else
+			class536_2_ = class536;
+		if (aClass536_8826 == class536_2_) {
+			aClass536_8825 = null;
+			return null;
+		}
+		aClass536_8825 = class536_2_.aClass536_7134;
+		return class536_2_;
+	}
+
+	public Class536 method8311(int i) {
+		Class536 class536 = aClass536_8825;
+		if (class536 == aClass536_8826) {
+			aClass536_8825 = null;
+			return null;
+		}
+		aClass536_8825 = class536.aClass536_7132;
+		return class536;
+	}
+
+	public Class536 method8312(int i) {
+		Class536 class536 = aClass536_8825;
+		if (class536 == aClass536_8826) {
+			aClass536_8825 = null;
+			return null;
+		}
+		aClass536_8825 = class536.aClass536_7134;
+		return class536;
+	}
+
+	public boolean method8313(int i) {
+		return aClass536_8826.aClass536_7132 == aClass536_8826;
+	}
+
+	Class536[] method8314(int i) {
+		Class536[] class536s = new Class536[method8339((byte) 28)];
+		int i_3_ = 0;
+		for (Class536 class536 = aClass536_8826.aClass536_7132; class536 != aClass536_8826; class536 = class536.aClass536_7132)
+			class536s[i_3_++] = class536;
+		return class536s;
+	}
+
+	public Iterator method8315() {
+		return new Class693(this);
+	}
+
+	public int size() {
+		return method8339((byte) 41);
+	}
+
+	public boolean isEmpty() {
+		return method8313(-1923692076);
+	}
+
+	public boolean method8316(Object object) {
+		return super.equals(object);
+	}
+
+	public Object[] toArray() {
+		return method8314(40549330);
+	}
+
+	public Object[] toArray(Object[] objects) {
+		int i = 0;
+		for (Class536 class536 = aClass536_8826.aClass536_7132; class536 != aClass536_8826; class536 = class536.aClass536_7132)
+			objects[i++] = class536;
+		return objects;
+	}
+
+	boolean method8317(Class536 class536, byte i) {
+		method8335(class536, -720115579);
+		return true;
+	}
+
+	public int method8318() {
+		int i = 0;
+		for (Class536 class536 = aClass536_8826.aClass536_7132; aClass536_8826 != class536; class536 = class536.aClass536_7132)
+			i++;
+		return i;
+	}
+
+	public boolean addAll(Collection collection) {
+		throw new RuntimeException();
+	}
+
+	public boolean retainAll(Collection collection) {
+		throw new RuntimeException();
+	}
+
+	public void clear() {
+		method8304(454036827);
+	}
+
+	public boolean add(Object object) {
+		return method8317((Class536) object, (byte) 1);
+	}
+
+	public boolean equals(Object object) {
+		return super.equals(object);
+	}
+
+	public int hashCode() {
+		return super.hashCode();
+	}
+
+	public boolean method8319(Object object) {
+		return super.equals(object);
+	}
+
+	public int method8320() {
+		return method8339((byte) 13);
+	}
+
+	public int method8321() {
+		return method8339((byte) 114);
+	}
+
+	public boolean method8322(Object object) {
+		throw new RuntimeException();
+	}
+
+	public boolean method8323(Object object) {
+		throw new RuntimeException();
+	}
+
+	public boolean method8324(Object object) {
+		throw new RuntimeException();
+	}
+
+	Class536 method8325(Class536 class536, byte i) {
+		Class536 class536_4_;
+		if (class536 == null)
+			class536_4_ = aClass536_8826.aClass536_7132;
+		else
+			class536_4_ = class536;
+		if (aClass536_8826 == class536_4_) {
+			aClass536_8825 = null;
+			return null;
+		}
+		aClass536_8825 = class536_4_.aClass536_7132;
+		return class536_4_;
+	}
+
+	public Object[] method8326() {
+		return method8314(1877576102);
+	}
+
+	public Object[] method8327() {
+		return method8314(494786934);
+	}
+
+	public boolean method8328(Object object) {
+		throw new RuntimeException();
+	}
+
+	public Iterator method8329() {
+		return new Class693(this);
+	}
+
+	public Iterator method8330() {
+		return new Class693(this);
+	}
+
+	public int method8331() {
+		return super.hashCode();
+	}
+
+	public int method8332() {
+		return super.hashCode();
+	}
+
+	public boolean contains(Object object) {
+		throw new RuntimeException();
+	}
+
+	public Object[] method8333() {
+		return method8314(1717543536);
+	}
+
+	public Iterator iterator() {
+		return new Class693(this);
+	}
+
+	public int method8334() {
+		int i = 0;
+		for (Class536 class536 = aClass536_8826.aClass536_7132; aClass536_8826 != class536; class536 = class536.aClass536_7132)
+			i++;
+		return i;
+	}
+
+	public boolean removeAll(Collection collection) {
+		throw new RuntimeException();
+	}
+
+	public Class708() {
+		aClass536_8826.aClass536_7132 = aClass536_8826;
+		aClass536_8826.aClass536_7134 = aClass536_8826;
+	}
+
+	public void method8335(Class536 class536, int i) {
+		if (class536.aClass536_7134 != null)
+			class536.method6484(1856977283);
+		class536.aClass536_7134 = aClass536_8826.aClass536_7134;
+		class536.aClass536_7132 = aClass536_8826;
+		class536.aClass536_7134.aClass536_7132 = class536;
+		class536.aClass536_7132.aClass536_7134 = class536;
+	}
+
+	public boolean method8336() {
+		return aClass536_8826.aClass536_7132 == aClass536_8826;
+	}
+
+	public void method8337(Class708 class708_5_, int i) {
+		if (aClass536_8826 != aClass536_8826.aClass536_7132)
+			method8306(class708_5_, aClass536_8826.aClass536_7132, (byte) 0);
+	}
+
+	public boolean method8338() {
+		return method8313(74718945);
+	}
+
+	public int method8339(byte i) {
+		int i_6_ = 0;
+		for (Class536 class536 = aClass536_8826.aClass536_7132; aClass536_8826 != class536; class536 = class536.aClass536_7132)
+			i_6_++;
+		return i_6_;
+	}
+
+	public boolean containsAll(Collection collection) {
+		throw new RuntimeException();
+	}
+
+	public void method8340() {
+		method8304(454036827);
+	}
+
+	static final void method8341(Class668 class668, int i) {
+		Class251 class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2711 * -1484799213;
 	}
 }

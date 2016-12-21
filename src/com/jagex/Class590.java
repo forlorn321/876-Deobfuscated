@@ -3,56 +3,37 @@
  */
 package com.jagex;
 
-public class Class590 implements Interface76 {
-	static Class590 aClass590_7789;
-	static Class590 aClass590_7790;
-	static Class590 aClass590_7791 = new Class590(0);
-	int anInt7792;
-	public static Class62_Sub1 aClass62_Sub1_7793;
+public class Class590 {
+	short[] aShortArray7785;
+	int[] anIntArray7786;
+	short[] aShortArray7787;
+	long aLong7788;
+	public static Class461 aClass461_7789;
+	static Class697[] aClass697Array7790;
+	public static Class147_Sub1 aClass147_Sub1_7791;
 
-	public int method87() {
-		return anInt7792 * -1583083105;
+	public Class590(long l, int[] is, short[] is_0_, short[] is_1_) {
+		aLong7788 = 2519431825178180043L * l;
+		anIntArray7786 = is;
+		aShortArray7787 = is_0_;
+		aShortArray7785 = is_1_;
 	}
 
-	Class590(int i) {
-		anInt7792 = i * 1644874335;
+	public static boolean method7099(int i, int i_2_) {
+		return (i >= -723459231 * Class606.aClass606_7886.anInt7878 && i <= -723459231 * Class606.aClass606_7891.anInt7878);
 	}
 
-	public int method91() {
-		return anInt7792 * -1583083105;
+	static final void method7100(Class668 class668, int i) {
+		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class683 class683;
+		if (class668.aBool8548)
+			class683 = class668.aClass683_8562;
+		else
+			class683 = class668.aClass683_8549;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class683.method8096(i_3_, -1, (short) -4670) ? 1 : 0;
 	}
 
-	public int method42() {
-		return anInt7792 * -1583083105;
-	}
-
-	static {
-		aClass590_7789 = new Class590(1);
-		aClass590_7790 = new Class590(2);
-	}
-
-	public static Class590[] method9850() {
-		return (new Class590[] { aClass590_7790, aClass590_7791, aClass590_7789 });
-	}
-
-	public static Class590[] method9851() {
-		return (new Class590[] { aClass590_7790, aClass590_7791, aClass590_7789 });
-	}
-
-	public static Class590[] method9852() {
-		return (new Class590[] { aClass590_7790, aClass590_7791, aClass590_7789 });
-	}
-
-	public static final int method9853(int i, int i_0_, int i_1_, byte i_2_) {
-		if (client.aClass509_11072.method8314(-1383830549) == null)
-			return 0;
-		int i_3_ = i >> 9;
-		int i_4_ = i_0_ >> 9;
-		if (i_3_ < 0 || i_4_ < 0 || i_3_ > client.aClass509_11072.method8284((byte) 80) - 1 || i_4_ > client.aClass509_11072.method8285(887635977) - 1)
-			return 0;
-		int i_5_ = i_1_;
-		if (i_5_ < 3 && ((client.aClass509_11072.method8359(-113262132).aByteArrayArrayArray5354[1][i_3_][i_4_]) & 0x2) != 0)
-			i_5_++;
-		return client.aClass509_11072.method8314(790984364).aClass161Array7434[i_5_].method2593(i, i_0_, -1151432033);
+	static final void method7101(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class156.method1883(-323771008);
 	}
 }

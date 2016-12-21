@@ -3,76 +3,130 @@
  */
 package com.jagex;
 
-final class Class188 implements Interface18 {
-	static int anInt2121;
+public class Class188 {
+	static Class188 aClass188_2127;
+	static Class188 aClass188_2128;
+	public static Class188 aClass188_2129;
+	static Class188 aClass188_2130;
+	static Class188 aClass188_2131;
+	static Class188 aClass188_2132;
+	public static Class188 aClass188_2133 = new Class188(2);
+	static Class188 aClass188_2134;
+	static Class188 aClass188_2135;
+	static Class188 aClass188_2136;
+	int anInt2137;
 
-	public int method101(Class160 class160, int i) {
-		Node_Sub6 class527_sub7 = ((Node_Sub6) Class209.aClass14_2236.method709((long) (class160.anInt1746 * 727971013)));
-		if (class527_sub7 == null)
-			return Class671.aClass97_8584.method101(class160, 1096407173);
-		return -78845949 * class527_sub7.anInt10398;
+	public int method2788(int i) {
+		return 0x2000000 | -509376079 * anInt2137;
 	}
 
-	public int method100(Class333 class333, short i) {
-		Node_Sub6 class527_sub7 = ((Node_Sub6) Class209.aClass14_2236.method709(0x100000000L | (long) (class333.anInt3621 * -1249512957)));
-		if (class527_sub7 == null)
-			return Class671.aClass97_8584.method100(class333, (short) -9538);
-		return -78845949 * class527_sub7.anInt10398;
+	Class188(int i) {
+		anInt2137 = 388308817 * i;
 	}
 
-	public int method102(Class333 class333) {
-		Node_Sub6 class527_sub7 = ((Node_Sub6) Class209.aClass14_2236.method709(0x100000000L | (long) (class333.anInt3621 * -1249512957)));
-		if (class527_sub7 == null)
-			return Class671.aClass97_8584.method100(class333, (short) -29307);
-		return -78845949 * class527_sub7.anInt10398;
+	static {
+		aClass188_2128 = new Class188(8);
+		aClass188_2129 = new Class188(9);
+		aClass188_2130 = new Class188(5);
+		aClass188_2136 = new Class188(0);
+		aClass188_2132 = new Class188(6);
+		aClass188_2131 = new Class188(7);
+		aClass188_2134 = new Class188(4);
+		aClass188_2135 = new Class188(1);
+		aClass188_2127 = new Class188(3);
 	}
 
-	public int method103(Class160 class160) {
-		Node_Sub6 class527_sub7 = ((Node_Sub6) Class209.aClass14_2236.method709((long) (class160.anInt1746 * 727971013)));
-		if (class527_sub7 == null)
-			return Class671.aClass97_8584.method101(class160, 1096407173);
-		return -78845949 * class527_sub7.anInt10398;
+	public int method2789() {
+		return 0x2000000 | -509376079 * anInt2137;
 	}
 
-	public int method104(Class160 class160) {
-		Node_Sub6 class527_sub7 = ((Node_Sub6) Class209.aClass14_2236.method709((long) (class160.anInt1746 * 727971013)));
-		if (class527_sub7 == null)
-			return Class671.aClass97_8584.method101(class160, 1096407173);
-		return -78845949 * class527_sub7.anInt10398;
+	public int method2790() {
+		return 0x2000000 | -509376079 * anInt2137;
 	}
 
-	public static void method3663(int i, int i_0_, int i_1_, boolean bool, byte i_2_) {
-		client.aLong11106 = 0L;
-		int i_3_ = Class81.method1574((byte) 3);
-		if (i == 3 || i_3_ == 3)
-			bool = true;
-		if (!Class402.aClass180_4150.method3088())
-			bool = true;
-		Class190.method3676(i_3_, i, i_0_, i_1_, bool, (short) 11319);
+	static void method2791(Class668 class668, int i) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 29)).anIntArrayArray3037[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]][1]);
+		class668.anInt8542 -= -1411037171;
 	}
 
-	public static Class269 method3664(int i, byte i_4_) {
-		if (i == -12299089 * Class269.aClass269_3118.anInt3117)
-			return Class269.aClass269_3118;
-		if (Class269.aClass269_3115.anInt3117 * -12299089 == i)
-			return Class269.aClass269_3115;
-		if (-12299089 * Class269.aClass269_3116.anInt3117 == i)
-			return Class269.aClass269_3116;
-		if (Class269.aClass269_3114.anInt3117 * -12299089 == i)
-			return Class269.aClass269_3114;
-		if (-12299089 * Class269.aClass269_3120.anInt3117 == i)
-			return Class269.aClass269_3120;
-		if (Class269.aClass269_3119.anInt3117 * -12299089 == i)
-			return Class269.aClass269_3119;
-		return null;
+	static final void method2792(Class668 class668, int i) {
+		Class303.method4105(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -1, -1, false, (byte) -98);
 	}
 
-	public static void method3665(Class527 class527, Class527 class527_5_, short i) {
-		if (null != class527.aClass527_7107)
-			class527.method8735(-1889161967);
-		class527.aClass527_7107 = class527_5_.aClass527_7107;
-		class527.aClass527_7105 = class527_5_;
-		class527.aClass527_7107.aClass527_7105 = class527;
-		class527.aClass527_7105.aClass527_7107 = class527;
+	static final void method2793(Class668 class668, int i) {
+		if (Class683.aClass301_Sub1_8651.method4054(1808465360) != Class290.aClass290_3220)
+			throw new RuntimeException();
+		Class333_Sub2 class333_sub2 = ((Class333_Sub2) Class683.aClass301_Sub1_8651.method4051(826143221));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (int) ((double) class333_sub2.method9175(16711680) * 2607.5945876176133) & 0x3fff;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (int) ((double) class333_sub2.method9176(-2043580913) * 2607.5945876176133) & 0x3fff;
+	}
+
+	static final void method2794(Class668 class668, int i) {
+		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub26_10758), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		Class27.method763(1951345413);
+	}
+
+	static final void method2795(Class668 class668, int i) {
+		IncomingPacket.method5070((byte) -5);
+		Class608.method7261((byte) 0);
+		client.aClass515_11066.method6319(-1855912181);
+		Class27.method763(2115697928);
+		client.aBool11015 = false;
+	}
+
+	static boolean method2796(boolean bool, boolean bool_0_, String string, String string_1_, long l) {
+		Class61.aBool647 = bool;
+		if (!bool_0_)
+			Class61.anInt648 = -1375018347;
+		Class61.aBool646 = bool_0_;
+		Class61.aString679 = string;
+		Class61.aString696 = string_1_;
+		Class61.aLong649 = -4822916419102841261L * l;
+		if (!Class61.aBool646 && (Class61.aString679.equals("") || Class61.aString696.equals(""))) {
+			Class537.method6507(3, 1280785913);
+			Class314.method4203(861456321);
+			return false;
+		}
+		if (107 != Class76_Sub1.anInt10981 * 1382700277) {
+			Class61.anInt691 = 0;
+			Class61.anInt693 = -258201153;
+			Class61.anInt651 = 541470089;
+		}
+		Class586.aClass106_7710.aBool1266 = false;
+		Class537.method6507(-3, 1280785913);
+		Class61.anInt680 = -2006177950;
+		Class61.anInt683 = 0;
+		Class61.anInt668 = 0;
+		return true;
+	}
+
+	static final void method2797(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_2_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_3_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		Class251 class251 = Class527.method6429(i_2_, i_3_, (byte) 3);
+		Class270.method3717(112258221);
+		Class536_Sub14 class536_sub14 = client.method10389(class251);
+		Class501.method6033(class251, class536_sub14.method9474((byte) 3), 501091713 * class536_sub14.anInt10478, 421252950);
+	}
+
+	static final void method2798(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.aBool2578 ? 1 : 0;
+	}
+
+	static final void method2799(Class251 class251, Class668 class668, int i) {
+		class668.anInt8542 -= 61855783;
+		int i_4_ = class668.anIntArray8541[class668.anInt8542 * 1867269829] - 1;
+		int i_5_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		int i_6_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 2];
+		if (i_4_ < 0 || i_4_ > 9)
+			throw new RuntimeException();
+		Class462.method5619(class251, i_4_, i_5_, i_6_, class668, 1088559043);
+	}
+
+	static final void method2800(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass536_Sub15_8553.aByte10487;
 	}
 }

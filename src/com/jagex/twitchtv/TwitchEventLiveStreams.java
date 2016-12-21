@@ -3,7 +3,7 @@
  */
 package com.jagex.twitchtv;
 
-import com.jagex.Class578;
+import com.jagex.Class572;
 
 public class TwitchEventLiveStreams extends TwitchEvent {
 	public int streamCount;
@@ -35,31 +35,23 @@ public class TwitchEventLiveStreams extends TwitchEvent {
 		}
 	}
 
-	public Class578 method6561() {
+	public Class572 method4952() {
 		return null;
 	}
 
-	public void method6560(int[] is, long[] ls, Object[] objects) {
+	public void method4951(int[] is, long[] ls, Object[] objects) {
 		/* empty */
 	}
 
-	public Class578 method6562() {
+	public Class572 method4953() {
 		return null;
 	}
 
-	public Class578 method6563() {
+	public Class572 method4954() {
 		return null;
 	}
 
-	public Class578 method6564() {
-		return null;
-	}
-
-	public Class578 method6565() {
-		return null;
-	}
-
-	public void method6566(int[] is, long[] ls, Object[] objects) {
+	public void method4955(int[] is, long[] ls, Object[] objects) {
 		/* empty */
 	}
 }

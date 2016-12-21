@@ -3,92 +3,61 @@
  */
 package com.jagex;
 
-public class Class614 implements Interface76 {
-	static Class614 aClass614_8033;
-	public static Class614 aClass614_8034 = new Class614(0);
-	static Class614 aClass614_8035;
-	int anInt8036;
-
-	public boolean method10171() {
-		return aClass614_8033 == this;
-	}
-
-	Class614(int i) {
-		anInt8036 = 1951702119 * i;
-	}
-
-	public int method87() {
-		return anInt8036 * 1547878231;
-	}
-
-	public boolean method10172(int i) {
-		return aClass614_8033 == this;
-	}
-
-	public boolean method10173(byte i) {
-		return this != aClass614_8034;
-	}
-
-	public static Class614[] method10174(int i) {
-		return (new Class614[] { aClass614_8033, aClass614_8035, aClass614_8034 });
-	}
-
-	public int method42() {
-		return anInt8036 * 1547878231;
-	}
-
-	static int method10175(Class527_Sub38_Sub2 class527_sub38_sub2, byte i) {
-		int i_0_ = class527_sub38_sub2.method18469(2, -1628767414);
-		int i_1_;
-		if (i_0_ == 0)
-			i_1_ = 0;
-		else if (i_0_ == 1)
-			i_1_ = class527_sub38_sub2.method18469(5, 680175607);
-		else if (2 == i_0_)
-			i_1_ = class527_sub38_sub2.method18469(8, -161520353);
-		else
-			i_1_ = class527_sub38_sub2.method18469(11, -806191001);
-		return i_1_;
-	}
-
-	public static Class614[] method10176() {
-		return (new Class614[] { aClass614_8033, aClass614_8035, aClass614_8034 });
-	}
-
-	public static Class614[] method10177() {
-		return (new Class614[] { aClass614_8033, aClass614_8035, aClass614_8034 });
-	}
-
-	public static Class614[] method10178() {
-		return (new Class614[] { aClass614_8033, aClass614_8035, aClass614_8034 });
-	}
-
-	public boolean method10179() {
-		return aClass614_8033 == this;
-	}
-
-	public boolean method10180() {
-		return aClass614_8033 == this;
-	}
+public class Class614 {
+	static Class614 aClass614_8015;
+	public static Class614 aClass614_8016;
+	public int anInt8017;
+	static Class614 aClass614_8018;
+	public static Class614 aClass614_8019;
+	public int anInt8020;
+	static Class614 aClass614_8021;
+	static Class614 aClass614_8022;
+	public static Class614 aClass614_8023;
+	public static Class614 aClass614_8024;
+	public static Class614 aClass614_8025;
+	static Class614 aClass614_8026;
+	static Class614 aClass614_8027;
+	static Class614 aClass614_8028;
+	static Class614 aClass614_8029;
+	public int anInt8030;
+	public int anInt8031;
+	public static Class614 aClass614_8032 = new Class614(0, 2, 2, 1);
 
 	static {
-		aClass614_8033 = new Class614(1);
-		aClass614_8035 = new Class614(2);
+		aClass614_8025 = new Class614(1, 2, 2, 0);
+		aClass614_8015 = new Class614(2, 4, 4, 0);
+		aClass614_8018 = new Class614(4, 1, 1, 1);
+		aClass614_8019 = new Class614(6, 0, 4, 2);
+		aClass614_8016 = new Class614(7, 0, 1, 1);
+		aClass614_8021 = new Class614(8, 0, 4, 1);
+		aClass614_8022 = new Class614(9, 0, 4, 1);
+		aClass614_8023 = new Class614(10, 2, 2, 0);
+		aClass614_8024 = new Class614(11, 0, 1, 2);
+		aClass614_8029 = new Class614(12, 0, 1, 0);
+		aClass614_8026 = new Class614(13, 0, 1, 0);
+		aClass614_8027 = new Class614(14, 0, 4, 1);
+		aClass614_8028 = new Class614(15, 0, 1, 0);
 	}
 
-	public int method91() {
-		return anInt8036 * 1547878231;
+	Class614(int i, int i_0_, int i_1_, int i_2_) {
+		anInt8020 = 683977753 * i;
+		anInt8030 = i_0_ * -1319725187;
+		anInt8017 = i_1_ * 971829527;
+		anInt8031 = 101962797 * i_2_;
 	}
 
-	public boolean method10181() {
-		return this != aClass614_8034;
+	static void method7321(Class668 class668, int i) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -70)).aString3027;
 	}
 
-	public boolean method10182() {
-		return this != aClass614_8034;
+	static final void method7322(Class668 class668, int i) {
+		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_3_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
+		Class536_Sub18_Sub1.method10479(class251, class234, class668, (byte) -69);
 	}
 
-	static final void method10183(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 0;
+	static long method7323(int i) {
+		return Class505.aClass504_6883.method6062((byte) -114);
 	}
 }

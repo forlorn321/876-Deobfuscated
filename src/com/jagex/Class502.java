@@ -4,141 +4,71 @@
 package com.jagex;
 
 import java.io.File;
-import java.io.RandomAccessFile;
+import java.io.IOException;
 import java.util.Hashtable;
 
 public class Class502 {
-	static Hashtable aHashtable6871;
-	static File aFile6872;
-	static boolean aBool6873 = false;
+	static Hashtable aHashtable6849;
+	static File aFile6850;
+	static boolean aBool6851 = false;
 
-	public static String method8194() {
-		return aFile6872.getAbsolutePath();
-	}
-
-	public static File method8195(String string) {
-		if (!aBool6873)
-			throw new RuntimeException("");
-		File file = (File) aHashtable6871.get(string);
-		if (null != file)
-			return file;
-		File file_0_ = new File(aFile6872, string);
-		RandomAccessFile randomaccessfile = null;
-		File file_1_;
-		try {
-			File file_2_ = new File(file_0_.getParent());
-			if (!file_2_.exists())
-				throw new RuntimeException("");
-			randomaccessfile = new RandomAccessFile(file_0_, "rw");
-			int i = randomaccessfile.read();
-			randomaccessfile.seek(0L);
-			randomaccessfile.write(i);
-			randomaccessfile.seek(0L);
-			randomaccessfile.close();
-			aHashtable6871.put(string, file_0_);
-			file_1_ = file_0_;
-		} catch (Exception exception) {
-			try {
-				if (null != randomaccessfile) {
-					randomaccessfile.close();
-					Object object = null;
-				}
-			} catch (Exception exception_3_) {
-				/* empty */
-			}
-			throw new RuntimeException();
-		}
-		return file_1_;
-	}
-
-	static void method8196(File file) {
-		aFile6872 = file;
-		if (!aFile6872.exists())
-			throw new RuntimeException("");
-		aBool6873 = true;
-	}
-
-	static void method8197(File file) {
-		aFile6872 = file;
-		if (!aFile6872.exists())
-			throw new RuntimeException("");
-		aBool6873 = true;
-	}
-
-	public static String method8198() {
-		return aFile6872.getAbsolutePath();
-	}
-
-	static void method8199(File file) {
-		aFile6872 = file;
-		if (!aFile6872.exists())
-			throw new RuntimeException("");
-		aBool6873 = true;
-	}
-
-	static {
-		aHashtable6871 = new Hashtable(16);
+	public static String method6036() {
+		return aFile6850.getAbsolutePath();
 	}
 
 	Class502() throws Throwable {
 		throw new Error();
 	}
 
-	static void method8200(File file) {
-		aFile6872 = file;
-		if (!aFile6872.exists())
-			throw new RuntimeException("");
-		aBool6873 = true;
+	public static String method6037() {
+		return aFile6850.getAbsolutePath();
 	}
 
-	public static File method8201(String string) {
-		if (!aBool6873)
-			throw new RuntimeException("");
-		File file = (File) aHashtable6871.get(string);
-		if (null != file)
-			return file;
-		File file_4_ = new File(aFile6872, string);
-		RandomAccessFile randomaccessfile = null;
-		File file_5_;
+	static {
+		aHashtable6849 = new Hashtable(16);
+	}
+
+	static final void method6038(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class309.method4152(class251, class234, class668, 125211835);
+	}
+
+	static final void method6039(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1485705955) == 1 ? 1 : 0;
+	}
+
+	public static void method6040(int i) {
+		if (Class575.aBool7662) {
+			int i_0_ = Class536_Sub42.aTwitchTV10811.ShutdownTTV();
+			if (i_0_ == 0) {
+				Class536_Sub42.aTwitchTV10811 = null;
+				Class575.aBool7662 = false;
+			}
+		}
+	}
+
+	public static void method6041(int i, byte i_1_) {
+		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(23, (long) i);
+		class536_sub18_sub5.method10669(-718801276);
+	}
+
+	public static void method6042(RSByteBuffer class536_sub33, byte i) {
+		byte[] is = new byte[24];
 		try {
-			File file_6_ = new File(file_4_.getParent());
-			if (!file_6_.exists())
-				throw new RuntimeException("");
-			randomaccessfile = new RandomAccessFile(file_4_, "rw");
-			int i = randomaccessfile.read();
-			randomaccessfile.seek(0L);
-			randomaccessfile.write(i);
-			randomaccessfile.seek(0L);
-			randomaccessfile.close();
-			aHashtable6871.put(string, file_4_);
-			file_5_ = file_4_;
-		} catch (Exception exception) {
-			try {
-				if (null != randomaccessfile) {
-					randomaccessfile.close();
-					Object object = null;
-				}
-			} catch (Exception exception_7_) {
+			Class505.aClass18_6878.method673(0L);
+			Class505.aClass18_6878.method685(is, (byte) 78);
+			int i_2_;
+			for (i_2_ = 0; i_2_ < 24 && 0 == is[i_2_]; i_2_++) {
 				/* empty */
 			}
-			throw new RuntimeException();
+			if (i_2_ >= 24)
+				throw new IOException();
+		} catch (Exception exception) {
+			for (int i_3_ = 0; i_3_ < 24; i_3_++)
+				is[i_3_] = (byte) -1;
 		}
-		return file_5_;
-	}
-
-	static final void method8202(Class665 class665, int i) {
-		if (!Class208_Sub10.aClass296_Sub1_9923.method5378((byte) -112).method5627((byte) 118))
-			throw new RuntimeException();
-		Class696_Sub4 class696_sub4 = ((Class696_Sub4) Class208_Sub10.aClass296_Sub1_9923.method5472(1207787065));
-		class696_sub4.method17343(Class505.aClass437_6913, -1, 0.0F, (byte) 5);
-		client.aBool11119 = true;
-	}
-
-	public static final void method8203(byte i) {
-		client.aBool11217 = true;
-	}
-
-	static final void method8204(Class665 class665, int i) {
-		class665.anInt8526 -= 102380841;
+		class536_sub33.method9696(is, 0, 24, (byte) 58);
 	}
 }

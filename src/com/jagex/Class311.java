@@ -3,107 +3,96 @@
  */
 package com.jagex;
 
-import java.io.IOException;
+public class Class311 implements Interface13, Interface7 {
+	public int anInt3475;
+	public int anInt3476 = -1289603752;
+	public int anInt3477;
+	public int anInt3478;
+	public int anInt3479;
+	public boolean aBool3480;
+	public int anInt3481 = -1835927157;
+	public int anInt3482;
+	public int anInt3483;
+	public int anInt3484;
+	public int anInt3485;
 
-public class Class311 {
-	short[] aShortArray3491;
-	int anInt3492;
+	Class311() {
+		/* empty */
+	}
 
-	public int method5637(Class325 class325, byte i) throws IOException {
-		int i_0_ = 1;
-		int i_1_ = 0;
-		for (int i_2_ = 0; i_2_ < -1185144313 * anInt3492; i_2_++) {
-			int i_3_ = class325.method5735(aShortArray3491, i_0_, 218415778);
-			i_0_ <<= 1;
-			i_0_ += i_3_;
-			i_1_ |= i_3_ << i_2_;
+	public void method56(int i) {
+		/* empty */
+	}
+
+	void method4179(RSByteBuffer class536_sub33, int i, int i_0_) {
+		if (1 == i)
+			anInt3476 = class536_sub33.readUnsignedShort((short) -3925) * -1771813205;
+		else if (2 == i)
+			aBool3480 = true;
+		else if (3 == i) {
+			anInt3477 = class536_sub33.readShort((byte) -118) * 607092271;
+			anInt3478 = class536_sub33.readShort((byte) -89) * 306678829;
+			anInt3479 = class536_sub33.readShort((byte) -5) * -875688417;
+		} else if (i == 4)
+			anInt3482 = class536_sub33.readUnsignedByte(1224726754) * -2107798657;
+		else if (i == 5)
+			anInt3483 = class536_sub33.method9720((byte) 1) * 718669759;
+		else if (i == 6)
+			anInt3481 = class536_sub33.method9742(1308808177) * -496105867;
+		else if (7 == i) {
+			anInt3475 = class536_sub33.readShort((byte) -88) * -1777370783;
+			anInt3484 = class536_sub33.readShort((byte) -65) * -580593381;
+			anInt3485 = class536_sub33.readShort((byte) -18) * -1263664647;
 		}
-		return i_1_;
 	}
 
-	public void method5638(byte i) {
-		Class225.method4192(aShortArray3491, -1081934689);
-	}
-
-	public int method5639(Class325 class325, byte i) throws IOException {
-		int i_4_ = 1;
-		for (int i_5_ = anInt3492 * -1185144313; 0 != i_5_; i_5_--)
-			i_4_ = (i_4_ << 1) + class325.method5735(aShortArray3491, i_4_, 1916765137);
-		return i_4_ - (1 << -1185144313 * anInt3492);
-	}
-
-	public void method5640() {
-		Class225.method4192(aShortArray3491, 54855634);
-	}
-
-	public Class311(int i) {
-		anInt3492 = -636507209 * i;
-		aShortArray3491 = new short[1 << i];
-	}
-
-	public void method5641() {
-		Class225.method4192(aShortArray3491, -238466478);
-	}
-
-	public void method5642() {
-		Class225.method4192(aShortArray3491, 1931540783);
-	}
-
-	public int method5643(Class325 class325) throws IOException {
-		int i = 1;
-		for (int i_6_ = anInt3492 * -1185144313; 0 != i_6_; i_6_--)
-			i = (i << 1) + class325.method5735(aShortArray3491, i, 157324593);
-		return i - (1 << -1185144313 * anInt3492);
-	}
-
-	public int method5644(Class325 class325) throws IOException {
-		int i = 1;
-		int i_7_ = 0;
-		for (int i_8_ = 0; i_8_ < -1185144313 * anInt3492; i_8_++) {
-			int i_9_ = class325.method5735(aShortArray3491, i, 707527538);
-			i <<= 1;
-			i += i_9_;
-			i_7_ |= i_9_ << i_8_;
+	public void method74(RSByteBuffer class536_sub33, int i) {
+		for (;;) {
+			int i_1_ = class536_sub33.readUnsignedByte(1413905674);
+			if (i_1_ == 0)
+				break;
+			method4179(class536_sub33, i_1_, 1664182739);
 		}
-		return i_7_;
 	}
 
-	public static int method5645(short[] is, int i, Class325 class325, int i_10_) throws IOException {
-		int i_11_ = 1;
-		int i_12_ = 0;
-		for (int i_13_ = 0; i_13_ < i_10_; i_13_++) {
-			int i_14_ = class325.method5735(is, i + i_11_, 1895973313);
-			i_11_ <<= 1;
-			i_11_ += i_14_;
-			i_12_ |= i_14_ << i_13_;
+	public void method75(byte i) {
+		/* empty */
+	}
+
+	public void method76(RSByteBuffer class536_sub33) {
+		for (;;) {
+			int i = class536_sub33.readUnsignedByte(-482475344);
+			if (i == 0)
+				break;
+			method4179(class536_sub33, i, 936918943);
 		}
-		return i_12_;
 	}
 
-	public static int method5646(short[] is, int i, Class325 class325, int i_15_) throws IOException {
-		int i_16_ = 1;
-		int i_17_ = 0;
-		for (int i_18_ = 0; i_18_ < i_15_; i_18_++) {
-			int i_19_ = class325.method5735(is, i + i_16_, 905283535);
-			i_16_ <<= 1;
-			i_16_ += i_19_;
-			i_17_ |= i_19_ << i_18_;
-		}
-		return i_17_;
+	public void method59(int i, int i_2_) {
+		/* empty */
 	}
 
-	static final void method5647(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class621.method10230(class243, class240, class665, (byte) 80);
+	public void method57(int i) {
+		/* empty */
 	}
 
-	static final void method5648(Class243 class243, Class240 class240, Class665 class665, int i) {
-		class243.anInt2502 = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]) * -656986053;
+	public void method77() {
+		/* empty */
 	}
 
-	static final void method5649(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 0;
+	public void method58(int i) {
+		/* empty */
+	}
+
+	static final void method4180(Class251 class251, Class234 class234, Class668 class668, byte i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1831641204) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2678 = Class33.method796(string, class668, (short) 8049);
+		class251.aBool2666 = true;
+	}
+
+	static final void method4181(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class329.aClass550_3601.method6657(-1232839934);
 	}
 }

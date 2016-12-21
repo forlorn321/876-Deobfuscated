@@ -10,11 +10,17 @@ public interface Buffer {
 
 	public void method3(byte[] is, int i, int i_0_, int i_1_);
 
-	public long method4();
+	public void method4(byte[] is, int i, int i_2_, int i_3_);
 
-	public void method5(byte[] is, int i, int i_2_, int i_3_);
+	public long method5();
 
-	public int method6();
+	public long method6();
 
-	public int method7();
+	public long method7();
+
+	public int method8();
+
+	public int method9();
+
+	public int method10();
 }

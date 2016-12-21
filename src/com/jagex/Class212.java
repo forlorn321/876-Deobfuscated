@@ -3,62 +3,68 @@
  */
 package com.jagex;
 
-import java.applet.Applet;
-import java.util.ArrayList;
-import java.util.List;
+public class Class212 implements Interface27 {
+	Class213 this$0;
+	int anInt2293;
+	int anInt2294;
 
-public class Class212 {
-	Class226 this$0;
-	List aList2257;
-	public static Applet anApplet2258;
-
-	boolean method3881(Class483 class483, byte i) {
-		return aList2257.contains(class483);
+	public void method153(Class226 class226) {
+		if (anInt2294 * -1343194413 != -1) {
+			try {
+				class226.method3228(513272781).method107(((Class324) this$0.anInterface28_2296.method158(-2121815637).method70(-1343194413 * anInt2294, (byte) 72)), 1289296955 * anInt2293, (byte) 25);
+			} catch (Exception_Sub4 exception_sub4) {
+				/* empty */
+			}
+		}
 	}
 
-	void method3882(Class483 class483, short i) {
-		aList2257.add(class483);
+	Class212(Class213 class213, RSByteBuffer class536_sub33) {
+		this$0 = class213;
+		int i = class536_sub33.readUnsignedShort((short) 12672);
+		if (65535 != i) {
+			anInt2294 = -308941477 * i;
+			anInt2293 = class536_sub33.method9709(-643681586) * 738155763;
+		} else {
+			anInt2294 = 308941477;
+			anInt2293 = 0;
+		}
 	}
 
-	void method3883(Class483 class483, int i) {
-		aList2257.remove(class483);
+	public void method154(Class226 class226, short i) {
+		if (anInt2294 * -1343194413 != -1) {
+			try {
+				class226.method3228(-1157383056).method107(((Class324) this$0.anInterface28_2296.method158(-2006166930).method70(-1343194413 * anInt2294, (byte) 15)), 1289296955 * anInt2293, (byte) -12);
+			} catch (Exception_Sub4 exception_sub4) {
+				/* empty */
+			}
+		}
 	}
 
-	List method3884(short i) {
-		return aList2257;
+	public void method155(Class226 class226) {
+		if (anInt2294 * -1343194413 != -1) {
+			try {
+				class226.method3228(1329910302).method107(((Class324) this$0.anInterface28_2296.method158(-2136471968).method70(-1343194413 * anInt2294, (byte) -9)), 1289296955 * anInt2293, (byte) 82);
+			} catch (Exception_Sub4 exception_sub4) {
+				/* empty */
+			}
+		}
 	}
 
-	boolean method3885(Class483 class483) {
-		return aList2257.contains(class483);
+	public static final void method3067(long l) {
+		if (l > 0L) {
+			if (l % 10L == 0L) {
+				Class310.method4177(l - 1L);
+				Class310.method4177(1L);
+			} else
+				Class310.method4177(l);
+		}
 	}
 
-	boolean method3886(Class483 class483) {
-		return aList2257.contains(class483);
+	static final void method3068(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1158267747 * Class75.anInt819;
 	}
 
-	void method3887(Class483 class483) {
-		aList2257.remove(class483);
-	}
-
-	Class212(Class226 class226) {
-		this$0 = class226;
-		aList2257 = new ArrayList();
-	}
-
-	static final void method3888(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, 1201497861);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class314_Sub1.method15662(class243, class240, class665, (byte) -83);
-	}
-
-	static final void method3889(Class665 class665, int i) {
-		if (client.aBool11271)
-			Class411.aClass411_4362.method6580((byte) -111);
-	}
-
-	public static Class604_Sub1 method3890(int i) {
-		Class3.anInt40 = 0;
-		return Class464.method7631(1550833276);
+	static final void method3069(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 57582191 * client.anInt11073;
 	}
 }

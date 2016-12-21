@@ -4,17 +4,22 @@
 package com.jagex;
 
 public class Class113 {
-	int anInt1407;
-	int anInt1408;
-	int anInt1409;
+	byte aByte1395;
+	short[] aShortArray1396;
+	short aShort1397;
+	short[] aShortArray1398;
+	short aShort1399;
+	short[] aShortArray1400;
+	short[] aShortArray1401;
+	short[] aShortArray1402;
+	short[] aShortArray1403;
+	short[] aShortArray1404;
+	short[] aShortArray1405;
+	short[] aShortArray1406;
+	int[] anIntArray1407;
+	int[] anIntArray1408;
 
 	Class113() {
 		/* empty */
-	}
-
-	Class113(Class113 class113_0_) {
-		anInt1407 = class113_0_.anInt1407;
-		anInt1408 = class113_0_.anInt1408;
-		anInt1409 = class113_0_.anInt1409;
 	}
 }

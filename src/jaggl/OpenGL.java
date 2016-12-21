@@ -8,225 +8,225 @@ import java.util.Hashtable;
 
 public class OpenGL {
 	long peer;
-	private Hashtable aHashtable884;
-	private Thread aThread885;
-	private static Hashtable aHashtable886 = new Hashtable();
-	public static final int anInt887 = 5120;
-	public static final int anInt888 = 5121;
-	public static final int anInt889 = 5122;
-	public static final int anInt890 = 5123;
-	public static final int anInt891 = 5124;
-	public static final int anInt892 = 5125;
-	public static final int anInt893 = 5126;
-	public static final int anInt894 = 0;
-	public static final int anInt895 = 1;
-	public static final int anInt896 = 2;
-	public static final int anInt897 = 3;
-	public static final int anInt898 = 4;
-	public static final int anInt899 = 5;
-	public static final int anInt900 = 6;
-	public static final int anInt901 = 7;
-	public static final int anInt902 = 5888;
-	public static final int anInt903 = 5889;
-	public static final int anInt904 = 5890;
-	public static final int anInt905 = 2832;
-	public static final int anInt906 = 2834;
-	public static final int anInt907 = 6913;
-	public static final int anInt908 = 6914;
-	public static final int anInt909 = 1028;
-	public static final int anInt910 = 1029;
-	public static final int anInt911 = 2884;
-	public static final int anInt912 = 4864;
-	public static final int anInt913 = 515;
-	public static final int anInt914 = 516;
-	public static final int anInt915 = 2929;
-	public static final int anInt916 = 6402;
-	public static final int anInt917 = 2896;
-	public static final int anInt918 = 16384;
-	public static final int anInt919 = 16385;
-	public static final int anInt920 = 16386;
-	public static final int anInt921 = 4615;
-	public static final int anInt922 = 4616;
-	public static final int anInt923 = 4617;
-	public static final int anInt924 = 4608;
-	public static final int anInt925 = 4609;
-	public static final int anInt926 = 4611;
-	public static final int anInt927 = 5634;
-	public static final int anInt928 = 2899;
-	public static final int anInt929 = 1032;
-	public static final int anInt930 = 7425;
-	public static final int anInt931 = 2903;
-	public static final int anInt932 = 260;
-	public static final int anInt933 = 3008;
-	public static final int anInt934 = 3042;
-	public static final int anInt935 = 0;
-	public static final int anInt936 = 1;
-	public static final int anInt937 = 768;
-	public static final int anInt938 = 769;
-	public static final int anInt939 = 770;
-	public static final int anInt940 = 771;
-	public static final int anInt941 = 774;
-	public static final int anInt942 = 2912;
-	public static final int anInt943 = 2917;
-	public static final int anInt944 = 2914;
-	public static final int anInt945 = 2918;
-	public static final int anInt946 = 2915;
-	public static final int anInt947 = 2916;
-	public static final int anInt948 = 9729;
-	public static final int anInt949 = 7681;
-	public static final int anInt950 = 6406;
-	public static final int anInt951 = 6409;
-	public static final int anInt952 = 6410;
-	public static final int anInt953 = 6144;
-	public static final int anInt954 = 6407;
-	public static final int anInt955 = 6408;
-	public static final int anInt956 = 2982;
-	public static final int anInt957 = 3156;
-	public static final int anInt958 = 4353;
-	public static final int anInt959 = 3089;
-	public static final int anInt960 = 3348;
-	public static final int anInt961 = 3349;
-	public static final int anInt962 = 3352;
-	public static final int anInt963 = 3353;
-	public static final int anInt964 = 3354;
-	public static final int anInt965 = 3355;
-	public static final int anInt966 = 3317;
-	public static final int anInt967 = 3314;
-	public static final int anInt968 = 8960;
-	public static final int anInt969 = 8704;
-	public static final int anInt970 = 3552;
-	public static final int anInt971 = 3553;
-	public static final int anInt972 = 10242;
-	public static final int anInt973 = 10243;
-	public static final int anInt974 = 10240;
-	public static final int anInt975 = 10241;
-	public static final int anInt976 = 8705;
-	public static final int anInt977 = 3168;
-	public static final int anInt978 = 3169;
-	public static final int anInt979 = 9472;
-	public static final int anInt980 = 9984;
-	public static final int anInt981 = 9987;
-	public static final int anInt982 = 9217;
-	public static final int anInt983 = 9473;
-	public static final int anInt984 = 9216;
-	public static final int anInt985 = 9474;
-	public static final int anInt986 = 8448;
-	public static final int anInt987 = 9728;
-	public static final int anInt988 = 10497;
-	public static final int anInt989 = 8192;
-	public static final int anInt990 = 8193;
-	public static final int anInt991 = 8194;
-	public static final int anInt992 = 8195;
-	public static final int anInt993 = 3170;
-	public static final int anInt994 = 3171;
-	public static final int anInt995 = 7936;
-	public static final int anInt996 = 7937;
-	public static final int anInt997 = 7938;
-	private static final int anInt998 = 7939;
-	public static final int anInt999 = 256;
-	public static final int anInt1000 = 1024;
-	public static final int anInt1001 = 2048;
-	public static final int anInt1002 = 16384;
-	public static final int anInt1003 = 32830;
-	public static final int anInt1004 = 32834;
-	public static final int anInt1005 = 32852;
-	public static final int anInt1006 = 32859;
-	public static final int anInt1007 = 32884;
-	public static final int anInt1008 = 32885;
-	public static final int anInt1009 = 32886;
-	public static final int anInt1010 = 32888;
-	public static final int anInt1011 = 32879;
-	public static final int anInt1012 = 33639;
-	public static final int anInt1013 = 32993;
-	public static final int anInt1014 = 33071;
-	public static final int anInt1015 = 33984;
-	public static final int anInt1016 = 33985;
-	public static final int anInt1017 = 34018;
-	public static final int anInt1018 = 32925;
-	public static final int anInt1019 = 32926;
-	public static final int anInt1020 = 34065;
-	public static final int anInt1021 = 34066;
-	public static final int anInt1022 = 34067;
-	public static final int anInt1023 = 34069;
-	public static final int anInt1024 = 34070;
-	public static final int anInt1025 = 34071;
-	public static final int anInt1026 = 34072;
-	public static final int anInt1027 = 34073;
-	public static final int anInt1028 = 34074;
-	public static final int anInt1029 = 34160;
-	public static final int anInt1030 = 34161;
-	public static final int anInt1031 = 34162;
-	public static final int anInt1032 = 34176;
-	public static final int anInt1033 = 34178;
-	public static final int anInt1034 = 34184;
-	public static final int anInt1035 = 34186;
-	public static final int anInt1036 = 34192;
-	public static final int anInt1037 = 34200;
-	public static final int anInt1038 = 34163;
-	public static final int anInt1039 = 34165;
-	public static final int anInt1040 = 34023;
-	public static final int anInt1041 = 34166;
-	public static final int anInt1042 = 34167;
-	public static final int anInt1043 = 34168;
-	public static final int anInt1044 = 34479;
-	public static final int anInt1045 = 33189;
-	public static final int anInt1046 = 33190;
-	public static final int anInt1047 = 33191;
-	public static final int anInt1048 = 34895;
-	public static final int anInt1049 = 35000;
-	public static final int anInt1050 = 35001;
-	public static final int anInt1051 = 35041;
-	public static final int anInt1052 = 34466;
-	public static final int anInt1053 = 34467;
-	public static final int anInt1054 = 34929;
-	public static final int anInt1055 = 34930;
-	public static final int anInt1056 = 35632;
-	public static final int anInt1057 = 35633;
-	public static final int anInt1058 = 35724;
-	public static final int anInt1059 = 35051;
-	public static final int anInt1060 = 34336;
-	public static final int anInt1061 = 34379;
-	public static final int anInt1062 = 34933;
-	public static final int anInt1063 = 34820;
-	public static final int anInt1064 = 34962;
-	public static final int anInt1065 = 34963;
-	public static final int anInt1066 = 35040;
-	public static final int anInt1067 = 35044;
-	public static final int anInt1068 = 35713;
-	public static final int anInt1069 = 35714;
-	public static final int anInt1070 = 35716;
-	public static final int anInt1071 = 35633;
-	public static final int anInt1072 = 35632;
-	public static final int anInt1073 = 34037;
-	public static final int anInt1074 = 5131;
-	public static final int anInt1075 = 34836;
-	public static final int anInt1076 = 34837;
-	public static final int anInt1077 = 34838;
-	public static final int anInt1078 = 34840;
-	public static final int anInt1079 = 34841;
-	public static final int anInt1080 = 34842;
-	public static final int anInt1081 = 34843;
-	public static final int anInt1082 = 34844;
-	public static final int anInt1083 = 34846;
-	public static final int anInt1084 = 34847;
-	public static final int anInt1085 = 33777;
-	public static final int anInt1086 = 33779;
-	public static final int anInt1087 = 36053;
-	public static final int anInt1088 = 36064;
-	public static final int anInt1089 = 36096;
-	public static final int anInt1090 = 36160;
-	public static final int anInt1091 = 36161;
-	public static final int anInt1092 = 36008;
-	public static final int anInt1093 = 36219;
-	public static final int anInt1094 = 37143;
-	public static final int anInt1095 = 37147;
-	public static final int anInt1096 = 37149;
+	private Hashtable aHashtable891;
+	private Thread aThread892;
+	private static Hashtable aHashtable893 = new Hashtable();
+	public static final int anInt894 = 5120;
+	public static final int anInt895 = 5121;
+	public static final int anInt896 = 5122;
+	public static final int anInt897 = 5123;
+	public static final int anInt898 = 5124;
+	public static final int anInt899 = 5125;
+	public static final int anInt900 = 5126;
+	public static final int anInt901 = 0;
+	public static final int anInt902 = 1;
+	public static final int anInt903 = 2;
+	public static final int anInt904 = 3;
+	public static final int anInt905 = 4;
+	public static final int anInt906 = 5;
+	public static final int anInt907 = 6;
+	public static final int anInt908 = 7;
+	public static final int anInt909 = 5888;
+	public static final int anInt910 = 5889;
+	public static final int anInt911 = 5890;
+	public static final int anInt912 = 2832;
+	public static final int anInt913 = 2834;
+	public static final int anInt914 = 6913;
+	public static final int anInt915 = 6914;
+	public static final int anInt916 = 1028;
+	public static final int anInt917 = 1029;
+	public static final int anInt918 = 2884;
+	public static final int anInt919 = 4864;
+	public static final int anInt920 = 515;
+	public static final int anInt921 = 516;
+	public static final int anInt922 = 2929;
+	public static final int anInt923 = 6402;
+	public static final int anInt924 = 2896;
+	public static final int anInt925 = 16384;
+	public static final int anInt926 = 16385;
+	public static final int anInt927 = 16386;
+	public static final int anInt928 = 4615;
+	public static final int anInt929 = 4616;
+	public static final int anInt930 = 4617;
+	public static final int anInt931 = 4608;
+	public static final int anInt932 = 4609;
+	public static final int anInt933 = 4611;
+	public static final int anInt934 = 5634;
+	public static final int anInt935 = 2899;
+	public static final int anInt936 = 1032;
+	public static final int anInt937 = 7425;
+	public static final int anInt938 = 2903;
+	public static final int anInt939 = 260;
+	public static final int anInt940 = 3008;
+	public static final int anInt941 = 3042;
+	public static final int anInt942 = 0;
+	public static final int anInt943 = 1;
+	public static final int anInt944 = 768;
+	public static final int anInt945 = 769;
+	public static final int anInt946 = 770;
+	public static final int anInt947 = 771;
+	public static final int anInt948 = 774;
+	public static final int anInt949 = 2912;
+	public static final int anInt950 = 2917;
+	public static final int anInt951 = 2914;
+	public static final int anInt952 = 2918;
+	public static final int anInt953 = 2915;
+	public static final int anInt954 = 2916;
+	public static final int anInt955 = 9729;
+	public static final int anInt956 = 7681;
+	public static final int anInt957 = 6406;
+	public static final int anInt958 = 6409;
+	public static final int anInt959 = 6410;
+	public static final int anInt960 = 6144;
+	public static final int anInt961 = 6407;
+	public static final int anInt962 = 6408;
+	public static final int anInt963 = 2982;
+	public static final int anInt964 = 3156;
+	public static final int anInt965 = 4353;
+	public static final int anInt966 = 3089;
+	public static final int anInt967 = 3348;
+	public static final int anInt968 = 3349;
+	public static final int anInt969 = 3352;
+	public static final int anInt970 = 3353;
+	public static final int anInt971 = 3354;
+	public static final int anInt972 = 3355;
+	public static final int anInt973 = 3317;
+	public static final int anInt974 = 3314;
+	public static final int anInt975 = 8960;
+	public static final int anInt976 = 8704;
+	public static final int anInt977 = 3552;
+	public static final int anInt978 = 3553;
+	public static final int anInt979 = 10242;
+	public static final int anInt980 = 10243;
+	public static final int anInt981 = 10240;
+	public static final int anInt982 = 10241;
+	public static final int anInt983 = 8705;
+	public static final int anInt984 = 3168;
+	public static final int anInt985 = 3169;
+	public static final int anInt986 = 9472;
+	public static final int anInt987 = 9984;
+	public static final int anInt988 = 9987;
+	public static final int anInt989 = 9217;
+	public static final int anInt990 = 9473;
+	public static final int anInt991 = 9216;
+	public static final int anInt992 = 9474;
+	public static final int anInt993 = 8448;
+	public static final int anInt994 = 9728;
+	public static final int anInt995 = 10497;
+	public static final int anInt996 = 8192;
+	public static final int anInt997 = 8193;
+	public static final int anInt998 = 8194;
+	public static final int anInt999 = 8195;
+	public static final int anInt1000 = 3170;
+	public static final int anInt1001 = 3171;
+	public static final int anInt1002 = 7936;
+	public static final int anInt1003 = 7937;
+	public static final int anInt1004 = 7938;
+	private static final int anInt1005 = 7939;
+	public static final int anInt1006 = 256;
+	public static final int anInt1007 = 1024;
+	public static final int anInt1008 = 2048;
+	public static final int anInt1009 = 16384;
+	public static final int anInt1010 = 32830;
+	public static final int anInt1011 = 32834;
+	public static final int anInt1012 = 32852;
+	public static final int anInt1013 = 32859;
+	public static final int anInt1014 = 32884;
+	public static final int anInt1015 = 32885;
+	public static final int anInt1016 = 32886;
+	public static final int anInt1017 = 32888;
+	public static final int anInt1018 = 32879;
+	public static final int anInt1019 = 33639;
+	public static final int anInt1020 = 32993;
+	public static final int anInt1021 = 33071;
+	public static final int anInt1022 = 33984;
+	public static final int anInt1023 = 33985;
+	public static final int anInt1024 = 34018;
+	public static final int anInt1025 = 32925;
+	public static final int anInt1026 = 32926;
+	public static final int anInt1027 = 34065;
+	public static final int anInt1028 = 34066;
+	public static final int anInt1029 = 34067;
+	public static final int anInt1030 = 34069;
+	public static final int anInt1031 = 34070;
+	public static final int anInt1032 = 34071;
+	public static final int anInt1033 = 34072;
+	public static final int anInt1034 = 34073;
+	public static final int anInt1035 = 34074;
+	public static final int anInt1036 = 34160;
+	public static final int anInt1037 = 34161;
+	public static final int anInt1038 = 34162;
+	public static final int anInt1039 = 34176;
+	public static final int anInt1040 = 34178;
+	public static final int anInt1041 = 34184;
+	public static final int anInt1042 = 34186;
+	public static final int anInt1043 = 34192;
+	public static final int anInt1044 = 34200;
+	public static final int anInt1045 = 34163;
+	public static final int anInt1046 = 34165;
+	public static final int anInt1047 = 34023;
+	public static final int anInt1048 = 34166;
+	public static final int anInt1049 = 34167;
+	public static final int anInt1050 = 34168;
+	public static final int anInt1051 = 34479;
+	public static final int anInt1052 = 33189;
+	public static final int anInt1053 = 33190;
+	public static final int anInt1054 = 33191;
+	public static final int anInt1055 = 34895;
+	public static final int anInt1056 = 35000;
+	public static final int anInt1057 = 35001;
+	public static final int anInt1058 = 35041;
+	public static final int anInt1059 = 34466;
+	public static final int anInt1060 = 34467;
+	public static final int anInt1061 = 34929;
+	public static final int anInt1062 = 34930;
+	public static final int anInt1063 = 35632;
+	public static final int anInt1064 = 35633;
+	public static final int anInt1065 = 35724;
+	public static final int anInt1066 = 35051;
+	public static final int anInt1067 = 34336;
+	public static final int anInt1068 = 34379;
+	public static final int anInt1069 = 34933;
+	public static final int anInt1070 = 34820;
+	public static final int anInt1071 = 34962;
+	public static final int anInt1072 = 34963;
+	public static final int anInt1073 = 35040;
+	public static final int anInt1074 = 35044;
+	public static final int anInt1075 = 35713;
+	public static final int anInt1076 = 35714;
+	public static final int anInt1077 = 35716;
+	public static final int anInt1078 = 35633;
+	public static final int anInt1079 = 35632;
+	public static final int anInt1080 = 34037;
+	public static final int anInt1081 = 5131;
+	public static final int anInt1082 = 34836;
+	public static final int anInt1083 = 34837;
+	public static final int anInt1084 = 34838;
+	public static final int anInt1085 = 34840;
+	public static final int anInt1086 = 34841;
+	public static final int anInt1087 = 34842;
+	public static final int anInt1088 = 34843;
+	public static final int anInt1089 = 34844;
+	public static final int anInt1090 = 34846;
+	public static final int anInt1091 = 34847;
+	public static final int anInt1092 = 33777;
+	public static final int anInt1093 = 33779;
+	public static final int anInt1094 = 36053;
+	public static final int anInt1095 = 36064;
+	public static final int anInt1096 = 36096;
+	public static final int anInt1097 = 36160;
+	public static final int anInt1098 = 36161;
+	public static final int anInt1099 = 36008;
+	public static final int anInt1100 = 36219;
+	public static final int anInt1101 = 37143;
+	public static final int anInt1102 = 37147;
+	public static final int anInt1103 = 37149;
 
 	public native long init(Canvas canvas, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_);
 
-	public boolean method1673(String string) {
-		if (null == aHashtable884) {
-			aHashtable884 = new Hashtable();
+	public boolean method1240(String string) {
+		if (null == aHashtable891) {
+			aHashtable891 = new Hashtable();
 			String string_5_ = glGetString(7939);
 			int i = 0;
 			for (;;) {
@@ -235,34 +235,34 @@ public class OpenGL {
 					break;
 				String string_7_ = string_5_.substring(i, i_6_).trim();
 				if (string_7_.length() != 0)
-					aHashtable884.put(string_7_, string_7_);
-				i = i_6_ + 1;
+					aHashtable891.put(string_7_, string_7_);
+				i = 1 + i_6_;
 			}
 			String string_8_ = string_5_.substring(i).trim();
 			if (string_8_.length() != 0)
-				aHashtable884.put(string_8_, string_8_);
+				aHashtable891.put(string_8_, string_8_);
 		}
-		return aHashtable884.containsKey(string);
+		return aHashtable891.containsKey(string);
 	}
 
-	public synchronized boolean method1674() {
+	public synchronized boolean method1241() {
 		Thread thread = Thread.currentThread();
 		if (attachPeer()) {
-			OpenGL opengl_9_ = (OpenGL) aHashtable886.put(thread, this);
+			OpenGL opengl_9_ = (OpenGL) aHashtable893.put(thread, this);
 			if (null != opengl_9_)
-				opengl_9_.aThread885 = null;
-			aThread885 = thread;
+				opengl_9_.aThread892 = null;
+			aThread892 = thread;
 			return true;
 		}
 		return false;
 	}
 
-	public synchronized boolean method1675() {
-		if (aThread885 != Thread.currentThread())
+	public synchronized boolean method1242() {
+		if (aThread892 != Thread.currentThread())
 			return false;
 		detachPeer();
-		aHashtable886.remove(aThread885);
-		aThread885 = null;
+		aHashtable893.remove(aThread892);
+		aThread892 = null;
 		return true;
 	}
 
@@ -662,33 +662,48 @@ public class OpenGL {
 
 	public static native void glWaitSync(long l, int i, int i_356_);
 
-	public boolean method1676(String string) {
-		if (null == aHashtable884) {
-			aHashtable884 = new Hashtable();
-			String string_357_ = glGetString(7939);
-			int i = 0;
-			for (;;) {
-				int i_358_ = string_357_.indexOf(' ', i);
-				if (-1 == i_358_)
-					break;
-				String string_359_ = string_357_.substring(i, i_358_).trim();
-				if (string_359_.length() != 0)
-					aHashtable884.put(string_359_, string_359_);
-				i = i_358_ + 1;
-			}
-			String string_360_ = string_357_.substring(i).trim();
-			if (string_360_.length() != 0)
-				aHashtable884.put(string_360_, string_360_);
+	public synchronized boolean method1243() {
+		Thread thread = Thread.currentThread();
+		if (attachPeer()) {
+			OpenGL opengl_357_ = (OpenGL) aHashtable893.put(thread, this);
+			if (null != opengl_357_)
+				opengl_357_.aThread892 = null;
+			aThread892 = thread;
+			return true;
 		}
-		return aHashtable884.containsKey(string);
+		return false;
 	}
 
-	public synchronized boolean method1677() {
-		if (aThread885 != Thread.currentThread())
+	public synchronized boolean method1244() {
+		Thread thread = Thread.currentThread();
+		if (attachPeer()) {
+			OpenGL opengl_358_ = (OpenGL) aHashtable893.put(thread, this);
+			if (null != opengl_358_)
+				opengl_358_.aThread892 = null;
+			aThread892 = thread;
+			return true;
+		}
+		return false;
+	}
+
+	public synchronized boolean method1245() {
+		Thread thread = Thread.currentThread();
+		if (attachPeer()) {
+			OpenGL opengl_359_ = (OpenGL) aHashtable893.put(thread, this);
+			if (null != opengl_359_)
+				opengl_359_.aThread892 = null;
+			aThread892 = thread;
+			return true;
+		}
+		return false;
+	}
+
+	public synchronized boolean method1246() {
+		if (aThread892 != Thread.currentThread())
 			return false;
 		detachPeer();
-		aHashtable886.remove(aThread885);
-		aThread885 = null;
+		aHashtable893.remove(aThread892);
+		aThread892 = null;
 		return true;
 	}
 }

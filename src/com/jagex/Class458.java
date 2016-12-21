@@ -3,377 +3,315 @@
  */
 package com.jagex;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
+public class Class458 implements Interface75 {
+	public static Class458 aClass458_5165;
+	public static Class458 aClass458_5166;
+	public static Class458 aClass458_5167;
+	int anInt5168;
+	static Class458 aClass458_5169;
+	public static Class458 aClass458_5170;
+	public static Class458 aClass458_5171;
+	Class648 aClass648_5172;
+	static Class458 aClass458_5173;
+	public static Class458 aClass458_5174;
+	static Class458 aClass458_5175;
+	public static Class458 aClass458_5176 = new Class458_Sub5(Class648.aClass648_8429, 0, true, true);
+	static Class458 aClass458_5177;
 
-public final class Class458 {
-	Class454 aClass454_5064;
-	Map aMap5065;
-	AbstractQueue_Sub1 anAbstractQueue_Sub1_5066;
-	long aLong5067;
-	AbstractQueue_Sub1 anAbstractQueue_Sub1_5068;
-	Comparator aComparator5069 = new Class466(this);
-	int anInt5070;
+	public int method12() {
+		return -38382757 * anInt5168;
+	}
 
-	public Object method7448(Object object) {
-		synchronized (this) {
-			if (aLong5067 * 2559609941237478805L != -1L)
-				method7453(-345014753);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 == null) {
-				Object object_0_ = null;
-				return object_0_;
+	public int method78() {
+		return -38382757 * anInt5168;
+	}
+
+	public Object method5493(Class153 class153, int i) {
+		if (class153.aBool1718)
+			return method5494(class153, 394899351);
+		return class153.aClass453_1716.method5439(1790318523);
+	}
+
+	Object method5494(Class153 class153, int i) {
+		return class153.aClass453_1716.method5439(1311949190);
+	}
+
+	static {
+		aClass458_5166 = new Class458_Sub2(Class648.aClass648_8432, 1, false, true);
+		aClass458_5167 = new Class458_Sub3(Class648.aClass648_8414, 2, true, true);
+		aClass458_5177 = new Class458_Sub1(Class648.aClass648_8412, 3, false, false);
+		aClass458_5169 = new Class458(Class648.aClass648_8435, 4, false, false);
+		aClass458_5170 = new Class458(Class648.aClass648_8422, 5, true, true);
+		aClass458_5171 = new Class458(Class648.aClass648_8437, 6, true, true);
+		aClass458_5165 = new Class458(Class648.aClass648_8438, 7, true, false);
+		aClass458_5173 = new Class458_Sub4(Class648.aClass648_8439, 8, false, false);
+		aClass458_5174 = new Class458(Class648.aClass648_8450, 9, false, true);
+		aClass458_5175 = new Class458(Class648.aClass648_8453, 10, false, false);
+	}
+
+	public int method73() {
+		return -38382757 * anInt5168;
+	}
+
+	Object method5495(Class153 class153) {
+		return class153.aClass453_1716.method5439(-997894604);
+	}
+
+	Object method5496(Class153 class153) {
+		return class153.aClass453_1716.method5439(1738932671);
+	}
+
+	public static Class458[] method5497(byte i) {
+		return new Class458[] { aClass458_5176, aClass458_5173, aClass458_5165, aClass458_5170, aClass458_5171, aClass458_5174, aClass458_5167, aClass458_5169, aClass458_5166, aClass458_5177, aClass458_5175 };
+	}
+
+	Class458(Class648 class648, int i, boolean bool, boolean bool_1_) {
+		aClass648_5172 = class648;
+		anInt5168 = -1083595565 * i;
+	}
+
+	public final Class648 method5498(int i) {
+		return aClass648_5172;
+	}
+
+	public Object method5499(Class153 class153) {
+		if (class153.aBool1718)
+			return method5494(class153, 838124642);
+		return class153.aClass453_1716.method5439(-2019418690);
+	}
+
+	static final void method5500(Class668 class668, byte i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class234 class234 = class683.aClass234_8649;
+		Class582.method7025(class251, class234, class668, 411474335);
+	}
+
+	static final void method5501(Class668 class668, int i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class63.aClass226_717.method3227(i_2_, -781094290).method3115(249183996);
+	}
+
+	static final void method5502(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aBool10994 ? 1 : 0;
+	}
+
+	static final void method5503(Class668 class668, int i) {
+		Class216.method3093(0, 0, -1606950689 * client.aClass251_11195.anInt2573, 223822141 * client.aClass251_11195.anInt2574, false, 1876031981);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11285 * -545189665;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11286 * 1930681379;
+	}
+
+	static boolean method5504(Class167 class167, Class536_Sub41 class536_sub41, Class248 class248, int i, int i_3_, byte i_4_) {
+		if (Class542_Sub1.aBool7197 && !client.aBool11123 && !Class542_Sub1.method6552(753546687 * class536_sub41.anInt10794, (class536_sub41.anInt10796 * 1902597877)))
+			return false;
+		if (null != class248.anIntArray2506) {
+			class248 = class248.method3435(Class542_Sub1.anInterface20_7169, Class542_Sub1.anInterface18_7163, -1561948177);
+			if (class248 == null)
+				return false;
+		}
+		int i_5_ = 2147483647;
+		int i_6_ = -2147483648;
+		int i_7_ = 2147483647;
+		int i_8_ = -2147483648;
+		if (class248.anIntArray2497 != null) {
+			i_5_ = (((-10405275 * class248.anInt2507 + 753546687 * class536_sub41.anInt10794 - Class542_Sub1.anInt7184) * (Class542_Sub1.anInt7190 - Class542_Sub1.anInt7227) / (Class542_Sub1.anInt7206 - Class542_Sub1.anInt7184)) + Class542_Sub1.anInt7227);
+			i_6_ = (Class542_Sub1.anInt7227 + ((Class542_Sub1.anInt7190 - Class542_Sub1.anInt7227) * (-2077796911 * class248.anInt2490 + class536_sub41.anInt10794 * 753546687 - Class542_Sub1.anInt7184) / (Class542_Sub1.anInt7206 - Class542_Sub1.anInt7184)));
+			i_8_ = (Class542_Sub1.anInt7230 - ((Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) * (1902597877 * class536_sub41.anInt10796 + -1552833791 * class248.anInt2520 - Class542_Sub1.anInt7226) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
+			i_7_ = (Class542_Sub1.anInt7230 - ((class248.anInt2510 * 1889839503 + class536_sub41.anInt10796 * 1902597877 - Class542_Sub1.anInt7226) * (Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
+		}
+		Class143 class143 = null;
+		int i_9_ = 0;
+		int i_10_ = 0;
+		int i_11_ = 0;
+		int i_12_ = 0;
+		if (400801363 * class248.anInt2481 != -1) {
+			if (class536_sub41.aBool10799 && -1 != class248.anInt2482 * -1002957977)
+				class143 = class248.method3430(class167, true, 276352132);
+			else
+				class143 = class248.method3430(class167, false, 276352132);
+			if (class143 != null) {
+				switch (class248.aClass261_2505.anInt2842 * 897910875) {
+				case 2:
+					i_9_ = (2090600221 * class536_sub41.anInt10797 - class143.method12());
+					i_10_ = class536_sub41.anInt10797 * 2090600221;
+					break;
+				case 1:
+					i_9_ = (class536_sub41.anInt10797 * 2090600221 - (class143.method12() + 1 >> 1));
+					i_10_ = (2090600221 * class536_sub41.anInt10797 + (class143.method12() + 1 >> 1));
+					break;
+				case 0:
+					i_9_ = class536_sub41.anInt10797 * 2090600221;
+					i_10_ = (class536_sub41.anInt10797 * 2090600221 + class143.method12());
+					break;
+				}
+				switch (class248.aClass283_2518.anInt3180 * -53403555) {
+				case 0:
+					i_11_ = (-279793543 * class536_sub41.anInt10798 - (class143.method1785() + 1 >> 1));
+					i_12_ = (-279793543 * class536_sub41.anInt10798 + (class143.method1785() + 1 >> 1));
+					break;
+				case 2:
+					i_11_ = (-279793543 * class536_sub41.anInt10798 - class143.method1785());
+					i_12_ = class536_sub41.anInt10798 * -279793543;
+					break;
+				case 1:
+					i_11_ = class536_sub41.anInt10798 * -279793543;
+					i_12_ = (-279793543 * class536_sub41.anInt10798 + class143.method1785());
+					break;
+				}
+				if (i_9_ < i_5_)
+					i_5_ = i_9_;
+				if (i_10_ > i_6_)
+					i_6_ = i_10_;
+				if (i_11_ < i_7_)
+					i_7_ = i_11_;
+				if (i_12_ > i_8_)
+					i_8_ = i_12_;
 			}
-			method7452(class473, false, -1260993646);
-			Object object_1_ = class473.anObject5372;
-			return object_1_;
 		}
-	}
-
-	Class458(long l, int i, Class454 class454) {
-		aLong5067 = l * -458032853511311939L;
-		anInt5070 = -2015618423 * i;
-		aClass454_5064 = class454;
-		if (-1 == anInt5070 * -144081991) {
-			aMap5065 = new HashMap(64);
-			anAbstractQueue_Sub1_5066 = new AbstractQueue_Sub1(64, aComparator5069);
-			anAbstractQueue_Sub1_5068 = null;
-		} else {
-			if (null == aClass454_5064)
-				throw new IllegalArgumentException("");
-			aMap5065 = new HashMap(-144081991 * anInt5070);
-			anAbstractQueue_Sub1_5066 = new AbstractQueue_Sub1(-144081991 * anInt5070, aComparator5069);
-			anAbstractQueue_Sub1_5068 = new AbstractQueue_Sub1(-144081991 * anInt5070);
-		}
-	}
-
-	public Object method7449(Object object) {
-		synchronized (this) {
-			if (aLong5067 * 2559609941237478805L != -1L)
-				method7453(-1091299577);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 == null) {
-				Object object_2_ = null;
-				return object_2_;
+		Class143 class143_13_ = null;
+		if (-1 != class248.anInt2525 * -1695002333)
+			class143_13_ = class248.method3431(class167, 735249098);
+		int i_14_ = 0;
+		int i_15_ = 0;
+		int i_16_ = 0;
+		int i_17_ = 0;
+		int i_18_ = 0;
+		int i_19_ = 0;
+		int i_20_ = 0;
+		int i_21_ = 0;
+		if (class248.aString2483 != null) {
+			Class109.method1451(class248.anInt2486 * 1093270539, (byte) 93);
+			if (Class34_Sub19.aClass184_10977 != null) {
+				i_21_ = Class618.aClass2_8091.method538(class248.aString2483, (Class144.anInt1679 * -1804846931), 0, null, (byte) 3);
+				i_16_ = Class618.aClass2_8091.method541(class248.aString2483, (Class144.anInt1679 * -1804846931), null, 601823666);
+				i_14_ = (((Class542_Sub1.anInt7190 - Class542_Sub1.anInt7227) * (class248.anInt2515 * 625514463) / (Class542_Sub1.anInt7206 - Class542_Sub1.anInt7184)) + (2090600221 * class536_sub41.anInt10797 - i_16_ / 2));
+				i_15_ = (-279793543 * class536_sub41.anInt10798 - ((Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) * (-962510603 * class248.anInt2499) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
+				if (class143 == null)
+					i_15_ -= i_21_ / 2;
+				else
+					i_15_ -= (class143.method1785() >> 1) + i_21_;
+				i_17_ = i + i_14_;
+				if (i_17_ < i_5_)
+					i_5_ = i_17_;
+				i_18_ = i + (i_14_ + i_16_);
+				if (i_18_ > i_6_)
+					i_6_ = i_18_;
+				i_19_ = i_3_ + i_15_;
+				if (i_19_ < i_7_)
+					i_7_ = i_19_;
+				i_20_ = i_3_ + (i_21_ + i_15_);
+				if (i_20_ > i_8_)
+					i_8_ = i_20_;
 			}
-			method7452(class473, false, -1294747101);
-			Object object_3_ = class473.anObject5372;
-			return object_3_;
 		}
-	}
-
-	public Object method7450(Object object, byte i) {
-		synchronized (this) {
-			if (aLong5067 * 2559609941237478805L != -1L)
-				method7453(-212854764);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 == null) {
-				Object object_4_ = null;
-				return object_4_;
-			}
-			method7452(class473, false, 914198092);
-			Object object_5_ = class473.anObject5372;
-			return object_5_;
-		}
-	}
-
-	boolean method7451() {
-		return -1 != -144081991 * anInt5070;
-	}
-
-	void method7452(Class473 class473, boolean bool, int i) {
-		if (!bool) {
-			anAbstractQueue_Sub1_5066.remove(class473);
-			if (method7457((short) 14460) && !anAbstractQueue_Sub1_5068.remove(class473))
-				throw new IllegalStateException("");
-		}
-		class473.aLong5371 = System.currentTimeMillis() * 6749332766424291209L;
-		if (method7457((short) -18988)) {
-			switch (aClass454_5064.anInt4969 * -951590873) {
-			case 0:
-				class473.aLong5369 = class473.aLong5371 * 3167028721439851997L;
+		if (i_6_ < Class542_Sub1.anInt7227 || i_5_ > Class542_Sub1.anInt7190 || i_8_ < Class542_Sub1.anInt7199 || i_7_ > Class542_Sub1.anInt7230)
+			return true;
+		Class542_Sub1.method6544(class167, class536_sub41, class248);
+		if (class143 != null) {
+			int i_22_ = 0;
+			int i_23_ = 0;
+			int i_24_ = 0;
+			int i_25_ = 0;
+			int i_26_ = 0;
+			int i_27_ = 0;
+			switch (class248.aClass261_2505.anInt2842 * 897910875) {
+			case 2:
+				i_22_ = class143.method1720();
+				i_23_ = (class143.method1720() + 1) / 2;
+				i_24_ = class143.method12();
 				break;
 			case 1:
-				class473.aLong5369 += -2920275396634968507L;
+				i_22_ = class143.method1720() / 2;
+				i_24_ = class143.method12() >> 1;
 				break;
-			}
-			anAbstractQueue_Sub1_5068.add(class473);
-		}
-		anAbstractQueue_Sub1_5066.add(class473);
-	}
-
-	void method7453(int i) {
-		if (-1L == 2559609941237478805L * aLong5067)
-			throw new IllegalStateException("");
-		long l = System.currentTimeMillis() - aLong5067 * 2559609941237478805L;
-		while (!anAbstractQueue_Sub1_5066.isEmpty()) {
-			Class473 class473 = (Class473) anAbstractQueue_Sub1_5066.peek();
-			if (7787969294484491961L * class473.aLong5371 < l) {
-				aMap5065.remove(class473.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473);
-				if (method7457((short) 1077))
-					anAbstractQueue_Sub1_5068.remove(class473);
-			} else
-				break;
-		}
-	}
-
-	boolean method7454() {
-		return -1 != -144081991 * anInt5070;
-	}
-
-	public Class458(int i, Class454 class454) {
-		this(-1L, i, class454);
-	}
-
-	boolean method7455() {
-		return -1 != -144081991 * anInt5070;
-	}
-
-	public Object method7456(Object object, Object object_6_) {
-		synchronized (this) {
-			if (2559609941237478805L * aLong5067 != -1L)
-				method7453(-1649878041);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 != null) {
-				Object object_7_ = class473.anObject5372;
-				class473.anObject5372 = object_6_;
-				method7452(class473, false, 167592436);
-				Object object_8_ = object_7_;
-				return object_8_;
-			}
-			if (method7457((short) -22410) && aMap5065.size() == anInt5070 * -144081991) {
-				Class473 class473_9_ = (Class473) anAbstractQueue_Sub1_5068.remove();
-				aMap5065.remove(class473_9_.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473_9_);
-			}
-			Class473 class473_10_ = new Class473(object_6_, object);
-			aMap5065.put(object, class473_10_);
-			method7452(class473_10_, true, 996103324);
-			Object object_11_ = null;
-			return object_11_;
-		}
-	}
-
-	boolean method7457(short i) {
-		return -1 != -144081991 * anInt5070;
-	}
-
-	boolean method7458() {
-		return -1 != -144081991 * anInt5070;
-	}
-
-	public Object method7459(Object object, Object object_12_) {
-		synchronized (this) {
-			if (2559609941237478805L * aLong5067 != -1L)
-				method7453(-1985491718);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 != null) {
-				Object object_13_ = class473.anObject5372;
-				class473.anObject5372 = object_12_;
-				method7452(class473, false, 1766144835);
-				Object object_14_ = object_13_;
-				return object_14_;
-			}
-			if (method7457((short) -5966) && aMap5065.size() == anInt5070 * -144081991) {
-				Class473 class473_15_ = (Class473) anAbstractQueue_Sub1_5068.remove();
-				aMap5065.remove(class473_15_.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473_15_);
-			}
-			Class473 class473_16_ = new Class473(object_12_, object);
-			aMap5065.put(object, class473_16_);
-			method7452(class473_16_, true, -837974662);
-			Object object_17_ = null;
-			return object_17_;
-		}
-	}
-
-	public Object method7460(Object object, Object object_18_, byte i) {
-		synchronized (this) {
-			if (2559609941237478805L * aLong5067 != -1L)
-				method7453(-1905848049);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 != null) {
-				Object object_19_ = class473.anObject5372;
-				class473.anObject5372 = object_18_;
-				method7452(class473, false, -1566405704);
-				Object object_20_ = object_19_;
-				return object_20_;
-			}
-			if (method7457((short) -2498) && aMap5065.size() == anInt5070 * -144081991) {
-				Class473 class473_21_ = (Class473) anAbstractQueue_Sub1_5068.remove();
-				aMap5065.remove(class473_21_.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473_21_);
-			}
-			Class473 class473_22_ = new Class473(object_18_, object);
-			aMap5065.put(object, class473_22_);
-			method7452(class473_22_, true, 1638719517);
-			Object object_23_ = null;
-			return object_23_;
-		}
-	}
-
-	public Object method7461(Object object, Object object_24_) {
-		synchronized (this) {
-			if (2559609941237478805L * aLong5067 != -1L)
-				method7453(-600541948);
-			Class473 class473 = (Class473) aMap5065.get(object);
-			if (class473 != null) {
-				Object object_25_ = class473.anObject5372;
-				class473.anObject5372 = object_24_;
-				method7452(class473, false, -1847454129);
-				Object object_26_ = object_25_;
-				return object_26_;
-			}
-			if (method7457((short) 11150) && aMap5065.size() == anInt5070 * -144081991) {
-				Class473 class473_27_ = (Class473) anAbstractQueue_Sub1_5068.remove();
-				aMap5065.remove(class473_27_.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473_27_);
-			}
-			Class473 class473_28_ = new Class473(object_24_, object);
-			aMap5065.put(object, class473_28_);
-			method7452(class473_28_, true, -713654297);
-			Object object_29_ = null;
-			return object_29_;
-		}
-	}
-
-	void method7462(Class473 class473, boolean bool) {
-		if (!bool) {
-			anAbstractQueue_Sub1_5066.remove(class473);
-			if (method7457((short) 22250) && !anAbstractQueue_Sub1_5068.remove(class473))
-				throw new IllegalStateException("");
-		}
-		class473.aLong5371 = System.currentTimeMillis() * 6749332766424291209L;
-		if (method7457((short) 8094)) {
-			switch (aClass454_5064.anInt4969 * -951590873) {
 			case 0:
-				class473.aLong5369 = class473.aLong5371 * 3167028721439851997L;
+				i_23_ = -(class143.method1720() + 1) / 2;
+				break;
+			}
+			switch (class248.aClass283_2518.anInt3180 * -53403555) {
+			case 2:
+				i_25_ = class143.method1720();
+				i_26_ = (class143.method1720() + 1) / 2;
+				i_27_ = class143.method1785();
+				break;
+			case 0:
+				i_25_ = class143.method1720() / 2;
+				i_27_ = class143.method1785() >> 1;
 				break;
 			case 1:
-				class473.aLong5369 += -2920275396634968507L;
+				i_26_ = -(class143.method1720() + 1) / 2;
 				break;
 			}
-			anAbstractQueue_Sub1_5068.add(class473);
-		}
-		anAbstractQueue_Sub1_5066.add(class473);
-	}
-
-	void method7463(Class473 class473, boolean bool) {
-		if (!bool) {
-			anAbstractQueue_Sub1_5066.remove(class473);
-			if (method7457((short) -7812) && !anAbstractQueue_Sub1_5068.remove(class473))
-				throw new IllegalStateException("");
-		}
-		class473.aLong5371 = System.currentTimeMillis() * 6749332766424291209L;
-		if (method7457((short) 687)) {
-			switch (aClass454_5064.anInt4969 * -951590873) {
-			case 0:
-				class473.aLong5369 = class473.aLong5371 * 3167028721439851997L;
-				break;
-			case 1:
-				class473.aLong5369 += -2920275396634968507L;
-				break;
+			Class51 class51 = (Class51) (Class542_Sub1.aHashMap10719.get(Integer.valueOf(2000440429 * class536_sub41.anInt10793)));
+			if (null == class51)
+				class51 = (Class51) (Class542_Sub1.aHashMap10715.get(Integer.valueOf(class248.anInt2508 * 2086350461)));
+			if (null != class51 && -1695002333 * class248.anInt2525 == -1) {
+				int i_28_;
+				if (class51.anInt587 * -531980961 > Class542_Sub1.anInt10705 * 1468826811 / 2)
+					i_28_ = ((Class542_Sub1.anInt10705 * 888682053 - class51.anInt587 * 1783808417) / (Class542_Sub1.anInt10705 * 1468826811));
+				else
+					i_28_ = (1783808417 * class51.anInt587 / (1468826811 * Class542_Sub1.anInt10705));
+				int i_29_ = i_28_ << 24 | 0xffff00;
+				if (class167 instanceof Class167_Sub3) {
+					class167.method2057((class536_sub41.anInt10797 * 2090600221 - i_22_ - 7), (-279793543 * class536_sub41.anInt10798 - i_25_ - 7), class143.method1720() + 14, class143.method1720() + 14, i_29_, (short) -28918);
+					class167.method2057((class536_sub41.anInt10797 * 2090600221 - i_22_ - 5), (class536_sub41.anInt10798 * -279793543 - i_25_ - 5), class143.method1720() + 10, class143.method1720() + 10, i_29_, (short) -24174);
+					class167.method2057((2090600221 * class536_sub41.anInt10797 - i_22_ - 3), (class536_sub41.anInt10798 * -279793543 - i_25_ - 3), class143.method1720() + 6, class143.method1720() + 6, i_29_, (short) -20958);
+					class167.method2057((class536_sub41.anInt10797 * 2090600221 - i_22_ - 1), (-279793543 * class536_sub41.anInt10798 - i_25_ - 1), class143.method1720() + 2, class143.method1720() + 2, i_29_, (short) -25294);
+					class167.method2057((2090600221 * class536_sub41.anInt10797 - i_22_), (-279793543 * class536_sub41.anInt10798 - i_25_), class143.method1720(), class143.method1720(), i_29_, (short) -319);
+				} else {
+					class167.method2095((class536_sub41.anInt10797 * 2090600221 - i_23_), (class536_sub41.anInt10798 * -279793543 - i_26_), class143.method1720() / 2 + 7, i_29_, (short) -5259);
+					class167.method2095((class536_sub41.anInt10797 * 2090600221 - i_23_), (0 != (class536_sub41.anInt10798 * -279793543) - i_26_ - i_26_ ? 1 : 0), class143.method1720() / 2 + 5, i_29_, (short) -5314);
+					class167.method2095((class536_sub41.anInt10797 * 2090600221 - i_23_), (-279793543 * class536_sub41.anInt10798 - i_26_ - i_26_) != 0 ? 1 : 0, class143.method1720() / 2 + 3, i_29_, (short) -1959);
+					class167.method2095((2090600221 * class536_sub41.anInt10797 - i_23_), (class536_sub41.anInt10798 * -279793543 - i_26_ - i_26_) != 0 ? 1 : 0, class143.method1720() / 2 + 1, i_29_, (short) 13450);
+					class167.method2095((2090600221 * class536_sub41.anInt10797 - i_23_), (0 != (class536_sub41.anInt10798 * -279793543) - i_26_ - i_26_ ? 1 : 0), class143.method1720() / 2, i_29_, (short) 11133);
+				}
 			}
-			anAbstractQueue_Sub1_5068.add(class473);
-		}
-		anAbstractQueue_Sub1_5066.add(class473);
-	}
-
-	void method7464(Class473 class473, boolean bool) {
-		if (!bool) {
-			anAbstractQueue_Sub1_5066.remove(class473);
-			if (method7457((short) 8532) && !anAbstractQueue_Sub1_5068.remove(class473))
-				throw new IllegalStateException("");
-		}
-		class473.aLong5371 = System.currentTimeMillis() * 6749332766424291209L;
-		if (method7457((short) 17890)) {
-			switch (aClass454_5064.anInt4969 * -951590873) {
-			case 0:
-				class473.aLong5369 = class473.aLong5371 * 3167028721439851997L;
-				break;
-			case 1:
-				class473.aLong5369 += -2920275396634968507L;
-				break;
+			class143.method1728(class536_sub41.anInt10797 * 2090600221 - i_24_, (class536_sub41.anInt10798 * -279793543 - i_27_));
+			int i_30_ = 0;
+			int i_31_ = 0;
+			if (class51 != null && null != class143_13_) {
+				switch (class248.aClass261_2505.anInt2842 * 897910875) {
+				case 1:
+					i_30_ = class143_13_.method12() >> 1;
+					break;
+				case 0:
+					i_30_ = class143_13_.method12();
+					break;
+				}
+				switch (class248.aClass283_2518.anInt3180 * -53403555) {
+				case 2:
+					i_31_ = (class143_13_.method1785() + class143.method1785()) / 2;
+					break;
+				case 1:
+					break;
+				case 0:
+					i_31_ = (class143_13_.method1785() / 2 + class143.method1785()) / 2;
+					break;
+				}
+				int i_32_;
+				if (-531980961 * class51.anInt587 > 1468826811 * Class542_Sub1.anInt10705 / 2)
+					i_32_ = ((888682053 * Class542_Sub1.anInt10705 - 1783808417 * class51.anInt587) / (Class542_Sub1.anInt10705 * 1468826811));
+				else
+					i_32_ = (1783808417 * class51.anInt587 / (Class542_Sub1.anInt10705 * 1468826811));
+				int i_33_ = i_32_ << 24 | 0xffff00;
+				class143_13_.method1729((2090600221 * class536_sub41.anInt10797 - i_30_), (-279793543 * class536_sub41.anInt10798 - i_31_), 0, i_33_, 1);
 			}
-			anAbstractQueue_Sub1_5068.add(class473);
 		}
-		anAbstractQueue_Sub1_5066.add(class473);
-	}
-
-	void method7465() {
-		if (-1L == 2559609941237478805L * aLong5067)
-			throw new IllegalStateException("");
-		long l = System.currentTimeMillis() - aLong5067 * 2559609941237478805L;
-		while (!anAbstractQueue_Sub1_5066.isEmpty()) {
-			Class473 class473 = (Class473) anAbstractQueue_Sub1_5066.peek();
-			if (7787969294484491961L * class473.aLong5371 < l) {
-				aMap5065.remove(class473.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473);
-				if (method7457((short) -12494))
-					anAbstractQueue_Sub1_5068.remove(class473);
-			} else
-				break;
+		if (null != class248.aString2483 && null != Class34_Sub19.aClass184_10977)
+			Class308.method4136(class167, class536_sub41, class248, i_14_, i_15_, i_21_, i_16_, -1583688469);
+		if (400801363 * class248.anInt2481 != -1 || class248.aString2483 != null) {
+			Class536_Sub7 class536_sub7 = new Class536_Sub7(class536_sub41);
+			class536_sub7.anInt10429 = 808445941 * i_9_;
+			class536_sub7.anInt10422 = -1109983361 * i_10_;
+			class536_sub7.anInt10425 = i_11_ * 1098580597;
+			class536_sub7.anInt10423 = 2115548231 * i_12_;
+			class536_sub7.anInt10421 = i_17_ * -1229233847;
+			class536_sub7.anInt10424 = -1723553063 * i_18_;
+			class536_sub7.anInt10427 = -1838853613 * i_19_;
+			class536_sub7.anInt10428 = i_20_ * 1031708437;
+			Class648.aClass708_8457.method8335(class536_sub7, -883481172);
 		}
-	}
-
-	void method7466() {
-		if (-1L == 2559609941237478805L * aLong5067)
-			throw new IllegalStateException("");
-		long l = System.currentTimeMillis() - aLong5067 * 2559609941237478805L;
-		while (!anAbstractQueue_Sub1_5066.isEmpty()) {
-			Class473 class473 = (Class473) anAbstractQueue_Sub1_5066.peek();
-			if (7787969294484491961L * class473.aLong5371 < l) {
-				aMap5065.remove(class473.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473);
-				if (method7457((short) -3265))
-					anAbstractQueue_Sub1_5068.remove(class473);
-			} else
-				break;
-		}
-	}
-
-	void method7467() {
-		if (-1L == 2559609941237478805L * aLong5067)
-			throw new IllegalStateException("");
-		long l = System.currentTimeMillis() - aLong5067 * 2559609941237478805L;
-		while (!anAbstractQueue_Sub1_5066.isEmpty()) {
-			Class473 class473 = (Class473) anAbstractQueue_Sub1_5066.peek();
-			if (7787969294484491961L * class473.aLong5371 < l) {
-				aMap5065.remove(class473.anObject5370);
-				anAbstractQueue_Sub1_5066.remove(class473);
-				if (method7457((short) 8782))
-					anAbstractQueue_Sub1_5068.remove(class473);
-			} else
-				break;
-		}
-	}
-
-	void method7468(Class473 class473, boolean bool) {
-		if (!bool) {
-			anAbstractQueue_Sub1_5066.remove(class473);
-			if (method7457((short) 1185) && !anAbstractQueue_Sub1_5068.remove(class473))
-				throw new IllegalStateException("");
-		}
-		class473.aLong5371 = System.currentTimeMillis() * 6749332766424291209L;
-		if (method7457((short) -1075)) {
-			switch (aClass454_5064.anInt4969 * -951590873) {
-			case 0:
-				class473.aLong5369 = class473.aLong5371 * 3167028721439851997L;
-				break;
-			case 1:
-				class473.aLong5369 += -2920275396634968507L;
-				break;
-			}
-			anAbstractQueue_Sub1_5068.add(class473);
-		}
-		anAbstractQueue_Sub1_5066.add(class473);
-	}
-
-	public static Class360 method7469(int i, byte i_30_) {
-		if (null != Class649.aClass358_8371)
-			return Class649.aClass358_8371.method6287(-729087984).method6379(i, 109839657);
-		return null;
+		return false;
 	}
 }

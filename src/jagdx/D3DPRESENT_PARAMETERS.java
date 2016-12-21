@@ -6,7 +6,7 @@ package jagdx;
 import java.awt.Component;
 
 public class D3DPRESENT_PARAMETERS {
-	public static final int anInt1134 = -2147483648;
+	public static final int anInt1141 = -2147483648;
 	public int BackBufferWidth = 0;
 	public int BackBufferHeight = 0;
 	public int BackBufferFormat = 0;

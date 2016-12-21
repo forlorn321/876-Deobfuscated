@@ -3,79 +3,62 @@
  */
 package com.jagex;
 
-import java.util.ConcurrentModificationException;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
+public class Class380 {
+	public static Class380 aClass380_3928;
+	public static Class380 aClass380_3929 = new Class380(8);
+	public static Class380 aClass380_3930;
+	public static Class380 aClass380_3931 = new Class380(16);
+	static Class380 aClass380_3932;
+	public int anInt3933;
 
-public class Class380 implements Iterator {
-	int anInt3932 = 0;
-	int anInt3933;
-	AbstractQueue_Sub1 anAbstractQueue_Sub1_3934;
-
-	Class380(AbstractQueue_Sub1 abstractqueue_sub1) {
-		anInt3933 = 787498027 * anAbstractQueue_Sub1_3934.anInt11878;
-		anAbstractQueue_Sub1_3934 = abstractqueue_sub1;
+	static {
+		aClass380_3928 = new Class380(8);
+		aClass380_3930 = new Class380(16);
+		aClass380_3932 = new Class380(32);
 	}
 
-	public boolean hasNext() {
-		return (anInt3932 * 1435532057 < -1968427149 * anAbstractQueue_Sub1_3934.anInt11875);
+	Class380(int i) {
+		anInt3933 = i * 1940935389;
 	}
 
-	public Object next() {
-		if (61240775 * anInt3933 != 13542509 * anAbstractQueue_Sub1_3934.anInt11878)
-			throw new ConcurrentModificationException();
-		if (1435532057 * anInt3932 < anAbstractQueue_Sub1_3934.anInt11875 * -1968427149) {
-			Object object = (anAbstractQueue_Sub1_3934.aClass395Array11876[1435532057 * anInt3932].anObject4104);
-			anInt3932 += 885043497;
-			return object;
+	static Class420[] method4805(int i) {
+		return (new Class420[] { Class420.aClass420_4577, Class420.aClass420_4584, Class420.aClass420_4581, Class420.aClass420_4574, Class420.aClass420_4583, Class420.aClass420_4579, Class420.aClass420_4572, Class420.aClass420_4576, Class420.aClass420_4578, Class420.aClass420_4582, Class420.aClass420_4580, Class420.aClass420_4573 });
+	}
+
+	static final void method4806(Class668 class668, byte i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4513, client.aClass106_11322.aClass15_1258, 1086604485);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(string.length() + 1, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -1892786441);
+		client.aClass106_11322.method1409(class536_sub23, 1945228138);
+	}
+
+	static final void method4807(Class668 class668, byte i) {
+		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub35_10788), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		Class27.method763(1984566907);
+		client.aBool11015 = false;
+	}
+
+	public static void method4808(boolean bool, byte[] is, byte i) {
+		if (Class683.aClass536_Sub33_8652 == null)
+			Class683.aClass536_Sub33_8652 = new RSByteBuffer(20000);
+		Class683.aClass536_Sub33_8652.method9696(is, 0, is.length, (byte) 80);
+		if (bool) {
+			Class40.method870(Class683.aClass536_Sub33_8652.buffer, 1564818358);
+			Class23.aClass603_Sub1Array226 = new Class603_Sub1[Class593.anInt7807 * -537974539];
+			int i_0_ = 0;
+			for (int i_1_ = -805119937 * Class220.anInt2310; i_1_ <= 870600939 * Class593.anInt7808; i_1_++) {
+				Class603_Sub1 class603_sub1 = Class324.method4269(i_1_, 540233729);
+				if (class603_sub1 != null)
+					Class23.aClass603_Sub1Array226[i_0_++] = class603_sub1;
+			}
+			Class23.aBool224 = false;
+			Class23.aLong225 = Class249.method3450(1615509552) * -1285747780723244827L;
+			Class683.aClass536_Sub33_8652 = null;
 		}
-		throw new NoSuchElementException();
 	}
 
-	public void remove() {
-		throw new UnsupportedOperationException();
-	}
-
-	public boolean method6392() {
-		return (anInt3932 * 1435532057 < -1968427149 * anAbstractQueue_Sub1_3934.anInt11875);
-	}
-
-	public Object method6393() {
-		if (61240775 * anInt3933 != 13542509 * anAbstractQueue_Sub1_3934.anInt11878)
-			throw new ConcurrentModificationException();
-		if (1435532057 * anInt3932 < anAbstractQueue_Sub1_3934.anInt11875 * -1968427149) {
-			Object object = (anAbstractQueue_Sub1_3934.aClass395Array11876[1435532057 * anInt3932].anObject4104);
-			anInt3932 += 885043497;
-			return object;
-		}
-		throw new NoSuchElementException();
-	}
-
-	public Object method6394() {
-		if (61240775 * anInt3933 != 13542509 * anAbstractQueue_Sub1_3934.anInt11878)
-			throw new ConcurrentModificationException();
-		if (1435532057 * anInt3932 < anAbstractQueue_Sub1_3934.anInt11875 * -1968427149) {
-			Object object = (anAbstractQueue_Sub1_3934.aClass395Array11876[1435532057 * anInt3932].anObject4104);
-			anInt3932 += 885043497;
-			return object;
-		}
-		throw new NoSuchElementException();
-	}
-
-	public void method6395() {
-		throw new UnsupportedOperationException();
-	}
-
-	static final void method6396(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, -1667969177);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class186.method3651(class243, class240, class665, 1859543809);
-	}
-
-	static final void method6397(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 114452147 * class243.anInt2524;
+	public static void method4809(String string, boolean bool, boolean bool_2_, int i) {
+		Class420.method5063(string, bool, "openjs", bool_2_, (byte) 113);
 	}
 }

@@ -4,87 +4,124 @@
 package com.jagex;
 
 public class Class240 {
-	public Class243[] aClass243Array2392;
-	Class243[] aClass243Array2393;
-	public boolean aBool2394;
+	int anInt2445;
+	int anInt2446;
+	int anInt2447;
+	int anInt2448;
+	int anInt2449;
+	int anInt2450;
+	int[] anIntArray2451;
+	int[] anIntArray2452;
+	Class258 aClass258_2453;
+	int[][] anIntArrayArray2454;
 
-	public Class243 method4383(int i) {
-		if (-254728301 * aClass243Array2392[0].anInt2504 >>> 16 != i >>> 16)
-			throw new IllegalArgumentException();
-		return aClass243Array2392[i & 0xffff];
+	Class240() {
+		/* empty */
 	}
 
-	public Class243[] method4384(int i) {
-		return (aClass243Array2393 == null ? aClass243Array2392 : aClass243Array2393);
-	}
-
-	public Class243[] method4385() {
-		return (aClass243Array2393 == null ? aClass243Array2392 : aClass243Array2393);
-	}
-
-	public Class243 method4386(int i, int i_0_) {
-		if (-254728301 * aClass243Array2392[0].anInt2504 >>> 16 != i >>> 16)
-			throw new IllegalArgumentException();
-		return aClass243Array2392[i & 0xffff];
-	}
-
-	public Class243[] method4387(int i) {
-		if (null == aClass243Array2393) {
-			int i_1_ = aClass243Array2392.length;
-			aClass243Array2393 = new Class243[i_1_];
-			System.arraycopy(aClass243Array2392, 0, aClass243Array2393, 0, aClass243Array2392.length);
+	void method3380(Class258 class258) {
+		aClass258_2453 = class258;
+		anInt2450 = aClass258_2453.method3563(16);
+		anInt2446 = aClass258_2453.method3563(24);
+		anInt2447 = aClass258_2453.method3563(24);
+		anInt2448 = aClass258_2453.method3563(24) + 1;
+		anInt2445 = aClass258_2453.method3563(6) + 1;
+		anInt2449 = aClass258_2453.method3563(8);
+		if (anIntArray2452 == null || anIntArray2452.length != anInt2445)
+			anIntArray2452 = new int[anInt2445];
+		for (int i = 0; i < anInt2445; i++) {
+			int i_0_ = 0;
+			int i_1_ = aClass258_2453.method3563(3);
+			boolean bool = aClass258_2453.method3590() != 0;
+			if (bool)
+				i_0_ = aClass258_2453.method3563(5);
+			anIntArray2452[i] = i_0_ << 3 | i_1_;
 		}
-		return aClass243Array2393;
+		if (anIntArray2451 == null || anIntArray2451.length != anInt2445 * 8)
+			anIntArray2451 = new int[anInt2445 * 8];
+		for (int i = 0; i < anInt2445 * 8; i++)
+			anIntArray2451[i] = ((anIntArray2452[i >> 3] & 1 << (i & 0x7)) != 0 ? aClass258_2453.method3563(8) : -1);
 	}
 
-	public Class243[] method4388() {
-		return (aClass243Array2393 == null ? aClass243Array2392 : aClass243Array2393);
-	}
-
-	Class240(boolean bool, Class243[] class243s) {
-		aClass243Array2392 = class243s;
-		aBool2394 = bool;
-	}
-
-	public Class243[] method4389() {
-		if (null == aClass243Array2393) {
-			int i = aClass243Array2392.length;
-			aClass243Array2393 = new Class243[i];
-			System.arraycopy(aClass243Array2392, 0, aClass243Array2393, 0, aClass243Array2392.length);
+	void method3381(int[] is) {
+		if (is != null) {
+			for (int i = 0; i < is.length; i++)
+				is[i] = 0;
 		}
-		return aClass243Array2393;
 	}
 
-	public Class243 method4390(int i) {
-		if (-254728301 * aClass243Array2392[0].anInt2504 >>> 16 != i >>> 16)
-			throw new IllegalArgumentException();
-		return aClass243Array2392[i & 0xffff];
-	}
-
-	public Class243[] method4391() {
-		if (null == aClass243Array2393) {
-			int i = aClass243Array2392.length;
-			aClass243Array2393 = new Class243[i];
-			System.arraycopy(aClass243Array2392, 0, aClass243Array2393, 0, aClass243Array2392.length);
+	Class235[] method3382(Class235[] class235s, int i, boolean[] bools) {
+		int i_2_ = class235s.length;
+		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
+			if (!bools[i_3_]) {
+				for (int i_4_ = 0; i_4_ < i; i_4_++)
+					class235s[i_3_].aFloatArray2382[i_4_] = 0.0F;
+			}
 		}
-		return aClass243Array2393;
+		int i_5_ = aClass258_2453.aClass253Array2785[anInt2449].anInt2748;
+		int i_6_ = anInt2447 - anInt2446;
+		int i_7_ = i_6_ / anInt2448;
+		if (anIntArrayArray2454 == null || anIntArrayArray2454.length != i_2_ || anIntArrayArray2454[0].length != i_7_)
+			anIntArrayArray2454 = new int[i_2_][i_7_];
+		else {
+			for (int i_8_ = 0; i_8_ < i_2_; i_8_++)
+				method3381(anIntArrayArray2454[i_8_]);
+		}
+		for (int i_9_ = 0; i_9_ < 8; i_9_++) {
+			int i_10_ = 0;
+			while (i_10_ < i_7_) {
+				if (i_9_ == 0) {
+					for (int i_11_ = 0; i_11_ < i_2_; i_11_++) {
+						if (!bools[i_11_]) {
+							int i_12_ = aClass258_2453.aClass253Array2785[anInt2449].method3528(aClass258_2453);
+							for (int i_13_ = i_5_ - 1; i_13_ >= 0; i_13_--) {
+								if (i_10_ + i_13_ < i_7_)
+									anIntArrayArray2454[i_11_][i_10_ + i_13_] = i_12_ % anInt2445;
+								i_12_ /= anInt2445;
+							}
+						}
+					}
+				}
+				for (int i_14_ = 0; i_14_ < i_5_; i_14_++) {
+					for (int i_15_ = 0; i_15_ < i_2_; i_15_++) {
+						if (!bools[i_15_]) {
+							int i_16_ = anIntArrayArray2454[i_15_][i_10_];
+							int i_17_ = anIntArray2451[i_16_ * 8 + i_9_];
+							if (i_17_ >= 0) {
+								int i_18_ = anInt2446 + i_10_ * anInt2448;
+								Class253 class253 = aClass258_2453.aClass253Array2785[i_17_];
+								if (anInt2450 == 0) {
+									int i_19_ = anInt2448 / class253.anInt2748;
+									for (int i_20_ = 0; i_20_ < i_19_; i_20_++) {
+										float[] fs = class253.method3529(aClass258_2453);
+										for (int i_21_ = 0; i_21_ < class253.anInt2748; i_21_++)
+											class235s[i_15_].aFloatArray2382[i_18_ + i_20_ + i_21_ * i_19_] += fs[i_21_];
+									}
+								} else if (anInt2450 == 1 || anInt2450 == 2) {
+									int i_22_ = 0;
+									while (i_22_ < anInt2448) {
+										float[] fs = class253.method3529(aClass258_2453);
+										for (int i_23_ = 0; i_23_ < class253.anInt2748; i_23_++) {
+											class235s[i_15_].aFloatArray2382[i_18_ + i_22_] += fs[i_23_];
+											i_22_++;
+										}
+									}
+								}
+							}
+						}
+					}
+					if (++i_10_ >= i_7_)
+						break;
+				}
+			}
+		}
+		return class235s;
 	}
 
-	static final void method4392(Class665 class665, byte i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class160.method2581(class243, class240, class665, -2085704870);
-	}
-
-	public static String method4393(CharSequence charsequence, int i) {
-		String string = Class670.method13762(Class687.method13960(charsequence, 1440439848));
-		if (null == string)
-			string = "";
-		return string;
-	}
-
-	static Class149[] method4394(int i) {
-		return (new Class149[] { Class149.aClass149_1673, Class149.aClass149_1679, Class149.aClass149_1677, Class149.aClass149_1674, Class149.aClass149_1681, Class149.aClass149_1678, Class149.aClass149_1676 });
+	void method3383(int[] is) {
+		if (is != null) {
+			for (int i = 0; i < is.length; i++)
+				is[i] = 0;
+		}
 	}
 }

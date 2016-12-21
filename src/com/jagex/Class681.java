@@ -3,99 +3,127 @@
  */
 package com.jagex;
 
-public class Class681 implements Interface76 {
-	public static Class681 aClass681_8633;
-	public static Class681 aClass681_8634;
-	public static Class681 aClass681_8635;
-	public static Class681 aClass681_8636;
-	public int anInt8637;
-	public static Class681 aClass681_8638 = new Class681(6, 0);
-	public static Class681 aClass681_8639;
-	public static Class681 aClass681_8640;
-	public static Class681 aClass681_8641;
-	int anInt8642;
-	public static Class459 aClass459_8643;
-	public static Class554 aClass554_8644;
+public abstract class Class681 implements Interface6 {
+	Class461 aClass461_8645;
+	Class199 aClass199_8646 = new Class199(60);
+	int anInt8647;
+	static int anInt8648;
 
-	public int method91() {
-		return 325637255 * anInt8642;
-	}
-
-	public int method87() {
-		return 325637255 * anInt8642;
-	}
-
-	public int method42() {
-		return 325637255 * anInt8642;
-	}
-
-	static {
-		aClass681_8633 = new Class681(2, 1);
-		aClass681_8635 = new Class681(3, 2);
-		aClass681_8636 = new Class681(1, 3);
-		aClass681_8641 = new Class681(5, 4);
-		aClass681_8634 = new Class681(0, 5);
-		aClass681_8639 = new Class681(7, 6);
-		aClass681_8640 = new Class681(4, 7);
-	}
-
-	public Class681 method13906(int i) {
-		switch (-538279681 * anInt8637) {
-		case 3:
-			return aClass681_8639;
-		case 6:
-			return aClass681_8641;
-		case 4:
-			return aClass681_8636;
-		case 7:
-			return aClass681_8635;
-		case 5:
-			return aClass681_8638;
-		case 1:
-			return aClass681_8640;
-		case 2:
-			return aClass681_8634;
-		case 0:
-			return aClass681_8633;
-		default:
-			throw new IllegalStateException();
+	void method8074() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2892(327358577);
 		}
 	}
 
-	Class681(int i, int i_0_) {
-		anInt8637 = -1978368257 * i;
-		anInt8642 = i_0_ * -177229513;
-	}
-
-	public Class681 method13907() {
-		switch (-538279681 * anInt8637) {
-		case 3:
-			return aClass681_8639;
-		case 6:
-			return aClass681_8641;
-		case 4:
-			return aClass681_8636;
-		case 7:
-			return aClass681_8635;
-		case 5:
-			return aClass681_8638;
-		case 1:
-			return aClass681_8640;
-		case 2:
-			return aClass681_8634;
-		case 0:
-			return aClass681_8633;
-		default:
-			throw new IllegalStateException();
+	void method8075(int i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2883(i, -1094383149);
 		}
 	}
 
-	public static void method13908(Class653 class653, int i) {
-		if (Class378.aClass378_3927 == class653.aClass378_8385)
-			Class649.aClass358_8371 = new Class358_Sub1(class653);
-		else if (class653.aClass378_8385 == Class378.aClass378_3926)
-			Class649.aClass358_8371 = new Class358_Sub2(class653);
-		else
-			throw new RuntimeException();
+	void method8076(byte i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2884((byte) -111);
+		}
+	}
+
+	void method8077(int i, int i_0_) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2883(i, -2143555282);
+		}
+	}
+
+	void method8078(int i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2892(1804064320);
+		}
+	}
+
+	void method8079(int i, byte i_1_) {
+		anInt8647 = -511302505 * i;
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2884((byte) -80);
+		}
+	}
+
+	void method8080() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2884((byte) -37);
+		}
+	}
+
+	void method8081(int i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2883(i, -2043273061);
+		}
+	}
+
+	void method8082(int i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2883(i, -1166909079);
+		}
+	}
+
+	void method8083(int i) {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2883(i, -1384188973);
+		}
+	}
+
+	Class681(Class461 class461) {
+		aClass461_8645 = class461;
+	}
+
+	void method8084() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2892(58755416);
+		}
+	}
+
+	void method8085(int i) {
+		anInt8647 = -511302505 * i;
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2884((byte) -38);
+		}
+	}
+
+	void method8086() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2884((byte) -67);
+		}
+	}
+
+	void method8087() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2892(2086959854);
+		}
+	}
+
+	void method8088() {
+		synchronized (aClass199_8646) {
+			aClass199_8646.method2892(-134282122);
+		}
+	}
+
+	public static final Class536_Sub36 method8089(int i, Class536_Sub36 class536_sub36, int[] is, boolean bool, int i_2_) {
+		Class536_Sub36 class536_sub36_3_ = (Class536_Sub36) client.aClass4_11008.method556((long) i);
+		if (class536_sub36_3_ != null)
+			Class398.method4903(class536_sub36_3_, (-358726121 * class536_sub36.anInt10634 != class536_sub36_3_.anInt10634 * -358726121), bool, 1759806773);
+		client.aClass4_11008.method560(class536_sub36, (long) i);
+		Class261.method3624(class536_sub36.anInt10634 * -358726121, is, 155454246);
+		Class251 class251 = Class264.method3678(i, -689214737);
+		if (class251 != null)
+			Class668.method8011(class251, 263642117);
+		if (client.aClass251_11057 != null) {
+			Class668.method8011(client.aClass251_11057, 263642117);
+			client.aClass251_11057 = null;
+		}
+		if (null != class251)
+			Class499.method6023((Class463.aClass234Array5227[-1591767037 * class251.anInt2559 >>> 16]), class251, !bool, (byte) -125);
+		if (!bool)
+			Class668.method8010(class536_sub36.anInt10634 * -358726121, is, 802158478);
+		if (!bool && -1 != -1959825479 * client.anInt11187)
+			Class205.method2950(-1959825479 * client.anInt11187, 1, -870807069);
+		return class536_sub36;
 	}
 }

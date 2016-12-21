@@ -3,10 +3,12 @@
  */
 package com.jagex;
 
-public interface Interface56 {
-	public void method361(Object object, float[] fs, Object[] objects, int i);
+public interface Interface56 extends Interface22, Interface21 {
+	public void method363(int i);
 
-	public void method362(Object object, float[] fs, Object[] objects);
+	public void method89(int i);
 
-	public void method363(Object object, float[] fs, Object[] objects);
+	public void method90(int i);
+
+	public void method56(int i);
 }

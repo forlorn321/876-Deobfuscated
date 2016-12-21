@@ -3,253 +3,347 @@
  */
 package com.jagex;
 
+import java.awt.Image;
+
 public final class Class655 {
-	static void method10916(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 1219217783)).anIntArray2838[class665.anIntArray8525[1769813785 * class665.anInt8526 - 1]]);
-		class665.anInt8526 -= 102380841;
+	public static Image anImage8495;
+	public static int anInt8496;
+
+	static void method7886(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -112)).aStringArray3042[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10917(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 1965465917)).aString2839;
+	static void method7887(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -106));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3036 ? 0 : class277.anIntArray3036.length);
 	}
 
-	static void method10918(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 1757659632)).aString2839;
+	static void method7888(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -27)).anInt3031 * -269064123);
 	}
 
-	static void method10919(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -1914869819)).aString2839;
+	static void method7889(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -66)).anInt3031 * -269064123);
 	}
 
-	static void method10920(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 61872591)).aString2839;
+	static void method7890(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -62)).aBool3033 ? 1 : 0);
 	}
 
-	static void method10921(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -1266355713)).anInt2833 * -1278903187);
+	static void method7891(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) -49)).anInt3038 * -805412769);
 	}
 
-	static void method10922(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), 277671584)).anInt2833 * -1278903187);
+	static void method7892(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 50)).anInt3038 * -805412769);
 	}
 
-	static void method10923(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), 1008786475)).anInt2829 * 1215109845);
+	static void method7893(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) -69)).anInt3038 * -805412769);
 	}
 
-	static void method10924(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), 26809067)).aBool2835 ? 1 : 0);
+	static void method7894(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -36));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3036 ? 0 : class277.anIntArray3036.length);
+	}
+
+	static void method7895(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 20)).method3746(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], -1709330760)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7896(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 59));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3043 ? 0 : class277.anIntArray3043.length);
+	}
+
+	static void method7897(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 7)).anIntArray3036[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7898(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 4)).method3747(Class465_Sub1.aClass96_10352, class668.anIntArray8541[1867269829 * class668.anInt8542 - 1], -1997599187)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7899(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -107)).method3745(Class465_Sub1.aClass96_10352, -128835200) ? 1 : 0);
+	}
+
+	static void method7900(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 41)).anInt3032 * -829215053);
+	}
+
+	static void method7901(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) -9)).anInt3032 * -829215053);
+	}
+
+	static void method7902(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 44)).anIntArray3036[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7903(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 100)).method3749(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], 1830619900)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7904(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 85)).method3745(Class465_Sub1.aClass96_10352, 2092459088) ? 1 : 0);
+	}
+
+	static void method7905(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -22)).aStringArray3042[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anInt8542 -= 1472892954;
+	}
+
+	static void method7906(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -72));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
+	}
+
+	static void method7907(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 31));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
+	}
+
+	static void method7908(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -15));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
+	}
+
+	static void method7909(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 100)).anInt3038 * -805412769);
+	}
+
+	static void method7910(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -3)).anIntArrayArray3037[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]][0]);
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7911(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -97)).anIntArrayArray3037[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]][0]);
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7912(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 57)).anIntArrayArray3037[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]][1]);
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7913(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 58)).aStringArray3042[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anInt8542 -= 1472892954;
+	}
+
+	static void method7914(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 10)).anInt3032 * -829215053);
+	}
+
+	static void method7915(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 110)).method3746(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], -2096194770)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
+	}
+
+	static void method7916(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 4));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class277.anIntArray3044 == null ? 0 : class277.anIntArray3044.length);
 	}
 
 	Class655() throws Throwable {
 		throw new Error();
 	}
 
-	static void method10925(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 555588021)).anIntArrayArray2844[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]][0]);
-		class665.anInt8526 -= 102380841;
+	static void method7917(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 112));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class277.anIntArray3044 == null ? 0 : class277.anIntArray3044.length);
 	}
 
-	static void method10926(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -468889115)).anInt2831 * -1997826637);
+	static void method7918(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -54));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class277.anIntArray3044 == null ? 0 : class277.anIntArray3044.length);
 	}
 
-	static void method10927(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -374750337));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2838 ? 0 : class259.anIntArray2838.length);
+	static void method7919(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 18)).method3746(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], -1697710184)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10928(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), -1657989094)).method4755(Class671.aClass97_8584, class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1], -1767165898)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
+	static void method7920(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -51)).method3745(Class465_Sub1.aClass96_10352, 1842559380) ? 1 : 0);
 	}
 
-	static void method10929(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -1659233084));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2838 ? 0 : class259.anIntArray2838.length);
+	static void method7921(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -73));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class277.anIntArray3044 == null ? 0 : class277.anIntArray3044.length);
 	}
 
-	static void method10930(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -226042643));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2838 ? 0 : class259.anIntArray2838.length);
+	static void method7922(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 45)).method3748(Class465_Sub1.aClass96_10352, class668.anIntArray8541[1867269829 * class668.anInt8542 - 1], (byte) 72)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10931(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -2139804117));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2845 ? 0 : class259.anIntArray2845.length);
+	static void method7923(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -3)).method3748(Class465_Sub1.aClass96_10352, class668.anIntArray8541[1867269829 * class668.anInt8542 - 1], (byte) 21)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10932(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 123121999)).anIntArray2838[class665.anIntArray8525[1769813785 * class665.anInt8526 - 1]]);
-		class665.anInt8526 -= 102380841;
+	static void method7924(Class668 class668) {
+		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -43));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3043 ? 0 : class277.anIntArray3043.length);
 	}
 
-	static void method10933(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), -1718417743)).method4774(Class671.aClass97_8584, -1414979502) ? 1 : 0;
+	static void method7925(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -15)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10934(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), -264784673)).method4752(Class671.aClass97_8584, class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1], 652356000)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
+	static void method7926(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 56)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10935(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -1706799157)).aBool2835 ? 1 : 0);
+	static void method7927(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 7)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10936(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 541262734));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2838 ? 0 : class259.anIntArray2838.length);
+	static void method7928(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 63)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10937(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), 1134756297)).anInt2829 * 1215109845);
+	static void method7929(Class668 class668) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -68)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method10938(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -1015225965)).anInt2833 * -1278903187);
+	static void method7930(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -68)).method3749(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], 1692808347)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10939(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), 179340296)).method4750(Class671.aClass97_8584, (byte) 1) ? 1 : 0;
+	static void method7931(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 23)).method3747(Class465_Sub1.aClass96_10352, class668.anIntArray8541[1867269829 * class668.anInt8542 - 1], -1607848217)) ? 1 : 0;
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10940(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), 11397471)).method4750(Class671.aClass97_8584, (byte) 1) ? 1 : 0;
+	static void method7932(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 33)).method3744(Class465_Sub1.aClass96_10352, (byte) -57) ? 1 : 0);
 	}
 
-	static void method10941(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -409800762));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (class259.anIntArrayArray2844 == null ? 0 : class259.anIntArrayArray2844.length);
+	static void method7933(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 54)).anIntArrayArray3037[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]][0]);
+		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method10942(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 1393220294));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (class259.anIntArrayArray2844 == null ? 0 : class259.anIntArrayArray2844.length);
+	static void method7934(Class668 class668) {
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -3)).aBool3033 ? 1 : 0);
 	}
 
-	static void method10943(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -595634369));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2845 ? 0 : class259.anIntArray2845.length);
+	static void method7935(Class668 class668) {
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 51)).method3745(Class465_Sub1.aClass96_10352, -184342769) ? 1 : 0);
 	}
 
-	static void method10944(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 131411718)).anIntArrayArray2844[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]][0]);
-		class665.anInt8526 -= 102380841;
+	static final void method7936(Class668 class668, byte i) {
+		Class153 class153 = (Class153) (class668.aClass536_Sub18_Sub16_8547.anObjectArray11796[-1640738851 * class668.anInt8564]);
+		Interface19 interface19 = ((Interface19) (class668.anIntArray8537[class668.anInt8564 * -1640738851] == 0 ? class668.aMap8557.get(class153.aClass458_1717) : class668.aMap8558.get(class153.aClass458_1717)));
+		Class478 class478 = class153.aClass453_1716.method5437(65280);
+		if (Class478.aClass478_5385 == class478) {
+			if (class153.aClass458_1717 == Class458.aClass458_5167)
+				Class251.method3514(class153, (byte) 23);
+			interface19.method101(class153, class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], 371952478);
+		} else if (Class478.aClass478_5388 == class478)
+			interface19.method119(class153, class668.aLongArray8565[((class668.anInt8546 -= 1792517805) * 1346022693)]);
+		else if (class478 == Class478.aClass478_5387) {
+			if (Class458.aClass458_5167 == class153.aClass458_1717)
+				Class250.method3464(class153, (byte) 0);
+			interface19.method105(class153, (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]), 2029604768);
+		} else
+			throw new RuntimeException();
 	}
 
-	static void method10945(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 739650558)).anIntArrayArray2844[class665.anIntArray8525[1769813785 * class665.anInt8526 - 1]][1]);
-		class665.anInt8526 -= 102380841;
+	static final void method7937(Class668 class668, int i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Class224) Class63.aClass226_717.method3220((byte) 15).get(i_0_)).method3204((byte) 13);
 	}
 
-	static void method10946(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 251205408)).anIntArrayArray2844[class665.anIntArray8525[1769813785 * class665.anInt8526 - 1]][1]);
-		class665.anInt8526 -= 102380841;
+	static void method7938(RSByteBuffer class536_sub33, long l) {
+		Class19 class19;
+		if (null != Class61.aString681 && Class61.aString681.length() == 6) {
+			if (Class61.aBool682)
+				class19 = Class19.aClass19_201;
+			else
+				class19 = Class19.aClass19_204;
+		} else if (Class218.aClass66_2307.method1065(l))
+			class19 = Class19.aClass19_203;
+		else
+			class19 = Class19.aClass19_200;
+		class536_sub33.writeByte(class19.method78(), 465637339);
+		switch (class19.anInt202 * -1562020825) {
+		case 2:
+			class536_sub33.off += 2064702060;
+			break;
+		case 1:
+		case 3:
+			class536_sub33.write24BitInt(Integer.parseInt(Class61.aString681), 1257028848);
+			class536_sub33.off += 516175515;
+			break;
+		case 0:
+			class536_sub33.writeInt(Class218.aClass66_2307.method1066(l), -149241618);
+			break;
+		}
 	}
 
-	static void method10947(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), -659988919)).anInt2829 * 1215109845);
+	static final void method7939(Class668 class668, int i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class536_Sub36 class536_sub36 = (Class536_Sub36) client.aClass4_11008.method556((long) i_1_);
+		if (class536_sub36 != null)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 
-	static void method10948(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), 872948894)).aStringArray2840[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]]);
-		class665.anInt8526 -= 204761682;
+	public static Object[] method7940(RSByteBuffer class536_sub33, Class453[] class453s, int i) {
+		int i_2_ = class536_sub33.method9690(1167748127);
+		Object[] objects = new Object[class453s.length * i_2_];
+		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
+			for (int i_4_ = 0; i_4_ < class453s.length; i_4_++) {
+				int i_5_ = i_4_ + i_3_ * class453s.length;
+				objects[i_5_] = class453s[i_4_].aClass478_5077.method5756(class536_sub33, (byte) -27);
+			}
+		}
+		return objects;
 	}
 
-	static void method10949(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), -1205908303)).aStringArray2840[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]]);
-		class665.anInt8526 -= 204761682;
-	}
-
-	static void method10950(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), 2007213286)).aStringArray2840[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]]);
-		class665.anInt8526 -= 204761682;
-	}
-
-	static void method10951(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), 52243111)).anInt2833 * -1278903187);
-	}
-
-	static void method10952(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), 368222668)).method4777(Class671.aClass97_8584, (byte) -101) ? 1 : 0;
-	}
-
-	static void method10953(Class665 class665) {
-		Class259 class259 = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), -1834605240));
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (null == class259.anIntArray2838 ? 0 : class259.anIntArray2838.length);
-	}
-
-	static void method10954(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), -731152992)).method4753(Class671.aClass97_8584, class665.anIntArray8525[1769813785 * class665.anInt8526 - 1], (short) 4430)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10955(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), -74460378)).method4753(Class671.aClass97_8584, class665.anIntArray8525[1769813785 * class665.anInt8526 - 1], (short) -4147)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10956(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), -737121591)).method4754(Class671.aClass97_8584, class665.anIntArray8525[1769813785 * class665.anInt8526 - 1], -1745399999)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10957(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), 616124368)).method4754(Class671.aClass97_8584, class665.anIntArray8525[1769813785 * class665.anInt8526 - 1], -1344651285)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10958(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), -2065208056)).method4754(Class671.aClass97_8584, class665.anIntArray8525[1769813785 * class665.anInt8526 - 1], -733022325)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10959(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), -416630476)).method4749(Class671.aClass97_8584, (byte) 16) ? 1 : 0;
-	}
-
-	static void method10960(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 2)]), 811328698)).method4752(Class671.aClass97_8584, class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1], -1146274700)) ? 1 : 0;
-		class665.anInt8526 -= 102380841;
-	}
-
-	static void method10961(Class665 class665) {
-		class665.anIntArray8525[1769813785 * class665.anInt8526 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), -1590077535)).method4774(Class671.aClass97_8584, -341612676) ? 1 : 0;
-	}
-
-	static void method10962(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -952286814)).method4777(Class671.aClass97_8584, (byte) -81) ? 1 : 0;
-	}
-
-	static void method10963(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), 169559870)).method4777(Class671.aClass97_8584, (byte) -33) ? 1 : 0;
-	}
-
-	static void method10964(Class665 class665) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -911699971)).method4777(Class671.aClass97_8584, (byte) -45) ? 1 : 0;
-	}
-
-	static void method10965(Class665 class665) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 2]), 1875725728)).aStringArray2848[class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1]]);
-		class665.anInt8526 -= 204761682;
-	}
-
-	static final void method10966(Class665 class665, byte i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = client.aClass72Array11301[i_0_].aBool788 ? 1 : 0;
-	}
-
-	public static Class389 method10967(RSByteBuffer class527_sub38, int i) {
-		Class389_Sub1 class389_sub1 = (Class389_Sub1) Class624.method10334(class527_sub38, -2260547);
-		int i_1_ = class527_sub38.readShort();
-		return new Class389_Sub1_Sub1(class389_sub1.aClass400_3991, class389_sub1.aClass384_3994, -1339829793 * class389_sub1.anInt3993, class389_sub1.anInt3992 * -827519441, -236249659 * class389_sub1.anInt3995, 1859543809 * class389_sub1.anInt3996, class389_sub1.anInt3997 * 449413251, -1063745743 * class389_sub1.anInt3998, class389_sub1.anInt3999 * 1002599463, class389_sub1.anInt10112 * 1082128989, class389_sub1.anInt10111 * -1176530653, class389_sub1.anInt10110 * -1307425539,
-				-636096087 * class389_sub1.anInt10113, class389_sub1.anInt10114 * 624340549, class389_sub1.anInt10115 * -1816405697, i_1_);
-	}
-
-	static final void method10968(Class665 class665, int i) {
-		class665.anInt8530 -= 65273226;
-		if (class665.aLongArray8529[-2076258291 * class665.anInt8530] == class665.aLongArray8529[1 + class665.anInt8530 * -2076258291])
-			class665.anInt8527 += (-1038991169 * class665.anIntArray8545[891367231 * class665.anInt8527]);
+	static void method7941(String[] strings, int[] is, int i, int i_6_, int i_7_) {
+		if (i < i_6_) {
+			int i_8_ = (i + i_6_) / 2;
+			int i_9_ = i;
+			String string = strings[i_8_];
+			strings[i_8_] = strings[i_6_];
+			strings[i_6_] = string;
+			int i_10_ = is[i_8_];
+			is[i_8_] = is[i_6_];
+			is[i_6_] = i_10_;
+			for (int i_11_ = i; i_11_ < i_6_; i_11_++) {
+				if (null == string || (strings[i_11_] != null && strings[i_11_].compareTo(string) < (i_11_ & 0x1))) {
+					String string_12_ = strings[i_11_];
+					strings[i_11_] = strings[i_9_];
+					strings[i_9_] = string_12_;
+					int i_13_ = is[i_11_];
+					is[i_11_] = is[i_9_];
+					is[i_9_++] = i_13_;
+				}
+			}
+			strings[i_6_] = strings[i_9_];
+			strings[i_9_] = string;
+			is[i_6_] = is[i_9_];
+			is[i_9_] = i_10_;
+			method7941(strings, is, i, i_9_ - 1, 1322872857);
+			method7941(strings, is, i_9_ + 1, i_6_, -1090416810);
+		}
 	}
 }

@@ -3,166 +3,144 @@
  */
 package com.jagex;
 
-public class Class441 {
-	public float aFloat4910;
-	public float aFloat4911;
-	public float aFloat4912;
-	public float aFloat4913;
+public class Class441 implements Interface5 {
+	Class461 aClass461_4875;
+	String aString4876;
 
-	final void method7116() {
-		aFloat4910 = 0.0F;
-		aFloat4912 = 0.0F;
-		aFloat4911 = 0.0F;
-		aFloat4913 = 0.0F;
+	public Class50 method49() {
+		return Class50.aClass50_581;
 	}
 
-	public final void method7117(Class427 class427) {
-		float f = aFloat4913;
-		float f_0_ = aFloat4911;
-		float f_1_ = aFloat4912;
-		float f_2_ = aFloat4910;
-		aFloat4913 = (class427.aFloatArray4807[0] * f + class427.aFloatArray4807[4] * f_0_ + class427.aFloatArray4807[8] * f_1_ + class427.aFloatArray4807[12] * f_2_);
-		aFloat4911 = (class427.aFloatArray4807[1] * f + class427.aFloatArray4807[5] * f_0_ + class427.aFloatArray4807[9] * f_1_ + class427.aFloatArray4807[13] * f_2_);
-		aFloat4912 = (class427.aFloatArray4807[2] * f + class427.aFloatArray4807[6] * f_0_ + class427.aFloatArray4807[10] * f_1_ + class427.aFloatArray4807[14] * f_2_);
-		aFloat4910 = (class427.aFloatArray4807[3] * f + class427.aFloatArray4807[7] * f_0_ + class427.aFloatArray4807[11] * f_1_ + class427.aFloatArray4807[15] * f_2_);
+	Class441(Class461 class461, String string) {
+		aClass461_4875 = class461;
+		aString4876 = string;
 	}
 
-	public void method7118(float f, float f_3_, float f_4_, float f_5_) {
-		aFloat4913 = f;
-		aFloat4911 = f_3_;
-		aFloat4912 = f_4_;
-		aFloat4910 = f_5_;
+	public Class50 method50(byte i) {
+		return Class50.aClass50_581;
 	}
 
-	public void method7119(Class441 class441_6_) {
-		method7118(class441_6_.aFloat4913, class441_6_.aFloat4911, class441_6_.aFloat4912, class441_6_.aFloat4910);
+	public int method47() {
+		if (aClass461_4875.method5602(aString4876, -531761284))
+			return 100;
+		return 0;
 	}
 
-	public final void method7120() {
-		aFloat4913 = -aFloat4913;
-		aFloat4911 = -aFloat4911;
-		aFloat4912 = -aFloat4912;
-		aFloat4910 = -aFloat4910;
+	public Class50 method46() {
+		return Class50.aClass50_581;
 	}
 
-	final void method7121() {
-		aFloat4910 = 0.0F;
-		aFloat4912 = 0.0F;
-		aFloat4911 = 0.0F;
-		aFloat4913 = 0.0F;
+	public Class50 method45() {
+		return Class50.aClass50_581;
 	}
 
-	public final void method7122() {
-		aFloat4913 = -aFloat4913;
-		aFloat4911 = -aFloat4911;
-		aFloat4912 = -aFloat4912;
-		aFloat4910 = -aFloat4910;
+	public int method48(int i) {
+		if (aClass461_4875.method5602(aString4876, -1501345660))
+			return 100;
+		return 0;
 	}
 
-	public Class441() {
-		method7121();
+	static void method5328(Class692 class692, short i) {
+		Exception_Sub3.aClass692_11348 = class692;
 	}
 
-	public final void method7123(Class427 class427) {
-		float f = aFloat4913;
-		float f_7_ = aFloat4911;
-		float f_8_ = aFloat4912;
-		float f_9_ = aFloat4910;
-		aFloat4913 = (class427.aFloatArray4807[0] * f + class427.aFloatArray4807[4] * f_7_ + class427.aFloatArray4807[8] * f_8_ + class427.aFloatArray4807[12] * f_9_);
-		aFloat4911 = (class427.aFloatArray4807[1] * f + class427.aFloatArray4807[5] * f_7_ + class427.aFloatArray4807[9] * f_8_ + class427.aFloatArray4807[13] * f_9_);
-		aFloat4912 = (class427.aFloatArray4807[2] * f + class427.aFloatArray4807[6] * f_7_ + class427.aFloatArray4807[10] * f_8_ + class427.aFloatArray4807[14] * f_9_);
-		aFloat4910 = (class427.aFloatArray4807[3] * f + class427.aFloatArray4807[7] * f_7_ + class427.aFloatArray4807[11] * f_8_ + class427.aFloatArray4807[15] * f_9_);
+	static final void method5329(Class668 class668, int i) {
+		throw new RuntimeException("");
 	}
 
-	public String toString() {
-		return new StringBuilder().append(aFloat4913).append(",").append(aFloat4911).append(",").append(aFloat4912).append(",").append(aFloat4910).toString();
+	static final void method5330(int i) {
+		Class668.method8011(client.aClass251_10992, 263642117);
+		Class360.anInt3827 += 822231753;
+		if (!client.aBool11208 || !client.aBool11274) {
+			if (Class360.anInt3827 * 2018211705 > 1) {
+				client.aClass251_10992 = null;
+				client.aClass251_11199 = null;
+			}
+		} else {
+			int i_0_ = Class329.aClass550_3601.method6656(-1012647454);
+			int i_1_ = Class329.aClass550_3601.method6657(-1933284303);
+			i_0_ -= -1721422785 * client.anInt11281;
+			i_1_ -= client.anInt11201 * 671669755;
+			if (i_0_ < client.anInt11204 * 1828303855)
+				i_0_ = client.anInt11204 * 1828303855;
+			if (client.aClass251_10992.anInt2573 * -1606950689 + i_0_ > (171675909 * client.anInt11206 + 1828303855 * client.anInt11204))
+				i_0_ = (client.anInt11204 * 1828303855 + client.anInt11206 * 171675909 - -1606950689 * client.aClass251_10992.anInt2573);
+			if (i_1_ < client.anInt11205 * 1260646355)
+				i_1_ = client.anInt11205 * 1260646355;
+			if (client.aClass251_10992.anInt2574 * 223822141 + i_1_ > (1260646355 * client.anInt11205 + client.anInt11207 * 904217971))
+				i_1_ = (904217971 * client.anInt11207 + client.anInt11205 * 1260646355 - client.aClass251_10992.anInt2574 * 223822141);
+			int i_2_;
+			int i_3_;
+			if (Class107.aClass251_1323 == client.aClass251_11199) {
+				i_2_ = i_0_;
+				i_3_ = i_1_;
+			} else {
+				i_2_ = (client.aClass251_11199.anInt2581 * 1428895931 + (i_0_ - 1828303855 * client.anInt11204));
+				i_3_ = (client.aClass251_11199.anInt2584 * -2092413585 + (i_1_ - client.anInt11205 * 1260646355));
+			}
+			if (!Class329.aClass550_3601.method6655((short) 255)) {
+				if (client.aBool11121) {
+					Class270.method3717(-919424081);
+					if (null != client.aClass251_10992.anObjectArray2676) {
+						Class536_Sub42 class536_sub42 = new Class536_Sub42();
+						class536_sub42.aClass251_10804 = client.aClass251_10992;
+						class536_sub42.anInt10803 = 1761425895 * i_2_;
+						class536_sub42.anInt10800 = -1275012151 * i_3_;
+						Class251 class251 = client.method10382(client.aClass251_10992);
+						Class251 class251_4_ = client.aClass251_11202;
+						boolean bool = false;
+						for (/**/; (null != class251_4_ && -1 != class251_4_.anInt2577 * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].aClass251Array2378[(-1940204141 * class251_4_.anInt2577 & 0xffff)])) {
+							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_4_.anInt2559) {
+								bool = true;
+								break;
+							}
+						}
+						if (null != class251_4_ && null != class251 && class251 != Class107.aClass251_1323 && !bool)
+							class536_sub42.aClass251_10806 = Class107.aClass251_1323;
+						else
+							class536_sub42.aClass251_10806 = client.aClass251_11202;
+						class536_sub42.anObjectArray10802 = client.aClass251_10992.anObjectArray2676;
+						Class618.method7388(class536_sub42, -1442250412);
+					}
+					if (client.aClass251_11202 != null && client.method10382(client.aClass251_10992) != null)
+						Class578.method7008(client.aClass251_10992, client.aClass251_11202, -2145704482);
+				} else if ((1 == 1862126853 * client.anInt11040 || Class622.method7417((byte) -67)) && 1780207751 * Class70.anInt760 > 2)
+					Class670.method8014((client.anInt11209 * 1961670097 + client.anInt11281 * -1721422785), (client.anInt11210 * 411701121 + client.anInt11201 * 671669755), -1978761146);
+				else if (Class536_Sub15.method9518(419371655))
+					Class670.method8014((1961670097 * client.anInt11209 + -1721422785 * client.anInt11281), (411701121 * client.anInt11210 + 671669755 * client.anInt11201), 937499902);
+				client.aClass251_10992 = null;
+				client.aClass251_11199 = null;
+			} else {
+				if (Class360.anInt3827 * 2018211705 > client.aClass251_10992.anInt2663 * 1330942333) {
+					int i_5_ = i_0_ - 1961670097 * client.anInt11209;
+					int i_6_ = i_1_ - 411701121 * client.anInt11210;
+					if (i_5_ > 632017109 * client.aClass251_10992.anInt2600 || i_5_ < -(632017109 * client.aClass251_10992.anInt2600) || i_6_ > 632017109 * client.aClass251_10992.anInt2600 || i_6_ < -(client.aClass251_10992.anInt2600 * 632017109))
+						client.aBool11121 = true;
+				}
+				if (null != client.aClass251_10992.anObjectArray2675 && client.aBool11121) {
+					Class536_Sub42 class536_sub42 = new Class536_Sub42();
+					class536_sub42.aClass251_10804 = client.aClass251_10992;
+					class536_sub42.anInt10803 = i_2_ * 1761425895;
+					class536_sub42.anInt10800 = -1275012151 * i_3_;
+					class536_sub42.anObjectArray10802 = client.aClass251_10992.anObjectArray2675;
+					Class618.method7388(class536_sub42, 307961802);
+				}
+			}
+		}
 	}
 
-	public String method7124() {
-		return new StringBuilder().append(aFloat4913).append(",").append(aFloat4911).append(",").append(aFloat4912).append(",").append(aFloat4910).toString();
+	static final void method5331(Class668 class668, int i) {
+		class668.anInt8542 -= 1472892954;
+		int i_7_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_8_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aClass485ArrayArray11266[i_8_][i_7_].method5850(-49644043);
 	}
 
-	public void method7125(int i) {
-		method7118((float) (i >> 16 & 0xff) * 0.003921569F, (float) (i >> 8 & 0xff) * 0.003921569F, (float) (i >> 0 & 0xff) * 0.003921569F, (float) (i >> 24 & 0xff) * 0.003921569F);
-	}
-
-	public void method7126(int i) {
-		method7118((float) (i >> 16 & 0xff) * 0.003921569F, (float) (i >> 8 & 0xff) * 0.003921569F, (float) (i >> 0 & 0xff) * 0.003921569F, (float) (i >> 24 & 0xff) * 0.003921569F);
-	}
-
-	final void method7127() {
-		aFloat4910 = 0.0F;
-		aFloat4912 = 0.0F;
-		aFloat4911 = 0.0F;
-		aFloat4913 = 0.0F;
-	}
-
-	public final void method7128(float f) {
-		aFloat4913 *= f;
-		aFloat4911 *= f;
-		aFloat4912 *= f;
-		aFloat4910 *= f;
-	}
-
-	public Class441(float f, float f_10_, float f_11_, float f_12_) {
-		method7118(f, f_10_, f_11_, f_12_);
-	}
-
-	public final void method7129(Class427 class427) {
-		float f = aFloat4913;
-		float f_13_ = aFloat4911;
-		float f_14_ = aFloat4912;
-		float f_15_ = aFloat4910;
-		aFloat4913 = (class427.aFloatArray4807[0] * f + class427.aFloatArray4807[4] * f_13_ + class427.aFloatArray4807[8] * f_14_ + class427.aFloatArray4807[12] * f_15_);
-		aFloat4911 = (class427.aFloatArray4807[1] * f + class427.aFloatArray4807[5] * f_13_ + class427.aFloatArray4807[9] * f_14_ + class427.aFloatArray4807[13] * f_15_);
-		aFloat4912 = (class427.aFloatArray4807[2] * f + class427.aFloatArray4807[6] * f_13_ + class427.aFloatArray4807[10] * f_14_ + class427.aFloatArray4807[14] * f_15_);
-		aFloat4910 = (class427.aFloatArray4807[3] * f + class427.aFloatArray4807[7] * f_13_ + class427.aFloatArray4807[11] * f_14_ + class427.aFloatArray4807[15] * f_15_);
-	}
-
-	public final void method7130(float f) {
-		aFloat4913 *= f;
-		aFloat4911 *= f;
-		aFloat4912 *= f;
-		aFloat4910 *= f;
-	}
-
-	public final void method7131(float f) {
-		aFloat4913 *= f;
-		aFloat4911 *= f;
-		aFloat4912 *= f;
-		aFloat4910 *= f;
-	}
-
-	public void method7132(int i) {
-		method7118((float) (i >> 16 & 0xff) * 0.003921569F, (float) (i >> 8 & 0xff) * 0.003921569F, (float) (i >> 0 & 0xff) * 0.003921569F, (float) (i >> 24 & 0xff) * 0.003921569F);
-	}
-
-	public final void method7133(Class427 class427) {
-		float f = aFloat4913;
-		float f_16_ = aFloat4911;
-		float f_17_ = aFloat4912;
-		float f_18_ = aFloat4910;
-		aFloat4913 = (class427.aFloatArray4807[0] * f + class427.aFloatArray4807[4] * f_16_ + class427.aFloatArray4807[8] * f_17_ + class427.aFloatArray4807[12] * f_18_);
-		aFloat4911 = (class427.aFloatArray4807[1] * f + class427.aFloatArray4807[5] * f_16_ + class427.aFloatArray4807[9] * f_17_ + class427.aFloatArray4807[13] * f_18_);
-		aFloat4912 = (class427.aFloatArray4807[2] * f + class427.aFloatArray4807[6] * f_16_ + class427.aFloatArray4807[10] * f_17_ + class427.aFloatArray4807[14] * f_18_);
-		aFloat4910 = (class427.aFloatArray4807[3] * f + class427.aFloatArray4807[7] * f_16_ + class427.aFloatArray4807[11] * f_17_ + class427.aFloatArray4807[15] * f_18_);
-	}
-
-	public final void method7134() {
-		aFloat4913 = -aFloat4913;
-		aFloat4911 = -aFloat4911;
-		aFloat4912 = -aFloat4912;
-		aFloat4910 = -aFloat4910;
-	}
-
-	public final void method7135(Class427 class427) {
-		float f = aFloat4913;
-		float f_19_ = aFloat4911;
-		float f_20_ = aFloat4912;
-		float f_21_ = aFloat4910;
-		aFloat4913 = (class427.aFloatArray4807[0] * f + class427.aFloatArray4807[4] * f_19_ + class427.aFloatArray4807[8] * f_20_ + class427.aFloatArray4807[12] * f_21_);
-		aFloat4911 = (class427.aFloatArray4807[1] * f + class427.aFloatArray4807[5] * f_19_ + class427.aFloatArray4807[9] * f_20_ + class427.aFloatArray4807[13] * f_21_);
-		aFloat4912 = (class427.aFloatArray4807[2] * f + class427.aFloatArray4807[6] * f_19_ + class427.aFloatArray4807[10] * f_20_ + class427.aFloatArray4807[14] * f_21_);
-		aFloat4910 = (class427.aFloatArray4807[3] * f + class427.aFloatArray4807[7] * f_19_ + class427.aFloatArray4807[11] * f_20_ + class427.aFloatArray4807[15] * f_21_);
+	public static Class308 method5332(int i, byte i_9_) {
+		if (-388744715 * Class308.aClass308_3456.anInt3455 == i)
+			return Class308.aClass308_3456;
+		if (Class308.aClass308_3457.anInt3455 * -388744715 == i)
+			return Class308.aClass308_3457;
+		return null;
 	}
 }

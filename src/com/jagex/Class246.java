@@ -3,76 +3,64 @@
  */
 package com.jagex;
 
-public class Class246 implements Interface76 {
-	int anInt2699;
-	static Class246 aClass246_2700;
-	static Class246 aClass246_2701;
-	static Class246 aClass246_2702;
-	static Class246 aClass246_2703;
-	static Class246 aClass246_2704;
-	static Class246 aClass246_2705;
-	static Class246 aClass246_2706;
-	static Class246 aClass246_2707;
-	static Class246 aClass246_2708;
-	static Class246 aClass246_2709 = new Class246(15, 100);
-	static Class246 aClass246_2710;
-	static Class246 aClass246_2711;
-	static Class246 aClass246_2712;
-	static Class246 aClass246_2713;
-	static Class246 aClass246_2714;
-	static Class246 aClass246_2715;
-	static Class246 aClass246_2716;
-	int anInt2717;
-	static Class246 aClass246_2718;
+public class Class246 implements Interface75 {
+	static int anInt2466;
+	static Class246 aClass246_2467;
+	static Class246 aClass246_2468;
+	static Class246 aClass246_2469;
+	static Class246 aClass246_2470 = new Class246(0, 0);
+	int anInt2471;
+	int anInt2472;
+	public static Class466 aClass466_2473;
+	public static int anInt2474;
+	static int anInt2475;
 
-	public int method91() {
-		return 857692145 * anInt2699;
-	}
-
-	Class246(int i, int i_0_) {
-		anInt2717 = i * -1689356029;
-		anInt2699 = 675199249 * i_0_;
+	public int method73() {
+		return 122144917 * anInt2471;
 	}
 
 	static {
-		aClass246_2700 = new Class246(11, 101);
-		aClass246_2705 = new Class246(9, 102);
-		aClass246_2704 = new Class246(14, 103);
-		aClass246_2703 = new Class246(5, 104);
-		aClass246_2715 = new Class246(17, 105);
-		aClass246_2713 = new Class246(10, 106);
-		aClass246_2706 = new Class246(2, 107);
-		aClass246_2707 = new Class246(16, 108);
-		aClass246_2708 = new Class246(6, 109);
-		aClass246_2701 = new Class246(4, 110);
-		aClass246_2710 = new Class246(0, 111);
-		aClass246_2718 = new Class246(8, 112);
-		aClass246_2712 = new Class246(3, 113);
-		aClass246_2716 = new Class246(7, 114);
-		aClass246_2714 = new Class246(1, 115);
-		aClass246_2702 = new Class246(12, 116);
-		aClass246_2711 = new Class246(13, 117);
+		aClass246_2467 = new Class246(1, 1);
+		aClass246_2468 = new Class246(3, 2);
+		aClass246_2469 = new Class246(2, 3);
 	}
 
-	public int method42() {
-		return 857692145 * anInt2699;
+	public int method78() {
+		return 122144917 * anInt2471;
 	}
 
-	public int method87() {
-		return 857692145 * anInt2699;
+	static Class246[] method3415(int i) {
+		return new Class246[] { aClass246_2470, aClass246_2467, aClass246_2469, aClass246_2468 };
 	}
 
-	public static boolean method4629(int i) {
-		Class527_Sub29 class527_sub29 = ((Class527_Sub29) Class34.aClass694_331.method14081((short) 15503));
-		if (class527_sub29 == null)
-			return false;
-		return true;
+	public int method12() {
+		return 122144917 * anInt2471;
 	}
 
-	static final void method4630(Class665 class665, byte i) {
-		Class526.method8733(class665.aClass640_Sub1_Sub2_Sub1_8522, (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]), true, (byte) 13);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) client.aFloatArray11139[0];
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) client.aFloatArray11139[1];
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (int) client.aFloatArray11139[2];
+	Class246(int i, int i_0_) {
+		anInt2472 = i * -254338549;
+		anInt2471 = -771702083 * i_0_;
+	}
+
+	static final void method3416(Class668 class668, int i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
+		Class520.method6351(class251, class234, class668, 2093598409);
+	}
+
+	static final void method3417(Class668 class668, byte i) {
+		Class683.aClass301_Sub1_8651.method4047((byte) 31);
+	}
+
+	public static void method3418(byte i) {
+		if ((9 == client.anInt11101 * -708374433 || client.anInt11101 * -708374433 == 10) && null != client.aClass106_11322) {
+			for (;;) {
+				Interface68 interface68 = (Interface68) Class586.aLinkedList7708.poll();
+				if (interface68 == null)
+					break;
+				interface68.method206(1196366798);
+			}
+		}
 	}
 }

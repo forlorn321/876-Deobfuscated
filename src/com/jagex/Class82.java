@@ -3,46 +3,95 @@
  */
 package com.jagex;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
 public class Class82 {
-	public int anInt809;
-	public int anInt810;
-	public int anInt811;
+	Class478 aClass478_861;
+	Map aMap862;
 
-	Class82(int i, int i_0_, int i_1_) {
-		anInt809 = 1646212631 * i;
-		anInt810 = -1338835475 * i_0_;
-		anInt811 = i_1_ * 522783023;
+	public List method1166(Object object, int i) {
+		return (List) aMap862.get(object);
 	}
 
-	static Class640_Sub1_Sub2_Sub1 method1576(int i, int i_2_, int i_3_, byte i_4_) {
-		Class561 class561 = (client.aClass509_11072.method8314(1070507042).aClass561ArrayArrayArray7426[i][i_2_][i_3_]);
-		if (null == class561)
-			return null;
-		Class640_Sub1_Sub2_Sub1 class640_sub1_sub2_sub1 = null;
-		int i_5_ = -1;
-		for (Class562 class562 = class561.aClass562_7558; null != class562; class562 = class562.aClass562_7565) {
-			Class640_Sub1_Sub2 class640_sub1_sub2 = class562.aClass640_Sub1_Sub2_7564;
-			if (class640_sub1_sub2 instanceof Class640_Sub1_Sub2_Sub1) {
-				Class640_Sub1_Sub2_Sub1 class640_sub1_sub2_sub1_6_ = (Class640_Sub1_Sub2_Sub1) class640_sub1_sub2;
-				int i_7_ = (class640_sub1_sub2_sub1_6_.method18564(-1435822041) - 1) * 256 + 252;
-				Class442 class442 = class640_sub1_sub2_sub1_6_.method10637().aClass442_4927;
-				int i_8_ = (int) class442.aFloat4918 - i_7_ >> 9;
-				int i_9_ = (int) class442.aFloat4919 - i_7_ >> 9;
-				int i_10_ = (int) class442.aFloat4918 + i_7_ >> 9;
-				int i_11_ = i_7_ + (int) class442.aFloat4919 >> 9;
-				if (i_8_ <= i_2_ && i_9_ <= i_3_ && i_10_ >= i_2_ && i_11_ >= i_3_) {
-					int i_12_ = (i_10_ + 1 - i_2_) * (i_11_ + 1 - i_3_);
-					if (i_12_ > i_5_) {
-						class640_sub1_sub2_sub1 = class640_sub1_sub2_sub1_6_;
-						i_5_ = i_12_;
-					}
-				}
+	void method1167(RSByteBuffer class536_sub33, int i) {
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 49), class536_sub33.readUnsignedByte(-627153052), 1858049507));
+		int i_0_ = class536_sub33.method9760(1002504547);
+		aMap862 = new HashMap(i_0_);
+		while (i_0_-- > 0) {
+			Object object = aClass478_861.method5756(class536_sub33, (byte) -33);
+			int i_1_ = class536_sub33.method9760(1457101288);
+			LinkedList linkedlist = new LinkedList();
+			while (i_1_-- > 0) {
+				int i_2_ = class536_sub33.method9760(1425791470);
+				linkedlist.add(Integer.valueOf(i_2_));
 			}
+			aMap862.put(object, linkedlist);
 		}
-		return class640_sub1_sub2_sub1;
 	}
 
-	static void method1577(Class702 class702, int i) {
-		Class207.aClass702_2232 = class702;
+	void method1168(RSByteBuffer class536_sub33) {
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) 4), class536_sub33.readUnsignedByte(-121320683), 1858049507));
+		int i = class536_sub33.method9760(-583183743);
+		aMap862 = new HashMap(i);
+		while (i-- > 0) {
+			Object object = aClass478_861.method5756(class536_sub33, (byte) 43);
+			int i_3_ = class536_sub33.method9760(48622129);
+			LinkedList linkedlist = new LinkedList();
+			while (i_3_-- > 0) {
+				int i_4_ = class536_sub33.method9760(427249044);
+				linkedlist.add(Integer.valueOf(i_4_));
+			}
+			aMap862.put(object, linkedlist);
+		}
+	}
+
+	void method1169(RSByteBuffer class536_sub33) {
+		aClass478_861 = ((Class478) Class682.method8091(Class478.method5757((byte) -26), class536_sub33.readUnsignedByte(278390821), 1858049507));
+		int i = class536_sub33.method9760(-726109448);
+		aMap862 = new HashMap(i);
+		while (i-- > 0) {
+			Object object = aClass478_861.method5756(class536_sub33, (byte) -78);
+			int i_5_ = class536_sub33.method9760(1621950947);
+			LinkedList linkedlist = new LinkedList();
+			while (i_5_-- > 0) {
+				int i_6_ = class536_sub33.method9760(-498379634);
+				linkedlist.add(Integer.valueOf(i_6_));
+			}
+			aMap862.put(object, linkedlist);
+		}
+	}
+
+	public Class82(Class461 class461, int i, int i_7_) {
+		byte[] is = class461.method5556(i, i_7_, (byte) 1);
+		method1167(new RSByteBuffer(is), -53320811);
+	}
+
+	static Class536_Sub40 method1170(int i) {
+		Class6 class6 = null;
+		Class536_Sub40 class536_sub40 = new Class536_Sub40(client.aClass670_11043, 0);
+		try {
+			class6 = Class153_Sub1.method8383("", client.aClass670_11043.aString8573, false, 2116348009);
+			byte[] is = new byte[(int) class6.method586(917143623)];
+			int i_8_;
+			for (int i_9_ = 0; i_9_ < is.length; i_9_ += i_8_) {
+				i_8_ = class6.method587(is, i_9_, is.length - i_9_, -1832375503);
+				if (-1 == i_8_)
+					throw new IOException();
+			}
+			class536_sub40 = new Class536_Sub40(new RSByteBuffer(is), client.aClass670_11043, 0);
+		} catch (Exception exception) {
+			/* empty */
+		}
+		try {
+			if (class6 != null)
+				class6.method585(-1411037171);
+		} catch (Exception exception) {
+			/* empty */
+		}
+		return class536_sub40;
 	}
 }

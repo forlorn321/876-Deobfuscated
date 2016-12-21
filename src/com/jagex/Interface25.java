@@ -4,11 +4,11 @@
 package com.jagex;
 
 public interface Interface25 {
-	public void method146(Object object);
+	public void method149(Object object);
 
-	public void method147(Object object);
+	public void method150(Object object);
 
-	public void method148(Object object);
+	public void method151(Object object, int i);
 
-	public void method149(Object object, int i);
+	public void method152(Object object);
 }

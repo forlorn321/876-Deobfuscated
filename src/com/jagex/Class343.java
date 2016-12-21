@@ -3,11 +3,10 @@
  */
 package com.jagex;
 
-public class Class343 {
-	static Class343 aClass343_3691 = new Class343();
-	public static Class343 aClass343_3692 = new Class343();
+public abstract class Class343 implements Interface35 {
+	public Class362[] aClass362Array3664;
 
-	Class343() {
-		/* empty */
+	Class343(Class362[] class362s) {
+		aClass362Array3664 = class362s;
 	}
 }

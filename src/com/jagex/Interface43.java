@@ -4,97 +4,95 @@
 package com.jagex;
 
 public interface Interface43 {
-	public void method280(RSByteBuffer class527_sub38);
+	public void method63(RSByteBuffer class536_sub33);
 
-	public Class370 method281();
+	public Class369 method289();
 
-	public void method282(boolean bool, int i, int i_0_, int i_1_);
+	public void method290(Interface45 interface45);
 
-	public void method66(RSByteBuffer class527_sub38);
+	public Class380 method291();
 
-	public void method130();
+	public int method292();
 
-	public void method283(Interface45 interface45);
+	public void method293(int i, Class380 class380, Class364 class364, int i_0_);
 
-	public void method284(RSByteBuffer class527_sub38);
+	public Class364 method294();
 
-	public int method72();
+	public void method295();
 
-	public void method285();
+	public void method296();
 
-	public int method51();
+	public int method9();
 
-	public RSByteBuffer method286(int i);
+	public int method297();
 
-	public int method179(int i);
+	public int method173(int i);
 
-	public Class373 method287();
+	public int method298(int i);
 
-	public Class370 method288();
+	public Class380 method299();
 
-	public Class390 method289();
+	public void method300(boolean bool);
 
-	public void method290(boolean bool, int i, int i_2_, int i_3_);
+	public void method301(boolean bool);
 
-	public void method291(boolean bool);
+	public int method302();
 
-	public void method292();
+	public void method277();
 
-	public Class370 method293();
+	public Class369 method303();
 
-	public Class370 method294();
+	public void method304(Interface45 interface45);
 
-	public void method295(Interface45 interface45);
+	public void method305(Interface45 interface45);
 
-	public int method296(int i);
+	public void method306(Interface45 interface45);
 
-	public void method297(int i, Class390 class390, Class373 class373, int i_4_);
+	public void method307(int i, Class380 class380, Class364 class364, int i_1_);
 
-	public void method298(RSByteBuffer class527_sub38);
+	public void method308();
 
-	public RSByteBuffer method299(int i);
+	public void method309(RSByteBuffer class536_sub33);
 
-	public int method300();
+	public void method310(RSByteBuffer class536_sub33);
 
-	public void method301();
+	public Class369 method311();
 
-	public Class373 method302();
+	public RSByteBuffer method312(int i);
 
-	public int method303();
+	public RSByteBuffer method313(int i);
 
-	public int method304(int i);
+	public int method314();
 
-	public int method305(int i);
+	public boolean method315();
 
-	public Class390 method306();
+	public int method316(int i);
 
-	public Class390 method307();
+	public void method317(boolean bool, int i, int i_2_, int i_3_);
 
-	public int method308();
+	public Class364 method318();
 
-	public Class373 method309();
+	public Class364 method319();
 
-	public Class373 method310();
+	public int method320(int i);
 
-	public Class373 method311();
+	public void method321(int i, Class380 class380, Class364 class364, int i_4_);
 
-	public void method312();
+	public void method322(int i, Class380 class380, Class364 class364, int i_5_);
 
-	public int method313();
+	public void method323(boolean bool, int i, int i_6_, int i_7_);
 
-	public void method314(int i, Class390 class390, Class373 class373, int i_5_);
+	public int method324();
 
-	public int method315();
+	public boolean method325();
 
-	public boolean method316();
+	public int method262();
 
-	public void method317(boolean bool, int i, int i_6_, int i_7_);
+	public void method326(boolean bool, int i, int i_8_, int i_9_);
 
-	public void method318(Interface45 interface45);
+	public void method327(boolean bool, int i, int i_10_, int i_11_);
 
-	public int method319(int i);
+	public void method328(RSByteBuffer class536_sub33);
 
-	public boolean method320();
-
-	public void method321(boolean bool);
+	public int method329(int i);
 }

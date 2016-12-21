@@ -4,158 +4,143 @@
 package com.jagex;
 
 public class Class46 {
-	public static Class46 aClass46_466;
-	public static Class46 aClass46_467;
-	public static Class46 aClass46_468;
-	public static Class46 aClass46_469;
-	public static Class46 aClass46_470;
-	public static Class46 aClass46_471;
-	public static Class46 aClass46_472;
-	public static Class46 aClass46_473;
-	Interface5 anInterface5_474;
-	public static Class46 aClass46_475;
-	public static Class46 aClass46_476;
-	public static Class46 aClass46_477;
-	public static Class46 aClass46_478;
-	public static Class46 aClass46_479;
-	public static Class46 aClass46_480;
-	public static Class46 aClass46_481;
-	public static Class46 aClass46_482;
-	public static Class46 aClass46_483;
-	public static Class46 aClass46_484;
-	public static Class46 aClass46_485;
-	public static Class46 aClass46_486;
-	public static Class46 aClass46_487 = new Class46(Class48.aClass48_501);
-	public static Class46 aClass46_488;
-	public static Class46 aClass46_489;
-	public static Class46 aClass46_490;
-	public static Class46 aClass46_491;
-	Class48 aClass48_492;
-	int anInt493;
-	public static Class46 aClass46_494;
+	public static Class46 aClass46_530;
+	public static Class46 aClass46_531;
+	public static Class46 aClass46_532;
+	public static Class46 aClass46_533;
+	public static Class46 aClass46_534;
+	public static Class46 aClass46_535;
+	public static Class46 aClass46_536;
+	public static Class46 aClass46_537;
+	public static Class46 aClass46_538;
+	public static Class46 aClass46_539;
+	public static Class46 aClass46_540;
+	public static Class46 aClass46_541;
+	public static Class46 aClass46_542;
+	static Class46 aClass46_543;
+	public static Class46 aClass46_544;
+	public static Class46 aClass46_545;
+	public static Class46 aClass46_546;
+	public static Class46 aClass46_547;
+	public static Class46 aClass46_548;
+	public static Class46 aClass46_549;
+	static Class46 aClass46_550;
+	public static Class46 aClass46_551;
+	public static Class46 aClass46_552;
+	public static Class46 aClass46_553;
+	static int anInt554;
+	public static Class46 aClass46_555;
+	public static Class46 aClass46_556;
+	public static Class46 aClass46_557;
+	public static Class46 aClass46_558;
+	public static Class46 aClass46_559;
+	int anInt560;
+	public static Class46 aClass46_561;
+	public static Class46 aClass46_562;
+	public static Class46 aClass46_563;
+	public static Class46 aClass46_564;
+	public static Class46 aClass46_565;
+	static Class46 aClass46_566;
+	static Class46 aClass46_567;
+	static Class46 aClass46_568;
+	static Class46 aClass46_569;
+	static Class46 aClass46_570;
+	public static Class46 aClass46_571 = new Class46(0, "", false, false, false);
+	public static Class46 aClass46_572;
+	public static Class46 aClass46_573;
+	boolean aBool574;
+	public static Class46 aClass46_575;
 
-	public Interface5 method1219(int i) {
-		return anInterface5_474;
+	public boolean method902(int i) {
+		return aBool574;
 	}
 
-	Class46(Class48 class48) {
-		aClass48_492 = class48;
-		anInt493 = -1747039397;
+	public int method903(int i) {
+		return -960064969 * anInt560;
 	}
 
-	public int method1220(short i) {
-		return -1812927277 * anInt493;
+	Class46(int i, String string, boolean bool, boolean bool_0_, boolean bool_1_) {
+		anInt560 = i * -488651897;
+		aBool574 = bool_1_;
 	}
 
-	public void method1221(int i) {
-		anInt493 = -1747039397 * i;
+	public static int method904() {
+		if (-1 == anInt554 * 819264887) {
+			Class46[] class46s = Class710_Sub11.method10035(1134937128);
+			for (int i = 0; i < class46s.length; i++) {
+				Class46 class46 = class46s[i];
+				if (-960064969 * class46.anInt560 > 819264887 * anInt554)
+					anInt554 = 1612792129 * class46.anInt560;
+			}
+			anInt554 += 1071443015;
+		}
+		return anInt554 * 819264887;
 	}
 
-	public static Class46[] method1222(byte i) {
-		return (new Class46[] { aClass46_487, aClass46_467, aClass46_466, aClass46_469, aClass46_470, aClass46_471, aClass46_472, aClass46_489, aClass46_494, aClass46_475, aClass46_473, aClass46_477, aClass46_476, aClass46_479, aClass46_484, aClass46_486, aClass46_483, aClass46_478, aClass46_468, aClass46_485, aClass46_482, aClass46_481, aClass46_488, aClass46_480, aClass46_490, aClass46_491 });
+	public int method905() {
+		return -960064969 * anInt560;
 	}
 
-	public void method1223(int i, int i_0_) {
-		anInt493 = -1747039397 * i;
+	public static int method906() {
+		if (-1 == anInt554 * 819264887) {
+			Class46[] class46s = Class710_Sub11.method10035(-967724144);
+			for (int i = 0; i < class46s.length; i++) {
+				Class46 class46 = class46s[i];
+				if (-960064969 * class46.anInt560 > 819264887 * anInt554)
+					anInt554 = 1612792129 * class46.anInt560;
+			}
+			anInt554 += 1071443015;
+		}
+		return anInt554 * 819264887;
 	}
 
 	static {
-		aClass46_467 = new Class46(Class48.aClass48_500);
-		aClass46_466 = new Class46(Class48.aClass48_500);
-		aClass46_469 = new Class46(Class48.aClass48_500);
-		aClass46_470 = new Class46(Class48.aClass48_500);
-		aClass46_471 = new Class46(Class48.aClass48_500);
-		aClass46_472 = new Class46(Class48.aClass48_501);
-		aClass46_489 = new Class46(Class48.aClass48_501);
-		aClass46_494 = new Class46(Class48.aClass48_501);
-		aClass46_475 = new Class46(Class48.aClass48_501);
-		aClass46_473 = new Class46(Class48.aClass48_501);
-		aClass46_477 = new Class46(Class48.aClass48_501);
-		aClass46_476 = new Class46(Class48.aClass48_501);
-		aClass46_479 = new Class46(Class48.aClass48_501);
-		aClass46_484 = new Class46(Class48.aClass48_501);
-		aClass46_486 = new Class46(Class48.aClass48_501);
-		aClass46_483 = new Class46(Class48.aClass48_501);
-		aClass46_478 = new Class46(Class48.aClass48_501);
-		aClass46_468 = new Class46(Class48.aClass48_501);
-		aClass46_485 = new Class46(Class48.aClass48_501);
-		aClass46_482 = new Class46(Class48.aClass48_501);
-		aClass46_481 = new Class46(Class48.aClass48_502);
-		aClass46_488 = new Class46(Class48.aClass48_501);
-		aClass46_480 = new Class46(Class48.aClass48_501);
-		aClass46_490 = new Class46(Class48.aClass48_501);
-		aClass46_491 = new Class46(Class48.aClass48_503);
+		aClass46_531 = new Class46(1, "", false, false, false);
+		aClass46_533 = new Class46(2, "", true, false, false);
+		aClass46_538 = new Class46(3, "", true, false, false);
+		aClass46_534 = new Class46(5, "", false, false, false);
+		aClass46_535 = new Class46(7, "", false, false, false);
+		aClass46_557 = new Class46(8, "", false, false, false);
+		aClass46_537 = new Class46(10, "", false, false, false);
+		aClass46_530 = new Class46(12, "", true, false, false);
+		aClass46_539 = new Class46(13, "", false, false, false);
+		aClass46_553 = new Class46(14, "", false, false, false);
+		aClass46_541 = new Class46(16, "", true, false, false);
+		aClass46_542 = new Class46(17, "", true, false, false);
+		aClass46_563 = new Class46(18, "", true, false, false);
+		aClass46_573 = new Class46(19, "", true, false, false);
+		aClass46_545 = new Class46(20, "", true, false, false);
+		aClass46_546 = new Class46(21, "", true, false, false);
+		aClass46_547 = new Class46(22, "", true, false, false);
+		aClass46_552 = new Class46(23, "", true, false, false);
+		aClass46_549 = new Class46(24, "", true, false, false);
+		aClass46_575 = new Class46(25, "", true, false, false);
+		aClass46_551 = new Class46(26, "", false, false, false);
+		aClass46_544 = new Class46(27, "", false, false, false);
+		aClass46_532 = new Class46(28, "", false, false, false);
+		aClass46_540 = new Class46(29, "", false, false, false);
+		aClass46_555 = new Class46(30, "", false, false, false);
+		aClass46_536 = new Class46(31, "", false, false, false);
+		aClass46_572 = new Class46(32, "", false, false, false);
+		aClass46_558 = new Class46(33, "", true, false, false);
+		aClass46_559 = new Class46(34, "", false, false, false);
+		aClass46_548 = new Class46(35, "", true, false, false);
+		aClass46_561 = new Class46(40, "", false, false, true);
+		aClass46_562 = new Class46(41, "", false, false, false);
+		aClass46_570 = new Class46(42, "", false, false, false);
+		aClass46_564 = new Class46(43, "", false, false, false);
+		aClass46_565 = new Class46(44, "", false, false, false);
+		aClass46_566 = new Class46(45, "", false, true, false);
+		aClass46_550 = new Class46(46, "", false, true, false);
+		aClass46_568 = new Class46(47, "", false, true, false);
+		aClass46_569 = new Class46(48, "", false, true, false);
+		aClass46_556 = new Class46(49, "", true, true, false);
+		aClass46_567 = new Class46(50, "", false, true, false);
+		aClass46_543 = new Class46(51, "", false, true, false);
+		anInt554 = -1071443015;
 	}
 
-	public static Class46[] method1224() {
-		return (new Class46[] { aClass46_487, aClass46_467, aClass46_466, aClass46_469, aClass46_470, aClass46_471, aClass46_472, aClass46_489, aClass46_494, aClass46_475, aClass46_473, aClass46_477, aClass46_476, aClass46_479, aClass46_484, aClass46_486, aClass46_483, aClass46_478, aClass46_468, aClass46_485, aClass46_482, aClass46_481, aClass46_488, aClass46_480, aClass46_490, aClass46_491 });
-	}
-
-	public int method1225() {
-		return -1812927277 * anInt493;
-	}
-
-	public int method1226() {
-		return -1812927277 * anInt493;
-	}
-
-	public void method1227(int i) {
-		anInt493 = -1747039397 * i;
-	}
-
-	public void method1228(int i) {
-		anInt493 = -1747039397 * i;
-	}
-
-	public void method1229(int i) {
-		anInt493 = -1747039397 * i;
-	}
-
-	public void method1230(Interface5 interface5, int i) {
-		if (interface5.method49(627821034) != aClass48_492)
-			throw new IllegalArgumentException();
-		anInterface5_474 = interface5;
-	}
-
-	public Interface5 method1231() {
-		return anInterface5_474;
-	}
-
-	public void method1232(Interface5 interface5) {
-		if (interface5.method49(925008020) != aClass48_492)
-			throw new IllegalArgumentException();
-		anInterface5_474 = interface5;
-	}
-
-	static final void method1233(Class665 class665, int i) {
-		int i_1_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		if (client.aString11270 != null && i_1_ < -2075991457 * Class695_Sub3.anInt10976)
-			class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = Class679.aClass104Array8629[i_1_].aString1290;
-		else
-			class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = "";
-	}
-
-	static final void method1234(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		int i_2_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_3_ = class665.anIntArray8525[1 + class665.anInt8526 * 1769813785];
-		int i_4_ = i_3_ >> 14 & 0x3fff;
-		int i_5_ = i_3_ & 0x3fff;
-		int i_6_ = Class184.method3565(i_2_, i_4_, i_5_, -918303095);
-		if (i_6_ < 0)
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = -1;
-		else
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = i_6_;
-	}
-
-	public static int method1235(Class677 class677, Class682 class682, int i, int i_7_) {
-		if (class677 == Class677.aClass677_8596)
-			return 43594;
-		return i + 40000;
-	}
-
-	static final void method1236(int i, Class14 class14, byte i_8_) {
-		if (i != -1 && class14.method709((long) i) == null)
-			class14.method714(new Class527(), (long) i);
+	static final void method907(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(2119230397);
 	}
 }

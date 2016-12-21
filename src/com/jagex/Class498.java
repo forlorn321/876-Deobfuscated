@@ -3,82 +3,55 @@
  */
 package com.jagex;
 
-import java.io.File;
-
 public class Class498 {
-	public static String aString5582;
-	public static String aString5583;
-	public static String aString5584;
-	static String aString5585;
-	static int anInt5586;
-
-	Class498() throws Throwable {
-		throw new Error();
-	}
+	static Class498 aClass498_5555;
+	public static Class498 aClass498_5556;
+	public static Class498 aClass498_5557;
+	public static Class498 aClass498_5558;
+	public static Class498 aClass498_5559 = new Class498(false, false);
+	static Class498 aClass498_5560;
+	static Class498 aClass498_5561;
+	public static Class498 aClass498_5562;
+	boolean aBool5563;
+	boolean aBool5564;
 
 	static {
-		String string = "Unknown";
-		try {
-			string = System.getProperty("java.vendor").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		string.toLowerCase();
-		string = "Unknown";
-		try {
-			string = System.getProperty("java.version").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		string.toLowerCase();
-		string = "Unknown";
-		try {
-			string = System.getProperty("os.name").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		aString5584 = string.toLowerCase();
-		string = "Unknown";
-		try {
-			string = System.getProperty("os.arch").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		aString5583 = string.toLowerCase();
-		string = "Unknown";
-		try {
-			string = System.getProperty("os.version").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		aString5585 = string.toLowerCase();
-		aString5582 = String.format("%s (%s) [%s]", new Object[] { aString5584, aString5583, aString5585 });
-		string = "~/";
-		try {
-			string = System.getProperty("user.home").toLowerCase();
-		} catch (Exception exception) {
-			/* empty */
-		}
-		new File(string);
+		aClass498_5556 = new Class498(true, false);
+		aClass498_5557 = new Class498(false, false);
+		aClass498_5558 = new Class498(true, false);
+		aClass498_5555 = new Class498(true, false);
+		aClass498_5560 = new Class498(true, true);
+		aClass498_5561 = new Class498(true, true);
+		aClass498_5562 = new Class498(false, false);
 	}
 
-	static final void method8164(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, 531325299);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class253.method4696(class243, class240, class665, 1657665037);
+	Class498(boolean bool, boolean bool_0_) {
+		aBool5563 = bool;
+		aBool5564 = bool_0_;
 	}
 
-	static final void method8165(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = -648250681 * Class32.anInt302;
+	public boolean method6015(short i) {
+		return aBool5564;
 	}
 
-	static final void method8166(Class665 class665, int i) {
-		int i_1_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class703.aClass219_8825.method3990((byte) 32) == i_1_ ? 1 : 0;
+	boolean method6016(byte i) {
+		return aBool5563;
 	}
 
-	static void method8167(Class665 class665, int i) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = (((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[(class665.anInt8526 * 1769813785) - 1]), -1748955445)).anInt2834 * 101323697);
+	boolean method6017() {
+		return aBool5563;
+	}
+
+	static final void method6018(Class668 class668, byte i) {
+		Class251 class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
+		if (-1 != class251.anInt2711 * -1484799213)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1880327077 * class251.anInt2712;
+		else
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
+	}
+
+	static final void method6019(Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class166.method1997(string, (byte) 17);
 	}
 }

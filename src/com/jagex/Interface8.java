@@ -4,29 +4,23 @@
 package com.jagex;
 
 public interface Interface8 {
-	public void method61(RSByteBuffer class527_sub38);
+	public int method10();
 
-	public int method62();
+	public void method60(RSByteBuffer class536_sub33, byte i);
 
-	public void method63(RSByteBuffer class527_sub38, int i);
+	public void method61(RSByteBuffer class536_sub33, int i);
 
-	public int method64(int i);
+	public int method48(int i);
 
-	public void method65(RSByteBuffer class527_sub38);
+	public void method62(RSByteBuffer class536_sub33);
 
-	public void method66(RSByteBuffer class527_sub38);
+	public void method63(RSByteBuffer class536_sub33);
 
-	public void method67(RSByteBuffer class527_sub38);
+	public void method64(RSByteBuffer class536_sub33);
 
-	public void method68(RSByteBuffer class527_sub38);
+	public void method65(RSByteBuffer class536_sub33);
 
-	public void method69(RSByteBuffer class527_sub38, byte i);
+	public void method66(RSByteBuffer class536_sub33);
 
-	public void method70(RSByteBuffer class527_sub38);
-
-	public void method71(RSByteBuffer class527_sub38);
-
-	public int method72();
-
-	public void method73(RSByteBuffer class527_sub38);
+	public void method67(RSByteBuffer class536_sub33);
 }

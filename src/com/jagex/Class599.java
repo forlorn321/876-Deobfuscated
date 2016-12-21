@@ -4,40 +4,23 @@
 package com.jagex;
 
 public class Class599 {
-	int[] anIntArray7853;
-	short[] aShortArray7854;
-	long aLong7855;
-	short[] aShortArray7856;
-	public static int anInt7857;
+	public static Class599 aClass599_7842;
+	public static Class599 aClass599_7843;
+	public static Class599 aClass599_7844 = new Class599(0);
 
-	public Class599(long l, int[] is, short[] is_0_, short[] is_1_) {
-		aLong7855 = 2013785833706609003L * l;
-		anIntArray7853 = is;
-		aShortArray7856 = is_0_;
-		aShortArray7854 = is_1_;
+	Class599(int i) {
+		/* empty */
 	}
 
-	static final void method9919(Class665 class665, int i) {
-		int i_2_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		if (0 != -405609043 * client.anInt11083 && i_2_ < 182205737 * client.anInt11299)
-			class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = client.aClass72Array11301[i_2_].aString785;
-		else
-			class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = "";
+	static {
+		aClass599_7843 = new Class599(1);
+		aClass599_7842 = new Class599(4);
 	}
 
-	static final void method9920(Class665 class665, byte i) {
-		Class204.aClass527_Sub31_2213.method16350(Class204.aClass527_Sub31_2213.aClass700_Sub11_10585, (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]), 451683069);
-		client.aClass509_11072.method8361(-428559959);
-		Class631.method10465(-1730593498);
-		client.aBool11020 = false;
-	}
-
-	static void method9921(short i) {
-		Class107.anInt1328 = 1291721154 + (Class568.aClass22_7615.anInt215 * -886404573 + Class568.aClass22_7615.anInt213 * 1793920069);
-		Class257.anInt2824 = 1040317558 + (-1347082297 * Class581.aClass22_7677.anInt213 + Class581.aClass22_7677.anInt215 * 1565342001);
-		Class107.aStringArray1327 = new String[500];
-		for (int i_3_ = 0; i_3_ < Class107.aStringArray1327.length; i_3_++)
-			Class107.aStringArray1327[i_3_] = "";
-		Class493.method7997(Class53.aClass53_607.method1290((Class144_Sub1.aClass671_8995), (byte) -55), (byte) 8);
+	static void method7155(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, Class536_Sub18_Sub6 class536_sub18_sub6, Class184 class184, Class2 class2, int i_6_, int i_7_, int i_8_) {
+		if (i > i_1_ && i < i_1_ + i_3_ && i_0_ > i_5_ - -1214764847 * class2.anInt91 - 1 && i_0_ < i_5_ + 1780869003 * class2.anInt92)
+			i_6_ = i_7_;
+		String string = Class273.method3726(class536_sub18_sub6, -1411037171);
+		class184.method2748(string, 3 + i_1_, i_5_, i_6_, 0, client.aRandom11161, Class458_Sub4.anInt10337, Class195.aClass143Array2201, null, -853896346);
 	}
 }

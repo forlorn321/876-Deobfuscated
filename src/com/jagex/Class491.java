@@ -3,59 +3,74 @@
  */
 package com.jagex;
 
-import java.awt.Component;
+import jaggl.OpenGL;
 
-public class Class491 {
-	static Class491 aClass491_5474;
-	public static Class491 aClass491_5475;
-	int anInt5476;
-	public static Class491 aClass491_5477;
-	public static Class491 aClass491_5478;
-	static Class491 aClass491_5479;
-	static Class491 aClass491_5480 = new Class491(0);
-	static Class491 aClass491_5481;
-	static Class491 aClass491_5482;
-	public static Class491 aClass491_5483;
+public class Class491 implements Interface56 {
+	Class493_Sub3 aClass493_Sub3_5472;
+	int anInt5473;
 
-	Class491(int i) {
-		anInt5476 = 396408031 * i;
+	public int method8() {
+		return aClass493_Sub3_5472.method78();
 	}
 
-	static {
-		aClass491_5475 = new Class491(1);
-		aClass491_5474 = new Class491(2);
-		aClass491_5477 = new Class491(3);
-		aClass491_5478 = new Class491(4);
-		aClass491_5483 = new Class491(5);
-		aClass491_5479 = new Class491(6);
-		aClass491_5481 = new Class491(7);
-		aClass491_5482 = new Class491(8);
+	public int method1() {
+		return aClass493_Sub3_5472.method1();
 	}
 
-	public static Class554 method7978(Component component, int i) {
-		return new Class554_Sub1(component);
+	public int method78() {
+		return aClass493_Sub3_5472.method78();
 	}
 
-	static void method7979(byte i) {
-		Class299.aClass205_3393.method3793((byte) 106);
+	Class491(Class493_Sub3 class493_sub3, int i) {
+		anInt5473 = i;
+		aClass493_Sub3_5472 = class493_sub3;
 	}
 
-	public static void method7980(Class527_Sub33 class527_sub33, int i) {
-		Class447.method7261(class527_sub33, 500000, -950852928);
+	public void method131() {
+		/* empty */
 	}
 
-	static final void method7981(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = 236302803 * class243.anInt2576;
+	public int method12() {
+		return aClass493_Sub3_5472.method1();
 	}
 
-	static final void method7982(Class665 class665, byte i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class9 class9 = ((Class9) Class174_Sub2.aClass24_Sub17_9120.method81(i_0_, -1854369001));
-		if (-73038935 * class9.anInt132 == -1 && class9.anInt103 * 1450438899 >= 0)
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = 1450438899 * class9.anInt103;
-		else
-			class665.anIntArray8525[(class665.anInt8526 += 102380841) * 1769813785 - 1] = i_0_;
+	public int method82() {
+		return aClass493_Sub3_5472.method1();
+	}
+
+	public int method83() {
+		return aClass493_Sub3_5472.method78();
+	}
+
+	public int method73() {
+		return aClass493_Sub3_5472.method1();
+	}
+
+	public void method56(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass493_Sub3_5472.anInt5531, aClass493_Sub3_5472.anInt5530, anInt5473);
+	}
+
+	public int method9() {
+		return aClass493_Sub3_5472.method78();
+	}
+
+	public void method130() {
+		/* empty */
+	}
+
+	public void method129() {
+		/* empty */
+	}
+
+	public void method89(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass493_Sub3_5472.anInt5531, aClass493_Sub3_5472.anInt5530, anInt5473);
+	}
+
+	public void method90(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass493_Sub3_5472.anInt5531, aClass493_Sub3_5472.anInt5530, anInt5473);
+	}
+
+	public void method363(int i) {
+		OpenGL.glFramebufferTexture2DEXT(36160, i, aClass493_Sub3_5472.anInt5531, aClass493_Sub3_5472.anInt5530, anInt5473);
 	}
 }

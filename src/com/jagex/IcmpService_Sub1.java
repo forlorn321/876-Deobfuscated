@@ -10,40 +10,10 @@ import java.util.List;
 import jaclib.ping.IcmpService;
 
 public class IcmpService_Sub1 extends IcmpService {
-	List aList10868 = new ArrayList();
-	static volatile IcmpService_Sub1 anIcmpService_Sub1_10869;
+	List aList10854 = new ArrayList();
+	static volatile IcmpService_Sub1 anIcmpService_Sub1_10855;
 
-	public static void method17094() {
-		if (null != anIcmpService_Sub1_10869) {
-			try {
-				anIcmpService_Sub1_10869.quit();
-			} catch (Throwable throwable) {
-				/* empty */
-			}
-			anIcmpService_Sub1_10869 = null;
-		}
-	}
-
-	public static void method17095() {
-		if (null != anIcmpService_Sub1_10869) {
-			try {
-				anIcmpService_Sub1_10869.quit();
-			} catch (Throwable throwable) {
-				/* empty */
-			}
-			anIcmpService_Sub1_10869 = null;
-		}
-	}
-
-	protected void notify(int i, int i_0_, int i_1_) {
-		Iterator iterator = aList10868.iterator();
-		while (iterator.hasNext()) {
-			Interface74 interface74 = (Interface74) iterator.next();
-			interface74.method485(i, i_0_, i_1_, (byte) -31);
-		}
-	}
-
-	public static boolean method17096() {
+	public static boolean method10055() {
 		do {
 			boolean bool;
 			try {
@@ -55,26 +25,28 @@ public class IcmpService_Sub1 extends IcmpService {
 			}
 			return bool;
 		} while (false);
-		if (null != anIcmpService_Sub1_10869)
+		if (anIcmpService_Sub1_10855 != null)
 			throw new IllegalStateException("");
-		anIcmpService_Sub1_10869 = new IcmpService_Sub1();
-		Thread thread = new Thread(new Class644());
+		anIcmpService_Sub1_10855 = new IcmpService_Sub1();
+		Thread thread = new Thread(new Class640());
 		thread.setDaemon(true);
 		thread.start();
 		return true;
 	}
 
-	public static void method17097(Interface74 interface74) {
-		if (null == anIcmpService_Sub1_10869)
-			throw new IllegalStateException("");
-		anIcmpService_Sub1_10869.aList10868.add(interface74);
+	protected void method1261(int i) {
+		Iterator iterator = aList10854.iterator();
+		while (iterator.hasNext()) {
+			Interface74 interface74 = (Interface74) iterator.next();
+			interface74.method493(0 == i, 661328509);
+		}
 	}
 
 	protected void notify(int i) {
-		Iterator iterator = aList10868.iterator();
+		Iterator iterator = aList10854.iterator();
 		while (iterator.hasNext()) {
 			Interface74 interface74 = (Interface74) iterator.next();
-			interface74.method489(i == 0, 1790206391);
+			interface74.method493(0 == i, 661328509);
 		}
 	}
 
@@ -82,62 +54,103 @@ public class IcmpService_Sub1 extends IcmpService {
 		/* empty */
 	}
 
-	public static void method17098(Interface74 interface74) {
-		if (null == anIcmpService_Sub1_10869)
-			throw new IllegalStateException("");
-		anIcmpService_Sub1_10869.aList10868.add(interface74);
-	}
-
-	public static void method17099() {
-		if (null != anIcmpService_Sub1_10869) {
+	public static void method10056() {
+		if (anIcmpService_Sub1_10855 != null) {
 			try {
-				anIcmpService_Sub1_10869.quit();
+				anIcmpService_Sub1_10855.quit();
 			} catch (Throwable throwable) {
 				/* empty */
 			}
-			anIcmpService_Sub1_10869 = null;
+			anIcmpService_Sub1_10855 = null;
 		}
 	}
 
-	protected void method1689(int i) {
-		Iterator iterator = aList10868.iterator();
+	protected void notify(int i, int i_0_, int i_1_) {
+		Iterator iterator = aList10854.iterator();
 		while (iterator.hasNext()) {
 			Interface74 interface74 = (Interface74) iterator.next();
-			interface74.method489(i == 0, -2042662971);
+			interface74.method495(i, i_0_, i_1_, -1700922941);
 		}
 	}
 
-	protected void method1690(int i, int i_2_, int i_3_) {
-		Iterator iterator = aList10868.iterator();
-		while (iterator.hasNext()) {
-			Interface74 interface74 = (Interface74) iterator.next();
-			interface74.method485(i, i_2_, i_3_, (byte) -90);
-		}
-	}
-
-	static void method17100(Class180 class180, int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
-		if ((Class700_Sub27.aClass147_10907 == null || null == Class327_Sub2.aClass147_10052 || null == Class190.aClass147_2130) && Class338.aClass459_3656.method7480(1488678351 * Class637.anInt8318, -1700242191) && Class338.aClass459_3656.method7480(Class171.anInt1882 * -1403969657, -1709395025) && Class338.aClass459_3656.method7480(644846365 * Class156.anInt1720, -836421466)) {
-			Class185 class185 = Class165.method2653(Class338.aClass459_3656, Class171.anInt1882 * -1403969657, 0);
-			Class327_Sub2.aClass147_10052 = class180.method3271(class185, true);
-			class185.method3621();
-			Class218.aClass147_2285 = class180.method3271(class185, true);
-			Class700_Sub27.aClass147_10907 = class180.method3271(Class165.method2653((Class338.aClass459_3656), (Class637.anInt8318 * 1488678351), 0), true);
-			Class185 class185_9_ = Class165.method2653(Class338.aClass459_3656, 644846365 * Class156.anInt1720, 0);
-			Class190.aClass147_2130 = class180.method3271(class185_9_, true);
-			class185_9_.method3621();
-			Class700_Sub16.aClass147_10856 = class180.method3271(class185_9_, true);
-		}
-		if (Class700_Sub27.aClass147_10907 != null && Class327_Sub2.aClass147_10052 != null && null != Class190.aClass147_2130) {
-			int i_10_ = ((i_5_ - Class190.aClass147_2130.method2407() * 2) / Class700_Sub27.aClass147_10907.method2407());
-			for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
-				Class700_Sub27.aClass147_10907.method2415((i + Class190.aClass147_2130.method2407() + i_11_ * Class700_Sub27.aClass147_10907.method2407()), (i_6_ + i_4_ - Class700_Sub27.aClass147_10907.method2424()));
-			int i_12_ = ((i_6_ - i_7_ - Class190.aClass147_2130.method2424()) / Class327_Sub2.aClass147_10052.method2424());
-			for (int i_13_ = 0; i_13_ < i_12_; i_13_++) {
-				Class327_Sub2.aClass147_10052.method2415(i, i_4_ + i_7_ + i_13_ * Class327_Sub2.aClass147_10052.method2424());
-				Class218.aClass147_2285.method2415(i + i_5_ - Class218.aClass147_2285.method2407(), (i_7_ + i_4_ + i_13_ * Class327_Sub2.aClass147_10052.method2424()));
+	public static void method10057() {
+		if (anIcmpService_Sub1_10855 != null) {
+			try {
+				anIcmpService_Sub1_10855.quit();
+			} catch (Throwable throwable) {
+				/* empty */
 			}
-			Class190.aClass147_2130.method2415(i, (i_4_ + i_6_ - Class190.aClass147_2130.method2424()));
-			Class700_Sub16.aClass147_10856.method2415(i_5_ + i - Class190.aClass147_2130.method2407(), i_4_ + i_6_ - Class190.aClass147_2130.method2424());
+			anIcmpService_Sub1_10855 = null;
 		}
+	}
+
+	protected void method1263(int i, int i_2_, int i_3_) {
+		Iterator iterator = aList10854.iterator();
+		while (iterator.hasNext()) {
+			Interface74 interface74 = (Interface74) iterator.next();
+			interface74.method495(i, i_2_, i_3_, -1636097268);
+		}
+	}
+
+	public static void method10058() {
+		if (anIcmpService_Sub1_10855 != null) {
+			try {
+				anIcmpService_Sub1_10855.quit();
+			} catch (Throwable throwable) {
+				/* empty */
+			}
+			anIcmpService_Sub1_10855 = null;
+		}
+	}
+
+	protected void method1260(int i) {
+		Iterator iterator = aList10854.iterator();
+		while (iterator.hasNext()) {
+			Interface74 interface74 = (Interface74) iterator.next();
+			interface74.method493(0 == i, 661328509);
+		}
+	}
+
+	public static boolean method10059() {
+		do {
+			boolean bool;
+			try {
+				if (available())
+					break;
+				bool = false;
+			} catch (Throwable throwable) {
+				return false;
+			}
+			return bool;
+		} while (false);
+		if (anIcmpService_Sub1_10855 != null)
+			throw new IllegalStateException("");
+		anIcmpService_Sub1_10855 = new IcmpService_Sub1();
+		Thread thread = new Thread(new Class640());
+		thread.setDaemon(true);
+		thread.start();
+		return true;
+	}
+
+	protected void method1262(int i) {
+		Iterator iterator = aList10854.iterator();
+		while (iterator.hasNext()) {
+			Interface74 interface74 = (Interface74) iterator.next();
+			interface74.method493(0 == i, 661328509);
+		}
+	}
+
+	protected void method1264(int i, int i_4_, int i_5_) {
+		Iterator iterator = aList10854.iterator();
+		while (iterator.hasNext()) {
+			Interface74 interface74 = (Interface74) iterator.next();
+			interface74.method495(i, i_4_, i_5_, -961373752);
+		}
+	}
+
+	static final void method10060(Class668 class668, int i) {
+		class668.anInt8542 -= -1411037171;
+		int i_6_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class15.method643(i_6_, -2109805633);
 	}
 }

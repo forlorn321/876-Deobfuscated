@@ -4,59 +4,125 @@
 package com.jagex;
 
 public class Class711 {
-	public static Class711 aClass711_8852;
-	static Class711 aClass711_8853 = new Class711(0);
-	static Class711 aClass711_8854;
-	public int anInt8855;
-	public static int anInt8856;
-	public static Class457_Sub1[] aClass457_Sub1Array8857;
+	int anInt8844;
+	int anInt8845;
+	boolean aBool8846;
+	boolean aBool8847;
+	boolean aBool8848;
+	public static Class461 aClass461_8849;
 
-	public static Class711 method14414(int i) {
-		Class711[] class711s = Class668.method13753((byte) 1);
-		for (int i_0_ = 0; i_0_ < class711s.length; i_0_++) {
-			Class711 class711 = class711s[i_0_];
-			if (-143370735 * class711.anInt8855 == i)
-				return class711;
+	public boolean method8362() {
+		return aBool8848;
+	}
+
+	public int method8363(int i) {
+		return 1288610677 * anInt8844;
+	}
+
+	public boolean method8364() {
+		return aBool8846;
+	}
+
+	public boolean method8365(int i) {
+		return aBool8848;
+	}
+
+	public boolean method8366(byte i) {
+		return aBool8847;
+	}
+
+	public boolean method8367(byte i) {
+		return aBool8846;
+	}
+
+	public int method8368() {
+		return 1288610677 * anInt8844;
+	}
+
+	public boolean method8369() {
+		return aBool8847;
+	}
+
+	public boolean method8370() {
+		return aBool8848;
+	}
+
+	public boolean method8371() {
+		return aBool8847;
+	}
+
+	Class711(int i, int i_0_, boolean bool, boolean bool_1_, boolean bool_2_) {
+		anInt8844 = 1094767837 * i;
+		anInt8845 = 566054077 * i_0_;
+		aBool8848 = bool;
+		aBool8847 = bool_1_;
+		aBool8846 = bool_2_;
+	}
+
+	public int method8372(int i) {
+		return 1193283221 * anInt8845;
+	}
+
+	public boolean method8373() {
+		return aBool8846;
+	}
+
+	public int method8374() {
+		return 1193283221 * anInt8845;
+	}
+
+	public static final void method8375(short i) {
+		if (!client.aBool11109) {
+			client.aFloat11269 += (12.0F - client.aFloat11269) / 2.0F;
+			client.aBool11242 = true;
+			client.aBool11109 = true;
 		}
-		return null;
 	}
 
-	static {
-		aClass711_8852 = new Class711(1);
-		aClass711_8854 = new Class711(2);
-	}
-
-	Class711(int i) {
-		anInt8855 = 346643185 * i;
-	}
-
-	public static Class711 method14415(int i) {
-		Class711[] class711s = Class668.method13753((byte) 1);
-		for (int i_1_ = 0; i_1_ < class711s.length; i_1_++) {
-			Class711 class711 = class711s[i_1_];
-			if (-143370735 * class711.anInt8855 == i)
-				return class711;
+	static final void method8376(long l) {
+		Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+		int i = 938724179 * client.anInt10983 + (int) class436.aFloat4850;
+		int i_3_ = (int) class436.aFloat4853 + client.anInt11091 * 1846249523;
+		if (-787333673 * Class461.anInt5216 - i < -2000 || -787333673 * Class461.anInt5216 - i > 2000 || -1817694149 * Class222.anInt2326 - i_3_ < -2000 || -1817694149 * Class222.anInt2326 - i_3_ > 2000) {
+			Class461.anInt5216 = i * 1085474279;
+			Class222.anInt2326 = i_3_ * 727918835;
 		}
-		return null;
+		if (i != -787333673 * Class461.anInt5216) {
+			int i_4_ = i - -787333673 * Class461.anInt5216;
+			int i_5_ = (int) ((long) i_4_ * l / 320L);
+			if (i_4_ > 0) {
+				if (i_5_ == 0)
+					i_5_ = 1;
+				else if (i_5_ > i_4_)
+					i_5_ = i_4_;
+			} else if (i_5_ == 0)
+				i_5_ = -1;
+			else if (i_5_ < i_4_)
+				i_5_ = i_4_;
+			Class461.anInt5216 += i_5_ * 1085474279;
+		}
+		if (i_3_ != -1817694149 * Class222.anInt2326) {
+			int i_6_ = i_3_ - Class222.anInt2326 * -1817694149;
+			int i_7_ = (int) ((long) i_6_ * l / 320L);
+			if (i_6_ > 0) {
+				if (i_7_ == 0)
+					i_7_ = 1;
+				else if (i_7_ > i_6_)
+					i_7_ = i_6_;
+			} else if (i_7_ == 0)
+				i_7_ = -1;
+			else if (i_7_ < i_6_)
+				i_7_ = i_6_;
+			Class222.anInt2326 += i_7_ * 727918835;
+		}
+		client.aFloat11106 += client.aFloat11107 * (float) l / 6.0F;
+		client.aFloat11271 += (float) l * client.aFloat11269 / 6.0F;
+		Class18.method687((byte) 19);
 	}
 
-	public static Class711 method14416(int i) {
-		Class711[] class711s = Class668.method13753((byte) 1);
-		for (int i_2_ = 0; i_2_ < class711s.length; i_2_++) {
-			Class711 class711 = class711s[i_2_];
-			if (-143370735 * class711.anInt8855 == i)
-				return class711;
-		}
-		return null;
-	}
-
-	public static Class711 method14417(int i) {
-		Class711[] class711s = Class668.method13753((byte) 1);
-		for (int i_3_ = 0; i_3_ < class711s.length; i_3_++) {
-			Class711 class711 = class711s[i_3_];
-			if (-143370735 * class711.anInt8855 == i)
-				return class711;
-		}
-		return null;
+	public static void method8377(int i, boolean bool, int i_8_, boolean bool_9_, byte i_10_) {
+		Class344.method4484(0, Class23.aClass603_Sub1Array226.length - 1, i, bool, i_8_, bool_9_, 454276885);
+		Class23.anInt218 = 0;
+		Class23.aClass654_223 = null;
 	}
 }

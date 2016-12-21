@@ -3,8 +3,10 @@
  */
 package com.jagex;
 
-public interface Interface21 extends Interface22 {
+public interface Interface21 extends Interface23 {
 	public void method129();
 
 	public void method130();
+
+	public void method131();
 }

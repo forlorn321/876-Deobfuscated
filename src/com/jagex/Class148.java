@@ -3,18 +3,20 @@
  */
 package com.jagex;
 
-import java.awt.Canvas;
-
 public class Class148 {
+	static float[] aFloatArray1697;
+	static float[] aFloatArray1698 = new float[16384];
+
 	Class148() throws Throwable {
 		throw new Error();
 	}
 
-	public static Class180 method2487(Canvas canvas, Class181 class181, Interface24 interface24, Interface48 interface48, Interface46 interface46, Interface49 interface49, int i) {
-		return new Class180_Sub3(canvas, class181, interface24, interface48, interface46, interface49, i);
-	}
-
-	public static Class180 method2488(Canvas canvas, Class181 class181, Interface24 interface24, Interface48 interface48, Interface46 interface46, Interface49 interface49, int i) {
-		return new Class180_Sub3(canvas, class181, interface24, interface48, interface46, interface49, i);
+	static {
+		aFloatArray1697 = new float[16384];
+		double d = 3.834951969714103E-4;
+		for (int i = 0; i < 16384; i++) {
+			aFloatArray1698[i] = (float) Math.sin((double) i * d);
+			aFloatArray1697[i] = (float) Math.cos((double) i * d);
+		}
 	}
 }

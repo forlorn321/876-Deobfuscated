@@ -3,80 +3,117 @@
  */
 package com.jagex;
 
-public class Class560 {
-	short[] aShortArray7533;
-	public static final int anInt7534 = 2;
-	byte aByte7535;
-	public static final int anInt7536 = 4;
-	short aShort7537;
-	short aShort7538;
-	byte aByte7539;
-	short aShort7540;
-	short aShort7541;
-	public static final int anInt7542 = 1;
-	int[] anIntArray7543;
-	int[] anIntArray7544;
-	int[] anIntArray7545;
-	public static final int anInt7546 = 16;
-	short[] aShortArray7547;
-	short[] aShortArray7548;
-	public static final int anInt7549 = 8;
+import java.util.HashMap;
+import java.util.Iterator;
 
-	Class560(Class555 class555, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, int i_9_, int i_10_, int i_11_, int i_12_) {
-		aByte7535 = (byte) i;
-		aByte7539 = (byte) i_0_;
-		anIntArray7544 = new int[4];
-		anIntArray7545 = new int[4];
-		anIntArray7543 = new int[4];
-		anIntArray7544[0] = i_1_;
-		anIntArray7544[1] = i_2_;
-		anIntArray7544[2] = i_3_;
-		anIntArray7544[3] = i_4_;
-		anIntArray7545[0] = i_5_;
-		anIntArray7545[1] = i_6_;
-		anIntArray7545[2] = i_7_;
-		anIntArray7545[3] = i_8_;
-		anIntArray7543[0] = i_9_;
-		anIntArray7543[1] = i_10_;
-		anIntArray7543[2] = i_11_;
-		anIntArray7543[3] = i_12_;
-		aShort7540 = (short) (i_1_ >> class555.anInt7421 * 1742303003);
-		aShort7541 = (short) (i_3_ >> class555.anInt7421 * 1742303003);
-		aShort7537 = (short) (i_9_ >> 1742303003 * class555.anInt7421);
-		aShort7538 = (short) (i_11_ >> 1742303003 * class555.anInt7421);
-		aShortArray7547 = new short[4];
-		aShortArray7548 = new short[4];
-		aShortArray7533 = new short[4];
-	}
+class Class560 implements Runnable {
+	Class360_Sub1 this$0;
 
-	static final void method9449(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (Class177.aClass527_Sub40_2048.anInt10721 * 529936607 < 512 || client.aBool10999 || client.aBool11016) ? 1 : 0;
-	}
-
-	public static Class23 method9450(Class9 class9, RSByteBuffer class527_sub38, byte i) {
-		return Class703.method14308(class9, class527_sub38, 2, (byte) 22);
-	}
-
-	static final void method9451(Class527_Sub2 class527_sub2, boolean bool, byte i) {
-		if (class527_sub2.aBool10356) {
-			if (207415441 * class527_sub2.anInt10347 < 0 || Class157.method2563(client.aClass509_11072.method8310(-951103731), class527_sub2.anInt10347 * 207415441, class527_sub2.anInt10350 * -1673605725, -1903386388)) {
-				if (!bool)
-					Class654.method10915(class527_sub2.anInt10348 * 1986250821, 966881501 * class527_sub2.anInt10358, 1182093437 * class527_sub2.anInt10346, class527_sub2.anInt10345 * -677418425, class527_sub2.anInt10347 * 207415441, (-1708989899 * class527_sub2.anInt10349), (-1673605725 * class527_sub2.anInt10350), -1, 0, -492434390);
-				else
-					Class282.method5197(class527_sub2.anInt10348 * 1986250821, class527_sub2.anInt10358 * 966881501, class527_sub2.anInt10346 * 1182093437, -677418425 * class527_sub2.anInt10345, null, (byte) -17);
-				class527_sub2.method8735(-1889161967);
+	public void run() {
+		try {
+			while (!this$0.aBool10163) {
+				Iterator iterator = this$0.aList10165.iterator();
+				while (iterator.hasNext()) {
+					Class555 class555 = (Class555) iterator.next();
+					class555.method6788((byte) 2);
+				}
+				HashMap hashmap = this$0.method9265(-343423583);
+				Iterator iterator_0_ = hashmap.keySet().iterator();
+				while (iterator_0_.hasNext()) {
+					Class489 class489 = (Class489) iterator_0_.next();
+					if (!class489.aBool5464) {
+						Class492[] class492s = (Class492[]) hashmap.get(class489);
+						for (int i = 0; i < class492s.length; i++)
+							class492s[i].method5912(128000);
+					}
+				}
+				iterator_0_ = this$0.aList10165.iterator();
+				while (iterator_0_.hasNext()) {
+					Class555 class555 = (Class555) iterator_0_.next();
+					class555.method6789(-1951871655);
+				}
+				Class212.method3067(6L);
 			}
-		} else if (class527_sub2.aBool10355 && 1182093437 * class527_sub2.anInt10346 >= 1 && -677418425 * class527_sub2.anInt10345 >= 1 && (1182093437 * class527_sub2.anInt10346 <= client.aClass509_11072.method8284((byte) 14) - 2) && (-677418425 * class527_sub2.anInt10345 <= client.aClass509_11072.method8285(1866442929) - 2)
-				&& (1059125193 * class527_sub2.anInt10351 < 0 || Class157.method2563(client.aClass509_11072.method8310(492442799), (class527_sub2.anInt10351 * 1059125193), (-925936527 * class527_sub2.anInt10344), -1842403310))) {
-			if (!bool)
-				Class654.method10915(class527_sub2.anInt10348 * 1986250821, class527_sub2.anInt10358 * 966881501, class527_sub2.anInt10346 * 1182093437, -677418425 * class527_sub2.anInt10345, class527_sub2.anInt10351 * 1059125193, class527_sub2.anInt10352 * 1808463735, class527_sub2.anInt10344 * -925936527, -1, 0, -492434390);
-			else
-				Class282.method5197(class527_sub2.anInt10348 * 1986250821, class527_sub2.anInt10358 * 966881501, class527_sub2.anInt10346 * 1182093437, class527_sub2.anInt10345 * -677418425, class527_sub2.aClass599_10354, (byte) -62);
-			class527_sub2.aBool10355 = false;
-			if (!bool && (207415441 * class527_sub2.anInt10347 == class527_sub2.anInt10351 * 1059125193) && 207415441 * class527_sub2.anInt10347 == -1)
-				class527_sub2.method8735(-1889161967);
-			else if (!bool && (1059125193 * class527_sub2.anInt10351 == class527_sub2.anInt10347 * 207415441) && (-1708989899 * class527_sub2.anInt10349 == class527_sub2.anInt10352 * 1808463735) && (class527_sub2.anInt10344 * -925936527 == -1673605725 * class527_sub2.anInt10350))
-				class527_sub2.method8735(-1889161967);
+		} catch (Exception exception) {
+			Class81.method1165(null, exception, (byte) -33);
+			exception.printStackTrace();
 		}
+	}
+
+	Class560(Class360_Sub1 class360_sub1) {
+		this$0 = class360_sub1;
+	}
+
+	public void method6822() {
+		try {
+			while (!this$0.aBool10163) {
+				Iterator iterator = this$0.aList10165.iterator();
+				while (iterator.hasNext()) {
+					Class555 class555 = (Class555) iterator.next();
+					class555.method6788((byte) -85);
+				}
+				HashMap hashmap = this$0.method9265(-343423583);
+				Iterator iterator_1_ = hashmap.keySet().iterator();
+				while (iterator_1_.hasNext()) {
+					Class489 class489 = (Class489) iterator_1_.next();
+					if (!class489.aBool5464) {
+						Class492[] class492s = (Class492[]) hashmap.get(class489);
+						for (int i = 0; i < class492s.length; i++)
+							class492s[i].method5912(128000);
+					}
+				}
+				iterator_1_ = this$0.aList10165.iterator();
+				while (iterator_1_.hasNext()) {
+					Class555 class555 = (Class555) iterator_1_.next();
+					class555.method6789(-2117140666);
+				}
+				Class212.method3067(6L);
+			}
+		} catch (Exception exception) {
+			Class81.method1165(null, exception, (byte) 28);
+			exception.printStackTrace();
+		}
+	}
+
+	public static void method6823(byte i) {
+		if (102 == Class61.anInt680 * -129171495)
+			Class61.anInt680 = -329511650;
+	}
+
+	static final void method6824(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class251.anInt2580 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -979286481;
+		class251.anInt2626 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 323164283;
+	}
+
+	static final void method6825(Class668 class668, byte i) {
+		class668.anInt8542 -= 61855783;
+		int i_2_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
+		int i_3_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1];
+		int i_4_ = class668.anIntArray8541[2 + 1867269829 * class668.anInt8542];
+		if (i_3_ == -1)
+			throw new RuntimeException();
+		Class39 class39 = (Class39) Class676.aClass34_Sub6_8589.method70(i_3_, (byte) 12);
+		if (class39.aClass453_483.method78() != i_2_)
+			throw new RuntimeException();
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class39.method853(Integer.valueOf(i_4_), 1528532746) ? 1 : 0;
+	}
+
+	static final void method6826(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10002((short) -3781) ? 1 : 0;
+	}
+
+	public static void method6827(int i, byte i_5_) {
+		Class467.method5689(new Class585(i), -1392723968);
+	}
+
+	public static void method6828(boolean bool, byte i) {
+		if (null == Class192.aClass292_2177)
+			Class6.method593(560532053);
+		if (bool)
+			Class192.aClass292_2177.method3942(-28660163);
+	}
+
+	static final void method6829(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub21_10741.method10109((byte) 1);
 	}
 }

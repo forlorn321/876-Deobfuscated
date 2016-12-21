@@ -4,19 +4,13 @@
 package com.jagex;
 
 public interface Interface6 {
-	public Interface14 method52(int i, Interface13 interface13);
+	public Class method51(int i);
 
-	public Class method53(byte i);
+	public Class method52();
 
-	public Interface14 method54(int i, Interface13 interface13);
+	public Interface13 method53(int i, Interface12 interface12);
 
-	public Class method55();
+	public Interface13 method54(int i, Interface12 interface12);
 
-	public Interface14 method56(int i, Interface13 interface13);
-
-	public Class method57();
-
-	public Interface14 method58(int i, Interface13 interface13, int i_0_);
-
-	public Class method59();
+	public Interface13 method55(int i, Interface12 interface12, int i_0_);
 }

@@ -3,30 +3,51 @@
  */
 package com.jagex;
 
-public final class Class395 {
-	Object anObject4104;
-	int anInt4105;
-	static long aLong4106;
+public class Class395 {
+	static Class395 aClass395_4106 = new Class395();
+	static Class395 aClass395_4107 = new Class395();
+	static Class395 aClass395_4108 = new Class395();
+	public static Class461 aClass461_4109;
 
-	Class395(Object object, int i) {
-		anObject4104 = object;
-		anInt4105 = 726119543 * i;
+	public int method4878(int i, int i_0_, int i_1_) {
+		int i_2_ = (Class144.anInt1679 * -1804846931 > i_0_ ? -1804846931 * Class144.anInt1679 : i_0_);
+		if (aClass395_4106 == this)
+			return 0;
+		if (aClass395_4108 == this)
+			return i_2_ - i;
+		if (this == aClass395_4107)
+			return (i_2_ - i) / 2;
+		return 0;
 	}
 
-	public static int method6504(int i, int i_0_, int i_1_) {
-		i_0_ = (i & 0x7f) * i_0_ >> 7;
-		if (i_0_ < 2)
-			i_0_ = 2;
-		else if (i_0_ > 126)
-			i_0_ = 126;
-		return i_0_ + (i & 0xff80);
+	Class395() {
+		/* empty */
 	}
 
-	static boolean method6505(int i, int i_2_) {
-		return 0 == i || 8 == i;
+	public int method4879(int i, int i_3_) {
+		int i_4_ = (Class144.anInt1679 * -1804846931 > i_3_ ? -1804846931 * Class144.anInt1679 : i_3_);
+		if (aClass395_4106 == this)
+			return 0;
+		if (aClass395_4108 == this)
+			return i_4_ - i;
+		if (this == aClass395_4107)
+			return (i_4_ - i) / 2;
+		return 0;
 	}
 
-	static final void method6506(Class665 class665, byte i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class299.anInt3400 * 746347361;
+	public int method4880(int i, int i_5_) {
+		int i_6_ = (Class144.anInt1679 * -1804846931 > i_5_ ? -1804846931 * Class144.anInt1679 : i_5_);
+		if (aClass395_4106 == this)
+			return 0;
+		if (aClass395_4108 == this)
+			return i_6_ - i;
+		if (this == aClass395_4107)
+			return (i_6_ - i) / 2;
+		return 0;
+	}
+
+	static final void method4881(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class251.anInt2720 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 483071525;
+		Class668.method8011(class251, 263642117);
 	}
 }

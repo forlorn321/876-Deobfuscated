@@ -3,131 +3,123 @@
  */
 package com.jagex;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
+public class Class84 implements Interface13, Interface7 {
+	public int anInt864;
+	public int anInt865;
+	public int anInt866;
+	public int anInt867 = 0;
 
-public class Class84 implements Interface14, Interface7 {
-	public Object[][] anObjectArrayArray813;
-	public Class462[][] aClass462ArrayArray814;
-	public static Class24_Sub1 aClass24_Sub1_815;
+	void method1178(RSByteBuffer class536_sub33, int i, int i_0_) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(1366800927) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) -146) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) 1302) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -110) * 1858377877;
+	}
 
-	public void method83(RSByteBuffer class527_sub38) {
+	public void method74(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
-			if (0 == i)
+			int i_1_ = class536_sub33.readUnsignedByte(2098144538);
+			if (0 == i_1_)
 				break;
-			method1578(class527_sub38, i, 495107257);
+			method1178(class536_sub33, i_1_, -796815401);
 		}
 	}
 
-	public void method82(RSByteBuffer class527_sub38, int i) {
-		for (;;) {
-			int i_0_ = class527_sub38.readUnsignedByte();
-			if (0 == i_0_)
-				break;
-			method1578(class527_sub38, i_0_, -195699850);
-		}
-	}
-
-	void method1578(RSByteBuffer class527_sub38, int i, int i_1_) {
-		if (1 == i) {
-			int i_2_ = class527_sub38.readUnsignedByte();
-			if (null == aClass462ArrayArray814)
-				aClass462ArrayArray814 = new Class462[i_2_][];
-			for (int i_3_ = class527_sub38.readUnsignedByte(); i_3_ != 255; i_3_ = class527_sub38.readUnsignedByte()) {
-				int i_4_ = i_3_ & 0x7f;
-				boolean bool = (i_3_ & 0x80) != 0;
-				Class462[] class462s = new Class462[class527_sub38.readUnsignedByte()];
-				for (int i_5_ = 0; i_5_ < class462s.length; i_5_++)
-					class462s[i_5_] = ((Class462) Class26.method858(Class462.method7610(134076452), class527_sub38.readUnsignedSmart((byte) -61), -751332564));
-				aClass462ArrayArray814[i_4_] = class462s;
-				if (bool) {
-					if (null == anObjectArrayArray813)
-						anObjectArrayArray813 = new Object[aClass462ArrayArray814.length][];
-					anObjectArrayArray813[i_4_] = Class352.method6211(class527_sub38, class462s, (byte) 11);
-				}
-			}
-		}
-	}
-
-	public void method85() {
+	public void method57(int i) {
 		/* empty */
 	}
 
-	public void method16(int i, int i_6_) {
+	public void method59(int i, int i_2_) {
 		/* empty */
 	}
 
-	public void method86(int i) {
-		/* empty */
-	}
-
-	public void method60(int i) {
+	public void method75(byte i) {
 		/* empty */
 	}
 
 	Class84() {
+		anInt865 = 0;
+		anInt866 = 1860655104;
+		anInt864 = -973707264;
+	}
+
+	public void method77() {
 		/* empty */
 	}
 
-	public void method73(RSByteBuffer class527_sub38) {
+	public void method76(RSByteBuffer class536_sub33) {
 		for (;;) {
-			int i = class527_sub38.readUnsignedByte();
+			int i = class536_sub33.readUnsignedByte(939889399);
 			if (0 == i)
 				break;
-			method1578(class527_sub38, i, 414473262);
+			method1178(class536_sub33, i, -12418057);
 		}
 	}
 
-	public void method84() {
+	public void method58(int i) {
 		/* empty */
 	}
 
-	void method1579(RSByteBuffer class527_sub38, int i) {
-		if (1 == i) {
-			int i_7_ = class527_sub38.readUnsignedByte();
-			if (null == aClass462ArrayArray814)
-				aClass462ArrayArray814 = new Class462[i_7_][];
-			for (int i_8_ = class527_sub38.readUnsignedByte(); i_8_ != 255; i_8_ = class527_sub38.readUnsignedByte()) {
-				int i_9_ = i_8_ & 0x7f;
-				boolean bool = (i_8_ & 0x80) != 0;
-				Class462[] class462s = new Class462[class527_sub38.readUnsignedByte()];
-				for (int i_10_ = 0; i_10_ < class462s.length; i_10_++)
-					class462s[i_10_] = ((Class462) Class26.method858(Class462.method7610(890536263), class527_sub38.readUnsignedSmart((byte) -36), -151928587));
-				aClass462ArrayArray814[i_9_] = class462s;
-				if (bool) {
-					if (null == anObjectArrayArray813)
-						anObjectArrayArray813 = new Object[aClass462ArrayArray814.length][];
-					anObjectArrayArray813[i_9_] = Class352.method6211(class527_sub38, class462s, (byte) 62);
-				}
-			}
-		}
+	public void method56(int i) {
+		/* empty */
 	}
 
-	void method1580(RSByteBuffer class527_sub38, int i) {
-		if (1 == i) {
-			int i_11_ = class527_sub38.readUnsignedByte();
-			if (null == aClass462ArrayArray814)
-				aClass462ArrayArray814 = new Class462[i_11_][];
-			for (int i_12_ = class527_sub38.readUnsignedByte(); i_12_ != 255; i_12_ = class527_sub38.readUnsignedByte()) {
-				int i_13_ = i_12_ & 0x7f;
-				boolean bool = (i_12_ & 0x80) != 0;
-				Class462[] class462s = new Class462[class527_sub38.readUnsignedByte()];
-				for (int i_14_ = 0; i_14_ < class462s.length; i_14_++)
-					class462s[i_14_] = ((Class462) Class26.method858(Class462.method7610(-1371785810), class527_sub38.readUnsignedSmart((byte) -11), -1271079354));
-				aClass462ArrayArray814[i_13_] = class462s;
-				if (bool) {
-					if (null == anObjectArrayArray813)
-						anObjectArrayArray813 = new Object[aClass462ArrayArray814.length][];
-					anObjectArrayArray813[i_13_] = Class352.method6211(class527_sub38, class462s, (byte) 109);
-				}
-			}
-		}
+	void method1179(RSByteBuffer class536_sub33, int i) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(-706293004) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) 10593) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) -18182) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -61) * 1858377877;
 	}
 
-	public static byte[] method1581(RSByteBuffer class527_sub38, int i, int i_15_) throws IOException {
-		ByteArrayInputStream bytearrayinputstream = new ByteArrayInputStream(class527_sub38.buffer);
-		bytearrayinputstream.skip((long) (class527_sub38.anInt10689 * -441238943));
-		return Class227.method4305(bytearrayinputstream, i, (byte) 0);
+	void method1180(RSByteBuffer class536_sub33, int i) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(-1059494403) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) 1260) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) -7053) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -4) * 1858377877;
+	}
+
+	void method1181(RSByteBuffer class536_sub33, int i) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(1678101963) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) -6997) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) -1815) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -32) * 1858377877;
+	}
+
+	void method1182(RSByteBuffer class536_sub33, int i) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(1845969376) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) -2476) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) 10409) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -111) * 1858377877;
+	}
+
+	void method1183(RSByteBuffer class536_sub33, int i) {
+		if (i == 1)
+			anInt867 = class536_sub33.readUnsignedByte(1574515825) * 1103714185;
+		else if (i == 2)
+			anInt864 = class536_sub33.readUnsignedShort((short) 8146) * -1927758131;
+		else if (i == 3)
+			anInt866 = class536_sub33.readUnsignedShort((short) -14994) * -563225365;
+		else if (4 == i)
+			anInt865 = class536_sub33.readShort((byte) -28) * 1858377877;
 	}
 }

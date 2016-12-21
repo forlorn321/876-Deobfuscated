@@ -3,72 +3,66 @@
  */
 package com.jagex;
 
-public class Class386 implements Interface48 {
-	Class459 aClass459_3962;
-	Class205 aClass205_3963 = new Class205(64);
-	public static Class346 aClass346_3964;
+public class Class386 implements Interface49 {
+	public int anInt4021;
+	public String aString4022;
+	public int anInt4023;
+	public int anInt4024;
+	public Class399 aClass399_4025;
+	public int anInt4026;
+	public int anInt4027;
+	public int anInt4028;
+	public int anInt4029;
+	public int anInt4030;
+	public int anInt4031;
+	public Class395 aClass395_4032;
+	public int anInt4033;
 
-	public Class393 method335(int i) {
-		Class393 class393 = (Class393) aClass205_3963.method3787((long) i);
-		if (null != class393)
-			return class393;
-		byte[] is = aClass459_3962.method7470(0, i, (byte) -72);
-		class393 = new Class393();
-		if (is != null)
-			class393.method6485(new RSByteBuffer(is), i, (byte) 7);
-		aClass205_3963.method3790(class393, (long) i);
-		return class393;
+	public Class390 method343(byte i) {
+		return Class390.aClass390_4054;
 	}
 
-	public Class393 method336(int i, int i_0_) {
-		Class393 class393 = (Class393) aClass205_3963.method3787((long) i);
-		if (null != class393)
-			return class393;
-		byte[] is = aClass459_3962.method7470(0, i, (byte) -1);
-		class393 = new Class393();
-		if (is != null)
-			class393.method6485(new RSByteBuffer(is), i, (byte) 7);
-		aClass205_3963.method3790(class393, (long) i);
-		return class393;
+	public Class390 method344() {
+		return Class390.aClass390_4054;
 	}
 
-	public Class386(Class459 class459) {
-		aClass459_3962 = class459;
+	public Class390 method342() {
+		return Class390.aClass390_4054;
 	}
 
-	static void method6432(Class665 class665, byte i) {
-		class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((1769813785 * class665.anInt8526) - 1)]), -1952542382)).method4750(Class671.aClass97_8584, (byte) 1) ? 1 : 0;
+	Class386(String string, Class395 class395, Class399 class399, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
+		aString4022 = string;
+		aClass395_4032 = class395;
+		aClass399_4025 = class399;
+		anInt4023 = 113424053 * i;
+		anInt4021 = 525408679 * i_0_;
+		anInt4026 = 1975336987 * i_1_;
+		anInt4027 = i_2_ * -1614898945;
+		anInt4028 = i_3_ * 1598884977;
+		anInt4029 = 1626451503 * i_4_;
+		anInt4030 = 356790167 * i_5_;
+		anInt4031 = i_6_ * 186562505;
+		anInt4024 = i_7_ * -478232661;
+		anInt4033 = -1989969707 * i_8_;
 	}
 
-	static final void method6433(Class665 class665, int i) {
-		class665.anInt8528 -= 433009517;
-		class665.anInt8526 -= 307142523;
-		String string = ((String) class665.anObjectArray8541[class665.anInt8528 * 318492261]);
-		boolean bool = class665.anIntArray8525[1769813785 * class665.anInt8526] == 1;
-		boolean bool_1_ = (class665.anIntArray8525[class665.anInt8526 * 1769813785 + 1] == 1);
-		boolean bool_2_ = (class665.anIntArray8525[2 + 1769813785 * class665.anInt8526] == 1);
-		Class527_Sub15 class527_sub15 = Class70.method1489(OutgoingPacket.aClass414_4502, client.aClass109_11066.aClass2_1367, (byte) -73);
-		class527_sub15.buffer.writeShort(Class208_Sub18.method15632(string, (byte) -120) + 1, 1404835786);
-		class527_sub15.buffer.writeString(string, -878797225);
-		int i_3_ = 0;
-		if (bool)
-			i_3_ |= 0x1;
-		if (bool_1_)
-			i_3_ |= 0x2;
-		if (bool_2_)
-			i_3_ |= 0x4;
-		class527_sub15.buffer.writeByte(i_3_, -1038500326);
-		client.aClass109_11066.method1969(class527_sub15, (byte) 1);
+	static void method4843(Class668 class668, byte i) {
+		class668.anInt8542 -= 1472892954;
+		boolean bool = class668.anIntArray8541[1867269829 * class668.anInt8542] != 0;
+		boolean bool_9_ = 0 != (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1]);
+		Class205_Sub23.method9102(bool, bool_9_, -2073717069);
 	}
 
-	static final void method6434(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class266.method5045((byte) 1) ? 1 : 0;
+	static final void method4844(Class251 class251, byte[] is, byte[] is_10_, Class668 class668, int i) {
+		int i_11_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
+		if (i_11_ < 0 || i_11_ > 9)
+			throw new RuntimeException();
+		Class481.method5831(class251, i_11_, is, is_10_, class668, -1953501988);
 	}
 
-	static final void method6435(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class508.method8274(class243, class240, class665, 435105191);
+	static final void method4845(Class668 class668, byte i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2581 * 1428895931;
 	}
 }

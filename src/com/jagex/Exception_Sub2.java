@@ -4,16 +4,10 @@
 package com.jagex;
 
 public class Exception_Sub2 extends Exception {
-	public int anInt11350;
-	public String aString11351;
+	Class274 this$0;
 
-	public Exception_Sub2(int i, String string) {
-		this(i, string, null);
-	}
-
-	public Exception_Sub2(int i, String string, Throwable throwable) {
-		super(throwable);
-		aString11351 = string;
-		anInt11350 = i * -927921639;
+	Exception_Sub2(Class274 class274, int i, int i_0_) {
+		super("");
+		this$0 = class274;
 	}
 }

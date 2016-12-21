@@ -3,175 +3,160 @@
  */
 package com.jagex;
 
-public abstract class Class208 {
-	public int anInt2233;
-	static int anInt2234;
-	public static int[] anIntArray2235;
+class Class208 implements Interface55 {
+	Class211 this$0;
+	static Class60 aClass60_2245;
 
-	boolean method3845() {
-		return true;
-	}
-
-	public abstract void method3846(int i);
-
-	Class208(RSByteBuffer class527_sub38) {
-		anInt2233 = class527_sub38.readUnsignedShort() * -1528776629;
-	}
-
-	boolean method3847(byte i) {
-		return true;
-	}
-
-	public abstract void method3848();
-
-	boolean method3849() {
-		return true;
-	}
-
-	void method3850(byte i) {
-		/* empty */
-	}
-
-	public abstract void method3851();
-
-	void method3852() {
-		/* empty */
-	}
-
-	void method3853() {
-		/* empty */
-	}
-
-	void method3854() {
-		/* empty */
-	}
-
-	static Class208 method3855(RSByteBuffer class527_sub38) {
-		int i = class527_sub38.readUnsignedByte();
-		Class92 class92 = Class306.method5605(i, (byte) 10);
-		Class208 class208 = null;
-		switch (class92.anInt880 * -1994424493) {
-		case 14:
-			class208 = new Class208_Sub6(class527_sub38);
-			break;
-		case 29:
-			class208 = new Class208_Sub18(class527_sub38);
-			break;
-		case 1:
-			class208 = new Class208_Sub20(class527_sub38);
-			break;
-		case 15:
-			class208 = new Class208_Sub9(class527_sub38);
-			break;
-		case 26:
-			class208 = new Class208_Sub22(class527_sub38);
-			break;
-		case 20:
-			class208 = new Class208_Sub21(class527_sub38, true);
-			break;
-		case 8:
-			class208 = new Class208_Sub3(class527_sub38);
-			break;
-		case 12:
-			class208 = new Class208_Sub8(class527_sub38);
-			break;
-		case 28:
-			class208 = new Class208_Sub1(class527_sub38);
-			break;
-		case 0:
-			class208 = new Class208_Sub19(class527_sub38);
-			break;
-		case 16:
-			class208 = new Class208_Sub21(class527_sub38, false);
-			break;
-		case 18:
-			class208 = new Class208_Sub12_Sub2(class527_sub38);
-			break;
-		case 4:
-			class208 = new Class208_Sub14(class527_sub38);
-			break;
-		case 22:
-			class208 = new Class208_Sub17(class527_sub38);
-			break;
-		case 6:
-			class208 = new Class208_Sub15(class527_sub38);
-			break;
-		case 9:
-			class208 = new Class208_Sub11(class527_sub38);
-			break;
-		case 27:
-			class208 = new Class208_Sub10(class527_sub38);
-			break;
-		case 2:
-			class208 = new Class208_Sub4(class527_sub38);
-			break;
-		case 7:
-			class208 = new Class208_Sub7(class527_sub38, 0, 0);
-			break;
-		case 10:
-			class208 = new Class208_Sub5(class527_sub38);
-			break;
-		case 23:
-			class208 = new Class208_Sub7(class527_sub38, 1, 1);
-			break;
-		case 5:
-			class208 = new Class208_Sub16(class527_sub38);
-			break;
-		default:
-			break;
-		case 11:
-			class208 = new Class208_Sub13(class527_sub38);
-			break;
-		case 17:
-			class208 = new Class208_Sub23(class527_sub38);
-			break;
-		case 21:
-			class208 = new Class208_Sub2(class527_sub38);
-			break;
-		case 3:
-			class208 = new Class208_Sub7(class527_sub38, 1, 0);
-			break;
-		case 25:
-			class208 = new Class208_Sub7(class527_sub38, 0, 1);
-			break;
-		case 24:
-			class208 = new Class208_Sub12_Sub1(class527_sub38);
+	public void method361(Object object, float[] fs, Object[] objects) {
+		Class479 class479 = (Class479) object;
+		Class436 class436 = class479.method5781((byte) -14);
+		float f = class479.method5808(-1667837981);
+		float f_0_ = class479.method5782(-1026052262);
+		Class436 class436_1_ = this$0.method2985(-2105885988);
+		Class436 class436_2_ = Class436.method5252(class436, class436_1_);
+		float f_3_ = 0.0F;
+		float f_4_ = class436_2_.method5291();
+		if (f_4_ >= f_0_)
+			f_3_ = 0.0F;
+		else {
+			float f_5_ = ((Float) objects[0]).floatValue();
+			float f_6_ = ((Float) objects[1]).floatValue();
+			if (class436_1_.aFloat4850 > class436.aFloat4850 - f_5_ / 2.0F && class436_1_.aFloat4850 < class436.aFloat4850 + f_5_ / 2.0F && class436_1_.aFloat4853 > class436.aFloat4853 - f_6_ / 2.0F && (class436_1_.aFloat4853 < f_6_ / 2.0F + class436.aFloat4853)) {
+				float f_7_ = Math.abs(class436_1_.aFloat4850 - (f_5_ / 2.0F + class436.aFloat4850));
+				float f_8_ = Math.abs(class436_1_.aFloat4850 - (class436.aFloat4850 - f_5_ / 2.0F));
+				float f_9_ = Math.abs(class436_1_.aFloat4853 - (class436.aFloat4850 + f_6_ / 2.0F));
+				float f_10_ = Math.abs(class436_1_.aFloat4853 - (class436.aFloat4850 - f_6_ / 2.0F));
+				float f_11_ = f_0_ - f;
+				float f_12_ = Math.min(f_7_, f_8_);
+				float f_13_ = Math.min(f_9_, f_10_);
+				float f_14_ = 1.0F / f_11_ * f_12_;
+				float f_15_ = f_13_ * (1.0F / f_11_);
+				f_14_ = Math.min(Math.max(f_14_, 0.0F), 1.0F);
+				f_15_ = Math.min(Math.max(f_15_, 0.0F), 1.0F);
+				f_3_ = Math.min(f_14_, f_15_);
+			}
 		}
-		return class208;
+		fs[0] = f_3_;
+		fs[1] = f_3_;
 	}
 
-	static final void method3856(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, -111915043);
-		Class72.method1500(class243, class665, (byte) -37);
+	public void method360(Object object, float[] fs, Object[] objects, byte i) {
+		Class479 class479 = (Class479) object;
+		Class436 class436 = class479.method5781((byte) -71);
+		float f = class479.method5808(-1217605812);
+		float f_16_ = class479.method5782(-802238673);
+		Class436 class436_17_ = this$0.method2985(-1329348677);
+		Class436 class436_18_ = Class436.method5252(class436, class436_17_);
+		float f_19_ = 0.0F;
+		float f_20_ = class436_18_.method5291();
+		if (f_20_ >= f_16_)
+			f_19_ = 0.0F;
+		else {
+			float f_21_ = ((Float) objects[0]).floatValue();
+			float f_22_ = ((Float) objects[1]).floatValue();
+			if (class436_17_.aFloat4850 > class436.aFloat4850 - f_21_ / 2.0F && class436_17_.aFloat4850 < class436.aFloat4850 + f_21_ / 2.0F && class436_17_.aFloat4853 > class436.aFloat4853 - f_22_ / 2.0F && (class436_17_.aFloat4853 < f_22_ / 2.0F + class436.aFloat4853)) {
+				float f_23_ = Math.abs(class436_17_.aFloat4850 - (f_21_ / 2.0F + class436.aFloat4850));
+				float f_24_ = Math.abs(class436_17_.aFloat4850 - (class436.aFloat4850 - f_21_ / 2.0F));
+				float f_25_ = Math.abs(class436_17_.aFloat4853 - (class436.aFloat4850 + f_22_ / 2.0F));
+				float f_26_ = Math.abs(class436_17_.aFloat4853 - (class436.aFloat4850 - f_22_ / 2.0F));
+				float f_27_ = f_16_ - f;
+				float f_28_ = Math.min(f_23_, f_24_);
+				float f_29_ = Math.min(f_25_, f_26_);
+				float f_30_ = 1.0F / f_27_ * f_28_;
+				float f_31_ = f_29_ * (1.0F / f_27_);
+				f_30_ = Math.min(Math.max(f_30_, 0.0F), 1.0F);
+				f_31_ = Math.min(Math.max(f_31_, 0.0F), 1.0F);
+				f_19_ = Math.min(f_30_, f_31_);
+			}
+		}
+		fs[0] = f_19_;
+		fs[1] = f_19_;
 	}
 
-	static final void method3857(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		int i_1_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_2_ = class665.anIntArray8525[1 + class665.anInt8526 * 1769813785];
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = (Class708.aClass463_8847.method7621(i_1_, 1316116381).aCharArray11867[i_2_]);
+	Class208(Class211 class211) {
+		this$0 = class211;
 	}
 
-	public static Class611[] method3858(int i) {
-		return (new Class611[] { Class611.aClass611_8002, Class611.aClass611_8007, Class611.aClass611_8003, Class611.aClass611_8004, Class611.aClass611_8006, Class611.aClass611_8005 });
+	public void method362(Object object, float[] fs, Object[] objects) {
+		Class479 class479 = (Class479) object;
+		Class436 class436 = class479.method5781((byte) -113);
+		float f = class479.method5808(-1973653533);
+		float f_32_ = class479.method5782(-1204439019);
+		Class436 class436_33_ = this$0.method2985(-1227192766);
+		Class436 class436_34_ = Class436.method5252(class436, class436_33_);
+		float f_35_ = 0.0F;
+		float f_36_ = class436_34_.method5291();
+		if (f_36_ >= f_32_)
+			f_35_ = 0.0F;
+		else {
+			float f_37_ = ((Float) objects[0]).floatValue();
+			float f_38_ = ((Float) objects[1]).floatValue();
+			if (class436_33_.aFloat4850 > class436.aFloat4850 - f_37_ / 2.0F && class436_33_.aFloat4850 < class436.aFloat4850 + f_37_ / 2.0F && class436_33_.aFloat4853 > class436.aFloat4853 - f_38_ / 2.0F && (class436_33_.aFloat4853 < f_38_ / 2.0F + class436.aFloat4853)) {
+				float f_39_ = Math.abs(class436_33_.aFloat4850 - (f_37_ / 2.0F + class436.aFloat4850));
+				float f_40_ = Math.abs(class436_33_.aFloat4850 - (class436.aFloat4850 - f_37_ / 2.0F));
+				float f_41_ = Math.abs(class436_33_.aFloat4853 - (class436.aFloat4850 + f_38_ / 2.0F));
+				float f_42_ = Math.abs(class436_33_.aFloat4853 - (class436.aFloat4850 - f_38_ / 2.0F));
+				float f_43_ = f_32_ - f;
+				float f_44_ = Math.min(f_39_, f_40_);
+				float f_45_ = Math.min(f_41_, f_42_);
+				float f_46_ = 1.0F / f_43_ * f_44_;
+				float f_47_ = f_45_ * (1.0F / f_43_);
+				f_46_ = Math.min(Math.max(f_46_, 0.0F), 1.0F);
+				f_47_ = Math.min(Math.max(f_47_, 0.0F), 1.0F);
+				f_35_ = Math.min(f_46_, f_47_);
+			}
+		}
+		fs[0] = f_35_;
+		fs[1] = f_35_;
 	}
 
-	static void method3859(String string, String string_3_, String string_4_, boolean bool, boolean bool_5_, int i) {
-		Class109 class109 = Class203.method3782((byte) -1);
-		if (class109.method1967(2145149294) != null) {
-			Class527_Sub15 class527_sub15 = Class70.method1489(OutgoingPacket.aClass414_4430, class109.aClass2_1367, (byte) 28);
-			class527_sub15.buffer.writeShort((Class208_Sub18.method15632(string, (byte) -124) + Class208_Sub18.method15632(string_3_, (byte) -83) + Class208_Sub18.method15632(string_4_, (byte) -51) + 1), 1404835786);
-			class527_sub15.buffer.writeString(string, -161531603);
-			class527_sub15.buffer.writeString(string_3_, 513647388);
-			class527_sub15.buffer.writeString(string_4_, 267919863);
-			int i_6_ = 0;
-			if (bool)
-				i_6_ |= 0x1;
-			if (bool_5_)
-				i_6_ |= 0x2;
-			class527_sub15.buffer.writeByte(i_6_, 343702949);
-			class109.method1969(class527_sub15, (byte) 1);
+	static final void method2967(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		if (-809980533 * class683.aClass251_8650.anInt2546 == -1) {
+			if (class668.aBool8548)
+				throw new RuntimeException("");
+			throw new RuntimeException("");
+		}
+		Class251 class251 = class683.method8094(-1374574797);
+		class251.aClass251Array2725[(class683.aClass251_8650.anInt2546 * -809980533)] = null;
+		Class668.method8011(class251, 263642117);
+	}
+
+	static final void method2968(Class251 class251, Class234 class234, Class668 class668, short i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (!string.equals(class251.aString2638)) {
+			class251.aString2638 = string;
+			Class668.method8011(class251, 263642117);
+		}
+		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)
+			Class79.method1161(-1591767037 * class251.anInt2559, 1574038584);
+	}
+
+	static final void method2969(Class251 class251, Class234 class234, Class668 class668, int i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1769800149) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2705 = Class33.method796(string, class668, (short) 10589);
+		class251.aBool2666 = true;
+	}
+
+	static final void method2970(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(1824836319);
+	}
+
+	static final void method2971(Class251 class251, Class234 class234, Class668 class668, byte i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -524483587) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2697 = Class33.method796(string, class668, (short) 4172);
+		class251.aBool2666 = true;
+	}
+
+	public static final void method2972(int i) {
+		if (!client.aBool10999) {
+			client.aFloat11107 += (24.0F - client.aFloat11107) / 2.0F;
+			client.aBool11242 = true;
+			client.aBool10999 = true;
 		}
 	}
 }

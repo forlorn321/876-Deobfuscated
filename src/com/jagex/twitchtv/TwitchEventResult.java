@@ -3,7 +3,7 @@
  */
 package com.jagex.twitchtv;
 
-import com.jagex.Class578;
+import com.jagex.Class572;
 
 public class TwitchEventResult extends TwitchEvent {
 	public int result;
@@ -13,32 +13,24 @@ public class TwitchEventResult extends TwitchEvent {
 		result = i_0_;
 	}
 
-	public void method6560(int[] is, long[] ls, Object[] objects) {
+	public void method4951(int[] is, long[] ls, Object[] objects) {
 		is[0] = eventType;
 		is[1] = result;
 	}
 
-	public Class578 method6561() {
-		return Class578.aClass578_7645;
+	public Class572 method4952() {
+		return Class572.aClass572_7635;
 	}
 
-	public Class578 method6562() {
-		return Class578.aClass578_7645;
+	public Class572 method4953() {
+		return Class572.aClass572_7635;
 	}
 
-	public Class578 method6563() {
-		return Class578.aClass578_7645;
+	public Class572 method4954() {
+		return Class572.aClass572_7635;
 	}
 
-	public Class578 method6564() {
-		return Class578.aClass578_7645;
-	}
-
-	public Class578 method6565() {
-		return Class578.aClass578_7645;
-	}
-
-	public void method6566(int[] is, long[] ls, Object[] objects) {
+	public void method4955(int[] is, long[] ls, Object[] objects) {
 		is[0] = eventType;
 		is[1] = result;
 	}

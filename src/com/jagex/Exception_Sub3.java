@@ -4,12 +4,17 @@
 package com.jagex;
 
 public class Exception_Sub3 extends Exception {
-	Class272 this$0;
-	static int anInt11361;
-	public static Class51 aClass51_11362;
+	static Class692 aClass692_11348;
 
-	Exception_Sub3(Class272 class272, int i, int i_0_) {
-		super("");
-		this$0 = class272;
+	Exception_Sub3() {
+		/* empty */
+	}
+
+	static final void method10516(Class251 class251, Class234 class234, Class668 class668, byte i) {
+		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		if (Class510.method6183(string, class668, -1932622438) != null)
+			string = string.substring(0, string.length() - 1);
+		class251.anObjectArray2689 = Class33.method796(string, class668, (short) -7550);
+		class251.aBool2666 = true;
 	}
 }

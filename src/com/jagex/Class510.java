@@ -3,180 +3,74 @@
  */
 package com.jagex;
 
-import java.io.IOException;
-import java.io.OutputStream;
-
 public class Class510 {
-	byte[] aByteArray6972;
-	int anInt6973;
-	static int anInt6974;
-	int anInt6975;
-	OutputStream anOutputStream6976;
-	int anInt6977 = 0;
-	public static byte aByte6978;
+	Class536_Sub33_Sub2 aClass536_Sub33_Sub2_6924;
+	Class498 aClass498_6925;
 
-	public void method8423() throws IOException {
-		method8425(264036901);
-		anOutputStream6976 = null;
+	public Class510(Class498 class498, Class536_Sub33_Sub2 class536_sub33_sub2) {
+		aClass498_6925 = class498;
+		aClass536_Sub33_Sub2_6924 = class536_sub33_sub2;
 	}
 
-	public void method8424(int i, int i_0_) {
-		if (null == aByteArray6972 || anInt6977 * 389103239 != i)
-			aByteArray6972 = new byte[i];
-		anInt6977 = i * 959653687;
-		anInt6973 = 0;
-		anInt6975 = 0;
+	static final int[] method6183(String string, Class668 class668, int i) {
+		int[] is = null;
+		if (string.length() > 0 && string.charAt(string.length() - 1) == 'Y') {
+			int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+			if (i_0_ > 0) {
+				is = new int[i_0_];
+				while (i_0_-- > 0)
+					is[i_0_] = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+			}
+		}
+		return is;
 	}
 
-	public void method8425(int i) throws IOException {
-		int i_1_ = -148170455 * anInt6973 - 2066005613 * anInt6975;
-		if (i_1_ != 0) {
-			anOutputStream6976.write(aByteArray6972, 2066005613 * anInt6975, i_1_);
-			if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-				anInt6973 = 0;
-			anInt6975 = anInt6973 * -796385235;
+	static final void method6184(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub16_10751.method10080(-781188322) ? 1 : 0;
+	}
+
+	static final void method6185(Class668 class668, int i) {
+		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2592 * -1307221069;
+	}
+
+	public static void method6186(int i) {
+		Class310.aBool3471 = true;
+		Class310.aString3472 = Class61.aString679;
+		Class87.aString872 = Class61.aString696;
+		Class275.method3737(false, -1195068252);
+		Class184.method2768((short) -17335);
+		Class310.aClass303Array3467 = null;
+		Class290.aClass426_3223 = null;
+		Class673.method8026(18, -1798113843);
+	}
+
+	static final void method6187(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, int i_9_, int i_10_) {
+		if (i_3_ >= 1 && i_4_ >= 1 && i_3_ <= client.aClass515_11066.method6321((byte) -45) - 2 && i_4_ <= client.aClass515_11066.method6243(177401017) - 2) {
+			int i_11_ = i;
+			if (i_11_ < 3 && client.aClass515_11066.method6251(-817528155).method5466(i_3_, i_4_, (byte) -118))
+				i_11_++;
+			if (client.aClass515_11066.method6249(-788777914) != null) {
+				client.aClass515_11066.method6292(1084870079).method9382(Class677.aClass167_8609, i, i_2_, i_3_, i_4_, (byte) -93);
+				if (i_5_ >= 0) {
+					int i_12_ = Class710.aClass536_Sub40_8843.aClass710_Sub7_10753.method9932(-2015548878);
+					Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub7_10753, 1, (byte) 1);
+					client.aClass515_11066.method6292(1613960925).method9379(Class677.aClass167_8609, i_11_, i, i_3_, i_4_, i_5_, i_6_, i_7_, i_8_, i_9_, -1756284379);
+					Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub7_10753, i_12_, (byte) 1);
+				}
+				Class710_Sub17.method10092((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), -576910451);
+			}
 		}
 	}
 
-	public void method8426(byte i) throws IOException {
-		method8425(757777697);
-		anOutputStream6976 = null;
-	}
-
-	public void method8427(boolean bool, int i) {
-		if (!bool) {
-			anInt6975 = 0;
-			anInt6973 = 0;
+	public static Class287 method6188(int i, int i_13_) {
+		Class287[] class287s = Class286.method3908(-1688993004);
+		for (int i_14_ = 0; i_14_ < class287s.length; i_14_++) {
+			Class287 class287 = class287s[i_14_];
+			if (i == class287.anInt3207 * 2043381743)
+				return class287;
 		}
-	}
-
-	public void method8428(byte i) throws IOException {
-		aByteArray6972[(anInt6973 += 1704497945) * -148170455 - 1] = i;
-		if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-			method8425(-154099454);
-	}
-
-	public void method8429(int i, int i_2_, int i_3_) throws IOException {
-		int i_4_ = -148170455 * anInt6973 - i - 1;
-		if (i_4_ < 0)
-			i_4_ += anInt6977 * 389103239;
-		for (/**/; i_2_ != 0; i_2_--) {
-			if (i_4_ >= 389103239 * anInt6977)
-				i_4_ = 0;
-			aByteArray6972[(anInt6973 += 1704497945) * -148170455 - 1] = aByteArray6972[i_4_++];
-			if (anInt6973 * -148170455 >= anInt6977 * 389103239)
-				method8425(-746419822);
-		}
-	}
-
-	public void method8430(byte i, int i_5_) throws IOException {
-		aByteArray6972[(anInt6973 += 1704497945) * -148170455 - 1] = i;
-		if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-			method8425(-295976058);
-	}
-
-	public void method8431(byte i) throws IOException {
-		aByteArray6972[(anInt6973 += 1704497945) * -148170455 - 1] = i;
-		if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-			method8425(-1394927984);
-	}
-
-	public void method8432(OutputStream outputstream) throws IOException {
-		method8426((byte) 1);
-		anOutputStream6976 = outputstream;
-	}
-
-	public void method8433(OutputStream outputstream) throws IOException {
-		method8426((byte) 1);
-		anOutputStream6976 = outputstream;
-	}
-
-	public void method8434(OutputStream outputstream, int i) throws IOException {
-		method8426((byte) 1);
-		anOutputStream6976 = outputstream;
-	}
-
-	public void method8435(boolean bool) {
-		if (!bool) {
-			anInt6975 = 0;
-			anInt6973 = 0;
-		}
-	}
-
-	public void method8436(boolean bool) {
-		if (!bool) {
-			anInt6975 = 0;
-			anInt6973 = 0;
-		}
-	}
-
-	public void method8437() throws IOException {
-		method8425(-802758290);
-		anOutputStream6976 = null;
-	}
-
-	public void method8438() throws IOException {
-		int i = -148170455 * anInt6973 - 2066005613 * anInt6975;
-		if (i != 0) {
-			anOutputStream6976.write(aByteArray6972, 2066005613 * anInt6975, i);
-			if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-				anInt6973 = 0;
-			anInt6975 = anInt6973 * -796385235;
-		}
-	}
-
-	public void method8439(int i, int i_6_) throws IOException {
-		int i_7_ = -148170455 * anInt6973 - i - 1;
-		if (i_7_ < 0)
-			i_7_ += anInt6977 * 389103239;
-		for (/**/; i_6_ != 0; i_6_--) {
-			if (i_7_ >= 389103239 * anInt6977)
-				i_7_ = 0;
-			aByteArray6972[(anInt6973 += 1704497945) * -148170455 - 1] = aByteArray6972[i_7_++];
-			if (anInt6973 * -148170455 >= anInt6977 * 389103239)
-				method8425(1639231213);
-		}
-	}
-
-	public void method8440() throws IOException {
-		int i = -148170455 * anInt6973 - 2066005613 * anInt6975;
-		if (i != 0) {
-			anOutputStream6976.write(aByteArray6972, 2066005613 * anInt6975, i);
-			if (-148170455 * anInt6973 >= anInt6977 * 389103239)
-				anInt6973 = 0;
-			anInt6975 = anInt6973 * -796385235;
-		}
-	}
-
-	public byte method8441(int i, int i_8_) {
-		int i_9_ = anInt6973 * -148170455 - i - 1;
-		if (i_9_ < 0)
-			i_9_ += anInt6977 * 389103239;
-		return aByteArray6972[i_9_];
-	}
-
-	static final void method8442(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass61_11936.method1384((byte) 1);
-	}
-
-	static boolean method8443(Class586 class586, int i) {
-		return Class178.method3069(class586, null, 508129354);
-	}
-
-	public static Class527_Sub30 method8444(int i) {
-		if (null == Class529_Sub1.aClass694_7147 || Class529_Sub1.aClass691_10771 == null)
-			return null;
-		Class529_Sub1.aClass691_10771.method14003(Class529_Sub1.aClass694_7147, -1350836079);
-		Class527_Sub30 class527_sub30 = ((Class527_Sub30) Class529_Sub1.aClass691_10771.method14010(707377900));
-		if (class527_sub30 == null)
-			return null;
-		Class249 class249 = ((Class249) Class529_Sub1.aClass24_Sub12_7164.method81(((class527_sub30.anInt10567) * -558184067), -87902628));
-		if (null == class249 || !class249.aBool2776 || !class249.method4638(Class529_Sub1.anInterface20_7121, Class529_Sub1.anInterface18_7120, 1949405825))
-			return Class493.method8001((byte) -2);
-		return class527_sub30;
-	}
-
-	static final void method8445(Class665 class665, int i) {
-		class665.anInt8530 -= 32636613;
+		return null;
 	}
 }

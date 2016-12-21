@@ -4,17 +4,17 @@
 package com.jagex;
 
 public interface Interface74 {
-	public void method484(boolean bool);
+	public void method491(int i, int i_0_, int i_1_);
 
-	public void method485(int i, int i_0_, int i_1_, byte i_2_);
+	public void method492(int i, int i_2_, int i_3_);
 
-	public void method486(int i, int i_3_, int i_4_);
+	public void method493(boolean bool, int i);
 
-	public void method206(boolean bool);
+	public void method212(boolean bool);
 
-	public void method487(boolean bool);
+	public void method494(int i, int i_4_, int i_5_);
 
-	public void method488(boolean bool);
+	public void method495(int i, int i_6_, int i_7_, int i_8_);
 
-	public void method489(boolean bool, int i);
+	public void method496(boolean bool);
 }

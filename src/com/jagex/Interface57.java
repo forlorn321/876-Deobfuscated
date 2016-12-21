@@ -4,7 +4,4 @@
 package com.jagex;
 
 public interface Interface57 {
-	public byte[] method364(int i, int i_0_);
-
-	public byte[] method365(int i);
 }

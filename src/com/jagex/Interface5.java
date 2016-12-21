@@ -4,21 +4,15 @@
 package com.jagex;
 
 public interface Interface5 {
-	public int method45(byte i);
+	public Class50 method45();
 
-	public int method46();
+	public Class50 method46();
 
-	public Class48 method47();
+	public int method47();
 
-	public Class48 method48();
+	public int method48(int i);
 
-	public int method6();
+	public Class50 method49();
 
-	public Class48 method49(int i);
-
-	public int method7();
-
-	public Class48 method50();
-
-	public int method51();
+	public Class50 method50(byte i);
 }

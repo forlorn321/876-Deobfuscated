@@ -67,23 +67,23 @@ public class RS3Applet extends Applet implements AppletStub {
 	 * library path
 	 */
 	private static final String LIB_DIR = "./library/";
-
+	
 	public static final ArrayList<IncomingPacket> IDENTIFIED = new ArrayList<IncomingPacket>();
 	public static final ArrayList<SubIncomingPacket> IDENTIFIED_SUB = new ArrayList<SubIncomingPacket>();
 	
 	static {
 		IDENTIFIED.add(IncomingPacket.PING); // Lobby ping? idk
-		IDENTIFIED.add(IncomingPacket.PING_2); //implemented
-		IDENTIFIED.add(IncomingPacket.VARP_1); //implemented
-		IDENTIFIED.add(IncomingPacket.VARP_2); //implemented
-		IDENTIFIED.add(IncomingPacket.CS_VAR_1); //implemented
-		IDENTIFIED.add(IncomingPacket.CS_VAR_2); //implemented
-		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_1); //implemented
-		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_2); //implemented
-		IDENTIFIED.add(IncomingPacket.SET_INTERFACE); //implemented
-		IDENTIFIED.add(IncomingPacket.CLIENT_SCRIPT); //implemented
-		IDENTIFIED.add(IncomingPacket.WORLD_LIST); //implemented
-		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK); //implemented
+		IDENTIFIED.add(IncomingPacket.PING_2);
+		IDENTIFIED.add(IncomingPacket.VARP_1);
+		IDENTIFIED.add(IncomingPacket.VARP_2);
+		IDENTIFIED.add(IncomingPacket.CS_VAR_1);
+		IDENTIFIED.add(IncomingPacket.CS_VAR_2);
+		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_1);
+		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_2);
+		IDENTIFIED.add(IncomingPacket.SET_INTERFACE);
+		IDENTIFIED.add(IncomingPacket.CLIENT_SCRIPT);
+		IDENTIFIED.add(IncomingPacket.WORLD_LIST);
+		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK);
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
@@ -189,11 +189,11 @@ public class RS3Applet extends Applet implements AppletStub {
 					value = value.replaceAll("\">", "");
 					if (value.isEmpty())
 						value = "";
-					//System.out.println("[" + key + ", " + value + "]");
+					// System.out.println("[" + key + ", " + value + "]");
 					map.put(key, value);
 				}
 				if (line.contains("archive=")) {
-					//System.out.println(line);
+					// System.out.println(line);
 					gamePackUrl = line.substring(line.indexOf("archive=") + "archive=".length()).replaceAll("\'\\);", "").trim();
 					gamePackUrl = gamePackUrl.substring(0, gamePackUrl.indexOf(".jar") + ".jar".length());
 					gamePackUrl = "http://" + Host + "/" + gamePackUrl;
@@ -202,7 +202,7 @@ public class RS3Applet extends Applet implements AppletStub {
 			if (gamePackUrl == "")
 				throw new RuntimeException("Invalid GamePack URL");
 			downloadAndApplyGamePack(gamePackUrl);
-			//System.out.println("Connecting to: " + Host);
+			// System.out.println("Connecting to: " + Host);
 		} else {
 			map.put("44", "80");
 			map.put("45", ".runescape.com");
@@ -234,8 +234,8 @@ public class RS3Applet extends Applet implements AppletStub {
 			map.put("8", "true");
 			map.put("9", "43594");
 			map.put("20", "0");
-			map.put("22", "j*FAN9me5sAQ1uR3KCTmZQJc1ow*omYW");
-			map.put("23", "841939469");
+			map.put("22", "MQyBA3iltpjF-r*tzY3dx7TdJZk4t-ej");
+			map.put("23", "841974411");
 			map.put("25", "false");
 			map.put("26", "content.runescape.com");
 			map.put("27", "0");
@@ -247,15 +247,14 @@ public class RS3Applet extends Applet implements AppletStub {
 			map.put("33", "443");
 			map.put("34", "");
 			map.put("35", "0");
-			map.put("36", "1102");
+			map.put("36", "1105");
 			map.put("37", "0");
 			map.put("38", "443");
-			map.put("39", "11375");
+			map.put("39", "24569");
 			map.put("40", "false");
 			map.put("41", "0");
 			map.put("42", "");
 			map.put("43", "false");
-
 		}
 	}
 
@@ -347,9 +346,9 @@ public class RS3Applet extends Applet implements AppletStub {
 			String line;
 			while ((line = reader.readLine()) != null)
 				if (line.startsWith("<iframe id=\"game\"")) {
-					//System.out.println(line);
+					// System.out.println(line);
 					url = line.substring(line.indexOf("src=\"") + "src=\"".length(), line.indexOf("\" frameborder="));
-					//System.out.println(url);
+					// System.out.println(url);
 				}
 			reader.close();
 		} catch (Exception e) {
@@ -428,9 +427,9 @@ public class RS3Applet extends Applet implements AppletStub {
 
 		URL[] urls = ((URLClassLoader) cl).getURLs();
 
-//		for (URL url : urls) {
-//			System.out.println(url.getFile());
-//		}
+		// for (URL url : urls) {
+		// System.out.println(url.getFile());
+		// }
 	}
 
 	public final class InnerPackDecrypter implements Closeable {
@@ -536,7 +535,7 @@ public class RS3Applet extends Applet implements AppletStub {
 				read += in;
 			}
 
-			//System.out.println("Decrypting the archive.");
+			// System.out.println("Decrypting the archive.");
 
 			// Decrypt the inner.pack.gz file.
 			byte[] decrypted = cipher.doFinal(buffer, 0, read);
@@ -556,7 +555,7 @@ public class RS3Applet extends Applet implements AppletStub {
 				for (JarEntry entry = jis.getNextJarEntry(); entry != null; entry = jis.getNextJarEntry()) {
 					String name = entry.getName();
 					if (!name.endsWith(".class")) {
-						//System.out.println(name);
+						// System.out.println(name);
 						continue;
 					}
 

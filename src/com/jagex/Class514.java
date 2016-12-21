@@ -3,46 +3,68 @@
  */
 package com.jagex;
 
-import java.awt.Component;
-import java.awt.Frame;
-
 public class Class514 {
-	Class503 aClass503_7010;
-	Class527_Sub38_Sub2 aClass527_Sub38_Sub2_7011;
-	protected static Frame aFrame7012;
+	public static final int anInt6968 = 6;
+	public static final int anInt6969 = 29;
+	public static final int anInt6970 = -4;
+	public static final int anInt6971 = -5;
+	public static final int anInt6972 = -3;
+	public static final int anInt6973 = -2;
+	public static final int anInt6974 = 15;
+	public static final int anInt6975 = 2;
+	public static final int anInt6976 = 7;
+	public static final int anInt6977 = 9;
+	public static final int anInt6978 = 42;
+	public static final int anInt6979 = 21;
+	public static final int anInt6980 = 23;
+	public static final int anInt6981 = 3;
+	public static final int anInt6982 = 35;
+	public static final int anInt6983 = 1;
+	public static final int anInt6984 = 45;
+	public static final int anInt6985 = 48;
+	public static final int anInt6986 = 49;
+	public static final int anInt6987 = 52;
+	public static final int anInt6988 = 53;
+	static int anInt6989;
+	static int anInt6990;
 
-	public Class514(Class503 class503, Class527_Sub38_Sub2 class527_sub38_sub2) {
-		aClass503_7010 = class503;
-		aClass527_Sub38_Sub2_7011 = class527_sub38_sub2;
+	Class514() throws Throwable {
+		throw new Error();
 	}
 
-	public static Class553 method8491(Component component, boolean bool, int i) {
-		return new Class553_Sub1(component, bool);
+	static final void method6235(Class668 class668, short i) {
+		class668.anInt8542 -= 1472892954;
+		if (class668.anIntArray8541[1867269829 * class668.anInt8542] > class668.anIntArray8541[1 + 1867269829 * class668.anInt8542])
+			class668.anInt8564 += -1531084683 * (class668.anIntArray8537[class668.anInt8564 * -1640738851]);
 	}
 
-	static final void method8492(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class47.method1238(class243, class240, class665, 246128225);
+	static final void method6236(Class668 class668, int i) {
+		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4493, client.aClass106_11322.aClass15_1258, 1861085072);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_0_, -1778059594);
+		client.aClass106_11322.method1409(class536_sub23, 89488743);
 	}
 
-	static final void method8493(Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		int i_0_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_1_ = class665.anIntArray8525[1 + 1769813785 * class665.anInt8526];
-		Class243 class243 = Class447.method7260(i_0_, i_1_, 1685416776);
-		Class700.method14291(-26854669);
-		Class527_Sub25 class527_sub25 = client.method17815(class243);
-		Class75.method1530(class243, class527_sub25.method16255((byte) 29), -43099239 * class527_sub25.anInt10512, (byte) -15);
+	static final void method6237(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -190052995 * Class223.anInt2337;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class553.anInt7482 * -953455409;
 	}
 
-	public static int method8494(int i, int i_2_, byte i_3_) {
-		int i_4_ = 0;
-		for (/**/; i_2_ > 0; i_2_--) {
-			i_4_ = i_4_ << 1 | i & 0x1;
-			i >>>= 1;
-		}
-		return i_4_;
+	static final void method6238(Class668 class668, Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i) {
+		class668.anInt8542 -= -1349181388;
+		int i_1_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
+		int i_2_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
+		int i_3_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2];
+		boolean bool = (class668.anIntArray8541[3 + 1867269829 * class668.anInt8542] == 1);
+		if (Class683.aClass301_Sub1_8651.method4062(1851093186) != Class300.aClass300_3360)
+			throw new RuntimeException();
+		Class706_Sub2 class706_sub2 = ((Class706_Sub2) Class683.aClass301_Sub1_8651.method4052(-810172525));
+		if (class649_sub1_sub5_sub1 != null)
+			class706_sub2.method10255(class649_sub1_sub5_sub1, new Class436((float) i_1_, (float) i_2_, (float) i_3_), bool, -1066368348);
+		client.aBool11242 = true;
+	}
+
+	static final void method6239(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202 != null) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202.aBool8076)) ? 1 : 0;
 	}
 }

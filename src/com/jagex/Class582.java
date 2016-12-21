@@ -3,38 +3,59 @@
  */
 package com.jagex;
 
-public class Class582 implements Interface67 {
-	int anInt7678;
+public class Class582 {
+	public static int anInt7699;
+	static Class567 aClass567_7700;
 
-	public void method285() {
-		Class527_Sub15 class527_sub15 = Class70.method1489(OutgoingPacket.aClass414_4495, client.aClass109_11067.aClass2_1367, (byte) 11);
-		class527_sub15.buffer.writeShortLE2(anInt7678 * 168612107, (byte) 1);
-		client.aClass109_11067.method1969(class527_sub15, (byte) 1);
+	Class582() throws Throwable {
+		throw new Error();
 	}
 
-	public void method421(int i) {
-		Class527_Sub15 class527_sub15 = Class70.method1489(OutgoingPacket.aClass414_4495, client.aClass109_11067.aClass2_1367, (byte) 10);
-		class527_sub15.buffer.writeShortLE2(anInt7678 * 168612107, (byte) -121);
-		client.aClass109_11067.method1969(class527_sub15, (byte) 1);
+	static final void method7023(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class668.anInt8542 -= -1349181388;
+		class251.anInt2569 = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * 1219788737);
+		class251.anInt2664 = (49026457 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
+		class251.anInt2614 = 0;
+		class251.anInt2615 = 0;
+		int i_0_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2];
+		if (i_0_ < 0)
+			i_0_ = 0;
+		else if (i_0_ > 4)
+			i_0_ = 4;
+		int i_1_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 3];
+		if (i_1_ < 0)
+			i_1_ = 0;
+		else if (i_1_ > 4)
+			i_1_ = 4;
+		class251.aByte2565 = (byte) i_0_;
+		class251.aByte2618 = (byte) i_1_;
+		Class668.method8011(class251, 263642117);
+		Class223.method3202(class234, class251, 779208084);
+		if (0 == class251.anInt2728 * 1049444347)
+			Class499.method6023(class234, class251, false, (byte) -120);
 	}
 
-	Class582(int i) {
-		anInt7678 = i * 641757859;
+	static final void method7024(Class668 class668, int i) {
+		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
+		Class230.method3298(class251, class234, class668, 2070866849);
 	}
 
-	static final void method9670(Class665 class665, int i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, 1281082053);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class309.method5629(class243, class240, class665, 204273084);
-	}
-
-	static final void method9671(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = -2119864417 * client.anInt11237;
-	}
-
-	static final void method9672(Class243 class243, Class240 class240, Class665 class665, int i) {
-		class243.aBool2537 = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]) == 1;
-		Class430.method6876(class243, (byte) 44);
+	static final void method7025(Class251 class251, Class234 class234, Class668 class668, int i) {
+		class668.anInt8542 -= -1225469822;
+		class251.aBool2659 = true;
+		class251.anInt2588 = Math.max(Math.min((class668.anIntArray8541[class668.anInt8542 * 1867269829]), 2816), 0) * -594473299;
+		class251.anInt2631 = Math.max(Math.min((class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), 2816), 0) * 3797743;
+		class251.anInt2632 = Math.max(Math.min((class668.anIntArray8541[1867269829 * class668.anInt8542 + 2]), 2816), 0) * -1315088261;
+		int i_3_ = Math.max(Math.min((class668.anIntArray8541[3 + class668.anInt8542 * 1867269829]), 255), 0);
+		int i_4_ = Math.max(Math.min((class668.anIntArray8541[class668.anInt8542 * 1867269829 + 4]), 255), 0);
+		int i_5_ = Math.max(Math.min((class668.anIntArray8541[class668.anInt8542 * 1867269829 + 5]), 255), 0);
+		class251.anInt2579 = -373478313 * (i_3_ << 16 | i_4_ << 8 | i_5_);
+		class251.anInt2650 = (class668.anIntArray8541[6 + 1867269829 * class668.anInt8542] * 520454843);
+		class251.anInt2629 = (1284955013 * class668.anIntArray8541[7 + class668.anInt8542 * 1867269829]);
+		class251.anInt2639 = (-476543717 * class668.anIntArray8541[8 + 1867269829 * class668.anInt8542]);
+		class251.anInt2635 = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 9] * -1974013825);
+		Class668.method8011(class251, 263642117);
 	}
 }

@@ -4,25 +4,53 @@
 package com.jagex;
 
 public interface Interface59 {
-	public void method366(String string) throws Exception_Sub2;
+	public void method353();
 
-	public boolean method367(String string, int i);
+	public int method71(int i);
 
-	public boolean method368(byte i);
+	public int method367(byte i);
 
-	public void method369(String string, int i) throws Exception_Sub2;
+	public boolean method368();
 
-	public void method370(String string) throws Exception_Sub2;
+	public boolean method369(int i);
 
-	public boolean method371(String string);
+	public boolean method370(int i);
 
-	public boolean method372(String string);
+	public void method371(Class167 class167, int i);
 
-	public boolean method373();
+	public void method372(Class167 class167, int i);
 
-	public boolean method351();
+	public int method373(byte i);
 
-	public boolean method350();
+	public int method10();
 
-	public boolean method349();
+	public int method374();
+
+	public int method267();
+
+	public int method375();
+
+	public int method376();
+
+	public int method377();
+
+	public void method378(int i);
+
+	public void method346();
+
+	public int method9();
+
+	public void method379();
+
+	public boolean method380();
+
+	public boolean method381();
+
+	public void method382(Class167 class167);
+
+	public void method270();
+
+	public void method383(Class167 class167);
+
+	public void method384(Class167 class167);
 }

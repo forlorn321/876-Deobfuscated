@@ -3,165 +3,209 @@
  */
 package com.jagex;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 public class Class263 {
-	static Class279 aClass279_2867;
-	static int anInt2868;
+	LinkedList aLinkedList2850;
+	boolean aBool2851 = false;
+	static final int anInt2852 = 10;
+	String aString2853;
 
-	static String method4947(RSByteBuffer class527_sub38, int i) {
-		String string;
-		try {
-			int i_0_ = class527_sub38.readUnsignedSmart((byte) -78);
-			if (i_0_ > i)
-				i_0_ = i;
-			byte[] is = new byte[i_0_];
-			class527_sub38.anInt10689 += (aClass279_2867.method5169(class527_sub38.buffer, (-441238943 * class527_sub38.anInt10689), is, 0, i_0_, -2029485712) * 1474750881);
-			String string_1_ = Class539.method9000(is, 0, i_0_, -1883347605);
-			string = string_1_;
-		} catch (Exception exception) {
-			return "Cabbage";
+	public boolean method3644(byte i) {
+		return aBool2851;
+	}
+
+	public void method3645(boolean bool, int i) {
+		aBool2851 = bool;
+	}
+
+	public int method3646(byte i) {
+		return aLinkedList2850.size();
+	}
+
+	public final boolean method3647(String string, int i, int i_0_, int i_1_) {
+		if (!string.isEmpty() && string.length() <= 10 && Class585.method7050(string.charAt(0), (byte) 1)) {
+			Class272 class272 = method3648(string, (byte) -4);
+			if (class272 != null)
+				aLinkedList2850.remove(class272);
+			aLinkedList2850.add(new Class272(string, i, i_0_));
+			method3650((byte) -124);
+			return true;
 		}
-		return string;
+		return false;
 	}
 
-	public static void method4948(Class279 class279) {
-		aClass279_2867 = class279;
-	}
-
-	public static String method4949(RSByteBuffer class527_sub38) {
-		return Class174_Sub1.method14595(class527_sub38, 32767, 1231703725);
-	}
-
-	public static void method4950(Class279 class279) {
-		aClass279_2867 = class279;
-	}
-
-	public static int method4951(RSByteBuffer class527_sub38, String string) {
-		int i = -441238943 * class527_sub38.anInt10689;
-		byte[] is = Class539.method8999(string, (short) -22121);
-		class527_sub38.method16652(is.length, 1655550775);
-		class527_sub38.anInt10689 += aClass279_2867.method5168(is, 0, is.length, class527_sub38.buffer, (-441238943 * class527_sub38.anInt10689), (byte) -18) * 1474750881;
-		return class527_sub38.anInt10689 * -441238943 - i;
-	}
-
-	public static String method4952(RSByteBuffer class527_sub38) {
-		return Class174_Sub1.method14595(class527_sub38, 32767, 2015289516);
-	}
-
-	public static String method4953(RSByteBuffer class527_sub38) {
-		return Class174_Sub1.method14595(class527_sub38, 32767, 1275441127);
-	}
-
-	Class263() throws Throwable {
-		throw new Error();
-	}
-
-	public static void method4954(Class279 class279) {
-		aClass279_2867 = class279;
-	}
-
-	public static String method4955(RSByteBuffer class527_sub38) {
-		return Class174_Sub1.method14595(class527_sub38, 32767, 1489193837);
-	}
-
-	static String method4956(RSByteBuffer class527_sub38, int i) {
-		String string;
-		try {
-			int i_2_ = class527_sub38.readUnsignedSmart((byte) -76);
-			if (i_2_ > i)
-				i_2_ = i;
-			byte[] is = new byte[i_2_];
-			class527_sub38.anInt10689 += (aClass279_2867.method5169(class527_sub38.buffer, (-441238943 * class527_sub38.anInt10689), is, 0, i_2_, -1995720926) * 1474750881);
-			String string_3_ = Class539.method9000(is, 0, i_2_, -1933028905);
-			string = string_3_;
-		} catch (Exception exception) {
-			return "Cabbage";
+	final Class272 method3648(String string, byte i) {
+		Iterator iterator = aLinkedList2850.iterator();
+		while (iterator.hasNext()) {
+			Class272 class272 = (Class272) iterator.next();
+			if (class272.aString2890.equals(string))
+				return class272;
 		}
-		return string;
+		return null;
 	}
 
-	static String method4957(RSByteBuffer class527_sub38, int i) {
-		String string;
-		try {
-			int i_4_ = class527_sub38.readUnsignedSmart((byte) -98);
-			if (i_4_ > i)
-				i_4_ = i;
-			byte[] is = new byte[i_4_];
-			class527_sub38.anInt10689 += (aClass279_2867.method5169(class527_sub38.buffer, (-441238943 * class527_sub38.anInt10689), is, 0, i_4_, -2144853000) * 1474750881);
-			String string_5_ = Class539.method9000(is, 0, i_4_, -1783234112);
-			string = string_5_;
-		} catch (Exception exception) {
-			return "Cabbage";
+	public final String method3649(String string, int i) {
+		if (aLinkedList2850.isEmpty())
+			return string;
+		StringBuilder stringbuilder = new StringBuilder(string.length());
+		int i_2_ = string.length();
+		boolean bool = false;
+		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
+			boolean bool_4_ = false;
+			char c = string.charAt(i_3_);
+			if (bool) {
+				if ('>' == c)
+					bool = false;
+			} else if ('<' == c)
+				bool = true;
+			else if (aString2853.indexOf(c) != -1) {
+				for (int i_5_ = 0; i_5_ < aLinkedList2850.size(); i_5_++) {
+					Class272 class272 = (Class272) aLinkedList2850.get(i_5_);
+					int i_6_ = class272.aString2890.length();
+					if (i_3_ <= i_2_ - i_6_ && string.substring(i_3_, i_3_ + i_6_).equals(class272.aString2890)) {
+						String string_7_;
+						if (class272.anInt2888 * 428423995 > 0)
+							string_7_ = (String.format("<sprite=%d,%d>", (new Object[] { Integer.valueOf(523024491 * class272.anInt2889), Integer.valueOf(428423995 * (class272.anInt2888)) })));
+						else
+							string_7_ = (String.format("<sprite=%d>", (new Object[] { Integer.valueOf(class272.anInt2889 * 523024491) })));
+						stringbuilder.append(string_7_);
+						bool_4_ = true;
+						i_3_ += i_6_ - 1;
+						break;
+					}
+				}
+			}
+			if (!bool_4_)
+				stringbuilder.append(c);
 		}
-		return string;
+		return stringbuilder.toString();
 	}
 
-	static final void method4958(Class665 class665, byte i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class249.method4659(class243, class240, true, 1, class665, (byte) 10);
-	}
-
-	static final void method4959(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class240 class240 = class674.aClass240_8586;
-		Class273.method5121(class243, class240, class665, 2135491601);
-	}
-
-	static final void method4960(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		int i_6_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		boolean bool = (class665.anIntArray8525[1 + class665.anInt8526 * 1769813785] == 1);
-		if (null != Class529_Sub1.aClass14_10789) {
-			Class527 class527 = Class529_Sub1.aClass14_10789.method709((long) i_6_);
-			if (class527 != null && !bool)
-				class527.method8735(-1889161967);
-			else if (class527 == null && bool) {
-				class527 = new Class527();
-				Class529_Sub1.aClass14_10789.method714(class527, (long) i_6_);
+	final void method3650(byte i) {
+		aString2853 = "";
+		for (int i_8_ = 0; i_8_ < aLinkedList2850.size(); i_8_++) {
+			Class272 class272 = (Class272) aLinkedList2850.get(i_8_);
+			char c = class272.aString2890.charAt(0);
+			if (aString2853.indexOf(c) < 0) {
+				StringBuilder stringbuilder = new StringBuilder();
+				Class263 class263_9_ = this;
+				class263_9_.aString2853 = stringbuilder.append(class263_9_.aString2853).append(c).toString();
 			}
 		}
 	}
 
-	static final void method4961(Class665 class665, int i) {
-		if (Class208_Sub10.aClass296_Sub1_9923.method5376((byte) 104) != Class301.aClass301_3413)
-			throw new RuntimeException();
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = Class208_Sub10.aClass296_Sub1_9923.method5380((byte) 47);
+	public boolean method3651() {
+		return aBool2851;
 	}
 
-	static Class527_Sub1 method4962(int i, boolean bool, byte i_7_) {
-		long l = (long) (i | (bool ? -2147483648 : 0));
-		return (Class527_Sub1) Class527_Sub1.aClass14_10333.method709(l);
-	}
-
-	public static void method4963(int i) {
-		Class209.aClass14_2236.method721(-1439747424);
-		Class209.aClass694_2243.method14105((byte) 8);
-		Class209.aClass191Array2242 = null;
-		Class466.aClass196Array5314 = null;
-		Class689.aClass186Array8689 = null;
-		Class232.aClass195Array2359 = null;
-		Class181.aClass208Array2093 = null;
-		Class209.anInt2239 = 1072441851;
-		Class209.anInt2240 = 0;
-		Class209.anInt2241 = 0;
-		Class235.aClass192_2378 = null;
-		Class209.anInt2244 = 1844912785;
-		Class209.anInt2237 = 1091310815;
-		if (Class209.aBool2238) {
-			client.aShort11287 = Class646_Sub1.aShort10841;
-			client.aShort11211 = Class316_Sub1.aShort10037;
-			client.aShort11285 = Class682.aShort8649;
-			client.aShort11043 = Class236.aShort2379;
-			Class209.aBool2238 = false;
+	public final void method3652(String string, int i) {
+		Iterator iterator = aLinkedList2850.iterator();
+		while (iterator.hasNext()) {
+			Class272 class272 = (Class272) iterator.next();
+			if (class272.aString2890.equals(string)) {
+				iterator.remove();
+				break;
+			}
 		}
 	}
 
-	static final void method4964(Class665 class665, int i) {
-		int i_8_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_8_, 1601095820);
-		Class240 class240 = Class183.aClass240Array2100[i_8_ >> 16];
-		Class249.method4659(class243, class240, true, 2, class665, (byte) 76);
+	public void method3653(boolean bool) {
+		aBool2851 = bool;
+	}
+
+	public final void method3654() {
+		aLinkedList2850.clear();
+		aString2853 = "";
+	}
+
+	public int method3655() {
+		return aLinkedList2850.size();
+	}
+
+	public void method3656(boolean bool) {
+		aBool2851 = bool;
+	}
+
+	final void method3657() {
+		aString2853 = "";
+		for (int i = 0; i < aLinkedList2850.size(); i++) {
+			Class272 class272 = (Class272) aLinkedList2850.get(i);
+			char c = class272.aString2890.charAt(0);
+			if (aString2853.indexOf(c) < 0) {
+				StringBuilder stringbuilder = new StringBuilder();
+				Class263 class263_10_ = this;
+				class263_10_.aString2853 = stringbuilder.append(class263_10_.aString2853).append(c).toString();
+			}
+		}
+	}
+
+	public Class263() {
+		aLinkedList2850 = new LinkedList();
+	}
+
+	public int method3658() {
+		return aLinkedList2850.size();
+	}
+
+	public final void method3659(int i) {
+		aLinkedList2850.clear();
+		aString2853 = "";
+	}
+
+	public void method3660(boolean bool) {
+		aBool2851 = bool;
+	}
+
+	final void method3661() {
+		aString2853 = "";
+		for (int i = 0; i < aLinkedList2850.size(); i++) {
+			Class272 class272 = (Class272) aLinkedList2850.get(i);
+			char c = class272.aString2890.charAt(0);
+			if (aString2853.indexOf(c) < 0) {
+				StringBuilder stringbuilder = new StringBuilder();
+				Class263 class263_11_ = this;
+				class263_11_.aString2853 = stringbuilder.append(class263_11_.aString2853).append(c).toString();
+			}
+		}
+	}
+
+	final void method3662() {
+		aString2853 = "";
+		for (int i = 0; i < aLinkedList2850.size(); i++) {
+			Class272 class272 = (Class272) aLinkedList2850.get(i);
+			char c = class272.aString2890.charAt(0);
+			if (aString2853.indexOf(c) < 0) {
+				StringBuilder stringbuilder = new StringBuilder();
+				Class263 class263_12_ = this;
+				class263_12_.aString2853 = stringbuilder.append(class263_12_.aString2853).append(c).toString();
+			}
+		}
+	}
+
+	static void method3663(byte i) {
+		/* empty */
+	}
+
+	static final void method3664(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class205_Sub14.aByte9920;
+	}
+
+	static final void method3665(Class668 class668, byte i) {
+		Class412.aClass412_4389.method5009((byte) 27);
+	}
+
+	public static void method3666(short[] is, byte i) {
+		for (int i_13_ = 0; i_13_ < is.length; i_13_++)
+			is[i_13_] = (short) 1024;
+	}
+
+	static final void method3667(Class668 class668, int i) throws Exception_Sub3 {
+		Class683.aClass301_Sub1_8651.method4064(1982623183);
+	}
+
+	static final void method3668(Class668 class668, byte i) {
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (Class536_Sub36_Sub1.method10752(Class588.method7085((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (short) 17738), Class459.aClass664_5178.method78(), -1619918777));
 	}
 }

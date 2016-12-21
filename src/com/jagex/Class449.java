@@ -3,85 +3,179 @@
  */
 package com.jagex;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
-public class Class449 implements Interface76 {
-	static Class449 aClass449_4931;
-	static Class449 aClass449_4932;
-	static Class449 aClass449_4933 = new Class449(0);
-	int anInt4934;
-	static long aLong4935;
+public class Class449 {
+	int anInt4926;
+	static final int anInt4927 = 10000;
+	int anInt4928;
+	String aString4929;
+	volatile int anInt4930 = 0;
+	boolean aBool4931;
+	ExecutorService anExecutorService4932 = Executors.newFixedThreadPool(2);
+	long aLong4933;
+	static final int anInt4934 = 2;
+	static final int anInt4935 = 10000;
+	static final int anInt4936 = 60000;
+	static final int anInt4937 = 10;
 
-	public int method87() {
-		return anInt4934 * 1067274105;
+	void method5403(boolean bool) {
+		aBool4931 = bool;
 	}
 
-	public static Class449[] method7278() {
-		return (new Class449[] { aClass449_4931, aClass449_4933, aClass449_4932 });
+	public Class449(String string, int i, int i_0_) {
+		aBool4931 = false;
+		aString4929 = string;
+		anInt4926 = i * 69163375;
+		anInt4928 = -990263303 * i_0_;
 	}
 
-	Class449(int i) {
-		anInt4934 = -342299959 * i;
+	Class536_Sub18_Sub15_Sub3 method5404(int i) {
+		return method5413(255, 255, (byte) 0, true, 0, 0, -1666968727);
 	}
 
-	public int method42() {
-		return anInt4934 * 1067274105;
+	void method5405(boolean bool, byte i) {
+		aBool4931 = bool;
 	}
 
-	public int method91() {
-		return anInt4934 * 1067274105;
+	boolean method5406(byte i) {
+		return anInt4930 * 1793168591 >= 10;
 	}
 
-	public static Class449[] method7279() {
-		return (new Class449[] { aClass449_4931, aClass449_4933, aClass449_4932 });
+	void method5407(int i) {
+		anInt4930 -= 1844900399;
 	}
 
-	public static Class449[] method7280() {
-		return (new Class449[] { aClass449_4931, aClass449_4933, aClass449_4932 });
+	void method5408(boolean bool) {
+		aBool4931 = bool;
 	}
 
-	static {
-		aClass449_4932 = new Class449(1);
-		aClass449_4931 = new Class449(2);
+	void method5409() {
+		anInt4930 -= 1844900399;
 	}
 
-	static final void method7281(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = -1054537975 * class243.anInt2511;
+	void method5410() {
+		anInt4930 -= 1844900399;
 	}
 
-	public static int method7282(String string, boolean bool, byte i) {
-		string = string.toLowerCase();
-		Class208.anIntArray2235 = null;
-		Class190.anInt2129 = 0;
-		LinkedList linkedlist = new LinkedList();
-		LinkedList linkedlist_0_ = new LinkedList();
-		for (int i_1_ = 0; i_1_ < Class174_Sub2.aClass24_Sub17_9120.anInt230 * -1588728841; i_1_++) {
-			Class9 class9 = (Class9) Class174_Sub2.aClass24_Sub17_9120.method81(i_1_, -1963509056);
-			if ((!bool || class9.aBool73) && -1 == 295433991 * class9.anInt127 && class9.anInt119 * -1637960559 == -1 && class9.anInt147 * -1475818213 == -1 && -88004625 * class9.anInt144 == 0 && class9.aString84.toLowerCase().indexOf(string) != -1) {
-				if (linkedlist.size() >= 250)
-					return -1;
-				linkedlist.add(Integer.valueOf(i_1_));
-				linkedlist_0_.add(class9.aString84);
-			}
+	void method5411() {
+		anInt4930 -= 1844900399;
+	}
+
+	public void method5412() {
+		anExecutorService4932.shutdown();
+	}
+
+	Class536_Sub18_Sub15_Sub3 method5413(int i, int i_1_, byte i_2_, boolean bool, int i_3_, int i_4_, int i_5_) {
+		if (i < 0 || i_1_ < 0)
+			throw new RuntimeException(new StringBuilder().append(i).append(",").append(i_1_).toString());
+		if (method5406((byte) -1))
+			return null;
+		boolean bool_6_ = 255 == i && 255 == i_1_;
+		if (!aBool4931 && !bool_6_)
+			return null;
+		if (10000L + aLong4933 * 2613627722053356173L >= Class249.method3450(1687561120))
+			return null;
+		Object object = null;
+		String string;
+		if (bool_6_)
+			string = new StringBuilder().append("&cb=").append(Class249.method3450(1267454360)).toString();
+		else
+			string = new StringBuilder().append("&c=").append(i_3_).append("&v=").append(i_4_).toString();
+		URL url;
+		try {
+			url = new URL("http", aString4929, anInt4926 * -1771035249, new StringBuilder().append("/ms?m=").append(-1766307255 * anInt4928).append("&a=").append(i).append("&g=").append(i_1_).append(string).toString());
+		} catch (MalformedURLException malformedurlexception) {
+			return null;
 		}
-		Class208.anIntArray2235 = new int[linkedlist.size()];
-		int i_2_ = 0;
-		Iterator iterator = linkedlist.iterator();
-		while (iterator.hasNext()) {
-			Integer integer = (Integer) iterator.next();
-			Class208.anIntArray2235[i_2_++] = integer.intValue();
-		}
-		String[] strings = ((String[]) linkedlist_0_.toArray(new String[Class208.anIntArray2235.length]));
-		Class325.method5752(strings, Class208.anIntArray2235, -709566596);
-		return linkedlist.size();
+		Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3 = new Class536_Sub18_Sub15_Sub3(i_2_);
+		class536_sub18_sub15_sub3.aBool11778 = bool;
+		anInt4930 += 1844900399;
+		Future future = anExecutorService4932.submit(new Class462(this, url, class536_sub18_sub15_sub3));
+		class536_sub18_sub15_sub3.method11063(future, 65536);
+		return class536_sub18_sub15_sub3;
 	}
 
-	static final void method7283(Class665 class665, int i) {
-		class665.anInt8526 -= 204761682;
-		if (class665.anIntArray8525[class665.anInt8526 * 1769813785] <= class665.anIntArray8525[1 + 1769813785 * class665.anInt8526])
-			class665.anInt8527 += (-1038991169 * class665.anIntArray8545[891367231 * class665.anInt8527]);
+	void method5414(boolean bool) {
+		aBool4931 = bool;
+	}
+
+	public void method5415(byte i) {
+		anExecutorService4932.shutdown();
+	}
+
+	static int method5416(int i, byte i_7_) {
+		if (16711935 == i)
+			return -1;
+		return Class330.method4319(i, 1033814571);
+	}
+
+	static final void method5417(Class668 class668, byte i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass350_8563.aByte3706;
+	}
+
+	static final void method5418(Class668 class668, int i) {
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class246.anInt2474 * 155362615 == 2 ? 1 : 0;
+	}
+
+	static final void method5419(Class668 class668, int i) {
+		Class154.method1875((byte) 16);
+		Class608.method7261((byte) 0);
+		client.aClass515_11066.method6319(-791329293);
+		Class27.method763(1882156114);
+		client.aBool11015 = false;
+	}
+
+	public static Map method5420(Class98_Sub1[] class98_sub1s, byte i) {
+		if (class98_sub1s == null || 0 == class98_sub1s.length)
+			return null;
+		HashMap hashmap = new HashMap();
+		Class98_Sub1[] class98_sub1s_8_ = class98_sub1s;
+		for (int i_9_ = 0; i_9_ < class98_sub1s_8_.length; i_9_++) {
+			Class98_Sub1 class98_sub1 = class98_sub1s_8_[i_9_];
+			hashmap.put(class98_sub1.aClass458_8868, class98_sub1);
+		}
+		return hashmap;
+	}
+
+	static final void method5421(Class668 class668, int i) {
+		int i_10_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
+		Class251 class251 = Class264.method3678(i_10_, -689214737);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 2003514143 * class251.anInt2636;
+	}
+
+	public static byte[] method5422(Object object, int i, int i_11_, int i_12_) {
+		if (object == null)
+			return null;
+		if (object instanceof byte[]) {
+			byte[] is = (byte[]) object;
+			return Arrays.copyOfRange(is, i, i + i_11_);
+		}
+		if (object instanceof ByteBuffer) {
+			ByteBuffer bytebuffer = (ByteBuffer) object;
+			byte[] is = new byte[i_11_];
+			bytebuffer.position(i);
+			bytebuffer.get(is, 0, i_11_);
+			return is;
+		}
+		throw new IllegalArgumentException();
+	}
+
+	public static Class504 method5423(int i) {
+		Class504_Sub2 class504_sub2;
+		try {
+			class504_sub2 = new Class504_Sub2();
+		} catch (Throwable throwable) {
+			return new Class504_Sub1();
+		}
+		return class504_sub2;
 	}
 }

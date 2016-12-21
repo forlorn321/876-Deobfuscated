@@ -3,18 +3,20 @@
  */
 package com.jagex;
 
-public interface Interface41 {
-	public void method130();
-
-	public void method273(Class343 class343);
+public interface Interface41 extends Interface37, Interface35 {
+	public void method280(int i);
 
 	public void method129();
 
-	public void method274(Class343 class343);
+	public void method131();
 
-	public void method275();
+	public void method130();
 
-	public void method276();
+	public Class171 method281();
 
-	public void method277();
+	public Class171 method282();
+
+	public void method283(int i);
+
+	public void method284(int i);
 }

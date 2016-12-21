@@ -3,16 +3,24 @@
  */
 package com.jagex;
 
-import java.net.URL;
-
 public interface Interface60 {
-	public URL method374();
+	public void method385(String string) throws Exception_Sub6;
 
-	public URL method375(int i);
+	public boolean method386(String string, int i);
 
-	public URL method376();
+	public boolean method209(int i);
 
-	public URL method377();
+	public void method387(String string) throws Exception_Sub6;
 
-	public URL method378();
+	public void method388(String string) throws Exception_Sub6;
+
+	public void method389(String string) throws Exception_Sub6;
+
+	public boolean method390(String string);
+
+	public void method391(String string, int i) throws Exception_Sub6;
+
+	public boolean method392(String string);
+
+	public boolean method215();
 }

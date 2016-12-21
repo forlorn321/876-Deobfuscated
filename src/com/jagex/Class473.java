@@ -3,122 +3,101 @@
  */
 package com.jagex;
 
-public final class Class473 implements Comparable {
-	long aLong5369;
-	Object anObject5370;
-	long aLong5371;
-	Object anObject5372;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 
-	public boolean method7740(Object object) {
-		if (object instanceof Class473)
-			return anObject5370.equals(((Class473) object).anObject5370);
-		throw new IllegalArgumentException();
-	}
+public class Class473 {
+	byte[] aByteArray5370;
+	Class449 this$0;
 
-	int method7741(Class473 class473_0_, int i) {
-		if (2584112087553795213L * aLong5369 < 2584112087553795213L * class473_0_.aLong5369)
-			return -1;
-		if (2584112087553795213L * aLong5369 > class473_0_.aLong5369 * 2584112087553795213L)
-			return 1;
-		return 0;
-	}
-
-	public boolean equals(Object object) {
-		if (object instanceof Class473)
-			return anObject5370.equals(((Class473) object).anObject5370);
-		throw new IllegalArgumentException();
-	}
-
-	public int hashCode() {
-		return anObject5370.hashCode();
-	}
-
-	public boolean method7742(Object object) {
-		if (object instanceof Class473)
-			return anObject5370.equals(((Class473) object).anObject5370);
-		throw new IllegalArgumentException();
-	}
-
-	public int method7743() {
-		return anObject5370.hashCode();
-	}
-
-	public int compareTo(Object object) {
-		return method7741((Class473) object, 192574015);
-	}
-
-	public int method7744() {
-		return anObject5370.hashCode();
-	}
-
-	Class473(Object object, Object object_1_) {
-		anObject5372 = object;
-		anObject5370 = object_1_;
-	}
-
-	public int method7745() {
-		return anObject5370.hashCode();
-	}
-
-	int method7746(Class473 class473_2_) {
-		if (2584112087553795213L * aLong5369 < 2584112087553795213L * class473_2_.aLong5369)
-			return -1;
-		if (2584112087553795213L * aLong5369 > class473_2_.aLong5369 * 2584112087553795213L)
-			return 1;
-		return 0;
-	}
-
-	int method7747(Class473 class473_3_) {
-		if (2584112087553795213L * aLong5369 < 2584112087553795213L * class473_3_.aLong5369)
-			return -1;
-		if (2584112087553795213L * aLong5369 > class473_3_.aLong5369 * 2584112087553795213L)
-			return 1;
-		return 0;
-	}
-
-	int method7748(Class473 class473_4_) {
-		if (2584112087553795213L * aLong5369 < 2584112087553795213L * class473_4_.aLong5369)
-			return -1;
-		if (2584112087553795213L * aLong5369 > class473_4_.aLong5369 * 2584112087553795213L)
-			return 1;
-		return 0;
-	}
-
-	public int method7749(Object object) {
-		return method7741((Class473) object, -1070446663);
-	}
-
-	public int method7750(Object object) {
-		return method7741((Class473) object, 1586275072);
-	}
-
-	static final void method7751(Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		int i_5_ = class665.anIntArray8525[class665.anInt8526 * 1769813785];
-		int i_6_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		if (null != Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183) {
-			for (int i_7_ = 0; i_7_ < Class322.anIntArray3559.length; i_7_++) {
-				if (i_5_ == Class322.anIntArray3559[i_7_]) {
-					Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183.method10482(i_7_, i_6_, Class587.aClass24_Sub19_7760, (byte) 126);
-					return;
+	Class473(Class449 class449, InputStream inputstream, Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3, URL url) {
+		this$0 = class449;
+		aByteArray5370 = null;
+		if (inputstream != null) {
+			int i = 10240;
+			RSByteBuffer class536_sub33 = new RSByteBuffer(i, true);
+			int i_0_ = 0;
+			byte[] is = Class705.method8268(1024, 1413422708);
+			while (i_0_ >= 0) {
+				try {
+					i_0_ = inputstream.read(is);
+				} catch (IOException ioexception) {
+					ioexception.printStackTrace();
+					i_0_ = -1;
+				}
+				if (i_0_ > 0) {
+					if (i_0_ + class536_sub33.off * -810172525 >= class536_sub33.buffer.length) {
+						int i_1_ = class536_sub33.buffer.length + 10240;
+						byte[] is_2_ = Class705.method8269(i_1_, true, 1810046795);
+						System.arraycopy(class536_sub33.buffer, 0, is_2_, 0, (-810172525 * class536_sub33.off));
+						Class705.method8270(class536_sub33.buffer, 565075853);
+						class536_sub33.buffer = is_2_;
+					}
+					class536_sub33.method9696(is, 0, i_0_, (byte) 38);
 				}
 			}
-			for (int i_8_ = 0; i_8_ < Class322.anIntArray3563.length; i_8_++) {
-				if (i_5_ == Class322.anIntArray3563[i_8_]) {
-					Class381.aClass640_Sub1_Sub2_Sub1_Sub2_3937.aClass633_12183.method10482(i_8_, i_6_, Class587.aClass24_Sub19_7760, (byte) 44);
-					break;
-				}
+			for (int i_3_ = 0; i_3_ < -2057604531 * class536_sub18_sub15_sub3.anInt12159; i_3_++)
+				class536_sub33.writeByte(0, 465637339);
+			byte[] is_4_ = new byte[-810172525 * class536_sub33.off];
+			System.arraycopy(class536_sub33.buffer, 0, is_4_, 0, class536_sub33.off * -810172525);
+			class536_sub33.method9685(120764410);
+			Object object = null;
+			Class705.method8270(is, 1532840305);
+			Object object_5_ = null;
+			aByteArray5370 = is_4_;
+			try {
+				inputstream.close();
+			} catch (IOException ioexception) {
+				ioexception.printStackTrace();
 			}
 		}
+		class536_sub18_sub15_sub3.aBool11777 = false;
+		class449.method5407(-1848482096);
 	}
 
-	static final void method7752(Class665 class665, byte i) throws Exception_Sub6 {
-		class665.anInt8526 -= 409523364;
-		int i_9_ = class665.anIntArray8525[class665.anInt8526 * 1769813785];
-		int i_10_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		int i_11_ = class665.anIntArray8525[2 + 1769813785 * class665.anInt8526];
-		Class442 class442 = Class442.method7166((float) i_9_, (float) i_10_, (float) i_11_);
-		Class208_Sub10.aClass296_Sub1_9923.method5357(class442, (byte) 2);
-		class442.method7141();
+	byte[] method5738(int i) {
+		return aByteArray5370;
+	}
+
+	byte[] method5739() {
+		return aByteArray5370;
+	}
+
+	public static String method5740(CharSequence charsequence, Class74 class74, byte i) {
+		if (null == charsequence)
+			return null;
+		int i_6_ = 0;
+		int i_7_;
+		for (i_7_ = charsequence.length(); (i_6_ < i_7_ && Class624.method7428(charsequence.charAt(i_6_), 431624875)); i_6_++) {
+			/* empty */
+		}
+		for (/**/; i_7_ > i_6_ && Class624.method7428(charsequence.charAt(i_7_ - 1), 1574746584); i_7_--) {
+			/* empty */
+		}
+		int i_8_ = i_7_ - i_6_;
+		if (i_8_ < 1 || i_8_ > Class242.method3395(class74, (byte) 105))
+			return null;
+		StringBuilder stringbuilder = new StringBuilder(i_8_);
+		for (int i_9_ = i_6_; i_9_ < i_7_; i_9_++) {
+			char c = charsequence.charAt(i_9_);
+			if (Class175.method2453(c, 1938231546)) {
+				char c_10_ = Class58.method973(c, 1867269829);
+				if ('\0' != c_10_)
+					stringbuilder.append(c_10_);
+			}
+		}
+		if (stringbuilder.length() == 0)
+			return null;
+		return stringbuilder.toString();
+	}
+
+	static Class521_Sub5 method5741(int i) {
+		Class521_Sub5 class521_sub5 = ((Class521_Sub5) Class521_Sub5.aClass695_10357.method8213(-1423263947));
+		if (class521_sub5 != null) {
+			Class521_Sub5.anInt10353 -= -148652163;
+			return class521_sub5;
+		}
+		return new Class521_Sub5();
 	}
 }

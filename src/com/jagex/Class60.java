@@ -3,40 +3,217 @@
  */
 package com.jagex;
 
-import java.applet.Applet;
+import java.io.BufferedInputStream;
+import java.io.DataInputStream;
+import java.io.EOFException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.LinkedList;
+import java.util.Queue;
 
-import netscape.javascript.JSObject;
+public class Class60 implements Runnable {
+	volatile boolean aBool641;
+	Queue aQueue642 = new LinkedList();
+	Thread aThread643 = new Thread(this);
 
-public class Class60 {
-	public static Object method1375(Applet applet, String string, int i) throws Throwable {
-		return JSObject.getWindow(applet).call(string, null);
+	void method989() {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
 	}
 
-	public static Object method1376(Applet applet, String string) throws Throwable {
-		return JSObject.getWindow(applet).call(string, null);
+	public void run() {
+		while (!aBool641) {
+			try {
+				Class114 class114;
+				synchronized (this) {
+					class114 = (Class114) aQueue642.poll();
+					if (class114 == null) {
+						try {
+							this.wait();
+						} catch (InterruptedException interruptedexception) {
+							/* empty */
+						}
+						continue;
+					}
+				}
+				try {
+					URLConnection urlconnection = class114.anURL1410.openConnection();
+					urlconnection.setConnectTimeout(30000);
+					int i = urlconnection.getContentLength();
+					if (i >= 0) {
+						byte[] is = new byte[i];
+						new DataInputStream(urlconnection.getInputStream()).readFully(is);
+						class114.aByteArray1411 = is;
+					}
+					class114.aBool1409 = true;
+				} catch (IOException ioexception) {
+					class114.aBool1409 = true;
+				}
+			} catch (Exception exception) {
+				Class81.method1165(null, exception, (byte) -13);
+			}
+		}
 	}
 
-	public static Object method1377(Applet applet, String string) throws Throwable {
-		return JSObject.getWindow(applet).call(string, null);
+	Class114 method990(URL url, int i) {
+		Class114 class114 = new Class114(url);
+		synchronized (this) {
+			aQueue642.add(class114);
+			this.notify();
+		}
+		return class114;
 	}
 
-	public static Object method1378(Applet applet, String string, Object[] objects, int i) throws Throwable {
-		return JSObject.getWindow(applet).call(string, objects);
+	void method991(int i) {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
 	}
 
-	public static void method1379(Applet applet, String string) throws Throwable {
-		JSObject.getWindow(applet).eval(string);
+	void method992() {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
 	}
 
-	public static void method1380(Applet applet, String string) throws Throwable {
-		JSObject.getWindow(applet).eval(string);
+	void method993() {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
 	}
 
-	Class60() throws Throwable {
-		throw new Error();
+	Class60() {
+		aThread643.setPriority(1);
+		aThread643.start();
 	}
 
-	public static void method1381(Applet applet, String string, int i) throws Throwable {
-		JSObject.getWindow(applet).eval(string);
+	public void method994() {
+		while (!aBool641) {
+			try {
+				Class114 class114;
+				synchronized (this) {
+					class114 = (Class114) aQueue642.poll();
+					if (class114 == null) {
+						try {
+							this.wait();
+						} catch (InterruptedException interruptedexception) {
+							/* empty */
+						}
+						continue;
+					}
+				}
+				try {
+					URLConnection urlconnection = class114.anURL1410.openConnection();
+					urlconnection.setConnectTimeout(30000);
+					int i = urlconnection.getContentLength();
+					if (i >= 0) {
+						byte[] is = new byte[i];
+						new DataInputStream(urlconnection.getInputStream()).readFully(is);
+						class114.aByteArray1411 = is;
+					}
+					class114.aBool1409 = true;
+				} catch (IOException ioexception) {
+					class114.aBool1409 = true;
+				}
+			} catch (Exception exception) {
+				Class81.method1165(null, exception, (byte) 81);
+			}
+		}
+	}
+
+	void method995() {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
+	}
+
+	void method996() {
+		aBool641 = true;
+		try {
+			synchronized (this) {
+				this.notify();
+			}
+			aThread643.join();
+		} catch (InterruptedException interruptedexception) {
+			/* empty */
+		}
+	}
+
+	static final void method997(Class668 class668, short i) {
+		class668.anInt8544 -= 1543270475;
+		String string = ((String) class668.anObjectArray8543[366709801 * class668.anInt8544]);
+		String string_0_ = ((String) class668.anObjectArray8543[class668.anInt8544 * 366709801 + 1]);
+		String string_1_ = ((String) class668.anObjectArray8543[2 + class668.anInt8544 * 366709801]);
+		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
+		Class156.method1886(string, string_0_, string_1_, bool, 607895612);
+	}
+
+	static String method998(int i, Class664 class664, Class628 class628, int i_2_) {
+		if (i < 100000)
+			return new StringBuilder().append(Class225.method3217(2025138957 * class628.anInt8200, (byte) -76)).append(i).append(Class1.aString9).toString();
+		if (i < 10000000)
+			return new StringBuilder().append(Class225.method3217(35026845 * class628.anInt8213, (byte) -40)).append(i / 1000).append(Class38.aClass38_448.method840(class664, 1539562207)).append(Class1.aString9).toString();
+		return new StringBuilder().append(Class225.method3217(2095590335 * class628.anInt8214, (byte) -111)).append(i / 1000000).append(Class38.aClass38_446.method840(class664, 1561493254)).append(Class1.aString9).toString();
+	}
+
+	static void method999(File file, byte[] is, int i, int i_3_) throws IOException {
+		DataInputStream datainputstream = (new DataInputStream(new BufferedInputStream(new FileInputStream(file))));
+		try {
+			datainputstream.readFully(is, 0, i);
+		} catch (EOFException eofexception) {
+			/* empty */
+		}
+		datainputstream.close();
+	}
+
+	static final void method1000(Class668 class668, short i) {
+		int i_4_ = Class516.anInt7040 * 698322721;
+		int i_5_ = -201071885 * Class114.anInt1412;
+		int i_6_ = -1;
+		if (Class707.aBool8822) {
+			Class697[] class697s = Class385.method4841((byte) -26);
+			for (int i_7_ = 0; i_7_ < class697s.length; i_7_++) {
+				Class697 class697 = class697s[i_7_];
+				if (-1090373425 * class697.anInt8744 == i_4_ && i_5_ == class697.anInt8743 * 832859273) {
+					i_6_ = i_7_;
+					break;
+				}
+			}
+		}
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_6_;
 	}
 }

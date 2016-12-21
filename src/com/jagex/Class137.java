@@ -3,144 +3,57 @@
  */
 package com.jagex;
 
+import jaggl.OpenGL;
+
 public class Class137 {
-	Class140_Sub3 aClass140_Sub3_1579;
-	int anInt1580 = 0;
-	Class140[] aClass140Array1581;
-	int anInt1582;
-	Class180_Sub3 aClass180_Sub3_1583;
-	Class136 aClass136_1584;
-	int anInt1585 = 0;
+	Class167_Sub2 aClass167_Sub2_1633;
+	static int[] anIntArray1634 = new int[2];
+	int anInt1635;
 
-	Class137(Class180_Sub3 class180_sub3) {
-		anInt1582 = 0;
-		aClass180_Sub3_1583 = class180_sub3;
-		aClass136_1584 = new Class136(class180_sub3);
-		aClass140Array1581 = new Class140[16];
-		aClass140Array1581[1] = new Class140_Sub8(class180_sub3);
-		aClass140Array1581[2] = new Class140_Sub5(class180_sub3, aClass136_1584);
-		aClass140Array1581[4] = new Class140_Sub9(class180_sub3, aClass136_1584);
-		aClass140Array1581[5] = new Class140_Sub6(class180_sub3, aClass136_1584);
-		aClass140Array1581[6] = new Class140_Sub1(class180_sub3);
-		aClass140Array1581[7] = new Class140_Sub7(class180_sub3);
-		aClass140Array1581[3] = aClass140_Sub3_1579 = new Class140_Sub3(class180_sub3);
-		aClass140Array1581[8] = new Class140_Sub4(class180_sub3, aClass136_1584);
-		aClass140Array1581[9] = new Class140_Sub2(class180_sub3, aClass136_1584);
-		if (!aClass140Array1581[8].method2319())
-			aClass140Array1581[8] = aClass140Array1581[4];
-		if (!aClass140Array1581[9].method2319())
-			aClass140Array1581[9] = aClass140Array1581[8];
+	void method1685() throws Throwable {
+		aClass167_Sub2_1633.method8574((long) anInt1635);
+		super.finalize();
 	}
 
-	boolean method2304(Class118 class118, int i) {
-		if (anInt1582 == 0)
-			return false;
-		aClass140Array1581[anInt1582 & 0x7fffffff].method2320(class118, i);
-		return true;
-	}
-
-	void method2305(int i, int i_0_, int i_1_, boolean bool, boolean bool_2_) {
-		bool_2_ &= aClass180_Sub3_1583.method15343();
-		if (!bool_2_ && (i == 4 || i == 8 || i == 9)) {
-			if (i == 4)
-				i_1_ = i_0_;
-			i = 2;
+	static Class137 method1686(Class167_Sub2 class167_sub2, Class119[] class119s) {
+		for (int i = 0; i < class119s.length; i++) {
+			if (class119s[i] == null || class119s[i].anInt1476 <= 0)
+				return null;
 		}
-		if (i != 0 && bool)
-			i |= ~0x7fffffff;
-		if (anInt1582 != i) {
-			if (anInt1582 != 0)
-				aClass140Array1581[anInt1582 & 0x7fffffff].method2322();
-			if (i != 0) {
-				aClass140Array1581[i & 0x7fffffff].method2324(bool);
-				aClass140Array1581[i & 0x7fffffff].method2340(bool);
-				aClass140Array1581[i & 0x7fffffff].method2323(i_0_, i_1_);
+		int i = OpenGL.glCreateProgram();
+		for (int i_0_ = 0; i_0_ < class119s.length; i_0_++)
+			OpenGL.glAttachShader(i, class119s[i_0_].anInt1476);
+		OpenGL.glLinkProgram(i);
+		OpenGL.glGetProgramiv(i, 35714, anIntArray1634, 0);
+		if (anIntArray1634[0] == 0) {
+			OpenGL.glGetProgramiv(i, 35716, anIntArray1634, 1);
+			if (anIntArray1634[1] > 1) {
+				byte[] is = new byte[anIntArray1634[1]];
+				OpenGL.glGetProgramInfoLog(i, anIntArray1634[1], anIntArray1634, 0, is, 0);
+				System.out.println(new String(is));
 			}
-			anInt1582 = i;
-			anInt1580 = i_0_;
-			anInt1585 = i_1_;
-		} else if (anInt1582 != 0) {
-			aClass140Array1581[anInt1582 & 0x7fffffff].method2340(bool);
-			if (anInt1580 != i_0_ || anInt1585 != i_1_) {
-				aClass140Array1581[anInt1582 & 0x7fffffff].method2323(i_0_, i_1_);
-				anInt1580 = i_0_;
-				anInt1585 = i_1_;
+			if (anIntArray1634[0] == 0) {
+				for (int i_1_ = 0; i_1_ < class119s.length; i_1_++)
+					OpenGL.glDetachShader(i, class119s[i_1_].anInt1476);
+				OpenGL.glDeleteProgram(i);
+				return null;
 			}
 		}
+		return new Class137(class167_sub2, i, class119s);
 	}
 
-	boolean method2306(Class118 class118, int i) {
-		if (anInt1582 == 0)
-			return false;
-		aClass140Array1581[anInt1582 & 0x7fffffff].method2320(class118, i);
-		return true;
+	public void finalize() throws Throwable {
+		aClass167_Sub2_1633.method8574((long) anInt1635);
+		super.finalize();
 	}
 
-	boolean method2307(int i) {
-		return aClass140Array1581[i].method2319();
+	Class137(Class167_Sub2 class167_sub2, int i, Class119[] class119s) {
+		aClass167_Sub2_1633 = class167_sub2;
+		anInt1635 = i;
 	}
 
-	boolean method2308(int i) {
-		return aClass140Array1581[i].method2319();
-	}
-
-	boolean method2309(int i) {
-		return aClass140Array1581[i].method2319();
-	}
-
-	boolean method2310(int i) {
-		return aClass140Array1581[i].method2319();
-	}
-
-	boolean method2311(int i) {
-		return aClass140Array1581[i].method2319();
-	}
-
-	void method2312(int i, int i_3_, int i_4_, boolean bool, boolean bool_5_) {
-		bool_5_ &= aClass180_Sub3_1583.method15343();
-		if (!bool_5_ && (i == 4 || i == 8 || i == 9)) {
-			if (i == 4)
-				i_4_ = i_3_;
-			i = 2;
-		}
-		if (i != 0 && bool)
-			i |= ~0x7fffffff;
-		if (anInt1582 != i) {
-			if (anInt1582 != 0)
-				aClass140Array1581[anInt1582 & 0x7fffffff].method2322();
-			if (i != 0) {
-				aClass140Array1581[i & 0x7fffffff].method2324(bool);
-				aClass140Array1581[i & 0x7fffffff].method2340(bool);
-				aClass140Array1581[i & 0x7fffffff].method2323(i_3_, i_4_);
-			}
-			anInt1582 = i;
-			anInt1580 = i_3_;
-			anInt1585 = i_4_;
-		} else if (anInt1582 != 0) {
-			aClass140Array1581[anInt1582 & 0x7fffffff].method2340(bool);
-			if (anInt1580 != i_3_ || anInt1585 != i_4_) {
-				aClass140Array1581[anInt1582 & 0x7fffffff].method2323(i_3_, i_4_);
-				anInt1580 = i_3_;
-				anInt1585 = i_4_;
-			}
-		}
-	}
-
-	boolean method2313(int i) {
-		return aClass140Array1581[i].method2319();
-	}
-
-	boolean method2314(Class118 class118, int i) {
-		if (anInt1582 == 0)
-			return false;
-		aClass140Array1581[anInt1582 & 0x7fffffff].method2320(class118, i);
-		return true;
-	}
-
-	boolean method2315(Class118 class118, int i) {
-		if (anInt1582 == 0)
-			return false;
-		aClass140Array1581[anInt1582 & 0x7fffffff].method2320(class118, i);
-		return true;
+	void method1687() throws Throwable {
+		aClass167_Sub2_1633.method8574((long) anInt1635);
+		super.finalize();
 	}
 }

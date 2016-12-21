@@ -3,52 +3,55 @@
  */
 package com.jagex;
 
+import java.applet.Applet;
+import java.awt.Graphics;
+
 public interface Interface62 {
-	public void method394(Class180 class180);
+	public void destroy();
 
-	public void method395(byte i);
+	public void update(Graphics graphics);
 
-	public int method396(int i);
+	public void start();
 
-	public void method397(Class180 class180);
+	public void stop();
 
-	public boolean method398(int i);
+	public void init();
 
-	public boolean method399(int i);
+	public void supplyApplet(Applet applet);
 
-	public void method400(Class180 class180, int i);
+	public void paint(Graphics graphics);
 
-	public void method401(Class180 class180, int i);
+	public void method394(Applet applet);
 
-	public int method77(int i);
+	public void method395(Applet applet);
 
-	public int method88();
+	public void method396();
 
-	public void method402(Class180 class180);
+	public void method397();
 
-	public boolean method316();
+	public void method398();
 
-	public int method403();
+	public void method399();
 
-	public int method194();
+	public void method400();
 
-	public void method347();
+	public void method401(Graphics graphics);
 
-	public void method353();
+	public void method402(Graphics graphics);
 
-	public boolean method404();
+	public void method403(Graphics graphics);
 
-	public boolean method405();
+	public void method404(Graphics graphics);
 
-	public int method64(int i);
+	public void method405(Graphics graphics);
 
-	public int method51();
+	public void method406(Graphics graphics);
 
-	public int method406();
+	public void method407(Graphics graphics);
 
-	public void method407(Class180 class180);
+	public void method408();
 
-	public int method408();
+	public void method409(Applet applet);
 
-	public void method409(Class180 class180);
+	public void method410();
 }

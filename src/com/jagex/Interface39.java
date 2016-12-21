@@ -3,5 +3,5 @@
  */
 package com.jagex;
 
-public interface Interface39 extends Interface41 {
+public interface Interface39 extends Interface40 {
 }

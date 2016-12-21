@@ -4,17 +4,15 @@
 package com.jagex;
 
 public interface Interface69 {
-	public boolean method422(Interface69 interface69_0_);
+	public void method425(Interface71 interface71);
 
-	public long method423();
+	public void method426(Interface71 interface71, int i);
 
-	public boolean method424(Interface69 interface69_1_);
+	public void method427(Interface71 interface71, int i, int i_0_, boolean bool);
 
-	public long method4();
+	public void method428(Interface71 interface71, int i, int i_1_, boolean bool, int i_2_);
 
-	public boolean method425(Interface69 interface69_2_);
+	public void method429(Interface71 interface71, int i, int i_3_, boolean bool);
 
-	public long method89();
-
-	public boolean method426(Interface69 interface69_3_);
+	public void method430(Interface71 interface71, int i, int i_4_, boolean bool);
 }

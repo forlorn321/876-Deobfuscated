@@ -3,76 +3,31 @@
  */
 package com.jagex;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Class516 {
-	static Class516 aClass516_7048;
-	public static Class516 aClass516_7049 = new Class516();
-	static Class516 aClass516_7050 = new Class516();
-
-	static {
-		aClass516_7048 = new Class516();
-	}
+	public static Class516 aClass516_7036;
+	static Class516 aClass516_7037;
+	public static Class516 aClass516_7038;
+	static Class516 aClass516_7039 = new Class516();
+	public static int anInt7040;
 
 	Class516() {
 		/* empty */
 	}
 
-	public static void method8606(boolean bool, byte i) {
-		if (null == Class290.aClass300_3229)
-			Class97.method1749(102380841);
-		if (bool)
-			Class290.aClass300_3229.method5526((byte) 0);
+	static {
+		aClass516_7036 = new Class516();
+		aClass516_7038 = new Class516();
+		aClass516_7037 = new Class516();
 	}
 
-	static final void method8607(Class665 class665, byte i) {
-		class665.anInt8526 -= 204761682;
-		int i_0_ = class665.anIntArray8525[1769813785 * class665.anInt8526];
-		int i_1_ = class665.anIntArray8525[1769813785 * class665.anInt8526 + 1];
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class555.method9409(class674.aClass243_8587, i_0_, i_1_, (byte) 21);
+	static final void method6326(Class668 class668, int i) {
+		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
+		Class251 class251 = class683.aClass251_8650;
+		Class188.method2799(class251, class668, -594991055);
 	}
 
-	static final void method8608(Class665 class665, byte i) {
-		if (Class208_Sub10.aClass296_Sub1_9923.method5378((byte) -109) != Class309.aClass309_3459)
-			throw new RuntimeException();
-		((Class696_Sub2) Class208_Sub10.aClass296_Sub1_9923.method5472(1001937391)).method17151((class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]), 755018329);
-	}
-
-	static void method8609(Class665 class665, int i) {
-		int i_2_ = class665.anIntArray8525[class665.anInt8526 * 1769813785 - 3];
-		int i_3_ = class665.anIntArray8525[class665.anInt8526 * 1769813785 - 2];
-		int i_4_ = class665.anIntArray8525[class665.anInt8526 * 1769813785 - 1];
-		class665.anInt8526 -= 307142523;
-		if (i_2_ > class665.anIntArray8538[i_3_])
-			throw new RuntimeException();
-		if (i_2_ > class665.anIntArray8538[i_4_])
-			throw new RuntimeException();
-		if (i_4_ == i_3_)
-			throw new RuntimeException();
-		Class149.method2492(class665.anIntArrayArray8542[i_3_], class665.anIntArrayArray8542[i_4_], 0, i_2_ - 1, 918650110);
-	}
-
-	public static Interface76 method8610(Class var_class, int i, byte i_5_) {
-		synchronized (Class664.aMap8518) {
-			Map map = (Map) Class664.aMap8518.get(var_class);
-			if (null == map) {
-				map = new HashMap();
-				Interface76[] interface76s = (Interface76[]) var_class.getEnumConstants();
-				for (int i_6_ = 0; i_6_ < interface76s.length; i_6_++) {
-					Interface76 interface76 = interface76s[i_6_];
-					map.put(Integer.valueOf(interface76.method87()), interface76);
-				}
-				Class664.aMap8518.put(var_class, map);
-			}
-			Interface76 interface76 = (Interface76) map.get(Integer.valueOf(i));
-			return interface76;
-		}
-	}
-
-	static final void method8611(Class665 class665, int i) {
-		client.aClass243_11150 = null;
-		client.aClass243_11205 = null;
+	static final void method6327(Class668 class668, byte i) {
+		if (Class707.aBool8822 && Class223.aFrame2336 != null)
+			Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-418442556), -1, -1, false, -1266401212);
 	}
 }

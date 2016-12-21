@@ -4,7 +4,9 @@
 package com.jagex;
 
 public interface Interface73 {
-	public int method482(int i);
+	public String method488(Class614 class614, int[] is, long l);
 
-	public int method483(int i, int i_0_);
+	public String method489(Class614 class614, int[] is, long l);
+
+	public String method490(Class614 class614, int[] is, long l);
 }

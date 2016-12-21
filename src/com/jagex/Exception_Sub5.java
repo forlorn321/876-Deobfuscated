@@ -4,11 +4,25 @@
 package com.jagex;
 
 public class Exception_Sub5 extends Exception {
-	public Exception_Sub5(String string) {
-		super(string);
+	int anInt11366;
+
+	public int method10531() {
+		return anInt11366 * -1570523505;
 	}
 
-	static final void method17969(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class389.method6460(17150925).method87();
+	Exception_Sub5() throws Throwable {
+		throw new Error();
+	}
+
+	public int method10532() {
+		return anInt11366 * -1570523505;
+	}
+
+	public int method10533(int i) {
+		return anInt11366 * -1570523505;
+	}
+
+	public int method10534() {
+		return anInt11366 * -1570523505;
 	}
 }

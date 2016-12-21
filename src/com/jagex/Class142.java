@@ -3,32 +3,28 @@
  */
 package com.jagex;
 
-public abstract class Class142 {
-	static int anInt1657;
-	static Class459 aClass459_1658;
+public class Class142 {
+	int anInt1660;
+	int anInt1661;
+	int anInt1662;
+	int anInt1663;
+	short aShort1664;
+	short aShort1665;
+	short aShort1666;
+	byte aByte1667;
+	boolean aBool1668;
+	int anInt1669;
 
-	Class142() {
-		/* empty */
-	}
-
-	public static void method2375(byte i) {
-		Class585.anInt7708 = 640177411;
-	}
-
-	static final void method2376(Class665 class665, byte i) {
-		int i_0_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Class243 class243 = Class648.method10837(i_0_, -1804481456);
-		Class240 class240 = Class183.aClass240Array2100[i_0_ >> 16];
-		Class292.method5270(class243, class240, class665, (byte) -5);
-	}
-
-	static final void method2377(Class665 class665, int i) {
-		Class674 class674 = (class665.aBool8549 ? class665.aClass674_8534 : class665.aClass674_8533);
-		Class243 class243 = class674.aClass243_8587;
-		Class208_Sub2.method15592(class243, class665, (short) 21713);
-	}
-
-	static void method2378(Class665 class665, int i) {
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = Class223.method4180((byte) 14);
+	Class142(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, boolean bool, boolean bool_8_, int i_9_) {
+		anInt1663 = i;
+		anInt1662 = i_0_;
+		anInt1661 = i_1_;
+		anInt1660 = i_2_;
+		aShort1666 = (short) i_3_;
+		aShort1665 = (short) i_4_;
+		aShort1664 = (short) i_5_;
+		aByte1667 = (byte) i_7_;
+		aBool1668 = bool_8_;
+		anInt1669 = i_9_;
 	}
 }

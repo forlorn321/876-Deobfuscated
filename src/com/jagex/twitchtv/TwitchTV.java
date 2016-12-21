@@ -4,23 +4,23 @@
 package com.jagex.twitchtv;
 
 public class TwitchTV {
-	public static final int anInt8858 = 0;
-	public static final int anInt8859 = 12;
-	public static final int anInt8860 = 23;
-	public static final int anInt8861 = 42;
-	public static final int anInt8862 = 2072;
-	public static final int anInt8863 = -995;
-	public static final int anInt8864 = 7;
-	public static final int anInt8865 = 8;
-	public static final int anInt8866 = 9;
-	public static final int anInt8867 = 10;
-	public static final int anInt8868 = 30;
-	public static final int anInt8869 = 33;
-	public static final int anInt8870 = 34;
-	public static final int anInt8871 = 5;
-	public static final int anInt8872 = 0;
-	public static final int anInt8873 = 1;
-	public static final int anInt8874 = 2;
+	public static final int anInt8850 = 0;
+	public static final int anInt8851 = 12;
+	public static final int anInt8852 = 23;
+	public static final int anInt8853 = 42;
+	public static final int anInt8854 = 2072;
+	public static final int anInt8855 = -995;
+	public static final int anInt8856 = 7;
+	public static final int anInt8857 = 8;
+	public static final int anInt8858 = 9;
+	public static final int anInt8859 = 10;
+	public static final int anInt8860 = 30;
+	public static final int anInt8861 = 33;
+	public static final int anInt8862 = 34;
+	public static final int anInt8863 = 5;
+	public static final int anInt8864 = 0;
+	public static final int anInt8865 = 1;
+	public static final int anInt8866 = 2;
 
 	public native int InitialiseTTV(String string);
 

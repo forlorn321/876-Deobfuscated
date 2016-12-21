@@ -3,63 +3,41 @@
  */
 package com.jagex;
 
-import java.awt.Point;
-
 public class Class670 {
-	static Class670 aClass670_8568 = new Class670();
-	public static Class670 aClass670_8569 = new Class670();
-	static Class670 aClass670_8570 = new Class670();
+	public int anInt8567;
+	public static Class670 aClass670_8568 = new Class670("runescape", "RuneScape", 0, Class74.aClass74_808);
+	static Class670 aClass670_8569;
+	static Class670 aClass670_8570;
+	static Class670 aClass670_8571;
+	static Class670 aClass670_8572;
+	public String aString8573;
+	public String aString8574;
+	public static Class670 aClass670_8575 = new Class670("stellardawn", "Stellar Dawn", 1, Class74.aClass74_815);
 
-	Class670() {
-		/* empty */
+	static {
+		aClass670_8569 = new Class670("game3", "Game 3", 2, Class74.aClass74_808);
+		aClass670_8570 = new Class670("game4", "Game 4", 3, Class74.aClass74_811);
+		aClass670_8571 = new Class670("game5", "Game 5", 4, Class74.aClass74_812);
+		aClass670_8572 = new Class670("oldscape", "RuneScape 2007", 5, Class74.aClass74_808);
 	}
 
-	static String method13762(long l) {
-		if (l <= 0L || l >= 6582952005840035281L)
-			return null;
-		if (l % 37L == 0L)
-			return null;
-		int i = 0;
-		for (long l_0_ = l; l_0_ != 0L; l_0_ /= 37L)
-			i++;
-		StringBuilder stringbuilder = new StringBuilder(i);
-		while (l != 0L) {
-			long l_1_ = l;
-			l /= 37L;
-			char c = Class663.aCharArray8516[(int) (l_1_ - 37L * l)];
-			if ('_' == c) {
-				int i_2_ = stringbuilder.length() - 1;
-				stringbuilder.setCharAt(i_2_, Character.toUpperCase(stringbuilder.charAt(i_2_)));
-				c = '\u00a0';
-			}
-			stringbuilder.append(c);
-		}
-		stringbuilder.reverse();
-		stringbuilder.setCharAt(0, Character.toUpperCase(stringbuilder.charAt(0)));
-		return stringbuilder.toString();
+	Class670(String string, String string_0_, int i, Class74 class74) {
+		aString8573 = string;
+		aString8574 = string_0_;
+		anInt8567 = -107395095 * i;
 	}
 
-	static void method13763(Class665 class665, byte i) {
-		class665.anObjectArray8541[(class665.anInt8528 += 433009517) * 318492261 - 1] = ((Class259) Class590.aClass62_Sub1_7793.method81((class665.anIntArray8525[((class665.anInt8526 -= 102380841) * 1769813785)]), 1181150590)).aString2841;
+	static final void method8013(Class668 class668, byte i) {
+		Class536_Sub30 class536_sub30 = ((Class536_Sub30) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]));
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub30.anInt10567 * -1369836225;
 	}
 
-	static void method13764(int i, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, Class527_Sub8_Sub7 class527_sub8_sub7, Class174 class174, Class22 class22, int i_9_, int i_10_, int i_11_) {
-		if (i > i_4_ && i < i_4_ + i_6_ && i_3_ > i_8_ - class22.anInt215 * -63286397 - 1 && i_3_ < i_8_ + class22.anInt213 * 672688101 && class527_sub8_sub7.aBool11648)
-			i_9_ = i_10_;
-		int[] is = Class700_Sub41.method17315(class527_sub8_sub7, -1419422402);
-		String string = Class72.method1496(class527_sub8_sub7, (byte) -103);
-		if (is != null)
-			string = new StringBuilder().append(string).append(Class370.method6358(is, 1306397243)).toString();
-		class174.method2789(string, 3 + i_4_, i_8_, i_9_, 0, client.aRandom11092, Class610.anInt8001, Class191.aClass147Array2138, null, 805196302);
-		if (class527_sub8_sub7.aBool11645)
-			Class452.aClass147_4962.method2415(5 + i_4_ + class22.method781(string, Class191.aClass147Array2138, (short) 386), i_8_ - class22.anInt215 * -63286397);
-	}
-
-	static final void method13765(Class243 class243, Class665 class665, int i) {
-		Class22 class22 = class243.method4553(Class211.aClass420_2256, client.anInterface50_11053, -1674314069);
-		int i_12_ = (class665.anIntArray8525[(class665.anInt8526 -= 102380841) * 1769813785]);
-		Point point = class22.method789(class243.aString2578, -1054537975 * class243.anInt2511, -409542683 * class243.anInt2579, i_12_, Class191.aClass147Array2138, -262575904);
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = point.x;
-		class665.anIntArray8525[((class665.anInt8526 += 102380841) * 1769813785 - 1)] = point.y;
+	static void method8014(int i, int i_1_, int i_2_) {
+		if (1 == -635226465 * Class70.anInt758)
+			Class603.method7200(Class430.aClass536_Sub18_Sub9_4821, i, i_1_, false, 1422943323);
+		else if (2 == -635226465 * Class70.anInt758)
+			Class486.method5861(i, i_1_, -883554905);
+		Class70.anInt758 = 0;
+		Class430.aClass536_Sub18_Sub9_4821 = null;
 	}
 }
