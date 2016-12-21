@@ -198,11 +198,13 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4782;
 	public static IncomingPacket aClass422_4783;
 	public int id;
+	public int realLength;
 	public static IncomingPacket aClass422_4785;
 
 	IncomingPacket(int i, int i_0_) {
 		id = i * 2069387581;
 		anInt4750 = i_0_ * -1415459355;
+		realLength = i_0_;
 	}
 
 	static {

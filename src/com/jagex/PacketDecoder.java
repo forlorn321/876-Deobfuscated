@@ -66,7 +66,7 @@ public class PacketDecoder {
 		class106.aClass422_1270 = class106.aClass422_1261;
 		
 		if (!RS3Applet.IDENTIFIED.contains(class106.aClass422_1261)) {
-			System.out.println("UNIDENTIFIED PACKET: " + (-798865899 * class106.aClass422_1261.id));
+			System.out.println("UNIDENTIFIED PACKET: " + (-798865899 * class106.aClass422_1261.id) + ", " + class106.aClass422_1261.realLength);
 		}
 		
 		if (IncomingPacket.aClass422_4696 == class106.aClass422_1261) {
