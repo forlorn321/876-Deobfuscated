@@ -23,10 +23,6 @@ public abstract class Class47 {
 		/* empty */
 	}
 
-	Socket method911() throws IOException {
-		return new Socket(aString576, -657305375 * anInt577);
-	}
-
 	public static void method912(Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, short i) {
 		Class536_Sub3 class536_sub3 = (Class536_Sub3) (Class536_Sub3.aClass4_10366.method556((long) (class649_sub1_sub5_sub1_sub2.anInt11889 * 1710020215)));
 		if (null != class536_sub3) {

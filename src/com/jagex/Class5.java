@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
 
+import com.RS3Applet;
+
 public class Class5 {
 	public int anInt108;
 	boolean aBool109 = true;
@@ -31,52 +33,10 @@ public class Class5 {
 		return Class606.method7219(aString112, aBool109 ? anInt108 * -910853859 : -843966029 * anInt110, -62207556).method909(-979285364);
 	}
 
-	public void method576() {
-		if (!aBool109) {
-			aBool109 = true;
-			aBool113 = true;
-		} else if (aBool113)
-			aBool113 = false;
-		else
-			aBool109 = false;
-	}
-
-	public Socket method577() throws IOException {
-		if (!aBool113)
-			return new Socket(InetAddress.getByName(aString112), (aBool109 ? -910853859 * anInt108 : -843966029 * anInt110));
-		return Class606.method7219(aString112, aBool109 ? anInt108 * -910853859 : -843966029 * anInt110, -62207556).method909(-979285364);
-	}
-
-	public Socket method578() throws IOException {
-		if (!aBool113)
-			return new Socket(InetAddress.getByName(aString112), (aBool109 ? -910853859 * anInt108 : -843966029 * anInt110));
-		return Class606.method7219(aString112, aBool109 ? anInt108 * -910853859 : -843966029 * anInt110, -62207556).method909(-979285364);
-	}
-
 	public boolean method579(Class5 class5_0_, byte i) {
 		if (class5_0_ == null)
 			return false;
 		return (anInt111 * 1318197187 == 1318197187 * class5_0_.anInt111 && aString112.equals(class5_0_.aString112) && -843966029 * anInt110 == class5_0_.anInt110 * -843966029 && -910853859 * anInt108 == class5_0_.anInt108 * -910853859);
-	}
-
-	public void method580() {
-		if (!aBool109) {
-			aBool109 = true;
-			aBool113 = true;
-		} else if (aBool113)
-			aBool113 = false;
-		else
-			aBool109 = false;
-	}
-
-	public void method581() {
-		if (!aBool109) {
-			aBool109 = true;
-			aBool113 = true;
-		} else if (aBool113)
-			aBool113 = false;
-		else
-			aBool109 = false;
 	}
 
 	static final void method582(Class668 class668, int i) {

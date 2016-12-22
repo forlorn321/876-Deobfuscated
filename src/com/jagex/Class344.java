@@ -212,7 +212,6 @@ public class Class344 {
 		for (int i_161_ = 0; i_161_ < -537974539 * Class593.worldCount; i_161_++) {
 			int worldId = class536_sub33.readUnsignedSmart(426225695);
 			int online = class536_sub33.readUnsignedShort();
-			System.out.println("World: " + worldId + ", " + online);
 			if (65535 == online)
 				online = -1;
 			if (null != Class506.aClass603_Sub1Array6890[worldId])

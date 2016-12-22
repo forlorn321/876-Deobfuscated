@@ -1915,7 +1915,8 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4665) {
-			Class464.aClass694_5229 = Class187.method2785(stream.readUnsignedByte(), (byte) 1);
+			int val = stream.readUnsignedByte();
+			Class464.aClass694_5229 = Class187.method2785(val, (byte) 1);
 			class106.aClass422_1261 = null;
 			return true;
 		}
