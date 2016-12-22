@@ -106,6 +106,9 @@ public class RS3Applet extends Applet implements AppletStub {
 		
 		IDENTIFIED_SUB.add(SubIncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED_SUB.add(SubIncomingPacket.REMOVE_GROUND_ITEM);
+		IDENTIFIED_SUB.add(SubIncomingPacket.PROJECTILE);
+		IDENTIFIED_SUB.add(SubIncomingPacket.REMOVE_GAME_OBJECT);
+		IDENTIFIED_SUB.add(SubIncomingPacket.ADD_GAME_OBJECT);
 	}
 
 	/**

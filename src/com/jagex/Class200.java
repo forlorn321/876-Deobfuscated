@@ -239,12 +239,12 @@ class Class200 implements Interface55 {
 				SubIncomingPacket.REMOVE_GROUND_ITEM, 
 				SubIncomingPacket.aClass409_4314, 
 				SubIncomingPacket.ADD_GROUND_ITEM, 
-				SubIncomingPacket.aClass409_4316, 
+				SubIncomingPacket.REMOVE_GAME_OBJECT, 
 				SubIncomingPacket.aClass409_4321, 
 				SubIncomingPacket.aClass409_4318, 
 				SubIncomingPacket.aClass409_4319, 
-				SubIncomingPacket.aClass409_4320,
-				SubIncomingPacket.aClass409_4311 
+				SubIncomingPacket.PROJECTILE,
+				SubIncomingPacket.ADD_GAME_OBJECT 
 				});
 	}
 }

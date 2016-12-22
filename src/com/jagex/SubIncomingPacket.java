@@ -8,16 +8,16 @@ public class SubIncomingPacket {
 	public static SubIncomingPacket aClass409_4308 = new SubIncomingPacket(1);
 	public static SubIncomingPacket aClass409_4309 = new SubIncomingPacket(2);
 	public static SubIncomingPacket ADD_GROUND_ITEM;
-	public static SubIncomingPacket aClass409_4311;
+	public static SubIncomingPacket ADD_GAME_OBJECT;
 	public static SubIncomingPacket aClass409_4312;
 	public static SubIncomingPacket aClass409_4313 = new SubIncomingPacket(3);
 	public static SubIncomingPacket aClass409_4314;
 	public static SubIncomingPacket REMOVE_GROUND_ITEM;
-	public static SubIncomingPacket aClass409_4316;
+	public static SubIncomingPacket REMOVE_GAME_OBJECT;
 	public static SubIncomingPacket aClass409_4317 = new SubIncomingPacket(4);
 	public static SubIncomingPacket aClass409_4318;
 	public static SubIncomingPacket aClass409_4319;
-	public static SubIncomingPacket aClass409_4320;
+	public static SubIncomingPacket PROJECTILE;
 	public static SubIncomingPacket aClass409_4321;
 	public int id;
 
@@ -26,12 +26,12 @@ public class SubIncomingPacket {
 		REMOVE_GROUND_ITEM = new SubIncomingPacket(6);
 		aClass409_4314 = new SubIncomingPacket(7);
 		ADD_GROUND_ITEM = new SubIncomingPacket(8);
-		aClass409_4316 = new SubIncomingPacket(9);
+		REMOVE_GAME_OBJECT = new SubIncomingPacket(9);
 		aClass409_4321 = new SubIncomingPacket(10);
 		aClass409_4318 = new SubIncomingPacket(11);
 		aClass409_4319 = new SubIncomingPacket(12);
-		aClass409_4320 = new SubIncomingPacket(13);
-		aClass409_4311 = new SubIncomingPacket(14);
+		PROJECTILE = new SubIncomingPacket(13);
+		ADD_GAME_OBJECT = new SubIncomingPacket(14);
 	}
 
 	SubIncomingPacket(int i) {

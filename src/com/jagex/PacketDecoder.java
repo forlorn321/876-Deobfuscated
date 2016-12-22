@@ -1029,7 +1029,6 @@ public class PacketDecoder {
 			Class618.sceneY = (stream.readByteC() << 3) * 1712069097;
 			Class302.sceneX = (stream.read128Byte() << 3) * 1163453749;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
-				System.out.println("Chunk scene with subpacket: ");
 				SubIncomingPacket class409 = (Class200.method2916()[stream.readUnsignedByte()]);
 				PacketDecoder.method4486(class409, (byte) 2);
 			}
@@ -1052,7 +1051,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4694 == class106.aClass422_1261) {
-			PacketDecoder.method4486(SubIncomingPacket.aClass409_4316, (byte) 2);
+			PacketDecoder.method4486(SubIncomingPacket.REMOVE_GAME_OBJECT, (byte) 2);
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -1559,7 +1558,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4642 == class106.aClass422_1261) {
-			PacketDecoder.method4486(SubIncomingPacket.aClass409_4320, (byte) 2);
+			PacketDecoder.method4486(SubIncomingPacket.PROJECTILE, (byte) 2);
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -1656,7 +1655,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4639 == class106.aClass422_1261) {
-			PacketDecoder.method4486(SubIncomingPacket.aClass409_4311, (byte) 2);
+			PacketDecoder.method4486(SubIncomingPacket.ADD_GAME_OBJECT, (byte) 2);
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -2894,7 +2893,7 @@ public class PacketDecoder {
 						Class52.method934(Class512.scenePlane * -502818839, i_66_, i_64_, (byte) -110);
 				}
 			}
-		} else if (SubIncomingPacket.aClass409_4316 == packet) {
+		} else if (SubIncomingPacket.REMOVE_GAME_OBJECT == packet) {
 			int i_69_ = stream.readUnsignedByteC(2039686976);
 			int i_70_ = i_69_ >> 2;
 			int i_71_ = i_69_ & 0x3;
@@ -3024,7 +3023,7 @@ public class PacketDecoder {
 					Class677.method8053(i_119_, i_117_, i_118_, i_114_, i_120_, i_121_, i_110_, i_111_, i_115_, i_116_, i_122_, i_123_, i_124_, i_125_, bool, i_126_, (byte) 15);
 				}
 			}
-		} else if (SubIncomingPacket.aClass409_4311 == packet) {
+		} else if (SubIncomingPacket.ADD_GAME_OBJECT == packet) {
 			int i_127_ = stream.readUnsigned128Byte();
 			int i_128_ = i_127_ >> 2;
 			int i_129_ = i_127_ & 0x3;
@@ -3035,7 +3034,7 @@ public class PacketDecoder {
 			int i_134_ = stream.readLEInt();
 			if (client.aClass515_11066.method6315(-434956694).method6015((short) -8192) || (i_132_ >= 0 && i_133_ >= 0 && i_132_ < client.aClass515_11066.method6321((byte) 48) && i_133_ < client.aClass515_11066.method6243(177401017)))
 				SubIncomingPacket.method4972(Class512.scenePlane * -502818839, i_132_, i_133_, i_130_, i_134_, i_128_, i_129_, (byte) 35);
-		} else if (packet == SubIncomingPacket.aClass409_4320) {
+		} else if (packet == SubIncomingPacket.PROJECTILE) {
 			int i_135_ = stream.readUnsignedByte();
 			boolean bool = 0 != (i_135_ & 0x80);
 			int i_136_ = 421791005 * Class302.sceneX + (i_135_ >> 3 & 0x7);
