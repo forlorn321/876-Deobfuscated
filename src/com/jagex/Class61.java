@@ -779,7 +779,7 @@ public class Class61 {
 								Class536_Sub33_Sub2 class536_sub33_sub2 = new Class536_Sub33_Sub2(i_16_);
 								System.arraycopy((Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.buffer), (Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off) * -810172525, (class536_sub33_sub2.buffer), 0, i_16_);
 								Class586.aClass106_7710.aClass536_Sub33_Sub2_1267.off += i_16_ * 516175515;
-								if (IncomingPacket.aClass422_4674 == Class586.aClass106_7710.aClass422_1261)
+								if (IncomingPacket.DYNAMIC_MAP_SCENE == Class586.aClass106_7710.aClass422_1261)
 									client.aClass515_11066.method6291(new Class510(Class498.aClass498_5558, class536_sub33_sub2), (byte) 7);
 								else
 									client.aClass515_11066.method6291(new Class510(Class498.aClass498_5557, class536_sub33_sub2), (byte) 11);

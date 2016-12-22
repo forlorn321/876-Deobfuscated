@@ -310,7 +310,7 @@ public class Class537 {
 	static final boolean method6506(Class106 class106, int i) {
 		boolean bool;
 		try {
-			bool = PacketDecoder.method3396(class106, 1697143964);
+			bool = PacketDecoder.decodePacket(class106, 1697143964);
 		} catch (IOException ioexception) {
 			if (client.anInt11101 * -708374433 == 8) {
 				class106.method1412(2043797255);

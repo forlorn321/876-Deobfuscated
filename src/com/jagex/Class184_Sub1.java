@@ -645,6 +645,6 @@ public class Class184_Sub1 extends Class184 {
 		int i_199_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
 		int i_200_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2];
 		Class264.method3678(i_198_, -689214737);
-		SubIncomingPacket.method4967(Class463.aClass234Array5227[i_198_ >>> 16], i_198_ & 0xffff, i_199_, i_200_, class668.aBool8548, class668, (byte) 1);
+		ChunkSceneSubPackets.method4967(Class463.aClass234Array5227[i_198_ >>> 16], i_198_ & 0xffff, i_199_, i_200_, class668.aBool8548, class668, (byte) 1);
 	}
 }

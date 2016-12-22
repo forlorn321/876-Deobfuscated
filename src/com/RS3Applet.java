@@ -49,7 +49,7 @@ import javax.crypto.spec.SecretKeySpec;
 import javax.swing.JFrame;
 
 import com.jagex.IncomingPacket;
-import com.jagex.SubIncomingPacket;
+import com.jagex.ChunkSceneSubPackets;
 
 public class RS3Applet extends Applet implements AppletStub {
 
@@ -69,7 +69,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	private static final String LIB_DIR = "./library/";
 	
 	public static final ArrayList<IncomingPacket> IDENTIFIED = new ArrayList<IncomingPacket>();
-	public static final ArrayList<SubIncomingPacket> IDENTIFIED_SUB = new ArrayList<SubIncomingPacket>();
+	public static final ArrayList<ChunkSceneSubPackets> IDENTIFIED_SUB = new ArrayList<ChunkSceneSubPackets>();
 	
 	static {
 		IDENTIFIED.add(IncomingPacket.PING); // Lobby ping? idk
@@ -88,7 +88,10 @@ public class RS3Applet extends Applet implements AppletStub {
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);
-		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing apparently
+		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing noticeable
+		
+		IDENTIFIED.add(IncomingPacket.aClass422_4644); //sent when joining a dung party yet commenting it out doesn't have any immediately noticable effects
+		IDENTIFIED.add(IncomingPacket.aClass422_4676); //sent when joining a dung party seems to change the color of the outline on some of the buttons
 		
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
@@ -103,12 +106,21 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.HINT_ICON);
 		IDENTIFIED.add(IncomingPacket.SOUND_EFFECT);
 		IDENTIFIED.add(IncomingPacket.SEND_ITEMS);
+		IDENTIFIED.add(IncomingPacket.NPC_HEAD_ON_ICOMPONENT);
+		IDENTIFIED.add(IncomingPacket.PLAYER_HEAD_ON_ICOMPONENT);
+		IDENTIFIED.add(IncomingPacket.RUN_ENERGY);
+		IDENTIFIED.add(IncomingPacket.CLOSE_INTERFACE);
+		IDENTIFIED.add(IncomingPacket.ITEM_ON_ICOMPONENT);
+		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE);
+		IDENTIFIED.add(IncomingPacket.MAP_REGION);
 		
-		IDENTIFIED_SUB.add(SubIncomingPacket.ADD_GROUND_ITEM);
-		IDENTIFIED_SUB.add(SubIncomingPacket.REMOVE_GROUND_ITEM);
-		IDENTIFIED_SUB.add(SubIncomingPacket.PROJECTILE);
-		IDENTIFIED_SUB.add(SubIncomingPacket.REMOVE_GAME_OBJECT);
-		IDENTIFIED_SUB.add(SubIncomingPacket.ADD_GAME_OBJECT);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GROUND_ITEM);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.REMOVE_GROUND_ITEM);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.PROJECTILE);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.REMOVE_GAME_OBJECT);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GAME_OBJECT);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.GRAPHICS_ON_TILE);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.GROUND_GRAPHIC_RELATED);
 	}
 
 	/**

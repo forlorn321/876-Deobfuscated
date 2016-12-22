@@ -12,7 +12,7 @@ public class Class190 {
 	int anInt2151;
 
 	void method2816(int i, int i_0_, int i_1_, int i_2_, byte i_3_) {
-		SubIncomingPacket.method4972(i, i_0_, i_1_, 476778909 * aClass606_2147.anInt7897, -376823457 * anInt2151, -723459231 * aClass606_2147.anInt7878, i_2_, (byte) 87);
+		ChunkSceneSubPackets.method4972(i, i_0_, i_1_, 476778909 * aClass606_2147.anInt7897, -376823457 * anInt2151, -723459231 * aClass606_2147.anInt7878, i_2_, (byte) 87);
 		anInt2148 = i * -1728913933;
 		anInt2146 = -1773546337 * i_0_;
 		anInt2149 = -1164899093 * i_1_;
@@ -20,11 +20,11 @@ public class Class190 {
 	}
 
 	void method2817() {
-		SubIncomingPacket.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 2);
+		ChunkSceneSubPackets.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 2);
 	}
 
 	void method2818(byte i) {
-		SubIncomingPacket.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 14);
+		ChunkSceneSubPackets.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 14);
 	}
 
 	boolean method2819(int i) {
@@ -45,11 +45,11 @@ public class Class190 {
 	}
 
 	void method2820() {
-		SubIncomingPacket.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 123);
+		ChunkSceneSubPackets.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 123);
 	}
 
 	void method2821() {
-		SubIncomingPacket.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 83);
+		ChunkSceneSubPackets.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 83);
 	}
 
 	Class190(RSByteBuffer class536_sub33) {
@@ -58,7 +58,7 @@ public class Class190 {
 	}
 
 	void method2822() {
-		SubIncomingPacket.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 112);
+		ChunkSceneSubPackets.method4972(-1658911941 * anInt2148, 1780369247 * anInt2146, anInt2149 * 442186691, aClass606_2147.anInt7897 * 476778909, -1, -723459231 * aClass606_2147.anInt7878, 1143723435 * anInt2150, (byte) 112);
 	}
 
 	boolean method2823() {

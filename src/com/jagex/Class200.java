@@ -228,23 +228,23 @@ class Class200 implements Interface55 {
 		return class536_sub1.anIntArray10300[i_67_];
 	}
 
-	public static SubIncomingPacket[] method2916() {
-		return (new SubIncomingPacket[] { 
-				SubIncomingPacket.aClass409_4307, //0
-				SubIncomingPacket.aClass409_4308, 
-				SubIncomingPacket.aClass409_4309, 
-				SubIncomingPacket.aClass409_4313, 
-				SubIncomingPacket.aClass409_4317, 
-				SubIncomingPacket.aClass409_4312, 
-				SubIncomingPacket.REMOVE_GROUND_ITEM, 
-				SubIncomingPacket.aClass409_4314, 
-				SubIncomingPacket.ADD_GROUND_ITEM, 
-				SubIncomingPacket.REMOVE_GAME_OBJECT, 
-				SubIncomingPacket.aClass409_4321, 
-				SubIncomingPacket.aClass409_4318, 
-				SubIncomingPacket.aClass409_4319, 
-				SubIncomingPacket.PROJECTILE,
-				SubIncomingPacket.ADD_GAME_OBJECT 
+	public static ChunkSceneSubPackets[] method2916() {
+		return (new ChunkSceneSubPackets[] { 
+				ChunkSceneSubPackets.aClass409_4307, //0
+				ChunkSceneSubPackets.aClass409_4308, 
+				ChunkSceneSubPackets.aClass409_4309, 
+				ChunkSceneSubPackets.GRAPHICS_ON_TILE, 
+				ChunkSceneSubPackets.aClass409_4317, 
+				ChunkSceneSubPackets.aClass409_4312, 
+				ChunkSceneSubPackets.REMOVE_GROUND_ITEM, 
+				ChunkSceneSubPackets.GROUND_GRAPHIC_RELATED, 
+				ChunkSceneSubPackets.ADD_GROUND_ITEM, 
+				ChunkSceneSubPackets.REMOVE_GAME_OBJECT, 
+				ChunkSceneSubPackets.aClass409_4321, 
+				ChunkSceneSubPackets.aClass409_4318, 
+				ChunkSceneSubPackets.aClass409_4319, 
+				ChunkSceneSubPackets.PROJECTILE,
+				ChunkSceneSubPackets.ADD_GAME_OBJECT 
 				});
 	}
 }

@@ -44,7 +44,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4628;
 	public static IncomingPacket aClass422_4629;
 	public static IncomingPacket NPC_UPDATE;
-	public static IncomingPacket aClass422_4631;
+	public static IncomingPacket RUN_ENERGY;
 	public static IncomingPacket CS_VAR_1;
 	public static IncomingPacket aClass422_4633;
 	public static IncomingPacket GAME_MESSAGE;
@@ -70,7 +70,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4654;
 	public static IncomingPacket aClass422_4655;
 	public static IncomingPacket aClass422_4656;
-	public static IncomingPacket aClass422_4657;
+	public static IncomingPacket MAP_REGION;
 	public static IncomingPacket aClass422_4658;
 	public static IncomingPacket aClass422_4659;
 	public static IncomingPacket aClass422_4660;
@@ -87,7 +87,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4671;
 	public static IncomingPacket aClass422_4672;
 	public static IncomingPacket aClass422_4673;
-	public static IncomingPacket aClass422_4674;
+	public static IncomingPacket DYNAMIC_MAP_SCENE;
 	public static IncomingPacket PLAYER_OPTION;
 	public static IncomingPacket aClass422_4676;
 	public static IncomingPacket aClass422_4677;
@@ -96,7 +96,7 @@ public class IncomingPacket {
 	public static IncomingPacket HIDE_ICOMPONENT;
 	public static IncomingPacket aClass422_4681;
 	public static IncomingPacket OBJECT_RELATED_MAYBE;
-	public static IncomingPacket aClass422_4683;
+	public static IncomingPacket ICOMPONENT_ANIMATION;
 	public static IncomingPacket aClass422_4684;
 	public static IncomingPacket aClass422_4685;
 	public static IncomingPacket CS_VAR_STRING_1;
@@ -108,12 +108,12 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4692;
 	public static IncomingPacket aClass422_4693;
 	public static IncomingPacket aClass422_4694;
-	public static IncomingPacket aClass422_4695;
+	public static IncomingPacket NPC_HEAD_ON_ICOMPONENT;
 	public static IncomingPacket aClass422_4696;
 	public static IncomingPacket aClass422_4697;
 	public static IncomingPacket aClass422_4698;
 	public static IncomingPacket aClass422_4699;
-	public static IncomingPacket aClass422_4700;
+	public static IncomingPacket ITEM_ON_ICOMPONENT;
 	public static IncomingPacket aClass422_4701;
 	public static IncomingPacket MINIMAP_FLAG;
 	public static IncomingPacket aClass422_4703;
@@ -154,7 +154,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4738;
 	public static IncomingPacket aClass422_4739;
 	public static IncomingPacket WORLD_LIST;
-	public static IncomingPacket aClass422_4741;
+	public static IncomingPacket CLOSE_INTERFACE;
 	public static IncomingPacket aClass422_4742;
 	public static IncomingPacket aClass422_4743;
 	public static IncomingPacket aClass422_4744;
@@ -196,7 +196,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4780;
 	public static IncomingPacket aClass422_4781;
 	public static IncomingPacket aClass422_4782;
-	public static IncomingPacket aClass422_4783;
+	public static IncomingPacket PLAYER_HEAD_ON_ICOMPONENT;
 	public int id;
 	public int realLength;
 	public static IncomingPacket aClass422_4785;
@@ -236,7 +236,7 @@ public class IncomingPacket {
 		ADD_GROUND_ITEM = new IncomingPacket(26, 5);
 		aClass422_4618 = new IncomingPacket(27, 6);
 		aClass422_4619 = new IncomingPacket(28, -1);
-		aClass422_4631 = new IncomingPacket(29, 1);
+		RUN_ENERGY = new IncomingPacket(29, 1);
 		aClass422_4621 = new IncomingPacket(30, -2);
 		aClass422_4622 = new IncomingPacket(31, 3);
 		PING = new IncomingPacket(32, 0);
@@ -255,7 +255,7 @@ public class IncomingPacket {
 		CLIENT_SCRIPT = new IncomingPacket(45, -2);
 		aClass422_4637 = new IncomingPacket(46, 1);
 		aClass422_4764 = new IncomingPacket(47, 0);
-		aClass422_4741 = new IncomingPacket(48, 4);
+		CLOSE_INTERFACE = new IncomingPacket(48, 4);
 		aClass422_4595 = new IncomingPacket(49, -2);
 		aClass422_4641 = new IncomingPacket(50, 6);
 		aClass422_4656 = new IncomingPacket(51, -2);
@@ -273,7 +273,7 @@ public class IncomingPacket {
 		aClass422_4650 = new IncomingPacket(63, -2);
 		aClass422_4655 = new IncomingPacket(64, -1);
 		aClass422_4755 = new IncomingPacket(65, 1);
-		aClass422_4657 = new IncomingPacket(66, -2);
+		MAP_REGION = new IncomingPacket(66, -2);
 		aClass422_4658 = new IncomingPacket(67, -1);
 		aClass422_4659 = new IncomingPacket(68, 0);
 		aClass422_4660 = new IncomingPacket(69, -1);
@@ -299,7 +299,7 @@ public class IncomingPacket {
 		aClass422_4636 = new IncomingPacket(89, -1);
 		aClass422_4681 = new IncomingPacket(90, -1);
 		OBJECT_RELATED_MAYBE = new IncomingPacket(91, 3);
-		aClass422_4683 = new IncomingPacket(92, 8);
+		ICOMPONENT_ANIMATION = new IncomingPacket(92, 8);
 		aClass422_4684 = new IncomingPacket(93, -1);
 		aClass422_4685 = new IncomingPacket(94, -2);
 		aClass422_4745 = new IncomingPacket(95, 1);
@@ -311,12 +311,12 @@ public class IncomingPacket {
 		aClass422_4654 = new IncomingPacket(101, 0);
 		aClass422_4759 = new IncomingPacket(102, 3);
 		aClass422_4694 = new IncomingPacket(103, 2);
-		aClass422_4695 = new IncomingPacket(104, 8);
+		NPC_HEAD_ON_ICOMPONENT = new IncomingPacket(104, 8);
 		aClass422_4696 = new IncomingPacket(105, 1);
 		aClass422_4697 = new IncomingPacket(106, 7);
 		aClass422_4698 = new IncomingPacket(107, 10);
 		aClass422_4699 = new IncomingPacket(108, 6);
-		aClass422_4700 = new IncomingPacket(109, 10);
+		ITEM_ON_ICOMPONENT = new IncomingPacket(109, 10);
 		aClass422_4642 = new IncomingPacket(110, 18);
 		MINIMAP_FLAG = new IncomingPacket(111, 2);
 		aClass422_4703 = new IncomingPacket(112, 21);
@@ -367,7 +367,7 @@ public class IncomingPacket {
 		aClass422_4661 = new IncomingPacket(157, 3);
 		aClass422_4749 = new IncomingPacket(158, 10);
 		aClass422_4781 = new IncomingPacket(159, -1);
-		aClass422_4783 = new IncomingPacket(160, 4);
+		PLAYER_HEAD_ON_ICOMPONENT = new IncomingPacket(160, 4);
 		aClass422_4626 = new IncomingPacket(161, 4);
 		aClass422_4753 = new IncomingPacket(162, 1);
 		aClass422_4754 = new IncomingPacket(163, 6);
@@ -380,7 +380,7 @@ public class IncomingPacket {
 		aClass422_4701 = new IncomingPacket(170, 8);
 		aClass422_4762 = new IncomingPacket(171, 8);
 		aClass422_4603 = new IncomingPacket(172, 29);
-		aClass422_4674 = new IncomingPacket(173, -2);
+		DYNAMIC_MAP_SCENE = new IncomingPacket(173, -2);
 		aClass422_4758 = new IncomingPacket(174, -1);
 		aClass422_4748 = new IncomingPacket(175, 9);
 		PING_2 = new IncomingPacket(176, 0);

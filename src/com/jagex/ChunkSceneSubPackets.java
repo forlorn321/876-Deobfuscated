@@ -3,38 +3,38 @@
  */
 package com.jagex;
 
-public class SubIncomingPacket {
-	public static SubIncomingPacket aClass409_4307 = new SubIncomingPacket(0);
-	public static SubIncomingPacket aClass409_4308 = new SubIncomingPacket(1);
-	public static SubIncomingPacket aClass409_4309 = new SubIncomingPacket(2);
-	public static SubIncomingPacket ADD_GROUND_ITEM;
-	public static SubIncomingPacket ADD_GAME_OBJECT;
-	public static SubIncomingPacket aClass409_4312;
-	public static SubIncomingPacket aClass409_4313 = new SubIncomingPacket(3);
-	public static SubIncomingPacket aClass409_4314;
-	public static SubIncomingPacket REMOVE_GROUND_ITEM;
-	public static SubIncomingPacket REMOVE_GAME_OBJECT;
-	public static SubIncomingPacket aClass409_4317 = new SubIncomingPacket(4);
-	public static SubIncomingPacket aClass409_4318;
-	public static SubIncomingPacket aClass409_4319;
-	public static SubIncomingPacket PROJECTILE;
-	public static SubIncomingPacket aClass409_4321;
+public class ChunkSceneSubPackets {
+	public static ChunkSceneSubPackets aClass409_4307 = new ChunkSceneSubPackets(0);
+	public static ChunkSceneSubPackets aClass409_4308 = new ChunkSceneSubPackets(1);
+	public static ChunkSceneSubPackets aClass409_4309 = new ChunkSceneSubPackets(2);
+	public static ChunkSceneSubPackets ADD_GROUND_ITEM;
+	public static ChunkSceneSubPackets ADD_GAME_OBJECT;
+	public static ChunkSceneSubPackets aClass409_4312;
+	public static ChunkSceneSubPackets GRAPHICS_ON_TILE = new ChunkSceneSubPackets(3);
+	public static ChunkSceneSubPackets GROUND_GRAPHIC_RELATED;
+	public static ChunkSceneSubPackets REMOVE_GROUND_ITEM;
+	public static ChunkSceneSubPackets REMOVE_GAME_OBJECT;
+	public static ChunkSceneSubPackets aClass409_4317 = new ChunkSceneSubPackets(4);
+	public static ChunkSceneSubPackets aClass409_4318;
+	public static ChunkSceneSubPackets aClass409_4319;
+	public static ChunkSceneSubPackets PROJECTILE;
+	public static ChunkSceneSubPackets aClass409_4321;
 	public int id;
 
 	static {
-		aClass409_4312 = new SubIncomingPacket(5);
-		REMOVE_GROUND_ITEM = new SubIncomingPacket(6);
-		aClass409_4314 = new SubIncomingPacket(7);
-		ADD_GROUND_ITEM = new SubIncomingPacket(8);
-		REMOVE_GAME_OBJECT = new SubIncomingPacket(9);
-		aClass409_4321 = new SubIncomingPacket(10);
-		aClass409_4318 = new SubIncomingPacket(11);
-		aClass409_4319 = new SubIncomingPacket(12);
-		PROJECTILE = new SubIncomingPacket(13);
-		ADD_GAME_OBJECT = new SubIncomingPacket(14);
+		aClass409_4312 = new ChunkSceneSubPackets(5);
+		REMOVE_GROUND_ITEM = new ChunkSceneSubPackets(6);
+		GROUND_GRAPHIC_RELATED = new ChunkSceneSubPackets(7);
+		ADD_GROUND_ITEM = new ChunkSceneSubPackets(8);
+		REMOVE_GAME_OBJECT = new ChunkSceneSubPackets(9);
+		aClass409_4321 = new ChunkSceneSubPackets(10);
+		aClass409_4318 = new ChunkSceneSubPackets(11);
+		aClass409_4319 = new ChunkSceneSubPackets(12);
+		PROJECTILE = new ChunkSceneSubPackets(13);
+		ADD_GAME_OBJECT = new ChunkSceneSubPackets(14);
 	}
 
-	SubIncomingPacket(int i) {
+	ChunkSceneSubPackets(int i) {
 		this.id = i;
 	}
 

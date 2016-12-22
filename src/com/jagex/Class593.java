@@ -921,7 +921,7 @@ public class Class593 {
 			Class360.method4757(class668, (byte) -41);
 			break;
 		case 29:
-			SubIncomingPacket.method4971(class668, 1966593575);
+			ChunkSceneSubPackets.method4971(class668, 1966593575);
 			break;
 		case 369:
 			Class203.method2929(class668, -1540451335);
@@ -1794,7 +1794,7 @@ public class Class593 {
 			Class639.method7666(class668, 452842640);
 			break;
 		case 378:
-			SubIncomingPacket.method4974(class668, (byte) 0);
+			ChunkSceneSubPackets.method4974(class668, (byte) 0);
 			break;
 		case 1167:
 			Class613.method7319(class668, -69981907);
@@ -2199,7 +2199,7 @@ public class Class593 {
 			Class384.method4834(class668, 1664771670);
 			break;
 		case 316:
-			SubIncomingPacket.method4969(class668, (short) -180);
+			ChunkSceneSubPackets.method4969(class668, (short) -180);
 			break;
 		case 919:
 			Class230.method3297(class668, 120071885);
@@ -3257,7 +3257,7 @@ public class Class593 {
 			Class306.method4124(class668, -468039548);
 			break;
 		case 595:
-			SubIncomingPacket.method4970(class668, -1500006845);
+			ChunkSceneSubPackets.method4970(class668, -1500006845);
 			break;
 		case 82:
 			Class226.method3277(class668, -691783618);
@@ -3851,7 +3851,7 @@ public class Class593 {
 			Class553.method6770(class668, (byte) 83);
 			break;
 		case 253:
-			SubIncomingPacket.method4968(class668, -1283784853);
+			ChunkSceneSubPackets.method4968(class668, -1283784853);
 			break;
 		case 216:
 			Class236.method3347(class668, 1218014554);
