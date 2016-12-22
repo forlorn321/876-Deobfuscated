@@ -117,9 +117,9 @@ public class Class324 implements Interface14 {
 	}
 
 	public static Class603_Sub1 method4269(int i, int i_14_) {
-		if (!Class593.aBool7806 || i < Class220.anInt2310 * -805119937 || i > Class593.anInt7808 * 870600939)
+		if (!Class593.aBool7806 || i < Class220.lowestWorldId * -805119937 || i > Class593.highestWorldId * 870600939)
 			return null;
-		return (Class506.aClass603_Sub1Array6890[i - Class220.anInt2310 * -805119937]);
+		return (Class506.aClass603_Sub1Array6890[i - Class220.lowestWorldId * -805119937]);
 	}
 
 	static final void method4270(Class668 class668, int i) {

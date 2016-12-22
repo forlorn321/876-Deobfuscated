@@ -143,11 +143,11 @@ public class Class638 implements Interface13 {
 		RSByteBuffer class536_sub33_9_ = new RSByteBuffer(class536_sub33_8_.off * -810172525 + (-810172525 * class536_sub33_3_.off + (-810172525 * class536_sub33.off + 5)));
 		class536_sub33_9_.writeByte(2, 465637339);
 		class536_sub33_9_.writeByte(class536_sub33.off * -810172525, 465637339);
-		class536_sub33_9_.method9696(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 38);
+		class536_sub33_9_.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 38);
 		class536_sub33_9_.writeByte(-810172525 * class536_sub33_3_.off, 465637339);
-		class536_sub33_9_.method9696(class536_sub33_3_.buffer, 0, -810172525 * class536_sub33_3_.off, (byte) 103);
+		class536_sub33_9_.writeBytes(class536_sub33_3_.buffer, 0, -810172525 * class536_sub33_3_.off, (byte) 103);
 		class536_sub33_9_.writeShort(-810172525 * class536_sub33_8_.off, -1778059594);
-		class536_sub33_9_.method9696(class536_sub33_8_.buffer, 0, class536_sub33_8_.off * -810172525, (byte) 46);
+		class536_sub33_9_.writeBytes(class536_sub33_8_.buffer, 0, class536_sub33_8_.off * -810172525, (byte) 46);
 		String string_10_ = Class557.method6808(class536_sub33_9_.buffer, -1754520728);
 		int i_11_;
 		try {

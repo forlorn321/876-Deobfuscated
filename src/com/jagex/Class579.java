@@ -55,7 +55,7 @@ public class Class579 implements Interface66 {
 
 	static void method7011(Class106 class106, Class251 class251, int i, int i_7_, int i_8_, int i_9_) {
 		if (1 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4417, class106.aClass15_1258, 2041686680);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_1, class106.aClass15_1258, 2041686680);
 			Class710_Sub13.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -1795564833);
 			class106.method1409(class536_sub23, 1218402730);
 		}

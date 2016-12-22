@@ -40,7 +40,7 @@ public class Class552 {
 
 	static final void method6690(Class668 class668, int i) {
 		Class603_Sub1 class603_sub1 = Class68.method1088((byte) 4);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class603_sub1 == null ? 0 : -1176655995 * class603_sub1.anInt7862);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class603_sub1 == null ? 0 : -1176655995 * class603_sub1.worldFlags);
 	}
 
 	static final void method6691(Class668 class668, byte i) {

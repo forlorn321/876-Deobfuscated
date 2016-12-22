@@ -98,7 +98,7 @@ public class RSByteBuffer extends Class536 {
 		return Class202.method2925(buffer, i_9_, i_10_, -1694498816);
 	}
 
-	public void method9696(byte[] is, int i, int i_11_, byte i_12_) {
+	public void writeBytes(byte[] is, int i, int i_11_, byte i_12_) {
 		for (int i_13_ = i; i_13_ < i_11_ + i; i_13_++)
 			buffer[(off += 516175515) * -810172525 - 1] = is[i_13_];
 	}
@@ -370,7 +370,7 @@ public class RSByteBuffer extends Class536 {
 		byte[] is_66_ = biginteger_65_.toByteArray();
 		off = 0;
 		writeShort(is_66_.length, -1778059594);
-		method9696(is_66_, 0, is_66_.length, (byte) 107);
+		writeBytes(is_66_, 0, is_66_.length, (byte) 107);
 	}
 
 	public boolean method9727(byte i) {
@@ -663,7 +663,7 @@ public class RSByteBuffer extends Class536 {
 	}
 
 	public void method9790(RSByteBuffer class536_sub33_113_, int i) {
-		method9696(class536_sub33_113_.buffer, 0, -810172525 * class536_sub33_113_.off, (byte) 65);
+		writeBytes(class536_sub33_113_.buffer, 0, -810172525 * class536_sub33_113_.off, (byte) 65);
 	}
 
 	public static Class392 method9791(RSByteBuffer class536_sub33, int i) {

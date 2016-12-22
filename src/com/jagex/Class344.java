@@ -208,14 +208,15 @@ public class Class344 {
 		return 0 != Class61.loginStage * -129171495;
 	}
 
-	static void method4488(RSByteBuffer class536_sub33, int i) {
-		for (int i_161_ = 0; i_161_ < -537974539 * Class593.anInt7807; i_161_++) {
-			int i_162_ = class536_sub33.readUnsignedSmart(426225695);
-			int i_163_ = class536_sub33.readUnsignedShort();
-			if (65535 == i_163_)
-				i_163_ = -1;
-			if (null != Class506.aClass603_Sub1Array6890[i_162_])
-				Class506.aClass603_Sub1Array6890[i_162_].anInt7864 = i_163_ * -1411553659;
+	static void decodeWorldConnections(RSByteBuffer class536_sub33, int i) {
+		for (int i_161_ = 0; i_161_ < -537974539 * Class593.worldCount; i_161_++) {
+			int worldId = class536_sub33.readUnsignedSmart(426225695);
+			int online = class536_sub33.readUnsignedShort();
+			System.out.println("World: " + worldId + ", " + online);
+			if (65535 == online)
+				online = -1;
+			if (null != Class506.aClass603_Sub1Array6890[worldId])
+				Class506.aClass603_Sub1Array6890[worldId].online = online * -1411553659;
 		}
 	}
 }

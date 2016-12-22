@@ -42,7 +42,7 @@ public class Class106 {
 				Class536_Sub23 class536_sub23 = (Class536_Sub23) aClass708_1255.method8308(1867269829);
 				if (null == class536_sub23 || (class536_sub23.anInt10530 * -1225204241 > (aClass536_Sub33_1257.buffer.length - -810172525 * aClass536_Sub33_1257.off)))
 					break;
-				aClass536_Sub33_1257.method9696(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 114);
+				aClass536_Sub33_1257.writeBytes(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 114);
 				anInt1268 -= -1844865695 * class536_sub23.anInt10530;
 				class536_sub23.method6484(601871671);
 				class536_sub23.aClass536_Sub33_Sub2_10528.method9685(120764410);
@@ -77,7 +77,7 @@ public class Class106 {
 				Class536_Sub23 class536_sub23 = (Class536_Sub23) aClass708_1255.method8308(1867269829);
 				if (null == class536_sub23 || (class536_sub23.anInt10530 * -1225204241 > (aClass536_Sub33_1257.buffer.length - -810172525 * aClass536_Sub33_1257.off)))
 					break;
-				aClass536_Sub33_1257.method9696(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 90);
+				aClass536_Sub33_1257.writeBytes(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 90);
 				anInt1268 -= -1844865695 * class536_sub23.anInt10530;
 				class536_sub23.method6484(-1062937264);
 				class536_sub23.aClass536_Sub33_Sub2_10528.method9685(120764410);

@@ -4,35 +4,35 @@
 package com.jagex;
 
 public class Class603_Sub1 extends Class603 {
-	int anInt10554;
-	public String aString10555;
-	public String aString10556;
+	int extraString;
+	public String worldIp;
+	public String worldActivity;
 	public int anInt10557;
 	public int anInt10558 = -1767240307;
-	String aString10559;
+	String theExtraString;
 
 	public int method9613() {
-		if (1844650225 * anInt10554 != 0)
-			return anInt10554 * 1844650225;
-		return method9619((byte) 0).anInt7802 * -816011971;
+		if (1844650225 * extraString != 0)
+			return extraString * 1844650225;
+		return method9619((byte) 0).flagId * -816011971;
 	}
 
 	public int method9614() {
-		if (1844650225 * anInt10554 != 0)
-			return anInt10554 * 1844650225;
-		return method9619((byte) 0).anInt7802 * -816011971;
+		if (1844650225 * extraString != 0)
+			return extraString * 1844650225;
+		return method9619((byte) 0).flagId * -816011971;
 	}
 
 	public int method9615(byte i) {
-		if (1844650225 * anInt10554 != 0)
-			return anInt10554 * 1844650225;
-		return method9619((byte) 0).anInt7802 * -816011971;
+		if (1844650225 * extraString != 0)
+			return extraString * 1844650225;
+		return method9619((byte) 0).flagId * -816011971;
 	}
 
 	public String method9616(byte i) {
-		if (anInt10554 * 1844650225 != 0)
-			return aString10559;
-		return method9619((byte) 0).aString7803;
+		if (extraString * 1844650225 != 0)
+			return theExtraString;
+		return method9619((byte) 0).countryName;
 	}
 
 	Class603_Sub1() {
@@ -40,31 +40,31 @@ public class Class603_Sub1 extends Class603 {
 	}
 
 	public int method9617() {
-		if (1844650225 * anInt10554 != 0)
-			return anInt10554 * 1844650225;
-		return method9619((byte) 0).anInt7802 * -816011971;
+		if (1844650225 * extraString != 0)
+			return extraString * 1844650225;
+		return method9619((byte) 0).flagId * -816011971;
 	}
 
 	public String method9618() {
-		if (anInt10554 * 1844650225 != 0)
-			return aString10559;
-		return method9619((byte) 0).aString7803;
+		if (extraString * 1844650225 != 0)
+			return theExtraString;
+		return method9619((byte) 0).countryName;
 	}
 
 	Class592 method9619(byte i) {
-		return Class94.aClass592Array1149[1897753933 * anInt7863];
+		return Class94.worlds[1897753933 * worldIndex];
 	}
 
 	public String method9620() {
-		if (anInt10554 * 1844650225 != 0)
-			return aString10559;
-		return method9619((byte) 0).aString7803;
+		if (extraString * 1844650225 != 0)
+			return theExtraString;
+		return method9619((byte) 0).countryName;
 	}
 
 	public int method9621() {
-		if (1844650225 * anInt10554 != 0)
-			return anInt10554 * 1844650225;
-		return method9619((byte) 0).anInt7802 * -816011971;
+		if (1844650225 * extraString != 0)
+			return extraString * 1844650225;
+		return method9619((byte) 0).flagId * -816011971;
 	}
 
 	public static int method9622(int i, byte i_0_) {

@@ -697,7 +697,7 @@ public class PacketDecoder {
 			client.anInt11114 = i_114_ * 272454491;
 			int i_115_ = stream.readUnsignedByte();
 			Class392_Sub1.aClass536_Sub33_10107 = new RSByteBuffer(i_115_);
-			Class392_Sub1.aClass536_Sub33_10107.method9696(stream.buffer, -810172525 * stream.off, i_115_, (byte) 29);
+			Class392_Sub1.aClass536_Sub33_10107.writeBytes(stream.buffer, -810172525 * stream.off, i_115_, (byte) 29);
 			stream.off += 516175515 * i_115_;
 			class106.aClass422_1261 = null;
 			return false;

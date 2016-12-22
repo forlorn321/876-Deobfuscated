@@ -11,7 +11,7 @@ public class Class94 {
 	public String aString1146;
 	public byte aByte1147;
 	static Thread aThread1148;
-	static Class592[] aClass592Array1149;
+	static Class592[] worlds;
 
 	Class94() {
 		/* empty */

@@ -42,12 +42,12 @@ public class Class380 {
 	public static void method4808(boolean bool, byte[] is, byte i) {
 		if (Class683.aClass536_Sub33_8652 == null)
 			Class683.aClass536_Sub33_8652 = new RSByteBuffer(20000);
-		Class683.aClass536_Sub33_8652.method9696(is, 0, is.length, (byte) 80);
+		Class683.aClass536_Sub33_8652.writeBytes(is, 0, is.length, (byte) 80);
 		if (bool) {
-			Class40.method870(Class683.aClass536_Sub33_8652.buffer, 1564818358);
-			Class23.aClass603_Sub1Array226 = new Class603_Sub1[Class593.anInt7807 * -537974539];
+			Class40.decodeWorldListData(Class683.aClass536_Sub33_8652.buffer, 1564818358);
+			Class23.aClass603_Sub1Array226 = new Class603_Sub1[Class593.worldCount * -537974539];
 			int i_0_ = 0;
-			for (int i_1_ = -805119937 * Class220.anInt2310; i_1_ <= 870600939 * Class593.anInt7808; i_1_++) {
+			for (int i_1_ = -805119937 * Class220.lowestWorldId; i_1_ <= 870600939 * Class593.highestWorldId; i_1_++) {
 				Class603_Sub1 class603_sub1 = Class324.method4269(i_1_, 540233729);
 				if (class603_sub1 != null)
 					Class23.aClass603_Sub1Array226[i_0_++] = class603_sub1;

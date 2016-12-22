@@ -5,7 +5,7 @@ package com.jagex;
 
 class Class220 implements Interface69 {
 	Class211 this$0;
-	public static int anInt2310;
+	public static int lowestWorldId;
 
 	public void method429(Interface71 interface71, int i, int i_0_, boolean bool) {
 		this$0.method3052(-1817936233).add(interface71);

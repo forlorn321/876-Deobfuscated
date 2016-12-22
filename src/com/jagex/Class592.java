@@ -4,8 +4,8 @@
 package com.jagex;
 
 public class Class592 {
-	int anInt7802;
-	String aString7803;
+	int flagId;
+	String countryName;
 
 	Class592() {
 		/* empty */

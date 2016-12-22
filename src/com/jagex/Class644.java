@@ -397,7 +397,7 @@ public final class Class644 {
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
 			int i_27_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
 			RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9696(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 121);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 121);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9699((class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525) - i_27_, 970219979);
 			client.aClass106_11322.method1409(class536_sub23, 434129832);
 			client.aBool11015 = true;

@@ -45,8 +45,8 @@ public class Class577 implements Interface68 {
 
 	static int method7005(Class603_Sub1 class603_sub1, Class603_Sub1 class603_sub1_2_, int i, boolean bool, byte i_3_) {
 		if (1 == i) {
-			int i_4_ = -1880579507 * class603_sub1.anInt7864;
-			int i_5_ = class603_sub1_2_.anInt7864 * -1880579507;
+			int i_4_ = -1880579507 * class603_sub1.online;
+			int i_5_ = class603_sub1_2_.online * -1880579507;
 			if (!bool) {
 				if (-1 == i_4_)
 					i_4_ = 2001;
@@ -58,14 +58,14 @@ public class Class577 implements Interface68 {
 		if (i == 2)
 			return Class34_Sub6.method10321(class603_sub1.method9616((byte) -19), class603_sub1_2_.method9616((byte) -15), Class459.aClass664_5178, -1675425713);
 		if (3 == i) {
-			if (class603_sub1.aString10556.equals("-")) {
-				if (class603_sub1_2_.aString10556.equals("-"))
+			if (class603_sub1.worldActivity.equals("-")) {
+				if (class603_sub1_2_.worldActivity.equals("-"))
 					return 0;
 				return bool ? -1 : 1;
 			}
-			if (class603_sub1_2_.aString10556.equals("-"))
+			if (class603_sub1_2_.worldActivity.equals("-"))
 				return bool ? 1 : -1;
-			return Class34_Sub6.method10321(class603_sub1.aString10556, class603_sub1_2_.aString10556, Class459.aClass664_5178, -1675425713);
+			return Class34_Sub6.method10321(class603_sub1.worldActivity, class603_sub1_2_.worldActivity, Class459.aClass664_5178, -1675425713);
 		}
 		if (4 == i)
 			return (class603_sub1.method7195(-544818663) ? class603_sub1_2_.method7195(1319778335) ? 0 : 1 : class603_sub1_2_.method7195(662320524) ? -1 : 0);

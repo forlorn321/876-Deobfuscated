@@ -69,6 +69,6 @@ public class Class502 {
 			for (int i_3_ = 0; i_3_ < 24; i_3_++)
 				is[i_3_] = (byte) -1;
 		}
-		class536_sub33.method9696(is, 0, 24, (byte) 58);
+		class536_sub33.writeBytes(is, 0, 24, (byte) 58);
 	}
 }

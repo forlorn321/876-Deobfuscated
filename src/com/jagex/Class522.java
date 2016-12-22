@@ -351,7 +351,7 @@ public class Class522 {
 			Class23.aBool224 = true;
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4440, class106.aClass15_1258, 1445634322);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-56372019 * Class593.anInt7809, -149241618);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-56372019 * Class593.worldListChecksum, -149241618);
 			class106.method1409(class536_sub23, -159211228);
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 		}

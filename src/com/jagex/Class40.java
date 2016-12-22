@@ -33,15 +33,15 @@ public class Class40 {
 		aString497 = "</col>";
 	}
 
-	public static boolean method870(byte[] is, int i) {
+	public static boolean decodeWorldListData(byte[] is, int i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_0_ = class536_sub33.readUnsignedByte();
 		if (2 != i_0_)
 			return false;
 		boolean bool = class536_sub33.readUnsignedByte() == 1;
 		if (bool)
-			Class100.method1335(class536_sub33, 1031291051);
-		Class344.method4488(class536_sub33, 383327791);
+			Class100.decodeWorldDescriptors(class536_sub33, 1031291051);
+		Class344.decodeWorldConnections(class536_sub33, 383327791);
 		return true;
 	}
 

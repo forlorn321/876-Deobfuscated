@@ -21,15 +21,15 @@ public class Class23 {
 
 	public static void method717() {
 		if (aBool227) {
-			if (anInt218 * -885753039 < -805119937 * Class220.anInt2310)
-				anInt218 = Class220.anInt2310 * -2095002001;
-			while (anInt218 * -885753039 < Class593.anInt7808 * 870600939) {
+			if (anInt218 * -885753039 < -805119937 * Class220.lowestWorldId)
+				anInt218 = Class220.lowestWorldId * -2095002001;
+			while (anInt218 * -885753039 < Class593.highestWorldId * 870600939) {
 				Class603_Sub1 class603_sub1 = Class324.method4269(-885753039 * anInt218, 14393608);
 				if (null == class603_sub1 || class603_sub1.anInt10558 * 2023817915 != -1)
 					anInt218 += 417922513;
 				else {
 					if (null == aClass654_223)
-						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.aString10555, -1963697515));
+						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.worldIp, -1963697515));
 					int i = -1190285297 * aClass654_223.anInt8493;
 					if (-1 == i)
 						break;
@@ -49,15 +49,15 @@ public class Class23 {
 
 	public static void method718() {
 		if (aBool227) {
-			if (anInt218 * -885753039 < -805119937 * Class220.anInt2310)
-				anInt218 = Class220.anInt2310 * -2095002001;
-			while (anInt218 * -885753039 < Class593.anInt7808 * 870600939) {
+			if (anInt218 * -885753039 < -805119937 * Class220.lowestWorldId)
+				anInt218 = Class220.lowestWorldId * -2095002001;
+			while (anInt218 * -885753039 < Class593.highestWorldId * 870600939) {
 				Class603_Sub1 class603_sub1 = Class324.method4269(-885753039 * anInt218, 1607150083);
 				if (null == class603_sub1 || class603_sub1.anInt10558 * 2023817915 != -1)
 					anInt218 += 417922513;
 				else {
 					if (null == aClass654_223)
-						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.aString10555, -1513182324));
+						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.worldIp, -1513182324));
 					int i = -1190285297 * aClass654_223.anInt8493;
 					if (-1 == i)
 						break;
@@ -91,15 +91,15 @@ public class Class23 {
 
 	public static void method723() {
 		if (aBool227) {
-			if (anInt218 * -885753039 < -805119937 * Class220.anInt2310)
-				anInt218 = Class220.anInt2310 * -2095002001;
-			while (anInt218 * -885753039 < Class593.anInt7808 * 870600939) {
+			if (anInt218 * -885753039 < -805119937 * Class220.lowestWorldId)
+				anInt218 = Class220.lowestWorldId * -2095002001;
+			while (anInt218 * -885753039 < Class593.highestWorldId * 870600939) {
 				Class603_Sub1 class603_sub1 = Class324.method4269(-885753039 * anInt218, 1764752628);
 				if (null == class603_sub1 || class603_sub1.anInt10558 * 2023817915 != -1)
 					anInt218 += 417922513;
 				else {
 					if (null == aClass654_223)
-						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.aString10555, -1763150073));
+						aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.worldIp, -1763150073));
 					int i = -1190285297 * aClass654_223.anInt8493;
 					if (-1 == i)
 						break;

@@ -287,7 +287,7 @@ public class Class492 {
 								throw new RuntimeException("");
 							if (null == class536_sub33.buffer)
 								throw new RuntimeException("");
-							class536_sub33.method9696(aByteArray5490, anInt5522 * -312036945, i_18_ - (anInt5522 * -312036945), (byte) 51);
+							class536_sub33.writeBytes(aByteArray5490, anInt5522 * -312036945, i_18_ - (anInt5522 * -312036945), (byte) 51);
 							anInterface43_5474.method63(class536_sub33);
 							method5902(false, -822288670);
 							if (anInt5513 * -1736370679 >= i_16_) {
@@ -965,7 +965,7 @@ public class Class492 {
 								throw new RuntimeException("");
 							if (null == class536_sub33.buffer)
 								throw new RuntimeException("");
-							class536_sub33.method9696(aByteArray5490, anInt5522 * -312036945, i_69_ - (anInt5522 * -312036945), (byte) 126);
+							class536_sub33.writeBytes(aByteArray5490, anInt5522 * -312036945, i_69_ - (anInt5522 * -312036945), (byte) 126);
 							anInterface43_5474.method63(class536_sub33);
 							method5902(false, -822288670);
 							if (anInt5513 * -1736370679 >= i_67_) {
@@ -1019,7 +1019,7 @@ public class Class492 {
 								throw new RuntimeException("");
 							if (null == class536_sub33.buffer)
 								throw new RuntimeException("");
-							class536_sub33.method9696(aByteArray5490, anInt5522 * -312036945, i_73_ - (anInt5522 * -312036945), (byte) 22);
+							class536_sub33.writeBytes(aByteArray5490, anInt5522 * -312036945, i_73_ - (anInt5522 * -312036945), (byte) 22);
 							anInterface43_5474.method63(class536_sub33);
 							method5902(false, -822288670);
 							if (anInt5513 * -1736370679 >= i_71_) {
@@ -1521,7 +1521,7 @@ public class Class492 {
 								throw new RuntimeException("");
 							if (null == class536_sub33.buffer)
 								throw new RuntimeException("");
-							class536_sub33.method9696(aByteArray5490, anInt5522 * -312036945, i_101_ - (anInt5522 * -312036945), (byte) 110);
+							class536_sub33.writeBytes(aByteArray5490, anInt5522 * -312036945, i_101_ - (anInt5522 * -312036945), (byte) 110);
 							anInterface43_5474.method63(class536_sub33);
 							method5902(false, -822288670);
 							if (anInt5513 * -1736370679 >= i_99_) {

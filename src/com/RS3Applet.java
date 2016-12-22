@@ -138,7 +138,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = false;
+	public static boolean DUMP = true;
 
 	/**
 	 * The parameters of the client.

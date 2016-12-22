@@ -94,7 +94,7 @@ public class Class515 {
 			i_7_ = 5;
 		else
 			throw new RuntimeException(new StringBuilder().append("").append(-708374433 * client.anInt11101).toString());
-		method6277(i_1_, i_2_, i_7_, false, -1799047192);
+		loadChunk(i_1_, i_2_, i_7_, false, -1799047192);
 	}
 
 	public Class515(boolean bool) {
@@ -262,7 +262,7 @@ public class Class515 {
 			}
 		}
 		anInt7022 = i_28_ * -1538430001;
-		method6277(anInt7030 * -324388659 >> 4, anInt7011 * -1001036419 >> 4, 10, false, -1125899736);
+		loadChunk(anInt7030 * -324388659 >> 4, anInt7011 * -1001036419 >> 4, 10, false, -1125899736);
 	}
 
 	public int method6257(int i) {
@@ -329,38 +329,40 @@ public class Class515 {
 		aClass636_6994.method7571(class515_37_.method6252(1796531619), -149240645);
 	}
 
-	void method6265(Class536_Sub33_Sub2 class536_sub33_sub2, byte i) {
-		int i_38_ = class536_sub33_sub2.readUnsignedShortLE();
-		int i_39_ = class536_sub33_sub2.readUnsignedShort128();
-		int i_40_ = class536_sub33_sub2.readUnsignedByteC(2051369115);
-		boolean bool = class536_sub33_sub2.readUnsignedByte() == 1;
-		int i_41_ = class536_sub33_sub2.readUnsigned128Byte();
-		anInt7035 = class536_sub33_sub2.readUnsigned128Byte() * 974659739;
+	void decodeMapScene(Class536_Sub33_Sub2 stream, byte i) {
+		int chunkY = stream.readUnsignedShortLE();
+		int chunkX = stream.readUnsignedShort128();
+		int mapType = stream.readUnsignedByteC(2051369115);
+		boolean refresh = stream.readUnsignedByte() == 1;
+		int size = stream.readUnsigned128Byte();
+		int unknown = stream.readUnsigned128Byte();
+		System.out.println("Loading map region: " + chunkX + ", " + chunkY + ", " + mapType + ", " + size + ", " + refresh + ", " + unknown);
+		anInt7035 = unknown * 974659739;
 		if (!aBool7005)
 			method6268(1787021816);
-		method6299(Class510.method6188(i_40_, -717012590), 1121434602);
-		anIntArray6996 = new int[i_41_];
-		anIntArray7024 = new int[i_41_];
-		aByteArrayArray7025 = new byte[i_41_][];
-		aByteArrayArray7026 = new byte[i_41_][];
+		method6299(Class510.method6188(mapType, -717012590), 1121434602);
+		anIntArray6996 = new int[size];
+		anIntArray7024 = new int[size];
+		aByteArrayArray7025 = new byte[size][];
+		aByteArrayArray7026 = new byte[size][];
 		aByteArrayArray7027 = null;
-		aByteArrayArray7028 = new byte[i_41_][];
-		aByteArrayArray7029 = new byte[i_41_][];
-		i_41_ = 0;
-		for (int i_42_ = (i_39_ - (-324388659 * anInt7030 >> 4)) / 8; i_42_ <= ((anInt7030 * -324388659 >> 4) + i_39_) / 8; i_42_++) {
-			for (int i_43_ = (i_38_ - (-1001036419 * anInt7011 >> 4)) / 8; i_43_ <= (i_38_ + (-1001036419 * anInt7011 >> 4)) / 8; i_43_++) {
+		aByteArrayArray7028 = new byte[size][];
+		aByteArrayArray7029 = new byte[size][];
+		size = 0;
+		for (int i_42_ = (chunkX - (-324388659 * anInt7030 >> 4)) / 8; i_42_ <= ((anInt7030 * -324388659 >> 4) + chunkX) / 8; i_42_++) {
+			for (int i_43_ = (chunkY - (-1001036419 * anInt7011 >> 4)) / 8; i_43_ <= (chunkY + (-1001036419 * anInt7011 >> 4)) / 8; i_43_++) {
 				if (Class116.aClass461_1432.method5553(method6267(i_42_, i_43_, 1249324415), Class468.aClass468_5348.anInt5354 * 1600259987, 1444360960)) {
-					anIntArray6996[i_41_] = (i_42_ << 8) + i_43_;
-					anIntArray7024[i_41_] = method6267(i_42_, i_43_, -737072190);
-					i_41_++;
+					anIntArray6996[size] = (i_42_ << 8) + i_43_;
+					anIntArray7024[size] = method6267(i_42_, i_43_, -737072190);
+					size++;
 				}
 			}
 		}
-		anInt7022 = -1538430001 * i_41_;
-		method6277(i_39_, i_38_, 10, bool, -430743798);
+		anInt7022 = -1538430001 * size;
+		loadChunk(chunkX, chunkY, 10, refresh, -430743798);
 	}
 
-	void method6266(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
+	void decodeDynamicMapScene(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
 		int i_44_ = class536_sub33_sub2.readUnsigned128Byte();
 		if (i_44_ == 1)
 			aClass498_6992 = Class498.aClass498_5558;
@@ -435,7 +437,7 @@ public class Class515 {
 			}
 		}
 		anInt7022 = i_57_ * -1538430001;
-		method6277(i_46_, i_45_, 10, bool, -1312257118);
+		loadChunk(i_46_, i_45_, 10, bool, -1312257118);
 	}
 
 	int method6267(int i, int i_68_, int i_69_) {
@@ -1045,7 +1047,7 @@ public class Class515 {
 		}
 	}
 
-	void method6277(int i, int i_159_, int i_160_, boolean bool, int i_161_) {
+	void loadChunk(int i, int i_159_, int i_160_, boolean bool, int i_161_) {
 		if (1542697723 * client.anInt11074 == 2) {
 			if (aBool7005)
 				throw new IllegalStateException();
@@ -1173,7 +1175,7 @@ public class Class515 {
 			}
 		}
 		anInt7022 = i * -1538430001;
-		method6277(anInt7030 * -324388659 >> 4, anInt7011 * -1001036419 >> 4, 10, false, -838804833);
+		loadChunk(anInt7030 * -324388659 >> 4, anInt7011 * -1001036419 >> 4, 10, false, -838804833);
 	}
 
 	public int method6282() {
@@ -1217,11 +1219,11 @@ public class Class515 {
 		if (aClass498_6992 == Class498.aClass498_5559)
 			method6296(1404727975);
 		else if (aClass498_6992 == Class498.aClass498_5557)
-			method6265(class510.aClass536_Sub33_Sub2_6924, (byte) 102);
+			decodeMapScene(class510.aClass536_Sub33_Sub2_6924, (byte) 102);
 		else if (aClass498_6992 == Class498.aClass498_5556)
 			method6256((byte) 28);
 		else if (aClass498_6992.method6016((byte) -101))
-			method6266(class510.aClass536_Sub33_Sub2_6924, -658435570);
+			decodeDynamicMapScene(class510.aClass536_Sub33_Sub2_6924, -658435570);
 	}
 
 	public Class465_Sub1 method6292(int i) {
@@ -1284,7 +1286,7 @@ public class Class515 {
 			i_195_ = 5;
 		else
 			throw new RuntimeException(new StringBuilder().append("").append(-708374433 * client.anInt11101).toString());
-		method6277(i_189_, i_190_, i_195_, false, -1294156171);
+		loadChunk(i_189_, i_190_, i_195_, false, -1294156171);
 	}
 
 	public int method6297() {
@@ -1478,7 +1480,7 @@ public class Class515 {
 			i_216_ = 5;
 		else
 			throw new RuntimeException(new StringBuilder().append("").append(-708374433 * client.anInt11101).toString());
-		method6277(i_210_, i_211_, i_216_, false, -827065691);
+		loadChunk(i_210_, i_211_, i_216_, false, -827065691);
 	}
 
 	public byte[][][] method6314(byte i) {

@@ -8,24 +8,24 @@ public abstract class Class603 {
 	static final int anInt7859 = 4;
 	static final int anInt7860 = 8;
 	static final int anInt7861 = 1;
-	public int anInt7862;
-	int anInt7863;
-	public int anInt7864;
+	public int worldFlags;
+	int worldIndex;
+	public int online;
 
 	public boolean method7184() {
-		return (anInt7862 * -1176655995 & 0x1) != 0;
+		return (worldFlags * -1176655995 & 0x1) != 0;
 	}
 
 	public boolean method7185(short i) {
-		return (anInt7862 * -1176655995 & 0x1) != 0;
+		return (worldFlags * -1176655995 & 0x1) != 0;
 	}
 
 	public boolean method7186() {
-		return (anInt7862 * -1176655995 & 0x1) != 0;
+		return (worldFlags * -1176655995 & 0x1) != 0;
 	}
 
 	public boolean method7187(int i) {
-		return (anInt7862 * -1176655995 & 0x4) != 0;
+		return (worldFlags * -1176655995 & 0x4) != 0;
 	}
 
 	Class603() {
@@ -33,39 +33,39 @@ public abstract class Class603 {
 	}
 
 	public boolean method7188() {
-		return (anInt7862 * -1176655995 & 0x1) != 0;
+		return (worldFlags * -1176655995 & 0x1) != 0;
 	}
 
 	public boolean method7189() {
-		return 0 != (anInt7862 * -1176655995 & 0x8);
+		return 0 != (worldFlags * -1176655995 & 0x8);
 	}
 
 	public boolean method7190(int i) {
-		return (anInt7862 * -1176655995 & 0x2) != 0;
+		return (worldFlags * -1176655995 & 0x2) != 0;
 	}
 
 	public boolean method7191() {
-		return (anInt7862 * -1176655995 & 0x4) != 0;
+		return (worldFlags * -1176655995 & 0x4) != 0;
 	}
 
 	public boolean method7192() {
-		return (anInt7862 * -1176655995 & 0x4) != 0;
+		return (worldFlags * -1176655995 & 0x4) != 0;
 	}
 
 	public boolean method7193() {
-		return 0 != (anInt7862 * -1176655995 & 0x8);
+		return 0 != (worldFlags * -1176655995 & 0x8);
 	}
 
 	public boolean method7194() {
-		return 0 != (anInt7862 * -1176655995 & 0x8);
+		return 0 != (worldFlags * -1176655995 & 0x8);
 	}
 
 	public boolean method7195(int i) {
-		return 0 != (anInt7862 * -1176655995 & 0x8);
+		return 0 != (worldFlags * -1176655995 & 0x8);
 	}
 
 	public boolean method7196() {
-		return 0 != (anInt7862 * -1176655995 & 0x8);
+		return 0 != (worldFlags * -1176655995 & 0x8);
 	}
 
 	static final void method7197(Class668 class668, byte i) {

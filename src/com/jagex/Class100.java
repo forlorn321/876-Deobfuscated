@@ -63,31 +63,31 @@ public class Class100 {
 		return class536_sub33.off * -810172525 - i_0_;
 	}
 
-	static void method1335(RSByteBuffer class536_sub33, int i) {
-		int i_1_ = class536_sub33.readUnsignedSmart(-490410303);
-		Class94.aClass592Array1149 = new Class592[i_1_];
-		for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
-			Class94.aClass592Array1149[i_2_] = new Class592();
-			Class94.aClass592Array1149[i_2_].anInt7802 = class536_sub33.readUnsignedSmart(-171383916) * -1820632555;
-			Class94.aClass592Array1149[i_2_].aString7803 = class536_sub33.readVersionedString((byte) 44);
+	static void decodeWorldDescriptors(RSByteBuffer stream, int i) {
+		int worldSize = stream.readUnsignedSmart(-490410303);
+		Class94.worlds = new Class592[worldSize];
+		for (int i_2_ = 0; i_2_ < worldSize; i_2_++) {
+			Class94.worlds[i_2_] = new Class592();
+			Class94.worlds[i_2_].flagId = stream.readUnsignedSmart(-171383916) * -1820632555;
+			Class94.worlds[i_2_].countryName = stream.readVersionedString((byte) 44);
 		}
-		Class220.anInt2310 = class536_sub33.readUnsignedSmart(-1699057282) * 516757439;
-		Class593.anInt7808 = class536_sub33.readUnsignedSmart(1734628560) * -1155278909;
-		Class593.anInt7807 = class536_sub33.readUnsignedSmart(838984434) * -317832355;
-		Class506.aClass603_Sub1Array6890 = new Class603_Sub1[1 + (Class593.anInt7808 * 870600939 - Class220.anInt2310 * -805119937)];
-		for (int i_3_ = 0; i_3_ < -537974539 * Class593.anInt7807; i_3_++) {
-			int i_4_ = class536_sub33.readUnsignedSmart(-1409328853);
-			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[i_4_] = new Class603_Sub1();
-			class603_sub1.anInt7863 = class536_sub33.readUnsignedByte() * 809472901;
-			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
-			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(2070051773) * 1502072849;
-			if (class603_sub1.anInt10554 * 1844650225 != 0)
-				class603_sub1.aString10559 = class536_sub33.readVersionedString((byte) 98);
-			class603_sub1.anInt10557 = (i_4_ + Class220.anInt2310 * -805119937) * -130957999;
-			class603_sub1.aString10556 = class536_sub33.readVersionedString((byte) 77);
-			class603_sub1.aString10555 = class536_sub33.readVersionedString((byte) 63);
+		Class220.lowestWorldId = stream.readUnsignedSmart(-1699057282) * 516757439;
+		Class593.highestWorldId = stream.readUnsignedSmart(1734628560) * -1155278909;
+		Class593.worldCount = stream.readUnsignedSmart(838984434) * -317832355;
+		Class506.aClass603_Sub1Array6890 = new Class603_Sub1[1 + (Class593.highestWorldId * 870600939 - Class220.lowestWorldId * -805119937)];
+		for (int i_3_ = 0; i_3_ < -537974539 * Class593.worldCount; i_3_++) {
+			int worldId = stream.readUnsignedSmart(-1409328853);
+			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[worldId] = new Class603_Sub1();
+			class603_sub1.worldIndex = stream.readUnsignedByte() * 809472901;
+			class603_sub1.worldFlags = stream.readInt() * -261605043;
+			class603_sub1.extraString = stream.readUnsignedSmart(2070051773) * 1502072849;
+			if (class603_sub1.extraString * 1844650225 != 0)
+				class603_sub1.theExtraString = stream.readVersionedString((byte) 98);
+			class603_sub1.anInt10557 = (worldId + Class220.lowestWorldId * -805119937) * -130957999;
+			class603_sub1.worldActivity = stream.readVersionedString((byte) 77);
+			class603_sub1.worldIp = stream.readVersionedString((byte) 63);
 		}
-		Class593.anInt7809 = class536_sub33.readInt() * 591411205;
+		Class593.worldListChecksum = stream.readInt() * 591411205;
 		Class593.aBool7806 = true;
 	}
 

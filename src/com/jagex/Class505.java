@@ -679,7 +679,7 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			for (int i = 0; i < 24; i++)
 				is[i] = (byte) -1;
 		}
-		class536_sub33.method9696(is, 0, 24, (byte) 9);
+		class536_sub33.writeBytes(is, 0, 24, (byte) 9);
 	}
 
 	abstract void method6112();

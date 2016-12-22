@@ -666,7 +666,7 @@ public class Class258 implements Interface43 {
 				anInt2827 -= (method173(class536_sub33_51_.off * -810172525) / method262());
 				int i_52_ = method298(i_50_);
 				int i_53_ = (class536_sub33_51_.off * -810172525 < i_52_ ? class536_sub33_51_.off * -810172525 : i_52_);
-				class536_sub33.method9696(class536_sub33_51_.buffer, 0, i_53_, (byte) 49);
+				class536_sub33.writeBytes(class536_sub33_51_.buffer, 0, i_53_, (byte) 49);
 				i_50_ -= method173(i_53_);
 				int i_54_ = class536_sub33_51_.off * -810172525 - i_53_;
 				if (i_54_ != 0) {
@@ -1400,7 +1400,7 @@ public class Class258 implements Interface43 {
 		if (aClass536_Sub33_2833 != null) {
 			if ((aClass536_Sub33_2833.buffer.length - aClass536_Sub33_2833.off * -810172525) < i_167_) {
 				RSByteBuffer class536_sub33 = method3568(i_167_ + anInt2829);
-				class536_sub33.method9696(aClass536_Sub33_2833.buffer, (aClass536_Sub33_2833.off * -810172525) - anInt2805, anInt2829, (byte) 113);
+				class536_sub33.writeBytes(aClass536_Sub33_2833.buffer, (aClass536_Sub33_2833.off * -810172525) - anInt2805, anInt2829, (byte) 113);
 				aClass536_Sub33_2833.method9685(120764410);
 				aClass536_Sub33_2833 = class536_sub33;
 				i = anInt2805;
@@ -1413,7 +1413,7 @@ public class Class258 implements Interface43 {
 		iterator = aList2794.iterator();
 		while (iterator.hasNext()) {
 			RSByteBuffer class536_sub33 = (RSByteBuffer) iterator.next();
-			aClass536_Sub33_2833.method9696(class536_sub33.buffer, 0, (class536_sub33.off * -810172525), (byte) 48);
+			aClass536_Sub33_2833.writeBytes(class536_sub33.buffer, 0, (class536_sub33.off * -810172525), (byte) 48);
 			anInt2829 += class536_sub33.off * -810172525;
 			class536_sub33.method9685(120764410);
 		}
@@ -1621,7 +1621,7 @@ public class Class258 implements Interface43 {
 		if (aClass536_Sub33_2833 != null) {
 			if ((aClass536_Sub33_2833.buffer.length - aClass536_Sub33_2833.off * -810172525) < i_200_) {
 				RSByteBuffer class536_sub33 = method3568(i_200_ + anInt2829);
-				class536_sub33.method9696(aClass536_Sub33_2833.buffer, (aClass536_Sub33_2833.off * -810172525) - anInt2805, anInt2829, (byte) 38);
+				class536_sub33.writeBytes(aClass536_Sub33_2833.buffer, (aClass536_Sub33_2833.off * -810172525) - anInt2805, anInt2829, (byte) 38);
 				aClass536_Sub33_2833.method9685(120764410);
 				aClass536_Sub33_2833 = class536_sub33;
 				i = anInt2805;
@@ -1634,7 +1634,7 @@ public class Class258 implements Interface43 {
 		iterator = aList2794.iterator();
 		while (iterator.hasNext()) {
 			RSByteBuffer class536_sub33 = (RSByteBuffer) iterator.next();
-			aClass536_Sub33_2833.method9696(class536_sub33.buffer, 0, (class536_sub33.off * -810172525), (byte) 99);
+			aClass536_Sub33_2833.writeBytes(class536_sub33.buffer, 0, (class536_sub33.off * -810172525), (byte) 99);
 			anInt2829 += class536_sub33.off * -810172525;
 			class536_sub33.method9685(120764410);
 		}

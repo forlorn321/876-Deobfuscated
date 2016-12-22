@@ -34,7 +34,7 @@ public class Class473 {
 						Class705.method8270(class536_sub33.buffer, 565075853);
 						class536_sub33.buffer = is_2_;
 					}
-					class536_sub33.method9696(is, 0, i_0_, (byte) 38);
+					class536_sub33.writeBytes(is, 0, i_0_, (byte) 38);
 				}
 			}
 			for (int i_3_ = 0; i_3_ < -2057604531 * class536_sub18_sub15_sub3.anInt12159; i_3_++)

@@ -381,13 +381,13 @@ public final class Class199 {
 		Class603_Sub1 class603_sub1 = Class674.method8027(-1488069988);
 		if (null != class603_sub1) {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1812485199 * class603_sub1.anInt10557;
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class603_sub1.anInt7862 * -1176655995;
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class603_sub1.aString10556;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class603_sub1.worldFlags * -1176655995;
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class603_sub1.worldActivity;
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class603_sub1.method9615((byte) -1);
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class603_sub1.method9616((byte) -124);
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1880579507 * class603_sub1.anInt7864;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1880579507 * class603_sub1.online;
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 2023817915 * class603_sub1.anInt10558;
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class603_sub1.aString10555;
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class603_sub1.worldIp;
 		} else {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;

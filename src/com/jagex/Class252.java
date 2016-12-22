@@ -115,15 +115,15 @@ public final class Class252 {
 
 	public static void method3522(short i) {
 		if (Class23.aBool227) {
-			if (Class23.anInt218 * -885753039 < -805119937 * Class220.anInt2310)
-				Class23.anInt218 = Class220.anInt2310 * -2095002001;
-			while (Class23.anInt218 * -885753039 < Class593.anInt7808 * 870600939) {
+			if (Class23.anInt218 * -885753039 < -805119937 * Class220.lowestWorldId)
+				Class23.anInt218 = Class220.lowestWorldId * -2095002001;
+			while (Class23.anInt218 * -885753039 < Class593.highestWorldId * 870600939) {
 				Class603_Sub1 class603_sub1 = Class324.method4269(-885753039 * Class23.anInt218, 664317011);
 				if (null == class603_sub1 || class603_sub1.anInt10558 * 2023817915 != -1)
 					Class23.anInt218 += 417922513;
 				else {
 					if (null == Class23.aClass654_223)
-						Class23.aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.aString10555, -1688650340));
+						Class23.aClass654_223 = (client.aClass661_11019.method7973(class603_sub1.worldIp, -1688650340));
 					int i_11_ = -1190285297 * Class23.aClass654_223.anInt8493;
 					if (-1 == i_11_)
 						break;
