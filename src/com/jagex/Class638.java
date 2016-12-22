@@ -124,7 +124,7 @@ public class Class638 implements Interface13 {
 		class536_sub33.writeLong(0L);
 		for (int i_5_ = 0; i_5_ < 4; i_5_++)
 			class536_sub33.writeInt(random.nextInt(), -149241618);
-		class536_sub33.method9726(Class26.aBigInteger238, Class26.aBigInteger235, 7364791);
+		class536_sub33.applyRSA(Class26.aBigInteger238, Class26.aBigInteger235, 7364791);
 		class536_sub33_3_.writeByte(10, 465637339);
 		for (int i_6_ = 0; i_6_ < 3; i_6_++)
 			class536_sub33_3_.writeInt(random.nextInt(), -149241618);
@@ -132,7 +132,7 @@ public class Class638 implements Interface13 {
 		class536_sub33_3_.write44BitLong(random.nextLong());
 		Class502.method6042(class536_sub33_3_, (byte) 42);
 		class536_sub33_3_.writeLong(random.nextLong());
-		class536_sub33_3_.method9726(Class26.aBigInteger238, Class26.aBigInteger235, 1655868351);
+		class536_sub33_3_.applyRSA(Class26.aBigInteger238, Class26.aBigInteger235, 1655868351);
 		int i_7_ = Class555.method6802(string, 1844540959);
 		if (i_7_ % 8 != 0)
 			i_7_ += 8 - i_7_ % 8;

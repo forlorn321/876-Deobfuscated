@@ -69,7 +69,7 @@ public class Class100 {
 		for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
 			Class94.aClass592Array1149[i_2_] = new Class592();
 			Class94.aClass592Array1149[i_2_].anInt7802 = class536_sub33.readUnsignedSmart(-171383916) * -1820632555;
-			Class94.aClass592Array1149[i_2_].aString7803 = class536_sub33.method9714((byte) 44);
+			Class94.aClass592Array1149[i_2_].aString7803 = class536_sub33.readVersionedString((byte) 44);
 		}
 		Class220.anInt2310 = class536_sub33.readUnsignedSmart(-1699057282) * 516757439;
 		Class593.anInt7808 = class536_sub33.readUnsignedSmart(1734628560) * -1155278909;
@@ -82,10 +82,10 @@ public class Class100 {
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(2070051773) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
-				class603_sub1.aString10559 = class536_sub33.method9714((byte) 98);
+				class603_sub1.aString10559 = class536_sub33.readVersionedString((byte) 98);
 			class603_sub1.anInt10557 = (i_4_ + Class220.anInt2310 * -805119937) * -130957999;
-			class603_sub1.aString10556 = class536_sub33.method9714((byte) 77);
-			class603_sub1.aString10555 = class536_sub33.method9714((byte) 63);
+			class603_sub1.aString10556 = class536_sub33.readVersionedString((byte) 77);
+			class603_sub1.aString10555 = class536_sub33.readVersionedString((byte) 63);
 		}
 		Class593.anInt7809 = class536_sub33.readInt() * 591411205;
 		Class593.aBool7806 = true;

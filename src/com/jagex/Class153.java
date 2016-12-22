@@ -61,7 +61,7 @@ public abstract class Class153 implements Interface14 {
 					aBool1718 = false;
 					break;
 				case 2:
-					class536_sub33.method9714((byte) 108);
+					class536_sub33.readVersionedString((byte) 108);
 				}
 			} else
 				method1858(class536_sub33, i_0_, -1091278725);
@@ -97,7 +97,7 @@ public abstract class Class153 implements Interface14 {
 					aBool1718 = false;
 					break;
 				case 2:
-					class536_sub33.method9714((byte) 88);
+					class536_sub33.readVersionedString((byte) 88);
 				}
 			} else
 				method1858(class536_sub33, i, -1091278725);

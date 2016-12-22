@@ -3,6 +3,8 @@
  */
 package com.jagex;
 
+import com.RS3Applet;
+
 public final class Class15 {
 	static final int anInt165 = 1020;
 	int[] anIntArray166 = new int[256];
@@ -23,6 +25,8 @@ public final class Class15 {
 	}
 
 	public final int method628(int i) {
+		if (RS3Applet.RSPS)
+			return 0;
 		if (-1704234903 * anInt170 == 0) {
 			method629((byte) 119);
 			anInt170 = -1457530624;
@@ -617,6 +621,8 @@ public final class Class15 {
 	}
 
 	public final int method638(short i) {
+		if (RS3Applet.RSPS)
+			return 0;
 		if (-1704234903 * anInt170 == 0) {
 			method629((byte) 22);
 			anInt170 = -1457530624;

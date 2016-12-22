@@ -20,7 +20,7 @@ public class Class593 {
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
 			Class94.aClass592Array1149[i_0_] = new Class592();
 			Class94.aClass592Array1149[i_0_].anInt7802 = class536_sub33.readUnsignedSmart(2058811550) * -1820632555;
-			Class94.aClass592Array1149[i_0_].aString7803 = class536_sub33.method9714((byte) 115);
+			Class94.aClass592Array1149[i_0_].aString7803 = class536_sub33.readVersionedString((byte) 115);
 		}
 		Class220.anInt2310 = class536_sub33.readUnsignedSmart(135286908) * 516757439;
 		anInt7808 = class536_sub33.readUnsignedSmart(-1323521548) * -1155278909;
@@ -33,10 +33,10 @@ public class Class593 {
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-480191768) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
-				class603_sub1.aString10559 = class536_sub33.method9714((byte) 80);
+				class603_sub1.aString10559 = class536_sub33.readVersionedString((byte) 80);
 			class603_sub1.anInt10557 = (i_2_ + Class220.anInt2310 * -805119937) * -130957999;
-			class603_sub1.aString10556 = class536_sub33.method9714((byte) 36);
-			class603_sub1.aString10555 = class536_sub33.method9714((byte) 41);
+			class603_sub1.aString10556 = class536_sub33.readVersionedString((byte) 36);
+			class603_sub1.aString10555 = class536_sub33.readVersionedString((byte) 41);
 		}
 		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
@@ -52,7 +52,7 @@ public class Class593 {
 		for (int i_3_ = 0; i_3_ < i; i_3_++) {
 			Class94.aClass592Array1149[i_3_] = new Class592();
 			Class94.aClass592Array1149[i_3_].anInt7802 = class536_sub33.readUnsignedSmart(1603502560) * -1820632555;
-			Class94.aClass592Array1149[i_3_].aString7803 = class536_sub33.method9714((byte) 98);
+			Class94.aClass592Array1149[i_3_].aString7803 = class536_sub33.readVersionedString((byte) 98);
 		}
 		Class220.anInt2310 = class536_sub33.readUnsignedSmart(-840005392) * 516757439;
 		anInt7808 = class536_sub33.readUnsignedSmart(-496937234) * -1155278909;
@@ -65,10 +65,10 @@ public class Class593 {
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(-620612441) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
-				class603_sub1.aString10559 = class536_sub33.method9714((byte) 31);
+				class603_sub1.aString10559 = class536_sub33.readVersionedString((byte) 31);
 			class603_sub1.anInt10557 = (i_5_ + Class220.anInt2310 * -805119937) * -130957999;
-			class603_sub1.aString10556 = class536_sub33.method9714((byte) 23);
-			class603_sub1.aString10555 = class536_sub33.method9714((byte) 21);
+			class603_sub1.aString10556 = class536_sub33.readVersionedString((byte) 23);
+			class603_sub1.aString10555 = class536_sub33.readVersionedString((byte) 21);
 		}
 		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
@@ -80,7 +80,7 @@ public class Class593 {
 		for (int i_6_ = 0; i_6_ < i; i_6_++) {
 			Class94.aClass592Array1149[i_6_] = new Class592();
 			Class94.aClass592Array1149[i_6_].anInt7802 = class536_sub33.readUnsignedSmart(242676996) * -1820632555;
-			Class94.aClass592Array1149[i_6_].aString7803 = class536_sub33.method9714((byte) 75);
+			Class94.aClass592Array1149[i_6_].aString7803 = class536_sub33.readVersionedString((byte) 75);
 		}
 		Class220.anInt2310 = class536_sub33.readUnsignedSmart(1738634422) * 516757439;
 		anInt7808 = class536_sub33.readUnsignedSmart(7976011) * -1155278909;
@@ -93,10 +93,10 @@ public class Class593 {
 			class603_sub1.anInt7862 = class536_sub33.readInt() * -261605043;
 			class603_sub1.anInt10554 = class536_sub33.readUnsignedSmart(437081542) * 1502072849;
 			if (class603_sub1.anInt10554 * 1844650225 != 0)
-				class603_sub1.aString10559 = class536_sub33.method9714((byte) 45);
+				class603_sub1.aString10559 = class536_sub33.readVersionedString((byte) 45);
 			class603_sub1.anInt10557 = (i_8_ + Class220.anInt2310 * -805119937) * -130957999;
-			class603_sub1.aString10556 = class536_sub33.method9714((byte) 55);
-			class603_sub1.aString10555 = class536_sub33.method9714((byte) 2);
+			class603_sub1.aString10556 = class536_sub33.readVersionedString((byte) 55);
+			class603_sub1.aString10555 = class536_sub33.readVersionedString((byte) 2);
 		}
 		anInt7809 = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;

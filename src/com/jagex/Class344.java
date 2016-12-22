@@ -23,7 +23,7 @@ public class Class344 {
 	static final int anInt3681 = 14;
 
 	void method4478(RSByteBuffer class536_sub33) {
-		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
@@ -63,7 +63,7 @@ public class Class344 {
 	}
 
 	void method4479(RSByteBuffer class536_sub33, byte i) {
-		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i_0_ = class536_sub33.readUnsignedByte(); i_0_ != 0; i_0_ = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
@@ -111,7 +111,7 @@ public class Class344 {
 	}
 
 	void method4481(RSByteBuffer class536_sub33) {
-		aLong3666 = class536_sub33.method9711(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
@@ -205,7 +205,7 @@ public class Class344 {
 	}
 	
 	public static final boolean method4487(int i) {
-		return 0 != Class61.anInt680 * -129171495;
+		return 0 != Class61.loginStage * -129171495;
 	}
 
 	static void method4488(RSByteBuffer class536_sub33, int i) {

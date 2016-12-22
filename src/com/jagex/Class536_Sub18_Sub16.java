@@ -55,7 +55,7 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 				if (null == anObjectArray11796)
 					anObjectArray11796 = new Object[i_2_];
 				class499 = Class499.aClass499_5600;
-				anObjectArray11796[i] = Long.valueOf(class536_sub33.method9711(702869087));
+				anObjectArray11796[i] = Long.valueOf(class536_sub33.readLong(702869087));
 				break;
 			default:
 				throw new RuntimeException();

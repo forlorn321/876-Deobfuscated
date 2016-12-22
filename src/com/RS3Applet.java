@@ -74,6 +74,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	static {
 		IDENTIFIED.add(IncomingPacket.PING); // Lobby ping? idk
 		IDENTIFIED.add(IncomingPacket.PING_2); //implemented
+		IDENTIFIED.add(IncomingPacket.aClass422_4672); //lobby refresh
 		IDENTIFIED.add(IncomingPacket.VARP_1); //implemented
 		IDENTIFIED.add(IncomingPacket.VARP_2); //implemented
 		IDENTIFIED.add(IncomingPacket.CS_VAR_1); //implemented
@@ -85,6 +86,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.WORLD_LIST); //implemented
 		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK); //implemented
 		IDENTIFIED.add(IncomingPacket.INTERFACE_SETTINGS); //implemented
+		IDENTIFIED.add(IncomingPacket.ROOT_INTERFACE); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);

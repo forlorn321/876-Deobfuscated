@@ -137,8 +137,8 @@ public class Class45 {
 					if (client.aClass106_11218.method1413((short) 8153) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) -14134).bitsRemaining(1, -898157126)) {
-						client.aClass106_11218.method1413((short) -3273).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, 1800558659);
-						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1250980362), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
+						client.aClass106_11218.method1413((short) -3273).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, 1800558659);
+						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1250980362), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(anIntArray526);
 							int[] is = new int[4];
@@ -146,10 +146,10 @@ public class Class45 {
 								is[i_2_] = anIntArray526[i_2_] + 50;
 							client.aClass106_11218.aClass15_1260 = new Class15(is);
 							new Class15(is);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
+							client.aClass106_11218.byteBuffer.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
 							Class673.method8026(11, -1798113843);
 							client.aClass106_11218.method1407(-1144545819);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.off = 0;
+							client.aClass106_11218.byteBuffer.off = 0;
 							client.aClass106_11218.aClass422_1270 = null;
 							client.aClass106_11218.aClass422_1271 = null;
 							client.aClass106_11218.aClass422_1274 = null;
@@ -214,8 +214,8 @@ public class Class45 {
 					if (client.aClass106_11218.method1413((short) -4931) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) -6132).bitsRemaining(1, -2011593291)) {
-						client.aClass106_11218.method1413((short) -27077).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, 1094601941);
-						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1428313437), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
+						client.aClass106_11218.method1413((short) -27077).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, 1094601941);
+						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1428313437), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(anIntArray526);
 							int[] is = new int[4];
@@ -223,10 +223,10 @@ public class Class45 {
 								is[i_5_] = anIntArray526[i_5_] + 50;
 							client.aClass106_11218.aClass15_1260 = new Class15(is);
 							new Class15(is);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
+							client.aClass106_11218.byteBuffer.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
 							Class673.method8026(11, -1798113843);
 							client.aClass106_11218.method1407(-339146402);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.off = 0;
+							client.aClass106_11218.byteBuffer.off = 0;
 							client.aClass106_11218.aClass422_1270 = null;
 							client.aClass106_11218.aClass422_1271 = null;
 							client.aClass106_11218.aClass422_1274 = null;
@@ -291,8 +291,8 @@ public class Class45 {
 					if (client.aClass106_11218.method1413((short) -16941) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) 1130).bitsRemaining(1, -662258788)) {
-						client.aClass106_11218.method1413((short) -7151).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, -1422109342);
-						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1656210352), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
+						client.aClass106_11218.method1413((short) -7151).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1422109342);
+						aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(1656210352), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(anIntArray526);
 							int[] is = new int[4];
@@ -300,10 +300,10 @@ public class Class45 {
 								is[i_8_] = anIntArray526[i_8_] + 50;
 							client.aClass106_11218.aClass15_1260 = new Class15(is);
 							new Class15(is);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
+							client.aClass106_11218.byteBuffer.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
 							Class673.method8026(11, -1798113843);
 							client.aClass106_11218.method1407(-751803395);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.off = 0;
+							client.aClass106_11218.byteBuffer.off = 0;
 							client.aClass106_11218.aClass422_1270 = null;
 							client.aClass106_11218.aClass422_1271 = null;
 							client.aClass106_11218.aClass422_1274 = null;

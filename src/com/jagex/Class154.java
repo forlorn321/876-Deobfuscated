@@ -101,8 +101,8 @@ class Class154 implements Runnable {
 					if (client.aClass106_11218.method1413((short) 16381) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) 16167).bitsRemaining(1, -1036446546)) {
-						client.aClass106_11218.method1413((short) -17086).method6899((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer), 0, 1, -1779776192);
-						Class45.aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(2053659211), ((client.aClass106_11218.aClass536_Sub33_Sub2_1267.buffer[0]) & 0xff), 1858049507));
+						client.aClass106_11218.method1413((short) -17086).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1779776192);
+						Class45.aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(2053659211), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == Class45.aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(Class45.anIntArray526);
 							int[] is = new int[4];
@@ -110,10 +110,10 @@ class Class154 implements Runnable {
 								is[i_3_] = Class45.anIntArray526[i_3_] + 50;
 							client.aClass106_11218.aClass15_1260 = new Class15(is);
 							new Class15(is);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
+							client.aClass106_11218.byteBuffer.method10782(client.aClass106_11218.aClass15_1260, -2019890215);
 							Class673.method8026(11, -1798113843);
 							client.aClass106_11218.method1407(-337933597);
-							client.aClass106_11218.aClass536_Sub33_Sub2_1267.off = 0;
+							client.aClass106_11218.byteBuffer.off = 0;
 							client.aClass106_11218.aClass422_1270 = null;
 							client.aClass106_11218.aClass422_1271 = null;
 							client.aClass106_11218.aClass422_1274 = null;

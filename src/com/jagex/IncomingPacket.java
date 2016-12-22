@@ -77,7 +77,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4661;
 	public static IncomingPacket aClass422_4662;
 	public static IncomingPacket aClass422_4663;
-	public static IncomingPacket aClass422_4664;
+	public static IncomingPacket ROOT_INTERFACE;
 	public static IncomingPacket aClass422_4665;
 	public static IncomingPacket aClass422_4666;
 	public static IncomingPacket aClass422_4667;
@@ -280,7 +280,7 @@ public class IncomingPacket {
 		aClass422_4648 = new IncomingPacket(70, 3);
 		aClass422_4712 = new IncomingPacket(71, 4);
 		aClass422_4663 = new IncomingPacket(72, 4);
-		aClass422_4664 = new IncomingPacket(73, 19);
+		ROOT_INTERFACE = new IncomingPacket(73, 19);
 		aClass422_4665 = new IncomingPacket(74, 1);
 		aClass422_4666 = new IncomingPacket(75, 2);
 		aClass422_4667 = new IncomingPacket(76, 6);

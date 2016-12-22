@@ -138,7 +138,7 @@ public class Class262 {
 	}
 
 	static final void method3642(int i, int i_5_) {
-		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.aClass536_Sub33_Sub2_1267;
+		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
 		while (class536_sub33_sub2.method10785(610303591 * (client.aClass106_11322.anInt1262), (byte) 58) >= 15) {
 			int i_6_ = class536_sub33_sub2.method10780(15, 939507497);
 			if (i_6_ == 32767)

@@ -169,7 +169,7 @@ public class Class506 {
 	}
 
 	public static final void method6144(int i) {
-		if (0 != -129171495 * Class61.anInt680) {
+		if (0 != -129171495 * Class61.loginStage) {
 			Class586.aClass106_7710.method1418(-1344195006);
 			Class116.method1485(-510389163);
 			Class314.method4203(861456321);

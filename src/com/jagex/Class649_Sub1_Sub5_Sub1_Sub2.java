@@ -68,11 +68,11 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 		method7841(class436);
 		class436.method5239();
 		if (bool_3_)
-			aString12180 = class536_sub33.method9714((byte) 99);
+			aString12180 = class536_sub33.readVersionedString((byte) 99);
 		else
 			aString12180 = null;
 		if (bool_4_)
-			aString12181 = class536_sub33.method9714((byte) 2);
+			aString12181 = class536_sub33.readVersionedString((byte) 2);
 		else
 			aString12181 = null;
 		aClass623_12201 = ((Class623) Class682.method8091(Class623.method7422((byte) 1), class536_sub33.readByte(), 1858049507));

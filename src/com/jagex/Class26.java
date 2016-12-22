@@ -65,7 +65,7 @@ public class Class26 {
 					return 0L;
 			}
 			class536_sub33.off = 0;
-			long l_0_ = class536_sub33.method9711(702869087);
+			long l_0_ = class536_sub33.readLong(702869087);
 			l = l_0_;
 		} catch (Exception exception) {
 			return 0L;
@@ -96,7 +96,7 @@ public class Class26 {
 					return 0L;
 			}
 			class536_sub33.off = 0;
-			long l_1_ = class536_sub33.method9711(702869087);
+			long l_1_ = class536_sub33.readLong(702869087);
 			l = l_1_;
 		} catch (Exception exception) {
 			return 0L;

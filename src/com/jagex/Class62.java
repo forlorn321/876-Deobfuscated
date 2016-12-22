@@ -114,7 +114,7 @@ public class Class62 {
 		for (int i_11_ = 0; i_11_ < 10; i_11_++)
 			class536_sub33.writeInt((int) (Math.random() * 9.9999999E7), -149241618);
 		class536_sub33.writeShort((int) (Math.random() * 9.9999999E7), -1778059594);
-		class536_sub33.method9726(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -2034700978);
+		class536_sub33.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -2034700978);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9696(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 84);
 		return is;
 	}

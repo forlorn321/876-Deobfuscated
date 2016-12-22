@@ -24,14 +24,14 @@ public class Class8 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
 	}
 
-	static void method605(Class536_Sub33_Sub2 class536_sub33_sub2, byte i) {
-		boolean bool = class536_sub33_sub2.readUnsignedByte() == 1;
+	static void method605(Class536_Sub33_Sub2 stream, byte i) {
+		boolean bool = stream.readUnsignedByte() == 1;
 		if (bool) {
 			boolean bool_0_ = false;
-			int i_1_ = class536_sub33_sub2.method10777((byte) 87) << 24;
-			i_1_ |= class536_sub33_sub2.method10777((byte) 10) << 16;
-			i_1_ |= class536_sub33_sub2.method10777((byte) -42) << 8;
-			i_1_ |= class536_sub33_sub2.method10777((byte) 41);
+			int i_1_ = stream.method10777((byte) 87) << 24;
+			i_1_ |= stream.method10777((byte) 10) << 16;
+			i_1_ |= stream.method10777((byte) -42) << 8;
+			i_1_ |= stream.method10777((byte) 41);
 			Class218.aClass66_2307.method1064((Class450.aLong4943 * -6871820876617798991L), i_1_, (byte) 46);
 		}
 	}

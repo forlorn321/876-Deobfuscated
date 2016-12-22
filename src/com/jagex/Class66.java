@@ -186,7 +186,7 @@ public class Class66 {
 			if (i > 0 && i <= 1) {
 				int i_4_ = class536_sub33.readUnsignedByte();
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-					long l = class536_sub33.method9711(702869087);
+					long l = class536_sub33.readLong(702869087);
 					int i_6_ = class536_sub33.readInt();
 					aLinkedHashMap722.put(Long.valueOf(l), Integer.valueOf(i_6_));
 				}

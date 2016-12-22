@@ -190,7 +190,7 @@ public class RSByteBuffer extends Class536 {
 		return (l << 32) + l_21_;
 	}
 
-	public int method9708(byte i) {
+	public int read24BitInteger(byte i) {
 		off += 1548526545;
 		int i_22_ = ((buffer[-810172525 * off - 1] & 0xff) + (((buffer[-810172525 * off - 2] & 0xff) << 8) + ((buffer[-810172525 * off - 3] & 0xff) << 16)));
 		if (i_22_ > 8388607)
@@ -203,13 +203,13 @@ public class RSByteBuffer extends Class536 {
 		return (((buffer[off * -810172525 - 2] & 0xff) << 8) + (((buffer[off * -810172525 - 4] & 0xff) << 24) + ((buffer[off * -810172525 - 3] & 0xff) << 16)) + (buffer[-810172525 * off - 1] & 0xff));
 	}
 
-	public long method9710(int i) {
+	public long read5ByteInteger(int i) {
 		long l = (long) readUnsignedByte() & 0xffffffffL;
 		long l_23_ = (long) readInt() & 0xffffffffL;
 		return (l << 32) + l_23_;
 	}
 
-	public long method9711(int i) {
+	public long readLong(int i) {
 		long l = (long) readInt() & 0xffffffffL;
 		long l_24_ = (long) readInt() & 0xffffffffL;
 		return l_24_ + (l << 32);
@@ -227,7 +227,7 @@ public class RSByteBuffer extends Class536 {
 		return readString();
 	}
 
-	public String method9714(byte i) {
+	public String readVersionedString(byte i) {
 		byte i_25_ = buffer[(off += 516175515) * -810172525 - 1];
 		if (i_25_ != 0)
 			throw new IllegalStateException("");
@@ -360,7 +360,7 @@ public class RSByteBuffer extends Class536 {
 		off = 516175515 * i_54_;
 	}
 
-	public void method9726(BigInteger biginteger, BigInteger biginteger_62_, int i) {
+	public void applyRSA(BigInteger biginteger, BigInteger biginteger_62_, int i) {
 		int i_63_ = off * -810172525;
 		off = 0;
 		byte[] is = new byte[i_63_];

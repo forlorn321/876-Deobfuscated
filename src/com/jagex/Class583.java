@@ -41,7 +41,7 @@ public class Class583 {
 		class536_sub33.writeString(Class61.aString696, 1835663037);
 		class536_sub33.writeLong(Class61.aLong644 * 4393163627905998863L);
 		class536_sub33.writeLong(6862939200387171825L * client.aLong11025);
-		class536_sub33.method9726(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -988574007);
+		class536_sub33.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -988574007);
 		return class536_sub33;
 	}
 

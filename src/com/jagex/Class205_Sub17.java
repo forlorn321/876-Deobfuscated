@@ -68,7 +68,7 @@ public class Class205_Sub17 extends Class205 {
 	}
 
 	static final void method9088(int i) {
-		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.aClass536_Sub33_Sub2_1267;
+		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
 		class536_sub33_sub2.method10779((byte) 5);
 		int i_0_ = class536_sub33_sub2.method10780(8, -318447933);
 		if (i_0_ < -664631943 * client.anInt11053) {

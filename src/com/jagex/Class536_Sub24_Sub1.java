@@ -21,7 +21,7 @@ public class Class536_Sub24_Sub1 extends Class536_Sub24 {
 		anInt11627 = class536_sub33.readUnsignedShort() * 716366101;
 		aByte11625 = class536_sub33.readByte();
 		anInt11624 = class536_sub33.readUnsignedShort() * 1645906271;
-		class536_sub33.method9711(702869087);
+		class536_sub33.readLong(702869087);
 		aString11626 = class536_sub33.readString();
 	}
 
@@ -36,7 +36,7 @@ public class Class536_Sub24_Sub1 extends Class536_Sub24 {
 		anInt11627 = class536_sub33.readUnsignedShort() * 716366101;
 		aByte11625 = class536_sub33.readByte();
 		anInt11624 = class536_sub33.readUnsignedShort() * 1645906271;
-		class536_sub33.method9711(702869087);
+		class536_sub33.readLong(702869087);
 		aString11626 = class536_sub33.readString();
 	}
 
@@ -44,7 +44,7 @@ public class Class536_Sub24_Sub1 extends Class536_Sub24 {
 		anInt11627 = class536_sub33.readUnsignedShort() * 716366101;
 		aByte11625 = class536_sub33.readByte();
 		anInt11624 = class536_sub33.readUnsignedShort() * 1645906271;
-		class536_sub33.method9711(702869087);
+		class536_sub33.readLong(702869087);
 		aString11626 = class536_sub33.readString();
 	}
 

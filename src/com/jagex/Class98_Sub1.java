@@ -60,9 +60,9 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		if (var_class == java.lang.Integer.class)
 			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt());
 		else if (var_class == java.lang.Long.class)
-			class430.anObject4819 = Long.valueOf(class536_sub33.method9711(702869087));
+			class430.anObject4819 = Long.valueOf(class536_sub33.readLong(702869087));
 		else if (java.lang.String.class == var_class)
-			class430.anObject4819 = class536_sub33.method9714((byte) 106);
+			class430.anObject4819 = class536_sub33.readVersionedString((byte) 106);
 		else if (com.jagex.Interface8.class.isAssignableFrom(var_class)) {
 			try {
 				Interface8 interface8 = (Interface8) var_class.newInstance();
@@ -114,9 +114,9 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		if (java.lang.Integer.class == var_class)
 			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt());
 		else if (java.lang.Long.class == var_class)
-			class430.anObject4819 = Long.valueOf(class536_sub33.method9711(702869087));
+			class430.anObject4819 = Long.valueOf(class536_sub33.readLong(702869087));
 		else if (java.lang.String.class == var_class)
-			class430.anObject4819 = class536_sub33.method9714((byte) 9);
+			class430.anObject4819 = class536_sub33.readVersionedString((byte) 9);
 		else if (com.jagex.Interface8.class.isAssignableFrom(var_class)) {
 			try {
 				Interface8 interface8 = (Interface8) var_class.newInstance();
@@ -179,8 +179,8 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 				class706_sub2.method10258(1198904381);
 			}
 		}
-		if ((client.aClass106_11322.aClass536_Sub33_Sub2_1267.off * -810172525) != 610303591 * client.aClass106_11322.anInt1262)
-			throw new RuntimeException(new StringBuilder().append(-810172525 * (client.aClass106_11322.aClass536_Sub33_Sub2_1267.off)).append(" ").append(client.aClass106_11322.anInt1262 * 610303591).toString());
+		if ((client.aClass106_11322.byteBuffer.off * -810172525) != 610303591 * client.aClass106_11322.anInt1262)
+			throw new RuntimeException(new StringBuilder().append(-810172525 * (client.aClass106_11322.byteBuffer.off)).append(" ").append(client.aClass106_11322.anInt1262 * 610303591).toString());
 		for (int i_11_ = 0; i_11_ < -664631943 * client.anInt11053; i_11_++) {
 			if (client.aClass4_11050.method556((long) client.anIntArray11211[i_11_]) == null)
 				throw new RuntimeException(new StringBuilder().append(i_11_).append(" ").append(client.anInt11053 * -664631943).toString());

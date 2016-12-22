@@ -94,7 +94,7 @@ public class Class188 {
 		}
 		Class586.aClass106_7710.aBool1266 = false;
 		Class537.method6507(-3, 1280785913);
-		Class61.anInt680 = -2006177950;
+		Class61.loginStage = -2006177950;
 		Class61.anInt683 = 0;
 		Class61.anInt668 = 0;
 		return true;

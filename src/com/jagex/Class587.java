@@ -60,7 +60,7 @@ public class Class587 implements Interface13 {
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -125) * 104053305;
 		else if (i == 8)
-			aString7729 = class536_sub33.method9714((byte) 12);
+			aString7729 = class536_sub33.readVersionedString((byte) 12);
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)
@@ -249,7 +249,7 @@ public class Class587 implements Interface13 {
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -61) * 104053305;
 		else if (i == 8)
-			aString7729 = class536_sub33.method9714((byte) 55);
+			aString7729 = class536_sub33.readVersionedString((byte) 55);
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)
@@ -364,7 +364,7 @@ public class Class587 implements Interface13 {
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -31) * 104053305;
 		else if (i == 8)
-			aString7729 = class536_sub33.method9714((byte) 62);
+			aString7729 = class536_sub33.readVersionedString((byte) 62);
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)

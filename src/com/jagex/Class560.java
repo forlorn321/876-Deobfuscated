@@ -76,8 +76,8 @@ class Class560 implements Runnable {
 	}
 
 	public static void method6823(byte i) {
-		if (102 == Class61.anInt680 * -129171495)
-			Class61.anInt680 = -329511650;
+		if (102 == Class61.loginStage * -129171495)
+			Class61.loginStage = -329511650;
 	}
 
 	static final void method6824(Class251 class251, Class234 class234, Class668 class668, int i) {

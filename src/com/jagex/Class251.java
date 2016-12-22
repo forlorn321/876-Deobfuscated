@@ -404,7 +404,7 @@ public class Class251 {
 			int i_24_ = class536_sub33.readUnsignedByte();
 			for (int i_25_ = 0; i_25_ < i_24_; i_25_++) {
 				int i_26_ = class536_sub33.read24BitUnsignedInteger(1184258397);
-				String string = class536_sub33.method9714((byte) 29);
+				String string = class536_sub33.readVersionedString((byte) 29);
 				aClass4_2630.method560(new Class536_Sub13(string), (long) i_26_);
 			}
 		}

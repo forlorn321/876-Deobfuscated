@@ -226,7 +226,7 @@ public class Class164 {
 
 	public static Class398 method1974(RSByteBuffer class536_sub33, int i) {
 		Class398 class398 = Class390.method4854(class536_sub33, (byte) -59);
-		int i_20_ = class536_sub33.method9708((byte) 116);
+		int i_20_ = class536_sub33.read24BitInteger((byte) 116);
 		return new Class398_Sub1(-269721035 * class398.anInt4120, class398.aClass395_4117, class398.aClass399_4119, class398.anInt4121 * 21495479, class398.anInt4118 * -527690215, i_20_);
 	}
 }

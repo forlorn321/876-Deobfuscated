@@ -16,7 +16,7 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 		class536_sub33.readUnsignedByte();
 		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
-			class536_sub33.method9711(702869087);
+			class536_sub33.readLong(702869087);
 		}
 	}
 
@@ -29,7 +29,7 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 		class536_sub33.readUnsignedByte();
 		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
-			class536_sub33.method9711(702869087);
+			class536_sub33.readLong(702869087);
 		}
 	}
 
@@ -42,7 +42,7 @@ public class Class536_Sub24_Sub4 extends Class536_Sub24 {
 		class536_sub33.readUnsignedByte();
 		if (class536_sub33.readUnsignedByte() != 255) {
 			class536_sub33.off -= 516175515;
-			class536_sub33.method9711(702869087);
+			class536_sub33.readLong(702869087);
 		}
 	}
 

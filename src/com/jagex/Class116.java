@@ -30,7 +30,7 @@ public class Class116 {
 	}
 
 	public static final void method1485(int i) {
-		Class61.anInt680 = 0;
+		Class61.loginStage = 0;
 		Class61.anInt687 = -668391778;
 		Class61.anInt654 = -2068721962;
 	}

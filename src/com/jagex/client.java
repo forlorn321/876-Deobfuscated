@@ -1014,16 +1014,16 @@ public final class client extends Class505 {
 			if (Class566.method6895(anInt11101 * -708374433, -430748811) && !Class578.method7007(anInt11101 * -708374433, -656952535)) {
 				method10374(1510506421);
 				Class154.method1871(-1503392045);
-				Class283.method3776(-193266476);
+				Class283.handleLogin(-193266476);
 			} else if (Class233.method3334(anInt11101 * -708374433, (byte) -82) && !Class578.method7007(anInt11101 * -708374433, 1955319672)) {
 				method10374(1713360562);
-				Class283.method3776(-1184448458);
+				Class283.handleLogin(-1184448458);
 			} else if (4 == anInt11101 * -708374433)
-				Class283.method3776(123021423);
+				Class283.handleLogin(123021423);
 			else if (Class426.method5129(anInt11101 * -708374433, 1603352511) && !Class578.method7007(anInt11101 * -708374433, 778144345))
 				Class678.method8062(-708236199);
 			else if (17 == -708374433 * anInt11101 || 19 == anInt11101 * -708374433) {
-				Class283.method3776(-1231138478);
+				Class283.handleLogin(-1231138478);
 				if (-3 != 1063476305 * Class61.anInt687 && 1063476305 * Class61.anInt687 != 2 && 15 != Class61.anInt687 * 1063476305) {
 					if (-708374433 * anInt11101 == 19) {
 						Class61.anInt690 = 1717456075 * Class61.anInt693;
@@ -4283,16 +4283,16 @@ public final class client extends Class505 {
 			if (Class566.method6895(anInt11101 * -708374433, -1229205844) && !Class578.method7007(anInt11101 * -708374433, -330575497)) {
 				method10374(22069970);
 				Class154.method1871(1155307375);
-				Class283.method3776(-1602819907);
+				Class283.handleLogin(-1602819907);
 			} else if (Class233.method3334(anInt11101 * -708374433, (byte) -3) && !Class578.method7007(anInt11101 * -708374433, 588340395)) {
 				method10374(1847694081);
-				Class283.method3776(-619753006);
+				Class283.handleLogin(-619753006);
 			} else if (4 == anInt11101 * -708374433)
-				Class283.method3776(1619619300);
+				Class283.handleLogin(1619619300);
 			else if (Class426.method5129(anInt11101 * -708374433, 1603352511) && !Class578.method7007(anInt11101 * -708374433, 1854377388))
 				Class678.method8062(792267065);
 			else if (17 == -708374433 * anInt11101 || 19 == anInt11101 * -708374433) {
-				Class283.method3776(-1056532617);
+				Class283.handleLogin(-1056532617);
 				if (-3 != 1063476305 * Class61.anInt687 && 1063476305 * Class61.anInt687 != 2 && 15 != Class61.anInt687 * 1063476305) {
 					if (-708374433 * anInt11101 == 19) {
 						Class61.anInt690 = 1717456075 * Class61.anInt693;
@@ -5967,16 +5967,16 @@ public final class client extends Class505 {
 			if (Class566.method6895(anInt11101 * -708374433, 843215641) && !Class578.method7007(anInt11101 * -708374433, 916607381)) {
 				method10374(-1278766367);
 				Class154.method1871(1682925767);
-				Class283.method3776(-1172926562);
+				Class283.handleLogin(-1172926562);
 			} else if (Class233.method3334(anInt11101 * -708374433, (byte) -122) && !Class578.method7007(anInt11101 * -708374433, 161101909)) {
 				method10374(-608170486);
-				Class283.method3776(236778952);
+				Class283.handleLogin(236778952);
 			} else if (4 == anInt11101 * -708374433)
-				Class283.method3776(2028948453);
+				Class283.handleLogin(2028948453);
 			else if (Class426.method5129(anInt11101 * -708374433, 1603352511) && !Class578.method7007(anInt11101 * -708374433, -430625128))
 				Class678.method8062(1736935364);
 			else if (17 == -708374433 * anInt11101 || 19 == anInt11101 * -708374433) {
-				Class283.method3776(-1703260163);
+				Class283.handleLogin(-1703260163);
 				if (-3 != 1063476305 * Class61.anInt687 && 1063476305 * Class61.anInt687 != 2 && 15 != Class61.anInt687 * 1063476305) {
 					if (-708374433 * anInt11101 == 19) {
 						Class61.anInt690 = 1717456075 * Class61.anInt693;
@@ -6111,16 +6111,16 @@ public final class client extends Class505 {
 			if (Class566.method6895(anInt11101 * -708374433, 1943401430) && !Class578.method7007(anInt11101 * -708374433, -284427533)) {
 				method10374(-1415140104);
 				Class154.method1871(714846512);
-				Class283.method3776(-913785170);
+				Class283.handleLogin(-913785170);
 			} else if (Class233.method3334(anInt11101 * -708374433, (byte) -106) && !Class578.method7007(anInt11101 * -708374433, 617966129)) {
 				method10374(492535152);
-				Class283.method3776(-1427792072);
+				Class283.handleLogin(-1427792072);
 			} else if (4 == anInt11101 * -708374433)
-				Class283.method3776(-2116903340);
+				Class283.handleLogin(-2116903340);
 			else if (Class426.method5129(anInt11101 * -708374433, 1603352511) && !Class578.method7007(anInt11101 * -708374433, 918529743))
 				Class678.method8062(-591546398);
 			else if (17 == -708374433 * anInt11101 || 19 == anInt11101 * -708374433) {
-				Class283.method3776(1277144652);
+				Class283.handleLogin(1277144652);
 				if (-3 != 1063476305 * Class61.anInt687 && 1063476305 * Class61.anInt687 != 2 && 15 != Class61.anInt687 * 1063476305) {
 					if (-708374433 * anInt11101 == 19) {
 						Class61.anInt690 = 1717456075 * Class61.anInt693;

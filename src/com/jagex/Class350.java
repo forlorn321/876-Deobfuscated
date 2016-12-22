@@ -374,7 +374,7 @@ public class Class350 {
 				aBoolArray3716 = new boolean[-1097649699 * anInt3710];
 			for (int i_37_ = 0; i_37_ < anInt3710 * -1097649699; i_37_++) {
 				if (aBool3699)
-					aLongArray3711[i_37_] = class536_sub33.method9711(702869087);
+					aLongArray3711[i_37_] = class536_sub33.readLong(702869087);
 				if (aBool3700)
 					aStringArray3703[i_37_] = class536_sub33.method9713(16509697);
 				aByteArray3712[i_37_] = class536_sub33.readByte();
@@ -398,7 +398,7 @@ public class Class350 {
 				aStringArray3722 = new String[anInt3719 * 984431303];
 			for (int i_38_ = 0; i_38_ < 984431303 * anInt3719; i_38_++) {
 				if (aBool3699)
-					aLongArray3720[i_38_] = class536_sub33.method9711(702869087);
+					aLongArray3720[i_38_] = class536_sub33.readLong(702869087);
 				if (aBool3700)
 					aStringArray3722[i_38_] = class536_sub33.method9713(16509697);
 			}
@@ -415,7 +415,7 @@ public class Class350 {
 						int i_43_ = class536_sub33.readInt();
 						aClass4_3714.method560(new Class536_Sub26(i_43_), (long) i_41_);
 					} else if (i_42_ == 1) {
-						long l = class536_sub33.method9711(702869087);
+						long l = class536_sub33.readLong(702869087);
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_41_);
 					} else if (2 == i_42_) {
 						String string = class536_sub33.readString();
@@ -881,7 +881,7 @@ public class Class350 {
 				aBoolArray3716 = new boolean[-1097649699 * anInt3710];
 			for (int i_66_ = 0; i_66_ < anInt3710 * -1097649699; i_66_++) {
 				if (aBool3699)
-					aLongArray3711[i_66_] = class536_sub33.method9711(702869087);
+					aLongArray3711[i_66_] = class536_sub33.readLong(702869087);
 				if (aBool3700)
 					aStringArray3703[i_66_] = class536_sub33.method9713(16509697);
 				aByteArray3712[i_66_] = class536_sub33.readByte();
@@ -905,7 +905,7 @@ public class Class350 {
 				aStringArray3722 = new String[anInt3719 * 984431303];
 			for (int i_67_ = 0; i_67_ < 984431303 * anInt3719; i_67_++) {
 				if (aBool3699)
-					aLongArray3720[i_67_] = class536_sub33.method9711(702869087);
+					aLongArray3720[i_67_] = class536_sub33.readLong(702869087);
 				if (aBool3700)
 					aStringArray3722[i_67_] = class536_sub33.method9713(16509697);
 			}
@@ -922,7 +922,7 @@ public class Class350 {
 						int i_72_ = class536_sub33.readInt();
 						aClass4_3714.method560(new Class536_Sub26(i_72_), (long) i_70_);
 					} else if (i_71_ == 1) {
-						long l = class536_sub33.method9711(702869087);
+						long l = class536_sub33.readLong(702869087);
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_70_);
 					} else if (2 == i_71_) {
 						String string = class536_sub33.readString();
