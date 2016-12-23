@@ -39,9 +39,9 @@ public class Class207 {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4506, class106.aClass15_1258, 1399244557);
 		if (string_2_.length() > 30)
 			string_2_ = string_2_.substring(0, 30);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 522556789) + Class555.method6802(string_2_, -818730005)), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 1419722407);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_2_, -2005432022);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 522556789) + Class555.method6802(string_2_, -818730005)));
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_2_);
 		class106.method1409(class536_sub23, 991721859);
 	}
 

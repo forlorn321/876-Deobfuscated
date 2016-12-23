@@ -12,7 +12,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 753522960);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2084087695);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, 863964582);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1941898572);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, 1821906987);
@@ -26,7 +26,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 847665742);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2057862953);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, -262650363);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1769437720);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1059406607);
@@ -44,7 +44,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 1653291138);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2025929460);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, 737771266);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1872144563);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1540788084);
@@ -66,9 +66,9 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 	public static final void method9625(String string, int i, int i_8_) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4505, class106.aClass15_1258, 1423197358);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1 + Class555.method6802(string, 234499511), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 745520181);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1 + Class555.method6802(string, 234499511));
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i);
 		class106.method1409(class536_sub23, 1156195131);
 	}
 

@@ -25,9 +25,9 @@ public class Class205_Sub20 extends Class205 {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4451, class106.aClass15_1258, 1786411778);
 		if (string_0_.length() > 30)
 			string_0_ = string_0_.substring(0, 30);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 1643476799) + Class555.method6802(string_0_, 512303196)), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -392739610);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_, 542733687);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 1643476799) + Class555.method6802(string_0_, 512303196)));
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_);
 		class106.method1409(class536_sub23, 973165313);
 	}
 

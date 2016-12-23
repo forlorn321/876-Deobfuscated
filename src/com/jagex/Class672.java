@@ -50,10 +50,10 @@ public class Class672 {
 			Class349 class349 = Class646.aClass536_Sub15_8361.aClass349Array10479[i];
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4522, class106.aClass15_1258, 889229786);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(class349.aString3695, 1665491456), 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(class349.aString3695, 1665491456));
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i, -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0, 465637339);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695, 101779707);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695);
 			class106.method1409(class536_sub23, 877143203);
 		}
 	}

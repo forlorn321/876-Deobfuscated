@@ -41,10 +41,10 @@ public class Class30 {
 
 	static void method781(Class106 class106, byte i) {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4503, class106.aClass15_1258, 725927789);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class315.method4212((byte) 43), 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class315.method4212((byte) 43));
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(Class144.anInt1679 * -1804846931, -1778059594);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(Class34_Sub6.anInt10965 * 589116499, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(463714195), 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(463714195));
 		class106.method1409(class536_sub23, 1588399593);
 	}
 

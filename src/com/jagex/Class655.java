@@ -281,7 +281,7 @@ public final class Class655 {
 			class19 = Class19.aClass19_203;
 		else
 			class19 = Class19.aClass19_200;
-		class536_sub33.writeByte(class19.method78(), 465637339);
+		class536_sub33.writeByte(class19.method78());
 		switch (class19.anInt202 * -1562020825) {
 		case 2:
 			class536_sub33.off += 2064702060;
@@ -292,7 +292,7 @@ public final class Class655 {
 			class536_sub33.off += 516175515;
 			break;
 		case 0:
-			class536_sub33.writeInt(Class218.aClass66_2307.method1066(l), -149241618);
+			class536_sub33.writeInt(Class218.aClass66_2307.method1066(l));
 			break;
 		}
 	}

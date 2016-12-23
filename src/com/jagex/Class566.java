@@ -296,9 +296,9 @@ public class Class566 implements Runnable {
 		client.anInt11073 = (378731663 * class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4441, class106.aClass15_1258, 1211091056);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt11259 * 1867600229, 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class464.aClass694_5229.anInt8730 * -1418548035, 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(57582191 * client.anInt11073, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt11259 * 1867600229);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class464.aClass694_5229.anInt8730 * -1418548035);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(57582191 * client.anInt11073);
 		class106.method1409(class536_sub23, 178383689);
 	}
 

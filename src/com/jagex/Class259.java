@@ -111,8 +111,8 @@ public class Class259 {
 	static final void method3606(Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4444, client.aClass106_11322.aClass15_1258, 1924475776);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(string.length() + 1, 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 261275507);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(string.length() + 1);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 		client.aClass106_11322.method1409(class536_sub23, 1947612535);
 	}
 

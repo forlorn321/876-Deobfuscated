@@ -55,10 +55,10 @@ public class Class536_Sub30 extends Class536 implements Interface8 {
 	}
 
 	void method9630(RSByteBuffer class536_sub33, byte i) {
-		class536_sub33.writeByte(700896725 * anInt10565, 465637339);
-		class536_sub33.writeInt(2135129199 * anInt10568, -149241618);
-		class536_sub33.writeInt(anInt10564 * 737759727, -149241618);
-		class536_sub33.writeInt(anInt10567 * -1369836225, -149241618);
+		class536_sub33.writeByte(700896725 * anInt10565);
+		class536_sub33.writeInt(2135129199 * anInt10568);
+		class536_sub33.writeInt(anInt10564 * 737759727);
+		class536_sub33.writeInt(anInt10567 * -1369836225);
 	}
 
 	public String toString() {

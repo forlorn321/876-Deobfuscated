@@ -38,7 +38,7 @@ public class Class583 {
 			l = Class61.aLong649 * -7692785137277514277L;
 		Class450.aLong4943 = l * -1074143907366248879L;
 		Class655.method7938(class536_sub33, l);
-		class536_sub33.writeString(Class61.aString696, 1835663037);
+		class536_sub33.writeString(Class61.aString696);
 		class536_sub33.writeLong(Class61.aLong644 * 4393163627905998863L);
 		class536_sub33.writeLong(6862939200387171825L * client.aLong11025);
 		class536_sub33.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -988574007);

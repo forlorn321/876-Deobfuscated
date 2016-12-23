@@ -33,7 +33,7 @@ public class Class215 {
 	}
 
 	public static void method3088(int i, int i_0_, int i_1_, int i_2_) {
-		Class467.method5689(new Class41_Sub1(i, i_0_, i_1_, client.anInt11041 * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1164928782), Class246.aClass466_2473.method5675(1244260260)), -1789365624);
+		Class467.method5689(new Class41_Sub1(i, i_0_, i_1_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1164928782), Class246.aClass466_2473.method5675(1244260260)), -1789365624);
 	}
 
 	static final void method3089(Class668 class668, int i) {

@@ -102,29 +102,29 @@ public class Class283 implements Interface75 {
 						Class586.aClass106_7710.method1407(-564736805);
 						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1880826857);
 						if (Class61.aBool647) {
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4580.anInt4571), 465637339);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4580.anInt4571));
 							class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 							int i_3_ = ((class536_sub23.aClass536_Sub33_Sub2_10528.off) * -810172525);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(876, -149241618);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(1, -149241618);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(876);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(1);
 							if (244 == Class76_Sub1.anInt10981 * 1382700277)
-								class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((17 == -708374433 * client.anInt11101 ? 1 : 0), 465637339);
+								class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((17 == -708374433 * client.anInt11101 ? 1 : 0));
 							RSByteBuffer stream = Class458_Sub3.method9358((byte) -10);
 							Class655.method7938(stream, (long) (Class61.anInt648 * 1234839363));
 							Class450.aLong4943 = (5595631816110933555L * (long) Class61.anInt648);
-							stream.writeByte((1234839363 * Class61.anInt648), 465637339);
-							stream.writeByte(Class459.aClass664_5178.method78(), 465637339);
-							stream.writeInt((1051867059 * client.anInt10987), -149241618);
+							stream.writeByte((1234839363 * Class61.anInt648));
+							stream.writeByte(Class459.aClass664_5178.method78());
+							stream.writeInt((1051867059 * client.anInt10987));
 							for (int i_4_ = 0; i_4_ < 5; i_4_++)
-								stream.writeInt((int) (Math.random() * 9.9999999E7), -149241618);
+								stream.writeInt((int) (Math.random() * 9.9999999E7));
 							stream.writeLong(client.aLong11025 * 6862939200387171825L);
-							stream.writeByte((client.aClass670_11043.anInt8567) * 273023065, 465637339);
-							stream.writeByte((int) (Math.random() * 9.9999999E7), 465637339);
+							stream.writeByte((client.aClass670_11043.anInt8567) * 273023065);
+							stream.writeByte((int) (Math.random() * 9.9999999E7));
 							stream.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, 1699688896);
 							class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(stream.buffer, 0, stream.off * -810172525, (byte) 6);
 							class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_3_, 309253871);
 						} else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4581.anInt4571), 465637339);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4581.anInt4571));
 						Class586.aClass106_7710.method1409(class536_sub23, 461885639);
 						Class586.aClass106_7710.method1408(-553916622);
 						Class61.loginStage = -1657664224;
@@ -198,53 +198,53 @@ public class Class283 implements Interface75 {
 								class420 = Class420.aClass420_4576;
 							else
 								class420 = Class420.aClass420_4573;
-							stream.writeByte((1258126983 * (class420.anInt4571)), 465637339);
+							stream.writeByte((1258126983 * (class420.anInt4571)));
 							stream.writeShort(0, -1778059594);
 							int i_7_ = stream.off * -810172525;
 							int i_8_ = -810172525 * stream.off;
 							if (!Class61.aBool647) {
-								stream.writeInt(876, -149241618);
-								stream.writeInt(1, -149241618);
-								stream.writeByte((17 == client.anInt11101 * -708374433 ? 1 : 0), 465637339);
+								stream.writeInt(876);
+								stream.writeInt(1);
+								stream.writeByte((17 == client.anInt11101 * -708374433 ? 1 : 0));
 								i_8_ = (-810172525 * stream.off);
 								RSByteBuffer class536_sub33 = Class583.method7027(1511560742);
 								stream.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 25);
 								i_8_ = (stream.off * -810172525);
-								stream.writeByte((Class61.aLong649 * -7692785137277514277L == -1L) ? 1 : 0, 465637339);
+								stream.writeByte((Class61.aLong649 * -7692785137277514277L == -1L) ? 1 : 0);
 								if (-1L == (Class61.aLong649 * -7692785137277514277L))
-									stream.writeString(Class61.aString679, 139127958);
+									stream.writeString(Class61.aString679);
 								else
 									stream.writeLong(Class61.aLong649 * -7692785137277514277L);
 							}
-							stream.writeByte(Class315.method4212((byte) 108), 465637339);
+							stream.writeByte(Class315.method4212((byte) 108));
 							stream.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							stream.writeShort(((Class34_Sub6.anInt10965) * 589116499), -1778059594);
-							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1942339354), 465637339);
+							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1942339354));
 							Class502.method6042(stream, (byte) 104);
-							stream.writeString(client.aString10986, 525471922);
-							stream.writeInt((1051867059 * (client.anInt10987)), -149241618);
+							stream.writeString(client.aString10986);
+							stream.writeInt((1051867059 * (client.anInt10987)));
 							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
-							stream.writeByte(((class536_sub33.off) * -810172525), 465637339);
+							stream.writeByte(((class536_sub33.off) * -810172525));
 							stream.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 21);
 							client.aBool11015 = true;
 							RSByteBuffer class536_sub33_9_ = (new RSByteBuffer(Class458_Sub4.aClass536_Sub38_10336.method9823(-1817170397)));
 							Class458_Sub4.aClass536_Sub38_10336.method9822(class536_sub33_9_, 65536);
 							stream.writeBytes(class536_sub33_9_.buffer, 0, class536_sub33_9_.buffer.length, (byte) 106);
-							stream.writeInt((-1672186801 * (client.anInt11063)), -149241618);
-							stream.writeInt((client.anInt10991 * -811133827), -149241618);
-							stream.writeInt((client.anInt11017 * -599766855), -149241618);
-							stream.writeInt((1015571801 * (client.anInt10993)), -149241618);
-							stream.writeInt((-159434497 * (client.anInt10990)), -149241618);
-							stream.writeString(Class210.aString2260, -1004072383);
-							stream.writeByte((client.aString10996 == null) ? 0 : 1, 465637339);
+							stream.writeInt((-1672186801 * (client.anInt11063)));
+							stream.writeInt((client.anInt10991 * -811133827));
+							stream.writeInt((client.anInt11017 * -599766855));
+							stream.writeInt((1015571801 * (client.anInt10993)));
+							stream.writeInt((-159434497 * (client.anInt10990)));
+							stream.writeString(Class210.aString2260);
+							stream.writeByte((client.aString10996 == null) ? 0 : 1);
 							if (null != client.aString10996)
-								stream.writeString((client.aString10996), 1432052750);
-							stream.writeByte((client.aBool10984 ? 1 : 0), 465637339);
-							stream.writeByte((client.aBool11000 ? 1 : 0), 465637339);
-							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1), 465637339);
-							stream.writeInt((76385059 * (client.anInt11003)), -149241618);
-							stream.writeString(client.aString11004, 40351210);
-							stream.writeByte((null == Class23.aClass5_228 || (Class23.aClass5_228.anInt111 * 1318197187 != (Class23.aClass5_221.anInt111 * 1318197187))) ? 1 : 0, 465637339);
+								stream.writeString((client.aString10996));
+							stream.writeByte((client.aBool10984 ? 1 : 0));
+							stream.writeByte((client.aBool11000 ? 1 : 0));
+							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1));
+							stream.writeInt((76385059 * (client.anInt11003)));
+							stream.writeString(client.aString11004);
+							stream.writeByte((null == Class23.aClass5_228 || (Class23.aClass5_228.anInt111 * 1318197187 != (Class23.aClass5_221.anInt111 * 1318197187))) ? 1 : 0);
 							stream.writeShort(((Class23.aClass5_230.anInt111) * 1318197187), -1778059594);
 							Class453.method5443(stream, 516435697);
 							stream.method9725(Class234.anIntArray2380, i_8_, -810172525 * stream.off, -1540510576);
@@ -255,42 +255,42 @@ public class Class283 implements Interface75 {
 								class420 = Class420.aClass420_4576;
 							else
 								class420 = Class420.aClass420_4574;
-							stream.writeByte((1258126983 * (class420.anInt4571)), 465637339);
+							stream.writeByte((1258126983 * (class420.anInt4571)));
 							stream.writeShort(0, -1778059594);
 							int i_10_ = stream.off * -810172525;
 							int i_11_ = -810172525 * stream.off;
 							if (!Class61.aBool647) {
-								stream.writeInt(876, -149241618);
-								stream.writeInt(1, -149241618);
+								stream.writeInt(876);
+								stream.writeInt(1);
 								RSByteBuffer class536_sub33 = Class583.method7027(291730906);
 								stream.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 109);
 								i_11_ = (-810172525 * stream.off);
-								stream.writeByte((Class61.aLong649 * -7692785137277514277L == -1L) ? 1 : 0, 465637339);
+								stream.writeByte((Class61.aLong649 * -7692785137277514277L == -1L) ? 1 : 0);
 								if (Class61.aLong649 * -7692785137277514277L == -1L)
-									stream.writeString(Class61.aString679, 2079138510);
+									stream.writeString(Class61.aString679);
 								else
 									stream.writeLong(Class61.aLong649 * -7692785137277514277L);
 							}
-							stream.writeByte((273023065 * (client.aClass670_11043.anInt8567)), 465637339);
-							stream.writeByte(Class459.aClass664_5178.method78(), 465637339);
-							stream.writeByte(Class315.method4212((byte) 50), 465637339);
+							stream.writeByte((273023065 * (client.aClass670_11043.anInt8567)));
+							stream.writeByte(Class459.aClass664_5178.method78());
+							stream.writeByte(Class315.method4212((byte) 50));
 							stream.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							stream.writeShort((589116499 * (Class34_Sub6.anInt10965)), -1778059594);
-							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1441321506), 465637339);
+							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1441321506));
 							Class502.method6042(stream, (byte) 66);
-							stream.writeString(client.aString10986, 518928268);
+							stream.writeString(client.aString10986);
 							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
-							stream.writeByte(((class536_sub33.off) * -810172525), 465637339);
+							stream.writeByte(((class536_sub33.off) * -810172525));
 							stream.writeBytes(class536_sub33.buffer, 0, -810172525 * class536_sub33.off, (byte) 83);
 							RSByteBuffer class536_sub33_12_ = (new RSByteBuffer(Class458_Sub4.aClass536_Sub38_10336.method9823(-2094799820)));
 							Class458_Sub4.aClass536_Sub38_10336.method9822(class536_sub33_12_, 65536);
 							stream.writeBytes(class536_sub33_12_.buffer, 0, class536_sub33_12_.buffer.length, (byte) 15);
-							stream.writeInt((-1672186801 * (client.anInt11063)), -149241618);
-							stream.writeString(Class210.aString2260, -2052745682);
-							stream.writeInt((client.anInt10987 * 1051867059), -149241618);
-							stream.writeInt((client.anInt11003 * 76385059), -149241618);
-							stream.writeString(client.aString11004, 1101063988);
-							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1), 465637339);
+							stream.writeInt((-1672186801 * (client.anInt11063)));
+							stream.writeString(Class210.aString2260);
+							stream.writeInt((client.anInt10987 * 1051867059));
+							stream.writeInt((client.anInt11003 * 76385059));
+							stream.writeString(client.aString11004);
+							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1));
 							Class453.method5443(stream, 657042519);
 							stream.method9725(Class234.anIntArray2380, i_11_, -810172525 * stream.off, -2045710808);
 							stream.method9698((-810172525 * stream.off - i_10_), 1200013464);
@@ -471,7 +471,7 @@ public class Class283 implements Interface75 {
 							if (bool) {
 								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(2043701963);
 								Class536_Sub33_Sub2 class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
-								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.anInt4571), 465637339);
+								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.anInt4571));
 								Class586.aClass106_7710.method1409(class536_sub23, 193095407);
 								Class586.aClass106_7710.method1408(2145499619);
 								Class61.loginStage = -1572759818;

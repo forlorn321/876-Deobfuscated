@@ -454,7 +454,7 @@ public final class Class147_Sub1 extends Class147 {
 						}
 					}
 					RSByteBuffer class536_sub33 = new RSByteBuffer(i_17_);
-					class536_sub33.writeByte(1, 465637339);
+					class536_sub33.writeByte(1);
 					class536_sub33.writeShort(i_18_, -1778059594);
 					Iterator iterator_19_ = anInterface3_1696.iterator();
 					while (iterator_19_.hasNext()) {

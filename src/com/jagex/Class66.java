@@ -76,13 +76,13 @@ public class Class66 {
 	}
 
 	void method1068(RSByteBuffer class536_sub33, int i) {
-		class536_sub33.writeByte(1, 465637339);
-		class536_sub33.writeByte(aLinkedHashMap722.size(), 465637339);
+		class536_sub33.writeByte(1);
+		class536_sub33.writeByte(aLinkedHashMap722.size());
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
 			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
-			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
+			class536_sub33.writeInt(((Integer) entry.getValue()).intValue());
 		}
 	}
 
@@ -123,24 +123,24 @@ public class Class66 {
 	}
 
 	void method1070(RSByteBuffer class536_sub33) {
-		class536_sub33.writeByte(1, 465637339);
-		class536_sub33.writeByte(aLinkedHashMap722.size(), 465637339);
+		class536_sub33.writeByte(1);
+		class536_sub33.writeByte(aLinkedHashMap722.size());
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
 			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
-			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
+			class536_sub33.writeInt(((Integer) entry.getValue()).intValue());
 		}
 	}
 
 	void method1071(RSByteBuffer class536_sub33) {
-		class536_sub33.writeByte(1, 465637339);
-		class536_sub33.writeByte(aLinkedHashMap722.size(), 465637339);
+		class536_sub33.writeByte(1);
+		class536_sub33.writeByte(aLinkedHashMap722.size());
 		Iterator iterator = aLinkedHashMap722.entrySet().iterator();
 		while (iterator.hasNext()) {
 			Map.Entry entry = (Map.Entry) iterator.next();
 			class536_sub33.writeLong(((Long) entry.getKey()).longValue());
-			class536_sub33.writeInt(((Integer) entry.getValue()).intValue(), -149241618);
+			class536_sub33.writeInt(((Integer) entry.getValue()).intValue());
 		}
 	}
 

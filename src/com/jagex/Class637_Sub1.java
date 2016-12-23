@@ -34,7 +34,7 @@ public class Class637_Sub1 extends Class637 {
 	}
 
 	void method9913(RSByteBuffer class536_sub33, Class536_Sub31_Sub2 class536_sub31_sub2, int i) {
-		class536_sub33.writeByte(class536_sub31_sub2.method10834(-1411037171), 465637339);
+		class536_sub33.writeByte(class536_sub31_sub2.method10834(-1411037171));
 	}
 
 	int method7629(int i) {

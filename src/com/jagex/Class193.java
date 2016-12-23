@@ -166,7 +166,7 @@ public class Class193 {
 				Class170.method2421(Class570.aClass570_7626, anInt2184 * 518181271, -1, 1770222240);
 			Class521_Sub4.method9368(845520479);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4425, client.aClass106_11322.aClass15_1258, 1954661498);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
 			client.aClass106_11322.method1409(class536_sub23, 925036261);
 		}
 	}
@@ -191,7 +191,7 @@ public class Class193 {
 				Class170.method2421(Class570.aClass570_7626, anInt2184 * 518181271, -1, -355945942);
 			Class521_Sub4.method9368(721494766);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4425, client.aClass106_11322.aClass15_1258, 1558865093);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
 			client.aClass106_11322.method1409(class536_sub23, 1209277432);
 		}
 	}

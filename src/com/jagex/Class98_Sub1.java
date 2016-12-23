@@ -96,7 +96,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 	public void method8389(RSByteBuffer class536_sub33, Class430 class430, int i) {
 		class536_sub33.writeShort(706703961 * class430.anInt4820, -1778059594);
 		if (class430.anObject4819 instanceof Integer)
-			class536_sub33.writeInt(((Integer) class430.anObject4819).intValue(), -149241618);
+			class536_sub33.writeInt(((Integer) class430.anObject4819).intValue());
 		else if (class430.anObject4819 instanceof Long)
 			class536_sub33.writeLong(((Long) class430.anObject4819).longValue());
 		else if (class430.anObject4819 instanceof String)

@@ -820,7 +820,7 @@ public class Class459_Sub1 extends Class459 {
 	public static final void method9264(int i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1742252608);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, 1567417629);
 	}
 }

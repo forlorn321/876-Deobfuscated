@@ -355,7 +355,7 @@ public final class Class644 {
 				if (l > 16777215L)
 					l = 16777215L;
 				Class659.aLong8501 = interface63.method415((byte) 0) * 8021461918566662789L;
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(interface63.method413(1536862487), 465637339);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(interface63.method413(1536862487));
 				class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt((int) l, 822913994);
 			}
 			client.aClass106_11322.method1409(class536_sub23, 957388275);
@@ -389,12 +389,12 @@ public final class Class644 {
 		if (Class659.aBool8504 != Class67_Sub1.aBool10601) {
 			Class659.aBool8504 = Class67_Sub1.aBool10601;
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4427, client.aClass106_11322.aClass15_1258, 1026837355);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class67_Sub1.aBool10601 ? 1 : 0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class67_Sub1.aBool10601 ? 1 : 0);
 			client.aClass106_11322.method1409(class536_sub23, -170038155);
 		}
 		if (!client.aBool11015) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4412, client.aClass106_11322.aClass15_1258, 1133835834);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 			int i_27_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
 			RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 121);
@@ -408,7 +408,7 @@ public final class Class644 {
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 			int i_28_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
 			if (null != is && 0 != is.length) {
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1, 465637339);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
 				Class126[] class126s = Class126.method1643((byte) 10);
 				HashSet hashset = new HashSet();
 				ArrayList arraylist = new ArrayList();
@@ -443,7 +443,7 @@ public final class Class644 {
 					}
 				}
 			} else
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_28_, 1130351996);
 			client.aClass106_11322.method1409(class536_sub23, 1165199741);
 			client.aBool11223 = true;

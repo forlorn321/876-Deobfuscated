@@ -121,7 +121,7 @@ public class Class28 {
 	public static void method770(int i, short i_24_) {
 		if (11 == client.anInt11101 * -708374433) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4408, client.aClass106_11218.aClass15_1258, 1872912713);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i);
 			client.aClass106_11218.method1409(class536_sub23, -412368918);
 		}
 	}

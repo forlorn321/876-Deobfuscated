@@ -2715,7 +2715,7 @@ public class PacketDecoder {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4432, class106.aClass15_1258, 2050670086);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i_471_, (byte) 38);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(i_472_, 1795793310);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt6856 * -311312947, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt6856 * -311312947);
 			class106.method1409(class536_sub23, 1563853139);
 			class106.aClass422_1261 = null;
 			return true;

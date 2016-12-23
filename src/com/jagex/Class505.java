@@ -652,8 +652,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 		try {
 			Class6 class6 = new Class6(Class483.aFile5430, "rw", 10000L);
 			RSByteBuffer class536_sub33 = new RSByteBuffer(500);
-			class536_sub33.writeByte(3, 465637339);
-			class536_sub33.writeByte(null != file_42_ ? 1 : 0, 465637339);
+			class536_sub33.writeByte(3);
+			class536_sub33.writeByte(null != file_42_ ? 1 : 0);
 			class536_sub33.method9752(file.getPath(), -13799264);
 			if (file_42_ != null)
 				class536_sub33.method9752(file_42_.getPath(), 638096067);

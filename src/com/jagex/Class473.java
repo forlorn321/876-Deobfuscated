@@ -38,7 +38,7 @@ public class Class473 {
 				}
 			}
 			for (int i_3_ = 0; i_3_ < -2057604531 * class536_sub18_sub15_sub3.anInt12159; i_3_++)
-				class536_sub33.writeByte(0, 465637339);
+				class536_sub33.writeByte(0);
 			byte[] is_4_ = new byte[-810172525 * class536_sub33.off];
 			System.arraycopy(class536_sub33.buffer, 0, is_4_, 0, class536_sub33.off * -810172525);
 			class536_sub33.method9685(120764410);

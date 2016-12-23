@@ -1577,10 +1577,10 @@ public class Class258 implements Interface43 {
 													class536_sub33.writeShort(i_197_, -1778059594);
 											} else if (aClass380_2774 == (Class380.aClass380_3928)) {
 												int i_198_ = method3571(f);
-												class536_sub33.writeByte(i_198_, 465637339);
+												class536_sub33.writeByte(i_198_);
 											} else if (aClass380_2774 == (Class380.aClass380_3929)) {
 												int i_199_ = method3572(f);
-												class536_sub33.writeByte(i_199_, 465637339);
+												class536_sub33.writeByte(i_199_);
 											}
 										}
 										anInt2810++;
@@ -1798,10 +1798,10 @@ public class Class258 implements Interface43 {
 													class536_sub33.writeShort(i_230_, -1778059594);
 											} else if (aClass380_2774 == (Class380.aClass380_3928)) {
 												int i_231_ = method3571(f);
-												class536_sub33.writeByte(i_231_, 465637339);
+												class536_sub33.writeByte(i_231_);
 											} else if (aClass380_2774 == (Class380.aClass380_3929)) {
 												int i_232_ = method3572(f);
-												class536_sub33.writeByte(i_232_, 465637339);
+												class536_sub33.writeByte(i_232_);
 											}
 										}
 										anInt2810++;

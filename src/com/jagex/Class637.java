@@ -42,7 +42,7 @@ public abstract class Class637 {
 				else {
 					if (class536_sub23 == null) {
 						class536_sub23 = method7633(1875354728);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 						i_0_ = -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off);
 						class536_sub23.aClass536_Sub33_Sub2_10528.off += 1032351030;
 						i_1_ = 0;
@@ -70,20 +70,20 @@ public abstract class Class637 {
 					} else if (i_7_ < 32 && i_5_ >= -128 && i_5_ <= 127 && i_6_ >= -128 && i_6_ <= 127) {
 						i_5_ += 128;
 						i_6_ += 128;
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(128 + i_7_, 465637339);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(128 + i_7_);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_6_ + (i_5_ << 8), -1778059594);
 					} else if (i_7_ < 32) {
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_7_ + 192, 465637339);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_7_ + 192);
 						if (i_4_ == -1 || -1 == i_3_)
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648, -149241618);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648);
 						else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16, -149241618);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16);
 					} else {
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((i_7_ & 0x1fff) + 57344, -1778059594);
 						if (i_4_ == -1 || i_3_ == -1)
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648, -149241618);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648);
 						else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16, -149241618);
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16);
 					}
 					i_2_++;
 					method7627(class536_sub23.aClass536_Sub33_Sub2_10528, class536_sub31, -82248126);
@@ -95,8 +95,8 @@ public abstract class Class637 {
 				class536_sub23.aClass536_Sub33_Sub2_10528.method9699(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_0_, 1446927489);
 				int i_8_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
 				class536_sub23.aClass536_Sub33_Sub2_10528.off = i_0_ * 516175515;
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ / i_2_, 465637339);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ % i_2_, 465637339);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ / i_2_);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ % i_2_);
 				class536_sub23.aClass536_Sub33_Sub2_10528.off = i_8_ * 516175515;
 				client.aClass106_11322.method1409(class536_sub23, 1389331639);
 			}

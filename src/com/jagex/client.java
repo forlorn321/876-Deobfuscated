@@ -82,7 +82,7 @@ public final class client extends Class505 {
 	public static Color[] aColorArray11038;
 	public static Color[] aColorArray11039;
 	static int anInt11040;
-	public static int anInt11041;
+	public static int handshakeStage;
 	static int anInt11042;
 	public static Class670 aClass670_11043 = null;
 	public static Class536_Sub13[] aClass536_Sub13Array11044;
@@ -421,7 +421,7 @@ public final class client extends Class505 {
 		aColorArray11038 = new Color[] { new Color(9179409), new Color(3289650), new Color(3289650), new Color(3289650) };
 		aColorArray11039 = new Color[] { new Color(9179409), new Color(16777215), new Color(16726277), new Color(16726277) };
 		aColorArray11058 = new Color[] { new Color(16777215), new Color(16777215), new Color(16741381), new Color(16741381) };
-		anInt11041 = 0;
+		handshakeStage = 0;
 		anInt11042 = 0;
 		anInt11263 = 0;
 		aClass199_11320 = new Class199(8);
@@ -1205,7 +1205,7 @@ public final class client extends Class505 {
 	void method10373(int i, int i_10_) {
 		Class321.aSocket3543 = null;
 		Class582.aClass567_7700 = null;
-		anInt11041 = 0;
+		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
 		Class176.aClass460_1936.anInt5196 = i * -938617607;
 	}
@@ -3039,7 +3039,7 @@ public final class client extends Class505 {
 	public static final void method10386() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1846041062);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, 1168613901);
 	}
 
@@ -3083,25 +3083,25 @@ public final class client extends Class505 {
 			anInt11042 -= -1386308647;
 		else {
 			try {
-				if (anInt11041 * -275818405 == 0) {
+				if (handshakeStage * -275818405 == 0) {
 					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 3);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 				}
-				if (anInt11041 * -275818405 == 1) {
+				if (handshakeStage * -275818405 == 1) {
 					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 86);
 					int i = 10 + aString11004.length();
 					RSByteBuffer buffer = new RSByteBuffer(2 + i);
-					buffer.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571), 465637339);
-					buffer.writeByte(i, 465637339);
-					buffer.writeInt(876, -149241618);
-					buffer.writeInt(1, -149241618);
-					buffer.writeString(aString11004, -966241135);
-					buffer.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613, 465637339);
+					buffer.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					buffer.writeByte(i);
+					buffer.writeInt(876);
+					buffer.writeInt(1);
+					buffer.writeString(aString11004);
+					buffer.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
 					Class582.aClass567_7700.method6912((buffer.buffer), 0, i + 2, (byte) 5);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1485070864) * 8318299307769190309L);
 				}
-				if (anInt11041 * -275818405 == 2) {
+				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -458960978)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, -508252472);
@@ -3109,13 +3109,13 @@ public final class client extends Class505 {
 							method10373(i, 1538512972);
 							return;
 						}
-						anInt11041 += -1210181677;
+						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1518779264) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
 						method10373(1001, 1538512972);
 						return;
 					}
 				}
-				if (-275818405 * anInt11041 == 3) {
+				if (-275818405 * handshakeStage == 3) {
 					Class59[] class59s = Class59.method983(-2140404394);
 					int i = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i, -2065178589)) {
@@ -3127,7 +3127,7 @@ public final class client extends Class505 {
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 34);
 						Class321.aSocket3543 = null;
 						Class582.aClass567_7700 = null;
-						anInt11041 = 0;
+						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
@@ -3250,7 +3250,7 @@ public final class client extends Class505 {
 	public static final void method10391() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1886826904);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, 602324261);
 	}
 
@@ -4185,7 +4185,7 @@ public final class client extends Class505 {
 	void method10430(int i) {
 		Class321.aSocket3543 = null;
 		Class582.aClass567_7700 = null;
-		anInt11041 = 0;
+		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
 		Class176.aClass460_1936.anInt5196 = i * -938617607;
 	}
@@ -4337,7 +4337,7 @@ public final class client extends Class505 {
 	void method10431(int i) {
 		Class321.aSocket3543 = null;
 		Class582.aClass567_7700 = null;
-		anInt11041 = 0;
+		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
 		Class176.aClass460_1936.anInt5196 = i * -938617607;
 	}
@@ -4418,25 +4418,25 @@ public final class client extends Class505 {
 			anInt11042 -= -1386308647;
 		else {
 			try {
-				if (anInt11041 * -275818405 == 0) {
+				if (handshakeStage * -275818405 == 0) {
 					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 40);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 				}
-				if (anInt11041 * -275818405 == 1) {
+				if (handshakeStage * -275818405 == 1) {
 					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 111);
 					int i_230_ = 10 + aString11004.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i_230_);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571), 465637339);
-					class536_sub33.writeByte(i_230_, 465637339);
-					class536_sub33.writeInt(876, -149241618);
-					class536_sub33.writeInt(1, -149241618);
-					class536_sub33.writeString(aString11004, -1324713193);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613, 465637339);
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(i_230_);
+					class536_sub33.writeInt(876);
+					class536_sub33.writeInt(1);
+					class536_sub33.writeString(aString11004);
+					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i_230_ + 2, (byte) -5);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1614797338) * 8318299307769190309L);
 				}
-				if (anInt11041 * -275818405 == 2) {
+				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -1483849144)) {
 						byte[] is = new byte[1];
 						int i_231_ = Class582.aClass567_7700.method6899(is, 0, 1, 1580523327);
@@ -4444,13 +4444,13 @@ public final class client extends Class505 {
 							method10373(i_231_, 1538512972);
 							return;
 						}
-						anInt11041 += -1210181677;
+						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1565861518) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
 						method10373(1001, 1538512972);
 						return;
 					}
 				}
-				if (-275818405 * anInt11041 == 3) {
+				if (-275818405 * handshakeStage == 3) {
 					Class59[] class59s = Class59.method983(-2132919323);
 					int i_232_ = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i_232_, -1160328489)) {
@@ -4462,7 +4462,7 @@ public final class client extends Class505 {
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 47);
 						Class321.aSocket3543 = null;
 						Class582.aClass567_7700 = null;
-						anInt11041 = 0;
+						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
@@ -4817,21 +4817,21 @@ public final class client extends Class505 {
 	public static final void method10450() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 2115671994);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, 890056318);
 	}
 
 	public static final void method10451() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1090239143);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, -172482486);
 	}
 
 	public static final void method10452() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 701257458);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class106.method1409(class536_sub23, 575123133);
 	}
 
@@ -4881,7 +4881,7 @@ public final class client extends Class505 {
 	void method10454(int i) {
 		Class321.aSocket3543 = null;
 		Class582.aClass567_7700 = null;
-		anInt11041 = 0;
+		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
 		Class176.aClass460_1936.anInt5196 = i * -938617607;
 	}
@@ -4931,25 +4931,25 @@ public final class client extends Class505 {
 			anInt11042 -= -1386308647;
 		else {
 			try {
-				if (anInt11041 * -275818405 == 0) {
+				if (handshakeStage * -275818405 == 0) {
 					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 79);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 				}
-				if (anInt11041 * -275818405 == 1) {
+				if (handshakeStage * -275818405 == 1) {
 					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 125);
 					int i = 10 + aString11004.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571), 465637339);
-					class536_sub33.writeByte(i, 465637339);
-					class536_sub33.writeInt(876, -149241618);
-					class536_sub33.writeInt(1, -149241618);
-					class536_sub33.writeString(aString11004, -72884543);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613, 465637339);
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(i);
+					class536_sub33.writeInt(876);
+					class536_sub33.writeInt(1);
+					class536_sub33.writeString(aString11004);
+					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i + 2, (byte) 21);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1936562489) * 8318299307769190309L);
 				}
-				if (anInt11041 * -275818405 == 2) {
+				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -1362771204)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, 1621321128);
@@ -4957,13 +4957,13 @@ public final class client extends Class505 {
 							method10373(i, 1538512972);
 							return;
 						}
-						anInt11041 += -1210181677;
+						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1644644491) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
 						method10373(1001, 1538512972);
 						return;
 					}
 				}
-				if (-275818405 * anInt11041 == 3) {
+				if (-275818405 * handshakeStage == 3) {
 					Class59[] class59s = Class59.method983(-2128907348);
 					int i = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i, -1660393165)) {
@@ -4975,7 +4975,7 @@ public final class client extends Class505 {
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 106);
 						Class321.aSocket3543 = null;
 						Class582.aClass567_7700 = null;
-						anInt11041 = 0;
+						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
@@ -5024,25 +5024,25 @@ public final class client extends Class505 {
 			anInt11042 -= -1386308647;
 		else {
 			try {
-				if (anInt11041 * -275818405 == 0) {
+				if (handshakeStage * -275818405 == 0) {
 					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 26);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 				}
-				if (anInt11041 * -275818405 == 1) {
+				if (handshakeStage * -275818405 == 1) {
 					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 61);
 					int i = 10 + aString11004.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571), 465637339);
-					class536_sub33.writeByte(i, 465637339);
-					class536_sub33.writeInt(876, -149241618);
-					class536_sub33.writeInt(1, -149241618);
-					class536_sub33.writeString(aString11004, 545080962);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613, 465637339);
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(i);
+					class536_sub33.writeInt(876);
+					class536_sub33.writeInt(1);
+					class536_sub33.writeString(aString11004);
+					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i + 2, (byte) -17);
-					anInt11041 += -1210181677;
+					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(2084433943) * 8318299307769190309L);
 				}
-				if (anInt11041 * -275818405 == 2) {
+				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -2121696846)) {
 						byte[] is = new byte[1];
 						int i = Class582.aClass567_7700.method6899(is, 0, 1, 956205467);
@@ -5050,13 +5050,13 @@ public final class client extends Class505 {
 							method10373(i, 1538512972);
 							return;
 						}
-						anInt11041 += -1210181677;
+						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1524796588) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
 						method10373(1001, 1538512972);
 						return;
 					}
 				}
-				if (-275818405 * anInt11041 == 3) {
+				if (-275818405 * handshakeStage == 3) {
 					Class59[] class59s = Class59.method983(-2123212533);
 					int i = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i, -1560624441)) {
@@ -5068,7 +5068,7 @@ public final class client extends Class505 {
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 14);
 						Class321.aSocket3543 = null;
 						Class582.aClass567_7700 = null;
-						anInt11041 = 0;
+						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {

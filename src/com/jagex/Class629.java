@@ -113,27 +113,27 @@ final class Class629 implements Interface74 {
 		Class536_Sub34 class536_sub34 = (Class536_Sub34) Class71.aClass708_794.method8308(1867269829);
 		if (class536_sub34 != null) {
 			int i_21_ = -810172525 * class536_sub33_sub2.off;
-			class536_sub33_sub2.writeInt(966617219 * class536_sub34.anInt10621, -149241618);
+			class536_sub33_sub2.writeInt(966617219 * class536_sub34.anInt10621);
 			for (int i_22_ = 0; i_22_ < 1706012977 * class536_sub34.anInt10619; i_22_++) {
 				if (class536_sub34.anIntArray10624[i_22_] != 0)
-					class536_sub33_sub2.writeByte((class536_sub34.anIntArray10624[i_22_]), 465637339);
+					class536_sub33_sub2.writeByte((class536_sub34.anIntArray10624[i_22_]));
 				else {
 					try {
 						int i_23_ = class536_sub34.anIntArray10622[i_22_];
 						if (0 == i_23_) {
 							Field field = class536_sub34.aFieldArray10623[i_22_];
 							int i_24_ = field.getInt(null);
-							class536_sub33_sub2.writeByte(0, 465637339);
-							class536_sub33_sub2.writeInt(i_24_, -149241618);
+							class536_sub33_sub2.writeByte(0);
+							class536_sub33_sub2.writeInt(i_24_);
 						} else if (1 == i_23_) {
 							Field field = class536_sub34.aFieldArray10623[i_22_];
 							field.setInt(null, (class536_sub34.anIntArray10620[i_22_]));
-							class536_sub33_sub2.writeByte(0, 465637339);
+							class536_sub33_sub2.writeByte(0);
 						} else if (2 == i_23_) {
 							Field field = class536_sub34.aFieldArray10623[i_22_];
 							int i_25_ = field.getModifiers();
-							class536_sub33_sub2.writeByte(0, 465637339);
-							class536_sub33_sub2.writeInt(i_25_, -149241618);
+							class536_sub33_sub2.writeByte(0);
+							class536_sub33_sub2.writeInt(i_25_);
 						}
 						if (3 == i_23_) {
 							Method method = class536_sub34.aMethodArray10625[i_22_];
@@ -145,45 +145,45 @@ final class Class629 implements Interface74 {
 							}
 							Object object = method.invoke(null, objects);
 							if (null == object)
-								class536_sub33_sub2.writeByte(0, 465637339);
+								class536_sub33_sub2.writeByte(0);
 							else if (object instanceof Number) {
-								class536_sub33_sub2.writeByte(1, 465637339);
+								class536_sub33_sub2.writeByte(1);
 								class536_sub33_sub2.writeLong(((Number) object).longValue());
 							} else if (object instanceof String) {
-								class536_sub33_sub2.writeByte(2, 465637339);
-								class536_sub33_sub2.writeString((String) object, 1402624694);
+								class536_sub33_sub2.writeByte(2);
+								class536_sub33_sub2.writeString((String) object);
 							} else
-								class536_sub33_sub2.writeByte(4, 465637339);
+								class536_sub33_sub2.writeByte(4);
 						} else if (4 == i_23_) {
 							Method method = class536_sub34.aMethodArray10625[i_22_];
 							int i_27_ = method.getModifiers();
-							class536_sub33_sub2.writeByte(0, 465637339);
-							class536_sub33_sub2.writeInt(i_27_, -149241618);
+							class536_sub33_sub2.writeByte(0);
+							class536_sub33_sub2.writeInt(i_27_);
 						}
 					} catch (ClassNotFoundException classnotfoundexception) {
-						class536_sub33_sub2.writeByte(-10, 465637339);
+						class536_sub33_sub2.writeByte(-10);
 					} catch (InvalidClassException invalidclassexception) {
-						class536_sub33_sub2.writeByte(-11, 465637339);
+						class536_sub33_sub2.writeByte(-11);
 					} catch (StreamCorruptedException streamcorruptedexception) {
-						class536_sub33_sub2.writeByte(-12, 465637339);
+						class536_sub33_sub2.writeByte(-12);
 					} catch (OptionalDataException optionaldataexception) {
-						class536_sub33_sub2.writeByte(-13, 465637339);
+						class536_sub33_sub2.writeByte(-13);
 					} catch (IllegalAccessException illegalaccessexception) {
-						class536_sub33_sub2.writeByte(-14, 465637339);
+						class536_sub33_sub2.writeByte(-14);
 					} catch (IllegalArgumentException illegalargumentexception) {
-						class536_sub33_sub2.writeByte(-15, 465637339);
+						class536_sub33_sub2.writeByte(-15);
 					} catch (InvocationTargetException invocationtargetexception) {
-						class536_sub33_sub2.writeByte(-16, 465637339);
+						class536_sub33_sub2.writeByte(-16);
 					} catch (SecurityException securityexception) {
-						class536_sub33_sub2.writeByte(-17, 465637339);
+						class536_sub33_sub2.writeByte(-17);
 					} catch (IOException ioexception) {
-						class536_sub33_sub2.writeByte(-18, 465637339);
+						class536_sub33_sub2.writeByte(-18);
 					} catch (NullPointerException nullpointerexception) {
-						class536_sub33_sub2.writeByte(-19, 465637339);
+						class536_sub33_sub2.writeByte(-19);
 					} catch (Exception exception) {
-						class536_sub33_sub2.writeByte(-20, 465637339);
+						class536_sub33_sub2.writeByte(-20);
 					} catch (Throwable throwable) {
-						class536_sub33_sub2.writeByte(-21, 465637339);
+						class536_sub33_sub2.writeByte(-21);
 					}
 				}
 			}

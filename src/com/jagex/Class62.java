@@ -106,13 +106,13 @@ public class Class62 {
 		int[] is = new int[4];
 		for (int i_10_ = 0; i_10_ < 4; i_10_++)
 			is[i_10_] = (int) (Math.random() * 9.9999999E7);
-		class536_sub33.writeByte(10, 465637339);
-		class536_sub33.writeInt(is[0], -149241618);
-		class536_sub33.writeInt(is[1], -149241618);
-		class536_sub33.writeInt(is[2], -149241618);
-		class536_sub33.writeInt(is[3], -149241618);
+		class536_sub33.writeByte(10);
+		class536_sub33.writeInt(is[0]);
+		class536_sub33.writeInt(is[1]);
+		class536_sub33.writeInt(is[2]);
+		class536_sub33.writeInt(is[3]);
 		for (int i_11_ = 0; i_11_ < 10; i_11_++)
-			class536_sub33.writeInt((int) (Math.random() * 9.9999999E7), -149241618);
+			class536_sub33.writeInt((int) (Math.random() * 9.9999999E7));
 		class536_sub33.writeShort((int) (Math.random() * 9.9999999E7), -1778059594);
 		class536_sub33.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -2034700978);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 84);

@@ -247,11 +247,11 @@ public final class Class610 implements Interface19 {
 			string_10_ = string_10_.substring(0, 80);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4446, class106.aClass15_1258, 1394364057);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, -1090133431) + 2 + Class555.method6802(string_10_, 1336064071)), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 512445050);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_11_ - 1, 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_12_, 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_10_, 2128470858);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, -1090133431) + 2 + Class555.method6802(string_10_, 1336064071)));
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_11_ - 1);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_12_);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_10_);
 		class106.method1409(class536_sub23, 1321719810);
 	}
 

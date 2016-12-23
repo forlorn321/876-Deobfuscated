@@ -182,10 +182,10 @@ final class Class294 implements Interface20 {
 			}
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4489, class106.aClass15_1258, 1391429175);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 			int i_5_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_3_, 465637339);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_4_, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_3_);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_4_);
 			Class100.method1334(class536_sub23.aClass536_Sub33_Sub2_10528, string, -2111850483);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9699((class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525) - i_5_, 2143837318);
 			class106.method1409(class536_sub23, 1367045889);

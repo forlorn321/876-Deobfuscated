@@ -115,19 +115,19 @@ public class Class638 implements Interface13 {
 		is[1] = random.nextInt();
 		is[2] = (int) (l >> 32);
 		is[3] = (int) l;
-		class536_sub33.writeByte(10, 465637339);
+		class536_sub33.writeByte(10);
 		for (int i_4_ = 0; i_4_ < 4; i_4_++)
-			class536_sub33.writeInt(random.nextInt(), -149241618);
-		class536_sub33.writeInt(is[0], -149241618);
-		class536_sub33.writeInt(is[1], -149241618);
+			class536_sub33.writeInt(random.nextInt());
+		class536_sub33.writeInt(is[0]);
+		class536_sub33.writeInt(is[1]);
 		class536_sub33.writeLong(l);
 		class536_sub33.writeLong(0L);
 		for (int i_5_ = 0; i_5_ < 4; i_5_++)
-			class536_sub33.writeInt(random.nextInt(), -149241618);
+			class536_sub33.writeInt(random.nextInt());
 		class536_sub33.applyRSA(Class26.aBigInteger238, Class26.aBigInteger235, 7364791);
-		class536_sub33_3_.writeByte(10, 465637339);
+		class536_sub33_3_.writeByte(10);
 		for (int i_6_ = 0; i_6_ < 3; i_6_++)
-			class536_sub33_3_.writeInt(random.nextInt(), -149241618);
+			class536_sub33_3_.writeInt(random.nextInt());
 		class536_sub33_3_.writeLong(random.nextLong());
 		class536_sub33_3_.write44BitLong(random.nextLong());
 		Class502.method6042(class536_sub33_3_, (byte) 42);
@@ -137,14 +137,14 @@ public class Class638 implements Interface13 {
 		if (i_7_ % 8 != 0)
 			i_7_ += 8 - i_7_ % 8;
 		RSByteBuffer class536_sub33_8_ = new RSByteBuffer(i_7_);
-		class536_sub33_8_.writeString(string, 2114903830);
+		class536_sub33_8_.writeString(string);
 		class536_sub33_8_.off = 516175515 * i_7_;
 		class536_sub33_8_.method9723(is, -1874028943);
 		RSByteBuffer class536_sub33_9_ = new RSByteBuffer(class536_sub33_8_.off * -810172525 + (-810172525 * class536_sub33_3_.off + (-810172525 * class536_sub33.off + 5)));
-		class536_sub33_9_.writeByte(2, 465637339);
-		class536_sub33_9_.writeByte(class536_sub33.off * -810172525, 465637339);
+		class536_sub33_9_.writeByte(2);
+		class536_sub33_9_.writeByte(class536_sub33.off * -810172525);
 		class536_sub33_9_.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 38);
-		class536_sub33_9_.writeByte(-810172525 * class536_sub33_3_.off, 465637339);
+		class536_sub33_9_.writeByte(-810172525 * class536_sub33_3_.off);
 		class536_sub33_9_.writeBytes(class536_sub33_3_.buffer, 0, -810172525 * class536_sub33_3_.off, (byte) 103);
 		class536_sub33_9_.writeShort(-810172525 * class536_sub33_8_.off, -1778059594);
 		class536_sub33_9_.writeBytes(class536_sub33_8_.buffer, 0, class536_sub33_8_.off * -810172525, (byte) 46);

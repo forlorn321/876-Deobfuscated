@@ -43,7 +43,7 @@ public class Class637_Sub2 extends Class637 {
 				i_3_ = 1;
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4475, client.aClass106_11322.aClass15_1258, 2100294889);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_0_ | i_3_ << 15, (byte) 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_2_ | i_1_ << 16, -149241618);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_2_ | i_1_ << 16);
 			client.aClass106_11322.method1409(class536_sub23, 1211692006);
 		}
 	}
@@ -67,7 +67,7 @@ public class Class637_Sub2 extends Class637 {
 				i_6_ = 1;
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4475, client.aClass106_11322.aClass15_1258, 1808927441);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i | i_6_ << 15, (byte) 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_5_ | i_4_ << 16, -149241618);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_5_ | i_4_ << 16);
 			client.aClass106_11322.method1409(class536_sub23, 793689737);
 		}
 	}

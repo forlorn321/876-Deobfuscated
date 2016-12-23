@@ -28,7 +28,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(6, 465637339);
+				aClass536_Sub33_5193.writeByte(6);
 				aClass536_Sub33_5193.write24BitInt(4, 1755473822);
 				aClass536_Sub33_5193.writeShort(0, -1778059594);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) 15);
@@ -71,14 +71,14 @@ public class Class460_Sub1 extends Class460 {
 		try {
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8248(498551233)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8241(696658288))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(1, 465637339);
+				aClass536_Sub33_5193.writeByte(1);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) 12);
 				aClass700_5181.method8239(class536_sub18_sub15_sub2, (byte) -24);
 			}
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8248(-694625628)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8241(-553315345))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(0, 465637339);
+				aClass536_Sub33_5193.writeByte(0);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -12);
 				aClass700_5190.method8239(class536_sub18_sub15_sub2, (byte) 8);
@@ -152,8 +152,8 @@ public class Class460_Sub1 extends Class460 {
 							if (i_12_ != Class463.aClass463_5222.method78())
 								i_14_ = 9;
 							class536_sub33 = aClass536_Sub18_Sub15_Sub2_5202.aClass536_Sub33_12114 = (new RSByteBuffer(aClass536_Sub18_Sub15_Sub2_5202.aByte12115 + (i_13_ + i_14_)));
-							class536_sub33.writeByte(i_12_, 465637339);
-							class536_sub33.writeInt(i_13_, -149241618);
+							class536_sub33.writeByte(i_12_);
+							class536_sub33.writeInt(i_13_);
 							anInt5201 += -1828991779;
 						}
 					} else {
@@ -202,7 +202,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(7, 465637339);
+				aClass536_Sub33_5193.writeByte(7);
 				aClass536_Sub33_5193.write36BitLong(0L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -52);
 			} catch (IOException ioexception) {
@@ -222,7 +222,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(bool ? 2 : 3, 465637339);
+				aClass536_Sub33_5193.writeByte(bool ? 2 : 3);
 				aClass536_Sub33_5193.write36BitLong(0L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -37);
 			} catch (IOException ioexception) {
@@ -242,7 +242,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(7, 465637339);
+				aClass536_Sub33_5193.writeByte(7);
 				aClass536_Sub33_5193.write36BitLong(0L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -15);
 			} catch (IOException ioexception) {
@@ -289,14 +289,14 @@ public class Class460_Sub1 extends Class460 {
 		try {
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8248(-216156270)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8241(1687994474))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(1, 465637339);
+				aClass536_Sub33_5193.writeByte(1);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -4);
 				aClass700_5181.method8239(class536_sub18_sub15_sub2, (byte) 114);
 			}
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8248(-1114398637)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8241(-527021473))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(0, 465637339);
+				aClass536_Sub33_5193.writeByte(0);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -1);
 				aClass700_5190.method8239(class536_sub18_sub15_sub2, (byte) 20);
@@ -370,8 +370,8 @@ public class Class460_Sub1 extends Class460 {
 							if (i_27_ != Class463.aClass463_5222.method78())
 								i_29_ = 9;
 							class536_sub33 = aClass536_Sub18_Sub15_Sub2_5202.aClass536_Sub33_12114 = (new RSByteBuffer(aClass536_Sub18_Sub15_Sub2_5202.aByte12115 + (i_28_ + i_29_)));
-							class536_sub33.writeByte(i_27_, 465637339);
-							class536_sub33.writeInt(i_28_, -149241618);
+							class536_sub33.writeByte(i_27_);
+							class536_sub33.writeInt(i_28_);
 							anInt5201 += -1828991779;
 						}
 					} else {
@@ -442,14 +442,14 @@ public class Class460_Sub1 extends Class460 {
 		try {
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8248(-1049829315)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5185.method8241(1179760332))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(1, 465637339);
+				aClass536_Sub33_5193.writeByte(1);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) 8);
 				aClass700_5181.method8239(class536_sub18_sub15_sub2, (byte) 45);
 			}
 			for (Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8248(-1646630221)); class536_sub18_sub15_sub2 != null; class536_sub18_sub15_sub2 = ((Class536_Sub18_Sub15_Sub2) aClass700_5187.method8241(1963039271))) {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(0, 465637339);
+				aClass536_Sub33_5193.writeByte(0);
 				aClass536_Sub33_5193.write36BitLong((class536_sub18_sub15_sub2.aLong10507) * 4749301371101216403L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -10);
 				aClass700_5190.method8239(class536_sub18_sub15_sub2, (byte) 56);
@@ -523,8 +523,8 @@ public class Class460_Sub1 extends Class460 {
 							if (i_42_ != Class463.aClass463_5222.method78())
 								i_44_ = 9;
 							class536_sub33 = aClass536_Sub18_Sub15_Sub2_5202.aClass536_Sub33_12114 = (new RSByteBuffer(aClass536_Sub18_Sub15_Sub2_5202.aByte12115 + (i_43_ + i_44_)));
-							class536_sub33.writeByte(i_42_, 465637339);
-							class536_sub33.writeInt(i_43_, -149241618);
+							class536_sub33.writeByte(i_42_);
+							class536_sub33.writeInt(i_43_);
 							anInt5201 += -1828991779;
 						}
 					} else {
@@ -587,7 +587,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(bool ? 2 : 3, 465637339);
+				aClass536_Sub33_5193.writeByte(bool ? 2 : 3);
 				aClass536_Sub33_5193.write36BitLong(0L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -33);
 			} catch (IOException ioexception) {
@@ -612,7 +612,7 @@ public class Class460_Sub1 extends Class460 {
 		if (null != aClass567_10290) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(7, 465637339);
+				aClass536_Sub33_5193.writeByte(7);
 				aClass536_Sub33_5193.write36BitLong(0L);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) 51);
 			} catch (IOException ioexception) {
@@ -670,9 +670,9 @@ public class Class460_Sub1 extends Class460 {
 		if (0 != aByte5182) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(4, 465637339);
-				aClass536_Sub33_5193.writeByte(aByte5182, 465637339);
-				aClass536_Sub33_5193.writeInt(0, -149241618);
+				aClass536_Sub33_5193.writeByte(4);
+				aClass536_Sub33_5193.writeByte(aByte5182);
+				aClass536_Sub33_5193.writeInt(0);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) -26);
 			} catch (IOException ioexception) {
 				try {
@@ -736,9 +736,9 @@ public class Class460_Sub1 extends Class460 {
 		if (0 != aByte5182) {
 			try {
 				aClass536_Sub33_5193.off = 0;
-				aClass536_Sub33_5193.writeByte(4, 465637339);
-				aClass536_Sub33_5193.writeByte(aByte5182, 465637339);
-				aClass536_Sub33_5193.writeInt(0, -149241618);
+				aClass536_Sub33_5193.writeByte(4);
+				aClass536_Sub33_5193.writeByte(aByte5182);
+				aClass536_Sub33_5193.writeInt(0);
 				aClass567_10290.method6912(aClass536_Sub33_5193.buffer, 0, aClass536_Sub33_5193.buffer.length, (byte) 17);
 			} catch (IOException ioexception) {
 				try {

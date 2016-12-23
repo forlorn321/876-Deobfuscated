@@ -78,15 +78,15 @@ class Class242 implements Iterator {
 		if (class106.method1413((short) 11684) != null) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4504, class106.aClass15_1258, 2123327853);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((Class555.method6802(string, 224779434) + Class555.method6802(string_483_, 287243558) + Class555.method6802(string_484_, -759942065) + 1), -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -1295399608);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_483_, -903370903);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_484_, -954020948);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_483_);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_484_);
 			int i_486_ = 0;
 			if (bool)
 				i_486_ |= 0x1;
 			if (bool_485_)
 				i_486_ |= 0x2;
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_486_, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_486_);
 			class106.method1409(class536_sub23, 895809939);
 		}
 	}

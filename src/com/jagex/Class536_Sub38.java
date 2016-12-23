@@ -295,32 +295,32 @@ public class Class536_Sub38 extends Class536 {
 	}
 
 	public void method9822(RSByteBuffer class536_sub33, int i) {
-		class536_sub33.writeByte(7, 465637339);
-		class536_sub33.writeByte(anInt10650 * 1780534881, 465637339);
-		class536_sub33.writeByte(aBool10683 ? 1 : 0, 465637339);
-		class536_sub33.writeByte(anInt10667 * 560694841, 465637339);
-		class536_sub33.writeByte(anInt10675 * -1728248347, 465637339);
-		class536_sub33.writeByte(anInt10676 * 982781675, 465637339);
-		class536_sub33.writeByte(-2137697537 * anInt10677, 465637339);
-		class536_sub33.writeByte(anInt10678 * -735080333, 465637339);
-		class536_sub33.writeByte(aBool10674 ? 1 : 0, 465637339);
+		class536_sub33.writeByte(7);
+		class536_sub33.writeByte(anInt10650 * 1780534881);
+		class536_sub33.writeByte(aBool10683 ? 1 : 0);
+		class536_sub33.writeByte(anInt10667 * 560694841);
+		class536_sub33.writeByte(anInt10675 * -1728248347);
+		class536_sub33.writeByte(anInt10676 * 982781675);
+		class536_sub33.writeByte(-2137697537 * anInt10677);
+		class536_sub33.writeByte(anInt10678 * -735080333);
+		class536_sub33.writeByte(aBool10674 ? 1 : 0);
 		class536_sub33.writeShort(1203606065 * anInt10647, -1778059594);
-		class536_sub33.writeByte(-823027809 * anInt10695, 465637339);
+		class536_sub33.writeByte(-823027809 * anInt10695);
 		class536_sub33.write24BitInt(-853108975 * anInt10684, 1085042331);
 		class536_sub33.writeShort(anInt10685 * -42614869, -1778059594);
 		class536_sub33.method9785(aString10648, (byte) 113);
 		class536_sub33.method9785(aString10687, (byte) 66);
 		class536_sub33.method9785(aString10688, (byte) 126);
 		class536_sub33.method9785(aString10689, (byte) 29);
-		class536_sub33.writeByte(-795233955 * anInt10691, 465637339);
+		class536_sub33.writeByte(-795233955 * anInt10691);
 		class536_sub33.writeShort(-1952469403 * anInt10680, -1778059594);
 		class536_sub33.method9785(aString10694, (byte) 25);
 		class536_sub33.method9785(aString10673, (byte) 72);
-		class536_sub33.writeByte(-1081306583 * anInt10656, 465637339);
-		class536_sub33.writeByte(-2064370639 * anInt10693, 465637339);
+		class536_sub33.writeByte(-1081306583 * anInt10656);
+		class536_sub33.writeByte(-2064370639 * anInt10693);
 		for (int i_23_ = 0; i_23_ < anIntArray10696.length; i_23_++)
-			class536_sub33.writeInt(anIntArray10696[i_23_], -149241618);
-		class536_sub33.writeInt(1465177829 * anInt10658, -149241618);
+			class536_sub33.writeInt(anIntArray10696[i_23_]);
+		class536_sub33.writeInt(1465177829 * anInt10658);
 		class536_sub33.method9785(aString10698, (byte) 66);
 	}
 
@@ -337,32 +337,32 @@ public class Class536_Sub38 extends Class536 {
 	}
 
 	public void method9824(RSByteBuffer class536_sub33) {
-		class536_sub33.writeByte(7, 465637339);
-		class536_sub33.writeByte(anInt10650 * 1780534881, 465637339);
-		class536_sub33.writeByte(aBool10683 ? 1 : 0, 465637339);
-		class536_sub33.writeByte(anInt10667 * 560694841, 465637339);
-		class536_sub33.writeByte(anInt10675 * -1728248347, 465637339);
-		class536_sub33.writeByte(anInt10676 * 982781675, 465637339);
-		class536_sub33.writeByte(-2137697537 * anInt10677, 465637339);
-		class536_sub33.writeByte(anInt10678 * -735080333, 465637339);
-		class536_sub33.writeByte(aBool10674 ? 1 : 0, 465637339);
+		class536_sub33.writeByte(7);
+		class536_sub33.writeByte(anInt10650 * 1780534881);
+		class536_sub33.writeByte(aBool10683 ? 1 : 0);
+		class536_sub33.writeByte(anInt10667 * 560694841);
+		class536_sub33.writeByte(anInt10675 * -1728248347);
+		class536_sub33.writeByte(anInt10676 * 982781675);
+		class536_sub33.writeByte(-2137697537 * anInt10677);
+		class536_sub33.writeByte(anInt10678 * -735080333);
+		class536_sub33.writeByte(aBool10674 ? 1 : 0);
 		class536_sub33.writeShort(1203606065 * anInt10647, -1778059594);
-		class536_sub33.writeByte(-823027809 * anInt10695, 465637339);
+		class536_sub33.writeByte(-823027809 * anInt10695);
 		class536_sub33.write24BitInt(-853108975 * anInt10684, 878874199);
 		class536_sub33.writeShort(anInt10685 * -42614869, -1778059594);
 		class536_sub33.method9785(aString10648, (byte) 24);
 		class536_sub33.method9785(aString10687, (byte) 102);
 		class536_sub33.method9785(aString10688, (byte) 107);
 		class536_sub33.method9785(aString10689, (byte) 125);
-		class536_sub33.writeByte(-795233955 * anInt10691, 465637339);
+		class536_sub33.writeByte(-795233955 * anInt10691);
 		class536_sub33.writeShort(-1952469403 * anInt10680, -1778059594);
 		class536_sub33.method9785(aString10694, (byte) 17);
 		class536_sub33.method9785(aString10673, (byte) 56);
-		class536_sub33.writeByte(-1081306583 * anInt10656, 465637339);
-		class536_sub33.writeByte(-2064370639 * anInt10693, 465637339);
+		class536_sub33.writeByte(-1081306583 * anInt10656);
+		class536_sub33.writeByte(-2064370639 * anInt10693);
 		for (int i = 0; i < anIntArray10696.length; i++)
-			class536_sub33.writeInt(anIntArray10696[i], -149241618);
-		class536_sub33.writeInt(1465177829 * anInt10658, -149241618);
+			class536_sub33.writeInt(anIntArray10696[i]);
+		class536_sub33.writeInt(1465177829 * anInt10658);
 		class536_sub33.method9785(aString10698, (byte) 2);
 	}
 
@@ -391,32 +391,32 @@ public class Class536_Sub38 extends Class536 {
 	}
 
 	public void method9827(RSByteBuffer class536_sub33) {
-		class536_sub33.writeByte(7, 465637339);
-		class536_sub33.writeByte(anInt10650 * 1780534881, 465637339);
-		class536_sub33.writeByte(aBool10683 ? 1 : 0, 465637339);
-		class536_sub33.writeByte(anInt10667 * 560694841, 465637339);
-		class536_sub33.writeByte(anInt10675 * -1728248347, 465637339);
-		class536_sub33.writeByte(anInt10676 * 982781675, 465637339);
-		class536_sub33.writeByte(-2137697537 * anInt10677, 465637339);
-		class536_sub33.writeByte(anInt10678 * -735080333, 465637339);
-		class536_sub33.writeByte(aBool10674 ? 1 : 0, 465637339);
+		class536_sub33.writeByte(7);
+		class536_sub33.writeByte(anInt10650 * 1780534881);
+		class536_sub33.writeByte(aBool10683 ? 1 : 0);
+		class536_sub33.writeByte(anInt10667 * 560694841);
+		class536_sub33.writeByte(anInt10675 * -1728248347);
+		class536_sub33.writeByte(anInt10676 * 982781675);
+		class536_sub33.writeByte(-2137697537 * anInt10677);
+		class536_sub33.writeByte(anInt10678 * -735080333);
+		class536_sub33.writeByte(aBool10674 ? 1 : 0);
 		class536_sub33.writeShort(1203606065 * anInt10647, -1778059594);
-		class536_sub33.writeByte(-823027809 * anInt10695, 465637339);
+		class536_sub33.writeByte(-823027809 * anInt10695);
 		class536_sub33.write24BitInt(-853108975 * anInt10684, 1786818698);
 		class536_sub33.writeShort(anInt10685 * -42614869, -1778059594);
 		class536_sub33.method9785(aString10648, (byte) 28);
 		class536_sub33.method9785(aString10687, (byte) 1);
 		class536_sub33.method9785(aString10688, (byte) 11);
 		class536_sub33.method9785(aString10689, (byte) 66);
-		class536_sub33.writeByte(-795233955 * anInt10691, 465637339);
+		class536_sub33.writeByte(-795233955 * anInt10691);
 		class536_sub33.writeShort(-1952469403 * anInt10680, -1778059594);
 		class536_sub33.method9785(aString10694, (byte) 102);
 		class536_sub33.method9785(aString10673, (byte) 112);
-		class536_sub33.writeByte(-1081306583 * anInt10656, 465637339);
-		class536_sub33.writeByte(-2064370639 * anInt10693, 465637339);
+		class536_sub33.writeByte(-1081306583 * anInt10656);
+		class536_sub33.writeByte(-2064370639 * anInt10693);
 		for (int i = 0; i < anIntArray10696.length; i++)
-			class536_sub33.writeInt(anIntArray10696[i], -149241618);
-		class536_sub33.writeInt(1465177829 * anInt10658, -149241618);
+			class536_sub33.writeInt(anIntArray10696[i]);
+		class536_sub33.writeInt(1465177829 * anInt10658);
 		class536_sub33.method9785(aString10698, (byte) 45);
 	}
 

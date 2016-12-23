@@ -84,9 +84,9 @@ public final class Class703 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4415, class106.aClass15_1258, 1684418284);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		int i_9_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -156134429);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(810974573 * class668.aClass382_8551.anInt4013, -1778059594);
 		class668.aClass382_8551.aClass536_Sub18_Sub10_4012.method10711(class536_sub23.aClass536_Sub33_Sub2_10528, class668.aClass382_8551.anIntArray4014, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525 - i_9_), -300297454);

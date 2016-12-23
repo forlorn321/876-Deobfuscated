@@ -2646,9 +2646,9 @@ public class Class177_Sub1 extends Class177 {
 						for (int i_625_ = i_623_; i_625_ < i_624_ && aShortArray9103[i_625_] != 0; i_625_++) {
 							int i_626_ = (aShortArray9103[i_625_] & 0xffff) - 1;
 							class536_sub33_sub1.off = i_626_ * i * 516175515;
-							class536_sub33_sub1.writeInt(i_620_, -149241618);
-							class536_sub33_sub1.writeInt(i_621_, -149241618);
-							class536_sub33_sub1.writeInt(i_622_, -149241618);
+							class536_sub33_sub1.writeInt(i_620_);
+							class536_sub33_sub1.writeInt(i_621_);
+							class536_sub33_sub1.writeInt(i_622_);
 						}
 					}
 				} else {
@@ -2720,10 +2720,10 @@ public class Class177_Sub1 extends Class177 {
 						else if (i_654_ > 255)
 							i_654_ = 255;
 						class536_sub33_sub1.off = (i_616_ + i_648_ * i) * 516175515;
-						class536_sub33_sub1.writeByte(i_652_, 465637339);
-						class536_sub33_sub1.writeByte(i_653_, 465637339);
-						class536_sub33_sub1.writeByte(i_654_, 465637339);
-						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff), 465637339);
+						class536_sub33_sub1.writeByte(i_652_);
+						class536_sub33_sub1.writeByte(i_653_);
+						class536_sub33_sub1.writeByte(i_654_);
+						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff));
 						i_648_ = aShortArray9055[i_643_] & 0xffff;
 						i_649_ = (short) is_637_[i_648_];
 						if (i_649_ == 0)
@@ -2747,10 +2747,10 @@ public class Class177_Sub1 extends Class177 {
 						else if (i_654_ > 255)
 							i_654_ = 255;
 						class536_sub33_sub1.off = (i_616_ + i_648_ * i) * 516175515;
-						class536_sub33_sub1.writeByte(i_652_, 465637339);
-						class536_sub33_sub1.writeByte(i_653_, 465637339);
-						class536_sub33_sub1.writeByte(i_654_, 465637339);
-						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff), 465637339);
+						class536_sub33_sub1.writeByte(i_652_);
+						class536_sub33_sub1.writeByte(i_653_);
+						class536_sub33_sub1.writeByte(i_654_);
+						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff));
 						i_648_ = aShortArray9091[i_643_] & 0xffff;
 						i_649_ = (short) is_637_[i_648_];
 						if (i_649_ == 0)
@@ -2774,20 +2774,20 @@ public class Class177_Sub1 extends Class177 {
 						else if (i_654_ > 255)
 							i_654_ = 255;
 						class536_sub33_sub1.off = (i_616_ + i_648_ * i) * 516175515;
-						class536_sub33_sub1.writeByte(i_652_, 465637339);
-						class536_sub33_sub1.writeByte(i_653_, 465637339);
-						class536_sub33_sub1.writeByte(i_654_, 465637339);
-						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff), 465637339);
+						class536_sub33_sub1.writeByte(i_652_);
+						class536_sub33_sub1.writeByte(i_653_);
+						class536_sub33_sub1.writeByte(i_654_);
+						class536_sub33_sub1.writeByte(255 - ((aByteArray9075[i_643_]) & 0xff));
 					}
 				} else {
 					for (int i_655_ = 0; i_655_ < anInt9118; i_655_++) {
 						int i_656_ = method8498(aShortArray9074[i_655_], aShortArray9079[i_655_], aShort9053, aByteArray9075[i_655_]);
 						class536_sub33_sub1.off = ((i_616_ + (aShortArray9076[i_655_] & 0xffff) * i) * 516175515);
-						class536_sub33_sub1.writeInt(i_656_, -149241618);
+						class536_sub33_sub1.writeInt(i_656_);
 						class536_sub33_sub1.off = ((i_616_ + (aShortArray9055[i_655_] & 0xffff) * i) * 516175515);
-						class536_sub33_sub1.writeInt(i_656_, -149241618);
+						class536_sub33_sub1.writeInt(i_656_);
 						class536_sub33_sub1.off = ((i_616_ + (aShortArray9091[i_655_] & 0xffff) * i) * 516175515);
-						class536_sub33_sub1.writeInt(i_656_, -149241618);
+						class536_sub33_sub1.writeInt(i_656_);
 					}
 				}
 			}

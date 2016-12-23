@@ -82,7 +82,7 @@ public class Class335 implements Interface33 {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4460, class106.aClass15_1258, 712227686);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 			int i_1_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 1474966556);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 			Class100.method1334(class536_sub23.aClass536_Sub33_Sub2_10528, string_0_, -2111850483);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_1_, 740048950);
 			class106.method1409(class536_sub23, -223218520);

@@ -41,8 +41,8 @@ public class Class611 implements Interface75 {
 		String string_0_ = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4457, client.aClass106_11218.aClass15_1258, 2065455689);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((Class555.method6802(string, 883535022) + Class555.method6802(string_0_, -420371775)), -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 666959456);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_, 1577212101);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_);
 		client.aClass106_11218.method1409(class536_sub23, 1718592966);
 	}
 
@@ -60,7 +60,7 @@ public class Class611 implements Interface75 {
 	static void method7279(int i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4443, class106.aClass15_1258, 1030764888);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt11063 * -1672186801, -149241618);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt11063 * -1672186801);
 		class106.method1409(class536_sub23, -76972843);
 	}
 

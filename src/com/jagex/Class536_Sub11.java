@@ -115,10 +115,10 @@ public class Class536_Sub11 extends Class536 {
 			aClass536_Sub33_Sub1_10464.method10741((float) i_7_);
 			aClass536_Sub33_Sub1_10464.method10741((float) i_6_);
 		}
-		aClass536_Sub33_Sub1_10464.writeByte(i_29_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_30_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_31_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(255, 465637339);
+		aClass536_Sub33_Sub1_10464.writeByte(i_29_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_30_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_31_);
+		aClass536_Sub33_Sub1_10464.writeByte(255);
 		method9430(i_8_);
 	}
 
@@ -230,10 +230,10 @@ public class Class536_Sub11 extends Class536 {
 			aClass536_Sub33_Sub1_10464.method10741((float) i_45_);
 			aClass536_Sub33_Sub1_10464.method10741((float) i_44_);
 		}
-		aClass536_Sub33_Sub1_10464.writeByte(i_67_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_68_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_69_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(255, 465637339);
+		aClass536_Sub33_Sub1_10464.writeByte(i_67_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_68_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_69_);
+		aClass536_Sub33_Sub1_10464.writeByte(255);
 		method9430(i_46_);
 	}
 
@@ -460,10 +460,10 @@ public class Class536_Sub11 extends Class536 {
 			aClass536_Sub33_Sub1_10464.method10741((float) i_100_);
 			aClass536_Sub33_Sub1_10464.method10741((float) i_99_);
 		}
-		aClass536_Sub33_Sub1_10464.writeByte(i_122_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_123_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(i_124_, 465637339);
-		aClass536_Sub33_Sub1_10464.writeByte(255, 465637339);
+		aClass536_Sub33_Sub1_10464.writeByte(i_122_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_123_);
+		aClass536_Sub33_Sub1_10464.writeByte(i_124_);
+		aClass536_Sub33_Sub1_10464.writeByte(255);
 		method9430(i_101_);
 	}
 

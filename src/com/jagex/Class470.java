@@ -57,7 +57,7 @@ public class Class470 {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4485, client.aClass106_11218.aClass15_1258, 1865806577);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 			int i_8_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -2070342437);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 			class536_sub23.aClass536_Sub33_Sub2_10528.off += -681738691;
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9725(Class45.anIntArray526, i_8_, (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off), -869482025);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_8_, 52250740);

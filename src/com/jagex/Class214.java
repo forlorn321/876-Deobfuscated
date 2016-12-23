@@ -76,9 +76,9 @@ public class Class214 implements Interface27 {
 			if (class349.aByte3696 == -1) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4497, class106.aClass15_1258, 1478623793);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(2 + Class555.method6802(class349.aString3695, 1359327571), 465637339);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(2 + Class555.method6802(class349.aString3695, 1359327571));
 				class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i, -1778059594);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695, -389086591);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695);
 				class106.method1409(class536_sub23, -100796677);
 			}
 		}

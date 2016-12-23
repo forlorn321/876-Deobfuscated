@@ -23,11 +23,11 @@ public class Class586 {
 	}
 
 	public static void method7053(int i, int i_0_, int i_1_) {
-		Class467.method5689(new Class41_Sub1(i, i_0_, i_1_, client.anInt11041 * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-2015865302), Class246.aClass466_2473.method5675(1673118807)), -2045597697);
+		Class467.method5689(new Class41_Sub1(i, i_0_, i_1_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-2015865302), Class246.aClass466_2473.method5675(1673118807)), -2045597697);
 	}
 
 	public static void method7054(int i, int i_2_, int i_3_) {
-		Class467.method5689(new Class41_Sub1(i, i_2_, i_3_, client.anInt11041 * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1669743846), Class246.aClass466_2473.method5675(1966283679)), -1070872449);
+		Class467.method5689(new Class41_Sub1(i, i_2_, i_3_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1669743846), Class246.aClass466_2473.method5675(1966283679)), -1070872449);
 	}
 
 	public static void method7055(int i) {
@@ -35,11 +35,11 @@ public class Class586 {
 	}
 
 	public static void method7056(int i, int i_4_, int i_5_) {
-		Class467.method5689(new Class41_Sub1(i, i_4_, i_5_, client.anInt11041 * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-919492330), Class246.aClass466_2473.method5675(1988536340)), -1722800986);
+		Class467.method5689(new Class41_Sub1(i, i_4_, i_5_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-919492330), Class246.aClass466_2473.method5675(1988536340)), -1722800986);
 	}
 
 	public static void method7057(int i, int i_6_, int i_7_) {
-		Class467.method5689(new Class41_Sub1(i, i_6_, i_7_, client.anInt11041 * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1481059752), Class246.aClass466_2473.method5675(1414919576)), -1047665384);
+		Class467.method5689(new Class41_Sub1(i, i_6_, i_7_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1481059752), Class246.aClass466_2473.method5675(1414919576)), -1047665384);
 	}
 
 	public static void method7058() {
@@ -108,9 +108,9 @@ public class Class586 {
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
 						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4502, class106.aClass15_1258, 1006023601);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1311863979) + 1, 465637339);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -691322811);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0, 465637339);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1311863979) + 1);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
 						class106.method1409(class536_sub23, 1268430293);
 					}
 				}

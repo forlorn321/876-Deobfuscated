@@ -156,8 +156,8 @@ public abstract class Class153 implements Interface14 {
 		if (Class360_Sub1.aClass94Array10168 != null) {
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4426, class106.aClass15_1258, 1760076756);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1774742804), 465637339);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -681467780);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1774742804));
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 			class106.method1409(class536_sub23, 1890482058);
 		}
 	}

@@ -123,7 +123,7 @@ public class RSByteBuffer extends Class536 {
 
 	public void method9700(int i, byte i_16_) {
 		if (i < 64 && i >= -64)
-			writeByte(i + 64, 465637339);
+			writeByte(i + 64);
 		else if (i < 16384 && i >= -16384)
 			writeShort(i + 49152, -1778059594);
 		else
@@ -132,7 +132,7 @@ public class RSByteBuffer extends Class536 {
 
 	public void method9701(int i, int i_17_) {
 		if (i >= 0 && i < 128)
-			writeByte(i, 465637339);
+			writeByte(i);
 		else if (i >= 0 && i < 32768)
 			writeShort(i + 32768, -1778059594);
 		else
@@ -147,7 +147,7 @@ public class RSByteBuffer extends Class536 {
 		else if (i < 32767)
 			writeShort(i, -1778059594);
 		else {
-			writeInt(i, -149241618);
+			writeInt(i);
 			buffer[-810172525 * off - 4] |= 0x80;
 		}
 	}
@@ -157,14 +157,14 @@ public class RSByteBuffer extends Class536 {
 			if ((i & ~0x3fff) != 0) {
 				if (0 != (i & ~0x1fffff)) {
 					if ((i & ~0xfffffff) != 0)
-						writeByte(i >>> 28 | 0x80, 465637339);
-					writeByte(i >>> 21 | 0x80, 465637339);
+						writeByte(i >>> 28 | 0x80);
+					writeByte(i >>> 21 | 0x80);
 				}
-				writeByte(i >>> 14 | 0x80, 465637339);
+				writeByte(i >>> 14 | 0x80);
 			}
-			writeByte(i >>> 7 | 0x80, 465637339);
+			writeByte(i >>> 7 | 0x80);
 		}
-		writeByte(i & 0x7f, 465637339);
+		writeByte(i & 0x7f);
 	}
 
 	public int readUnsignedByte() {
@@ -313,8 +313,8 @@ public class RSByteBuffer extends Class536 {
 				i_41_ += ((i_40_ << 4 ^ i_40_ >>> 5) + i_40_ ^ i_42_ + is[i_42_ >>> 11 & 0x3]);
 			}
 			off -= -165563176;
-			writeInt(i_40_, -149241618);
-			writeInt(i_41_, -149241618);
+			writeInt(i_40_);
+			writeInt(i_41_);
 		}
 	}
 
@@ -333,8 +333,8 @@ public class RSByteBuffer extends Class536 {
 				i_47_ -= ((i_48_ << 4 ^ i_48_ >>> 5) + i_48_ ^ i_49_ + is[i_49_ & 0x3]);
 			}
 			off -= -165563176;
-			writeInt(i_47_, -149241618);
-			writeInt(i_48_, -149241618);
+			writeInt(i_47_);
+			writeInt(i_48_);
 		}
 	}
 
@@ -354,8 +354,8 @@ public class RSByteBuffer extends Class536 {
 				i_58_ += ((i_57_ << 4 ^ i_57_ >>> 5) + i_57_ ^ i_59_ + is[i_59_ >>> 11 & 0x3]);
 			}
 			off -= -165563176;
-			writeInt(i_57_, -149241618);
-			writeInt(i_58_, -149241618);
+			writeInt(i_57_);
+			writeInt(i_58_);
 		}
 		off = 516175515 * i_54_;
 	}
@@ -395,7 +395,7 @@ public class RSByteBuffer extends Class536 {
 		off = 0;
 	}
 
-	public void writeInt(int i, int i_71_) {
+	public void writeInt(int i) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 24);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 16);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
@@ -418,7 +418,7 @@ public class RSByteBuffer extends Class536 {
 		return (byte) (0 - (buffer[(off += 516175515) * -810172525 - 1]));
 	}
 
-	public void writeString(String string, int i) {
+	public void writeString(String string) {
 		int i_72_ = string.indexOf('\0');
 		if (i_72_ >= 0)
 			throw new IllegalArgumentException("");
@@ -599,11 +599,11 @@ public class RSByteBuffer extends Class536 {
 
 	public int method9768(int i, byte i_95_) {
 		int i_96_ = Class205_Sub5.method9059(buffer, i, off * -810172525, (byte) 1);
-		writeInt(i_96_, -149241618);
+		writeInt(i_96_);
 		return i_96_;
 	}
 
-	public void writeByte(int i, int i_97_) {
+	public void writeByte(int i) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
@@ -637,8 +637,8 @@ public class RSByteBuffer extends Class536 {
 				i_107_ -= ((i_108_ << 4 ^ i_108_ >>> 5) + i_108_ ^ i_109_ + is[i_109_ & 0x3]);
 			}
 			off -= -165563176;
-			writeInt(i_107_, -149241618);
-			writeInt(i_108_, -149241618);
+			writeInt(i_107_);
+			writeInt(i_108_);
 		}
 		off = i_104_ * 516175515;
 	}

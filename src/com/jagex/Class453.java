@@ -456,9 +456,9 @@ public class Class453 implements Interface75, Interface57 {
 			if (Class46.aClass46_572 != class46) {
 				Class461 class461 = (Class461) Class211.aMap2292.get(class46);
 				if (class461 == null)
-					class536_sub33_sub2.writeInt(0, -149241618);
+					class536_sub33_sub2.writeInt(0);
 				else
-					class536_sub33_sub2.writeInt(class461.method5552(294818563), -149241618);
+					class536_sub33_sub2.writeInt(class461.method5552(294818563));
 			}
 		}
 	}

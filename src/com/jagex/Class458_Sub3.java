@@ -38,11 +38,11 @@ final class Class458_Sub3 extends Class458 {
 		Class234.anIntArray2380[1] = (int) (Math.random() * 9.9999999E7);
 		Class234.anIntArray2380[2] = (int) (Math.random() * 9.9999999E7);
 		Class234.anIntArray2380[3] = (int) (Math.random() * 9.9999999E7);
-		class536_sub33.writeByte(10, 465637339);
-		class536_sub33.writeInt(Class234.anIntArray2380[0], -149241618);
-		class536_sub33.writeInt(Class234.anIntArray2380[1], -149241618);
-		class536_sub33.writeInt(Class234.anIntArray2380[2], -149241618);
-		class536_sub33.writeInt(Class234.anIntArray2380[3], -149241618);
+		class536_sub33.writeByte(10);
+		class536_sub33.writeInt(Class234.anIntArray2380[0]);
+		class536_sub33.writeInt(Class234.anIntArray2380[1]);
+		class536_sub33.writeInt(Class234.anIntArray2380[2]);
+		class536_sub33.writeInt(Class234.anIntArray2380[3]);
 		return class536_sub33;
 	}
 

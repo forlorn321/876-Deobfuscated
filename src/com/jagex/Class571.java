@@ -12,18 +12,18 @@ public class Class571 implements Interface68 {
 	public void method131() {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1897283967);
 		int i = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78(), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631, -926699205);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549, -1988302230);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, 1168828061);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i), 342349724);
 		client.aClass106_11322.method1409(class536_sub23, 865485490);
 	}
@@ -38,18 +38,18 @@ public class Class571 implements Interface68 {
 	public void method296() {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1380197153);
 		int i = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78(), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631, 1646642189);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549, 1099205767);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -276065506);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i), -548849881);
 		client.aClass106_11322.method1409(class536_sub23, 826244600);
 	}
@@ -57,18 +57,18 @@ public class Class571 implements Interface68 {
 	public void method206(int i) {
 		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1581434232);
 		int i_0_ = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78(), 465637339);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631, 744017235);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549, -1046262099);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string, -936181798);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0, 465637339);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i_0_), -1289663183);
 		client.aClass106_11322.method1409(class536_sub23, 79111965);
 	}
