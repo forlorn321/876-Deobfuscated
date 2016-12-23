@@ -370,6 +370,9 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4718 == class106.aClass422_1261) {
 			int i_62_ = stream.readUnsignedShortLE128();
 			int i_63_ = stream.readInt();
+			if (RS3Applet.DUMP) {
+				System.out.println("player.getPackets().setVarbit(" + i_62_ + ", " + i_63_ + ");");
+			}
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7270((Class324) Class56.aClass34_Sub14_608.method70(i_62_, (byte) -70), i_63_, (byte) -30);
 			class106.aClass422_1261 = null;
 			return true;
@@ -1923,6 +1926,9 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4759 == class106.aClass422_1261) {
 			int i_325_ = stream.readUnsignedByte128((byte) 0);
 			int i_326_ = stream.readUnsignedShort128();
+			if (RS3Applet.DUMP) {
+				System.out.println("player.getPackets().setVarbit(" + i_326_ + ", " + i_325_ + ");");
+			}
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7270((Class324) Class56.aClass34_Sub14_608.method70(i_326_, (byte) 11), i_325_, (byte) 2);
 			class106.aClass422_1261 = null;
 			return true;
@@ -2272,7 +2278,7 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (class106.aClass422_1261 == IncomingPacket.aClass422_4738) {
+		if (class106.aClass422_1261 == IncomingPacket.RESET_NIS_VARS) {
 			Class590.aClass147_Sub1_7791.method8406((byte) 0);
 			class106.aClass422_1261 = null;
 			return false;
@@ -2989,6 +2995,17 @@ public class PacketDecoder {
 			int i_104_ = stream.readUnsignedByte();
 			int i_105_ = stream.readUnsignedShort();
 			boolean bool = stream.readUnsignedByte() == 1;
+			/*
+			 * Sent during goblin raids:
+			 * Sub packet 4: 2, 3, 19739, 6, 1, 253, false
+				Sub packet: 4
+				Sub packet 4: 0, 7, 19739, 6, 1, 233, false
+				Sub packet: 4
+				Sub packet 4: 0, 0, 19740, 6, 1, 263, false
+				Sub packet: 4
+				Sub packet 4: 6, 5, 19742, 6, 1, 231, false
+			 */
+			//System.out.println("Sub packet 4: " + (i_96_ >> 4 & 0x7) + ", " + (i_96_ & 0x7) + ", " + i_99_ + ", " + i_101_ + ", " + i_102_ + ", " + i_105_ + ", " + bool);
 			if (client.aClass515_11066.method6315(-1134055537) != Class498.aClass498_5556) {
 				if (i_97_ >= 0 && i_98_ >= 0 && i_97_ < client.aClass515_11066.method6321((byte) -78) && i_98_ < client.aClass515_11066.method6243(177401017)) {
 					int i_106_ = i_101_ + 1;

@@ -28,8 +28,9 @@ public class Class5 {
 	}
 
 	public Socket method575(byte i) throws IOException {
-		if (!aBool113)
+		if (!aBool113) {
 			return new Socket(InetAddress.getByName(aString112), (aBool109 ? -910853859 * anInt108 : -843966029 * anInt110));
+		}
 		return Class606.method7219(aString112, aBool109 ? anInt108 * -910853859 : -843966029 * anInt110, -62207556).method909(-979285364);
 	}
 

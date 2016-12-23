@@ -151,7 +151,7 @@ public class IncomingPacket {
 	static IncomingPacket aClass422_4735;
 	public static IncomingPacket aClass422_4736;
 	public static IncomingPacket aClass422_4737;
-	public static IncomingPacket aClass422_4738;
+	public static IncomingPacket RESET_NIS_VARS;
 	public static IncomingPacket aClass422_4739;
 	public static IncomingPacket WORLD_LIST;
 	public static IncomingPacket CLOSE_INTERFACE;
@@ -354,7 +354,7 @@ public class IncomingPacket {
 		aClass422_4751 = new IncomingPacket(144, -1);
 		aClass422_4736 = new IncomingPacket(145, 22);
 		aClass422_4737 = new IncomingPacket(146, 0);
-		aClass422_4738 = new IncomingPacket(147, 0);
+		RESET_NIS_VARS = new IncomingPacket(147, 0);
 		aClass422_4739 = new IncomingPacket(148, 3);
 		WORLD_LIST = new IncomingPacket(149, -2);
 		aClass422_4729 = new IncomingPacket(150, 0);

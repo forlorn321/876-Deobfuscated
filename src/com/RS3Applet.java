@@ -87,6 +87,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.CLIENT_EDIT_CHECK); //implemented
 		IDENTIFIED.add(IncomingPacket.INTERFACE_SETTINGS); //implemented
 		IDENTIFIED.add(IncomingPacket.ROOT_INTERFACE); //implemented
+		IDENTIFIED.add(IncomingPacket.RESET_NIS_VARS); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);
@@ -94,6 +95,9 @@ public class RS3Applet extends Applet implements AppletStub {
 		
 		IDENTIFIED.add(IncomingPacket.aClass422_4644); //sent when joining a dung party yet commenting it out doesn't have any immediately noticable effects
 		IDENTIFIED.add(IncomingPacket.aClass422_4676); //sent when joining a dung party seems to change the color of the outline on some of the buttons
+		
+		IDENTIFIED.add(IncomingPacket.aClass422_4718); //varpbits
+		IDENTIFIED.add(IncomingPacket.aClass422_4759);
 		
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
@@ -123,12 +127,13 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GAME_OBJECT);
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.GRAPHICS_ON_TILE);
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.GROUND_GRAPHIC_RELATED);
+		IDENTIFIED_SUB.add(ChunkSceneSubPackets.aClass409_4317); //sent during goblin raids for something
 	}
 
 	/**
 	 * Connecting to Rs or a Rsps
 	 */
-	public static boolean RSPS = true;
+	public static boolean RSPS = false;
 
 	/**
 	 * Chooses ip based on if Rs or Rsps
@@ -138,7 +143,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = false;
+	public static boolean DUMP = true;
 
 	/**
 	 * The parameters of the client.
@@ -231,7 +236,7 @@ public class RS3Applet extends Applet implements AppletStub {
 			map.put("45", ".runescape.com");
 			map.put("46", "1016377029");
 			map.put("47", "true");
-			map.put("48", "content.runescape.com");
+			map.put("48", "127.0.0.1");
 			map.put("49", "0");
 			map.put("50", "43594");
 			map.put("51", "443");
@@ -260,7 +265,7 @@ public class RS3Applet extends Applet implements AppletStub {
 			map.put("22", "MQyBA3iltpjF-r*tzY3dx7TdJZk4t-ej");
 			map.put("23", "841974411");
 			map.put("25", "false");
-			map.put("26", "content.runescape.com");
+			map.put("26", "127.0.0.1");
 			map.put("27", "0");
 			map.put("28", "0");
 			map.put("29", "false");

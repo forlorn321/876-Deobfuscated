@@ -336,7 +336,7 @@ public class Class515 {
 		boolean refresh = stream.readUnsignedByte() == 1;
 		int size = stream.readUnsigned128Byte();
 		int unknown = stream.readUnsigned128Byte();
-		System.out.println("Loading map region: " + chunkX + ", " + chunkY + ", " + mapType + ", " + size + ", " + refresh + ", " + unknown);
+		//System.out.println("Loading map region: " + chunkX + ", " + chunkY + ", " + mapType + ", " + size + ", " + refresh + ", " + unknown);
 		anInt7035 = unknown * 974659739;
 		if (!aBool7005)
 			method6268(1787021816);
