@@ -298,7 +298,6 @@ public class PacketDecoder {
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4672) {
 			Class465_Sub1.aClass96_10352.aClass610_1164.method7271(-1056104537);
 			client.anInt11219 += -1226769344;
-			System.out.println("Lobby started.");
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -349,14 +348,14 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (class106.aClass422_1261 == IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN) {
-			int i_58_ = stream.readUnsignedByteC(2092511843);
-			int i_59_ = stream.readIntV1();
-			int i_60_ = stream.readUnsignedByte128((byte) 0);
-			Class611.aClass602_7930.method7174(i_60_, (byte) 97);
-			Class465_Sub1.aClass96_10352.aClass618Array1167[i_60_].method7380(i_59_, (byte) 18);
-			Class465_Sub1.aClass96_10352.aClass618Array1167[i_60_].method7376(i_58_, -1394810797);
-			client.anIntArray11222[(client.anInt11056 += -1560395987) * -323786587 - 1 & 0x3f] = i_60_;
+		if (class106.aClass422_1261 == IncomingPacket.SKILLS) {
+			int level = stream.readUnsignedByteC(2092511843);
+			int experience = stream.readIntV1();
+			int skillId = stream.readUnsignedByte128((byte) 0);
+			Class611.aClass602_7930.method7174(skillId, (byte) 97);
+			Class465_Sub1.aClass96_10352.aClass618Array1167[skillId].method7380(experience, (byte) 18);
+			Class465_Sub1.aClass96_10352.aClass618Array1167[skillId].method7376(level, -1394810797);
+			client.anIntArray11222[(client.anInt11056 += -1560395987) * -323786587 - 1 & 0x3f] = skillId;
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -2182,7 +2181,7 @@ public class PacketDecoder {
 			int i_375_ = stream.readUnsignedShort();
 			int i_376_ = stream.readUnsignedByte();
 			boolean bool = 0 != (i_376_ & 0x1);
-			boolean bool_377_ = (i_376_ & 0x2) != 0;
+			boolean hasMetadata = (i_376_ & 0x2) != 0;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
 				int i_378_ = stream.readUnsignedSmart(-884015614);
 				int i_379_ = stream.readUnsignedShort();
@@ -2192,11 +2191,11 @@ public class PacketDecoder {
 					i_380_ = stream.readUnsignedByte();
 					if (255 == i_380_)
 						i_380_ = stream.readInt();
-					if (bool_377_) {
-						int i_381_ = stream.readUnsignedByte();
-						if (i_381_ > 0) {
+					if (hasMetadata) {
+						int numValues = stream.readUnsignedByte();
+						if (numValues > 0) {
 							class21 = new Class21(Class458_Sub2.aClass98_Sub1_Sub2_10306);
-							while (i_381_-- > 0) {
+							while (numValues-- > 0) {
 								Class430 class430 = (Class458_Sub2.aClass98_Sub1_Sub2_10306.method8388(stream, 738758521));
 								class21.method18((706703961 * class430.anInt4820), class430.anObject4819, (byte) 57);
 							}
@@ -2370,9 +2369,13 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4747 == class106.aClass422_1261) {
+		if (IncomingPacket.ICOMPONENT_SPRITE == class106.aClass422_1261) {
 			int i_413_ = stream.readIntV1();
 			int i_414_ = stream.readInt();
+			int interfaceId = i_413_ >> 16;
+			int componentId = i_413_ & 0xFFFF;
+			if (RS3Applet.DUMP)
+				System.out.println("player.getPackets().sendIComponentSprite(" + interfaceId + ", " + componentId + ", " + i_414_ + ");");
 			Class307.method4133(641389734);
 			Class251 class251 = Class264.method3678(i_413_, -689214737);
 			class251.anInt2604 = -1513859745 * i_414_;

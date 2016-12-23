@@ -62,7 +62,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4646;
 	public static IncomingPacket aClass422_4647;
 	public static IncomingPacket aClass422_4648;
-	public static IncomingPacket UNIDENTIFIED_SENDS_ON_LOGIN;
+	public static IncomingPacket SKILLS;
 	public static IncomingPacket aClass422_4650;
 	public static IncomingPacket aClass422_4651;
 	public static IncomingPacket aClass422_4652;
@@ -160,7 +160,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4744;
 	public static IncomingPacket aClass422_4745;
 	public static IncomingPacket aClass422_4746;
-	public static IncomingPacket aClass422_4747;
+	public static IncomingPacket ICOMPONENT_SPRITE;
 	public static IncomingPacket aClass422_4748;
 	public static IncomingPacket aClass422_4749;
 	public int anInt4750;
@@ -210,9 +210,9 @@ public class IncomingPacket {
 	static {
 		aClass422_4592 = new IncomingPacket(1, 3);
 		aClass422_4593 = new IncomingPacket(2, 10);
-		aClass422_4747 = new IncomingPacket(3, 8);
+		ICOMPONENT_SPRITE = new IncomingPacket(3, 8);
 		aClass422_4756 = new IncomingPacket(4, 8);
-		UNIDENTIFIED_SENDS_ON_LOGIN = new IncomingPacket(5, 6);
+		SKILLS = new IncomingPacket(5, 6);
 		aClass422_4639 = new IncomingPacket(6, 6);
 		aClass422_4598 = new IncomingPacket(7, 1);
 		SET_INTERFACE = new IncomingPacket(8, 23);

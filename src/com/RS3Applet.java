@@ -90,7 +90,6 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.RESET_NIS_VARS); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
-		IDENTIFIED.add(IncomingPacket.UNIDENTIFIED_SENDS_ON_LOGIN);
 		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing noticeable
 		
 		IDENTIFIED.add(IncomingPacket.aClass422_4644); //sent when joining a dung party yet commenting it out doesn't have any immediately noticable effects
@@ -99,6 +98,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.aClass422_4718); //varpbits
 		IDENTIFIED.add(IncomingPacket.aClass422_4759);
 		
+		IDENTIFIED.add(IncomingPacket.SKILLS);
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.ICOMPONENT_TEXT);
@@ -119,6 +119,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.ITEM_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE);
 		IDENTIFIED.add(IncomingPacket.MAP_REGION);
+		IDENTIFIED.add(IncomingPacket.ICOMPONENT_SPRITE);
 		
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GROUND_ITEM);
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.REMOVE_GROUND_ITEM);
@@ -143,7 +144,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = false;
+	public static boolean DUMP = true;
 
 	/**
 	 * The parameters of the client.

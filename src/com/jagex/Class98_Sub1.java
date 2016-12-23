@@ -50,23 +50,23 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		return anInt1180 * 1628850519;
 	}
 
-	public Class430 method8388(RSByteBuffer class536_sub33, int i) {
-		int i_2_ = class536_sub33.readUnsignedShort();
+	public Class430 method8388(RSByteBuffer buffer, int i) {
+		int i_2_ = buffer.readUnsignedShort();
 		Class153 class153 = (Class153) method70(i_2_, (byte) -18);
 		if (!class153.method1857((byte) 40))
 			throw new IllegalStateException("");
 		Class430 class430 = new Class430(i_2_);
 		Class var_class = class153.aClass453_1716.method5437(65280).aClass5390;
 		if (var_class == java.lang.Integer.class)
-			class430.anObject4819 = Integer.valueOf(class536_sub33.readInt());
+			class430.anObject4819 = Integer.valueOf(buffer.readInt());
 		else if (var_class == java.lang.Long.class)
-			class430.anObject4819 = Long.valueOf(class536_sub33.readLong(702869087));
+			class430.anObject4819 = Long.valueOf(buffer.readLong(702869087));
 		else if (java.lang.String.class == var_class)
-			class430.anObject4819 = class536_sub33.readVersionedString((byte) 106);
+			class430.anObject4819 = buffer.readVersionedString((byte) 106);
 		else if (com.jagex.Interface8.class.isAssignableFrom(var_class)) {
 			try {
 				Interface8 interface8 = (Interface8) var_class.newInstance();
-				interface8.method61(class536_sub33, 372399233);
+				interface8.method61(buffer, 372399233);
 				class430.anObject4819 = interface8;
 			} catch (InstantiationException instantiationexception) {
 				/* empty */
