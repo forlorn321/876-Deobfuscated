@@ -36,16 +36,16 @@ final class Class275 implements Interface29 {
 				class12.anIntArray149[0] = class536_sub33.readUnsignedShort();
 				class12.anIntArray152[0] = class536_sub33.readUnsignedShort();
 			} else {
-				class12.anIntArray149[0] = class536_sub33.method9720((byte) 1);
-				class12.anIntArray152[0] = class536_sub33.method9720((byte) 1);
+				class12.anIntArray149[0] = class536_sub33.readBigSmart((byte) 1);
+				class12.anIntArray152[0] = class536_sub33.readBigSmart((byte) 1);
 			}
 			if (-1 != class1.anInt46 * 661594531 || -490119801 * class1.anInt48 != -1) {
 				if (i <= 1) {
 					class12.anIntArray149[1] = class536_sub33.readUnsignedShort();
 					class12.anIntArray152[1] = class536_sub33.readUnsignedShort();
 				} else {
-					class12.anIntArray149[1] = class536_sub33.method9720((byte) 1);
-					class12.anIntArray152[1] = class536_sub33.method9720((byte) 1);
+					class12.anIntArray149[1] = class536_sub33.readBigSmart((byte) 1);
+					class12.anIntArray152[1] = class536_sub33.readBigSmart((byte) 1);
 				}
 			}
 			if (-1 != 1280785913 * class1.anInt66 || class1.anInt20 * 835049345 != -1) {
@@ -53,8 +53,8 @@ final class Class275 implements Interface29 {
 					class12.anIntArray149[2] = class536_sub33.readUnsignedShort();
 					class12.anIntArray152[2] = class536_sub33.readUnsignedShort();
 				} else {
-					class12.anIntArray149[2] = class536_sub33.method9720((byte) 1);
-					class12.anIntArray152[2] = class536_sub33.method9720((byte) 1);
+					class12.anIntArray149[2] = class536_sub33.readBigSmart((byte) 1);
+					class12.anIntArray152[2] = class536_sub33.readBigSmart((byte) 1);
 				}
 			}
 		}
@@ -63,16 +63,16 @@ final class Class275 implements Interface29 {
 				class12.anIntArray153[0] = class536_sub33.readUnsignedShort();
 				class12.anIntArray154[0] = class536_sub33.readUnsignedShort();
 			} else {
-				class12.anIntArray153[0] = class536_sub33.method9720((byte) 1);
-				class12.anIntArray154[0] = class536_sub33.method9720((byte) 1);
+				class12.anIntArray153[0] = class536_sub33.readBigSmart((byte) 1);
+				class12.anIntArray154[0] = class536_sub33.readBigSmart((byte) 1);
 			}
 			if (-1 != class1.anInt58 * -869646663 || class1.anInt82 * 1550687287 != -1) {
 				if (i <= 1) {
 					class12.anIntArray153[1] = class536_sub33.readUnsignedShort();
 					class12.anIntArray154[1] = class536_sub33.readUnsignedShort();
 				} else {
-					class12.anIntArray153[1] = class536_sub33.method9720((byte) 1);
-					class12.anIntArray154[1] = class536_sub33.method9720((byte) 1);
+					class12.anIntArray153[1] = class536_sub33.readBigSmart((byte) 1);
+					class12.anIntArray154[1] = class536_sub33.readBigSmart((byte) 1);
 				}
 			}
 		}

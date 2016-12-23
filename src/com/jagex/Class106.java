@@ -312,7 +312,7 @@ public class Class106 {
 					if ((i_16_ & 0x2) == 2) {
 						is = new int[i_13_];
 						for (int i_17_ = 0; i_17_ < i_13_; i_17_++)
-							is[i_17_] = class536_sub33_sub2.method9720((byte) 1);
+							is[i_17_] = class536_sub33_sub2.readBigSmart((byte) 1);
 					}
 					short[] is_18_ = null;
 					if (4 == (i_16_ & 0x4)) {
@@ -369,7 +369,7 @@ public class Class106 {
 							is_30_ = new int[i_25_][3];
 						}
 						for (int i_31_ = 0; i_31_ < i_25_; i_31_++) {
-							is[i_31_] = class536_sub33_sub2.method9720((byte) 1);
+							is[i_31_] = class536_sub33_sub2.readBigSmart((byte) 1);
 							if (16 == (i_28_ & 0x10) && is[i_31_] != -1) {
 								fs[i_31_] = class536_sub33_sub2.method9712(2142524161);
 								for (int i_32_ = 0; i_32_ < 3; i_32_++)
@@ -398,14 +398,14 @@ public class Class106 {
 			if ((i_4_ & 0x20) != 0) {
 				int[] is = new int[4];
 				for (int i_38_ = 0; i_38_ < 4; i_38_++)
-					is[i_38_] = class536_sub33_sub2.method9720((byte) 1);
+					is[i_38_] = class536_sub33_sub2.readBigSmart((byte) 1);
 				int i_39_ = class536_sub33_sub2.readUnsigned128Byte();
 				Class360_Sub1.method9269(class649_sub1_sub5_sub1_sub1, is, i_39_, true, 1131805852);
 			}
 			if (0 != (i_4_ & 0x1)) {
 				if (class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
 					Class18.method688(class649_sub1_sub5_sub1_sub1, 1146989148);
-				class649_sub1_sub5_sub1_sub1.method11075((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33_sub2.method9720((byte) 1), (byte) -72)), (i_4_ & 0x800000) == 0, (i_4_ & 0x20000) == 0, true, -573315687);
+				class649_sub1_sub5_sub1_sub1.method11075((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33_sub2.readBigSmart((byte) 1), (byte) -72)), (i_4_ & 0x800000) == 0, (i_4_ & 0x20000) == 0, true, -573315687);
 				class649_sub1_sub5_sub1_sub1.method10873((class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272 * 830254667), -324388659);
 				class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (235698067 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) << 3);
 				if (class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
@@ -514,7 +514,7 @@ public class Class106 {
 				int[] is_75_ = new int[i_74_];
 				int[] is_76_ = new int[i_74_];
 				for (int i_77_ = 0; i_77_ < i_74_; i_77_++) {
-					int i_78_ = class536_sub33_sub2.method9720((byte) 1);
+					int i_78_ = class536_sub33_sub2.readBigSmart((byte) 1);
 					is[i_77_] = i_78_;
 					is_75_[i_77_] = class536_sub33_sub2.readUnsignedByteC(2125742228);
 					is_76_[i_77_] = class536_sub33_sub2.readUnsignedShort128();
@@ -576,7 +576,7 @@ public class Class106 {
 				short[] is_85_ = new short[8];
 				for (int i_86_ = 0; i_86_ < 8; i_86_++) {
 					if (0 != (i_84_ & 1 << i_86_)) {
-						is[i_86_] = class536_sub33_sub2.method9720((byte) 1);
+						is[i_86_] = class536_sub33_sub2.readBigSmart((byte) 1);
 						is_85_[i_86_] = (short) class536_sub33_sub2.method9718(224960296);
 					} else {
 						is[i_86_] = -1;

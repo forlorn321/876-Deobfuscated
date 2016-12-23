@@ -311,7 +311,7 @@ public class Class1 implements Interface13 {
 
 	void method505(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
+			anInt19 = class536_sub33.readBigSmart((byte) 1) * -1192252179;
 		else if (i == 2)
 			aString44 = class536_sub33.readString();
 		else if (4 == i)
@@ -341,13 +341,13 @@ public class Class1 implements Interface13 {
 		else if (i == 18)
 			anInt35 = class536_sub33.readUnsignedShort() * -415875853;
 		else if (23 == i)
-			anInt45 = class536_sub33.method9720((byte) 1) * -1449138063;
+			anInt45 = class536_sub33.readBigSmart((byte) 1) * -1449138063;
 		else if (24 == i)
-			anInt46 = class536_sub33.method9720((byte) 1) * 988092939;
+			anInt46 = class536_sub33.readBigSmart((byte) 1) * 988092939;
 		else if (i == 25)
-			anInt11 = class536_sub33.method9720((byte) 1) * 1012148175;
+			anInt11 = class536_sub33.readBigSmart((byte) 1) * 1012148175;
 		else if (26 == i)
-			anInt48 = class536_sub33.method9720((byte) 1) * -1638541257;
+			anInt48 = class536_sub33.readBigSmart((byte) 1) * -1638541257;
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte() * 1533255093;
 		else if (i >= 30 && i < 35)
@@ -409,17 +409,17 @@ public class Class1 implements Interface13 {
 		} else if (65 == i)
 			aBool77 = true;
 		else if (i == 78)
-			anInt66 = class536_sub33.method9720((byte) 1) * 268366921;
+			anInt66 = class536_sub33.readBigSmart((byte) 1) * 268366921;
 		else if (79 == i)
-			anInt20 = class536_sub33.method9720((byte) 1) * 1019373697;
+			anInt20 = class536_sub33.readBigSmart((byte) 1) * 1019373697;
 		else if (90 == i)
-			anInt57 = class536_sub33.method9720((byte) 1) * 495777045;
+			anInt57 = class536_sub33.readBigSmart((byte) 1) * 495777045;
 		else if (i == 91)
-			anInt59 = class536_sub33.method9720((byte) 1) * 174858125;
+			anInt59 = class536_sub33.readBigSmart((byte) 1) * 174858125;
 		else if (92 == i)
-			anInt58 = class536_sub33.method9720((byte) 1) * -613914743;
+			anInt58 = class536_sub33.readBigSmart((byte) 1) * -613914743;
 		else if (93 == i)
-			anInt82 = class536_sub33.method9720((byte) 1) * 1501092231;
+			anInt82 = class536_sub33.readBigSmart((byte) 1) * 1501092231;
 		else if (94 == i)
 			anInt18 = class536_sub33.readUnsignedShort() * 975650179;
 		else if (95 == i)
@@ -933,7 +933,7 @@ public class Class1 implements Interface13 {
 
 	void method516(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
+			anInt19 = class536_sub33.readBigSmart((byte) 1) * -1192252179;
 		else if (i == 2)
 			aString44 = class536_sub33.readString();
 		else if (4 == i)
@@ -963,13 +963,13 @@ public class Class1 implements Interface13 {
 		else if (i == 18)
 			anInt35 = class536_sub33.readUnsignedShort() * -415875853;
 		else if (23 == i)
-			anInt45 = class536_sub33.method9720((byte) 1) * -1449138063;
+			anInt45 = class536_sub33.readBigSmart((byte) 1) * -1449138063;
 		else if (24 == i)
-			anInt46 = class536_sub33.method9720((byte) 1) * 988092939;
+			anInt46 = class536_sub33.readBigSmart((byte) 1) * 988092939;
 		else if (i == 25)
-			anInt11 = class536_sub33.method9720((byte) 1) * 1012148175;
+			anInt11 = class536_sub33.readBigSmart((byte) 1) * 1012148175;
 		else if (26 == i)
-			anInt48 = class536_sub33.method9720((byte) 1) * -1638541257;
+			anInt48 = class536_sub33.readBigSmart((byte) 1) * -1638541257;
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte() * 1533255093;
 		else if (i >= 30 && i < 35)
@@ -1031,17 +1031,17 @@ public class Class1 implements Interface13 {
 		} else if (65 == i)
 			aBool77 = true;
 		else if (i == 78)
-			anInt66 = class536_sub33.method9720((byte) 1) * 268366921;
+			anInt66 = class536_sub33.readBigSmart((byte) 1) * 268366921;
 		else if (79 == i)
-			anInt20 = class536_sub33.method9720((byte) 1) * 1019373697;
+			anInt20 = class536_sub33.readBigSmart((byte) 1) * 1019373697;
 		else if (90 == i)
-			anInt57 = class536_sub33.method9720((byte) 1) * 495777045;
+			anInt57 = class536_sub33.readBigSmart((byte) 1) * 495777045;
 		else if (i == 91)
-			anInt59 = class536_sub33.method9720((byte) 1) * 174858125;
+			anInt59 = class536_sub33.readBigSmart((byte) 1) * 174858125;
 		else if (92 == i)
-			anInt58 = class536_sub33.method9720((byte) 1) * -613914743;
+			anInt58 = class536_sub33.readBigSmart((byte) 1) * -613914743;
 		else if (93 == i)
-			anInt82 = class536_sub33.method9720((byte) 1) * 1501092231;
+			anInt82 = class536_sub33.readBigSmart((byte) 1) * 1501092231;
 		else if (94 == i)
 			anInt18 = class536_sub33.readUnsignedShort() * 975650179;
 		else if (95 == i)
@@ -1219,7 +1219,7 @@ public class Class1 implements Interface13 {
 
 	void method522(RSByteBuffer class536_sub33, int i, byte i_127_) {
 		if (1 == i)
-			anInt19 = class536_sub33.method9720((byte) 1) * -1192252179;
+			anInt19 = class536_sub33.readBigSmart((byte) 1) * -1192252179;
 		else if (i == 2)
 			aString44 = class536_sub33.readString();
 		else if (4 == i)
@@ -1249,13 +1249,13 @@ public class Class1 implements Interface13 {
 		else if (i == 18)
 			anInt35 = class536_sub33.readUnsignedShort() * -415875853;
 		else if (23 == i)
-			anInt45 = class536_sub33.method9720((byte) 1) * -1449138063;
+			anInt45 = class536_sub33.readBigSmart((byte) 1) * -1449138063;
 		else if (24 == i)
-			anInt46 = class536_sub33.method9720((byte) 1) * 988092939;
+			anInt46 = class536_sub33.readBigSmart((byte) 1) * 988092939;
 		else if (i == 25)
-			anInt11 = class536_sub33.method9720((byte) 1) * 1012148175;
+			anInt11 = class536_sub33.readBigSmart((byte) 1) * 1012148175;
 		else if (26 == i)
-			anInt48 = class536_sub33.method9720((byte) 1) * -1638541257;
+			anInt48 = class536_sub33.readBigSmart((byte) 1) * -1638541257;
 		else if (i == 27)
 			anInt70 = class536_sub33.readUnsignedByte() * 1533255093;
 		else if (i >= 30 && i < 35)
@@ -1317,17 +1317,17 @@ public class Class1 implements Interface13 {
 		} else if (65 == i)
 			aBool77 = true;
 		else if (i == 78)
-			anInt66 = class536_sub33.method9720((byte) 1) * 268366921;
+			anInt66 = class536_sub33.readBigSmart((byte) 1) * 268366921;
 		else if (79 == i)
-			anInt20 = class536_sub33.method9720((byte) 1) * 1019373697;
+			anInt20 = class536_sub33.readBigSmart((byte) 1) * 1019373697;
 		else if (90 == i)
-			anInt57 = class536_sub33.method9720((byte) 1) * 495777045;
+			anInt57 = class536_sub33.readBigSmart((byte) 1) * 495777045;
 		else if (i == 91)
-			anInt59 = class536_sub33.method9720((byte) 1) * 174858125;
+			anInt59 = class536_sub33.readBigSmart((byte) 1) * 174858125;
 		else if (92 == i)
-			anInt58 = class536_sub33.method9720((byte) 1) * -613914743;
+			anInt58 = class536_sub33.readBigSmart((byte) 1) * -613914743;
 		else if (93 == i)
-			anInt82 = class536_sub33.method9720((byte) 1) * 1501092231;
+			anInt82 = class536_sub33.readBigSmart((byte) 1) * 1501092231;
 		else if (94 == i)
 			anInt18 = class536_sub33.readUnsignedShort() * 975650179;
 		else if (95 == i)

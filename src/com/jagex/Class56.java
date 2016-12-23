@@ -23,7 +23,7 @@ public class Class56 implements Interface13 {
 	void method957(RSByteBuffer class536_sub33, int i, byte i_1_) {
 		do {
 			if (1 == i)
-				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
+				anInt604 = class536_sub33.readBigSmart((byte) 1) * 715815817;
 			else if (i == 2)
 				anInt605 = class536_sub33.read24BitUnsignedInteger(1969591302) * -1631318095;
 			else if (i == 3)
@@ -110,7 +110,7 @@ public class Class56 implements Interface13 {
 	void method961(RSByteBuffer class536_sub33, int i) {
 		do {
 			if (1 == i)
-				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
+				anInt604 = class536_sub33.readBigSmart((byte) 1) * 715815817;
 			else if (i == 2)
 				anInt605 = class536_sub33.read24BitUnsignedInteger(1228698049) * -1631318095;
 			else if (i == 3)
@@ -125,7 +125,7 @@ public class Class56 implements Interface13 {
 	void method962(RSByteBuffer class536_sub33, int i) {
 		do {
 			if (1 == i)
-				anInt604 = class536_sub33.method9720((byte) 1) * 715815817;
+				anInt604 = class536_sub33.readBigSmart((byte) 1) * 715815817;
 			else if (i == 2)
 				anInt605 = class536_sub33.read24BitUnsignedInteger(783504920) * -1631318095;
 			else if (i == 3)

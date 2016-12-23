@@ -275,7 +275,7 @@ public class Class251 {
 		}
 		if (1049444347 * anInt2728 == 6) {
 			anInt2601 = -1782707337;
-			anInt2602 = class536_sub33.method9720((byte) 1) * 1639447419;
+			anInt2602 = class536_sub33.readBigSmart((byte) 1) * 1639447419;
 			int i_6_ = class536_sub33.readUnsignedByte();
 			boolean bool = (i_6_ & 0x1) == 1;
 			aBool2633 = (i_6_ & 0x2) == 2;
@@ -297,14 +297,14 @@ public class Class251 {
 				anInt2609 = class536_sub33.readUnsignedShort() * 465590379;
 				anInt2613 = class536_sub33.readShort((byte) -32) * -1926815261;
 			}
-			anInt2723 = class536_sub33.method9720((byte) 1) * -726203335;
+			anInt2723 = class536_sub33.readBigSmart((byte) 1) * -726203335;
 			if (0 != aByte2565)
 				anInt2614 = class536_sub33.readUnsignedShort() * 170735961;
 			if (0 != aByte2618)
 				anInt2615 = class536_sub33.readUnsignedShort() * -118712993;
 		}
 		if (anInt2728 * 1049444347 == 4) {
-			anInt2636 = class536_sub33.method9720((byte) 1) * 1355450591;
+			anInt2636 = class536_sub33.readBigSmart((byte) 1) * 1355450591;
 			if (i_3_ >= 2)
 				aBool2637 = class536_sub33.readUnsignedByte() == 1;
 			aString2638 = class536_sub33.readString();

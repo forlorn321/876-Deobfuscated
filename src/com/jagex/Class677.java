@@ -103,9 +103,9 @@ public class Class677 implements Interface13 {
 	void method8044(RSByteBuffer class536_sub33, int i, byte i_15_) {
 		do {
 			if (1 == i)
-				anInt8593 = class536_sub33.method9720((byte) 1) * -161844215;
+				anInt8593 = class536_sub33.readBigSmart((byte) 1) * -161844215;
 			else if (i == 2)
-				anInt8607 = class536_sub33.method9720((byte) 1) * -1803903681;
+				anInt8607 = class536_sub33.readBigSmart((byte) 1) * -1803903681;
 			else if (i == 4)
 				anInt8601 = class536_sub33.readUnsignedShort() * 1080589553;
 			else if (i == 5)

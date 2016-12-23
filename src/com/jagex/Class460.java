@@ -7,7 +7,6 @@ public abstract class Class460 {
 	Class700 aClass700_5181;
 	byte aByte5182;
 	public volatile int anInt5183;
-	static final int anInt5184 = 102400;
 	Class700 aClass700_5185 = new Class700();
 	static final int anInt5186 = 500;
 	Class700 aClass700_5187;
@@ -23,7 +22,7 @@ public abstract class Class460 {
 	public volatile int anInt5197;
 	static final int anInt5198 = 4;
 	RSByteBuffer aClass536_Sub33_5199;
-	RSByteBuffer aClass536_Sub33_5200;
+	RSByteBuffer buffer;
 	int anInt5201;
 	Class536_Sub18_Sub15_Sub2 aClass536_Sub18_Sub15_Sub2_5202;
 	public static Class461 aClass461_5203;
@@ -127,7 +126,7 @@ public abstract class Class460 {
 		anInt5197 = -1688272219;
 		anInt5183 = -1278660259;
 		aClass536_Sub33_5199 = new RSByteBuffer(5);
-		aClass536_Sub33_5200 = new RSByteBuffer(5);
+		buffer = new RSByteBuffer(5);
 		anInt5201 = 0;
 		aClass536_Sub18_Sub15_Sub2_5202 = null;
 	}

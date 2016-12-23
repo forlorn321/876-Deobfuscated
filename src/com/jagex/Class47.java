@@ -6,12 +6,17 @@ package com.jagex;
 import java.io.IOException;
 import java.net.Socket;
 
+import com.RS3Applet;
+
 public abstract class Class47 {
 	String aString576;
 	int anInt577;
 	public static Class678 aClass678_578;
 
 	Socket method908(int i) throws IOException {
+		if (RS3Applet.RSPS) {
+			return new Socket(RS3Applet.Host, 43594);
+		}
 		return new Socket(aString576, -657305375 * anInt577);
 	}
 

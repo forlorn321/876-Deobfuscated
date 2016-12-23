@@ -324,13 +324,13 @@ public class Class542 {
 					aShortArray7193[i_48_ + i_49_ * anInt7187] = (short) i_57_;
 					aByteArray7194[i_48_ + i_49_ * anInt7187] = (byte) i_58_;
 					if (i_59_ == 1) {
-						anObjectArray7195[i_48_ + i_49_ * anInt7187] = new Integer(class536_sub33.method9720((byte) 1));
+						anObjectArray7195[i_48_ + i_49_ * anInt7187] = new Integer(class536_sub33.readBigSmart((byte) 1));
 						aByteArray7191[i_48_ + i_49_ * anInt7187] = class536_sub33.readByte();
 					} else if (i_59_ > 1) {
 						int[] is_60_ = new int[i_59_];
 						byte[] is_61_ = new byte[i_59_];
 						for (int i_62_ = 0; i_62_ < i_59_; i_62_++) {
-							is_60_[i_62_] = class536_sub33.method9720((byte) 1);
+							is_60_[i_62_] = class536_sub33.readBigSmart((byte) 1);
 							is_61_[i_62_] = class536_sub33.readByte();
 						}
 						anObjectArray7195[i_48_ + i_49_ * anInt7187] = new Class536_Sub29(is_60_, is_61_);
@@ -342,7 +342,7 @@ public class Class542 {
 						is_63_ = new int[i_59_];
 						is_64_ = new byte[i_59_];
 						for (int i_65_ = 0; i_65_ < i_59_; i_65_++) {
-							is_63_[i_65_] = class536_sub33.method9720((byte) 1);
+							is_63_[i_65_] = class536_sub33.readBigSmart((byte) 1);
 							is_64_[i_65_] = class536_sub33.readByte();
 						}
 					}

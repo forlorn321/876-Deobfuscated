@@ -87,7 +87,7 @@ public class Class296 implements Interface13 {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_0_];
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++)
-				anIntArray3317[i_1_] = class536_sub33.method9720((byte) 1);
+				anIntArray3317[i_1_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 2)
 			aString3271 = class536_sub33.readString();
 		else if (12 == i)
@@ -147,7 +147,7 @@ public class Class296 implements Interface13 {
 			int i_18_ = class536_sub33.readUnsignedByte();
 			anIntArray3274 = new int[i_18_];
 			for (int i_19_ = 0; i_19_ < i_18_; i_19_++)
-				anIntArray3274[i_19_] = class536_sub33.method9720((byte) 1);
+				anIntArray3274[i_19_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 93)
 			aBool3284 = false;
 		else if (95 == i)
@@ -174,7 +174,7 @@ public class Class296 implements Interface13 {
 					anIntArray3300[i_23_] = -1;
 					aShortArray3301[i_23_] = (short) -1;
 				} else {
-					anIntArray3300[i_23_] = class536_sub33.method9720((byte) 1);
+					anIntArray3300[i_23_] = class536_sub33.readBigSmart((byte) 1);
 					aShortArray3301[i_23_] = (short) class536_sub33.method9718(478457909);
 				}
 			}
@@ -253,7 +253,7 @@ public class Class296 implements Interface13 {
 		} else if (137 == i)
 			anInt3310 = class536_sub33.readUnsignedShort() * 1746390003;
 		else if (i == 138)
-			anInt3302 = class536_sub33.method9720((byte) 1) * 397155479;
+			anInt3302 = class536_sub33.readBigSmart((byte) 1) * 397155479;
 		else if (140 == i)
 			anInt3295 = class536_sub33.readUnsignedByte() * -985081875;
 		else if (141 == i)
@@ -352,7 +352,7 @@ public class Class296 implements Interface13 {
 			int i_39_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_39_];
 			for (int i_40_ = 0; i_40_ < i_39_; i_40_++)
-				anIntArray3317[i_40_] = class536_sub33.method9720((byte) 1);
+				anIntArray3317[i_40_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 2)
 			aString3271 = class536_sub33.readString();
 		else if (12 == i)
@@ -412,7 +412,7 @@ public class Class296 implements Interface13 {
 			int i_57_ = class536_sub33.readUnsignedByte();
 			anIntArray3274 = new int[i_57_];
 			for (int i_58_ = 0; i_58_ < i_57_; i_58_++)
-				anIntArray3274[i_58_] = class536_sub33.method9720((byte) 1);
+				anIntArray3274[i_58_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 93)
 			aBool3284 = false;
 		else if (95 == i)
@@ -439,7 +439,7 @@ public class Class296 implements Interface13 {
 					anIntArray3300[i_62_] = -1;
 					aShortArray3301[i_62_] = (short) -1;
 				} else {
-					anIntArray3300[i_62_] = class536_sub33.method9720((byte) 1);
+					anIntArray3300[i_62_] = class536_sub33.readBigSmart((byte) 1);
 					aShortArray3301[i_62_] = (short) class536_sub33.method9718(-359733817);
 				}
 			}
@@ -518,7 +518,7 @@ public class Class296 implements Interface13 {
 		} else if (137 == i)
 			anInt3310 = class536_sub33.readUnsignedShort() * 1746390003;
 		else if (i == 138)
-			anInt3302 = class536_sub33.method9720((byte) 1) * 397155479;
+			anInt3302 = class536_sub33.readBigSmart((byte) 1) * 397155479;
 		else if (140 == i)
 			anInt3295 = class536_sub33.readUnsignedByte() * -985081875;
 		else if (141 == i)
@@ -842,7 +842,7 @@ public class Class296 implements Interface13 {
 			int i_96_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_96_];
 			for (int i_97_ = 0; i_97_ < i_96_; i_97_++)
-				anIntArray3317[i_97_] = class536_sub33.method9720((byte) 1);
+				anIntArray3317[i_97_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 2)
 			aString3271 = class536_sub33.readString();
 		else if (12 == i)
@@ -902,7 +902,7 @@ public class Class296 implements Interface13 {
 			int i_114_ = class536_sub33.readUnsignedByte();
 			anIntArray3274 = new int[i_114_];
 			for (int i_115_ = 0; i_115_ < i_114_; i_115_++)
-				anIntArray3274[i_115_] = class536_sub33.method9720((byte) 1);
+				anIntArray3274[i_115_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 93)
 			aBool3284 = false;
 		else if (95 == i)
@@ -929,7 +929,7 @@ public class Class296 implements Interface13 {
 					anIntArray3300[i_119_] = -1;
 					aShortArray3301[i_119_] = (short) -1;
 				} else {
-					anIntArray3300[i_119_] = class536_sub33.method9720((byte) 1);
+					anIntArray3300[i_119_] = class536_sub33.readBigSmart((byte) 1);
 					aShortArray3301[i_119_] = (short) class536_sub33.method9718(597527978);
 				}
 			}
@@ -1008,7 +1008,7 @@ public class Class296 implements Interface13 {
 		} else if (137 == i)
 			anInt3310 = class536_sub33.readUnsignedShort() * 1746390003;
 		else if (i == 138)
-			anInt3302 = class536_sub33.method9720((byte) 1) * 397155479;
+			anInt3302 = class536_sub33.readBigSmart((byte) 1) * 397155479;
 		else if (140 == i)
 			anInt3295 = class536_sub33.readUnsignedByte() * -985081875;
 		else if (141 == i)
@@ -1109,7 +1109,7 @@ public class Class296 implements Interface13 {
 			int i_133_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_133_];
 			for (int i_134_ = 0; i_134_ < i_133_; i_134_++)
-				anIntArray3317[i_134_] = class536_sub33.method9720((byte) 1);
+				anIntArray3317[i_134_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 2)
 			aString3271 = class536_sub33.readString();
 		else if (12 == i)
@@ -1169,7 +1169,7 @@ public class Class296 implements Interface13 {
 			int i_151_ = class536_sub33.readUnsignedByte();
 			anIntArray3274 = new int[i_151_];
 			for (int i_152_ = 0; i_152_ < i_151_; i_152_++)
-				anIntArray3274[i_152_] = class536_sub33.method9720((byte) 1);
+				anIntArray3274[i_152_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 93)
 			aBool3284 = false;
 		else if (95 == i)
@@ -1196,7 +1196,7 @@ public class Class296 implements Interface13 {
 					anIntArray3300[i_156_] = -1;
 					aShortArray3301[i_156_] = (short) -1;
 				} else {
-					anIntArray3300[i_156_] = class536_sub33.method9720((byte) 1);
+					anIntArray3300[i_156_] = class536_sub33.readBigSmart((byte) 1);
 					aShortArray3301[i_156_] = (short) class536_sub33.method9718(-1187544475);
 				}
 			}
@@ -1275,7 +1275,7 @@ public class Class296 implements Interface13 {
 		} else if (137 == i)
 			anInt3310 = class536_sub33.readUnsignedShort() * 1746390003;
 		else if (i == 138)
-			anInt3302 = class536_sub33.method9720((byte) 1) * 397155479;
+			anInt3302 = class536_sub33.readBigSmart((byte) 1) * 397155479;
 		else if (140 == i)
 			anInt3295 = class536_sub33.readUnsignedByte() * -985081875;
 		else if (141 == i)
@@ -1365,7 +1365,7 @@ public class Class296 implements Interface13 {
 			int i_170_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_170_];
 			for (int i_171_ = 0; i_171_ < i_170_; i_171_++)
-				anIntArray3317[i_171_] = class536_sub33.method9720((byte) 1);
+				anIntArray3317[i_171_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 2)
 			aString3271 = class536_sub33.readString();
 		else if (12 == i)
@@ -1425,7 +1425,7 @@ public class Class296 implements Interface13 {
 			int i_188_ = class536_sub33.readUnsignedByte();
 			anIntArray3274 = new int[i_188_];
 			for (int i_189_ = 0; i_189_ < i_188_; i_189_++)
-				anIntArray3274[i_189_] = class536_sub33.method9720((byte) 1);
+				anIntArray3274[i_189_] = class536_sub33.readBigSmart((byte) 1);
 		} else if (i == 93)
 			aBool3284 = false;
 		else if (95 == i)
@@ -1452,7 +1452,7 @@ public class Class296 implements Interface13 {
 					anIntArray3300[i_193_] = -1;
 					aShortArray3301[i_193_] = (short) -1;
 				} else {
-					anIntArray3300[i_193_] = class536_sub33.method9720((byte) 1);
+					anIntArray3300[i_193_] = class536_sub33.readBigSmart((byte) 1);
 					aShortArray3301[i_193_] = (short) class536_sub33.method9718(-1098795453);
 				}
 			}
@@ -1531,7 +1531,7 @@ public class Class296 implements Interface13 {
 		} else if (137 == i)
 			anInt3310 = class536_sub33.readUnsignedShort() * 1746390003;
 		else if (i == 138)
-			anInt3302 = class536_sub33.method9720((byte) 1) * 397155479;
+			anInt3302 = class536_sub33.readBigSmart((byte) 1) * 397155479;
 		else if (140 == i)
 			anInt3295 = class536_sub33.readUnsignedByte() * -985081875;
 		else if (141 == i)

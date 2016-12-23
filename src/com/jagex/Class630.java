@@ -259,7 +259,7 @@ public class Class630 {
 		if ((i_16_ & 0x10) != 0) {
 			int[] is = new int[4];
 			for (int i_47_ = 0; i_47_ < 4; i_47_++)
-				is[i_47_] = class536_sub33_sub2.method9720((byte) 1);
+				is[i_47_] = class536_sub33_sub2.readBigSmart((byte) 1);
 			int i_48_ = class536_sub33_sub2.readUnsigned128Byte();
 			Class360_Sub1.method9269(class649_sub1_sub5_sub1_sub2, is, i_48_, false, 1131805852);
 		}
@@ -335,7 +335,7 @@ public class Class630 {
 			int[] is_74_ = new int[i_73_];
 			int[] is_75_ = new int[i_73_];
 			for (int i_76_ = 0; i_76_ < i_73_; i_76_++) {
-				is[i_76_] = class536_sub33_sub2.method9720((byte) 1);
+				is[i_76_] = class536_sub33_sub2.readBigSmart((byte) 1);
 				is_74_[i_76_] = class536_sub33_sub2.readUnsigned128Byte();
 				is_75_[i_76_] = class536_sub33_sub2.readUnsignedShort128();
 			}

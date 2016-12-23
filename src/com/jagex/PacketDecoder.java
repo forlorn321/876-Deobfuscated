@@ -1531,7 +1531,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4612) {
 			int i_252_ = stream.readUnsignedByte();
-			int i_253_ = stream.method9720((byte) 1);
+			int i_253_ = stream.readBigSmart((byte) 1);
 			if (client.aClass526Array11021[i_252_] != null) {
 				client.aClass526Array11021[i_252_].method6415(client.aClass515_11066.method6249(828325686), (byte) 0);
 				client.aClass526Array11021[i_252_] = null;

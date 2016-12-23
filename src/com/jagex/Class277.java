@@ -90,7 +90,7 @@ public class Class277 implements Interface13 {
 		} else if (i == 15)
 			anInt3032 = class536_sub33.readUnsignedShort() * -757256069;
 		else if (i == 17)
-			anInt3048 = class536_sub33.method9720((byte) 1) * 1566078101;
+			anInt3048 = class536_sub33.readBigSmart((byte) 1) * 1566078101;
 		else if (i == 18) {
 			int i_12_ = class536_sub33.readUnsignedByte();
 			anIntArray3044 = new int[i_12_];
@@ -322,7 +322,7 @@ public class Class277 implements Interface13 {
 		} else if (i == 15)
 			anInt3032 = class536_sub33.readUnsignedShort() * -757256069;
 		else if (i == 17)
-			anInt3048 = class536_sub33.method9720((byte) 1) * 1566078101;
+			anInt3048 = class536_sub33.readBigSmart((byte) 1) * 1566078101;
 		else if (i == 18) {
 			int i_49_ = class536_sub33.readUnsignedByte();
 			anIntArray3044 = new int[i_49_];
@@ -419,7 +419,7 @@ public class Class277 implements Interface13 {
 		} else if (i == 15)
 			anInt3032 = class536_sub33.readUnsignedShort() * -757256069;
 		else if (i == 17)
-			anInt3048 = class536_sub33.method9720((byte) 1) * 1566078101;
+			anInt3048 = class536_sub33.readBigSmart((byte) 1) * 1566078101;
 		else if (i == 18) {
 			int i_67_ = class536_sub33.readUnsignedByte();
 			anIntArray3044 = new int[i_67_];

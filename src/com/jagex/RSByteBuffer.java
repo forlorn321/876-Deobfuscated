@@ -281,7 +281,7 @@ public class RSByteBuffer extends Class536 {
 		return i_35_;
 	}
 
-	public int method9720(byte i) {
+	public int readBigSmart(byte i) {
 		if (buffer[off * -810172525] < 0)
 			return readInt() & 0x7fffffff;
 		int i_37_ = readUnsignedShort();
@@ -290,7 +290,7 @@ public class RSByteBuffer extends Class536 {
 		return i_37_;
 	}
 
-	public void method9721(long l) {
+	public void write36BitLong(long l) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 32);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 24);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (int) (l >> 16);

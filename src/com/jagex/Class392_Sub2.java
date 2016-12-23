@@ -19,7 +19,7 @@ public class Class392_Sub2 extends Class392 {
 		Class392 class392 = Class392.method4864(class536_sub33, 220535026);
 		int i = class536_sub33.readInt();
 		int i_0_ = class536_sub33.readInt();
-		int i_1_ = class536_sub33.method9720((byte) 1);
+		int i_1_ = class536_sub33.readBigSmart((byte) 1);
 		return new Class392_Sub2(class392.aClass395_4064, class392.aClass399_4065, class392.anInt4066 * 316945261, class392.anInt4069 * 1917287119, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i, i_0_, i_1_);
 	}
 
@@ -37,7 +37,7 @@ public class Class392_Sub2 extends Class392 {
 		Class392 class392 = Class392.method4864(class536_sub33, -2128180342);
 		int i = class536_sub33.readInt();
 		int i_11_ = class536_sub33.readInt();
-		int i_12_ = class536_sub33.method9720((byte) 1);
+		int i_12_ = class536_sub33.readBigSmart((byte) 1);
 		return new Class392_Sub2(class392.aClass395_4064, class392.aClass399_4065, class392.anInt4066 * 316945261, class392.anInt4069 * 1917287119, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i, i_11_, i_12_);
 	}
 }

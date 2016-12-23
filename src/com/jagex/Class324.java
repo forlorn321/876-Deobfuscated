@@ -52,7 +52,7 @@ public class Class324 implements Interface14 {
 			aClass458_3557 = ((Class458) Class682.method8091(Class458.method5497((byte) 14), i_2_, 1858049507));
 			if (aClass458_3557 == null)
 				throw new IllegalStateException("");
-			anInt3558 = class536_sub33.method9720((byte) 1) * -590500391;
+			anInt3558 = class536_sub33.readBigSmart((byte) 1) * -590500391;
 			if (null != aClass325_3552) {
 				Interface12 interface12 = ((Interface12) aClass325_3552.aMap3560.get(aClass458_3557));
 				if (null != interface12)

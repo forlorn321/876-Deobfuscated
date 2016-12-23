@@ -131,7 +131,6 @@ public class Class47_Sub1 extends Class47 {
 		}
 		if (proxy.type() == Proxy.Type.SOCKS) {
 			Socket socket = new Socket(proxy);
-			System.out.println("New socks socket: " + aString576 + ", " + (anInt577 * -657305375));
 			socket.connect(new InetSocketAddress(aString576, anInt577 * -657305375));
 			return socket;
 		}

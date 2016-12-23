@@ -36,12 +36,12 @@ public final class Class676 {
 
 	public static Class392 method8040(RSByteBuffer class536_sub33, byte i) {
 		Class392 class392 = Class392.method4864(class536_sub33, -1168751813);
-		int i_0_ = class536_sub33.method9720((byte) 1);
-		int i_1_ = class536_sub33.method9720((byte) 1);
-		int i_2_ = class536_sub33.method9720((byte) 1);
-		int i_3_ = class536_sub33.method9720((byte) 1);
-		int i_4_ = class536_sub33.method9720((byte) 1);
-		int i_5_ = class536_sub33.method9720((byte) 1);
+		int i_0_ = class536_sub33.readBigSmart((byte) 1);
+		int i_1_ = class536_sub33.readBigSmart((byte) 1);
+		int i_2_ = class536_sub33.readBigSmart((byte) 1);
+		int i_3_ = class536_sub33.readBigSmart((byte) 1);
+		int i_4_ = class536_sub33.readBigSmart((byte) 1);
+		int i_5_ = class536_sub33.readBigSmart((byte) 1);
 		return new Class392_Sub3(class392.aClass395_4064, class392.aClass399_4065, 316945261 * class392.anInt4066, class392.anInt4069 * 1917287119, -1755858667 * class392.anInt4068, class392.anInt4067 * -840030237, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_);
 	}
 

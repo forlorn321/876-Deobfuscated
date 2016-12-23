@@ -30,7 +30,7 @@ public class Class638 implements Interface13 {
 
 	void method7644(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (i == 1)
-			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
+			anInt8302 = class536_sub33.readBigSmart((byte) 1) * 937256053;
 		else if (i == 2) {
 			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
 			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
@@ -66,7 +66,7 @@ public class Class638 implements Interface13 {
 
 	void method7646(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
+			anInt8302 = class536_sub33.readBigSmart((byte) 1) * 937256053;
 		else if (i == 2) {
 			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
 			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
@@ -75,7 +75,7 @@ public class Class638 implements Interface13 {
 
 	void method7647(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
+			anInt8302 = class536_sub33.readBigSmart((byte) 1) * 937256053;
 		else if (i == 2) {
 			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
 			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
@@ -84,7 +84,7 @@ public class Class638 implements Interface13 {
 
 	void method7648(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt8302 = class536_sub33.method9720((byte) 1) * 937256053;
+			anInt8302 = class536_sub33.readBigSmart((byte) 1) * 937256053;
 		else if (i == 2) {
 			anInt8304 = class536_sub33.readUnsignedByte() * 148675805;
 			anInt8305 = class536_sub33.readUnsignedByte() * 847276645;
