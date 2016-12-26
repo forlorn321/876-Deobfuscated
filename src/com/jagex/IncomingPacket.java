@@ -19,7 +19,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4603;
 	public static IncomingPacket aClass422_4604;
 	public static IncomingPacket UPDATE_ITEM_CONTAINER;
-	public static IncomingPacket aClass422_4606;
+	public static IncomingPacket PUBLIC_CHAT;
 	public static IncomingPacket aClass422_4607;
 	public static IncomingPacket aClass422_4608;
 	public static IncomingPacket aClass422_4609;
@@ -242,7 +242,7 @@ public class IncomingPacket {
 		PING = new IncomingPacket(32, 0);
 		aClass422_4624 = new IncomingPacket(33, 10);
 		ICOMPONENT_TEXT = new IncomingPacket(34, -2);
-		aClass422_4606 = new IncomingPacket(35, -1);
+		PUBLIC_CHAT = new IncomingPacket(35, -1);
 		aClass422_4627 = new IncomingPacket(36, 32);
 		aClass422_4628 = new IncomingPacket(37, 0);
 		aClass422_4629 = new IncomingPacket(38, 2);

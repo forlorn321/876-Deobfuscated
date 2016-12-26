@@ -158,7 +158,7 @@ public class Class45 {
 							Class688_Sub3.method10358((byte) 7);
 						} else
 							client.aClass106_11218.method1418(1138067614);
-						client.aClass106_11218.aClass422_1261 = null;
+						client.aClass106_11218.currentPacket = null;
 						aClass42_525 = null;
 					}
 				}
@@ -235,7 +235,7 @@ public class Class45 {
 							Class688_Sub3.method10358((byte) -6);
 						} else
 							client.aClass106_11218.method1418(1822912073);
-						client.aClass106_11218.aClass422_1261 = null;
+						client.aClass106_11218.currentPacket = null;
 						aClass42_525 = null;
 					}
 				}
@@ -312,7 +312,7 @@ public class Class45 {
 							Class688_Sub3.method10358((byte) -91);
 						} else
 							client.aClass106_11218.method1418(136206168);
-						client.aClass106_11218.aClass422_1261 = null;
+						client.aClass106_11218.currentPacket = null;
 						aClass42_525 = null;
 					}
 				}

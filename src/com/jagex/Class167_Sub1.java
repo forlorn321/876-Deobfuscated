@@ -6040,7 +6040,7 @@ public class Class167_Sub1 extends Class167 {
 					} catch (Exception exception) {
 						/* empty */
 					}
-					Class214.method3077(new StringBuilder().append("Pausing for ").append(i_1643_).append(" seconds...").toString(), -1911675186);
+					Class214.sendPanelBoxMessage(new StringBuilder().append("Pausing for ").append(i_1643_).append(" seconds...").toString());
 					Class550_Sub1.aStringArray10618 = strings;
 					Class105.anInt1249 = -1325171319 * (1 + i_1642_);
 					Class332.aLong3619 = (Class249.method3450(2127184646) + (long) (1000 * i_1643_)) * -5369841114397763395L;

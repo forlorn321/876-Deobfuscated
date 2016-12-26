@@ -117,6 +117,6 @@ class Class558 implements Comparator {
 		Class205_Sub16.aStringArray9941 = new String[500];
 		for (int i_8_ = 0; i_8_ < Class205_Sub16.aStringArray9941.length; i_8_++)
 			Class205_Sub16.aStringArray9941[i_8_] = "";
-		Class214.method3077(Class38.aClass38_364.method840((Class459.aClass664_5178), 1947778554), -1125203742);
+		Class214.sendPanelBoxMessage(Class38.aClass38_364.method840((Class459.aClass664_5178), 1947778554));
 	}
 }

@@ -6,7 +6,7 @@ package com.jagex;
 public class OutgoingPacket {
 	public static OutgoingPacket aClass414_4402;
 	public static OutgoingPacket aClass414_4403;
-	public static OutgoingPacket aClass414_4404;
+	public static OutgoingPacket CHAT_TYPE;
 	public static OutgoingPacket aClass414_4405;
 	public static OutgoingPacket ACTION_BUTTON_10;
 	public static OutgoingPacket aClass414_4407;
@@ -31,7 +31,7 @@ public class OutgoingPacket {
 	public static OutgoingPacket aClass414_4426;
 	public static OutgoingPacket aClass414_4427;
 	public static OutgoingPacket aClass414_4428;
-	public static OutgoingPacket aClass414_4429;
+	public static OutgoingPacket CLICK_2;
 	static OutgoingPacket aClass414_4430;
 	public static OutgoingPacket aClass414_4431;
 	public static OutgoingPacket aClass414_4432;
@@ -77,7 +77,7 @@ public class OutgoingPacket {
 	public static OutgoingPacket aClass414_4472;
 	public static OutgoingPacket aClass414_4473;
 	public static OutgoingPacket aClass414_4474;
-	public static OutgoingPacket aClass414_4475;
+	public static OutgoingPacket CLICK_1;
 	public static OutgoingPacket aClass414_4476;
 	public static OutgoingPacket aClass414_4477;
 	public static OutgoingPacket aClass414_4478;
@@ -90,8 +90,8 @@ public class OutgoingPacket {
 	public static OutgoingPacket aClass414_4485;
 	public static OutgoingPacket aClass414_4486;
 	public static OutgoingPacket aClass414_4487;
-	public static OutgoingPacket aClass414_4488;
-	public static OutgoingPacket aClass414_4489;
+	public static OutgoingPacket KEYBOARD_TYPE;
+	public static OutgoingPacket PUBLIC_CHAT;
 	public static OutgoingPacket aClass414_4490;
 	public static OutgoingPacket aClass414_4491;
 	public static OutgoingPacket aClass414_4492;
@@ -132,7 +132,7 @@ public class OutgoingPacket {
 
 	static {
 		aClass414_4403 = new OutgoingPacket(1, 15);
-		aClass414_4404 = new OutgoingPacket(2, 1);
+		CHAT_TYPE = new OutgoingPacket(2, 1);
 		aClass414_4446 = new OutgoingPacket(3, -1);
 		ACTION_BUTTON_10 = new OutgoingPacket(4, 8);
 		aClass414_4506 = new OutgoingPacket(5, -1);
@@ -157,7 +157,7 @@ public class OutgoingPacket {
 		aClass414_4407 = new OutgoingPacket(24, 7);
 		aClass414_4427 = new OutgoingPacket(25, 1);
 		aClass414_4428 = new OutgoingPacket(26, 7);
-		aClass414_4429 = new OutgoingPacket(27, 7);
+		CLICK_2 = new OutgoingPacket(27, 7);
 		aClass414_4436 = new OutgoingPacket(28, 7);
 		aClass414_4431 = new OutgoingPacket(29, 9);
 		aClass414_4504 = new OutgoingPacket(30, -2);
@@ -203,7 +203,7 @@ public class OutgoingPacket {
 		aClass414_4472 = new OutgoingPacket(70, 7);
 		aClass414_4473 = new OutgoingPacket(71, -1);
 		ACTION_BUTTON_2 = new OutgoingPacket(72, 8);
-		aClass414_4475 = new OutgoingPacket(73, 6);
+		CLICK_1 = new OutgoingPacket(73, 6);
 		aClass414_4476 = new OutgoingPacket(74, -2);
 		aClass414_4477 = new OutgoingPacket(75, -1);
 		aClass414_4478 = new OutgoingPacket(76, 4);
@@ -216,8 +216,8 @@ public class OutgoingPacket {
 		aClass414_4485 = new OutgoingPacket(83, -2);
 		aClass414_4441 = new OutgoingPacket(84, 3);
 		aClass414_4487 = new OutgoingPacket(85, 11);
-		aClass414_4488 = new OutgoingPacket(86, -2);
-		aClass414_4489 = new OutgoingPacket(87, -1);
+		KEYBOARD_TYPE = new OutgoingPacket(86, -2);
+		PUBLIC_CHAT = new OutgoingPacket(87, -1);
 		aClass414_4490 = new OutgoingPacket(88, 3);
 		aClass414_4491 = new OutgoingPacket(89, 5);
 		aClass414_4492 = new OutgoingPacket(90, 9);

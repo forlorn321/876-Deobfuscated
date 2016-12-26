@@ -212,7 +212,7 @@ public class Class659 {
 		aClass637_Sub2_8502.method7625((short) -20737);
 		aClass637_Sub1_8503.method7625((short) -11675);
 		if (-1621465757 * client.anInt11036 > 0) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4488, client.aClass106_11322.aClass15_1258, 1825204396);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.KEYBOARD_TYPE, client.aClass106_11322.aClass15_1258, 1825204396);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(2104071564 * client.anInt11036, -1778059594);
 			for (int i = 0; i < client.anInt11036 * -1621465757; i++) {
 				Interface63 interface63 = client.anInterface63Array11037[i];
@@ -320,7 +320,7 @@ public class Class659 {
 		aClass637_Sub2_8502.method7625((short) -27229);
 		aClass637_Sub1_8503.method7625((short) -16086);
 		if (-1621465757 * client.anInt11036 > 0) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4488, client.aClass106_11322.aClass15_1258, 798977185);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.KEYBOARD_TYPE, client.aClass106_11322.aClass15_1258, 798977185);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(2104071564 * client.anInt11036, -1778059594);
 			for (int i = 0; i < client.anInt11036 * -1621465757; i++) {
 				Interface63 interface63 = client.anInterface63Array11037[i];

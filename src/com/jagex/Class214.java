@@ -31,7 +31,7 @@ public class Class214 implements Interface27 {
 		class226.method3240(-662857247 * anInt2300, aClass222_2299, -287201202);
 	}
 
-	public static void method3077(String string, int i) {
+	public static void sendPanelBoxMessage(String message) {
 		if (Class205_Sub16.aStringArray9941 == null)
 			Class558.method6818(1551682379);
 		client.aCalendar11296.setTime(new Date(Class249.method3450(1766258818)));
@@ -39,7 +39,7 @@ public class Class214 implements Interface27 {
 		int i_1_ = client.aCalendar11296.get(12);
 		int i_2_ = client.aCalendar11296.get(13);
 		String string_3_ = new StringBuilder().append(Integer.toString(i_0_ / 10)).append(i_0_ % 10).append(":").append(i_1_ / 10).append(i_1_ % 10).append(":").append(i_2_ / 10).append(i_2_ % 10).toString();
-		String[] strings = Class344.method4483(string, '\n', (byte) -33);
+		String[] strings = Class344.method4483(message, '\n', (byte) -33);
 		for (int i_4_ = 0; i_4_ < strings.length; i_4_++) {
 			for (int i_5_ = Class105.anInt1247 * -2122502799; i_5_ > 0; i_5_--)
 				Class205_Sub16.aStringArray9941[i_5_] = Class205_Sub16.aStringArray9941[i_5_ - 1];

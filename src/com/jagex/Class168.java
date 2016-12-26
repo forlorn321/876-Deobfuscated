@@ -27,8 +27,8 @@ public abstract class Class168 {
 		Class575.anInt7669 = i_5_ * 419145933;
 		if (0 != i_0_)
 			i_6_ = i_6_ * i_0_ / 100;
-		Class214.method3077(new StringBuilder().append("Stream - Input: ").append(Class144.anInt1679 * -1804846931).append("x").append(589116499 * Class34_Sub6.anInt10965).append(" (").append(i_7_).append("kbps)").append(" => ").append("Output: ").append(i_4_).append("x").append(i_5_).append(" [").append(i == 0 ? "auto" : new StringBuilder().append(i).append("%").toString()).append("] (").append(i_6_).append("kbps [")
-				.append(i_0_ == 0 ? "auto" : new StringBuilder().append(i_0_).append("%").toString()).append("])").toString(), -1221298618);
+		Class214.sendPanelBoxMessage(new StringBuilder().append("Stream - Input: ").append(Class144.anInt1679 * -1804846931).append("x").append(589116499 * Class34_Sub6.anInt10965).append(" (").append(i_7_).append("kbps)").append(" => ").append("Output: ").append(i_4_).append("x").append(i_5_).append(" [").append(i == 0 ? "auto" : new StringBuilder().append(i).append("%").toString()).append("] (").append(i_6_).append("kbps [")
+				.append(i_0_ == 0 ? "auto" : new StringBuilder().append(i_0_).append("%").toString()).append("])").toString());
 		return (Class536_Sub42.aTwitchTV10811.StartStreaming(i_4_, i_5_, i_1_, i_6_, 0 != i_0_, Class575.aFloat7672, 876028591 * Class575.anInt7654, bool));
 	}
 

@@ -18,7 +18,7 @@ public class Class299 {
 	static void method4016(int i) {
 		Class586.aClass106_7710.method1407(-1921348258);
 		Class586.aClass106_7710.byteBuffer.off = 0;
-		Class586.aClass106_7710.aClass422_1261 = null;
+		Class586.aClass106_7710.currentPacket = null;
 		Class586.aClass106_7710.aClass422_1270 = null;
 		Class586.aClass106_7710.aClass422_1271 = null;
 		Class586.aClass106_7710.aClass422_1274 = null;

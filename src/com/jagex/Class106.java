@@ -14,7 +14,7 @@ public class Class106 {
 	public Class15 aClass15_1258;
 	int anInt1259;
 	Class15 aClass15_1260;
-	IncomingPacket aClass422_1261;
+	IncomingPacket currentPacket;
 	int anInt1262;
 	boolean aBool1263;
 	int anInt1264;
@@ -92,7 +92,7 @@ public class Class106 {
 	Class106() {
 		aClass536_Sub33_1257 = new RSByteBuffer(1700);
 		byteBuffer = new RSBitBuffer(40000);
-		aClass422_1261 = null;
+		currentPacket = null;
 		anInt1262 = 0;
 		aBool1263 = true;
 		anInt1264 = 0;

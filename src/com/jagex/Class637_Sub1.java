@@ -16,7 +16,7 @@ public class Class637_Sub1 extends Class637 {
 	void method7624(int i) {
 		Class536_Sub31_Sub2 class536_sub31_sub2 = (Class536_Sub31_Sub2) aQueue10826.poll();
 		if (class536_sub31_sub2 != null) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4429, client.aClass106_11322.aClass15_1258, 829843227);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 829843227);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE((class536_sub31_sub2.method9647(-2090995109) | class536_sub31_sub2.method9643((byte) 1) << 16), 1884805680);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(method7628(class536_sub31_sub2, 65535, 52652528), (byte) 0);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1), (byte) 54);
@@ -44,7 +44,7 @@ public class Class637_Sub1 extends Class637 {
 	void method7631() {
 		Class536_Sub31_Sub2 class536_sub31_sub2 = (Class536_Sub31_Sub2) aQueue10826.poll();
 		if (class536_sub31_sub2 != null) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4429, client.aClass106_11322.aClass15_1258, 1786998046);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 1786998046);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE((class536_sub31_sub2.method9647(-1657912532) | class536_sub31_sub2.method9643((byte) 1) << 16), 1795334448);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(method7628(class536_sub31_sub2, 65535, -195482653), (byte) 0);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1), (byte) 101);

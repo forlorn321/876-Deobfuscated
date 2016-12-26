@@ -347,7 +347,7 @@ public final class Class644 {
 		Class659.aClass637_Sub2_8502.method7625((short) -16011);
 		Class659.aClass637_Sub1_8503.method7625((short) -5643);
 		if (-1621465757 * client.anInt11036 > 0) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4488, client.aClass106_11322.aClass15_1258, 2106004118);
+			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.KEYBOARD_TYPE, client.aClass106_11322.aClass15_1258, 2106004118);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(2104071564 * client.anInt11036, -1778059594);
 			for (int i_23_ = 0; i_23_ < client.anInt11036 * -1621465757; i_23_++) {
 				Interface63 interface63 = client.anInterface63Array11037[i_23_];

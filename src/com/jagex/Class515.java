@@ -919,7 +919,7 @@ public class Class515 {
 			}
 		}
 		if (aBool7004) {
-			Class214.method3077(Long.toString(Class249.method3450(1583288708) - (aLong6997 * -8589650872127847125L)), -1379397406);
+			Class214.sendPanelBoxMessage(Long.toString(Class249.method3450(1583288708) - (aLong6997 * -8589650872127847125L)));
 			aBool7004 = false;
 		}
 		if (bool_108_) {

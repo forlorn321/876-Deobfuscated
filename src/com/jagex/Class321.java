@@ -227,7 +227,7 @@ public class Class321 implements Interface33 {
 	static final void method4247(Class668 class668, int i) {
 		int i_52_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4404, class106.aClass15_1258, 990169686);
+		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CHAT_TYPE, class106.aClass15_1258, 990169686);
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_52_);
 		class106.method1409(class536_sub23, -430384915);
 	}

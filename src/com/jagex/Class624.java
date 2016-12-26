@@ -32,7 +32,7 @@ public class Class624 {
 					} catch (Exception exception) {
 						/* empty */
 					}
-					Class214.method3077(new StringBuilder().append("Pausing for ").append(i_4_).append(" seconds...").toString(), -1393270231);
+					Class214.sendPanelBoxMessage(new StringBuilder().append("Pausing for ").append(i_4_).append(" seconds...").toString());
 					Class105.anInt1249 = -1325171319 * (1 + i_3_);
 					Class332.aLong3619 = (Class249.method3450(1872679951) + (long) (1000 * i_4_)) * -5369841114397763395L;
 					return;

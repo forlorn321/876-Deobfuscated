@@ -45,7 +45,7 @@ public abstract class Class247 implements Interface6 {
 		int i_4_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1];
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (i_3_ == 99)
-			Class214.method3077(string, -777877193);
+			Class214.sendPanelBoxMessage(string);
 		else if (98 == i_3_)
 			Class298.method4013(string, -2086717899);
 		else

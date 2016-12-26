@@ -744,7 +744,7 @@ public class Class61 {
 								Class537.method6507(2, 1280785913);
 								Class392_Sub3.method9309(470289184);
 								Class673.method8026(0, -1798113843);
-								Class586.aClass106_7710.aClass422_1261 = null;
+								Class586.aClass106_7710.currentPacket = null;
 								break;
 							}
 						}
@@ -762,7 +762,7 @@ public class Class61 {
 									break;
 								Class586.aClass106_7710.method1413((short) 1765).method6899(class536_sub33_sub2.buffer, 3, 1, -607916449);
 							}
-							Class586.aClass106_7710.aClass422_1261 = (Class374.method4778(1708415283)[class536_sub33_sub2.method10778(-666657511)]);
+							Class586.aClass106_7710.currentPacket = (Class374.method4778(1708415283)[class536_sub33_sub2.method10778(-666657511)]);
 							Class586.aClass106_7710.anInt1262 = (class536_sub33_sub2.readUnsignedShort() * 925220183);
 							loginStage = -1671613313;
 						}
@@ -779,13 +779,13 @@ public class Class61 {
 								RSBitBuffer class536_sub33_sub2 = new RSBitBuffer(i_16_);
 								System.arraycopy((Class586.aClass106_7710.byteBuffer.buffer), (Class586.aClass106_7710.byteBuffer.off) * -810172525, (class536_sub33_sub2.buffer), 0, i_16_);
 								Class586.aClass106_7710.byteBuffer.off += i_16_ * 516175515;
-								if (IncomingPacket.DYNAMIC_MAP_SCENE == Class586.aClass106_7710.aClass422_1261)
+								if (IncomingPacket.DYNAMIC_MAP_SCENE == Class586.aClass106_7710.currentPacket)
 									client.aClass515_11066.method6291(new Class510(Class498.aClass498_5558, class536_sub33_sub2), (byte) 7);
 								else
 									client.aClass515_11066.method6291(new Class510(Class498.aClass498_5557, class536_sub33_sub2), (byte) 11);
 								if (-810172525 * (Class586.aClass106_7710.byteBuffer.off) != i_15_)
 									throw new RuntimeException(new StringBuilder().append(-810172525 * (Class586.aClass106_7710.byteBuffer.off)).append(" ").append(i_15_).toString());
-								Class586.aClass106_7710.aClass422_1261 = null;
+								Class586.aClass106_7710.currentPacket = null;
 							}
 						} else {
 							if (loginStage * -129171495 != 208)
@@ -807,7 +807,7 @@ public class Class61 {
 								Class57.method972((Class586.aClass106_7710.byteBuffer), (byte) 93);
 								if (-810172525 * (Class586.aClass106_7710.byteBuffer.off) != i_17_)
 									throw new RuntimeException(new StringBuilder().append((Class586.aClass106_7710.byteBuffer.off) * -810172525).append(" ").append(i_17_).toString());
-								Class586.aClass106_7710.aClass422_1261 = null;
+								Class586.aClass106_7710.currentPacket = null;
 							}
 						}
 					}
@@ -1174,7 +1174,7 @@ public class Class61 {
 	static void method1038() {
 		Class586.aClass106_7710.method1407(-267257676);
 		Class586.aClass106_7710.byteBuffer.off = 0;
-		Class586.aClass106_7710.aClass422_1261 = null;
+		Class586.aClass106_7710.currentPacket = null;
 		Class586.aClass106_7710.aClass422_1270 = null;
 		Class586.aClass106_7710.aClass422_1271 = null;
 		Class586.aClass106_7710.aClass422_1274 = null;
@@ -1206,7 +1206,7 @@ public class Class61 {
 	static void method1039() {
 		Class586.aClass106_7710.method1407(-250216503);
 		Class586.aClass106_7710.byteBuffer.off = 0;
-		Class586.aClass106_7710.aClass422_1261 = null;
+		Class586.aClass106_7710.currentPacket = null;
 		Class586.aClass106_7710.aClass422_1270 = null;
 		Class586.aClass106_7710.aClass422_1271 = null;
 		Class586.aClass106_7710.aClass422_1274 = null;
@@ -1238,7 +1238,7 @@ public class Class61 {
 	static void method1040() {
 		Class586.aClass106_7710.method1407(-677648624);
 		Class586.aClass106_7710.byteBuffer.off = 0;
-		Class586.aClass106_7710.aClass422_1261 = null;
+		Class586.aClass106_7710.currentPacket = null;
 		Class586.aClass106_7710.aClass422_1270 = null;
 		Class586.aClass106_7710.aClass422_1271 = null;
 		Class586.aClass106_7710.aClass422_1274 = null;

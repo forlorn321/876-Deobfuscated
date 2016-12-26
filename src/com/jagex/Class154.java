@@ -122,7 +122,7 @@ class Class154 implements Runnable {
 							Class688_Sub3.method10358((byte) -104);
 						} else
 							client.aClass106_11218.method1418(873323420);
-						client.aClass106_11218.aClass422_1261 = null;
+						client.aClass106_11218.currentPacket = null;
 						Class45.aClass42_525 = null;
 					}
 				}

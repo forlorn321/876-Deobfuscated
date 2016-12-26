@@ -29,7 +29,7 @@ public abstract class Class325 implements Interface6 {
 		if (Class105.aString1243.length() == 0)
 			Class105.anInt1246 = 0;
 		else {
-			Class214.method3077(new StringBuilder().append("--> ").append(Class105.aString1243).toString(), -695586710);
+			Class214.sendPanelBoxMessage(new StringBuilder().append("--> ").append(Class105.aString1243).toString());
 			Class512.method6211(Class105.aString1243, false, bool, (byte) 80);
 			if (!bool) {
 				Class105.anInt1246 = 0;
