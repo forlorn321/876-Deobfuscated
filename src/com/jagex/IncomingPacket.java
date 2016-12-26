@@ -18,7 +18,7 @@ public class IncomingPacket {
 	public static IncomingPacket SOUND_EFFECT;
 	public static IncomingPacket aClass422_4603;
 	public static IncomingPacket aClass422_4604;
-	public static IncomingPacket SEND_ITEMS;
+	public static IncomingPacket UPDATE_ITEM_CONTAINER;
 	public static IncomingPacket aClass422_4606;
 	public static IncomingPacket aClass422_4607;
 	public static IncomingPacket aClass422_4608;
@@ -144,7 +144,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4728;
 	public static IncomingPacket aClass422_4729;
 	public static IncomingPacket aClass422_4730;
-	public static IncomingPacket aClass422_4731;
+	public static IncomingPacket ITEM_CONTAINER;
 	public static IncomingPacket aClass422_4732;
 	public static IncomingPacket VARP_1;
 	public static IncomingPacket INTERFACE_SETTINGS;
@@ -221,7 +221,7 @@ public class IncomingPacket {
 		SOUND_EFFECT = new IncomingPacket(11, 8);
 		aClass422_4772 = new IncomingPacket(12, 5);
 		aClass422_4604 = new IncomingPacket(13, 25);
-		SEND_ITEMS = new IncomingPacket(14, -2);
+		UPDATE_ITEM_CONTAINER = new IncomingPacket(14, -2);
 		aClass422_4765 = new IncomingPacket(15, 8);
 		aClass422_4607 = new IncomingPacket(16, 0);
 		aClass422_4608 = new IncomingPacket(17, -1);
@@ -347,7 +347,7 @@ public class IncomingPacket {
 		aClass422_4728 = new IncomingPacket(137, 3);
 		aClass422_4704 = new IncomingPacket(138, -2);
 		aClass422_4730 = new IncomingPacket(139, 10);
-		aClass422_4731 = new IncomingPacket(140, -2);
+		ITEM_CONTAINER = new IncomingPacket(140, -2);
 		aClass422_4638 = new IncomingPacket(141, -1);
 		VARP_1 = new IncomingPacket(142, 3);
 		aClass422_4773 = new IncomingPacket(143, 4);

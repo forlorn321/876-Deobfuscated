@@ -90,7 +90,8 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.RESET_NIS_VARS); //implemented
 		IDENTIFIED.add(IncomingPacket.SKILLS); //implemented
 		IDENTIFIED.add(IncomingPacket.MAP_REGION); //implemented
-		IDENTIFIED.add(IncomingPacket.SEND_ITEMS); //implemented
+		IDENTIFIED.add(IncomingPacket.UPDATE_ITEM_CONTAINER); //implemented
+		IDENTIFIED.add(IncomingPacket.ITEM_CONTAINER); //implemented
 		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
@@ -134,7 +135,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Connecting to Rs or a Rsps
 	 */
-	public static boolean RSPS = false;
+	public static boolean RSPS = true;
 
 	/**
 	 * Chooses ip based on if Rs or Rsps
@@ -144,7 +145,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = true;
+	public static boolean DUMP = false;
 
 	/**
 	 * The parameters of the client.

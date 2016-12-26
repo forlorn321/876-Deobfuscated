@@ -1704,32 +1704,32 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4731 == class106.aClass422_1261) {
-			int i_283_ = stream.readUnsignedShort();
-			int i_284_ = stream.readUnsignedByte();
-			boolean bool = 0 != (i_284_ & 0x1);
-			boolean bool_285_ = 0 != (i_284_ & 0x2);
-			Class522.method6383(i_283_, bool, -143802020);
-			int i_286_ = stream.readUnsignedShort();
-			for (int i_287_ = 0; i_287_ < i_286_; i_287_++) {
-				int i_288_ = stream.readUnsignedShort();
-				int i_289_ = stream.readUnsignedByte();
-				if (i_289_ == 255)
-					i_289_ = stream.readInt();
+		if (IncomingPacket.ITEM_CONTAINER == class106.aClass422_1261) {
+			int key = stream.readUnsignedShort();
+			int flags = stream.readUnsignedByte();
+			boolean bool = 0 != (flags & 0x1);
+			boolean bool_285_ = 0 != (flags & 0x2);
+			Class522.method6383(key, bool, -143802020);
+			int size = stream.readUnsignedShort();
+			for (int i_287_ = 0; i_287_ < size; i_287_++) {
+				int itemId = stream.readUnsignedShort();
+				int amount = stream.readUnsignedByte();
+				if (amount == 255)
+					amount = stream.readInt();
 				Class21 class21 = null;
 				if (bool_285_) {
-					int i_290_ = stream.readUnsignedByte();
-					if (i_290_ > 0) {
+					int metadataCount = stream.readUnsignedByte();
+					if (metadataCount > 0) {
 						class21 = new Class21(Class458_Sub2.aClass98_Sub1_Sub2_10306);
-						while (i_290_-- > 0) {
+						while (metadataCount-- > 0) {
 							Class430 class430 = (Class458_Sub2.aClass98_Sub1_Sub2_10306.method8388(stream, 420708291));
 							class21.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -9);
 						}
 					}
 				}
-				Class38.method846(i_283_, i_287_, i_288_ - 1, i_289_, class21, bool, 330407149);
+				Class38.method846(key, i_287_, itemId - 1, amount, class21, bool, 330407149);
 			}
-			client.anIntArray11220[(client.anInt11221 += 705495793) * -111956463 - 1 & 0x3f] = i_283_;
+			client.anIntArray11220[(client.anInt11221 += 705495793) * -111956463 - 1 & 0x3f] = key;
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -2177,7 +2177,7 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (IncomingPacket.SEND_ITEMS == class106.aClass422_1261) {
+		if (IncomingPacket.UPDATE_ITEM_CONTAINER == class106.aClass422_1261) {
 			int key = stream.readUnsignedShort();
 			int flags = stream.readUnsignedByte();
 			boolean bool = 0 != (flags & 0x1);
