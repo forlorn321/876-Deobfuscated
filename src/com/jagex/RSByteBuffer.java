@@ -546,7 +546,7 @@ public class RSByteBuffer extends Class536 {
 		return i_85_;
 	}
 
-	public int readUnsignedByte128(byte i) {
+	public int readUnsignedByte128() {
 		return ((buffer[(off += 516175515) * -810172525 - 1] - 128) & 0xff);
 	}
 

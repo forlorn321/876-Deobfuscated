@@ -203,7 +203,7 @@ public class Class630 {
 			int i_31_ = class536_sub33_sub2.readInt();
 			if (65535 == i_30_)
 				i_30_ = -1;
-			int i_32_ = class536_sub33_sub2.readUnsignedByte128((byte) 0);
+			int i_32_ = class536_sub33_sub2.readUnsignedByte128();
 			int i_33_ = i_32_ & 0x7;
 			int i_34_ = i_32_ >> 3 & 0xf;
 			if (i_34_ == 15)
@@ -237,7 +237,7 @@ public class Class630 {
 			class536_sub33_sub2.off += 1032351030;
 			int i_39_ = (class536_sub33_sub2.buffer[((class536_sub33_sub2.off += 516175515) * -810172525 - 1)]) & 0xff;
 			for (int i_40_ = 0; i_40_ < i_39_; i_40_++) {
-				int i_41_ = class536_sub33_sub2.readUnsignedByte128((byte) 0);
+				int i_41_ = class536_sub33_sub2.readUnsignedByte128();
 				Class478 class478 = ((Class478) Class682.method8091(Class478.method5757((byte) 10), i_41_, 1858049507));
 				Class430 class430 = (Class532.aClass98_Sub1_Sub1_7122.method8390(class536_sub33_sub2, class478, 275541441));
 				class649_sub1_sub5_sub1_sub2.anInterface3_11929.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -18);
@@ -286,7 +286,7 @@ public class Class630 {
 					class649_sub1_sub5_sub1_sub2.method10871(i_54_, i_52_, i_51_, i_53_, client.anInt11014, i_55_, 2141861727);
 				}
 			}
-			int i_56_ = class536_sub33_sub2.readUnsignedByte128((byte) 0);
+			int i_56_ = class536_sub33_sub2.readUnsignedByte128();
 			if (i_56_ > 0) {
 				for (int i_57_ = 0; i_57_ < i_56_; i_57_++) {
 					int i_58_ = class536_sub33_sub2.readUnsignedSmart(-1345048628);
@@ -294,7 +294,7 @@ public class Class630 {
 					if (32767 != i_59_) {
 						int i_60_ = class536_sub33_sub2.readUnsignedSmart(-1565752433);
 						int i_61_ = class536_sub33_sub2.readUnsignedByte();
-						int i_62_ = (i_59_ > 0 ? class536_sub33_sub2.readUnsignedByte128((byte) 0) : i_61_);
+						int i_62_ = (i_59_ > 0 ? class536_sub33_sub2.readUnsignedByte128() : i_61_);
 						class649_sub1_sub5_sub1_sub2.method10906(i_58_, (client.anInt11014), i_59_, i_60_, i_61_, i_62_, -1884532814);
 					} else
 						class649_sub1_sub5_sub1_sub2.method10872(i_58_, (short) 2456);
@@ -321,7 +321,7 @@ public class Class630 {
 			int i_69_ = class536_sub33_sub2.readIntV2((byte) 85);
 			if (65535 == i_68_)
 				i_68_ = -1;
-			int i_70_ = class536_sub33_sub2.readUnsignedByte128((byte) 0);
+			int i_70_ = class536_sub33_sub2.readUnsignedByte128();
 			int i_71_ = i_70_ & 0x7;
 			int i_72_ = i_70_ >> 3 & 0xf;
 			if (i_72_ == 15)

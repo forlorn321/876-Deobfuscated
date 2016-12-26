@@ -363,24 +363,25 @@ public class Class515 {
 	}
 
 	void decodeDynamicMapScene(RSBitBuffer buffer, int i) {
-		int i_44_ = buffer.readUnsigned128Byte();
-		if (i_44_ == 1)
+		int sceneType = buffer.readUnsigned128Byte();
+		if (sceneType == 1)
 			aClass498_6992 = Class498.aClass498_5558;
-		else if (2 == i_44_)
+		else if (2 == sceneType)
 			aClass498_6992 = Class498.aClass498_5555;
-		else if (3 == i_44_)
+		else if (3 == sceneType)
 			aClass498_6992 = Class498.aClass498_5560;
-		else if (i_44_ == 4)
+		else if (sceneType == 4)
 			aClass498_6992 = Class498.aClass498_5561;
-		int i_45_ = buffer.readUnsignedShortLE();
-		int i_46_ = buffer.readUnsignedShort128();
-		int i_47_ = buffer.readUnsigned128Byte();
-		int i_48_ = buffer.readUnsigned128Byte();
-		boolean bool = 0 != (i_48_ & 0x1);
-		anInt7035 = buffer.readUnsignedByte128((byte) 0) * 974659739;
+		int chunkY = buffer.readUnsignedShortLE();
+		int chunkX = buffer.readUnsignedShort128();
+		int mapType = buffer.readUnsigned128Byte();
+		int refreshFlags = buffer.readUnsigned128Byte();
+		boolean refresh = 0 != (refreshFlags & 0x1);
+		int unknown = buffer.readUnsignedByte128();
+		anInt7035 = unknown * 974659739;
 		if (!aBool7005)
 			method6268(-1387269708);
-		method6299(Class510.method6188(i_47_, -1665393252), 1121434602);
+		method6299(Class510.method6188(mapType, -1665393252), 1121434602);
 		buffer.initBitAccess();
 		HashSet hashset = new HashSet();
 		for (int i_49_ = 0; i_49_ < 4; i_49_++) {
@@ -437,7 +438,7 @@ public class Class515 {
 			}
 		}
 		anInt7022 = i_57_ * -1538430001;
-		loadChunk(i_46_, i_45_, 10, bool, -1312257118);
+		loadChunk(chunkX, chunkY, 10, refresh, -1312257118);
 	}
 
 	int method6267(int i, int i_68_, int i_69_) {
