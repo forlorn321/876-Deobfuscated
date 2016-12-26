@@ -21,7 +21,7 @@ public class Class536_Sub23 extends Class536 {
 	}
 
 	public static Class388 method9583(RSByteBuffer class536_sub33, int i) {
-		int i_0_ = class536_sub33.readBigSmart((byte) 1);
+		int i_0_ = class536_sub33.readBigSmart();
 		return new Class388(i_0_);
 	}
 }

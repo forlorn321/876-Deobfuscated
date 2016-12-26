@@ -345,7 +345,7 @@ public class Class18 {
 			client.anInt11312 += -1174704659 * ((i_33_ - client.anInt11312 * -1639712795) / 80);
 	}
 
-	public static void method688(Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1, int i) {
+	public static void method688(NPC class649_sub1_sub5_sub1_sub1, int i) {
 		for (Class536_Sub3 class536_sub3 = ((Class536_Sub3) Class536_Sub3.aClass708_10386.method8308(1867269829)); class536_sub3 != null; class536_sub3 = (Class536_Sub3) Class536_Sub3.aClass708_10386.method8311(1512043747)) {
 			if (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378 == class649_sub1_sub5_sub1_sub1) {
 				if (class536_sub3.aClass479_10389 != null) {

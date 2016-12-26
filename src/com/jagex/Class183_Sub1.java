@@ -29,6 +29,6 @@ public abstract class Class183_Sub1 extends Class183 {
 	public abstract int method8658();
 
 	static final void method8659(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1647549559 * (((Class649_Sub1_Sub5_Sub1_Sub1) class668.aClass649_Sub1_Sub5_Sub1_8554).aClass296_12174.anInt3270);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1647549559 * (((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554).aClass296_12174.anInt3270);
 	}
 }

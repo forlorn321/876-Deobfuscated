@@ -234,13 +234,13 @@ public class Class678 implements Interface75 {
 							if (1 == client.anInt11074 * 1542697723 && client.anInt11101 * -708374433 != 10) {
 								Class193.aClass4_2187.method561(-2117553523);
 								client.anInt11074 = -555081524;
-								client.anInt11076 = client.anInt11014 * -446199109;
+								client.anInt11076 = client.cycles * -446199109;
 								client.anInt11112 = 0;
 								client.aBool11159 = false;
 								Class160.method1961((short) 13919);
 							}
 							if (client.anInt11074 * 1542697723 == 4) {
-								int i_15_ = (client.anInt11014 - -426890637 * client.anInt11076);
+								int i_15_ = (client.cycles - -426890637 * client.anInt11076);
 								if (client.anInt11112 * -1204024903 < Class193.aClass205Array2183.length) {
 									do {
 										Class205 class205 = (Class193.aClass205Array2183[(-1204024903 * client.anInt11112)]);

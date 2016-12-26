@@ -409,10 +409,10 @@ public class Class648 {
 				else
 					i_38_ = (byte) 1;
 				if (Class70.method1117(-1727260073) || Class246.anInt2474 * 155362615 == 2)
-					client.aClass515_11066.method6249(-1830350637).method6730(client.anInt11014, 606032575 * class305.anInt3441, class305.anInt3442 * 1904157639, 1232077433 * class305.anInt3443, client.aClass515_11066.method6314((byte) -31), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, 1 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), i_38_, (int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9,
+					client.aClass515_11066.method6249(-1830350637).method6730(client.cycles, 606032575 * class305.anInt3441, class305.anInt3442 * 1904157639, 1232077433 * class305.anInt3443, client.aClass515_11066.method6314((byte) -31), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, 1 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), i_38_, (int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9,
 							Class710.aClass536_Sub40_8843.aClass710_Sub17_10763.method10087(2069851228) == 0, true, 0, true);
 				else
-					client.aClass515_11066.method6249(-674673073).method6730(client.anInt11014, Class637.anInt8301 * -1607026219, -1598853731 * Class205_Sub21.anInt9958, -1646092097 * Class685.anInt8665, client.aClass515_11066.method6314((byte) 20), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) + 1, i_38_, (int) class436.aFloat4850 >> 9,
+					client.aClass515_11066.method6249(-674673073).method6730(client.cycles, Class637.anInt8301 * -1607026219, -1598853731 * Class205_Sub21.anInt9958, -1646092097 * Class685.anInt8665, client.aClass515_11066.method6314((byte) 20), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) + 1, i_38_, (int) class436.aFloat4850 >> 9,
 							(int) class436.aFloat4853 >> 9, Class710.aClass536_Sub40_8843.aClass710_Sub17_10763.method10087(2052345428) == 0, true, 0, true);
 				client.anInt11028 += 1265757775;
 				if (!Class677.aClass167_8609.method2116() && client.anInt11101 * -708374433 == 9)
@@ -438,7 +438,7 @@ public class Class648 {
 
 	static final void method7833(int i, int i_39_, int i_40_, int i_41_, int i_42_, int i_43_, byte i_44_) {
 		for (Class521_Sub4 class521_sub4 = ((Class521_Sub4) client.aClass695_11176.method8210(406582953)); null != class521_sub4; class521_sub4 = ((Class521_Sub4) client.aClass695_11176.method8219(-469148197))) {
-			if (client.anInt11014 >= -1485700691 * class521_sub4.anInt10326)
+			if (client.cycles >= -1485700691 * class521_sub4.anInt10326)
 				class521_sub4.method6354((byte) -107);
 			else {
 				Class672.method8024(441072289 * class521_sub4.anInt10329, 256 + (-811637215 * class521_sub4.anInt10324 << 9), 256 + (-1293340749 * class521_sub4.anInt10325 << 9), 0, class521_sub4.anInt10328 * -1986451078, false, false, -2131275969);

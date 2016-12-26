@@ -342,11 +342,11 @@ public class Class537 {
 		Class103[] class103s = client.aClass103Array11020;
 		for (int i_39_ = 0; i_39_ < class103s.length; i_39_++) {
 			Class103 class103 = class103s[i_39_];
-			if (class103 != null && 2030004867 * class103.anInt1224 != 0 && client.anInt11014 % 20 < 10) {
+			if (class103 != null && 2030004867 * class103.anInt1224 != 0 && client.cycles % 20 < 10) {
 				if (1 == class103.anInt1224 * 2030004867) {
 					Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 					if (null != class536_sub13) {
-						Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 						Class436 class436 = (class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 						int i_40_ = (int) class436.aFloat4850 / 128 - i / 128;
 						int i_41_ = (int) class436.aFloat4853 / 128 - i_35_ / 128;

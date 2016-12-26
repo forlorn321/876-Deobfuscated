@@ -50,8 +50,8 @@ public class Class205_Sub14 extends Class205 {
 				i_1_ = class649_sub1_sub5_sub1.aByte10839;
 		}
 		int i_4_ = 1245678959 * anInt9919 << 2;
-		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-28883271), -1852206831 * anInt9910, i_1_, i_1_, i, i_0_, -1586521355 * anInt9918 << 2, client.anInt11014, client.anInt11014 + anInt9917 * 1606712197, anInt9905 * -785589409, i_4_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
-		class649_sub1_sub5_sub6.method11046(i_2_, i_3_, -1420537273 * anInt9915 << 2, (client.anInt11014 + 1606712197 * anInt9917), -616198385);
+		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-28883271), -1852206831 * anInt9910, i_1_, i_1_, i, i_0_, -1586521355 * anInt9918 << 2, client.cycles, client.cycles + anInt9917 * 1606712197, anInt9905 * -785589409, i_4_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
+		class649_sub1_sub5_sub6.method11046(i_2_, i_3_, -1420537273 * anInt9915 << 2, (client.cycles + 1606712197 * anInt9917), -616198385);
 		client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), 12491002);
 	}
 
@@ -84,8 +84,8 @@ public class Class205_Sub14 extends Class205 {
 				i_7_ = class649_sub1_sub5_sub1.aByte10839;
 		}
 		int i_10_ = 1245678959 * anInt9919 << 2;
-		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-29992891), -1852206831 * anInt9910, i_7_, i_7_, i_5_, i_6_, -1586521355 * anInt9918 << 2, client.anInt11014, client.anInt11014 + anInt9917 * 1606712197, anInt9905 * -785589409, i_10_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
-		class649_sub1_sub5_sub6.method11046(i_8_, i_9_, -1420537273 * anInt9915 << 2, (client.anInt11014 + 1606712197 * anInt9917), -315844294);
+		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-29992891), -1852206831 * anInt9910, i_7_, i_7_, i_5_, i_6_, -1586521355 * anInt9918 << 2, client.cycles, client.cycles + anInt9917 * 1606712197, anInt9905 * -785589409, i_10_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
+		class649_sub1_sub5_sub6.method11046(i_8_, i_9_, -1420537273 * anInt9915 << 2, (client.cycles + 1606712197 * anInt9917), -315844294);
 		client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), -299323286);
 	}
 
@@ -134,8 +134,8 @@ public class Class205_Sub14 extends Class205 {
 				i_12_ = class649_sub1_sub5_sub1.aByte10839;
 		}
 		int i_15_ = 1245678959 * anInt9919 << 2;
-		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-1032864581), -1852206831 * anInt9910, i_12_, i_12_, i, i_11_, -1586521355 * anInt9918 << 2, client.anInt11014, client.anInt11014 + anInt9917 * 1606712197, anInt9905 * -785589409, i_15_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
-		class649_sub1_sub5_sub6.method11046(i_13_, i_14_, -1420537273 * anInt9915 << 2, (client.anInt11014 + 1606712197 * anInt9917), -817663789);
+		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-1032864581), -1852206831 * anInt9910, i_12_, i_12_, i, i_11_, -1586521355 * anInt9918 << 2, client.cycles, client.cycles + anInt9917 * 1606712197, anInt9905 * -785589409, i_15_, 1927311415 * anInt9908 + 1, anInt9912 * -1159798643 + 1, -1420537273 * anInt9915 << 2, false, 0, 0));
+		class649_sub1_sub5_sub6.method11046(i_13_, i_14_, -1420537273 * anInt9915 << 2, (client.cycles + 1606712197 * anInt9917), -817663789);
 		client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), -1175952952);
 	}
 

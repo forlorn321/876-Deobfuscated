@@ -62,7 +62,7 @@ public class Class402 implements Interface75 {
 		else if (Class465.method5668((class536_sub18_sub9.anInt11718 * -517484763), (byte) -23)) {
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (int) (9092992429781309163L * class536_sub18_sub9.aLong11711))));
 			if (null != class536_sub13) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 				Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 				if (class296.anIntArray3304 != null)
 					class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -42);

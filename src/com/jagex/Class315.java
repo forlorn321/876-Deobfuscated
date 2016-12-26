@@ -52,14 +52,14 @@ public abstract class Class315 {
 			else if (155362615 * Class246.anInt2474 == 6)
 				Class685.method8112(l);
 		}
-		Class192.method2842(Class677.aClass167_8609, (long) client.anInt11014);
+		Class192.method2842(Class677.aClass167_8609, (long) client.cycles);
 		if (-1959825479 * client.anInt11187 != -1)
 			Class199.method2913(-1959825479 * client.anInt11187, -1253897341);
 		for (int i = 0; i < -5823823 * client.anInt11245; i++) {
 			client.aBoolArray11029[i] = client.aBoolArray11240[i];
 			client.aBoolArray11240[i] = false;
 		}
-		client.anInt11246 = -1287148997 * client.anInt11014;
+		client.anInt11246 = -1287148997 * client.cycles;
 		Class34.method815(-1, -1, -1223147037);
 		if (-1 != client.anInt11187 * -1959825479) {
 			client.anInt11245 = 0;

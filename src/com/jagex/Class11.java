@@ -174,7 +174,7 @@ public class Class11 implements Interface70 {
 		return i_7_;
 	}
 
-	static void method620(Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1, boolean bool, byte i) {
+	static void method620(NPC class649_sub1_sub5_sub1_sub1, boolean bool, byte i) {
 		if (Class70.anInt760 * 1780207751 < 409) {
 			Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 			String string = class649_sub1_sub5_sub1_sub1.aString12162;

@@ -70,19 +70,19 @@ public class Class205_Sub17 extends Class205 {
 	static final void method9088(int i) {
 		RSBitBuffer class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
 		class536_sub33_sub2.initBitAccess();
-		int i_0_ = class536_sub33_sub2.readBits(8);
-		if (i_0_ < -664631943 * client.anInt11053) {
-			for (int i_1_ = i_0_; i_1_ < -664631943 * client.anInt11053; i_1_++)
+		int localNPCSize = class536_sub33_sub2.readBits(8);
+		if (localNPCSize < -664631943 * client.anInt11053) {
+			for (int i_1_ = localNPCSize; i_1_ < -664631943 * client.anInt11053; i_1_++)
 				client.anIntArray11059[(client.anInt11247 += -1573831137) * 537050591 - 1] = client.anIntArray11211[i_1_];
 		}
-		if (i_0_ > -664631943 * client.anInt11053)
+		if (localNPCSize > -664631943 * client.anInt11053)
 			throw new RuntimeException();
 		client.anInt11053 = 0;
-		for (int i_2_ = 0; i_2_ < i_0_; i_2_++) {
+		for (int i_2_ = 0; i_2_ < localNPCSize; i_2_++) {
 			int i_3_ = client.anIntArray11211[i_2_];
-			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));
-			int i_4_ = class536_sub33_sub2.readBits(1);
-			if (i_4_ == 0) {
+			NPC class649_sub1_sub5_sub1_sub1 = ((NPC) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));
+			int needsRemove = class536_sub33_sub2.readBits(1);
+			if (needsRemove == 0) {
 				client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;
 				class649_sub1_sub5_sub1_sub1.anInt11934 = client.anInt11124 * 1266166429;
 			} else {

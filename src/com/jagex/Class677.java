@@ -103,9 +103,9 @@ public class Class677 implements Interface13 {
 	void method8044(RSByteBuffer class536_sub33, int i, byte i_15_) {
 		do {
 			if (1 == i)
-				anInt8593 = class536_sub33.readBigSmart((byte) 1) * -161844215;
+				anInt8593 = class536_sub33.readBigSmart() * -161844215;
 			else if (i == 2)
-				anInt8607 = class536_sub33.readBigSmart((byte) 1) * -1803903681;
+				anInt8607 = class536_sub33.readBigSmart() * -1803903681;
 			else if (i == 4)
 				anInt8601 = class536_sub33.readUnsignedShort() * 1080589553;
 			else if (i == 5)
@@ -329,8 +329,8 @@ public class Class677 implements Interface13 {
 					i_51_ -= class589.anIntArrayArray7775[i_50_][1];
 			}
 		}
-		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-193218004), i, -502818839 * Class512.scenePlane, Class512.scenePlane * -502818839, i_53_, i_54_, i_51_, client.anInt11014 + i_57_, client.anInt11014 + i_58_, i_59_, i_60_, i_48_, i_49_, i_52_, bool, i_50_, i_61_);
-		class649_sub1_sub5_sub6.method11046(i_55_, i_56_, Class54.method944(i_55_, i_56_, -502818839 * Class512.scenePlane, 1507692935) - i_52_, i_57_ + client.anInt11014, -1657848192);
+		Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(-193218004), i, -502818839 * Class512.scenePlane, Class512.scenePlane * -502818839, i_53_, i_54_, i_51_, client.cycles + i_57_, client.cycles + i_58_, i_59_, i_60_, i_48_, i_49_, i_52_, bool, i_50_, i_61_);
+		class649_sub1_sub5_sub6.method11046(i_55_, i_56_, Class54.method944(i_55_, i_56_, -502818839 * Class512.scenePlane, 1507692935) - i_52_, i_57_ + client.cycles, -1657848192);
 		client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), -419514451);
 	}
 

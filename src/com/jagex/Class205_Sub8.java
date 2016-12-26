@@ -13,12 +13,12 @@ public class Class205_Sub8 extends Class205 {
 
 	public void method2942() {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[-118036407 * anInt9881].method2804(1262375275);
-		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.anInt11014, 0, 2035266174);
+		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.cycles, 0, 2035266174);
 	}
 
 	public void method2940(int i) {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[-118036407 * anInt9881].method2804(-1408750290);
-		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.anInt11014, 0, 2052421751);
+		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.cycles, 0, 2052421751);
 	}
 
 	Class205_Sub8(RSByteBuffer class536_sub33) {
@@ -51,7 +51,7 @@ public class Class205_Sub8 extends Class205 {
 
 	public void method2943() {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[-118036407 * anInt9881].method2804(-1232192249);
-		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.anInt11014, 0, 2076021363);
+		class649_sub1_sub5_sub1.method10871(anInt9880 * -707257751, anInt9879 * 1108698443, -2083536773 * anInt9882, -2059764745 * anInt9883, client.cycles, 0, 2076021363);
 	}
 
 	static final void method9063(Class668 class668, int i) {

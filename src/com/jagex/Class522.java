@@ -140,18 +140,18 @@ public class Class522 {
 
 	void method6367(Class649_Sub1 class649_sub1, int i) {
 		if (null != aClass688_7066 && aClass688_7066.method8121(-1752143406)) {
-			aClass688_7066.method8138((client.anInt11014 - anInt7057 * 701818341), 1849478923);
+			aClass688_7066.method8138((client.cycles - anInt7057 * 701818341), 1849478923);
 			if (aClass688_7066.method8135(-841908704))
 				aClass688_7066.method8122(-1, -2116450684);
 			if (!aClass688_7066.method8128(-144709969)) {
 				aClass688_7065 = aClass688_7066;
 				aBool7070 = true;
-				anInt7057 = client.anInt11014 * 264753133;
+				anInt7057 = client.cycles * 264753133;
 				return;
 			}
 		}
 		if (aClass688_7065.method8121(289934863)) {
-			if (aClass688_7065.method8138((client.anInt11014 - anInt7057 * 701818341), 1793467864)) {
+			if (aClass688_7065.method8138((client.cycles - anInt7057 * 701818341), 1793467864)) {
 				if (Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(-944463154) == 2)
 					aBool7073 = false;
 				if (aClass688_7065.method8135(-1684042710)) {
@@ -162,7 +162,7 @@ public class Class522 {
 			}
 		} else
 			method6374(false, -1, 0, 0, -2141397443);
-		anInt7057 = 264753133 * client.anInt11014;
+		anInt7057 = 264753133 * client.cycles;
 	}
 
 	void method6368(Class167 class167, int i) {
@@ -266,7 +266,7 @@ public class Class522 {
 			aClass688_7065.method8124(-1, false, (byte) -79);
 		else {
 			aClass688_7065.method8126(i_13_, i_11_, i_10_, bool_14_, -523805773);
-			anInt7057 = 264753133 * client.anInt11014;
+			anInt7057 = 264753133 * client.cycles;
 			aBool7073 = false;
 			aClass177_7064 = null;
 		}
@@ -303,14 +303,14 @@ public class Class522 {
 			if (null != class612.anIntArray7988)
 				class612 = (class612.method7293(Class465_Sub1.aClass96_10352, (4 == client.anInt11074 * 1542697723 ? (Interface18) Class193.anInterface18_2191 : Class465_Sub1.aClass96_10352), (byte) 92));
 			if (class612 != null)
-				aClass627_7075 = Class627.method7484(client.anInt11014, true);
+				aClass627_7075 = Class627.method7484(client.cycles, true);
 		}
 		if (null != aClass627_7075) {
 			class177.method2513(class433);
 			if (bool)
-				aClass627_7075.method7474(class167, (long) client.anInt11014, class172s, class156s, false);
+				aClass627_7075.method7474(class167, (long) client.cycles, class172s, class156s, false);
 			else
-				aClass627_7075.method7485((long) client.anInt11014);
+				aClass627_7075.method7485((long) client.cycles);
 			aClass627_7075.method7473(aByte7058, i, i_18_, i_19_, i_20_);
 		}
 	}

@@ -65,9 +65,9 @@ public class Class248 implements Interface13 {
 
 	void method3428(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt2481 = class536_sub33.readBigSmart((byte) 1) * 1149711835;
+			anInt2481 = class536_sub33.readBigSmart() * 1149711835;
 		else if (i == 2)
-			anInt2482 = class536_sub33.readBigSmart((byte) 1) * -1916118953;
+			anInt2482 = class536_sub33.readBigSmart() * -1916118953;
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
@@ -113,7 +113,7 @@ public class Class248 implements Interface13 {
 		else if (17 == i)
 			aString2495 = class536_sub33.readString();
 		else if (18 == i)
-			anInt2504 = class536_sub33.readBigSmart((byte) 1) * -793893797;
+			anInt2504 = class536_sub33.readBigSmart() * -793893797;
 		else if (19 == i)
 			anInt2508 = class536_sub33.readUnsignedShort() * -282969387;
 		else if (20 == i) {
@@ -137,7 +137,7 @@ public class Class248 implements Interface13 {
 			anInt2515 = class536_sub33.readShort((byte) -54) * 896394271;
 			anInt2499 = class536_sub33.readShort((byte) -113) * -49190051;
 		} else if (25 == i)
-			anInt2525 = class536_sub33.readBigSmart((byte) 1) * -1823971701;
+			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
 			anInt2485 = class536_sub33.readUnsignedShort() * 1999689291;
 			if (anInt2485 * 426165091 == 65535)
@@ -285,9 +285,9 @@ public class Class248 implements Interface13 {
 
 	void method3433(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt2481 = class536_sub33.readBigSmart((byte) 1) * 1149711835;
+			anInt2481 = class536_sub33.readBigSmart() * 1149711835;
 		else if (i == 2)
-			anInt2482 = class536_sub33.readBigSmart((byte) 1) * -1916118953;
+			anInt2482 = class536_sub33.readBigSmart() * -1916118953;
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
@@ -333,7 +333,7 @@ public class Class248 implements Interface13 {
 		else if (17 == i)
 			aString2495 = class536_sub33.readString();
 		else if (18 == i)
-			anInt2504 = class536_sub33.readBigSmart((byte) 1) * -793893797;
+			anInt2504 = class536_sub33.readBigSmart() * -793893797;
 		else if (19 == i)
 			anInt2508 = class536_sub33.readUnsignedShort() * -282969387;
 		else if (20 == i) {
@@ -357,7 +357,7 @@ public class Class248 implements Interface13 {
 			anInt2515 = class536_sub33.readShort((byte) -20) * 896394271;
 			anInt2499 = class536_sub33.readShort((byte) -30) * -49190051;
 		} else if (25 == i)
-			anInt2525 = class536_sub33.readBigSmart((byte) 1) * -1823971701;
+			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
 			anInt2485 = class536_sub33.readUnsignedShort() * 1999689291;
 			if (anInt2485 * 426165091 == 65535)
@@ -470,9 +470,9 @@ public class Class248 implements Interface13 {
 
 	void method3436(RSByteBuffer class536_sub33, int i, int i_38_) {
 		if (i == 1)
-			anInt2481 = class536_sub33.readBigSmart((byte) 1) * 1149711835;
+			anInt2481 = class536_sub33.readBigSmart() * 1149711835;
 		else if (i == 2)
-			anInt2482 = class536_sub33.readBigSmart((byte) 1) * -1916118953;
+			anInt2482 = class536_sub33.readBigSmart() * -1916118953;
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
@@ -518,7 +518,7 @@ public class Class248 implements Interface13 {
 		else if (17 == i)
 			aString2495 = class536_sub33.readString();
 		else if (18 == i)
-			anInt2504 = class536_sub33.readBigSmart((byte) 1) * -793893797;
+			anInt2504 = class536_sub33.readBigSmart() * -793893797;
 		else if (19 == i)
 			anInt2508 = class536_sub33.readUnsignedShort() * -282969387;
 		else if (20 == i) {
@@ -542,7 +542,7 @@ public class Class248 implements Interface13 {
 			anInt2515 = class536_sub33.readShort((byte) -79) * 896394271;
 			anInt2499 = class536_sub33.readShort((byte) -62) * -49190051;
 		} else if (25 == i)
-			anInt2525 = class536_sub33.readBigSmart((byte) 1) * -1823971701;
+			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
 			anInt2485 = class536_sub33.readUnsignedShort() * 1999689291;
 			if (anInt2485 * 426165091 == 65535)

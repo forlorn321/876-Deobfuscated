@@ -744,7 +744,7 @@ public class PacketDecoder {
 				int i_130_ = i_118_ & 0xffff;
 				Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_130_));
 				if (null != class536_sub13) {
-					Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 					Class500 class500 = (class649_sub1_sub5_sub1_sub1.aClass500Array11901[i_117_]);
 					if (65535 == i_121_)
 						i_121_ = -1;
@@ -855,7 +855,7 @@ public class PacketDecoder {
 			int i_149_ = stream.readInt();
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_148_));
 			if (null != class536_sub13) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 				if (null == class649_sub1_sub5_sub1_sub1.aClass307_12167)
 					class649_sub1_sub5_sub1_sub1.aClass307_12167 = new Class307(class649_sub1_sub5_sub1_sub1.aClass296_12174);
 				class649_sub1_sub5_sub1_sub1.aClass307_12167.anIntArray3453[i_146_] = i_149_;
@@ -1530,7 +1530,7 @@ public class PacketDecoder {
 		}
 		if (class106.currentPacket == IncomingPacket.aClass422_4612) {
 			int i_252_ = stream.readUnsignedByte();
-			int i_253_ = stream.readBigSmart((byte) 1);
+			int i_253_ = stream.readBigSmart();
 			if (client.aClass526Array11021[i_252_] != null) {
 				client.aClass526Array11021[i_252_].method6415(client.aClass515_11066.method6249(828325686), (byte) 0);
 				client.aClass526Array11021[i_252_] = null;
@@ -1939,18 +1939,18 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.PLAYER_OPTION == class106.currentPacket) {
-			int i_328_ = stream.readUnsignedShortLE128();
-			if (65535 == i_328_)
-				i_328_ = -1;
-			String string = stream.readString();
-			int i_329_ = stream.readUnsignedByteC();
-			int i_330_ = stream.readUnsignedByteC();
-			if (i_329_ >= 1 && i_329_ <= 8) {
-				if (string.equalsIgnoreCase("null"))
-					string = null;
-				client.aStringArray11100[i_329_ - 1] = string;
-				client.anIntArray11169[i_329_ - 1] = i_328_;
-				client.aBoolArray11171[i_329_ - 1] = i_330_ == 0;
+			int icon = stream.readUnsignedShortLE128();
+			if (65535 == icon)
+				icon = -1;
+			String option = stream.readString();
+			int optionSlot = stream.readUnsignedByteC();
+			int isTopFlag = stream.readUnsignedByteC();
+			if (optionSlot >= 1 && optionSlot <= 8) {
+				if (option.equalsIgnoreCase("null"))
+					option = null;
+				client.aStringArray11100[optionSlot - 1] = option;
+				client.anIntArray11169[optionSlot - 1] = icon;
+				client.aBoolArray11171[optionSlot - 1] = isTopFlag == 0;
 			}
 			class106.currentPacket = null;
 			return true;
@@ -3096,8 +3096,8 @@ public class PacketDecoder {
 					i_142_ <<= 2;
 					i_143_ <<= 2;
 					i_147_ <<= 2;
-					Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(1750155094), i_141_, -502818839 * Class512.scenePlane, Class512.scenePlane * -502818839, i_136_, i_137_, i_142_, i_144_ + client.anInt11014, i_145_ + client.anInt11014, i_146_, i_147_, 0, i_140_, i_143_, bool, -1, i_148_));
-					class649_sub1_sub5_sub6.method11046(i_138_, i_139_, Class54.method944(i_138_, i_139_, -502818839 * Class512.scenePlane, 1964353183) - i_143_, i_144_ + client.anInt11014, -1418067352);
+					Class649_Sub1_Sub5_Sub6 class649_sub1_sub5_sub6 = (new Class649_Sub1_Sub5_Sub6(client.aClass515_11066.method6249(1750155094), i_141_, -502818839 * Class512.scenePlane, Class512.scenePlane * -502818839, i_136_, i_137_, i_142_, i_144_ + client.cycles, i_145_ + client.cycles, i_146_, i_147_, 0, i_140_, i_143_, bool, -1, i_148_));
+					class649_sub1_sub5_sub6.method11046(i_138_, i_139_, Class54.method944(i_138_, i_139_, -502818839 * Class512.scenePlane, 1964353183) - i_143_, i_144_ + client.cycles, -1418067352);
 					client.aClass708_11174.method8335(new Class536_Sub18_Sub8(class649_sub1_sub5_sub6), 276931999);
 				}
 			}

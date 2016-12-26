@@ -256,14 +256,14 @@ public class Class66 {
 	}
 
 	static final void method1076(int i) {
-		Class192.method2842(Class677.aClass167_8609, (long) client.anInt11014);
+		Class192.method2842(Class677.aClass167_8609, (long) client.cycles);
 		if (-1 != client.anInt11187 * -1959825479)
 			Class199.method2913(-1959825479 * client.anInt11187, 1237439912);
 		for (int i_9_ = 0; i_9_ < -5823823 * client.anInt11245; i_9_++) {
 			client.aBoolArray11029[i_9_] = client.aBoolArray11240[i_9_];
 			client.aBoolArray11240[i_9_] = false;
 		}
-		client.anInt11246 = client.anInt11014 * -1287148997;
+		client.anInt11246 = client.cycles * -1287148997;
 		if (-1 != -1959825479 * client.anInt11187) {
 			client.anInt11245 = 0;
 			Class457.method5490(-972318091);

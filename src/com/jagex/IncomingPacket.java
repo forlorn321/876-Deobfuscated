@@ -485,16 +485,16 @@ public class IncomingPacket {
 				class649_sub1_sub5_sub1_sub2.method10867(class649_sub1_sub5_sub1_sub2.faceDirection * 1763663333);
 				class649_sub1_sub5_sub1_sub2.faceDirection = -2114230253;
 			}
-		} else if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub1) {
-			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = (Class649_Sub1_Sub5_Sub1_Sub1) class649_sub1_sub5_sub1;
-			if (2067424907 * class649_sub1_sub5_sub1_sub1.anInt12170 != -1 && (-711375609 * class649_sub1_sub5_sub1_sub1.stepsCount == 0 || (class649_sub1_sub5_sub1_sub1.anInt11915 * 1239423105 > 0))) {
+		} else if (class649_sub1_sub5_sub1 instanceof NPC) {
+			NPC class649_sub1_sub5_sub1_sub1 = (NPC) class649_sub1_sub5_sub1;
+			if (2067424907 * class649_sub1_sub5_sub1_sub1.faceTileX != -1 && (-711375609 * class649_sub1_sub5_sub1_sub1.stepsCount == 0 || (class649_sub1_sub5_sub1_sub1.anInt11915 * 1239423105 > 0))) {
 				Class436 class436 = class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823;
 				Class598 class598 = client.aClass515_11066.method6255(-1504285937);
-				int i_6_ = ((int) class436.aFloat4850 - (979798784 * class649_sub1_sub5_sub1_sub1.anInt12170 - -1080696064 * class598.anInt7839 - -1080696064 * class598.anInt7839));
-				int i_7_ = ((int) class436.aFloat4853 - (class649_sub1_sub5_sub1_sub1.anInt12168 * -1570518272 - 695561472 * class598.anInt7840 - 695561472 * class598.anInt7840));
+				int i_6_ = ((int) class436.aFloat4850 - (979798784 * class649_sub1_sub5_sub1_sub1.faceTileX - -1080696064 * class598.anInt7839 - -1080696064 * class598.anInt7839));
+				int i_7_ = ((int) class436.aFloat4853 - (class649_sub1_sub5_sub1_sub1.faecTileY * -1570518272 - 695561472 * class598.anInt7840 - 695561472 * class598.anInt7840));
 				if (0 != i_6_ || i_7_ != 0)
 					class649_sub1_sub5_sub1_sub1.method10867((int) (Math.atan2((double) i_6_, (double) i_7_) * 2607.5945876176133) & 0x3fff);
-				class649_sub1_sub5_sub1_sub1.anInt12170 = 906604253;
+				class649_sub1_sub5_sub1_sub1.faceTileX = 906604253;
 			}
 		}
 		return class649_sub1_sub5_sub1.method10866(-790462894);

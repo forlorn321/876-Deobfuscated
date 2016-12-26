@@ -141,7 +141,7 @@ public class Class3 implements Iterator {
 	}
 
 	static final void method553(Class668 class668, int i) {
-		Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class668.aClass649_Sub1_Sub5_Sub1_8554);
+		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
 		boolean bool = false;
 		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (null != class296.anIntArray3304)

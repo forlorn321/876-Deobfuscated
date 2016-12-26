@@ -100,7 +100,7 @@ public class Class198 {
 		class668.aMap8557.put(Class458.aClass458_5171, Class535.aClass147_7131);
 		if (null != class668.aClass350_8563)
 			class668.aMap8557.put(Class458.aClass458_5165, Class262.method3643(class668.aClass350_8563, 601478596));
-		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof Class649_Sub1_Sub5_Sub1_Sub1)
+		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof NPC)
 			class668.aMap8557.put(Class458.aClass458_5166, (class668.aClass649_Sub1_Sub5_Sub1_8554.anInterface19_11888));
 		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof Player)
 			class668.aMap8558.put(Class458.aClass458_5176, (class668.aClass649_Sub1_Sub5_Sub1_8554.anInterface19_11888));

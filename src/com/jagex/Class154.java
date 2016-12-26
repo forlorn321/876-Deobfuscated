@@ -137,8 +137,8 @@ class Class154 implements Runnable {
 	}
 
 	static void method1873(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i) {
-		if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub1) {
-			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = (Class649_Sub1_Sub5_Sub1_Sub1) class649_sub1_sub5_sub1;
+		if (class649_sub1_sub5_sub1 instanceof NPC) {
+			NPC class649_sub1_sub5_sub1_sub1 = (NPC) class649_sub1_sub5_sub1;
 			if (class649_sub1_sub5_sub1_sub1.aClass296_12174 != null)
 				Class11.method620(class649_sub1_sub5_sub1_sub1, (class649_sub1_sub5_sub1_sub1.aByte10839 != (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)), (byte) -44);
 		} else if (class649_sub1_sub5_sub1 instanceof Player) {

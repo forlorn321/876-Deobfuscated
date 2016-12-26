@@ -101,8 +101,8 @@ public class Class204 {
 						break;
 				} while (false);
 			} else {
-				class167.method2041(client.anInt11014, Class420.anInt4585 * 672935275, Class575.anInt7669 * -264469499);
-				Class575.aLinkedList7670.add(new Class576(client.anInt11014, Class575.aLinkedList7661, 1475697639 * class167.anInt1872, 398729877 * class167.anInt1873, class167.aFloat1876));
+				class167.method2041(client.cycles, Class420.anInt4585 * 672935275, Class575.anInt7669 * -264469499);
+				Class575.aLinkedList7670.add(new Class576(client.cycles, Class575.aLinkedList7661, 1475697639 * class167.anInt1872, 398729877 * class167.anInt1873, class167.aFloat1876));
 				Class575.aLinkedList7661 = new LinkedList();
 			}
 			Class575.aBool7667 = false;

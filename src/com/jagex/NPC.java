@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
+public class NPC extends Class649_Sub1_Sub5_Sub1 {
 	public int anInt12160;
 	int[] anIntArray12161;
 	public String aString12162;
@@ -12,9 +12,9 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 	public static int anInt12165;
 	public int anInt12166;
 	public Class307 aClass307_12167;
-	public int anInt12168;
+	public int faecTileY;
 	int anInt12169;
-	public int anInt12170 = 906604253;
+	public int faceTileX = 906604253;
 	int anInt12171;
 	int anInt12172;
 	int anInt12173;
@@ -27,9 +27,9 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 		return anInt11889 * 1710020215 + 1;
 	}
 
-	public Class649_Sub1_Sub5_Sub1_Sub1(Class553 class553, int i) {
+	public NPC(Class553 class553, int i) {
 		super(class553, i, Class678.aClass98_Sub1_Sub2_8625);
-		anInt12168 = -1917987299;
+		faecTileY = -1917987299;
 		anInt12166 = -524255573;
 		anIntArray12164 = new int[6];
 		anIntArray12161 = new int[6];
@@ -815,9 +815,9 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 		return bool;
 	}
 
-	public Class649_Sub1_Sub5_Sub1_Sub1(Class553 class553) {
+	public NPC(Class553 class553) {
 		super(class553, Class678.aClass98_Sub1_Sub2_8625);
-		anInt12168 = -1917987299;
+		faecTileY = -1917987299;
 		anInt12166 = -524255573;
 		anIntArray12164 = new int[6];
 		anIntArray12161 = new int[6];
@@ -837,16 +837,16 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 		int i_73_ = class589.anInt7773 * 1697895001;
 		if (0 != i_72_ || i_73_ != 0 || class589.anInt7776 * 480250987 != 0 || 0 != class589.anInt7781 * -880668853)
 			i |= 0x7;
-		boolean bool = (0 != aByte11958 && client.anInt11014 >= anInt11926 * -329856901 && client.anInt11014 < anInt11927 * -736181855);
+		boolean bool = (0 != aByte11958 && client.cycles >= anInt11926 * -329856901 && client.cycles < anInt11927 * -736181855);
 		if (bool)
 			i |= 0x80000;
 		boolean bool_74_ = false;
 		if (anInt11933 * -53345543 != 0) {
 			Class296 class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -63) : aClass296_12174);
-			if (null == class296 || client.anInt11014 >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
+			if (null == class296 || client.cycles >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
 				anInt11933 = 0;
 			else {
-				anInt11933 = (255 - (255 * (client.anInt11014 - anInt11951 * -883256813) / (2034893473 * class296.anInt3338))) * 386473801;
+				anInt11933 = (255 - (255 * (client.cycles - anInt11951 * -883256813) / (2034893473 * class296.anInt3338))) * 386473801;
 				bool_74_ = true;
 			}
 		}
@@ -911,16 +911,16 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 		int i_80_ = class589.anInt7773 * 1697895001;
 		if (0 != i_79_ || i_80_ != 0 || class589.anInt7776 * 480250987 != 0 || 0 != class589.anInt7781 * -880668853)
 			i |= 0x7;
-		boolean bool = (0 != aByte11958 && client.anInt11014 >= anInt11926 * -329856901 && client.anInt11014 < anInt11927 * -736181855);
+		boolean bool = (0 != aByte11958 && client.cycles >= anInt11926 * -329856901 && client.cycles < anInt11927 * -736181855);
 		if (bool)
 			i |= 0x80000;
 		boolean bool_81_ = false;
 		if (anInt11933 * -53345543 != 0) {
 			Class296 class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -103) : aClass296_12174);
-			if (null == class296 || client.anInt11014 >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
+			if (null == class296 || client.cycles >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
 				anInt11933 = 0;
 			else {
-				anInt11933 = (255 - (255 * (client.anInt11014 - anInt11951 * -883256813) / (2034893473 * class296.anInt3338))) * 386473801;
+				anInt11933 = (255 - (255 * (client.cycles - anInt11951 * -883256813) / (2034893473 * class296.anInt3338))) * 386473801;
 				bool_81_ = true;
 			}
 		}
@@ -1060,17 +1060,17 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 
 	public void method11077() {
 		anInt11933 = -233428553;
-		anInt11951 = client.anInt11014 * -1881798629;
+		anInt11951 = client.cycles * -1881798629;
 	}
 
 	public void method11078() {
 		anInt11933 = -233428553;
-		anInt11951 = client.anInt11014 * -1881798629;
+		anInt11951 = client.cycles * -1881798629;
 	}
 
 	public void method11079() {
 		anInt11933 = -233428553;
-		anInt11951 = client.anInt11014 * -1881798629;
+		anInt11951 = client.cycles * -1881798629;
 	}
 
 	void method11080() {
@@ -1095,7 +1095,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 
 	public void method11081(byte i) {
 		anInt11933 = -233428553;
-		anInt11951 = client.anInt11014 * -1881798629;
+		anInt11951 = client.cycles * -1881798629;
 	}
 
 	public int method10899() {

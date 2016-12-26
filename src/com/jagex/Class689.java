@@ -113,7 +113,7 @@ public class Class689 implements Iterator {
 		}
 		Class667.anInt8535 = 1594603721;
 		Class658.anInt8498 = -662013517;
-		client.anInt11267 = -460612177 * client.anInt11014;
+		client.anInt11267 = -460612177 * client.cycles;
 		Class184_Sub6.anInt9933 = -371967667 * Class637.anInt8301;
 		Class469.anInt5356 = Class205_Sub21.anInt9958 * 761726941;
 		Class681.anInt8648 = Class685.anInt8665 * 76702477;

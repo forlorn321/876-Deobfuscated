@@ -262,7 +262,7 @@ public class Class630 {
 		if ((flag & 0x10) != 0) { //animation
 			int[] animation_id = new int[4];
 			for (int i = 0; i < 4; i++)
-				animation_id[i] = buffer.readBigSmart((byte) 1);
+				animation_id[i] = buffer.readBigSmart();
 			int delay = buffer.readUnsigned128Byte();
 			Class360_Sub1.method9269(player, animation_id, delay, false);
 		}
@@ -286,7 +286,7 @@ public class Class630 {
 						damage = buffer.readUnsignedByte();
 					}
 					int i_55_ = buffer.readUnsignedSmart();
-					player.method10871(hitType, damage, soakingMark, soakingDisplay, client.anInt11014, i_55_, 2141861727);
+					player.method10871(hitType, damage, soakingMark, soakingDisplay, client.cycles, i_55_, 2141861727);
 				}
 			}
 			int hitBarSize = buffer.readUnsignedByte128();
@@ -298,7 +298,7 @@ public class Class630 {
 						int delay = buffer.readUnsignedSmart();
 						int percentage = buffer.readUnsignedByte();
 						int toPercentage = (display > 0 ? buffer.readUnsignedByte128() : percentage);
-						player.method10906(type, (client.anInt11014), display, delay, percentage, toPercentage, -1884532814);
+						player.method10906(type, (client.cycles), display, delay, percentage, toPercentage, -1884532814);
 					} else
 						player.method10872(type, (short) 2456);
 				}
@@ -338,7 +338,7 @@ public class Class630 {
 			int[] is_74_ = new int[i_73_];
 			int[] is_75_ = new int[i_73_];
 			for (int i_76_ = 0; i_76_ < i_73_; i_76_++) {
-				is[i_76_] = buffer.readBigSmart((byte) 1);
+				is[i_76_] = buffer.readBigSmart();
 				is_74_[i_76_] = buffer.readUnsigned128Byte();
 				is_75_[i_76_] = buffer.readUnsignedShort128();
 			}
@@ -379,8 +379,8 @@ public class Class630 {
 			player.anInt11920 = i4 * -1947310333;
 			player.anInt11921 = i5 * 791753037;
 			player.anInt11922 = i6 * 107491611;
-			player.anInt11923 = (i7 + client.anInt11014) * -1372978185;
-			player.anInt11924 = (i8 + client.anInt11014) * -652258591;
+			player.anInt11923 = (i7 + client.cycles) * -1372978185;
+			player.anInt11924 = (i8 + client.cycles) * -652258591;
 			player.anInt11952 = i9 * -2105433735;
 			player.stepsCount = 1754339511;
 			player.anInt11948 = 0;
@@ -397,8 +397,8 @@ public class Class630 {
 			player.aByte11936 = buffer.readByte128();
 			player.aByte11930 = buffer.read128Byte();
 			player.aByte11958 = (byte) buffer.readUnsignedByte();
-			player.anInt11926 = (client.anInt11014 + buffer.readUnsignedShortLE()) * 2109855411;
-			player.anInt11927 = (client.anInt11014 + buffer.readUnsignedShortLE()) * -2120654239;
+			player.anInt11926 = (client.cycles + buffer.readUnsignedShortLE()) * 2109855411;
+			player.anInt11927 = (client.cycles + buffer.readUnsignedShortLE()) * -2120654239;
 		}
 	}
 }

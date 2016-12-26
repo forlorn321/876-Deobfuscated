@@ -190,7 +190,7 @@ public class Class26 {
 		aClass184_248.method2763(new StringBuilder().append("--> ").append(Class580.method7015(Class105.aString1243, 659315203)).toString(), 10, (350 - 1780869003 * Class260.aClass2_2840.anInt92 - 1), -1, -16777216, (byte) -23);
 		if (Class67_Sub1.aBool10601) {
 			int i_19_ = -1;
-			if (client.anInt11014 % 30 > 15)
+			if (client.cycles % 30 > 15)
 				i_19_ = 16777215;
 			class167.method2385((10 + (Class260.aClass2_2840.method530(new StringBuilder().append("--> ").append(Class580.method7015(Class105.aString1243, -1357855486).substring(0, -478568567 * Class105.anInt1246)).toString(), (byte) -95))), 350 - 1780869003 * Class260.aClass2_2840.anInt92 - 11, 12, i_19_, 1399787617);
 		}

@@ -133,7 +133,7 @@ public class Class335 implements Interface33 {
 		for (int i_10_ = 0; i_10_ < client.anInt11053 * -664631943; i_10_++) {
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
 			if (null != class536_sub13) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 				if (class649_sub1_sub5_sub1_sub1.method11068(2073549523) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == class649_sub1_sub5_sub1_sub1.aByte10839)) {
 					Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 					if (null != class296 && null != class296.anIntArray3304)

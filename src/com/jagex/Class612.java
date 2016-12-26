@@ -135,7 +135,7 @@ public class Class612 implements Interface13 {
 				int i_7_ = class536_sub33.readUnsignedByte();
 				anIntArrayArray7958[i_6_] = new int[i_7_];
 				for (int i_8_ = 0; i_8_ < i_7_; i_8_++)
-					anIntArrayArray7958[i_6_][i_8_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArrayArray7958[i_6_][i_8_] = class536_sub33.readBigSmart();
 			}
 		} else if (2 == i)
 			aString7935 = class536_sub33.readString().intern();
@@ -155,7 +155,7 @@ public class Class612 implements Interface13 {
 			else if (i == 23)
 				anInt7995 = -1551638173;
 			else if (24 == i) {
-				int i_9_ = class536_sub33.readBigSmart((byte) 1);
+				int i_9_ = class536_sub33.readBigSmart();
 				if (-1 != i_9_)
 					anIntArray7960 = new int[] { i_9_ };
 			} else if (27 == i)
@@ -250,11 +250,11 @@ public class Class612 implements Interface13 {
 					anInt7990 = -97020193;
 				int i_26_ = -1;
 				if (i == 92)
-					i_26_ = class536_sub33.readBigSmart((byte) 1);
+					i_26_ = class536_sub33.readBigSmart();
 				int i_27_ = class536_sub33.readUnsignedByte();
 				anIntArray7988 = new int[i_27_ + 2];
 				for (int i_28_ = 0; i_28_ <= i_27_; i_28_++)
-					anIntArray7988[i_28_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7988[i_28_] = class536_sub33.readBigSmart();
 				anIntArray7988[i_27_ + 1] = i_26_;
 			} else if (78 == i) {
 				anInt7946 = class536_sub33.readUnsignedShort() * -1186532107;
@@ -309,7 +309,7 @@ public class Class612 implements Interface13 {
 				anIntArray7960 = new int[i_31_];
 				anIntArray7983 = new int[i_31_];
 				for (int i_33_ = 0; i_33_ < i_31_; i_33_++) {
-					anIntArray7960[i_33_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7960[i_33_] = class536_sub33.readBigSmart();
 					i_32_ += anIntArray7983[i_33_] = class536_sub33.readUnsignedByte();
 				}
 				for (int i_34_ = 0; i_34_ < i_31_; i_34_++)
@@ -823,7 +823,7 @@ public class Class612 implements Interface13 {
 				int i_94_ = class536_sub33.readUnsignedByte();
 				anIntArrayArray7958[i_93_] = new int[i_94_];
 				for (int i_95_ = 0; i_95_ < i_94_; i_95_++)
-					anIntArrayArray7958[i_93_][i_95_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArrayArray7958[i_93_][i_95_] = class536_sub33.readBigSmart();
 			}
 		} else if (2 == i)
 			aString7935 = class536_sub33.readString().intern();
@@ -843,7 +843,7 @@ public class Class612 implements Interface13 {
 			else if (i == 23)
 				anInt7995 = -1551638173;
 			else if (24 == i) {
-				int i_96_ = class536_sub33.readBigSmart((byte) 1);
+				int i_96_ = class536_sub33.readBigSmart();
 				if (-1 != i_96_)
 					anIntArray7960 = new int[] { i_96_ };
 			} else if (27 == i)
@@ -938,11 +938,11 @@ public class Class612 implements Interface13 {
 					anInt7990 = -97020193;
 				int i_113_ = -1;
 				if (i == 92)
-					i_113_ = class536_sub33.readBigSmart((byte) 1);
+					i_113_ = class536_sub33.readBigSmart();
 				int i_114_ = class536_sub33.readUnsignedByte();
 				anIntArray7988 = new int[i_114_ + 2];
 				for (int i_115_ = 0; i_115_ <= i_114_; i_115_++)
-					anIntArray7988[i_115_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7988[i_115_] = class536_sub33.readBigSmart();
 				anIntArray7988[i_114_ + 1] = i_113_;
 			} else if (78 == i) {
 				anInt7946 = class536_sub33.readUnsignedShort() * -1186532107;
@@ -997,7 +997,7 @@ public class Class612 implements Interface13 {
 				anIntArray7960 = new int[i_118_];
 				anIntArray7983 = new int[i_118_];
 				for (int i_120_ = 0; i_120_ < i_118_; i_120_++) {
-					anIntArray7960[i_120_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7960[i_120_] = class536_sub33.readBigSmart();
 					i_119_ += anIntArray7983[i_120_] = class536_sub33.readUnsignedByte();
 				}
 				for (int i_121_ = 0; i_121_ < i_118_; i_121_++)
@@ -1274,7 +1274,7 @@ public class Class612 implements Interface13 {
 				int i_133_ = class536_sub33.readUnsignedByte();
 				anIntArrayArray7958[i_132_] = new int[i_133_];
 				for (int i_134_ = 0; i_134_ < i_133_; i_134_++)
-					anIntArrayArray7958[i_132_][i_134_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArrayArray7958[i_132_][i_134_] = class536_sub33.readBigSmart();
 			}
 		} else if (2 == i)
 			aString7935 = class536_sub33.readString().intern();
@@ -1294,7 +1294,7 @@ public class Class612 implements Interface13 {
 			else if (i == 23)
 				anInt7995 = -1551638173;
 			else if (24 == i) {
-				int i_135_ = class536_sub33.readBigSmart((byte) 1);
+				int i_135_ = class536_sub33.readBigSmart();
 				if (-1 != i_135_)
 					anIntArray7960 = new int[] { i_135_ };
 			} else if (27 == i)
@@ -1389,11 +1389,11 @@ public class Class612 implements Interface13 {
 					anInt7990 = -97020193;
 				int i_152_ = -1;
 				if (i == 92)
-					i_152_ = class536_sub33.readBigSmart((byte) 1);
+					i_152_ = class536_sub33.readBigSmart();
 				int i_153_ = class536_sub33.readUnsignedByte();
 				anIntArray7988 = new int[i_153_ + 2];
 				for (int i_154_ = 0; i_154_ <= i_153_; i_154_++)
-					anIntArray7988[i_154_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7988[i_154_] = class536_sub33.readBigSmart();
 				anIntArray7988[i_153_ + 1] = i_152_;
 			} else if (78 == i) {
 				anInt7946 = class536_sub33.readUnsignedShort() * -1186532107;
@@ -1448,7 +1448,7 @@ public class Class612 implements Interface13 {
 				anIntArray7960 = new int[i_157_];
 				anIntArray7983 = new int[i_157_];
 				for (int i_159_ = 0; i_159_ < i_157_; i_159_++) {
-					anIntArray7960[i_159_] = class536_sub33.readBigSmart((byte) 1);
+					anIntArray7960[i_159_] = class536_sub33.readBigSmart();
 					i_158_ += anIntArray7983[i_159_] = class536_sub33.readUnsignedByte();
 				}
 				for (int i_160_ = 0; i_160_ < i_157_; i_160_++)

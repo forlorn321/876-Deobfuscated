@@ -8,8 +8,8 @@ public class Class205_Sub3 extends Class205 {
 	int anInt9864;
 
 	public void method2943() {
-		client.anInt11079 = client.anInt11014 * -1002800615;
-		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.anInt11014);
+		client.anInt11079 = client.cycles * -1002800615;
+		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.cycles);
 		Class655.anInt8496 = client.anInt11213 * -930874487;
 		Class628.anInt8230 = 32284481 * client.anInt11047;
 		Class30.anInt265 = -1245615465 * client.anInt11083;
@@ -21,8 +21,8 @@ public class Class205_Sub3 extends Class205 {
 	}
 
 	public void method2940(int i) {
-		client.anInt11079 = client.anInt11014 * -1002800615;
-		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.anInt11014);
+		client.anInt11079 = client.cycles * -1002800615;
+		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.cycles);
 		Class655.anInt8496 = client.anInt11213 * -930874487;
 		Class628.anInt8230 = 32284481 * client.anInt11047;
 		Class30.anInt265 = -1245615465 * client.anInt11083;
@@ -34,8 +34,8 @@ public class Class205_Sub3 extends Class205 {
 	}
 
 	public void method2942() {
-		client.anInt11079 = client.anInt11014 * -1002800615;
-		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.anInt11014);
+		client.anInt11079 = client.cycles * -1002800615;
+		client.anInt11080 = -1581042987 * (-1555523407 * anInt9864 + client.cycles);
 		Class655.anInt8496 = client.anInt11213 * -930874487;
 		Class628.anInt8230 = 32284481 * client.anInt11047;
 		Class30.anInt265 = -1245615465 * client.anInt11083;

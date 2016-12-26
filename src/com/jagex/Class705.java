@@ -116,7 +116,7 @@ public class Class705 {
 		Class392 class392 = Class392.method4864(class536_sub33, 277638295);
 		int i_5_ = class536_sub33.readInt();
 		int i_6_ = class536_sub33.readInt();
-		int i_7_ = class536_sub33.readBigSmart((byte) 1);
+		int i_7_ = class536_sub33.readBigSmart();
 		return new Class392_Sub2(class392.aClass395_4064, class392.aClass399_4065, class392.anInt4066 * 316945261, class392.anInt4069 * 1917287119, class392.anInt4068 * -1755858667, -840030237 * class392.anInt4067, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i_5_, i_6_, i_7_);
 	}
 

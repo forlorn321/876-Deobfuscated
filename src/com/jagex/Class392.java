@@ -57,7 +57,7 @@ public class Class392 implements Interface49 {
 		int i_10_ = class536_sub33.readUnsignedShort();
 		int i_11_ = class536_sub33.readUnsignedShort();
 		int i_12_ = class536_sub33.readShort((byte) -110);
-		int i_13_ = class536_sub33.readBigSmart((byte) 1);
+		int i_13_ = class536_sub33.readBigSmart();
 		int i_14_ = class536_sub33.readInt();
 		return new Class392(class395, class399, i_8_, i_9_, i_10_, i_11_, i_12_, i_13_, i_14_);
 	}
@@ -94,7 +94,7 @@ public class Class392 implements Interface49 {
 
 	static final void method4868(Class668 class668, int i) {
 		int i_16_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class668.aClass649_Sub1_Sub5_Sub1_8554);
+		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
 		int i_17_ = class649_sub1_sub5_sub1_sub1.method11070(i_16_, (byte) 82);
 		int i_18_ = class649_sub1_sub5_sub1_sub1.method11071(i_16_, 295742203);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_17_;

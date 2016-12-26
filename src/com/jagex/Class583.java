@@ -48,9 +48,9 @@ public class Class583 {
 	static final void method7028(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, boolean bool, int i) {
 		int i_0_ = Class680.aClass680_8643.aByte8644;
 		int i_1_ = 0;
-		if (class649_sub1_sub5_sub1.anInt11923 * 1080012231 > client.anInt11014)
+		if (class649_sub1_sub5_sub1.anInt11923 * 1080012231 > client.cycles)
 			Class197.method2870(class649_sub1_sub5_sub1, -854822387);
-		else if (class649_sub1_sub5_sub1.anInt11924 * -327061215 >= client.anInt11014)
+		else if (class649_sub1_sub5_sub1.anInt11924 * -327061215 >= client.cycles)
 			Class189.method2814(class649_sub1_sub5_sub1, (short) -16640);
 		else {
 			Class609.method7267(class649_sub1_sub5_sub1, bool, 653292690);

@@ -451,7 +451,7 @@ public class Class515 {
 				Iterator iterator = client.aClass4_11050.iterator();
 				while (iterator.hasNext()) {
 					Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
-					Class18.method688(((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468), 1568950305);
+					Class18.method688(((NPC) class536_sub13.anObject10468), 1568950305);
 				}
 				client.anInt11053 = 0;
 				client.anInt11164 = 0;
@@ -468,7 +468,7 @@ public class Class515 {
 			for (int i_73_ = 0; i_73_ < -1683770117 * client.anInt11164; i_73_++) {
 				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_73_];
 				if (null != class536_sub13) {
-					Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 					for (int i_74_ = 0; i_74_ < (class649_sub1_sub5_sub1_sub1.screenX).length; i_74_++) {
 						class649_sub1_sub5_sub1_sub1.screenX[i_74_] -= i_71_;
 						class649_sub1_sub5_sub1_sub1.screenY[i_74_] -= i_72_;
@@ -488,7 +488,7 @@ public class Class515 {
 			for (int i_77_ = 0; i_77_ < -1683770117 * client.anInt11164; i_77_++) {
 				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_77_];
 				if (null != class536_sub13) {
-					Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 					Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 					class436.aFloat4850 -= (float) (i_71_ * 512);
 					class436.aFloat4853 -= (float) (512 * i_72_);
@@ -706,12 +706,12 @@ public class Class515 {
 		}
 		if (anInt7019 * 125599921 > 0) {
 			if (i_95_ == 125599921 * anInt7019) {
-				if (anInt7021 * 1494122109 != 0 && 1000 == client.anInt11014 - anInt7021 * 1494122109) {
+				if (anInt7021 * 1494122109 != 0 && 1000 == client.cycles - anInt7021 * 1494122109) {
 					Class215.method3088(899086101 * class656_96_.anInt8497, class656.anInt8497 * 899086101, anInt7019 * 125599921, -841672183);
 					Class246.method3418((byte) 1);
 				}
 			} else
-				anInt7021 = -526030123 * client.anInt11014;
+				anInt7021 = -526030123 * client.cycles;
 			if (-243156907 * anInt7015 < 125599921 * anInt7019)
 				anInt7015 = anInt7019 * 1274605;
 			aClass516_7016 = Class516.aClass516_7038;
@@ -1385,13 +1385,13 @@ public class Class515 {
 					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -16)));
 					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_201_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_206_ >= 0 && (i_206_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_207_ >= 0 && (i_207_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
-						Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = new Class649_Sub1_Sub5_Sub1_Sub1(aClass553_7003);
+						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
 						class649_sub1_sub5_sub1_sub1.anInt11889 = i_201_ * 675537735;
 						Class536_Sub13 class536_sub13_208_ = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
 						client.aClass4_11050.method560(class536_sub13_208_, (long) i_201_);
 						client.aClass536_Sub13Array11044[((client.anInt11164 += -255707597) * -1683770117) - 1] = class536_sub13_208_;
 						client.anIntArray11211[((client.anInt11053 += -1094331191) * -664631943 - 1)] = i_201_;
-						class649_sub1_sub5_sub1_sub1.anInt11934 = 653611363 * client.anInt11014;
+						class649_sub1_sub5_sub1_sub1.anInt11934 = 653611363 * client.cycles;
 						class649_sub1_sub5_sub1_sub1.method11065(class296, 179188063);
 						class649_sub1_sub5_sub1_sub1.method10873(830254667 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272), -324388659);
 						class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (((class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) * 235698067) << 3);
@@ -1498,7 +1498,7 @@ public class Class515 {
 				Iterator iterator = client.aClass4_11050.iterator();
 				while (iterator.hasNext()) {
 					Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
-					Class18.method688(((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468), -284180918);
+					Class18.method688(((NPC) class536_sub13.anObject10468), -284180918);
 				}
 				client.anInt11053 = 0;
 				client.anInt11164 = 0;
@@ -1612,13 +1612,13 @@ public class Class515 {
 					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -32)));
 					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_223_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_228_ >= 0 && (i_228_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_229_ >= 0 && (i_229_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
-						Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = new Class649_Sub1_Sub5_Sub1_Sub1(aClass553_7003);
+						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
 						class649_sub1_sub5_sub1_sub1.anInt11889 = i_223_ * 675537735;
 						Class536_Sub13 class536_sub13_230_ = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
 						client.aClass4_11050.method560(class536_sub13_230_, (long) i_223_);
 						client.aClass536_Sub13Array11044[((client.anInt11164 += -255707597) * -1683770117) - 1] = class536_sub13_230_;
 						client.anIntArray11211[((client.anInt11053 += -1094331191) * -664631943 - 1)] = i_223_;
-						class649_sub1_sub5_sub1_sub1.anInt11934 = 653611363 * client.anInt11014;
+						class649_sub1_sub5_sub1_sub1.anInt11934 = 653611363 * client.cycles;
 						class649_sub1_sub5_sub1_sub1.method11065(class296, 179188063);
 						class649_sub1_sub5_sub1_sub1.method10873(830254667 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272), -324388659);
 						class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (((class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) * 235698067) << 3);

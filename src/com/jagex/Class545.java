@@ -101,7 +101,7 @@ public class Class545 {
 				}
 			}
 			for (int i_13_ = 0; i_13_ < client.anInt11164 * -1683770117; i_13_++) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) client.aClass536_Sub13Array11044[i_13_].anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) client.aClass536_Sub13Array11044[i_13_].anObject10468);
 				if (class649_sub1_sub5_sub1_sub1 != null) {
 					for (int i_14_ = 0; i_14_ < (class649_sub1_sub5_sub1_sub1.aClass177Array11953).length; i_14_++)
 						class649_sub1_sub5_sub1_sub1.aClass177Array11953[i_14_] = null;

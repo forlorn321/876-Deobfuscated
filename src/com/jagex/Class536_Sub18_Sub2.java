@@ -167,7 +167,7 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements Interface13, 
 	}
 
 	static final void method10490(Class668 class668, int i) {
-		Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class668.aClass649_Sub1_Sub5_Sub1_8554);
+		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
 		String string = class649_sub1_sub5_sub1_sub1.aString12162;
 		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (null != class296.anIntArray3304) {

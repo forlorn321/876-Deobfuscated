@@ -208,7 +208,7 @@ public class Class103 {
 				class251.anInt2603 = 0;
 			} else {
 				class251.anInt2551 = -1890992258;
-				class251.anInt2547 = ((int) (Math.sin((double) client.anInt11014 / 40.0) * 256.0) & 0x7ff) * -947955085;
+				class251.anInt2547 = ((int) (Math.sin((double) client.cycles / 40.0) * 256.0) & 0x7ff) * -947955085;
 				class251.anInt2601 = -323602093;
 				class251.anInt2602 = -436498141 * client.anInt11156;
 				class251.anInt2603 = Class264.method3677((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), -311312947) * 721316367;

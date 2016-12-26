@@ -80,7 +80,7 @@ public abstract class Class76 implements Interface6 {
 		}
 	}
 
-	public static void method1155(int i, int i_2_, int i_3_, int i_4_, Class612 class612, Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1, Player class649_sub1_sub5_sub1_sub2, int i_5_) {
+	public static void method1155(int i, int i_2_, int i_3_, int i_4_, Class612 class612, NPC class649_sub1_sub5_sub1_sub1, Player class649_sub1_sub5_sub1_sub2, int i_5_) {
 		Class536_Sub3 class536_sub3 = new Class536_Sub3();
 		class536_sub3.anInt10364 = -358839083 * i;
 		class536_sub3.anInt10367 = -537587733 * (i_2_ << 9);

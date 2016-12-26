@@ -45,18 +45,18 @@ public class Class587 implements Interface13 {
 
 	void method7066(RSByteBuffer class536_sub33, int i, byte i_1_) {
 		if (i == 1)
-			anInt7719 = class536_sub33.readBigSmart((byte) 1) * 224880251;
+			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
 			anInt7711 = class536_sub33.read24BitUnsignedInteger(1629502606) * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
-			anInt7722 = class536_sub33.readBigSmart((byte) 1) * 1834581293;
+			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
 		else if (i == 4)
-			anInt7724 = class536_sub33.readBigSmart((byte) 1) * -827412131;
+			anInt7724 = class536_sub33.readBigSmart() * -827412131;
 		else if (5 == i)
-			anInt7723 = class536_sub33.readBigSmart((byte) 1) * -978085053;
+			anInt7723 = class536_sub33.readBigSmart() * -978085053;
 		else if (6 == i)
-			anInt7725 = class536_sub33.readBigSmart((byte) 1) * 299529583;
+			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -125) * 104053305;
 		else if (i == 8)
@@ -234,18 +234,18 @@ public class Class587 implements Interface13 {
 
 	void method7072(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt7719 = class536_sub33.readBigSmart((byte) 1) * 224880251;
+			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
 			anInt7711 = class536_sub33.read24BitUnsignedInteger(1809588909) * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
-			anInt7722 = class536_sub33.readBigSmart((byte) 1) * 1834581293;
+			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
 		else if (i == 4)
-			anInt7724 = class536_sub33.readBigSmart((byte) 1) * -827412131;
+			anInt7724 = class536_sub33.readBigSmart() * -827412131;
 		else if (5 == i)
-			anInt7723 = class536_sub33.readBigSmart((byte) 1) * -978085053;
+			anInt7723 = class536_sub33.readBigSmart() * -978085053;
 		else if (6 == i)
-			anInt7725 = class536_sub33.readBigSmart((byte) 1) * 299529583;
+			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -61) * 104053305;
 		else if (i == 8)
@@ -349,18 +349,18 @@ public class Class587 implements Interface13 {
 
 	void method7078(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt7719 = class536_sub33.readBigSmart((byte) 1) * 224880251;
+			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
 			anInt7711 = class536_sub33.read24BitUnsignedInteger(571320232) * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
-			anInt7722 = class536_sub33.readBigSmart((byte) 1) * 1834581293;
+			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
 		else if (i == 4)
-			anInt7724 = class536_sub33.readBigSmart((byte) 1) * -827412131;
+			anInt7724 = class536_sub33.readBigSmart() * -827412131;
 		else if (5 == i)
-			anInt7723 = class536_sub33.readBigSmart((byte) 1) * -978085053;
+			anInt7723 = class536_sub33.readBigSmart() * -978085053;
 		else if (6 == i)
-			anInt7725 = class536_sub33.readBigSmart((byte) 1) * 299529583;
+			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
 			anInt7731 = class536_sub33.readShort((byte) -31) * 104053305;
 		else if (i == 8)

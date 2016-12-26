@@ -259,7 +259,7 @@ public class Class180 {
 				i_62_ = anIntArray1978[i_63_];
 				if (i_17_ == 1) {
 					if (bool_9_)
-						anIntArray1953[i_63_] = class536_sub33_3_.method9718(-548226866);
+						anIntArray1953[i_63_] = class536_sub33_3_.readSmart();
 					else {
 						anIntArray1953[i_63_] = class536_sub33_3_.readUnsignedByte();
 						if (anIntArray1953[i_63_] == 255)
@@ -305,7 +305,7 @@ public class Class180 {
 					aByteArray1970[i_70_] = class536_sub33_2_.readByte();
 				if (i_15_ == 1) {
 					if (bool_10_)
-						anIntArray1974[i_70_] = class536_sub33_3_.method9718(-1797195785);
+						anIntArray1974[i_70_] = class536_sub33_3_.readSmart();
 					else {
 						anIntArray1974[i_70_] = class536_sub33_3_.readUnsignedByte();
 						if (anIntArray1974[i_70_] == 255)
@@ -371,7 +371,7 @@ public class Class180 {
 						int i_83_ = class536_sub33.readUnsignedShort();
 						int i_84_;
 						if (bool_11_)
-							i_84_ = class536_sub33.method9718(1501331514);
+							i_84_ = class536_sub33.readSmart();
 						else {
 							i_84_ = class536_sub33.readUnsignedByte();
 							if (i_84_ == 255)

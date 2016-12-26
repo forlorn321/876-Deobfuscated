@@ -413,7 +413,7 @@ public class Class306 implements Interface30 {
 		int i_28_ = class536_sub33.readUnsignedByte();
 		int i_29_ = class536_sub33.readUnsignedShort();
 		int i_30_ = class536_sub33.readUnsignedShort();
-		int i_31_ = class536_sub33.readBigSmart((byte) 1);
+		int i_31_ = class536_sub33.readBigSmart();
 		int i_32_ = class536_sub33.readInt();
 		int i_33_ = class536_sub33.readInt();
 		return new Class386(string, class395, class399, i_24_, i_25_, i_26_, i_27_, i_28_, i_29_, i_30_, i_31_, i_32_, i_33_);

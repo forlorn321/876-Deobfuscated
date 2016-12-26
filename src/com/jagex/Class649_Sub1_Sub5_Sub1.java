@@ -699,7 +699,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 				}
 			}
 			if ((null == aClass627_11950 || aClass627_11950.aBool8168) && (i_123_ > 0 || i_125_ > 0))
-				aClass627_11950 = Class627.method7484(client.anInt11014, true);
+				aClass627_11950 = Class627.method7484(client.cycles, true);
 			if (aClass627_11950 != null) {
 				Object object = null;
 				Class172[] class172s_129_;
@@ -729,11 +729,11 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 						}
 					}
 				}
-				aClass627_11950.method7474(class167, (long) client.anInt11014, class172s_129_, class156s_133_, false);
+				aClass627_11950.method7474(class167, (long) client.cycles, class172s_129_, class156s_133_, false);
 				aBool11931 = true;
 			}
 		} else if (null != aClass627_11950)
-			aClass627_11950.method7485((long) client.anInt11014);
+			aClass627_11950.method7485((long) client.cycles);
 		if (aClass627_11950 != null)
 			aClass627_11950.method7473(aByte10839, aShort11867, aShort11864, aShort11865, aShort11870);
 	}

@@ -76,7 +76,7 @@ class Class620 implements Iterator {
 				} else
 					i_9_ = i_6_;
 				class251.anInt2736 = i_9_ * -1381511251;
-				class251.anInt2627 = client.anInt11014 * -1535001011;
+				class251.anInt2627 = client.cycles * -1535001011;
 				if (!client.method10439(class251)) {
 					if (0 != -1769600535 * class251.anInt2562)
 						Class103.method1375(class251, 1167498537);
@@ -242,8 +242,8 @@ class Class620 implements Iterator {
 									int i_29_ = -40562213 * client.anInt11047;
 									int i_30_ = client.anInt11083 * 1374449393;
 									int i_31_ = 1395989923 * client.anInt11084;
-									if (client.anInt11014 < client.anInt11080 * 1849325181) {
-										float f = ((float) (client.anInt11014 - (client.anInt11079 * -1385676247)) * 1.0F / (float) ((client.anInt11080 * 1849325181) - (-1385676247 * (client.anInt11079))));
+									if (client.cycles < client.anInt11080 * 1849325181) {
+										float f = ((float) (client.cycles - (client.anInt11079 * -1385676247)) * 1.0F / (float) ((client.anInt11080 * 1849325181) - (-1385676247 * (client.anInt11079))));
 										i_28_ = (int) (((1.0F - f) * (float) (-1092588535 * (Class655.anInt8496))) + (f * (float) ((client.anInt11213) * -2136890415)));
 										i_29_ = (int) (((1.0F - f) * (float) ((Class628.anInt8230) * 1567933979)) + ((float) (-40562213 * (client.anInt11047)) * f));
 										i_30_ = (int) (((float) (-504804425 * (Class30.anInt265)) * (1.0F - f)) + (f * (float) ((client.anInt11083) * 1374449393)));
@@ -483,7 +483,7 @@ class Class620 implements Iterator {
 										client.aClass433_11294.method5200((float) ((class251.anInt2658 * -1064708005) << 2), (float) (i_44_ + (((-1027484909 * (class251.anInt2606)) << 2) + i_55_)), (float) (((class251.anInt2606 * -1027484909) << 2) + i_56_));
 										client.aClass433_11294.method5214(1.0F, 0.0F, 0.0F, (Class447.method5400(class251.anInt2551 * -1515601291 << 3)));
 									}
-									class251.method3471((Class677.aClass167_8609), class177, client.aClass433_11294, client.anInt11014, 1061586503);
+									class251.method3471((Class677.aClass167_8609), class177, client.aClass433_11294, client.cycles, 1061586503);
 									Class677.aClass167_8609.method2047();
 									Class677.aClass167_8609.method2245(true);
 									Class677.aClass167_8609.method2369(i_0_, i_1_, i_2_, i_3_);

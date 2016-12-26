@@ -51,7 +51,7 @@ public class Class305 {
 					} else {
 						Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_2_));
 						if (null != class536_sub13) {
-							Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 							Class436 class436_12_ = (class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 							i_5_ = ((int) class436.aFloat4850 - (int) class436_12_.aFloat4850);
 							i_6_ = ((int) class436.aFloat4853 - (int) class436_12_.aFloat4853);

@@ -309,7 +309,7 @@ public class Class465_Sub1 extends Class465 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_75_ = -1;
 		for (;;) {
-			int i_76_ = class536_sub33.readSmart(-2110490428);
+			int i_76_ = class536_sub33.readSmart2(-2110490428);
 			if (i_76_ == 0)
 				break;
 			i_75_ += i_76_;
@@ -651,7 +651,7 @@ public class Class465_Sub1 extends Class465 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_161_ = -1;
 		for (;;) {
-			int i_162_ = class536_sub33.readSmart(-1565976432);
+			int i_162_ = class536_sub33.readSmart2(-1565976432);
 			if (0 == i_162_)
 				break;
 			i_161_ += i_162_;

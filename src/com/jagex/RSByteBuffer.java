@@ -265,14 +265,14 @@ public class RSByteBuffer extends Class536 {
 		return readUnsignedShort() - 49152;
 	}
 
-	public int method9718(int i) {
+	public int readSmart() {
 		int i_34_ = buffer[-810172525 * off] & 0xff;
 		if (i_34_ < 128)
 			return readUnsignedByte() - 1;
 		return readUnsignedShort() - 32769;
 	}
 
-	public int readSmart(int i) {
+	public int readSmart2(int i) {
 		int i_35_ = 0;
 		int i_36_;
 		for (i_36_ = readUnsignedSmart(); 32767 == i_36_; i_36_ = readUnsignedSmart())
@@ -281,7 +281,7 @@ public class RSByteBuffer extends Class536 {
 		return i_35_;
 	}
 
-	public int readBigSmart(byte i) {
+	public int readBigSmart() {
 		if (buffer[off * -810172525] < 0)
 			return readInt() & 0x7fffffff;
 		int i_37_ = readUnsignedShort();
@@ -478,7 +478,7 @@ public class RSByteBuffer extends Class536 {
 		return i_77_;
 	}
 
-	public int method9744(int i) {
+	public int read24BitIntegerV2() {
 		off += 1548526545;
 		return ((buffer[off * -810172525 - 2] & 0xff) + (((buffer[off * -810172525 - 1] & 0xff) << 8) + ((buffer[-810172525 * off - 3] & 0xff) << 16)));
 	}

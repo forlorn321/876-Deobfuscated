@@ -183,7 +183,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (2030004867 * class103.anInt1224 == 1) {
 						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_19_ = (int) class436.aFloat4850;
 							int i_20_ = (int) class436.aFloat4853;
@@ -467,7 +467,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (2030004867 * class103.anInt1224 == 1) {
 						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_44_ = (int) class436.aFloat4850;
 							int i_45_ = (int) class436.aFloat4853;
@@ -635,7 +635,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (2030004867 * class103.anInt1224 == 1) {
 						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_61_ = (int) class436.aFloat4850;
 							int i_62_ = (int) class436.aFloat4853;
@@ -720,7 +720,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (i_72_ != 0 || 0 != i_73_ || 0 != class589.anInt7776 * 480250987 || 0 != class589.anInt7781 * -880668853)
 			i |= 0x7;
 		int i_74_ = aClass62_11940.method1047((byte) 16);
-		boolean bool = (0 != aByte11958 && client.anInt11014 >= -329856901 * anInt11926 && client.anInt11014 < -736181855 * anInt11927);
+		boolean bool = (0 != aByte11958 && client.cycles >= -329856901 * anInt11926 && client.cycles < -736181855 * anInt11927);
 		if (bool)
 			i |= 0x80000;
 		Class177 class177 = (aClass177Array11953[0] = aClass617_12202.method7345(class167, i, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_74_, true, Class71.aClass631_796, 16711680));
@@ -868,7 +868,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (2030004867 * class103.anInt1224 == 1) {
 						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_93_ = (int) class436.aFloat4850;
 							int i_94_ = (int) class436.aFloat4853;
@@ -1058,7 +1058,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					int i_127_ = stream.readUnsignedByte();
 					int i_128_ = (i_126_ << 8) + i_127_;
 					if (0 == i_125_ && 65535 == i_128_) {
-						i_124_ = stream.readBigSmart((byte) 1);
+						i_124_ = stream.readBigSmart();
 						anInt12191 = (stream.readUnsignedByte() * -554265225);
 						break;
 					}

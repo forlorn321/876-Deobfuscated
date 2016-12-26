@@ -50,19 +50,19 @@ public class Class546 implements Interface13 {
 		else if (6 == i)
 			class536_sub33.readUnsignedByte();
 		else if (i == 7)
-			anInt7285 = class536_sub33.readBigSmart((byte) 1) * 141824123;
+			anInt7285 = class536_sub33.readBigSmart() * 141824123;
 		else if (i == 8)
-			anInt7286 = class536_sub33.readBigSmart((byte) 1) * -407735885;
+			anInt7286 = class536_sub33.readBigSmart() * -407735885;
 		else if (i == 9)
-			anInt7280 = class536_sub33.readBigSmart((byte) 1) * 69439479;
+			anInt7280 = class536_sub33.readBigSmart() * 69439479;
 		else if (10 == i)
-			anInt7288 = class536_sub33.readBigSmart((byte) 1) * 983682455;
+			anInt7288 = class536_sub33.readBigSmart() * 983682455;
 		else if (i == 11)
 			anInt7281 = class536_sub33.readUnsignedShort() * 747781677;
 		else if (i == 12)
-			anInt7289 = class536_sub33.readBigSmart((byte) 1) * 1892081071;
+			anInt7289 = class536_sub33.readBigSmart() * 1892081071;
 		else if (13 == i)
-			anInt7282 = class536_sub33.readBigSmart((byte) 1) * -784342457;
+			anInt7282 = class536_sub33.readBigSmart() * -784342457;
 	}
 
 	public Class143 method6614(Class167 class167, int i, int i_2_) {
@@ -120,19 +120,19 @@ public class Class546 implements Interface13 {
 		else if (6 == i)
 			class536_sub33.readUnsignedByte();
 		else if (i == 7)
-			anInt7285 = class536_sub33.readBigSmart((byte) 1) * 141824123;
+			anInt7285 = class536_sub33.readBigSmart() * 141824123;
 		else if (i == 8)
-			anInt7286 = class536_sub33.readBigSmart((byte) 1) * -407735885;
+			anInt7286 = class536_sub33.readBigSmart() * -407735885;
 		else if (i == 9)
-			anInt7280 = class536_sub33.readBigSmart((byte) 1) * 69439479;
+			anInt7280 = class536_sub33.readBigSmart() * 69439479;
 		else if (10 == i)
-			anInt7288 = class536_sub33.readBigSmart((byte) 1) * 983682455;
+			anInt7288 = class536_sub33.readBigSmart() * 983682455;
 		else if (i == 11)
 			anInt7281 = class536_sub33.readUnsignedShort() * 747781677;
 		else if (i == 12)
-			anInt7289 = class536_sub33.readBigSmart((byte) 1) * 1892081071;
+			anInt7289 = class536_sub33.readBigSmart() * 1892081071;
 		else if (13 == i)
-			anInt7282 = class536_sub33.readBigSmart((byte) 1) * -784342457;
+			anInt7282 = class536_sub33.readBigSmart() * -784342457;
 	}
 
 	void method6617(Class167 class167, int i) {

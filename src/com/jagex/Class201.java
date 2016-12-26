@@ -51,7 +51,7 @@ class Class201 implements Interface25 {
 	}
 
 	static final void method2919(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11014;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.cycles;
 	}
 
 	static final void method2920(Class668 class668, int i) {

@@ -291,7 +291,7 @@ public class Class21 implements Interface3 {
 		class521_sub4.anInt10329 = 1895573857 * i;
 		class521_sub4.anInt10324 = -257581599 * i_10_;
 		class521_sub4.anInt10325 = 1881085819 * i_11_;
-		class521_sub4.anInt10326 = 1525221925 * (client.anInt11014 + i_13_);
+		class521_sub4.anInt10326 = 1525221925 * (client.cycles + i_13_);
 		class521_sub4.anInt10328 = 1153762965 * i_12_;
 		class521_sub4.aString10327 = string;
 		class521_sub4.anInt10323 = -1952557535 * i_14_;

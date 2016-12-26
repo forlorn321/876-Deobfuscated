@@ -43,7 +43,7 @@ public class Class205_Sub15 extends Class205 {
 	}
 
 	static final void method9086(int i, int i_6_) {
-		int i_7_ = client.anInt11014 - client.anInt11267 * 219142479;
+		int i_7_ = client.cycles - client.anInt11267 * 219142479;
 		if (i_7_ >= 100) {
 			Class246.anInt2474 = Class65.method1062((short) -10921) * -1704189817;
 			Class667.anInt8535 = 1594603721;

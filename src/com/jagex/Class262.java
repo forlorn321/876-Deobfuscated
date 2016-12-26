@@ -138,50 +138,50 @@ public class Class262 {
 	}
 
 	static final void method3642(int i, int i_5_) {
-		RSBitBuffer class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
-		while (class536_sub33_sub2.method10785(610303591 * (client.aClass106_11322.anInt1262), (byte) 58) >= 15) {
-			int i_6_ = class536_sub33_sub2.readBits(15);
-			if (i_6_ == 32767)
+		RSBitBuffer buffer = client.aClass106_11322.byteBuffer;
+		while (buffer.method10785(610303591 * (client.aClass106_11322.anInt1262), (byte) 58) >= 15) {
+			int npcIndex = buffer.readBits(15);
+			if (npcIndex == 32767)
 				break;
 			boolean bool = false;
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i_6_);
+			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) npcIndex);
 			if (class536_sub13 == null) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = (new Class649_Sub1_Sub5_Sub1_Sub1(client.aClass515_11066.method6249(2074504345)));
-				class649_sub1_sub5_sub1_sub1.anInt11889 = 675537735 * i_6_;
+				NPC class649_sub1_sub5_sub1_sub1 = (new NPC(client.aClass515_11066.method6249(2074504345)));
+				class649_sub1_sub5_sub1_sub1.anInt11889 = 675537735 * npcIndex;
 				class536_sub13 = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
-				client.aClass4_11050.method560(class536_sub13, (long) i_6_);
+				client.aClass4_11050.method560(class536_sub13, (long) npcIndex);
 				client.aClass536_Sub13Array11044[(client.anInt11164 += -255707597) * -1683770117 - 1] = class536_sub13;
 				bool = true;
 			}
-			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = (Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468;
-			client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_6_;
-			class649_sub1_sub5_sub1_sub1.anInt11934 = client.anInt11124 * 1266166429;
-			if (class649_sub1_sub5_sub1_sub1.aClass296_12174 != null && class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
-				Class18.method688(class649_sub1_sub5_sub1_sub1, 1817244699);
-			class649_sub1_sub5_sub1_sub1.method11065((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33_sub2.readBits(15), (byte) -15)), 179188063);
-			int i_7_ = (class536_sub33_sub2.readBits(3) + 4 << 11 & 0x3fff);
-			int i_8_ = class536_sub33_sub2.readBits(1);
-			if (i_8_ == 1)
-				client.anIntArray11105[(client.anInt11055 += -1499013475) * 816748469 - 1] = i_6_;
-			int i_9_ = class536_sub33_sub2.readBits(2);
-			int i_10_ = class536_sub33_sub2.readBits(i);
-			if (i_10_ > (1 << i - 1) - 1)
-				i_10_ -= 1 << i;
-			int i_11_ = class536_sub33_sub2.readBits(i);
-			if (i_11_ > (1 << i - 1) - 1)
-				i_11_ -= 1 << i;
-			int i_12_ = class536_sub33_sub2.readBits(1);
-			class649_sub1_sub5_sub1_sub1.method10873((830254667 * class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272), -324388659);
-			class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (235698067 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) << 3);
+			NPC npc = (NPC) class536_sub13.anObject10468;
+			client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = npcIndex;
+			npc.anInt11934 = client.anInt11124 * 1266166429;
+			if (npc.aClass296_12174 != null && npc.aClass296_12174.method3986(-198439992))
+				Class18.method688(npc, 1817244699);
+			npc.method11065((Class296) (Class172.aClass34_Sub7_1922.method70(buffer.readBits(15), (byte) -15)), 179188063);
+			int i_7_ = (buffer.readBits(3) + 4 << 11 & 0x3fff);
+			int needsUpdate = buffer.readBits(1);
+			if (needsUpdate == 1)
+				client.anIntArray11105[(client.anInt11055 += -1499013475) * 816748469 - 1] = npcIndex;
+			int plane = buffer.readBits(2);
+			int x = buffer.readBits(i);
+			if (x > (1 << i - 1) - 1)
+				x -= 1 << i;
+			int y = buffer.readBits(i);
+			if (y > (1 << i - 1) - 1)
+				y -= 1 << i;
+			int hasTeleported = buffer.readBits(1);
+			npc.method10873((830254667 * npc.aClass296_12174.anInt3272), -324388659);
+			npc.anInt11938 = -1906385303 * (235698067 * (npc.aClass296_12174.anInt3318) << 3);
 			if (bool)
-				class649_sub1_sub5_sub1_sub1.method10893(i_7_, true, (byte) 108);
-			class649_sub1_sub5_sub1_sub1.method11067(i_9_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) + i_10_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) + i_11_, 1 == i_12_, class649_sub1_sub5_sub1_sub1.method10874(), 753452752);
-			if (class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
-				Class76.method1155(class649_sub1_sub5_sub1_sub1.aByte10839, (class649_sub1_sub5_sub1_sub1.screenX[0]), (class649_sub1_sub5_sub1_sub1.screenY[0]), 0, null, class649_sub1_sub5_sub1_sub1, null, 352877239);
+				npc.method10893(i_7_, true, (byte) 108);
+			npc.method11067(plane, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) + x, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) + y, 1 == hasTeleported, npc.method10874(), 753452752);
+			if (npc.aClass296_12174.method3986(-198439992))
+				Class76.method1155(npc.aByte10839, (npc.screenX[0]), (npc.screenY[0]), 0, null, npc, null, 352877239);
 			if (bool)
-				class649_sub1_sub5_sub1_sub1.method11081((byte) 2);
+				npc.method11081((byte) 2);
 		}
-		class536_sub33_sub2.finishBitAccess(-1878447564);
+		buffer.finishBitAccess(-1878447564);
 	}
 
 	static Interface19 method3643(Class350 class350, int i) {

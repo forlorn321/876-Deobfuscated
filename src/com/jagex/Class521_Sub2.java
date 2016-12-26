@@ -67,12 +67,12 @@ public class Class521_Sub2 extends Class521 {
 					Class191 class191 = class688.method8159(291425694);
 					if (class677.aBool8604) {
 						if (-833363861 * class191.anInt2167 == 3) {
-							if ((223635581 * class649_sub1_sub5_sub1.anInt11948 > 0) && (class649_sub1_sub5_sub1.anInt11923 * 1080012231) <= client.anInt11014 && (class649_sub1_sub5_sub1.anInt11924 * -327061215) < client.anInt11014) {
+							if ((223635581 * class649_sub1_sub5_sub1.anInt11948 > 0) && (class649_sub1_sub5_sub1.anInt11923 * 1080012231) <= client.cycles && (class649_sub1_sub5_sub1.anInt11924 * -327061215) < client.cycles) {
 								class688.method8122(-1, -1822517984);
 								class649_sub1_sub5_sub1.aClass500Array11901[i_0_].anInt6839 = -1673100765;
 								continue;
 							}
-						} else if (class191.anInt2167 * -833363861 == 1 && (class649_sub1_sub5_sub1.anInt11948 * 223635581) > 0 && (class649_sub1_sub5_sub1.anInt11923 * 1080012231) <= client.anInt11014 && ((-327061215 * class649_sub1_sub5_sub1.anInt11924) < client.anInt11014))
+						} else if (class191.anInt2167 * -833363861 == 1 && (class649_sub1_sub5_sub1.anInt11948 * 223635581) > 0 && (class649_sub1_sub5_sub1.anInt11923 * 1080012231) <= client.cycles && ((-327061215 * class649_sub1_sub5_sub1.anInt11924) < client.cycles))
 							continue;
 					}
 				}
@@ -87,13 +87,13 @@ public class Class521_Sub2 extends Class521 {
 			if (class688.method8121(-1292702521)) {
 				Class191 class191 = class688.method8159(-32326550);
 				if (3 == class191.anInt2167 * -833363861) {
-					if (223635581 * class649_sub1_sub5_sub1.anInt11948 > 0 && (1080012231 * class649_sub1_sub5_sub1.anInt11923 <= client.anInt11014) && (class649_sub1_sub5_sub1.anInt11924 * -327061215 < client.anInt11014)) {
+					if (223635581 * class649_sub1_sub5_sub1.anInt11948 > 0 && (1080012231 * class649_sub1_sub5_sub1.anInt11923 <= client.cycles) && (class649_sub1_sub5_sub1.anInt11924 * -327061215 < client.cycles)) {
 						class649_sub1_sub5_sub1.anIntArray11913 = null;
 						class688.method8122(-1, -1912050841);
 						break;
 					}
 				} else if (-833363861 * class191.anInt2167 == 1) {
-					if (class649_sub1_sub5_sub1.anInt11948 * 223635581 > 0 && (1080012231 * class649_sub1_sub5_sub1.anInt11923 <= client.anInt11014) && (-327061215 * class649_sub1_sub5_sub1.anInt11924 < client.anInt11014)) {
+					if (class649_sub1_sub5_sub1.anInt11948 * 223635581 > 0 && (1080012231 * class649_sub1_sub5_sub1.anInt11923 <= client.cycles) && (-327061215 * class649_sub1_sub5_sub1.anInt11924 < client.cycles)) {
 						class688.method8130(1, -287299025);
 						break;
 					}

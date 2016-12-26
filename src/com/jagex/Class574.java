@@ -22,9 +22,9 @@ public class Class574 implements Interface13, Interface7 {
 		else if (4 == i)
 			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(1105811138), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
-			anInt7644 = class536_sub33.readBigSmart((byte) 1) * 2144736261;
+			anInt7644 = class536_sub33.readBigSmart() * 2144736261;
 		else if (i == 6)
-			class536_sub33.readBigSmart((byte) 1);
+			class536_sub33.readBigSmart();
 	}
 
 	public void method59(int i, int i_1_) {
@@ -43,9 +43,9 @@ public class Class574 implements Interface13, Interface7 {
 		else if (4 == i)
 			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(-1541528916), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
-			anInt7644 = class536_sub33.readBigSmart((byte) 1) * 2144736261;
+			anInt7644 = class536_sub33.readBigSmart() * 2144736261;
 		else if (i == 6)
-			class536_sub33.readBigSmart((byte) 1);
+			class536_sub33.readBigSmart();
 	}
 
 	public void method77() {
@@ -100,9 +100,9 @@ public class Class574 implements Interface13, Interface7 {
 		else if (4 == i)
 			aClass569_7641 = ((Class569) Class682.method8091(Class27.method757(861976295), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 5)
-			anInt7644 = class536_sub33.readBigSmart((byte) 1) * 2144736261;
+			anInt7644 = class536_sub33.readBigSmart() * 2144736261;
 		else if (i == 6)
-			class536_sub33.readBigSmart((byte) 1);
+			class536_sub33.readBigSmart();
 	}
 
 	public void method57(int i) {

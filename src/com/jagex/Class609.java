@@ -150,8 +150,8 @@ public class Class609 implements Interface75 {
 			} else {
 				int i_14_ = 16;
 				boolean bool_15_ = true;
-				if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub1)
-					bool_15_ = ((Class649_Sub1_Sub5_Sub1_Sub1) class649_sub1_sub5_sub1).aClass296_12174.aBool3334;
+				if (class649_sub1_sub5_sub1 instanceof NPC)
+					bool_15_ = ((NPC) class649_sub1_sub5_sub1).aClass296_12174.aBool3334;
 				if (bool_15_) {
 					int i_16_ = (class649_sub1_sub5_sub1.anInt11939 * -1999712379 - (class649_sub1_sub5_sub1.aClass62_11940.anInt700 * 897724319));
 					if (0 != i_16_ && (-1375730507 * class649_sub1_sub5_sub1.anInt11911 == -1) && 758944217 * class649_sub1_sub5_sub1.anInt11938 != 0)

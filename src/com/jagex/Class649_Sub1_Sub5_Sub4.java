@@ -69,9 +69,9 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		Class172[] class172s = class177.method2514();
 		Class156[] class156s = class177.method2515();
 		if ((aClass627_12109 == null || aClass627_12109.aBool8168) && (class172s != null || null != class156s))
-			aClass627_12109 = Class627.method7484(client.anInt11014, true);
+			aClass627_12109 = Class627.method7484(client.cycles, true);
 		if (null != aClass627_12109) {
-			aClass627_12109.method7474(class167, (long) client.anInt11014, class172s, class156s, false);
+			aClass627_12109.method7474(class167, (long) client.cycles, class172s, class156s, false);
 			aClass627_12109.method7473(aByte10839, aShort11867, aShort11864, aShort11865, aShort11870);
 		}
 	}

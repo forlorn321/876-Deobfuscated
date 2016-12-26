@@ -39,7 +39,7 @@ public class Class307 {
 			int i_3_ = client.anIntArray11211[i_2_];
 			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i_3_);
 			if (class536_sub13 != null) {
-				Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
 				Class583.method7028(class649_sub1_sub5_sub1_sub1, false, 65535);
 			}
 		}

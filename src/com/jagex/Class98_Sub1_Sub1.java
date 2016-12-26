@@ -137,7 +137,7 @@ public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 	}
 
 	static final void method10475(Class668 class668, int i) {
-		Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class668.aClass649_Sub1_Sub5_Sub1_8554);
+		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673;
 	}
 

@@ -19,7 +19,7 @@ public class Class536_Sub3 extends Class536 {
 	int anInt10375;
 	int anInt10376;
 	int anInt10377;
-	Class649_Sub1_Sub5_Sub1_Sub1 aClass649_Sub1_Sub5_Sub1_Sub1_10378;
+	NPC aClass649_Sub1_Sub5_Sub1_Sub1_10378;
 	Player aClass649_Sub1_Sub5_Sub1_Sub2_10379;
 	static final int anInt10380 = 0;
 	static final int anInt10381 = 1;

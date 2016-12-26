@@ -10,7 +10,7 @@ public class Class536_Sub20 extends Class536 {
 		aShort10520 = i;
 	}
 
-	static int method9567(Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1, int i) {
+	static int method9567(NPC class649_sub1_sub5_sub1_sub1, int i) {
 		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (class296.anIntArray3304 != null) {
 			class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -38);

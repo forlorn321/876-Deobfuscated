@@ -22,7 +22,7 @@ public class Class665 {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_6_ = -1;
 		for (;;) {
-			int i_7_ = class536_sub33.readSmart(-2142398867);
+			int i_7_ = class536_sub33.readSmart2(-2142398867);
 			if (i_7_ == 0)
 				break;
 			i_6_ += i_7_;
