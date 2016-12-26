@@ -130,7 +130,7 @@ public class Class705 {
 				if (null != class649_sub1_sub5_sub1_sub2.username && class649_sub1_sub5_sub1_sub2.username.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(0, (byte) 125);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(0, (byte) 125);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(Class663.anInt8515 * 1625551467, (byte) 56);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(is[i_9_], -1411037171);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-1059472497 * client.anInt11183, -1411037171);

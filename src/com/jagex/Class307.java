@@ -28,7 +28,7 @@ public class Class307 {
 		aShortArray3452 = is_1_;
 	}
 
-	static boolean method4133(int i) {
+	static boolean method4133() {
 		client.anInt11063 += 1770922671;
 		client.aBool11064 = true;
 		return true;

@@ -17,7 +17,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, 1821906987);
 		int i = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9728(i, (byte) 74);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i, (byte) 74);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -1027873020);
 		client.aClass106_11322.method1409(class536_sub23, 652397578);
 	}
@@ -31,7 +31,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1059406607);
 		int i_0_ = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9728(i_0_, (byte) 122);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i_0_, (byte) 122);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -956649220);
 		client.aClass106_11322.method1409(class536_sub23, 665704356);
 	}
@@ -49,7 +49,7 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1540788084);
 		int i = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9728(i, (byte) 29);
+		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i, (byte) 29);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -1373329012);
 		client.aClass106_11322.method1409(class536_sub23, -413314193);
 	}

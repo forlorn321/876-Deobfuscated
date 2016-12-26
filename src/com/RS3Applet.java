@@ -94,6 +94,9 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.ITEM_CONTAINER); //implemented
 		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE); //implemented
 		IDENTIFIED.add(IncomingPacket.PLAYER_LOOK); //implemented
+		IDENTIFIED.add(IncomingPacket.MINIMAP_FLAG); //implemented
+		IDENTIFIED.add(IncomingPacket.ICOMPONENT_TEXT); //implemented
+		IDENTIFIED.add(IncomingPacket.RUN_ENERGY); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing noticeable
@@ -106,19 +109,16 @@ public class RS3Applet extends Applet implements AppletStub {
 		
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
-		IDENTIFIED.add(IncomingPacket.ICOMPONENT_TEXT);
 		IDENTIFIED.add(IncomingPacket.HIDE_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.CHUNK_SCENE);
 		IDENTIFIED.add(IncomingPacket.NPC_UPDATE);
 		IDENTIFIED.add(IncomingPacket.PLAYER_UPDATE);
 		IDENTIFIED.add(IncomingPacket.GAME_MESSAGE);
-		IDENTIFIED.add(IncomingPacket.MINIMAP_FLAG);
 		IDENTIFIED.add(IncomingPacket.PLAYER_OPTION);
 		IDENTIFIED.add(IncomingPacket.HINT_ICON);
 		IDENTIFIED.add(IncomingPacket.SOUND_EFFECT);
 		IDENTIFIED.add(IncomingPacket.NPC_HEAD_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.PLAYER_HEAD_ON_ICOMPONENT);
-		IDENTIFIED.add(IncomingPacket.RUN_ENERGY);
 		IDENTIFIED.add(IncomingPacket.CLOSE_INTERFACE);
 		IDENTIFIED.add(IncomingPacket.ITEM_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.ICOMPONENT_SPRITE);

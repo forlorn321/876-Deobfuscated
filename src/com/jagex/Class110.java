@@ -74,7 +74,7 @@ public class Class110 {
 				if (null != class414) {
 					Class536_Sub23 class536_sub23 = Class213.method3075(class414, (client.aClass106_11322.aClass15_1258), 1097761268);
 					class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(is[i_4_], -1952316498);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(0, (byte) 86);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(0, (byte) 86);
 					client.aClass106_11322.method1409(class536_sub23, -147770641);
 				}
 				bool = true;

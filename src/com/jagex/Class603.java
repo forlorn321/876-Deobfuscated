@@ -182,7 +182,7 @@ public abstract class Class603 {
 					client.anInt11130 = 0;
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 908960968);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-678599443 * client.anInt11184, (byte) 0);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(-1992554731) ? 1 : 0, (byte) 61);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(-1992554731) ? 1 : 0, (byte) 61);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(1625551467 * Class663.anInt8515, (byte) 68);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt11889) * 1710020215, -1411037171);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(client.anInt11183 * -1059472497, -1411037171);
@@ -251,7 +251,7 @@ public abstract class Class603 {
 						client.anInt11007 = -505091686;
 						client.anInt11130 = 0;
 						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4434, (client.aClass106_11322.aClass15_1258), 1489591833);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(-1437938896) ? 1 : 0, (byte) 109);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(-1437938896) ? 1 : 0, (byte) 109);
 						class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(i_6_, -1952316498);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(1625551467 * Class663.anInt8515, (byte) 33);
@@ -316,7 +316,7 @@ public abstract class Class603 {
 						client.anInt11130 = 0;
 						Class536_Sub23 class536_sub23 = Class213.method3075(class414_9_, (client.aClass106_11322.aClass15_1258), 2017519484);
 						class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(i_6_, -1952316498);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(494587416) ? 1 : 0, (byte) 81);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(494587416) ? 1 : 0, (byte) 81);
 						client.aClass106_11322.method1409(class536_sub23, 2095676703);
 						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.screenX[0]), (class649_sub1_sub5_sub1_sub2.screenY[0]), (byte) 46);
 					}
@@ -332,7 +332,7 @@ public abstract class Class603 {
 						client.anInt11130 = 0;
 						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 614885368);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(715851019) ? 1 : 0, (byte) 26);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(715851019) ? 1 : 0, (byte) 26);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(1625551467 * Class663.anInt8515, (byte) 50);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i_6_, -1411037171);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(client.anInt11183 * -1059472497, -1411037171);
@@ -348,7 +348,7 @@ public abstract class Class603 {
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4435, (client.aClass106_11322.aClass15_1258), 596683197);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1((int) (l >>> 32) & 0x7fffffff, -2121065672);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(-1059472497 * client.anInt11183, -1778059594);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(841866199) ? 1 : 0, (byte) 64);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(841866199) ? 1 : 0, (byte) 64);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(1625551467 * Class663.anInt8515, -2063609264);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i_3_ + 1858049507 * class598.anInt7839, -1411037171);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(1479112045 * class598.anInt7840 + i_4_, -1411037171);
@@ -363,7 +363,7 @@ public abstract class Class603 {
 					client.anInt11130 = 0;
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4456, (client.aClass106_11322.aClass15_1258), 1389835391);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(client.anInt11184 * -678599443, -1411037171);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(-191899434) ? 1 : 0, (byte) 19);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(-191899434) ? 1 : 0, (byte) 19);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(client.anInt11183 * -1059472497, -1778059594);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_4_ + 1479112045 * class598.anInt7840, (byte) 0);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_6_, -1778059594);

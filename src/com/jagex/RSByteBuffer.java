@@ -382,7 +382,7 @@ public class RSByteBuffer extends Class536 {
 		return false;
 	}
 
-	public void method9728(int i, byte i_69_) {
+	public void writeByte128(int i, byte i_69_) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i + 128);
 	}
 

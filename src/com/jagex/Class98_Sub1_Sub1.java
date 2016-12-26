@@ -141,7 +141,7 @@ public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673;
 	}
 
-	static void method10476(int i, String string, byte i_3_) {
+	static void method10476(int i, String string) {
 		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(3, (long) i);
 		class536_sub18_sub5.method10659(1686354484);
 		class536_sub18_sub5.aString11649 = string;

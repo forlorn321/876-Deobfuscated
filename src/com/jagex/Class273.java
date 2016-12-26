@@ -319,7 +319,7 @@ public class Class273 {
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i_2_, (byte) -6);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_3_, -1778059594);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class251.aString2699);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9728(i, (byte) 52);
+						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i, (byte) 52);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(class251.aClass233_2714.method78());
 						class106.method1409(class536_sub23, 1996955198);
 					} else
