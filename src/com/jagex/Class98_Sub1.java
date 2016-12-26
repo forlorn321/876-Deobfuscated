@@ -62,7 +62,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		else if (var_class == java.lang.Long.class)
 			class430.anObject4819 = Long.valueOf(buffer.readLong(702869087));
 		else if (java.lang.String.class == var_class)
-			class430.anObject4819 = buffer.readVersionedString((byte) 106);
+			class430.anObject4819 = buffer.readVersionedString();
 		else if (com.jagex.Interface8.class.isAssignableFrom(var_class)) {
 			try {
 				Interface8 interface8 = (Interface8) var_class.newInstance();
@@ -118,7 +118,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		else if (java.lang.Long.class == var_class)
 			class430.anObject4819 = Long.valueOf(class536_sub33.readLong(702869087));
 		else if (java.lang.String.class == var_class)
-			class430.anObject4819 = class536_sub33.readVersionedString((byte) 9);
+			class430.anObject4819 = class536_sub33.readVersionedString();
 		else if (com.jagex.Interface8.class.isAssignableFrom(var_class)) {
 			try {
 				Interface8 interface8 = (Interface8) var_class.newInstance();

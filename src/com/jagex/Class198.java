@@ -102,7 +102,7 @@ public class Class198 {
 			class668.aMap8557.put(Class458.aClass458_5165, Class262.method3643(class668.aClass350_8563, 601478596));
 		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof Class649_Sub1_Sub5_Sub1_Sub1)
 			class668.aMap8557.put(Class458.aClass458_5166, (class668.aClass649_Sub1_Sub5_Sub1_8554.anInterface19_11888));
-		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof Class649_Sub1_Sub5_Sub1_Sub2)
+		if (class668.aClass649_Sub1_Sub5_Sub1_8554 instanceof Player)
 			class668.aMap8558.put(Class458.aClass458_5176, (class668.aClass649_Sub1_Sub5_Sub1_8554.anInterface19_11888));
 		if (null != Class63.aClass226_717)
 			class668.aMap8557.put(Class458.aClass458_5174, Class63.aClass226_717.method3228(-1626644055));

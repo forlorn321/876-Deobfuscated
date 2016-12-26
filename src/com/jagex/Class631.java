@@ -171,8 +171,8 @@ public class Class631 {
 				Class537.method6508(i_11_, i_12_, class251, class244, i, i_9_, 1315924436);
 				if (6 != Class246.anInt2474 * 155362615) {
 					if (-349564685 * Class101.anInt1205 != -1) {
-						int i_30_ = (2 + Class101.anInt1205 * -1398258740 - i_11_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874(1355242333) - 1) * 2);
-						int i_31_ = (2 + Class101.anInt1194 * 1603069908 - i_12_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874(1355242333) - 1) * 2);
+						int i_30_ = (2 + Class101.anInt1205 * -1398258740 - i_11_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 2);
+						int i_31_ = (2 + Class101.anInt1194 * 1603069908 - i_12_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 2);
 						Class656.method7946(class251, class161, i - (Class694.anInt8731 * -1334329881), i_9_ - (-856950269 * Class281.anInt3175), i_30_, i_31_, (Class610.aClass143Array7922[Class101.aBool1206 ? 1 : 0]), 100.0, Class261.aClass261_2844, Class283.aClass283_3181, (byte) -1);
 					}
 					if (!Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass623_12201.method7421(714021316))

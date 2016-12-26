@@ -48,7 +48,7 @@ public class Class110 {
 		int[] is = Class95.anIntArray1157;
 		boolean bool = false;
 		for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_4_]];
+			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_4_]];
 			if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && class649_sub1_sub5_sub1_sub2.aString12184 != null && class649_sub1_sub5_sub1_sub2.aString12184.equalsIgnoreCase(string)) {
 				OutgoingPacket class414 = null;
 				if (i == 1)

@@ -213,9 +213,9 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 				if (i_21_ > 1)
 					i_22_ = class536_sub33.readUnsignedByte();
 				if (i_21_ <= 2) {
-					string_19_ = class536_sub33.readVersionedString((byte) 94);
+					string_19_ = class536_sub33.readVersionedString();
 					if (1 == i_22_)
-						string_20_ = class536_sub33.readVersionedString((byte) 40);
+						string_20_ = class536_sub33.readVersionedString();
 				} else {
 					string_19_ = class536_sub33.method9715(-1120069370);
 					if (1 == i_22_)

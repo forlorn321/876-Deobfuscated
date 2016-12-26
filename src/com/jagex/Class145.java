@@ -57,7 +57,7 @@ public class Class145 {
 				Class606.aClass606_7891, Class606.aClass606_7896, Class606.aClass606_7895, Class606.aClass606_7885, Class606.aClass606_7887 });
 	}
 
-	public static void method1801(Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, byte i) {
+	public static void method1801(Player class649_sub1_sub5_sub1_sub2, byte i) {
 		Class536_Sub3 class536_sub3 = (Class536_Sub3) (Class536_Sub3.aClass4_10366.method556((long) (class649_sub1_sub5_sub1_sub2.anInt11889 * 1710020215)));
 		if (null == class536_sub3)
 			Class76.method1155(class649_sub1_sub5_sub1_sub2.aByte10839, class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], 0, null, null, class649_sub1_sub5_sub1_sub2, 352877239);

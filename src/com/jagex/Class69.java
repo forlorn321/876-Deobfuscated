@@ -144,7 +144,7 @@ final class Class69 implements Interface51 {
 		if (bool)
 			Class95.anIntArray1160[(Class95.anInt1150 += -1305881103) * 38697745 - 1] = i;
 		int i_7_ = class536_sub33_sub2.readBits(2);
-		Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+		Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
 		if (i_7_ == 0) {
 			if (!bool) {
 				if (i == -1791435655 * client.anInt11156)
@@ -159,7 +159,7 @@ final class Class69 implements Interface51 {
 				class43.anInt512 = 1737890159 * class649_sub1_sub5_sub1_sub2.anInt11911;
 				class43.aClass210_513 = class649_sub1_sub5_sub1_sub2.aClass210_12200;
 				class43.aBool510 = class649_sub1_sub5_sub1_sub2.aBool12194;
-				if (692832581 * class649_sub1_sub5_sub1_sub2.anInt12199 > 0)
+				if (692832581 * class649_sub1_sub5_sub1_sub2.transformNPC > 0)
 					Class47.method912(class649_sub1_sub5_sub1_sub2, (short) 255);
 				client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
 				if (class536_sub33_sub2.readBits(1) != 0)

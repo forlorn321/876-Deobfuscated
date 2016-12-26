@@ -303,7 +303,7 @@ public class Class61 {
 						Class586.aClass106_7710.method1413((short) 18902).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, -810172525 * (Class586.aClass106_7710.byteBuffer.off), 231519229);
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
-						String string = Class586.aClass106_7710.byteBuffer.readVersionedString((byte) 28);
+						String string = Class586.aClass106_7710.byteBuffer.readVersionedString();
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						String string_3_ = Class412.aClass412_4391.method5005(855834519);
 						Class420.method5063(string, true, string_3_, client.aBool11228, (byte) 5);
@@ -703,14 +703,14 @@ public class Class61 {
 								Class66.anInt723 = (class536_sub33_sub2.readUnsignedShort() * -860628261);
 								Class307.anInt3454 = (class536_sub33_sub2.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = class536_sub33_sub2.readUnsignedByte() == 1;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.readVersionedString((byte) 29);
+								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.readVersionedString();
 								Class646.anInt8360 = class536_sub33_sub2.readUnsignedByte() * 431261749;
 								Class622.anInt8127 = class536_sub33_sub2.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();
 								Class23.aClass5_228.anInt111 = (class536_sub33_sub2.readUnsignedShort() * 1232605419);
 								if (Class23.aClass5_228.anInt111 * 1318197187 == 65535)
 									Class23.aClass5_228.anInt111 = -1232605419;
-								Class23.aClass5_228.aString112 = class536_sub33_sub2.readVersionedString((byte) 5);
+								Class23.aClass5_228.aString112 = class536_sub33_sub2.readVersionedString();
 								Class23.aClass5_228.anInt110 = (class536_sub33_sub2.readUnsignedShort() * -1803928197);
 								Class23.aClass5_228.anInt108 = (class536_sub33_sub2.readUnsignedShort() * -1753280203);
 								if ((Class47.aClass678_578 != Class678.aClass678_8616) && ((Class678.aClass678_8612 != Class47.aClass678_578) || client.anInt11160 * 423156687 < 2) && (Class23.aClass5_221.method579(Class23.aClass5_222, (byte) 119)))

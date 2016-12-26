@@ -311,7 +311,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		anInt11899 = 1594517637 * i;
 	}
 
-	public int method10874(int i) {
+	public int method10874() {
 		return -185511859 * anInt11899;
 	}
 

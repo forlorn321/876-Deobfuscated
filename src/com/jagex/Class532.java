@@ -35,9 +35,9 @@ public class Class532 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aClass231_11088.method3305(522657369);
 	}
 
-	static final void method6445(RSBitBuffer class536_sub33_sub2, int i) {
+	static final void method6445(RSBitBuffer buffer) {
 		int i_2_ = 0;
-		class536_sub33_sub2.initBitAccess();
+		buffer.initBitAccess();
 		for (int i_3_ = 0; i_3_ < -1482773169 * Class95.anInt1156; i_3_++) {
 			int i_4_ = Class95.anIntArray1157[i_3_];
 			if (0 == (Class95.aByteArray1152[i_4_] & 0x1)) {
@@ -45,19 +45,19 @@ public class Class532 {
 					i_2_--;
 					Class95.aByteArray1152[i_4_] |= 0x2;
 				} else {
-					int i_5_ = class536_sub33_sub2.readBits(1);
+					int i_5_ = buffer.readBits(1);
 					if (0 == i_5_) {
-						i_2_ = Class300.method4026(class536_sub33_sub2, 1877429273);
+						i_2_ = Class300.method4026(buffer, 1877429273);
 						Class95.aByteArray1152[i_4_] |= 0x2;
 					} else
-						Class69.method1093(class536_sub33_sub2, i_4_, (byte) 65);
+						Class69.method1093(buffer, i_4_, (byte) 65);
 				}
 			}
 		}
-		class536_sub33_sub2.finishBitAccess(-1962796354);
+		buffer.finishBitAccess(-1962796354);
 		if (i_2_ != 0)
 			throw new RuntimeException();
-		class536_sub33_sub2.initBitAccess();
+		buffer.initBitAccess();
 		for (int i_6_ = 0; i_6_ < Class95.anInt1156 * -1482773169; i_6_++) {
 			int i_7_ = Class95.anIntArray1157[i_6_];
 			if (0 != (Class95.aByteArray1152[i_7_] & 0x1)) {
@@ -65,19 +65,19 @@ public class Class532 {
 					i_2_--;
 					Class95.aByteArray1152[i_7_] |= 0x2;
 				} else {
-					int i_8_ = class536_sub33_sub2.readBits(1);
+					int i_8_ = buffer.readBits(1);
 					if (0 == i_8_) {
-						i_2_ = Class300.method4026(class536_sub33_sub2, 1692779408);
+						i_2_ = Class300.method4026(buffer, 1692779408);
 						Class95.aByteArray1152[i_7_] |= 0x2;
 					} else
-						Class69.method1093(class536_sub33_sub2, i_7_, (byte) -26);
+						Class69.method1093(buffer, i_7_, (byte) -26);
 				}
 			}
 		}
-		class536_sub33_sub2.finishBitAccess(-1798781078);
+		buffer.finishBitAccess(-1798781078);
 		if (i_2_ != 0)
 			throw new RuntimeException();
-		class536_sub33_sub2.initBitAccess();
+		buffer.initBitAccess();
 		for (int i_9_ = 0; i_9_ < Class95.anInt1158 * -745742703; i_9_++) {
 			int i_10_ = Class95.anIntArray1159[i_9_];
 			if (0 != (Class95.aByteArray1152[i_10_] & 0x1)) {
@@ -85,19 +85,19 @@ public class Class532 {
 					i_2_--;
 					Class95.aByteArray1152[i_10_] |= 0x2;
 				} else {
-					int i_11_ = class536_sub33_sub2.readBits(1);
+					int i_11_ = buffer.readBits(1);
 					if (i_11_ == 0) {
-						i_2_ = Class300.method4026(class536_sub33_sub2, 2027133365);
+						i_2_ = Class300.method4026(buffer, 2027133365);
 						Class95.aByteArray1152[i_10_] |= 0x2;
-					} else if (Class206.method2959(class536_sub33_sub2, i_10_, 1789136226))
+					} else if (Class206.method2959(buffer, i_10_, 1789136226))
 						Class95.aByteArray1152[i_10_] |= 0x2;
 				}
 			}
 		}
-		class536_sub33_sub2.finishBitAccess(-1492178126);
+		buffer.finishBitAccess(-1492178126);
 		if (i_2_ != 0)
 			throw new RuntimeException();
-		class536_sub33_sub2.initBitAccess();
+		buffer.initBitAccess();
 		for (int i_12_ = 0; i_12_ < Class95.anInt1158 * -745742703; i_12_++) {
 			int i_13_ = Class95.anIntArray1159[i_12_];
 			if ((Class95.aByteArray1152[i_13_] & 0x1) == 0) {
@@ -105,23 +105,23 @@ public class Class532 {
 					i_2_--;
 					Class95.aByteArray1152[i_13_] |= 0x2;
 				} else {
-					int i_14_ = class536_sub33_sub2.readBits(1);
+					int i_14_ = buffer.readBits(1);
 					if (0 == i_14_) {
-						i_2_ = Class300.method4026(class536_sub33_sub2, 1862362898);
+						i_2_ = Class300.method4026(buffer, 1862362898);
 						Class95.aByteArray1152[i_13_] |= 0x2;
-					} else if (Class206.method2959(class536_sub33_sub2, i_13_, 1869404084))
+					} else if (Class206.method2959(buffer, i_13_, 1869404084))
 						Class95.aByteArray1152[i_13_] |= 0x2;
 				}
 			}
 		}
-		class536_sub33_sub2.finishBitAccess(-1378748980);
+		buffer.finishBitAccess(-1378748980);
 		if (0 != i_2_)
 			throw new RuntimeException();
 		Class95.anInt1156 = 0;
 		Class95.anInt1158 = 0;
 		for (int i_15_ = 1; i_15_ < 2048; i_15_++) {
 			Class95.aByteArray1152[i_15_] >>= 1;
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_15_];
+			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_15_];
 			if (null != class649_sub1_sub5_sub1_sub2)
 				Class95.anIntArray1157[(Class95.anInt1156 += 1948535215) * -1482773169 - 1] = i_15_;
 			else

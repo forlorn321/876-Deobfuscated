@@ -106,7 +106,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4690;
 	public static IncomingPacket aClass422_4691;
 	public static IncomingPacket aClass422_4692;
-	public static IncomingPacket PLAYER_LOOK_PACKET;
+	public static IncomingPacket PLAYER_LOOK;
 	public static IncomingPacket aClass422_4694;
 	public static IncomingPacket NPC_HEAD_ON_ICOMPONENT;
 	public static IncomingPacket aClass422_4696;
@@ -387,7 +387,7 @@ public class IncomingPacket {
 		aClass422_4768 = new IncomingPacket(177, 6);
 		aClass422_4611 = new IncomingPacket(178, 10);
 		aClass422_4770 = new IncomingPacket(179, -2);
-		PLAYER_LOOK_PACKET = new IncomingPacket(180, -2);
+		PLAYER_LOOK = new IncomingPacket(180, -2);
 		aClass422_4620 = new IncomingPacket(181, 0);
 		aClass422_4673 = new IncomingPacket(182, 0);
 		aClass422_4774 = new IncomingPacket(183, 4);
@@ -479,8 +479,8 @@ public class IncomingPacket {
 					class649_sub1_sub5_sub1.method10867((int) (Math.atan2((double) i_4_, (double) i_5_) * 2607.5945876176133) & 0x3fff, -1733067473);
 			}
 		}
-		if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub2) {
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (Class649_Sub1_Sub5_Sub1_Sub2) class649_sub1_sub5_sub1;
+		if (class649_sub1_sub5_sub1 instanceof Player) {
+			Player class649_sub1_sub5_sub1_sub2 = (Player) class649_sub1_sub5_sub1;
 			if (-1 != 1763663333 * class649_sub1_sub5_sub1_sub2.anInt12190 && (-711375609 * class649_sub1_sub5_sub1_sub2.anInt11957 == 0 || (class649_sub1_sub5_sub1_sub2.anInt11915 * 1239423105 > 0))) {
 				class649_sub1_sub5_sub1_sub2.method10867(class649_sub1_sub5_sub1_sub2.anInt12190 * 1763663333, -1463114064);
 				class649_sub1_sub5_sub1_sub2.anInt12190 = -2114230253;

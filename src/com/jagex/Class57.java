@@ -67,7 +67,7 @@ public class Class57 {
 	static final void method972(RSBitBuffer class536_sub33_sub2, byte i) {
 		class536_sub33_sub2.initBitAccess();
 		int i_5_ = client.anInt11156 * -1791435655;
-		Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_5_] = new Class649_Sub1_Sub5_Sub1_Sub2(client.aClass515_11066.method6249(512040507)));
+		Player class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_5_] = new Player(client.aClass515_11066.method6249(512040507)));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i_5_;
 		int i_6_ = class536_sub33_sub2.readBits(30);
 		byte i_7_ = (byte) (i_6_ >> 28);
@@ -76,12 +76,12 @@ public class Class57 {
 		Class598 class598 = client.aClass515_11066.method6255(-1473271711);
 		class649_sub1_sub5_sub1_sub2.anIntArray11944[0] = i_8_ - class598.anInt7839 * 1858049507;
 		class649_sub1_sub5_sub1_sub2.anIntArray11945[0] = i_9_ - class598.anInt7840 * 1479112045;
-		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874(1355242333) << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874(1355242333) << 8)));
+		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
 		Class320.anInt3539 = (class649_sub1_sub5_sub1_sub2.aByte10839 = class649_sub1_sub5_sub1_sub2.aByte10840 = i_7_) * 1995486621;
 		if (client.aClass515_11066.method6251(24421713).method5466(class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], (byte) -113))
 			class649_sub1_sub5_sub1_sub2.aByte10840++;
-		if (null != Class95.aClass536_Sub33Array1154[i_5_])
-			class649_sub1_sub5_sub1_sub2.method11082((Class95.aClass536_Sub33Array1154[i_5_]), 1901380970);
+		if (null != Class95.playerRenderData[i_5_])
+			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance((Class95.playerRenderData[i_5_]));
 		if (Class95.aClass536_Sub33Array1155[i_5_] != null)
 			class649_sub1_sub5_sub1_sub2.method11091((Class95.aClass536_Sub33Array1155[i_5_]), -174213418);
 		Class95.anInt1156 = 0;

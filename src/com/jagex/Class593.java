@@ -20,7 +20,7 @@ public class Class593 {
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
 			Class94.worlds[i_0_] = new Class592();
 			Class94.worlds[i_0_].flagId = class536_sub33.readUnsignedSmart(2058811550) * -1820632555;
-			Class94.worlds[i_0_].countryName = class536_sub33.readVersionedString((byte) 115);
+			Class94.worlds[i_0_].countryName = class536_sub33.readVersionedString();
 		}
 		Class220.lowestWorldId = class536_sub33.readUnsignedSmart(135286908) * 516757439;
 		highestWorldId = class536_sub33.readUnsignedSmart(-1323521548) * -1155278909;
@@ -33,10 +33,10 @@ public class Class593 {
 			class603_sub1.worldFlags = class536_sub33.readInt() * -261605043;
 			class603_sub1.extraString = class536_sub33.readUnsignedSmart(-480191768) * 1502072849;
 			if (class603_sub1.extraString * 1844650225 != 0)
-				class603_sub1.theExtraString = class536_sub33.readVersionedString((byte) 80);
+				class603_sub1.theExtraString = class536_sub33.readVersionedString();
 			class603_sub1.anInt10557 = (i_2_ + Class220.lowestWorldId * -805119937) * -130957999;
-			class603_sub1.worldActivity = class536_sub33.readVersionedString((byte) 36);
-			class603_sub1.worldIp = class536_sub33.readVersionedString((byte) 41);
+			class603_sub1.worldActivity = class536_sub33.readVersionedString();
+			class603_sub1.worldIp = class536_sub33.readVersionedString();
 		}
 		worldListChecksum = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
@@ -52,7 +52,7 @@ public class Class593 {
 		for (int i_3_ = 0; i_3_ < i; i_3_++) {
 			Class94.worlds[i_3_] = new Class592();
 			Class94.worlds[i_3_].flagId = class536_sub33.readUnsignedSmart(1603502560) * -1820632555;
-			Class94.worlds[i_3_].countryName = class536_sub33.readVersionedString((byte) 98);
+			Class94.worlds[i_3_].countryName = class536_sub33.readVersionedString();
 		}
 		Class220.lowestWorldId = class536_sub33.readUnsignedSmart(-840005392) * 516757439;
 		highestWorldId = class536_sub33.readUnsignedSmart(-496937234) * -1155278909;
@@ -65,10 +65,10 @@ public class Class593 {
 			class603_sub1.worldFlags = class536_sub33.readInt() * -261605043;
 			class603_sub1.extraString = class536_sub33.readUnsignedSmart(-620612441) * 1502072849;
 			if (class603_sub1.extraString * 1844650225 != 0)
-				class603_sub1.theExtraString = class536_sub33.readVersionedString((byte) 31);
+				class603_sub1.theExtraString = class536_sub33.readVersionedString();
 			class603_sub1.anInt10557 = (i_5_ + Class220.lowestWorldId * -805119937) * -130957999;
-			class603_sub1.worldActivity = class536_sub33.readVersionedString((byte) 23);
-			class603_sub1.worldIp = class536_sub33.readVersionedString((byte) 21);
+			class603_sub1.worldActivity = class536_sub33.readVersionedString();
+			class603_sub1.worldIp = class536_sub33.readVersionedString();
 		}
 		worldListChecksum = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;
@@ -80,7 +80,7 @@ public class Class593 {
 		for (int i_6_ = 0; i_6_ < i; i_6_++) {
 			Class94.worlds[i_6_] = new Class592();
 			Class94.worlds[i_6_].flagId = class536_sub33.readUnsignedSmart(242676996) * -1820632555;
-			Class94.worlds[i_6_].countryName = class536_sub33.readVersionedString((byte) 75);
+			Class94.worlds[i_6_].countryName = class536_sub33.readVersionedString();
 		}
 		Class220.lowestWorldId = class536_sub33.readUnsignedSmart(1738634422) * 516757439;
 		highestWorldId = class536_sub33.readUnsignedSmart(7976011) * -1155278909;
@@ -93,10 +93,10 @@ public class Class593 {
 			class603_sub1.worldFlags = class536_sub33.readInt() * -261605043;
 			class603_sub1.extraString = class536_sub33.readUnsignedSmart(437081542) * 1502072849;
 			if (class603_sub1.extraString * 1844650225 != 0)
-				class603_sub1.theExtraString = class536_sub33.readVersionedString((byte) 45);
+				class603_sub1.theExtraString = class536_sub33.readVersionedString();
 			class603_sub1.anInt10557 = (i_8_ + Class220.lowestWorldId * -805119937) * -130957999;
-			class603_sub1.worldActivity = class536_sub33.readVersionedString((byte) 55);
-			class603_sub1.worldIp = class536_sub33.readVersionedString((byte) 2);
+			class603_sub1.worldActivity = class536_sub33.readVersionedString();
+			class603_sub1.worldIp = class536_sub33.readVersionedString();
 		}
 		worldListChecksum = class536_sub33.readInt() * 591411205;
 		aBool7806 = true;

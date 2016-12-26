@@ -35,7 +35,7 @@ public final class Class654 {
 		int i_1_ = -1482773169 * Class95.anInt1156;
 		int[] is = Class95.anIntArray1157;
 		for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_2_]];
+			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_2_]];
 			if (null != class649_sub1_sub5_sub1_sub2)
 				Class583.method7028(class649_sub1_sub5_sub1_sub2, false, 65535);
 		}

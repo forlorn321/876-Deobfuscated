@@ -227,7 +227,7 @@ public class RSByteBuffer extends Class536 {
 		return readString();
 	}
 
-	public String readVersionedString(byte i) {
+	public String readVersionedString() {
 		byte i_25_ = buffer[(off += 516175515) * -810172525 - 1];
 		if (i_25_ != 0)
 			throw new IllegalStateException("");
@@ -562,7 +562,7 @@ public class RSByteBuffer extends Class536 {
 		return i_86_;
 	}
 
-	public void method9762(byte[] is, int i, int i_89_, int i_90_) {
+	public void readBytesReverse(byte[] is, int i, int i_89_, int i_90_) {
 		for (int i_91_ = i + i_89_ - 1; i_91_ >= i; i_91_--)
 			is[i_91_] = buffer[(off += 516175515) * -810172525 - 1];
 	}

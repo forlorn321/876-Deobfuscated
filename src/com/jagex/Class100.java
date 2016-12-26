@@ -69,7 +69,7 @@ public class Class100 {
 		for (int i_2_ = 0; i_2_ < worldSize; i_2_++) {
 			Class94.worlds[i_2_] = new Class592();
 			Class94.worlds[i_2_].flagId = stream.readUnsignedSmart(-171383916) * -1820632555;
-			Class94.worlds[i_2_].countryName = stream.readVersionedString((byte) 44);
+			Class94.worlds[i_2_].countryName = stream.readVersionedString();
 		}
 		Class220.lowestWorldId = stream.readUnsignedSmart(-1699057282) * 516757439;
 		Class593.highestWorldId = stream.readUnsignedSmart(1734628560) * -1155278909;
@@ -82,10 +82,10 @@ public class Class100 {
 			class603_sub1.worldFlags = stream.readInt() * -261605043;
 			class603_sub1.extraString = stream.readUnsignedSmart(2070051773) * 1502072849;
 			if (class603_sub1.extraString * 1844650225 != 0)
-				class603_sub1.theExtraString = stream.readVersionedString((byte) 98);
+				class603_sub1.theExtraString = stream.readVersionedString();
 			class603_sub1.anInt10557 = (worldId + Class220.lowestWorldId * -805119937) * -130957999;
-			class603_sub1.worldActivity = stream.readVersionedString((byte) 77);
-			class603_sub1.worldIp = stream.readVersionedString((byte) 63);
+			class603_sub1.worldActivity = stream.readVersionedString();
+			class603_sub1.worldIp = stream.readVersionedString();
 		}
 		Class593.worldListChecksum = stream.readInt() * 591411205;
 		Class593.aBool7806 = true;

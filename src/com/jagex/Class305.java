@@ -39,7 +39,7 @@ public class Class305 {
 						i_6_ = ((int) class436.aFloat4853 - (256 + 512 * (i_9_ - (1479112045 * class598.anInt7840))));
 					} else if (0 != (i_2_ & 0x8000)) {
 						int i_10_ = i_2_ & 0x7fff;
-						Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_10_]);
+						Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_10_]);
 						if (class649_sub1_sub5_sub1_sub2 != null) {
 							Class436 class436_11_ = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 							i_5_ = ((int) class436.aFloat4850 - (int) class436_11_.aFloat4850);

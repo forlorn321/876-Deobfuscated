@@ -141,8 +141,8 @@ class Class154 implements Runnable {
 			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = (Class649_Sub1_Sub5_Sub1_Sub1) class649_sub1_sub5_sub1;
 			if (class649_sub1_sub5_sub1_sub1.aClass296_12174 != null)
 				Class11.method620(class649_sub1_sub5_sub1_sub1, (class649_sub1_sub5_sub1_sub1.aByte10839 != (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)), (byte) -44);
-		} else if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub2) {
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (Class649_Sub1_Sub5_Sub1_Sub2) class649_sub1_sub5_sub1;
+		} else if (class649_sub1_sub5_sub1 instanceof Player) {
+			Player class649_sub1_sub5_sub1_sub2 = (Player) class649_sub1_sub5_sub1;
 			Class451.method5433(class649_sub1_sub5_sub1_sub2, (class649_sub1_sub5_sub1_sub2.aByte10839 != (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)), 1460237797);
 		}
 	}

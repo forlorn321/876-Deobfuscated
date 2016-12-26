@@ -93,7 +93,7 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (IncomingPacket.PLAYER_LOOK_PACKET == class106.aClass422_1261) {
+		if (IncomingPacket.PLAYER_LOOK == class106.aClass422_1261) {
 			byte isMale = stream.readByte();
 			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.decodePlayerLook(stream, isMale);
 			class106.aClass422_1261 = null;
@@ -109,7 +109,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.PLAYER_UPDATE == class106.aClass422_1261) {
-			Class153_Sub2.method8441(stream, 610303591 * class106.anInt1262, (byte) 117);
+			Class153_Sub2.decodePlayerUpdate(stream, 610303591 * class106.anInt1262, (byte) 117);
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -193,9 +193,9 @@ public class PacketDecoder {
 			int i_28_ = stream.readUnsignedByte();
 			i_28_ = -i_28_ - 2;
 			byte i_29_ = stream.readByte();
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = ((Class649_Sub1_Sub5_Sub1_Sub2) client.aMap11157.get(Integer.valueOf(i_28_)));
+			Player class649_sub1_sub5_sub1_sub2 = ((Player) client.aMap11157.get(Integer.valueOf(i_28_)));
 			if (null == class649_sub1_sub5_sub1_sub2) {
-				class649_sub1_sub5_sub1_sub2 = new Class649_Sub1_Sub5_Sub1_Sub2(null);
+				class649_sub1_sub5_sub1_sub2 = new Player(null);
 				class649_sub1_sub5_sub1_sub2.anInt11889 = i_28_ * 675537735;
 				client.aMap11157.put(Integer.valueOf(i_28_), class649_sub1_sub5_sub1_sub2);
 			}
@@ -788,7 +788,7 @@ public class PacketDecoder {
 				}
 			} else if (i_118_ >> 28 != 0) {
 				int i_137_ = i_118_ & 0xffff;
-				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2;
+				Player class649_sub1_sub5_sub1_sub2;
 				if (i_137_ == client.anInt11156 * -1791435655)
 					class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
 				else
@@ -1778,7 +1778,7 @@ public class PacketDecoder {
 		}
 		if (class106.aClass422_1261 == IncomingPacket.aClass422_4606) {
 			int i_299_ = stream.readUnsignedShort();
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2;
+			Player class649_sub1_sub5_sub1_sub2;
 			if (client.anInt11156 * -1791435655 == i_299_)
 				class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
 			else

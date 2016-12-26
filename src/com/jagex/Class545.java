@@ -94,7 +94,7 @@ public class Class545 {
 					client.aClass526Array11021[i_10_].aClass177_7103 = null;
 			}
 			for (int i_11_ = 0; i_11_ < 2048; i_11_++) {
-				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_11_];
+				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_11_];
 				if (null != class649_sub1_sub5_sub1_sub2) {
 					for (int i_12_ = 0; i_12_ < (class649_sub1_sub5_sub1_sub2.aClass177Array11953).length; i_12_++)
 						class649_sub1_sub5_sub1_sub2.aClass177Array11953[i_12_] = null;

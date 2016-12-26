@@ -112,7 +112,7 @@ public class Class533 {
 			Class649_Sub1_Sub5 class649_sub1_sub5 = class552.aClass649_Sub1_Sub5_7415;
 			if (class649_sub1_sub5 instanceof Class649_Sub1_Sub5_Sub1) {
 				Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1_10_ = (Class649_Sub1_Sub5_Sub1) class649_sub1_sub5;
-				int i_11_ = ((class649_sub1_sub5_sub1_10_.method10874(1355242333) - 1) * 256 + 252);
+				int i_11_ = ((class649_sub1_sub5_sub1_10_.method10874() - 1) * 256 + 252);
 				Class436 class436 = class649_sub1_sub5_sub1_10_.method7837().aClass436_4823;
 				int i_12_ = (int) class436.aFloat4850 - i_11_ >> 9;
 				int i_13_ = (int) class436.aFloat4853 - i_11_ >> 9;

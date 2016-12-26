@@ -239,7 +239,7 @@ public class Class106 {
 		Class209.method2978(-761686175);
 		client.anInt11179 = -937599055;
 		Class458_Sub5.method9373(client.anInt11178 * -551919553, (byte) 14);
-		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = new Class649_Sub1_Sub5_Sub1_Sub2(null);
+		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = new Player(null);
 		client.aMap11157.clear();
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7842((float) (client.aClass515_11066.method6321((byte) 91) * 512 / 2), 0.0F, (float) (client.aClass515_11066.method6243(177401017) * 512 / 2));
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0] = client.aClass515_11066.method6321((byte) -98) / 2;

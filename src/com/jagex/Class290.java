@@ -46,7 +46,7 @@ public class Class290 {
 			int i_7_ = Class95.anInt1156 * -1482773169;
 			int[] is = Class95.anIntArray1157;
 			for (int i_8_ = 0; i_8_ < i_7_; i_8_++) {
-				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_8_]];
+				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_8_]];
 				if (class649_sub1_sub5_sub1_sub2 != null)
 					class649_sub1_sub5_sub1_sub2.method10884(i, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_, (byte) -65);
 			}

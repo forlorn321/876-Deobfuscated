@@ -20,7 +20,7 @@ public class Class536_Sub3 extends Class536 {
 	int anInt10376;
 	int anInt10377;
 	Class649_Sub1_Sub5_Sub1_Sub1 aClass649_Sub1_Sub5_Sub1_Sub1_10378;
-	Class649_Sub1_Sub5_Sub1_Sub2 aClass649_Sub1_Sub5_Sub1_Sub2_10379;
+	Player aClass649_Sub1_Sub5_Sub1_Sub2_10379;
 	static final int anInt10380 = 0;
 	static final int anInt10381 = 1;
 	static final int anInt10382 = 2;
@@ -118,7 +118,7 @@ public class Class536_Sub3 extends Class536 {
 			}
 		} else if (null != aClass649_Sub1_Sub5_Sub1_Sub2_10379) {
 			anInt10388 = Class266.method3695(aClass649_Sub1_Sub5_Sub1_Sub2_10379, -295219525) * -1239313553;
-			anInt10375 = (692832581 * aClass649_Sub1_Sub5_Sub1_Sub2_10379.anInt12199 << 9) * -924360927;
+			anInt10375 = (692832581 * aClass649_Sub1_Sub5_Sub1_Sub2_10379.transformNPC << 9) * -924360927;
 			anInt10368 = 0;
 			anInt10376 = -717330677 * aClass649_Sub1_Sub5_Sub1_Sub2_10379.anInt12178;
 			anInt10393 = 849893632;
@@ -195,9 +195,9 @@ public class Class536_Sub3 extends Class536 {
 			}
 			Class436 class436 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method7837().aClass436_4823);
 			class536_sub3.anInt10367 = (int) class436.aFloat4850 * -537587733;
-			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874(1355242333) << 8)) * -456576489;
+			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874() << 8)) * -456576489;
 			class536_sub3.anInt10369 = (int) class436.aFloat4853 * -1373921313;
-			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874(1355242333) << 8)) * 1536397313;
+			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874() << 8)) * 1536397313;
 			class536_sub3.anInt10364 = -358839083 * (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aByte10839);
 			Class649_Sub1_Sub3_Sub1.method10939(class536_sub3, i, i_2_, i_3_, i_4_, 940095958);
 		}
@@ -237,9 +237,9 @@ public class Class536_Sub3 extends Class536 {
 			}
 			Class436 class436 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method7837().aClass436_4823);
 			class536_sub3.anInt10367 = -537587733 * (int) class436.aFloat4850;
-			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874(1355242333) << 8)) * -456576489;
+			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874() << 8)) * -456576489;
 			class536_sub3.anInt10369 = -1373921313 * (int) class436.aFloat4853;
-			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874(1355242333) << 8)) * 1536397313;
+			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874() << 8)) * 1536397313;
 			class536_sub3.anInt10364 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.aByte10839 * -358839083);
 			Class649_Sub1_Sub3_Sub1.method10939(class536_sub3, i, i_2_, i_3_, i_4_, 721272876);
 		}

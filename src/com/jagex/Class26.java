@@ -265,7 +265,7 @@ public class Class26 {
 		int i_28_ = -1482773169 * Class95.anInt1156;
 		int[] is = Class95.anIntArray1157;
 		for (int i_29_ = 0; i_29_ < i_28_; i_29_++) {
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_29_]];
+			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_29_]];
 			if (null != class649_sub1_sub5_sub1_sub2 && class649_sub1_sub5_sub1_sub2.method11088(1644471179) && !class649_sub1_sub5_sub1_sub2.aClass623_12201.method7421(811086071) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != class649_sub1_sub5_sub1_sub2) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == class649_sub1_sub5_sub1_sub2.aByte10839)) {
 				Class436 class436 = class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823;
 				int i_30_ = (int) class436.aFloat4850 / 128 - i / 128;

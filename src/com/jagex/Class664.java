@@ -135,7 +135,7 @@ public class Class664 implements Interface75 {
 				}
 				if (-2056997773 * class649_sub1_sub5_sub6.anInt12144 < 0) {
 					int i_7_ = (-(class649_sub1_sub5_sub6.anInt12144 * -2056997773) - 1);
-					Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2;
+					Player class649_sub1_sub5_sub1_sub2;
 					if (-1791435655 * client.anInt11156 == i_7_)
 						class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
 					else

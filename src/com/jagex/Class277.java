@@ -39,9 +39,9 @@ public class Class277 implements Interface13 {
 
 	void method3740(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (1 == i)
-			aString3027 = class536_sub33.readVersionedString((byte) 35);
+			aString3027 = class536_sub33.readVersionedString();
 		else if (2 == i)
-			aString3028 = class536_sub33.readVersionedString((byte) 37);
+			aString3028 = class536_sub33.readVersionedString();
 		else if (3 == i) {
 			int i_2_ = class536_sub33.readUnsignedByte();
 			anIntArrayArray3029 = new int[i_2_][3];
@@ -271,9 +271,9 @@ public class Class277 implements Interface13 {
 
 	void method3751(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			aString3027 = class536_sub33.readVersionedString((byte) 19);
+			aString3027 = class536_sub33.readVersionedString();
 		else if (2 == i)
-			aString3028 = class536_sub33.readVersionedString((byte) 56);
+			aString3028 = class536_sub33.readVersionedString();
 		else if (3 == i) {
 			int i_39_ = class536_sub33.readUnsignedByte();
 			anIntArrayArray3029 = new int[i_39_][3];
@@ -368,9 +368,9 @@ public class Class277 implements Interface13 {
 
 	void method3752(RSByteBuffer class536_sub33, int i) {
 		if (1 == i)
-			aString3027 = class536_sub33.readVersionedString((byte) 58);
+			aString3027 = class536_sub33.readVersionedString();
 		else if (2 == i)
-			aString3028 = class536_sub33.readVersionedString((byte) 10);
+			aString3028 = class536_sub33.readVersionedString();
 		else if (3 == i) {
 			int i_57_ = class536_sub33.readUnsignedByte();
 			anIntArrayArray3029 = new int[i_57_][3];

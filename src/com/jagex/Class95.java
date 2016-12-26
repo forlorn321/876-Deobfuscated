@@ -8,7 +8,7 @@ public class Class95 {
 	static final int anInt1151 = 1;
 	static byte[] aByteArray1152;
 	static byte[] aByteArray1153;
-	static RSByteBuffer[] aClass536_Sub33Array1154;
+	static RSByteBuffer[] playerRenderData;
 	static RSByteBuffer[] aClass536_Sub33Array1155;
 	public static int anInt1156;
 	static int[] anIntArray1157;
@@ -23,7 +23,7 @@ public class Class95 {
 	static void method1293() {
 		anInt1156 = 0;
 		for (int i = 0; i < 2048; i++) {
-			aClass536_Sub33Array1154[i] = null;
+			playerRenderData[i] = null;
 			aClass536_Sub33Array1155[i] = null;
 			aByteArray1153[i] = Class680.aClass680_8639.aByte8644;
 			aClass43Array1162[i] = null;
@@ -33,7 +33,7 @@ public class Class95 {
 	static final void method1294(RSBitBuffer class536_sub33_sub2) {
 		class536_sub33_sub2.initBitAccess();
 		int i = client.anInt11156 * -1791435655;
-		Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Class649_Sub1_Sub5_Sub1_Sub2(client.aClass515_11066.method6249(1248320850))));
+		Player class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Player(client.aClass515_11066.method6249(1248320850))));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
 		int i_0_ = class536_sub33_sub2.readBits(30);
 		byte i_1_ = (byte) (i_0_ >> 28);
@@ -42,12 +42,12 @@ public class Class95 {
 		Class598 class598 = client.aClass515_11066.method6255(-1332050267);
 		class649_sub1_sub5_sub1_sub2.anIntArray11944[0] = i_2_ - class598.anInt7839 * 1858049507;
 		class649_sub1_sub5_sub1_sub2.anIntArray11945[0] = i_3_ - class598.anInt7840 * 1479112045;
-		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874(1355242333) << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874(1355242333) << 8)));
+		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
 		Class320.anInt3539 = (class649_sub1_sub5_sub1_sub2.aByte10839 = class649_sub1_sub5_sub1_sub2.aByte10840 = i_1_) * 1995486621;
 		if (client.aClass515_11066.method6251(21756407).method5466(class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], (byte) -63))
 			class649_sub1_sub5_sub1_sub2.aByte10840++;
-		if (null != aClass536_Sub33Array1154[i])
-			class649_sub1_sub5_sub1_sub2.method11082(aClass536_Sub33Array1154[i], 1544934794);
+		if (null != playerRenderData[i])
+			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(playerRenderData[i]);
 		if (aClass536_Sub33Array1155[i] != null)
 			class649_sub1_sub5_sub1_sub2.method11091(aClass536_Sub33Array1155[i], 1036735050);
 		anInt1156 = 0;
@@ -86,7 +86,7 @@ public class Class95 {
 	static {
 		aByteArray1152 = new byte[2048];
 		aByteArray1153 = new byte[2048];
-		aClass536_Sub33Array1154 = new RSByteBuffer[2048];
+		playerRenderData = new RSByteBuffer[2048];
 		aClass536_Sub33Array1155 = new RSByteBuffer[2048];
 		anInt1156 = 0;
 		anIntArray1157 = new int[2048];
@@ -104,7 +104,7 @@ public class Class95 {
 	static void method1295() {
 		anInt1156 = 0;
 		for (int i = 0; i < 2048; i++) {
-			aClass536_Sub33Array1154[i] = null;
+			playerRenderData[i] = null;
 			aClass536_Sub33Array1155[i] = null;
 			aByteArray1153[i] = Class680.aClass680_8639.aByte8644;
 			aClass43Array1162[i] = null;

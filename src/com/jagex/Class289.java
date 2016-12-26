@@ -74,6 +74,6 @@ public class Class289 {
 	}
 
 	static final void method3921(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Class649_Sub1_Sub5_Sub1_Sub2) class668.aClass649_Sub1_Sub5_Sub1_8554).method11085(true, (byte) 1);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Player) class668.aClass649_Sub1_Sub5_Sub1_8554).method11085(true, (byte) 1);
 	}
 }

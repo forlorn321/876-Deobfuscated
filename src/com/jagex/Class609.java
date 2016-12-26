@@ -117,8 +117,8 @@ public class Class609 implements Interface75 {
 			Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1.method7837().aClass436_4823);
 			int i_9_ = (int) class436.aFloat4850;
 			int i_10_ = (int) class436.aFloat4853;
-			int i_11_ = ((512 * (class649_sub1_sub5_sub1.anIntArray11944[class649_sub1_sub5_sub1.anInt11957 * -711375609 - 1])) + class649_sub1_sub5_sub1.method10874(1355242333) * 256);
-			int i_12_ = (((class649_sub1_sub5_sub1.anIntArray11945[-711375609 * class649_sub1_sub5_sub1.anInt11957 - 1]) * 512) + class649_sub1_sub5_sub1.method10874(1355242333) * 256);
+			int i_11_ = ((512 * (class649_sub1_sub5_sub1.anIntArray11944[class649_sub1_sub5_sub1.anInt11957 * -711375609 - 1])) + class649_sub1_sub5_sub1.method10874() * 256);
+			int i_12_ = (((class649_sub1_sub5_sub1.anIntArray11945[-711375609 * class649_sub1_sub5_sub1.anInt11957 - 1]) * 512) + class649_sub1_sub5_sub1.method10874() * 256);
 			if (i_9_ < i_11_) {
 				if (i_10_ < i_12_)
 					class649_sub1_sub5_sub1.method10867(10240, -1823359665);

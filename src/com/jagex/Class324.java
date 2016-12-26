@@ -180,7 +180,7 @@ public class Class324 implements Interface14 {
 	static void method4276(int i) {
 		Class95.anInt1156 = 0;
 		for (int i_23_ = 0; i_23_ < 2048; i_23_++) {
-			Class95.aClass536_Sub33Array1154[i_23_] = null;
+			Class95.playerRenderData[i_23_] = null;
 			Class95.aClass536_Sub33Array1155[i_23_] = null;
 			Class95.aByteArray1153[i_23_] = Class680.aClass680_8639.aByte8644;
 			Class95.aClass43Array1162[i_23_] = null;

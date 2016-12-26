@@ -634,7 +634,7 @@ public abstract class Class184 {
 						Class521_Sub3 class521_sub3 = class521_sub1.method9328(client.anInt11014, 124386538);
 						if (null != class521_sub3) {
 							Class546 class546 = class521_sub1.aClass546_10293;
-							Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_177_]]);
+							Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_177_]]);
 							Class143 class143;
 							Class143 class143_179_;
 							if (null != class649_sub1_sub5_sub1_sub2 && ((class649_sub1_sub5_sub1_sub2.aClass210_12200) != Class210.aClass210_2258)) {
@@ -692,7 +692,7 @@ public abstract class Class184 {
 					i_178_ -= Class644.aClass628_8352.anInt8193 * 1823801087 + 2;
 				if (!class649_sub1_sub5_sub1.aBool11894) {
 					if (null == class296) {
-						Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = ((Class649_Sub1_Sub5_Sub1_Sub2) class649_sub1_sub5_sub1);
+						Player class649_sub1_sub5_sub1_sub2 = ((Player) class649_sub1_sub5_sub1);
 						for (int i_191_ = 0; i_191_ < (class649_sub1_sub5_sub1_sub2.anIntArray12183).length; i_191_++) {
 							if ((class649_sub1_sub5_sub1_sub2.anIntArray12183[i_191_]) >= 0) {
 								Object object = null;
@@ -742,7 +742,7 @@ public abstract class Class184 {
 						}
 					}
 				}
-				if (class649_sub1_sub5_sub1 instanceof Class649_Sub1_Sub5_Sub1_Sub2) {
+				if (class649_sub1_sub5_sub1 instanceof Player) {
 					if (i_177_ >= 0) {
 						int i_197_ = 0;
 						Class103[] class103s = client.aClass103Array11020;

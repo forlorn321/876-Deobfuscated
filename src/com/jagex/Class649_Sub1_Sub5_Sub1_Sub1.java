@@ -869,7 +869,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 			if (0 != anInt11891 * -2111850483)
 				aClass177Array11953[0].method2472(0, anInt11891 * -2111850483, 0);
 		} else
-			method10876(i_75_, method10874(1355242333) << 9, method10874(1355242333) << 9, 0, 0, 1567030924);
+			method10876(i_75_, method10874() << 9, method10874() << 9, 0, 0, 1567030924);
 		if (bool)
 			class177.method2510(aByte11928, aByte11936, aByte11930, aByte11958 & 0xff);
 		if (bool_74_)
@@ -943,7 +943,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 			if (0 != anInt11891 * -2111850483)
 				aClass177Array11953[0].method2472(0, anInt11891 * -2111850483, 0);
 		} else
-			method10876(i_82_, method10874(1355242333) << 9, method10874(1355242333) << 9, 0, 0, 464510146);
+			method10876(i_82_, method10874() << 9, method10874() << 9, 0, 0, 464510146);
 		if (bool)
 			class177.method2510(aByte11928, aByte11936, aByte11930, aByte11958 & 0xff);
 		if (bool_81_)

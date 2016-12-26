@@ -27,7 +27,7 @@ public class Class266 {
 		return Class536_Sub42.aTwitchTV10811.GetWebcamState();
 	}
 
-	static int method3695(Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, int i) {
+	static int method3695(Player class649_sub1_sub5_sub1_sub2, int i) {
 		int i_0_ = 381085537 * class649_sub1_sub5_sub1_sub2.anInt12195;
 		Class589 class589 = class649_sub1_sub5_sub1_sub2.method10877(-1862257776);
 		int i_1_ = class649_sub1_sub5_sub1_sub2.aClass688_Sub3_11914.method8120((byte) 34);

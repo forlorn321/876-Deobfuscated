@@ -73,7 +73,7 @@ public abstract class Class315 {
 		if (-1 == i)
 			i = client.anInt11178 * -551919553;
 		Class458_Sub5.method9373(i, (byte) 28);
-		int i_4_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874(1355242333) << 8);
+		int i_4_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() << 8);
 		Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
 		Class567.method6920((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), i_4_ + (int) class436.aFloat4850, (int) class436.aFloat4853 + i_4_, client.anInt11180 * -1483561311, -165772);
 		client.anInt11180 = 0;

@@ -36,8 +36,8 @@ class Class197 implements Interface42 {
 
 	static final void method2870(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i) {
 		int i_3_ = (class649_sub1_sub5_sub1.anInt11923 * 1080012231 - client.anInt11014);
-		int i_4_ = (class649_sub1_sub5_sub1.anInt11916 * -440313344 + class649_sub1_sub5_sub1.method10874(1355242333) * 256);
-		int i_5_ = (class649_sub1_sub5_sub1.anInt11919 * -84446720 + class649_sub1_sub5_sub1.method10874(1355242333) * 256);
+		int i_4_ = (class649_sub1_sub5_sub1.anInt11916 * -440313344 + class649_sub1_sub5_sub1.method10874() * 256);
+		int i_5_ = (class649_sub1_sub5_sub1.anInt11919 * -84446720 + class649_sub1_sub5_sub1.method10874() * 256);
 		int i_6_ = Class54.method944(i_4_, i_5_, (class649_sub1_sub5_sub1.anInt11921 * -1428852859), 2032484701);
 		Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 		class649_sub1_sub5_sub1.method7842((float) ((i_4_ - (int) class436.aFloat4850) / i_3_ + (int) class436.aFloat4850), (float) ((int) class436.aFloat4852 + (i_6_ - (int) class436.aFloat4852) / i_3_), (float) ((i_5_ - (int) class436.aFloat4853) / i_3_ + (int) class436.aFloat4853));

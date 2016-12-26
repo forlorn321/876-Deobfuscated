@@ -53,7 +53,7 @@ public class Class451 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class277.method3754(i_0_, 747507598);
 	}
 
-	static void method5433(Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, boolean bool, int i) {
+	static void method5433(Player class649_sub1_sub5_sub1_sub2, boolean bool, int i) {
 		if (Class70.anInt760 * 1780207751 < 409) {
 			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == class649_sub1_sub5_sub1_sub2) {
 				if (client.aBool11188 && 0 != (Class511.anInt6931 * 1686601581 & 0x10))

@@ -93,6 +93,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.UPDATE_ITEM_CONTAINER); //implemented
 		IDENTIFIED.add(IncomingPacket.ITEM_CONTAINER); //implemented
 		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE); //implemented
+		IDENTIFIED.add(IncomingPacket.PLAYER_LOOK); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing noticeable

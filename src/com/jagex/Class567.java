@@ -129,9 +129,9 @@ public abstract class Class567 {
 			}
 			Class436 class436 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method7837().aClass436_4823);
 			class536_sub3.anInt10367 = (int) class436.aFloat4850 * -537587733;
-			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874(1355242333) << 8)) * -456576489;
+			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874() << 8)) * -456576489;
 			class536_sub3.anInt10369 = (int) class436.aFloat4853 * -1373921313;
-			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874(1355242333) << 8)) * 1536397313;
+			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10874() << 8)) * 1536397313;
 			class536_sub3.anInt10364 = -358839083 * (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aByte10839);
 			Class649_Sub1_Sub3_Sub1.method10939(class536_sub3, i, i_9_, i_10_, i_11_, 261069513);
 		}
@@ -171,9 +171,9 @@ public abstract class Class567 {
 			}
 			Class436 class436 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method7837().aClass436_4823);
 			class536_sub3.anInt10367 = -537587733 * (int) class436.aFloat4850;
-			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874(1355242333) << 8)) * -456576489;
+			class536_sub3.anInt10370 = ((int) class436.aFloat4850 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874() << 8)) * -456576489;
 			class536_sub3.anInt10369 = -1373921313 * (int) class436.aFloat4853;
-			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874(1355242333) << 8)) * 1536397313;
+			class536_sub3.anInt10371 = ((int) class436.aFloat4853 + (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10874() << 8)) * 1536397313;
 			class536_sub3.anInt10364 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.aByte10839 * -358839083);
 			Class649_Sub1_Sub3_Sub1.method10939(class536_sub3, i, i_9_, i_10_, i_11_, 257032482);
 		}

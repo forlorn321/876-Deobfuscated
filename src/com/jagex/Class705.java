@@ -126,7 +126,7 @@ public class Class705 {
 			int i_8_ = -1482773169 * Class95.anInt1156;
 			int[] is = Class95.anIntArray1157;
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_9_]];
+				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_9_]];
 				if (null != class649_sub1_sub5_sub1_sub2.aString12184 && class649_sub1_sub5_sub1_sub2.aString12184.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);

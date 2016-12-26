@@ -243,7 +243,7 @@ public class Class320 implements Interface33 {
 			int i_16_ = Class95.anInt1156 * -1482773169;
 			int[] is = Class95.anIntArray1157;
 			for (int i_17_ = 0; i_17_ < i_16_; i_17_++) {
-				Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_17_]]);
+				Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_17_]]);
 				if (class649_sub1_sub5_sub1_sub2 != null)
 					class649_sub1_sub5_sub1_sub2.method10916(i_14_, i_15_, bool, 1401753877);
 			}

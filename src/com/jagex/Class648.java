@@ -291,7 +291,7 @@ public class Class648 {
 				Class677.aClass167_8609.method2057(i, i_17_, i_18_, i_19_, -16777216, (short) -1553);
 			else {
 				client.anInt11127 += 1788280359;
-				if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 && ((int) class436.aFloat4850 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874(1355242333) - 1) * 256) >> 9 == Class101.anInt1205 * -349564685 && (((int) class436.aFloat4853 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874(1355242333) - 1) * 256) >> 9 == 400767477 * Class101.anInt1194)) {
+				if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 && ((int) class436.aFloat4850 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 256) >> 9 == Class101.anInt1205 * -349564685 && (((int) class436.aFloat4853 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 256) >> 9 == 400767477 * Class101.anInt1194)) {
 					Class101.anInt1205 = 1245738949;
 					Class101.anInt1194 = -1934813789;
 					Class171.method2430((byte) 5);

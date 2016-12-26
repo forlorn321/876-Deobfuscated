@@ -49,17 +49,17 @@ public class Class302 {
 		Class684.aBoolArray8653 = new boolean[Class452.aClass461_4953.method5570(-1975535778)];
 	}
 
-	static final void method4102(RSBitBuffer class536_sub33_sub2, int i) {
-		for (int i_8_ = 0; i_8_ < 38697745 * Class95.anInt1150; i_8_++) {
-			class536_sub33_sub2.readUnsignedShort();
-			int i_9_ = Class95.anIntArray1160[i_8_];
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_9_];
-			int i_10_ = class536_sub33_sub2.readUnsignedByte();
-			if (0 != (i_10_ & 0x80))
-				i_10_ += class536_sub33_sub2.readUnsignedByte() << 8;
-			if ((i_10_ & 0x800) != 0)
-				i_10_ += class536_sub33_sub2.readUnsignedByte() << 16;
-			Class630.method7528(class536_sub33_sub2, i_9_, class649_sub1_sub5_sub1_sub2, i_10_, -1006281053);
+	static final void method4102(RSBitBuffer buffer) {
+		for (int index = 0; index < 38697745 * Class95.anInt1150; index++) {
+			buffer.readUnsignedShort();
+			int playerIndex = Class95.anIntArray1160[index];
+			Player player = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[playerIndex];
+			int flag = buffer.readUnsignedByte();
+			if (0 != (flag & 0x80))
+				flag += buffer.readUnsignedByte() << 8;
+			if ((flag & 0x800) != 0)
+				flag += buffer.readUnsignedByte() << 16;
+			Class630.decodePlayerMasks(buffer, playerIndex, player, flag);
 		}
 	}
 }

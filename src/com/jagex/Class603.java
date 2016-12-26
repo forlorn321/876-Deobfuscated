@@ -308,7 +308,7 @@ public abstract class Class603 {
 				else if (i_5_ == 53)
 					class414_9_ = OutgoingPacket.aClass414_4422;
 				if (class414_9_ != null) {
-					Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_];
+					Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_];
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						client.anInt11134 = i * -1202273473;
 						client.anInt11135 = -1725614879 * i_1_;
@@ -324,7 +324,7 @@ public abstract class Class603 {
 				if (i_5_ == 1008 || 1009 == i_5_ || i_5_ == 1010 || i_5_ == 1011 || 1012 == i_5_)
 					Class694.method8209(i_5_, i_6_, i_3_, 809542679);
 				if (15 == i_5_) {
-					Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_];
+					Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_];
 					if (null != class649_sub1_sub5_sub1_sub2) {
 						client.anInt11134 = -1202273473 * i;
 						client.anInt11135 = i_1_ * -1725614879;

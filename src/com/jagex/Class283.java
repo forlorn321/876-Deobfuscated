@@ -163,7 +163,7 @@ public class Class283 implements Interface75 {
 						Class586.aClass106_7710.method1413((short) -8465).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, -810172525 * (Class586.aClass106_7710.byteBuffer.off), 1601221752);
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
-						String string = Class586.aClass106_7710.byteBuffer.readVersionedString((byte) 37);
+						String string = Class586.aClass106_7710.byteBuffer.readVersionedString();
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						String string_6_ = Class412.aClass412_4391.method5005(877995250);
 						Class420.method5063(string, true, string_6_, client.aBool11228, (byte) 83);
@@ -563,14 +563,14 @@ public class Class283 implements Interface75 {
 								Class66.anInt723 = (stream.readUnsignedShort() * -860628261);
 								Class307.anInt3454 = (stream.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = stream.readUnsignedByte() == 1;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString((byte) 101);
+								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
 								Class646.anInt8360 = stream.readUnsignedByte() * 431261749;
 								Class622.anInt8127 = stream.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();
 								Class23.aClass5_228.anInt111 = (stream.readUnsignedShort() * 1232605419);
 								if (Class23.aClass5_228.anInt111 * 1318197187 == 65535)
 									Class23.aClass5_228.anInt111 = -1232605419;
-								Class23.aClass5_228.aString112 = stream.readVersionedString((byte) 106);
+								Class23.aClass5_228.aString112 = stream.readVersionedString();
 								int port = stream.readUnsignedShort();
 								Class23.aClass5_228.anInt110 = (port * -1803928197);
 								int leet = stream.readUnsignedShort();

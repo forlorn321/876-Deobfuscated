@@ -83,10 +83,10 @@ public abstract class Class206 implements Interface6 {
 			if (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] != null)
 				throw new RuntimeException();
 			Class43 class43 = Class95.aClass43Array1162[i];
-			Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Class649_Sub1_Sub5_Sub1_Sub2(client.aClass515_11066.method6249(1569682681))));
+			Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Player(client.aClass515_11066.method6249(1569682681))));
 			class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
-			if (Class95.aClass536_Sub33Array1154[i] != null)
-				class649_sub1_sub5_sub1_sub2.method11082(Class95.aClass536_Sub33Array1154[i], -37351772);
+			if (Class95.playerRenderData[i] != null)
+				class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(Class95.playerRenderData[i]);
 			if (Class95.aClass536_Sub33Array1155[i] != null)
 				class649_sub1_sub5_sub1_sub2.method11091(Class95.aClass536_Sub33Array1155[i], -180153836);
 			class649_sub1_sub5_sub1_sub2.method10893(class43.anInt511 * -1112850861, true, (byte) 9);
@@ -194,7 +194,7 @@ public abstract class Class206 implements Interface6 {
 				client.aClass199_11320.method2881(class143, (long) i_44_);
 			}
 			Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
-			Class672.method8024(class649_sub1_sub5_sub1.aByte10839, (int) class436.aFloat4850, (int) class436.aFloat4853, class649_sub1_sub5_sub1.method10874(1355242333) * 256, 0, false, false, -2131275969);
+			Class672.method8024(class649_sub1_sub5_sub1.aByte10839, (int) class436.aFloat4850, (int) class436.aFloat4853, class649_sub1_sub5_sub1.method10874() * 256, 0, false, false, -2131275969);
 			int i_45_ = (int) ((float) i_37_ + client.aFloatArray11133[0] - 18.0F);
 			int i_46_ = (int) ((float) i_38_ + client.aFloatArray11133[1] - 16.0F - 54.0F);
 			i_45_ += i / 4 * 18;
