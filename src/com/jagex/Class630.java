@@ -181,7 +181,7 @@ public class Class630 {
 				Class635.method7564(2, i_24_, player.method11085(true, (byte) 1), player.method11086(false, -2012118516), player.aString12192, string, null, -1538266173);
 			player.method11090(string, 0, 0, (byte) -87);
 		}
-		if ((flag & 0x10000) != 0) { //not used
+		if ((flag & 0x10000) != 0) { //combat_reticule
 			int i_25_ = buffer.readUnsignedShort128();
 			int i_26_ = buffer.readLEInt();
 			if (i_25_ == 65535)
@@ -352,13 +352,13 @@ public class Class630 {
 			Class95.iconData[playerIndex] = iconData;
 			player.decodeIcons(iconData);
 		}
-		if ((flag & 0x4000) != 0) {
+		if ((flag & 0x4000) != 0) { //force_chat
 			String string = buffer.readString();
 			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == player)
 				Class635.method7564(2, 0, player.method11085(true, (byte) 1), player.method11086(false, -2021464545), player.aString12192, string, null, -1538266173);
 			player.method11090(string, 0, 0, (byte) -93);
 		}
-		if (0 != (flag & 0x2)) {
+		if (0 != (flag & 0x2)) { //force_movement
 			int i1 = buffer.readByte();
 			int i2 = buffer.readByte128();
 			int i3 = buffer.readByte128();
@@ -369,7 +369,10 @@ public class Class630 {
 			int i8 = buffer.readUnsignedShortLE();
 			int i9 = buffer.readUnsignedShort128();
 			List<Integer> list = Arrays.asList(i1, i2, i3, i4, i5, i6, i7, i8, i9);
-			list.stream().forEach(System.out::println);
+			System.out.println("==============FORCE MOVEMENT INFO====================");
+			list.stream()
+				.forEach(System.out::println);
+			System.out.println("================FORCE MOVEMENT END===================");
 			player.anInt11916 = i1 * -339639515;
 			player.anInt11919 = i2 * 1183324809;
 			player.anInt11935 = i3 * -1437384935;
@@ -389,7 +392,7 @@ public class Class630 {
 			player.anInt11922 += 107491611 * player.aByte10839;
 			
 		}
-		if (0 != (flag & 0x100000)) {
+		if (0 != (flag & 0x100000)) { //update_colours
 			player.aByte11928 = buffer.readByteC();
 			player.aByte11936 = buffer.readByte128();
 			player.aByte11930 = buffer.read128Byte();
