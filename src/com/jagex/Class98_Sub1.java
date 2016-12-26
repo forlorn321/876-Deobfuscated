@@ -75,6 +75,8 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 			}
 		} else
 			throw new IllegalStateException();
+		if (class430.anObject4819 != null)
+			System.out.println("Item metadata: " + i_2_ + ", " + class430.anObject4819.toString());
 		return class430;
 	}
 

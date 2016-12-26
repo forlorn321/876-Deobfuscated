@@ -147,7 +147,7 @@ public class Class630 {
 		return method7511(i, -1439018107) * 10;
 	}
 
-	static final void method7528(Class536_Sub33_Sub2 class536_sub33_sub2, int i, Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, int i_16_, int i_17_) {
+	static final void method7528(RSBitBuffer class536_sub33_sub2, int i, Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2, int i_16_, int i_17_) {
 		if (0 != (i_16_ & 0x1000)) {
 			int i_18_ = class536_sub33_sub2.readUnsignedShortLE128();
 			int i_19_ = class536_sub33_sub2.readIntV2((byte) 70);

@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class536_Sub33_Sub2 extends RSByteBuffer {
+public class RSBitBuffer extends RSByteBuffer {
 	int anInt11792;
 	static int[] anIntArray11793 = { 0, 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023, 2047, 4095, 8191, 16383, 32767, 65535, 131071, 262143, 524287, 1048575, 2097151, 4194303, 8388607, 16777215, 33554431, 67108863, 134217727, 268435455, 536870911, 1073741823, 2147483647, -1 };
 	Class15 aClass15_11794;
@@ -24,11 +24,11 @@ public class Class536_Sub33_Sub2 extends RSByteBuffer {
 		return ((i_3_ - 128 << 8) + ((buffer[(off += 516175515) * -810172525 - 1] - aClass15_11794.method628(873041966)) & 0xff));
 	}
 
-	public void method10779(byte i) {
+	public void initBitAccess() {
 		anInt11792 = off * -1758662568;
 	}
 
-	public int method10780(int i, int i_4_) {
+	public int readBits(int i) {
 		int i_5_ = anInt11792 * 293388697 >> 3;
 		int i_6_ = 8 - (293388697 * anInt11792 & 0x7);
 		int i_7_ = 0;
@@ -44,11 +44,11 @@ public class Class536_Sub33_Sub2 extends RSByteBuffer {
 		return i_7_;
 	}
 
-	public void method10781(int i) {
+	public void finishBitAccess(int i) {
 		off = (7 + anInt11792 * 293388697) / 8 * 516175515;
 	}
 
-	public Class536_Sub33_Sub2(int i) {
+	public RSBitBuffer(int i) {
 		super(i);
 	}
 

@@ -8,7 +8,7 @@ public class PacketDecoder {
 
 	static final boolean decodePacket(Class106 class106, int i) throws IOException {
 		Class567 class567 = class106.method1413((short) 22334);
-		Class536_Sub33_Sub2 stream = class106.byteBuffer;
+		RSBitBuffer stream = class106.byteBuffer;
 		if (null == class567)
 			return false;
 		if (class106.aClass422_1261 == null) {
@@ -1313,7 +1313,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.MAP_REGION) {
-			Class536_Sub33_Sub2 class536_sub33_sub2_225_ = new Class536_Sub33_Sub2(class106.anInt1262 * 610303591);
+			RSBitBuffer class536_sub33_sub2_225_ = new RSBitBuffer(class106.anInt1262 * 610303591);
 			System.arraycopy((class106.byteBuffer.buffer), (-810172525 * class106.byteBuffer.off), class536_sub33_sub2_225_.buffer, 0, class106.anInt1262 * 610303591);
 			Class478.method5762(753155875);
 			if (Class710.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
@@ -2031,7 +2031,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.aClass422_1261 == IncomingPacket.DYNAMIC_MAP_SCENE) {
-			Class536_Sub33_Sub2 class536_sub33_sub2_342_ = new Class536_Sub33_Sub2(class106.anInt1262 * 610303591);
+			RSBitBuffer class536_sub33_sub2_342_ = new RSBitBuffer(class106.anInt1262 * 610303591);
 			System.arraycopy((class106.byteBuffer.buffer), (class106.byteBuffer.off * -810172525), class536_sub33_sub2_342_.buffer, 0, class106.anInt1262 * 610303591);
 			Class478.method5762(204029425);
 			if (Class710.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
@@ -2178,19 +2178,19 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.SEND_ITEMS == class106.aClass422_1261) {
-			int i_375_ = stream.readUnsignedShort();
-			int i_376_ = stream.readUnsignedByte();
-			boolean bool = 0 != (i_376_ & 0x1);
-			boolean hasMetadata = (i_376_ & 0x2) != 0;
+			int key = stream.readUnsignedShort();
+			int flags = stream.readUnsignedByte();
+			boolean bool = 0 != (flags & 0x1);
+			boolean hasMetadata = (flags & 0x2) != 0;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
-				int i_378_ = stream.readUnsignedSmart(-884015614);
-				int i_379_ = stream.readUnsignedShort();
-				int i_380_ = 0;
+				int size = stream.readUnsignedSmart(-884015614);
+				int itemId = stream.readUnsignedShort();
+				int amount = 0;
 				Class21 class21 = null;
-				if (i_379_ != 0) {
-					i_380_ = stream.readUnsignedByte();
-					if (255 == i_380_)
-						i_380_ = stream.readInt();
+				if (itemId != 0) {
+					amount = stream.readUnsignedByte();
+					if (255 == amount)
+						amount = stream.readInt();
 					if (hasMetadata) {
 						int numValues = stream.readUnsignedByte();
 						if (numValues > 0) {
@@ -2202,9 +2202,9 @@ public class PacketDecoder {
 						}
 					}
 				}
-				Class38.method846(i_375_, i_378_, i_379_ - 1, i_380_, class21, bool, 357884856);
+				Class38.method846(key, size, itemId - 1, amount, class21, bool, 357884856);
 			}
-			client.anIntArray11220[(client.anInt11221 += 705495793) * -111956463 - 1 & 0x3f] = i_375_;
+			client.anIntArray11220[(client.anInt11221 += 705495793) * -111956463 - 1 & 0x3f] = key;
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -2797,7 +2797,7 @@ public class PacketDecoder {
 	}
 	
 	static final void decodeChunkSceneSubPacket(ChunkSceneSubPackets packet, byte i) {
-		Class536_Sub33_Sub2 stream = client.aClass106_11322.byteBuffer;
+		RSBitBuffer stream = client.aClass106_11322.byteBuffer;
 		if (!RS3Applet.IDENTIFIED_SUB.contains(packet))
 			System.out.println("Sub packet: " + packet.id);
 		if (ChunkSceneSubPackets.ADD_GROUND_ITEM == packet) {

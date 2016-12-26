@@ -329,7 +329,7 @@ public class Class515 {
 		aClass636_6994.method7571(class515_37_.method6252(1796531619), -149240645);
 	}
 
-	void decodeMapScene(Class536_Sub33_Sub2 stream, byte i) {
+	void decodeMapScene(RSBitBuffer stream, byte i) {
 		int chunkY = stream.readUnsignedShortLE();
 		int chunkX = stream.readUnsignedShort128();
 		int mapType = stream.readUnsignedByteC(2051369115);
@@ -362,8 +362,8 @@ public class Class515 {
 		loadChunk(chunkX, chunkY, 10, refresh, -430743798);
 	}
 
-	void decodeDynamicMapScene(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
-		int i_44_ = class536_sub33_sub2.readUnsigned128Byte();
+	void decodeDynamicMapScene(RSBitBuffer buffer, int i) {
+		int i_44_ = buffer.readUnsigned128Byte();
 		if (i_44_ == 1)
 			aClass498_6992 = Class498.aClass498_5558;
 		else if (2 == i_44_)
@@ -372,23 +372,23 @@ public class Class515 {
 			aClass498_6992 = Class498.aClass498_5560;
 		else if (i_44_ == 4)
 			aClass498_6992 = Class498.aClass498_5561;
-		int i_45_ = class536_sub33_sub2.readUnsignedShortLE();
-		int i_46_ = class536_sub33_sub2.readUnsignedShort128();
-		int i_47_ = class536_sub33_sub2.readUnsigned128Byte();
-		int i_48_ = class536_sub33_sub2.readUnsigned128Byte();
+		int i_45_ = buffer.readUnsignedShortLE();
+		int i_46_ = buffer.readUnsignedShort128();
+		int i_47_ = buffer.readUnsigned128Byte();
+		int i_48_ = buffer.readUnsigned128Byte();
 		boolean bool = 0 != (i_48_ & 0x1);
-		anInt7035 = class536_sub33_sub2.readUnsignedByte128((byte) 0) * 974659739;
+		anInt7035 = buffer.readUnsignedByte128((byte) 0) * 974659739;
 		if (!aBool7005)
 			method6268(-1387269708);
 		method6299(Class510.method6188(i_47_, -1665393252), 1121434602);
-		class536_sub33_sub2.method10779((byte) 16);
+		buffer.initBitAccess();
 		HashSet hashset = new HashSet();
 		for (int i_49_ = 0; i_49_ < 4; i_49_++) {
 			for (int i_50_ = 0; i_50_ < anInt7030 * -324388659 >> 3; i_50_++) {
 				for (int i_51_ = 0; i_51_ < anInt7011 * -1001036419 >> 3; i_51_++) {
-					int i_52_ = class536_sub33_sub2.method10780(1, 503518146);
+					int i_52_ = buffer.readBits(1);
 					if (1 == i_52_) {
-						int i_53_ = class536_sub33_sub2.method10780(26, 238849854);
+						int i_53_ = buffer.readBits(26);
 						anIntArrayArrayArray7002[i_49_][i_50_][i_51_] = i_53_;
 						int i_54_ = i_53_ >> 14 & 0x3ff;
 						int i_55_ = i_53_ >> 3 & 0x7ff;
@@ -399,7 +399,7 @@ public class Class515 {
 				}
 			}
 		}
-		class536_sub33_sub2.method10781(-1374707765);
+		buffer.finishBitAccess(-1374707765);
 		int i_57_ = hashset.size();
 		anIntArray6996 = new int[i_57_];
 		anIntArray7024 = new int[i_57_];

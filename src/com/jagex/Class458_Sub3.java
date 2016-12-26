@@ -50,7 +50,7 @@ final class Class458_Sub3 extends Class458 {
 		Class536_Sub23 class536_sub23 = Class144.method1795(-2071625918);
 		class536_sub23.aClass414_10529 = null;
 		class536_sub23.anInt10527 = 0;
-		class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(5000);
+		class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(5000);
 		return class536_sub23;
 	}
 }

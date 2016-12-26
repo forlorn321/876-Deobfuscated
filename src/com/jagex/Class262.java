@@ -138,9 +138,9 @@ public class Class262 {
 	}
 
 	static final void method3642(int i, int i_5_) {
-		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
+		RSBitBuffer class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
 		while (class536_sub33_sub2.method10785(610303591 * (client.aClass106_11322.anInt1262), (byte) 58) >= 15) {
-			int i_6_ = class536_sub33_sub2.method10780(15, 939507497);
+			int i_6_ = class536_sub33_sub2.readBits(15);
 			if (i_6_ == 32767)
 				break;
 			boolean bool = false;
@@ -158,19 +158,19 @@ public class Class262 {
 			class649_sub1_sub5_sub1_sub1.anInt11934 = client.anInt11124 * 1266166429;
 			if (class649_sub1_sub5_sub1_sub1.aClass296_12174 != null && class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
 				Class18.method688(class649_sub1_sub5_sub1_sub1, 1817244699);
-			class649_sub1_sub5_sub1_sub1.method11065((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33_sub2.method10780(15, -1570221292), (byte) -15)), 179188063);
-			int i_7_ = (class536_sub33_sub2.method10780(3, 240025761) + 4 << 11 & 0x3fff);
-			int i_8_ = class536_sub33_sub2.method10780(1, 1705554484);
+			class649_sub1_sub5_sub1_sub1.method11065((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33_sub2.readBits(15), (byte) -15)), 179188063);
+			int i_7_ = (class536_sub33_sub2.readBits(3) + 4 << 11 & 0x3fff);
+			int i_8_ = class536_sub33_sub2.readBits(1);
 			if (i_8_ == 1)
 				client.anIntArray11105[(client.anInt11055 += -1499013475) * 816748469 - 1] = i_6_;
-			int i_9_ = class536_sub33_sub2.method10780(2, 1833126983);
-			int i_10_ = class536_sub33_sub2.method10780(i, -1366230026);
+			int i_9_ = class536_sub33_sub2.readBits(2);
+			int i_10_ = class536_sub33_sub2.readBits(i);
 			if (i_10_ > (1 << i - 1) - 1)
 				i_10_ -= 1 << i;
-			int i_11_ = class536_sub33_sub2.method10780(i, -1856203452);
+			int i_11_ = class536_sub33_sub2.readBits(i);
 			if (i_11_ > (1 << i - 1) - 1)
 				i_11_ -= 1 << i;
-			int i_12_ = class536_sub33_sub2.method10780(1, 1545333299);
+			int i_12_ = class536_sub33_sub2.readBits(1);
 			class649_sub1_sub5_sub1_sub1.method10873((830254667 * class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272), -324388659);
 			class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (235698067 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) << 3);
 			if (bool)
@@ -181,7 +181,7 @@ public class Class262 {
 			if (bool)
 				class649_sub1_sub5_sub1_sub1.method11081((byte) 2);
 		}
-		class536_sub33_sub2.method10781(-1878447564);
+		class536_sub33_sub2.finishBitAccess(-1878447564);
 	}
 
 	static Interface19 method3643(Class350 class350, int i) {

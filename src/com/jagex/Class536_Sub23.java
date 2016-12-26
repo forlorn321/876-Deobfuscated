@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class536_Sub23 extends Class536 {
 	int anInt10527;
-	public Class536_Sub33_Sub2 aClass536_Sub33_Sub2_10528;
+	public RSBitBuffer aClass536_Sub33_Sub2_10528;
 	OutgoingPacket aClass414_10529;
 	public int anInt10530;
 	static Class536_Sub23[] aClass536_Sub23Array10531 = new Class536_Sub23[300];

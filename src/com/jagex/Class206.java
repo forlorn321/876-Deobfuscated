@@ -70,14 +70,14 @@ public abstract class Class206 implements Interface6 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2585 * -1382035527;
 	}
 
-	static boolean method2959(Class536_Sub33_Sub2 class536_sub33_sub2, int i, int i_4_) {
-		int i_5_ = class536_sub33_sub2.method10780(2, 327616835);
+	static boolean method2959(RSBitBuffer class536_sub33_sub2, int i, int i_4_) {
+		int i_5_ = class536_sub33_sub2.readBits(2);
 		if (0 == i_5_) {
-			if (class536_sub33_sub2.method10780(1, -364543081) != 0)
+			if (class536_sub33_sub2.readBits(1) != 0)
 				method2959(class536_sub33_sub2, i, 1799303762);
-			int i_6_ = class536_sub33_sub2.method10780(6, 1047253478);
-			int i_7_ = class536_sub33_sub2.method10780(6, -701265041);
-			boolean bool = class536_sub33_sub2.method10780(1, 1003948160) == 1;
+			int i_6_ = class536_sub33_sub2.readBits(6);
+			int i_7_ = class536_sub33_sub2.readBits(6);
+			boolean bool = class536_sub33_sub2.readBits(1) == 1;
 			if (bool)
 				Class95.anIntArray1160[(Class95.anInt1150 += -1305881103) * 38697745 - 1] = i;
 			if (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] != null)
@@ -109,13 +109,13 @@ public abstract class Class206 implements Interface6 {
 			return true;
 		}
 		if (1 == i_5_) {
-			int i_14_ = class536_sub33_sub2.method10780(2, 159921598);
+			int i_14_ = class536_sub33_sub2.readBits(2);
 			int i_15_ = 566829387 * Class95.aClass43Array1162[i].anInt514;
 			Class95.aClass43Array1162[i].anInt514 = ((i_15_ & 0xfffffff) + ((i_14_ + (i_15_ >> 28) & 0x3) << 28)) * 246702179;
 			return false;
 		}
 		if (2 == i_5_) {
-			int i_16_ = class536_sub33_sub2.method10780(5, -1910610640);
+			int i_16_ = class536_sub33_sub2.readBits(5);
 			int i_17_ = i_16_ >> 3 & 0x3;
 			int i_18_ = i_16_ & 0x7;
 			int i_19_ = 566829387 * Class95.aClass43Array1162[i].anInt514;
@@ -152,7 +152,7 @@ public abstract class Class206 implements Interface6 {
 			Class95.aClass43Array1162[i].anInt514 = ((i_21_ << 14) + (i_20_ << 28) + i_22_) * 246702179;
 			return false;
 		}
-		int i_23_ = class536_sub33_sub2.method10780(20, -1371851245);
+		int i_23_ = class536_sub33_sub2.readBits(20);
 		int i_24_ = i_23_ >> 18 & 0x3;
 		int i_25_ = i_23_ >> 16 & 0x3;
 		int i_26_ = i_23_ >> 8 & 0xff;

@@ -20,7 +20,7 @@ public class Class106 {
 	int anInt1264;
 	public int anInt1265;
 	public boolean aBool1266;
-	Class536_Sub33_Sub2 byteBuffer;
+	RSBitBuffer byteBuffer;
 	public int anInt1268 = 0;
 	int anInt1269;
 	IncomingPacket aClass422_1270;
@@ -91,7 +91,7 @@ public class Class106 {
 
 	Class106() {
 		aClass536_Sub33_1257 = new RSByteBuffer(1700);
-		byteBuffer = new Class536_Sub33_Sub2(40000);
+		byteBuffer = new RSBitBuffer(40000);
 		aClass422_1261 = null;
 		anInt1262 = 0;
 		aBool1263 = true;
@@ -255,7 +255,7 @@ public class Class106 {
 	}
 
 	static final void method1428(int i) {
-		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
+		RSBitBuffer class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
 		for (int i_2_ = 0; i_2_ < 816748469 * client.anInt11055; i_2_++) {
 			int i_3_ = client.anIntArray11105[i_2_];
 			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));

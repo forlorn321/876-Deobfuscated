@@ -24,7 +24,7 @@ public class Class8 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
 	}
 
-	static void method605(Class536_Sub33_Sub2 stream, byte i) {
+	static void method605(RSBitBuffer stream, byte i) {
 		boolean bool = stream.readUnsignedByte() == 1;
 		if (bool) {
 			boolean bool_0_ = false;

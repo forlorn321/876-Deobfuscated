@@ -191,7 +191,7 @@ public class Class283 implements Interface75 {
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						Class586.aClass106_7710.method1407(-462750759);
 						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1968268194);
-						Class536_Sub33_Sub2 stream = class536_sub23.aClass536_Sub33_Sub2_10528;
+						RSBitBuffer stream = class536_sub23.aClass536_Sub33_Sub2_10528;
 						if (244 == Class76_Sub1.anInt10981 * 1382700277) {
 							Class420 class420;
 							if (Class61.aBool647)
@@ -470,7 +470,7 @@ public class Class283 implements Interface75 {
 							}
 							if (bool) {
 								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(2043701963);
-								Class536_Sub33_Sub2 class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
+								RSBitBuffer class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
 								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.anInt4571));
 								Class586.aClass106_7710.method1409(class536_sub23, 193095407);
 								Class586.aClass106_7710.method1408(2145499619);
@@ -510,7 +510,7 @@ public class Class283 implements Interface75 {
 							Class61.loginStage = -461316310;
 						}
 						if (-129171495 * Class61.loginStage == 154) {
-							Class536_Sub33_Sub2 stream = (Class586.aClass106_7710.byteBuffer);
+							RSBitBuffer stream = (Class586.aClass106_7710.byteBuffer);
 							if (244 == 1382700277 * Class76_Sub1.anInt10981) {
 								if (!Class586.aClass106_7710.method1413((short) -9347).bitsRemaining(Class111.anInt1390 * -1774886723, -575659247))
 									break;
@@ -617,7 +617,7 @@ public class Class283 implements Interface75 {
 							Class61.loginStage = 998640924;
 						}
 						if (Class61.loginStage * -129171495 == 188) {
-							Class536_Sub33_Sub2 class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
+							RSBitBuffer class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
 							class536_sub33_sub2.off = 0;
 							if (class536_sub33_sub2.method10784(-1060827206)) {
 								if (!Class586.aClass106_7710.method1413((short) -6753).bitsRemaining(1, -1443733857))
@@ -638,7 +638,7 @@ public class Class283 implements Interface75 {
 								Class619.method7396(-2078408794);
 								Class57.method972((Class586.aClass106_7710.byteBuffer), (byte) 44);
 								int i_19_ = i_18_ - (-810172525 * (Class586.aClass106_7710.byteBuffer.off));
-								Class536_Sub33_Sub2 class536_sub33_sub2 = new Class536_Sub33_Sub2(i_19_);
+								RSBitBuffer class536_sub33_sub2 = new RSBitBuffer(i_19_);
 								System.arraycopy((Class586.aClass106_7710.byteBuffer.buffer), (Class586.aClass106_7710.byteBuffer.off) * -810172525, (class536_sub33_sub2.buffer), 0, i_19_);
 								Class586.aClass106_7710.byteBuffer.off += i_19_ * 516175515;
 								if (IncomingPacket.DYNAMIC_MAP_SCENE == Class586.aClass106_7710.aClass422_1261)

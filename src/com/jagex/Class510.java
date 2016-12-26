@@ -4,10 +4,10 @@
 package com.jagex;
 
 public class Class510 {
-	Class536_Sub33_Sub2 aClass536_Sub33_Sub2_6924;
+	RSBitBuffer aClass536_Sub33_Sub2_6924;
 	Class498 aClass498_6925;
 
-	public Class510(Class498 class498, Class536_Sub33_Sub2 class536_sub33_sub2) {
+	public Class510(Class498 class498, RSBitBuffer class536_sub33_sub2) {
 		aClass498_6925 = class498;
 		aClass536_Sub33_Sub2_6924 = class536_sub33_sub2;
 	}

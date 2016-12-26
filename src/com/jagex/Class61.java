@@ -331,7 +331,7 @@ public class Class61 {
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						Class586.aClass106_7710.method1407(-273110047);
 						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1518282072);
-						Class536_Sub33_Sub2 class536_sub33_sub2 = class536_sub23.aClass536_Sub33_Sub2_10528;
+						RSBitBuffer class536_sub33_sub2 = class536_sub23.aClass536_Sub33_Sub2_10528;
 						if (244 == Class76_Sub1.anInt10981 * 1382700277) {
 							Class420 class420;
 							if (aBool647)
@@ -610,7 +610,7 @@ public class Class61 {
 							}
 							if (bool) {
 								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1448176720);
-								Class536_Sub33_Sub2 class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
+								RSBitBuffer class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
 								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.anInt4571));
 								Class586.aClass106_7710.method1409(class536_sub23, 2050894555);
 								Class586.aClass106_7710.method1408(1365382049);
@@ -650,7 +650,7 @@ public class Class61 {
 							loginStage = -461316310;
 						}
 						if (-129171495 * loginStage == 154) {
-							Class536_Sub33_Sub2 class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
+							RSBitBuffer class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
 							if (244 == 1382700277 * Class76_Sub1.anInt10981) {
 								if (!Class586.aClass106_7710.method1413((short) -3308).bitsRemaining(Class111.anInt1390 * -1774886723, -454800548))
 									break;
@@ -755,7 +755,7 @@ public class Class61 {
 							loginStage = 998640924;
 						}
 						if (loginStage * -129171495 == 188) {
-							Class536_Sub33_Sub2 class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
+							RSBitBuffer class536_sub33_sub2 = (Class586.aClass106_7710.byteBuffer);
 							class536_sub33_sub2.off = 0;
 							if (class536_sub33_sub2.method10784(-2100315523)) {
 								if (!Class586.aClass106_7710.method1413((short) 22273).bitsRemaining(1, -1043251251))
@@ -776,7 +776,7 @@ public class Class61 {
 								Class619.method7396(-1933900858);
 								Class57.method972((Class586.aClass106_7710.byteBuffer), (byte) 30);
 								int i_16_ = i_15_ - (-810172525 * (Class586.aClass106_7710.byteBuffer.off));
-								Class536_Sub33_Sub2 class536_sub33_sub2 = new Class536_Sub33_Sub2(i_16_);
+								RSBitBuffer class536_sub33_sub2 = new RSBitBuffer(i_16_);
 								System.arraycopy((Class586.aClass106_7710.byteBuffer.buffer), (Class586.aClass106_7710.byteBuffer.off) * -810172525, (class536_sub33_sub2.buffer), 0, i_16_);
 								Class586.aClass106_7710.byteBuffer.off += i_16_ * 516175515;
 								if (IncomingPacket.DYNAMIC_MAP_SCENE == Class586.aClass106_7710.aClass422_1261)

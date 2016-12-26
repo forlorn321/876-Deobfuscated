@@ -61,17 +61,17 @@ public class Class300 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aClass231_11088.method3301(i_0_, (byte) 121).method3161(i_1_, 1470631321) ? 1 : 0;
 	}
 
-	static int method4026(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
-		int i_2_ = class536_sub33_sub2.method10780(2, -1931523975);
+	static int method4026(RSBitBuffer class536_sub33_sub2, int i) {
+		int i_2_ = class536_sub33_sub2.readBits(2);
 		int i_3_;
 		if (i_2_ == 0)
 			i_3_ = 0;
 		else if (i_2_ == 1)
-			i_3_ = class536_sub33_sub2.method10780(5, 344553918);
+			i_3_ = class536_sub33_sub2.readBits(5);
 		else if (i_2_ == 2)
-			i_3_ = class536_sub33_sub2.method10780(8, -538612935);
+			i_3_ = class536_sub33_sub2.readBits(8);
 		else
-			i_3_ = class536_sub33_sub2.method10780(11, 210092716);
+			i_3_ = class536_sub33_sub2.readBits(11);
 		return i_3_;
 	}
 

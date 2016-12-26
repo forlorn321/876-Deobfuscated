@@ -68,9 +68,9 @@ public class Class205_Sub17 extends Class205 {
 	}
 
 	static final void method9088(int i) {
-		Class536_Sub33_Sub2 class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
-		class536_sub33_sub2.method10779((byte) 5);
-		int i_0_ = class536_sub33_sub2.method10780(8, -318447933);
+		RSBitBuffer class536_sub33_sub2 = client.aClass106_11322.byteBuffer;
+		class536_sub33_sub2.initBitAccess();
+		int i_0_ = class536_sub33_sub2.readBits(8);
 		if (i_0_ < -664631943 * client.anInt11053) {
 			for (int i_1_ = i_0_; i_1_ < -664631943 * client.anInt11053; i_1_++)
 				client.anIntArray11059[(client.anInt11247 += -1573831137) * 537050591 - 1] = client.anIntArray11211[i_1_];
@@ -81,12 +81,12 @@ public class Class205_Sub17 extends Class205 {
 		for (int i_2_ = 0; i_2_ < i_0_; i_2_++) {
 			int i_3_ = client.anIntArray11211[i_2_];
 			Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));
-			int i_4_ = class536_sub33_sub2.method10780(1, -2033939144);
+			int i_4_ = class536_sub33_sub2.readBits(1);
 			if (i_4_ == 0) {
 				client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;
 				class649_sub1_sub5_sub1_sub1.anInt11934 = client.anInt11124 * 1266166429;
 			} else {
-				int i_5_ = class536_sub33_sub2.method10780(2, 367006603);
+				int i_5_ = class536_sub33_sub2.readBits(2);
 				if (0 == i_5_) {
 					client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;
 					class649_sub1_sub5_sub1_sub1.anInt11934 = client.anInt11124 * 1266166429;
@@ -94,24 +94,24 @@ public class Class205_Sub17 extends Class205 {
 				} else if (i_5_ == 1) {
 					client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;
 					class649_sub1_sub5_sub1_sub1.anInt11934 = 1266166429 * client.anInt11124;
-					Class679 class679 = ((Class679) Class682.method8091(Class392.method4866((byte) 51), class536_sub33_sub2.method10780(3, -805567450), 1858049507));
+					Class679 class679 = ((Class679) Class682.method8091(Class392.method4866((byte) 51), class536_sub33_sub2.readBits(3), 1858049507));
 					class649_sub1_sub5_sub1_sub1.method11066(class679, (Class680.aClass680_8639.aByte8644), -1192701979);
-					int i_6_ = class536_sub33_sub2.method10780(1, 1728534798);
+					int i_6_ = class536_sub33_sub2.readBits(1);
 					if (1 == i_6_)
 						client.anIntArray11105[((client.anInt11055 += -1499013475) * 816748469 - 1)] = i_3_;
 				} else if (i_5_ == 2) {
 					client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;
 					class649_sub1_sub5_sub1_sub1.anInt11934 = 1266166429 * client.anInt11124;
-					if (class536_sub33_sub2.method10780(1, 356484936) == 1) {
-						Class679 class679 = ((Class679) (Class682.method8091(Class392.method4866((byte) -12), class536_sub33_sub2.method10780(3, 1959692730), 1858049507)));
+					if (class536_sub33_sub2.readBits(1) == 1) {
+						Class679 class679 = ((Class679) (Class682.method8091(Class392.method4866((byte) -12), class536_sub33_sub2.readBits(3), 1858049507)));
 						class649_sub1_sub5_sub1_sub1.method11066(class679, Class680.aClass680_8640.aByte8644, -1745853142);
-						Class679 class679_7_ = ((Class679) (Class682.method8091(Class392.method4866((byte) 18), class536_sub33_sub2.method10780(3, 951710357), 1858049507)));
+						Class679 class679_7_ = ((Class679) (Class682.method8091(Class392.method4866((byte) 18), class536_sub33_sub2.readBits(3), 1858049507)));
 						class649_sub1_sub5_sub1_sub1.method11066(class679_7_, Class680.aClass680_8640.aByte8644, -1366126180);
 					} else {
-						Class679 class679 = ((Class679) (Class682.method8091(Class392.method4866((byte) 19), class536_sub33_sub2.method10780(3, 30373760), 1858049507)));
+						Class679 class679 = ((Class679) (Class682.method8091(Class392.method4866((byte) 19), class536_sub33_sub2.readBits(3), 1858049507)));
 						class649_sub1_sub5_sub1_sub1.method11066(class679, Class680.aClass680_8638.aByte8644, -833110250);
 					}
-					int i_8_ = class536_sub33_sub2.method10780(1, 684972431);
+					int i_8_ = class536_sub33_sub2.readBits(1);
 					if (i_8_ == 1)
 						client.anIntArray11105[((client.anInt11055 += -1499013475) * 816748469 - 1)] = i_3_;
 				} else if (i_5_ == 3)

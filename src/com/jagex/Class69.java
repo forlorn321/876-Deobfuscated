@@ -138,12 +138,12 @@ final class Class69 implements Interface51 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -159434497 * client.anInt10990;
 	}
 
-	static void method1093(Class536_Sub33_Sub2 class536_sub33_sub2, int i, byte i_6_) {
+	static void method1093(RSBitBuffer class536_sub33_sub2, int i, byte i_6_) {
 		Class598 class598 = client.aClass515_11066.method6255(-1787184719);
-		boolean bool = class536_sub33_sub2.method10780(1, -814032755) == 1;
+		boolean bool = class536_sub33_sub2.readBits(1) == 1;
 		if (bool)
 			Class95.anIntArray1160[(Class95.anInt1150 += -1305881103) * 38697745 - 1] = i;
-		int i_7_ = class536_sub33_sub2.method10780(2, -1498657592);
+		int i_7_ = class536_sub33_sub2.readBits(2);
 		Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
 		if (i_7_ == 0) {
 			if (!bool) {
@@ -162,17 +162,17 @@ final class Class69 implements Interface51 {
 				if (692832581 * class649_sub1_sub5_sub1_sub2.anInt12199 > 0)
 					Class47.method912(class649_sub1_sub5_sub1_sub2, (short) 255);
 				client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
-				if (class536_sub33_sub2.method10780(1, 169261148) != 0)
+				if (class536_sub33_sub2.readBits(1) != 0)
 					Class206.method2959(class536_sub33_sub2, i, 2131751071);
 			}
 		} else if (i_7_ == 1) {
-			int i_8_ = class536_sub33_sub2.method10780(3, 1513716191);
-			int i_9_ = class536_sub33_sub2.method10780(1, 1942820905);
+			int i_8_ = class536_sub33_sub2.readBits(3);
+			int i_9_ = class536_sub33_sub2.readBits(1);
 			int i_10_ = class649_sub1_sub5_sub1_sub2.anIntArray11944[0];
 			int i_11_ = class649_sub1_sub5_sub1_sub2.anIntArray11945[0];
 			if (i_9_ == 1) {
 				Class95.aByteArray1153[i] = Class680.aClass680_8640.aByte8644;
-				int i_12_ = class536_sub33_sub2.method10780(2, 1000078112);
+				int i_12_ = class536_sub33_sub2.readBits(2);
 				switch (i_12_) {
 				case 1:
 					class649_sub1_sub5_sub1_sub2.method11092(i_10_ - 1, i_11_, (Class95.aByteArray1153[i]), (byte) 1);
@@ -211,7 +211,7 @@ final class Class69 implements Interface51 {
 			}
 			class649_sub1_sub5_sub1_sub2.method11092(i_10_, i_11_, Class95.aByteArray1153[i], (byte) 1);
 		} else if (i_7_ == 2) {
-			int i_13_ = class536_sub33_sub2.method10780(4, 726566886);
+			int i_13_ = class536_sub33_sub2.readBits(4);
 			int i_14_ = class649_sub1_sub5_sub1_sub2.anIntArray11944[0];
 			int i_15_ = class649_sub1_sub5_sub1_sub2.anIntArray11945[0];
 			if (i_13_ == 0) {
@@ -261,9 +261,9 @@ final class Class69 implements Interface51 {
 			}
 			class649_sub1_sub5_sub1_sub2.method11092(i_14_, i_15_, Class95.aByteArray1153[i], (byte) 1);
 		} else {
-			int i_16_ = class536_sub33_sub2.method10780(1, 325862002);
+			int i_16_ = class536_sub33_sub2.readBits(1);
 			if (0 == i_16_) {
-				int i_17_ = class536_sub33_sub2.method10780(15, 1574089665);
+				int i_17_ = class536_sub33_sub2.readBits(15);
 				int i_18_ = i_17_ >> 12 & 0x7;
 				int i_19_ = (byte) (i_17_ >> 10) & 0x3;
 				int i_20_ = i_17_ >> 5 & 0x1f;
@@ -286,8 +286,8 @@ final class Class69 implements Interface51 {
 				if (i == client.anInt11156 * -1791435655 && (class649_sub1_sub5_sub1_sub2.aByte10839 != -989431627 * Class320.anInt3539))
 					Class320.anInt3539 = class649_sub1_sub5_sub1_sub2.aByte10839 * 1995486621;
 			} else {
-				int i_24_ = class536_sub33_sub2.method10780(3, 1638381757);
-				int i_25_ = class536_sub33_sub2.method10780(30, -2004825356);
+				int i_24_ = class536_sub33_sub2.readBits(3);
+				int i_25_ = class536_sub33_sub2.readBits(30);
 				int i_26_ = i_25_ >> 28 & 0x3;
 				int i_27_ = i_25_ >> 14 & 0x3fff;
 				int i_28_ = i_25_ & 0x3fff;

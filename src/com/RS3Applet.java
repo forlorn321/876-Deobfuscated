@@ -76,7 +76,7 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.PING_2); //implemented
 		IDENTIFIED.add(IncomingPacket.aClass422_4672); //lobby refresh
 		IDENTIFIED.add(IncomingPacket.VARP_1); //implemented
-		IDENTIFIED.add(IncomingPacket.VARP_2); //implemented
+		IDENTIFIED.add(IncomingPacket.VARP_2); //implementedc
 		IDENTIFIED.add(IncomingPacket.CS_VAR_1); //implemented
 		IDENTIFIED.add(IncomingPacket.CS_VAR_2); //implemented
 		IDENTIFIED.add(IncomingPacket.CS_VAR_STRING_1); //implemented
@@ -88,6 +88,10 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.INTERFACE_SETTINGS); //implemented
 		IDENTIFIED.add(IncomingPacket.ROOT_INTERFACE); //implemented
 		IDENTIFIED.add(IncomingPacket.RESET_NIS_VARS); //implemented
+		IDENTIFIED.add(IncomingPacket.SKILLS); //implemented
+		IDENTIFIED.add(IncomingPacket.MAP_REGION); //implemented
+		IDENTIFIED.add(IncomingPacket.SEND_ITEMS); //implemented
+		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE); //implemented
 		
 		IDENTIFIED.add(IncomingPacket.OBJECT_RELATED_MAYBE);
 		IDENTIFIED.add(IncomingPacket.aClass422_4704); //spamming up my console and commenting it out does nothing noticeable
@@ -98,7 +102,6 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.aClass422_4718); //varpbits
 		IDENTIFIED.add(IncomingPacket.aClass422_4759);
 		
-		IDENTIFIED.add(IncomingPacket.SKILLS);
 		IDENTIFIED.add(IncomingPacket.ADD_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.REMOVE_GROUND_ITEM);
 		IDENTIFIED.add(IncomingPacket.ICOMPONENT_TEXT);
@@ -111,14 +114,11 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.PLAYER_OPTION);
 		IDENTIFIED.add(IncomingPacket.HINT_ICON);
 		IDENTIFIED.add(IncomingPacket.SOUND_EFFECT);
-		IDENTIFIED.add(IncomingPacket.SEND_ITEMS);
 		IDENTIFIED.add(IncomingPacket.NPC_HEAD_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.PLAYER_HEAD_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.RUN_ENERGY);
 		IDENTIFIED.add(IncomingPacket.CLOSE_INTERFACE);
 		IDENTIFIED.add(IncomingPacket.ITEM_ON_ICOMPONENT);
-		IDENTIFIED.add(IncomingPacket.DYNAMIC_MAP_SCENE);
-		IDENTIFIED.add(IncomingPacket.MAP_REGION);
 		IDENTIFIED.add(IncomingPacket.ICOMPONENT_SPRITE);
 		
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GROUND_ITEM);

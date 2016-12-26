@@ -49,7 +49,7 @@ public class Class302 {
 		Class684.aBoolArray8653 = new boolean[Class452.aClass461_4953.method5570(-1975535778)];
 	}
 
-	static final void method4102(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
+	static final void method4102(RSBitBuffer class536_sub33_sub2, int i) {
 		for (int i_8_ = 0; i_8_ < 38697745 * Class95.anInt1150; i_8_++) {
 			class536_sub33_sub2.readUnsignedShort();
 			int i_9_ = Class95.anIntArray1160[i_8_];

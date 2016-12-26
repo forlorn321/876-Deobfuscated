@@ -33,7 +33,7 @@ public class Class71 {
 		aClass708_794 = new Class708();
 	}
 
-	public static void method1120(Class536_Sub33_Sub2 class536_sub33_sub2) {
+	public static void method1120(RSBitBuffer class536_sub33_sub2) {
 		Class536_Sub34 class536_sub34 = (Class536_Sub34) aClass708_794.method8308(1867269829);
 		if (class536_sub34 != null) {
 			int i = -810172525 * class536_sub33_sub2.off;

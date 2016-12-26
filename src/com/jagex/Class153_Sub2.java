@@ -32,7 +32,7 @@ public class Class153_Sub2 extends Class153 {
 		/* empty */
 	}
 
-	static final void method8441(Class536_Sub33_Sub2 class536_sub33_sub2, int i, byte i_1_) {
+	static final void method8441(RSBitBuffer class536_sub33_sub2, int i, byte i_1_) {
 		Class95.anInt1150 = 0;
 		Class532.method6445(class536_sub33_sub2, -1934528237);
 		Class302.method4102(class536_sub33_sub2, 444111405);

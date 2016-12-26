@@ -115,15 +115,15 @@ public class Class213 {
 		class536_sub23.aClass414_10529 = class414;
 		class536_sub23.anInt10527 = 1504910693 * class414.anInt4526;
 		if (-1 == class536_sub23.anInt10527 * 1105927695)
-			class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(260);
+			class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(260);
 		else if (class536_sub23.anInt10527 * 1105927695 == -2)
-			class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(10000);
+			class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(10000);
 		else if (1105927695 * class536_sub23.anInt10527 <= 18)
-			class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(20);
+			class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(20);
 		else if (1105927695 * class536_sub23.anInt10527 <= 98)
-			class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(100);
+			class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(100);
 		else
-			class536_sub23.aClass536_Sub33_Sub2_10528 = new Class536_Sub33_Sub2(260);
+			class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(260);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method10782(class15, -2019890215);
 		class536_sub23.aClass536_Sub33_Sub2_10528.method10783(class536_sub23.aClass414_10529.anInt4525 * -150166127, (byte) 0);
 		class536_sub23.anInt10530 = 0;

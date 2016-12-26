@@ -109,7 +109,7 @@ final class Class629 implements Interface74 {
 		client.aBool11121 = true;
 	}
 
-	public static void method7502(Class536_Sub33_Sub2 class536_sub33_sub2, int i) {
+	public static void method7502(RSBitBuffer class536_sub33_sub2, int i) {
 		Class536_Sub34 class536_sub34 = (Class536_Sub34) Class71.aClass708_794.method8308(1867269829);
 		if (class536_sub34 != null) {
 			int i_21_ = -810172525 * class536_sub33_sub2.off;

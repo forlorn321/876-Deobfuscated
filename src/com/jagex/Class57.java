@@ -64,12 +64,12 @@ public class Class57 {
 		return new Class167_Sub1(canvas, class174, interface24, interface47, interface48, interface46, i, i_3_);
 	}
 
-	static final void method972(Class536_Sub33_Sub2 class536_sub33_sub2, byte i) {
-		class536_sub33_sub2.method10779((byte) 86);
+	static final void method972(RSBitBuffer class536_sub33_sub2, byte i) {
+		class536_sub33_sub2.initBitAccess();
 		int i_5_ = client.anInt11156 * -1791435655;
 		Class649_Sub1_Sub5_Sub1_Sub2 class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_5_] = new Class649_Sub1_Sub5_Sub1_Sub2(client.aClass515_11066.method6249(512040507)));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i_5_;
-		int i_6_ = class536_sub33_sub2.method10780(30, 410129364);
+		int i_6_ = class536_sub33_sub2.readBits(30);
 		byte i_7_ = (byte) (i_6_ >> 28);
 		int i_8_ = i_6_ >> 14 & 0x3fff;
 		int i_9_ = i_6_ & 0x3fff;
@@ -90,7 +90,7 @@ public class Class57 {
 		Class95.anInt1158 = 0;
 		for (int i_10_ = 1; i_10_ < 2048; i_10_++) {
 			if (i_5_ != i_10_) {
-				int i_11_ = class536_sub33_sub2.method10780(18, 944765819);
+				int i_11_ = class536_sub33_sub2.readBits(18);
 				int i_12_ = i_11_ >> 16 & 0x3;
 				int i_13_ = i_11_ >> 8 & 0xff;
 				int i_14_ = i_11_ & 0xff;
@@ -104,7 +104,7 @@ public class Class57 {
 				Class95.aByteArray1152[i_10_] = (byte) 0;
 			}
 		}
-		class536_sub33_sub2.method10781(-1711507975);
+		class536_sub33_sub2.finishBitAccess(-1711507975);
 		Class290 class290 = Class683.aClass301_Sub1_8651.method4054(799891420);
 		if (Class290.aClass290_3220 == class290) {
 			Class333_Sub2 class333_sub2 = ((Class333_Sub2) Class683.aClass301_Sub1_8651.method4051(826143221));
