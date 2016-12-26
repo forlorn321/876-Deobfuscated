@@ -106,7 +106,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4690;
 	public static IncomingPacket aClass422_4691;
 	public static IncomingPacket aClass422_4692;
-	public static IncomingPacket aClass422_4693;
+	public static IncomingPacket PLAYER_LOOK_PACKET;
 	public static IncomingPacket aClass422_4694;
 	public static IncomingPacket NPC_HEAD_ON_ICOMPONENT;
 	public static IncomingPacket aClass422_4696;
@@ -387,7 +387,7 @@ public class IncomingPacket {
 		aClass422_4768 = new IncomingPacket(177, 6);
 		aClass422_4611 = new IncomingPacket(178, 10);
 		aClass422_4770 = new IncomingPacket(179, -2);
-		aClass422_4693 = new IncomingPacket(180, -2);
+		PLAYER_LOOK_PACKET = new IncomingPacket(180, -2);
 		aClass422_4620 = new IncomingPacket(181, 0);
 		aClass422_4673 = new IncomingPacket(182, 0);
 		aClass422_4774 = new IncomingPacket(183, 4);

@@ -93,9 +93,9 @@ public class PacketDecoder {
 			class106.aClass422_1261 = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4693 == class106.aClass422_1261) {
-			byte i_4_ = stream.readByte();
-			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method11098(stream, i_4_, (byte) -24);
+		if (IncomingPacket.PLAYER_LOOK_PACKET == class106.aClass422_1261) {
+			byte isMale = stream.readByte();
+			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.decodePlayerLook(stream, isMale);
 			class106.aClass422_1261 = null;
 			return true;
 		}
@@ -199,7 +199,7 @@ public class PacketDecoder {
 				class649_sub1_sub5_sub1_sub2.anInt11889 = i_28_ * 675537735;
 				client.aMap11157.put(Integer.valueOf(i_28_), class649_sub1_sub5_sub1_sub2);
 			}
-			class649_sub1_sub5_sub1_sub2.method11098(stream, i_29_, (byte) -9);
+			class649_sub1_sub5_sub1_sub2.decodePlayerLook(stream, i_29_);
 			class106.aClass422_1261 = null;
 			return true;
 		}

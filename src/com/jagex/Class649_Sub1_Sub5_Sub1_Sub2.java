@@ -78,7 +78,7 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 		aClass623_12201 = ((Class623) Class682.method8091(Class623.method7422((byte) 1), class536_sub33.readByte(), 1858049507));
 		if (Class678.aClass678_8619 == Class47.aClass678_578 && 423156687 * client.anInt11160 >= 2)
 			aClass623_12201 = Class623.aClass623_8130;
-		method11098(class536_sub33, i_1_, (byte) -56);
+		decodePlayerLook(class536_sub33, i_1_);
 		aString12192 = class536_sub33.readString();
 		aString12184 = aString12192;
 		if (this == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591)
@@ -1042,8 +1042,8 @@ public class Class649_Sub1_Sub5_Sub1_Sub2 extends Class649_Sub1_Sub5_Sub1 {
 		return Class436.method5238();
 	}
 
-	public void method11098(RSByteBuffer stream, byte i, byte i_123_) {
-		aByte12197 = i;
+	public void decodePlayerLook(RSByteBuffer stream, byte isMale) {
+		aByte12197 = isMale;
 		int i_124_ = -1;
 		anInt12191 = 0;
 		int[] is = new int[Class71.aClass631_796.anIntArray8241.length];
