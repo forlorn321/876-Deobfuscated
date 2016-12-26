@@ -208,7 +208,7 @@ public class Class542_Sub1 extends Class542 {
 			anInt10716 = i * 1048934007;
 	}
 
-	static boolean method9848(Class251 class251, int i) {
+	static boolean method9848(InterfaceDefinitions class251, int i) {
 		Class536_Sub14 class536_sub14 = client.method10389(class251);
 		if (class536_sub14.method9494(-1411037171) > 0)
 			return true;

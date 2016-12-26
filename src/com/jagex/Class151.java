@@ -58,7 +58,7 @@ class Class151 implements Comparator {
 		this$0 = class360_sub2;
 	}
 
-	static final void method1852(Class251 class251, Class668 class668, int i) {
+	static final void method1852(InterfaceDefinitions class251, Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_8_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		int i_9_ = i_8_;

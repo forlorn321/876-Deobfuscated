@@ -30,9 +30,9 @@ public class Class609 implements Interface75 {
 		return anInt7914 * 2127487605;
 	}
 
-	public static void method7262(Class251[] class251s, byte i) {
+	public static void method7262(InterfaceDefinitions[] class251s, byte i) {
 		for (int i_0_ = 0; i_0_ < class251s.length; i_0_++) {
-			Class251 class251 = class251s[i_0_];
+			InterfaceDefinitions class251 = class251s[i_0_];
 			if (class251.anObjectArray2667 != null) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
@@ -74,7 +74,7 @@ public class Class609 implements Interface75 {
 
 	static final void method7267(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, boolean bool, int i) {
 		Class589 class589 = class649_sub1_sub5_sub1.method10877(-454798994);
-		if (class649_sub1_sub5_sub1.anInt11957 * -711375609 == 0) {
+		if (class649_sub1_sub5_sub1.stepsCount * -711375609 == 0) {
 			class649_sub1_sub5_sub1.anInt11915 = 0;
 			Class489.anInt5465 = Class680.aClass680_8643.aByte8644 * -678980867;
 			Class207.anInt2243 = 0;
@@ -117,31 +117,31 @@ public class Class609 implements Interface75 {
 			Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1.method7837().aClass436_4823);
 			int i_9_ = (int) class436.aFloat4850;
 			int i_10_ = (int) class436.aFloat4853;
-			int i_11_ = ((512 * (class649_sub1_sub5_sub1.anIntArray11944[class649_sub1_sub5_sub1.anInt11957 * -711375609 - 1])) + class649_sub1_sub5_sub1.method10874() * 256);
-			int i_12_ = (((class649_sub1_sub5_sub1.anIntArray11945[-711375609 * class649_sub1_sub5_sub1.anInt11957 - 1]) * 512) + class649_sub1_sub5_sub1.method10874() * 256);
+			int i_11_ = ((512 * (class649_sub1_sub5_sub1.screenX[class649_sub1_sub5_sub1.stepsCount * -711375609 - 1])) + class649_sub1_sub5_sub1.method10874() * 256);
+			int i_12_ = (((class649_sub1_sub5_sub1.screenY[-711375609 * class649_sub1_sub5_sub1.stepsCount - 1]) * 512) + class649_sub1_sub5_sub1.method10874() * 256);
 			if (i_9_ < i_11_) {
 				if (i_10_ < i_12_)
-					class649_sub1_sub5_sub1.method10867(10240, -1823359665);
+					class649_sub1_sub5_sub1.method10867(10240);
 				else if (i_10_ > i_12_)
-					class649_sub1_sub5_sub1.method10867(14336, -2089449112);
+					class649_sub1_sub5_sub1.method10867(14336);
 				else
-					class649_sub1_sub5_sub1.method10867(12288, -1844438550);
+					class649_sub1_sub5_sub1.method10867(12288);
 			} else if (i_9_ > i_11_) {
 				if (i_10_ < i_12_)
-					class649_sub1_sub5_sub1.method10867(6144, -2113367302);
+					class649_sub1_sub5_sub1.method10867(6144);
 				else if (i_10_ > i_12_)
-					class649_sub1_sub5_sub1.method10867(2048, -1993932302);
+					class649_sub1_sub5_sub1.method10867(2048);
 				else
-					class649_sub1_sub5_sub1.method10867(4096, -2051267605);
+					class649_sub1_sub5_sub1.method10867(4096);
 			} else if (i_10_ < i_12_)
-				class649_sub1_sub5_sub1.method10867(8192, -2139346417);
+				class649_sub1_sub5_sub1.method10867(8192);
 			else if (i_10_ > i_12_)
-				class649_sub1_sub5_sub1.method10867(0, -1771650596);
-			int i_13_ = (class649_sub1_sub5_sub1.aByteArray11946[-711375609 * class649_sub1_sub5_sub1.anInt11957 - 1]);
+				class649_sub1_sub5_sub1.method10867(0);
+			int i_13_ = (class649_sub1_sub5_sub1.aByteArray11946[-711375609 * class649_sub1_sub5_sub1.stepsCount - 1]);
 			if (!bool && (i_11_ - i_9_ > 1024 || i_11_ - i_9_ < -1024 || i_12_ - i_10_ > 1024 || i_12_ - i_10_ < -1024)) {
 				class649_sub1_sub5_sub1.method7842((float) i_11_, class436.aFloat4852, (float) i_12_);
 				class649_sub1_sub5_sub1.method10893(((class649_sub1_sub5_sub1.anInt11939) * -1999712379), false, (byte) 81);
-				class649_sub1_sub5_sub1.anInt11957 -= 1754339511;
+				class649_sub1_sub5_sub1.stepsCount -= 1754339511;
 				if (class649_sub1_sub5_sub1.anInt11948 * 223635581 > 0)
 					class649_sub1_sub5_sub1.anInt11948 -= -1594470187;
 				Class489.anInt5465 = -678980867 * Class680.aClass680_8643.aByte8644;
@@ -156,17 +156,17 @@ public class Class609 implements Interface75 {
 					int i_16_ = (class649_sub1_sub5_sub1.anInt11939 * -1999712379 - (class649_sub1_sub5_sub1.aClass62_11940.anInt700 * 897724319));
 					if (0 != i_16_ && (-1375730507 * class649_sub1_sub5_sub1.anInt11911 == -1) && 758944217 * class649_sub1_sub5_sub1.anInt11938 != 0)
 						i_14_ = 8;
-					if (!bool && class649_sub1_sub5_sub1.anInt11957 * -711375609 > 2)
+					if (!bool && class649_sub1_sub5_sub1.stepsCount * -711375609 > 2)
 						i_14_ = 24;
-					if (!bool && class649_sub1_sub5_sub1.anInt11957 * -711375609 > 3)
+					if (!bool && class649_sub1_sub5_sub1.stepsCount * -711375609 > 3)
 						i_14_ = 32;
 				} else {
-					if (!bool && class649_sub1_sub5_sub1.anInt11957 * -711375609 > 1)
+					if (!bool && class649_sub1_sub5_sub1.stepsCount * -711375609 > 1)
 						i_14_ = 24;
-					if (!bool && class649_sub1_sub5_sub1.anInt11957 * -711375609 > 2)
+					if (!bool && class649_sub1_sub5_sub1.stepsCount * -711375609 > 2)
 						i_14_ = 32;
 				}
-				if (class649_sub1_sub5_sub1.anInt11915 * 1239423105 > 0 && -711375609 * class649_sub1_sub5_sub1.anInt11957 > 1) {
+				if (class649_sub1_sub5_sub1.anInt11915 * 1239423105 > 0 && -711375609 * class649_sub1_sub5_sub1.stepsCount > 1) {
 					i_14_ = 32;
 					class649_sub1_sub5_sub1.anInt11915 -= 911746945;
 				}
@@ -176,7 +176,7 @@ public class Class609 implements Interface75 {
 					i_14_ >>= 1;
 				if (-1 != class589.anInt7782 * -2003195239) {
 					i_14_ <<= 9;
-					if (-711375609 * class649_sub1_sub5_sub1.anInt11957 == 1) {
+					if (-711375609 * class649_sub1_sub5_sub1.stepsCount == 1) {
 						int i_17_ = (-578043207 * class649_sub1_sub5_sub1.anInt11949 * (-578043207 * class649_sub1_sub5_sub1.anInt11949));
 						int i_18_ = (((int) class436.aFloat4850 > i_11_ ? (int) class436.aFloat4850 - i_11_ : i_11_ - (int) class436.aFloat4850) << 9);
 						int i_19_ = (((int) class436.aFloat4853 > i_12_ ? (int) class436.aFloat4853 - i_12_ : i_12_ - (int) class436.aFloat4853) << 9);
@@ -239,7 +239,7 @@ public class Class609 implements Interface75 {
 				} else
 					Class489.anInt5465 = -678980867 * Class680.aClass680_8643.aByte8644;
 				if (i_11_ == (int) class436.aFloat4850 && (int) class436.aFloat4853 == i_12_) {
-					class649_sub1_sub5_sub1.anInt11957 -= 1754339511;
+					class649_sub1_sub5_sub1.stepsCount -= 1754339511;
 					if (class649_sub1_sub5_sub1.anInt11948 * 223635581 > 0)
 						class649_sub1_sub5_sub1.anInt11948 -= -1594470187;
 				}

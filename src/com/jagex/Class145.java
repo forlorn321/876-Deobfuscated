@@ -28,7 +28,7 @@ public class Class145 {
 
 	static final void method1797(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class567.method6915(class251, class234, class668, -1083906987);
 	}
@@ -60,7 +60,7 @@ public class Class145 {
 	public static void method1801(Player class649_sub1_sub5_sub1_sub2, byte i) {
 		Class536_Sub3 class536_sub3 = (Class536_Sub3) (Class536_Sub3.aClass4_10366.method556((long) (class649_sub1_sub5_sub1_sub2.anInt11889 * 1710020215)));
 		if (null == class536_sub3)
-			Class76.method1155(class649_sub1_sub5_sub1_sub2.aByte10839, class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], 0, null, null, class649_sub1_sub5_sub1_sub2, 352877239);
+			Class76.method1155(class649_sub1_sub5_sub1_sub2.aByte10839, class649_sub1_sub5_sub1_sub2.screenX[0], class649_sub1_sub5_sub1_sub2.screenY[0], 0, null, null, class649_sub1_sub5_sub1_sub2, 352877239);
 		else
 			class536_sub3.method9392(-66106772);
 	}

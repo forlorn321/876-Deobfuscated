@@ -111,14 +111,14 @@ public class Class626 {
 
 	static final void method7459(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class207.method2966(class251, class234, class668, 2118518904);
 	}
 
 	static final void method7460(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class151.method1852(class251, class668, 2078531742);
 	}
 

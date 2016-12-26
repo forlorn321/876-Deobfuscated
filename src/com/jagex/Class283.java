@@ -563,7 +563,7 @@ public class Class283 implements Interface75 {
 								Class66.anInt723 = (stream.readUnsignedShort() * -860628261);
 								Class307.anInt3454 = (stream.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = stream.readUnsignedByte() == 1;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
+								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
 								Class646.anInt8360 = stream.readUnsignedByte() * 431261749;
 								Class622.anInt8127 = stream.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();
@@ -697,7 +697,7 @@ public class Class283 implements Interface75 {
 
 	static final void method3777(Class668 class668, int i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_21_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_21_, -689214737);
 		Class227.method3284(class251, class668, 1786540197);
 	}
 }

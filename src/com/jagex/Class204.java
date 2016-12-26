@@ -14,7 +14,7 @@ public class Class204 {
 	public static Class143 aClass143_2234;
 
 	Class204(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedSmart(412258029);
+		int i = class536_sub33.readUnsignedSmart();
 		anIntArray2233 = new int[i];
 		anIntArray2231 = new int[i];
 		for (int i_0_ = 0; i_0_ < i; i_0_++) {
@@ -30,19 +30,19 @@ public class Class204 {
 		int i_5_ = anIntArray2231[0];
 		class189.method2803(i, i_5_ >>> 16, i_5_ & 0xffff, (byte) 26);
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = class189.method2804(2113852661);
-		class649_sub1_sub5_sub1.anInt11957 = 0;
+		class649_sub1_sub5_sub1.stepsCount = 0;
 		for (int i_6_ = anIntArray2233.length - 1; i_6_ >= 0; i_6_--) {
 			int i_7_ = anIntArray2233[i_6_];
 			int i_8_ = anIntArray2231[i_6_];
-			class649_sub1_sub5_sub1.anIntArray11944[-711375609 * class649_sub1_sub5_sub1.anInt11957] = i_8_ >> 16;
-			class649_sub1_sub5_sub1.anIntArray11945[-711375609 * class649_sub1_sub5_sub1.anInt11957] = i_8_ & 0xffff;
+			class649_sub1_sub5_sub1.screenX[-711375609 * class649_sub1_sub5_sub1.stepsCount] = i_8_ >> 16;
+			class649_sub1_sub5_sub1.screenY[-711375609 * class649_sub1_sub5_sub1.stepsCount] = i_8_ & 0xffff;
 			byte i_9_ = Class680.aClass680_8639.aByte8644;
 			if (i_7_ == 0)
 				i_9_ = Class680.aClass680_8638.aByte8644;
 			else if (i_7_ == 2)
 				i_9_ = Class680.aClass680_8640.aByte8644;
-			class649_sub1_sub5_sub1.aByteArray11946[-711375609 * class649_sub1_sub5_sub1.anInt11957] = i_9_;
-			class649_sub1_sub5_sub1.anInt11957 += 1754339511;
+			class649_sub1_sub5_sub1.aByteArray11946[-711375609 * class649_sub1_sub5_sub1.stepsCount] = i_9_;
+			class649_sub1_sub5_sub1.stepsCount += 1754339511;
 		}
 	}
 
@@ -109,7 +109,7 @@ public class Class204 {
 		}
 	}
 
-	static final void method2933(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method2933(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.aString2556 = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 	}
 
@@ -165,7 +165,7 @@ public class Class204 {
 
 	static final void method2938(Class668 class668, int i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_21_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_21_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_21_ >> 16];
 		Class247_Sub1.method9105(class251, class234, class668, 935760968);
 	}

@@ -39,10 +39,10 @@ public class Class536_Sub17 extends Class536 {
 		for (int i_2_ = 0; i_2_ < anInt10491 * -138825073; i_2_++)
 			anIntArray10490[i_2_] = class536_sub33.readUnsignedShort();
 		for (int i_3_ = 0; i_3_ < anInt10491 * -138825073; i_3_++)
-			anIntArrayArray10503[i_3_] = new int[class536_sub33.readUnsignedSmart(-646910072)];
+			anIntArrayArray10503[i_3_] = new int[class536_sub33.readUnsignedSmart()];
 		for (int i_4_ = 0; i_4_ < -138825073 * anInt10491; i_4_++) {
 			for (int i_5_ = 0; i_5_ < anIntArrayArray10503[i_4_].length; i_5_++)
-				anIntArrayArray10503[i_4_][i_5_] = class536_sub33.readUnsignedSmart(-384819865);
+				anIntArrayArray10503[i_4_][i_5_] = class536_sub33.readUnsignedSmart();
 		}
 	}
 

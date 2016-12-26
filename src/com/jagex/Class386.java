@@ -53,7 +53,7 @@ public class Class386 implements Interface49 {
 		Class205_Sub23.method9102(bool, bool_9_, -2073717069);
 	}
 
-	static final void method4844(Class251 class251, byte[] is, byte[] is_10_, Class668 class668, int i) {
+	static final void method4844(InterfaceDefinitions class251, byte[] is, byte[] is_10_, Class668 class668, int i) {
 		int i_11_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (i_11_ < 0 || i_11_ > 9)
 			throw new RuntimeException();
@@ -62,7 +62,7 @@ public class Class386 implements Interface49 {
 
 	static final void method4845(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2581 * 1428895931;
 	}
 }

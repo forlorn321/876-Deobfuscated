@@ -208,7 +208,7 @@ public abstract class Class319 implements Interface33 {
 		aClass184_3530 = (Class677.aClass167_8609.method2089(class2, Class181.method2719(aClass461_3529, 1694830205 * aClass392_3527.anInt4071), true));
 	}
 
-	static final void method4238(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method4238(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.anInt2613 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1926815261;
 		Class668.method8011(class251, 263642117);
 		if (-1 == class251.anInt2546 * -809980533 && !class234.aBool2379)

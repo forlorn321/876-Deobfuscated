@@ -35,7 +35,7 @@ public class Class247_Sub1 extends Class247 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class622.anInt8127 * 77302415;
 	}
 
-	static final void method9105(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method9105(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1125896429) != null)
 			string = string.substring(0, string.length() - 1);

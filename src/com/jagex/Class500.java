@@ -16,7 +16,7 @@ public class Class500 {
 		aClass688_6843 = new Class688_Sub2(class649_sub1_sub5_sub1, false);
 	}
 
-	static final void method6026(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method6026(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1142987460) != null)
 			string = string.substring(0, string.length() - 1);

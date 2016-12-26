@@ -441,7 +441,7 @@ public class Class313 implements Interface13 {
 
 	static final void method4196(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class208.method2971(class251, class234, class668, (byte) -36);
 	}
@@ -458,7 +458,7 @@ public class Class313 implements Interface13 {
 		byte[] is = { (byte) class668.anIntArray8541[class668.anInt8542 * 1867269829] };
 		byte[] is_94_ = { (byte) class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] };
 		int i_95_ = class668.anIntArray8541[2 + class668.anInt8542 * 1867269829];
-		Class251 class251 = Class264.method3678(i_95_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_95_, -689214737);
 		Class386.method4844(class251, is, is_94_, class668, 874400348);
 	}
 

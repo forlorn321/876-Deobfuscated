@@ -730,7 +730,7 @@ public class Class628 {
 		}
 	}
 
-	static final void method7492(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method7492(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		int[] is = Class510.method6183(string, class668, -1278934401);
 		if (is != null)
@@ -776,7 +776,7 @@ public class Class628 {
 
 	static final void method7497(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class311.method4180(class251, class234, class668, (byte) 59);
 	}

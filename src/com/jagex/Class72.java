@@ -12,7 +12,7 @@ public class Class72 {
 	static BigInteger LOGIN_PUBLIC_EXPONENT = new BigInteger("10001", 16);
 	public static BigInteger GRAB_PUBLIC_EXPONENT;
 	public static BigInteger GRAB_PUBLIC_MODULUS;
-	static Class251 aClass251_801;
+	static InterfaceDefinitions aClass251_801;
 
 	static {
 		LOGIN_PUBLIC_MODULUS = (new BigInteger("826245b9420b77bf7e7558ad119b4f1f64067e86a7588468ad926b4aecd56a8f48220c5560106598134876e5b0293057a7c71a737b95a61263560e0e9b1a4cfdd8f4b9d458bd449674420eb6152c6cbbd62caf2d180473c2d2b458dcf4cefb20a826fc55920c176773e5fd26d472c82aae7708d8be8b0f3362fbddacb223f95d", 16));
@@ -39,7 +39,7 @@ public class Class72 {
 
 	static final void method1125(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class484.method5845(class251, class234, class668, -213751254);
 	}

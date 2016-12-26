@@ -111,7 +111,7 @@ public class Class260 {
 
 	static final void method3616(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		int i_22_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		i_22_--;
 		if (null == class251.aStringArray2657 || i_22_ >= class251.aStringArray2657.length || class251.aStringArray2657[i_22_] == null)

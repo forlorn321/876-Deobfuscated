@@ -157,7 +157,7 @@ public class Class344 {
 
 	static final void method4482(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class613.method7317(class251, class234, class668, (byte) 0);
 	}
@@ -210,7 +210,7 @@ public class Class344 {
 
 	static void decodeWorldConnections(RSByteBuffer class536_sub33, int i) {
 		for (int i_161_ = 0; i_161_ < -537974539 * Class593.worldCount; i_161_++) {
-			int worldId = class536_sub33.readUnsignedSmart(426225695);
+			int worldId = class536_sub33.readUnsignedSmart();
 			int online = class536_sub33.readUnsignedShort();
 			if (65535 == online)
 				online = -1;

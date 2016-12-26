@@ -72,7 +72,7 @@ public class Class34_Sub7 extends Class34 {
 
 	static final void method10327(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_3_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class208.method2968(class251, class234, class668, (short) 255);
 	}

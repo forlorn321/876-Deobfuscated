@@ -107,7 +107,7 @@ public class Class705 {
 
 	static final void method8274(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class560.method6824(class251, class234, class668, -2144257166);
 	}
@@ -127,7 +127,7 @@ public class Class705 {
 			int[] is = Class95.anIntArray1157;
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
 				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_9_]];
-				if (null != class649_sub1_sub5_sub1_sub2.aString12184 && class649_sub1_sub5_sub1_sub2.aString12184.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
+				if (null != class649_sub1_sub5_sub1_sub2.username && class649_sub1_sub5_sub1_sub2.username.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
 					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
 					class536_sub23.aClass536_Sub33_Sub2_10528.method9728(0, (byte) 125);
@@ -135,7 +135,7 @@ public class Class705 {
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(is[i_9_], -1411037171);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
 					client.aClass106_11322.method1409(class536_sub23, 1390331548);
-					Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub2.anIntArray11945[0]), (byte) -94);
+					Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.screenX[0]), (class649_sub1_sub5_sub1_sub2.screenY[0]), (byte) -94);
 					bool = true;
 					break;
 				}

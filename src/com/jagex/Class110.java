@@ -12,14 +12,14 @@ public class Class110 {
 
 	static final void method1452(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class300.method4027(class251, class234, class668, (byte) 48);
 	}
 
 	static final void method1453(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class295.method3978(class251, class668, (byte) 47);
 	}
 
@@ -49,7 +49,7 @@ public class Class110 {
 		boolean bool = false;
 		for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
 			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_4_]];
-			if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && class649_sub1_sub5_sub1_sub2.aString12184 != null && class649_sub1_sub5_sub1_sub2.aString12184.equalsIgnoreCase(string)) {
+			if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && class649_sub1_sub5_sub1_sub2.username != null && class649_sub1_sub5_sub1_sub2.username.equalsIgnoreCase(string)) {
 				OutgoingPacket class414 = null;
 				if (i == 1)
 					class414 = OutgoingPacket.aClass414_4510;

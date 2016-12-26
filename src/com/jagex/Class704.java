@@ -89,7 +89,7 @@ public class Class704 {
 		return false;
 	}
 
-	static final void method8266(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method8266(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.aBool2659 = false;
 		Class668.method8011(class251, 263642117);
 	}

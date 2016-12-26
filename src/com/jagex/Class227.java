@@ -32,7 +32,7 @@ public class Class227 implements Interface27 {
 		class224.method3204((byte) 104);
 	}
 
-	static final void method3284(Class251 class251, Class668 class668, int i) {
+	static final void method3284(InterfaceDefinitions class251, Class668 class668, int i) {
 		Class2 class2 = class251.method3470(Class196.aClass410_2202, client.anInterface51_11196, (byte) -98);
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Point point = class2.method544(class251.aString2638, -1606950689 * class251.anInt2573, -1204882523 * class251.anInt2721, i_0_, Class195.aClass143Array2201, 1648633153);

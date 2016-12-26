@@ -42,7 +42,7 @@ public class Class254 implements Interface27 {
 		return (short) (i_1_ << 10 | i_5_ >> 4 << 7 | i_6_);
 	}
 
-	static final void method3538(Class251 class251, Class668 class668, int i) {
+	static final void method3538(InterfaceDefinitions class251, Class668 class668, int i) {
 		if (943429543 * class668.anInt8559 >= 10)
 			throw new RuntimeException();
 		if (null != class251.anObjectArray2706) {

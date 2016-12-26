@@ -26,7 +26,7 @@ public class Class33 implements Runnable {
 		anInetAddress285 = InetAddress.getByAddress(new byte[] { (byte) (i >> 24 & 0xff), (byte) (i >> 16 & 0xff), (byte) (i >> 8 & 0xff), (byte) (i & 0xff) });
 	}
 
-	static final void method795(Class251 class251, Class668 class668, int i) {
+	static final void method795(InterfaceDefinitions class251, Class668 class668, int i) {
 		class668.anInt8542 -= -1411037171;
 		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542] - 1;
 		if (i_0_ < 0 || i_0_ > 9)
@@ -54,7 +54,7 @@ public class Class33 implements Runnable {
 
 	static final void method797(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class500.method6026(class251, class234, class668, 444823483);
 	}

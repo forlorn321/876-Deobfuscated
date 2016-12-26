@@ -26,7 +26,7 @@ public abstract class Class315 {
 
 	abstract void method4209(Graphics graphics);
 
-	static final void method4210(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method4210(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		class251.aBool2692 = i_1_ == 1;
 		Class668.method8011(class251, 263642117);

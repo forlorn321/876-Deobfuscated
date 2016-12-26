@@ -55,7 +55,7 @@ public class Class92 implements Interface13, Interface7 {
 				boolean bool = (i_4_ & 0x80) != 0;
 				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte()];
 				for (int i_6_ = 0; i_6_ < class453s.length; i_6_++)
-					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 50), class536_sub33.readUnsignedSmart(99879056), 1858049507));
+					class453s[i_6_] = ((Class453) Class682.method8091(Class453.method5438((byte) 50), class536_sub33.readUnsignedSmart(), 1858049507));
 				aClass453ArrayArray885[i_5_] = class453s;
 				if (bool) {
 					if (anObjectArrayArray886 == null)
@@ -84,7 +84,7 @@ public class Class92 implements Interface13, Interface7 {
 				boolean bool = (i_8_ & 0x80) != 0;
 				Class453[] class453s = new Class453[class536_sub33.readUnsignedByte()];
 				for (int i_10_ = 0; i_10_ < class453s.length; i_10_++)
-					class453s[i_10_] = ((Class453) Class682.method8091(Class453.method5438((byte) 55), class536_sub33.readUnsignedSmart(395583840), 1858049507));
+					class453s[i_10_] = ((Class453) Class682.method8091(Class453.method5438((byte) 55), class536_sub33.readUnsignedSmart(), 1858049507));
 				aClass453ArrayArray885[i_9_] = class453s;
 				if (bool) {
 					if (anObjectArrayArray886 == null)

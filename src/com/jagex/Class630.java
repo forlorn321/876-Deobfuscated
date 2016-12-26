@@ -3,6 +3,9 @@
  */
 package com.jagex;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Class630 {
 	boolean aBool8231;
 	int anInt8232;
@@ -148,12 +151,12 @@ public class Class630 {
 	}
 
 	static final void decodePlayerMasks(RSBitBuffer buffer, int playerIndex, Player player, int flag) {
-		if (0 != (flag & 0x1000)) {
+		if (0 != (flag & 0x1000)) { //graphics_2
 			int i_18_ = buffer.readUnsignedShortLE128();
-			int i_19_ = buffer.readIntV2((byte) 70);
+			int i_19_ = buffer.readIntV2();
 			if (i_18_ == 65535)
 				i_18_ = -1;
-			int i_20_ = buffer.readUnsignedByteC(2020455595);
+			int i_20_ = buffer.readUnsignedByteC();
 			int i_21_ = i_20_ & 0x7;
 			int i_22_ = i_20_ >> 3 & 0xf;
 			if (i_22_ == 15)
@@ -161,7 +164,7 @@ public class Class630 {
 			boolean bool = (i_20_ >> 7 & 0x1) == 1;
 			player.method10917(i_18_, i_19_, i_21_, i_22_, bool, 1, 1400082898);
 		}
-		if (0 != (flag & 0x8)) {
+		if (0 != (flag & 0x8)) { //appearance
 			int renderSize = buffer.readUnsignedByte();
 			byte[] bytes = new byte[renderSize];
 			RSByteBuffer renderData = new RSByteBuffer(bytes);
@@ -169,16 +172,16 @@ public class Class630 {
 			Class95.playerRenderData[playerIndex] = renderData;
 			player.decodePlayerAppearance(renderData);
 		}
-		if ((flag & 0x800000) != 0)
-			player.aBool12194 = buffer.readUnsignedByteC(2106762247) == 1;
-		if ((flag & 0x400000) != 0) {
+		if ((flag & 0x800000) != 0) //clan_member
+			player.isClanMember = buffer.readUnsignedByteC() == 1;
+		if ((flag & 0x400000) != 0) { //unknown
 			String string = buffer.readString();
 			int i_24_ = buffer.readUnsignedByte();
 			if ((i_24_ & 0x1) != 0)
 				Class635.method7564(2, i_24_, player.method11085(true, (byte) 1), player.method11086(false, -2012118516), player.aString12192, string, null, -1538266173);
 			player.method11090(string, 0, 0, (byte) -87);
 		}
-		if ((flag & 0x10000) != 0) {
+		if ((flag & 0x10000) != 0) { //not used
 			int i_25_ = buffer.readUnsignedShort128();
 			int i_26_ = buffer.readLEInt();
 			if (i_25_ == 65535)
@@ -191,14 +194,14 @@ public class Class630 {
 			boolean bool = 1 == (i_27_ >> 7 & 0x1);
 			player.method10917(i_25_, i_26_, i_28_, i_29_, bool, 4, 464850627);
 		}
-		if ((flag & 0x40) != 0) {
-			player.anInt12190 = buffer.readUnsignedShortLE128() * 2114230253;
-			if (-711375609 * player.anInt11957 == 0) {
-				player.method10867(1763663333 * player.anInt12190, -1576746716);
-				player.anInt12190 = -2114230253;
+		if ((flag & 0x40) != 0) { //face_dir
+			player.faceDirection = buffer.readUnsignedShortLE128() * 2114230253;
+			if (-711375609 * player.stepsCount == 0) {
+				player.method10867(1763663333 * player.faceDirection);
+				player.faceDirection = -2114230253;
 			}
 		}
-		if ((flag & 0x200000) != 0) {
+		if ((flag & 0x200000) != 0) { //graphics_4
 			int i_30_ = buffer.readUnsignedShortLE();
 			int i_31_ = buffer.readInt();
 			if (65535 == i_30_)
@@ -211,12 +214,12 @@ public class Class630 {
 			boolean bool = (i_32_ >> 7 & 0x1) == 1;
 			player.method10917(i_30_, i_31_, i_33_, i_34_, bool, 3, 959501178);
 		}
-		if ((flag & 0x400) != 0) {
-			player.aClass210_12200 = ((Class210) Class682.method8091(Class210.method2980(523152207), buffer.readUnsignedByteC(2119715381), 1858049507));
+		if ((flag & 0x400) != 0) { //unknown
+			player.aClass210_12200 = ((Class210) Class682.method8091(Class210.method2980(523152207), buffer.readUnsignedByteC(), 1858049507));
 			if (null == player.aClass210_12200)
 				player.aClass210_12200 = Class210.aClass210_2258;
 		}
-		if (0 != (flag & 0x40000)) {
+		if (0 != (flag & 0x40000)) { //unknown
 			player.anInterface3_11929.method29(-522502633);
 			buffer.off += 1032351030;
 			int i_35_ = (buffer.buffer[((buffer.off += 516175515) * -810172525 - 1)]) & 0xff;
@@ -227,13 +230,13 @@ public class Class630 {
 				player.anInterface3_11929.method18(class430.anInt4820 * 706703961, class430.anObject4819, (byte) 24);
 			}
 		}
-		if (0 != (flag & 0x20)) {
+		if (0 != (flag & 0x20)) { //face_entity
 			int i_38_ = buffer.readUnsignedShort128();
 			if (65535 == i_38_)
 				i_38_ = -1;
 			player.anInt11911 = i_38_ * -16791139;
 		}
-		if (0 != (flag & 0x20000)) {
+		if (0 != (flag & 0x20000)) { //unknown
 			buffer.off += 1032351030;
 			int i_39_ = (buffer.buffer[((buffer.off += 516175515) * -810172525 - 1)]) & 0xff;
 			for (int i_40_ = 0; i_40_ < i_39_; i_40_++) {
@@ -243,12 +246,12 @@ public class Class630 {
 				player.anInterface3_11929.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -18);
 			}
 		}
-		if (0 != (flag & 0x4)) {
+		if (0 != (flag & 0x4)) { //graphics_1
 			int i_42_ = buffer.readUnsignedShortLE();
 			int i_43_ = buffer.readIntV1();
 			if (i_42_ == 65535)
 				i_42_ = -1;
-			int i_44_ = buffer.readUnsignedByteC(2145609394);
+			int i_44_ = buffer.readUnsignedByteC();
 			int i_45_ = i_44_ & 0x7;
 			int i_46_ = i_44_ >> 3 & 0xf;
 			if (15 == i_46_)
@@ -256,53 +259,53 @@ public class Class630 {
 			boolean bool = 1 == (i_44_ >> 7 & 0x1);
 			player.method10917(i_42_, i_43_, i_45_, i_46_, bool, 0, 1260695262);
 		}
-		if ((flag & 0x10) != 0) {
-			int[] is = new int[4];
-			for (int i_47_ = 0; i_47_ < 4; i_47_++)
-				is[i_47_] = buffer.readBigSmart((byte) 1);
-			int i_48_ = buffer.readUnsigned128Byte();
-			Class360_Sub1.method9269(player, is, i_48_, false, 1131805852);
+		if ((flag & 0x10) != 0) { //animation
+			int[] animation_id = new int[4];
+			for (int i = 0; i < 4; i++)
+				animation_id[i] = buffer.readBigSmart((byte) 1);
+			int delay = buffer.readUnsigned128Byte();
+			Class360_Sub1.method9269(player, animation_id, delay, false);
 		}
 		if (0 != (flag & 0x1)) {
-			int i_49_ = buffer.readUnsigned128Byte();
-			if (i_49_ > 0) {
-				for (int i_50_ = 0; i_50_ < i_49_; i_50_++) {
-					int i_51_ = -1;
-					int i_52_ = -1;
-					int i_53_ = -1;
-					int i_54_ = buffer.readUnsignedSmart(1001043189);
-					if (i_54_ == 32767) {
-						i_54_ = buffer.readUnsignedSmart(-1453868902);
-						i_52_ = buffer.readUnsignedSmart(-587219119);
-						i_51_ = buffer.readUnsignedSmart(1931985466);
-						i_53_ = buffer.readUnsignedSmart(-1487765605);
-					} else if (i_54_ != 32766)
-						i_52_ = buffer.readUnsignedSmart(331693348);
-					else {
-						i_54_ = -1;
-						i_52_ = buffer.readUnsignedByte();
+			int hitsSize = buffer.readUnsigned128Byte();
+			if (hitsSize > 0) {
+				for (int i = 0; i < hitsSize; i++) {
+					int soakingMark = -1;
+					int damage = -1;
+					int soakingDisplay = -1;
+					int hitType = buffer.readUnsignedSmart();
+					if (hitType == 32767) { //soaking
+						hitType = buffer.readUnsignedSmart();
+						damage = buffer.readUnsignedSmart();
+						soakingMark = buffer.readUnsignedSmart();
+						soakingDisplay = buffer.readUnsignedSmart();
+					} else if (hitType != 32766) //soaked
+						damage = buffer.readUnsignedSmart();
+					else { //no soaking
+						hitType = -1;
+						damage = buffer.readUnsignedByte();
 					}
-					int i_55_ = buffer.readUnsignedSmart(78718253);
-					player.method10871(i_54_, i_52_, i_51_, i_53_, client.anInt11014, i_55_, 2141861727);
+					int i_55_ = buffer.readUnsignedSmart();
+					player.method10871(hitType, damage, soakingMark, soakingDisplay, client.anInt11014, i_55_, 2141861727);
 				}
 			}
-			int i_56_ = buffer.readUnsignedByte128();
-			if (i_56_ > 0) {
-				for (int i_57_ = 0; i_57_ < i_56_; i_57_++) {
-					int i_58_ = buffer.readUnsignedSmart(-1345048628);
-					int i_59_ = buffer.readUnsignedSmart(-685857995);
-					if (32767 != i_59_) {
-						int i_60_ = buffer.readUnsignedSmart(-1565752433);
-						int i_61_ = buffer.readUnsignedByte();
-						int i_62_ = (i_59_ > 0 ? buffer.readUnsignedByte128() : i_61_);
-						player.method10906(i_58_, (client.anInt11014), i_59_, i_60_, i_61_, i_62_, -1884532814);
+			int hitBarSize = buffer.readUnsignedByte128();
+			if (hitBarSize > 0) {
+				for (int i = 0; i < hitBarSize; i++) {
+					int type = buffer.readUnsignedSmart();
+					int display = buffer.readUnsignedSmart();
+					if (32767 != display) {
+						int delay = buffer.readUnsignedSmart();
+						int percentage = buffer.readUnsignedByte();
+						int toPercentage = (display > 0 ? buffer.readUnsignedByte128() : percentage);
+						player.method10906(type, (client.anInt11014), display, delay, percentage, toPercentage, -1884532814);
 					} else
-						player.method10872(i_58_, (short) 2456);
+						player.method10872(type, (short) 2456);
 				}
 			}
 		}
-		if ((flag & 0x80000) != 0) {
-			int i_63_ = buffer.readUnsignedByteC(2146409837);
+		if ((flag & 0x80000) != 0) { //unknown
+			int i_63_ = buffer.readUnsignedByteC();
 			int[] is = new int[i_63_];
 			int[] is_64_ = new int[i_63_];
 			for (int i_65_ = 0; i_65_ < i_63_; i_65_++) {
@@ -316,9 +319,9 @@ public class Class630 {
 			}
 			player.method10895(is, is_64_, 1653239322);
 		}
-		if (0 != (flag & 0x8000)) {
+		if (0 != (flag & 0x8000)) { //graphics_3
 			int i_68_ = buffer.readUnsignedShortLE128();
-			int i_69_ = buffer.readIntV2((byte) 85);
+			int i_69_ = buffer.readIntV2();
 			if (65535 == i_68_)
 				i_68_ = -1;
 			int i_70_ = buffer.readUnsignedByte128();
@@ -329,8 +332,8 @@ public class Class630 {
 			boolean bool = 1 == (i_70_ >> 7 & 0x1);
 			player.method10917(i_68_, i_69_, i_71_, i_72_, bool, 2, 1862914719);
 		}
-		if ((flag & 0x200) != 0) {
-			int i_73_ = buffer.readUnsignedByteC(2031343823);
+		if ((flag & 0x200) != 0) { //unknown
+			int i_73_ = buffer.readUnsignedByteC();
 			int[] is = new int[i_73_];
 			int[] is_74_ = new int[i_73_];
 			int[] is_75_ = new int[i_73_];
@@ -341,13 +344,13 @@ public class Class630 {
 			}
 			Class74.method1139(player, is, is_74_, is_75_, (byte) -25);
 		}
-		if (0 != (flag & 0x2000)) {
-			int i_77_ = buffer.readUnsignedByte();
-			byte[] is = new byte[i_77_];
-			RSByteBuffer class536_sub33 = new RSByteBuffer(is);
-			buffer.method9780(is, 0, i_77_, 397948282);
-			Class95.aClass536_Sub33Array1155[playerIndex] = class536_sub33;
-			player.method11091(class536_sub33, 5101197);
+		if (0 != (flag & 0x2000)) { //icons
+			int iconSize = buffer.readUnsignedByte();
+			byte[] bytes = new byte[iconSize];
+			RSByteBuffer iconData = new RSByteBuffer(bytes);
+			buffer.readBytesReverse128(bytes, 0, iconSize, 397948282);
+			Class95.iconData[playerIndex] = iconData;
+			player.decodeIcons(iconData);
 		}
 		if ((flag & 0x4000) != 0) {
 			String string = buffer.readString();
@@ -356,27 +359,39 @@ public class Class630 {
 			player.method11090(string, 0, 0, (byte) -93);
 		}
 		if (0 != (flag & 0x2)) {
-			player.anInt11916 = buffer.readByte() * -339639515;
-			player.anInt11919 = buffer.readByte128(2030841405) * 1183324809;
-			player.anInt11935 = buffer.readByte128(-149637005) * -1437384935;
-			player.anInt11920 = buffer.readByteC() * -1947310333;
-			player.anInt11921 = buffer.readByte128(-1068764366) * 791753037;
-			player.anInt11922 = buffer.read128Byte() * 107491611;
-			player.anInt11923 = (buffer.readUnsignedShort128() + client.anInt11014) * -1372978185;
-			player.anInt11924 = (buffer.readUnsignedShortLE() + client.anInt11014) * -652258591;
-			player.anInt11952 = buffer.readUnsignedShort128() * -2105433735;
-			player.anInt11957 = 1754339511;
+			int i1 = buffer.readByte();
+			int i2 = buffer.readByte128();
+			int i3 = buffer.readByte128();
+			int i4 = buffer.readByteC();
+			int i5 = buffer.readByte128();
+			int i6 = buffer.read128Byte();
+			int i7 = buffer.readUnsignedShort128();
+			int i8 = buffer.readUnsignedShortLE();
+			int i9 = buffer.readUnsignedShort128();
+			List<Integer> list = Arrays.asList(i1, i2, i3, i4, i5, i6, i7, i8, i9);
+			list.stream().forEach(System.out::println);
+			player.anInt11916 = i1 * -339639515;
+			player.anInt11919 = i2 * 1183324809;
+			player.anInt11935 = i3 * -1437384935;
+			player.anInt11920 = i4 * -1947310333;
+			player.anInt11921 = i5 * 791753037;
+			player.anInt11922 = i6 * 107491611;
+			player.anInt11923 = (i7 + client.anInt11014) * -1372978185;
+			player.anInt11924 = (i8 + client.anInt11014) * -652258591;
+			player.anInt11952 = i9 * -2105433735;
+			player.stepsCount = 1754339511;
 			player.anInt11948 = 0;
-			player.anInt11916 += (-339639515 * player.anIntArray11944[0]);
-			player.anInt11919 += (player.anIntArray11945[0] * 1183324809);
-			player.anInt11935 += (player.anIntArray11944[0] * -1437384935);
-			player.anInt11920 += (-1947310333 * player.anIntArray11945[0]);
+			player.anInt11916 += (-339639515 * player.screenX[0]);
+			player.anInt11919 += (player.screenY[0] * 1183324809);
+			player.anInt11935 += (player.screenX[0] * -1437384935);
+			player.anInt11920 += (-1947310333 * player.screenY[0]);
 			player.anInt11921 += player.aByte10839 * 791753037;
 			player.anInt11922 += 107491611 * player.aByte10839;
+			
 		}
 		if (0 != (flag & 0x100000)) {
 			player.aByte11928 = buffer.readByteC();
-			player.aByte11936 = buffer.readByte128(-409858559);
+			player.aByte11936 = buffer.readByte128();
 			player.aByte11930 = buffer.read128Byte();
 			player.aByte11958 = (byte) buffer.readUnsignedByte();
 			player.anInt11926 = (client.anInt11014 + buffer.readUnsignedShortLE()) * 2109855411;

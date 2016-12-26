@@ -60,7 +60,7 @@ public class Class139 implements Interface21 {
 
 	static final void method1696(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class94.method1292(class251, class234, class668, 1780693201);
 	}
@@ -81,7 +81,7 @@ public class Class139 implements Interface21 {
 
 	static final void method1700(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_3_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class15.method642(class251, class234, class668, -279844101);
 	}

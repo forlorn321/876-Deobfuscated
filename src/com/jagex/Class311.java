@@ -84,7 +84,7 @@ public class Class311 implements Interface13, Interface7 {
 		/* empty */
 	}
 
-	static final void method4180(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method4180(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1831641204) != null)
 			string = string.substring(0, string.length() - 1);

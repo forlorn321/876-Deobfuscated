@@ -578,7 +578,7 @@ public class Class360_Sub1 extends Class360 {
 		return aHashMap10162;
 	}
 
-	public static void method9269(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int[] is, int i, boolean bool, int i_31_) {
+	public static void method9269(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int[] is, int i, boolean bool) {
 		if (class649_sub1_sub5_sub1.anIntArray11913 != null) {
 			boolean bool_32_ = true;
 			for (int i_33_ = 0; i_33_ < class649_sub1_sub5_sub1.anIntArray11913.length; i_33_++) {
@@ -605,20 +605,20 @@ public class Class360_Sub1 extends Class360 {
 				class649_sub1_sub5_sub1.anIntArray11913 = is;
 				class649_sub1_sub5_sub1.aClass688_11925.method8130(i, 1832993615);
 				if (bool)
-					class649_sub1_sub5_sub1.anInt11948 = class649_sub1_sub5_sub1.anInt11957 * 1389534931;
+					class649_sub1_sub5_sub1.anInt11948 = class649_sub1_sub5_sub1.stepsCount * 1389534931;
 			}
 		}
 		if (bool_35_) {
 			class649_sub1_sub5_sub1.anIntArray11913 = is;
 			class649_sub1_sub5_sub1.aClass688_11925.method8130(i, -636585715);
 			if (bool)
-				class649_sub1_sub5_sub1.anInt11948 = 1389534931 * class649_sub1_sub5_sub1.anInt11957;
+				class649_sub1_sub5_sub1.anInt11948 = 1389534931 * class649_sub1_sub5_sub1.stepsCount;
 		}
 	}
 
 	static final void method9270(Class668 class668, int i) {
 		int i_37_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_37_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_37_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_37_ >> 16];
 		Class434.method5233(class251, class234, class668, 435246204);
 	}

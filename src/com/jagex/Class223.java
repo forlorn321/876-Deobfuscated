@@ -325,8 +325,8 @@ public class Class223 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.aClass231_11088.method3301(i_46_, (byte) 21).method3156(i_47_, (short) 3231);
 	}
 
-	public static void method3202(Class234 class234, Class251 class251, int i) {
-		Class251 class251_48_ = Class648.method7834(class234, class251, -16777216);
+	public static void method3202(Class234 class234, InterfaceDefinitions class251, int i) {
+		InterfaceDefinitions class251_48_ = Class648.method7834(class234, class251, -16777216);
 		int i_49_;
 		int i_50_;
 		if (null == class251_48_) {
@@ -342,7 +342,7 @@ public class Class223 {
 
 	static final void method3203(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		int i_51_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class161.method1968(i_51_, class251, class668, -1817163795);
 	}

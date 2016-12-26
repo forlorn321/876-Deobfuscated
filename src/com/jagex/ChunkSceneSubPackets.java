@@ -41,20 +41,20 @@ public class ChunkSceneSubPackets {
 	static void method4967(Class234 class234, int i, int i_0_, int i_1_, boolean bool, Class668 class668, byte i_2_) {
 		if (0 == i_0_)
 			throw new RuntimeException();
-		Class251 class251 = class234.aClass251Array2378[i];
+		InterfaceDefinitions class251 = class234.aClass251Array2378[i];
 		if (class251.aClass251Array2725 == null) {
-			class251.aClass251Array2725 = new Class251[i_1_ + 1];
+			class251.aClass251Array2725 = new InterfaceDefinitions[i_1_ + 1];
 			class251.aClass251Array2726 = class251.aClass251Array2725;
 		}
 		if (class251.aClass251Array2725.length <= i_1_) {
 			if (class251.aClass251Array2725 == class251.aClass251Array2726) {
-				Class251[] class251s = new Class251[1 + i_1_];
+				InterfaceDefinitions[] class251s = new InterfaceDefinitions[1 + i_1_];
 				for (int i_3_ = 0; i_3_ < class251.aClass251Array2725.length; i_3_++)
 					class251s[i_3_] = class251.aClass251Array2725[i_3_];
 				class251.aClass251Array2725 = class251.aClass251Array2726 = class251s;
 			} else {
-				Class251[] class251s = new Class251[i_1_ + 1];
-				Class251[] class251s_4_ = new Class251[i_1_ + 1];
+				InterfaceDefinitions[] class251s = new InterfaceDefinitions[i_1_ + 1];
+				InterfaceDefinitions[] class251s_4_ = new InterfaceDefinitions[i_1_ + 1];
 				for (int i_5_ = 0; i_5_ < class251.aClass251Array2725.length; i_5_++) {
 					class251s[i_5_] = class251.aClass251Array2725[i_5_];
 					class251s_4_[i_5_] = class251.aClass251Array2726[i_5_];
@@ -65,7 +65,7 @@ public class ChunkSceneSubPackets {
 		}
 		if (i_1_ > 0 && class251.aClass251Array2725[i_1_ - 1] == null)
 			throw new RuntimeException(new StringBuilder().append("").append(i_1_ - 1).toString());
-		Class251 class251_6_ = new Class251();
+		InterfaceDefinitions class251_6_ = new InterfaceDefinitions();
 		class251_6_.anInt2728 = -611060941 * i_0_;
 		class251_6_.anInt2577 = (class251_6_.anInt2559 = 1 * class251.anInt2559) * -832839215;
 		class251_6_.anInt2546 = 724931107 * i_1_;
@@ -84,14 +84,14 @@ public class ChunkSceneSubPackets {
 
 	static final void method4968(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_7_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_7_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_7_ >> 16];
 		Class700.method8251(class251, class234, class668, 837944822);
 	}
 
 	static final void method4969(Class668 class668, short i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class567.method6915(class251, class234, class668, -1844450562);
 	}
@@ -138,7 +138,7 @@ public class ChunkSceneSubPackets {
 		class536_sub2.aBool10319 = false;
 	}
 
-	static final void method4973(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method4973(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class668.anInt8542 -= 1472892954;
 		int i_19_ = 10;
 		byte[] is = { (byte) class668.anIntArray8541[class668.anInt8542 * 1867269829] };

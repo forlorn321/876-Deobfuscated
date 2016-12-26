@@ -12,7 +12,7 @@ public class Class34_Sub20 extends Class34 {
 		return (new Class451[] { Class451.aClass451_4947, Class451.aClass451_4946, Class451.aClass451_4944 });
 	}
 
-	static final void method10364(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method10364(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.aBool2598 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}

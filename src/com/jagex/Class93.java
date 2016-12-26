@@ -131,7 +131,7 @@ public class Class93 {
 
 	static final void method1239(boolean bool, Class668 class668, short i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		if (bool)
 			Class171.method2425(class234, class251, 324055827);

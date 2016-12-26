@@ -230,7 +230,7 @@ public class Class320 implements Interface33 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1;
 	}
 
-	static void method4242(Class251[] class251s, Class251 class251, boolean bool, int i) {
+	static void method4242(InterfaceDefinitions[] class251s, InterfaceDefinitions class251, boolean bool, int i) {
 		int i_14_ = (0 != class251.anInt2585 * -1382035527 ? -1382035527 * class251.anInt2585 : -1606950689 * class251.anInt2573);
 		int i_15_ = (452091921 * class251.anInt2586 != 0 ? 452091921 * class251.anInt2586 : class251.anInt2574 * 223822141);
 		Class564.method6874(class251s, -1591767037 * class251.anInt2559, i_14_, i_15_, bool, -943865652);
@@ -256,7 +256,7 @@ public class Class320 implements Interface33 {
 		}
 	}
 
-	static final void method4243(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method4243(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1633785810) != null)
 			string = string.substring(0, string.length() - 1);
@@ -264,7 +264,7 @@ public class Class320 implements Interface33 {
 		class251.aBool2666 = true;
 	}
 
-	static final void method4244(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method4244(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1770351247) != null)
 			string = string.substring(0, string.length() - 1);

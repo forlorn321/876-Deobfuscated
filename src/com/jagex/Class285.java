@@ -144,7 +144,7 @@ public abstract class Class285 implements Interface35 {
 
 	static final void method3841(Class668 class668, int i) {
 		int i_56_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_56_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_56_, -689214737);
 		Class33.method795(class251, class668, 1195723679);
 	}
 

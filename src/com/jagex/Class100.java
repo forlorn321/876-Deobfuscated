@@ -64,23 +64,23 @@ public class Class100 {
 	}
 
 	static void decodeWorldDescriptors(RSByteBuffer stream, int i) {
-		int worldSize = stream.readUnsignedSmart(-490410303);
+		int worldSize = stream.readUnsignedSmart();
 		Class94.worlds = new Class592[worldSize];
 		for (int i_2_ = 0; i_2_ < worldSize; i_2_++) {
 			Class94.worlds[i_2_] = new Class592();
-			Class94.worlds[i_2_].flagId = stream.readUnsignedSmart(-171383916) * -1820632555;
+			Class94.worlds[i_2_].flagId = stream.readUnsignedSmart() * -1820632555;
 			Class94.worlds[i_2_].countryName = stream.readVersionedString();
 		}
-		Class220.lowestWorldId = stream.readUnsignedSmart(-1699057282) * 516757439;
-		Class593.highestWorldId = stream.readUnsignedSmart(1734628560) * -1155278909;
-		Class593.worldCount = stream.readUnsignedSmart(838984434) * -317832355;
+		Class220.lowestWorldId = stream.readUnsignedSmart() * 516757439;
+		Class593.highestWorldId = stream.readUnsignedSmart() * -1155278909;
+		Class593.worldCount = stream.readUnsignedSmart() * -317832355;
 		Class506.aClass603_Sub1Array6890 = new Class603_Sub1[1 + (Class593.highestWorldId * 870600939 - Class220.lowestWorldId * -805119937)];
 		for (int i_3_ = 0; i_3_ < -537974539 * Class593.worldCount; i_3_++) {
-			int worldId = stream.readUnsignedSmart(-1409328853);
+			int worldId = stream.readUnsignedSmart();
 			Class603_Sub1 class603_sub1 = Class506.aClass603_Sub1Array6890[worldId] = new Class603_Sub1();
 			class603_sub1.worldIndex = stream.readUnsignedByte() * 809472901;
 			class603_sub1.worldFlags = stream.readInt() * -261605043;
-			class603_sub1.extraString = stream.readUnsignedSmart(2070051773) * 1502072849;
+			class603_sub1.extraString = stream.readUnsignedSmart() * 1502072849;
 			if (class603_sub1.extraString * 1844650225 != 0)
 				class603_sub1.theExtraString = stream.readVersionedString();
 			class603_sub1.anInt10557 = (worldId + Class220.lowestWorldId * -805119937) * -130957999;

@@ -30,12 +30,12 @@ public class Class665 {
 			boolean bool = false;
 			for (;;) {
 				if (bool) {
-					int i_9_ = class536_sub33.readUnsignedSmart(1373299542);
+					int i_9_ = class536_sub33.readUnsignedSmart();
 					if (0 == i_9_)
 						break;
 					class536_sub33.readUnsignedByte();
 				} else {
-					int i_10_ = class536_sub33.readUnsignedSmart(-165930225);
+					int i_10_ = class536_sub33.readUnsignedSmart();
 					if (i_10_ == 0)
 						break;
 					i_8_ += i_10_ - 1;
@@ -73,7 +73,7 @@ public class Class665 {
 
 	static final void method8000(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class292.method3968(class251, class234, class668, -878876194);
 	}

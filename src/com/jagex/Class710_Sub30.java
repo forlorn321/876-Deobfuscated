@@ -87,6 +87,6 @@ public class Class710_Sub30 extends Class710 {
 	}
 
 	public static boolean method10184(CharSequence charsequence, int i) {
-		return Class251.method3513(charsequence, 10, true, -42897259);
+		return InterfaceDefinitions.method3513(charsequence, 10, true, -42897259);
 	}
 }

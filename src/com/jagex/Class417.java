@@ -40,7 +40,7 @@ public class Class417 {
 			if (string.equalsIgnoreCase(client.aClass31Array11291[i_1_].aString266))
 				return true;
 		}
-		if (string.equalsIgnoreCase(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184))
+		if (string.equalsIgnoreCase(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username))
 			return true;
 		return false;
 	}

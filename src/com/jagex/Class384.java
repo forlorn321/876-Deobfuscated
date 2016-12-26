@@ -24,7 +24,7 @@ public class Class384 implements Interface49 {
 
 	static final void method4832(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class233.method3330(class251, class234, class668, -1384022228);
 	}
@@ -52,7 +52,7 @@ public class Class384 implements Interface49 {
 
 	static final void method4837(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class98_Sub1_Sub2.method10505(class251, class234, class668, -160251184);
 	}

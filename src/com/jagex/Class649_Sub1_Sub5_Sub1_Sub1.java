@@ -148,8 +148,8 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public final void method11066(Class679 class679, int i, int i_7_) {
-		int i_8_ = anIntArray11944[0];
-		int i_9_ = anIntArray11945[0];
+		int i_8_ = screenX[0];
+		int i_9_ = screenY[0];
 		switch (60921879 * class679.anInt8634) {
 		case 0:
 			i_8_--;
@@ -193,15 +193,15 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 				}
 			}
 		}
-		if (-711375609 * anInt11957 < anIntArray11944.length - 1)
-			anInt11957 += 1754339511;
-		for (int i_11_ = anInt11957 * -711375609; i_11_ > 0; i_11_--) {
-			anIntArray11944[i_11_] = anIntArray11944[i_11_ - 1];
-			anIntArray11945[i_11_] = anIntArray11945[i_11_ - 1];
+		if (-711375609 * stepsCount < screenX.length - 1)
+			stepsCount += 1754339511;
+		for (int i_11_ = stepsCount * -711375609; i_11_ > 0; i_11_--) {
+			screenX[i_11_] = screenX[i_11_ - 1];
+			screenY[i_11_] = screenY[i_11_ - 1];
 			aByteArray11946[i_11_] = aByteArray11946[i_11_ - 1];
 		}
-		anIntArray11944[0] = i_8_;
-		anIntArray11945[0] = i_9_;
+		screenX[0] = i_8_;
+		screenY[0] = i_9_;
 		aByteArray11946[0] = (byte) i;
 	}
 
@@ -223,30 +223,30 @@ public class Class649_Sub1_Sub5_Sub1_Sub1 extends Class649_Sub1_Sub5_Sub1 {
 			}
 		}
 		if (!bool) {
-			int i_17_ = i_12_ - anIntArray11944[0];
-			int i_18_ = i_13_ - anIntArray11945[0];
+			int i_17_ = i_12_ - screenX[0];
+			int i_18_ = i_13_ - screenY[0];
 			if (i_17_ >= -8 && i_17_ <= 8 && i_18_ >= -8 && i_18_ <= 8) {
-				if (-711375609 * anInt11957 < anIntArray11944.length - 1)
-					anInt11957 += 1754339511;
-				for (int i_19_ = -711375609 * anInt11957; i_19_ > 0; i_19_--) {
-					anIntArray11944[i_19_] = anIntArray11944[i_19_ - 1];
-					anIntArray11945[i_19_] = anIntArray11945[i_19_ - 1];
+				if (-711375609 * stepsCount < screenX.length - 1)
+					stepsCount += 1754339511;
+				for (int i_19_ = -711375609 * stepsCount; i_19_ > 0; i_19_--) {
+					screenX[i_19_] = screenX[i_19_ - 1];
+					screenY[i_19_] = screenY[i_19_ - 1];
 					aByteArray11946[i_19_] = aByteArray11946[i_19_ - 1];
 				}
-				anIntArray11944[0] = i_12_;
-				anIntArray11945[0] = i_13_;
+				screenX[0] = i_12_;
+				screenY[0] = i_13_;
 				aByteArray11946[0] = Class680.aClass680_8639.aByte8644;
 				return;
 			}
 		}
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 		anInt11915 = 0;
-		anIntArray11944[0] = i_12_;
-		anIntArray11945[0] = i_13_;
+		screenX[0] = i_12_;
+		screenY[0] = i_13_;
 		Class436 class436 = Class436.method5240(method7837().aClass436_4823);
-		class436.aFloat4850 = (float) ((i_14_ << 8) + (anIntArray11944[0] << 9));
-		class436.aFloat4853 = (float) ((i_14_ << 8) + (anIntArray11945[0] << 9));
+		class436.aFloat4850 = (float) ((i_14_ << 8) + (screenX[0] << 9));
+		class436.aFloat4853 = (float) ((i_14_ << 8) + (screenY[0] << 9));
 		method7841(class436);
 		class436.method5239();
 		if (null != aClass627_11950)

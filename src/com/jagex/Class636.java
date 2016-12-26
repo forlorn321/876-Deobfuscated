@@ -154,8 +154,8 @@ public class Class636 {
 			i_11_ = Class685.anInt8665 * -1646092097 >> 12;
 		} else {
 			if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) {
-				i_10_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0]) >> 3;
-				i_11_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0]) >> 3;
+				i_10_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3;
+				i_11_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3;
 			}
 			if (i_10_ < 0 || i_10_ >= class515.method6321((byte) 0) >> 3 || i_11_ < 0 || i_11_ >= class515.method6243(177401017) >> 3) {
 				i_10_ = class515.method6321((byte) -11) >> 4;

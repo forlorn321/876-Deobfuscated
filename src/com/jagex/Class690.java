@@ -33,7 +33,7 @@ public class Class690 implements Interface75 {
 		anInt8697 = 1924146835 * i;
 	}
 
-	static void method8184(Class167 class167, int i, int i_0_, Class251 class251, int i_1_, byte i_2_) {
+	static void method8184(Class167 class167, int i, int i_0_, InterfaceDefinitions class251, int i_1_, byte i_2_) {
 		for (int i_3_ = 7; i_3_ >= 0; i_3_--) {
 			for (int i_4_ = 127; i_4_ >= 0; i_4_--) {
 				int i_5_ = (i_1_ & 0x3f) << 10 | (i_3_ & 0x7) << 7 | i_4_ & 0x7f;

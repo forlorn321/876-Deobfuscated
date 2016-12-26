@@ -60,7 +60,7 @@ public class Class439 {
 	}
 
 	public Class439(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedSmart(-1676032667);
+		int i = class536_sub33.readUnsignedSmart();
 		aClass429Array4869[0] = new Class429();
 		aClass429Array4869[0].method5150(0, Class436.method5241(class536_sub33));
 		aClass429Array4869[0].method5150(1, Class436.method5241(class536_sub33));

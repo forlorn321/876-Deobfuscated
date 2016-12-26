@@ -93,7 +93,7 @@ public class Class153_Sub1 extends Class153 {
 
 	static final void method8385(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class390.method4856(class251, class234, false, 1, class668, (byte) -98);
 	}

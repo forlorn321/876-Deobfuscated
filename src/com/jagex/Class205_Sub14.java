@@ -193,7 +193,7 @@ public class Class205_Sub14 extends Class205 {
 
 	static final void method9074(Class668 class668, int i) {
 		int i_19_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_19_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_19_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_19_ >> 16];
 		Class300.method4027(class251, class234, class668, (byte) 7);
 	}

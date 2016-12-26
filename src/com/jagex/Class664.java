@@ -46,7 +46,7 @@ public class Class664 implements Interface75 {
 
 	static final void method7990(Class668 class668, int i) {
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_4_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_4_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_4_ >> 16];
 		Class204.method2933(class251, class234, class668, 177738722);
 	}
@@ -102,7 +102,7 @@ public class Class664 implements Interface75 {
 
 	static final void method7996(Class668 class668, int i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_6_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_6_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_6_ >> 16];
 		Class194.method2853(class251, class234, class668, (short) 2903);
 	}
@@ -154,7 +154,7 @@ public class Class664 implements Interface75 {
 
 	static final void method7998(Class668 class668, int i) {
 		int i_8_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_8_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_8_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_8_ >> 16];
 		Class200.method2914(class251, class234, class668, 65280);
 	}

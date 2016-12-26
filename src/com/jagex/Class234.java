@@ -4,33 +4,33 @@
 package com.jagex;
 
 public class Class234 {
-	Class251[] aClass251Array2377;
-	public Class251[] aClass251Array2378;
+	InterfaceDefinitions[] aClass251Array2377;
+	public InterfaceDefinitions[] aClass251Array2378;
 	public boolean aBool2379;
 	static int[] anIntArray2380;
 	static int anInt2381;
 
-	public Class251 method3337(int i, int i_0_) {
+	public InterfaceDefinitions method3337(int i, int i_0_) {
 		if (i >>> 16 != -1591767037 * aClass251Array2378[0].anInt2559 >>> 16)
 			throw new IllegalArgumentException();
 		return aClass251Array2378[i & 0xffff];
 	}
 
-	Class234(boolean bool, Class251[] class251s) {
+	Class234(boolean bool, InterfaceDefinitions[] class251s) {
 		aClass251Array2378 = class251s;
 		aBool2379 = bool;
 	}
 
-	public Class251[] method3338(int i) {
+	public InterfaceDefinitions[] method3338(int i) {
 		if (aClass251Array2377 == null) {
 			int i_1_ = aClass251Array2378.length;
-			aClass251Array2377 = new Class251[i_1_];
+			aClass251Array2377 = new InterfaceDefinitions[i_1_];
 			System.arraycopy(aClass251Array2378, 0, aClass251Array2377, 0, aClass251Array2378.length);
 		}
 		return aClass251Array2377;
 	}
 
-	public Class251[] method3339(int i) {
+	public InterfaceDefinitions[] method3339(int i) {
 		return (aClass251Array2377 == null ? aClass251Array2378 : aClass251Array2377);
 	}
 

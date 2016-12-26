@@ -18,7 +18,7 @@ public class Class30 {
 
 	static final void method778(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class390.method4856(class251, class234, true, 1, class668, (byte) -116);
 	}
@@ -50,7 +50,7 @@ public class Class30 {
 
 	static final void method782(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class73 class73 = (Class73) Class207.aClass34_Sub22_2244.method70(i_6_, (byte) 31);
 		if (class73.method1128((byte) 97))

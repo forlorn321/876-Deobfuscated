@@ -9,7 +9,7 @@ public class Class95 {
 	static byte[] aByteArray1152;
 	static byte[] aByteArray1153;
 	static RSByteBuffer[] playerRenderData;
-	static RSByteBuffer[] aClass536_Sub33Array1155;
+	static RSByteBuffer[] iconData;
 	public static int anInt1156;
 	static int[] anIntArray1157;
 	static int anInt1158;
@@ -24,7 +24,7 @@ public class Class95 {
 		anInt1156 = 0;
 		for (int i = 0; i < 2048; i++) {
 			playerRenderData[i] = null;
-			aClass536_Sub33Array1155[i] = null;
+			iconData[i] = null;
 			aByteArray1153[i] = Class680.aClass680_8639.aByte8644;
 			aClass43Array1162[i] = null;
 		}
@@ -40,16 +40,16 @@ public class Class95 {
 		int i_2_ = i_0_ >> 14 & 0x3fff;
 		int i_3_ = i_0_ & 0x3fff;
 		Class598 class598 = client.aClass515_11066.method6255(-1332050267);
-		class649_sub1_sub5_sub1_sub2.anIntArray11944[0] = i_2_ - class598.anInt7839 * 1858049507;
-		class649_sub1_sub5_sub1_sub2.anIntArray11945[0] = i_3_ - class598.anInt7840 * 1479112045;
-		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
+		class649_sub1_sub5_sub1_sub2.screenX[0] = i_2_ - class598.anInt7839 * 1858049507;
+		class649_sub1_sub5_sub1_sub2.screenY[0] = i_3_ - class598.anInt7840 * 1479112045;
+		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.screenX[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.screenY[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
 		Class320.anInt3539 = (class649_sub1_sub5_sub1_sub2.aByte10839 = class649_sub1_sub5_sub1_sub2.aByte10840 = i_1_) * 1995486621;
-		if (client.aClass515_11066.method6251(21756407).method5466(class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], (byte) -63))
+		if (client.aClass515_11066.method6251(21756407).method5466(class649_sub1_sub5_sub1_sub2.screenX[0], class649_sub1_sub5_sub1_sub2.screenY[0], (byte) -63))
 			class649_sub1_sub5_sub1_sub2.aByte10840++;
 		if (null != playerRenderData[i])
 			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(playerRenderData[i]);
-		if (aClass536_Sub33Array1155[i] != null)
-			class649_sub1_sub5_sub1_sub2.method11091(aClass536_Sub33Array1155[i], 1036735050);
+		if (iconData[i] != null)
+			class649_sub1_sub5_sub1_sub2.decodeIcons(iconData[i]);
 		anInt1156 = 0;
 		anIntArray1157[(anInt1156 += 1948535215) * -1482773169 - 1] = i;
 		aByteArray1152[i] = (byte) 0;
@@ -87,7 +87,7 @@ public class Class95 {
 		aByteArray1152 = new byte[2048];
 		aByteArray1153 = new byte[2048];
 		playerRenderData = new RSByteBuffer[2048];
-		aClass536_Sub33Array1155 = new RSByteBuffer[2048];
+		iconData = new RSByteBuffer[2048];
 		anInt1156 = 0;
 		anIntArray1157 = new int[2048];
 		anInt1158 = 0;
@@ -105,7 +105,7 @@ public class Class95 {
 		anInt1156 = 0;
 		for (int i = 0; i < 2048; i++) {
 			playerRenderData[i] = null;
-			aClass536_Sub33Array1155[i] = null;
+			iconData[i] = null;
 			aByteArray1153[i] = Class680.aClass680_8639.aByte8644;
 			aClass43Array1162[i] = null;
 		}

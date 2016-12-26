@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class251 {
+public class InterfaceDefinitions {
 	public static final int anInt2532 = 2;
 	public static int anInt2533;
 	public int anInt2534;
@@ -25,7 +25,7 @@ public class Class251 {
 	public static final int anInt2550 = 5;
 	public int anInt2551;
 	public static Class199 aClass199_2552;
-	public Class251 aClass251_2553;
+	public InterfaceDefinitions aClass251_2553;
 	static Class199 aClass199_2554;
 	public Object[] anObjectArray2555;
 	public String aString2556;
@@ -197,8 +197,8 @@ public class Class251 {
 	public int[] anIntArray2722;
 	public int anInt2723;
 	public static boolean aBool2724;
-	public Class251[] aClass251Array2725;
-	public Class251[] aClass251Array2726;
+	public InterfaceDefinitions[] aClass251Array2725;
+	public InterfaceDefinitions[] aClass251Array2726;
 	public boolean aBool2727;
 	public int anInt2728;
 	public int anInt2729;
@@ -463,7 +463,7 @@ public class Class251 {
 		return is;
 	}
 
-	public Class251() {
+	public InterfaceDefinitions() {
 		anInt2546 = -724931107;
 		anInt2562 = 0;
 		aByte2563 = (byte) 0;

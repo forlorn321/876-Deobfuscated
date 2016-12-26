@@ -554,7 +554,7 @@ public class Class479 {
 
 	static final void method5823(Class668 class668, short i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_7_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_7_, -689214737);
 		Class151.method1852(class251, class668, 1418180668);
 	}
 

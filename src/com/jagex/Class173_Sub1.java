@@ -57,9 +57,9 @@ public class Class173_Sub1 extends Class173 {
 		return null;
 	}
 
-	static final void method8633(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method8633(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_9_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		if (Class251.anInt2617 * 10493011 == i_9_ || i_9_ == Class251.anInt2533 * -1139317763 || i_9_ == Class251.anInt2535 * -292337027 || 1087226469 * Class251.anInt2634 == i_9_)
+		if (InterfaceDefinitions.anInt2617 * 10493011 == i_9_ || i_9_ == InterfaceDefinitions.anInt2533 * -1139317763 || i_9_ == InterfaceDefinitions.anInt2535 * -292337027 || 1087226469 * InterfaceDefinitions.anInt2634 == i_9_)
 			class251.anInt2534 = i_9_ * 52080145;
 	}
 
@@ -71,7 +71,7 @@ public class Class173_Sub1 extends Class173 {
 		return (new Class690[] { Class690.aClass690_8695, Class690.aClass690_8698, Class690.aClass690_8696, Class690.aClass690_8694, Class690.aClass690_8693 });
 	}
 
-	static void method8636(Class251 class251, int i, int i_11_, short i_12_) {
+	static void method8636(InterfaceDefinitions class251, int i, int i_11_, short i_12_) {
 		if (class251.aByte2563 == 0)
 			class251.anInt2571 = 1462897253 * class251.anInt2567;
 		else if (class251.aByte2563 == 1)

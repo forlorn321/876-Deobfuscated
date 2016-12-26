@@ -713,7 +713,7 @@ public class Class248 implements Interface13 {
 		return i_58_;
 	}
 
-	static final void method3446(Class251 class251, Class234 class234, Class668 class668, short i) {
+	static final void method3446(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
 		class251.anInt2636 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1355450591;
 		Class668.method8011(class251, 263642117);
 		if (-809980533 * class251.anInt2546 == -1 && !class234.aBool2379)

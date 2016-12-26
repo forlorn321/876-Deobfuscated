@@ -91,7 +91,7 @@ public class Class359 {
 		}
 	}
 
-	static final void method4724(Class251 class251, Class668 class668, int i) {
+	static final void method4724(InterfaceDefinitions class251, Class668 class668, int i) {
 		int i_12_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_13_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (1939619399 * class251.anInt2601 != 6)

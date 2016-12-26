@@ -38,7 +38,7 @@ public class Class198 {
 		aClass198_2215 = new Class198();
 	}
 
-	static final void method2872(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method2872(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 61855783;
 		class251.anInt2640 = -70230299 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
 		class251.anInt2641 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] * -358806889);
@@ -46,7 +46,7 @@ public class Class198 {
 		Class668.method8011(class251, 263642117);
 	}
 
-	static final void method2873(Class251 class251, Class234 class234, Class668 class668, Class233 class233, byte i) {
+	static final void method2873(InterfaceDefinitions class251, Class234 class234, Class668 class668, Class233 class233, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		switch (class233.anInt2375 * -1515262187) {
 		case 3:

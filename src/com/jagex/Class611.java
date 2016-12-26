@@ -52,7 +52,7 @@ public class Class611 implements Interface75 {
 			int i_2_ = (class649_sub1_sub5_sub1.anIntArray11913[class680.method8070(-180980128)]);
 			if (i_2_ != class649_sub1_sub5_sub1.aClass688_11925.method8120((byte) 100)) {
 				class649_sub1_sub5_sub1.aClass688_11925.method8123(i_2_, class649_sub1_sub5_sub1.aClass688_11925.method8129(-911524879), 147330925);
-				class649_sub1_sub5_sub1.anInt11948 = class649_sub1_sub5_sub1.anInt11957 * 1389534931;
+				class649_sub1_sub5_sub1.anInt11948 = class649_sub1_sub5_sub1.stepsCount * 1389534931;
 			}
 		}
 	}

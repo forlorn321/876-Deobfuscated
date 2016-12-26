@@ -109,7 +109,7 @@ public class Class710_Sub6 extends Class710 {
 		int i_2_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_3_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
 		int i_4_ = class668.anIntArray8541[2 + 1867269829 * class668.anInt8542];
-		Class251 class251 = Class264.method3678(i_4_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_4_, -689214737);
 		Class569.method6924(class251, i_2_, i_3_, -345315736);
 	}
 }

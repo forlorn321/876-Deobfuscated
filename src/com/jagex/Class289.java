@@ -67,7 +67,7 @@ public class Class289 {
 
 	static final void method3920(Class668 class668, byte i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		if (Class360_Sub1.aClass94Array10168 != null && i_6_ < -918987073 * Class269.anInt2880 && (Class360_Sub1.aClass94Array10168[i_6_].aString1146.equalsIgnoreCase(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184)))
+		if (Class360_Sub1.aClass94Array10168 != null && i_6_ < -918987073 * Class269.anInt2880 && (Class360_Sub1.aClass94Array10168[i_6_].aString1146.equalsIgnoreCase(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username)))
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1;
 		else
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;

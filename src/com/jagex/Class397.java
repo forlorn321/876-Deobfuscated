@@ -11,7 +11,7 @@ public class Class397 implements Interface48 {
 	Class199 aClass199_4112 = new Class199(64);
 	Class461 aClass461_4113;
 	public static Class461 aClass461_4114;
-	static Class251[] aClass251Array4115;
+	static InterfaceDefinitions[] aClass251Array4115;
 	static EventQueue anEventQueue4116;
 
 	public synchronized Class381 method339(int i) {

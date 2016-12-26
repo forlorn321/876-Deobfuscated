@@ -112,13 +112,13 @@ public class Class622 {
 
 	static final void method7418(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (1 == 1939619399 * class251.anInt2601 ? class251.anInt2602 * -2011124813 : -1);
 	}
 
 	static final void method7419(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class4.method572(class251, class234, class668, 2039348808);
 	}

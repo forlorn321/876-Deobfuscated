@@ -475,7 +475,7 @@ public class Class453 implements Interface75, Interface57 {
 		return (new Class694[] { Class694.aClass694_8728, Class694.aClass694_8727, Class694.aClass694_8729 });
 	}
 
-	static final void method5447(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method5447(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1309844315) != null)
 			string = string.substring(0, string.length() - 1);

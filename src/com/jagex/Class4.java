@@ -197,7 +197,7 @@ public final class Class4 implements Iterable {
 		client.aClass251_11199 = null;
 	}
 
-	static final void method572(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method572(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.anInt2601 = -1782707337;
 		class251.anInt2602 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1639447419;
 		Class668.method8011(class251, 263642117);

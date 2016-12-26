@@ -86,8 +86,8 @@ public class Class441 implements Interface5 {
 						class536_sub42.aClass251_10804 = client.aClass251_10992;
 						class536_sub42.anInt10803 = 1761425895 * i_2_;
 						class536_sub42.anInt10800 = -1275012151 * i_3_;
-						Class251 class251 = client.method10382(client.aClass251_10992);
-						Class251 class251_4_ = client.aClass251_11202;
+						InterfaceDefinitions class251 = client.method10382(client.aClass251_10992);
+						InterfaceDefinitions class251_4_ = client.aClass251_11202;
 						boolean bool = false;
 						for (/**/; (null != class251_4_ && -1 != class251_4_.anInt2577 * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].aClass251Array2378[(-1940204141 * class251_4_.anInt2577 & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_4_.anInt2559) {

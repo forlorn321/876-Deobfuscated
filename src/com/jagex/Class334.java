@@ -22,7 +22,7 @@ public class Class334 {
 
 	static final void method4367(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anInt8542 -= 1472892954;
 		int i_4_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_5_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];

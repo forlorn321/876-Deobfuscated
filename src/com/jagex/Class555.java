@@ -407,7 +407,7 @@ public class Class555 {
 
 	static final void method6804(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		int i_69_ = -1;
 		int i_70_ = -1;
 		Class244 class244 = class251.method3478(Class677.aClass167_8609, -385731150);

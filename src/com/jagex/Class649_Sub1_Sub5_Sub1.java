@@ -61,8 +61,8 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	public int[] anIntArray11941;
 	public Class62 aClass62_11942;
 	public int anInt11943;
-	public int[] anIntArray11944;
-	public int[] anIntArray11945;
+	public int[] screenX;
+	public int[] screenY;
 	public byte[] aByteArray11946;
 	public Class688_Sub2_Sub1[] aClass688_Sub2_Sub1Array11947;
 	public int anInt11948;
@@ -74,7 +74,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	int anInt11954;
 	Class234 aClass234_11955;
 	int anInt11956;
-	public int anInt11957;
+	public int stepsCount;
 	public byte aByte11958;
 
 	public abstract int method10864();
@@ -137,11 +137,11 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		return i_1_;
 	}
 
-	public void method10867(int i, int i_2_) {
+	public void method10867(int direction) {
 		Class589 class589 = method10877(1070297526);
 		if (-272071129 * class589.anInt7784 != 0 || 758944217 * anInt11938 != 0) {
 			aClass62_11940.method1049((byte) 2);
-			int i_3_ = i - 897724319 * aClass62_11940.anInt700 & 0x3fff;
+			int i_3_ = direction - 897724319 * aClass62_11940.anInt700 & 0x3fff;
 			if (i_3_ > 8192)
 				anInt11939 = 383832397 * (aClass62_11940.anInt700 * 897724319 - (16384 - i_3_));
 			else
@@ -207,7 +207,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public final void method10870(int i) {
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 	}
 
@@ -639,7 +639,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public final void method10894() {
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 	}
 
@@ -665,7 +665,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public final void method10896() {
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 	}
 
@@ -751,7 +751,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public final void method10901() {
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 	}
 
@@ -857,7 +857,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		aClass62_11940 = new Class62();
 		aClass62_11902 = new Class62();
 		aClass62_11942 = new Class62();
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11915 = 0;
 		anInt11948 = 0;
 		anInt11949 = 0;
@@ -866,8 +866,8 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		anInt11956 = 1314772775;
 		anInt11887 = -78064861;
 		anInterface19_11888 = new Class527(this);
-		anIntArray11944 = new int[i];
-		anIntArray11945 = new int[i];
+		screenX = new int[i];
+		screenY = new int[i];
 		aByteArray11946 = new byte[i];
 		aClass177Array11953 = new Class177[6];
 		aClass500Array11901 = new Class500[5];

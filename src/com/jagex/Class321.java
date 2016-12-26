@@ -210,7 +210,7 @@ public class Class321 implements Interface33 {
 							}
 						}
 					}
-					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184), Class302.aClass74_3406, (byte) -78).equals(string_45_))
+					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), Class302.aClass74_3406, (byte) -78).equals(string_45_))
 						Class173_Sub1.method8634(4, (Class38.aClass38_455.method840(Class459.aClass664_5178, 1615698386)), 263075062);
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);

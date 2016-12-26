@@ -69,9 +69,9 @@ public class Class39 implements Interface13, Interface7 {
 					anObjectArray489[i_6_] = new Integer(class536_sub33.readInt());
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 58), class536_sub33.readUnsignedSmart(-501017840), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 58), class536_sub33.readUnsignedSmart(), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 31), class536_sub33.readUnsignedSmart(-747636635), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 31), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	void method850(int i) {
@@ -225,9 +225,9 @@ public class Class39 implements Interface13, Interface7 {
 					anObjectArray489[i_18_] = new Integer(class536_sub33.readInt());
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 63), class536_sub33.readUnsignedSmart(2073343256), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 63), class536_sub33.readUnsignedSmart(), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 65), class536_sub33.readUnsignedSmart(917064884), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 65), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	void method857(RSByteBuffer class536_sub33, int i) {
@@ -265,9 +265,9 @@ public class Class39 implements Interface13, Interface7 {
 					anObjectArray489[i_23_] = new Integer(class536_sub33.readInt());
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.readUnsignedSmart(842834334), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 101), class536_sub33.readUnsignedSmart(), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 84), class536_sub33.readUnsignedSmart(1671981577), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 84), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	public int method858(int i) {
@@ -327,9 +327,9 @@ public class Class39 implements Interface13, Interface7 {
 					anObjectArray489[i_28_] = new Integer(class536_sub33.readInt());
 			}
 		} else if (i == 101)
-			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 2), class536_sub33.readUnsignedSmart(132054215), 1858049507));
+			aClass453_482 = ((Class453) Class682.method8091(Class453.method5438((byte) 2), class536_sub33.readUnsignedSmart(), 1858049507));
 		else if (102 == i)
-			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(333829475), 1858049507));
+			aClass453_483 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	public int method862() {
@@ -474,7 +474,7 @@ public class Class39 implements Interface13, Interface7 {
 		}
 	}
 
-	static final void method866(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method866(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
 		if (bool != class251.aBool2578) {
 			class251.aBool2578 = bool;
@@ -486,7 +486,7 @@ public class Class39 implements Interface13, Interface7 {
 
 	static final void method867(Class668 class668, int i) {
 		int i_32_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_32_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_32_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_32_ >> 16];
 		Class349.method4593(class251, class234, class668, 906910120);
 	}

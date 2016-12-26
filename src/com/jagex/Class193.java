@@ -67,23 +67,23 @@ public class Class193 {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			for (int i_1_ = 0; i_1_ < i_0_; i_1_++)
 				aClass708_2181.method8335(new Class536_Sub27(class536_sub33), 455245122);
-			int i_2_ = class536_sub33.readUnsignedSmart(71942457);
+			int i_2_ = class536_sub33.readUnsignedSmart();
 			aClass202Array2190 = new Class202[i_2_];
 			for (int i_3_ = 0; i_3_ < i_2_; i_3_++)
 				aClass202Array2190[i_3_] = new Class202(class536_sub33);
-			int i_4_ = class536_sub33.readUnsignedSmart(1455946584);
+			int i_4_ = class536_sub33.readUnsignedSmart();
 			aClass189Array2180 = new Class189[i_4_];
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++)
 				aClass189Array2180[i_5_] = new Class189(class536_sub33, i_5_);
-			int i_6_ = class536_sub33.readUnsignedSmart(1659149457);
+			int i_6_ = class536_sub33.readUnsignedSmart();
 			aClass190Array2179 = new Class190[i_6_];
 			for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
 				aClass190Array2179[i_7_] = new Class190(class536_sub33);
-			int i_8_ = class536_sub33.readUnsignedSmart(1747228922);
+			int i_8_ = class536_sub33.readUnsignedSmart();
 			aClass204Array2182 = new Class204[i_8_];
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++)
 				aClass204Array2182[i_9_] = new Class204(class536_sub33);
-			int i_10_ = class536_sub33.readUnsignedSmart(1201716453);
+			int i_10_ = class536_sub33.readUnsignedSmart();
 			aClass205Array2183 = new Class205[i_10_];
 			for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 				aClass205Array2183[i_11_] = Class40.method872(class536_sub33, 709064757);
@@ -198,7 +198,7 @@ public class Class193 {
 
 	static final void method2850(Class668 class668, short i) {
 		int i_15_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_15_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_15_, -689214737);
 		int i_16_ = -1;
 		int i_17_ = -1;
 		Class244 class244 = class251.method3478(Class677.aClass167_8609, 862187860);
@@ -212,7 +212,7 @@ public class Class193 {
 
 	static final void method2851(Class668 class668, int i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_18_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_18_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
 		Class648.method7829(class251, class234, class668, -1285360642);
 	}

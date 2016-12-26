@@ -141,7 +141,7 @@ public class Class621 {
 		Class273.method3730(4, i_3_, i_4_, "", -2125303094);
 	}
 
-	static final void method7410(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method7410(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 123711566;
 		class251.anInt2658 = 39819219 * (class668.anIntArray8541[1867269829 * class668.anInt8542]);
 		class251.anInt2606 = (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829] * 679538459);

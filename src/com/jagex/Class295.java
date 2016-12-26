@@ -102,7 +102,7 @@ public class Class295 {
 		}
 	}
 
-	static final void method3978(Class251 class251, Class668 class668, byte i) {
+	static final void method3978(InterfaceDefinitions class251, Class668 class668, byte i) {
 		Class2 class2 = class251.method3470(Class196.aClass410_2202, client.anInterface51_11196, (byte) -35);
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);

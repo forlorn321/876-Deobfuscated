@@ -70,7 +70,7 @@ public abstract class Class603 {
 
 	static final void method7197(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class390.method4856(class251, class234, true, 2, class668, (byte) -119);
 	}
@@ -81,7 +81,7 @@ public abstract class Class603 {
 
 	static final void method7199(Class668 class668, short i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -632476725 * class251.anInt2613;
 	}
 
@@ -96,7 +96,7 @@ public abstract class Class603 {
 				i_5_ -= 2000;
 			Class598 class598 = client.aClass515_11066.method6255(-1657129067);
 			if (i_5_ == 58) {
-				Class251 class251 = Class527.method6429(i_4_, i_3_, (byte) -48);
+				InterfaceDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -48);
 				if (null != class251)
 					Class709.method8345(class251, -1616387282);
 			}
@@ -142,7 +142,7 @@ public abstract class Class603 {
 				Class205_Sub17.method9089(i_3_, i_4_, (byte) 12);
 			}
 			if (25 == i_5_) {
-				Class251 class251 = Class527.method6429(i_4_, i_3_, (byte) -106);
+				InterfaceDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -106);
 				if (null != class251) {
 					Class270.method3717(-1541208997);
 					Class536_Sub14 class536_sub14 = client.method10389(class251);
@@ -213,7 +213,7 @@ public abstract class Class603 {
 						class536_sub23.aClass536_Sub33_Sub2_10528.method9753(Class569.method6925(-1088640839) ? 1 : 0, -950100578);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_6_, -1778059594);
 						client.aClass106_11322.method1409(class536_sub23, 129046789);
-						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub1.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub1.anIntArray11945[0]), (byte) -9);
+						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub1.screenX[0]), (class649_sub1_sub5_sub1_sub1.screenY[0]), (byte) -9);
 					}
 				}
 				OutgoingPacket class414_7_ = null;
@@ -257,7 +257,7 @@ public abstract class Class603 {
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(1625551467 * Class663.anInt8515, (byte) 33);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(-1059472497 * client.anInt11183, -1778059594);
 						client.aClass106_11322.method1409(class536_sub23, 841640081);
-						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub1.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub1.anIntArray11945[0]), (byte) 44);
+						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub1.screenX[0]), (class649_sub1_sub5_sub1_sub1.screenY[0]), (byte) 44);
 					}
 				}
 				OutgoingPacket class414_8_ = null;
@@ -318,7 +318,7 @@ public abstract class Class603 {
 						class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(i_6_, -1952316498);
 						class536_sub23.aClass536_Sub33_Sub2_10528.method9728(Class569.method6925(494587416) ? 1 : 0, (byte) 81);
 						client.aClass106_11322.method1409(class536_sub23, 2095676703);
-						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub2.anIntArray11945[0]), (byte) 46);
+						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.screenX[0]), (class649_sub1_sub5_sub1_sub2.screenY[0]), (byte) 46);
 					}
 				}
 				if (i_5_ == 1008 || 1009 == i_5_ || i_5_ == 1010 || i_5_ == 1011 || 1012 == i_5_)
@@ -337,7 +337,7 @@ public abstract class Class603 {
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i_6_, -1411037171);
 						class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(client.anInt11183 * -1059472497, -1411037171);
 						client.aClass106_11322.method1409(class536_sub23, 641177125);
-						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub2.anIntArray11945[0]), (byte) -65);
+						Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.screenX[0]), (class649_sub1_sub5_sub1_sub2.screenY[0]), (byte) -65);
 					}
 				}
 				if (i_5_ == 2) {

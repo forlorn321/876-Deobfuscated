@@ -46,7 +46,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int readUnsignedSmart(int i) {
+	public int readUnsignedSmart() {
 		int i_5_ = buffer[off * -810172525] & 0xff;
 		if (i_5_ < 128)
 			return readUnsignedByte();
@@ -275,7 +275,7 @@ public class RSByteBuffer extends Class536 {
 	public int readSmart(int i) {
 		int i_35_ = 0;
 		int i_36_;
-		for (i_36_ = readUnsignedSmart(-219704208); 32767 == i_36_; i_36_ = readUnsignedSmart(2038838021))
+		for (i_36_ = readUnsignedSmart(); 32767 == i_36_; i_36_ = readUnsignedSmart())
 			i_35_ += 32767;
 		i_35_ += i_36_;
 		return i_35_;
@@ -402,7 +402,7 @@ public class RSByteBuffer extends Class536 {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) i;
 	}
 
-	public int readUnsignedByteC(int i) {
+	public int readUnsignedByteC() {
 		return (0 - buffer[(off += 516175515) * -810172525 - 1] & 0xff);
 	}
 
@@ -410,7 +410,7 @@ public class RSByteBuffer extends Class536 {
 		return ((128 - buffer[(off += 516175515) * -810172525 - 1]) & 0xff);
 	}
 
-	public byte readByte128(int i) {
+	public byte readByte128() {
 		return (byte) ((buffer[(off += 516175515) * -810172525 - 1]) - 128);
 	}
 
@@ -506,7 +506,7 @@ public class RSByteBuffer extends Class536 {
 		return (byte) (128 - (buffer[(off += 516175515) * -810172525 - 1]));
 	}
 
-	public int readIntV2(byte i) {
+	public int readIntV2() {
 		off += 2064702060;
 		return (((buffer[off * -810172525 - 1] & 0xff) << 8) + (((buffer[-810172525 * off - 3] & 0xff) << 24) + ((buffer[off * -810172525 - 4] & 0xff) << 16)) + (buffer[-810172525 * off - 2] & 0xff));
 	}
@@ -616,7 +616,7 @@ public class RSByteBuffer extends Class536 {
 		return buffer[(off += 516175515) * -810172525 - 1];
 	}
 
-	public void method9780(byte[] is, int i, int i_99_, int i_100_) {
+	public void readBytesReverse128(byte[] is, int i, int i_99_, int i_100_) {
 		for (int i_101_ = i + i_99_ - 1; i_101_ >= i; i_101_--)
 			is[i_101_] = (byte) ((buffer[(off += 516175515) * -810172525 - 1]) - 128);
 	}

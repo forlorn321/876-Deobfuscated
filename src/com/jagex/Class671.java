@@ -92,7 +92,7 @@ public class Class671 {
 		Class79.method1160(class649_sub1, i, true, bool, 1752754976);
 	}
 
-	static void method8018(Class251 class251, Class244 class244, int i, int i_6_, int i_7_, int i_8_, int i_9_, long l) {
+	static void method8018(InterfaceDefinitions class251, Class244 class244, int i, int i_6_, int i_7_, int i_8_, int i_9_, long l) {
 		int i_10_ = i_8_ * i_8_ + i_7_ * i_7_;
 		if ((long) i_10_ <= l) {
 			int i_11_;
@@ -152,11 +152,11 @@ public class Class671 {
 		if (!Class452.aClass461_4953.method5560(i, 706825872))
 			return null;
 		int i_31_ = Class452.aClass461_4953.method5566(i, -371222524);
-		Class251[] class251s;
+		InterfaceDefinitions[] class251s;
 		if (i_31_ == 0)
-			class251s = new Class251[0];
+			class251s = new InterfaceDefinitions[0];
 		else if (class234 == null)
-			class251s = new Class251[i_31_];
+			class251s = new InterfaceDefinitions[i_31_];
 		else
 			class251s = class234.aClass251Array2378;
 		if (null == class234)
@@ -169,7 +169,7 @@ public class Class671 {
 			if (null == class234.aClass251Array2378[i_32_]) {
 				byte[] is_33_ = Class452.aClass461_4953.method5557(i, i_32_, is, 591884610);
 				if (null != is_33_) {
-					Class251 class251 = class234.aClass251Array2378[i_32_] = new Class251();
+					InterfaceDefinitions class251 = class234.aClass251Array2378[i_32_] = new InterfaceDefinitions();
 					class251.anInt2559 = 1002674859 * ((i << 16) + i_32_);
 					class251.method3466(new RSByteBuffer(is_33_), (byte) -88);
 				}

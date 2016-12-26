@@ -60,7 +60,7 @@ final class Class629 implements Interface74 {
 
 	static final void method7498(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -712740187 * class251.anInt2572;
 	}
 

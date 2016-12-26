@@ -92,8 +92,8 @@ public class Class105 {
 				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
 				Class214.method3077(new StringBuilder().append("").append(client.aClass515_11066.method6249(-799906230).aClass160Array7431[(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)].method1927((int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9, -404152619)).toString(), -1964260445);
 			} else if (i == 1) {
-				Class214.method3077(new StringBuilder().append(Class251.aClass199_2552.method2885(-182950659)).append(" ").append(Class251.aClass199_2552.method2891(453221733)).toString(), -1531632453);
-				Class214.method3077(new StringBuilder().append(Class251.aClass199_2694.method2885(932762102)).append(" ").append(Class251.aClass199_2694.method2891(453221733)).toString(), -322935023);
+				Class214.method3077(new StringBuilder().append(InterfaceDefinitions.aClass199_2552.method2885(-182950659)).append(" ").append(InterfaceDefinitions.aClass199_2552.method2891(453221733)).toString(), -1531632453);
+				Class214.method3077(new StringBuilder().append(InterfaceDefinitions.aClass199_2694.method2885(932762102)).append(" ").append(InterfaceDefinitions.aClass199_2694.method2891(453221733)).toString(), -322935023);
 			} else if (4 == i)
 				Class558.method6817(false, -1259622727);
 			else if (20 == i) {
@@ -552,8 +552,8 @@ public class Class105 {
 				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
 				Class214.method3077(new StringBuilder().append("").append(client.aClass515_11066.method6249(-1531647082).aClass160Array7431[(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)].method1927((int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9, 1753127527)).toString(), -688139986);
 			} else if (i == 1) {
-				Class214.method3077(new StringBuilder().append(Class251.aClass199_2552.method2885(713440655)).append(" ").append(Class251.aClass199_2552.method2891(453221733)).toString(), -1256824608);
-				Class214.method3077(new StringBuilder().append(Class251.aClass199_2694.method2885(-1569826992)).append(" ").append(Class251.aClass199_2694.method2891(453221733)).toString(), -1940482658);
+				Class214.method3077(new StringBuilder().append(InterfaceDefinitions.aClass199_2552.method2885(713440655)).append(" ").append(InterfaceDefinitions.aClass199_2552.method2891(453221733)).toString(), -1256824608);
+				Class214.method3077(new StringBuilder().append(InterfaceDefinitions.aClass199_2694.method2885(-1569826992)).append(" ").append(InterfaceDefinitions.aClass199_2694.method2891(453221733)).toString(), -1940482658);
 			} else if (4 == i)
 				Class558.method6817(false, -363146685);
 			else if (20 == i) {

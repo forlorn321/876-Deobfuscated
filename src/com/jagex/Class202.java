@@ -43,7 +43,7 @@ public class Class202 {
 	}
 
 	Class202(RSByteBuffer class536_sub33) {
-		int i = class536_sub33.readUnsignedSmart(1482228482);
+		int i = class536_sub33.readUnsignedSmart();
 		anIntArray2229 = new int[i];
 		anIntArray2224 = new int[i];
 		anIntArray2228 = new int[i];
@@ -64,7 +64,7 @@ public class Class202 {
 
 	static final void method2923(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class233.method3330(class251, class234, class668, 1391807040);
 	}
@@ -96,7 +96,7 @@ public class Class202 {
 
 	static final void method2926(Class668 class668, byte i) {
 		int i_12_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_12_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_12_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_12_ >> 16];
 		Class478.method5758(class251, class234, class668, 271704767);
 	}

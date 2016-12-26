@@ -30,12 +30,12 @@ public class Class241 implements Interface26 {
 
 	static final void method3384(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class520.method6351(class251, class234, class668, 2019922746);
 	}
 
-	static final void method3385(Class251 class251, Class668 class668, byte i) {
+	static final void method3385(InterfaceDefinitions class251, Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		int i_2_ = i_1_;
@@ -58,7 +58,7 @@ public class Class241 implements Interface26 {
 
 	static final void method3386(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_3_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2577 * -1940204141;
 	}
 

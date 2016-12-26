@@ -332,7 +332,7 @@ public class Class515 {
 	void decodeMapScene(RSBitBuffer stream, byte i) {
 		int chunkY = stream.readUnsignedShortLE();
 		int chunkX = stream.readUnsignedShort128();
-		int mapType = stream.readUnsignedByteC(2051369115);
+		int mapType = stream.readUnsignedByteC();
 		boolean refresh = stream.readUnsignedByte() == 1;
 		int size = stream.readUnsigned128Byte();
 		int unknown = stream.readUnsigned128Byte();
@@ -469,9 +469,9 @@ public class Class515 {
 				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_73_];
 				if (null != class536_sub13) {
 					Class649_Sub1_Sub5_Sub1_Sub1 class649_sub1_sub5_sub1_sub1 = ((Class649_Sub1_Sub5_Sub1_Sub1) class536_sub13.anObject10468);
-					for (int i_74_ = 0; i_74_ < (class649_sub1_sub5_sub1_sub1.anIntArray11944).length; i_74_++) {
-						class649_sub1_sub5_sub1_sub1.anIntArray11944[i_74_] -= i_71_;
-						class649_sub1_sub5_sub1_sub1.anIntArray11945[i_74_] -= i_72_;
+					for (int i_74_ = 0; i_74_ < (class649_sub1_sub5_sub1_sub1.screenX).length; i_74_++) {
+						class649_sub1_sub5_sub1_sub1.screenX[i_74_] -= i_71_;
+						class649_sub1_sub5_sub1_sub1.screenY[i_74_] -= i_72_;
 					}
 					Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 					class436.aFloat4850 -= (float) (512 * i_71_);
@@ -499,10 +499,10 @@ public class Class515 {
 						bool = true;
 					} else {
 						boolean bool_78_ = true;
-						for (int i_79_ = 0; i_79_ < (class649_sub1_sub5_sub1_sub1.anIntArray11944).length; i_79_++) {
-							class649_sub1_sub5_sub1_sub1.anIntArray11944[i_79_] -= i_71_;
-							class649_sub1_sub5_sub1_sub1.anIntArray11945[i_79_] -= i_72_;
-							if ((class649_sub1_sub5_sub1_sub1.anIntArray11944[i_79_]) < 0 || ((class649_sub1_sub5_sub1_sub1.anIntArray11944[i_79_]) >= -324388659 * anInt7030) || (class649_sub1_sub5_sub1_sub1.anIntArray11945[i_79_]) < 0 || ((class649_sub1_sub5_sub1_sub1.anIntArray11945[i_79_]) >= -1001036419 * anInt7011))
+						for (int i_79_ = 0; i_79_ < (class649_sub1_sub5_sub1_sub1.screenX).length; i_79_++) {
+							class649_sub1_sub5_sub1_sub1.screenX[i_79_] -= i_71_;
+							class649_sub1_sub5_sub1_sub1.screenY[i_79_] -= i_72_;
+							if ((class649_sub1_sub5_sub1_sub1.screenX[i_79_]) < 0 || ((class649_sub1_sub5_sub1_sub1.screenX[i_79_]) >= -324388659 * anInt7030) || (class649_sub1_sub5_sub1_sub1.screenY[i_79_]) < 0 || ((class649_sub1_sub5_sub1_sub1.screenY[i_79_]) >= -1001036419 * anInt7011))
 								bool_78_ = false;
 						}
 						if (bool_78_)
@@ -529,9 +529,9 @@ public class Class515 {
 		for (int i_81_ = 0; i_81_ < 2048; i_81_++) {
 			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_81_];
 			if (null != class649_sub1_sub5_sub1_sub2) {
-				for (int i_82_ = 0; (i_82_ < class649_sub1_sub5_sub1_sub2.anIntArray11944.length); i_82_++) {
-					class649_sub1_sub5_sub1_sub2.anIntArray11944[i_82_] -= i_71_;
-					class649_sub1_sub5_sub1_sub2.anIntArray11945[i_82_] -= i_72_;
+				for (int i_82_ = 0; (i_82_ < class649_sub1_sub5_sub1_sub2.screenX.length); i_82_++) {
+					class649_sub1_sub5_sub1_sub2.screenX[i_82_] -= i_71_;
+					class649_sub1_sub5_sub1_sub2.screenY[i_82_] -= i_72_;
 				}
 				Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 				class436.aFloat4850 -= (float) (i_71_ * 512);

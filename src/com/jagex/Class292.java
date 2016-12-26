@@ -344,7 +344,7 @@ public class Class292 implements Runnable {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -673647059 * class536_sub18_sub14.anInt11765;
 	}
 
-	static final void method3968(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method3968(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1996770834) != null)
 			string = string.substring(0, string.length() - 1);

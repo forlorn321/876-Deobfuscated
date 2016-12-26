@@ -58,12 +58,12 @@ public class Class668 {
 
 	static final void method8006(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class248.method3446(class251, class234, class668, (short) -17560);
 	}
 
-	static final void method8007(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method8007(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1938074119) != null)
 			string = string.substring(0, string.length() - 1);
@@ -77,7 +77,7 @@ public class Class668 {
 
 	static final void method8009(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		if (-1484799213 * class251.anInt2711 != -1)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2712 * -1880327077;
 		else
@@ -86,12 +86,12 @@ public class Class668 {
 
 	public static void method8010(int i, int[] is, int i_2_) {
 		if (i != -1 && Class644.method7794(i, is, 1454645175)) {
-			Class251[] class251s = Class463.aClass234Array5227[i].aClass251Array2378;
+			InterfaceDefinitions[] class251s = Class463.aClass234Array5227[i].aClass251Array2378;
 			Class609.method7262(class251s, (byte) 1);
 		}
 	}
 
-	public static void method8011(Class251 class251, int i) {
+	public static void method8011(InterfaceDefinitions class251, int i) {
 		if (client.anInt11246 * 2858739 == class251.anInt2627 * -677533051)
 			client.aBoolArray11240[class251.anInt2736 * 1139436581] = true;
 	}

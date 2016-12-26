@@ -145,9 +145,9 @@ public class Class56 implements Interface13 {
 		return aClass76_606.aClass461_820.method5580(1861642937 * anInt604, -964514165);
 	}
 
-	static final void method964(Class251[] class251s, int i, int i_16_) {
+	static final void method964(InterfaceDefinitions[] class251s, int i, int i_16_) {
 		for (int i_17_ = 0; i_17_ < class251s.length; i_17_++) {
-			Class251 class251 = class251s[i_17_];
+			InterfaceDefinitions class251 = class251s[i_17_];
 			if (null != class251) {
 				if (class251.anInt2728 * 1049444347 == 0) {
 					if (class251.aClass251Array2726 != null)
@@ -164,7 +164,7 @@ public class Class56 implements Interface13 {
 				}
 				if (i == 1 && class251.anObjectArray2704 != null) {
 					if (class251.anInt2546 * -809980533 >= 0) {
-						Class251 class251_18_ = Class264.method3678((-1591767037 * class251.anInt2559), -689214737);
+						InterfaceDefinitions class251_18_ = Class264.method3678((-1591767037 * class251.anInt2559), -689214737);
 						if (class251_18_ == null || class251_18_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= class251_18_.aClass251Array2725.length) || class251 != (class251_18_.aClass251Array2725[-809980533 * class251.anInt2546]))
 							continue;
 					}

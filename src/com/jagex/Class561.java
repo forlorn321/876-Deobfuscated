@@ -393,7 +393,7 @@ public class Class561 implements Runnable {
 		int i_22_ = i & 0xffff;
 		if (Class463.aClass234Array5227[i_21_] == null || null == (Class463.aClass234Array5227[i_21_].aClass251Array2378[i_22_]))
 			return false;
-		Class251 class251 = Class463.aClass234Array5227[i_21_].aClass251Array2378[i_22_];
+		InterfaceDefinitions class251 = Class463.aClass234Array5227[i_21_].aClass251Array2378[i_22_];
 		if (-1 != i_19_ || 1049444347 * class251.anInt2728 != 0) {
 			for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8308(1867269829)); null != class536_sub18_sub9; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8311(2066620276))) {
 				if (i_19_ == 1841718011 * class536_sub18_sub9.anInt11713 && (class251.anInt2559 * -1591767037 == -712698209 * class536_sub18_sub9.anInt11708) && (class536_sub18_sub9.anInt11718 * -517484763 == 58 || class536_sub18_sub9.anInt11718 * -517484763 == 1007 || 25 == -517484763 * class536_sub18_sub9.anInt11718 || class536_sub18_sub9.anInt11718 * -517484763 == 57 || 30 == -517484763 * class536_sub18_sub9.anInt11718))
@@ -402,7 +402,7 @@ public class Class561 implements Runnable {
 		} else {
 			for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8308(1867269829)); class536_sub18_sub9 != null; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8311(947232452))) {
 				if (58 == -517484763 * class536_sub18_sub9.anInt11718 || 1007 == class536_sub18_sub9.anInt11718 * -517484763 || 25 == -517484763 * class536_sub18_sub9.anInt11718 || -517484763 * class536_sub18_sub9.anInt11718 == 57 || -517484763 * class536_sub18_sub9.anInt11718 == 30) {
-					for (Class251 class251_23_ = Class264.method3678((class536_sub18_sub9.anInt11708) * -712698209, -689214737); null != class251_23_; class251_23_ = Class648.method7834((Class463.aClass234Array5227[(class251_23_.anInt2559 * -1591767037) >> 16]), class251_23_, -16777216)) {
+					for (InterfaceDefinitions class251_23_ = Class264.method3678((class536_sub18_sub9.anInt11708) * -712698209, -689214737); null != class251_23_; class251_23_ = Class648.method7834((Class463.aClass234Array5227[(class251_23_.anInt2559 * -1591767037) >> 16]), class251_23_, -16777216)) {
 						if (class251_23_.anInt2559 * -1591767037 == class251.anInt2559 * -1591767037)
 							return true;
 					}

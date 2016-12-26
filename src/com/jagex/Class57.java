@@ -74,16 +74,16 @@ public class Class57 {
 		int i_8_ = i_6_ >> 14 & 0x3fff;
 		int i_9_ = i_6_ & 0x3fff;
 		Class598 class598 = client.aClass515_11066.method6255(-1473271711);
-		class649_sub1_sub5_sub1_sub2.anIntArray11944[0] = i_8_ - class598.anInt7839 * 1858049507;
-		class649_sub1_sub5_sub1_sub2.anIntArray11945[0] = i_9_ - class598.anInt7840 * 1479112045;
-		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.anIntArray11944[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.anIntArray11945[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
+		class649_sub1_sub5_sub1_sub2.screenX[0] = i_8_ - class598.anInt7839 * 1858049507;
+		class649_sub1_sub5_sub1_sub2.screenY[0] = i_9_ - class598.anInt7840 * 1479112045;
+		class649_sub1_sub5_sub1_sub2.method7842((float) ((class649_sub1_sub5_sub1_sub2.screenX[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)), (class649_sub1_sub5_sub1_sub2.method7838().aClass436_4823.aFloat4852), (float) ((class649_sub1_sub5_sub1_sub2.screenY[0] << 9) + (class649_sub1_sub5_sub1_sub2.method10874() << 8)));
 		Class320.anInt3539 = (class649_sub1_sub5_sub1_sub2.aByte10839 = class649_sub1_sub5_sub1_sub2.aByte10840 = i_7_) * 1995486621;
-		if (client.aClass515_11066.method6251(24421713).method5466(class649_sub1_sub5_sub1_sub2.anIntArray11944[0], class649_sub1_sub5_sub1_sub2.anIntArray11945[0], (byte) -113))
+		if (client.aClass515_11066.method6251(24421713).method5466(class649_sub1_sub5_sub1_sub2.screenX[0], class649_sub1_sub5_sub1_sub2.screenY[0], (byte) -113))
 			class649_sub1_sub5_sub1_sub2.aByte10840++;
 		if (null != Class95.playerRenderData[i_5_])
 			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance((Class95.playerRenderData[i_5_]));
-		if (Class95.aClass536_Sub33Array1155[i_5_] != null)
-			class649_sub1_sub5_sub1_sub2.method11091((Class95.aClass536_Sub33Array1155[i_5_]), -174213418);
+		if (Class95.iconData[i_5_] != null)
+			class649_sub1_sub5_sub1_sub2.decodeIcons((Class95.iconData[i_5_]));
 		Class95.anInt1156 = 0;
 		Class95.anIntArray1157[((Class95.anInt1156 += 1948535215) * -1482773169 - 1)] = i_5_;
 		Class95.aByteArray1152[i_5_] = (byte) 0;

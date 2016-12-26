@@ -311,7 +311,7 @@ public class Class21 implements Interface3 {
 
 	static final void method709(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class254.method3538(class251, class668, -42084589);
 	}
 
@@ -324,7 +324,7 @@ public class Class21 implements Interface3 {
 		Class575.aClass143_7676 = null;
 	}
 
-	static final void method712(Class251 class251, Class234 class234, Class668 class668, byte i) {
+	static final void method712(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.aBool2642 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}

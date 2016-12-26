@@ -28,7 +28,7 @@ public class Class73 implements Interface13, Interface7 {
 		else if (5 == i)
 			aString805 = class536_sub33.readString();
 		else if (i == 101)
-			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(-74667204), 1858049507));
+			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 42), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	public boolean method1128(byte i) {
@@ -84,7 +84,7 @@ public class Class73 implements Interface13, Interface7 {
 		else if (5 == i)
 			aString805 = class536_sub33.readString();
 		else if (i == 101)
-			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 89), class536_sub33.readUnsignedSmart(-239843930), 1858049507));
+			aClass453_804 = ((Class453) Class682.method8091(Class453.method5438((byte) 89), class536_sub33.readUnsignedSmart(), 1858049507));
 	}
 
 	public boolean method1130() {
@@ -95,7 +95,7 @@ public class Class73 implements Interface13, Interface7 {
 		return Class453.aClass453_5084 == aClass453_804;
 	}
 
-	static int method1132(Class251 class251, int i, int i_3_) {
+	static int method1132(InterfaceDefinitions class251, int i, int i_3_) {
 		if (!client.method10389(class251).method9472(i, -1495350477) && class251.anObjectArray2705 == null)
 			return -1;
 		return ((null != class251.anIntArray2668 && class251.anIntArray2668.length > i) ? class251.anIntArray2668[i] : -1);

@@ -47,12 +47,12 @@ public class Class484 {
 
 	static final void method5844(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class613.method7318(class251, class234, class668, -1219398736);
 	}
 
-	static final void method5845(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method5845(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1176109845) != null)
 			string = string.substring(0, string.length() - 1);
@@ -77,7 +77,7 @@ public class Class484 {
 
 	static final void method5849(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class400.method4918(class251, class234, class668, 428426270);
 	}

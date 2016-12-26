@@ -66,7 +66,7 @@ public abstract class Class206 implements Interface6 {
 
 	static final void method2958(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2585 * -1382035527;
 	}
 
@@ -87,8 +87,8 @@ public abstract class Class206 implements Interface6 {
 			class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
 			if (Class95.playerRenderData[i] != null)
 				class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(Class95.playerRenderData[i]);
-			if (Class95.aClass536_Sub33Array1155[i] != null)
-				class649_sub1_sub5_sub1_sub2.method11091(Class95.aClass536_Sub33Array1155[i], -180153836);
+			if (Class95.iconData[i] != null)
+				class649_sub1_sub5_sub1_sub2.decodeIcons(Class95.iconData[i]);
 			class649_sub1_sub5_sub1_sub2.method10893(class43.anInt511 * -1112850861, true, (byte) 9);
 			class649_sub1_sub5_sub1_sub2.anInt11911 = class43.anInt512 * -1856936561;
 			int i_8_ = class43.anInt514 * 566829387;
@@ -99,7 +99,7 @@ public abstract class Class206 implements Interface6 {
 			int i_12_ = (i_10_ << 6) + i_6_ - 1858049507 * class598.anInt7839;
 			int i_13_ = i_7_ + (i_11_ << 6) - class598.anInt7840 * 1479112045;
 			class649_sub1_sub5_sub1_sub2.aClass210_12200 = class43.aClass210_513;
-			class649_sub1_sub5_sub1_sub2.aBool12194 = class43.aBool510;
+			class649_sub1_sub5_sub1_sub2.isClanMember = class43.aBool510;
 			class649_sub1_sub5_sub1_sub2.aByteArray11946[0] = Class95.aByteArray1153[i];
 			class649_sub1_sub5_sub1_sub2.aByte10839 = class649_sub1_sub5_sub1_sub2.aByte10840 = (byte) i_9_;
 			if (client.aClass515_11066.method6251(-129558261).method5466(i_12_, i_13_, (byte) -90))

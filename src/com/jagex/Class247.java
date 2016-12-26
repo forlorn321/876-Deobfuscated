@@ -28,14 +28,14 @@ public abstract class Class247 implements Interface6 {
 
 	static final void method3420(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class34_Sub20.method10364(class251, class234, class668, -199754697);
 	}
 
 	static final void method3421(Class668 class668, byte i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class262.method3640(class251, class668, (byte) 9);
 	}
 
@@ -80,7 +80,7 @@ public abstract class Class247 implements Interface6 {
 
 	static final void method3426(Class668 class668, int i) {
 		int i_10_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_10_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_10_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_10_ >> 16];
 		Class562.method6865(class251, class234, class668, -1273765071);
 	}

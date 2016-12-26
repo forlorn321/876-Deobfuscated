@@ -127,7 +127,7 @@ public abstract class Class160 {
 
 	static final void method1957(Class668 class668, byte i) {
 		int i_157_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_157_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_157_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2636 * 2003514143;
 	}
 

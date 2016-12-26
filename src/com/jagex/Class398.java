@@ -46,7 +46,7 @@ public class Class398 implements Interface49 {
 
 	static final void method4900(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_3_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class208.method2969(class251, class234, class668, -1436471118);
 	}
@@ -80,7 +80,7 @@ public class Class398 implements Interface49 {
 		if (bool)
 			Class444.method5395(i_6_, -687424059);
 		Class574.method6947(i_6_, (byte) 91);
-		Class251 class251 = Class264.method3678(i_7_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_7_, -689214737);
 		if (class251 != null)
 			Class668.method8011(class251, 263642117);
 		Class690.method8187(i_6_, (byte) -67);

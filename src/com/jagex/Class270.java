@@ -51,7 +51,7 @@ public class Class270 implements Interface6 {
 
 	public static void method3717(int i) {
 		if (client.aBool11188) {
-			Class251 class251 = Class527.method6429(1625551467 * Class663.anInt8515, client.anInt11183 * -1059472497, (byte) -11);
+			InterfaceDefinitions class251 = Class527.method6429(1625551467 * Class663.anInt8515, client.anInt11183 * -1059472497, (byte) -11);
 			if (null != class251 && null != class251.anObjectArray2678) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;

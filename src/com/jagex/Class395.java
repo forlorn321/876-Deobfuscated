@@ -46,7 +46,7 @@ public class Class395 {
 		return 0;
 	}
 
-	static final void method4881(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method4881(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.anInt2720 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 483071525;
 		Class668.method8011(class251, 263642117);
 	}

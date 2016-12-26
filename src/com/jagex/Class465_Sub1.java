@@ -315,7 +315,7 @@ public class Class465_Sub1 extends Class465 {
 			i_75_ += i_76_;
 			int i_77_ = 0;
 			for (;;) {
-				int i_78_ = class536_sub33.readUnsignedSmart(1901383775);
+				int i_78_ = class536_sub33.readUnsignedSmart();
 				if (0 == i_78_)
 					break;
 				i_77_ += i_78_ - 1;
@@ -657,7 +657,7 @@ public class Class465_Sub1 extends Class465 {
 			i_161_ += i_162_;
 			int i_163_ = 0;
 			for (;;) {
-				int i_164_ = class536_sub33.readUnsignedSmart(1855240029);
+				int i_164_ = class536_sub33.readUnsignedSmart();
 				if (0 == i_164_)
 					break;
 				i_163_ += i_164_ - 1;

@@ -343,9 +343,9 @@ public class Class612 implements Interface13 {
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
 				if (170 == i)
-					anInt7931 = class536_sub33.readUnsignedSmart(-12442163) * -425448053;
+					anInt7931 = class536_sub33.readUnsignedSmart() * -425448053;
 				else if (i == 171)
-					anInt7950 = class536_sub33.readUnsignedSmart(-665547205) * 1420098721;
+					anInt7950 = class536_sub33.readUnsignedSmart() * 1420098721;
 				else if (173 == i) {
 					anInt8005 = (class536_sub33.readUnsignedShort() * -719122001);
 					anInt8006 = class536_sub33.readUnsignedShort() * 181075575;
@@ -1031,9 +1031,9 @@ public class Class612 implements Interface13 {
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
 				if (170 == i)
-					anInt7931 = class536_sub33.readUnsignedSmart(897832727) * -425448053;
+					anInt7931 = class536_sub33.readUnsignedSmart() * -425448053;
 				else if (i == 171)
-					anInt7950 = class536_sub33.readUnsignedSmart(782394961) * 1420098721;
+					anInt7950 = class536_sub33.readUnsignedSmart() * 1420098721;
 				else if (173 == i) {
 					anInt8005 = class536_sub33.readUnsignedShort() * -719122001;
 					anInt8006 = class536_sub33.readUnsignedShort() * 181075575;
@@ -1482,9 +1482,9 @@ public class Class612 implements Interface13 {
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
 				if (170 == i)
-					anInt7931 = class536_sub33.readUnsignedSmart(-250989434) * -425448053;
+					anInt7931 = class536_sub33.readUnsignedSmart() * -425448053;
 				else if (i == 171)
-					anInt7950 = class536_sub33.readUnsignedSmart(1901694777) * 1420098721;
+					anInt7950 = class536_sub33.readUnsignedSmart() * 1420098721;
 				else if (173 == i) {
 					anInt8005 = (class536_sub33.readUnsignedShort() * -719122001);
 					anInt8006 = class536_sub33.readUnsignedShort() * 181075575;
@@ -1583,7 +1583,7 @@ public class Class612 implements Interface13 {
 
 	static final void method7314(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class190.method2826(class251, class234, class668, -1238707415);
 	}

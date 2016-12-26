@@ -130,7 +130,7 @@ public class Class533 {
 		return class649_sub1_sub5_sub1;
 	}
 
-	static void method6467(Class251 class251, Class161 class161, int i, int i_17_, int i_18_, int i_19_, Class143 class143, byte i_20_) {
+	static void method6467(InterfaceDefinitions class251, Class161 class161, int i, int i_17_, int i_18_, int i_19_, Class143 class143, byte i_20_) {
 		Class656.method7946(class251, class161, i, i_17_, i_18_, i_19_, class143, 100.0, Class261.aClass261_2841, Class283.aClass283_3179, (byte) -1);
 	}
 }

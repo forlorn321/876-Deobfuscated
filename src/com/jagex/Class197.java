@@ -42,7 +42,7 @@ class Class197 implements Interface42 {
 		Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 		class649_sub1_sub5_sub1.method7842((float) ((i_4_ - (int) class436.aFloat4850) / i_3_ + (int) class436.aFloat4850), (float) ((int) class436.aFloat4852 + (i_6_ - (int) class436.aFloat4852) / i_3_), (float) ((i_5_ - (int) class436.aFloat4853) / i_3_ + (int) class436.aFloat4853));
 		class649_sub1_sub5_sub1.anInt11915 = 0;
-		class649_sub1_sub5_sub1.method10867((class649_sub1_sub5_sub1.anInt11952 * 308541641), -1687410560);
+		class649_sub1_sub5_sub1.method10867((class649_sub1_sub5_sub1.anInt11952 * 308541641));
 	}
 
 	static final void method2871(Class668 class668, byte i) {

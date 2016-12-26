@@ -68,7 +68,7 @@ public class Class335 implements Interface33 {
 
 	static final void method4370(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class194.method2853(class251, class234, class668, (short) 2903);
 	}
@@ -129,7 +129,7 @@ public class Class335 implements Interface33 {
 		Class683.aClass301_Sub1_8651.method4089(i_5_, (byte) 92);
 	}
 
-	static void method4377(Class167 class167, int i, int i_6_, Class251 class251, Class161 class161, int i_7_, int i_8_, int i_9_) {
+	static void method4377(Class167 class167, int i, int i_6_, InterfaceDefinitions class251, Class161 class161, int i_7_, int i_8_, int i_9_) {
 		for (int i_10_ = 0; i_10_ < client.anInt11053 * -664631943; i_10_++) {
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
 			if (null != class536_sub13) {

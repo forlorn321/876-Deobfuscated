@@ -35,14 +35,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2770(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_1_ = class536_sub33.readUnsignedSmart(1941205572);
+			int i_1_ = class536_sub33.readUnsignedSmart();
 			for (int i_2_ = 0; i_2_ < i_1_; i_2_++)
-				aBoolArray2126[class536_sub33.readUnsignedSmart(-1273046870)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart()] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte();
-			int i_3_ = class536_sub33.readUnsignedSmart(-638171424);
+			int i_3_ = class536_sub33.readUnsignedSmart();
 			for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
-				class536_sub33.readUnsignedSmart(-1380878739);
+				class536_sub33.readUnsignedSmart();
 				class536_sub33.readUnsignedByte();
 			}
 		}
@@ -59,14 +59,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2771(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_6_ = class536_sub33.readUnsignedSmart(152287371);
+			int i_6_ = class536_sub33.readUnsignedSmart();
 			for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
-				aBoolArray2126[class536_sub33.readUnsignedSmart(151464011)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart()] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte();
-			int i_8_ = class536_sub33.readUnsignedSmart(-604333065);
+			int i_8_ = class536_sub33.readUnsignedSmart();
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				class536_sub33.readUnsignedSmart(1772916952);
+				class536_sub33.readUnsignedSmart();
 				class536_sub33.readUnsignedByte();
 			}
 		}
@@ -83,14 +83,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2772(RSByteBuffer class536_sub33, int i, int i_10_) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_11_ = class536_sub33.readUnsignedSmart(-1704255993);
+			int i_11_ = class536_sub33.readUnsignedSmart();
 			for (int i_12_ = 0; i_12_ < i_11_; i_12_++)
-				aBoolArray2126[class536_sub33.readUnsignedSmart(520800640)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart()] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte();
-			int i_13_ = class536_sub33.readUnsignedSmart(1630040071);
+			int i_13_ = class536_sub33.readUnsignedSmart();
 			for (int i_14_ = 0; i_14_ < i_13_; i_14_++) {
-				class536_sub33.readUnsignedSmart(-1300569648);
+				class536_sub33.readUnsignedSmart();
 				class536_sub33.readUnsignedByte();
 			}
 		}
@@ -99,14 +99,14 @@ public class Class186 implements Interface13, Interface7 {
 	void method2773(RSByteBuffer class536_sub33, int i) {
 		if (2 == i) {
 			aBoolArray2126 = new boolean[400];
-			int i_15_ = class536_sub33.readUnsignedSmart(1105482392);
+			int i_15_ = class536_sub33.readUnsignedSmart();
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++)
-				aBoolArray2126[class536_sub33.readUnsignedSmart(545594290)] = true;
+				aBoolArray2126[class536_sub33.readUnsignedSmart()] = true;
 		} else if (i == 3) {
 			class536_sub33.readUnsignedByte();
-			int i_17_ = class536_sub33.readUnsignedSmart(-588048016);
+			int i_17_ = class536_sub33.readUnsignedSmart();
 			for (int i_18_ = 0; i_18_ < i_17_; i_18_++) {
-				class536_sub33.readUnsignedSmart(2120385843);
+				class536_sub33.readUnsignedSmart();
 				class536_sub33.readUnsignedByte();
 			}
 		}
@@ -116,13 +116,13 @@ public class Class186 implements Interface13, Interface7 {
 		/* empty */
 	}
 
-	static final void method2774(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method2774(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.aStringArray2657 = null;
 	}
 
 	static final void method2775(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class227.method3284(class251, class668, 2049791046);
 	}
 

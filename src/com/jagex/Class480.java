@@ -114,7 +114,7 @@ public class Class480 {
 		return false;
 	}
 
-	static String method5829(Class251 class251, int i, short i_2_) {
+	static String method5829(InterfaceDefinitions class251, int i, short i_2_) {
 		if (!client.method10389(class251).method9472(i, -1495350477) && class251.anObjectArray2705 == null)
 			return null;
 		if (null == class251.aStringArray2657 || class251.aStringArray2657.length <= i || null == class251.aStringArray2657[i] || class251.aStringArray2657[i].trim().length() == 0) {

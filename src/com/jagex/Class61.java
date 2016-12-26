@@ -703,7 +703,7 @@ public class Class61 {
 								Class66.anInt723 = (class536_sub33_sub2.readUnsignedShort() * -860628261);
 								Class307.anInt3454 = (class536_sub33_sub2.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = class536_sub33_sub2.readUnsignedByte() == 1;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.readVersionedString();
+								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = class536_sub33_sub2.readVersionedString();
 								Class646.anInt8360 = class536_sub33_sub2.readUnsignedByte() * 431261749;
 								Class622.anInt8127 = class536_sub33_sub2.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();

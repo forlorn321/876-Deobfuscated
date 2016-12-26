@@ -253,7 +253,7 @@ public final class Class655 {
 		Class478 class478 = class153.aClass453_1716.method5437(65280);
 		if (Class478.aClass478_5385 == class478) {
 			if (class153.aClass458_1717 == Class458.aClass458_5167)
-				Class251.method3514(class153, (byte) 23);
+				InterfaceDefinitions.method3514(class153, (byte) 23);
 			interface19.method101(class153, class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], 371952478);
 		} else if (Class478.aClass478_5388 == class478)
 			interface19.method119(class153, class668.aLongArray8565[((class668.anInt8546 -= 1792517805) * 1346022693)]);
@@ -307,7 +307,7 @@ public final class Class655 {
 	}
 
 	public static Object[] method7940(RSByteBuffer class536_sub33, Class453[] class453s, int i) {
-		int i_2_ = class536_sub33.readUnsignedSmart(1167748127);
+		int i_2_ = class536_sub33.readUnsignedSmart();
 		Object[] objects = new Object[class453s.length * i_2_];
 		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
 			for (int i_4_ = 0; i_4_ < class453s.length; i_4_++) {

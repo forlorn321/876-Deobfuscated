@@ -164,7 +164,7 @@ public class Class86 {
 
 	static final void method1202(Class668 class668, int i) {
 		int i_13_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_13_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_13_, -689214737);
 		Class241.method3385(class251, class668, (byte) 6);
 	}
 

@@ -61,7 +61,7 @@ public final class Class471 implements Comparable {
 		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 47)).method3744(Class465_Sub1.aClass96_10352, (byte) -68) ? 1 : 0);
 	}
 
-	static final void method5715(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method5715(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -2091455035) != null)
 			string = string.substring(0, string.length() - 1);
@@ -132,7 +132,7 @@ public final class Class471 implements Comparable {
 
 	static final void method5720(Class668 class668, byte i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_18_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_18_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
 		Class329.method4317(class251, class234, class668, 1643719200);
 	}

@@ -103,7 +103,7 @@ public class Class586 {
 							}
 						}
 					}
-					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12184), Class302.aClass74_3406, (byte) -9).equals(string_11_))
+					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), Class302.aClass74_3406, (byte) -9).equals(string_11_))
 						Class173_Sub1.method8634(4, (Class38.aClass38_379.method840(Class459.aClass664_5178, 2056636684)), 391318944);
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);

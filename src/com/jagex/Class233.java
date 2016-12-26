@@ -45,7 +45,7 @@ public class Class233 implements Interface75 {
 		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) -52)).method3743(Class465_Sub1.aClass96_10352, (byte) 107) ? 1 : 0);
 	}
 
-	static final void method3330(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method3330(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.aBool2608 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 		if (-1 == class251.anInt2546 * -809980533 && !class234.aBool2379)
@@ -61,7 +61,7 @@ public class Class233 implements Interface75 {
 
 	static final void method3332(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class395.method4881(class251, class234, class668, -339463631);
 	}

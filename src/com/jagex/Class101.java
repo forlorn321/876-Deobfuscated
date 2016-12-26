@@ -90,8 +90,8 @@ public class Class101 {
 		Class34_Sub17 class34_sub17 = client.aClass515_11066.method6280(-1073841494);
 		int i_3_ = i;
 		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
-			int i_4_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0]) >> 3);
-			int i_5_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0]) >> 3);
+			int i_4_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
+			int i_5_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
 			if (i_4_ >= 0 && i_4_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_5_ >= 0 && i_5_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_4_].length && Class315_Sub1_Sub1.aBoolArrayArray11398[i_4_][i_5_])
 				i_3_ = 0;
 		}
@@ -133,8 +133,8 @@ public class Class101 {
 		Class34_Sub17 class34_sub17 = client.aClass515_11066.method6280(-1073841494);
 		int i_11_ = i;
 		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
-			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0]) >> 3);
-			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0]) >> 3);
+			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
+			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
 			if (i_12_ >= 0 && i_12_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_13_ >= 0 && (i_13_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_].length) && Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_][i_13_])
 				i_11_ = 0;
 		}
@@ -162,7 +162,7 @@ public class Class101 {
 
 	static final void method1353(Class668 class668, byte i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_18_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_18_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
 		Class332.method4339(class251, class234, class668, (byte) 54);
 	}

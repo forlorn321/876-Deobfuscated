@@ -15,7 +15,7 @@ public final class Class391 {
 	}
 
 	static final void method4860(Class668 class668, int i) {
-		Class251 class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
 		class251.aClass251Array2725 = null;
 		class251.aClass251Array2726 = null;
 		Class668.method8011(class251, 263642117);

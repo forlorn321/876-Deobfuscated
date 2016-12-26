@@ -108,13 +108,13 @@ public class Class710_Sub39 extends Class710 {
 
 	static final void method10244(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 452091921 * class251.anInt2586;
 	}
 
 	static final void method10245(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_2_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class685.method8111(class251, class234, class668, 645915025);
 	}

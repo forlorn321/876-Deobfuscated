@@ -124,14 +124,14 @@ public class Class324 implements Interface14 {
 
 	static final void method4270(Class668 class668, int i) {
 		int i_15_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_15_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_15_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_15_ >> 16];
 		Class207.method2966(class251, class234, class668, 1989787980);
 	}
 
 	static final void method4271(Class668 class668, byte i) {
 		int i_16_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_16_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_16_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_16_ >> 16];
 		Class534.method6469(class251, class234, class668, -142337968);
 	}
@@ -181,7 +181,7 @@ public class Class324 implements Interface14 {
 		Class95.anInt1156 = 0;
 		for (int i_23_ = 0; i_23_ < 2048; i_23_++) {
 			Class95.playerRenderData[i_23_] = null;
-			Class95.aClass536_Sub33Array1155[i_23_] = null;
+			Class95.iconData[i_23_] = null;
 			Class95.aByteArray1153[i_23_] = Class680.aClass680_8639.aByte8644;
 			Class95.aClass43Array1162[i_23_] = null;
 		}

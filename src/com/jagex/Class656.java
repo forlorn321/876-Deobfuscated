@@ -12,7 +12,7 @@ public class Class656 {
 
 	static final void method7942(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class466.method5683(class251, class234, class668, -1887000816);
 	}
@@ -21,7 +21,7 @@ public class Class656 {
 		Class63.method1056(-1650594828);
 	}
 
-	static final void method7944(Class251 class251, Class668 class668, int i) {
+	static final void method7944(InterfaceDefinitions class251, Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (1939619399 * class251.anInt2601 != 2)
@@ -156,7 +156,7 @@ public class Class656 {
 		Class677.aClass167_8609.method2039(0.0F, 1.0F);
 	}
 
-	static void method7946(Class251 class251, Class161 class161, int i, int i_7_, int i_8_, int i_9_, Class143 class143, double d, Class261 class261, Class283 class283, byte i_10_) {
+	static void method7946(InterfaceDefinitions class251, Class161 class161, int i, int i_7_, int i_8_, int i_9_, Class143 class143, double d, Class261 class261, Class283 class283, byte i_10_) {
 		if (class143 != null) {
 			int i_11_;
 			if (Class246.anInt2474 * 155362615 == 2)

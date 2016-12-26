@@ -23,7 +23,7 @@ public class Class205_Sub23 extends Class205 {
 	public void method2940(int i) {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[anInt9967 * 170253073].method2804(-1200913763);
 		if (0 == -389939207 * anInt9966)
-			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false, 1131805852);
+			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false);
 		else
 			Class74.method1139(class649_sub1_sub5_sub1, new int[] { 1565462691 * anInt9965 }, new int[] { 0 }, new int[] { anInt9966 * -389939207 }, (byte) -22);
 	}
@@ -31,7 +31,7 @@ public class Class205_Sub23 extends Class205 {
 	public void method2943() {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[anInt9967 * 170253073].method2804(2076569024);
 		if (0 == -389939207 * anInt9966)
-			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false, 1131805852);
+			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false);
 		else
 			Class74.method1139(class649_sub1_sub5_sub1, new int[] { 1565462691 * anInt9965 }, new int[] { 0 }, new int[] { anInt9966 * -389939207 }, (byte) -98);
 	}
@@ -39,7 +39,7 @@ public class Class205_Sub23 extends Class205 {
 	public void method2942() {
 		Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = Class193.aClass189Array2180[anInt9967 * 170253073].method2804(1981759688);
 		if (0 == -389939207 * anInt9966)
-			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false, 1131805852);
+			Class360_Sub1.method9269(class649_sub1_sub5_sub1, anIntArray9964, 0, false);
 		else
 			Class74.method1139(class649_sub1_sub5_sub1, new int[] { 1565462691 * anInt9965 }, new int[] { 0 }, new int[] { anInt9966 * -389939207 }, (byte) -10);
 	}

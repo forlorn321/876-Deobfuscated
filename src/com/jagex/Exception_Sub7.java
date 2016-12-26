@@ -17,7 +17,7 @@ public class Exception_Sub7 extends Exception {
 
 	static final void method10553(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2572 * -712740187;
 	}
 }

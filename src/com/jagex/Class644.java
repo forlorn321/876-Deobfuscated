@@ -334,7 +334,7 @@ public final class Class644 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_22_;
 	}
 
-	static final void method7791(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method7791(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -2025655484) != null)
 			string = string.substring(0, string.length() - 1);

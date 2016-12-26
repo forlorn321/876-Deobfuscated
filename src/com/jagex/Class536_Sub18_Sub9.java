@@ -76,8 +76,8 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 		Class553 class553 = client.aClass515_11066.method6249(1591184838);
 		int i_11_ = i;
 		if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) {
-			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0]) >> 3);
-			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0]) >> 3);
+			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
+			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
 			if (i_12_ >= 0 && i_12_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_13_ >= 0 && (i_13_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_].length) && Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_][i_13_])
 				i_11_ = 0;
 		}

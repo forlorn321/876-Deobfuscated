@@ -327,7 +327,7 @@ public final class Class328_Sub2 extends Class328 {
 		aClass167_Sub3_3590.method8815(Class377.aClass377_3918, anInt3588, 2);
 	}
 
-	static final void method9152(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method9152(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 1472892954;
 		class251.anInt2585 = 1043826313 * (class668.anIntArray8541[1867269829 * class668.anInt8542]);
 		class251.anInt2586 = (-114650895 * class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1]);

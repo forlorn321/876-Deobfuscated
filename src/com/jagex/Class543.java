@@ -16,7 +16,7 @@ public class Class543 {
 
 	static final void method6580(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 223822141 * class251.anInt2574;
 	}
 

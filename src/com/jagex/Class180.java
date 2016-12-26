@@ -317,7 +317,7 @@ public class Class180 {
 				if (aShortArray1982 != null) {
 					if (aShortArray1957[i_70_] != -1) {
 						if (anInt1949 >= 16)
-							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedSmart(-1171833351) - 1);
+							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedSmart() - 1);
 						else
 							aShortArray1982[i_70_] = (short) (class536_sub33_5_.readUnsignedByte() - 1);
 					} else

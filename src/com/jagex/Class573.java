@@ -12,7 +12,7 @@ public class Class573 {
 		Class685.anInt8663 -= 1228520531;
 	}
 
-	static final void method6940(Class251 class251, Class234 class234, Class668 class668, int i) {
+	static final void method6940(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.aBool2594 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}

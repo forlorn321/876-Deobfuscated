@@ -69,7 +69,7 @@ public class Class583 {
 			class649_sub1_sub5_sub1.anInt11924 = 0;
 			i_0_ = Class680.aClass680_8643.aByte8644;
 			i_1_ = 0;
-			class649_sub1_sub5_sub1.method7842((float) (class649_sub1_sub5_sub1.anIntArray11944[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)), class436.aFloat4852, (float) (class649_sub1_sub5_sub1.anIntArray11945[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)));
+			class649_sub1_sub5_sub1.method7842((float) (class649_sub1_sub5_sub1.screenX[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)), class436.aFloat4852, (float) (class649_sub1_sub5_sub1.screenY[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)));
 			class649_sub1_sub5_sub1.method10870(-1003451901);
 		}
 		if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == class649_sub1_sub5_sub1) && ((int) class436.aFloat4850 < 6144 || (int) class436.aFloat4853 < 6144 || ((int) class436.aFloat4850 >= ((client.aClass515_11066.method6321((byte) -45) - 12) * 512)) || ((int) class436.aFloat4853 >= ((client.aClass515_11066.method6243(177401017) - 12) * 512)))) {
@@ -83,7 +83,7 @@ public class Class583 {
 			class649_sub1_sub5_sub1.anInt11924 = 0;
 			i_0_ = Class680.aClass680_8643.aByte8644;
 			i_1_ = 0;
-			class649_sub1_sub5_sub1.method7842((float) (512 * class649_sub1_sub5_sub1.anIntArray11944[0] + (class649_sub1_sub5_sub1.method10874() * 256)), class436.aFloat4852, (float) (class649_sub1_sub5_sub1.anIntArray11945[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)));
+			class649_sub1_sub5_sub1.method7842((float) (512 * class649_sub1_sub5_sub1.screenX[0] + (class649_sub1_sub5_sub1.method10874() * 256)), class436.aFloat4852, (float) (class649_sub1_sub5_sub1.screenY[0] * 512 + (class649_sub1_sub5_sub1.method10874() * 256)));
 			class649_sub1_sub5_sub1.method10870(-1663755729);
 		}
 		int i_4_ = IncomingPacket.method5073(class649_sub1_sub5_sub1, -739996926);

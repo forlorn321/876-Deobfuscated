@@ -10,17 +10,17 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	String aString12181;
 	int anInt12182;
 	public int[] anIntArray12183;
-	public String aString12184;
+	public String username;
 	public boolean aBool12185;
 	public int anInt12186;
 	public int anInt12187;
 	public int anInt12188;
 	public int anInt12189;
-	public int anInt12190;
+	public int faceDirection;
 	public int anInt12191;
 	public String aString12192;
 	public int anInt12193;
-	public boolean aBool12194;
+	public boolean isClanMember;
 	public int anInt12195;
 	public int anInt12196;
 	public byte aByte12197 = 0;
@@ -38,7 +38,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		anInt12187 = 0;
 		anInt12188 = 1864138265;
 		anInt12189 = 0;
-		anInt12190 = -2114230253;
+		faceDirection = -2114230253;
 		aBool12185 = false;
 		anInt12191 = 0;
 		anInt12193 = 2015033897;
@@ -49,7 +49,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		anInt12178 = -1718096987;
 		aClass210_12200 = Class210.aClass210_2258;
 		aClass623_12201 = Class623.aClass623_8130;
-		aBool12194 = false;
+		isClanMember = false;
 		method11083(1980387105);
 	}
 
@@ -80,7 +80,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 			aClass623_12201 = Class623.aClass623_8130;
 		decodePlayerLook(buffer, isMale);
 		aString12192 = buffer.readString();
-		aString12184 = aString12192;
+		username = aString12192;
 		if (this == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591)
 			RuntimeException_Sub1.aString12036 = aString12192;
 		anInt12186 = buffer.readUnsignedByte() * 1288777103;
@@ -267,7 +267,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (bool)
 			string = new StringBuilder().append(string).append(aString12192).toString();
 		else
-			string = new StringBuilder().append(string).append(aString12184).toString();
+			string = new StringBuilder().append(string).append(username).toString();
 		if (null != aString12181)
 			string = new StringBuilder().append(string).append(aString12181).toString();
 		return string;
@@ -276,7 +276,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	public String method11086(boolean bool, int i) {
 		if (bool)
 			return aString12192;
-		return aString12184;
+		return username;
 	}
 
 	final void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_34_, int i_35_, boolean bool) {
@@ -284,15 +284,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public void method11087(int i, int i_36_, byte i_37_) {
-		anInt11957 = 0;
+		stepsCount = 0;
 		anInt11948 = 0;
 		anInt11915 = 0;
-		anIntArray11944[0] = i;
-		anIntArray11945[0] = i_36_;
+		screenX[0] = i;
+		screenY[0] = i_36_;
 		int i_38_ = method10874();
 		Class436 class436 = Class436.method5240(method7837().aClass436_4823);
-		class436.aFloat4850 = (float) (i_38_ * 256 + 512 * anIntArray11944[0]);
-		class436.aFloat4853 = (float) (256 * i_38_ + anIntArray11945[0] * 512);
+		class436.aFloat4850 = (float) (i_38_ * 256 + 512 * screenX[0]);
+		class436.aFloat4853 = (float) (256 * i_38_ + screenY[0] * 512);
 		method7841(class436);
 		class436.method5239();
 		if (this == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591)
@@ -345,7 +345,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		anInt12187 = 0;
 		anInt12188 = 1864138265;
 		anInt12189 = 0;
-		anInt12190 = -2114230253;
+		faceDirection = -2114230253;
 		aBool12185 = false;
 		anInt12191 = 0;
 		anInt12193 = 2015033897;
@@ -356,7 +356,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		anInt12178 = -1718096987;
 		aClass210_12200 = Class210.aClass210_2258;
 		aClass623_12201 = Class623.aClass623_8130;
-		aBool12194 = false;
+		isClanMember = false;
 		method11083(2052181317);
 	}
 
@@ -393,7 +393,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (null != aClass533_11903) {
 			if (aClass533_11903.aString7126 == null)
 				return null;
-			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(aString12184, 1189210166)))
+			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(username, 1189210166)))
 				return aClass533_11903;
 		}
 		return null;
@@ -577,7 +577,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (null != aClass533_11903) {
 			if (aClass533_11903.aString7126 == null)
 				return null;
-			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(aString12184, 851696723)))
+			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(username, 851696723)))
 				return aClass533_11903;
 		}
 		return null;
@@ -786,13 +786,13 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		method10869(string, i, i_80_, (Class319_Sub1.method9134(1075241770) * (Class644.aClass628_8352.anInt8208 * -2097108747)), (short) 255);
 	}
 
-	public void method11091(RSByteBuffer class536_sub33, int i) {
-		class536_sub33.off = 0;
-		int i_82_ = class536_sub33.readUnsignedByte();
+	public void decodeIcons(RSByteBuffer buffer) {
+		buffer.off = 0;
+		int i_82_ = buffer.readUnsignedByte();
 		for (int i_83_ = 0; i_83_ < anIntArray12183.length; i_83_++) {
 			if (0 != (i_82_ & 1 << i_83_)) {
-				int i_84_ = class536_sub33.readUnsignedByte();
-				int i_85_ = class536_sub33.readUnsignedShort();
+				int i_84_ = buffer.readUnsignedByte();
+				int i_85_ = buffer.readUnsignedShort();
 				anIntArray12183[i_83_] = i_84_;
 				anIntArray12179[i_83_] = i_85_;
 			} else {
@@ -952,7 +952,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (null != aClass533_11903) {
 			if (aClass533_11903.aString7126 == null)
 				return null;
-			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(aString12184, 1678135551)))
+			if (1867600229 * client.anInt11259 == 0 || 1867600229 * client.anInt11259 == 3 || (1 == client.anInt11259 * 1867600229 && Class417.method5037(username, 1678135551)))
 				return aClass533_11903;
 		}
 		return null;
@@ -976,10 +976,10 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 				}
 			}
 		}
-		anInt12190 = -2114230253;
+		faceDirection = -2114230253;
 		if (i < 0 || i >= client.aClass515_11066.method6321((byte) 15) || i_102_ < 0 || i_102_ >= client.aClass515_11066.method6243(177401017))
 			method11087(i, i_102_, (byte) 1);
-		else if (anIntArray11944[0] < 0 || (anIntArray11944[0] >= client.aClass515_11066.method6321((byte) -29)) || anIntArray11945[0] < 0 || (anIntArray11945[0] >= client.aClass515_11066.method6243(177401017)))
+		else if (screenX[0] < 0 || (screenX[0] >= client.aClass515_11066.method6321((byte) -29)) || screenY[0] < 0 || (screenY[0] >= client.aClass515_11066.method6243(177401017)))
 			method11087(i, i_102_, (byte) 1);
 		else
 			method11093(i, i_102_, i_103_, -424528054);
@@ -990,15 +990,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	final void method11093(int i, int i_106_, byte i_107_, int i_108_) {
-		if (anInt11957 * -711375609 < anIntArray11944.length - 1)
-			anInt11957 += 1754339511;
-		for (int i_109_ = -711375609 * anInt11957; i_109_ > 0; i_109_--) {
-			anIntArray11944[i_109_] = anIntArray11944[i_109_ - 1];
-			anIntArray11945[i_109_] = anIntArray11945[i_109_ - 1];
+		if (stepsCount * -711375609 < screenX.length - 1)
+			stepsCount += 1754339511;
+		for (int i_109_ = -711375609 * stepsCount; i_109_ > 0; i_109_--) {
+			screenX[i_109_] = screenX[i_109_ - 1];
+			screenY[i_109_] = screenY[i_109_ - 1];
 			aByteArray11946[i_109_] = aByteArray11946[i_109_ - 1];
 		}
-		anIntArray11944[0] = i;
-		anIntArray11945[0] = i_106_;
+		screenX[0] = i;
+		screenY[0] = i_106_;
 		aByteArray11946[0] = i_107_;
 	}
 
@@ -1107,8 +1107,8 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		aClass617_12202.method7340(method10897(1991099139), is, class12s, is_133_, is_136_, 1 == aByte12197, i_124_, (byte) -65);
 		if (i_139_ != i_124_) {
 			Class436 class436 = Class436.method5240(method7837().aClass436_4823);
-			class436.aFloat4850 = (float) ((anIntArray11944[0] << 9) + (method10874() << 8));
-			class436.aFloat4853 = (float) ((anIntArray11945[0] << 9) + (method10874() << 8));
+			class436.aFloat4850 = (float) ((screenX[0] << 9) + (method10874() << 8));
+			class436.aFloat4853 = (float) ((screenY[0] << 9) + (method10874() << 8));
 			method7841(class436);
 			class436.method5239();
 		}

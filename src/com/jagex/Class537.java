@@ -302,7 +302,7 @@ public class Class537 {
 
 	static final void method6505(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class173_Sub1.method8633(class251, class234, class668, 65280);
 	}
@@ -321,7 +321,7 @@ public class Class537 {
 		} catch (Exception exception) {
 			Class598 class598 = client.aClass515_11066.method6255(-1858708269);
 			String string = new StringBuilder().append(null != class106.aClass422_1261 ? -798865899 * class106.aClass422_1261.id : -1).append(Class40.aString491).append(null != class106.aClass422_1271 ? -798865899 * class106.aClass422_1271.id : -1).append(Class40.aString491).append(class106.aClass422_1274 != null ? -798865899 * class106.aClass422_1274.id : -1).append(" ").append(610303591 * class106.anInt1262).append(Class40.aString491)
-					.append(1858049507 * class598.anInt7839 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0])).append(" ").toString();
+					.append(1858049507 * class598.anInt7839 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
 			for (int i_33_ = 0; i_33_ < class106.anInt1262 * 610303591 && i_33_ < 50; i_33_++)
 				string = new StringBuilder().append(string).append(class106.byteBuffer.buffer[i_33_]).append(Class40.aString491).toString();
 			Class81.method1165(string, exception, (byte) 71);
@@ -338,7 +338,7 @@ public class Class537 {
 			Class61.anInt687 = -1813287759 * i;
 	}
 
-	static void method6508(int i, int i_35_, Class251 class251, Class244 class244, int i_36_, int i_37_, int i_38_) {
+	static void method6508(int i, int i_35_, InterfaceDefinitions class251, Class244 class244, int i_36_, int i_37_, int i_38_) {
 		Class103[] class103s = client.aClass103Array11020;
 		for (int i_39_ = 0; i_39_ < class103s.length; i_39_++) {
 			Class103 class103 = class103s[i_39_];

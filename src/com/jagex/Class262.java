@@ -109,7 +109,7 @@ public class Class262 {
 
 	static final void method3638(boolean bool, Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_0_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		if (bool)
 			Class171.method2425(class234, class251, -54843704);
@@ -119,11 +119,11 @@ public class Class262 {
 
 	static final void method3639(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class251 class251 = Class264.method3678(i_1_, -689214737);
+		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class188.method2799(class251, class668, 1677224906);
 	}
 
-	static final void method3640(Class251 class251, Class668 class668, byte i) {
+	static final void method3640(InterfaceDefinitions class251, Class668 class668, byte i) {
 		int i_2_ = 10;
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
@@ -132,7 +132,7 @@ public class Class262 {
 
 	static final void method3641(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		Class251 class251 = class683.aClass251_8650;
+		InterfaceDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class34_Sub15.method10350(class251, class234, class668, (byte) -42);
 	}
@@ -175,9 +175,9 @@ public class Class262 {
 			class649_sub1_sub5_sub1_sub1.anInt11938 = -1906385303 * (235698067 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3318) << 3);
 			if (bool)
 				class649_sub1_sub5_sub1_sub1.method10893(i_7_, true, (byte) 108);
-			class649_sub1_sub5_sub1_sub1.method11067(i_9_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11944[0]) + i_10_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anIntArray11945[0]) + i_11_, 1 == i_12_, class649_sub1_sub5_sub1_sub1.method10874(), 753452752);
+			class649_sub1_sub5_sub1_sub1.method11067(i_9_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) + i_10_, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) + i_11_, 1 == i_12_, class649_sub1_sub5_sub1_sub1.method10874(), 753452752);
 			if (class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
-				Class76.method1155(class649_sub1_sub5_sub1_sub1.aByte10839, (class649_sub1_sub5_sub1_sub1.anIntArray11944[0]), (class649_sub1_sub5_sub1_sub1.anIntArray11945[0]), 0, null, class649_sub1_sub5_sub1_sub1, null, 352877239);
+				Class76.method1155(class649_sub1_sub5_sub1_sub1.aByte10839, (class649_sub1_sub5_sub1_sub1.screenX[0]), (class649_sub1_sub5_sub1_sub1.screenY[0]), 0, null, class649_sub1_sub5_sub1_sub1, null, 352877239);
 			if (bool)
 				class649_sub1_sub5_sub1_sub1.method11081((byte) 2);
 		}
