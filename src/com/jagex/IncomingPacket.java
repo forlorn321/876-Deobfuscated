@@ -175,7 +175,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4759;
 	public static IncomingPacket aClass422_4760;
 	public static IncomingPacket aClass422_4761;
-	public static IncomingPacket aClass422_4762;
+	public static IncomingPacket ICOMPONENT_MODEL;
 	public static IncomingPacket aClass422_4763;
 	public static IncomingPacket aClass422_4764;
 	public static IncomingPacket aClass422_4765;
@@ -378,7 +378,7 @@ public class IncomingPacket {
 		aClass422_4653 = new IncomingPacket(168, 5);
 		aClass422_4760 = new IncomingPacket(169, -2);
 		aClass422_4701 = new IncomingPacket(170, 8);
-		aClass422_4762 = new IncomingPacket(171, 8);
+		ICOMPONENT_MODEL = new IncomingPacket(171, 8);
 		aClass422_4603 = new IncomingPacket(172, 29);
 		DYNAMIC_MAP_SCENE = new IncomingPacket(173, -2);
 		aClass422_4758 = new IncomingPacket(174, -1);

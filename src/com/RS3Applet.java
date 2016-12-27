@@ -122,6 +122,8 @@ public class RS3Applet extends Applet implements AppletStub {
 		IDENTIFIED.add(IncomingPacket.CLOSE_INTERFACE);
 		IDENTIFIED.add(IncomingPacket.ITEM_ON_ICOMPONENT);
 		IDENTIFIED.add(IncomingPacket.ICOMPONENT_SPRITE);
+		IDENTIFIED.add(IncomingPacket.aClass422_4765);
+		IDENTIFIED.add(IncomingPacket.ICOMPONENT_MODEL);
 		
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.ADD_GROUND_ITEM);
 		IDENTIFIED_SUB.add(ChunkSceneSubPackets.REMOVE_GROUND_ITEM);
@@ -136,7 +138,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Connecting to Rs or a Rsps
 	 */
-	public static boolean RSPS = true;
+	public static boolean RSPS = false;
 
 	/**
 	 * Chooses ip based on if Rs or Rsps
@@ -146,7 +148,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = false;
+	public static boolean DUMP = true;
 
 	/**
 	 * The parameters of the client.

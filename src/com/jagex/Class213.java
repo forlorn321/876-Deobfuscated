@@ -110,7 +110,6 @@ public class Class213 {
 	}
 
 	public static Class536_Sub23 method3075(OutgoingPacket class414, Class15 class15, int i) {
-//		System.out.println("Outgoing packet: " + (class414.anInt4525 * -150166127));
 		Class536_Sub23 class536_sub23 = Class144.method1795(-2057897875);
 		class536_sub23.aClass414_10529 = class414;
 		class536_sub23.anInt10527 = 1504910693 * class414.anInt4526;
