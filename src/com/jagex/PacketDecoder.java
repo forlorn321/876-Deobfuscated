@@ -301,9 +301,13 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4762 == class106.currentPacket) {
+		if (IncomingPacket.ICOMPONENT_MODEL == class106.currentPacket) {
 			int i_51_ = stream.readInt();
 			int i_52_ = stream.readLEInt();
+			int interfaceId = i_51_ >> 16;
+			int componentId = i_51_ & 0xFFFF;
+			if (RS3Applet.DUMP)
+				System.out.println("player.getPackets().sendIComponentModel(" + interfaceId + ", " + componentId + ", " + i_52_ + ");");
 			Class307.method4133();
 			Class206.method2961(i_51_, 1, i_52_, -1, -1187242940);
 			class106.currentPacket = null;
@@ -605,6 +609,10 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4765) {
 			int i_103_ = stream.readInt();
 			int i_104_ = stream.readIntV1();
+			int interfaceId = i_104_ >> 16;
+			int componentId = i_104_ & 0xFFFF;
+			if (RS3Applet.DUMP)
+				System.out.println("player.getPackets().sendInterfaceRelatedPacket15(" + interfaceId + ", " + componentId + ", " + i_103_ + ");");
 			Class307.method4133();
 			Class523.method6406(i_104_, i_103_, 1706383974);
 			class106.currentPacket = null;
