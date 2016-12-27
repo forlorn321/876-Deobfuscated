@@ -1489,7 +1489,7 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4716 == class106.currentPacket) {
+		if (IncomingPacket.MOVE_INTERFACE == class106.currentPacket) {
 			int i_248_ = stream.readInt();
 			int i_249_ = stream.readIntV2();
 			Class307.method4133();

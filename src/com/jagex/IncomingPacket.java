@@ -129,7 +129,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4713;
 	public static IncomingPacket aClass422_4714;
 	public static IncomingPacket aClass422_4715 = new IncomingPacket(0, 3);
-	public static IncomingPacket aClass422_4716;
+	public static IncomingPacket MOVE_INTERFACE;
 	public static IncomingPacket aClass422_4717;
 	public static IncomingPacket aClass422_4718;
 	public static IncomingPacket VARP_2;
@@ -332,7 +332,7 @@ public class IncomingPacket {
 		aClass422_4713 = new IncomingPacket(122, 2);
 		aClass422_4714 = new IncomingPacket(123, 8);
 		INTERFACE_SETTINGS = new IncomingPacket(124, 12);
-		aClass422_4716 = new IncomingPacket(125, 8);
+		MOVE_INTERFACE = new IncomingPacket(125, 8);
 		aClass422_4717 = new IncomingPacket(126, -2);
 		aClass422_4763 = new IncomingPacket(127, 2);
 		VARP_2 = new IncomingPacket(128, 6);
