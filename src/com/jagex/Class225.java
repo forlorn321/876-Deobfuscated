@@ -64,8 +64,8 @@ public class Class225 implements Interface26 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class459.aClass664_5178.method78();
 	}
 
-	static String method3217(int i, byte i_1_) {
-		return new StringBuilder().append("<col=").append(Integer.toHexString(i)).append(">").toString();
+	static String getColorFormatString(int color) {
+		return new StringBuilder().append("<col=").append(Integer.toHexString(color)).append(">").toString();
 	}
 
 	public static boolean method3218(int i) {

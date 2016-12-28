@@ -635,7 +635,7 @@ public class ItemDefinitions implements DefinitionI {
 		if (208949951 * anInt64 != -1)
 			class143.method1728(0, 0);
 		if (i_79_ == 1 || i_79_ == 2 && (stackable * -1370184373 == 1 || i != 1) && i != -1)
-			class184.method2763(Class60.method998(i, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
+			class184.method2763(Class60.colorifyItemAmount(i, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
 		is = class167.method2078(0, 0, 36, 32);
 		for (int i_92_ = 0; i_92_ < is.length; i_92_++) {
 			if (0 == (is[i_92_] & 0xffffff))
