@@ -35,7 +35,7 @@ final class Class458_Sub5 extends Class458 {
 			i = -1;
 		if (616246675 * client.anInt11085 != i) {
 			if (i != -1) {
-				Class638 class638 = ((Class638) Class580.aClass34_Sub19_7695.method70(i, (byte) -22));
+				CursorTypeDecoder class638 = ((CursorTypeDecoder) Class580.aClass34_Sub19_7695.method70(i, (byte) -22));
 				Class179 class179 = class638.method7645((byte) 3);
 				if (class179 != null) {
 					Class285.aClass517_3192.setcustomcursor(Class399.aCanvas4127, class179.method2643(true), class179.method2640(), class179.method2671(), new Point(class638.anInt8304 * -896197771, -1951713427 * class638.anInt8305));
@@ -57,7 +57,7 @@ final class Class458_Sub5 extends Class458 {
 
 	static final void method9375(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -76);
+		ItemDecoder class1 = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -76);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class1.aBool84 ? 1 : 0;
 	}
 }

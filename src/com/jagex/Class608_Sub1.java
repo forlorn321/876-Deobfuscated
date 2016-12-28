@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class608_Sub1 extends Class608 implements Interface6 {
-	Class461 aClass461_10553;
+	JS5ResourceProvider aClass461_10553;
 
 	boolean method7241(int i, byte i_0_) {
 		synchronized (aClass461_10553) {
@@ -21,7 +21,7 @@ public class Class608_Sub1 extends Class608 implements Interface6 {
 	}
 
 	public Class method51(int i) {
-		return com.jagex.Class612.class;
+		return com.jagex.ObjTypeDecoder.class;
 	}
 
 	byte[] method7255(int i, int i_1_) {
@@ -32,19 +32,19 @@ public class Class608_Sub1 extends Class608 implements Interface6 {
 	}
 
 	public ConfigType method55(int i, Interface12 interface12, int i_2_) {
-		return new Class612(i, this, interface12);
+		return new ObjTypeDecoder(i, this, interface12);
 	}
 
 	public ConfigType method53(int i, Interface12 interface12) {
-		return new Class612(i, this, interface12);
+		return new ObjTypeDecoder(i, this, interface12);
 	}
 
 	public ConfigType method54(int i, Interface12 interface12) {
-		return new Class612(i, this, interface12);
+		return new ObjTypeDecoder(i, this, interface12);
 	}
 
 	public Class method52() {
-		return com.jagex.Class612.class;
+		return com.jagex.ObjTypeDecoder.class;
 	}
 
 	byte[] method7242(int i) {
@@ -68,7 +68,7 @@ public class Class608_Sub1 extends Class608 implements Interface6 {
 		}
 	}
 
-	Class608_Sub1(boolean bool, Class461 class461, Class664 class664, GameMode class670) {
+	Class608_Sub1(boolean bool, JS5ResourceProvider class461, Language class664, GameMode class670) {
 		super(bool, class664, class670);
 		aClass461_10553 = class461;
 	}

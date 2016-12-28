@@ -4,14 +4,14 @@
 package com.jagex;
 
 public class Class312 implements Interface6 {
-	Class461 aClass461_3486;
+	JS5ResourceProvider aClass461_3486;
 	static int anInt3487;
 
 	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class313(i, aClass461_3486);
 	}
 
-	Class312(Class461 class461) {
+	Class312(JS5ResourceProvider class461) {
 		aClass461_3486 = class461;
 	}
 

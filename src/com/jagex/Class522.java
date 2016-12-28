@@ -23,7 +23,7 @@ public class Class522 {
 	boolean aBool7073;
 	boolean aBool7074 = false;
 	Class627 aClass627_7075;
-	Class590 aClass590_7076;
+	ObjTypeTransformation aClass590_7076;
 	public static String aString7077;
 
 	public void method6360(int i, int i_0_) {
@@ -45,13 +45,13 @@ public class Class522 {
 		return anInt7072 * -1441435047;
 	}
 
-	void method6363(Class590 class590, byte i) {
+	void method6363(ObjTypeTransformation class590, byte i) {
 		aClass590_7076 = class590;
 		aClass177_7064 = null;
 	}
 
 	final Class177 method6364(Class167 class167, int i, boolean bool, boolean bool_1_, int i_2_) {
-		Class612 class612 = (Class612) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -30);
+		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -30);
 		if (class612.anIntArray7988 != null)
 			class612 = class612.method7293(Class465_Sub1.aClass96_10352, (4 == client.anInt11074 * 1542697723 ? (Interface18) (Class193.anInterface18_2191) : Class465_Sub1.aClass96_10352), (byte) 125);
 		if (class612 == null) {
@@ -130,8 +130,8 @@ public class Class522 {
 		return class177;
 	}
 
-	Class612 method6365(int i) {
-		return (Class612) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -59);
+	ObjTypeDecoder method6365(int i) {
+		return (ObjTypeDecoder) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -59);
 	}
 
 	int method6366() {
@@ -182,7 +182,7 @@ public class Class522 {
 		return -method6362((byte) 52);
 	}
 
-	Class522(Class167 class167, Class34_Sub17 class34_sub17, Class612 class612, int i, int i_4_, int i_5_, Class649_Sub1 class649_sub1, boolean bool, int i_6_, int i_7_) {
+	Class522(Class167 class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_4_, int i_5_, Class649_Sub1 class649_sub1, boolean bool, int i_6_, int i_7_) {
 		anInt7068 = 1579591191;
 		anInt7072 = 0;
 		aBool7070 = false;
@@ -230,8 +230,8 @@ public class Class522 {
 		int i_13_ = i;
 		boolean bool_14_ = false;
 		if (i_13_ == -1) {
-			Class612 class612 = ((Class612) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -15));
-			Class612 class612_15_ = class612;
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -15));
+			ObjTypeDecoder class612_15_ = class612;
 			if (class612.anIntArray7988 != null)
 				class612 = (class612.method7293(Class465_Sub1.aClass96_10352, (1542697723 * client.anInt11074 == 4 ? (Interface18) Class193.anInterface18_2191 : Class465_Sub1.aClass96_10352), (byte) 34));
 			if (class612 == null)
@@ -299,7 +299,7 @@ public class Class522 {
 		Class172[] class172s = class177.method2514();
 		Class156[] class156s = class177.method2515();
 		if ((null == aClass627_7075 || aClass627_7075.aBool8168) && (class172s != null || null != class156s)) {
-			Class612 class612 = ((Class612) aClass34_Sub17_7067.method70(anInt7061 * -1858685201, (byte) -11));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7067.method70(anInt7061 * -1858685201, (byte) -11));
 			if (null != class612.anIntArray7988)
 				class612 = (class612.method7293(Class465_Sub1.aClass96_10352, (4 == client.anInt11074 * 1542697723 ? (Interface18) Class193.anInterface18_2191 : Class465_Sub1.aClass96_10352), (byte) 92));
 			if (class612 != null)

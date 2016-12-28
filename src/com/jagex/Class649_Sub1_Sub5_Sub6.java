@@ -359,7 +359,7 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 					Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 					method7842(class436.aFloat4850, (float) (Class54.method944((int) (class436.aFloat4850), (int) (class436.aFloat4853), aByte10839, 1520176654) - 1417726395 * anInt12157), class436.aFloat4853);
 					if (anInt12154 * 1878021641 >= 0) {
-						Class589 class589 = class649_sub1_sub5_sub1.method10877(-407676368);
+						BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-407676368);
 						int i_37_ = 0;
 						int i_38_ = 0;
 						if (class589.anIntArrayArray7749 != null && null != (class589.anIntArrayArray7749[1878021641 * anInt12154])) {
@@ -456,7 +456,7 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 					Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 					method7842(class436.aFloat4850, (float) (Class54.method944((int) (class436.aFloat4850), (int) (class436.aFloat4853), aByte10839, 1583368409) - 1417726395 * anInt12157), class436.aFloat4853);
 					if (anInt12154 * 1878021641 >= 0) {
-						Class589 class589 = class649_sub1_sub5_sub1.method10877(-1182840841);
+						BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-1182840841);
 						int i = 0;
 						int i_51_ = 0;
 						if (class589.anIntArrayArray7749 != null && null != (class589.anIntArrayArray7749[1878021641 * anInt12154])) {
@@ -512,7 +512,7 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 					Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 					method7842(class436.aFloat4850, (float) (Class54.method944((int) (class436.aFloat4850), (int) (class436.aFloat4853), aByte10839, 2021149909) - 1417726395 * anInt12157), class436.aFloat4853);
 					if (anInt12154 * 1878021641 >= 0) {
-						Class589 class589 = class649_sub1_sub5_sub1.method10877(-1045612444);
+						BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-1045612444);
 						int i = 0;
 						int i_59_ = 0;
 						if (class589.anIntArrayArray7749 != null && null != (class589.anIntArrayArray7749[1878021641 * anInt12154])) {
@@ -568,7 +568,7 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 					Class436 class436 = class649_sub1_sub5_sub1.method7837().aClass436_4823;
 					method7842(class436.aFloat4850, (float) (Class54.method944((int) (class436.aFloat4850), (int) (class436.aFloat4853), aByte10839, 1679866973) - 1417726395 * anInt12157), class436.aFloat4853);
 					if (anInt12154 * 1878021641 >= 0) {
-						Class589 class589 = class649_sub1_sub5_sub1.method10877(-1031105460);
+						BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-1031105460);
 						int i = 0;
 						int i_67_ = 0;
 						if (class589.anIntArrayArray7749 != null && null != (class589.anIntArrayArray7749[1878021641 * anInt12154])) {

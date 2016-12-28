@@ -4,7 +4,7 @@
 package com.jagex;
 
 public abstract class Class584 {
-	Class461 aClass461_7705;
+	JS5ResourceProvider aClass461_7705;
 	Class199 aClass199_7706 = new Class199(20);
 
 	void method7030() {
@@ -37,7 +37,7 @@ public abstract class Class584 {
 		}
 	}
 
-	Class584(Class461 class461) {
+	Class584(JS5ResourceProvider class461) {
 		aClass461_7705 = class461;
 	}
 
@@ -95,7 +95,7 @@ public abstract class Class584 {
 
 	static final void method7044(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) 2);
+		ItemDecoder class1 = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) 2);
 		if (-1 == class1.certTemplateId * 79208069 && class1.certId * 1990739153 >= 0)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1990739153 * class1.certId;
 		else

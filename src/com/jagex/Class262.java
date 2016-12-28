@@ -158,7 +158,7 @@ public class Class262 {
 			npc.anInt11934 = client.anInt11124 * 1266166429;
 			if (npc.aClass296_12174 != null && npc.aClass296_12174.method3986(-198439992))
 				Class18.method688(npc, 1817244699);
-			npc.method11065((Class296) (Class172.aClass34_Sub7_1922.method70(buffer.readBits(15), (byte) -15)), 179188063);
+			npc.method11065((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(buffer.readBits(15), (byte) -15)), 179188063);
 			int i_7_ = (buffer.readBits(3) + 4 << 11 & 0x3fff);
 			int needsUpdate = buffer.readBits(1);
 			if (needsUpdate == 1)

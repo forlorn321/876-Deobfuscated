@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class190 {
 	int anInt2146;
-	Class606 aClass606_2147;
+	ObjShapes aClass606_2147;
 	int anInt2148;
 	int anInt2149;
 	int anInt2150;
@@ -29,7 +29,7 @@ public class Class190 {
 
 	boolean method2819(int i) {
 		if (-376823457 * anInt2151 >= 0) {
-			Class612 class612 = ((Class612) Class48.aClass34_Sub17_579.method70(-376823457 * anInt2151, (byte) -120));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) Class48.aClass34_Sub17_579.method70(-376823457 * anInt2151, (byte) -120));
 			boolean bool = class612.method7286(aClass606_2147.anInt7878 * -723459231, -1065371880);
 			int[] is = class612.method7295(-1922318465);
 			if (null != is) {
@@ -54,7 +54,7 @@ public class Class190 {
 
 	Class190(RSByteBuffer class536_sub33) {
 		anInt2151 = class536_sub33.readBigSmart() * -1653441889;
-		aClass606_2147 = ((Class606) Class682.method8091(Class145.method1800((byte) 41), class536_sub33.readUnsignedByte(), 1858049507));
+		aClass606_2147 = ((ObjShapes) Class682.method8091(Class145.method1800((byte) 41), class536_sub33.readUnsignedByte(), 1858049507));
 	}
 
 	void method2822() {
@@ -63,7 +63,7 @@ public class Class190 {
 
 	boolean method2823() {
 		if (-376823457 * anInt2151 >= 0) {
-			Class612 class612 = ((Class612) Class48.aClass34_Sub17_579.method70(-376823457 * anInt2151, (byte) -28));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) Class48.aClass34_Sub17_579.method70(-376823457 * anInt2151, (byte) -28));
 			boolean bool = class612.method7286(aClass606_2147.anInt7878 * -723459231, 1001699716);
 			int[] is = class612.method7295(-1919596937);
 			if (null != is) {

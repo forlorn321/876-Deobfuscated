@@ -13,7 +13,7 @@ public class Class617 {
 	public static final int anInt8070 = 4;
 	int[] anIntArray8071;
 	public int[] anIntArray8072;
-	Class12[] aClass12Array8073;
+	ItemEffects[] aClass12Array8073;
 	public static final int anInt8074 = -2147483648;
 	public int[] anIntArray8075;
 	public boolean aBool8076;
@@ -29,7 +29,7 @@ public class Class617 {
 		method7363(-1172750978);
 	}
 
-	public void method7340(int i, int[] is, Class12[] class12s, int[] is_0_, int[] is_1_, boolean bool, int i_2_, byte i_3_) {
+	public void method7340(int i, int[] is, ItemEffects[] class12s, int[] is_0_, int[] is_1_, boolean bool, int i_2_, byte i_3_) {
 		if (i != anInt8064 * -947248455)
 			anInt8064 = -983219319 * i;
 		anIntArray8071 = is;
@@ -70,9 +70,9 @@ public class Class617 {
 		}
 	}
 
-	public Class177 method7345(Class167 class167, int i, Class34_Sub16 class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_8_, Class688[] class688s, int[] is, int i_9_, boolean bool, Class631 class631, int i_10_) {
+	public Class177 method7345(Class167 class167, int i, BASTypeList class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_8_, Class688[] class688s, int[] is, int i_9_, boolean bool, Class631 class631, int i_10_) {
 		if (-1 != -587726343 * anInt8079)
-			return (((Class296) class34_sub7.method70(anInt8079 * -587726343, (byte) -27)).method3995(class167, i, class34_sub16, interface20, interface18, class688, class688_8_, class688s, is, i_9_, null, 978684503));
+			return (((NPCDecoder) class34_sub7.method70(anInt8079 * -587726343, (byte) -27)).method3995(class167, i, class34_sub16, interface20, interface18, class688, class688_8_, class688s, is, i_9_, null, 978684503));
 		int i_11_ = i;
 		long l = aLong8078 * 8665352308600706965L;
 		int[] is_12_ = anIntArray8071;
@@ -143,9 +143,9 @@ public class Class617 {
 		synchronized (aClass199_8081) {
 			class177 = (Class177) aClass199_8081.method2886(l);
 		}
-		Class589 class589 = null;
+		BASTypeDecoder class589 = null;
 		if (anInt8064 * -947248455 != -1)
-			class589 = (Class589) class34_sub16.method70(-947248455 * anInt8064, (byte) 93);
+			class589 = (BASTypeDecoder) class34_sub16.method70(-947248455 * anInt8064, (byte) 93);
 		if (null == class177 || class167.method2308(class177.method2466(), i_11_) != 0) {
 			if (null != class177)
 				i_11_ = class167.method2068(i_11_, class177.method2466());
@@ -153,7 +153,7 @@ public class Class617 {
 			boolean bool_26_ = false;
 			for (int i_27_ = 0; i_27_ < is_12_.length; i_27_++) {
 				int i_28_ = is_12_[i_27_];
-				Class12 class12 = null;
+				ItemEffects class12 = null;
 				boolean bool_29_ = false;
 				if (bool_13_) {
 					if (-81499919 * class631.anInt8242 == i_27_)
@@ -182,7 +182,7 @@ public class Class617 {
 				if ((i_28_ & 0x40000000) != 0) {
 					if (!bool_29_ && null != aClass12Array8073 && aClass12Array8073[i_27_] != null)
 						class12 = aClass12Array8073[i_27_];
-					if (!((ItemTypeDecoder) class34_sub13.method70(i_28_ & 0x3fffffff, (byte) 107)).method515(aBool8076, class12, -797291593))
+					if (!((ItemDecoder) class34_sub13.method70(i_28_ & 0x3fffffff, (byte) 107)).method515(aBool8076, class12, -797291593))
 						bool_26_ = true;
 				} else if ((i_28_ & ~0x7fffffff) != 0 && !((Class313) class34_sub2.method70(i_28_ & 0x3fffffff, (byte) -73)).method4187(-114291264))
 					bool_26_ = true;
@@ -199,12 +199,12 @@ public class Class617 {
 				Class180[] class180s = new Class180[is_12_.length];
 				for (int i_32_ = 0; i_32_ < is_12_.length; i_32_++) {
 					int i_33_ = is_12_[i_32_];
-					Class12 class12 = null;
+					ItemEffects class12 = null;
 					boolean bool_34_ = i_32_ == 5 && bool_13_ || 3 == i_32_ && bool_14_;
 					if ((i_33_ & 0x40000000) != 0) {
 						if (!bool_34_ && null != aClass12Array8073 && null != aClass12Array8073[i_32_])
 							class12 = aClass12Array8073[i_32_];
-						Class180 class180 = ((ItemTypeDecoder) class34_sub13.method70(i_33_ & 0x3fffffff, (byte) -106)).method509(aBool8076, class12, -1431934785);
+						Class180 class180 = ((ItemDecoder) class34_sub13.method70(i_33_ & 0x3fffffff, (byte) -106)).method509(aBool8076, class12, -1431934785);
 						if (class180 != null)
 							class180s[i_32_] = class180;
 					} else if (0 != (i_33_ & ~0x7fffffff)) {
@@ -310,7 +310,7 @@ public class Class617 {
 
 	public Class177 method7346(Class167 class167, int i, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Interface20 interface20, Interface18 interface18, Class688 class688, int i_50_) {
 		if (-1 != -587726343 * anInt8079)
-			return (((Class296) class34_sub7.method70(anInt8079 * -587726343, (byte) -64)).method3981(class167, i, interface20, interface18, class688, null, (short) -21847));
+			return (((NPCDecoder) class34_sub7.method70(anInt8079 * -587726343, (byte) -64)).method3981(class167, i, interface20, interface18, class688, null, (short) -21847));
 		int i_51_ = null != class688 ? i | class688.method8162((byte) 84) : i;
 		Class177 class177;
 		synchronized (aClass199_8082) {
@@ -323,11 +323,11 @@ public class Class617 {
 			boolean bool = false;
 			for (int i_53_ = 0; i_53_ < anIntArray8071.length; i_53_++) {
 				int i_54_ = anIntArray8071[i_53_];
-				Class12 class12 = null;
+				ItemEffects class12 = null;
 				if ((i_54_ & 0x40000000) != 0) {
 					if (aClass12Array8073 != null && aClass12Array8073[i_53_] != null)
 						class12 = aClass12Array8073[i_53_];
-					if (!((ItemTypeDecoder) class34_sub13.method70(i_54_ & 0x3fffffff, (byte) -18)).method514(aBool8076, class12, 1499603302))
+					if (!((ItemDecoder) class34_sub13.method70(i_54_ & 0x3fffffff, (byte) -18)).method514(aBool8076, class12, 1499603302))
 						bool = true;
 				} else if (0 != (i_54_ & ~0x7fffffff) && !((Class313) class34_sub2.method70(i_54_ & 0x3fffffff, (byte) -13)).method4192(1660830213))
 					bool = true;
@@ -338,11 +338,11 @@ public class Class617 {
 			int i_55_ = 0;
 			for (int i_56_ = 0; i_56_ < anIntArray8071.length; i_56_++) {
 				int i_57_ = anIntArray8071[i_56_];
-				Class12 class12 = null;
+				ItemEffects class12 = null;
 				if (0 != (i_57_ & 0x40000000)) {
 					if (null != aClass12Array8073 && aClass12Array8073[i_56_] != null)
 						class12 = aClass12Array8073[i_56_];
-					Class180 class180 = ((ItemTypeDecoder) class34_sub13.method70(i_57_ & 0x3fffffff, (byte) -5)).method517(aBool8076, class12, (byte) -79);
+					Class180 class180 = ((ItemDecoder) class34_sub13.method70(i_57_ & 0x3fffffff, (byte) -5)).method517(aBool8076, class12, (byte) -79);
 					if (class180 != null)
 						class180s[i_55_++] = class180;
 				} else if ((i_57_ & ~0x7fffffff) != 0) {
@@ -493,16 +493,16 @@ public class Class617 {
 							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) is_78_[i_80_]) & 0xffL)]));
 						}
 					}
-					if (null != aClass12Array8073[i].aShortArray155) {
-						for (int i_81_ = 0; (i_81_ < aClass12Array8073[i].aShortArray155.length); i_81_++) {
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i].aShortArray155[i_81_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
-							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i].aShortArray155[i_81_])) & 0xffL)]));
+					if (null != aClass12Array8073[i].modifiedColours) {
+						for (int i_81_ = 0; (i_81_ < aClass12Array8073[i].modifiedColours.length); i_81_++) {
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i].modifiedColours[i_81_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
+							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i].modifiedColours[i_81_])) & 0xffL)]));
 						}
 					}
-					if (aClass12Array8073[i].aShortArray156 != null) {
-						for (int i_82_ = 0; (i_82_ < aClass12Array8073[i].aShortArray156.length); i_82_++) {
-							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i].aShortArray156[i_82_]) >> 8)) & 0xffL)]));
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i].aShortArray156[i_82_])) & 0xffL)]) * -7740964439852778563L);
+					if (aClass12Array8073[i].modifiedTextures != null) {
+						for (int i_82_ = 0; (i_82_ < aClass12Array8073[i].modifiedTextures.length); i_82_++) {
+							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i].modifiedTextures[i_82_]) >> 8)) & 0xffL)]));
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i].modifiedTextures[i_82_])) & 0xffL)]) * -7740964439852778563L);
 						}
 					}
 				}
@@ -550,16 +550,16 @@ public class Class617 {
 							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) is_83_[i_85_]) & 0xffL)]));
 						}
 					}
-					if (null != aClass12Array8073[i].aShortArray155) {
-						for (int i_86_ = 0; (i_86_ < aClass12Array8073[i].aShortArray155.length); i_86_++) {
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i].aShortArray155[i_86_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
-							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i].aShortArray155[i_86_])) & 0xffL)]));
+					if (null != aClass12Array8073[i].modifiedColours) {
+						for (int i_86_ = 0; (i_86_ < aClass12Array8073[i].modifiedColours.length); i_86_++) {
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i].modifiedColours[i_86_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
+							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i].modifiedColours[i_86_])) & 0xffL)]));
 						}
 					}
-					if (aClass12Array8073[i].aShortArray156 != null) {
-						for (int i_87_ = 0; (i_87_ < aClass12Array8073[i].aShortArray156.length); i_87_++) {
-							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i].aShortArray156[i_87_]) >> 8)) & 0xffL)]));
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i].aShortArray156[i_87_])) & 0xffL)]) * -7740964439852778563L);
+					if (aClass12Array8073[i].modifiedTextures != null) {
+						for (int i_87_ = 0; (i_87_ < aClass12Array8073[i].modifiedTextures.length); i_87_++) {
+							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i].modifiedTextures[i_87_]) >> 8)) & 0xffL)]));
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i].modifiedTextures[i_87_])) & 0xffL)]) * -7740964439852778563L);
 						}
 					}
 				}
@@ -682,16 +682,16 @@ public class Class617 {
 							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) is_92_[i_94_]) & 0xffL)]));
 						}
 					}
-					if (null != aClass12Array8073[i_91_].aShortArray155) {
-						for (int i_95_ = 0; i_95_ < (aClass12Array8073[i_91_].aShortArray155).length; i_95_++) {
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i_91_].aShortArray155[i_95_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
-							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i_91_].aShortArray155[i_95_])) & 0xffL)]));
+					if (null != aClass12Array8073[i_91_].modifiedColours) {
+						for (int i_95_ = 0; i_95_ < (aClass12Array8073[i_91_].modifiedColours).length; i_95_++) {
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) ((aClass12Array8073[i_91_].modifiedColours[i_95_]) >> 8)) & 0xffL)]) * -7740964439852778563L);
+							aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) (aClass12Array8073[i_91_].modifiedColours[i_95_])) & 0xffL)]));
 						}
 					}
-					if (aClass12Array8073[i_91_].aShortArray156 != null) {
-						for (int i_96_ = 0; i_96_ < (aClass12Array8073[i_91_].aShortArray156).length; i_96_++) {
-							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i_91_].aShortArray156[i_96_]) >> 8)) & 0xffL)]));
-							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i_91_].aShortArray156[i_96_])) & 0xffL)]) * -7740964439852778563L);
+					if (aClass12Array8073[i_91_].modifiedTextures != null) {
+						for (int i_96_ = 0; i_96_ < (aClass12Array8073[i_91_].modifiedTextures).length; i_96_++) {
+							aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((aLong8078 * 8665352308600706965L) ^ (long) ((aClass12Array8073[i_91_].modifiedTextures[i_96_]) >> 8)) & 0xffL)]));
+							aLong8078 = ((8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) (((8665352308600706965L * aLong8078) ^ (long) (aClass12Array8073[i_91_].modifiedTextures[i_96_])) & 0xffL)]) * -7740964439852778563L);
 						}
 					}
 				}

@@ -83,7 +83,7 @@ public class Class533 {
 	}
 
 	static byte method6464(int i, int i_0_, int i_1_) {
-		if (-723459231 * Class606.aClass606_7873.anInt7878 != i)
+		if (-723459231 * ObjShapes.aClass606_7873.anInt7878 != i)
 			return (byte) 0;
 		if (0 == (i_0_ & 0x1))
 			return (byte) 1;

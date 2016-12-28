@@ -49,7 +49,7 @@ public class Class621 {
 		}
 	}
 
-	public Class621(Class461 class461) {
+	public Class621(JS5ResourceProvider class461) {
 		byte[] is = class461.method5595((Class633.aClass633_8254.anInt8258 * -848473139), -1439595114);
 		method7405(new RSByteBuffer(is), -998686963);
 	}

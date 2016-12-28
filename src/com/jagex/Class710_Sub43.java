@@ -9,7 +9,7 @@ public class Class710_Sub43 extends ClientSetting {
 	public static final int anInt10937 = 2;
 	public static final int anInt10938 = 1;
 	public static final int anInt10939 = 0;
-	public static Class461 aClass461_10940;
+	public static JS5ResourceProvider aClass461_10940;
 
 	int method8347(byte i) {
 		return 0;

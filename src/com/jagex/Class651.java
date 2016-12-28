@@ -39,7 +39,7 @@ public class Class651 {
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.op[i_1_];
 	}
 
-	public static Class2 method7862(Class461 class461, int i, int i_2_, Interface4 interface4, int i_3_) {
+	public static Class2 method7862(JS5ResourceProvider class461, int i, int i_2_, Interface4 interface4, int i_3_) {
 		byte[] is = class461.method5556(i, i_2_, (byte) 1);
 		if (is == null)
 			return null;

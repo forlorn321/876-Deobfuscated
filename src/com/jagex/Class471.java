@@ -58,7 +58,7 @@ public final class Class471 implements Comparable {
 	}
 
 	static void method5714(Class668 class668, int i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 47)).method3744(Class465_Sub1.aClass96_10352, (byte) -68) ? 1 : 0);
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 47)).method3744(Class465_Sub1.aClass96_10352, (byte) -68) ? 1 : 0);
 	}
 
 	static final void method5715(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {

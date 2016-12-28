@@ -54,24 +54,24 @@ public class Class650 implements Interface75 {
 			if (i_0_ == -1)
 				class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string;
 			else
-				class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Class277) Class38.aClass53_Sub2_481.method70(i_0_, (byte) 31)).method3742(i_1_, string, (byte) -7);
+				class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70(i_0_, (byte) 31)).method3742(i_1_, string, (byte) -7);
 		} else {
 			int i_2_ = 1566477951 * class73.anInt803;
 			if (i_0_ == -1)
 				class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_2_;
 			else
-				class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class277) Class38.aClass53_Sub2_481.method70(i_0_, (byte) 13)).method3741(i_1_, i_2_, -821325890);
+				class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70(i_0_, (byte) 13)).method3741(i_1_, i_2_, -821325890);
 		}
 	}
 
-	public static String method7859(long l, int i, boolean bool, Class664 class664, int i_3_) {
+	public static String method7859(long l, int i, boolean bool, Language class664, int i_3_) {
 		char c = ',';
 		char c_4_ = '.';
-		if (class664 == Class664.aClass664_8524) {
+		if (class664 == Language.aClass664_8524) {
 			c = '.';
 			c_4_ = ',';
 		}
-		if (class664 == Class664.aClass664_8516)
+		if (class664 == Language.aClass664_8516)
 			c_4_ = '\u00a0';
 		boolean bool_5_ = false;
 		if (l < 0L) {

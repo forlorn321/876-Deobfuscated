@@ -403,7 +403,7 @@ public class IncomingPacket {
 	}
 
 	static void method5067(Class668 class668, int i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -15)).method3749(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], 1096469077)) ? 1 : 0;
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -15)).method3749(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], 1096469077)) ? 1 : 0;
 		class668.anInt8542 -= -1411037171;
 	}
 

@@ -32,7 +32,7 @@ public class Class81 {
 					string_0_ = new StringBuilder().append(string_0_).append(" | ").toString();
 				string_0_ = new StringBuilder().append(string_0_).append(string).toString();
 			}
-			Class606.method7221(string_0_, (byte) 1);
+			ObjShapes.method7221(string_0_, (byte) 1);
 			string_0_ = Class629.method7500(string_0_, -994720658);
 			URL url = null;
 			if (null != Class249.anApplet2529)

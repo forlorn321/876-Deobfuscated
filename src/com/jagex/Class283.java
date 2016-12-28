@@ -330,7 +330,7 @@ public class Class283 implements Interface75 {
 									break;
 								}
 								if (244 == 1382700277 * Class76_Sub1.anInt10981) {
-									Class590.aClass147_Sub1_7791.method8403(942964895);
+									ObjTypeTransformation.aClass147_Sub1_7791.method8403(942964895);
 									Class61.loginStage = -1935222633;
 								} else
 									Class61.loginStage = -428365145;
@@ -466,7 +466,7 @@ public class Class283 implements Interface75 {
 							boolean bool = (Class586.aClass106_7710.byteBuffer.readUnsignedByte() == 1);
 							while (-810172525 * (Class586.aClass106_7710.byteBuffer.off) < (610303591 * Class586.aClass106_7710.anInt1262)) {
 								Class430 class430 = (Class309.aClass98_Sub1_Sub2_3465.method8388((Class586.aClass106_7710.byteBuffer), -114932957));
-								Class590.aClass147_Sub1_7791.anInterface3_1696.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -56);
+								ObjTypeTransformation.aClass147_Sub1_7791.anInterface3_1696.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -56);
 							}
 							if (bool) {
 								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(2043701963);
@@ -561,7 +561,7 @@ public class Class283 implements Interface75 {
 								new Thread(Class374.aClass33_3907).start();
 								Class172.anInt1923 = (stream.readUnsignedByte() * -2143180617);
 								Class66.anInt723 = (stream.readUnsignedShort() * -860628261);
-								Class307.anInt3454 = (stream.readUnsignedShort() * 434166907);
+								NPCHeadIconCustomization.anInt3454 = (stream.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = stream.readUnsignedByte() == 1;
 								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
 								Class646.anInt8360 = stream.readUnsignedByte() * 431261749;

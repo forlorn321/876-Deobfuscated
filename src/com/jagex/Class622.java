@@ -30,7 +30,7 @@ public class Class622 {
 	public static Applet anApplet8126;
 	public static int anInt8127;
 	public static Map aMap8128;
-	public static Class461 aClass461_8129;
+	public static JS5ResourceProvider aClass461_8129;
 
 	void method7414(RSByteBuffer class536_sub33, int i) {
 		for (;;) {
@@ -58,7 +58,7 @@ public class Class622 {
 		}
 	}
 
-	public Class622(Class461 class461) {
+	public Class622(JS5ResourceProvider class461) {
 		byte[] is = class461.method5595((Class633.aClass633_8252.anInt8258 * -848473139), -1878712891);
 		if (is != null) {
 			/* empty */

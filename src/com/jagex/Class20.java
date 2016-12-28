@@ -13,7 +13,7 @@ public class Class20 implements ConfigType, Interface7 {
 	public int anInt212;
 	public int anInt213;
 	public int anInt214;
-	public static Class461 aClass461_215;
+	public static JS5ResourceProvider aClass461_215;
 
 	public void method58(int i) {
 		/* empty */

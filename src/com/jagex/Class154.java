@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 class Class154 implements Runnable {
 	Class360_Sub2 this$0;
-	public static Class461 aClass461_1720;
+	public static JS5ResourceProvider aClass461_1720;
 
 	public void method1870() {
 		try {

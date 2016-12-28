@@ -13,7 +13,7 @@ public class Class34_Sub7 extends Class34 {
 		((Class309) anInterface6_289).method4148(1476951724);
 	}
 
-	public Class34_Sub7(GameMode class670, Class664 class664, boolean bool, Class461 class461, Class461 class461_0_) {
+	public Class34_Sub7(GameMode class670, Language class664, boolean bool, JS5ResourceProvider class461, JS5ResourceProvider class461_0_) {
 		super(class670, class664, class461, JS5ConfigGroup.NPC_TYPE, 64, new Class309_Sub1(bool, class461_0_, class664, class670));
 	}
 

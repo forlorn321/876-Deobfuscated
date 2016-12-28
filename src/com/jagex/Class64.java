@@ -49,7 +49,7 @@ final class Class64 implements Interface28 {
 	}
 
 	static boolean method1057(Interface59 interface59, byte i) {
-		Class612 class612 = ((Class612) client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 33), (byte) 49));
+		ObjTypeDecoder class612 = ((ObjTypeDecoder) client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 33), (byte) 49));
 		if (-1 == -1070948127 * class612.anInt7941)
 			return true;
 		Class56 class56 = ((Class56) Class602.aClass34_Sub1_7856.method70(class612.anInt7941 * -1070948127, (byte) 80));

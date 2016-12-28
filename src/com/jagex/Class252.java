@@ -17,7 +17,7 @@ public final class Class252 {
 	public static final long aLong2742 = 60000L;
 	static HashMap aHashMap2743 = new HashMap();
 	public static final long aLong2744 = 1000L;
-	static Class461 aClass461_2745;
+	static JS5ResourceProvider aClass461_2745;
 	public static int anInt2746;
 
 	static TimeZone method3515(int i) {
@@ -28,12 +28,12 @@ public final class Class252 {
 		throw new Error();
 	}
 
-	static String method3516(Date date, String string, TimeZone timezone, Class664 class664, byte i) {
+	static String method3516(Date date, String string, TimeZone timezone, Language class664, byte i) {
 		if (null == aMap2741) {
 			aMap2741 = new HashMap(7);
-			Class664[] class664s = Class664.method7995((byte) 11);
+			Language[] class664s = Language.method7995((byte) 11);
 			for (int i_0_ = 0; i_0_ < class664s.length; i_0_++) {
-				Class664 class664_1_ = class664s[i_0_];
+				Language class664_1_ = class664s[i_0_];
 				aMap2741.put(class664_1_, new ConcurrentLinkedQueue());
 			}
 		}
@@ -50,7 +50,7 @@ public final class Class252 {
 	}
 
 	public static String method3517(Date date, String string, byte i) {
-		return method3516(date, string, method3515(-235980715), Class664.aClass664_8524, (byte) -99);
+		return method3516(date, string, method3515(-235980715), Language.aClass664_8524, (byte) -99);
 	}
 
 	static {

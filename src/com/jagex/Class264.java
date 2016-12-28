@@ -146,7 +146,7 @@ public class Class264 {
 		return Class463.aClass234Array5227[interfaceId].getIComponentDefinitions(hash);
 	}
 
-	static void method3679(int i, int i_25_, int i_26_, int i_27_, int i_28_, int i_29_, Class590 class590, int i_30_) {
+	static void method3679(int i, int i_25_, int i_26_, int i_27_, int i_28_, int i_29_, ObjTypeTransformation class590, int i_30_) {
 		Class536_Sub2 class536_sub2 = null;
 		for (Class536_Sub2 class536_sub2_31_ = ((Class536_Sub2) Class536_Sub2.aClass708_10321.method8308(1867269829)); null != class536_sub2_31_; class536_sub2_31_ = (Class536_Sub2) Class536_Sub2.aClass708_10321.method8311(1755816957)) {
 			if (i == class536_sub2_31_.anInt10310 * -1676454841 && class536_sub2_31_.anInt10309 * 848380705 == i_25_ && i_26_ == class536_sub2_31_.anInt10312 * -499217723 && 702777497 * class536_sub2_31_.anInt10308 == i_27_) {

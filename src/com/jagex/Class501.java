@@ -43,7 +43,7 @@ public class Class501 {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
 				class536_sub42.anObjectArray10802 = class251.onTargetEnterHook;
-				Class618.method7388(class536_sub42, -1184053981);
+				PlayerStat.method7388(class536_sub42, -1184053981);
 			}
 			client.aBool11188 = true;
 			Class663.anInt8515 = class251.anInt2559 * -1249562935;

@@ -17,7 +17,7 @@ public class Class289 {
 	}
 
 	static void method3917(Class668 class668, byte i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 61)).anInt3032 * -829215053);
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 61)).anInt3032 * -829215053);
 	}
 
 	static final void method3918(Class668 class668, int i) {

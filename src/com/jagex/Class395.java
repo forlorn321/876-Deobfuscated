@@ -7,7 +7,7 @@ public class Class395 {
 	static Class395 aClass395_4106 = new Class395();
 	static Class395 aClass395_4107 = new Class395();
 	static Class395 aClass395_4108 = new Class395();
-	public static Class461 aClass461_4109;
+	public static JS5ResourceProvider aClass461_4109;
 
 	public int method4878(int i, int i_0_, int i_1_) {
 		int i_2_ = (Class144.anInt1679 * -1804846931 > i_0_ ? -1804846931 * Class144.anInt1679 : i_0_);

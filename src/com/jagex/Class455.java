@@ -173,7 +173,7 @@ public class Class455 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class39.aClass450_490.method5424(i_45_, 1711781633).aCharArray11761[i_46_]);
 	}
 
-	static final void method5479(int i, int i_47_, int i_48_, int i_49_, Class590 class590, int i_50_) {
+	static final void method5479(int i, int i_47_, int i_48_, int i_49_, ObjTypeTransformation class590, int i_50_) {
 		if (i_48_ >= 1 && i_49_ >= 1 && i_48_ <= client.aClass515_11066.method6321((byte) 35) - 2 && i_49_ <= client.aClass515_11066.method6243(177401017) - 2) {
 			if (client.aClass515_11066.method6249(-1481366149) != null) {
 				Interface59 interface59 = client.aClass515_11066.method6292(1417825298).method9380(i, i_47_, i_48_, i_49_, -1862702185);

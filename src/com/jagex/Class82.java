@@ -65,7 +65,7 @@ public class Class82 {
 		}
 	}
 
-	public Class82(Class461 class461, int i, int i_7_) {
+	public Class82(JS5ResourceProvider class461, int i, int i_7_) {
 		byte[] is = class461.method5556(i, i_7_, (byte) 1);
 		method1167(new RSByteBuffer(is), -53320811);
 	}

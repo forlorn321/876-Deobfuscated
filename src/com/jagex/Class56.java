@@ -160,7 +160,7 @@ public class Class56 implements ConfigType {
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = class251;
 					class536_sub42.anObjectArray10802 = class251.onDialogAbortHook;
-					Class618.method7388(class536_sub42, 1906304947);
+					PlayerStat.method7388(class536_sub42, 1906304947);
 				}
 				if (i == 1 && class251.onSubChangeHook != null) {
 					if (class251.anInt2546 * -809980533 >= 0) {
@@ -171,7 +171,7 @@ public class Class56 implements ConfigType {
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = class251;
 					class536_sub42.anObjectArray10802 = class251.onSubChangeHook;
-					Class618.method7388(class536_sub42, -1748882624);
+					PlayerStat.method7388(class536_sub42, -1748882624);
 				}
 			}
 		}

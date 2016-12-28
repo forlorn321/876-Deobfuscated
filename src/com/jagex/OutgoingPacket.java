@@ -289,7 +289,7 @@ public class OutgoingPacket {
 			if (3 == 155362615 * Class246.anInt2474) {
 				Class141.anInt1658 = 269246561 * i;
 				Class144.anInt1681 = 402508199 * i_2_;
-				Class304.anInt3440 = i_3_ * -2135395277;
+				NPCCustomization.anInt3440 = i_3_ * -2135395277;
 			}
 			Class18.method687((byte) 21);
 		}

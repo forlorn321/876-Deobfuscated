@@ -202,7 +202,7 @@ public abstract class Class608 {
 
 	abstract byte[] method7255(int i, int i_3_);
 
-	Class608(boolean bool, Class664 class664, GameMode class670) {
+	Class608(boolean bool, Language class664, GameMode class670) {
 		aClass199_7906 = new Class199(50);
 		aClass180Array7909 = new Class180[4];
 		aClass7_7903 = new Class7(null, null);

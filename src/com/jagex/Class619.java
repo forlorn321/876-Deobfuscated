@@ -27,7 +27,7 @@ public class Class619 {
 		}
 	}
 
-	public Class619(Class461 class461) {
+	public Class619(JS5ResourceProvider class461) {
 		byte[] is = class461.method5595((Class633.aClass633_8255.anInt8258 * -848473139), -1792324926);
 		if (null != is)
 			method7393(new RSByteBuffer(is), (byte) 105);
@@ -74,7 +74,7 @@ public class Class619 {
 		Class536_Sub2.aClass708_10320 = new Class708();
 		Class536_Sub2.aClass708_10321 = new Class708();
 		Class440.anInt4874 = 0;
-		Class606.anInt7898 = 0;
+		ObjShapes.anInt7898 = 0;
 		Class653.anInt8491 = 0;
 		Class584_Sub1.anInt10560 = 0;
 		Class234.anInt2381 = 0;
@@ -112,7 +112,7 @@ public class Class619 {
 		}
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11242 = true;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemTypeDecoder.aShortArray14 = new short[256];
+		ObjTypeDecoder.aShortArray7932 = NPCDecoder.aShortArray3267 = ItemDecoder.aShortArray14 = new short[256];
 		Class689.aString8692 = Class38.aClass38_310.method840(Class459.aClass664_5178, 1525670882);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.removeRoofSetting), ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9916(), (byte) 1);
 		client.anInt11063 = 0;

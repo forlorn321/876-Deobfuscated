@@ -7,7 +7,7 @@ public class Class218 implements Interface27 {
 	Class213 this$0;
 	static Interface24 anInterface24_2306;
 	public static Class66 aClass66_2307;
-	public static Class461 aClass461_2308;
+	public static JS5ResourceProvider aClass461_2308;
 
 	public void method153(Class226 class226) {
 		class226.method3239(-1071560982);

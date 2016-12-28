@@ -16,7 +16,7 @@ public class Class636 {
 	Class625 aClass625_8277;
 	Class625 aClass625_8278;
 	Class625 aClass625_8279;
-	Class461 aClass461_8280;
+	JS5ResourceProvider aClass461_8280;
 	Class642 aClass642_8281;
 	float aFloat8282;
 	Class199 aClass199_8283;
@@ -269,7 +269,7 @@ public class Class636 {
 		fs[0] = 0.0F;
 	}
 
-	public Class636(Class167 class167, Class461 class461, int i, int i_28_) {
+	public Class636(Class167 class167, JS5ResourceProvider class461, int i, int i_28_) {
 		anInt8273 = -408431021;
 		aLong8274 = 0L;
 		aBool8275 = false;

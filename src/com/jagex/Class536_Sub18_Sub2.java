@@ -169,7 +169,7 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements ConfigType, I
 	static final void method10490(Class668 class668, int i) {
 		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
 		String string = class649_sub1_sub5_sub1_sub1.aString12162;
-		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+		NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (null != class296.anIntArray3304) {
 			class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -14);
 			if (class296 == null)

@@ -48,7 +48,7 @@ public class Class643 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1515601291 * class251.xan2d;
 	}
 
-	static void method7736(Class167 class167, Class612 class612, int i, int i_1_, int i_2_, int i_3_) {
+	static void method7736(Class167 class167, ObjTypeDecoder class612, int i, int i_1_, int i_2_, int i_3_) {
 		Class56 class56 = ((Class56) Class602.aClass34_Sub1_7856.method70(class612.anInt7941 * -1070948127, (byte) -99));
 		if (class56.anInt604 * 1861642937 != -1) {
 			if (class612.aBool7970) {

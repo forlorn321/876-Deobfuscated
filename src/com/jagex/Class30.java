@@ -75,7 +75,7 @@ public class Class30 {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 
-	public static Class461 method785(JS5Archive class46, boolean bool, int i, boolean bool_8_, boolean bool_9_, byte i_10_) {
+	public static JS5ResourceProvider method785(JS5Archive class46, boolean bool, int i, boolean bool_8_, boolean bool_9_, byte i_10_) {
 		if (Class275.aClass459_Sub1Array3024 == null) {
 			Class275.aClass459_Sub1Array3024 = new Class459_Sub1[Class319.method4240(-1974867093)];
 			Class211.aMap2292 = new HashMap();
@@ -87,7 +87,7 @@ public class Class30 {
 		Class275.aClass459_Sub1Array3024[i_11_] = Class290.aClass426_3223.method5123(i_11_, class547, Class653.aClass547_8490, class46.method902(-1565860380), 691809011);
 		if (bool_9_)
 			Class275.aClass459_Sub1Array3024[i_11_].method9239(1206569215);
-		Class461 class461 = new Class461(Class275.aClass459_Sub1Array3024[i_11_], bool, i);
+		JS5ResourceProvider class461 = new JS5ResourceProvider(Class275.aClass459_Sub1Array3024[i_11_], bool, i);
 		Class211.aMap2292.put(class46, class461);
 		return class461;
 	}

@@ -4,7 +4,7 @@
 package com.jagex;
 
 public abstract class Class681 implements Interface6 {
-	Class461 aClass461_8645;
+	JS5ResourceProvider aClass461_8645;
 	Class199 aClass199_8646 = new Class199(60);
 	int anInt8647;
 	static int anInt8648;
@@ -70,7 +70,7 @@ public abstract class Class681 implements Interface6 {
 		}
 	}
 
-	Class681(Class461 class461) {
+	Class681(JS5ResourceProvider class461) {
 		aClass461_8645 = class461;
 	}
 

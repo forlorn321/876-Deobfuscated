@@ -76,8 +76,8 @@ public class Class611 implements Interface75 {
 			int i_7_ = 0;
 			int i_8_ = 0;
 			if (class248.aString2483 != null) {
-				i_8_ = Class618.aClass2_8091.method538(class248.aString2483, (Class144.anInt1679 * -1804846931), 0, null, (byte) 3);
-				i_7_ = Class618.aClass2_8091.method541(class248.aString2483, (Class144.anInt1679 * -1804846931), null, 601823666);
+				i_8_ = PlayerStat.aClass2_8091.method538(class248.aString2483, (Class144.anInt1679 * -1804846931), 0, null, (byte) 3);
+				i_7_ = PlayerStat.aClass2_8091.method541(class248.aString2483, (Class144.anInt1679 * -1804846931), null, 601823666);
 			}
 			int i_9_ = i_3_ / 2 + class536_sub41.anInt10797 * 2090600221;
 			int i_10_ = class536_sub41.anInt10798 * -279793543;

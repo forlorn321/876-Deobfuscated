@@ -9,8 +9,8 @@ import com.jagex.twitchtv.TwitchEventResult;
 
 public class Class397 implements Interface48 {
 	Class199 aClass199_4112 = new Class199(64);
-	Class461 aClass461_4113;
-	public static Class461 aClass461_4114;
+	JS5ResourceProvider aClass461_4113;
+	public static JS5ResourceProvider aClass461_4114;
 	static IComponentDefinitions[] aClass251Array4115;
 	static EventQueue anEventQueue4116;
 
@@ -44,7 +44,7 @@ public class Class397 implements Interface48 {
 		aClass199_4112.method2884((byte) -92);
 	}
 
-	public Class397(Class461 class461) {
+	public Class397(JS5ResourceProvider class461) {
 		aClass461_4113 = class461;
 	}
 

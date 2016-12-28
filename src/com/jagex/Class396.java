@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class396 implements Interface46 {
 	Class199 aClass199_4110 = new Class199(64);
-	Class461 aClass461_4111;
+	JS5ResourceProvider aClass461_4111;
 
 	public void method4882(int i) {
 		aClass199_4110.method2884((byte) -73);
@@ -43,7 +43,7 @@ public class Class396 implements Interface46 {
 		return class393;
 	}
 
-	public Class396(Class461 class461) {
+	public Class396(JS5ResourceProvider class461) {
 		aClass461_4111 = class461;
 	}
 
@@ -284,7 +284,7 @@ public class Class396 implements Interface46 {
 	}
 
 	static void method4888(Class668 class668, int i) {
-		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 17)).method3746(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], -1703726907)) ? 1 : 0;
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 17)).method3746(Class465_Sub1.aClass96_10352, class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1], -1703726907)) ? 1 : 0;
 		class668.anInt8542 -= -1411037171;
 	}
 

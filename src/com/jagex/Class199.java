@@ -299,7 +299,7 @@ public final class Class199 {
 	}
 
 	public static boolean method2907(int i, byte i_7_) {
-		return (i >= Class606.aClass606_7883.anInt7878 * -723459231 && i <= Class606.aClass606_7877.anInt7878 * -723459231);
+		return (i >= ObjShapes.aClass606_7883.anInt7878 * -723459231 && i <= ObjShapes.aClass606_7877.anInt7878 * -723459231);
 	}
 
 	public static void method2908(Class167 class167, int i) {
@@ -378,7 +378,7 @@ public final class Class199 {
 	}
 
 	static final void method2911(Class668 class668, int i) {
-		Class603_Sub1 class603_sub1 = Class674.method8027(-1488069988);
+		Class603_Sub1 class603_sub1 = AccountType.method8027(-1488069988);
 		if (null != class603_sub1) {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1812485199 * class603_sub1.anInt10557;
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class603_sub1.worldFlags * -1176655995;

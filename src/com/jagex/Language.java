@@ -5,22 +5,22 @@ package com.jagex;
 
 import java.util.Locale;
 
-public class Class664 implements Interface75 {
-	public static Class664 aClass664_8516;
+public class Language implements Interface75 {
+	public static Language aClass664_8516;
 	String aString8517;
 	public static final int anInt8518 = 7;
-	public static Class664 aClass664_8519;
-	static Class664 aClass664_8520;
-	public static Class664 aClass664_8521;
-	public static Class664 aClass664_8522;
+	public static Language aClass664_8519;
+	static Language aClass664_8520;
+	public static Language aClass664_8521;
+	public static Language aClass664_8522;
 	String aString8523;
-	public static Class664 aClass664_8524 = new Class664("EN", "en", "English", Class678.aClass678_8619, 0, "GB");
-	public static Class664 aClass664_8525 = new Class664("DE", "de", "German", Class678.aClass678_8619, 1, "DE");
+	public static Language aClass664_8524 = new Language("EN", "en", "English", Class678.aClass678_8619, 0, "GB");
+	public static Language aClass664_8525 = new Language("DE", "de", "German", Class678.aClass678_8619, 1, "DE");
 	public int anInt8526;
 	Locale aLocale8527;
-	static Class664[] aClass664Array8528;
+	static Language[] aClass664Array8528;
 
-	Class664(String string, String string_0_, String string_1_, Class678 class678, int i, String string_2_) {
+	Language(String string, String string_0_, String string_1_, Class678 class678, int i, String string_2_) {
 		aString8523 = string;
 		aString8517 = string_0_;
 		anInt8526 = -980324837 * i;
@@ -38,7 +38,7 @@ public class Class664 implements Interface75 {
 		return method7992(1867269829).toLowerCase(Locale.ENGLISH);
 	}
 
-	public static Class664 method7989(int i, int i_3_) {
+	public static Language method7989(int i, int i_3_) {
 		if (i < 0 || i >= aClass664Array8528.length)
 			return null;
 		return aClass664Array8528[i];
@@ -52,16 +52,16 @@ public class Class664 implements Interface75 {
 	}
 
 	static {
-		aClass664_8516 = new Class664("FR", "fr", "French", Class678.aClass678_8619, 2, "FR");
-		aClass664_8519 = new Class664("PT", "pt", "Portuguese", Class678.aClass678_8619, 3, "BR");
-		aClass664_8520 = new Class664("NL", "nl", "Dutch", Class678.aClass678_8613, 4, "NL");
-		aClass664_8521 = new Class664("ES", "es", "Spanish", Class678.aClass678_8613, 5, "ES");
-		aClass664_8522 = new Class664("ES_MX", "es-mx", "Spanish (Latin American)", Class678.aClass678_8619, 6, "MX");
-		Class664[] class664s = method7995((byte) 17);
-		aClass664Array8528 = new Class664[class664s.length];
-		Class664[] class664s_5_ = class664s;
+		aClass664_8516 = new Language("FR", "fr", "French", Class678.aClass678_8619, 2, "FR");
+		aClass664_8519 = new Language("PT", "pt", "Portuguese", Class678.aClass678_8619, 3, "BR");
+		aClass664_8520 = new Language("NL", "nl", "Dutch", Class678.aClass678_8613, 4, "NL");
+		aClass664_8521 = new Language("ES", "es", "Spanish", Class678.aClass678_8613, 5, "ES");
+		aClass664_8522 = new Language("ES_MX", "es-mx", "Spanish (Latin American)", Class678.aClass678_8619, 6, "MX");
+		Language[] class664s = method7995((byte) 17);
+		aClass664Array8528 = new Language[class664s.length];
+		Language[] class664s_5_ = class664s;
 		for (int i = 0; i < class664s_5_.length; i++) {
-			Class664 class664 = class664s_5_[i];
+			Language class664 = class664s_5_[i];
 			if (null != aClass664Array8528[class664.anInt8526 * -1919173613])
 				throw new IllegalStateException();
 			aClass664Array8528[-1919173613 * class664.anInt8526] = class664;
@@ -96,8 +96,8 @@ public class Class664 implements Interface75 {
 		return method7992(1867269829).toLowerCase(Locale.ENGLISH);
 	}
 
-	public static Class664[] method7995(byte i) {
-		return new Class664[] { aClass664_8516, aClass664_8525, aClass664_8521, aClass664_8519, aClass664_8524, aClass664_8520, aClass664_8522 };
+	public static Language[] method7995(byte i) {
+		return new Language[] { aClass664_8516, aClass664_8525, aClass664_8521, aClass664_8519, aClass664_8524, aClass664_8520, aClass664_8522 };
 	}
 
 	static final void method7996(Class668 class668, int i) {

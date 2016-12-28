@@ -13,7 +13,7 @@ public class Class631 {
 	public int[] anIntArray8244;
 	public int[] anIntArray8245;
 
-	public Class631(Class461 class461) {
+	public Class631(JS5ResourceProvider class461) {
 		byte[] is = class461.method5595((-848473139 * Class633.aClass633_8256.anInt8258), -1334086885);
 		method7529(new RSByteBuffer(is), 175597207);
 	}
@@ -148,7 +148,7 @@ public class Class631 {
 				for (int i_22_ = 0; i_22_ < Class101.anInt1199 * -1314589555; i_22_++) {
 					int i_23_ = 4 * Class101.anIntArray1198[i_22_] + 2 - i_11_ / 128;
 					int i_24_ = 2 + 4 * Class101.anIntArray1203[i_22_] - i_12_ / 128;
-					Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70(Class101.anIntArray1202[i_22_], (byte) -49)));
+					ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70(Class101.anIntArray1202[i_22_], (byte) -49)));
 					if (null != class612.anIntArray7988) {
 						class612 = class612.method7293(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) 69);
 						if (class612 == null || -1 == -876565287 * class612.anInt7994)

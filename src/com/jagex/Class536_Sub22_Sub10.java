@@ -49,14 +49,14 @@ public class Class536_Sub22_Sub10 extends Class536_Sub22 {
 	static boolean method10696(Interface59 interface59, Class34_Sub17 class34_sub17, int i, int i_0_, byte i_1_) {
 		if (interface59 == null)
 			return false;
-		Class612 class612 = ((Class612) class34_sub17.method70(interface59.method373((byte) 16), (byte) 64));
+		ObjTypeDecoder class612 = ((ObjTypeDecoder) class34_sub17.method70(interface59.method373((byte) 16), (byte) 64));
 		if (class612.aBool8001 && !client.aBool11123)
 			return false;
 		int i_2_ = class612.anInt7994 * -876565287;
 		if (class612.anIntArray7988 != null) {
 			for (int i_3_ = 0; i_3_ < class612.anIntArray7988.length; i_3_++) {
 				if (-1 != class612.anIntArray7988[i_3_]) {
-					Class612 class612_4_ = ((Class612) class34_sub17.method70((class612.anIntArray7988[i_3_]), (byte) -61));
+					ObjTypeDecoder class612_4_ = ((ObjTypeDecoder) class34_sub17.method70((class612.anIntArray7988[i_3_]), (byte) -61));
 					if (-876565287 * class612_4_.anInt7994 >= 0)
 						i_2_ = class612_4_.anInt7994 * -876565287;
 				}

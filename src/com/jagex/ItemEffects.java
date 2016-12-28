@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class12 {
+public class ItemEffects {
 	static final int anInt146 = 8;
 	static final int anInt147 = 4;
 	static final int anInt148 = 2;
@@ -13,10 +13,10 @@ public class Class12 {
 	public int[] anIntArray152 = new int[3];
 	public int[] anIntArray153 = new int[2];
 	public int[] anIntArray154 = new int[2];
-	public short[] aShortArray155;
-	public short[] aShortArray156;
+	public short[] modifiedColours;
+	public short[] modifiedTextures;
 
-	Class12(ItemTypeDecoder class1) {
+	ItemEffects(ItemDecoder class1) {
 		anIntArray149[0] = class1.maleEquip1 * -64038767;
 		anIntArray149[1] = 661594531 * class1.maleEquip2;
 		anIntArray149[2] = 1280785913 * class1.maleEquipModelId3;
@@ -28,12 +28,12 @@ public class Class12 {
 		anIntArray154[0] = class1.anInt59 * 1399733061;
 		anIntArray154[1] = class1.anInt82 * 1550687287;
 		if (class1.modifiedModelColors != null) {
-			aShortArray155 = new short[class1.modifiedModelColors.length];
-			System.arraycopy(class1.modifiedModelColors, 0, aShortArray155, 0, aShortArray155.length);
+			modifiedColours = new short[class1.modifiedModelColors.length];
+			System.arraycopy(class1.modifiedModelColors, 0, modifiedColours, 0, modifiedColours.length);
 		}
 		if (null != class1.modifiedTextureColors) {
-			aShortArray156 = new short[class1.modifiedTextureColors.length];
-			System.arraycopy(class1.modifiedTextureColors, 0, aShortArray156, 0, aShortArray156.length);
+			modifiedTextures = new short[class1.modifiedTextureColors.length];
+			System.arraycopy(class1.modifiedTextureColors, 0, modifiedTextures, 0, modifiedTextures.length);
 		}
 	}
 

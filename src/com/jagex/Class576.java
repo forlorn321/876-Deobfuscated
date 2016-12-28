@@ -12,7 +12,7 @@ public class Class576 {
 	float aFloat7684;
 	int anInt7685;
 	LinkedList aLinkedList7686;
-	public static Class461 aClass461_7687;
+	public static JS5ResourceProvider aClass461_7687;
 
 	Class576(int i, LinkedList linkedlist, int i_0_, int i_1_, float f) {
 		anInt7681 = i * 1179250793;

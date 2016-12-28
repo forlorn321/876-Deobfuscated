@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class444 implements Interface5 {
-	Class461 aClass461_4880;
+	JS5ResourceProvider aClass461_4880;
 	int anInt4881;
 
 	public int method47() {
@@ -19,7 +19,7 @@ public class Class444 implements Interface5 {
 		return aClass461_4880.method5562(anInt4881 * -905170181, -2088005174);
 	}
 
-	Class444(Class461 class461, int i) {
+	Class444(JS5ResourceProvider class461, int i) {
 		aClass461_4880 = class461;
 		anInt4881 = i * -1999763405;
 	}
@@ -51,7 +51,7 @@ public class Class444 implements Interface5 {
 
 	static final void method5393(Class668 class668, byte i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -27);
+		ItemDecoder class1 = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -27);
 		if (208949951 * class1.anInt64 >= 0 && 989214201 * class1.anInt67 >= 0)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class1.anInt67 * 989214201;
 		else

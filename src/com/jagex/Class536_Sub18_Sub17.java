@@ -5,9 +5,9 @@ package com.jagex;
 
 public class Class536_Sub18_Sub17 extends Class536_Sub18 {
 	Class185[] aClass185Array11815;
-	static Class461 aClass461_11816;
+	static JS5ResourceProvider aClass461_11816;
 	int anInt11817;
-	static Class461 aClass461_11818;
+	static JS5ResourceProvider aClass461_11818;
 	byte[][] aByteArrayArray11819;
 
 	public boolean method10791(int i) {

@@ -8,8 +8,8 @@ import java.util.Iterator;
 public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 	static int anInt11323;
 	Class199 aClass199_11324 = new Class199(64);
-	Class461 aClass461_11325;
-	public static Class461 aClass461_11326;
+	JS5ResourceProvider aClass461_11325;
+	public static JS5ResourceProvider aClass461_11326;
 
 	public int method73() {
 		return super.method71(1702716710);
@@ -113,7 +113,7 @@ public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 		}
 	}
 
-	public Class98_Sub1_Sub1(GameMode class670, Class458 class458, Class664 class664, Class461 class461) {
+	public Class98_Sub1_Sub1(GameMode class670, Class458 class458, Language class664, JS5ResourceProvider class461) {
 		super(class670, class458, class664, (null != class461 ? class461.method5566((class458.method5498(1821017415).id * 1716263195), 1053953900) : 0));
 		aClass461_11325 = class461;
 	}

@@ -109,6 +109,6 @@ public class AnimationDetailSetting extends ClientSetting {
 		Class685.anInt8665 = ((int) class436.aFloat4853 - (class598.anInt7840 * 1479112045 << 9)) * 717279039;
 		Class141.anInt1658 = ((int) ((double) Class683.aClass301_Sub1_8651.method4058((byte) -6) * 2607.5945876176133) & 0x3fff) * 269246561;
 		Class144.anInt1681 = ((int) ((double) Class683.aClass301_Sub1_8651.method4092((byte) 78) * 2607.5945876176133) & 0x3fff) * 402508199;
-		Class304.anInt3440 = 0;
+		NPCCustomization.anInt3440 = 0;
 	}
 }

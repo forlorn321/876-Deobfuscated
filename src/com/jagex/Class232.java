@@ -66,7 +66,7 @@ public class Class232 implements Interface27 {
 	}
 
 	static byte method3326(int i, int i_11_, byte i_12_) {
-		if (i != -723459231 * Class606.aClass606_7873.anInt7878)
+		if (i != -723459231 * ObjShapes.aClass606_7873.anInt7878)
 			return (byte) 0;
 		if ((i_11_ & 0x1) == 0)
 			return (byte) 1;

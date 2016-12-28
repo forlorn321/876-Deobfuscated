@@ -52,7 +52,7 @@ public class Class509 {
 	}
 
 	static void method6182(Class668 class668, byte i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -3)).anIntArrayArray3037[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]][0]);
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 2] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -3)).anIntArrayArray3037[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]][0]);
 		class668.anInt8542 -= -1411037171;
 	}
 }

@@ -32,7 +32,7 @@ public class Class34_Sub1 extends Class34 {
 		((Class76) anInterface6_289).method1144((byte) 28);
 	}
 
-	public Class34_Sub1(GameMode class670, Class664 class664, Class461 class461, Class461 class461_3_) {
+	public Class34_Sub1(GameMode class670, Language class664, JS5ResourceProvider class461, JS5ResourceProvider class461_3_) {
 		super(class670, class664, class461, JS5ConfigGroup.MSI_TYPE, 64, new Class76_Sub1(class461_3_, 64));
 	}
 

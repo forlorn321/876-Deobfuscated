@@ -86,7 +86,7 @@ public class Class97 {
 	}
 
 	static int method1321(int i, int i_10_, int i_11_) {
-		if (i == Class606.aClass606_7874.anInt7878 * -723459231 || -723459231 * Class606.aClass606_7876.anInt7878 == i)
+		if (i == ObjShapes.aClass606_7874.anInt7878 * -723459231 || -723459231 * ObjShapes.aClass606_7876.anInt7878 == i)
 			return Class649_Sub1_Sub3_Sub2.anIntArray12027[i_10_ & 0x3];
 		return Class649_Sub1_Sub3_Sub2.anIntArray12031[i_10_ & 0x3];
 	}

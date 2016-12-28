@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class613 {
 	public static final int anInt8012 = 6;
-	public static Class461 aClass461_8013;
+	public static JS5ResourceProvider aClass461_8013;
 	public static Class263 aClass263_8014;
 
 	Class613() throws Throwable {

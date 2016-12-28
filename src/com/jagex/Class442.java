@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class442 implements Interface5 {
-	Class461 aClass461_4877;
+	JS5ResourceProvider aClass461_4877;
 
 	public Class50 method46() {
 		return Class50.aClass50_582;
@@ -34,7 +34,7 @@ public class Class442 implements Interface5 {
 		return Class50.aClass50_582;
 	}
 
-	Class442(Class461 class461) {
+	Class442(JS5ResourceProvider class461) {
 		aClass461_4877 = class461;
 	}
 
@@ -68,7 +68,7 @@ public class Class442 implements Interface5 {
 
 	static final void method5335(byte i) {
 		for (Class521_Sub5 class521_sub5 = ((Class521_Sub5) client.aClass695_11131.method8213(-1423263947)); class521_sub5 != null; class521_sub5 = ((Class521_Sub5) client.aClass695_11131.method8213(-1423263947)))
-			ItemTypeDecoder.method524(class521_sub5, (byte) -60);
+			ItemDecoder.method524(class521_sub5, (byte) -60);
 		int i_3_ = 0;
 		int i_4_ = 3;
 		if (1542697723 * client.anInt11074 == 4) {

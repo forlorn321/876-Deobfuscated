@@ -9,7 +9,7 @@ public class Class34_Sub14 extends Class34 {
 	public static final int anInt10969 = 64;
 	static long aLong10970;
 
-	public Class34_Sub14(GameMode class670, Class664 class664, Class461 class461, Map map) {
+	public Class34_Sub14(GameMode class670, Language class664, JS5ResourceProvider class461, Map map) {
 		super(class670, class664, class461, JS5ConfigGroup.VAR_BIT, 64, new Class325_Sub1(map));
 	}
 

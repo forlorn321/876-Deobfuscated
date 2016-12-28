@@ -46,7 +46,7 @@ public class Class665 {
 					i_13_ >>= 2;
 					int i_15_ = i + i_12_;
 					int i_16_ = i_0_ + i_11_;
-					Class612 class612 = (Class612) class34_sub17.method70(i_6_, (byte) 62);
+					ObjTypeDecoder class612 = (ObjTypeDecoder) class34_sub17.method70(i_6_, (byte) 62);
 					int i_17_;
 					int i_18_;
 					if (0 == (i_14_ & 0x1)) {
@@ -57,7 +57,7 @@ public class Class665 {
 						i_18_ = class612.anInt8002 * -1981381335;
 					}
 					if (i_15_ < i_1_ && i_16_ < i_2_ && i_17_ + i_15_ >= 0 && i_16_ + i_18_ >= 0) {
-						if ((-723459231 * Class606.aClass606_7895.anInt7878 != i_13_) || ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method9932(-2015548878) != 0 || 0 != 1248110961 * class612.anInt7953 || 1 == -1137177093 * class612.anInt7952 || class612.aBool7945) {
+						if ((-723459231 * ObjShapes.aClass606_7895.anInt7878 != i_13_) || ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method9932(-2015548878) != 0 || 0 != 1248110961 * class612.anInt7953 || 1 == -1137177093 * class612.anInt7952 || class612.aBool7945) {
 							if (!class612.method7292(class656_3_, (byte) -53)) {
 								class656.anInt8497 = -994926531 * i_6_;
 								i_5_++;

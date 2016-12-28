@@ -181,7 +181,7 @@ public class Class494 {
 								int i_51_ = 0;
 								Class536_Sub6 class536_sub6 = ((Class536_Sub6) class536_sub9.aClass708_10433.method8309(2096815466));
 								while (null != class536_sub6) {
-									ItemTypeDecoder class1 = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((class536_sub6.anInt10419 * 1696543099), (byte) 51)));
+									ItemDecoder class1 = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70((class536_sub6.anInt10419 * 1696543099), (byte) 51)));
 									int i_52_;
 									if (class1.aBool84)
 										i_52_ = class1.anInt40 * 676567643;
@@ -226,7 +226,7 @@ public class Class494 {
 						}
 						if (class563.aClass649_Sub1_7582 instanceof Interface59) {
 							Interface59 interface59 = (Interface59) class563.aClass649_Sub1_7582;
-							Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -50), (byte) 48)));
+							ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -50), (byte) 48)));
 							if (null != class612.anIntArray7988)
 								class612 = class612.method7293((Class465_Sub1.aClass96_10352), (Class465_Sub1.aClass96_10352), (byte) 37);
 							if (class612 != null) {

@@ -24,81 +24,82 @@ final class Class275 implements Interface29 {
 		return Class30.method780(string, (byte) -108);
 	}
 
-	static Class12 method3736(ItemTypeDecoder class1, RSByteBuffer class536_sub33, int i, int i_0_) {
-		Class12 class12 = new Class12(class1);
-		int i_1_ = class536_sub33.readUnsignedByte();
+	static ItemEffects readItemEffects(ItemDecoder decoder, RSByteBuffer buffer, int version) {
+		//i is always 2?
+		ItemEffects effects = new ItemEffects(decoder);
+		int i_1_ = buffer.readUnsignedByte();
 		boolean bool = (i_1_ & 0x1) != 0;
 		boolean bool_2_ = 0 != (i_1_ & 0x2);
-		boolean bool_3_ = (i_1_ & 0x4) != 0;
-		boolean bool_4_ = (i_1_ & 0x8) != 0;
+		boolean recolour = (i_1_ & 0x4) != 0;
+		boolean retexture = (i_1_ & 0x8) != 0;
 		if (bool) {
-			if (i <= 1) {
-				class12.anIntArray149[0] = class536_sub33.readUnsignedShort();
-				class12.anIntArray152[0] = class536_sub33.readUnsignedShort();
+			if (version <= 1) {
+				effects.anIntArray149[0] = buffer.readUnsignedShort();
+				effects.anIntArray152[0] = buffer.readUnsignedShort();
 			} else {
-				class12.anIntArray149[0] = class536_sub33.readBigSmart();
-				class12.anIntArray152[0] = class536_sub33.readBigSmart();
+				effects.anIntArray149[0] = buffer.readBigSmart();
+				effects.anIntArray152[0] = buffer.readBigSmart();
 			}
-			if (-1 != class1.maleEquip2 * 661594531 || -490119801 * class1.femaleEquip2 != -1) {
-				if (i <= 1) {
-					class12.anIntArray149[1] = class536_sub33.readUnsignedShort();
-					class12.anIntArray152[1] = class536_sub33.readUnsignedShort();
+			if (-1 != decoder.maleEquip2 * 661594531 || -490119801 * decoder.femaleEquip2 != -1) {
+				if (version <= 1) {
+					effects.anIntArray149[1] = buffer.readUnsignedShort();
+					effects.anIntArray152[1] = buffer.readUnsignedShort();
 				} else {
-					class12.anIntArray149[1] = class536_sub33.readBigSmart();
-					class12.anIntArray152[1] = class536_sub33.readBigSmart();
+					effects.anIntArray149[1] = buffer.readBigSmart();
+					effects.anIntArray152[1] = buffer.readBigSmart();
 				}
 			}
-			if (-1 != 1280785913 * class1.maleEquipModelId3 || class1.femaleEquipModelId3 * 835049345 != -1) {
-				if (i <= 1) {
-					class12.anIntArray149[2] = class536_sub33.readUnsignedShort();
-					class12.anIntArray152[2] = class536_sub33.readUnsignedShort();
+			if (-1 != 1280785913 * decoder.maleEquipModelId3 || decoder.femaleEquipModelId3 * 835049345 != -1) {
+				if (version <= 1) {
+					effects.anIntArray149[2] = buffer.readUnsignedShort();
+					effects.anIntArray152[2] = buffer.readUnsignedShort();
 				} else {
-					class12.anIntArray149[2] = class536_sub33.readBigSmart();
-					class12.anIntArray152[2] = class536_sub33.readBigSmart();
+					effects.anIntArray149[2] = buffer.readBigSmart();
+					effects.anIntArray152[2] = buffer.readBigSmart();
 				}
 			}
 		}
 		if (bool_2_) {
-			if (i <= 1) {
-				class12.anIntArray153[0] = class536_sub33.readUnsignedShort();
-				class12.anIntArray154[0] = class536_sub33.readUnsignedShort();
+			if (version <= 1) {
+				effects.anIntArray153[0] = buffer.readUnsignedShort();
+				effects.anIntArray154[0] = buffer.readUnsignedShort();
 			} else {
-				class12.anIntArray153[0] = class536_sub33.readBigSmart();
-				class12.anIntArray154[0] = class536_sub33.readBigSmart();
+				effects.anIntArray153[0] = buffer.readBigSmart();
+				effects.anIntArray154[0] = buffer.readBigSmart();
 			}
-			if (-1 != class1.anInt58 * -869646663 || class1.anInt82 * 1550687287 != -1) {
-				if (i <= 1) {
-					class12.anIntArray153[1] = class536_sub33.readUnsignedShort();
-					class12.anIntArray154[1] = class536_sub33.readUnsignedShort();
+			if (-1 != decoder.anInt58 * -869646663 || decoder.anInt82 * 1550687287 != -1) {
+				if (version <= 1) {
+					effects.anIntArray153[1] = buffer.readUnsignedShort();
+					effects.anIntArray154[1] = buffer.readUnsignedShort();
 				} else {
-					class12.anIntArray153[1] = class536_sub33.readBigSmart();
-					class12.anIntArray154[1] = class536_sub33.readBigSmart();
+					effects.anIntArray153[1] = buffer.readBigSmart();
+					effects.anIntArray154[1] = buffer.readBigSmart();
 				}
 			}
 		}
-		if (bool_3_) {
-			int i_5_ = class536_sub33.readUnsignedShort();
-			int[] is = new int[4];
-			is[0] = i_5_ & 0xf;
-			is[1] = i_5_ >> 4 & 0xf;
-			is[2] = i_5_ >> 8 & 0xf;
-			is[3] = i_5_ >> 12 & 0xf;
-			for (int i_6_ = 0; i_6_ < 4; i_6_++) {
-				if (15 != is[i_6_])
-					class12.aShortArray155[is[i_6_]] = (short) class536_sub33.readUnsignedShort();
+		if (recolour) {
+			int colourHash = buffer.readUnsignedShort();
+			int[] colours = new int[4];
+			colours[0] = colourHash & 0xf;
+			colours[1] = colourHash >> 4 & 0xf;
+			colours[2] = colourHash >> 8 & 0xf;
+			colours[3] = colourHash >> 12 & 0xf;
+			for (int index = 0; index < 4; index++) {
+				if (15 != colours[index])
+					effects.modifiedColours[colours[index]] = (short) buffer.readUnsignedShort();
 			}
 		}
-		if (bool_4_) {
-			int i_7_ = class536_sub33.readUnsignedByte();
-			int[] is = new int[2];
-			is[0] = i_7_ & 0xf;
-			is[1] = i_7_ >> 4 & 0xf;
-			for (int i_8_ = 0; i_8_ < 2; i_8_++) {
-				if (is[i_8_] != 15)
-					class12.aShortArray156[is[i_8_]] = (short) class536_sub33.readUnsignedShort();
+		if (retexture) {
+			int textureHash = buffer.readUnsignedByte();
+			int[] textures = new int[2];
+			textures[0] = textureHash & 0xf;
+			textures[1] = textureHash >> 4 & 0xf;
+			for (int index = 0; index < 2; index++) {
+				if (textures[index] != 15)
+					effects.modifiedTextures[textures[index]] = (short) buffer.readUnsignedShort();
 			}
 		}
-		return class12;
+		return effects;
 	}
 
 	public static final void method3737(boolean bool, int i) {

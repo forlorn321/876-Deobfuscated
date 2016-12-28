@@ -8,7 +8,7 @@ public class Class452 implements Interface75 {
 	public static Class452 aClass452_4950;
 	public static Class452 aClass452_4951;
 	public static Class452 aClass452_4952 = new Class452(0);
-	static Class461 aClass461_4953;
+	static JS5ResourceProvider aClass461_4953;
 
 	public int method78() {
 		return anInt4949 * -1477714257;

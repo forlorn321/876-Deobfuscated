@@ -326,7 +326,7 @@ public class Class465_Sub1 extends Class465 {
 				int i_83_ = i_82_ >> 2;
 				int i_84_ = i_82_ & 0x3;
 				if (i_70_ == i_81_ && i_80_ >= i_71_ && i_80_ < i_71_ + 8 && i_79_ >= i_72_ && i_79_ < i_72_ + 8) {
-					Class612 class612 = ((Class612) aClass34_Sub17_10351.method70(i_75_, (byte) 15));
+					ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_10351.method70(i_75_, (byte) 15));
 					int i_85_;
 					int i_86_;
 					if (0 == (i_84_ & 0x1)) {
@@ -340,7 +340,7 @@ public class Class465_Sub1 extends Class465 {
 					int i_88_ = (i_69_ + Class567_Sub1.method9876(i_80_ & 0x7, i_79_ & 0x7, i_73_, (-1981381335 * class612.anInt8002), (class612.anInt7980 * -90266503), i_84_, 177323065));
 					int i_89_ = i_87_ + i_85_;
 					int i_90_ = i_88_ + i_86_;
-					if (i_87_ < 312855363 * anInt5242 && i_88_ < -183622811 * anInt5284 && i_89_ > 0 && i_90_ > 0 && ((Class606.aClass606_7880.anInt7878 * -723459231 == i_83_) || (Class606.aClass606_7894.anInt7878 * -723459231 == i_83_) || (i_87_ > 0 && i_88_ > 0 && i_87_ < anInt5242 * 312855363 - 1 && i_88_ < anInt5284 * -183622811 - 1)))
+					if (i_87_ < 312855363 * anInt5242 && i_88_ < -183622811 * anInt5284 && i_89_ > 0 && i_90_ > 0 && ((ObjShapes.aClass606_7880.anInt7878 * -723459231 == i_83_) || (ObjShapes.aClass606_7894.anInt7878 * -723459231 == i_83_) || (i_87_ > 0 && i_88_ > 0 && i_87_ < anInt5242 * 312855363 - 1 && i_88_ < anInt5284 * -183622811 - 1)))
 						method9379(class167, i, i, i_87_, i_88_, i_75_, i_84_ + i_73_ & 0x3, i_83_, -1, 0, -1678104792);
 				}
 			}
@@ -350,7 +350,7 @@ public class Class465_Sub1 extends Class465 {
 	final void method9379(Class167 class167, int i, int i_91_, int i_92_, int i_93_, int i_94_, int i_95_, int i_96_, int i_97_, int i_98_, int i_99_) {
 		if (i_91_ < anInt10339 * 1660037511)
 			anInt10339 = -1099740105 * i_91_;
-		Class612 class612 = (Class612) aClass34_Sub17_10351.method70(i_94_, (byte) 11);
+		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_10351.method70(i_94_, (byte) 11);
 		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(1532864971) != 0 || !class612.aBool7999) {
 			int i_100_;
 			int i_101_;
@@ -381,7 +381,7 @@ public class Class465_Sub1 extends Class465 {
 			}
 			Class160 class160 = aClass553_5269.aClass160Array7431[i];
 			int i_106_;
-			if (i_96_ == Class606.aClass606_7880.anInt7878 * -723459231 || -723459231 * Class606.aClass606_7894.anInt7878 == i_96_)
+			if (i_96_ == ObjShapes.aClass606_7880.anInt7878 * -723459231 || -723459231 * ObjShapes.aClass606_7894.anInt7878 == i_96_)
 				i_106_ = (class160.method1954(i_102_, i_104_, (short) 32664) + class160.method1954(i_103_, i_104_, (short) 14372) + class160.method1954(i_102_, i_105_, (short) 31243) + class160.method1954(i_103_, i_105_, (short) 17307)) >> 2;
 			else
 				i_106_ = ((class160.method1927(i_102_, i_104_, 1146087412) + class160.method1927(i_103_, i_104_, 1293661377) + class160.method1927(i_102_, i_105_, 1930885073) + class160.method1927(i_103_, i_105_, -1076564128)) >> 2);
@@ -392,7 +392,7 @@ public class Class465_Sub1 extends Class465 {
 				Class76.method1155(i_91_, i_92_, i_93_, i_95_, class612, null, null, 352877239);
 			boolean bool_109_ = (-1 == i_97_ && (!class612.method7300((byte) -23) || class612.aBool7993 && (ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061) == 0)) && class612.anIntArray7988 == null && !class612.aBool8003 && !class612.aBool8007);
 			if (!aBool10344 || ((!Class374.method4779(i_96_, -1699980071) || 1 == 1174186059 * class612.anInt7995) && (!Class199.method2907(i_96_, (byte) -95) || 0 != class612.anInt7995 * 1174186059))) {
-				if (Class606.aClass606_7895.anInt7878 * -723459231 == i_96_) {
+				if (ObjShapes.aClass606_7895.anInt7878 * -723459231 == i_96_) {
 					if (ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method9932(-2015548878) != 0 || 1248110961 * class612.anInt7953 != 0 || -1137177093 * class612.anInt7952 == 1 || class612.aBool7945) {
 						Class649_Sub1_Sub2 class649_sub1_sub2;
 						if (bool_109_) {
@@ -404,7 +404,7 @@ public class Class465_Sub1 extends Class465 {
 							class649_sub1_sub2 = (new Class649_Sub1_Sub2_Sub1(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_91_, i, i_107_, i_106_, i_108_, aBool5298, i_95_, i_97_, i_98_));
 						aClass553_5269.method6707(i_91_, i_92_, i_93_, class649_sub1_sub2, (byte) 0);
 					}
-				} else if ((-723459231 * Class606.aClass606_7880.anInt7878 == i_96_) || (Class606.aClass606_7894.anInt7878 * -723459231 == i_96_)) {
+				} else if ((-723459231 * ObjShapes.aClass606_7880.anInt7878 == i_96_) || (ObjShapes.aClass606_7894.anInt7878 * -723459231 == i_96_)) {
 					Class649_Sub1_Sub5_Sub2 class649_sub1_sub5_sub2 = null;
 					Class649_Sub1_Sub5 class649_sub1_sub5;
 					int i_110_;
@@ -429,7 +429,7 @@ public class Class465_Sub1 extends Class465 {
 							}
 						}
 					}
-				} else if (Class199.method2907(i_96_, (byte) -75) || Class590.method7099(i_96_, 1248933353)) {
+				} else if (Class199.method2907(i_96_, (byte) -75) || ObjTypeTransformation.method7099(i_96_, 1248933353)) {
 					Class649_Sub1_Sub5 class649_sub1_sub5;
 					if (bool_109_) {
 						Class649_Sub1_Sub5_Sub2 class649_sub1_sub5_sub2 = (new Class649_Sub1_Sub5_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_91_, i, i_107_, i_106_, i_108_, aBool5298, i_92_, i_92_ + i_100_ - 1, i_93_, i_101_ + i_93_ - 1, i_96_, i_95_, bool, true));
@@ -439,7 +439,7 @@ public class Class465_Sub1 extends Class465 {
 					} else
 						class649_sub1_sub5 = (new Class649_Sub1_Sub5_Sub3(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_91_, i, i_107_, i_106_, i_108_, aBool5298, i_92_, i_100_ + i_92_ - 1, i_93_, i_101_ + i_93_ - 1, i_96_, i_95_, i_97_, i_98_, true));
 					aClass553_5269.method6711(class649_sub1_sub5, false, -1972650759);
-					if (aBool5247 && !aBool5298 && Class199.method2907(i_96_, (byte) 8) && (i_96_ != Class606.aClass606_7884.anInt7878 * -723459231) && i_91_ > 0 && class612.anInt7995 * 1174186059 != 0)
+					if (aBool5247 && !aBool5298 && Class199.method2907(i_96_, (byte) 8) && (i_96_ != ObjShapes.aClass606_7884.anInt7878 * -723459231) && i_91_ > 0 && class612.anInt7995 * 1174186059 != 0)
 						aByteArrayArrayArray5252[i_91_][i_92_][i_93_] |= 0x4;
 				} else if (method9385(class167, i_96_, i_95_, bool_109_, class612, i_97_, i_98_, i_91_, i, i_107_, i_106_, i_108_, i_92_, i_93_, bool, class160, i_100_, i_101_, 620912741) || method9381(class167, i_96_, i_95_, bool_109_, class612, i_97_, i_98_, i_91_, i, i_107_, i_106_, i_108_, i_92_, i_93_, 1999409665)) {
 					/* empty */
@@ -461,8 +461,8 @@ public class Class465_Sub1 extends Class465 {
 		return interface59;
 	}
 
-	boolean method9381(Class167 class167, int i, int i_118_, boolean bool, Class612 class612, int i_119_, int i_120_, int i_121_, int i_122_, int i_123_, int i_124_, int i_125_, int i_126_, int i_127_, int i_128_) {
-		if (-723459231 * Class606.aClass606_7888.anInt7878 == i) {
+	boolean method9381(Class167 class167, int i, int i_118_, boolean bool, ObjTypeDecoder class612, int i_119_, int i_120_, int i_121_, int i_122_, int i_123_, int i_124_, int i_125_, int i_126_, int i_127_, int i_128_) {
+		if (-723459231 * ObjShapes.aClass606_7888.anInt7878 == i) {
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			if (bool) {
 				Class649_Sub1_Sub4_Sub2 class649_sub1_sub4_sub2 = new Class649_Sub1_Sub4_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_121_, i_122_, i_123_, i_124_, i_125_, aBool5298, 0, 0, i, i_118_);
@@ -474,11 +474,11 @@ public class Class465_Sub1 extends Class465 {
 			aClass553_5269.method6710(i_121_, i_126_, i_127_, class649_sub1_sub4, null, 837784204);
 			return true;
 		}
-		if (-723459231 * Class606.aClass606_7879.anInt7878 == i) {
+		if (-723459231 * ObjShapes.aClass606_7879.anInt7878 == i) {
 			int i_129_ = 65;
 			Interface59 interface59 = (Interface59) aClass553_5269.method6716(i_121_, i_126_, i_127_, -342954341);
 			if (interface59 != null)
-				i_129_ = (((Class612) aClass34_Sub17_10351.method70(interface59.method373((byte) 9), (byte) -18)).anInt7963 * -624248411) + 1;
+				i_129_ = (((ObjTypeDecoder) aClass34_Sub17_10351.method70(interface59.method373((byte) 9), (byte) -18)).anInt7963 * -624248411) + 1;
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			if (bool) {
 				Class649_Sub1_Sub4_Sub2 class649_sub1_sub4_sub2 = (new Class649_Sub1_Sub4_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_121_, i_122_, i_123_, i_124_, i_125_, aBool5298, i_129_ * anIntArray10345[i_118_], anIntArray10350[i_118_] * i_129_, i, i_118_));
@@ -490,11 +490,11 @@ public class Class465_Sub1 extends Class465 {
 			aClass553_5269.method6710(i_121_, i_126_, i_127_, class649_sub1_sub4, null, 215327598);
 			return true;
 		}
-		if (i == -723459231 * Class606.aClass606_7889.anInt7878) {
+		if (i == -723459231 * ObjShapes.aClass606_7889.anInt7878) {
 			int i_130_ = 33;
 			Interface59 interface59 = (Interface59) aClass553_5269.method6716(i_121_, i_126_, i_127_, -342954341);
 			if (null != interface59)
-				i_130_ = (((Class612) (aClass34_Sub17_10351.method70(interface59.method373((byte) -7), (byte) -23))).anInt7963 * -624248411 / 2) + 1;
+				i_130_ = (((ObjTypeDecoder) (aClass34_Sub17_10351.method70(interface59.method373((byte) -7), (byte) -23))).anInt7963 * -624248411 / 2) + 1;
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			if (bool) {
 				Class649_Sub1_Sub4_Sub2 class649_sub1_sub4_sub2 = (new Class649_Sub1_Sub4_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_121_, i_122_, i_123_, i_124_, i_125_, aBool5298, anIntArray10345[i_118_] * i_130_, anIntArray10350[i_118_] * i_130_, i, 4 + i_118_));
@@ -506,7 +506,7 @@ public class Class465_Sub1 extends Class465 {
 			aClass553_5269.method6710(i_121_, i_126_, i_127_, class649_sub1_sub4, null, -445366513);
 			return true;
 		}
-		if (-723459231 * Class606.aClass606_7881.anInt7878 == i) {
+		if (-723459231 * ObjShapes.aClass606_7881.anInt7878 == i) {
 			int i_131_ = i_118_ + 2 & 0x3;
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			if (bool) {
@@ -519,12 +519,12 @@ public class Class465_Sub1 extends Class465 {
 			aClass553_5269.method6710(i_121_, i_126_, i_127_, class649_sub1_sub4, null, 918798309);
 			return true;
 		}
-		if (-723459231 * Class606.aClass606_7882.anInt7878 == i) {
+		if (-723459231 * ObjShapes.aClass606_7882.anInt7878 == i) {
 			int i_132_ = i_118_ + 2 & 0x3;
 			int i_133_ = 33;
 			Interface59 interface59 = (Interface59) aClass553_5269.method6716(i_121_, i_126_, i_127_, -342954341);
 			if (interface59 != null)
-				i_133_ = (((Class612) (aClass34_Sub17_10351.method70(interface59.method373((byte) 26), (byte) -10))).anInt7963 * -624248411 / 2) + 1;
+				i_133_ = (((ObjTypeDecoder) (aClass34_Sub17_10351.method70(interface59.method373((byte) 26), (byte) -10))).anInt7963 * -624248411 / 2) + 1;
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			Class649_Sub1_Sub4 class649_sub1_sub4_134_;
 			if (bool) {
@@ -551,7 +551,7 @@ public class Class465_Sub1 extends Class465 {
 	void method9382(Class167 class167, int i, int i_137_, int i_138_, int i_139_, byte i_140_) {
 		Interface59 interface59 = method9380(i, i_137_, i_138_, i_139_, -1689402463);
 		if (null != interface59) {
-			Class612 class612 = ((Class612) aClass34_Sub17_10351.method70(interface59.method373((byte) 24), (byte) 4));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_10351.method70(interface59.method373((byte) 24), (byte) 4));
 			int i_141_ = interface59.method71(-220453165);
 			int i_142_ = interface59.method367((byte) 62);
 			if (class612.method7282((short) 255))
@@ -576,7 +576,7 @@ public class Class465_Sub1 extends Class465 {
 				aClass553_5269.method6756(i, i_138_, i_139_, (byte) 2);
 			} else if (2 == i_137_) {
 				aClass553_5269.method6719(i, i_138_, i_139_, client.anInterface64_11113, 1487159517);
-				if (i_141_ == -723459231 * Class606.aClass606_7873.anInt7878) {
+				if (i_141_ == -723459231 * ObjShapes.aClass606_7873.anInt7878) {
 					if (0 == (i_142_ & 0x1))
 						aClass553_5269.aClass544_7426.method6602(8, i, i_138_, i_139_);
 					else
@@ -669,7 +669,7 @@ public class Class465_Sub1 extends Class465 {
 				int i_170_ = i_168_ & 0x3;
 				int i_171_ = i + i_166_;
 				int i_172_ = i_159_ + i_165_;
-				Class612 class612 = ((Class612) aClass34_Sub17_10351.method70(i_161_, (byte) 102));
+				ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_10351.method70(i_161_, (byte) 102));
 				int i_173_;
 				int i_174_;
 				if ((i_170_ & 0x1) == 0) {
@@ -681,7 +681,7 @@ public class Class465_Sub1 extends Class465 {
 				}
 				int i_175_ = i_171_ + i_173_;
 				int i_176_ = i_174_ + i_172_;
-				if (i_171_ < anInt5242 * 312855363 && i_172_ < -183622811 * anInt5284 && i_175_ > 0 && i_176_ > 0 && ((Class606.aClass606_7880.anInt7878 * -723459231 == i_169_) || (Class606.aClass606_7894.anInt7878 * -723459231 == i_169_) || (i_171_ > 0 && i_172_ > 0 && i_171_ < anInt5242 * 312855363 - 1 && i_172_ < -183622811 * anInt5284 - 1)))
+				if (i_171_ < anInt5242 * 312855363 && i_172_ < -183622811 * anInt5284 && i_175_ > 0 && i_176_ > 0 && ((ObjShapes.aClass606_7880.anInt7878 * -723459231 == i_169_) || (ObjShapes.aClass606_7894.anInt7878 * -723459231 == i_169_) || (i_171_ > 0 && i_172_ > 0 && i_171_ < anInt5242 * 312855363 - 1 && i_172_ < -183622811 * anInt5284 - 1)))
 					method9379(class167, i_167_, i_167_, i_171_, i_172_, i_161_, i_170_, i_169_, -1, 0, -1551021022);
 			}
 		}
@@ -694,8 +694,8 @@ public class Class465_Sub1 extends Class465 {
 		anIntArray10340 = new int[] { -1, -1, 1, 1 };
 	}
 
-	boolean method9385(Class167 class167, int i, int i_177_, boolean bool, Class612 class612, int i_178_, int i_179_, int i_180_, int i_181_, int i_182_, int i_183_, int i_184_, int i_185_, int i_186_, boolean bool_187_, Class160 class160, int i_188_, int i_189_, int i_190_) {
-		if (i == -723459231 * Class606.aClass606_7892.anInt7878) {
+	boolean method9385(Class167 class167, int i, int i_177_, boolean bool, ObjTypeDecoder class612, int i_178_, int i_179_, int i_180_, int i_181_, int i_182_, int i_183_, int i_184_, int i_185_, int i_186_, boolean bool_187_, Class160 class160, int i_188_, int i_189_, int i_190_) {
+		if (i == -723459231 * ObjShapes.aClass606_7892.anInt7878) {
 			int i_191_ = 1174186059 * class612.anInt7995;
 			if (aBool10349 && -1 == 1174186059 * class612.anInt7995)
 				i_191_ = 1;
@@ -741,7 +741,7 @@ public class Class465_Sub1 extends Class465 {
 				aClass553_5269.method6712(i_180_, i_185_, i_186_, class612.anInt7963 * -624248411, (byte) 121);
 			return true;
 		}
-		if (i == Class606.aClass606_7874.anInt7878 * -723459231) {
+		if (i == ObjShapes.aClass606_7874.anInt7878 * -723459231) {
 			Class649_Sub1_Sub3 class649_sub1_sub3;
 			if (bool) {
 				Class649_Sub1_Sub3_Sub2 class649_sub1_sub3_sub2 = new Class649_Sub1_Sub3_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_180_, i_181_, i_182_, i_183_, i_184_, aBool5298, i, i_177_, bool_187_);
@@ -763,7 +763,7 @@ public class Class465_Sub1 extends Class465 {
 			}
 			return true;
 		}
-		if (-723459231 * Class606.aClass606_7875.anInt7878 == i) {
+		if (-723459231 * ObjShapes.aClass606_7875.anInt7878 == i) {
 			int i_192_ = i_177_ + 1 & 0x3;
 			Class649_Sub1_Sub3 class649_sub1_sub3;
 			Class649_Sub1_Sub3 class649_sub1_sub3_193_;
@@ -800,7 +800,7 @@ public class Class465_Sub1 extends Class465 {
 				aClass553_5269.method6712(i_180_, i_185_, i_186_, -624248411 * class612.anInt7963, (byte) 15);
 			return true;
 		}
-		if (i == Class606.aClass606_7876.anInt7878 * -723459231) {
+		if (i == ObjShapes.aClass606_7876.anInt7878 * -723459231) {
 			Class649_Sub1_Sub3 class649_sub1_sub3;
 			if (bool) {
 				Class649_Sub1_Sub3_Sub2 class649_sub1_sub3_sub2 = new Class649_Sub1_Sub3_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_180_, i_181_, i_182_, i_183_, i_184_, aBool5298, i, i_177_, bool_187_);
@@ -822,7 +822,7 @@ public class Class465_Sub1 extends Class465 {
 			}
 			return true;
 		}
-		if (i == -723459231 * Class606.aClass606_7873.anInt7878) {
+		if (i == -723459231 * ObjShapes.aClass606_7873.anInt7878) {
 			Class649_Sub1_Sub5 class649_sub1_sub5;
 			if (bool) {
 				Class649_Sub1_Sub5_Sub2 class649_sub1_sub5_sub2 = new Class649_Sub1_Sub5_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_180_, i_181_, i_182_, i_183_, i_184_, aBool5298, i_185_, i_185_, i_186_, i_186_, i, i_177_, bool_187_, true);

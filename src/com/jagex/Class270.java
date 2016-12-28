@@ -7,8 +7,9 @@ import java.util.Iterator;
 import java.util.Stack;
 
 public class Class270 implements Interface6 {
+	
 	public Class method52() {
-		return com.jagex.Class277.class;
+		return com.jagex.QuestTypeDecoder.class;
 	}
 
 	Class270() {
@@ -16,19 +17,19 @@ public class Class270 implements Interface6 {
 	}
 
 	public Class method51(int i) {
-		return com.jagex.Class277.class;
+		return com.jagex.QuestTypeDecoder.class;
 	}
 
 	public ConfigType method53(int i, Interface12 interface12) {
-		return new Class277(i, interface12);
+		return new QuestTypeDecoder(i, interface12);
 	}
 
 	public ConfigType method54(int i, Interface12 interface12) {
-		return new Class277(i, interface12);
+		return new QuestTypeDecoder(i, interface12);
 	}
 
 	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
-		return new Class277(i, interface12);
+		return new QuestTypeDecoder(i, interface12);
 	}
 
 	public static void method3713(int i) {
@@ -56,7 +57,7 @@ public class Class270 implements Interface6 {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
 				class536_sub42.anObjectArray10802 = class251.onTargetLeaveHook;
-				Class618.method7388(class536_sub42, -1182649216);
+				PlayerStat.method7388(class536_sub42, -1182649216);
 			}
 			client.anInt11179 = -937599055;
 			client.anInt11184 = 1443325723;

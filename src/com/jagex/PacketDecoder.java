@@ -174,7 +174,7 @@ public class PacketDecoder {
 			int i_21_ = stream.readUnsignedShortLE();
 			int i_22_ = stream.readIntV1();
 			int i_23_ = stream.readIntV1();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_23_, 3, i_21_, i_22_, 1736035179);
 			class106.currentPacket = null;
 			return true;
@@ -184,7 +184,7 @@ public class PacketDecoder {
 			int i_25_ = stream.readUnsignedShortLE();
 			int i_26_ = stream.readUnsignedShort();
 			int i_27_ = stream.readUnsignedByte128();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class609.method7266(i_24_, i_27_, i_26_, i_25_, -426884131);
 			class106.currentPacket = null;
 			return true;
@@ -221,7 +221,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4661) {
 			Class302.sceneX = (stream.readByte128() << 3) * 1163453749;
 			Class512.scenePlane = stream.readUnsignedByteC() * -200495015;
-			Class618.sceneY = (stream.readByte() << 3) * 1712069097;
+			PlayerStat.sceneY = (stream.readByte() << 3) * 1712069097;
 			class106.currentPacket = null;
 			return true;
 		}
@@ -308,7 +308,7 @@ public class PacketDecoder {
 			int componentId = if_hash & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendIComponentModel(" + interfaceId + ", " + componentId + ", " + modelId + ");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(if_hash, 1, modelId, -1, -1187242940);
 			class106.currentPacket = null;
 			return true;
@@ -347,7 +347,7 @@ public class PacketDecoder {
 			int windowComponentId = i_56_ & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("Packet 85: " + windowId + ", " + windowComponentId + ", " + i_57_);
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class458_Sub1.method9335(i_56_, i_57_, (byte) 41);
 			class106.currentPacket = null;
 			return true;
@@ -455,7 +455,7 @@ public class PacketDecoder {
 			int toSlot = stream.readUnsignedShort128();
 			if (65535 == toSlot)
 				toSlot = -1;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			int interfaceId = interfaceHash >> 16;
 			int componentId = interfaceHash & 0xFFFF;
 			if (RS3Applet.DUMP)
@@ -497,7 +497,7 @@ public class PacketDecoder {
 			int windowComponentId = i_82_ & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().closeInterface("+windowId+", "+windowComponentId+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class536_Sub36 class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method556((long) i_82_));
 			if (class536_sub36 != null)
 				Class398.method4903(class536_sub36, true, false, 1759806773);
@@ -538,7 +538,7 @@ public class PacketDecoder {
 			int i_87_ = stream.readUnsignedShortLE128();
 			int i_88_ = stream.readUnsignedByteC();
 			int i_89_ = stream.readUnsignedByte();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			client.aBoolArray11270[i_89_] = true;
 			client.anIntArray11006[i_89_] = i_85_;
 			client.anIntArray11272[i_89_] = i_86_;
@@ -595,7 +595,7 @@ public class PacketDecoder {
 			int i_98_ = stream.readUnsignedShort();
 			int i_99_ = stream.readUnsignedShort();
 			int i_100_ = stream.readUnsignedShort();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			if (Class463.aClass234Array5227[i_98_] != null) {
 				for (int i_101_ = i_99_; i_101_ < i_100_; i_101_++) {
 					int i_102_ = stream.read24BitUnsignedInteger();
@@ -613,7 +613,7 @@ public class PacketDecoder {
 			int componentId = i_104_ & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendInterfaceRelatedPacket15(" + interfaceId + ", " + componentId + ", " + i_103_ + ");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class523.method6406(i_104_, i_103_, 1706383974);
 			class106.currentPacket = null;
 			return true;
@@ -658,7 +658,7 @@ public class PacketDecoder {
 			String string = stream.readString();
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendCSVarString("+i_112_+", "+string+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class310.method4178(i_112_, string, 728541324);
 			class106.currentPacket = null;
 			return true;
@@ -851,7 +851,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4774) {
 			int i_144_ = stream.readUnsignedShortLE128();
 			int i_145_ = stream.readUnsignedShortLE();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			OutgoingPacket.method5027(i_144_, i_145_, 0, (byte) 22);
 			class106.currentPacket = null;
 			return true;
@@ -865,7 +865,7 @@ public class PacketDecoder {
 			if (null != class536_sub13) {
 				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 				if (null == class649_sub1_sub5_sub1_sub1.aClass307_12167)
-					class649_sub1_sub5_sub1_sub1.aClass307_12167 = new Class307(class649_sub1_sub5_sub1_sub1.aClass296_12174);
+					class649_sub1_sub5_sub1_sub1.aClass307_12167 = new NPCHeadIconCustomization(class649_sub1_sub5_sub1_sub1.aClass296_12174);
 				class649_sub1_sub5_sub1_sub1.aClass307_12167.anIntArray3453[i_146_] = i_149_;
 				class649_sub1_sub5_sub1_sub1.aClass307_12167.aShortArray3452[i_146_] = (short) i_147_;
 			}
@@ -879,7 +879,7 @@ public class PacketDecoder {
 			int componentId = i_150_ & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendHideIComponent("+interfaceId+", "+componentId+", "+(i_151_ == 1)+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class89.method1228(i_150_, i_151_, 65535);
 			class106.currentPacket = null;
 			return true;
@@ -896,14 +896,14 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4742) {
 			int i_154_ = stream.readInt();
 			boolean bool = stream.readUnsignedByteC() == 1;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class176.method2455(i_154_, bool, -1287959245);
 			class106.currentPacket = null;
 			return true;
 		}
 		if (class106.currentPacket == IncomingPacket.aClass422_4663) {
 			int i_155_ = stream.readInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			if (i_155_ == -1) {
 				Class658.anInt8498 = -662013517;
 				Class667.anInt8535 = 1594603721;
@@ -953,7 +953,7 @@ public class PacketDecoder {
 			int i_166_ = stream.readIntV1();
 			int i_167_ = stream.readShort();
 			int i_168_ = stream.method9756((byte) 43);
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class297.method4008(i_166_, i_167_, i_168_, (short) 28391);
 			class106.currentPacket = null;
 			return true;
@@ -1045,7 +1045,7 @@ public class PacketDecoder {
 		}
 		if (class106.currentPacket == IncomingPacket.CHUNK_SCENE) {
 			Class512.scenePlane = stream.readUnsigned128Byte() * -200495015;
-			Class618.sceneY = (stream.readByteC() << 3) * 1712069097;
+			PlayerStat.sceneY = (stream.readByteC() << 3) * 1712069097;
 			Class302.sceneX = (stream.read128Byte() << 3) * 1163453749;
 			while (-810172525 * stream.off < 610303591 * class106.anInt1262) {
 				ChunkSceneSubPackets class409 = (Class200.method2916()[stream.readUnsignedByte()]);
@@ -1091,7 +1091,7 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4705 == class106.currentPacket) {
 			int i_183_ = stream.readInt();
 			boolean bool = stream.readUnsigned128Byte() == 1;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class538.method6510(i_183_, bool, -659581542);
 			class106.currentPacket = null;
 			return true;
@@ -1107,7 +1107,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4724 == class106.currentPacket) {
 			boolean bool = stream.readUnsignedByte() == 1;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class532.aBool7124 = bool;
 			class106.currentPacket = null;
 			return true;
@@ -1126,7 +1126,7 @@ public class PacketDecoder {
 			int i_188_ = stream.readUnsignedShort();
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendCSVarInteger("+i_188_+", "+i_187_+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class619.method7397(i_188_, i_187_, (byte) 5);
 			class106.currentPacket = null;
 			return true;
@@ -1136,7 +1136,7 @@ public class PacketDecoder {
 			String string = stream.readString();
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendCSVarString("+i_189_+", "+string+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class310.method4178(i_189_, string, 728541324);
 			class106.currentPacket = null;
 			return true;
@@ -1148,7 +1148,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.PLAYER_HEAD_ON_ICOMPONENT == class106.currentPacket) {
 			int i_190_ = stream.readIntV1();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_190_, 3, -1791435655 * client.anInt11156, 0, -963718975);
 			class106.currentPacket = null;
 			return true;
@@ -1194,7 +1194,7 @@ public class PacketDecoder {
 			int windowComponentId = parent & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendInterface("+id+", "+windowId+", "+windowComponentId+", "+(clipped == 1)+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class681.method8089(parent, new Class536_Sub36(id, clipped), new int[] { i_197_, i_199_, i_201_, i_196_ }, false, 381545503);
 			class106.currentPacket = null;
 			return true;
@@ -1236,7 +1236,7 @@ public class PacketDecoder {
 			int i_209_ = stream.readUnsignedShortLE();
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendCSVarInteger("+i_209_+", "+i_208_+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class619.method7397(i_209_, i_208_, (byte) -49);
 			class106.currentPacket = null;
 			return true;
@@ -1264,7 +1264,7 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4778 == class106.currentPacket) {
 			int i_216_ = stream.readLEInt();
 			int i_217_ = stream.readLEInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class101.method1357(i_216_, i_217_, -1848645974);
 			class106.currentPacket = null;
 			return true;
@@ -1385,7 +1385,7 @@ public class PacketDecoder {
 			if (i_235_ == 65535)
 				i_235_ = -1;
 			int i_236_ = stream.readUnsignedShort128();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			for (int i_237_ = i_234_; i_237_ <= i_235_; i_237_++) {
 				long l = ((long) i_233_ << 32) + (long) i_237_;
 				IComponentSettings class536_sub14 = (IComponentSettings) client.aClass4_11243.method556(l);
@@ -1445,10 +1445,10 @@ public class PacketDecoder {
 			args = args + " });";
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendExecuteScriptReverse("+objects[0]+", "+args);
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class536_Sub42 class536_sub42 = new Class536_Sub42();
 			class536_sub42.anObjectArray10802 = objects;
-			Class618.method7388(class536_sub42, 1995422853);
+			PlayerStat.method7388(class536_sub42, 1995422853);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -1500,7 +1500,7 @@ public class PacketDecoder {
 		if (IncomingPacket.MOVE_INTERFACE == class106.currentPacket) {
 			int i_248_ = stream.readInt();
 			int i_249_ = stream.readIntV2();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class536_Sub36 class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method556((long) i_249_));
 			Class536_Sub36 class536_sub36_250_ = ((Class536_Sub36) client.aClass4_11008.method556((long) i_248_));
 			if (null != class536_sub36_250_)
@@ -1551,7 +1551,7 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4592 == class106.currentPacket) {
 			int i_254_ = stream.readUnsignedShort();
 			byte i_255_ = stream.read128Byte();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class632.method7542(i_254_, i_255_, 1007728958);
 			class106.currentPacket = null;
 			return true;
@@ -1689,14 +1689,14 @@ public class PacketDecoder {
 			int i_275_ = stream.readInt();
 			int i_276_ = stream.readUnsigned128Byte();
 			i_276_ = -i_276_ - 2;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_275_, 5, i_276_, 0, 619898817);
 			class106.currentPacket = null;
 			return true;
 		}
 		if (class106.currentPacket == IncomingPacket.aClass422_4670) {
 			int i_277_ = stream.readIntV2();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_277_, 5, -1791435655 * client.anInt11156, 0, 1281313370);
 			class106.currentPacket = null;
 			return true;
@@ -1707,7 +1707,7 @@ public class PacketDecoder {
 			int i_280_ = stream.readUnsignedByte128();
 			int i_281_ = stream.readUnsignedByte128();
 			int i_282_ = stream.readUnsignedShort128() << 2;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class195.method2864(i_278_, i_281_, i_282_, i_279_, i_280_, -830720796);
 			class106.currentPacket = null;
 			return true;
@@ -1744,7 +1744,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.OBJECT_RELATED_MAYBE) {
 			Class302.sceneX = (stream.readByte128() << 3) * 1163453749;
 			Class512.scenePlane = stream.readUnsigned128Byte() * -200495015;
-			Class618.sceneY = (stream.readByteC() << 3) * 1712069097;
+			PlayerStat.sceneY = (stream.readByteC() << 3) * 1712069097;
 			Class598 class598 = client.aClass515_11066.method6255(-1402585475);
 			for (Class536_Sub9 class536_sub9 = ((Class536_Sub9) client.aClass4_11170.method562(-2130479919)); null != class536_sub9; class536_sub9 = (Class536_Sub9) client.aClass4_11170.method567(-960496680)) {
 				int i_291_ = (int) ((class536_sub9.aLong7133 * -6909195213925454795L >> 28) & 0x3L);
@@ -1752,18 +1752,18 @@ public class PacketDecoder {
 				int i_293_ = i_292_ - 1858049507 * class598.anInt7839;
 				int i_294_ = (int) ((class536_sub9.aLong7133 * -6909195213925454795L >> 14) & 0x3fffL);
 				int i_295_ = i_294_ - class598.anInt7840 * 1479112045;
-				if (Class512.scenePlane * -502818839 == i_291_ && i_293_ >= 421791005 * Class302.sceneX && i_293_ < 8 + Class302.sceneX * 421791005 && i_295_ >= 1895190105 * Class618.sceneY && i_295_ < 1895190105 * Class618.sceneY + 8) {
+				if (Class512.scenePlane * -502818839 == i_291_ && i_293_ >= 421791005 * Class302.sceneX && i_293_ < 8 + Class302.sceneX * 421791005 && i_295_ >= 1895190105 * PlayerStat.sceneY && i_295_ < 1895190105 * PlayerStat.sceneY + 8) {
 					class536_sub9.method6484();
 					if (i_293_ >= 0 && i_295_ >= 0 && (i_293_ < client.aClass515_11066.method6321((byte) 10)) && (i_295_ < client.aClass515_11066.method6243(177401017)))
 						Class52.method934(Class512.scenePlane * -502818839, i_293_, i_295_, (byte) -121);
 				}
 			}
 			for (Class536_Sub2 class536_sub2 = ((Class536_Sub2) Class536_Sub2.aClass708_10320.method8308(1867269829)); class536_sub2 != null; class536_sub2 = (Class536_Sub2) Class536_Sub2.aClass708_10320.method8311(1383904041)) {
-				if ((848380705 * class536_sub2.anInt10309 >= Class302.sceneX * 421791005) && (848380705 * class536_sub2.anInt10309 < 8 + 421791005 * Class302.sceneX) && (-499217723 * class536_sub2.anInt10312 >= Class618.sceneY * 1895190105) && (-499217723 * class536_sub2.anInt10312 < 8 + Class618.sceneY * 1895190105) && (-1676454841 * class536_sub2.anInt10310 == Class512.scenePlane * -502818839))
+				if ((848380705 * class536_sub2.anInt10309 >= Class302.sceneX * 421791005) && (848380705 * class536_sub2.anInt10309 < 8 + 421791005 * Class302.sceneX) && (-499217723 * class536_sub2.anInt10312 >= PlayerStat.sceneY * 1895190105) && (-499217723 * class536_sub2.anInt10312 < 8 + PlayerStat.sceneY * 1895190105) && (-1676454841 * class536_sub2.anInt10310 == Class512.scenePlane * -502818839))
 					class536_sub2.aBool10319 = true;
 			}
 			for (Class536_Sub2 class536_sub2 = ((Class536_Sub2) Class536_Sub2.aClass708_10321.method8308(1867269829)); null != class536_sub2; class536_sub2 = (Class536_Sub2) Class536_Sub2.aClass708_10321.method8311(1298341929)) {
-				if ((class536_sub2.anInt10309 * 848380705 >= 421791005 * Class302.sceneX) && (class536_sub2.anInt10309 * 848380705 < 8 + 421791005 * Class302.sceneX) && (-499217723 * class536_sub2.anInt10312 >= 1895190105 * Class618.sceneY) && (class536_sub2.anInt10312 * -499217723 < 8 + 1895190105 * Class618.sceneY) && (class536_sub2.anInt10310 * -1676454841 == Class512.scenePlane * -502818839))
+				if ((class536_sub2.anInt10309 * 848380705 >= 421791005 * Class302.sceneX) && (class536_sub2.anInt10309 * 848380705 < 8 + 421791005 * Class302.sceneX) && (-499217723 * class536_sub2.anInt10312 >= 1895190105 * PlayerStat.sceneY) && (class536_sub2.anInt10312 * -499217723 < 8 + 1895190105 * PlayerStat.sceneY) && (class536_sub2.anInt10310 * -1676454841 == Class512.scenePlane * -502818839))
 					class536_sub2.aBool10319 = true;
 			}
 			class106.currentPacket = null;
@@ -1861,7 +1861,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.PLAYER_UNDER_NPC_PRIORITY == class106.currentPacket) {
 			int priority = stream.readUnsignedByteC();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			client.anInt11132 = 1448609337 * priority;
 			class106.currentPacket = null;
 			return true;
@@ -1869,7 +1869,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4711) {
 			int i_311_ = stream.readUnsignedShortLE128();
 			int i_312_ = stream.readLEInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class96.method1313(i_312_, i_311_, (byte) 5);
 			class106.currentPacket = null;
 			return true;
@@ -1919,7 +1919,7 @@ public class PacketDecoder {
 			int i_322_ = i_321_ >> 2;
 			int i_323_ = i_321_ & 0x3;
 			int i_324_ = stream.readInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class681.method8089(i_324_, new Class536_Sub36_Sub4(i_319_, i_318_, new Class675(class598, i_322_, i_323_, i_320_)), new int[] { i_314_, i_317_, i_315_, i_316_ }, false, -747535247);
 			class106.currentPacket = null;
 			return true;
@@ -2007,13 +2007,13 @@ public class PacketDecoder {
 		if (IncomingPacket.ICOMPONENT_ANIMATION == class106.currentPacket) {
 			int i_337_ = stream.readIntV2();
 			int i_338_ = stream.readIntV1();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			ColourUtils.method7667(i_337_, i_338_, (short) 18545);
 			class106.currentPacket = null;
 			return true;
 		}
 		if (IncomingPacket.aClass422_4764 == class106.currentPacket) {
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class689.method8182(2092834857);
 			class106.currentPacket = null;
 			return true;
@@ -2033,7 +2033,7 @@ public class PacketDecoder {
 			int i_339_ = stream.readIntV1();
 			int i_340_ = stream.readIntV1();
 			int i_341_ = stream.readUnsignedShortLE();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_340_, 5, i_341_, i_339_, -1639689697);
 			class106.currentPacket = null;
 			return true;
@@ -2075,7 +2075,7 @@ public class PacketDecoder {
 			if (RS3Applet.DUMP) {
 				System.out.println("player.getInterfaceManager().setRootInterface(" + id + ", false);");
 			}
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			int[] is = { i_347_, i_346_, i_345_, i_344_ };
 			client.anInt11187 = id * 2074470025;
 			Class261.method3624(id, is, -1484135275);
@@ -2114,7 +2114,7 @@ public class PacketDecoder {
 			int i_355_ = stream.readIntV1();
 			int i_356_ = stream.readUnsigned128Byte();
 			int i_357_ = stream.readInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class681.method8089(i_354_, new Class536_Sub36_Sub1(i_351_, i_356_, new Class666(class598, i_353_)), new int[] { i_357_, i_355_, i_352_, i_350_ }, false, -1604120929);
 			class106.currentPacket = null;
 			return true;
@@ -2137,7 +2137,7 @@ public class PacketDecoder {
 			int i_365_ = stream.readUnsignedByte128();
 			int i_366_ = stream.readUnsignedShort();
 			int i_367_ = stream.readIntV1();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class681.method8089(i_361_, new Class536_Sub36_Sub2(i_366_, i_365_, i_362_), new int[] { i_364_, i_363_, i_367_, i_360_ }, false, -176012196);
 			class106.currentPacket = null;
 			return true;
@@ -2271,7 +2271,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4699) {
 			int i_385_ = stream.readUnsignedShortLE128();
 			int i_386_ = stream.readIntV2();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class632.method7542(i_385_, i_386_, 1007728958);
 			class106.currentPacket = null;
 			return true;
@@ -2286,7 +2286,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.currentPacket == IncomingPacket.RESET_NIS_VARS) {
-			Class590.aClass147_Sub1_7791.method8406((byte) 0);
+			ObjTypeTransformation.aClass147_Sub1_7791.method8406((byte) 0);
 			class106.currentPacket = null;
 			return false;
 		}
@@ -2322,7 +2322,7 @@ public class PacketDecoder {
 			int i_394_ = stream.readLEInt();
 			int i_395_ = stream.readUnsignedShortLE128();
 			int i_396_ = stream.readUnsignedShortLE128();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_394_, 7, i_396_ << 16 | i_393_, i_395_, -517201900);
 			class106.currentPacket = null;
 			return true;
@@ -2334,7 +2334,7 @@ public class PacketDecoder {
 			int componentId = ifHash & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendIComponentText("+interfaceId+", "+componentId+", "+string+");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class98_Sub1_Sub1.method10476(ifHash, string);
 			class106.currentPacket = null;
 			return true;
@@ -2372,7 +2372,7 @@ public class PacketDecoder {
 			int i_410_ = stream.readIntV2();
 			int i_411_ = stream.readInt();
 			int i_412_ = stream.readIntV2();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class681.method8089(i_412_, new Class536_Sub36_Sub3(i_407_, i_405_, i_406_), new int[] { i_409_, i_410_, i_408_, i_411_ }, false, 373228862);
 			class106.currentPacket = null;
 			return true;
@@ -2384,7 +2384,7 @@ public class PacketDecoder {
 			int componentId = hash & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendIComponentSprite(" + interfaceId + ", " + componentId + ", " + spriteId + ");");
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			IComponentDefinitions definitions = Class264.getIComponentDefinitions(hash);
 			definitions.spriteId = -1513859745 * spriteId;
 			class106.currentPacket = null;
@@ -2407,7 +2407,7 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.currentPacket == IncomingPacket.STOP_CAMERA_SHAKE) {
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class609.method7265(Class65.method1062());
 			class106.currentPacket = null;
 			return true;
@@ -2523,7 +2523,7 @@ public class PacketDecoder {
 			int i_437_ = stream.readUnsignedShortLE();
 			int i_438_ = stream.readInt();
 			int i_439_ = stream.readUnsignedShortLE();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class504_Sub1.method9322(i_438_, i_437_, i_436_, i_439_, (byte) -42);
 			class106.currentPacket = null;
 			return true;
@@ -2555,9 +2555,9 @@ public class PacketDecoder {
 			int i_444_ = stream.readUnsignedShort128();
 			if (i_444_ == 65535)
 				i_444_ = -1;
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class216.method3094(i_442_, i_444_, i_443_, -413124118);
-			ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
+			ItemDecoder class1 = ((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
 			Class504_Sub1.method9322(i_442_, class1.modelRotation1 * 211736907, 824706077 * class1.modelRotation2, -1906278051 * class1.modelZoom, (byte) -34);
 			Class706_Sub4.method10317(i_442_, class1.modelOffset1 * 814524581, class1.modelOffset2 * -1832345149, class1.anInt31 * -751322115, 1021240981);
 			class106.currentPacket = null;
@@ -2624,7 +2624,7 @@ public class PacketDecoder {
 		if (IncomingPacket.NPC_HEAD_ON_ICOMPONENT == class106.currentPacket) {
 			int i_450_ = stream.readInt();
 			int i_451_ = stream.readInt();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class206.method2961(i_450_, 2, i_451_, -1, -900449254);
 			class106.currentPacket = null;
 			return true;
@@ -2643,7 +2643,7 @@ public class PacketDecoder {
 			int i_455_ = stream.readUnsignedShort128() << 2;
 			int i_456_ = stream.readUnsignedByte128();
 			int i_457_ = stream.readUnsignedByte128();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class101.method1354(i_453_, i_457_, i_455_, i_454_, i_456_, true, (short) 25595);
 			class106.currentPacket = null;
 			return true;
@@ -2653,7 +2653,7 @@ public class PacketDecoder {
 			int i_459_ = stream.readUnsignedShortLE();
 			int i_460_ = stream.readUnsignedShortLE();
 			int i_461_ = stream.readUnsigned128Byte();
-			Class307.method4133();
+			NPCHeadIconCustomization.method4133();
 			Class193.method2852(i_458_, i_461_, i_460_, i_459_, -2047575529);
 			class106.currentPacket = null;
 			return true;
@@ -2812,7 +2812,7 @@ public class PacketDecoder {
 			int i_16_ = stream.readUnsignedShortLE128();
 			int i_17_ = stream.readUnsignedByte128();
 			Class598 class598 = client.aClass515_11066.method6255(-1418022307);
-			int i_18_ = (i_17_ & 0x7) + 1895190105 * Class618.sceneY;
+			int i_18_ = (i_17_ & 0x7) + 1895190105 * PlayerStat.sceneY;
 			int i_19_ = 1479112045 * class598.anInt7840 + i_18_;
 			int i_20_ = 421791005 * Class302.sceneX + (i_17_ >> 4 & 0x7);
 			int i_21_ = 1858049507 * class598.anInt7839 + i_20_;
@@ -2827,7 +2827,7 @@ public class PacketDecoder {
 			int i_23_ = stream.readIntV2();
 			int i_24_ = stream.readUnsigned128Byte();
 			int i_25_ = (i_24_ >> 4 & 0x7) + 421791005 * Class302.sceneX;
-			int i_26_ = (i_24_ & 0x7) + 1895190105 * Class618.sceneY;
+			int i_26_ = (i_24_ & 0x7) + 1895190105 * PlayerStat.sceneY;
 			int i_27_ = stream.readUnsigned128Byte();
 			int i_28_ = stream.readUnsignedByte();
 			int i_29_ = i_28_ >> 2;
@@ -2839,13 +2839,13 @@ public class PacketDecoder {
 			int i_32_ = stream.readUnsigned128Byte();
 			int i_33_ = stream.readUnsignedByte128();
 			int i_34_ = 421791005 * Class302.sceneX + (i_33_ >> 4 & 0x7);
-			int i_35_ = (i_33_ & 0x7) + Class618.sceneY * 1895190105;
+			int i_35_ = (i_33_ & 0x7) + PlayerStat.sceneY * 1895190105;
 			int i_36_ = stream.readIntV2();
 			int i_37_ = stream.readUnsigned128Byte();
 			int i_38_ = i_37_ >> 2;
 			int i_39_ = client.anIntArray11315[i_38_];
-			if (i_38_ == -723459231 * Class606.aClass606_7894.anInt7878)
-				i_38_ = Class606.aClass606_7880.anInt7878 * -723459231;
+			if (i_38_ == -723459231 * ObjShapes.aClass606_7894.anInt7878)
+				i_38_ = ObjShapes.aClass606_7880.anInt7878 * -723459231;
 			if (1 == (i_32_ & 0x1))
 				Class264.method3679(-502818839 * Class512.scenePlane, i_34_, i_35_, i_39_, i_36_, i_38_, null, -102911269);
 			else {
@@ -2870,13 +2870,13 @@ public class PacketDecoder {
 					for (int i_47_ = 0; i_47_ < i_46_; i_47_++)
 						is_45_[i_47_] = (short) stream.readUnsignedShort();
 				}
-				Class264.method3679(-502818839 * Class512.scenePlane, i_34_, i_35_, i_39_, i_36_, i_38_, new Class590((Class536_Sub2.aLong10316 * -4076442633492019353L), is, is_42_, is_45_), 1994564570);
+				Class264.method3679(-502818839 * Class512.scenePlane, i_34_, i_35_, i_39_, i_36_, i_38_, new ObjTypeTransformation((Class536_Sub2.aLong10316 * -4076442633492019353L), is, is_42_, is_45_), 1994564570);
 				Class536_Sub2.aLong10316 += 5134328676184089687L;
 			}
 		} else if (ChunkSceneSubPackets.GRAPHICS_ON_TILE == packet) {
 			int i_48_ = stream.readUnsignedByte();
 			int i_49_ = 421791005 * Class302.sceneX + (i_48_ >> 4 & 0x7);
-			int i_50_ = 1895190105 * Class618.sceneY + (i_48_ & 0x7);
+			int i_50_ = 1895190105 * PlayerStat.sceneY + (i_48_ & 0x7);
 			int i_51_ = stream.readUnsignedShort();
 			if (65535 == i_51_)
 				i_51_ = -1;
@@ -2906,13 +2906,13 @@ public class PacketDecoder {
 		} else if (ChunkSceneSubPackets.aClass409_4321 == packet) {
 			int i_59_ = stream.readInt();
 			int i_60_ = stream.readUnsignedByte();
-			((Class612) client.aClass515_11066.method6280(-1073841494).method70(i_59_, (byte) 92)).method7286(i_60_, 900619132);
+			((ObjTypeDecoder) client.aClass515_11066.method6280(-1073841494).method70(i_59_, (byte) 92)).method7286(i_60_, 900619132);
 		} else if (ChunkSceneSubPackets.aClass409_4308 == packet) {
 			int i_61_ = stream.readUnsignedShort128();
 			int i_62_ = stream.readUnsignedShortLE();
 			int i_63_ = stream.readUnsignedByteC();
 			Class598 class598 = client.aClass515_11066.method6255(-1484901764);
-			int i_64_ = (i_63_ & 0x7) + 1895190105 * Class618.sceneY;
+			int i_64_ = (i_63_ & 0x7) + 1895190105 * PlayerStat.sceneY;
 			int i_65_ = class598.anInt7840 * 1479112045 + i_64_;
 			int i_66_ = (i_63_ >> 4 & 0x7) + 421791005 * Class302.sceneX;
 			int i_67_ = class598.anInt7839 * 1858049507 + i_66_;
@@ -2932,14 +2932,14 @@ public class PacketDecoder {
 			int i_72_ = client.anIntArray11315[i_70_];
 			int i_73_ = stream.readUnsignedByte();
 			int i_74_ = Class302.sceneX * 421791005 + (i_73_ >> 4 & 0x7);
-			int i_75_ = (i_73_ & 0x7) + 1895190105 * Class618.sceneY;
+			int i_75_ = (i_73_ & 0x7) + 1895190105 * PlayerStat.sceneY;
 			if (client.aClass515_11066.method6315(-1909423582).method6015((short) -8192) || (i_74_ >= 0 && i_75_ >= 0 && i_74_ < client.aClass515_11066.method6321((byte) -92) && i_75_ < client.aClass515_11066.method6243(177401017)))
 				ChunkSceneSubPackets.method4972(-502818839 * Class512.scenePlane, i_74_, i_75_, i_72_, -1, i_70_, i_71_, (byte) 95);
 		} else if (packet == ChunkSceneSubPackets.REMOVE_GROUND_ITEM) {
 			int i_76_ = stream.readUnsignedShort128();
 			int i_77_ = stream.readUnsignedByte128();
 			Class598 class598 = client.aClass515_11066.method6255(-1445300354);
-			int i_78_ = Class618.sceneY * 1895190105 + (i_77_ & 0x7);
+			int i_78_ = PlayerStat.sceneY * 1895190105 + (i_77_ & 0x7);
 			int i_79_ = i_78_ + class598.anInt7840 * 1479112045;
 			int i_80_ = 421791005 * Class302.sceneX + (i_77_ >> 4 & 0x7);
 			int i_81_ = i_80_ + 1858049507 * class598.anInt7839;
@@ -2960,7 +2960,7 @@ public class PacketDecoder {
 			stream.readUnsignedByte();
 			int i_82_ = stream.readUnsignedByte();
 			int i_83_ = Class302.sceneX * 421791005 + (i_82_ >> 4 & 0x7);
-			int i_84_ = (i_82_ & 0x7) + Class618.sceneY * 1895190105;
+			int i_84_ = (i_82_ & 0x7) + PlayerStat.sceneY * 1895190105;
 			int i_85_ = stream.readUnsignedShort();
 			int i_86_ = stream.readUnsignedByte();
 			int i_87_ = stream.read24BitUnsignedInteger();
@@ -2970,7 +2970,7 @@ public class PacketDecoder {
 		} else if (ChunkSceneSubPackets.aClass409_4312 == packet) {
 			int i_88_ = stream.readUnsignedByte();
 			Class598 class598 = client.aClass515_11066.method6255(-1813779402);
-			int i_89_ = 1895190105 * Class618.sceneY + (i_88_ & 0x7);
+			int i_89_ = 1895190105 * PlayerStat.sceneY + (i_88_ & 0x7);
 			int i_90_ = i_89_ + class598.anInt7840 * 1479112045;
 			int i_91_ = 421791005 * Class302.sceneX + (i_88_ >> 4 & 0x7);
 			int i_92_ = i_91_ + class598.anInt7839 * 1858049507;
@@ -2995,7 +2995,7 @@ public class PacketDecoder {
 		} else if (ChunkSceneSubPackets.aClass409_4317 == packet) {
 			int i_96_ = stream.readUnsignedByte();
 			int i_97_ = Class302.sceneX * 421791005 + (i_96_ >> 4 & 0x7);
-			int i_98_ = 1895190105 * Class618.sceneY + (i_96_ & 0x7);
+			int i_98_ = 1895190105 * PlayerStat.sceneY + (i_96_ & 0x7);
 			int i_99_ = stream.readUnsignedShort();
 			if (i_99_ == 65535)
 				i_99_ = -1;
@@ -3031,7 +3031,7 @@ public class PacketDecoder {
 		} else if (packet == ChunkSceneSubPackets.aClass409_4307) {
 			int i_109_ = stream.readUnsignedByte();
 			int i_110_ = (i_109_ >> 4 & 0xf) + 843582010 * Class302.sceneX;
-			int i_111_ = (i_109_ & 0xf) + Class618.sceneY * -504587086;
+			int i_111_ = (i_109_ & 0xf) + PlayerStat.sceneY * -504587086;
 			int i_112_ = stream.readUnsignedByte();
 			boolean bool = (i_112_ & 0x1) != 0;
 			boolean bool_113_ = 0 != (i_112_ & 0x2);
@@ -3073,7 +3073,7 @@ public class PacketDecoder {
 			int i_130_ = client.anIntArray11315[i_128_];
 			int i_131_ = stream.readUnsignedByte128();
 			int i_132_ = Class302.sceneX * 421791005 + (i_131_ >> 4 & 0x7);
-			int i_133_ = (i_131_ & 0x7) + Class618.sceneY * 1895190105;
+			int i_133_ = (i_131_ & 0x7) + PlayerStat.sceneY * 1895190105;
 			int i_134_ = stream.readLEInt();
 			if (client.aClass515_11066.method6315(-434956694).method6015((short) -8192) || (i_132_ >= 0 && i_133_ >= 0 && i_132_ < client.aClass515_11066.method6321((byte) 48) && i_133_ < client.aClass515_11066.method6243(177401017)))
 				ChunkSceneSubPackets.method4972(Class512.scenePlane * -502818839, i_132_, i_133_, i_130_, i_134_, i_128_, i_129_, (byte) 35);
@@ -3081,7 +3081,7 @@ public class PacketDecoder {
 			int i_135_ = stream.readUnsignedByte();
 			boolean bool = 0 != (i_135_ & 0x80);
 			int i_136_ = 421791005 * Class302.sceneX + (i_135_ >> 3 & 0x7);
-			int i_137_ = 1895190105 * Class618.sceneY + (i_135_ & 0x7);
+			int i_137_ = 1895190105 * PlayerStat.sceneY + (i_135_ & 0x7);
 			int i_138_ = i_136_ + stream.readByte();
 			int i_139_ = i_137_ + stream.readByte();
 			int i_140_ = stream.readShort();
@@ -3112,7 +3112,7 @@ public class PacketDecoder {
 		} else if (packet == ChunkSceneSubPackets.GROUND_GRAPHIC_RELATED) {
 			int i_149_ = stream.readUnsignedByte();
 			int i_150_ = (i_149_ >> 4 & 0x7) + 421791005 * Class302.sceneX;
-			int i_151_ = (i_149_ & 0x7) + 1895190105 * Class618.sceneY;
+			int i_151_ = (i_149_ & 0x7) + 1895190105 * PlayerStat.sceneY;
 			int i_152_ = stream.readUnsignedShort();
 			if (i_152_ == 65535)
 				i_152_ = -1;

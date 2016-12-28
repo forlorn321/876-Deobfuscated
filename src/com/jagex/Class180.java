@@ -993,7 +993,7 @@ public class Class180 {
 		}
 	}
 
-	public static Class180 method2708(Class461 class461, int i, int i_190_) {
+	public static Class180 method2708(JS5ResourceProvider class461, int i, int i_190_) {
 		byte[] is = class461.method5556(i, i_190_, (byte) 1);
 		if (is == null)
 			return null;

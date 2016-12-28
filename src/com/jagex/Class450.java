@@ -5,13 +5,13 @@ package com.jagex;
 
 public class Class450 {
 	static final int anInt4938 = 32768;
-	Class461 aClass461_4939;
+	JS5ResourceProvider aClass461_4939;
 	Class199 aClass199_4940 = new Class199(64);
 	static final int anInt4941 = 0;
-	Class461 aClass461_4942;
+	JS5ResourceProvider aClass461_4942;
 	static long aLong4943;
 
-	public Class450(Class664 class664, Class461 class461, Class461 class461_0_) {
+	public Class450(Language class664, JS5ResourceProvider class461, JS5ResourceProvider class461_0_) {
 		aClass461_4942 = class461;
 		aClass461_4939 = class461_0_;
 		if (null != aClass461_4942)

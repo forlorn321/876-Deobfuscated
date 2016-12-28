@@ -465,7 +465,7 @@ public abstract class Class167 {
 
 	public abstract void method2141();
 
-	static synchronized Class167 method2142(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, int i_193_, int i_194_, int i_195_, byte i_196_) {
+	static synchronized Class167 method2142(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_193_, int i_194_, int i_195_, byte i_196_) {
 		if (0 == i)
 			return Class57.method971(canvas, class174, interface24, interface47, interface48, interface46, i_194_, i_195_, 918484402);
 		if (1 == i)

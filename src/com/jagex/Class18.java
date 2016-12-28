@@ -312,9 +312,9 @@ public class Class18 {
 		}
 		Class455 class455 = client.aClass515_11066.method6251(-736961523);
 		Class553 class553 = client.aClass515_11066.method6249(384881812);
-		int i_24_ = Class461.anInt5216 * -787333673 >> 9;
+		int i_24_ = JS5ResourceProvider.anInt5216 * -787333673 >> 9;
 		int i_25_ = -1817694149 * Class222.anInt2326 >> 9;
-		int i_26_ = Class54.method944(-787333673 * Class461.anInt5216, -1817694149 * Class222.anInt2326, Class320.anInt3539 * -989431627, 2138078571);
+		int i_26_ = Class54.method944(-787333673 * JS5ResourceProvider.anInt5216, -1817694149 * Class222.anInt2326, Class320.anInt3539 * -989431627, 2138078571);
 		int i_27_ = 0;
 		if (i_24_ > 3 && i_25_ > 3 && i_24_ < client.aClass515_11066.method6321((byte) -4) - 4 && i_25_ < client.aClass515_11066.method6243(177401017) - 4) {
 			for (int i_28_ = i_24_ - 4; i_28_ <= i_24_ + 4; i_28_++) {

@@ -80,7 +80,7 @@ public class Class709 implements Interface75 {
 					class536_sub42.aClass251_10804 = class251;
 					class536_sub42.aClass251_10806 = class251_3_;
 					class536_sub42.anObjectArray10802 = class251.onOptHook;
-					Class618.method7388(class536_sub42, -1540734620);
+					PlayerStat.method7388(class536_sub42, -1540734620);
 				}
 			}
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4501, client.aClass106_11322.aClass15_1258, 2126697068);

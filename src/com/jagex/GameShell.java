@@ -163,11 +163,11 @@ public abstract class GameShell implements Interface62, Runnable, FocusListener,
 		}
 		Class247.method3425(Class63.aFile718, (byte) 8);
 		Class550_Sub1.method9815(1074099657);
-		aClass18_6879 = new Class18(new Class6((Class674.method8031("main_file_cache.dat2", 114563965)), "rw", 3221225472L), 5200, 0);
-		aClass18_6880 = new Class18(new Class6((Class674.method8031("main_file_cache.idx255", 114563965)), "rw", 1048576L), 6000, 0);
+		aClass18_6879 = new Class18(new Class6((AccountType.method8031("main_file_cache.dat2", 114563965)), "rw", 3221225472L), 5200, 0);
+		aClass18_6880 = new Class18(new Class6((AccountType.method8031("main_file_cache.idx255", 114563965)), "rw", 1048576L), 6000, 0);
 		Class484.aClass18Array5436 = new Class18[-1362565127 * Class151.anInt1711];
 		for (int i_13_ = 0; i_13_ < Class151.anInt1711 * -1362565127; i_13_++)
-			Class484.aClass18Array5436[i_13_] = new Class18(new Class6((Class674.method8031(new StringBuilder().append("main_file_cache.idx").append(i_13_).toString(), 114563965)), "rw", 1048576L), 6000, 0);
+			Class484.aClass18Array5436[i_13_] = new Class18(new Class6((AccountType.method8031(new StringBuilder().append("main_file_cache.idx").append(i_13_).toString(), 114563965)), "rw", 1048576L), 6000, 0);
 		try {
 			Class464.aClass691_5228 = new Class691();
 		} catch (Exception exception) {

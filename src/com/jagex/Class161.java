@@ -4,7 +4,7 @@
 package com.jagex;
 
 public abstract class Class161 {
-	static Class461 aClass461_1770;
+	static JS5ResourceProvider aClass461_1770;
 
 	Class161() {
 		/* empty */

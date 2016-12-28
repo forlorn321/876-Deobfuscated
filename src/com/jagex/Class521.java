@@ -44,7 +44,7 @@ public class Class521 {
 	}
 
 	static void method6357(Class668 class668, int i) {
-		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 10)).anInt3038 * -805412769);
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 10)).anInt3038 * -805412769);
 	}
 
 	public static boolean method6358(char c, int i) {

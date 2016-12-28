@@ -153,7 +153,7 @@ public class Class158 {
 	static String method1892(int[] is, int i) {
 		StringBuilder stringbuilder = new StringBuilder();
 		for (int i_31_ = 0; i_31_ < is.length; i_31_++) {
-			Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70(is[i_31_], (byte) 16));
+			QuestTypeDecoder class277 = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70(is[i_31_], (byte) 16));
 			if (-1 != class277.anInt3048 * 1670428349)
 				stringbuilder.append(" <sprite=").append(1670428349 * class277.anInt3048).append(">");
 		}

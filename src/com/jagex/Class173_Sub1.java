@@ -4,8 +4,8 @@
 package com.jagex;
 
 public class Class173_Sub1 extends Class173 {
-	Class461 aClass461_9382;
-	Class461 aClass461_9383;
+	JS5ResourceProvider aClass461_9382;
+	JS5ResourceProvider aClass461_9383;
 	static int anInt9384;
 
 	public boolean method137(Class599 class599, int i, Class594 class594, float f, int i_0_, int i_1_, boolean bool, int i_2_) {
@@ -22,7 +22,7 @@ public class Class173_Sub1 extends Class173 {
 		return false;
 	}
 
-	public Class173_Sub1(Class461 class461, Class461 class461_4_) {
+	public Class173_Sub1(JS5ResourceProvider class461, JS5ResourceProvider class461_4_) {
 		aClass461_9382 = class461;
 		aClass461_9383 = class461_4_;
 	}

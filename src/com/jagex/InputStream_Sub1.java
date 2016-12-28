@@ -6,7 +6,7 @@ package com.jagex;
 import java.io.InputStream;
 
 public class InputStream_Sub1 extends InputStream {
-	static Class461 aClass461_10979;
+	static JS5ResourceProvider aClass461_10979;
 	public static String aString10980;
 
 	public int method10360() {

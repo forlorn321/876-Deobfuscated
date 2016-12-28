@@ -6,7 +6,7 @@ package com.jagex;
 public abstract class Class309 implements Interface6 {
 	int anInt3458;
 	GameMode aClass670_3459;
-	Class461 aClass461_3460;
+	JS5ResourceProvider aClass461_3460;
 	Class199 aClass199_3461 = new Class199(50);
 	Class199 aClass199_3462 = new Class199(5);
 	boolean aBool3463;
@@ -58,7 +58,7 @@ public abstract class Class309 implements Interface6 {
 		}
 	}
 
-	Class309(boolean bool, Class461 class461, Class664 class664, GameMode class670) {
+	Class309(boolean bool, JS5ResourceProvider class461, Language class664, GameMode class670) {
 		aBool3463 = bool;
 		aClass461_3460 = class461;
 		aClass670_3459 = class670;

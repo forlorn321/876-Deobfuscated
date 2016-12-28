@@ -83,7 +83,7 @@ public abstract class Class649_Sub1_Sub2 extends Class649_Sub1 {
 		return (aClass553_10838.aBoolArrayArray7471[(aClass553_10838.anInt7447 * 813474573 + (((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444) - -1629030593 * aClass553_10838.anInt7454))][(aClass553_10838.anInt7447 * 813474573 + (((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444) - -1430999951 * aClass553_10838.anInt7455))]);
 	}
 
-	static char method10751(char c, Class664 class664, byte i) {
+	static char method10751(char c, Language class664, byte i) {
 		if (c >= '\u00c0' && c <= '\u00ff') {
 			if (c >= '\u00c0' && c <= '\u00c6')
 				return 'A';
@@ -93,7 +93,7 @@ public abstract class Class649_Sub1_Sub2 extends Class649_Sub1 {
 				return 'E';
 			if (c >= '\u00cc' && c <= '\u00cf')
 				return 'I';
-			if ('\u00d1' == c && Class664.aClass664_8521 != class664)
+			if ('\u00d1' == c && Language.aClass664_8521 != class664)
 				return 'N';
 			if (c >= '\u00d2' && c <= '\u00d6')
 				return 'O';
@@ -111,7 +111,7 @@ public abstract class Class649_Sub1_Sub2 extends Class649_Sub1 {
 				return 'e';
 			if (c >= '\u00ec' && c <= '\u00ef')
 				return 'i';
-			if (c == '\u00f1' && Class664.aClass664_8521 != class664)
+			if (c == '\u00f1' && Language.aClass664_8521 != class664)
 				return 'n';
 			if (c >= '\u00f2' && c <= '\u00f6')
 				return 'o';

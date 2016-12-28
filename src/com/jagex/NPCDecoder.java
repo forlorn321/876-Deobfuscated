@@ -5,7 +5,8 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class296 implements ConfigType {
+public class NPCDecoder implements ConfigType {
+	
 	public boolean aBool3265;
 	public static final int anInt3266 = 8;
 	public static short[] aShortArray3267 = new short[256];
@@ -343,11 +344,11 @@ public class Class296 implements ConfigType {
 			int i_37_ = class536_sub33.readUnsignedByte();
 			if (i_37_ == 0)
 				break;
-			method3980(class536_sub33, i_37_, 38009999);
+			decode(class536_sub33, i_37_, 38009999);
 		}
 	}
 
-	void method3980(RSByteBuffer class536_sub33, int i, int i_38_) {
+	void decode(RSByteBuffer class536_sub33, int i, int i_38_) {
 		if (1 == i) {
 			int i_39_ = class536_sub33.readUnsignedByte();
 			anIntArray3317 = new int[i_39_];
@@ -614,7 +615,7 @@ public class Class296 implements ConfigType {
 		}
 	}
 
-	Class296(int i, Class309 class309, Interface12 interface12) {
+	NPCDecoder(int i, Class309 class309, Interface12 interface12) {
 		anInt3310 = -1746390003;
 		aBool3284 = true;
 		anInt3292 = -1950361179;
@@ -665,9 +666,9 @@ public class Class296 implements ConfigType {
 		aStringArray3288 = (String[]) aClass309_3268.aStringArray3464.clone();
 	}
 
-	public final Class177 method3981(Class167 class167, int i, Interface20 interface20, Interface18 interface18, Class688 class688, Class304 class304, short i_76_) {
+	public final Class177 method3981(Class167 class167, int i, Interface20 interface20, Interface18 interface18, Class688 class688, NPCCustomization class304, short i_76_) {
 		if (anIntArray3304 != null) {
-			Class296 class296_77_ = method3984(interface20, interface18, (byte) -27);
+			NPCDecoder class296_77_ = method3984(interface20, interface18, (byte) -27);
 			if (class296_77_ == null)
 				return null;
 			return class296_77_.method3981(class167, i, interface20, interface18, class688, class304, (short) -16410);
@@ -778,7 +779,7 @@ public class Class296 implements ConfigType {
 		return (String) class536_sub13.value;
 	}
 
-	public final Class296 method3984(Interface20 interface20, Interface18 interface18, byte i) {
+	public final NPCDecoder method3984(Interface20 interface20, Interface18 interface18, byte i) {
 		int i_90_ = -1;
 		if (-1 != -2140393995 * anInt3273) {
 			Class324 class324 = interface20.method123(anInt3273 * -2140393995, -1018286558);
@@ -792,12 +793,12 @@ public class Class296 implements ConfigType {
 		if (i_90_ < 0 || i_90_ >= anIntArray3304.length - 1) {
 			int i_91_ = anIntArray3304[anIntArray3304.length - 1];
 			if (i_91_ != -1)
-				return ((Class296) anInterface12_3269.method70(i_91_, (byte) -34));
+				return ((NPCDecoder) anInterface12_3269.method70(i_91_, (byte) -34));
 			return null;
 		}
 		if (anIntArray3304[i_90_] == -1)
 			return null;
-		return ((Class296) anInterface12_3269.method70(anIntArray3304[i_90_], (byte) 2));
+		return ((NPCDecoder) anInterface12_3269.method70(anIntArray3304[i_90_], (byte) 2));
 	}
 
 	public boolean method3985(Interface20 interface20, Interface18 interface18, int i) {
@@ -829,7 +830,7 @@ public class Class296 implements ConfigType {
 			return (-1 != -1037321689 * anInt3319 || -1 != anInt3321 * -369448145 || anInt3326 * -3853097 != -1);
 		for (int i_94_ = 0; i_94_ < anIntArray3304.length; i_94_++) {
 			if (-1 != anIntArray3304[i_94_]) {
-				Class296 class296_95_ = ((Class296) anInterface12_3269.method70(anIntArray3304[i_94_], (byte) 33));
+				NPCDecoder class296_95_ = ((NPCDecoder) anInterface12_3269.method70(anIntArray3304[i_94_], (byte) 33));
 				if (-1037321689 * class296_95_.anInt3319 != -1 || -369448145 * class296_95_.anInt3321 != -1 || -1 != -3853097 * class296_95_.anInt3326)
 					return true;
 			}
@@ -1670,7 +1671,7 @@ public class Class296 implements ConfigType {
 		return bool;
 	}
 
-	public final Class177 method3995(Class167 class167, int i, Class34_Sub16 class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_212_, Class688[] class688s, int[] is, int i_213_, Class304 class304, int i_214_) {
+	public final Class177 method3995(Class167 class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_212_, Class688[] class688s, int[] is, int i_213_, NPCCustomization class304, int i_214_) {
 		return method3997(class167, i, class34_sub16, interface20, interface18, class688, class688_212_, class688s, is, i_213_, class304, -1091541297 * anInt3305, true, 362571452);
 	}
 
@@ -1679,7 +1680,7 @@ public class Class296 implements ConfigType {
 			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
-			method3980(class536_sub33, i, 1460275862);
+			decode(class536_sub33, i, 1460275862);
 		}
 	}
 
@@ -1692,9 +1693,9 @@ public class Class296 implements ConfigType {
 		return (String) class536_sub13.value;
 	}
 
-	public final Class177 method3997(Class167 class167, int i, Class34_Sub16 class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_215_, Class688[] class688s, int[] is, int i_216_, Class304 class304, int i_217_, boolean bool, int i_218_) {
+	public final Class177 method3997(Class167 class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_215_, Class688[] class688s, int[] is, int i_216_, NPCCustomization class304, int i_217_, boolean bool, int i_218_) {
 		if (anIntArray3304 != null) {
-			Class296 class296_219_ = method3984(interface20, interface18, (byte) -96);
+			NPCDecoder class296_219_ = method3984(interface20, interface18, (byte) -96);
 			if (null == class296_219_)
 				return null;
 			return class296_219_.method3997(class167, i, class34_sub16, interface20, interface18, class688, class688_215_, class688s, is, i_216_, class304, i_217_, bool, 1032202426);
@@ -1727,11 +1728,11 @@ public class Class296 implements ConfigType {
 		synchronized (aClass309_3268.aClass199_3461) {
 			class177 = (Class177) aClass309_3268.aClass199_3461.method2886(l);
 		}
-		Class589 class589 = null;
+		BASTypeDecoder class589 = null;
 		if (!bool && -1 != i_217_)
-			class589 = (Class589) class34_sub16.method70(i_217_, (byte) -40);
+			class589 = (BASTypeDecoder) class34_sub16.method70(i_217_, (byte) -40);
 		else if (-1091541297 * anInt3305 != -1)
-			class589 = (Class589) class34_sub16.method70(anInt3305 * -1091541297, (byte) -11);
+			class589 = (BASTypeDecoder) class34_sub16.method70(anInt3305 * -1091541297, (byte) -11);
 		if (class177 == null || (class177.method2466() & i_220_) != i_220_) {
 			if (class177 != null)
 				i_220_ |= class177.method2466();
@@ -1899,7 +1900,7 @@ public class Class296 implements ConfigType {
 			return (-1 != -1037321689 * anInt3319 || -1 != anInt3321 * -369448145 || anInt3326 * -3853097 != -1);
 		for (int i = 0; i < anIntArray3304.length; i++) {
 			if (-1 != anIntArray3304[i]) {
-				Class296 class296_247_ = (Class296) anInterface12_3269.method70(anIntArray3304[i], (byte) 62);
+				NPCDecoder class296_247_ = (NPCDecoder) anInterface12_3269.method70(anIntArray3304[i], (byte) 62);
 				if (-1037321689 * class296_247_.anInt3319 != -1 || -369448145 * class296_247_.anInt3321 != -1 || -1 != -3853097 * class296_247_.anInt3326)
 					return true;
 			}

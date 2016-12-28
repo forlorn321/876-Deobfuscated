@@ -47,7 +47,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	Class7 method10958(Class167 class167, int i, boolean bool, int i_1_) {
-		Class612 class612 = (Class612) aClass34_Sub17_12024.method70(anInt12028 * 42962607, (byte) 42);
+		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_12024.method70(anInt12028 * 42962607, (byte) 42);
 		Class160 class160;
 		Class160 class160_2_;
 		if (aBool12034) {
@@ -76,7 +76,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 			return null;
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12032, -527237271);
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -5)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -5)).aClass437_8010);
 		if (null != class437) {
 			aClass177_12022.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class437);
@@ -90,7 +90,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	boolean method9939(Class167 class167, int i, int i_3_, byte i_4_) {
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -3)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -3)).aClass437_8010);
 		if (class437 != null)
 			return class167.method2073(i, i_3_, method7851(), class437, -1867120823);
 		Class177 class177 = method10957(class167, 131072, (byte) -25);
@@ -128,7 +128,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	static int method10959(int i, int i_9_) {
-		if (i == Class606.aClass606_7874.anInt7878 * -723459231 || -723459231 * Class606.aClass606_7876.anInt7878 == i)
+		if (i == ObjShapes.aClass606_7874.anInt7878 * -723459231 || -723459231 * ObjShapes.aClass606_7876.anInt7878 == i)
 			return anIntArray12027[i_9_ & 0x3];
 		return anIntArray12031[i_9_ & 0x3];
 	}
@@ -150,7 +150,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 			return null;
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12032, -1653475838);
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 51)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 51)).aClass437_8010);
 		if (null != class437) {
 			aClass177_12022.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class437);
@@ -175,7 +175,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	boolean method9971(Class167 class167, int i, int i_10_) {
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 7)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 7)).aClass437_8010);
 		if (class437 != null)
 			return class167.method2073(i, i_10_, method7851(), class437, -1851404279);
 		Class177 class177 = method10957(class167, 131072, (byte) -31);
@@ -206,7 +206,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 		return aByte12029;
 	}
 
-	public Class649_Sub1_Sub3_Sub2(Class553 class553, Class167 class167, Class34_Sub17 class34_sub17, Class612 class612, int i, int i_11_, int i_12_, int i_13_, int i_14_, boolean bool, int i_15_, int i_16_, boolean bool_17_) {
+	public Class649_Sub1_Sub3_Sub2(Class553 class553, Class167 class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_11_, int i_12_, int i_13_, int i_14_, boolean bool, int i_15_, int i_16_, boolean bool_17_) {
 		super(class553, i_12_, i_13_, i_14_, i, i_11_, Class97.method1321(i_15_, i_16_, 1066073076));
 		aClass34_Sub17_12024 = class34_sub17;
 		anInt12028 = class612.anInt8008 * 24892529;
@@ -297,7 +297,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 			return null;
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12032, 1179970727);
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -53)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -53)).aClass437_8010);
 		if (null != class437) {
 			aClass177_12022.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class437);
@@ -377,7 +377,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 			return null;
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12032, -332970645);
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 112)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 112)).aClass437_8010);
 		if (null != class437) {
 			aClass177_12022.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class437);
@@ -403,7 +403,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	boolean method9969(Class167 class167, int i, int i_19_) {
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 1)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) 1)).aClass437_8010);
 		if (class437 != null)
 			return class167.method2073(i, i_19_, method7851(), class437, -1976594420);
 		Class177 class177 = method10957(class167, 131072, (byte) -1);
@@ -415,7 +415,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	boolean method9957(Class167 class167, int i, int i_20_) {
-		Class437 class437 = (((Class612) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -17)).aClass437_8010);
+		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_12024.method70(42962607 * anInt12028, (byte) -17)).aClass437_8010);
 		if (class437 != null)
 			return class167.method2073(i, i_20_, method7851(), class437, -1735435313);
 		Class177 class177 = method10957(class167, 131072, (byte) -74);
@@ -476,7 +476,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 	}
 
 	static int method10960(int i, int i_24_) {
-		if (i == Class606.aClass606_7874.anInt7878 * -723459231 || -723459231 * Class606.aClass606_7876.anInt7878 == i)
+		if (i == ObjShapes.aClass606_7874.anInt7878 * -723459231 || -723459231 * ObjShapes.aClass606_7876.anInt7878 == i)
 			return anIntArray12027[i_24_ & 0x3];
 		return anIntArray12031[i_24_ & 0x3];
 	}

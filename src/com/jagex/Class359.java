@@ -96,9 +96,9 @@ public class Class359 {
 		int i_13_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (1939619399 * class251.modelType != 6)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 54));
+		NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 54));
 		if (class251.aClass304_2583 == null)
-			class251.aClass304_2583 = new Class304(class296, true);
+			class251.aClass304_2583 = new NPCCustomization(class296, true);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(726730692) * 1195640203384682761L;
 		if (i_13_ < 0 || i_13_ >= class296.anIntArray3317.length)
 			throw new RuntimeException(new StringBuilder().append("").append(i_13_).toString());

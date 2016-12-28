@@ -3,7 +3,8 @@
  */
 package com.jagex;
 
-public class Class277 implements ConfigType {
+public class QuestTypeDecoder implements ConfigType {
+	
 	public String[] aStringArray3026;
 	public String aString3027;
 	public String aString3028;
@@ -28,107 +29,107 @@ public class Class277 implements ConfigType {
 	public int anInt3047 = 0;
 	public int anInt3048;
 
-	public void decodeType(RSByteBuffer class536_sub33) {
+	public void decodeType(RSByteBuffer buffer) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte();
-			if (i_0_ == 0)
+			int opcode = buffer.readUnsignedByte();
+			if (opcode == 0)
 				break;
-			method3740(class536_sub33, i_0_, -1106056103);
+			decode(buffer, opcode);
 		}
 	}
 
-	void method3740(RSByteBuffer class536_sub33, int i, int i_1_) {
-		if (1 == i)
-			aString3027 = class536_sub33.readVersionedString();
-		else if (2 == i)
-			aString3028 = class536_sub33.readVersionedString();
-		else if (3 == i) {
-			int i_2_ = class536_sub33.readUnsignedByte();
+	void decode(RSByteBuffer buffer, int opcode) {
+		if (1 == opcode)
+			aString3027 = buffer.readVersionedString();
+		else if (2 == opcode)
+			aString3028 = buffer.readVersionedString();
+		else if (3 == opcode) {
+			int i_2_ = buffer.readUnsignedByte();
 			anIntArrayArray3029 = new int[i_2_][3];
 			for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
-				anIntArrayArray3029[i_3_][0] = class536_sub33.readUnsignedShort();
-				anIntArrayArray3029[i_3_][1] = class536_sub33.readInt();
-				anIntArrayArray3029[i_3_][2] = class536_sub33.readInt();
+				anIntArrayArray3029[i_3_][0] = buffer.readUnsignedShort();
+				anIntArrayArray3029[i_3_][1] = buffer.readInt();
+				anIntArrayArray3029[i_3_][2] = buffer.readInt();
 			}
-		} else if (4 == i) {
-			int i_4_ = class536_sub33.readUnsignedByte();
+		} else if (4 == opcode) {
+			int i_4_ = buffer.readUnsignedByte();
 			anIntArrayArray3030 = new int[i_4_][3];
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-				anIntArrayArray3030[i_5_][0] = class536_sub33.readUnsignedShort();
-				anIntArrayArray3030[i_5_][1] = class536_sub33.readInt();
-				anIntArrayArray3030[i_5_][2] = class536_sub33.readInt();
+				anIntArrayArray3030[i_5_][0] = buffer.readUnsignedShort();
+				anIntArrayArray3030[i_5_][1] = buffer.readInt();
+				anIntArrayArray3030[i_5_][2] = buffer.readInt();
 			}
-		} else if (5 == i)
-			class536_sub33.readUnsignedShort();
-		else if (i == 6)
-			anInt3031 = class536_sub33.readUnsignedByte() * 493644429;
-		else if (i == 7)
-			anInt3047 = class536_sub33.readUnsignedByte() * 1327736819;
-		else if (8 == i)
+		} else if (5 == opcode)
+			buffer.readUnsignedShort();
+		else if (opcode == 6)
+			anInt3031 = buffer.readUnsignedByte() * 493644429;
+		else if (opcode == 7)
+			anInt3047 = buffer.readUnsignedByte() * 1327736819;
+		else if (8 == opcode)
 			aBool3033 = true;
-		else if (9 == i)
-			anInt3038 = class536_sub33.readUnsignedByte() * 1369176991;
-		else if (i == 10) {
-			int i_6_ = class536_sub33.readUnsignedByte();
+		else if (9 == opcode)
+			anInt3038 = buffer.readUnsignedByte() * 1369176991;
+		else if (opcode == 10) {
+			int i_6_ = buffer.readUnsignedByte();
 			anIntArray3039 = new int[i_6_];
 			for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
-				anIntArray3039[i_7_] = class536_sub33.readInt();
-		} else if (12 == i)
-			class536_sub33.readInt();
-		else if (13 == i) {
-			int i_8_ = class536_sub33.readUnsignedByte();
+				anIntArray3039[i_7_] = buffer.readInt();
+		} else if (12 == opcode)
+			buffer.readInt();
+		else if (13 == opcode) {
+			int i_8_ = buffer.readUnsignedByte();
 			anIntArray3036 = new int[i_8_];
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++)
-				anIntArray3036[i_9_] = class536_sub33.readUnsignedShort();
-		} else if (14 == i) {
-			int i_10_ = class536_sub33.readUnsignedByte();
+				anIntArray3036[i_9_] = buffer.readUnsignedShort();
+		} else if (14 == opcode) {
+			int i_10_ = buffer.readUnsignedByte();
 			anIntArrayArray3037 = new int[i_10_][2];
 			for (int i_11_ = 0; i_11_ < i_10_; i_11_++) {
-				anIntArrayArray3037[i_11_][0] = class536_sub33.readUnsignedByte();
-				anIntArrayArray3037[i_11_][1] = class536_sub33.readUnsignedByte();
+				anIntArrayArray3037[i_11_][0] = buffer.readUnsignedByte();
+				anIntArrayArray3037[i_11_][1] = buffer.readUnsignedByte();
 			}
-		} else if (i == 15)
-			anInt3032 = class536_sub33.readUnsignedShort() * -757256069;
-		else if (i == 17)
-			anInt3048 = class536_sub33.readBigSmart() * 1566078101;
-		else if (i == 18) {
-			int i_12_ = class536_sub33.readUnsignedByte();
+		} else if (opcode == 15)
+			anInt3032 = buffer.readUnsignedShort() * -757256069;
+		else if (opcode == 17)
+			anInt3048 = buffer.readBigSmart() * 1566078101;
+		else if (opcode == 18) {
+			int i_12_ = buffer.readUnsignedByte();
 			anIntArray3044 = new int[i_12_];
 			anIntArray3034 = new int[i_12_];
 			anIntArray3041 = new int[i_12_];
 			aStringArray3042 = new String[i_12_];
 			for (int i_13_ = 0; i_13_ < i_12_; i_13_++) {
-				anIntArray3044[i_13_] = class536_sub33.readInt();
-				anIntArray3034[i_13_] = class536_sub33.readInt();
-				anIntArray3041[i_13_] = class536_sub33.readInt();
-				aStringArray3042[i_13_] = class536_sub33.readString();
+				anIntArray3044[i_13_] = buffer.readInt();
+				anIntArray3034[i_13_] = buffer.readInt();
+				anIntArray3041[i_13_] = buffer.readInt();
+				aStringArray3042[i_13_] = buffer.readString();
 			}
-		} else if (19 == i) {
-			int i_14_ = class536_sub33.readUnsignedByte();
+		} else if (19 == opcode) {
+			int i_14_ = buffer.readUnsignedByte();
 			anIntArray3043 = new int[i_14_];
 			anIntArray3046 = new int[i_14_];
 			anIntArray3045 = new int[i_14_];
 			aStringArray3026 = new String[i_14_];
 			for (int i_15_ = 0; i_15_ < i_14_; i_15_++) {
-				anIntArray3043[i_15_] = class536_sub33.readInt();
-				anIntArray3046[i_15_] = class536_sub33.readInt();
-				anIntArray3045[i_15_] = class536_sub33.readInt();
-				aStringArray3026[i_15_] = class536_sub33.readString();
+				anIntArray3043[i_15_] = buffer.readInt();
+				anIntArray3046[i_15_] = buffer.readInt();
+				anIntArray3045[i_15_] = buffer.readInt();
+				aStringArray3026[i_15_] = buffer.readString();
 			}
-		} else if (249 == i) {
-			int i_16_ = class536_sub33.readUnsignedByte();
+		} else if (249 == opcode) {
+			int i_16_ = buffer.readUnsignedByte();
 			if (null == aClass4_3040) {
 				int i_17_ = Class528.method6434(i_16_, 8573132);
 				aClass4_3040 = new Class4(i_17_);
 			}
 			for (int i_18_ = 0; i_18_ < i_16_; i_18_++) {
-				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_19_ = class536_sub33.read24BitUnsignedInteger();
+				boolean bool = buffer.readUnsignedByte() == 1;
+				int i_19_ = buffer.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new ObjectParam(class536_sub33.readString());
+					class536 = new ObjectParam(buffer.readString());
 				else
-					class536 = new IntParam(class536_sub33.readInt());
+					class536 = new IntParam(buffer.readInt());
 				aClass4_3040.method560(class536, (long) i_19_);
 			}
 		}
@@ -186,7 +187,7 @@ public class Class277 implements ConfigType {
 		}
 		if (null != anIntArray3036) {
 			for (int i_26_ = 0; i_26_ < anIntArray3036.length; i_26_++) {
-				if (!((Class277) anInterface12_3035.method70(anIntArray3036[i_26_], (byte) -67)).method3750(interface18, (byte) 42))
+				if (!((QuestTypeDecoder) anInterface12_3035.method70(anIntArray3036[i_26_], (byte) -67)).method3750(interface18, (byte) 42))
 					return false;
 			}
 		}
@@ -226,7 +227,7 @@ public class Class277 implements ConfigType {
 	public boolean method3747(Interface18 interface18, int i, int i_32_) {
 		if (anIntArray3036 == null || i < 0 || i >= anIntArray3036.length)
 			return false;
-		if (!((Class277) anInterface12_3035.method70(anIntArray3036[i], (byte) -37)).method3750(interface18, (byte) 110))
+		if (!((QuestTypeDecoder) anInterface12_3035.method70(anIntArray3036[i], (byte) -37)).method3750(interface18, (byte) 110))
 			return false;
 		return true;
 	}
@@ -463,7 +464,7 @@ public class Class277 implements ConfigType {
 		}
 	}
 
-	Class277(int i, Interface12 interface12) {
+	QuestTypeDecoder(int i, Interface12 interface12) {
 		aBool3033 = false;
 		anInt3048 = -1566078101;
 		anInterface12_3035 = interface12;
@@ -474,7 +475,7 @@ public class Class277 implements ConfigType {
 			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
-			method3740(class536_sub33, i, -1106056103);
+			decode(class536_sub33, i);
 		}
 	}
 

@@ -58,7 +58,7 @@ public class Class319_Sub2 extends Class319 {
 		return aClass461_3529.method5580((((Class392_Sub2) aClass392_3527).anInt10223) * -480206449, -964514165);
 	}
 
-	Class319_Sub2(Class461 class461, Class461 class461_5_, Class392_Sub2 class392_sub2) {
+	Class319_Sub2(JS5ResourceProvider class461, JS5ResourceProvider class461_5_, Class392_Sub2 class392_sub2) {
 		super(class461, class461_5_, (Class392) class392_sub2);
 	}
 

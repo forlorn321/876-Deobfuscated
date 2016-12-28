@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class385 implements Interface47 {
-	Class461 aClass461_4019;
+	JS5ResourceProvider aClass461_4019;
 	Class199 aClass199_4020 = new Class199(64);
 
 	public Class400 method335(int i, byte i_0_) {
@@ -31,7 +31,7 @@ public class Class385 implements Interface47 {
 		return class400;
 	}
 
-	public Class385(Class461 class461) {
+	public Class385(JS5ResourceProvider class461) {
 		aClass461_4019 = class461;
 	}
 
@@ -71,7 +71,7 @@ public class Class385 implements Interface47 {
 	}
 
 	public static Class697[] method4841(byte i) {
-		if (Class590.aClass697Array7790 == null) {
+		if (ObjTypeTransformation.aClass697Array7790 == null) {
 			Class697[] class697s = Class250.method3461(Class464.aClass691_5228, (byte) 0);
 			Class697[] class697s_5_ = new Class697[class697s.length];
 			int i_6_ = 0;
@@ -91,16 +91,16 @@ public class Class385 implements Interface47 {
 					i_6_++;
 				}
 			}
-			Class590.aClass697Array7790 = new Class697[i_6_];
-			System.arraycopy(class697s_5_, 0, Class590.aClass697Array7790, 0, i_6_);
-			int[] is = new int[Class590.aClass697Array7790.length];
-			for (int i_11_ = 0; i_11_ < Class590.aClass697Array7790.length; i_11_++) {
-				Class697 class697 = Class590.aClass697Array7790[i_11_];
+			ObjTypeTransformation.aClass697Array7790 = new Class697[i_6_];
+			System.arraycopy(class697s_5_, 0, ObjTypeTransformation.aClass697Array7790, 0, i_6_);
+			int[] is = new int[ObjTypeTransformation.aClass697Array7790.length];
+			for (int i_11_ = 0; i_11_ < ObjTypeTransformation.aClass697Array7790.length; i_11_++) {
+				Class697 class697 = ObjTypeTransformation.aClass697Array7790[i_11_];
 				is[i_11_] = -1090373425 * class697.anInt8744 * (class697.anInt8743 * 832859273);
 			}
-			Class532.method6446(is, Class590.aClass697Array7790, (short) -31388);
+			Class532.method6446(is, ObjTypeTransformation.aClass697Array7790, (short) -31388);
 		}
-		return Class590.aClass697Array7790;
+		return ObjTypeTransformation.aClass697Array7790;
 	}
 
 	static final void method4842(Class668 class668, short i) {

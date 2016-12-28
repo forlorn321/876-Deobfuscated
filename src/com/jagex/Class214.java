@@ -10,8 +10,8 @@ public class Class214 implements Interface27 {
 	Class222 aClass222_2299;
 	int anInt2300;
 	Class213 this$0;
-	public static Class461 aClass461_2301;
-	public static Class461 aClass461_2302;
+	public static JS5ResourceProvider aClass461_2301;
+	public static JS5ResourceProvider aClass461_2302;
 
 	public void method155(Class226 class226) {
 		class226.method3240(-662857247 * anInt2300, aClass222_2299, 1551608756);
@@ -86,7 +86,7 @@ public class Class214 implements Interface27 {
 
 	static final void method3081(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -44);
+		ItemDecoder class1 = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -44);
 		int i_8_;
 		if (class1.aBool84)
 			i_8_ = 676567643 * class1.anInt40;

@@ -41,7 +41,7 @@ public class Class330_Sub1 extends Class330 {
 		anInt9994 += -1107938999 * ((Class398_Sub1) aClass398_3604).anInt10109;
 	}
 
-	Class330_Sub1(Class461 class461, Class398_Sub1 class398_sub1) {
+	Class330_Sub1(JS5ResourceProvider class461, Class398_Sub1 class398_sub1) {
 		super(class461, (Class398) class398_sub1);
 	}
 

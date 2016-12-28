@@ -7,10 +7,10 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Class602 implements Iterable {
-	Class630[] aClass630Array7854;
+	PlayerSkill[] aClass630Array7854;
 	Class635[] aClass635Array7855;
 	public static Class34_Sub1 aClass34_Sub1_7856;
-	public static Class461 aClass461_7857;
+	public static JS5ResourceProvider aClass461_7857;
 
 	public Iterator method7170() {
 		return new Class632(aClass630Array7854);
@@ -44,14 +44,14 @@ public class Class602 implements Iterable {
 					if ((i_6_ & 0x8) != 0)
 						i_8_ = class536_sub33.readByte();
 					boolean bool_9_ = class536_sub33.readUnsignedByte() == 1;
-					linkedlist.add(new Class630(i_4_, i_5_, bool, bool_9_, i_7_, class635, i_8_));
+					linkedlist.add(new PlayerSkill(i_4_, i_5_, bool, bool_9_, i_7_, class635, i_8_));
 					if (i_4_ > i_2_)
 						i_2_ = i_4_;
 				}
-				aClass630Array7854 = new Class630[i_2_ + 1];
+				aClass630Array7854 = new PlayerSkill[i_2_ + 1];
 				Iterator iterator = linkedlist.iterator();
 				while (iterator.hasNext()) {
-					Class630 class630 = (Class630) iterator.next();
+					PlayerSkill class630 = (PlayerSkill) iterator.next();
 					aClass630Array7854[class630.method7504(1316515273)] = class630;
 				}
 			} else if (2 == i_0_) {
@@ -70,7 +70,7 @@ public class Class602 implements Iterable {
 		return aClass630Array7854.length;
 	}
 
-	public Class630 method7174(int i, byte i_12_) {
+	public PlayerSkill method7174(int i, byte i_12_) {
 		return aClass630Array7854[i];
 	}
 
@@ -93,7 +93,7 @@ public class Class602 implements Iterable {
 	void method7178(byte[] is, byte i) {
 		method7176(1850748161);
 		if (null == is)
-			aClass630Array7854 = new Class630[0];
+			aClass630Array7854 = new PlayerSkill[0];
 		else
 			method7172(new RSByteBuffer(is), -1215441965);
 	}
@@ -101,7 +101,7 @@ public class Class602 implements Iterable {
 	void method7179(byte[] is) {
 		method7176(2028010544);
 		if (null == is)
-			aClass630Array7854 = new Class630[0];
+			aClass630Array7854 = new PlayerSkill[0];
 		else
 			method7172(new RSByteBuffer(is), -1215441965);
 	}
@@ -110,7 +110,7 @@ public class Class602 implements Iterable {
 		return new Class632(aClass630Array7854);
 	}
 
-	public Class602(Class461 class461) {
+	public Class602(JS5ResourceProvider class461) {
 		method7178(class461.method5595((Class633.aClass633_8251.anInt8258 * -848473139), -1103783395), (byte) -16);
 	}
 

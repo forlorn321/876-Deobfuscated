@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class34_Sub2 extends Class34 {
-	public Class34_Sub2(GameMode class670, Class664 class664, Class461 class461, Class461 class461_0_) {
+	public Class34_Sub2(GameMode class670, Language class664, JS5ResourceProvider class461, JS5ResourceProvider class461_0_) {
 		super(class670, class664, class461, JS5ConfigGroup.IDK_TYPE, 64, new Class312(class461_0_));
 	}
 

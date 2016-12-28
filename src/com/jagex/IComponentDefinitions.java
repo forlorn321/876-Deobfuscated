@@ -55,7 +55,7 @@ public class IComponentDefinitions {
 	public int anInt2580;
 	public int anInt2581;
 	public boolean aBool2582;
-	public Class304 aClass304_2583;
+	public NPCCustomization aClass304_2583;
 	public int anInt2584;
 	public int anInt2585;
 	public int anInt2586;
@@ -1006,7 +1006,7 @@ public class IComponentDefinitions {
 		Class265.method3688(i, (byte) 81);
 	}
 
-	public Class177 method3502(Class167 class167, int i, Class34_Sub16 class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Class34_Sub11 class34_sub11, Interface20 interface20, Interface18 interface18, Class688 class688, Class617 class617, short i_63_) {
+	public Class177 method3502(Class167 class167, int i, BASTypeList class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Class34_Sub11 class34_sub11, Interface20 interface20, Interface18 interface18, Class688 class688, Class617 class617, short i_63_) {
 		aBool2724 = false;
 		if (0 == 1939619399 * modelType)
 			return null;
@@ -1067,7 +1067,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (2 == modelType * 1939619399) {
-			Class177 class177 = (((Class296) class34_sub7.method70(modelId * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
+			Class177 class177 = (((NPCDecoder) class34_sub7.method70(modelId * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
 			if (class177 == null) {
 				aBool2724 = true;
 				return null;
@@ -1085,7 +1085,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (4 == modelType * 1939619399) {
-			ItemTypeDecoder class1 = ((ItemTypeDecoder) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
+			ItemDecoder class1 = ((ItemDecoder) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
 			Class177 class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
 			if (null == class177) {
 				aBool2724 = true;
@@ -1094,7 +1094,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (1939619399 * modelType == 6) {
-			Class177 class177 = (((Class296) class34_sub7.method70(-2011124813 * modelId, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
+			Class177 class177 = (((NPCDecoder) class34_sub7.method70(-2011124813 * modelId, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
 			if (null == class177) {
 				aBool2724 = true;
 				return null;
@@ -1226,7 +1226,7 @@ public class IComponentDefinitions {
 	}
 
 	static void method3510(Class668 class668, byte i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 104)).method3745(Class465_Sub1.aClass96_10352, 1025086024) ? 1 : 0);
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 104)).method3745(Class465_Sub1.aClass96_10352, 1025086024) ? 1 : 0);
 	}
 
 	static final void method3511(Class668 class668, int i) {

@@ -100,7 +100,7 @@ public final class Class195 {
 			int i_14_ = (int) Math.sqrt((double) (i_13_ * i_13_ + i_11_ * i_11_));
 			Class141.anInt1658 = ((int) (Math.atan2((double) i_12_, (double) i_14_) * 2607.5945876176133) & 0x3fff) * 269246561;
 			Class144.anInt1681 = ((int) (Math.atan2((double) i_11_, (double) i_13_) * -2607.5945876176133) & 0x3fff) * 402508199;
-			Class304.anInt3440 = 0;
+			NPCCustomization.anInt3440 = 0;
 			if (62800801 * Class141.anInt1658 < 1024)
 				Class141.anInt1658 = 830571520;
 			if (Class141.anInt1658 * 62800801 > 3072)

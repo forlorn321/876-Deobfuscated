@@ -389,7 +389,7 @@ public class Class507 {
 		Class553 class553 = client.aClass515_11066.method6249(-493122155);
 		Interface59 interface59 = (Interface59) class553.method6716(i, i_73_, i_74_, -342954341);
 		if (interface59 != null) {
-			Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -67), (byte) 46)));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -67), (byte) 46)));
 			int i_80_ = interface59.method367((byte) -65) & 0x3;
 			int i_81_ = interface59.method71(-862308074);
 			if (-1070948127 * class612.anInt7941 != -1)
@@ -398,7 +398,7 @@ public class Class507 {
 				int i_82_ = i_77_;
 				if (1248110961 * class612.anInt7953 > 0)
 					i_82_ = i_78_;
-				if (i_81_ == Class606.aClass606_7892.anInt7878 * -723459231 || (-723459231 * Class606.aClass606_7875.anInt7878 == i_81_)) {
+				if (i_81_ == ObjShapes.aClass606_7892.anInt7878 * -723459231 || (-723459231 * ObjShapes.aClass606_7875.anInt7878 == i_81_)) {
 					if (i_80_ == 0)
 						class167.method2385(i_75_, i_76_, 4, i_82_, 1399787617);
 					else if (1 == i_80_)
@@ -408,7 +408,7 @@ public class Class507 {
 					else if (3 == i_80_)
 						class167.method2059(i_75_, i_76_ + 3, 4, i_82_, -1399442393);
 				}
-				if (-723459231 * Class606.aClass606_7876.anInt7878 == i_81_) {
+				if (-723459231 * ObjShapes.aClass606_7876.anInt7878 == i_81_) {
 					if (0 == i_80_)
 						class167.method2057(i_75_, i_76_, 1, 1, i_82_, (short) -5811);
 					else if (i_80_ == 1)
@@ -418,7 +418,7 @@ public class Class507 {
 					else if (3 == i_80_)
 						class167.method2057(i_75_, i_76_ + 3, 1, 1, i_82_, (short) -13455);
 				}
-				if (i_81_ == Class606.aClass606_7875.anInt7878 * -723459231) {
+				if (i_81_ == ObjShapes.aClass606_7875.anInt7878 * -723459231) {
 					if (i_80_ == 0)
 						class167.method2059(i_75_, i_76_, 4, i_82_, -1399442393);
 					else if (1 == i_80_)
@@ -432,12 +432,12 @@ public class Class507 {
 		}
 		interface59 = (Interface59) class553.method6736(i, i_73_, i_74_, client.anInterface64_11113, (byte) -50);
 		if (null != interface59) {
-			Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 25), (byte) -123)));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 25), (byte) -123)));
 			int i_83_ = interface59.method367((byte) -120) & 0x3;
 			int i_84_ = interface59.method71(836222206);
 			if (-1070948127 * class612.anInt7941 != -1)
 				Class643.method7736(class167, class612, i_83_, i_75_, i_76_, 1783441034);
-			else if (-723459231 * Class606.aClass606_7873.anInt7878 == i_84_) {
+			else if (-723459231 * ObjShapes.aClass606_7873.anInt7878 == i_84_) {
 				int i_85_ = -1118482;
 				if (class612.anInt7953 * 1248110961 > 0)
 					i_85_ = -1179648;
@@ -449,7 +449,7 @@ public class Class507 {
 		}
 		interface59 = (Interface59) class553.method6726(i, i_73_, i_74_, 1672121015);
 		if (interface59 != null) {
-			Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -29), (byte) 11)));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) -29), (byte) 11)));
 			int i_86_ = interface59.method367((byte) 5) & 0x3;
 			if (-1 != -1070948127 * class612.anInt7941)
 				Class643.method7736(class167, class612, i_86_, i_75_, i_76_, 2132973468);

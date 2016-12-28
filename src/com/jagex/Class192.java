@@ -52,7 +52,7 @@ class Class192 implements Interface42 {
 	static void method2843(int i, String string, String string_0_, int i_1_) {
 		if (null != client.aClass106_11322) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4514, client.aClass106_11322.aClass15_1258, 1777800533);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((1 + Class612.method7315(string, -1311964413) + Class612.method7315(string_0_, -1311964413)), -1778059594);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((1 + ObjTypeDecoder.method7315(string, -1311964413) + ObjTypeDecoder.method7315(string_0_, -1311964413)), -1778059594);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9729(i, -1433897343);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9785(string_0_, (byte) 76);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9785(string, (byte) 85);

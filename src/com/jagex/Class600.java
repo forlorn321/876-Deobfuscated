@@ -7,7 +7,7 @@ public class Class600 implements Interface71 {
 	Class360 aClass360_7845;
 	Class605 aClass605_7846 = Class605.aClass605_7870;
 	int anInt7847;
-	Class461 aClass461_7848;
+	JS5ResourceProvider aClass461_7848;
 	Interface69 anInterface69_7849;
 
 	public boolean method447(int i, byte i_0_) {
@@ -94,7 +94,7 @@ public class Class600 implements Interface71 {
 		return false;
 	}
 
-	public Class600(Class461 class461, int i, Class360 class360, Interface69 interface69) {
+	public Class600(JS5ResourceProvider class461, int i, Class360 class360, Interface69 interface69) {
 		aClass461_7848 = class461;
 		anInt7847 = i * -1299708039;
 		aClass360_7845 = class360;

@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class612 implements ConfigType {
+public class ObjTypeDecoder implements ConfigType {
 	public int anInt7931;
 	public static short[] aShortArray7932 = new short[256];
 	Class4 aClass4_7933;
@@ -93,7 +93,7 @@ public class Class612 implements ConfigType {
 			return anInt7946 * 1912280925 != -1 || null != anIntArray7997;
 		for (int i_0_ = 0; i_0_ < anIntArray7988.length; i_0_++) {
 			if (-1 != anIntArray7988[i_0_]) {
-				Class612 class612_1_ = ((Class612) anInterface12_7943.method70(anIntArray7988[i_0_], (byte) 39));
+				ObjTypeDecoder class612_1_ = ((ObjTypeDecoder) anInterface12_7943.method70(anIntArray7988[i_0_], (byte) 39));
 				if (1912280925 * class612_1_.anInt7946 != -1 || class612_1_.anIntArray7997 != null)
 					return true;
 			}
@@ -405,7 +405,7 @@ public class Class612 implements ConfigType {
 	void method7285(int i) {
 		if (anInt7953 * 1248110961 == -1) {
 			anInt7953 = 0;
-			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * Class606.aClass606_7880.anInt7878))
+			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * ObjShapes.aClass606_7880.anInt7878))
 				anInt7953 = -712968303;
 			for (int i_41_ = 0; i_41_ < 5; i_41_++) {
 				if (aStringArray7966[i_41_] != null) {
@@ -438,9 +438,9 @@ public class Class612 implements ConfigType {
 		return bool;
 	}
 
-	public final synchronized Class7 method7287(Class167 class167, int i, int i_45_, int i_46_, Class160 class160, Class160 class160_47_, int i_48_, int i_49_, int i_50_, boolean bool, Class590 class590, byte i_51_) {
+	public final synchronized Class7 method7287(Class167 class167, int i, int i_45_, int i_46_, Class160 class160, Class160 class160_47_, int i_48_, int i_49_, int i_50_, boolean bool, ObjTypeTransformation class590, byte i_51_) {
 		if (Class567.method6914(i_45_, (byte) 15))
-			i_45_ = Class606.aClass606_7888.anInt7878 * -723459231;
+			i_45_ = ObjShapes.aClass606_7888.anInt7878 * -723459231;
 		long l = (long) ((anInt8008 * 1083959103 << 10) + (i_45_ << 3) + i_46_);
 		l |= (long) (1526643673 * class167.anInt1850 << 29);
 		if (null != class590)
@@ -470,12 +470,12 @@ public class Class612 implements ConfigType {
 			if (class177 != null)
 				i_52_ = class167.method2068(i_52_, class177.method2466());
 			int i_55_ = i_52_;
-			if (-723459231 * Class606.aClass606_7880.anInt7878 == i_45_ && i_46_ > 3)
+			if (-723459231 * ObjShapes.aClass606_7880.anInt7878 == i_45_ && i_46_ > 3)
 				i_55_ |= 0x5;
 			class177 = method7289(class167, i_55_, i_45_, i_46_, class590, (short) 13709);
 			if (null == class177)
 				return null;
-			if (Class606.aClass606_7880.anInt7878 * -723459231 == i_45_ && i_46_ > 3)
+			if (ObjShapes.aClass606_7880.anInt7878 * -723459231 == i_45_ && i_46_ > 3)
 				class177.method2541(2048);
 			if (bool && !bool_53_ && !bool_54_)
 				class536_sub18_sub7 = class177.method2459(null);
@@ -505,9 +505,9 @@ public class Class612 implements ConfigType {
 		return aClass608_7934.aClass7_7903;
 	}
 
-	public final synchronized Class177 method7288(Class167 class167, int i, int i_56_, int i_57_, Class160 class160, Class160 class160_58_, int i_59_, int i_60_, int i_61_, Class688 class688, Class590 class590, int i_62_) {
+	public final synchronized Class177 method7288(Class167 class167, int i, int i_56_, int i_57_, Class160 class160, Class160 class160_58_, int i_59_, int i_60_, int i_61_, Class688 class688, ObjTypeTransformation class590, int i_62_) {
 		if (Class567.method6914(i_56_, (byte) 0))
-			i_56_ = -723459231 * Class606.aClass606_7888.anInt7878;
+			i_56_ = -723459231 * ObjShapes.aClass606_7888.anInt7878;
 		long l = (long) ((i_56_ << 3) + (anInt8008 * 1083959103 << 10) + i_57_);
 		int i_63_ = i;
 		l |= (long) (class167.anInt1850 * 1526643673 << 29);
@@ -525,7 +525,7 @@ public class Class612 implements ConfigType {
 			if (0 != anInt7936 * -1402705385)
 				i |= 0x4;
 		}
-		if (-723459231 * Class606.aClass606_7880.anInt7878 == i_56_ && i_57_ > 3)
+		if (-723459231 * ObjShapes.aClass606_7880.anInt7878 == i_56_ && i_57_ > 3)
 			i |= 0x5;
 		Class177 class177;
 		synchronized (aClass608_7934.aClass199_7906) {
@@ -547,7 +547,7 @@ public class Class612 implements ConfigType {
 			bool = true;
 			class688.method8132(class177, i_57_ & 0x3, -692370560);
 		}
-		if (i_56_ == Class606.aClass606_7880.anInt7878 * -723459231 && i_57_ > 3) {
+		if (i_56_ == ObjShapes.aClass606_7880.anInt7878 * -723459231 && i_57_ > 3) {
 			if (!bool) {
 				class177 = class177.method2623((byte) 3, i, true);
 				bool = true;
@@ -573,11 +573,11 @@ public class Class612 implements ConfigType {
 		return class177;
 	}
 
-	Class177 method7289(Class167 class167, int i, int i_64_, int i_65_, Class590 class590, short i_66_) {
+	Class177 method7289(Class167 class167, int i, int i_64_, int i_65_, ObjTypeTransformation class590, short i_66_) {
 		int i_67_ = 64 + anInt7964 * -1965800891;
 		int i_68_ = 850 + 1057796189 * anInt7937;
 		int i_69_ = i;
-		boolean bool = (aBool7973 || (Class606.aClass606_7875.anInt7878 * -723459231 == i_64_ && i_65_ > 3));
+		boolean bool = (aBool7973 || (ObjShapes.aClass606_7875.anInt7878 * -723459231 == i_64_ && i_65_ > 3));
 		if (bool)
 			i |= 0x10;
 		if (0 == i_65_) {
@@ -658,7 +658,7 @@ public class Class612 implements ConfigType {
 			class177_78_.method2503(i_68_);
 		if (bool)
 			class177_78_.method2473();
-		if (-723459231 * Class606.aClass606_7888.anInt7878 == i_64_ && i_65_ > 3) {
+		if (-723459231 * ObjShapes.aClass606_7888.anInt7878 == i_64_ && i_65_ > 3) {
 			class177_78_.method2626(2048);
 			class177_78_.method2472(180, 0, -180);
 		}
@@ -734,7 +734,7 @@ public class Class612 implements ConfigType {
 		return bool;
 	}
 
-	public final Class612 method7293(Interface20 interface20, Interface18 interface18, byte i) {
+	public final ObjTypeDecoder method7293(Interface20 interface20, Interface18 interface18, byte i) {
 		int i_87_ = -1;
 		if (-1 != anInt7989 * 1868474587) {
 			Class324 class324 = interface20.method123(anInt7989 * 1868474587, -1018286558);
@@ -748,12 +748,12 @@ public class Class612 implements ConfigType {
 		if (i_87_ < 0 || i_87_ >= anIntArray7988.length - 1) {
 			int i_88_ = anIntArray7988[anIntArray7988.length - 1];
 			if (i_88_ != -1)
-				return ((Class612) anInterface12_7943.method70(i_88_, (byte) -48));
+				return ((ObjTypeDecoder) anInterface12_7943.method70(i_88_, (byte) -48));
 			return null;
 		}
 		if (anIntArray7988[i_87_] == -1)
 			return null;
-		return ((Class612) anInterface12_7943.method70(anIntArray7988[i_87_], (byte) 1));
+		return ((ObjTypeDecoder) anInterface12_7943.method70(anIntArray7988[i_87_], (byte) 1));
 	}
 
 	public boolean method7294(byte i) {
@@ -1097,7 +1097,7 @@ public class Class612 implements ConfigType {
 	void method7301() {
 		if (anInt7953 * 1248110961 == -1) {
 			anInt7953 = 0;
-			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * Class606.aClass606_7880.anInt7878))
+			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * ObjShapes.aClass606_7880.anInt7878))
 				anInt7953 = -712968303;
 			for (int i = 0; i < 5; i++) {
 				if (aStringArray7966[i] != null) {
@@ -1118,7 +1118,7 @@ public class Class612 implements ConfigType {
 	void method7302() {
 		if (anInt7953 * 1248110961 == -1) {
 			anInt7953 = 0;
-			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * Class606.aClass606_7880.anInt7878))
+			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * ObjShapes.aClass606_7880.anInt7878))
 				anInt7953 = -712968303;
 			for (int i = 0; i < 5; i++) {
 				if (aStringArray7966[i] != null) {
@@ -1139,7 +1139,7 @@ public class Class612 implements ConfigType {
 	void method7303() {
 		if (anInt7953 * 1248110961 == -1) {
 			anInt7953 = 0;
-			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * Class606.aClass606_7880.anInt7878))
+			if (null != aByteArray7938 && aByteArray7938.length == 1 && (aByteArray7938[0] == -723459231 * ObjShapes.aClass606_7880.anInt7878))
 				anInt7953 = -712968303;
 			for (int i = 0; i < 5; i++) {
 				if (aStringArray7966[i] != null) {
@@ -1172,7 +1172,7 @@ public class Class612 implements ConfigType {
 		return -1;
 	}
 
-	Class612(int i, Class608 class608, Interface12 interface12) {
+	ObjTypeDecoder(int i, Class608 class608, Interface12 interface12) {
 		anInt7980 = -1301379639;
 		anInt7952 = 2017061478;
 		anInt7953 = 712968303;

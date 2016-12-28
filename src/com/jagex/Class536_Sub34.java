@@ -20,7 +20,7 @@ public class Class536_Sub34 extends Class536 {
 		/* empty */
 	}
 
-	public static void method9816(Class167 class167, Class461 class461, byte i) {
+	public static void method9816(Class167 class167, JS5ResourceProvider class461, byte i) {
 		Class179[] class179s = Class181.method2720(class461, Class98_Sub1_Sub2.anInt11334 * -96459827, 0);
 		Class458_Sub5.aClass143Array10338 = new Class143[class179s.length];
 		for (int i_0_ = 0; i_0_ < class179s.length; i_0_++)
@@ -54,7 +54,7 @@ public class Class536_Sub34 extends Class536 {
 			class179s[i_6_].method2649(-i_2_ + (int) (Math.random() * (double) i_2_ * 2.0), -i_2_ + (int) (Math.random() * (double) i_2_ * 2.0), -i_2_ + (int) (Math.random() * (double) i_2_ * 2.0));
 			Class195.aClass143Array2201[i_6_] = class167.method2082(class179s[i_6_], true);
 		}
-		Class618.aClass143_8090 = class167.method2082(Class181.method2718(class461, (157454897 * (Class315_Sub1_Sub1.anInt11395)), 0), true);
+		PlayerStat.aClass143_8090 = class167.method2082(Class181.method2718(class461, (157454897 * (Class315_Sub1_Sub1.anInt11395)), 0), true);
 		Class289.aClass143_3215 = class167.method2082(Class181.method2718(class461, (Class35.anInt297 * 1355499421), 0), true);
 		class179s = Class181.method2720(class461, Class662.anInt8513 * 1869435031, 0);
 		Class62.aClass143Array701 = new Class143[class179s.length];

@@ -4,14 +4,14 @@
 package com.jagex;
 
 public class Class441 implements Interface5 {
-	Class461 aClass461_4875;
+	JS5ResourceProvider aClass461_4875;
 	String aString4876;
 
 	public Class50 method49() {
 		return Class50.aClass50_581;
 	}
 
-	Class441(Class461 class461, String string) {
+	Class441(JS5ResourceProvider class461, String string) {
 		aClass461_4875 = class461;
 		aString4876 = string;
 	}
@@ -100,7 +100,7 @@ public class Class441 implements Interface5 {
 						else
 							class536_sub42.aClass251_10806 = client.aClass251_11202;
 						class536_sub42.anObjectArray10802 = client.aClass251_10992.onDragCompleteHook;
-						Class618.method7388(class536_sub42, -1442250412);
+						PlayerStat.method7388(class536_sub42, -1442250412);
 					}
 					if (client.aClass251_11202 != null && client.method10382(client.aClass251_10992) != null)
 						Class578.method7008(client.aClass251_10992, client.aClass251_11202, -2145704482);
@@ -123,7 +123,7 @@ public class Class441 implements Interface5 {
 					class536_sub42.anInt10803 = i_2_ * 1761425895;
 					class536_sub42.anInt10800 = -1275012151 * i_3_;
 					class536_sub42.anObjectArray10802 = client.aClass251_10992.onDragHook;
-					Class618.method7388(class536_sub42, 307961802);
+					PlayerStat.method7388(class536_sub42, 307961802);
 				}
 			}
 		}

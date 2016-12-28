@@ -564,7 +564,7 @@ public class Class628 {
 		}
 	}
 
-	public Class628(Class461 class461) {
+	public Class628(JS5ResourceProvider class461) {
 		anIntArray8187 = null;
 		anInt8198 = 915738380;
 		anInt8196 = 1829897380;

@@ -31,7 +31,7 @@ public class Class303 {
 	int anInt3429;
 	boolean aBool3430;
 	int anInt3431;
-	public static Class461 aClass461_3432;
+	public static JS5ResourceProvider aClass461_3432;
 
 	Class303(int i, Class38 class38, Class38 class38_0_, int i_1_, int i_2_) {
 		this(i, class38, class38_0_, i_1_, i_2_, true, false);

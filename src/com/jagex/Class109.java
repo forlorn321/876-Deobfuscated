@@ -99,6 +99,6 @@ public class Class109 {
 		else
 			return;
 		Class34_Sub19.aClass184_10977 = Class542_Sub1.aClass184ArrayArray10712[i_6_][i_7_];
-		Class618.aClass2_8091 = Class542_Sub1.aClass2ArrayArray10723[i_6_][i_7_];
+		PlayerStat.aClass2_8091 = Class542_Sub1.aClass2ArrayArray10723[i_6_][i_7_];
 	}
 }

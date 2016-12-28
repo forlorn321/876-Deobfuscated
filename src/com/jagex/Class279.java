@@ -7,7 +7,7 @@ public class Class279 {
 	Class536_Sub18_Sub12[] aClass536_Sub18_Sub12Array3159 = new Class536_Sub18_Sub12[100];
 	int anInt3160;
 	static final int anInt3161 = 100;
-	public static Class461 aClass461_3162;
+	public static JS5ResourceProvider aClass461_3162;
 	public static Class34_Sub3 aClass34_Sub3_3163;
 
 	Class536_Sub18_Sub12 method3755(int i, int i_0_, String string, String string_1_, String string_2_, String string_3_, String string_4_, int i_5_, Class402 class402, int i_6_) {

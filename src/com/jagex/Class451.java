@@ -50,7 +50,7 @@ public class Class451 implements Interface75 {
 	static final void method5432(Class668 class668, byte i) {
 		class668.anInt8542 -= -1411037171;
 		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class277.method3754(i_0_, 747507598);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = QuestTypeDecoder.method3754(i_0_, 747507598);
 	}
 
 	static void method5433(Player class649_sub1_sub5_sub1_sub2, boolean bool, int i) {
@@ -82,10 +82,10 @@ public class Class451 implements Interface75 {
 					string = new StringBuilder().append(class649_sub1_sub5_sub1_sub2.method11085(true, (byte) 1)).append(Class40.aString493).append(Class38.aClass38_360.method840(Class459.aClass664_5178, 1435049222)).append(class649_sub1_sub5_sub1_sub2.anInt12189 * -1543258759).append(Class40.aString494).toString();
 				boolean bool_5_ = false;
 				if (null != class649_sub1_sub5_sub1_sub2.aClass617_12202 && (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079 * -587726343) != -1) {
-					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) -2)));
+					NPCDecoder class296 = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) -2)));
 					if (class296.aBool3339) {
 						bool_5_ = true;
-						string = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) 35))).aString3271;
+						string = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) 35))).aString3271;
 						if (1188862419 * class296.anInt3292 != 0) {
 							String string_6_ = ((GameMode.aClass670_8575 == client.aClass670_11043) ? (Class38.aClass38_441.method840(Class459.aClass664_5178, 1395734488)) : (Class38.aClass38_480.method840(Class459.aClass664_5178, 2067180394)));
 							string = new StringBuilder().append(string).append(Class457.method5492(class296.anInt3292 * 1188862419, (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -17766460)).append(Class40.aString493).append(string_6_).append(1188862419 * class296.anInt3292).append(Class40.aString494).toString();

@@ -5,7 +5,7 @@ package com.jagex;
 
 public abstract class Class645 {
 	Class199 aClass199_8353 = new Class199(2);
-	Class461 aClass461_8354;
+	JS5ResourceProvider aClass461_8354;
 
 	void method7795() {
 		synchronized (aClass199_8353) {
@@ -37,7 +37,7 @@ public abstract class Class645 {
 		}
 	}
 
-	Class645(Class461 class461) {
+	Class645(JS5ResourceProvider class461) {
 		aClass461_8354 = class461;
 	}
 

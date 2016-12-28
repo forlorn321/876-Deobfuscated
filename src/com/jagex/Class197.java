@@ -26,7 +26,7 @@ class Class197 implements Interface42 {
 		return ((float) ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(-1911619333) / 255.0F);
 	}
 
-	public static void method2869(Class461 class461, Class461 class461_0_, Class461 class461_1_, Class461 class461_2_, int i) {
+	public static void method2869(JS5ResourceProvider class461, JS5ResourceProvider class461_0_, JS5ResourceProvider class461_1_, JS5ResourceProvider class461_2_, int i) {
 		Class452.aClass461_4953 = class461;
 		Class537.aClass461_7152 = class461_0_;
 		Class252.aClass461_2745 = class461_1_;

@@ -5,11 +5,11 @@ package com.jagex;
 
 public class Class32 {
 	Class199 aClass199_277;
-	Class461 aClass461_278;
+	JS5ResourceProvider aClass461_278;
 	public int anInt279 = 0;
 	public int anInt280 = 0;
 	static final int anInt281 = 1;
-	Class461 aClass461_282;
+	JS5ResourceProvider aClass461_282;
 	static final int anInt283 = 32768;
 	Interface73 anInterface73_284;
 
@@ -41,7 +41,7 @@ public class Class32 {
 		return Long.toString(l);
 	}
 
-	public Class32(Class664 class664, Class461 class461, Class461 class461_1_, Interface73 interface73) {
+	public Class32(Language class664, JS5ResourceProvider class461, JS5ResourceProvider class461_1_, Interface73 interface73) {
 		aClass199_277 = new Class199(64);
 		anInterface73_284 = null;
 		aClass461_278 = class461;
@@ -118,7 +118,7 @@ public class Class32 {
 			double d = Math.sqrt((double) (f_27_ * f_27_ + f_25_ * f_25_));
 			Class141.anInt1658 = ((int) (Math.atan2((double) f_26_, d) * 2607.5945876176133) & 0x3fff) * 269246561;
 			Class144.anInt1681 = ((int) (-Math.atan2((double) f_25_, (double) f_27_) * 2607.5945876176133) & 0x3fff) * 402508199;
-			Class304.anInt3440 = ((client.anIntArrayArrayArray11117[client.anInt11192 * 614327763][i_6_][3]) + ((((client.anIntArrayArrayArray11117[614327763 * client.anInt11192][2 + i_6_][3]) - (client.anIntArrayArrayArray11117[client.anInt11192 * 614327763][i_6_][3])) * (client.anInt11122 * -1891555007)) >> 16)) * -2135395277;
+			NPCCustomization.anInt3440 = ((client.anIntArrayArrayArray11117[client.anInt11192 * 614327763][i_6_][3]) + ((((client.anIntArrayArrayArray11117[614327763 * client.anInt11192][2 + i_6_][3]) - (client.anIntArrayArrayArray11117[client.anInt11192 * 614327763][i_6_][3])) * (client.anInt11122 * -1891555007)) >> 16)) * -2135395277;
 		}
 	}
 }

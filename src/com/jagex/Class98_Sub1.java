@@ -15,7 +15,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		return class153.method1855((byte) -30);
 	}
 
-	Class98_Sub1(GameMode class670, Class458 class458, Class664 class664, int i) {
+	Class98_Sub1(GameMode class670, Class458 class458, Language class664, int i) {
 		super(class670, class664, i);
 		aClass458_8868 = class458;
 	}
@@ -38,7 +38,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		else if (class430.anObject4819 instanceof Long)
 			i_1_ += 8;
 		else if (class430.anObject4819 instanceof String)
-			i_1_ += Class612.method7315((String) class430.anObject4819, -1311964413);
+			i_1_ += ObjTypeDecoder.method7315((String) class430.anObject4819, -1311964413);
 		else if (class430.anObject4819 instanceof Interface8)
 			i_1_ += ((Interface8) class430.anObject4819).method48(-963399078);
 		else

@@ -25,7 +25,7 @@ public abstract class Class460 {
 	RSByteBuffer buffer;
 	int anInt5201;
 	Class536_Sub18_Sub15_Sub2 aClass536_Sub18_Sub15_Sub2_5202;
-	public static Class461 aClass461_5203;
+	public static JS5ResourceProvider aClass461_5203;
 
 	public int method5521() {
 		return (aClass700_5185.method8246((byte) 50) + aClass700_5181.method8246((byte) 71));

@@ -149,15 +149,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		Class563 class563 = null;
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
-			Class589 class589 = method10877(407379079);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 96))).aBool3265)) {
+			BASTypeDecoder class589 = method10877(407379079);
+			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 96))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1247322779) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1772101721) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_16_ = Class644.aClass628_8352.aShort8186;
 				byte i_17_ = Class644.aClass628_8352.aByte8199;
 				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_16_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -31))).aShort3314;
-					i_17_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -27))).aByte3315;
+					i_16_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -31))).aShort3314;
+					i_17_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -27))).aByte3315;
 				}
 				Object object = null;
 				Class177 class177;
@@ -309,7 +309,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10874() {
 		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return (((Class296) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 5)).anInt3272 * 830254667);
+			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 5)).anInt3272 * 830254667);
 		return super.method10874();
 	}
 
@@ -362,7 +362,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10903() {
 		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return ((((Class296) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -64)).anInt3272) * 830254667);
+			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -64)).anInt3272) * 830254667);
 		return super.method10874();
 	}
 
@@ -433,15 +433,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		Class563 class563 = null;
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
-			Class589 class589 = method10877(-1477732075);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 63))).aBool3265)) {
+			BASTypeDecoder class589 = method10877(-1477732075);
+			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 63))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1497788714) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-2074918880) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_41_ = Class644.aClass628_8352.aShort8186;
 				byte i_42_ = Class644.aClass628_8352.aByte8199;
 				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_41_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -14))).aShort3314;
-					i_42_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -34))).aByte3315;
+					i_41_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -14))).aShort3314;
+					i_42_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -34))).aByte3315;
 				}
 				Object object = null;
 				Class177 class177;
@@ -601,15 +601,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		Class563 class563 = null;
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
-			Class589 class589 = method10877(-225976905);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 35))).aBool3265)) {
+			BASTypeDecoder class589 = method10877(-225976905);
+			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 35))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1850758818) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-2064803389) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_58_ = Class644.aClass628_8352.aShort8186;
 				byte i_59_ = Class644.aClass628_8352.aByte8199;
 				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_58_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -49))).aShort3314;
-					i_59_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -84))).aByte3315;
+					i_58_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -49))).aShort3314;
+					i_59_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -84))).aByte3315;
 				}
 				Object object = null;
 				Class177 class177;
@@ -712,7 +712,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 
 	boolean method11089(Class167 class167, int i, int i_70_) {
 		int i_71_ = i;
-		Class589 class589 = method10877(1655729056);
+		BASTypeDecoder class589 = method10877(1655729056);
 		Class688 class688 = ((aClass688_11925.method8121(-768820080) && !aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 		Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1982703050) && !aBool12185 && (!aClass688_Sub3_11914.aBool10975 || null == class688)) ? aClass688_Sub3_11914 : null);
 		int i_72_ = class589.anInt7765 * -843057239;
@@ -812,7 +812,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10902() {
 		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return ((((Class296) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -19)).anInt3272) * 830254667);
+			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -19)).anInt3272) * 830254667);
 		return super.method10874();
 	}
 
@@ -834,15 +834,15 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		Class563 class563 = null;
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
-			Class589 class589 = method10877(-666449940);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 9))).aBool3265)) {
+			BASTypeDecoder class589 = method10877(-666449940);
+			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 9))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1693903310) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-242886574) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_90_ = Class644.aClass628_8352.aShort8186;
 				byte i_91_ = Class644.aClass628_8352.aByte8199;
 				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_90_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -68))).aShort3314;
-					i_91_ = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 64))).aByte3315;
+					i_90_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -68))).aShort3314;
+					i_91_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 64))).aByte3315;
 				}
 				Object object = null;
 				Class177 class177;
@@ -923,7 +923,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10904() {
 		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return (((Class296) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 79)).anInt3272 * 830254667);
+			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 79)).anInt3272 * 830254667);
 		return super.method10874();
 	}
 
@@ -1047,8 +1047,8 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		int i_124_ = -1;
 		anInt12191 = 0;
 		int[] is = new int[Class71.aClass631_796.anIntArray8241.length];
-		Class12[] class12s = new Class12[Class71.aClass631_796.anIntArray8241.length];
-		ItemTypeDecoder[] class1s = new ItemTypeDecoder[Class71.aClass631_796.anIntArray8241.length];
+		ItemEffects[] itemEffects = new ItemEffects[Class71.aClass631_796.anIntArray8241.length];
+		ItemDecoder[] itemDecoders = new ItemDecoder[Class71.aClass631_796.anIntArray8241.length];
 		for (int i_125_ = 0; i_125_ < Class71.aClass631_796.anIntArray8241.length; i_125_++) {
 			if (Class71.aClass631_796.anIntArray8241[i_125_] != 1) {
 				int i_126_ = stream.readUnsignedByte();
@@ -1065,8 +1065,8 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (i_128_ >= 16384) {
 						i_128_ -= 16384;
 						is[i_125_] = i_128_ | 0x40000000;
-						class1s[i_125_] = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_128_, (byte) 77);
-						int i_129_ = class1s[i_125_].teamId * 755426589;
+						itemDecoders[i_125_] = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_128_, (byte) 77);
+						int i_129_ = itemDecoders[i_125_].teamId * 755426589;
 						if (0 != i_129_)
 							anInt12191 = -554265225 * i_129_;
 					} else
@@ -1077,10 +1077,10 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (-1 == i_124_) {
 			int i_130_ = stream.readUnsignedShort();
 			int i_131_ = 0;
-			for (int i_132_ = 0; i_132_ < Class71.aClass631_796.anIntArray8241.length; i_132_++) {
-				if (0 == Class71.aClass631_796.anIntArray8241[i_132_]) {
+			for (int index = 0; index < Class71.aClass631_796.anIntArray8241.length; index++) {
+				if (0 == Class71.aClass631_796.anIntArray8241[index]) {
 					if (0 != (i_130_ & 1 << i_131_))
-						class12s[i_132_] = Class588.method7084(class1s[i_132_], stream, 397999988);
+						itemEffects[index] = Class588.readItemEffects(itemDecoders[index], stream);
 					i_131_++;
 				}
 			}
@@ -1104,7 +1104,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 			aClass617_12202 = new Class617();
 		int i_139_ = aClass617_12202.anInt8079 * -587726343;
 		int[] is_140_ = aClass617_12202.anIntArray8072;
-		aClass617_12202.method7340(method10897(1991099139), is, class12s, is_133_, is_136_, 1 == aByte12197, i_124_, (byte) -65);
+		aClass617_12202.method7340(method10897(1991099139), is, itemEffects, is_133_, is_136_, 1 == aByte12197, i_124_, (byte) -65);
 		if (i_139_ != i_124_) {
 			Class436 class436 = Class436.method5240(method7837().aClass436_4823);
 			class436.aFloat4850 = (float) ((screenX[0] << 9) + (method10874() << 8));
@@ -1123,7 +1123,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		if (null != aClass627_11950)
 			aClass627_11950.method7467();
 		if (aClass688_Sub3_11914.method8121(-1194275772) && aClass688_Sub3_11914.aBool10975) {
-			Class589 class589 = method10877(-1081655812);
+			BASTypeDecoder class589 = method10877(-1081655812);
 			if (!class589.method7090(aClass688_Sub3_11914.method8120((byte) 91), 900823373)) {
 				aClass688_Sub3_11914.method8122(-1, -1717861513);
 				aClass688_Sub3_11914.aBool10975 = false;

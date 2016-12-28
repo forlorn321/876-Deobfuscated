@@ -9,7 +9,7 @@ public class Class271 implements Interface75 {
 	int anInt2883;
 	static Class271 aClass271_2884 = new Class271(0);
 	static Class271 aClass271_2885;
-	public static Class461 aClass461_2886;
+	public static JS5ResourceProvider aClass461_2886;
 	static int[] anIntArray2887;
 
 	Class271(int i) {

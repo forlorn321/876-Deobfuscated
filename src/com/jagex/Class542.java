@@ -15,7 +15,7 @@ public class Class542 {
 	protected static Class34_Sub17 aClass34_Sub17_7165;
 	protected static Class199 aClass199_7166;
 	static Interface12 anInterface12_7167 = null;
-	static Class461 aClass461_7168;
+	static JS5ResourceProvider aClass461_7168;
 	protected static Interface20 anInterface20_7169;
 	static int[][] anIntArrayArray7170;
 	static final int anInt7171 = 64;
@@ -30,7 +30,7 @@ public class Class542 {
 	static byte[] aByteArray7180;
 	public static float aFloat7181;
 	static RSByteBuffer aClass536_Sub33_7182;
-	protected static Class461 aClass461_7183;
+	protected static JS5ResourceProvider aClass461_7183;
 	protected static int anInt7184;
 	public static int anInt7185;
 	public static int anInt7186;
@@ -365,7 +365,7 @@ public class Class542 {
 						Class536_Sub29 class536_sub29 = (Class536_Sub29) object;
 						if (class536_sub29 != null) {
 							for (int i_68_ = 0; i_68_ < class536_sub29.anIntArray10562.length; i_68_++) {
-								Class612 class612 = ((Class612) (aClass34_Sub17_7165.method70(class536_sub29.anIntArray10562[i_68_], (byte) -31)));
+								ObjTypeDecoder class612 = ((ObjTypeDecoder) (aClass34_Sub17_7165.method70(class536_sub29.anIntArray10562[i_68_], (byte) -31)));
 								int i_69_ = class612.anInt7994 * -876565287;
 								if (class612.anIntArray7988 != null) {
 									class612 = (class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 53));
@@ -382,7 +382,7 @@ public class Class542 {
 						}
 					} else {
 						Integer integer = (Integer) object;
-						Class612 class612 = ((Class612) aClass34_Sub17_7165.method70(integer.intValue(), (byte) -75));
+						ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7165.method70(integer.intValue(), (byte) -75));
 						int i_70_ = class612.anInt7994 * -876565287;
 						if (class612.anIntArray7988 != null) {
 							class612 = class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 49);
@@ -409,7 +409,7 @@ public class Class542 {
 							Class531 class531 = (Class531) iterator.next();
 							if (class531.anIntArray7119 != null) {
 								for (int i_73_ = 0; i_73_ < class531.anIntArray7119.length; i_73_++) {
-									Class612 class612 = ((Class612) (aClass34_Sub17_7165.method70(class531.anIntArray7119[i_73_], (byte) -56)));
+									ObjTypeDecoder class612 = ((ObjTypeDecoder) (aClass34_Sub17_7165.method70(class531.anIntArray7119[i_73_], (byte) -56)));
 									int i_74_ = class612.anInt7994 * -876565287;
 									if (class612.anIntArray7988 != null) {
 										class612 = (class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 116));
@@ -731,7 +731,7 @@ public class Class542 {
 	static void method6550(Class167 class167, int[] is, int i, int i_194_, int i_195_, int[] is_196_, byte[] is_197_) {
 		if (is_196_ != null) {
 			for (int i_198_ = 0; i_198_ < is_196_.length; i_198_++) {
-				Class612 class612 = (Class612) aClass34_Sub17_7165.method70(is_196_[i_198_], (byte) -29);
+				ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_7165.method70(is_196_[i_198_], (byte) -29);
 				int i_199_ = class612.anInt7941 * -1070948127;
 				if (i_199_ != -1) {
 					Class56 class56 = ((Class56) aClass34_Sub1_7223.method70(i_199_, (byte) -92));
@@ -887,7 +887,7 @@ public class Class542 {
 		}
 	}
 
-	public static void method6556(Class461 class461, Class461 class461_236_, Class34_Sub4 class34_sub4, Class34_Sub3 class34_sub3, Class34_Sub17 class34_sub17, Class34_Sub8 class34_sub8, Class34_Sub1 class34_sub1, Interface20 interface20, Interface18 interface18) {
+	public static void method6556(JS5ResourceProvider class461, JS5ResourceProvider class461_236_, Class34_Sub4 class34_sub4, Class34_Sub3 class34_sub3, Class34_Sub17 class34_sub17, Class34_Sub8 class34_sub8, Class34_Sub1 class34_sub1, Interface20 interface20, Interface18 interface18) {
 		aClass461_7168 = class461;
 		aClass461_7183 = class461_236_;
 		anInterface12_7167 = class34_sub4;
@@ -1060,7 +1060,7 @@ public class Class542 {
 						Class536_Sub29 class536_sub29 = (Class536_Sub29) object;
 						if (class536_sub29 != null) {
 							for (int i_280_ = 0; (i_280_ < class536_sub29.anIntArray10562.length); i_280_++) {
-								Class612 class612 = (Class612) (aClass34_Sub17_7165.method70((class536_sub29.anIntArray10562[i_280_]), (byte) 30));
+								ObjTypeDecoder class612 = (ObjTypeDecoder) (aClass34_Sub17_7165.method70((class536_sub29.anIntArray10562[i_280_]), (byte) 30));
 								int i_281_ = class612.anInt7994 * -876565287;
 								if (class612.anIntArray7988 != null) {
 									class612 = (class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 89));
@@ -1077,7 +1077,7 @@ public class Class542 {
 						}
 					} else {
 						Integer integer = (Integer) object;
-						Class612 class612 = ((Class612) aClass34_Sub17_7165.method70(integer.intValue(), (byte) -50));
+						ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7165.method70(integer.intValue(), (byte) -50));
 						int i_282_ = class612.anInt7994 * -876565287;
 						if (class612.anIntArray7988 != null) {
 							class612 = class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 26);
@@ -1104,7 +1104,7 @@ public class Class542 {
 							Class531 class531 = (Class531) iterator.next();
 							if (class531.anIntArray7119 != null) {
 								for (int i_285_ = 0; i_285_ < class531.anIntArray7119.length; i_285_++) {
-									Class612 class612 = ((Class612) (aClass34_Sub17_7165.method70(class531.anIntArray7119[i_285_], (byte) -60)));
+									ObjTypeDecoder class612 = ((ObjTypeDecoder) (aClass34_Sub17_7165.method70(class531.anIntArray7119[i_285_], (byte) -60)));
 									int i_286_ = class612.anInt7994 * -876565287;
 									if (class612.anIntArray7988 != null) {
 										class612 = (class612.method7293(anInterface20_7169, anInterface18_7163, (byte) 95));
@@ -1295,14 +1295,14 @@ public class Class542 {
 			int i_355_ = i_342_ - i_341_ + 1;
 			for (int i_356_ = 0; i_356_ < is_347_.length; i_356_++) {
 				int i_357_ = is_348_[i_356_] & 0x3f;
-				if (i_357_ == Class606.aClass606_7892.anInt7878 * -723459231 || i_357_ == Class606.aClass606_7875.anInt7878 * -723459231 || i_357_ == Class606.aClass606_7876.anInt7878 * -723459231 || (i_357_ == Class606.aClass606_7873.anInt7878 * -723459231)) {
-					Class612 class612 = ((Class612) aClass34_Sub17_7165.method70(is_347_[i_356_], (byte) 50));
+				if (i_357_ == ObjShapes.aClass606_7892.anInt7878 * -723459231 || i_357_ == ObjShapes.aClass606_7875.anInt7878 * -723459231 || i_357_ == ObjShapes.aClass606_7876.anInt7878 * -723459231 || (i_357_ == ObjShapes.aClass606_7873.anInt7878 * -723459231)) {
+					ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7165.method70(is_347_[i_356_], (byte) 50));
 					if (class612.anInt7941 * -1070948127 == -1) {
 						int i_358_ = -3355444;
 						if (class612.anInt7953 * 1248110961 == 1)
 							i_358_ = -3407872;
 						int i_359_ = is_348_[i_356_] >> 6 & 0x3;
-						if (i_357_ == (Class606.aClass606_7892.anInt7878 * -723459231)) {
+						if (i_357_ == (ObjShapes.aClass606_7892.anInt7878 * -723459231)) {
 							if (i_359_ == 0)
 								method6579(is, i, i_342_, i_355_, i_343_, i_358_);
 							else if (i_359_ == 1)
@@ -1311,7 +1311,7 @@ public class Class542 {
 								method6579(is, i_340_, i_342_, i_355_, i_343_, i_358_);
 							else
 								method6560(is, i, i_341_, i_354_, i_343_, i_358_);
-						} else if (i_357_ == (Class606.aClass606_7875.anInt7878 * -723459231)) {
+						} else if (i_357_ == (ObjShapes.aClass606_7875.anInt7878 * -723459231)) {
 							if (i_359_ == 0) {
 								method6579(is, i, i_342_, i_355_, i_343_, -1);
 								method6560(is, i, i_342_, i_354_, i_343_, i_358_);
@@ -1325,7 +1325,7 @@ public class Class542 {
 								method6579(is, i, i_342_, i_355_, i_343_, -1);
 								method6560(is, i, i_341_, i_354_, i_343_, i_358_);
 							}
-						} else if (i_357_ == (Class606.aClass606_7876.anInt7878 * -723459231)) {
+						} else if (i_357_ == (ObjShapes.aClass606_7876.anInt7878 * -723459231)) {
 							if (i_359_ == 0)
 								method6560(is, i, i_342_, 1, i_343_, i_358_);
 							else if (i_359_ == 1)
@@ -1334,7 +1334,7 @@ public class Class542 {
 								method6560(is, i_340_, i_341_, 1, i_343_, i_358_);
 							else
 								method6560(is, i, i_341_, 1, i_343_, i_358_);
-						} else if (i_357_ == (Class606.aClass606_7873.anInt7878 * -723459231)) {
+						} else if (i_357_ == (ObjShapes.aClass606_7873.anInt7878 * -723459231)) {
 							if (i_359_ == 0 || i_359_ == 2) {
 								for (int i_360_ = 0; i_360_ < i_355_; i_360_++)
 									method6560(is, i + i_360_, i_341_ + i_360_, 1, i_343_, i_358_);

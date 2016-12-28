@@ -9,7 +9,7 @@ public class Class398 implements Interface49 {
 	public Class399 aClass399_4119;
 	public int anInt4120;
 	public int anInt4121;
-	public static Class461 aClass461_4122;
+	public static JS5ResourceProvider aClass461_4122;
 	static Class654 aClass654_4123;
 
 	Class398(int i, Class395 class395, Class399 class399, int i_0_, int i_1_) {
@@ -103,7 +103,7 @@ public class Class398 implements Interface49 {
 
 	static final void method4904(Class668 class668, int i) {
 		int i_10_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_10_, (byte) 72);
+		ItemDecoder class1 = (ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_10_, (byte) 72);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1370184373 * class1.stackable == 2 ? 1 : 0;
 	}
 

@@ -90,7 +90,7 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		return new Class493_Sub3(this, class155, i, i_5_, bool, fs, i_6_, i_7_);
 	}
 
-	Class167_Sub3_Sub1(OpenGL opengl, Canvas canvas, long l, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, int i) {
+	Class167_Sub3_Sub1(OpenGL opengl, Canvas canvas, long l, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i) {
 		super(class174, interface24, interface47, interface48, interface46, class461, i, 1);
 		aClass708_11425 = new Class708();
 		anIntArray11434 = new int[1000];

@@ -6,7 +6,7 @@ package com.jagex;
 public class Class269 {
 	int anInt2877;
 	byte[] aByteArray2878;
-	static Class461 aClass461_2879;
+	static JS5ResourceProvider aClass461_2879;
 	public static int anInt2880;
 
 	Class269(byte[] is) {

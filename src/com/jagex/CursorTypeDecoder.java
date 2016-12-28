@@ -9,7 +9,8 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Random;
 
-public class Class638 implements ConfigType {
+public class CursorTypeDecoder implements ConfigType {
+	
 	int anInt8302;
 	Class645 aClass645_8303;
 	public int anInt8304;
@@ -24,11 +25,11 @@ public class Class638 implements ConfigType {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
 				break;
-			method7644(class536_sub33, i_0_, 1185921697);
+			decode(class536_sub33, i_0_, 1185921697);
 		}
 	}
 
-	void method7644(RSByteBuffer class536_sub33, int i, int i_1_) {
+	void decode(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (i == 1)
 			anInt8302 = class536_sub33.readBigSmart() * 937256053;
 		else if (i == 2) {
@@ -56,11 +57,11 @@ public class Class638 implements ConfigType {
 			int i = class536_sub33.readUnsignedByte();
 			if (i == 0)
 				break;
-			method7644(class536_sub33, i, 1085720358);
+			decode(class536_sub33, i, 1085720358);
 		}
 	}
 
-	Class638(int i, Class645 class645) {
+	CursorTypeDecoder(int i, Class645 class645) {
 		aClass645_8303 = class645;
 	}
 

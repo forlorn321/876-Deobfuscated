@@ -5,7 +5,7 @@ package com.jagex;
 
 public abstract class Class554 {
 	Class199 aClass199_7483 = new Class199(20);
-	Class461 aClass461_7484;
+	JS5ResourceProvider aClass461_7484;
 
 	void method6771() {
 		synchronized (aClass199_7483) {
@@ -19,7 +19,7 @@ public abstract class Class554 {
 		}
 	}
 
-	Class554(Class461 class461) {
+	Class554(JS5ResourceProvider class461) {
 		aClass461_7484 = class461;
 	}
 

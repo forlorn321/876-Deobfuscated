@@ -96,7 +96,7 @@ public class Class198 {
 		class668.anInt8552 = 0;
 		class668.aMap8557.clear();
 		class668.aMap8557.put(Class458.aClass458_5176, Class465_Sub1.aClass96_10352.aClass610_1164);
-		class668.aMap8557.put(Class458.aClass458_5167, Class590.aClass147_Sub1_7791);
+		class668.aMap8557.put(Class458.aClass458_5167, ObjTypeTransformation.aClass147_Sub1_7791);
 		class668.aMap8557.put(Class458.aClass458_5171, Class535.aClass147_7131);
 		if (null != class668.aClass350_8563)
 			class668.aMap8557.put(Class458.aClass458_5165, Class262.method3643(class668.aClass350_8563, 601478596));

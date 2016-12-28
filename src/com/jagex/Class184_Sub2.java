@@ -12,7 +12,7 @@ public class Class184_Sub2 extends Class184 {
 	int[] anIntArray9440;
 	Class167_Sub1 aClass167_Sub1_9441;
 	public static Class211 aClass211_9442;
-	public static Class461 aClass461_9443;
+	public static JS5ResourceProvider aClass461_9443;
 
 	void method2751(char c, int i, int i_0_, int i_1_, boolean bool, Class161 class161, int i_2_, int i_3_) {
 		/* empty */

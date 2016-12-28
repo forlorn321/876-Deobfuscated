@@ -29,7 +29,7 @@ public abstract class Class206 implements Interface6 {
 		return class536_sub18_sub17;
 	}
 
-	Class206(Interface12 interface12, Class461 class461, Class461 class461_2_) {
+	Class206(Interface12 interface12, JS5ResourceProvider class461, JS5ResourceProvider class461_2_) {
 		anInterface12_2237 = interface12;
 		Class205_Sub12.method9072(class461, class461_2_, 2, 632254064);
 	}

@@ -45,7 +45,7 @@ public class Class188 {
 	}
 
 	static void method2791(Class668 class668, int i) {
-		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 29)).anIntArrayArray3037[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]][1]);
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) 29)).anIntArrayArray3037[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]][1]);
 		class668.anInt8542 -= -1411037171;
 	}
 

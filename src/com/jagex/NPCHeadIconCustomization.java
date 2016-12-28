@@ -3,12 +3,12 @@
  */
 package com.jagex;
 
-public class Class307 {
+public class NPCHeadIconCustomization {
 	public short[] aShortArray3452;
 	public int[] anIntArray3453;
 	public static int anInt3454;
 
-	public Class307(Class296 class296) {
+	public NPCHeadIconCustomization(NPCDecoder class296) {
 		anIntArray3453 = new int[8];
 		aShortArray3452 = new short[8];
 		int i = 0;
@@ -23,7 +23,7 @@ public class Class307 {
 		}
 	}
 
-	public Class307(int[] is, short[] is_1_) {
+	public NPCHeadIconCustomization(int[] is, short[] is_1_) {
 		anIntArray3453 = is;
 		aShortArray3452 = is_1_;
 	}

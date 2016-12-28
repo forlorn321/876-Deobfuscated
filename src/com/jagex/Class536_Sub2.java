@@ -14,7 +14,7 @@ public final class Class536_Sub2 extends Class536 {
 	public int anInt10314;
 	public int anInt10315;
 	static long aLong10316;
-	Class590 aClass590_10317;
+	ObjTypeTransformation aClass590_10317;
 	boolean aBool10318 = true;
 	boolean aBool10319 = false;
 	public static Class708 aClass708_10320 = new Class708();

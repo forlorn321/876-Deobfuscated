@@ -41,8 +41,8 @@ public final class Class685 {
 	static final void method8112(long l) {
 		int i = 289882095 * client.anInt11082;
 		int i_1_ = client.anInt11236 * 182288133;
-		if (-787333673 * Class461.anInt5216 != i) {
-			int i_2_ = i - Class461.anInt5216 * -787333673;
+		if (-787333673 * JS5ResourceProvider.anInt5216 != i) {
+			int i_2_ = i - JS5ResourceProvider.anInt5216 * -787333673;
 			int i_3_ = (int) ((long) i_2_ * l / 320L);
 			if (i_2_ > 0) {
 				if (0 == i_3_)
@@ -53,7 +53,7 @@ public final class Class685 {
 				i_3_ = -1;
 			else if (i_3_ < i_2_)
 				i_3_ = i_2_;
-			Class461.anInt5216 += 1085474279 * i_3_;
+			JS5ResourceProvider.anInt5216 += 1085474279 * i_3_;
 		}
 		if (i_1_ != Class222.anInt2326 * -1817694149) {
 			int i_4_ = i_1_ - Class222.anInt2326 * -1817694149;

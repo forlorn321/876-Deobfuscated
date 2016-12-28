@@ -6,7 +6,7 @@ package com.jagex;
 import java.util.Arrays;
 import java.util.List;
 
-public class Class630 {
+public class PlayerSkill {
 	boolean aBool8231;
 	int anInt8232;
 	int anInt8233;
@@ -23,7 +23,7 @@ public class Class630 {
 		return -1243192549 * anInt8233;
 	}
 
-	public boolean method7505(int i) {
+	public boolean method7505() {
 		return aBool8231;
 	}
 
@@ -37,7 +37,7 @@ public class Class630 {
 		return aClass635_8235.method7552(i - anInt8237 * 1862671173, (byte) -5);
 	}
 
-	public int method7508(int i, int i_0_) {
+	public int method7508(int i) {
 		int i_1_ = aClass635_8235.method7550(i, (byte) 45) + anInt8237 * 1862671173;
 		if (i_1_ > anInt8232 * -415518351)
 			return anInt8232 * -415518351;
@@ -48,9 +48,9 @@ public class Class630 {
 		return 290725675 * anInt8236;
 	}
 
-	public int method7510(int i, int i_2_) {
+	public int method7510(int i) {
 		int i_3_ = i / 10;
-		return method7508(i_3_, 483343009);
+		return method7508(i_3_);
 	}
 
 	int method7511(int i, int i_4_) {
@@ -79,11 +79,11 @@ public class Class630 {
 		return 290725675 * anInt8236;
 	}
 
-	public boolean method7517(int i) {
+	public boolean method7517() {
 		return -1 != -642321703 * anInt8234;
 	}
 
-	Class630(int i, int i_6_, boolean bool, boolean bool_7_, int i_8_, Class635 class635, int i_9_) {
+	PlayerSkill(int i, int i_6_, boolean bool, boolean bool_7_, int i_8_, Class635 class635, int i_9_) {
 		anInt8233 = i * 2109292307;
 		anInt8232 = i_6_ * 1359540113;
 		aBool8231 = bool;
@@ -114,22 +114,22 @@ public class Class630 {
 
 	public int method7520(int i) {
 		int i_12_ = i / 10;
-		return method7508(i_12_, 1444606534);
+		return method7508(i_12_);
 	}
 
 	public int method7521(int i) {
 		int i_13_ = i / 10;
-		return method7508(i_13_, 1443816039);
+		return method7508(i_13_);
 	}
 
 	public int method7522(int i) {
 		int i_14_ = i / 10;
-		return method7508(i_14_, 1398408887);
+		return method7508(i_14_);
 	}
 
 	public int method7523(int i) {
 		int i_15_ = i / 10;
-		return method7508(i_15_, 824571246);
+		return method7508(i_15_);
 	}
 
 	int method7524(int i) {

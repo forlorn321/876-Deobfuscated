@@ -55,7 +55,7 @@ public class Class633 {
 	}
 
 	static void method7546(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i, int i_2_, int i_3_, int i_4_) {
-		Class589 class589 = class649_sub1_sub5_sub1.method10877(-1858829304);
+		BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-1858829304);
 		Class688_Sub3 class688_sub3 = class649_sub1_sub5_sub1.aClass688_Sub3_11914;
 		int i_5_ = ((-1999712379 * class649_sub1_sub5_sub1.anInt11939 - class649_sub1_sub5_sub1.aClass62_11940.anInt700 * 897724319) & 0x3fff);
 		if (Class680.aClass680_8643.aByte8644 == i) {

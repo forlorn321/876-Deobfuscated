@@ -6,7 +6,7 @@ package com.jagex;
 import java.util.Iterator;
 
 public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
-	Class461 aClass461_11332;
+	JS5ResourceProvider aClass461_11332;
 	Class199 aClass199_11333 = new Class199(64);
 	static int anInt11334;
 	static int anInt11335;
@@ -91,7 +91,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 		return new Class620(this);
 	}
 
-	public Class98_Sub1_Sub2(GameMode class670, Class458 class458, Class664 class664, Class461 class461) {
+	public Class98_Sub1_Sub2(GameMode class670, Class458 class458, Language class664, JS5ResourceProvider class461) {
 		super(class670, class458, class664, (class461 != null ? class461.method5566((class458.method5498(466181547).id * 1716263195), 1044361307) : 0));
 		aClass461_11332 = class461;
 	}

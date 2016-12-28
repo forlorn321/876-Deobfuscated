@@ -52,9 +52,9 @@ public class Class145 {
 		return i_8_;
 	}
 
-	public static Class606[] method1800(byte i) {
-		return (new Class606[] { Class606.aClass606_7879, Class606.aClass606_7894, Class606.aClass606_7881, Class606.aClass606_7876, Class606.aClass606_7873, Class606.aClass606_7892, Class606.aClass606_7886, Class606.aClass606_7883, Class606.aClass606_7880, Class606.aClass606_7877, Class606.aClass606_7882, Class606.aClass606_7884, Class606.aClass606_7874, Class606.aClass606_7890, Class606.aClass606_7893, Class606.aClass606_7875, Class606.aClass606_7889, Class606.aClass606_7888,
-				Class606.aClass606_7891, Class606.aClass606_7896, Class606.aClass606_7895, Class606.aClass606_7885, Class606.aClass606_7887 });
+	public static ObjShapes[] method1800(byte i) {
+		return (new ObjShapes[] { ObjShapes.aClass606_7879, ObjShapes.aClass606_7894, ObjShapes.aClass606_7881, ObjShapes.aClass606_7876, ObjShapes.aClass606_7873, ObjShapes.aClass606_7892, ObjShapes.aClass606_7886, ObjShapes.aClass606_7883, ObjShapes.aClass606_7880, ObjShapes.aClass606_7877, ObjShapes.aClass606_7882, ObjShapes.aClass606_7884, ObjShapes.aClass606_7874, ObjShapes.aClass606_7890, ObjShapes.aClass606_7893, ObjShapes.aClass606_7875, ObjShapes.aClass606_7889, ObjShapes.aClass606_7888,
+				ObjShapes.aClass606_7891, ObjShapes.aClass606_7896, ObjShapes.aClass606_7895, ObjShapes.aClass606_7885, ObjShapes.aClass606_7887 });
 	}
 
 	public static void method1801(Player class649_sub1_sub5_sub1_sub2, byte i) {

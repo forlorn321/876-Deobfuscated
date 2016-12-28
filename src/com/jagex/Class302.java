@@ -24,7 +24,7 @@ public class Class302 {
 	}
 
 	static void method4098(Class668 class668, byte i) {
-		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -10)).anInt3031 * -269064123);
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) -10)).anInt3031 * -269064123);
 	}
 
 	static final void method4099(Class668 class668, int i) {
@@ -59,7 +59,7 @@ public class Class302 {
 				flag += buffer.readUnsignedByte() << 8;
 			if ((flag & 0x800) != 0)
 				flag += buffer.readUnsignedByte() << 16;
-			Class630.decodePlayerMasks(buffer, playerIndex, player, flag);
+			PlayerSkill.decodePlayerMasks(buffer, playerIndex, player, flag);
 		}
 	}
 }

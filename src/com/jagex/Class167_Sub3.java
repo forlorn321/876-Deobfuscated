@@ -163,7 +163,7 @@ public abstract class Class167_Sub3 extends Class167 {
 	int anInt9677;
 	public float aFloat9678;
 	protected Class365 aClass365_9679;
-	Class461 aClass461_9680;
+	JS5ResourceProvider aClass461_9680;
 	static final int anInt9681 = 7;
 	static final int anInt9682 = 128;
 	boolean aBool9683;
@@ -299,7 +299,7 @@ public abstract class Class167_Sub3 extends Class167 {
 		Class114.method1481((byte) 70).method391("jaclib", 485887217);
 	}
 
-	Class167_Sub3(Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, int i, int i_1_) {
+	Class167_Sub3(Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i, int i_1_) {
 		super(class174, interface24, interface47, interface48, interface46);
 		anInt9552 = 0;
 		aClass708_9555 = new Class708();

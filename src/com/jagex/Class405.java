@@ -53,7 +53,7 @@ public class Class405 {
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) -47);
 			Class59.aClass59_617.method985(new Class432("hw3d"), (byte) 53);
 			Class59.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) 51);
-			Class59.aClass59_619.method985(new Class442(Class590.aClass461_7789), (byte) -107);
+			Class59.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) -107);
 			Class59.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -15);
 			Class59.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 22);
 			Class59.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -66);
@@ -113,7 +113,7 @@ public class Class405 {
 	}
 
 	static void method4939(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 80)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) 80)).aStringArray3026[class668.anIntArray8541[class668.anInt8542 * 1867269829 - 1]]);
 		class668.anInt8542 -= 1472892954;
 	}
 

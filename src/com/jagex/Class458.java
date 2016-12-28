@@ -183,8 +183,8 @@ public class Class458 implements Interface75 {
 		if (class248.aString2483 != null) {
 			Class109.method1451(class248.anInt2486 * 1093270539, (byte) 93);
 			if (Class34_Sub19.aClass184_10977 != null) {
-				i_21_ = Class618.aClass2_8091.method538(class248.aString2483, (Class144.anInt1679 * -1804846931), 0, null, (byte) 3);
-				i_16_ = Class618.aClass2_8091.method541(class248.aString2483, (Class144.anInt1679 * -1804846931), null, 601823666);
+				i_21_ = PlayerStat.aClass2_8091.method538(class248.aString2483, (Class144.anInt1679 * -1804846931), 0, null, (byte) 3);
+				i_16_ = PlayerStat.aClass2_8091.method541(class248.aString2483, (Class144.anInt1679 * -1804846931), null, 601823666);
 				i_14_ = (((Class542_Sub1.anInt7190 - Class542_Sub1.anInt7227) * (class248.anInt2515 * 625514463) / (Class542_Sub1.anInt7206 - Class542_Sub1.anInt7184)) + (2090600221 * class536_sub41.anInt10797 - i_16_ / 2));
 				i_15_ = (-279793543 * class536_sub41.anInt10798 - ((Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) * (-962510603 * class248.anInt2499) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
 				if (class143 == null)

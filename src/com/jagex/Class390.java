@@ -64,7 +64,7 @@ public class Class390 {
 			class251.anInt2711 = i_4_ * -180322533;
 			class251.anInt2712 = -1232317485 * i_5_;
 			class251.aBool2671 = bool;
-			ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
+			ItemDecoder class1 = ((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
 			class251.xan2d = -1128581953 * class1.modelRotation1;
 			class251.yan2d = -1144059129 * class1.modelRotation2;
 			class251.zan2d = 497715903 * class1.anInt31;
@@ -81,11 +81,11 @@ public class Class390 {
 
 	static final void method4857(int i) {
 		int i_6_ = 256 + 48434688 * Class440.anInt4874;
-		int i_7_ = Class606.anInt7898 * 1754388992 + 256;
+		int i_7_ = ObjShapes.anInt7898 * 1754388992 + 256;
 		int i_8_ = (Class54.method944(i_6_, i_7_, -989431627 * Class320.anInt3539, 1540257398) - -1655704623 * Class653.anInt8491);
 		if (Class234.anInt2381 * -1497935111 >= 100) {
 			Class637.anInt8301 = Class440.anInt4874 * 1474287104 + -1330152192;
-			Class685.anInt8665 = -1060159744 + Class606.anInt7898 * 724215296;
+			Class685.anInt8665 = -1060159744 + ObjShapes.anInt7898 * 724215296;
 			Class205_Sub21.anInt9958 = (Class54.method944(-1607026219 * Class637.anInt8301, -1646092097 * Class685.anInt8665, -989431627 * Class320.anInt3539, 1977091344) - Class653.anInt8491 * -1655704623) * -300318539;
 		} else {
 			if (Class637.anInt8301 * -1607026219 < i_6_) {
@@ -163,7 +163,7 @@ public class Class390 {
 			i_16_ += 16384;
 		if (i_16_ < 0 && i_15_ > 0 || i_16_ > 0 && i_15_ < 0)
 			Class144.anInt1681 = 402508199 * i_14_;
-		Class304.anInt3440 = 0;
+		NPCCustomization.anInt3440 = 0;
 	}
 
 	public static void method4858(Class570 class570, int i, int i_17_, Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i_18_, int i_19_) {
@@ -176,6 +176,6 @@ public class Class390 {
 	}
 
 	static final void method4859(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class307.anInt3454 * -1061117261;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = NPCHeadIconCustomization.anInt3454 * -1061117261;
 	}
 }

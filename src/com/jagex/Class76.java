@@ -4,10 +4,10 @@
 package com.jagex;
 
 public abstract class Class76 implements Interface6 {
-	Class461 aClass461_820;
+	JS5ResourceProvider aClass461_820;
 	Class199 aClass199_821;
 
-	Class76(Class461 class461, int i) {
+	Class76(JS5ResourceProvider class461, int i) {
 		aClass461_820 = class461;
 		aClass199_821 = new Class199(i);
 	}
@@ -80,7 +80,7 @@ public abstract class Class76 implements Interface6 {
 		}
 	}
 
-	public static void method1155(int i, int i_2_, int i_3_, int i_4_, Class612 class612, NPC class649_sub1_sub5_sub1_sub1, Player class649_sub1_sub5_sub1_sub2, int i_5_) {
+	public static void method1155(int i, int i_2_, int i_3_, int i_4_, ObjTypeDecoder class612, NPC class649_sub1_sub5_sub1_sub1, Player class649_sub1_sub5_sub1_sub2, int i_5_) {
 		Class536_Sub3 class536_sub3 = new Class536_Sub3();
 		class536_sub3.anInt10364 = -358839083 * i;
 		class536_sub3.anInt10367 = -537587733 * (i_2_ << 9);
@@ -115,7 +115,7 @@ public abstract class Class76 implements Interface6 {
 			Class184_Sub2.aClass211_9442.method3034(class536_sub3.anIntArray10365, (byte) 100);
 		} else if (null != class649_sub1_sub5_sub1_sub1) {
 			class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378 = class649_sub1_sub5_sub1_sub1;
-			Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+			NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 			if (null != class296.anIntArray3304) {
 				class536_sub3.aBool10385 = true;
 				class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -73);

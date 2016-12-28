@@ -185,9 +185,9 @@ public class Class38 {
 	static Class38 aClass38_478;
 	static Class38 aClass38_479;
 	public static Class38 aClass38_480;
-	public static Class53_Sub2 aClass53_Sub2_481;
+	public static QuestTypeList aClass53_Sub2_481;
 
-	public String method840(Class664 class664, int i) {
+	public String method840(Language class664, int i) {
 		return (String) aMap357.get(class664);
 	}
 
@@ -422,11 +422,11 @@ public class Class38 {
 	}
 
 	Class38(String string, String string_1_, String string_2_, String string_3_, String string_4_) {
-		aMap357.put(Class664.aClass664_8524, string);
-		aMap357.put(Class664.aClass664_8525, string_1_);
-		aMap357.put(Class664.aClass664_8516, string_2_);
-		aMap357.put(Class664.aClass664_8519, string_3_);
-		aMap357.put(Class664.aClass664_8522, string_4_);
+		aMap357.put(Language.aClass664_8524, string);
+		aMap357.put(Language.aClass664_8525, string_1_);
+		aMap357.put(Language.aClass664_8516, string_2_);
+		aMap357.put(Language.aClass664_8519, string_3_);
+		aMap357.put(Language.aClass664_8522, string_4_);
 	}
 
 	public static void method845(boolean bool, boolean bool_5_, int i) {

@@ -56,7 +56,7 @@ class Class551 implements Runnable {
 	}
 
 	static final boolean method6686(Class34_Sub17 class34_sub17, int i, int i_0_, int i_1_) {
-		Class612 class612 = (Class612) class34_sub17.method70(i, (byte) -125);
+		ObjTypeDecoder class612 = (ObjTypeDecoder) class34_sub17.method70(i, (byte) -125);
 		if (11 == i_0_)
 			i_0_ = 10;
 		if (i_0_ >= 5 && i_0_ <= 8)

@@ -39,6 +39,6 @@ public class Class205_Sub19 extends Class205 {
 
 	public static Class603_Sub1 method9091(int i) {
 		Class23.anInt229 = 0;
-		return Class674.method8027(-1756250987);
+		return AccountType.method8027(-1756250987);
 	}
 }

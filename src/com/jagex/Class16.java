@@ -5,8 +5,8 @@ package com.jagex;
 
 public abstract class Class16 implements Interface6 {
 	boolean aBool174;
-	Class461 aClass461_175;
-	Class664 aClass664_176;
+	JS5ResourceProvider aClass461_175;
+	Language aClass664_176;
 	Class199 aClass199_177 = new Class199(50);
 	Class607 aClass607_178 = new Class607(250);
 	Class11 aClass11_179 = new Class11();
@@ -36,7 +36,7 @@ public abstract class Class16 implements Interface6 {
 			if (class143 != null)
 				return class143;
 		}
-		ItemTypeDecoder class1 = (ItemTypeDecoder) interface12.method70(i, (byte) -100);
+		ItemDecoder class1 = (ItemDecoder) interface12.method70(i, (byte) -100);
 		if (i_1_ > 1 && null != class1.stackIds) {
 			int i_7_ = -1;
 			for (int i_8_ = 0; i_8_ < 10; i_8_++) {
@@ -44,7 +44,7 @@ public abstract class Class16 implements Interface6 {
 					i_7_ = class1.stackIds[i_8_];
 			}
 			if (i_7_ != -1)
-				class1 = (ItemTypeDecoder) interface12.method70(i_7_, (byte) -6);
+				class1 = (ItemDecoder) interface12.method70(i_7_, (byte) -6);
 		}
 		int[] is = class1.method513(class167, class167_0_, i_1_, i_2_, i_3_, bool, i_5_, class184, class617, class628, 1983241245);
 		if (is == null)
@@ -193,7 +193,7 @@ public abstract class Class16 implements Interface6 {
 		}
 	}
 
-	Class16(GameMode class670, Class664 class664, boolean bool, Class461 class461, Interface12 interface12) {
+	Class16(GameMode class670, Language class664, boolean bool, JS5ResourceProvider class461, Interface12 interface12) {
 		aClass664_176 = class664;
 		aBool174 = bool;
 		aClass461_175 = class461;

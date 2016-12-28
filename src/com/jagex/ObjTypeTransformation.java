@@ -3,16 +3,17 @@
  */
 package com.jagex;
 
-public class Class590 {
+public class ObjTypeTransformation {
 	short[] aShortArray7785;
 	int[] anIntArray7786;
 	short[] aShortArray7787;
 	long aLong7788;
-	public static Class461 aClass461_7789;
+	
+	public static JS5ResourceProvider aClass461_7789;
 	static Class697[] aClass697Array7790;
 	public static Class147_Sub1 aClass147_Sub1_7791;
 
-	public Class590(long l, int[] is, short[] is_0_, short[] is_1_) {
+	public ObjTypeTransformation(long l, int[] is, short[] is_0_, short[] is_1_) {
 		aLong7788 = 2519431825178180043L * l;
 		anIntArray7786 = is;
 		aShortArray7787 = is_0_;
@@ -20,7 +21,7 @@ public class Class590 {
 	}
 
 	public static boolean method7099(int i, int i_2_) {
-		return (i >= -723459231 * Class606.aClass606_7886.anInt7878 && i <= -723459231 * Class606.aClass606_7891.anInt7878);
+		return (i >= -723459231 * ObjShapes.aClass606_7886.anInt7878 && i <= -723459231 * ObjShapes.aClass606_7891.anInt7878);
 	}
 
 	static final void method7100(Class668 class668, int i) {

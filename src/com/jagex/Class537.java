@@ -25,7 +25,7 @@ public class Class537 {
 	int anInt7149;
 	int anInt7150;
 	int anInt7151;
-	static Class461 aClass461_7152;
+	static JS5ResourceProvider aClass461_7152;
 
 	void method6492() throws IOException {
 		aClass511_7142.method6193(false, 195661259);

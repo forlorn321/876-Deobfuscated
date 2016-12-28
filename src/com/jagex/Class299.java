@@ -44,7 +44,7 @@ public class Class299 {
 		Class398.aClass654_4123 = null;
 		Class567.aLong7600 = 0L;
 		Class478.method5762(2137710763);
-		Class590.aClass147_Sub1_7791.method8404(608172963);
+		ObjTypeTransformation.aClass147_Sub1_7791.method8404(608172963);
 	}
 
 	static final void method4017(Class668 class668, int i) {

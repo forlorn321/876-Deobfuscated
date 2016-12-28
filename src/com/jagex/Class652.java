@@ -28,7 +28,7 @@ public class Class652 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.customCursorSetting.method10165((short) 836) == 1 ? 1 : 0;
 	}
 
-	public static void method7868(Class461 class461, Class174 class174, Interface24 interface24, int i) {
+	public static void method7868(JS5ResourceProvider class461, Class174 class174, Interface24 interface24, int i) {
 		Class269.aClass461_2879 = class461;
 		Class215.aClass174_2304 = class174;
 		Class218.anInterface24_2306 = interface24;

@@ -26,11 +26,11 @@ public class Class161_Sub2 extends Class161 {
 			long l = class536_sub18_sub5.method10661(1888522995);
 			if (1 == i_3_) {
 				Class153 class153 = ((Class153) Class309.aClass98_Sub1_Sub2_3465.method70((int) l, (byte) 12));
-				Class590.aClass147_Sub1_7791.method101(class153, (-1670804733 * (class536_sub18_sub5.anInt11675)), 1584709141);
+				ObjTypeTransformation.aClass147_Sub1_7791.method101(class153, (-1670804733 * (class536_sub18_sub5.anInt11675)), 1584709141);
 				client.anIntArray11224[(client.anInt11225 += -1650211755) * 381884669 - 1 & 0x3f] = (int) l;
 			} else if (i_3_ == 2) {
 				Class153 class153 = ((Class153) Class309.aClass98_Sub1_Sub2_3465.method70((int) l, (byte) 72));
-				Class590.aClass147_Sub1_7791.method105(class153, (class536_sub18_sub5.aString11649), 2089714920);
+				ObjTypeTransformation.aClass147_Sub1_7791.method105(class153, (class536_sub18_sub5.aString11649), 2089714920);
 				client.anIntArray11297[((client.anInt11227 += -1184662833) * 1393118255) - 1 & 0x3f] = (int) l;
 			} else if (i_3_ == 3) {
 				IComponentDefinitions class251 = Class264.getIComponentDefinitions((int) l);

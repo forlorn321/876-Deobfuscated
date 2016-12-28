@@ -9,7 +9,7 @@ public class Class313 implements ConfigType {
 	short[] aShortArray3490;
 	int[] anIntArray3491;
 	short[] aShortArray3492;
-	Class461 aClass461_3493;
+	JS5ResourceProvider aClass461_3493;
 	byte[] aByteArray3494;
 	short[] aShortArray3495;
 	int[] anIntArray3496 = { -1, -1, -1, -1, -1 };
@@ -335,7 +335,7 @@ public class Class313 implements ConfigType {
 		}
 	}
 
-	Class313(int i, Class461 class461) {
+	Class313(int i, JS5ResourceProvider class461) {
 		aClass461_3493 = class461;
 	}
 
@@ -468,7 +468,7 @@ public class Class313 implements ConfigType {
 
 	static final void method4200(Class668 class668, int i) {
 		NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class668.aClass649_Sub1_Sub5_Sub1_8554);
-		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+		NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (null != class296.anIntArray3304)
 			class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -112);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class296 != null ? 1 : 0;

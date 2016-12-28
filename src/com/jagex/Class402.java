@@ -56,21 +56,21 @@ public class Class402 implements Interface75 {
 	static int[] method4923(Class536_Sub18_Sub9 class536_sub18_sub9, int i) {
 		int[] is = null;
 		if (Class432.method5189(-517484763 * class536_sub18_sub9.anInt11718, (short) 352))
-			is = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((int) (9092992429781309163L * class536_sub18_sub9.aLong11711), (byte) -28))).anIntArray80;
+			is = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70((int) (9092992429781309163L * class536_sub18_sub9.aLong11711), (byte) -28))).anIntArray80;
 		else if (class536_sub18_sub9.anInt11710 * 245161179 != -1)
-			is = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70(245161179 * class536_sub18_sub9.anInt11710, (byte) 24))).anIntArray80;
+			is = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70(245161179 * class536_sub18_sub9.anInt11710, (byte) 24))).anIntArray80;
 		else if (Class465.method5668((class536_sub18_sub9.anInt11718 * -517484763), (byte) -23)) {
 			ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (int) (9092992429781309163L * class536_sub18_sub9.aLong11711))));
 			if (null != class536_sub13) {
 				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
-				Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+				NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 				if (class296.anIntArray3304 != null)
 					class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -42);
 				if (class296 != null)
 					is = class296.anIntArray3297;
 			}
 		} else if (Class381.method4817((-517484763 * class536_sub18_sub9.anInt11718), 1753208976)) {
-			Class612 class612 = ((Class612) (client.aClass515_11066.method6280(-1073841494).method70((int) ((class536_sub18_sub9.aLong11711 * 9092992429781309163L) >>> 32 & 0x7fffffffL), (byte) 41)));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) (client.aClass515_11066.method6280(-1073841494).method70((int) ((class536_sub18_sub9.aLong11711 * 9092992429781309163L) >>> 32 & 0x7fffffffL), (byte) 41)));
 			if (class612.anIntArray7988 != null)
 				class612 = class612.method7293(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) 97);
 			if (null != class612)

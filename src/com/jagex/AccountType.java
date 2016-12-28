@@ -8,16 +8,16 @@ import java.io.RandomAccessFile;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class Class674 implements Interface75 {
-	public static Class674 aClass674_8582 = new Class674(0, "");
-	public static Class674 aClass674_8583 = new Class674(1, "");
+public class AccountType implements Interface75 {
+	public static AccountType FREE = new AccountType(0, "");
+	public static AccountType MEMBERS = new AccountType(1, "");
 	int anInt8584;
 
 	public int method78() {
 		return -1615432875 * anInt8584;
 	}
 
-	Class674(int i, String string) {
+	AccountType(int i, String string) {
 		anInt8584 = 933884413 * i;
 	}
 
@@ -127,7 +127,7 @@ public class Class674 implements Interface75 {
 			int i_23_ = 0;
 			for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8308(1867269829)); null != class536_sub18_sub9; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8311(1696844984))) {
 				int i_24_ = (((Class70.anInt760 * 1780207751 - 1 - i_23_) * (2934691 * Class70.anInt749)) + (1 + (class2.anInt91 * -1214764847 + (i_13_ + i_10_))));
-				RemoveRoofSetting.method9920(i_16_, i_17_, i_9_, i_10_, i_11_, i_12_, i_24_, class536_sub18_sub9, class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, Class461.anInt5217 * -1058819483 | ~0xffffff, 566941531);
+				RemoveRoofSetting.method9920(i_16_, i_17_, i_9_, i_10_, i_11_, i_12_, i_24_, class536_sub18_sub9, class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, JS5ResourceProvider.anInt5217 * -1058819483 | ~0xffffff, 566941531);
 				i_23_++;
 			}
 		} else {
@@ -135,16 +135,16 @@ public class Class674 implements Interface75 {
 			for (Class536_Sub18_Sub6 class536_sub18_sub6 = ((Class536_Sub18_Sub6) Class70.aClass700_764.method8248(1935403366)); null != class536_sub18_sub6; class536_sub18_sub6 = ((Class536_Sub18_Sub6) Class70.aClass700_764.method8241(874264648))) {
 				int i_26_ = (class2.anInt91 * -1214764847 + (i_13_ + 1644471179 * Class70.anInt768) + 1 + i_25_ * (Class70.anInt749 * 2934691));
 				if (1 == -606992075 * class536_sub18_sub6.anInt11685)
-					RemoveRoofSetting.method9920(i_16_, i_17_, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, 917143623 * Class2.anInt95, -311054579 * Class153.anInt1719, i_26_, ((Class536_Sub18_Sub9) (class536_sub18_sub6.aClass700_11683.aClass536_Sub18_8794.aClass536_Sub18_10506)), class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, Class461.anInt5217 * -1058819483 | ~0xffffff, -1011192955);
+					RemoveRoofSetting.method9920(i_16_, i_17_, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, 917143623 * Class2.anInt95, -311054579 * Class153.anInt1719, i_26_, ((Class536_Sub18_Sub9) (class536_sub18_sub6.aClass700_11683.aClass536_Sub18_8794.aClass536_Sub18_10506)), class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, JS5ResourceProvider.anInt5217 * -1058819483 | ~0xffffff, -1011192955);
 				else
-					Class599.method7155(i_16_, i_17_, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, Class2.anInt95 * 917143623, -311054579 * Class153.anInt1719, i_26_, class536_sub18_sub6, class184, class2, (1559126045 * Class158.anInt1743 | ~0xffffff), (-1058819483 * Class461.anInt5217 | ~0xffffff), 403182947);
+					Class599.method7155(i_16_, i_17_, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, Class2.anInt95 * 917143623, -311054579 * Class153.anInt1719, i_26_, class536_sub18_sub6, class184, class2, (1559126045 * Class158.anInt1743 | ~0xffffff), (-1058819483 * JS5ResourceProvider.anInt5217 | ~0xffffff), 403182947);
 				i_25_++;
 			}
 			if (Class70.aClass536_Sub18_Sub6_754 != null) {
 				i_25_ = 0;
 				for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass536_Sub18_Sub6_754.aClass700_11683.method8248(-1197394472)); null != class536_sub18_sub9; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass536_Sub18_Sub6_754.aClass700_11683.method8241(-1215625863))) {
 					int i_27_ = (i_25_ * (2934691 * Class70.anInt749) + (1 + (-1214764847 * class2.anInt91 + (-1907476413 * Class70.anInt767 + i_13_))));
-					RemoveRoofSetting.method9920(i_16_, i_17_, -1742636179 * Class283.anInt3184, Class70.anInt767 * -1907476413, -2003725765 * Canvas_Sub1.anInt11875, -1785378353 * Class507.anInt6915, i_27_, class536_sub18_sub9, class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, -1058819483 * Class461.anInt5217 | ~0xffffff, -2075201216);
+					RemoveRoofSetting.method9920(i_16_, i_17_, -1742636179 * Class283.anInt3184, Class70.anInt767 * -1907476413, -2003725765 * Canvas_Sub1.anInt11875, -1785378353 * Class507.anInt6915, i_27_, class536_sub18_sub9, class184, class2, Class158.anInt1743 * 1559126045 | ~0xffffff, -1058819483 * JS5ResourceProvider.anInt5217 | ~0xffffff, -2075201216);
 					i_25_++;
 				}
 			}

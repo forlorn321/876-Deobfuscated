@@ -64,9 +64,9 @@ class Class151 implements Comparator {
 		int i_9_ = i_8_;
 		if (6 != 1939619399 * class251.modelType && 1939619399 * class251.modelType != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) -36));
+		NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) -36));
 		if (null == class251.aClass304_2583)
-			class251.aClass304_2583 = new Class304(class296, class251.modelType * 1939619399 == 6);
+			class251.aClass304_2583 = new NPCCustomization(class296, class251.modelType * 1939619399 == 6);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(-960212750) * 1195640203384682761L;
 		if (class296.aByteArray3307 != null) {
 			if (i_8_ < 0 || i_8_ >= class296.aByteArray3307.length)

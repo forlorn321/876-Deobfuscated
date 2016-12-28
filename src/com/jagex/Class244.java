@@ -51,13 +51,13 @@ public class Class244 {
 		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class668.aClass536_Sub18_Sub16_8547.anObjectArray11796[class668.anInt8564 * -1640738851]);
 	}
 
-	static int method3410(char c, Class664 class664, int i) {
+	static int method3410(char c, Language class664, int i) {
 		int i_10_ = c << 4;
 		if (Character.isUpperCase(c) || Character.isTitleCase(c)) {
 			c = Character.toLowerCase(c);
 			i_10_ = 1 + (c << 4);
 		}
-		if (c == 241 && Class664.aClass664_8521 == class664)
+		if (c == 241 && Language.aClass664_8521 == class664)
 			i_10_ = 1762;
 		return i_10_;
 	}

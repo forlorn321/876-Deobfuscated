@@ -12,7 +12,7 @@ public class Class681_Sub1 extends Class681 {
 		return com.jagex.Class677.class;
 	}
 
-	Class681_Sub1(Class461 class461) {
+	Class681_Sub1(JS5ResourceProvider class461) {
 		super(class461);
 	}
 

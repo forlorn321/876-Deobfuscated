@@ -9,7 +9,7 @@ public class Class711 {
 	boolean aBool8846;
 	boolean aBool8847;
 	boolean aBool8848;
-	public static Class461 aClass461_8849;
+	public static JS5ResourceProvider aClass461_8849;
 
 	public boolean method8362() {
 		return aBool8848;
@@ -83,12 +83,12 @@ public class Class711 {
 		Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
 		int i = 938724179 * client.anInt10983 + (int) class436.aFloat4850;
 		int i_3_ = (int) class436.aFloat4853 + client.anInt11091 * 1846249523;
-		if (-787333673 * Class461.anInt5216 - i < -2000 || -787333673 * Class461.anInt5216 - i > 2000 || -1817694149 * Class222.anInt2326 - i_3_ < -2000 || -1817694149 * Class222.anInt2326 - i_3_ > 2000) {
-			Class461.anInt5216 = i * 1085474279;
+		if (-787333673 * JS5ResourceProvider.anInt5216 - i < -2000 || -787333673 * JS5ResourceProvider.anInt5216 - i > 2000 || -1817694149 * Class222.anInt2326 - i_3_ < -2000 || -1817694149 * Class222.anInt2326 - i_3_ > 2000) {
+			JS5ResourceProvider.anInt5216 = i * 1085474279;
 			Class222.anInt2326 = i_3_ * 727918835;
 		}
-		if (i != -787333673 * Class461.anInt5216) {
-			int i_4_ = i - -787333673 * Class461.anInt5216;
+		if (i != -787333673 * JS5ResourceProvider.anInt5216) {
+			int i_4_ = i - -787333673 * JS5ResourceProvider.anInt5216;
 			int i_5_ = (int) ((long) i_4_ * l / 320L);
 			if (i_4_ > 0) {
 				if (i_5_ == 0)
@@ -99,7 +99,7 @@ public class Class711 {
 				i_5_ = -1;
 			else if (i_5_ < i_4_)
 				i_5_ = i_4_;
-			Class461.anInt5216 += i_5_ * 1085474279;
+			JS5ResourceProvider.anInt5216 += i_5_ * 1085474279;
 		}
 		if (i_3_ != -1817694149 * Class222.anInt2326) {
 			int i_6_ = i_3_ - Class222.anInt2326 * -1817694149;

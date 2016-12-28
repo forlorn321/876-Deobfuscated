@@ -15,7 +15,7 @@ public class Class536_Sub3 extends Class536 {
 	int anInt10371;
 	Class436 aClass436_10372 = new Class436(0.0F, 0.0F, 0.0F);
 	Class436 aClass436_10373 = new Class436(0.0F, 0.0F, 0.0F);
-	Class612 aClass612_10374;
+	ObjTypeDecoder aClass612_10374;
 	int anInt10375;
 	int anInt10376;
 	int anInt10377;
@@ -74,7 +74,7 @@ public class Class536_Sub3 extends Class536 {
 	void method9392(int i) {
 		int i_0_ = -1095423089 * anInt10388;
 		if (null != aClass612_10374) {
-			Class612 class612 = (aClass612_10374.method7293(Class465_Sub1.aClass96_10352, (1542697723 * client.anInt11074 == 4 ? (Interface18) Class193.anInterface18_2191 : Class465_Sub1.aClass96_10352), (byte) 111));
+			ObjTypeDecoder class612 = (aClass612_10374.method7293(Class465_Sub1.aClass96_10352, (1542697723 * client.anInt11074 == 4 ? (Interface18) Class193.anInterface18_2191 : Class465_Sub1.aClass96_10352), (byte) 111));
 			if (class612 != null) {
 				anInt10388 = class612.anInt7946 * -1153005485;
 				anInt10375 = (class612.anInt7991 * 1037704243 << 9) * -924360927;
@@ -99,7 +99,7 @@ public class Class536_Sub3 extends Class536 {
 			int i_1_ = (Class536_Sub20.method9567(aClass649_Sub1_Sub5_Sub1_Sub1_10378, -1712288270));
 			if (i_0_ != i_1_) {
 				anInt10388 = -1239313553 * i_1_;
-				Class296 class296 = aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass296_12174;
+				NPCDecoder class296 = aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass296_12174;
 				if (null != class296.anIntArray3304)
 					class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -53);
 				if (class296 != null) {
@@ -155,7 +155,7 @@ public class Class536_Sub3 extends Class536 {
 			Class649_Sub1_Sub3_Sub1.method10939(class536_sub3, i, i_2_, i_3_, i_4_, 972546450);
 		for (Class536_Sub3 class536_sub3 = (Class536_Sub3) aClass708_10386.method8308(1867269829); null != class536_sub3; class536_sub3 = (Class536_Sub3) aClass708_10386.method8311(1249485628)) {
 			int i_5_ = 1;
-			Class589 class589 = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10877(-1534649980);
+			BASTypeDecoder class589 = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.method10877(-1534649980);
 			int i_6_ = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass688_Sub3_11914.method8120((byte) 25);
 			if (-1 == i_6_ || (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass688_Sub3_11914.aBool10975))
 				i_5_ = 0;
@@ -165,7 +165,7 @@ public class Class536_Sub3 extends Class536 {
 				i_5_ = 3;
 			if (class536_sub3.anInt10384 * 1130756623 != i_5_) {
 				int i_7_ = (Class536_Sub20.method9567(class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378, 429042723));
-				Class296 class296 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass296_12174);
+				NPCDecoder class296 = (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub1_10378.aClass296_12174);
 				if (null != class296.anIntArray3304)
 					class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -1);
 				if (null == class296 || -1 == i_7_) {
@@ -203,7 +203,7 @@ public class Class536_Sub3 extends Class536 {
 		}
 		for (Class536_Sub3 class536_sub3 = (Class536_Sub3) aClass4_10366.method562(-1900569642); class536_sub3 != null; class536_sub3 = (Class536_Sub3) aClass4_10366.method567(281464409)) {
 			int i_8_ = 1;
-			Class589 class589 = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10877(1007100720);
+			BASTypeDecoder class589 = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.method10877(1007100720);
 			int i_9_ = class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.aClass688_Sub3_11914.method8120((byte) 81);
 			if (-1 == i_9_ || (class536_sub3.aClass649_Sub1_Sub5_Sub1_Sub2_10379.aClass688_Sub3_11914.aBool10975))
 				i_8_ = 0;

@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class Class321 implements Interface33 {
 	Class388 aClass388_3540;
-	Class461 aClass461_3541;
+	JS5ResourceProvider aClass461_3541;
 	Class143 aClass143_3542;
 	static Socket aSocket3543;
 
@@ -19,7 +19,7 @@ public class Class321 implements Interface33 {
 		aClass143_3542 = Class247.method3419(aClass461_3541, aClass388_3540.anInt4045 * 363945019, -2093140245);
 	}
 
-	Class321(Class461 class461, Class388 class388) {
+	Class321(JS5ResourceProvider class461, Class388 class388) {
 		aClass461_3541 = class461;
 		aClass388_3540 = class388;
 	}

@@ -198,7 +198,7 @@ public final class Class472 {
 	}
 
 	static void method5733(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 16)).aString3028;
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 16)).aString3028;
 	}
 
 	static final void method5734(Class668 class668, byte i) {

@@ -30,7 +30,7 @@ public final class Class707 {
 	}
 
 	static int method8301(int i, int i_3_, int i_4_) {
-		if (Class606.aClass606_7874.anInt7878 * -723459231 == i || Class606.aClass606_7876.anInt7878 * -723459231 == i)
+		if (ObjShapes.aClass606_7874.anInt7878 * -723459231 == i || ObjShapes.aClass606_7876.anInt7878 * -723459231 == i)
 			return Class649_Sub1_Sub3_Sub1.anIntArray11990[i_3_ & 0x3];
 		return Class649_Sub1_Sub3_Sub1.anIntArray11995[i_3_ & 0x3];
 	}

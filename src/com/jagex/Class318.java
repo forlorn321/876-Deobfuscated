@@ -21,7 +21,7 @@ public class Class318 implements Interface75 {
 	static Class318 aClass318_3523;
 	int anInt3524;
 	static Class318 aClass318_3525;
-	public static Class461 aClass461_3526;
+	public static JS5ResourceProvider aClass461_3526;
 
 	static {
 		aClass318_3512 = new Class318(10, 4);

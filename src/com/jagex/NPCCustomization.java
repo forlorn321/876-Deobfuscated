@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class304 {
+public class NPCCustomization {
 	public int[] anIntArray3433;
 	public long aLong3434;
 	float[] aFloatArray3435;
@@ -13,7 +13,7 @@ public class Class304 {
 	public short[] aShortArray3439;
 	static int anInt3440;
 
-	public Class304(Class296 class296, boolean bool) {
+	public NPCCustomization(NPCDecoder class296, boolean bool) {
 		if (bool) {
 			anIntArray3433 = new int[class296.anIntArray3317.length];
 			aFloatArray3435 = new float[class296.anIntArray3317.length];
@@ -37,7 +37,7 @@ public class Class304 {
 		}
 	}
 
-	public Class304(long l, int[] is, float[] fs, int[][] is_0_, int[][] is_1_, short[] is_2_, short[] is_3_) {
+	public NPCCustomization(long l, int[] is, float[] fs, int[][] is_0_, int[][] is_1_, short[] is_2_, short[] is_3_) {
 		aLong3434 = 1195640203384682761L * l;
 		anIntArray3433 = is;
 		aFloatArray3435 = fs;

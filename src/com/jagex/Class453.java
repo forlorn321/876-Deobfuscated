@@ -454,7 +454,7 @@ public class Class453 implements Interface75, Interface57 {
 		for (int i_0_ = 0; i_0_ < class46s.length; i_0_++) {
 			JS5Archive class46 = class46s[i_0_];
 			if (JS5Archive.LOADING_SPRITES != class46) {
-				Class461 class461 = (Class461) Class211.aMap2292.get(class46);
+				JS5ResourceProvider class461 = (JS5ResourceProvider) Class211.aMap2292.get(class46);
 				if (class461 == null)
 					class536_sub33_sub2.writeInt(0);
 				else

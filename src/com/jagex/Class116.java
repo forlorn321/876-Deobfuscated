@@ -12,7 +12,7 @@ public class Class116 {
 	short aShort1429;
 	boolean aBool1430;
 	byte aByte1431;
-	public static Class461 aClass461_1432;
+	public static JS5ResourceProvider aClass461_1432;
 
 	Class116(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, boolean bool, int i_8_) {
 		anInt1427 = 1850351895 * i;
@@ -26,7 +26,7 @@ public class Class116 {
 	}
 
 	static void method1484(Class668 class668, int i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 50)).anInt3047 * 93079867);
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 1]), (byte) 50)).anInt3047 * 93079867);
 	}
 
 	public static final void method1485(int i) {

@@ -551,7 +551,7 @@ public class Class515 {
 		for (Class536_Sub2 class536_sub2 = ((Class536_Sub2) Class536_Sub2.aClass708_10320.method8308(1867269829)); null != class536_sub2; class536_sub2 = (Class536_Sub2) Class536_Sub2.aClass708_10320.method8311(907354362)) {
 			class536_sub2.anInt10309 -= 399769825 * i_71_;
 			class536_sub2.anInt10312 -= -1006214131 * i_72_;
-			Class612 class612 = ((Class612) aClass34_Sub17_7012.method70((744541999 * class536_sub2.anInt10314), (byte) -109));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7012.method70((744541999 * class536_sub2.anInt10314), (byte) -109));
 			int i_84_;
 			int i_85_;
 			if (0 == (class536_sub2.anInt10315 * -190376161 & 0x1)) {
@@ -567,7 +567,7 @@ public class Class515 {
 		for (Class536_Sub2 class536_sub2 = ((Class536_Sub2) Class536_Sub2.aClass708_10321.method8308(1867269829)); null != class536_sub2; class536_sub2 = (Class536_Sub2) Class536_Sub2.aClass708_10321.method8311(1494865754)) {
 			class536_sub2.anInt10309 -= 399769825 * i_71_;
 			class536_sub2.anInt10312 -= i_72_ * -1006214131;
-			Class612 class612 = ((Class612) aClass34_Sub17_7012.method70((class536_sub2.anInt10314 * 744541999), (byte) -82));
+			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_7012.method70((class536_sub2.anInt10314 * 744541999), (byte) -82));
 			int i_86_;
 			int i_87_;
 			if ((-190376161 * class536_sub2.anInt10315 & 0x1) == 0) {
@@ -602,13 +602,13 @@ public class Class515 {
 		if (i == 10) {
 			client.anInt11082 -= i_71_ * -543285760;
 			client.anInt11236 -= i_72_ * 149658112;
-			Class461.anInt5216 -= 1712049664 * i_71_;
+			JS5ResourceProvider.anInt5216 -= 1712049664 * i_71_;
 			Class222.anInt2326 -= i_72_ * -967711232;
 			if (6 != 155362615 * Class246.anInt2474 && 2 != 155362615 * Class246.anInt2474)
 				Class609.method7265(Class65.method1062());
 		} else {
 			Class440.anInt4874 -= -1470004169 * i_71_;
-			Class606.anInt7898 -= i_72_ * 1281447141;
+			ObjShapes.anInt7898 -= i_72_ * 1281447141;
 			Class438.anInt4868 -= -1221047655 * i_71_;
 			Class550.anInt7412 -= -186879469 * i_72_;
 			Class637.anInt8301 -= 1634662912 * i_71_;
@@ -1382,7 +1382,7 @@ public class Class515 {
 					int i_205_ = i_202_ & 0x3f;
 					int i_206_ = ((anIntArray6996[i_197_] >> 8) * 64 - 1858049507 * aClass598_7023.anInt7839 + i_204_);
 					int i_207_ = i_205_ + (64 * (anIntArray6996[i_197_] & 0xff) - 1479112045 * aClass598_7023.anInt7840);
-					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -16)));
+					NPCDecoder class296 = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -16)));
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_201_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_206_ >= 0 && (i_206_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_207_ >= 0 && (i_207_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
 						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
@@ -1609,7 +1609,7 @@ public class Class515 {
 					int i_227_ = i_224_ & 0x3f;
 					int i_228_ = ((anIntArray6996[i_219_] >> 8) * 64 - 1858049507 * aClass598_7023.anInt7839 + i_226_);
 					int i_229_ = i_227_ + (64 * (anIntArray6996[i_219_] & 0xff) - 1479112045 * aClass598_7023.anInt7840);
-					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -32)));
+					NPCDecoder class296 = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -32)));
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_223_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_228_ >= 0 && (i_228_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_229_ >= 0 && (i_229_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
 						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
@@ -1637,7 +1637,7 @@ public class Class515 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class499.method6024(i_231_, i_232_, false, -978258019);
 	}
 
-	public static Class2 method6324(Class461 class461, int i, Interface4 interface4, int i_233_) {
+	public static Class2 method6324(JS5ResourceProvider class461, int i, Interface4 interface4, int i_233_) {
 		byte[] is = class461.method5595(i, -1592946383);
 		if (is == null)
 			return null;

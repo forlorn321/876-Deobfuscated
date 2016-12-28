@@ -54,7 +54,7 @@ public class Class463 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class598.method7145((byte) 35);
 	}
 
-	public static Class543 method5625(Class461 class461, String string, boolean bool, int i) {
+	public static Class543 method5625(JS5ResourceProvider class461, String string, boolean bool, int i) {
 		int i_1_ = class461.method5571(string, -1584890252);
 		if (-1 == i_1_)
 			return new Class543(0);

@@ -20,7 +20,7 @@ public final class Class189 {
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142 = (new NPC(client.aClass515_11066.method6249(242900599), 25));
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11889 = anInt2139 * -947889853;
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11934 = client.cycles * 653611363;
-				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method11065(((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -70)), 179188063);
+				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method11065(((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -70)), 179188063);
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method10873((aClass649_Sub1_Sub5_Sub1_Sub1_2142.aClass296_12174.anInt3272) * 830254667, -324388659);
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11938 = ((aClass649_Sub1_Sub5_Sub1_Sub1_2142.aClass296_12174.anInt3318) * 235698067 << 3) * -1906385303;
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11905 = (((Class193.anInt2185 += 1391756075) * -338287741 - 1) * -1239170155);
@@ -70,7 +70,7 @@ public final class Class189 {
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142 = (new NPC(client.aClass515_11066.method6249(-23681519), 25));
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11889 = anInt2139 * -947889853;
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11934 = client.cycles * 653611363;
-				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method11065(((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -4)), 179188063);
+				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method11065(((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -4)), 179188063);
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.method10873((aClass649_Sub1_Sub5_Sub1_Sub1_2142.aClass296_12174.anInt3272) * 830254667, -324388659);
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11938 = ((aClass649_Sub1_Sub5_Sub1_Sub1_2142.aClass296_12174.anInt3318) * 235698067 << 3) * -1906385303;
 				aClass649_Sub1_Sub5_Sub1_Sub1_2142.anInt11905 = (((Class193.anInt2185 += 1391756075) * -338287741 - 1) * -1239170155);
@@ -94,10 +94,10 @@ public final class Class189 {
 
 	boolean method2806(int i) {
 		if (anInt2140 * 329594177 >= 0) {
-			Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -34));
+			NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) -34));
 			boolean bool = class296.method3982(1336660499);
 			if (anIntArray2144 == null) {
-				Class589 class589 = ((Class589) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -45));
+				BASTypeDecoder class589 = ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -45));
 				anIntArray2144 = class589.method7092(-1744490433);
 			}
 			int[] is = anIntArray2144;
@@ -143,10 +143,10 @@ public final class Class189 {
 
 	boolean method2809() {
 		if (anInt2140 * 329594177 >= 0) {
-			Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 67));
+			NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 67));
 			boolean bool = class296.method3982(847209787);
 			if (anIntArray2144 == null) {
-				Class589 class589 = ((Class589) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -19));
+				BASTypeDecoder class589 = ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -19));
 				anIntArray2144 = class589.method7092(-1744490433);
 			}
 			int[] is = anIntArray2144;
@@ -161,10 +161,10 @@ public final class Class189 {
 
 	boolean method2810() {
 		if (anInt2140 * 329594177 >= 0) {
-			Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 64));
+			NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 64));
 			boolean bool = class296.method3982(106645834);
 			if (anIntArray2144 == null) {
-				Class589 class589 = ((Class589) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) 71));
+				BASTypeDecoder class589 = ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) 71));
 				anIntArray2144 = class589.method7092(-1744490433);
 			}
 			int[] is = anIntArray2144;
@@ -179,10 +179,10 @@ public final class Class189 {
 
 	boolean method2811() {
 		if (anInt2140 * 329594177 >= 0) {
-			Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 17));
+			NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(329594177 * anInt2140, (byte) 17));
 			boolean bool = class296.method3982(1981636067);
 			if (anIntArray2144 == null) {
-				Class589 class589 = ((Class589) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -4));
+				BASTypeDecoder class589 = ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(((class296.anInt3305) * -1091541297), (byte) -4));
 				anIntArray2144 = class589.method7092(-1744490433);
 			}
 			int[] is = anIntArray2144;

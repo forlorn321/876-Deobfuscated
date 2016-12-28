@@ -145,7 +145,7 @@ public class Class660 implements Interface19 {
 	}
 
 	static void method7971(Class668 class668, int i) {
-		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -11));
+		QuestTypeDecoder class277 = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -11));
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
 	}
 

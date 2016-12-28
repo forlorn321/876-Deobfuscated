@@ -604,7 +604,7 @@ public abstract class Class301 {
 					i_21_ = (int) -client.aFloat11106;
 				i_21_ = 272149150 * client.anInt11096 + i_21_ & 0x3fff;
 				i_21_ <<= 2;
-				Class618.aClass143_8090.method1738(((float) (class251.anInt2573 * -1606950689) / 2.0F + (float) i), ((float) (223822141 * class251.anInt2574) / 2.0F + (float) i_19_), 4185, i_21_, class244.aClass161_2463, i, i_19_);
+				PlayerStat.aClass143_8090.method1738(((float) (class251.anInt2573 * -1606950689) / 2.0F + (float) i), ((float) (223822141 * class251.anInt2574) / 2.0F + (float) i_19_), 4185, i_21_, class244.aClass161_2463, i, i_19_);
 			} else
 				Class677.aClass167_8609.method2088(-16777216, class244.aClass161_2463, i, i_19_);
 		}
@@ -616,6 +616,6 @@ public abstract class Class301 {
 		if (0L == l)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 5;
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class638.method7651(l, string, (byte) 23);
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = CursorTypeDecoder.method7651(l, string, (byte) 23);
 	}
 }

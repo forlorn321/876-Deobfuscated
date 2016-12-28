@@ -6,11 +6,11 @@ package com.jagex;
 public class Class34_Sub6 extends Class34 {
 	public static int anInt10965;
 
-	public Class34_Sub6(GameMode class670, Class664 class664, Class461 class461) {
+	public Class34_Sub6(GameMode class670, Language class664, JS5ResourceProvider class461) {
 		super(class670, class664, class461, JS5ConfigGroup.ENUM_TYPE, 128, new Class58(com.jagex.Class39.class));
 	}
 
-	public static int method10321(CharSequence charsequence, CharSequence charsequence_0_, Class664 class664, int i) {
+	public static int method10321(CharSequence charsequence, CharSequence charsequence_0_, Language class664, int i) {
 		int i_1_ = charsequence.length();
 		int i_2_ = charsequence_0_.length();
 		int i_3_ = 0;
@@ -47,7 +47,7 @@ public class Class34_Sub6 extends Class34 {
 		}
 		int i_8_ = Math.min(i_1_, i_2_);
 		for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-			if (class664 == Class664.aClass664_8516) {
+			if (class664 == Language.aClass664_8516) {
 				i_3_ = i_1_ - 1 - i_9_;
 				i_4_ = i_2_ - 1 - i_9_;
 			} else

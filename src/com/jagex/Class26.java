@@ -122,7 +122,7 @@ public class Class26 {
 	static long method735(Interface59 interface59, int i, int i_2_, byte i_3_) {
 		long l = 4194304L;
 		long l_4_ = -9223372036854775808L;
-		Class612 class612 = ((Class612) client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 33), (byte) -52));
+		ObjTypeDecoder class612 = ((ObjTypeDecoder) client.aClass515_11066.method6280(-1073841494).method70(interface59.method373((byte) 33), (byte) -52));
 		long l_5_ = (long) (i | i_2_ << 7 | interface59.method71(1923200161) << 14 | interface59.method367((byte) -28) << 20 | 0x40000000);
 		if (0 == 1248110961 * class612.anInt7953)
 			l_5_ |= l_4_;
@@ -288,7 +288,7 @@ public class Class26 {
 				boolean bool_35_ = false;
 				if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12191 * 1717228615) != 0 && (player.anInt12191 * 1717228615 != 0) && ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12191 * 1717228615) == (player.anInt12191 * 1717228615)))
 					bool_35_ = true;
-				if (null != player.aClass617_12202 && -1 != -587726343 * (player.aClass617_12202.anInt8079) && ((Class296) (Class172.aClass34_Sub7_1922.method70((player.aClass617_12202.anInt8079) * -587726343, (byte) 47))).aBool3339)
+				if (null != player.aClass617_12202 && -1 != -587726343 * (player.aClass617_12202.anInt8079) && ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70((player.aClass617_12202.anInt8079) * -587726343, (byte) 47))).aBool3339)
 					Class533.method6467(class251, class161, i_25_, i_26_, i_30_, i_31_, Class35.aClass143Array292[1], (byte) 84);
 				else if (Class210.aClass210_2259 == player.aClass210_12200)
 					Class533.method6467(class251, class161, i_25_, i_26_, i_30_, i_31_, Class35.aClass143Array292[8], (byte) 39);

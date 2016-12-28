@@ -41,9 +41,9 @@ public class Class241 implements Interface26 {
 		int i_2_ = i_1_;
 		if (6 != class251.modelType * 1939619399 && class251.modelType * 1939619399 != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) 30));
+		NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) 30));
 		if (class251.aClass304_2583 == null)
-			class251.aClass304_2583 = new Class304(class296, 1939619399 * class251.modelType == 6);
+			class251.aClass304_2583 = new NPCCustomization(class296, 1939619399 * class251.modelType == 6);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(999292582) * 1195640203384682761L;
 		if (null != class296.aByteArray3283) {
 			if (i_1_ < 0 || i_1_ >= class296.aByteArray3283.length)

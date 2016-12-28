@@ -29,7 +29,7 @@ public class Class266 {
 
 	static int method3695(Player class649_sub1_sub5_sub1_sub2, int i) {
 		int i_0_ = 381085537 * class649_sub1_sub5_sub1_sub2.anInt12195;
-		Class589 class589 = class649_sub1_sub5_sub1_sub2.method10877(-1862257776);
+		BASTypeDecoder class589 = class649_sub1_sub5_sub1_sub2.method10877(-1862257776);
 		int i_1_ = class649_sub1_sub5_sub1_sub2.aClass688_Sub3_11914.method8120((byte) 34);
 		if (i_1_ == -1 || class649_sub1_sub5_sub1_sub2.aClass688_Sub3_11914.aBool10975)
 			i_0_ = class649_sub1_sub5_sub1_sub2.anInt12193 * -1674002969;

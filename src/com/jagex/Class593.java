@@ -318,7 +318,7 @@ public class Class593 {
 			Class634.method7548(class668, -872113812);
 			break;
 		case 319:
-			Class618.method7390(class668, (byte) 127);
+			PlayerStat.method7390(class668, (byte) 127);
 			break;
 		case 748:
 			Class30.method779(class668, -1729975475);
@@ -369,7 +369,7 @@ public class Class593 {
 			Class262.method3639(class668, (byte) -61);
 			break;
 		case 61:
-			Class34_Sub16.method10351(class668, -669406356);
+			BASTypeList.method10351(class668, -669406356);
 			break;
 		case 1091:
 			Class510.method6184(class668, 2074994612);
@@ -486,7 +486,7 @@ public class Class593 {
 			Class580.method7017(class668, 574711198);
 			break;
 		case 890:
-			Class606.method7218(class668, (byte) 19);
+			ObjShapes.method7218(class668, (byte) 19);
 			break;
 		case 1073:
 			Class518.method6332(class668, 1496797787);
@@ -624,7 +624,7 @@ public class Class593 {
 			Class496.method6011(class668, -1046429119);
 			break;
 		case 517:
-			Class638.method7649(class668, 2124473450);
+			CursorTypeDecoder.method7649(class668, 2124473450);
 			break;
 		case 838:
 			Class483.method5840(class668, -1374252919);
@@ -948,7 +948,7 @@ public class Class593 {
 			Class321.method4247(class668, -1125621563);
 			break;
 		case 642:
-			Class612.method7313(class668, -1411037171);
+			ObjTypeDecoder.method7313(class668, -1411037171);
 			break;
 		case 410:
 			Class577.method7003(class668, -1673498412);
@@ -1095,7 +1095,7 @@ public class Class593 {
 			Class234.method3340(class668, (byte) 94);
 			break;
 		case 810:
-			Class461.method5613(class668, -1456420388);
+			JS5ResourceProvider.method5613(class668, -1456420388);
 			break;
 		case 1042:
 			Class242.method3398(class668, -1056108788);
@@ -1218,7 +1218,7 @@ public class Class593 {
 			Class441.method5329(class668, -2110992489);
 			break;
 		case 39:
-			ItemTypeDecoder.method523(class668, 1857517913);
+			ItemDecoder.method523(class668, 1857517913);
 			break;
 		case 1103:
 			Class285.method3840(class668, -1610843831);
@@ -1245,7 +1245,7 @@ public class Class593 {
 			Class454.method5458(class668, -1383546429);
 			break;
 		case 708:
-			Class296.method4001(class668, -2101007464);
+			NPCDecoder.method4001(class668, -2101007464);
 			break;
 		case 631:
 			Class514.method6239(class668, 723496535);
@@ -1254,7 +1254,7 @@ public class Class593 {
 			Class306.method4129(class668, -1698457321);
 			break;
 		case 1146:
-			Class296.method4003(class668, -230027219);
+			NPCDecoder.method4003(class668, -230027219);
 			break;
 		case 1213:
 			Class452.method5435(class668, -1596537643);
@@ -1299,13 +1299,13 @@ public class Class593 {
 			Class75.method1141(class668, 1385396101);
 			break;
 		case 695:
-			Class612.method7314(class668, 319675571);
+			ObjTypeDecoder.method7314(class668, 319675571);
 			break;
 		case 402:
 			ShadowSetting.method10011(class668, -426371588);
 			break;
 		case 634:
-			Class296.method4002(class668, 399699509);
+			NPCDecoder.method4002(class668, 399699509);
 			break;
 		case 532:
 			Class588.method7083(class668, -296676306);
@@ -1515,7 +1515,7 @@ public class Class593 {
 			Class657.method7949(class668, (byte) -115);
 			break;
 		case 1071:
-			Class606.method7217(class668, -1411037171);
+			ObjShapes.method7217(class668, -1411037171);
 			break;
 		case 770:
 			Class565.method6878(class668, (byte) 43);
@@ -1617,7 +1617,7 @@ public class Class593 {
 			Class668.method8009(class668, 455796171);
 			break;
 		case 493:
-			Class638.method7650(class668, -961210988);
+			CursorTypeDecoder.method7650(class668, -961210988);
 			break;
 		case 165:
 			Class471.method5720(class668, (byte) 116);
@@ -1674,7 +1674,7 @@ public class Class593 {
 			Class297.method4004(class668, (byte) 77);
 			break;
 		case 1120:
-			Class461.method5614(class668, 1921200445);
+			JS5ResourceProvider.method5614(class668, 1921200445);
 			break;
 		case 874:
 			Class290.method3925(class668, -1869687420);
@@ -2274,7 +2274,7 @@ public class Class593 {
 			Class457.method5487(class668, -948976061);
 			break;
 		case 1260:
-			Class606.method7220(class668, (byte) 1);
+			ObjShapes.method7220(class668, (byte) 1);
 			break;
 		case 81:
 			Class394.method4877(class668, -428807180);
@@ -2292,7 +2292,7 @@ public class Class593 {
 			Class536_Sub18_Sub2.method10490(class668, -1431527920);
 			break;
 		case 1203:
-			Class589.method7096(class668, (byte) -36);
+			BASTypeDecoder.method7096(class668, (byte) -36);
 			break;
 		case 707:
 			Class201.method2920(class668, -1993303974);
@@ -2436,7 +2436,7 @@ public class Class593 {
 			Class523.method6401(class668, 1914095996);
 			break;
 		case 171:
-			Class461.method5612(class668, -889224915);
+			JS5ResourceProvider.method5612(class668, -889224915);
 			break;
 		case 294:
 			Class430.method5166(class668, -691399867);
@@ -2813,7 +2813,7 @@ public class Class593 {
 			Class236.method3348(class668, 1715984765);
 			break;
 		case 1007:
-			Class589.method7097(class668, (short) 256);
+			BASTypeDecoder.method7097(class668, (short) 256);
 			break;
 		case 48:
 			Class652.method7866(class668, (byte) 11);
@@ -2858,7 +2858,7 @@ public class Class593 {
 			method7125(class668, (byte) -27);
 			break;
 		case 133:
-			Class664.method7998(class668, -764990172);
+			Language.method7998(class668, -764990172);
 			break;
 		case 645:
 			Class649_Sub1_Sub2_Sub2.method10948(class668, 884734482);
@@ -2921,7 +2921,7 @@ public class Class593 {
 			Class706_Sub1.method10138(class668, (byte) 2);
 			break;
 		case 1205:
-			Class12.method621(class668, 65280);
+			ItemEffects.method621(class668, 65280);
 			break;
 		case 461:
 			Class301.method4096(class668, 806667054);
@@ -3020,7 +3020,7 @@ public class Class593 {
 			Class591.method7113(class668, -2051823719);
 			break;
 		case 287:
-			Class674.method8028(class668, 1160779422);
+			AccountType.method8028(class668, 1160779422);
 			break;
 		case 1204:
 			Class609.method7263(class668, 2039629376);
@@ -3044,7 +3044,7 @@ public class Class593 {
 			Class509.method6180(class668, 2067931712);
 			break;
 		case 93:
-			Class590.method7101(class668, (byte) 1);
+			ObjTypeTransformation.method7101(class668, (byte) 1);
 			break;
 		case 655:
 			Class512.method6212(class668, -1861066989);
@@ -3053,10 +3053,10 @@ public class Class593 {
 			Class504.method6078(class668, (short) -7461);
 			break;
 		case 145:
-			ItemTypeDecoder.method525(class668, (byte) 30);
+			ItemDecoder.method525(class668, (byte) 30);
 			break;
 		case 340:
-			Class664.method7990(class668, -825581025);
+			Language.method7990(class668, -825581025);
 			break;
 		case 197:
 			Class30.method778(class668, 240211446);
@@ -3110,7 +3110,7 @@ public class Class593 {
 			Class30.method783(class668, (byte) 20);
 			break;
 		case 262:
-			Class618.method7391(class668, (byte) 5);
+			PlayerStat.method7391(class668, (byte) 5);
 			break;
 		case 1063:
 			Class217.method3096(class668, (byte) 8);
@@ -3290,7 +3290,7 @@ public class Class593 {
 			Class451.method5429(class668, 1899393726);
 			break;
 		case 1041:
-			Class589.method7098(class668, 1891248525);
+			BASTypeDecoder.method7098(class668, 1891248525);
 			break;
 		case 600:
 			Class241.method3386(class668, -1794083673);
@@ -3458,7 +3458,7 @@ public class Class593 {
 			Class653.method7880(class668, -1571922977);
 			break;
 		case 1207:
-			Class590.method7100(class668, 373852831);
+			ObjTypeTransformation.method7100(class668, 373852831);
 			break;
 		case 665:
 			Class444.method5396(class668, -1212369417);
@@ -3473,7 +3473,7 @@ public class Class593 {
 			Class412.method5013(class668, (short) -7004);
 			break;
 		case 1232:
-			Class618.method7389(class668, -847675702);
+			PlayerStat.method7389(class668, -847675702);
 			break;
 		case 601:
 			Class520.method6349(class668, 442577768);
@@ -3683,7 +3683,7 @@ public class Class593 {
 			Class292.method3966(class668, -1778220562);
 			break;
 		case 912:
-			Class664.method7996(class668, -2080780590);
+			Language.method7996(class668, -2080780590);
 			break;
 		case 752:
 			Class567.method6919(class668, 535840638);

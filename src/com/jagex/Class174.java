@@ -7,7 +7,7 @@ public class Class174 {
 	Class164[] aClass164Array1926;
 	int anInt1927;
 
-	public Class174(Class461 class461) {
+	public Class174(JS5ResourceProvider class461) {
 		anInt1927 = class461.method5566(0, 646256278) * -37539617;
 		aClass164Array1926 = new Class164[212634399 * anInt1927];
 		for (int i = 0; i < anInt1927 * 212634399; i++) {

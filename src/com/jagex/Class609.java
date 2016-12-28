@@ -37,7 +37,7 @@ public class Class609 implements Interface75 {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
 				class536_sub42.anObjectArray10802 = class251.onLoadHook;
-				Class277.method3753(class536_sub42, 5000000, -83407901);
+				QuestTypeDecoder.method3753(class536_sub42, 5000000, -83407901);
 			}
 		}
 	}
@@ -73,7 +73,7 @@ public class Class609 implements Interface75 {
 	}
 
 	static final void method7267(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, boolean bool, int i) {
-		Class589 class589 = class649_sub1_sub5_sub1.method10877(-454798994);
+		BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(-454798994);
 		if (class649_sub1_sub5_sub1.stepsCount * -711375609 == 0) {
 			class649_sub1_sub5_sub1.anInt11915 = 0;
 			Class489.anInt5465 = Class680.aClass680_8643.aByte8644 * -678980867;

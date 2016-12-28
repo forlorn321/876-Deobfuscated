@@ -6,7 +6,8 @@ package com.jagex;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class Class589 implements Interface7, ConfigType {
+public class BASTypeDecoder implements Interface7, ConfigType {
+	
 	public int anInt7741;
 	public int[] anIntArray7742;
 	public int[] anIntArray7743;
@@ -66,7 +67,7 @@ public class Class589 implements Interface7, ConfigType {
 		return false;
 	}
 
-	Class589(int i) {
+	BASTypeDecoder(int i) {
 		anIntArray7742 = null;
 		anIntArray7743 = null;
 		anInt7744 = 0;
@@ -147,7 +148,7 @@ public class Class589 implements Interface7, ConfigType {
 		return is;
 	}
 
-	void method7088(RSByteBuffer class536_sub33, int i, int i_2_) {
+	void decode(RSByteBuffer class536_sub33, int i, int i_2_) {
 		if (1 == i) {
 			anInt7761 = class536_sub33.readBigSmart() * 1588511957;
 			anInt7747 = class536_sub33.readBigSmart() * 1405538807;
@@ -267,7 +268,7 @@ public class Class589 implements Interface7, ConfigType {
 		}
 	}
 
-	Class589() {
+	BASTypeDecoder() {
 		anIntArray7742 = null;
 		anIntArray7743 = null;
 		anInt7744 = 0;
@@ -420,7 +421,7 @@ public class Class589 implements Interface7, ConfigType {
 			int i = class536_sub33.readUnsignedByte();
 			if (0 == i)
 				break;
-			method7088(class536_sub33, i, -1296551347);
+			decode(class536_sub33, i, -1296551347);
 		}
 	}
 
@@ -579,7 +580,7 @@ public class Class589 implements Interface7, ConfigType {
 			int i_38_ = class536_sub33.readUnsignedByte();
 			if (0 == i_38_)
 				break;
-			method7088(class536_sub33, i_38_, 449462677);
+			decode(class536_sub33, i_38_, 449462677);
 		}
 	}
 

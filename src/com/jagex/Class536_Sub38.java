@@ -326,13 +326,13 @@ public class Class536_Sub38 extends Class536 {
 
 	public int method9823(int i) {
 		int i_24_ = 38;
-		i_24_ += Class612.method7315(aString10648, -1311964413);
-		i_24_ += Class612.method7315(aString10687, -1311964413);
-		i_24_ += Class612.method7315(aString10688, -1311964413);
-		i_24_ += Class612.method7315(aString10689, -1311964413);
-		i_24_ += Class612.method7315(aString10694, -1311964413);
-		i_24_ += Class612.method7315(aString10673, -1311964413);
-		i_24_ += Class612.method7315(aString10698, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10648, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10687, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10688, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10689, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10694, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10673, -1311964413);
+		i_24_ += ObjTypeDecoder.method7315(aString10698, -1311964413);
 		return i_24_;
 	}
 
@@ -368,25 +368,25 @@ public class Class536_Sub38 extends Class536 {
 
 	public int method9825() {
 		int i = 38;
-		i += Class612.method7315(aString10648, -1311964413);
-		i += Class612.method7315(aString10687, -1311964413);
-		i += Class612.method7315(aString10688, -1311964413);
-		i += Class612.method7315(aString10689, -1311964413);
-		i += Class612.method7315(aString10694, -1311964413);
-		i += Class612.method7315(aString10673, -1311964413);
-		i += Class612.method7315(aString10698, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10648, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10687, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10688, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10689, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10694, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10673, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10698, -1311964413);
 		return i;
 	}
 
 	public int method9826() {
 		int i = 38;
-		i += Class612.method7315(aString10648, -1311964413);
-		i += Class612.method7315(aString10687, -1311964413);
-		i += Class612.method7315(aString10688, -1311964413);
-		i += Class612.method7315(aString10689, -1311964413);
-		i += Class612.method7315(aString10694, -1311964413);
-		i += Class612.method7315(aString10673, -1311964413);
-		i += Class612.method7315(aString10698, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10648, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10687, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10688, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10689, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10694, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10673, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10698, -1311964413);
 		return i;
 	}
 
@@ -422,25 +422,25 @@ public class Class536_Sub38 extends Class536 {
 
 	public int method9828() {
 		int i = 38;
-		i += Class612.method7315(aString10648, -1311964413);
-		i += Class612.method7315(aString10687, -1311964413);
-		i += Class612.method7315(aString10688, -1311964413);
-		i += Class612.method7315(aString10689, -1311964413);
-		i += Class612.method7315(aString10694, -1311964413);
-		i += Class612.method7315(aString10673, -1311964413);
-		i += Class612.method7315(aString10698, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10648, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10687, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10688, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10689, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10694, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10673, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10698, -1311964413);
 		return i;
 	}
 
 	public int method9829() {
 		int i = 38;
-		i += Class612.method7315(aString10648, -1311964413);
-		i += Class612.method7315(aString10687, -1311964413);
-		i += Class612.method7315(aString10688, -1311964413);
-		i += Class612.method7315(aString10689, -1311964413);
-		i += Class612.method7315(aString10694, -1311964413);
-		i += Class612.method7315(aString10673, -1311964413);
-		i += Class612.method7315(aString10698, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10648, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10687, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10688, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10689, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10694, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10673, -1311964413);
+		i += ObjTypeDecoder.method7315(aString10698, -1311964413);
 		return i;
 	}
 

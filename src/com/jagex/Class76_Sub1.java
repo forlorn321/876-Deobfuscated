@@ -22,7 +22,7 @@ public class Class76_Sub1 extends Class76 {
 		return new Class56(i, this);
 	}
 
-	Class76_Sub1(Class461 class461, int i) {
+	Class76_Sub1(JS5ResourceProvider class461, int i) {
 		super(class461, i);
 	}
 

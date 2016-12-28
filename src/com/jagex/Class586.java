@@ -11,7 +11,7 @@ import com.jagex.twitchtv.TwitchEventResult;
 
 public class Class586 {
 	static LinkedList aLinkedList7708 = new LinkedList();
-	public static Class461 aClass461_7709;
+	public static JS5ResourceProvider aClass461_7709;
 	static Class106 aClass106_7710;
 
 	Class586() throws Throwable {

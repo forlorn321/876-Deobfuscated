@@ -106,7 +106,7 @@ public class Class710_Sub22 extends ClientSetting {
 	}
 
 	static void method10121(Class668 class668, int i) {
-		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -12));
+		QuestTypeDecoder class277 = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -12));
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3043 ? 0 : class277.anIntArray3043.length);
 	}
 

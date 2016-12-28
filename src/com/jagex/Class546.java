@@ -95,7 +95,7 @@ public class Class546 implements ConfigType {
 	}
 
 	void method6615(Class167 class167, int i, int i_3_) {
-		Class461 class461 = aClass554_7290.aClass461_7484;
+		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
 			aClass554_7290.aClass199_7483.method2881(class167.method2082(class179, true), (long) i);
@@ -136,7 +136,7 @@ public class Class546 implements ConfigType {
 	}
 
 	void method6617(Class167 class167, int i) {
-		Class461 class461 = aClass554_7290.aClass461_7484;
+		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
 			aClass554_7290.aClass199_7483.method2881(class167.method2082(class179, true), (long) i);
@@ -173,7 +173,7 @@ public class Class546 implements ConfigType {
 	}
 
 	void method6620(Class167 class167, int i) {
-		Class461 class461 = aClass554_7290.aClass461_7484;
+		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
 			aClass554_7290.aClass199_7483.method2881(class167.method2082(class179, true), (long) i);
@@ -201,7 +201,7 @@ public class Class546 implements ConfigType {
 	}
 
 	static void method6623(Class668 class668, int i) {
-		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -50)).anIntArray3036[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anIntArray8541[class668.anInt8542 * 1867269829 - 2] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 2)]), (byte) -50)).anIntArray3036[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
 		class668.anInt8542 -= -1411037171;
 	}
 

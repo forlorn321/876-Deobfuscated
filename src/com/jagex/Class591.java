@@ -10,7 +10,7 @@ public class Class591 implements Interface71 {
 	boolean aBool7792;
 	Class605 aClass605_7793 = Class605.aClass605_7870;
 	int anInt7794;
-	Class461 aClass461_7795;
+	JS5ResourceProvider aClass461_7795;
 	Interface69 anInterface69_7796;
 	Class360 aClass360_7797;
 	Class199 aClass199_7798;
@@ -462,7 +462,7 @@ public class Class591 implements Interface71 {
 		return false;
 	}
 
-	public Class591(Class461 class461, int i, Class360 class360, Interface69 interface69, Class199 class199) {
+	public Class591(JS5ResourceProvider class461, int i, Class360 class360, Interface69 interface69, Class199 class199) {
 		aClass461_7795 = class461;
 		anInt7794 = i * -2118778735;
 		aClass360_7797 = class360;

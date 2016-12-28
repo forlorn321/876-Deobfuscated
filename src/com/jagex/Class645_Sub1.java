@@ -5,27 +5,27 @@ package com.jagex;
 
 public class Class645_Sub1 extends Class645 implements Interface6 {
 	public Class method52() {
-		return com.jagex.Class638.class;
+		return com.jagex.CursorTypeDecoder.class;
 	}
 
 	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
-		return new Class638(i, this);
+		return new CursorTypeDecoder(i, this);
 	}
 
 	public ConfigType method54(int i, Interface12 interface12) {
-		return new Class638(i, this);
+		return new CursorTypeDecoder(i, this);
 	}
 
-	Class645_Sub1(Class461 class461) {
+	Class645_Sub1(JS5ResourceProvider class461) {
 		super(class461);
 	}
 
 	public ConfigType method53(int i, Interface12 interface12) {
-		return new Class638(i, this);
+		return new CursorTypeDecoder(i, this);
 	}
 
 	public Class method51(int i) {
-		return com.jagex.Class638.class;
+		return com.jagex.CursorTypeDecoder.class;
 	}
 
 	static final void method10042(Class668 class668, int i) {

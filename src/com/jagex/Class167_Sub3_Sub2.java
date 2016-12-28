@@ -80,7 +80,7 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 		return aBool11567 && aBool11568;
 	}
 
-	static Class167 method10605(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, Integer integer) {
+	static Class167 method10605(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, Integer integer) {
 		Class167_Sub3_Sub2 class167_sub3_sub2 = null;
 		Class167_Sub3_Sub2 class167_sub3_sub2_1_;
 		try {
@@ -1192,7 +1192,7 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 		return is;
 	}
 
-	Class167_Sub3_Sub2(int i, int i_89_, long l, long l_90_, D3DDISPLAYMODE d3ddisplaymode, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, int i_91_) {
+	Class167_Sub3_Sub2(int i, int i_89_, long l, long l_90_, D3DDISPLAYMODE d3ddisplaymode, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_91_) {
 		super(class174, interface24, interface47, interface48, interface46, class461, i_91_, 0);
 		aClass708_11544 = new Class708();
 		aBool11545 = false;

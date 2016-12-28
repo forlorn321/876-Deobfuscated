@@ -268,7 +268,7 @@ public class Class310 {
 			Class622.aClass461_8129 = Class30.method785(JS5Archive.WORLD_MAP_AREA, true, 1, false, true, (byte) -48);
 			Class576.aClass461_7687 = Class30.method785(JS5Archive.QUICK_CHAT, false, 1, true, true, (byte) -105);
 			Class711.aClass461_8849 = Class30.method785(JS5Archive.QUICK_CHAT_GLOBAL, false, 1, true, true, (byte) -15);
-			Class590.aClass461_7789 = Class30.method785(JS5Archive.MATERIALS, true, 1, true, true, (byte) -22);
+			ObjTypeTransformation.aClass461_7789 = Class30.method785(JS5Archive.MATERIALS, true, 1, true, true, (byte) -22);
 			Class550_Sub1.aClass461_10617 = Class30.method785(JS5Archive.PARTICLES, false, 1, true, true, (byte) 1);
 			Class271.aClass461_2886 = Class30.method785(JS5Archive.BILLBOARDS, false, 1, true, true, (byte) -26);
 			Class98_Sub1_Sub1.aClass461_11326 = Class30.method785(JS5Archive.CUTSCENES, true, 1, false, true, (byte) -43);
@@ -329,10 +329,10 @@ public class Class310 {
 		if (Class483.aClass303_5431 == Class303.aClass303_3417) {
 			if (183673691 * Class644.aClass628_8352.anInt8197 != -1 && !Class602.aClass461_7857.method5558((183673691 * (Class644.aClass628_8352.anInt8197)), 0, -2011432431))
 				return 99;
-			CPUUsageSetting.aClass174_10892 = new Class174(Class590.aClass461_7789);
+			CPUUsageSetting.aClass174_10892 = new Class174(ObjTypeTransformation.aClass461_7789);
 			Class175.anInterface24_1935 = new Class173_Sub1(Class279.aClass461_3162, Class65.aClass461_719);
 			Class207.aClass34_Sub22_2244 = new Class34_Sub22(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
-			Class497.aClass34_Sub16_5554 = new Class34_Sub16(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
+			Class497.aClass34_Sub16_5554 = new BASTypeList(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class580.aClass34_Sub19_7695 = new Class34_Sub19(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, Class398.aClass461_4122);
 			Class228.aClass34_2360 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, JS5ConfigGroup.DB_ROW_TYPE, 64, new Class58(com.jagex.Class14.class));
 			Class205_Sub17.aClass34_9949 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, JS5ConfigGroup.DB_TABLE_TYPE, 16, new Class58(com.jagex.Class92.class));
@@ -351,7 +351,7 @@ public class Class310 {
 			Class602.aClass34_Sub1_7856 = new Class34_Sub1(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, Class398.aClass461_4122);
 			Class172.aClass34_Sub7_1922 = new Class34_Sub7(client.aClass670_11043, Class459.aClass664_5178, true, Class214.aClass461_2302, Class602.aClass461_7857);
 			Class111.aClass34_Sub13_1391 = new Class34_Sub13(client.aClass670_11043, Class459.aClass664_5178, true, Class207.aClass34_Sub22_2244, Class154.aClass461_1720, Class602.aClass461_7857);
-			Class38.aClass53_Sub2_481 = new Class53_Sub2(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, true);
+			Class38.aClass53_Sub2_481 = new QuestTypeList(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, true);
 			Class210.aClass34_Sub18_2261 = new Class34_Sub18(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class45.aClass34_Sub11_529 = new Class34_Sub11(client.aClass670_11043, Class459.aClass664_5178, Class20.aClass461_215, Class529_Sub1.aClass461_10283, Class586.aClass461_7709, Class210.aClass34_Sub18_2261);
 			Class459.aClass34_Sub9_5179 = new Class34_Sub9(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
@@ -393,7 +393,7 @@ public class Class310 {
 		if (Class303.aClass303_3419 == Class483.aClass303_5431)
 			Class542.method6556(Class613.aClass461_8013, Class622.aClass461_8129, Class654.aClass34_Sub4_8494, Class279.aClass34_Sub3_3163, client.aClass515_11066.method6280(-1073841494), Class398_Sub1.aClass34_Sub8_10110, Class602.aClass34_Sub1_7856, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352);
 		if (Class303.aClass303_3420 == Class483.aClass303_5431) {
-			Class590.aClass147_Sub1_7791 = new Class147_Sub1(Class309.aClass98_Sub1_Sub2_3465);
+			ObjTypeTransformation.aClass147_Sub1_7791 = new Class147_Sub1(Class309.aClass98_Sub1_Sub2_3465);
 			Class144.method1790(-842664029);
 			Class218.aClass66_2307 = Class456.method5483(-1538387421);
 			Class116.aClass461_1432.method5569(false, true, (byte) -30);
@@ -468,7 +468,7 @@ public class Class310 {
 
 	static void method4170() {
 		Class6 class6 = Class153_Sub1.method8383("2", client.aClass670_11043.aString8573, false, 1951924385);
-		Class590.aClass147_Sub1_7791.method8407(class6, (byte) 49);
+		ObjTypeTransformation.aClass147_Sub1_7791.method8407(class6, (byte) 49);
 	}
 
 	public static void method4171() {

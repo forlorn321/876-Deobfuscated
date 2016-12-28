@@ -133,7 +133,7 @@ public class Class59 {
 		int i_13_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_14_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
 		boolean bool = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 2] == 1);
-		Class618 class618 = Class63.aClass226_717.method3227(i_13_, -781094290).method3125(i_14_, -1848040133);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (bool ? class618.method7374((byte) -65) : class618.method7371(-64913047));
+		PlayerStat class618 = Class63.aClass226_717.method3227(i_13_, -781094290).method3125(i_14_, -1848040133);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (bool ? class618.getBaseLevel() : class618.getExperience());
 	}
 }

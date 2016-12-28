@@ -13,7 +13,7 @@ import java.util.Vector;
 
 public class Class530 implements Interface60 {
 	String aString7110;
-	Class461 aClass461_7111;
+	JS5ResourceProvider aClass461_7111;
 	Hashtable aHashtable7112 = new Hashtable();
 	Hashtable aHashtable7113 = new Hashtable();
 
@@ -37,7 +37,7 @@ public class Class530 implements Interface60 {
 		Object object = null;
 		File file;
 		try {
-			file = Class674.method8031(string_0_, 114563965);
+			file = AccountType.method8031(string_0_, 114563965);
 		} catch (RuntimeException runtimeexception) {
 			throw new Exception_Sub1(4, string, runtimeexception);
 		}
@@ -79,7 +79,7 @@ public class Class530 implements Interface60 {
 		method6439(string, com.jagex.Class532.class, 1117759125);
 	}
 
-	public Class530(Class461 class461) {
+	public Class530(JS5ResourceProvider class461) {
 		aClass461_7111 = class461;
 		String string = "";
 		if (Class497.aString5550.startsWith("win") || Class497.aString5550.startsWith("windows 7"))

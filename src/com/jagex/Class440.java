@@ -40,7 +40,7 @@ public class Class440 {
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) 82);
 			Class59.aClass59_617.method985(new Class432("hw3d"), (byte) -12);
 			Class59.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) 42);
-			Class59.aClass59_619.method985(new Class442(Class590.aClass461_7789), (byte) -40);
+			Class59.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) -40);
 			Class59.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -34);
 			Class59.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 1);
 			Class59.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -72);
@@ -132,7 +132,7 @@ public class Class440 {
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) -55);
 			Class59.aClass59_617.method985(new Class432("hw3d"), (byte) 73);
 			Class59.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) -53);
-			Class59.aClass59_619.method985(new Class442(Class590.aClass461_7789), (byte) -24);
+			Class59.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) -24);
 			Class59.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -42);
 			Class59.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 87);
 			Class59.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -32);
@@ -220,7 +220,7 @@ public class Class440 {
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) 26);
 			Class59.aClass59_617.method985(new Class432("hw3d"), (byte) -20);
 			Class59.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) 2);
-			Class59.aClass59_619.method985(new Class442(Class590.aClass461_7789), (byte) 48);
+			Class59.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) 48);
 			Class59.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -36);
 			Class59.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 28);
 			Class59.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -13);

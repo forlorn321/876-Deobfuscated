@@ -277,7 +277,7 @@ class Class620 implements Iterator {
 										int i_33_ = class251.colour * -336626187;
 										String string = class251.text;
 										if (-1484799213 * class251.anInt2711 != -1) {
-											ItemTypeDecoder class1 = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((class251.anInt2711 * -1484799213), (byte) 21)));
+											ItemDecoder class1 = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70((class251.anInt2711 * -1484799213), (byte) 21)));
 											string = class1.name;
 											if (null == string)
 												string = "null";
@@ -376,7 +376,7 @@ class Class620 implements Iterator {
 									i_43_ |= 0x80000;
 								int i_44_ = 0;
 								if (-1 != class251.anInt2711 * -1484799213) {
-									ItemTypeDecoder class1 = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70(-1484799213 * class251.anInt2711, (byte) -45)));
+									ItemDecoder class1 = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70(-1484799213 * class251.anInt2711, (byte) -45)));
 									if (class1 != null) {
 										class1 = (class1.method504((-1880327077 * class251.anInt2712), -174651263));
 										class177 = (class1.method503(Class677.aClass167_8609, i_43_, 1, (class251.aBool2671 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null), class251.aClass688_2653, 0, 0, 0, 0, (byte) 26));

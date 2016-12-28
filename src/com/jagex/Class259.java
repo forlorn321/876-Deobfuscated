@@ -121,7 +121,7 @@ public class Class259 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub30.anInt10564 * 737759727;
 	}
 
-	public static Class2 method3608(Class461 class461, int i, int i_9_, byte i_10_) {
+	public static Class2 method3608(JS5ResourceProvider class461, int i, int i_9_, byte i_10_) {
 		return Class651.method7862(class461, i, i_9_, null, 858069722);
 	}
 

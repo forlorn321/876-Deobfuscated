@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class65 {
-	public static Class461 aClass461_719;
+	public static JS5ResourceProvider aClass461_719;
 
 	Class65() throws Throwable {
 		throw new Error();

@@ -29,7 +29,7 @@ public class Class34_Sub17 extends Class34 {
 		((Class608) anInterface6_289).method7238(i, 1463387204);
 	}
 
-	public Class34_Sub17(GameMode class670, Class664 class664, boolean bool, Class461 class461, Class461 class461_2_) {
+	public Class34_Sub17(GameMode class670, Language class664, boolean bool, JS5ResourceProvider class461, JS5ResourceProvider class461_2_) {
 		super(class670, class664, class461, JS5ConfigGroup.LOC_TYPE, 256, new Class608_Sub1(bool, class461_2_, class664, class670));
 	}
 

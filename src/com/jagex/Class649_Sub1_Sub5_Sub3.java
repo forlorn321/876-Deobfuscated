@@ -17,7 +17,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12006, 669788563);
 		aClass522_12007.method6379(class167, class177, class433, aShort11867, aShort11864, aShort11865, aShort11870, true, (byte) -61);
-		Class612 class612 = aClass522_12007.method6365(1206123356);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(1206123356);
 		if (class612.aClass437_8010 != null) {
 			class177.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class612.aClass437_8010);
@@ -57,7 +57,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 	}
 
 	boolean method9939(Class167 class167, int i, int i_0_, byte i_1_) {
-		Class612 class612 = aClass522_12007.method6365(1784273410);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(1784273410);
 		if (null != class612.aClass437_8010)
 			return class167.method2073(i, i_0_, method7851(), class612.aClass437_8010, -1766869920);
 		Class177 class177 = aClass522_12007.method6364(class167, 131072, false, false, -1419095618);
@@ -72,7 +72,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 			aClass522_12007.method6379(class167, class177, method7851(), aShort11867, aShort11864, aShort11865, aShort11870, false, (byte) -64);
 	}
 
-	public void method10949(Class590 class590, byte i) {
+	public void method10949(ObjTypeTransformation class590, byte i) {
 		aClass522_12007.method6363(class590, (byte) -71);
 	}
 
@@ -105,7 +105,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 	}
 
 	boolean method9969(Class167 class167, int i, int i_7_) {
-		Class612 class612 = aClass522_12007.method6365(-1250279271);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(-1250279271);
 		if (null != class612.aClass437_8010)
 			return class167.method2073(i, i_7_, method7851(), class612.aClass437_8010, -1788876289);
 		Class177 class177 = aClass522_12007.method6364(class167, 131072, false, false, -1997925075);
@@ -161,7 +161,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12006, 1961727515);
 		aClass522_12007.method6379(class167, class177, class433, aShort11867, aShort11864, aShort11865, aShort11870, true, (byte) -92);
-		Class612 class612 = aClass522_12007.method6365(-821317969);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(-821317969);
 		if (class612.aClass437_8010 != null) {
 			class177.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class612.aClass437_8010);
@@ -192,7 +192,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 		/* empty */
 	}
 
-	public Class649_Sub1_Sub5_Sub3(Class553 class553, Class167 class167, Class34_Sub17 class34_sub17, Class612 class612, int i, int i_8_, int i_9_, int i_10_, int i_11_, boolean bool, int i_12_, int i_13_, int i_14_, int i_15_, int i_16_, int i_17_, int i_18_, int i_19_, boolean bool_20_) {
+	public Class649_Sub1_Sub5_Sub3(Class553 class553, Class167 class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_8_, int i_9_, int i_10_, int i_11_, boolean bool, int i_12_, int i_13_, int i_14_, int i_15_, int i_16_, int i_17_, int i_18_, int i_19_, boolean bool_20_) {
 		super(class553, i, i_8_, i_9_, i_10_, i_11_, i_12_, i_13_, i_14_, i_15_, 1 == -1529252395 * class612.anInt7996, Class232.method3326(i_16_, i_17_, (byte) -58));
 		aClass522_12007 = new Class522(class167, class34_sub17, class612, i_16_, i_17_, i_8_, this, bool, i_18_, i_19_);
 		aBool12006 = 1248110961 * class612.anInt7953 != 0 && !bool;
@@ -237,7 +237,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 	}
 
 	boolean method9957(Class167 class167, int i, int i_21_) {
-		Class612 class612 = aClass522_12007.method6365(-581915445);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(-581915445);
 		if (null != class612.aClass437_8010)
 			return class167.method2073(i, i_21_, method7851(), class612.aClass437_8010, -2013082106);
 		Class177 class177 = aClass522_12007.method6364(class167, 131072, false, false, -1487706255);
@@ -273,7 +273,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12006, -2123185721);
 		aClass522_12007.method6379(class167, class177, class433, aShort11867, aShort11864, aShort11865, aShort11870, true, (byte) -56);
-		Class612 class612 = aClass522_12007.method6365(1735517012);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(1735517012);
 		if (class612.aClass437_8010 != null) {
 			class177.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class612.aClass437_8010);
@@ -299,7 +299,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 		Class433 class433 = method7851();
 		Class563 class563 = Class225.method3212(aBool12006, 114071362);
 		aClass522_12007.method6379(class167, class177, class433, aShort11867, aShort11864, aShort11865, aShort11870, true, (byte) -74);
-		Class612 class612 = aClass522_12007.method6365(1242602922);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(1242602922);
 		if (class612.aClass437_8010 != null) {
 			class177.method2490(class433, null, 0);
 			class167.method2102(class433, aClass178Array10842[0], class612.aClass437_8010);
@@ -347,7 +347,7 @@ public class Class649_Sub1_Sub5_Sub3 extends Class649_Sub1_Sub5 implements Inter
 	}
 
 	boolean method9971(Class167 class167, int i, int i_22_) {
-		Class612 class612 = aClass522_12007.method6365(1482445108);
+		ObjTypeDecoder class612 = aClass522_12007.method6365(1482445108);
 		if (null != class612.aClass437_8010)
 			return class167.method2073(i, i_22_, method7851(), class612.aClass437_8010, -1955936697);
 		Class177 class177 = aClass522_12007.method6364(class167, 131072, false, false, -1335978815);

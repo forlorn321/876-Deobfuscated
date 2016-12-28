@@ -60,7 +60,7 @@ public class Class545 {
 
 	static final void method6609(Class668 class668, int i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class589 class589 = ((Class589) Class497.aClass34_Sub16_5554.method70(i_6_, (byte) -84));
+		BASTypeDecoder class589 = ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(i_6_, (byte) -84));
 		if (class589.anIntArray7742 != null && class589.anIntArray7742.length > 0) {
 			int i_7_ = 0;
 			int i_8_ = class589.anIntArray7743[0];
@@ -113,7 +113,7 @@ public class Class545 {
 		}
 	}
 
-	public static Interface71 method6611(Class461 class461, int i, Interface69 interface69, boolean bool, Class199 class199, int i_15_) {
+	public static Interface71 method6611(JS5ResourceProvider class461, int i, Interface69 interface69, boolean bool, Class199 class199, int i_15_) {
 		if (null != Class653.aClass360_8489) {
 			if (bool)
 				return new Class600(class461, i, Class653.aClass360_8489, interface69);

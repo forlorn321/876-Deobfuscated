@@ -202,7 +202,7 @@ public class Class333_Sub1 extends Class333 {
 	static int method9165(Interface18 interface18, Interface12 interface12, byte i) {
 		int i_14_ = 0;
 		for (int i_15_ = 0; i_15_ < interface12.method71(1923011516); i_15_++) {
-			Class277 class277 = (Class277) interface12.method70(i_15_, (byte) 66);
+			QuestTypeDecoder class277 = (QuestTypeDecoder) interface12.method70(i_15_, (byte) 66);
 			if (class277.method3750(interface18, (byte) 79))
 				i_14_ += -805412769 * class277.anInt3038;
 		}

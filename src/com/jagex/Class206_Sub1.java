@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class206_Sub1 extends Class206 {
-	public static Class461 aClass461_10024;
+	public static JS5ResourceProvider aClass461_10024;
 	public static int anInt10025;
 
 	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
@@ -27,7 +27,7 @@ public class Class206_Sub1 extends Class206 {
 		return com.jagex.Class191.class;
 	}
 
-	Class206_Sub1(Interface12 interface12, Class461 class461, Class461 class461_1_) {
+	Class206_Sub1(Interface12 interface12, JS5ResourceProvider class461, JS5ResourceProvider class461_1_) {
 		super(interface12, class461, class461_1_);
 	}
 

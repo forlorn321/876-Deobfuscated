@@ -27,7 +27,7 @@ public class Class550_Sub1 extends Class550 implements MouseListener, MouseMotio
 	static final int anInt10614 = 2;
 	Component aComponent10615;
 	boolean aBool10616;
-	public static Class461 aClass461_10617;
+	public static JS5ResourceProvider aClass461_10617;
 	static String[] aStringArray10618;
 
 	Class550_Sub1(Component component, boolean bool) {

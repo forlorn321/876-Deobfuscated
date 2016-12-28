@@ -36,7 +36,7 @@ public class Class384 implements Interface49 {
 
 	static final void method4834(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -87)).anInt35) * -257082309;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -87)).anInt35) * -257082309;
 	}
 
 	static final void method4835(Class668 class668, byte i) {

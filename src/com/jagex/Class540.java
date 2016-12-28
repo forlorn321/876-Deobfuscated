@@ -9,7 +9,7 @@ public class Class540 {
 	int anInt7158;
 	int anInt7159;
 	Class541[] aClass541Array7160;
-	public static Class461 aClass461_7161;
+	public static JS5ResourceProvider aClass461_7161;
 
 	void method6514(int i) {
 		int i_0_ = 1 << 1946639593 * anInt7157 + anInt7158 * -432722435;
@@ -74,7 +74,7 @@ public class Class540 {
 		class668.anInt8542 -= 1472892954;
 		int i_14_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_15_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
-		ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_14_, (byte) -19));
+		ItemDecoder class1 = ((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_14_, (byte) -19));
 		if (i_15_ >= 1 && i_15_ <= 5 && null != class1.inventoryOptions[i_15_ - 1])
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class1.inventoryOptions[i_15_ - 1];
 		else

@@ -7,30 +7,30 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	public Class610 aClass610_1164;
 	Class98_Sub1_Sub1 aClass98_Sub1_Sub1_1165;
 	Class34_Sub14 aClass34_Sub14_1166;
-	Class618[] aClass618Array1167;
+	PlayerStat[] aClass618Array1167;
 
 	public int method1298(int i, int i_0_) {
-		return aClass618Array1167[i].method7373((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), 1207751249);
+		return aClass618Array1167[i].getVisibleXp((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method487(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -10);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method1299(int i, int i_1_) {
-		return aClass618Array1167[i].method7383(-1097562536);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public int method481(int i, byte i_2_) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -101);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method1300(int i, int i_3_) {
-		return aClass618Array1167[i].method7371(-1639942964);
+		return aClass618Array1167[i].getExperience();
 	}
 
 	public int method1301(int i, int i_4_) {
-		return aClass618Array1167[i].method7374((byte) -64);
+		return aClass618Array1167[i].getBaseLevel();
 	}
 
 	public int method98(Class153 class153) {
@@ -55,7 +55,7 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method1302(int i) {
-		return aClass618Array1167[i].method7373((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), -2083964189);
+		return aClass618Array1167[i].getVisibleXp((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public Class153 method125(Class458 class458, int i) {
@@ -65,15 +65,15 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method1303(int i) {
-		return aClass618Array1167[i].method7373((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), 860884373);
+		return aClass618Array1167[i].getVisibleXp((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method1304(int i) {
-		return aClass618Array1167[i].method7383(1694975224);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public int method1305(int i) {
-		return aClass618Array1167[i].method7383(574539374);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public Class153 method124(Class458 class458, int i, int i_6_) {
@@ -83,34 +83,34 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method1306(int i) {
-		return aClass618Array1167[i].method7383(-1139926031);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public int method1307(int i) {
-		return aClass618Array1167[i].method7383(2101071154);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public int method484(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -113);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public Class96(Class98_Sub1_Sub1 class98_sub1_sub1, Class34_Sub14 class34_sub14, int i) {
-		aClass618Array1167 = new Class618[i];
+		aClass618Array1167 = new PlayerStat[i];
 		aClass610_1164 = new Class610();
 		aClass98_Sub1_Sub1_1165 = class98_sub1_sub1;
 		aClass34_Sub14_1166 = class34_sub14;
 	}
 
 	public int method483(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -54);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method485(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -103);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method486(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -83);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method99(Class153 class153, int i) {
@@ -118,11 +118,11 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method482(int i) {
-		return aClass618Array1167[i].method7375((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), (byte) -75);
+		return aClass618Array1167[i].getVisibleBaseLevel((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	public int method1308(int i) {
-		return aClass618Array1167[i].method7374((byte) -15);
+		return aClass618Array1167[i].getBaseLevel();
 	}
 
 	public Class324 method122(int i) {
@@ -141,11 +141,11 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method1309(int i) {
-		return aClass618Array1167[i].method7383(1100436444);
+		return aClass618Array1167[i].getLevel();
 	}
 
 	public int method1310(int i) {
-		return aClass618Array1167[i].method7371(-1418978375);
+		return aClass618Array1167[i].getExperience();
 	}
 
 	public Class153 method126(Class458 class458, int i) {
@@ -161,7 +161,7 @@ public class Class96 implements Interface18, Interface20, Interface72 {
 	}
 
 	public int method1311(int i) {
-		return aClass618Array1167[i].method7373((client.aBool11123 ? Class674.aClass674_8583 : Class674.aClass674_8582), 1128199791);
+		return aClass618Array1167[i].getVisibleXp((client.aBool11123 ? AccountType.MEMBERS : AccountType.FREE));
 	}
 
 	static final void method1312(Class668 class668, int i) {

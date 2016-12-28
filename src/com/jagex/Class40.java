@@ -46,7 +46,7 @@ public class Class40 {
 	}
 
 	static void method871(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -47)).aStringArray3042[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[(class668.anInt8542 * 1867269829) - 2]), (byte) -47)).aStringArray3042[class668.anIntArray8541[1867269829 * class668.anInt8542 - 1]]);
 		class668.anInt8542 -= 1472892954;
 	}
 
@@ -151,7 +151,7 @@ public class Class40 {
 	}
 
 	static void method874(Class668 class668, int i) {
-		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 3));
+		QuestTypeDecoder class277 = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 3));
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class277.anIntArray3044 == null ? 0 : class277.anIntArray3044.length);
 	}
 }

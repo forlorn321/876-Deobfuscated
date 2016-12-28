@@ -26,9 +26,9 @@ public class Class656 {
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (1939619399 * class251.modelType != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 23));
+		NPCDecoder class296 = ((NPCDecoder) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 23));
 		if (null == class251.aClass304_2583)
-			class251.aClass304_2583 = new Class304(class296, false);
+			class251.aClass304_2583 = new NPCCustomization(class296, false);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(-852559198) * 1195640203384682761L;
 		if (i_1_ < 0 || i_1_ >= class296.anIntArray3274.length)
 			throw new RuntimeException("");
@@ -152,7 +152,7 @@ public class Class656 {
 		client.aBool11015 = false;
 		client.aBool11223 = false;
 		client.aBool11026 = true;
-		Class590.aClass697Array7790 = null;
+		ObjTypeTransformation.aClass697Array7790 = null;
 		Class677.aClass167_8609.method2039(0.0F, 1.0F);
 	}
 

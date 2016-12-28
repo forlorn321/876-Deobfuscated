@@ -2596,7 +2596,7 @@ public class Class499 implements Interface9 {
 		return i_4_;
 	}
 
-	public static void method6025(int i, int i_6_, int i_7_, Class612 class612, int i_8_) {
+	public static void method6025(int i, int i_6_, int i_7_, ObjTypeDecoder class612, int i_8_) {
 		for (Class536_Sub3 class536_sub3 = ((Class536_Sub3) Class536_Sub3.aClass708_10363.method8308(1867269829)); null != class536_sub3; class536_sub3 = (Class536_Sub3) Class536_Sub3.aClass708_10363.method8311(1112366181)) {
 			if (i == class536_sub3.anInt10364 * -121615235 && -995712829 * class536_sub3.anInt10367 == i_6_ << 9 && i_7_ << 9 == -348333025 * class536_sub3.anInt10369 && (class536_sub3.aClass612_10374.anInt8008 * 1083959103 == 1083959103 * class612.anInt8008)) {
 				if (null != class536_sub3.aClass479_10389) {

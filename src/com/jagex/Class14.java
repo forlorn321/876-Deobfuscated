@@ -6,7 +6,7 @@ package com.jagex;
 public class Class14 implements ConfigType, Interface7 {
 	Class453[][] aClass453ArrayArray162;
 	Object[][] anObjectArrayArray163;
-	public static Class461 aClass461_164;
+	public static JS5ResourceProvider aClass461_164;
 
 	public void method56(int i) {
 		/* empty */

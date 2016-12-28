@@ -11,7 +11,7 @@ public class Class497 {
 	public static String aString5551;
 	static String aString5552;
 	static int anInt5553;
-	public static Class34_Sub16 aClass34_Sub16_5554;
+	public static BASTypeList aClass34_Sub16_5554;
 
 	Class497() throws Throwable {
 		throw new Error();

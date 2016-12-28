@@ -4,28 +4,28 @@
 package com.jagex;
 
 public class Class309_Sub1 extends Class309 {
-	Class309_Sub1(boolean bool, Class461 class461, Class664 class664, GameMode class670) {
+	Class309_Sub1(boolean bool, JS5ResourceProvider class461, Language class664, GameMode class670) {
 		super(bool, class461, class664, class670);
 	}
 
 	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
-		return new Class296(i, this, interface12);
+		return new NPCDecoder(i, this, interface12);
 	}
 
 	public Class method51(int i) {
-		return com.jagex.Class296.class;
+		return com.jagex.NPCDecoder.class;
 	}
 
 	public ConfigType method53(int i, Interface12 interface12) {
-		return new Class296(i, this, interface12);
+		return new NPCDecoder(i, this, interface12);
 	}
 
 	public ConfigType method54(int i, Interface12 interface12) {
-		return new Class296(i, this, interface12);
+		return new NPCDecoder(i, this, interface12);
 	}
 
 	public Class method52() {
-		return com.jagex.Class296.class;
+		return com.jagex.NPCDecoder.class;
 	}
 
 	static final void method9188(Class668 class668, byte i) {

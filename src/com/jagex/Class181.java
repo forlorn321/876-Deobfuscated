@@ -8,7 +8,7 @@ public class Class181 {
 	static final int anInt1996 = 0;
 	static final int anInt1997 = 0;
 
-	public static Class179 method2717(Class461 class461, int i) {
+	public static Class179 method2717(JS5ResourceProvider class461, int i) {
 		byte[] is = class461.method5595(i, -1841100409);
 		if (is == null)
 			return null;
@@ -19,21 +19,21 @@ public class Class181 {
 		throw new Error();
 	}
 
-	public static Class179 method2718(Class461 class461, int i, int i_0_) {
+	public static Class179 method2718(JS5ResourceProvider class461, int i, int i_0_) {
 		byte[] is = class461.method5556(i, i_0_, (byte) 1);
 		if (is == null)
 			return null;
 		return method2721(is)[0];
 	}
 
-	public static Class179[] method2719(Class461 class461, int i) {
+	public static Class179[] method2719(JS5ResourceProvider class461, int i) {
 		byte[] is = class461.method5595(i, -815817023);
 		if (is == null)
 			return null;
 		return method2721(is);
 	}
 
-	public static Class179[] method2720(Class461 class461, int i, int i_1_) {
+	public static Class179[] method2720(JS5ResourceProvider class461, int i, int i_1_) {
 		byte[] is = class461.method5556(i, i_1_, (byte) 1);
 		if (is == null)
 			return null;

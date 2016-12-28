@@ -579,7 +579,7 @@ public abstract class Class184 {
 		else
 			i_176_ = i_175_ + client.anInt11053 * -664631943;
 		for (int i_177_ = 0; i_177_ < i_176_; i_177_++) {
-			Class296 class296 = null;
+			NPCDecoder class296 = null;
 			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1;
 			if (1542697723 * client.anInt11074 == 4) {
 				Class189 class189 = Class193.aClass189Array2180[i_177_];

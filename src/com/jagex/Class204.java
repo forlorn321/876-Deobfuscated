@@ -67,7 +67,7 @@ public class Class204 {
 						class167.method2043(l_14_);
 					} else {
 						class167.method2044(672935275 * Class420.anInt4585, Class575.anInt7669 * -264469499, (Class536_Sub22_Sub5.anIntArray11645), Class508.anIntArray6917);
-						Class674.method8029((Class536_Sub22_Sub5.anIntArray11645), class576.aLinkedList7686, class576.anInt7682 * 1739858555, -2078670521 * class576.anInt7685, class576.aFloat7684, 16711935);
+						AccountType.method8029((Class536_Sub22_Sub5.anIntArray11645), class576.aLinkedList7686, class576.anInt7682 * 1739858555, -2078670521 * class576.anInt7685, class576.aFloat7684, 16711935);
 						i_13_ = (Class536_Sub42.aTwitchTV10811.SubmitFrameRaw(Class536_Sub22_Sub5.anIntArray11645, Class575.aBool7659, i, i_10_));
 					}
 					class167.method2086();
@@ -88,7 +88,7 @@ public class Class204 {
 			if (!class167.method2284()) {
 				class167.method2085();
 				class167.method2044(Class420.anInt4585 * 672935275, -264469499 * Class575.anInt7669, Class536_Sub22_Sub5.anIntArray11645, Class508.anIntArray6917);
-				Class674.method8029(Class536_Sub22_Sub5.anIntArray11645, Class575.aLinkedList7661, class167.anInt1872 * 1475697639, class167.anInt1873 * 398729877, class167.aFloat1876, 16711935);
+				AccountType.method8029(Class536_Sub22_Sub5.anIntArray11645, Class575.aLinkedList7661, class167.anInt1872 * 1475697639, class167.anInt1873 * 398729877, class167.aFloat1876, 16711935);
 				int i_15_ = (Class536_Sub42.aTwitchTV10811.SubmitFrameRaw(Class536_Sub22_Sub5.anIntArray11645, Class575.aBool7659, i, i_10_));
 				class167.method2086();
 				Class575.aLinkedList7661.clear();

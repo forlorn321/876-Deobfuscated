@@ -6,7 +6,7 @@ package com.jagex;
 public class Class584_Sub1 extends Class584 implements Interface6 {
 	static int anInt10560;
 
-	Class584_Sub1(Class461 class461) {
+	Class584_Sub1(JS5ResourceProvider class461) {
 		super(class461);
 	}
 

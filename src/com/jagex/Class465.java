@@ -675,7 +675,7 @@ public class Class465 {
 			anInt5308 = -742296637 * class647.anInt8364;
 			anInt5306 = class647.anInt8365 * 287594019;
 			anInt5248 = class647.anInt8372 * 1141167341;
-			int i_155_ = Class461.method5610(class167, class647, (short) 255);
+			int i_155_ = JS5ResourceProvider.method5610(class167, class647, (short) 255);
 			for (int i_156_ = 0; i_156_ < -1329679875 * anInt5274; i_156_++) {
 				boolean bool = false;
 				int i_157_;
@@ -1063,7 +1063,7 @@ public class Class465 {
 					if (1648019033 * class647_253_.anInt8364 != -1 && class647_253_.aBool8371) {
 						byte i_254_ = is_248_[i - 1][i_245_ - 1];
 						int i_255_ = 4 + 2 * is_249_[i - 1][i_245_ - 1] & 0x7;
-						int i_256_ = Class461.method5610(class167, class647_253_, (short) 255);
+						int i_256_ = JS5ResourceProvider.method5610(class167, class647_253_, (short) 255);
 						if (aBoolArrayArray5256[i_254_][i_255_]) {
 							anIntArray5304[0] = 1648019033 * class647_253_.anInt8364;
 							anIntArray5311[0] = i_256_;
@@ -1082,7 +1082,7 @@ public class Class465 {
 					if (-1 != class647_258_.anInt8364 * 1648019033 && class647_258_.aBool8371) {
 						byte i_259_ = is_248_[i + 1][i_245_ - 1];
 						int i_260_ = 6 + 2 * is_249_[i + 1][i_245_ - 1] & 0x7;
-						int i_261_ = Class461.method5610(class167, class647_258_, (short) 255);
+						int i_261_ = JS5ResourceProvider.method5610(class167, class647_258_, (short) 255);
 						if (aBoolArrayArray5256[i_259_][i_260_]) {
 							anIntArray5304[2] = class647_258_.anInt8364 * 1648019033;
 							anIntArray5311[2] = i_261_;
@@ -1103,7 +1103,7 @@ public class Class465 {
 					if (class647_263_.anInt8364 * 1648019033 != -1 && class647_263_.aBool8371) {
 						byte i_264_ = is_248_[i - 1][1 + i_245_];
 						int i_265_ = 2 + 2 * is_249_[i - 1][1 + i_245_] & 0x7;
-						int i_266_ = Class461.method5610(class167, class647_263_, (short) 255);
+						int i_266_ = JS5ResourceProvider.method5610(class167, class647_263_, (short) 255);
 						if (aBoolArrayArray5256[i_264_][i_265_]) {
 							anIntArray5304[6] = class647_263_.anInt8364 * 1648019033;
 							anIntArray5311[6] = i_266_;
@@ -1122,7 +1122,7 @@ public class Class465 {
 					if (class647_268_.anInt8364 * 1648019033 != -1 && class647_268_.aBool8371) {
 						byte i_269_ = is_248_[i + 1][1 + i_245_];
 						int i_270_ = 0 + 2 * is_249_[i + 1][1 + i_245_] & 0x7;
-						int i_271_ = Class461.method5610(class167, class647_268_, (short) 255);
+						int i_271_ = JS5ResourceProvider.method5610(class167, class647_268_, (short) 255);
 						if (aBoolArrayArray5256[i_269_][i_270_]) {
 							anIntArray5304[4] = class647_268_.anInt8364 * 1648019033;
 							anIntArray5311[4] = i_271_;
@@ -1145,7 +1145,7 @@ public class Class465 {
 					if (class647_273_.aBool8371) {
 						int i_276_ = 2;
 						int i_277_ = 4 + i_275_ * 2;
-						int i_278_ = Class461.method5610(class167, class647_273_, (short) 255);
+						int i_278_ = JS5ResourceProvider.method5610(class167, class647_273_, (short) 255);
 						for (int i_279_ = 0; i_279_ < 3; i_279_++) {
 							i_277_ &= 0x7;
 							i_276_ &= 0x7;
@@ -1180,7 +1180,7 @@ public class Class465 {
 					if (class647_281_.aBool8371) {
 						int i_284_ = 4;
 						int i_285_ = 2 + 2 * i_283_;
-						int i_286_ = Class461.method5610(class167, class647_281_, (short) 255);
+						int i_286_ = JS5ResourceProvider.method5610(class167, class647_281_, (short) 255);
 						for (int i_287_ = 0; i_287_ < 3; i_287_++) {
 							i_285_ &= 0x7;
 							i_284_ &= 0x7;
@@ -1215,7 +1215,7 @@ public class Class465 {
 					if (class647_289_.aBool8371) {
 						int i_292_ = 6;
 						int i_293_ = 2 * i_291_ + 4;
-						int i_294_ = Class461.method5610(class167, class647_289_, (short) 255);
+						int i_294_ = JS5ResourceProvider.method5610(class167, class647_289_, (short) 255);
 						for (int i_295_ = 0; i_295_ < 3; i_295_++) {
 							i_293_ &= 0x7;
 							i_292_ &= 0x7;
@@ -1250,7 +1250,7 @@ public class Class465 {
 					if (class647_297_.aBool8371) {
 						int i_300_ = 4;
 						int i_301_ = i_299_ * 2 + 6;
-						int i_302_ = Class461.method5610(class167, class647_297_, (short) 255);
+						int i_302_ = JS5ResourceProvider.method5610(class167, class647_297_, (short) 255);
 						for (int i_303_ = 0; i_303_ < 3; i_303_++) {
 							i_301_ &= 0x7;
 							i_300_ &= 0x7;
@@ -1276,7 +1276,7 @@ public class Class465 {
 			}
 		}
 		if (class647 != null && class647.aBool8371) {
-			int i_304_ = Class461.method5610(class167, class647, (short) 255);
+			int i_304_ = JS5ResourceProvider.method5610(class167, class647, (short) 255);
 			for (int i_305_ = 0; i_305_ < 8; i_305_++) {
 				int i_306_ = i_305_ - 527900302 * anInt5281 & 0x7;
 				if (aBoolArrayArray5256[-312900595 * anInt5302][i_305_] && (anIntArray5300[i_306_] <= class647.anInt8370 * 653672513)) {

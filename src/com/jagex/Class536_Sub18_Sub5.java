@@ -52,7 +52,7 @@ public class Class536_Sub18_Sub5 extends Class536_Sub18 {
 		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(1, (long) ((class324.aClass153_3555.anInt1715) * -1786401803));
 		try {
 			if (aBool11676)
-				class536_sub18_sub5.anInt11675 = (Class590.aClass147_Sub1_7791.method99(class324.aClass153_3555, 1782222482) * 1577826219);
+				class536_sub18_sub5.anInt11675 = (ObjTypeTransformation.aClass147_Sub1_7791.method99(class324.aClass153_3555, 1782222482) * 1577826219);
 			class536_sub18_sub5.anInt11675 = class324.method4265((class536_sub18_sub5.anInt11675 * -1670804733), i_0_, (byte) -4) * 1577826219;
 			class536_sub18_sub5.method10659(1694690277);
 		} catch (Exception_Sub4 exception_sub4) {
@@ -181,7 +181,7 @@ public class Class536_Sub18_Sub5 extends Class536_Sub18 {
 		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(1, (long) ((class324.aClass153_3555.anInt1715) * -1786401803));
 		try {
 			if (aBool11676)
-				class536_sub18_sub5.anInt11675 = (Class590.aClass147_Sub1_7791.method99(class324.aClass153_3555, 1997550296) * 1577826219);
+				class536_sub18_sub5.anInt11675 = (ObjTypeTransformation.aClass147_Sub1_7791.method99(class324.aClass153_3555, 1997550296) * 1577826219);
 			class536_sub18_sub5.anInt11675 = class324.method4265((class536_sub18_sub5.anInt11675 * -1670804733), i_2_, (byte) -74) * 1577826219;
 			class536_sub18_sub5.method10659(1943202201);
 		} catch (Exception_Sub4 exception_sub4) {

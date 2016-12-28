@@ -135,7 +135,7 @@ public class Class335 implements Interface33 {
 			if (null != class536_sub13) {
 				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 				if (class649_sub1_sub5_sub1_sub1.method11068(2073549523) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == class649_sub1_sub5_sub1_sub1.aByte10839)) {
-					Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+					NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 					if (null != class296 && null != class296.anIntArray3304)
 						class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -76);
 					if (null != class296 && class296.aBool3284 && class296.aBool3287) {

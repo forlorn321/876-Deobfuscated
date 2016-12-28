@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class330 implements Interface33 {
 	Class143 aClass143_3602;
-	Class461 aClass461_3603;
+	JS5ResourceProvider aClass461_3603;
 	Class398 aClass398_3604;
 
 	public void method211(boolean bool) {
@@ -16,7 +16,7 @@ public class Class330 implements Interface33 {
 		}
 	}
 
-	Class330(Class461 class461, Class398 class398) {
+	Class330(JS5ResourceProvider class461, Class398 class398) {
 		aClass461_3603 = class461;
 		aClass398_3604 = class398;
 	}

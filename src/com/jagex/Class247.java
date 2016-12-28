@@ -6,15 +6,15 @@ package com.jagex;
 import java.io.File;
 
 public abstract class Class247 implements Interface6 {
-	Class461 aClass461_2476;
+	JS5ResourceProvider aClass461_2476;
 	Class199 aClass199_2477;
 
-	Class247(Class461 class461, int i) {
+	Class247(JS5ResourceProvider class461, int i) {
 		aClass461_2476 = class461;
 		aClass199_2477 = new Class199(i);
 	}
 
-	public static Class143 method3419(Class461 class461, int i, int i_0_) {
+	public static Class143 method3419(JS5ResourceProvider class461, int i, int i_0_) {
 		Class143 class143 = (Class143) Class291.aClass199_3230.method2886((long) i);
 		if (null == class143) {
 			if (Class310.aBool3466)

@@ -139,7 +139,7 @@ public class Class587 implements ConfigType {
 	}
 
 	void method7068(Class167 class167, int i) {
-		Class461 class461 = aClass584_7712.aClass461_7705;
+		JS5ResourceProvider class461 = aClass584_7712.aClass461_7705;
 		if (1810029221 * anInt7722 >= 0 && (aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221)) == null) && class461.method5580(1810029221 * anInt7722, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, anInt7722 * 1810029221);
 			aClass584_7712.aClass199_7706.method2881(class167.method2082(class179, true), (long) (anInt7722 * 1810029221));
@@ -182,7 +182,7 @@ public class Class587 implements ConfigType {
 	}
 
 	void method7071(Class167 class167) {
-		Class461 class461 = aClass584_7712.aClass461_7705;
+		JS5ResourceProvider class461 = aClass584_7712.aClass461_7705;
 		if (1810029221 * anInt7722 >= 0 && (aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221)) == null) && class461.method5580(1810029221 * anInt7722, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, anInt7722 * 1810029221);
 			aClass584_7712.aClass199_7706.method2881(class167.method2082(class179, true), (long) (anInt7722 * 1810029221));

@@ -7,18 +7,18 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 	public int anInt12160;
 	int[] anIntArray12161;
 	public String aString12162;
-	public Class304 aClass304_12163;
+	public NPCCustomization aClass304_12163;
 	int[] anIntArray12164;
 	public static int anInt12165;
 	public int anInt12166;
-	public Class307 aClass307_12167;
+	public NPCHeadIconCustomization aClass307_12167;
 	public int faecTileY;
 	int anInt12169;
 	public int faceTileX = 906604253;
 	int anInt12171;
 	int anInt12172;
 	int anInt12173;
-	public Class296 aClass296_12174;
+	public NPCDecoder aClass296_12174;
 	public static int anInt12175 = -683966327;
 	public int anInt12176;
 	boolean aBool12177;
@@ -50,7 +50,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			anInt12169 = (int) (Math.random() * 12.0) * -779404377;
 	}
 
-	public void method11065(Class296 class296, int i) {
+	public void method11065(NPCDecoder class296, int i) {
 		method11075(class296, true, true, true, -842937154);
 	}
 
@@ -77,8 +77,8 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			anInt11954 = -763112183 * (int) ((float) (288770361 * anInt11954) - (float) (288770361 * anInt11954) / 10.0F);
 		class433_0_.method5190(class433);
 		class433_0_.method5200(0.0F, (float) (-20 - 288770361 * anInt11954), 0.0F);
-		Class589 class589 = method10877(-731102130);
-		Class296 class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -33) : aClass296_12174);
+		BASTypeDecoder class589 = method10877(-731102130);
+		NPCDecoder class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -33) : aClass296_12174);
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
@@ -263,7 +263,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		if (-1 != anInt12166 * -1969982467)
 			return -1969982467 * anInt12166;
 		if (aClass296_12174.anIntArray3304 != null) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -97);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -97);
 			if (null != class296 && class296.anInt3305 * -1091541297 != -1)
 				return -1091541297 * class296.anInt3305;
 		}
@@ -272,7 +272,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10879(byte i) {
 		if (null != aClass296_12174.anIntArray3304) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -65);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -65);
 			if (class296 != null && class296.anInt3302 * 586752807 != -1)
 				return class296.anInt3302 * 586752807;
 		}
@@ -281,7 +281,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method9953(int i) {
 		if (aClass296_12174.anIntArray3304 != null) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -16);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -16);
 			if (null != class296 && 1842386087 * class296.anInt3327 != -1)
 				return 1842386087 * class296.anInt3327;
 		}
@@ -410,7 +410,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method9964() {
 		if (aClass296_12174.anIntArray3304 != null) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -25);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -25);
 			if (null != class296 && 1842386087 * class296.anInt3327 != -1)
 				return 1842386087 * class296.anInt3327;
 		}
@@ -439,7 +439,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		if (-1 != anInt12166 * -1969982467)
 			return -1969982467 * anInt12166;
 		if (aClass296_12174.anIntArray3304 != null) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -23);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -23);
 			if (null != class296 && class296.anInt3305 * -1091541297 != -1)
 				return -1091541297 * class296.anInt3305;
 		}
@@ -522,8 +522,8 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			anInt11954 = -763112183 * (int) ((float) (288770361 * anInt11954) - (float) (288770361 * anInt11954) / 10.0F);
 		class433_46_.method5190(class433);
 		class433_46_.method5200(0.0F, (float) (-20 - 288770361 * anInt11954), 0.0F);
-		Class589 class589 = method10877(1244349262);
-		Class296 class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -40) : aClass296_12174);
+		BASTypeDecoder class589 = method10877(1244349262);
+		NPCDecoder class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -40) : aClass296_12174);
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
@@ -603,8 +603,8 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			anInt11954 = -763112183 * (int) ((float) (288770361 * anInt11954) - (float) (288770361 * anInt11954) / 10.0F);
 		class433_52_.method5190(class433);
 		class433_52_.method5200(0.0F, (float) (-20 - 288770361 * anInt11954), 0.0F);
-		Class589 class589 = method10877(-1412177977);
-		Class296 class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -116) : aClass296_12174);
+		BASTypeDecoder class589 = method10877(-1412177977);
+		NPCDecoder class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -116) : aClass296_12174);
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
@@ -684,8 +684,8 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			anInt11954 = -763112183 * (int) ((float) (288770361 * anInt11954) - (float) (288770361 * anInt11954) / 10.0F);
 		class433_58_.method5190(class433);
 		class433_58_.method5200(0.0F, (float) (-20 - 288770361 * anInt11954), 0.0F);
-		Class589 class589 = method10877(1158056372);
-		Class296 class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -123) : aClass296_12174);
+		BASTypeDecoder class589 = method10877(1158056372);
+		NPCDecoder class296 = (null != aClass296_12174.anIntArray3304 ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -123) : aClass296_12174);
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
@@ -830,7 +830,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	boolean method11074(Class167 class167, int i, int i_70_) {
 		int i_71_ = i;
-		Class589 class589 = method10877(1082605924);
+		BASTypeDecoder class589 = method10877(1082605924);
 		Class688 class688 = ((aClass688_11925.method8121(78776499) && !aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 		Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1670806285) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 		int i_72_ = class589.anInt7765 * -843057239;
@@ -842,7 +842,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			i |= 0x80000;
 		boolean bool_74_ = false;
 		if (anInt11933 * -53345543 != 0) {
-			Class296 class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -63) : aClass296_12174);
+			NPCDecoder class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -63) : aClass296_12174);
 			if (null == class296 || client.cycles >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
 				anInt11933 = 0;
 			else {
@@ -886,7 +886,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return null;
 	}
 
-	public void method11075(Class296 class296, boolean bool, boolean bool_76_, boolean bool_77_, int i) {
+	public void method11075(NPCDecoder class296, boolean bool, boolean bool_76_, boolean bool_77_, int i) {
 		if (aClass296_12174 != class296 && Class70.aBool752 && Class709.method8343(anInt11889 * 1710020215, 36161))
 			Class51.method930(-1398418648);
 		aClass296_12174 = class296;
@@ -904,7 +904,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	boolean method11076(Class167 class167, int i) {
 		int i_78_ = i;
-		Class589 class589 = method10877(1958618033);
+		BASTypeDecoder class589 = method10877(1958618033);
 		Class688 class688 = ((aClass688_11925.method8121(-114152872) && !aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 		Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-14080519) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 		int i_79_ = class589.anInt7765 * -843057239;
@@ -916,7 +916,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			i |= 0x80000;
 		boolean bool_81_ = false;
 		if (anInt11933 * -53345543 != 0) {
-			Class296 class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -103) : aClass296_12174);
+			NPCDecoder class296 = (aClass296_12174.anIntArray3304 != null ? aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -103) : aClass296_12174);
 			if (null == class296 || client.cycles >= (2034893473 * class296.anInt3338 + -883256813 * anInt11951))
 				anInt11933 = 0;
 			else {
@@ -954,7 +954,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10908() {
 		if (null != aClass296_12174.anIntArray3304) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -66);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -66);
 			if (class296 != null && class296.anInt3302 * 586752807 != -1)
 				return class296.anInt3302 * 586752807;
 		}
@@ -963,7 +963,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10909() {
 		if (null != aClass296_12174.anIntArray3304) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -47);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -47);
 			if (class296 != null && class296.anInt3302 * 586752807 != -1)
 				return class296.anInt3302 * 586752807;
 		}
@@ -972,7 +972,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 
 	public int method10910() {
 		if (null != aClass296_12174.anIntArray3304) {
-			Class296 class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -55);
+			NPCDecoder class296 = aClass296_12174.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -55);
 			if (class296 != null && class296.anInt3302 * 586752807 != -1)
 				return class296.anInt3302 * 586752807;
 		}

@@ -6,7 +6,7 @@ package com.jagex;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-public final class Class461 {
+public final class JS5ResourceProvider {
 	static Class85 aClass85_5204 = new Class85();
 	Object[] anObjectArray5205;
 	Object[][] anObjectArrayArray5206;
@@ -167,7 +167,7 @@ public final class Class461 {
 		return true;
 	}
 
-	public Class461(Class459 class459, boolean bool, int i) {
+	public JS5ResourceProvider(Class459 class459, boolean bool, int i) {
 		if (i < 0 || i > 2)
 			throw new IllegalArgumentException("");
 		aClass459_5213 = class459;

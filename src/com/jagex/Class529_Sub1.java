@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class529_Sub1 extends Class529 {
 	Class538 this$0;
-	public static Class461 aClass461_10283;
+	public static JS5ResourceProvider aClass461_10283;
 
 	Class529_Sub1(Class538 class538) {
 		super(class538);

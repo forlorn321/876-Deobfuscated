@@ -6,7 +6,7 @@ package com.jagex;
 public class Class205_Sub9 extends Class205 {
 	int anInt9885;
 	int anInt9886;
-	public static Class461 aClass461_9887;
+	public static JS5ResourceProvider aClass461_9887;
 
 	public void method2943() {
 		Class193.aClass189Array2180[anInt9885 * -321154173].method2804(1187221176).method10893(anInt9886 * -1738150179, true, (byte) 107);

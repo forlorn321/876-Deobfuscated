@@ -4,9 +4,9 @@
 package com.jagex;
 
 public class Class320 implements Interface33 {
-	Class461 aClass461_3533;
+	JS5ResourceProvider aClass461_3533;
 	Class394 aClass394_3534;
-	Class461 aClass461_3535;
+	JS5ResourceProvider aClass461_3535;
 	Class184 aClass184_3536;
 	long aLong3537 = -6788776513541852395L;
 	int anInt3538;
@@ -116,7 +116,7 @@ public class Class320 implements Interface33 {
 		return bool;
 	}
 
-	Class320(Class461 class461, Class461 class461_6_, Class394 class394) {
+	Class320(JS5ResourceProvider class461, JS5ResourceProvider class461_6_, Class394 class394) {
 		aClass461_3533 = class461;
 		aClass461_3535 = class461_6_;
 		aClass394_3534 = class394;

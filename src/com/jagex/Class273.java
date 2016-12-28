@@ -308,7 +308,7 @@ public class Class273 {
 				class536_sub42.anInt10805 = i * -606844337;
 				class536_sub42.aString10809 = string;
 				class536_sub42.anObjectArray10802 = class251.onOpHook;
-				Class618.method7388(class536_sub42, -227864852);
+				PlayerStat.method7388(class536_sub42, -227864852);
 			}
 			if (client.getIComponentSettings(class251).method9472(i - 1)) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);

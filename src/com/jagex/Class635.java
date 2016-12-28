@@ -132,7 +132,7 @@ public class Class635 {
 		client.aBool11172 = true;
 		Class260.method3615(1639875821);
 		for (int i_14_ = 0; i_14_ < Class465_Sub1.aClass96_10352.aClass618Array1167.length; i_14_++) {
-			Class618 class618 = new Class618(Class611.aClass602_7930.method7174(i_14_, (byte) 46), false);
+			PlayerStat class618 = new PlayerStat(Class611.aClass602_7930.method7174(i_14_, (byte) 46), false);
 			class618.method7380(0, (byte) -37);
 			class618.method7376(0, 1454222899);
 			Class465_Sub1.aClass96_10352.aClass618Array1167[i_14_] = class618;
@@ -154,7 +154,7 @@ public class Class635 {
 		Class536_Sub18_Sub2.method10491(i, i_16_, string, string_17_, string_18_, string_19_, null, -1, class402, -321036105);
 	}
 
-	public static int method7565(Class461 class461, byte i) {
+	public static int method7565(JS5ResourceProvider class461, byte i) {
 		int i_21_ = 0;
 		if (class461.method5580(-96459827 * Class98_Sub1_Sub2.anInt11334, -964514165))
 			i_21_++;

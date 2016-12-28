@@ -220,7 +220,7 @@ public class Class319_Sub1 extends Class319 {
 		aClass143_9990 = Class247.method3419(aClass461_3529, class392_sub3.anInt10228 * -2098033073, -1953851148);
 	}
 
-	Class319_Sub1(Class461 class461, Class461 class461_54_, Class392_Sub3 class392_sub3) {
+	Class319_Sub1(JS5ResourceProvider class461, JS5ResourceProvider class461_54_, Class392_Sub3 class392_sub3) {
 		super(class461, class461_54_, (Class392) class392_sub3);
 	}
 

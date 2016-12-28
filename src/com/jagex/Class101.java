@@ -169,7 +169,7 @@ public class Class101 {
 
 	public static final void method1354(int i, int i_19_, int i_20_, int i_21_, int i_22_, boolean bool, short i_23_) {
 		Class440.anInt4874 = i * -1470004169;
-		Class606.anInt7898 = i_19_ * 1281447141;
+		ObjShapes.anInt7898 = i_19_ * 1281447141;
 		Class653.anInt8491 = 1292584241 * i_20_;
 		Class584_Sub1.anInt10560 = i_21_ * 190907193;
 		Class234.anInt2381 = i_22_ * 1832046409;
@@ -177,7 +177,7 @@ public class Class101 {
 			AnimationDetailSetting.method10132(1485087813);
 		if (bool && Class234.anInt2381 * -1497935111 >= 100) {
 			Class637.anInt8301 = Class440.anInt4874 * 1474287104 + -1330152192;
-			Class685.anInt8665 = 724215296 * Class606.anInt7898 + -1060159744;
+			Class685.anInt8665 = 724215296 * ObjShapes.anInt7898 + -1060159744;
 			Class205_Sub21.anInt9958 = (Class54.method944(Class637.anInt8301 * -1607026219, -1646092097 * Class685.anInt8665, -989431627 * Class320.anInt3539, 1480863319) - Class653.anInt8491 * -1655704623) * -300318539;
 		}
 		Class246.anInt2474 = -817602155;

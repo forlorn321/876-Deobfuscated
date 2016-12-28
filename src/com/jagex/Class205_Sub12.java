@@ -36,7 +36,7 @@ public class Class205_Sub12 extends Class205 {
 		Class655.method7941(strings, is, 0, strings.length - 1, 1242809972);
 	}
 
-	public static void method9072(Class461 class461, Class461 class461_0_, int i, int i_1_) {
+	public static void method9072(JS5ResourceProvider class461, JS5ResourceProvider class461_0_, int i, int i_1_) {
 		Class536_Sub18_Sub17.aClass461_11818 = class461;
 		Class536_Sub18_Sub17.aClass461_11816 = class461_0_;
 	}

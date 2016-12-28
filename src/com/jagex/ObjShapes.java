@@ -3,57 +3,57 @@
  */
 package com.jagex;
 
-public class Class606 implements Interface75 {
-	public static Class606 aClass606_7873;
-	public static Class606 aClass606_7874;
-	public static Class606 aClass606_7875;
-	public static Class606 aClass606_7876;
-	static Class606 aClass606_7877;
+public class ObjShapes implements Interface75 {
+	public static ObjShapes aClass606_7873;
+	public static ObjShapes aClass606_7874;
+	public static ObjShapes aClass606_7875;
+	public static ObjShapes aClass606_7876;
+	static ObjShapes aClass606_7877;
 	public int anInt7878;
-	public static Class606 aClass606_7879;
-	public static Class606 aClass606_7880;
-	public static Class606 aClass606_7881;
-	public static Class606 aClass606_7882;
-	static Class606 aClass606_7883;
-	public static Class606 aClass606_7884;
-	static Class606 aClass606_7885;
-	static Class606 aClass606_7886;
-	static Class606 aClass606_7887;
-	public static Class606 aClass606_7888;
-	public static Class606 aClass606_7889;
-	static Class606 aClass606_7890;
-	static Class606 aClass606_7891;
-	public static Class606 aClass606_7892 = new Class606(0, 0);
-	static Class606 aClass606_7893;
-	public static Class606 aClass606_7894;
-	public static Class606 aClass606_7895;
-	static Class606 aClass606_7896;
+	public static ObjShapes aClass606_7879;
+	public static ObjShapes aClass606_7880;
+	public static ObjShapes aClass606_7881;
+	public static ObjShapes aClass606_7882;
+	static ObjShapes aClass606_7883;
+	public static ObjShapes aClass606_7884;
+	static ObjShapes aClass606_7885;
+	static ObjShapes aClass606_7886;
+	static ObjShapes aClass606_7887;
+	public static ObjShapes aClass606_7888;
+	public static ObjShapes aClass606_7889;
+	static ObjShapes aClass606_7890;
+	static ObjShapes aClass606_7891;
+	public static ObjShapes aClass606_7892 = new ObjShapes(0, 0);
+	static ObjShapes aClass606_7893;
+	public static ObjShapes aClass606_7894;
+	public static ObjShapes aClass606_7895;
+	static ObjShapes aClass606_7896;
 	public int anInt7897;
 	public static int anInt7898;
 
 	static {
-		aClass606_7874 = new Class606(1, 0);
-		aClass606_7875 = new Class606(2, 0);
-		aClass606_7876 = new Class606(3, 0);
-		aClass606_7873 = new Class606(9, 2);
-		aClass606_7888 = new Class606(4, 1);
-		aClass606_7879 = new Class606(5, 1);
-		aClass606_7889 = new Class606(6, 1);
-		aClass606_7881 = new Class606(7, 1);
-		aClass606_7882 = new Class606(8, 1);
-		aClass606_7883 = new Class606(12, 2);
-		aClass606_7884 = new Class606(13, 2);
-		aClass606_7885 = new Class606(14, 2);
-		aClass606_7893 = new Class606(15, 2);
-		aClass606_7887 = new Class606(16, 2);
-		aClass606_7877 = new Class606(17, 2);
-		aClass606_7886 = new Class606(18, 2);
-		aClass606_7890 = new Class606(19, 2);
-		aClass606_7896 = new Class606(20, 2);
-		aClass606_7891 = new Class606(21, 2);
-		aClass606_7880 = new Class606(10, 2);
-		aClass606_7894 = new Class606(11, 2);
-		aClass606_7895 = new Class606(22, 3);
+		aClass606_7874 = new ObjShapes(1, 0);
+		aClass606_7875 = new ObjShapes(2, 0);
+		aClass606_7876 = new ObjShapes(3, 0);
+		aClass606_7873 = new ObjShapes(9, 2);
+		aClass606_7888 = new ObjShapes(4, 1);
+		aClass606_7879 = new ObjShapes(5, 1);
+		aClass606_7889 = new ObjShapes(6, 1);
+		aClass606_7881 = new ObjShapes(7, 1);
+		aClass606_7882 = new ObjShapes(8, 1);
+		aClass606_7883 = new ObjShapes(12, 2);
+		aClass606_7884 = new ObjShapes(13, 2);
+		aClass606_7885 = new ObjShapes(14, 2);
+		aClass606_7893 = new ObjShapes(15, 2);
+		aClass606_7887 = new ObjShapes(16, 2);
+		aClass606_7877 = new ObjShapes(17, 2);
+		aClass606_7886 = new ObjShapes(18, 2);
+		aClass606_7890 = new ObjShapes(19, 2);
+		aClass606_7896 = new ObjShapes(20, 2);
+		aClass606_7891 = new ObjShapes(21, 2);
+		aClass606_7880 = new ObjShapes(10, 2);
+		aClass606_7894 = new ObjShapes(11, 2);
+		aClass606_7895 = new ObjShapes(22, 3);
 	}
 
 	public static boolean method7210(int i) {
@@ -68,7 +68,7 @@ public class Class606 implements Interface75 {
 		return anInt7878 * -723459231;
 	}
 
-	Class606(int i, int i_0_) {
+	ObjShapes(int i, int i_0_) {
 		anInt7878 = 959512737 * i;
 		anInt7897 = -1074856779 * i_0_;
 	}

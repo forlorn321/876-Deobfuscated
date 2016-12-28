@@ -326,7 +326,7 @@ public class Class292 implements Runnable {
 	}
 
 	static void method3965(Class668 class668, byte i) {
-		Class277 class277 = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -80));
+		QuestTypeDecoder class277 = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) -80));
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArray3036 ? 0 : class277.anIntArray3036.length);
 	}
 

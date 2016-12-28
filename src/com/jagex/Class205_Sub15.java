@@ -56,7 +56,7 @@ public class Class205_Sub15 extends Class205 {
 				Class598 class598 = client.aClass515_11066.method6255(-1455257551);
 				Class141.anInt1658 = ((int) ((double) Class683.aClass301_Sub1_8651.method4058((byte) -75) * 2607.5945876176133) & 0x3fff) * 269246561;
 				Class144.anInt1681 = ((int) ((double) Class683.aClass301_Sub1_8651.method4092((byte) -55) * -2607.5945876176133) & 0x3fff) * 402508199;
-				Class304.anInt3440 = 0;
+				NPCCustomization.anInt3440 = 0;
 				client.anInt11287 = (int) ((float) (72330275 * Class98_Sub1_Sub2.anInt11335) + (float) ((int) ((double) (client.anInt11285 * -545189665) / (4.0 * (Math.tan((double) ((Class683.aClass301_Sub1_8651.method4071(896139802)) / 2.0F))))) - (72330275 * (Class98_Sub1_Sub2.anInt11335))) * f) * -1383029205;
 				Class637.anInt8301 = (1420867453 * (int) ((float) (class536_sub30.anInt10568 * 2135129199 - 2133575168 * class598.anInt7839 - (Class184_Sub6.anInt9933 * 2114813609)) * f + (float) (2114813609 * Class184_Sub6.anInt9933)));
 				Class205_Sub21.anInt9958 = ((int) (f * (float) (-(class536_sub30.anInt10564 * 737759727) - 351830209 * Class469.anInt5356) + (float) (351830209 * Class469.anInt5356)) * -300318539);
@@ -74,7 +74,7 @@ public class Class205_Sub15 extends Class205 {
 					i_9_ = client.anIntArray11272[4] + 128;
 				int i_10_ = ((int) client.aFloat11106 + client.anInt11093 * 325051359 & 0x3fff);
 				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
-				client.method10460(-787333673 * Class461.anInt5216, (Class54.method944((int) class436.aFloat4850, (int) class436.aFloat4853, -989431627 * Class320.anInt3539, 2115814221) - client.anInt10997 * 1873552861), Class222.anInt2326 * -1817694149, i_9_, i_10_, 3 * (i_9_ >> 3) + 600 << 2, i, (byte) 3);
+				client.method10460(-787333673 * JS5ResourceProvider.anInt5216, (Class54.method944((int) class436.aFloat4850, (int) class436.aFloat4853, -989431627 * Class320.anInt3539, 2115814221) - client.anInt10997 * 1873552861), Class222.anInt2326 * -1817694149, i_9_, i_10_, 3 * (i_9_ >> 3) + 600 << 2, i, (byte) 3);
 				Class637.anInt8301 = (1420867453 * (int) (f * (float) (Class637.anInt8301 * -1607026219 - (2114813609 * Class184_Sub6.anInt9933)) + (float) (Class184_Sub6.anInt9933 * 2114813609)));
 				Class205_Sub21.anInt9958 = (-300318539 * (int) ((float) (Class469.anInt5356 * 351830209) + ((float) ((Class205_Sub21.anInt9958 * -1598853731) - Class469.anInt5356 * 351830209) * f)));
 				Class685.anInt8665 = ((int) ((float) (-1646092097 * Class685.anInt8665 - 1414844411 * Class681.anInt8648) * f + (float) (Class681.anInt8648 * 1414844411)) * 717279039);

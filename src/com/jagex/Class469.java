@@ -63,7 +63,7 @@ public class Class469 {
 		Class454 class454 = new Class454(class536_sub33);
 		Class463 class463 = class454.method5450(-1601920795);
 		int i_13_ = class454.method5451((byte) 57);
-		if (i_13_ < 0 || (Class461.anInt5207 * 2108509789 != 0 && i_13_ > Class461.anInt5207 * 2108509789))
+		if (i_13_ < 0 || (JS5ResourceProvider.anInt5207 * 2108509789 != 0 && i_13_ > JS5ResourceProvider.anInt5207 * 2108509789))
 			throw new RuntimeException();
 		if (Class463.aClass463_5222 == class463) {
 			byte[] is_14_ = new byte[i_13_];
@@ -71,7 +71,7 @@ public class Class469 {
 			return is_14_;
 		}
 		int i_15_ = class454.method5455((byte) -57);
-		if (i_15_ < 0 || (2108509789 * Class461.anInt5207 != 0 && i_15_ > Class461.anInt5207 * 2108509789))
+		if (i_15_ < 0 || (2108509789 * JS5ResourceProvider.anInt5207 != 0 && i_15_ > JS5ResourceProvider.anInt5207 * 2108509789))
 			throw new RuntimeException();
 		byte[] is_16_;
 		if (Class463.aClass463_5221 == class463) {
@@ -79,12 +79,12 @@ public class Class469 {
 			Class696.method8228(is_16_, i_15_, is, i_13_, 9);
 		} else if (Class463.aClass463_5226 == class463) {
 			is_16_ = new byte[i_15_];
-			synchronized (Class461.aClass85_5204) {
-				Class461.aClass85_5204.method1184(class536_sub33, is_16_, 1538492433);
+			synchronized (JS5ResourceProvider.aClass85_5204) {
+				JS5ResourceProvider.aClass85_5204.method1184(class536_sub33, is_16_, 1538492433);
 			}
 		} else if (Class463.aClass463_5224 == class463) {
 			try {
-				is_16_ = Class461.method5611(class536_sub33, i_15_, 1163542199);
+				is_16_ = JS5ResourceProvider.method5611(class536_sub33, i_15_, 1163542199);
 			} catch (IOException ioexception) {
 				throw new RuntimeException(ioexception);
 			}

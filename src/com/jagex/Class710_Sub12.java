@@ -83,6 +83,6 @@ public class Class710_Sub12 extends ClientSetting {
 	}
 
 	static void method10041(Class668 class668, byte i) {
-		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = ((Class277) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 52)).method3750(Class465_Sub1.aClass96_10352, (byte) 4) ? 1 : 0;
+		class668.anIntArray8541[1867269829 * class668.anInt8542 - 1] = ((QuestTypeDecoder) Class38.aClass53_Sub2_481.method70((class668.anIntArray8541[((1867269829 * class668.anInt8542) - 1)]), (byte) 52)).method3750(Class465_Sub1.aClass96_10352, (byte) 4) ? 1 : 0;
 	}
 }

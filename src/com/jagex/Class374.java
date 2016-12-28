@@ -146,7 +146,7 @@ public class Class374 {
 	}
 
 	public static boolean method4779(int i, int i_9_) {
-		return ((i >= Class606.aClass606_7892.anInt7878 * -723459231 && i <= Class606.aClass606_7876.anInt7878 * -723459231) || Class606.aClass606_7873.anInt7878 * -723459231 == i);
+		return ((i >= ObjShapes.aClass606_7892.anInt7878 * -723459231 && i <= ObjShapes.aClass606_7876.anInt7878 * -723459231) || ObjShapes.aClass606_7873.anInt7878 * -723459231 == i);
 	}
 
 	static final void method4780(Class668 class668, int i) {

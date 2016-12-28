@@ -248,7 +248,7 @@ public class Class106 {
 		Class637.anInt8301 = 0;
 		if (3 == 155362615 * Class246.anInt2474) {
 			Class637.anInt8301 = (50426247 * Class440.anInt4874 << 9) * 1420867453;
-			Class685.anInt8665 = 717279039 * (Class606.anInt7898 * -978040595 << 9);
+			Class685.anInt8665 = 717279039 * (ObjShapes.anInt7898 * -978040595 << 9);
 		} else
 			Class32.method792((byte) 0);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
@@ -328,7 +328,7 @@ public class Class106 {
 							is_20_[i_21_] = (short) buffer.readUnsignedShort128();
 					}
 					long l = (long) ((NPC.anInt12165 += -322954019) * 428710773 - 1);
-					new Class304(l, is, null, null, null, is_18_, is_20_);
+					new NPCCustomization(l, is, null, null, null, is_18_, is_20_);
 				}
 			}
 			if (0 != (i_4_ & 0x40)) { //face_worldtile
@@ -393,7 +393,7 @@ public class Class106 {
 							is_36_[i_37_] = (short) buffer.readUnsignedShort128();
 					}
 					long l = (long) ((NPC.anInt12175 += -683966327) * -2099907143 - 1);
-					npc.aClass304_12163 = new Class304(l, is, fs, is_29_, is_30_, is_34_, is_36_);
+					npc.aClass304_12163 = new NPCCustomization(l, is, fs, is_29_, is_30_, is_34_, is_36_);
 				}
 			}
 			if ((i_4_ & 0x20) != 0) { //animation
@@ -406,7 +406,7 @@ public class Class106 {
 			if (0 != (i_4_ & 0x1)) { //npc_transformation
 				if (npc.aClass296_12174.method3986(-198439992))
 					Class18.method688(npc, 1146989148);
-				npc.method11075((Class296) (Class172.aClass34_Sub7_1922.method70(buffer.readBigSmart(), (byte) -72)), (i_4_ & 0x800000) == 0, (i_4_ & 0x20000) == 0, true, -573315687);
+				npc.method11075((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(buffer.readBigSmart(), (byte) -72)), (i_4_ & 0x800000) == 0, (i_4_ & 0x20000) == 0, true, -573315687);
 				npc.method10873((npc.aClass296_12174.anInt3272 * 830254667), -324388659);
 				npc.anInt11938 = -1906385303 * (235698067 * (npc.aClass296_12174.anInt3318) << 3);
 				if (npc.aClass296_12174.method3986(-198439992))
@@ -584,7 +584,7 @@ public class Class106 {
 						is_85_[i_86_] = (short) -1;
 					}
 				}
-				npc.aClass307_12167 = new Class307(is, is_85_);
+				npc.aClass307_12167 = new NPCHeadIconCustomization(is, is_85_);
 			}
 			if ((i_4_ & 0x4) != 0) {
 				int i_87_ = buffer.readUnsignedShortLE();

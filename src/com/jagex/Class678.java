@@ -223,7 +223,7 @@ public class Class678 implements Interface75 {
 					else {
 						if (1542697723 * client.anInt11074 == 3) {
 							Class654.method7885((byte) 94);
-							Class307.method4134(3002196);
+							NPCHeadIconCustomization.method4134(3002196);
 						} else if (Class333.aClass619_3623.anInterface66_8092.method422(class536_sub31, client.anInterface63Array11037, client.anInt11036 * -1621465757, Class331_Sub2.aClass549_10049, 640625295))
 							Class684.method8107(false, -2048974595);
 						else {
@@ -303,7 +303,7 @@ public class Class678 implements Interface75 {
 								if (class251_17_ == null || class251_17_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_17_.aClass251Array2725).length) || class251 != (class251_17_.aClass251Array2725[(-809980533 * class251.anInt2546)]))
 									continue;
 							}
-							Class618.method7388(class536_sub42, 396463989);
+							PlayerStat.method7388(class536_sub42, 396463989);
 						}
 						for (;;) {
 							Class536_Sub42 class536_sub42 = ((Class536_Sub42) client.aClass708_11181.method8305(-1272409954));
@@ -315,7 +315,7 @@ public class Class678 implements Interface75 {
 								if (null == class251_18_ || class251_18_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_18_.aClass251Array2725).length) || class251 != (class251_18_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}
-							Class618.method7388(class536_sub42, -747851060);
+							PlayerStat.method7388(class536_sub42, -747851060);
 						}
 						for (;;) {
 							Class536_Sub42 class536_sub42 = (Class536_Sub42) client.aClass708_11077.method8305(1236199034);
@@ -327,7 +327,7 @@ public class Class678 implements Interface75 {
 								if (null == class251_19_ || class251_19_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= (class251_19_.aClass251Array2725).length) || class251 != (class251_19_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}
-							Class618.method7388(class536_sub42, -2056420189);
+							PlayerStat.method7388(class536_sub42, -2056420189);
 						}
 						if (null == Class72.aClass251_801)
 							client.anInt11212 = 0;
@@ -345,9 +345,9 @@ public class Class678 implements Interface75 {
 						}
 						for (int i_21_ = 0; i_21_ < 5; i_21_++)
 							client.anIntArray11302[i_21_]++;
-						if (Class590.aClass147_Sub1_7791.aBool8886 && ((Class590.aClass147_Sub1_7791.aLong8888 * -2824174956198053549L) < Class249.method3450(2078203770) - 60000L))
+						if (ObjTypeTransformation.aClass147_Sub1_7791.aBool8886 && ((ObjTypeTransformation.aClass147_Sub1_7791.aLong8888 * -2824174956198053549L) < Class249.method3450(2078203770) - 60000L))
 							Class567.method6918(307028086);
-						Class590.aClass147_Sub1_7791.method8405((byte) -90);
+						ObjTypeTransformation.aClass147_Sub1_7791.method8405((byte) -90);
 						for (Class521_Sub6 class521_sub6 = (Class521_Sub6) client.aClass695_11292.method8210(846629764); null != class521_sub6; class521_sub6 = ((Class521_Sub6) client.aClass695_11292.method8219(-787561041))) {
 							if ((long) (class521_sub6.anInt10362 * 1936831955) < (Class249.method3450(1465680845) / 1000L - 5L)) {
 								if (class521_sub6.aShort10361 > 0)

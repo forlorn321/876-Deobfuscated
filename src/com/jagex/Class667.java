@@ -49,7 +49,7 @@ public class Class667 {
 		Class28.aClass143Array259 = null;
 		Class35.aClass143Array292 = null;
 		Class195.aClass143Array2201 = null;
-		Class618.aClass143_8090 = null;
+		PlayerStat.aClass143_8090 = null;
 		Class289.aClass143_3215 = null;
 		Class62.aClass143Array701 = null;
 	}

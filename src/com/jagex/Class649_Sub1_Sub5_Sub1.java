@@ -101,7 +101,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	public abstract boolean method10865(int i);
 
 	public int method10866(int i) {
-		Class589 class589 = method10877(-1603374296);
+		BASTypeDecoder class589 = method10877(-1603374296);
 		int i_0_ = 897724319 * aClass62_11940.anInt700;
 		boolean bool;
 		if (0 != class589.anInt7784 * -272071129)
@@ -138,7 +138,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public void method10867(int direction) {
-		Class589 class589 = method10877(1070297526);
+		BASTypeDecoder class589 = method10877(1070297526);
 		if (-272071129 * class589.anInt7784 != 0 || 758944217 * anInt11938 != 0) {
 			aClass62_11940.method1049((byte) 2);
 			int i_3_ = direction - 897724319 * aClass62_11940.anInt700 & 0x3fff;
@@ -157,7 +157,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 			for (int i_6_ = 0; i_6_ < Class71.aClass631_796.anIntArray8241.length; i_6_++)
 				anIntArray11918[i_6_] = -1;
 		}
-		Class589 class589 = method10877(-915727020);
+		BASTypeDecoder class589 = method10877(-915727020);
 		int i_7_ = 256;
 		if (null != class589.anIntArray7772 && class589.anIntArray7772[i] > 0)
 			i_7_ = class589.anIntArray7772[i];
@@ -288,7 +288,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public int method9953(int i) {
-		Class589 class589 = method10877(47434380);
+		BASTypeDecoder class589 = method10877(47434380);
 		int i_33_;
 		if (-1158847077 * class589.anInt7783 != -1)
 			i_33_ = class589.anInt7783 * -1158847077;
@@ -324,7 +324,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		aShort11870 = (short) (i_37_ + (int) class436.aFloat4853 >> 9);
 	}
 
-	void method10875(Class167 class167, Class589 class589, int i, int i_38_, int i_39_, int i_40_, int i_41_) {
+	void method10875(Class167 class167, BASTypeDecoder class589, int i, int i_38_, int i_39_, int i_40_, int i_41_) {
 		for (int i_42_ = 0; i_42_ < aClass500Array11901.length; i_42_++) {
 			byte i_43_ = 0;
 			if (0 == i_42_)
@@ -448,11 +448,11 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		anInt11891 = -519088443 * ((-2111850483 * anInt11891 >> 1) - (int) class436.aFloat4852);
 	}
 
-	public Class589 method10877(int i) {
+	public BASTypeDecoder method10877(int i) {
 		int i_88_ = method10897(1991099139);
 		if (-1 == i_88_)
-			return Class34_Sub16.aClass589_10972;
-		return ((Class589) Class497.aClass34_Sub16_5554.method70(i_88_, (byte) 21));
+			return BASTypeList.aClass589_10972;
+		return ((BASTypeDecoder) Class497.aClass34_Sub16_5554.method70(i_88_, (byte) 21));
 	}
 
 	public abstract int method10878();
@@ -544,7 +544,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public int method9964() {
-		Class589 class589 = method10877(-1582955219);
+		BASTypeDecoder class589 = method10877(-1582955219);
 		int i;
 		if (-1158847077 * class589.anInt7783 != -1)
 			i = class589.anInt7783 * -1158847077;
@@ -570,7 +570,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public void method10890(int i) {
-		Class589 class589 = method10877(987165612);
+		BASTypeDecoder class589 = method10877(987165612);
 		if (-272071129 * class589.anInt7784 != 0 || 758944217 * anInt11938 != 0) {
 			aClass62_11940.method1049((byte) 2);
 			int i_113_ = i - 897724319 * aClass62_11940.anInt700 & 0x3fff;
@@ -582,7 +582,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public void method10891(int i) {
-		Class589 class589 = method10877(199862419);
+		BASTypeDecoder class589 = method10877(199862419);
 		if (-272071129 * class589.anInt7784 != 0 || 758944217 * anInt11938 != 0) {
 			aClass62_11940.method1049((byte) 2);
 			int i_114_ = i - 897724319 * aClass62_11940.anInt700 & 0x3fff;
@@ -594,7 +594,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public int method10892() {
-		Class589 class589 = method10877(-351118035);
+		BASTypeDecoder class589 = method10877(-351118035);
 		int i = 897724319 * aClass62_11940.anInt700;
 		boolean bool;
 		if (0 != class589.anInt7784 * -272071129)
@@ -631,7 +631,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	}
 
 	public void method10893(int i, boolean bool, byte i_116_) {
-		Class589 class589 = method10877(-1940437370);
+		BASTypeDecoder class589 = method10877(-1940437370);
 		if (bool || 0 != -272071129 * class589.anInt7784 || anInt11938 * 758944217 != 0) {
 			anInt11939 = 383832397 * (i & 0x3fff);
 			aClass62_11940.method1050(anInt11939 * -1999712379, -228801070);

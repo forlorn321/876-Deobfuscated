@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class Class632 implements Iterator {
 	int anInt8246;
-	Class630[] aClass630Array8247;
+	PlayerSkill[] aClass630Array8247;
 
 	public Object method7534() {
 		return aClass630Array8247[(anInt8246 += 1821546007) * 482738599 - 1];
@@ -33,7 +33,7 @@ public class Class632 implements Iterator {
 		return 482738599 * anInt8246 < aClass630Array8247.length;
 	}
 
-	Class632(Class630[] class630s) {
+	Class632(PlayerSkill[] class630s) {
 		aClass630Array8247 = class630s;
 	}
 
@@ -94,7 +94,7 @@ public class Class632 implements Iterator {
 		Class536_Sub18_Sub5 class536_sub18_sub5 = Class34_Sub11.method10334(1, (long) ((class324.aClass153_3555.anInt1715) * -1786401803));
 		try {
 			if (Class536_Sub18_Sub5.aBool11676)
-				class536_sub18_sub5.anInt11675 = (Class590.aClass147_Sub1_7791.method99(class324.aClass153_3555, 2063594590) * 1577826219);
+				class536_sub18_sub5.anInt11675 = (ObjTypeTransformation.aClass147_Sub1_7791.method99(class324.aClass153_3555, 2063594590) * 1577826219);
 			class536_sub18_sub5.anInt11675 = class324.method4265((class536_sub18_sub5.anInt11675 * -1670804733), i_9_, (byte) -97) * 1577826219;
 			class536_sub18_sub5.method10659(1584234100);
 		} catch (Exception_Sub4 exception_sub4) {

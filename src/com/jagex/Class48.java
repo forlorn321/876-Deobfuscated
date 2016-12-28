@@ -27,7 +27,7 @@ final class Class48 implements Interface64 {
 		if (!Class70.aBool780)
 			Class38.method847(class167, -1389444223);
 		else
-			Class674.method8030(class167, (byte) 72);
+			AccountType.method8030(class167, (byte) 72);
 	}
 
 	static final void method916(Class668 class668, int i) {

@@ -9,7 +9,7 @@ public class Class222 {
 	long aLong2313;
 	static final int anInt2314 = 2;
 	Class21 aClass21_2315;
-	Class618[] aClass618Array2316;
+	PlayerStat[] aClass618Array2316;
 	int anInt2317;
 	boolean aBool2318;
 	String aString2319;
@@ -69,14 +69,14 @@ public class Class222 {
 		return aBool2318;
 	}
 
-	public Class618 method3125(int i, int i_3_) {
+	public PlayerStat method3125(int i, int i_3_) {
 		return aClass618Array2316[i];
 	}
 
 	void method3126(Class222 class222_4_, int i) {
 		for (int i_5_ = 0; i_5_ < aClass618Array2316.length; i_5_++) {
-			aClass618Array2316[i_5_].method7380(class222_4_.aClass618Array2316[i_5_].method7371(-521908001), (byte) 32);
-			aClass618Array2316[i_5_].method7376(aClass618Array2316[i_5_].method7374((byte) -93), -1939418593);
+			aClass618Array2316[i_5_].method7380(class222_4_.aClass618Array2316[i_5_].getExperience(), (byte) 32);
+			aClass618Array2316[i_5_].method7376(aClass618Array2316[i_5_].getBaseLevel(), -1939418593);
 		}
 		aClass21_2321.method29(-1429777179);
 		Iterator iterator = class222_4_.aClass21_2321.iterator();
@@ -149,17 +149,17 @@ public class Class222 {
 		int i = class536_sub33.readUnsignedByte();
 		aBool2318 = (i & 0x1) != 0;
 		aBool2322 = 0 != (i & 0x2);
-		aClass618Array2316 = new Class618[interface28.method159(1739425037).method7173(-1912091677)];
+		aClass618Array2316 = new PlayerStat[interface28.method159(1739425037).method7173(-1912091677)];
 		int i_7_ = class536_sub33.readUnsignedByte();
 		if (i_7_ > aClass618Array2316.length)
 			throw new IllegalStateException("");
 		for (int i_8_ = 0; i_8_ < aClass618Array2316.length; i_8_++) {
-			Class618 class618 = (aClass618Array2316[i_8_] = new Class618(interface28.method159(1445042368).method7174(i_8_, (byte) -40), true));
+			PlayerStat class618 = (aClass618Array2316[i_8_] = new PlayerStat(interface28.method159(1445042368).method7174(i_8_, (byte) -40), true));
 			if (i_8_ < i_7_)
 				class618.method7380(class536_sub33.readInt(), (byte) 58);
 			else
 				class618.method7380(0, (byte) 64);
-			class618.method7376(class618.method7374((byte) -18), 155186799);
+			class618.method7376(class618.getBaseLevel(), 155186799);
 		}
 		int i_9_ = class536_sub33.readUnsignedShort();
 		aClass21_2321 = new Class21(interface28.method162(-1062537651));

@@ -8,7 +8,7 @@ import java.util.Random;
 public class Class87 {
 	Class90[] aClass90Array871;
 	static String aString872;
-	Class461 aClass461_873;
+	JS5ResourceProvider aClass461_873;
 	int anInt874;
 	static final int anInt875 = 0;
 
@@ -57,7 +57,7 @@ public class Class87 {
 		return -1600029121 * anInt874 != -1;
 	}
 
-	public Class87(GameMode class670, Class664 class664, Class461 class461) {
+	public Class87(GameMode class670, Language class664, JS5ResourceProvider class461) {
 		aClass461_873 = class461;
 		RSByteBuffer class536_sub33 = new RSByteBuffer(aClass461_873.method5556(0, 0, (byte) 1));
 		int i = ((class536_sub33.buffer == null || class536_sub33.buffer.length < 1) ? -1 : class536_sub33.readUnsignedByte());

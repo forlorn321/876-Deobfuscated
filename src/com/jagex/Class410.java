@@ -7,10 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Class410 implements Interface4 {
-	Class461 aClass461_4322;
+	JS5ResourceProvider aClass461_4322;
 	Class199 aClass199_4323;
 	Class199 aClass199_4324 = new Class199(20);
-	Class461 aClass461_4325;
+	JS5ResourceProvider aClass461_4325;
 	int[] anIntArray4326;
 	Class199 aClass199_4327;
 	Class167 aClass167_4328;
@@ -281,7 +281,7 @@ public class Class410 implements Interface4 {
 		return null;
 	}
 
-	public Class410(Class167 class167, Class461 class461, Class461 class461_18_, int[] is) {
+	public Class410(Class167 class167, JS5ResourceProvider class461, JS5ResourceProvider class461_18_, int[] is) {
 		aClass199_4323 = new Class199(20);
 		aClass167_4328 = null;
 		aMap4329 = null;

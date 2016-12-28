@@ -49,7 +49,7 @@ public class Class144 implements Interface75 {
 
 	static void method1790(int i) {
 		Class6 class6 = Class153_Sub1.method8383("2", client.aClass670_11043.aString8573, false, 2084649736);
-		Class590.aClass147_Sub1_7791.method8407(class6, (byte) 54);
+		ObjTypeTransformation.aClass147_Sub1_7791.method8407(class6, (byte) 54);
 	}
 
 	static final void method1791(Class668 class668, int i) {
@@ -66,7 +66,7 @@ public class Class144 implements Interface75 {
 
 	static final void method1793(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 45)).equipLookHideSlot2 * -2135676771);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 45)).equipLookHideSlot2 * -2135676771);
 	}
 
 	static final void method1794(Class668 class668, int i) {

@@ -6,10 +6,10 @@ package com.jagex;
 public abstract class Class319 implements Interface33 {
 	Class392 aClass392_3527;
 	long aLong3528;
-	Class461 aClass461_3529;
+	JS5ResourceProvider aClass461_3529;
 	Class184 aClass184_3530;
 	int anInt3531;
-	Class461 aClass461_3532;
+	JS5ResourceProvider aClass461_3532;
 
 	abstract void method4230(boolean bool, int i, int i_0_, int i_1_);
 
@@ -175,7 +175,7 @@ public abstract class Class319 implements Interface33 {
 		aClass184_3530 = (Class677.aClass167_8609.method2089(class2, Class181.method2719(aClass461_3529, 1694830205 * aClass392_3527.anInt4071), true));
 	}
 
-	Class319(Class461 class461, Class461 class461_25_, Class392 class392) {
+	Class319(JS5ResourceProvider class461, JS5ResourceProvider class461_25_, Class392 class392) {
 		aClass461_3529 = class461;
 		aClass461_3532 = class461_25_;
 		aClass392_3527 = class392;

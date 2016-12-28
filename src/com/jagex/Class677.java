@@ -322,7 +322,7 @@ public class Class677 implements ConfigType {
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) class536_sub13.value);
 			}
 			if (class649_sub1_sub5_sub1 != null) {
-				Class589 class589 = class649_sub1_sub5_sub1.method10877(2123636973);
+				BASTypeDecoder class589 = class649_sub1_sub5_sub1.method10877(2123636973);
 				if (class589.anIntArrayArray7749 != null && null != class589.anIntArrayArray7749[i_50_])
 					i_51_ -= class589.anIntArrayArray7749[i_50_][1];
 				if (null != class589.anIntArrayArray7775 && null != class589.anIntArrayArray7775[i_50_])
@@ -348,7 +348,7 @@ public class Class677 implements ConfigType {
 		Class252.anInt2746 = (class668.anIntArray8541[7 + class668.anInt8542 * 1867269829] * -341267247);
 		Class575.anInt7680 = (class668.anIntArray8541[8 + 1867269829 * class668.anInt8542] * -1348047085);
 		Class158.anInt1743 = (class668.anIntArray8541[9 + class668.anInt8542 * 1867269829] * -1202232779);
-		Class461.anInt5217 = (class668.anIntArray8541[10 + 1867269829 * class668.anInt8542] * -1458393235);
+		JS5ResourceProvider.anInt5217 = (class668.anIntArray8541[10 + 1867269829 * class668.anInt8542] * -1458393235);
 		Class301.anInt3400 = -308671957 * (class668.anIntArray8541[1867269829 * class668.anInt8542 + 11]);
 		Class398.aClass461_4122.method5580(-1034889975 * Class28.anInt260, -964514165);
 		Class398.aClass461_4122.method5580(FogSetting.anInt10862 * -1675910631, -964514165);

@@ -428,7 +428,7 @@ public class Class191 implements ConfigType {
 		}
 	}
 
-	static int method2840(Class461 class461, JS5ConfigGroup class648, int i) {
+	static int method2840(JS5ResourceProvider class461, JS5ConfigGroup class648, int i) {
 		if (class461 != null) {
 			if (class648.getGroupSize() > 1) {
 				int i_52_ = class461.method5570(1085815444) - 1;

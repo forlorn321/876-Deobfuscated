@@ -4,8 +4,8 @@
 package com.jagex;
 
 public class Class322 {
-	Class461 aClass461_3544;
-	Class461 aClass461_3545;
+	JS5ResourceProvider aClass461_3544;
+	JS5ResourceProvider aClass461_3545;
 	Class323 aClass323_3546;
 
 	public Interface33 method4248(Interface49 interface49, byte i) {
@@ -37,7 +37,7 @@ public class Class322 {
 		return null;
 	}
 
-	public Class322(Class461 class461, Class461 class461_0_) {
+	public Class322(JS5ResourceProvider class461, JS5ResourceProvider class461_0_) {
 		aClass461_3544 = class461;
 		aClass461_3545 = class461_0_;
 	}

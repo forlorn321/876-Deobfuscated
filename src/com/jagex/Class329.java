@@ -4,10 +4,10 @@
 package com.jagex;
 
 public class Class329 implements Interface33 {
-	Class461 aClass461_3597;
+	JS5ResourceProvider aClass461_3597;
 	Class386 aClass386_3598;
 	Class184 aClass184_3599;
-	Class461 aClass461_3600;
+	JS5ResourceProvider aClass461_3600;
 	public static Class550 aClass550_3601;
 
 	public boolean method214() {
@@ -91,7 +91,7 @@ public class Class329 implements Interface33 {
 		}
 	}
 
-	Class329(Class461 class461, Class461 class461_6_, Class386 class386) {
+	Class329(JS5ResourceProvider class461, JS5ResourceProvider class461_6_, Class386 class386) {
 		aClass386_3598 = class386;
 		aClass461_3600 = class461;
 		aClass461_3597 = class461_6_;

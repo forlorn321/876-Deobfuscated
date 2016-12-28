@@ -11,14 +11,14 @@ public class Class536_Sub20 extends Class536 {
 	}
 
 	static int method9567(NPC class649_sub1_sub5_sub1_sub1, int i) {
-		Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
+		NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 		if (class296.anIntArray3304 != null) {
 			class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -38);
 			if (class296 == null)
 				return -1;
 		}
 		int i_0_ = class296.anInt3321 * -369448145;
-		Class589 class589 = class649_sub1_sub5_sub1_sub1.method10877(772515732);
+		BASTypeDecoder class589 = class649_sub1_sub5_sub1_sub1.method10877(772515732);
 		int i_1_ = class649_sub1_sub5_sub1_sub1.aClass688_Sub3_11914.method8120((byte) 89);
 		if (-1 == i_1_ || class649_sub1_sub5_sub1_sub1.aClass688_Sub3_11914.aBool10975)
 			i_0_ = class296.anInt3319 * -1037321689;
