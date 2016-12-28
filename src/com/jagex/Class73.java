@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class73 implements DefinitionI, Interface7 {
+public class Class73 implements ConfigType, Interface7 {
 	public boolean aBool802 = true;
 	public int anInt803;
 	Class453 aClass453_804;
@@ -35,7 +35,7 @@ public class Class73 implements DefinitionI, Interface7 {
 		return Class453.aClass453_5084 == aClass453_804;
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 
@@ -52,7 +52,7 @@ public class Class73 implements DefinitionI, Interface7 {
 		}
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_2_ = class536_sub33.readUnsignedByte();
 			if (i_2_ == 0)

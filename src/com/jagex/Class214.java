@@ -86,7 +86,7 @@ public class Class214 implements Interface27 {
 
 	static final void method3081(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -44);
+		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -44);
 		int i_8_;
 		if (class1.aBool84)
 			i_8_ = 676567643 * class1.anInt40;

@@ -8,7 +8,7 @@ public class Class554_Sub1 extends Class554 implements Interface6 {
 		super(class461);
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class546(i, this);
 	}
 
@@ -16,7 +16,7 @@ public class Class554_Sub1 extends Class554 implements Interface6 {
 		return com.jagex.Class546.class;
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class546(i, this);
 	}
 
@@ -24,7 +24,7 @@ public class Class554_Sub1 extends Class554 implements Interface6 {
 		return com.jagex.Class546.class;
 	}
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class546(i, this);
 	}
 }

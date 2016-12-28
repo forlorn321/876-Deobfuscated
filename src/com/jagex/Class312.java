@@ -7,7 +7,7 @@ public class Class312 implements Interface6 {
 	Class461 aClass461_3486;
 	static int anInt3487;
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class313(i, aClass461_3486);
 	}
 
@@ -19,11 +19,11 @@ public class Class312 implements Interface6 {
 		return com.jagex.Class313.class;
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class313(i, aClass461_3486);
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class313(i, aClass461_3486);
 	}
 

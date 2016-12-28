@@ -19,7 +19,7 @@ public class Class324 implements Interface14 {
 		aClass325_3552 = class325;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		method4261(class536_sub33, false, (byte) 65);
 	}
 
@@ -69,7 +69,7 @@ public class Class324 implements Interface14 {
 		return i >> anInt3554 * -173561665 & i_4_;
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

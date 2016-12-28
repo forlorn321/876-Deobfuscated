@@ -6,7 +6,7 @@ package com.jagex;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class Class589 implements Interface7, DefinitionI {
+public class Class589 implements Interface7, ConfigType {
 	public int anInt7741;
 	public int[] anIntArray7742;
 	public int[] anIntArray7743;
@@ -574,7 +574,7 @@ public class Class589 implements Interface7, DefinitionI {
 		return false;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_38_ = class536_sub33.readUnsignedByte();
 			if (0 == i_38_)
@@ -583,7 +583,7 @@ public class Class589 implements Interface7, DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

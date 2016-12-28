@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class20 implements DefinitionI, Interface7 {
+public class Class20 implements ConfigType, Interface7 {
 	public int anInt206;
 	public int anInt207;
 	int anInt208 = 0;
@@ -35,7 +35,7 @@ public class Class20 implements DefinitionI, Interface7 {
 			aBool210 = false;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_1_ = class536_sub33.readUnsignedByte();
 			if (i_1_ == 0)
@@ -93,7 +93,7 @@ public class Class20 implements DefinitionI, Interface7 {
 		anInt211 = -1718614957 * (int) ((double) (anInt206 * -1374187401) * d_7_);
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

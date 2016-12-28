@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class574 implements DefinitionI, Interface7 {
+public class Class574 implements ConfigType, Interface7 {
 	int anInt7640;
 	Class569 aClass569_7641;
 	int[] anIntArray7642;
@@ -52,7 +52,7 @@ public class Class574 implements DefinitionI, Interface7 {
 		/* empty */
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 
@@ -75,7 +75,7 @@ public class Class574 implements DefinitionI, Interface7 {
 		anInt7644 = -2144736261;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_4_ = class536_sub33.readUnsignedByte();
 			if (i_4_ == 0)

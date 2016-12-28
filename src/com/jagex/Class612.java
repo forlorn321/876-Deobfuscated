@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class612 implements DefinitionI {
+public class Class612 implements ConfigType {
 	public int anInt7931;
 	public static short[] aShortArray7932 = new short[256];
 	Class4 aClass4_7933;
@@ -101,7 +101,7 @@ public class Class612 implements DefinitionI {
 		return false;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_2_ = class536_sub33.readUnsignedByte();
 			if (0 == i_2_)
@@ -780,7 +780,7 @@ public class Class612 implements DefinitionI {
 		return anIntArray7951[i];
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		method7285(1000714098);
 		if (aBool7985)
 			anInt7952 = 0;

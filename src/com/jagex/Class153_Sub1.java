@@ -21,7 +21,7 @@ public class Class153_Sub1 extends Class153 {
 			anInt8867 = class536_sub33.readUnsignedShort() * 578611583;
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

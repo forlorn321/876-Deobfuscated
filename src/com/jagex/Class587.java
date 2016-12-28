@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class587 implements DefinitionI {
+public class Class587 implements ConfigType {
 	public int anInt7711;
 	Class584 aClass584_7712;
 	public static final int anInt7713 = -1;
@@ -34,7 +34,7 @@ public class Class587 implements DefinitionI {
 	public static final int anInt7738 = 1;
 	public static int anInt7739;
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
@@ -201,7 +201,7 @@ public class Class587 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

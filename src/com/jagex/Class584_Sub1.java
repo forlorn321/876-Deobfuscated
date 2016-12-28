@@ -10,7 +10,7 @@ public class Class584_Sub1 extends Class584 implements Interface6 {
 		super(class461);
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class587(i, this, interface12);
 	}
 
@@ -22,11 +22,11 @@ public class Class584_Sub1 extends Class584 implements Interface6 {
 		return com.jagex.Class587.class;
 	}
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class587(i, this, interface12);
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class587(i, this, interface12);
 	}
 

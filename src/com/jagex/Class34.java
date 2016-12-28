@@ -18,15 +18,15 @@ public class Class34 implements Interface12 {
 		}
 	}
 
-	DefinitionI method801(int i, byte i_0_) {
+	ConfigType method801(int i, byte i_0_) {
 		byte[] is;
 		synchronized (aClass461_291) {
 			is = Class634.method7549(aClass461_291, aClass648_288, i, (byte) 0);
 		}
-		DefinitionI interface13 = anInterface6_289.method55(i, this, 574343589);
+		ConfigType interface13 = anInterface6_289.method55(i, this, 574343589);
 		if (null != is)
-			interface13.method74(new RSByteBuffer(is), -920321484);
-		interface13.method75((byte) -94);
+			interface13.decodeType(new RSByteBuffer(is));
+		interface13.postDecode();
 		return interface13;
 	}
 
@@ -50,10 +50,10 @@ public class Class34 implements Interface12 {
 		}
 	}
 
-	public DefinitionI method70(int i, byte i_2_) {
-		DefinitionI interface13;
+	public ConfigType method70(int i, byte i_2_) {
+		ConfigType interface13;
 		synchronized (aClass199_287) {
-			interface13 = (DefinitionI) aClass199_287.method2886((long) i);
+			interface13 = (ConfigType) aClass199_287.method2886((long) i);
 		}
 		if (interface13 != null)
 			return interface13;
@@ -75,10 +75,10 @@ public class Class34 implements Interface12 {
 		return new Class36(this);
 	}
 
-	public DefinitionI method72(int i) {
-		DefinitionI interface13;
+	public ConfigType method72(int i) {
+		ConfigType interface13;
 		synchronized (aClass199_287) {
-			interface13 = (DefinitionI) aClass199_287.method2886((long) i);
+			interface13 = (ConfigType) aClass199_287.method2886((long) i);
 		}
 		if (interface13 != null)
 			return interface13;

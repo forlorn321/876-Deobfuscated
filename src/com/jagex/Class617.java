@@ -182,7 +182,7 @@ public class Class617 {
 				if ((i_28_ & 0x40000000) != 0) {
 					if (!bool_29_ && null != aClass12Array8073 && aClass12Array8073[i_27_] != null)
 						class12 = aClass12Array8073[i_27_];
-					if (!((ItemDefinitions) class34_sub13.method70(i_28_ & 0x3fffffff, (byte) 107)).method515(aBool8076, class12, -797291593))
+					if (!((ItemTypeDecoder) class34_sub13.method70(i_28_ & 0x3fffffff, (byte) 107)).method515(aBool8076, class12, -797291593))
 						bool_26_ = true;
 				} else if ((i_28_ & ~0x7fffffff) != 0 && !((Class313) class34_sub2.method70(i_28_ & 0x3fffffff, (byte) -73)).method4187(-114291264))
 					bool_26_ = true;
@@ -204,7 +204,7 @@ public class Class617 {
 					if ((i_33_ & 0x40000000) != 0) {
 						if (!bool_34_ && null != aClass12Array8073 && null != aClass12Array8073[i_32_])
 							class12 = aClass12Array8073[i_32_];
-						Class180 class180 = ((ItemDefinitions) class34_sub13.method70(i_33_ & 0x3fffffff, (byte) -106)).method509(aBool8076, class12, -1431934785);
+						Class180 class180 = ((ItemTypeDecoder) class34_sub13.method70(i_33_ & 0x3fffffff, (byte) -106)).method509(aBool8076, class12, -1431934785);
 						if (class180 != null)
 							class180s[i_32_] = class180;
 					} else if (0 != (i_33_ & ~0x7fffffff)) {
@@ -327,7 +327,7 @@ public class Class617 {
 				if ((i_54_ & 0x40000000) != 0) {
 					if (aClass12Array8073 != null && aClass12Array8073[i_53_] != null)
 						class12 = aClass12Array8073[i_53_];
-					if (!((ItemDefinitions) class34_sub13.method70(i_54_ & 0x3fffffff, (byte) -18)).method514(aBool8076, class12, 1499603302))
+					if (!((ItemTypeDecoder) class34_sub13.method70(i_54_ & 0x3fffffff, (byte) -18)).method514(aBool8076, class12, 1499603302))
 						bool = true;
 				} else if (0 != (i_54_ & ~0x7fffffff) && !((Class313) class34_sub2.method70(i_54_ & 0x3fffffff, (byte) -13)).method4192(1660830213))
 					bool = true;
@@ -342,7 +342,7 @@ public class Class617 {
 				if (0 != (i_57_ & 0x40000000)) {
 					if (null != aClass12Array8073 && aClass12Array8073[i_56_] != null)
 						class12 = aClass12Array8073[i_56_];
-					Class180 class180 = ((ItemDefinitions) class34_sub13.method70(i_57_ & 0x3fffffff, (byte) -5)).method517(aBool8076, class12, (byte) -79);
+					Class180 class180 = ((ItemTypeDecoder) class34_sub13.method70(i_57_ & 0x3fffffff, (byte) -5)).method517(aBool8076, class12, (byte) -79);
 					if (class180 != null)
 						class180s[i_55_++] = class180;
 				} else if ((i_57_ & ~0x7fffffff) != 0) {

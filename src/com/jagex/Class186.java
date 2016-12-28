@@ -3,14 +3,14 @@
  */
 package com.jagex;
 
-public class Class186 implements DefinitionI, Interface7 {
+public class Class186 implements ConfigType, Interface7 {
 	public boolean[] aBoolArray2126;
 
 	public void method58(int i) {
 		/* empty */
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
@@ -28,7 +28,7 @@ public class Class186 implements DefinitionI, Interface7 {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

@@ -32,7 +32,7 @@ public abstract class Class153 implements Interface14 {
 		return true;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)

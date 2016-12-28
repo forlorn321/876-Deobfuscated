@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class248 implements DefinitionI {
+public class Class248 implements ConfigType {
 	int anInt2478;
 	Interface12 anInterface12_2479;
 	public int anInt2480;
@@ -184,7 +184,7 @@ public class Class248 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		if (null != anIntArray2497) {
 			for (int i_14_ = 0; i_14_ < anIntArray2497.length; i_14_ += 2) {
 				if (anIntArray2497[i_14_] < -10405275 * anInt2507)
@@ -444,7 +444,7 @@ public class Class248 implements DefinitionI {
 		}
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_37_ = class536_sub33.readUnsignedByte();
 			if (i_37_ == 0)

@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class277 implements DefinitionI {
+public class Class277 implements ConfigType {
 	public String[] aStringArray3026;
 	public String aString3027;
 	public String aString3028;
@@ -28,7 +28,7 @@ public class Class277 implements DefinitionI {
 	public int anInt3047 = 0;
 	public int anInt3048;
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
@@ -478,7 +478,7 @@ public class Class277 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		if (null == aString3028)
 			aString3028 = aString3027;
 	}

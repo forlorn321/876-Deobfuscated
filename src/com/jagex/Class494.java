@@ -181,7 +181,7 @@ public class Class494 {
 								int i_51_ = 0;
 								Class536_Sub6 class536_sub6 = ((Class536_Sub6) class536_sub9.aClass708_10433.method8309(2096815466));
 								while (null != class536_sub6) {
-									ItemDefinitions class1 = ((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((class536_sub6.anInt10419 * 1696543099), (byte) 51)));
+									ItemTypeDecoder class1 = ((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((class536_sub6.anInt10419 * 1696543099), (byte) 51)));
 									int i_52_;
 									if (class1.aBool84)
 										i_52_ = class1.anInt40 * 676567643;

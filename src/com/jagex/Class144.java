@@ -66,7 +66,7 @@ public class Class144 implements Interface75 {
 
 	static final void method1793(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 45)).equipLookHideSlot2 * -2135676771);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 45)).equipLookHideSlot2 * -2135676771);
 	}
 
 	static final void method1794(Class668 class668, int i) {

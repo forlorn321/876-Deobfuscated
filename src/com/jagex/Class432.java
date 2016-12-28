@@ -95,9 +95,9 @@ public class Class432 implements Interface5 {
 		int i_4_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
 		Class73 class73 = ((Class73) Class207.aClass34_Sub22_2244.method70(i_4_, (byte) -24));
 		if (class73.method1128((byte) 121))
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 48)).method512(i_4_, class73.aString805, 599123255);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) 48)).method512(i_4_, class73.aString805, 599123255);
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) -34)).method510(i_4_, 1566477951 * class73.anInt803, (byte) 116));
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_3_, (byte) -34)).method510(i_4_, 1566477951 * class73.anInt803, (byte) 116));
 	}
 
 	static final void method5187(Class668 class668, int i) {

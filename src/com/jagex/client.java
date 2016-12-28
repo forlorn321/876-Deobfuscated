@@ -2415,7 +2415,7 @@ public final class client extends GameShell {
 		Class183_Sub2.aClass449_9812 = new Class449(Class23.aClass5_220.aString112, Class23.aClass5_220.anInt110 * -843966029, 273023065 * aClass670_11043.anInt8567);
 		if (aClass670_11043 == GameMode.aClass670_8568)
 			aBool11197 = false;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
+		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemTypeDecoder.aShortArray14 = new short[256];
 		try {
 			Class400.aClipboard4137 = Class300.method4022((byte) 0).getToolkit().getSystemClipboard();
 		} catch (Exception exception) {
@@ -2485,7 +2485,7 @@ public final class client extends GameShell {
 		Class183_Sub2.aClass449_9812 = new Class449(Class23.aClass5_220.aString112, Class23.aClass5_220.anInt110 * -843966029, 273023065 * aClass670_11043.anInt8567);
 		if (aClass670_11043 == GameMode.aClass670_8568)
 			aBool11197 = false;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
+		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemTypeDecoder.aShortArray14 = new short[256];
 		try {
 			Class400.aClipboard4137 = Class300.method4022((byte) 0).getToolkit().getSystemClipboard();
 		} catch (Exception exception) {
@@ -2555,7 +2555,7 @@ public final class client extends GameShell {
 		Class183_Sub2.aClass449_9812 = new Class449(Class23.aClass5_220.aString112, Class23.aClass5_220.anInt110 * -843966029, 273023065 * aClass670_11043.anInt8567);
 		if (aClass670_11043 == GameMode.aClass670_8568)
 			aBool11197 = false;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
+		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemTypeDecoder.aShortArray14 = new short[256];
 		try {
 			Class400.aClipboard4137 = Class300.method4022((byte) 0).getToolkit().getSystemClipboard();
 		} catch (Exception exception) {
@@ -3890,7 +3890,7 @@ public final class client extends GameShell {
 
 	static final void method10419() {
 		for (Class521_Sub5 class521_sub5 = (Class521_Sub5) aClass695_11131.method8213(-1423263947); class521_sub5 != null; class521_sub5 = (Class521_Sub5) aClass695_11131.method8213(-1423263947))
-			ItemDefinitions.method524(class521_sub5, (byte) 19);
+			ItemTypeDecoder.method524(class521_sub5, (byte) 19);
 		int i = 0;
 		int i_201_ = 3;
 		if (1542697723 * anInt11074 == 4) {
@@ -4770,7 +4770,7 @@ public final class client extends GameShell {
 		Class183_Sub2.aClass449_9812 = new Class449(Class23.aClass5_220.aString112, Class23.aClass5_220.anInt110 * -843966029, 273023065 * aClass670_11043.anInt8567);
 		if (aClass670_11043 == GameMode.aClass670_8568)
 			aBool11197 = false;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
+		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemTypeDecoder.aShortArray14 = new short[256];
 		try {
 			Class400.aClipboard4137 = Class300.method4022((byte) 0).getToolkit().getSystemClipboard();
 		} catch (Exception exception) {

@@ -6,11 +6,11 @@ package com.jagex;
 public class Class76_Sub1 extends Class76 {
 	static int anInt10981;
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class56(i, this);
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class56(i, this);
 	}
 
@@ -18,7 +18,7 @@ public class Class76_Sub1 extends Class76 {
 		return com.jagex.Class56.class;
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class56(i, this);
 	}
 

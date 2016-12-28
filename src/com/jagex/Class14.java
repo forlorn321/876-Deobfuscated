@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class14 implements DefinitionI, Interface7 {
+public class Class14 implements ConfigType, Interface7 {
 	Class453[][] aClass453ArrayArray162;
 	Object[][] anObjectArrayArray163;
 	public static Class461 aClass461_164;
@@ -12,12 +12,12 @@ public class Class14 implements DefinitionI, Interface7 {
 		/* empty */
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer buffer) {
 		for (;;) {
-			int i_0_ = class536_sub33.readUnsignedByte();
+			int i_0_ = buffer.readUnsignedByte();
 			if (0 == i_0_)
 				break;
-			method625(class536_sub33, i_0_, 2136956551);
+			method625(buffer, i_0_, 2136956551);
 		}
 	}
 
@@ -74,7 +74,7 @@ public class Class14 implements DefinitionI, Interface7 {
 		/* empty */
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

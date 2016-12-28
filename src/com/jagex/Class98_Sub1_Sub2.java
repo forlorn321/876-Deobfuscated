@@ -15,11 +15,11 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 		byte[] is = aClass461_11332.method5556((aClass458_8868.method5498(1026582322).id) * 1716263195, i, (byte) 1);
 		Class153_Sub2 class153_sub2 = new Class153_Sub2(aClass458_8868, i);
 		if (null != is)
-			class153_sub2.method74(new RSByteBuffer(is), -2120215925);
+			class153_sub2.decodeType(new RSByteBuffer(is));
 		return class153_sub2;
 	}
 
-	public DefinitionI method70(int i, byte i_1_) {
+	public ConfigType method70(int i, byte i_1_) {
 		Class153_Sub2 class153_sub2;
 		synchronized (aClass199_11333) {
 			class153_sub2 = (Class153_Sub2) aClass199_11333.method2886((long) i);
@@ -118,7 +118,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 		return new Class620(this);
 	}
 
-	public DefinitionI method72(int i) {
+	public ConfigType method72(int i) {
 		Class153_Sub2 class153_sub2;
 		synchronized (aClass199_11333) {
 			class153_sub2 = (Class153_Sub2) aClass199_11333.method2886((long) i);

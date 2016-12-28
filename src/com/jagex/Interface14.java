@@ -3,5 +3,5 @@
  */
 package com.jagex;
 
-public interface Interface14 extends DefinitionI {
+public interface Interface14 extends ConfigType {
 }

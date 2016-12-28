@@ -47,15 +47,15 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 	}
 
 	int method9951() {
-		ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -55));
+		ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -55));
 		int i = 2072089921 * class1.anInt81;
 		if (anInt12134 * -1536784811 != -1) {
-			ItemDefinitions class1_0_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -1);
+			ItemTypeDecoder class1_0_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -1);
 			if (class1_0_.anInt81 * 2072089921 > i)
 				i = 2072089921 * class1_0_.anInt81;
 		}
 		if (-1 != anInt12124 * 1015387979) {
-			ItemDefinitions class1_1_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 40);
+			ItemTypeDecoder class1_1_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 40);
 			if (class1_1_.anInt81 * 2072089921 > i)
 				i = 2072089921 * class1_1_.anInt81;
 		}
@@ -135,7 +135,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		aBool12131 = false;
 		anInt12130 = 0;
 		if (-1 != anInt12124 * 1015387979) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -5)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -50));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -5)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -50));
 			if (null != class177) {
 				if (aClass433_12128 == null)
 					aClass433_12126.method5193();
@@ -148,7 +148,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1536784811 * anInt12134 != -1) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -30)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) 42));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -30)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) 42));
 			if (null != class177) {
 				if (aClass433_12127 == null)
 					aClass433_12126.method5193();
@@ -161,7 +161,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 					anInt12130 = class177.method2579() * 904534801;
 			}
 		}
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -22)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 41));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -22)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 41));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -181,15 +181,15 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 	}
 
 	int method9954(int i) {
-		ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -7));
+		ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -7));
 		int i_27_ = 2072089921 * class1.anInt81;
 		if (anInt12134 * -1536784811 != -1) {
-			ItemDefinitions class1_28_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -80);
+			ItemTypeDecoder class1_28_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -80);
 			if (class1_28_.anInt81 * 2072089921 > i_27_)
 				i_27_ = 2072089921 * class1_28_.anInt81;
 		}
 		if (-1 != anInt12124 * 1015387979) {
-			ItemDefinitions class1_29_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 23);
+			ItemTypeDecoder class1_29_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 23);
 			if (class1_29_.anInt81 * 2072089921 > i_27_)
 				i_27_ = 2072089921 * class1_29_.anInt81;
 		}
@@ -200,7 +200,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		Class433 class433 = class167.method2091();
 		class433.method5191(method7837());
 		class433.method5200(0.0F, -10.0F, 0.0F);
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -13)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) -4));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -13)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) -4));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -211,7 +211,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 				return true;
 		}
 		if (-1 != anInt12134 * -1536784811) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -42)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 28));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -42)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 28));
 			if (class177 != null) {
 				if (null == aClass433_12127)
 					aClass433_12126.method5193();
@@ -223,7 +223,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1 != 1015387979 * anInt12124) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 10)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) 35));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 10)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) 35));
 			if (class177 != null) {
 				if (null == aClass433_12128)
 					aClass433_12126.method5193();
@@ -346,7 +346,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		aBool12131 = false;
 		anInt12130 = 0;
 		if (-1 != anInt12124 * 1015387979) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 13)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 86));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 13)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 86));
 			if (null != class177) {
 				if (aClass433_12128 == null)
 					aClass433_12126.method5193();
@@ -359,7 +359,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1536784811 * anInt12134 != -1) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -81)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) 13));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -81)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) 13));
 			if (null != class177) {
 				if (aClass433_12127 == null)
 					aClass433_12126.method5193();
@@ -372,7 +372,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 					anInt12130 = class177.method2579() * 904534801;
 			}
 		}
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 3)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -20));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 3)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -20));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -452,7 +452,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		aBool12131 = false;
 		anInt12130 = 0;
 		if (-1 != anInt12124 * 1015387979) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -15)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -37));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -15)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -37));
 			if (null != class177) {
 				if (aClass433_12128 == null)
 					aClass433_12126.method5193();
@@ -465,7 +465,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1536784811 * anInt12134 != -1) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) 57)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) -90));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) 57)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) -90));
 			if (null != class177) {
 				if (aClass433_12127 == null)
 					aClass433_12126.method5193();
@@ -478,7 +478,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 					anInt12130 = class177.method2579() * 904534801;
 			}
 		}
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 57)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -27));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 57)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -27));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -524,7 +524,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		Class433 class433 = class167.method2091();
 		class433.method5191(method7837());
 		class433.method5200(0.0F, -10.0F, 0.0F);
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -9)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) 27));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -9)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) 27));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -535,7 +535,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 				return true;
 		}
 		if (-1 != anInt12134 * -1536784811) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) 13)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 20));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) 13)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 20));
 			if (class177 != null) {
 				if (null == aClass433_12127)
 					aClass433_12126.method5193();
@@ -547,7 +547,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1 != 1015387979 * anInt12124) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -25)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) 62));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) -25)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) 62));
 			if (class177 != null) {
 				if (null == aClass433_12128)
 					aClass433_12126.method5193();
@@ -565,7 +565,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		Class433 class433 = class167.method2091();
 		class433.method5191(method7837());
 		class433.method5200(0.0F, -10.0F, 0.0F);
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 13)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) -55));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 13)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) -55));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -576,7 +576,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 				return true;
 		}
 		if (-1 != anInt12134 * -1536784811) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -78)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 41));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -78)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) 41));
 			if (class177 != null) {
 				if (null == aClass433_12127)
 					aClass433_12126.method5193();
@@ -588,7 +588,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1 != 1015387979 * anInt12124) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 44)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) -27));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 44)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) -27));
 			if (class177 != null) {
 				if (null == aClass433_12128)
 					aClass433_12126.method5193();
@@ -606,7 +606,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		Class433 class433 = class167.method2091();
 		class433.method5191(method7837());
 		class433.method5200(0.0F, -10.0F, 0.0F);
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -26)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) 10));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) -26)).method503(class167, 131072, 31691493 * anInt12121, null, null, 0, 0, 0, 0, (byte) 10));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -617,7 +617,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 				return true;
 		}
 		if (-1 != anInt12134 * -1536784811) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -19)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) -47));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -19)).method503(class167, 131072, anInt12123 * -425751775, null, null, 0, 0, 0, 0, (byte) -47));
 			if (class177 != null) {
 				if (null == aClass433_12127)
 					aClass433_12126.method5193();
@@ -629,7 +629,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1 != 1015387979 * anInt12124) {
-			class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 76)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) -80));
+			class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 76)).method503(class167, 131072, -1531432707 * anInt12125, null, null, 0, 0, 0, 0, (byte) -80));
 			if (class177 != null) {
 				if (null == aClass433_12128)
 					aClass433_12126.method5193();
@@ -708,7 +708,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		aBool12131 = false;
 		anInt12130 = 0;
 		if (-1 != anInt12124 * 1015387979) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 37)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -18));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(1015387979 * anInt12124, (byte) 37)).method503(class167, 526336, -1531432707 * anInt12125, null, null, 2108770015 * anInt12132, anInt12133 * -1084153159, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) -18));
 			if (null != class177) {
 				if (aClass433_12128 == null)
 					aClass433_12126.method5193();
@@ -721,7 +721,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 			}
 		}
 		if (-1536784811 * anInt12134 != -1) {
-			Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -12)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) -21));
+			Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -12)).method503(class167, 526336, -425751775 * anInt12123, null, null, anInt12132 * 2108770015, anInt12133 * -1084153159, anInt12135 * -1730253725, -121046035 * anInt12119, (byte) -21));
 			if (null != class177) {
 				if (aClass433_12127 == null)
 					aClass433_12126.method5193();
@@ -734,7 +734,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 					anInt12130 = class177.method2579() * 904534801;
 			}
 		}
-		Class177 class177 = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 43)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 20));
+		Class177 class177 = (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1572171437 * anInt12122, (byte) 43)).method503(class167, 526336, anInt12121 * 31691493, null, null, 2108770015 * anInt12132, -1084153159 * anInt12133, -1730253725 * anInt12135, anInt12119 * -121046035, (byte) 20));
 		if (class177 != null) {
 			if (null == aClass433_12120)
 				aClass433_12126.method5193();
@@ -764,15 +764,15 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 	}
 
 	int method9977() {
-		ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -16));
+		ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12122 * -1572171437, (byte) -16));
 		int i = 2072089921 * class1.anInt81;
 		if (anInt12134 * -1536784811 != -1) {
-			ItemDefinitions class1_111_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -10);
+			ItemTypeDecoder class1_111_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(-1536784811 * anInt12134, (byte) -10);
 			if (class1_111_.anInt81 * 2072089921 > i)
 				i = 2072089921 * class1_111_.anInt81;
 		}
 		if (-1 != anInt12124 * 1015387979) {
-			ItemDefinitions class1_112_ = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 51);
+			ItemTypeDecoder class1_112_ = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(anInt12124 * 1015387979, (byte) 51);
 			if (class1_112_.anInt81 * 2072089921 > i)
 				i = 2072089921 * class1_112_.anInt81;
 		}

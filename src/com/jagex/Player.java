@@ -1048,7 +1048,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		anInt12191 = 0;
 		int[] is = new int[Class71.aClass631_796.anIntArray8241.length];
 		Class12[] class12s = new Class12[Class71.aClass631_796.anIntArray8241.length];
-		ItemDefinitions[] class1s = new ItemDefinitions[Class71.aClass631_796.anIntArray8241.length];
+		ItemTypeDecoder[] class1s = new ItemTypeDecoder[Class71.aClass631_796.anIntArray8241.length];
 		for (int i_125_ = 0; i_125_ < Class71.aClass631_796.anIntArray8241.length; i_125_++) {
 			if (Class71.aClass631_796.anIntArray8241[i_125_] != 1) {
 				int i_126_ = stream.readUnsignedByte();
@@ -1065,7 +1065,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 					if (i_128_ >= 16384) {
 						i_128_ -= 16384;
 						is[i_125_] = i_128_ | 0x40000000;
-						class1s[i_125_] = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_128_, (byte) 77);
+						class1s[i_125_] = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_128_, (byte) 77);
 						int i_129_ = class1s[i_125_].teamId * 755426589;
 						if (0 != i_129_)
 							anInt12191 = -554265225 * i_129_;

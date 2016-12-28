@@ -581,7 +581,7 @@ public class Class184_Sub1 extends Class184 {
 		int i_186_ = 0;
 		for (int i_187_ = 0; i_187_ < class536_sub1.anIntArray10304.length; i_187_++) {
 			if (class536_sub1.anIntArray10304[i_187_] >= 0 && (class536_sub1.anIntArray10304[i_187_] < Class111.aClass34_Sub13_1391.anInt290 * 2103424577)) {
-				ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70((class536_sub1.anIntArray10304[i_187_]), (byte) 15));
+				ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70((class536_sub1.anIntArray10304[i_187_]), (byte) 15));
 				int i_188_ = class1.method510(i_183_, (((Class73) Class207.aClass34_Sub22_2244.method70(i_183_, (byte) 64)).anInt803) * 1566477951, (byte) 115);
 				if (bool)
 					i_186_ += class536_sub1.anIntArray10300[i_187_] * i_188_;

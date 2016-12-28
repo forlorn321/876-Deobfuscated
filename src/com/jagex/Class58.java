@@ -10,10 +10,10 @@ public class Class58 implements Interface6 {
 		aClass611 = var_class;
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
-		DefinitionI interface13;
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
+		ConfigType interface13;
 		try {
-			DefinitionI interface13_1_ = (DefinitionI) aClass611.newInstance();
+			ConfigType interface13_1_ = (ConfigType) aClass611.newInstance();
 			((Interface7) interface13_1_).method59(i, -1031550949);
 			interface13 = interface13_1_;
 		} catch (Exception exception) {
@@ -31,10 +31,10 @@ public class Class58 implements Interface6 {
 		return aClass611;
 	}
 
-	public DefinitionI method54(int i, Interface12 interface12) {
-		DefinitionI interface13;
+	public ConfigType method54(int i, Interface12 interface12) {
+		ConfigType interface13;
 		try {
-			DefinitionI interface13_2_ = (DefinitionI) aClass611.newInstance();
+			ConfigType interface13_2_ = (ConfigType) aClass611.newInstance();
 			((Interface7) interface13_2_).method59(i, -1031550949);
 			interface13 = interface13_2_;
 		} catch (Exception exception) {
@@ -44,10 +44,10 @@ public class Class58 implements Interface6 {
 		return interface13;
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
-		DefinitionI interface13;
+	public ConfigType method53(int i, Interface12 interface12) {
+		ConfigType interface13;
 		try {
-			DefinitionI interface13_3_ = (DefinitionI) aClass611.newInstance();
+			ConfigType interface13_3_ = (ConfigType) aClass611.newInstance();
 			((Interface7) interface13_3_).method59(i, -1031550949);
 			interface13 = interface13_3_;
 		} catch (Exception exception) {

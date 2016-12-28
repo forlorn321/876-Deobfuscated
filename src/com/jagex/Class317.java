@@ -64,7 +64,7 @@ public class Class317 {
 		if (class536_sub1 == null)
 			return 0;
 		for (int i_10_ = 0; i_10_ < class536_sub1.anIntArray10304.length; i_10_++) {
-			if (class536_sub1.anIntArray10304[i_10_] >= 0 && (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70((class536_sub1.anIntArray10304[i_10_]), (byte) -53)).anInt18 * -1423460053) == i_7_)
+			if (class536_sub1.anIntArray10304[i_10_] >= 0 && (((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70((class536_sub1.anIntArray10304[i_10_]), (byte) -53)).anInt18 * -1423460053) == i_7_)
 				i_9_ += Class200.method2915(i, i_10_, bool, (byte) 51);
 		}
 		return i_9_;

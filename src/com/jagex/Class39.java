@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Class39 implements DefinitionI, Interface7 {
+public class Class39 implements ConfigType, Interface7 {
 	public Class453 aClass453_482;
 	public Class453 aClass453_483;
 	String aString484 = "null";
@@ -21,7 +21,7 @@ public class Class39 implements DefinitionI, Interface7 {
 	Object[] anObjectArray489;
 	public static Class450 aClass450_490;
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
@@ -288,7 +288,7 @@ public class Class39 implements DefinitionI, Interface7 {
 		return anInt487 * -50029819;
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

@@ -1085,7 +1085,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (4 == modelType * 1939619399) {
-			ItemDefinitions class1 = ((ItemDefinitions) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
+			ItemTypeDecoder class1 = ((ItemTypeDecoder) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
 			Class177 class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
 			if (null == class177) {
 				aBool2724 = true;

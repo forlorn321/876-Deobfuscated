@@ -112,7 +112,7 @@ public class Class231 {
 
 	static final void method3318(Class668 class668, int i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_6_, (byte) 67);
+		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_6_, (byte) 67);
 		if (-1 == class1.anInt64 * 208949951 && 989214201 * class1.anInt67 >= 0)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 989214201 * class1.anInt67;
 		else

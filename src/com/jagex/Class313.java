@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class313 implements DefinitionI {
+public class Class313 implements ConfigType {
 	short[] aShortArray3488;
 	byte[] aByteArray3489;
 	short[] aShortArray3490;
@@ -138,7 +138,7 @@ public class Class313 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 
@@ -408,7 +408,7 @@ public class Class313 implements DefinitionI {
 		}
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_92_ = class536_sub33.readUnsignedByte();
 			if (0 == i_92_)

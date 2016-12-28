@@ -26,7 +26,7 @@ public class Class588 {
 			throw new RuntimeException();
 	}
 
-	public static Class12 method7084(ItemDefinitions class1, RSByteBuffer class536_sub33, int i) {
+	public static Class12 method7084(ItemTypeDecoder class1, RSByteBuffer class536_sub33, int i) {
 		return Class275.method3736(class1, class536_sub33, 2, 1614127484);
 	}
 

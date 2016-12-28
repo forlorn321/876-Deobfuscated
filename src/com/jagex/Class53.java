@@ -10,8 +10,8 @@ public class Class53 implements Interface12 {
 	protected int anInt592;
 	JS5ConfigGroup aClass648_593;
 	Class461 aClass461_594;
-	DefinitionI[] anInterface13Array595;
-	DefinitionI anInterface13_596;
+	ConfigType[] anInterface13Array595;
+	ConfigType anInterface13_596;
 	Interface6 anInterface6_597;
 	public static Class385 aClass385_598;
 	static int anInt599;
@@ -35,8 +35,8 @@ public class Class53 implements Interface12 {
 			Object object = null;
 			byte[] is = Class634.method7549(aClass461_594, aClass648_593, i, (byte) 0);
 			if (is != null)
-				anInterface13Array595[i].method74(new RSByteBuffer(is), 1939855694);
-			anInterface13Array595[i].method75((byte) -2);
+				anInterface13Array595[i].decodeType(new RSByteBuffer(is));
+			anInterface13Array595[i].postDecode();
 		}
 	}
 
@@ -53,7 +53,7 @@ public class Class53 implements Interface12 {
 		aClass648_593 = class648;
 		aClass461_594 = class461;
 		anInt592 = Class191.method2840(aClass461_594, aClass648_593, 582895995) * -1639237859;
-		anInterface13Array595 = ((DefinitionI[]) Array.newInstance(anInterface6_597.method51(-1256188449), anInt592 * 171262773));
+		anInterface13Array595 = ((ConfigType[]) Array.newInstance(anInterface6_597.method51(-1256188449), anInt592 * 171262773));
 		if (bool) {
 			for (int i = 0; i < 171262773 * anInt592; i++)
 				method937(i, (byte) -46);
@@ -75,8 +75,8 @@ public class Class53 implements Interface12 {
 			Object object = null;
 			byte[] is = Class634.method7549(aClass461_594, aClass648_593, i, (byte) 0);
 			if (is != null)
-				anInterface13Array595[i].method74(new RSByteBuffer(is), 187801778);
-			anInterface13Array595[i].method75((byte) -79);
+				anInterface13Array595[i].decodeType(new RSByteBuffer(is));
+			anInterface13Array595[i].postDecode();
 		}
 	}
 
@@ -84,7 +84,7 @@ public class Class53 implements Interface12 {
 		return new Class68(this);
 	}
 
-	public DefinitionI method70(int i, byte i_1_) {
+	public ConfigType method70(int i, byte i_1_) {
 		if (i < 0) {
 			if (anInterface13_596 == null)
 				anInterface13_596 = anInterface6_597.method55(-1, this, 1096864548);
@@ -110,12 +110,12 @@ public class Class53 implements Interface12 {
 			Object object = null;
 			byte[] is = Class634.method7549(aClass461_594, aClass648_593, i, (byte) 0);
 			if (is != null)
-				anInterface13Array595[i].method74(new RSByteBuffer(is), -1424962750);
-			anInterface13Array595[i].method75((byte) 41);
+				anInterface13Array595[i].decodeType(new RSByteBuffer(is));
+			anInterface13Array595[i].postDecode();
 		}
 	}
 
-	public DefinitionI method72(int i) {
+	public ConfigType method72(int i) {
 		if (i < 0) {
 			if (anInterface13_596 == null)
 				anInterface13_596 = anInterface6_597.method55(-1, this, 1513290346);

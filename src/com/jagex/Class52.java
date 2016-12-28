@@ -87,7 +87,7 @@ public class Class52 implements Interface75 {
 							class649_sub1_sub1_sub1.aClass433_12120 = class433_8_;
 						else if ((class649_sub1_sub1_sub1.anInt12122 * -1572171437) == i_7_)
 							class649_sub1_sub1_sub1.aClass433_12120 = class433_9_;
-						else if (((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((class649_sub1_sub1_sub1.anInt12122 * -1572171437), (byte) 110))).aBool49)
+						else if (((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((class649_sub1_sub1_sub1.anInt12122 * -1572171437), (byte) 110))).aBool49)
 							class649_sub1_sub1_sub1.aClass433_12120 = Class640.method7676(-2129701817);
 						else
 							class649_sub1_sub1_sub1.aClass433_12120 = null;
@@ -99,7 +99,7 @@ public class Class52 implements Interface75 {
 							class649_sub1_sub1_sub1.aClass433_12127 = class433;
 						else if ((-1536784811 * class649_sub1_sub1_sub1.anInt12134) == i_7_)
 							class649_sub1_sub1_sub1.aClass433_12127 = class433_9_;
-						else if (((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((-1536784811 * class649_sub1_sub1_sub1.anInt12134), (byte) 50))).aBool49)
+						else if (((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((-1536784811 * class649_sub1_sub1_sub1.anInt12134), (byte) 50))).aBool49)
 							class649_sub1_sub1_sub1.aClass433_12127 = Class640.method7676(-2129701817);
 						else
 							class649_sub1_sub1_sub1.aClass433_12127 = null;
@@ -111,7 +111,7 @@ public class Class52 implements Interface75 {
 							class649_sub1_sub1_sub1.aClass433_12128 = class433;
 						else if ((class649_sub1_sub1_sub1.anInt12124 * 1015387979) == i_6_)
 							class649_sub1_sub1_sub1.aClass433_12128 = class433_8_;
-						else if (((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((1015387979 * class649_sub1_sub1_sub1.anInt12124), (byte) 16))).aBool49)
+						else if (((ItemTypeDecoder) (Class111.aClass34_Sub13_1391.method70((1015387979 * class649_sub1_sub1_sub1.anInt12124), (byte) 16))).aBool49)
 							class649_sub1_sub1_sub1.aClass433_12128 = Class640.method7676(-2129701817);
 						else
 							class649_sub1_sub1_sub1.aClass433_12128 = null;

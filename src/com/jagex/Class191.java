@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class191 implements DefinitionI {
+public class Class191 implements ConfigType {
 	public boolean aBool2152;
 	Class206 aClass206_2153;
 	public int anInt2154;
@@ -50,7 +50,7 @@ public class Class191 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		if (-1 == -833363861 * anInt2167) {
 			if (null != aClass186_2171 && null != aClass186_2171.aBoolArray2126)
 				anInt2167 = 986421382;
@@ -70,7 +70,7 @@ public class Class191 implements DefinitionI {
 		}
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_1_ = class536_sub33.readUnsignedByte();
 			if (0 == i_1_)

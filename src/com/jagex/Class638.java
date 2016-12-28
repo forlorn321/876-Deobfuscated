@@ -9,7 +9,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Random;
 
-public class Class638 implements DefinitionI {
+public class Class638 implements ConfigType {
 	int anInt8302;
 	Class645 aClass645_8303;
 	public int anInt8304;
@@ -19,7 +19,7 @@ public class Class638 implements DefinitionI {
 		/* empty */
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (i_0_ == 0)
@@ -47,7 +47,7 @@ public class Class638 implements DefinitionI {
 		return class179;
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

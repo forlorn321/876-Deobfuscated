@@ -8,7 +8,7 @@ public class Class309_Sub1 extends Class309 {
 		super(bool, class461, class664, class670);
 	}
 
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class296(i, this, interface12);
 	}
 
@@ -16,11 +16,11 @@ public class Class309_Sub1 extends Class309 {
 		return com.jagex.Class296.class;
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class296(i, this, interface12);
 	}
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class296(i, this, interface12);
 	}
 

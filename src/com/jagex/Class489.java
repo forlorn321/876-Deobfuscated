@@ -101,7 +101,7 @@ public class Class489 {
 		LinkedList linkedlist = new LinkedList();
 		LinkedList linkedlist_6_ = new LinkedList();
 		for (int i_7_ = 0; i_7_ < Class111.aClass34_Sub13_1391.anInt290 * 2103424577; i_7_++) {
-			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -2));
+			ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -2));
 			if ((!bool || class1.tradeable) && class1.certTemplateId * 79208069 == -1 && class1.lendTemplateId * -1494720165 == -1 && -1 == class1.bindTemplateId * -377039411 && -32062435 * class1.anInt78 == 0 && class1.name.toLowerCase().indexOf(string) != -1) {
 				if (linkedlist.size() >= 250)
 					return -1;

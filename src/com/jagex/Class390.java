@@ -64,7 +64,7 @@ public class Class390 {
 			class251.anInt2711 = i_4_ * -180322533;
 			class251.anInt2712 = -1232317485 * i_5_;
 			class251.aBool2671 = bool;
-			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
+			ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
 			class251.xan2d = -1128581953 * class1.modelRotation1;
 			class251.yan2d = -1144059129 * class1.modelRotation2;
 			class251.zan2d = 497715903 * class1.anInt31;

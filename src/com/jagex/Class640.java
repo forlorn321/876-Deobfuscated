@@ -28,7 +28,7 @@ final class Class640 implements Runnable {
 		class668.anInt8542 -= 1472892954;
 		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_1_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] - 1;
-		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_0_, (byte) 37);
+		ItemTypeDecoder class1 = (ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_0_, (byte) 37);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class1.method508(i_1_, 1319985609);
 	}
 

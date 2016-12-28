@@ -3,14 +3,14 @@
  */
 package com.jagex;
 
-public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, Interface7 {
+public class Class536_Sub18_Sub2 extends Class536_Sub18 implements ConfigType, Interface7 {
 	Class4 aClass4_11331;
 
 	Class536_Sub18_Sub2() {
 		/* empty */
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_0_ = class536_sub33.readUnsignedByte();
 			if (0 == i_0_)
@@ -131,7 +131,7 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

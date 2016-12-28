@@ -2557,7 +2557,7 @@ public class PacketDecoder {
 				i_444_ = -1;
 			Class307.method4133();
 			Class216.method3094(i_442_, i_444_, i_443_, -413124118);
-			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
+			ItemTypeDecoder class1 = ((ItemTypeDecoder) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
 			Class504_Sub1.method9322(i_442_, class1.modelRotation1 * 211736907, 824706077 * class1.modelRotation2, -1906278051 * class1.modelZoom, (byte) -34);
 			Class706_Sub4.method10317(i_442_, class1.modelOffset1 * 814524581, class1.modelOffset2 * -1832345149, class1.anInt31 * -751322115, 1021240981);
 			class106.currentPacket = null;

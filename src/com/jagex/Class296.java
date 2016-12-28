@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class296 implements DefinitionI {
+public class Class296 implements ConfigType {
 	public boolean aBool3265;
 	public static final int anInt3266 = 8;
 	public static short[] aShortArray3267 = new short[256];
@@ -338,7 +338,7 @@ public class Class296 implements DefinitionI {
 		}
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_37_ = class536_sub33.readUnsignedByte();
 			if (i_37_ == 0)
@@ -603,7 +603,7 @@ public class Class296 implements DefinitionI {
 		}
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		if (null == anIntArray3317)
 			anIntArray3317 = new int[0];
 		if (-1 == aByte3331) {

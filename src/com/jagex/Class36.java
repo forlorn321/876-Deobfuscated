@@ -12,9 +12,9 @@ class Class36 implements Iterator {
 	public Object method824() {
 		int i = (anInt300 += 40493621) * -433594339 - 1;
 		synchronized (this$0.aClass199_287) {
-			DefinitionI interface13 = (DefinitionI) this$0.aClass199_287.method2886((long) i);
+			ConfigType interface13 = (ConfigType) this$0.aClass199_287.method2886((long) i);
 			if (interface13 != null) {
-				DefinitionI interface13_0_ = interface13;
+				ConfigType interface13_0_ = interface13;
 				return interface13_0_;
 			}
 		}
@@ -28,9 +28,9 @@ class Class36 implements Iterator {
 	public Object next() {
 		int i = (anInt300 += 40493621) * -433594339 - 1;
 		synchronized (this$0.aClass199_287) {
-			DefinitionI interface13 = (DefinitionI) this$0.aClass199_287.method2886((long) i);
+			ConfigType interface13 = (ConfigType) this$0.aClass199_287.method2886((long) i);
 			if (interface13 != null) {
-				DefinitionI interface13_1_ = interface13;
+				ConfigType interface13_1_ = interface13;
 				return interface13_1_;
 			}
 		}
@@ -56,9 +56,9 @@ class Class36 implements Iterator {
 	public Object method827() {
 		int i = (anInt300 += 40493621) * -433594339 - 1;
 		synchronized (this$0.aClass199_287) {
-			DefinitionI interface13 = (DefinitionI) this$0.aClass199_287.method2886((long) i);
+			ConfigType interface13 = (ConfigType) this$0.aClass199_287.method2886((long) i);
 			if (interface13 != null) {
-				DefinitionI interface13_2_ = interface13;
+				ConfigType interface13_2_ = interface13;
 				return interface13_2_;
 			}
 		}

@@ -184,10 +184,10 @@ public class Class60 implements Runnable {
 
 	static String colorifyItemAmount(int amount, Class664 class664, Class628 class628, int i_2_) {
 		if (amount < 100000)
-			return new StringBuilder().append(Class225.getColorFormatString(2025138957 * class628.defaultColor)).append(amount).append(ItemDefinitions.colorPostfix).toString();
+			return new StringBuilder().append(Class225.getColorFormatString(2025138957 * class628.defaultColor)).append(amount).append(ItemTypeDecoder.colorPostfix).toString();
 		if (amount < 10000000)
-			return new StringBuilder().append(Class225.getColorFormatString(35026845 * class628.above100kColor)).append(amount / 1000).append(Class38.aClass38_448.method840(class664, 1539562207)).append(ItemDefinitions.colorPostfix).toString();
-		return new StringBuilder().append(Class225.getColorFormatString(2095590335 * class628.above10mColor)).append(amount / 1000000).append(Class38.aClass38_446.method840(class664, 1561493254)).append(ItemDefinitions.colorPostfix).toString();
+			return new StringBuilder().append(Class225.getColorFormatString(35026845 * class628.above100kColor)).append(amount / 1000).append(Class38.aClass38_448.method840(class664, 1539562207)).append(ItemTypeDecoder.colorPostfix).toString();
+		return new StringBuilder().append(Class225.getColorFormatString(2095590335 * class628.above10mColor)).append(amount / 1000000).append(Class38.aClass38_446.method840(class664, 1561493254)).append(ItemTypeDecoder.colorPostfix).toString();
 	}
 
 	static void method999(File file, byte[] is, int i, int i_3_) throws IOException {

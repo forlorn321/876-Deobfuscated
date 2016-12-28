@@ -16,7 +16,7 @@ public class Class12 {
 	public short[] aShortArray155;
 	public short[] aShortArray156;
 
-	Class12(ItemDefinitions class1) {
+	Class12(ItemTypeDecoder class1) {
 		anIntArray149[0] = class1.maleEquip1 * -64038767;
 		anIntArray149[1] = 661594531 * class1.maleEquip2;
 		anIntArray149[2] = 1280785913 * class1.maleEquipModelId3;

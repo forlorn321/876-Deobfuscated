@@ -8,7 +8,8 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.util.Arrays;
 
-public class ItemDefinitions implements DefinitionI {
+public class ItemTypeDecoder implements ConfigType {
+	
 	static String colorPostfix;
 	int femaleEquip1;
 	public static short[] aShortArray14 = new short[256];
@@ -84,19 +85,19 @@ public class ItemDefinitions implements DefinitionI {
 	int[] anIntArray85;
 	byte[] aByteArray87;
 
-	void method497(ItemDefinitions class1_0_, ItemDefinitions class1_1_, Class664 class664, int i) {
+	void method497(ItemTypeDecoder class1_0_, ItemTypeDecoder class1_1_, Class664 class664, int i) {
 		method499(Class13.aClass13_158, class1_0_, class1_1_, Class38.aClass38_312, class664, (byte) 75);
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		if (certTemplateId * 79208069 != -1)
-			method500((ItemDefinitions) anInterface12_15.method70(certTemplateId * 79208069, (byte) 52), (ItemDefinitions) anInterface12_15.method70(1990739153 * certId, (byte) -27), aClass16_16.aClass664_176, -113470931);
+			method500((ItemTypeDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) 52), (ItemTypeDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -27), aClass16_16.aClass664_176, -113470931);
 		else if (-1494720165 * lendTemplateId != -1)
-			method497((ItemDefinitions) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -77), (ItemDefinitions) anInterface12_15.method70(515259213 * lendId, (byte) -112), aClass16_16.aClass664_176, -2018787355);
+			method497((ItemTypeDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -77), (ItemTypeDecoder) anInterface12_15.method70(515259213 * lendId, (byte) -112), aClass16_16.aClass664_176, -2018787355);
 		else if (-1 != bindTemplateId * -377039411)
-			method501((ItemDefinitions) anInterface12_15.method70(bindTemplateId * -377039411, (byte) 32), (ItemDefinitions) anInterface12_15.method70(1859340953 * bindId, (byte) 14), aClass16_16.aClass664_176, (byte) -107);
+			method501((ItemTypeDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) 32), (ItemTypeDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 14), aClass16_16.aClass664_176, (byte) -107);
 		else if (-1 != 208949951 * anInt64)
-			method502((ItemDefinitions) anInterface12_15.method70(208949951 * anInt64, (byte) -41), (ItemDefinitions) anInterface12_15.method70(anInt67 * 989214201, (byte) 38), aClass16_16.aClass664_176, (byte) -39);
+			method502((ItemTypeDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) -41), (ItemTypeDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) 38), aClass16_16.aClass664_176, (byte) -39);
 		if (!aClass16_16.aBool174 && membersOnly) {
 			teamId = 0;
 			groundOptions = aClass16_16.aStringArray182;
@@ -118,7 +119,7 @@ public class ItemDefinitions implements DefinitionI {
 		}
 	}
 
-	void method499(Class13 class13, ItemDefinitions class1_2_, ItemDefinitions class1_3_, Class38 class38, Class664 class664, byte i) {
+	void method499(Class13 class13, ItemTypeDecoder class1_2_, ItemTypeDecoder class1_3_, Class38 class38, Class664 class664, byte i) {
 		modelId = class1_2_.modelId * 1;
 		modelZoom = class1_2_.modelZoom * 1;
 		modelRotation1 = class1_2_.modelRotation1 * 1;
@@ -126,7 +127,7 @@ public class ItemDefinitions implements DefinitionI {
 		anInt31 = class1_2_.anInt31 * 1;
 		modelOffset1 = 1 * class1_2_.modelOffset1;
 		modelOffset2 = 1 * class1_2_.modelOffset2;
-		ItemDefinitions class1_4_ = Class13.aClass13_157 == class13 ? class1_2_ : class1_3_;
+		ItemTypeDecoder class1_4_ = Class13.aClass13_157 == class13 ? class1_2_ : class1_3_;
 		originalModelColors = class1_4_.originalModelColors;
 		modifiedModelColors = class1_4_.modifiedModelColors;
 		aByteArray87 = class1_4_.aByteArray87;
@@ -183,7 +184,7 @@ public class ItemDefinitions implements DefinitionI {
 		}
 	}
 
-	void method500(ItemDefinitions class1_6_, ItemDefinitions class1_7_, Class664 class664, int i) {
+	void method500(ItemTypeDecoder class1_6_, ItemTypeDecoder class1_7_, Class664 class664, int i) {
 		method499(Class13.aClass13_157, class1_6_, class1_7_, null, class664, (byte) 125);
 	}
 
@@ -196,11 +197,11 @@ public class ItemDefinitions implements DefinitionI {
 		}
 	}
 
-	void method501(ItemDefinitions class1_8_, ItemDefinitions class1_9_, Class664 class664, byte i) {
+	void method501(ItemTypeDecoder class1_8_, ItemTypeDecoder class1_9_, Class664 class664, byte i) {
 		method499(Class13.aClass13_159, class1_8_, class1_9_, Class38.aClass38_306, class664, (byte) 126);
 	}
 
-	void method502(ItemDefinitions class1_10_, ItemDefinitions class1_11_, Class664 class664, byte i) {
+	void method502(ItemTypeDecoder class1_10_, ItemTypeDecoder class1_11_, Class664 class664, byte i) {
 		method499(Class13.aClass13_160, class1_10_, class1_11_, Class38.aClass38_318, class664, (byte) 126);
 	}
 
@@ -212,7 +213,7 @@ public class ItemDefinitions implements DefinitionI {
 					i_18_ = stackIds[i_19_];
 			}
 			if (-1 != i_18_)
-				return (((ItemDefinitions) anInterface12_15.method70(i_18_, (byte) -38)).method503(class167, i, 1, class617, class688, i_13_, i_14_, i_15_, i_16_, (byte) -12));
+				return (((ItemTypeDecoder) anInterface12_15.method70(i_18_, (byte) -38)).method503(class167, i, 1, class617, class688, i_13_, i_14_, i_15_, i_16_, (byte) -12));
 		}
 		int i_20_ = i;
 		if (class688 != null)
@@ -285,7 +286,7 @@ public class ItemDefinitions implements DefinitionI {
 		return class177;
 	}
 
-	public ItemDefinitions method504(int i, int i_28_) {
+	public ItemTypeDecoder method504(int i, int i_28_) {
 		if (null != stackIds && i > 1) {
 			int i_29_ = -1;
 			for (int i_30_ = 0; i_30_ < 10; i_30_++) {
@@ -293,7 +294,7 @@ public class ItemDefinitions implements DefinitionI {
 					i_29_ = stackIds[i_30_];
 			}
 			if (i_29_ != -1)
-				return (ItemDefinitions) anInterface12_15.method70(i_29_, (byte) -6);
+				return (ItemTypeDecoder) anInterface12_15.method70(i_29_, (byte) -6);
 		}
 		return this;
 	}
@@ -406,7 +407,7 @@ public class ItemDefinitions implements DefinitionI {
 		return class180;
 	}
 
-	public void method74(RSByteBuffer class536_sub33, int i) {
+	public void decodeType(RSByteBuffer class536_sub33) {
 		for (;;) {
 			int i_71_ = class536_sub33.readUnsignedByte();
 			if (i_71_ == 0)
@@ -445,13 +446,13 @@ public class ItemDefinitions implements DefinitionI {
 
 	public void method77() {
 		if (certTemplateId * 79208069 != -1)
-			method500((ItemDefinitions) anInterface12_15.method70(certTemplateId * 79208069, (byte) -40), (ItemDefinitions) anInterface12_15.method70(1990739153 * certId, (byte) -72), aClass16_16.aClass664_176, -1247668190);
+			method500((ItemTypeDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) -40), (ItemTypeDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -72), aClass16_16.aClass664_176, -1247668190);
 		else if (-1494720165 * lendTemplateId != -1)
-			method497((ItemDefinitions) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -19), (ItemDefinitions) anInterface12_15.method70(515259213 * lendId, (byte) 10), aClass16_16.aClass664_176, -24657178);
+			method497((ItemTypeDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -19), (ItemTypeDecoder) anInterface12_15.method70(515259213 * lendId, (byte) 10), aClass16_16.aClass664_176, -24657178);
 		else if (-1 != bindTemplateId * -377039411)
-			method501((ItemDefinitions) anInterface12_15.method70(bindTemplateId * -377039411, (byte) -65), (ItemDefinitions) anInterface12_15.method70(1859340953 * bindId, (byte) 75), aClass16_16.aClass664_176, (byte) -106);
+			method501((ItemTypeDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) -65), (ItemTypeDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 75), aClass16_16.aClass664_176, (byte) -106);
 		else if (-1 != 208949951 * anInt64)
-			method502((ItemDefinitions) anInterface12_15.method70(208949951 * anInt64, (byte) 35), (ItemDefinitions) anInterface12_15.method70(anInt67 * 989214201, (byte) -34), aClass16_16.aClass664_176, (byte) -110);
+			method502((ItemTypeDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) 35), (ItemTypeDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) -34), aClass16_16.aClass664_176, (byte) -110);
 		if (!aClass16_16.aBool174 && membersOnly) {
 			teamId = 0;
 			groundOptions = aClass16_16.aStringArray182;
@@ -473,7 +474,7 @@ public class ItemDefinitions implements DefinitionI {
 		}
 	}
 
-	ItemDefinitions(int i, Interface12 interface12, Class16 class16) {
+	ItemTypeDecoder(int i, Interface12 interface12, Class16 class16) {
 		modelRotation2 = 0;
 		anInt31 = 0;
 		modelOffset1 = 0;

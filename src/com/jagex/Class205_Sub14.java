@@ -200,7 +200,7 @@ public class Class205_Sub14 extends Class205 {
 
 	static Class536_Sub18_Sub14 method9075(Class461 class461, int i, int i_20_) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(class461.method5556(0, i, (byte) 1));
-		return ItemDefinitions.method526(class536_sub33, i, -935823897);
+		return ItemTypeDecoder.method526(class536_sub33, i, -935823897);
 	}
 
 	static Class536_Sub18_Sub16 method9076(byte[] is, int i) {

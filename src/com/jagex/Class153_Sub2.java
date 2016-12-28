@@ -12,7 +12,7 @@ public class Class153_Sub2 extends Class153 {
 		/* empty */
 	}
 
-	public void method75(byte i) {
+	public void postDecode() {
 		/* empty */
 	}
 

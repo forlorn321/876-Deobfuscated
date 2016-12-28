@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class681_Sub1 extends Class681 {
-	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
+	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class677(i, this);
 	}
 
@@ -16,11 +16,11 @@ public class Class681_Sub1 extends Class681 {
 		super(class461);
 	}
 
-	public DefinitionI method53(int i, Interface12 interface12) {
+	public ConfigType method53(int i, Interface12 interface12) {
 		return new Class677(i, this);
 	}
 
-	public DefinitionI method54(int i, Interface12 interface12) {
+	public ConfigType method54(int i, Interface12 interface12) {
 		return new Class677(i, this);
 	}
 
