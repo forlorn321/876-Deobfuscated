@@ -493,7 +493,7 @@ public class Class306 implements Interface30 {
 		}
 	}
 
-	static final void method4122(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method4122(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -807866914) != null)
 			string = string.substring(0, string.length() - 1);
@@ -531,7 +531,7 @@ public class Class306 implements Interface30 {
 
 	static final void method4129(Class668 class668, int i) {
 		int i_49_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_49_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_49_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_49_ >> 16];
 		Class98_Sub1_Sub2.method10505(class251, class234, class668, -1374007248);
 	}

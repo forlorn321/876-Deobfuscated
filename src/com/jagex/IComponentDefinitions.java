@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class InterfaceDefinitions {
+public class IComponentDefinitions {
 	public static final int anInt2532 = 2;
 	public static int anInt2533;
 	public int dragRenderBehaviour;
@@ -25,7 +25,7 @@ public class InterfaceDefinitions {
 	public static final int anInt2550 = 5;
 	public int xan2d;
 	public static Class199 aClass199_2552;
-	public InterfaceDefinitions aClass251_2553;
+	public IComponentDefinitions aClass251_2553;
 	static Class199 aClass199_2554;
 	public Object[] onClickHook;
 	public String opBase;
@@ -197,8 +197,8 @@ public class InterfaceDefinitions {
 	public int[] anIntArray2722;
 	public int animId;
 	public static boolean aBool2724;
-	public InterfaceDefinitions[] aClass251Array2725;
-	public InterfaceDefinitions[] aClass251Array2726;
+	public IComponentDefinitions[] aClass251Array2725;
+	public IComponentDefinitions[] aClass251Array2726;
 	public boolean aBool2727;
 	public int anInt2728;
 	public int anInt2729;
@@ -226,9 +226,9 @@ public class InterfaceDefinitions {
 	}
 
 	void decode(RSByteBuffer buffer) {
-		int i_3_ = buffer.readUnsignedByte(); //version #?
-		if (i_3_ == 255)
-			i_3_ = -1;
+		int ifVersion = buffer.readUnsignedByte(); //version #?
+		if (ifVersion == 255)
+			ifVersion = -1;
 		anInt2728 = buffer.readUnsignedByte() * -611060941; //type of interface. string changes if value |= 0x80;
 		if ((anInt2728 * 1049444347 & 0x80) != 0) {
 			anInt2728 = (1049444347 * anInt2728 & 0x7f) * -611060941;
@@ -250,12 +250,12 @@ public class InterfaceDefinitions {
 			parentLayer = 1248497819 * ((-1591767037 * anInt2559 & ~0xffff) + -1940204141 * parentLayer);
 		int i_4_ = buffer.readUnsignedByte();
 		hidden = (i_4_ & 0x1) != 0;
-		if (i_3_ >= 0)
+		if (ifVersion >= 0)
 			noClickThrough = (i_4_ & 0x2) != 0;
 		if (1049444347 * anInt2728 == 0) {
 			anInt2585 = buffer.readUnsignedShort() * 1043826313;
 			anInt2586 = buffer.readUnsignedShort() * -114650895;
-			if (i_3_ < 0)
+			if (ifVersion < 0)
 				noClickThrough = buffer.readUnsignedByte() == 1;
 		}
 		if (5 == 1049444347 * anInt2728) {
@@ -270,7 +270,7 @@ public class InterfaceDefinitions {
 			vFlip = buffer.readUnsignedByte() == 1;
 			hFlip = buffer.readUnsignedByte() == 1;
 			colour = buffer.readInt() * 1647150685;
-			if (i_3_ >= 3)
+			if (ifVersion >= 3)
 				clickMask = buffer.readUnsignedByte() == 1;
 		}
 		if (1049444347 * anInt2728 == 6) {
@@ -305,7 +305,7 @@ public class InterfaceDefinitions {
 		}
 		if (anInt2728 * 1049444347 == 4) {
 			fontId = buffer.readBigSmart() * 1355450591;
-			if (i_3_ >= 2)
+			if (ifVersion >= 2)
 				fontMono = buffer.readUnsignedByte() == 1;
 			text = buffer.readString();
 			lineHeight = buffer.readUnsignedByte() * -1326793683;
@@ -314,7 +314,7 @@ public class InterfaceDefinitions {
 			textShadow = buffer.readUnsignedByte() == 1;
 			colour = buffer.readInt() * 1647150685;
 			transparency = buffer.readUnsignedByte() * 1266192547;
-			if (i_3_ >= 0)
+			if (ifVersion >= 0)
 				maxLines = buffer.readUnsignedByte() * -1108499687;
 		}
 		if (3 == 1049444347 * anInt2728) {
@@ -328,46 +328,46 @@ public class InterfaceDefinitions {
 			lineDirection = buffer.readUnsignedByte() == 1;
 		}
 		int settingsFlag = buffer.read24BitUnsignedInteger();
-		int i_8_ = buffer.readUnsignedByte();
-		if (i_8_ != 0) {
+		int opcode = buffer.readUnsignedByte();
+		if (opcode != 0) {
 			opKeys = new byte[11][];
 			aByteArrayArray2648 = new byte[11][];
 			opKeyRates = new int[11];
 			opChars = new int[11];
-			for (/**/; i_8_ != 0; i_8_ = buffer.readUnsignedByte()) {
-				int i_9_ = (i_8_ >> 4) - 1;
-				i_8_ = i_8_ << 8 | buffer.readUnsignedByte();
-				i_8_ &= 0xfff;
-				if (4095 == i_8_)
-					i_8_ = -1;
-				byte i_10_ = buffer.readByte();
-				if (0 != i_10_)
+			for (/**/; opcode != 0; opcode = buffer.readUnsignedByte()) {
+				int index = (opcode >> 4) - 1;
+				opcode = opcode << 8 | buffer.readUnsignedByte();
+				opcode &= 0xfff;
+				if (4095 == opcode)
+					opcode = -1;
+				byte keyValue = buffer.readByte();
+				if (0 != keyValue)
 					aBool2582 = true;
-				byte i_11_ = buffer.readByte();
-				opKeyRates[i_9_] = i_8_;
-				opKeys[i_9_] = new byte[] { i_10_ };
-				aByteArrayArray2648[i_9_] = new byte[] { i_11_ };
+				byte value2 = buffer.readByte();
+				opKeyRates[index] = opcode;
+				opKeys[index] = new byte[] { keyValue };
+				aByteArrayArray2648[index] = new byte[] { value2 };
 			}
 		}
 		opBase = buffer.readString();
-		int i_12_ = buffer.readUnsignedByte();
-		int i_13_ = i_12_ & 0xf;
-		int i_14_ = i_12_ >> 4;
-		if (i_13_ > 0) {
-			op = new String[i_13_];
-			for (int i_15_ = 0; i_15_ < i_13_; i_15_++)
+		int flag = buffer.readUnsignedByte();
+		int opSize = flag & 0xf;
+		int hasOpCursors = flag >> 4;
+		if (opSize > 0) {
+			op = new String[opSize];
+			for (int i_15_ = 0; i_15_ < opSize; i_15_++)
 				op[i_15_] = buffer.readString();
 		}
-		if (i_14_ > 0) {
-			int i_16_ = buffer.readUnsignedByte();
-			opCursors = new int[1 + i_16_];
-			for (int i_17_ = 0; i_17_ < opCursors.length; i_17_++)
-				opCursors[i_17_] = -1;
-			opCursors[i_16_] = buffer.readUnsignedShort();
+		if (hasOpCursors > 0) {
+			int index = buffer.readUnsignedByte();
+			opCursors = new int[1 + index];
+			for (int i = 0; i < opCursors.length; i++)
+				opCursors[i] = -1;
+			opCursors[index] = buffer.readUnsignedShort();
 		}
-		if (i_14_ > 1) {
-			int i_18_ = buffer.readUnsignedByte();
-			opCursors[i_18_] = buffer.readUnsignedShort();
+		if (hasOpCursors > 1) {
+			int index = buffer.readUnsignedByte();
+			opCursors[index] = buffer.readUnsignedShort();
 		}
 		pauseText = buffer.readString();
 		if (pauseText.equals(""))
@@ -388,13 +388,13 @@ public class InterfaceDefinitions {
 			if (-652492593 * anInt2580 == 65535)
 				anInt2580 = 979286481;
 		}
-		if (i_3_ >= 0) {
+		if (ifVersion >= 0) {
 			mouseOverCursor = buffer.readUnsignedShort() * 1993579121;
 			if (1973741201 * mouseOverCursor == 65535)
 				mouseOverCursor = -1993579121;
 		}
 		settings = new IComponentSettings(settingsFlag, interfaceHash);
-		if (i_3_ >= 0) {
+		if (ifVersion >= 0) {
 			int intParamSize = buffer.readUnsignedByte();
 			for (int i = 0; i < intParamSize; i++) {
 				int key = buffer.read24BitUnsignedInteger();
@@ -418,7 +418,7 @@ public class InterfaceDefinitions {
 		onStatTransmitHook = decodeComponentHook(buffer);
 		onTimerHook = decodeComponentHook(buffer);
 		onOpHook = decodeComponentHook(buffer);
-		if (i_3_ >= 0)
+		if (ifVersion >= 0)
 			onOptHook = decodeComponentHook(buffer);
 		onMouseRepeatHook = decodeComponentHook(buffer);
 		onClickHook = decodeComponentHook(buffer);
@@ -463,7 +463,7 @@ public class InterfaceDefinitions {
 		return transmits;
 	}
 
-	public InterfaceDefinitions() {
+	public IComponentDefinitions() {
 		anInt2546 = -724931107;
 		anInt2562 = 0;
 		posXMode = (byte) 0;

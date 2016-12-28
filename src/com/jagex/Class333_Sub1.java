@@ -195,7 +195,7 @@ public class Class333_Sub1 extends Class333 {
 
 	static final void method9164(Class668 class668, int i) {
 		int i_13_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_13_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_13_, -689214737);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2658 * -1064708005;
 	}
 

@@ -137,7 +137,7 @@ public class Class710_Sub15 extends Class710 {
 
 	static final void method10078(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class704.method8266(class251, class234, class668, (byte) 100);
 	}

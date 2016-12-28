@@ -296,7 +296,7 @@ public class Class512 {
 
 	static final void method6213(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class359.method4724(class251, class668, 1969746585);
 	}
 
@@ -319,12 +319,12 @@ public class Class512 {
 
 	static final void method6217(Class668 class668, int i) {
 		int i_13_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_13_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_13_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_13_ >> 16];
 		Class186.method2774(class251, class234, class668, 1757410287);
 	}
 
-	static final void method6218(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
+	static final void method6218(IComponentDefinitions class251, Class234 class234, Class668 class668, short i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		int[] is = Class510.method6183(string, class668, -564863261);
 		if (is != null)

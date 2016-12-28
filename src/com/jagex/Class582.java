@@ -11,7 +11,7 @@ public class Class582 {
 		throw new Error();
 	}
 
-	static final void method7023(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method7023(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= -1349181388;
 		class251.sizeX = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * 1219788737);
 		class251.sizeY = (49026457 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
@@ -37,12 +37,12 @@ public class Class582 {
 
 	static final void method7024(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class230.method3298(class251, class234, class668, 2070866849);
 	}
 
-	static final void method7025(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method7025(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= -1225469822;
 		class251.aBool2659 = true;
 		class251.anInt2588 = Math.max(Math.min((class668.anIntArray8541[class668.anInt8542 * 1867269829]), 2816), 0) * -594473299;

@@ -337,14 +337,14 @@ public class Class562 {
 
 	static final void method6862(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		method6865(class251, class234, class668, 1885282426);
 	}
 
 	static final void method6863(Class668 class668, int i) {
 		int i_30_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_30_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_30_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_30_ >> 16];
 		Class353.method4648(class251, class234, class668, (byte) -37);
 	}
@@ -354,7 +354,7 @@ public class Class562 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class465_Sub1.aClass96_10352.method1300(i_31_, 1930761970);
 	}
 
-	static final void method6865(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6865(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1365220561) != null)
 			string = string.substring(0, string.length() - 1);

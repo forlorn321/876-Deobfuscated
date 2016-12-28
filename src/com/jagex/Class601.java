@@ -32,7 +32,7 @@ public class Class601 implements Interface75 {
 
 	static final void method7163(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class466.method5682(class251, class668, -1153659928);
 	}
 
@@ -327,7 +327,7 @@ public class Class601 implements Interface75 {
 				return 0;
 			boolean bool = true;
 			for (int i_19_ = 0; i_19_ < (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378).length; i_19_++) {
-				InterfaceDefinitions class251 = (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378[i_19_]);
+				IComponentDefinitions class251 = (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378[i_19_]);
 				if (1049444347 * class251.anInt2728 == 5 && -1 != class251.graphicId * -1307221069 && !Class398.aClass461_4122.method5558((-1307221069 * (class251.graphicId)), 0, -1248136142))
 					bool = false;
 			}

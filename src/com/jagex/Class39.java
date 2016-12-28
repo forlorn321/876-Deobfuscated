@@ -474,7 +474,7 @@ public class Class39 implements DefinitionI, Interface7 {
 		}
 	}
 
-	static final void method866(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method866(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
 		if (bool != class251.hidden) {
 			class251.hidden = bool;
@@ -486,7 +486,7 @@ public class Class39 implements DefinitionI, Interface7 {
 
 	static final void method867(Class668 class668, int i) {
 		int i_32_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_32_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_32_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_32_ >> 16];
 		Class349.method4593(class251, class234, class668, 906910120);
 	}

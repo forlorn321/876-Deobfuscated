@@ -28,7 +28,7 @@ public class Class501 {
 
 	static final void method6031(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class198.method2873(class251, class234, class668, ((class668.aClass536_Sub15_8553 == Class646.aClass536_Sub15_8361) ? Class233.aClass233_2372 : Class233.aClass233_2369), (byte) -88);
 	}
@@ -37,7 +37,7 @@ public class Class501 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class592.method7117(647364780);
 	}
 
-	public static void method6033(InterfaceDefinitions class251, int i, int i_4_, int i_5_) {
+	public static void method6033(IComponentDefinitions class251, int i, int i_4_, int i_5_) {
 		if (class251 != null) {
 			if (class251.onTargetEnterHook != null) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();

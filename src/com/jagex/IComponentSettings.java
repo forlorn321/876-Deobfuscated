@@ -53,7 +53,7 @@ public final class IComponentSettings extends Class536 {
 
 	static final void method9499(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 2003514143 * class251.fontId;
 	}
 

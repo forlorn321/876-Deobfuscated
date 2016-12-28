@@ -22,7 +22,7 @@ public class Class516 {
 
 	static final void method6326(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class188.method2799(class251, class668, -594991055);
 	}
 

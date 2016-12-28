@@ -47,7 +47,7 @@ public class Class390 {
 		Class266.aClass282_2866 = class282;
 	}
 
-	static final void method4856(InterfaceDefinitions class251, Class234 class234, boolean bool, int i, Class668 class668, byte i_3_) {
+	static final void method4856(IComponentDefinitions class251, Class234 class234, boolean bool, int i, Class668 class668, byte i_3_) {
 		class668.anInt8542 -= 1472892954;
 		int i_4_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_5_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];

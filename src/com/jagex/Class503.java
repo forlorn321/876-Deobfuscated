@@ -181,7 +181,7 @@ public class Class503 implements Runnable {
 	}
 
 	static final void method6054(Class668 class668, int i) {
-		InterfaceDefinitions class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
+		IComponentDefinitions class251 = Class264.method3678(class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], -689214737);
 		if (class251.aClass251Array2725 == null)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 		else {

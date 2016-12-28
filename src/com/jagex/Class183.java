@@ -54,7 +54,7 @@ public abstract class Class183 {
 		class668.anInt8542 -= -1411037171;
 	}
 
-	static void method2738(InterfaceDefinitions class251, int i, int i_0_, int i_1_) {
+	static void method2738(IComponentDefinitions class251, int i, int i_0_, int i_1_) {
 		Class70.aClass251_770 = class251;
 		Class70.anInt771 = -1044571063 * i;
 		Class70.anInt769 = -279629739 * i_0_;

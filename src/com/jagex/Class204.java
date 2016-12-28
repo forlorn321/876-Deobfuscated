@@ -109,7 +109,7 @@ public class Class204 {
 		}
 	}
 
-	static final void method2933(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2933(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.opBase = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 	}
 
@@ -165,7 +165,7 @@ public class Class204 {
 
 	static final void method2938(Class668 class668, int i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_21_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_21_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_21_ >> 16];
 		Class247_Sub1.method9105(class251, class234, class668, 935760968);
 	}

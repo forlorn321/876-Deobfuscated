@@ -10,16 +10,16 @@ public class Class536_Sub42 extends Class536 {
 	public boolean aBool10801;
 	public Object[] anObjectArray10802;
 	public int anInt10803;
-	public InterfaceDefinitions aClass251_10804;
+	public IComponentDefinitions aClass251_10804;
 	public int anInt10805;
-	public InterfaceDefinitions aClass251_10806;
+	public IComponentDefinitions aClass251_10806;
 	public int anInt10807;
 	public int anInt10808;
 	public String aString10809;
 	int anInt10810;
 	static TwitchTV aTwitchTV10811;
 
-	static final void method9872(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method9872(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.modelType = -1053154715;
 		class251.modelId = client.anInt11156 * -436498141;
 		class251.anInt2603 = 0;

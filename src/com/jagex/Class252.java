@@ -71,7 +71,7 @@ public final class Class252 {
 
 	static final void method3519(Class668 class668, int i) {
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_4_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_4_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_4_ >> 16];
 		Class453.method5447(class251, class234, class668, (byte) 24);
 	}

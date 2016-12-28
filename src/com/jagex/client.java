@@ -33,7 +33,7 @@ public final class client extends Class505 {
 	public static boolean aBool10989;
 	public static int anInt10990;
 	public static int anInt10991;
-	public static InterfaceDefinitions aClass251_10992;
+	public static IComponentDefinitions aClass251_10992;
 	public static int anInt10993;
 	public static boolean aBool10994;
 	public static boolean aBool10995;
@@ -98,7 +98,7 @@ public final class client extends Class505 {
 	public static int anInt11054;
 	static int anInt11055;
 	static int anInt11056;
-	public static InterfaceDefinitions aClass251_11057;
+	public static IComponentDefinitions aClass251_11057;
 	public static Color[] aColorArray11058;
 	static int[] anIntArray11059;
 	static final int anInt11060 = 64;
@@ -236,14 +236,14 @@ public final class client extends Class505 {
 	public static int anInt11192;
 	static boolean aBool11193;
 	static boolean aBool11194;
-	public static InterfaceDefinitions aClass251_11195;
+	public static IComponentDefinitions aClass251_11195;
 	public static Interface51 anInterface51_11196;
 	static boolean aBool11197;
 	static Class443 aClass443_11198;
-	public static InterfaceDefinitions aClass251_11199;
+	public static IComponentDefinitions aClass251_11199;
 	public static boolean aBool11200;
 	static int anInt11201;
-	static InterfaceDefinitions aClass251_11202;
+	static IComponentDefinitions aClass251_11202;
 	public static int anInt11203;
 	static int anInt11204;
 	static int anInt11205;
@@ -1278,9 +1278,9 @@ public final class client extends Class505 {
 			Class536_Sub42 class536_sub42 = (Class536_Sub42) aClass708_11241.method8305(541476487);
 			if (class536_sub42 == null)
 				break;
-			InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				InterfaceDefinitions class251_20_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_20_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
 				if (class251_20_ == null || class251_20_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= class251_20_.aClass251Array2725.length) || (class251_20_.aClass251Array2725[class251.anInt2546 * -809980533]) != class251)
 					continue;
 			}
@@ -1290,9 +1290,9 @@ public final class client extends Class505 {
 			Class536_Sub42 class536_sub42 = (Class536_Sub42) aClass708_11181.method8305(1880045722);
 			if (class536_sub42 == null)
 				break;
-			InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				InterfaceDefinitions class251_21_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_21_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
 				if (class251_21_ == null || class251_21_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= class251_21_.aClass251Array2725.length) || (class251_21_.aClass251Array2725[-809980533 * class251.anInt2546]) != class251)
 					continue;
 			}
@@ -1302,9 +1302,9 @@ public final class client extends Class505 {
 			Class536_Sub42 class536_sub42 = (Class536_Sub42) aClass708_11077.method8305(1459277315);
 			if (class536_sub42 == null)
 				break;
-			InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				InterfaceDefinitions class251_22_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_22_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
 				if (class251_22_ == null || null == class251_22_.aClass251Array2725 || (-809980533 * class251.anInt2546 >= class251_22_.aClass251Array2725.length) || (class251_22_.aClass251Array2725[class251.anInt2546 * -809980533]) != class251)
 					continue;
 			}
@@ -1666,9 +1666,9 @@ public final class client extends Class505 {
 		}
 	}
 
-	public static final void method10381(Class234 class234, InterfaceDefinitions[] class251s, int i, int i_70_, int i_71_, int i_72_, int i_73_, int i_74_, int i_75_, int i_76_, int i_77_) {
+	public static final void method10381(Class234 class234, IComponentDefinitions[] class251s, int i, int i_70_, int i_71_, int i_72_, int i_73_, int i_74_, int i_75_, int i_76_, int i_77_) {
 		for (int i_78_ = 0; i_78_ < class251s.length; i_78_++) {
-			InterfaceDefinitions interfaceDefs = class251s[i_78_];
+			IComponentDefinitions interfaceDefs = class251s[i_78_];
 			if (null != interfaceDefs && -1940204141 * interfaceDefs.parentLayer == i) {
 				int i_79_ = i_74_ + interfaceDefs.anInt2571 * 1151043453;
 				int i_80_ = -712740187 * interfaceDefs.anInt2572 + i_75_;
@@ -1693,7 +1693,7 @@ public final class client extends Class505 {
 					i_83_ = i_85_ < i_72_ ? i_85_ : i_72_;
 					i_84_ = i_86_ < i_73_ ? i_86_ : i_73_;
 				}
-				if (0 != 1049444347 * interfaceDefs.anInt2728 && !interfaceDefs.hasComponentHook && getIComponentSettings(interfaceDefs).settings * -512963777 == 0 && aClass251_11199 != interfaceDefs && (-1769600535 * interfaceDefs.anInt2562 != InterfaceDefinitions.anInt2691 * 1208417731) && (InterfaceDefinitions.anInt2605 * 280161423 != -1769600535 * interfaceDefs.anInt2562) && (-1769600535 * interfaceDefs.anInt2562 != InterfaceDefinitions.anInt2537 * -2049675251) && (InterfaceDefinitions.anInt2646 * -1686834873 != interfaceDefs.anInt2562 * -1769600535)) {
+				if (0 != 1049444347 * interfaceDefs.anInt2728 && !interfaceDefs.hasComponentHook && getIComponentSettings(interfaceDefs).settings * -512963777 == 0 && aClass251_11199 != interfaceDefs && (-1769600535 * interfaceDefs.anInt2562 != IComponentDefinitions.anInt2691 * 1208417731) && (IComponentDefinitions.anInt2605 * 280161423 != -1769600535 * interfaceDefs.anInt2562) && (-1769600535 * interfaceDefs.anInt2562 != IComponentDefinitions.anInt2537 * -2049675251) && (IComponentDefinitions.anInt2646 * -1686834873 != interfaceDefs.anInt2562 * -1769600535)) {
 					if (i_81_ < i_83_ && i_82_ < i_84_)
 						Class534.method6470(interfaceDefs, 2086053374);
 				} else if (!method10439(interfaceDefs)) {
@@ -1854,18 +1854,18 @@ public final class client extends Class505 {
 							if (aClass251_10992 != null) {
 								bool_92_ = false;
 								bool_91_ = false;
-							} else if (Class70.aBool752 || ((InterfaceDefinitions.anInt2541 * -628362163 != (-1769600535 * interfaceDefs.anInt2562)) && anInt11212 * -1577593895 > 0)) {
+							} else if (Class70.aBool752 || ((IComponentDefinitions.anInt2541 * -628362163 != (-1769600535 * interfaceDefs.anInt2562)) && anInt11212 * -1577593895 > 0)) {
 								bool_92_ = false;
 								bool_91_ = false;
 								bool_87_ = false;
 							}
 							if (0 != interfaceDefs.anInt2562 * -1769600535) {
-								if ((interfaceDefs.anInt2562 * -1769600535 == InterfaceDefinitions.anInt2537 * -2049675251) || (-1769600535 * interfaceDefs.anInt2562 == InterfaceDefinitions.anInt2646 * -1686834873)) {
+								if ((interfaceDefs.anInt2562 * -1769600535 == IComponentDefinitions.anInt2537 * -2049675251) || (-1769600535 * interfaceDefs.anInt2562 == IComponentDefinitions.anInt2646 * -1686834873)) {
 									aClass251_11195 = interfaceDefs;
 									Class625 class625 = aClass515_11066.method6252(1796531619).method7570((byte) 123);
 									if (class625.method7442(1304896821) != null && !Class266.aClass503_2867.method6044((byte) -4))
 										class625.method7442(1304896821).method6151(Class677.aClass167_8609, 223822141 * interfaceDefs.anInt2574, Class710.aClass536_Sub40_8843.aClass710_Sub25_10735.method10142(1805613591), -1917875770);
-									if (-2049675251 * InterfaceDefinitions.anInt2537 == interfaceDefs.anInt2562 * -1769600535) {
+									if (-2049675251 * IComponentDefinitions.anInt2537 == interfaceDefs.anInt2562 * -1769600535) {
 										if (!Class70.aBool752 && i_76_ >= i_81_ && i_77_ >= i_82_ && i_76_ < i_83_ && i_77_ < i_84_) {
 											Class494.method5989(Class677.aClass167_8609, i_76_, i_77_, 16711680);
 											for (Class521_Sub5 class521_sub5 = ((Class521_Sub5) (aClass695_11131.method8210(631796223))); class521_sub5 != null; class521_sub5 = ((Class521_Sub5) (aClass695_11131.method8219(1254879165)))) {
@@ -1896,7 +1896,7 @@ public final class client extends Class505 {
 									}
 									continue;
 								}
-								if (1208417731 * InterfaceDefinitions.anInt2691 == interfaceDefs.anInt2562 * -1769600535) {
+								if (1208417731 * IComponentDefinitions.anInt2691 == interfaceDefs.anInt2562 * -1769600535) {
 									int i_107_ = 0;
 									int i_108_ = i_72_ - i_70_;
 									int i_109_ = i_76_ - i_79_;
@@ -1940,7 +1940,7 @@ public final class client extends Class505 {
 											i_117_ = (((int) class436.aFloat4853 - i_118_) >> 9) - (i_115_ >> 2);
 										}
 										if (aBool11188 && 0 != ((Class511.anInt6931 * 1686601581) & 0x40)) {
-											InterfaceDefinitions class251_119_ = (Class527.method6429((1625551467 * Class663.anInt8515), anInt11183 * -1059472497, (byte) -44));
+											IComponentDefinitions class251_119_ = (Class527.method6429((1625551467 * Class663.anInt8515), anInt11183 * -1059472497, (byte) -44));
 											if (null != class251_119_)
 												Class521_Sub6.method9389(aString11185, new StringBuilder().append(" ").append(Class40.aString495).toString(), (Class13.anInt161 * 1764906975), 59, (-1484799213 * interfaceDefs.anInt2711), 1L, i_116_, i_117_, true, false, (long) (((-809980533 * (interfaceDefs.anInt2546)) << 0) | (-1591767037 * (interfaceDefs.anInt2559))), true, 1767908968);
 											else
@@ -1953,7 +1953,7 @@ public final class client extends Class505 {
 									}
 									continue;
 								}
-								if (-1769600535 * interfaceDefs.anInt2562 == InterfaceDefinitions.anInt2541 * -628362163) {
+								if (-1769600535 * interfaceDefs.anInt2562 == IComponentDefinitions.anInt2541 * -628362163) {
 									Class72.aClass251_801 = interfaceDefs;
 									if (bool_87_)
 										Class542_Sub1.aBool10717 = true;
@@ -2003,12 +2003,12 @@ public final class client extends Class505 {
 									}
 									continue;
 								}
-								if (InterfaceDefinitions.anInt2542 * -1789268997 == interfaceDefs.anInt2562 * -1769600535) {
+								if (IComponentDefinitions.anInt2542 * -1789268997 == interfaceDefs.anInt2562 * -1769600535) {
 									if (bool_91_)
 										Class205_Sub20.method9094((Class329.aClass550_3601.method6656(-1885086535) - i_79_), (Class329.aClass550_3601.method6657(-2088714956) - i_80_), -1606950689 * interfaceDefs.anInt2573, 223822141 * interfaceDefs.anInt2574, 231488724);
 									continue;
 								}
-								if (280161423 * InterfaceDefinitions.anInt2605 == -1769600535 * interfaceDefs.anInt2562) {
+								if (280161423 * IComponentDefinitions.anInt2605 == -1769600535 * interfaceDefs.anInt2562) {
 									Class183.method2738(interfaceDefs, i_79_, i_80_, -1199868975);
 									continue;
 								}
@@ -2321,7 +2321,7 @@ public final class client extends Class505 {
 		}
 	}
 
-	static InterfaceDefinitions method10382(InterfaceDefinitions class251) {
+	static IComponentDefinitions method10382(IComponentDefinitions class251) {
 		IComponentSettings class536_sub14 = getIComponentSettings(class251);
 		if (class536_sub14.method9477())
 			return Class107.aClass251_1323;
@@ -2382,7 +2382,7 @@ public final class client extends Class505 {
 		Frame frame = new Frame(" ");
 		frame.pack();
 		frame.dispose();
-		Class107.aClass251_1323 = new InterfaceDefinitions();
+		Class107.aClass251_1323 = new IComponentDefinitions();
 		Class66.method1075(-941885011);
 		Class298.method4015(new int[] { 20, 260, 2048, 5120, 10240, 75000, 100000, 153600 }, new int[] { 1000, 100, 1000, 250, 500, 100, 100, 10 }, 1899442467);
 		Class436.method5260(100);
@@ -2452,7 +2452,7 @@ public final class client extends Class505 {
 		Frame frame = new Frame(" ");
 		frame.pack();
 		frame.dispose();
-		Class107.aClass251_1323 = new InterfaceDefinitions();
+		Class107.aClass251_1323 = new IComponentDefinitions();
 		Class66.method1075(-105245521);
 		Class298.method4015(new int[] { 20, 260, 2048, 5120, 10240, 75000, 100000, 153600 }, new int[] { 1000, 100, 1000, 250, 500, 100, 100, 10 }, 1873212260);
 		Class436.method5260(100);
@@ -2522,7 +2522,7 @@ public final class client extends Class505 {
 		Frame frame = new Frame(" ");
 		frame.pack();
 		frame.dispose();
-		Class107.aClass251_1323 = new InterfaceDefinitions();
+		Class107.aClass251_1323 = new IComponentDefinitions();
 		Class66.method1075(-1216112093);
 		Class298.method4015(new int[] { 20, 260, 2048, 5120, 10240, 75000, 100000, 153600 }, new int[] { 1000, 100, 1000, 250, 500, 100, 100, 10 }, 2145187823);
 		Class436.method5260(100);
@@ -3174,8 +3174,8 @@ public final class client extends Class505 {
 						class536_sub42.aClass251_10804 = aClass251_10992;
 						class536_sub42.anInt10803 = 1761425895 * i_157_;
 						class536_sub42.anInt10800 = -1275012151 * i_158_;
-						InterfaceDefinitions class251 = method10382(aClass251_10992);
-						InterfaceDefinitions class251_159_ = aClass251_11202;
+						IComponentDefinitions class251 = method10382(aClass251_10992);
+						IComponentDefinitions class251_159_ = aClass251_11202;
 						boolean bool = false;
 						for (/**/; (null != class251_159_ && -1 != class251_159_.parentLayer * -1940204141 && null != class251); class251_159_ = (Class463.aClass234Array5227[(-1591767037 * class251_159_.anInt2559 >> 16)].aClass251Array2378[(-1940204141 * class251_159_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_159_.anInt2559) {
@@ -3217,7 +3217,7 @@ public final class client extends Class505 {
 		}
 	}
 
-	public static IComponentSettings getIComponentSettings(InterfaceDefinitions class251) {
+	public static IComponentSettings getIComponentSettings(IComponentDefinitions class251) {
 		IComponentSettings class536_sub14 = ((IComponentSettings) aClass4_11243.method556(((long) (-1591767037 * class251.anInt2559) << 32) + (long) (-809980533 * class251.anInt2546)));
 		return (class536_sub14 != null ? class536_sub14 : class251.settings);
 	}
@@ -4504,14 +4504,14 @@ public final class client extends Class505 {
 		aBool11121 = true;
 	}
 
-	public static boolean method10439(InterfaceDefinitions class251) {
+	public static boolean method10439(IComponentDefinitions class251) {
 		if (aBool11010) {
 			if (getIComponentSettings(class251).settings * -512963777 != 0)
 				return false;
 			if (0 == 1049444347 * class251.anInt2728)
 				return false;
 		}
-		if (-1769600535 * class251.anInt2562 == -1560473329 * InterfaceDefinitions.anInt2685)
+		if (-1769600535 * class251.anInt2562 == -1560473329 * IComponentDefinitions.anInt2685)
 			return class251.hidden || !aBool11314 && !aBool11018;
 		return class251.hidden;
 	}
@@ -4562,8 +4562,8 @@ public final class client extends Class505 {
 						class536_sub42.aClass251_10804 = aClass251_10992;
 						class536_sub42.anInt10803 = 1761425895 * i_235_;
 						class536_sub42.anInt10800 = -1275012151 * i_236_;
-						InterfaceDefinitions class251 = method10382(aClass251_10992);
-						InterfaceDefinitions class251_237_ = aClass251_11202;
+						IComponentDefinitions class251 = method10382(aClass251_10992);
+						IComponentDefinitions class251_237_ = aClass251_11202;
 						boolean bool = false;
 						for (/**/; (null != class251_237_ && -1 != class251_237_.parentLayer * -1940204141 && null != class251); class251_237_ = (Class463.aClass234Array5227[(-1591767037 * class251_237_.anInt2559 >> 16)].aClass251Array2378[(-1940204141 * class251_237_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_237_.anInt2559) {
@@ -4737,7 +4737,7 @@ public final class client extends Class505 {
 		Frame frame = new Frame(" ");
 		frame.pack();
 		frame.dispose();
-		Class107.aClass251_1323 = new InterfaceDefinitions();
+		Class107.aClass251_1323 = new IComponentDefinitions();
 		Class66.method1075(510226751);
 		Class298.method4015(new int[] { 20, 260, 2048, 5120, 10240, 75000, 100000, 153600 }, new int[] { 1000, 100, 1000, 250, 500, 100, 100, 10 }, 2041451732);
 		Class436.method5260(100);

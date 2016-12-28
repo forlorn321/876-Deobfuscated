@@ -42,7 +42,7 @@ public class Class579 implements Interface66 {
 
 	static final void method7009(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class621.method7410(class251, class234, class668, 2040083750);
 	}
@@ -53,7 +53,7 @@ public class Class579 implements Interface66 {
 		return Class188.method2796((Class61.aLong649 * -7692785137277514277L == -1L), true, "", "", -7692785137277514277L * Class61.aLong649);
 	}
 
-	static void method7011(Class106 class106, InterfaceDefinitions class251, int i, int i_7_, int i_8_, int i_9_) {
+	static void method7011(Class106 class106, IComponentDefinitions class251, int i, int i_7_, int i_8_, int i_9_) {
 		if (1 == i) {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_1, class106.aClass15_1258, 2041686680);
 			Class710_Sub13.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -1795564833);

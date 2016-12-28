@@ -32,7 +32,7 @@ public abstract class Class168 {
 		return (Class536_Sub42.aTwitchTV10811.StartStreaming(i_4_, i_5_, i_1_, i_6_, 0 != i_0_, Class575.aFloat7672, 876028591 * Class575.anInt7654, bool));
 	}
 
-	static final void method2416(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2416(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -533339504) != null)
 			string = string.substring(0, string.length() - 1);

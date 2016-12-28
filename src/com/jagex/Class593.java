@@ -789,7 +789,7 @@ public class Class593 {
 			Class404.method4932(class668, -2136725186);
 			break;
 		case 439:
-			InterfaceDefinitions.method3510(class668, (byte) 0);
+			IComponentDefinitions.method3510(class668, (byte) 0);
 			break;
 		case 982:
 			Class45.method900(class668, (byte) 105);
@@ -2639,7 +2639,7 @@ public class Class593 {
 			Class404.method4937(class668, (byte) 25);
 			break;
 		case 590:
-			InterfaceDefinitions.method3512(class668, (byte) 86);
+			IComponentDefinitions.method3512(class668, (byte) 86);
 			break;
 		case 836:
 			Class205_Sub6.method9060(class668, -1137569162);
@@ -3062,7 +3062,7 @@ public class Class593 {
 			Class30.method778(class668, 240211446);
 			break;
 		case 1097:
-			InterfaceDefinitions.method3511(class668, -1783914702);
+			IComponentDefinitions.method3511(class668, -1783914702);
 			break;
 		case 419:
 			Class610.method7272(class668, (byte) -75);
@@ -3935,7 +3935,7 @@ public class Class593 {
 
 	static final void method7125(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class99.method1327(class251, class234, class668, 1774718082);
 	}

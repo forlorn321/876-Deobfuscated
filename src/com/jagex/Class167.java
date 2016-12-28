@@ -1177,7 +1177,7 @@ public abstract class Class167 {
 
 	static final void method2409(Class668 class668, byte i) {
 		int i_640_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_640_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_640_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_640_ >> 16];
 		Class309.method4152(class251, class234, class668, -755391233);
 	}
@@ -1186,7 +1186,7 @@ public abstract class Class167 {
 		return Class310.aBool3471;
 	}
 
-	static final void method2411(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2411(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 61855783;
 		int i_641_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		short i_642_ = (short) (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]);

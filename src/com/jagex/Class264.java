@@ -136,7 +136,7 @@ public class Class264 {
 		return i_21_;
 	}
 
-	public static InterfaceDefinitions method3678(int i, int i_23_) {
+	public static IComponentDefinitions method3678(int i, int i_23_) {
 		int i_24_ = i >> 16;
 		if (null == Class463.aClass234Array5227[i_24_] || (Class463.aClass234Array5227[i_24_].method3337(i, 552340768) == null)) {
 			boolean bool = Class644.method7794(i_24_, null, 1948274708);

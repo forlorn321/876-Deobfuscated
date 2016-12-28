@@ -70,7 +70,7 @@ public abstract class Class603 {
 
 	static final void method7197(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class390.method4856(class251, class234, true, 2, class668, (byte) -119);
 	}
@@ -81,7 +81,7 @@ public abstract class Class603 {
 
 	static final void method7199(Class668 class668, short i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -632476725 * class251.zoom2d;
 	}
 
@@ -96,7 +96,7 @@ public abstract class Class603 {
 				i_5_ -= 2000;
 			Class598 class598 = client.aClass515_11066.method6255(-1657129067);
 			if (i_5_ == 58) {
-				InterfaceDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -48);
+				IComponentDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -48);
 				if (null != class251)
 					Class709.method8345(class251, -1616387282);
 			}
@@ -142,7 +142,7 @@ public abstract class Class603 {
 				Class205_Sub17.method9089(i_3_, i_4_, (byte) 12);
 			}
 			if (25 == i_5_) {
-				InterfaceDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -106);
+				IComponentDefinitions class251 = Class527.method6429(i_4_, i_3_, (byte) -106);
 				if (null != class251) {
 					Class270.method3717(-1541208997);
 					IComponentSettings class536_sub14 = client.getIComponentSettings(class251);

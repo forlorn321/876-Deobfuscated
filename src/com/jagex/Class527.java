@@ -122,7 +122,7 @@ public class Class527 implements Interface19 {
 
 	static final void method6425(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class390.method4856(class251, class234, false, 0, class668, (byte) -99);
 	}
@@ -131,7 +131,7 @@ public class Class527 implements Interface19 {
 		class668.anInt8542 -= 1472892954;
 		boolean bool = class668.anIntArray8541[class668.anInt8542 * 1867269829] == 1;
 		int i_2_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
-		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class198.method2873(class251, class234, class668, (bool ? Class233.aClass233_2376 : Class233.aClass233_2370), (byte) -23);
 	}
@@ -153,8 +153,8 @@ public class Class527 implements Interface19 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class417.method5037(string, 967927110) ? 1 : 0;
 	}
 
-	public static InterfaceDefinitions method6429(int i, int i_8_, byte i_9_) {
-		InterfaceDefinitions class251 = Class264.method3678(i, -689214737);
+	public static IComponentDefinitions method6429(int i, int i_8_, byte i_9_) {
+		IComponentDefinitions class251 = Class264.method3678(i, -689214737);
 		if (-1 == i_8_)
 			return class251;
 		if (class251 == null || class251.aClass251Array2725 == null || i_8_ >= class251.aClass251Array2725.length)
@@ -181,7 +181,7 @@ public class Class527 implements Interface19 {
 
 	static final void method6431(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class107.method1438(class251, class234, class668, -1569881981);
 	}

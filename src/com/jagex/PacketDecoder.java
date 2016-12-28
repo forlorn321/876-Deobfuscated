@@ -1509,7 +1509,7 @@ public class PacketDecoder {
 				class536_sub36.method6484();
 				client.aClass4_11008.method560(class536_sub36, (long) i_248_);
 			}
-			InterfaceDefinitions class251 = Class264.method3678(i_249_, -689214737);
+			IComponentDefinitions class251 = Class264.method3678(i_249_, -689214737);
 			if (class251 != null)
 				Class668.method8011(class251, 263642117);
 			class251 = Class264.method3678(i_248_, -689214737);
@@ -2385,7 +2385,7 @@ public class PacketDecoder {
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendIComponentSprite(" + interfaceId + ", " + componentId + ", " + i_414_ + ");");
 			Class307.method4133();
-			InterfaceDefinitions class251 = Class264.method3678(i_413_, -689214737);
+			IComponentDefinitions class251 = Class264.method3678(i_413_, -689214737);
 			class251.anInt2604 = -1513859745 * i_414_;
 			class106.currentPacket = null;
 			return true;

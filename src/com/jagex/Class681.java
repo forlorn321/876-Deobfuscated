@@ -111,7 +111,7 @@ public abstract class Class681 implements Interface6 {
 			Class398.method4903(class536_sub36_3_, (-358726121 * class536_sub36.anInt10634 != class536_sub36_3_.anInt10634 * -358726121), bool, 1759806773);
 		client.aClass4_11008.method560(class536_sub36, (long) i);
 		Class261.method3624(class536_sub36.anInt10634 * -358726121, is, 155454246);
-		InterfaceDefinitions class251 = Class264.method3678(i, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i, -689214737);
 		if (class251 != null)
 			Class668.method8011(class251, 263642117);
 		if (client.aClass251_11057 != null) {

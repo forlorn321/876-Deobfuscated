@@ -198,7 +198,7 @@ public class Class193 {
 
 	static final void method2850(Class668 class668, short i) {
 		int i_15_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_15_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_15_, -689214737);
 		int i_16_ = -1;
 		int i_17_ = -1;
 		Class244 class244 = class251.method3478(Class677.aClass167_8609, 862187860);
@@ -212,7 +212,7 @@ public class Class193 {
 
 	static final void method2851(Class668 class668, int i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_18_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_18_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
 		Class648.method7829(class251, class234, class668, -1285360642);
 	}

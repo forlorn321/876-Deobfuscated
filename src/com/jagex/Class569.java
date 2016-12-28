@@ -33,7 +33,7 @@ public class Class569 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class168.method2415(i_0_, i_1_, i_2_, 0 != i_3_, 1694502876);
 	}
 
-	public static final void method6924(InterfaceDefinitions class251, int i, int i_4_, int i_5_) {
+	public static final void method6924(IComponentDefinitions class251, int i, int i_4_, int i_5_) {
 		if (null == client.aClass251_10992 && !Class70.aBool752 && (class251 != null && Class542_Sub1.method9848(class251, -968129106))) {
 			client.aClass251_10992 = class251;
 			client.aClass251_11199 = Class519.method6337(class251, 2038260916);

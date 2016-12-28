@@ -46,7 +46,7 @@ public class Class392_Sub3 extends Class392 {
 
 	static final void method9308(Class668 class668, byte i) {
 		int i_13_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_13_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_13_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_13_ >> 16];
 		Class328_Sub2.method9152(class251, class234, class668, 337983778);
 	}

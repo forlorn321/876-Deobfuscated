@@ -130,7 +130,7 @@ public class Class700 implements Iterable {
 		return -i_14_;
 	}
 
-	static final void method8251(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method8251(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= -1349181388;
 		class251.anInt2623 = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * -475660893);
 		class251.anInt2681 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] * 863180553);

@@ -110,7 +110,7 @@ public class Class329 implements Interface33 {
 		aClass184_3599 = (Class677.aClass167_8609.method2089(class2, Class181.method2719(aClass461_3600, -1097395591 * aClass386_3598.anInt4031), true));
 	}
 
-	static final void method4317(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method4317(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		int[] is = Class510.method6183(string, class668, -702307481);
 		if (null != is)

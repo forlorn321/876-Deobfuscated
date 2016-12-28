@@ -111,7 +111,7 @@ public class Class182 {
 			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202.method7343(i_0_, i_1_, 1935500088);
 	}
 
-	static final void method2723(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method2723(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.colour = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1647150685;
 		Class668.method8011(class251, 263642117);
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)

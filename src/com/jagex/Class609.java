@@ -30,9 +30,9 @@ public class Class609 implements Interface75 {
 		return anInt7914 * 2127487605;
 	}
 
-	public static void method7262(InterfaceDefinitions[] class251s, byte i) {
+	public static void method7262(IComponentDefinitions[] class251s, byte i) {
 		for (int i_0_ = 0; i_0_ < class251s.length; i_0_++) {
-			InterfaceDefinitions class251 = class251s[i_0_];
+			IComponentDefinitions class251 = class251s[i_0_];
 			if (class251.onLoadHook != null) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;

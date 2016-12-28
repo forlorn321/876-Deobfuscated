@@ -40,7 +40,7 @@ public class Class524 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class2.method536(string, i_2_, Class195.aClass143Array2201, (byte) -94);
 	}
 
-	static final void method6409(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6409(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.targetVerb = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 	}
 }

@@ -134,10 +134,10 @@ public abstract class Class153 implements Interface14 {
 
 	public static void method1866(int i, byte i_4_) {
 		Class649_Sub1_Sub2_Sub1.anInt11973 = -738987877 * i;
-		InterfaceDefinitions.aClass199_2694.method2884((byte) -68);
+		IComponentDefinitions.aClass199_2694.method2884((byte) -68);
 	}
 
-	static final void method1867(InterfaceDefinitions class251, Class668 class668, byte i) {
+	static final void method1867(IComponentDefinitions class251, Class668 class668, byte i) {
 		class668.anInt8542 -= 1472892954;
 		int i_5_ = class668.anIntArray8541[class668.anInt8542 * 1867269829] - 1;
 		int i_6_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
@@ -148,7 +148,7 @@ public abstract class Class153 implements Interface14 {
 
 	static final void method1868(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.parentLayer * -1940204141;
 	}
 

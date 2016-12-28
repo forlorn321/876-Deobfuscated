@@ -144,7 +144,7 @@ public class Class26 {
 
 	static final void method738(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.colour * -336626187;
 	}
 
@@ -221,7 +221,7 @@ public class Class26 {
 			class668.anInt8564 += -1531084683 * (class668.anIntArray8537[-1640738851 * class668.anInt8564]);
 	}
 
-	static void method743(InterfaceDefinitions class251, int i, int i_20_, boolean bool, int i_21_) {
+	static void method743(IComponentDefinitions class251, int i, int i_20_, boolean bool, int i_21_) {
 		int i_22_ = -1606950689 * class251.anInt2573;
 		int i_23_ = 223822141 * class251.anInt2574;
 		if (0 == class251.sizeXMode)
@@ -251,7 +251,7 @@ public class Class26 {
 					class251.anInt2573 = -1177335909;
 			}
 		}
-		if (InterfaceDefinitions.anInt2537 * -2049675251 == -1769600535 * class251.anInt2562)
+		if (IComponentDefinitions.anInt2537 * -2049675251 == -1769600535 * class251.anInt2562)
 			client.aClass251_11195 = class251;
 		if (bool && null != class251.onResizeHook && (i_22_ != class251.anInt2573 * -1606950689 || i_23_ != 223822141 * class251.anInt2574)) {
 			Class536_Sub42 class536_sub42 = new Class536_Sub42();
@@ -261,7 +261,7 @@ public class Class26 {
 		}
 	}
 
-	static void method744(int i, int i_24_, InterfaceDefinitions class251, Class161 class161, int i_25_, int i_26_, short i_27_) {
+	static void method744(int i, int i_24_, IComponentDefinitions class251, Class161 class161, int i_25_, int i_26_, short i_27_) {
 		int i_28_ = -1482773169 * Class95.anInt1156;
 		int[] is = Class95.anIntArray1157;
 		for (int i_29_ = 0; i_29_ < i_28_; i_29_++) {

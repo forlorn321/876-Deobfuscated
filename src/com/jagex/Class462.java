@@ -77,14 +77,14 @@ public class Class462 implements Callable {
 			Class70.aClass700_764.method8239(class536_sub18_sub6, (byte) -58);
 	}
 
-	static final void method5619(InterfaceDefinitions class251, int i, int i_6_, int i_7_, Class668 class668, int i_8_) {
+	static final void method5619(IComponentDefinitions class251, int i, int i_6_, int i_7_, Class668 class668, int i_8_) {
 		if (null == class251.opKeyRates)
 			throw new RuntimeException();
 		class251.opKeyRates[i] = i_6_;
 		class251.anIntArray2722[i] = i_7_;
 	}
 
-	static final void method5620(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method5620(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 1472892954;
 		class251.anInt2693 = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * -1035323945);
 		class251.anInt2576 = (-1090634513 * class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1]);

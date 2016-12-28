@@ -5,12 +5,12 @@ package com.jagex;
 
 public class Class683 {
 	Class234 aClass234_8649;
-	InterfaceDefinitions aClass251_8650;
+	IComponentDefinitions aClass251_8650;
 	public static Class301_Sub1 aClass301_Sub1_8651;
 	static RSByteBuffer aClass536_Sub33_8652;
 
 	boolean method8093(int i, int i_0_) {
-		InterfaceDefinitions class251 = Class527.method6429(i, i_0_, (byte) -118);
+		IComponentDefinitions class251 = Class527.method6429(i, i_0_, (byte) -118);
 		if (null != class251) {
 			aClass234_8649 = Class463.aClass234Array5227[i >> 16];
 			aClass251_8650 = class251;
@@ -20,7 +20,7 @@ public class Class683 {
 		return false;
 	}
 
-	InterfaceDefinitions method8094(int i) {
+	IComponentDefinitions method8094(int i) {
 		return aClass234_8649.method3337((-1591767037 * aClass251_8650.anInt2559), 552340768);
 	}
 
@@ -30,7 +30,7 @@ public class Class683 {
 	}
 
 	boolean method8096(int i, int i_1_, short i_2_) {
-		InterfaceDefinitions class251 = Class527.method6429(i, i_1_, (byte) -32);
+		IComponentDefinitions class251 = Class527.method6429(i, i_1_, (byte) -32);
 		if (null != class251) {
 			aClass234_8649 = Class463.aClass234Array5227[i >> 16];
 			aClass251_8650 = class251;
@@ -46,7 +46,7 @@ public class Class683 {
 	}
 
 	boolean method8098(int i, int i_3_) {
-		InterfaceDefinitions class251 = Class527.method6429(i, i_3_, (byte) -47);
+		IComponentDefinitions class251 = Class527.method6429(i, i_3_, (byte) -47);
 		if (null != class251) {
 			aClass234_8649 = Class463.aClass234Array5227[i >> 16];
 			aClass251_8650 = class251;
@@ -57,7 +57,7 @@ public class Class683 {
 	}
 
 	boolean method8099(int i, int i_4_) {
-		InterfaceDefinitions class251 = Class527.method6429(i, i_4_, (byte) -121);
+		IComponentDefinitions class251 = Class527.method6429(i, i_4_, (byte) -121);
 		if (null != class251) {
 			aClass234_8649 = Class463.aClass234Array5227[i >> 16];
 			aClass251_8650 = class251;
@@ -88,7 +88,7 @@ public class Class683 {
 
 	static final void method8103(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class434.method5233(class251, class234, class668, -1666759530);
 	}

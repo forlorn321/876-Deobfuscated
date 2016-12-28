@@ -86,7 +86,7 @@ public class Class190 {
 		Class575.anInt7673 = 1660262091;
 	}
 
-	static final void method2826(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2826(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1833712604) != null)
 			string = string.substring(0, string.length() - 1);

@@ -65,9 +65,9 @@ public class Class564 {
 		}
 	}
 
-	public static void method6874(InterfaceDefinitions[] class251s, int i, int i_3_, int i_4_, boolean bool, int i_5_) {
+	public static void method6874(IComponentDefinitions[] class251s, int i, int i_3_, int i_4_, boolean bool, int i_5_) {
 		for (int i_6_ = 0; i_6_ < class251s.length; i_6_++) {
-			InterfaceDefinitions class251 = class251s[i_6_];
+			IComponentDefinitions class251 = class251s[i_6_];
 			if (class251 != null && i == class251.parentLayer * -1940204141) {
 				Class26.method743(class251, i_3_, i_4_, bool, 1281081384);
 				Class173_Sub1.method8636(class251, i_3_, i_4_, (short) 255);

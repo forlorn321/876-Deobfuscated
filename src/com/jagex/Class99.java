@@ -30,7 +30,7 @@ public class Class99 {
 		}
 	}
 
-	static final void method1325(InterfaceDefinitions class251, int i, int i_0_, Class668 class668, int i_1_) {
+	static final void method1325(IComponentDefinitions class251, int i, int i_0_, Class668 class668, int i_1_) {
 		if (null == class251.opChars) {
 			if (i_0_ > 0) {
 				class251.opKeys = new byte[11][];
@@ -55,7 +55,7 @@ public class Class99 {
 		}
 	}
 
-	static final void method1326(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method1326(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1548100402) != null)
 			string = string.substring(0, string.length() - 1);
@@ -63,7 +63,7 @@ public class Class99 {
 		class251.hasComponentHook = true;
 	}
 
-	static final void method1327(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method1327(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1640364600) != null)
 			string = string.substring(0, string.length() - 1);

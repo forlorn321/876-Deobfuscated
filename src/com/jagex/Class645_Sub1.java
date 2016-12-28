@@ -37,7 +37,7 @@ public class Class645_Sub1 extends Class645 implements Interface6 {
 		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string;
 	}
 
-	static final void method10043(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method10043(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (class251.animId * 1625008649 != i_1_) {
 			if (i_1_ != -1) {

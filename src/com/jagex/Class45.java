@@ -337,10 +337,10 @@ public class Class45 {
 	}
 
 	public static void method896(int i, byte i_9_) {
-		InterfaceDefinitions.aClass199_2552.method2883(i, -1455550593);
-		InterfaceDefinitions.aClass199_2694.method2883(i, -1472845509);
-		InterfaceDefinitions.aClass199_2568.method2883(i, -1744072592);
-		InterfaceDefinitions.aClass199_2554.method2883(i, -1633523209);
+		IComponentDefinitions.aClass199_2552.method2883(i, -1455550593);
+		IComponentDefinitions.aClass199_2694.method2883(i, -1472845509);
+		IComponentDefinitions.aClass199_2568.method2883(i, -1744072592);
+		IComponentDefinitions.aClass199_2554.method2883(i, -1633523209);
 	}
 
 	public static int method897(int i, int i_10_, int i_11_, int i_12_) {
@@ -388,7 +388,7 @@ public class Class45 {
 
 	static final void method901(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class171.method2427(class251, class234, class668, 1742667173);
 	}

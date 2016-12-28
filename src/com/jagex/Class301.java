@@ -592,7 +592,7 @@ public abstract class Class301 {
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 	}
 
-	static void method4095(InterfaceDefinitions class251, int i, int i_19_, int i_20_) {
+	static void method4095(IComponentDefinitions class251, int i, int i_19_, int i_20_) {
 		Class244 class244 = class251.method3478(Class677.aClass167_8609, 664090227);
 		if (class244 != null) {
 			Class677.aClass167_8609.method2369(i, i_19_, i + (class251.anInt2573 * -1606950689), (class251.anInt2574 * 223822141 + i_19_));

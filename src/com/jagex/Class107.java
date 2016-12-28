@@ -51,7 +51,7 @@ public class Class107 {
 	float aFloat1320;
 	int[] anIntArray1321;
 	static String[] aStringArray1322;
-	static InterfaceDefinitions aClass251_1323;
+	static IComponentDefinitions aClass251_1323;
 
 	void method1431() {
 		aClass117_1290 = new Class117(aClass167_Sub1_1286, this);
@@ -123,7 +123,7 @@ public class Class107 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) -67)).value) * -680425497;
 	}
 
-	static final void method1438(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method1438(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 1472892954;
 		int i_2_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_3_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];

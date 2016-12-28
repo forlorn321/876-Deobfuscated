@@ -56,7 +56,7 @@ public class Class494 {
 					}
 					if (i_4_ != -1 && i_5_ != -1) {
 						if (client.aBool11188 && (1686601581 * Class511.anInt6931 & 0x40) != 0) {
-							InterfaceDefinitions class251 = Class527.method6429((1625551467 * Class663.anInt8515), (-1059472497 * client.anInt11183), (byte) -92);
+							IComponentDefinitions class251 = Class527.method6429((1625551467 * Class663.anInt8515), (-1059472497 * client.anInt11183), (byte) -92);
 							if (class251 != null)
 								Class521_Sub6.method9389(client.aString11185, new StringBuilder().append(" ").append(Class40.aString495).append(" ").toString(), 1764906975 * Class13.anInt161, 59, -1, 0L, i_4_, i_5_, true, false, (long) (i_4_ << 0 | i_5_), true, 1459200966);
 							else
@@ -272,7 +272,7 @@ public class Class494 {
 
 	static final void method5990(Class668 class668, int i) {
 		int i_61_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_61_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_61_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_61_ >> 16];
 		Class390.method4856(class251, class234, true, 0, class668, (byte) -37);
 	}

@@ -618,7 +618,7 @@ public class Class360_Sub1 extends Class360 {
 
 	static final void method9270(Class668 class668, int i) {
 		int i_37_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_37_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_37_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_37_ >> 16];
 		Class434.method5233(class251, class234, class668, 435246204);
 	}

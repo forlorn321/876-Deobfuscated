@@ -77,14 +77,14 @@ public class Class632 implements Iterator {
 
 	static final void method7540(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class208.method2968(class251, class234, class668, (short) 255);
 	}
 
 	static final void method7541(Class668 class668, byte i) {
 		int i_8_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_8_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_8_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_8_ >> 16];
 		Class292.method3968(class251, class234, class668, -878876194);
 	}

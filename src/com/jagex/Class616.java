@@ -42,7 +42,7 @@ public class Class616 {
 		return i_4_;
 	}
 
-	static void method7337(Class167 class167, int i, int i_6_, InterfaceDefinitions class251, byte i_7_) {
+	static void method7337(Class167 class167, int i, int i_6_, IComponentDefinitions class251, byte i_7_) {
 		int i_8_ = 127;
 		int i_9_ = 7;
 		for (int i_10_ = 63; i_10_ >= 0; i_10_--) {

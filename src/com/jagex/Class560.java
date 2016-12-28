@@ -80,7 +80,7 @@ class Class560 implements Runnable {
 			Class61.loginStage = -329511650;
 	}
 
-	static final void method6824(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6824(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.anInt2580 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -979286481;
 		class251.anInt2626 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 323164283;
 	}

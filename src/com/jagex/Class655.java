@@ -253,7 +253,7 @@ public final class Class655 {
 		Class478 class478 = class153.aClass453_1716.method5437(65280);
 		if (Class478.aClass478_5385 == class478) {
 			if (class153.aClass458_1717 == Class458.aClass458_5167)
-				InterfaceDefinitions.method3514(class153, (byte) 23);
+				IComponentDefinitions.method3514(class153, (byte) 23);
 			interface19.method101(class153, class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)], 371952478);
 		} else if (Class478.aClass478_5388 == class478)
 			interface19.method119(class153, class668.aLongArray8565[((class668.anInt8546 -= 1792517805) * 1346022693)]);

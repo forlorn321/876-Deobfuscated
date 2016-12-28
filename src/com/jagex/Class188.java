@@ -104,7 +104,7 @@ public class Class188 {
 		class668.anInt8542 -= 1472892954;
 		int i_2_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_3_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
-		InterfaceDefinitions class251 = Class527.method6429(i_2_, i_3_, (byte) 3);
+		IComponentDefinitions class251 = Class527.method6429(i_2_, i_3_, (byte) 3);
 		Class270.method3717(112258221);
 		IComponentSettings class536_sub14 = client.getIComponentSettings(class251);
 		Class501.method6033(class251, class536_sub14.method9474(), 501091713 * class536_sub14.interfaceHash, 421252950);
@@ -112,11 +112,11 @@ public class Class188 {
 
 	static final void method2798(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.hidden ? 1 : 0;
 	}
 
-	static final void method2799(InterfaceDefinitions class251, Class668 class668, int i) {
+	static final void method2799(IComponentDefinitions class251, Class668 class668, int i) {
 		class668.anInt8542 -= 61855783;
 		int i_4_ = class668.anIntArray8541[class668.anInt8542 * 1867269829] - 1;
 		int i_5_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];

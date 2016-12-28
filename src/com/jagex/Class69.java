@@ -80,8 +80,8 @@ final class Class69 implements Interface51 {
 				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
 				Class214.sendPanelBoxMessage(new StringBuilder().append("").append(client.aClass515_11066.method6249(-1446462339).aClass160Array7431[(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)].method1927((int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9, -1753625776)).toString());
 			} else if (i == 1) {
-				Class214.sendPanelBoxMessage(new StringBuilder().append(InterfaceDefinitions.aClass199_2552.method2885(2061537845)).append(" ").append(InterfaceDefinitions.aClass199_2552.method2891(453221733)).toString());
-				Class214.sendPanelBoxMessage(new StringBuilder().append(InterfaceDefinitions.aClass199_2694.method2885(2095019710)).append(" ").append(InterfaceDefinitions.aClass199_2694.method2891(453221733)).toString());
+				Class214.sendPanelBoxMessage(new StringBuilder().append(IComponentDefinitions.aClass199_2552.method2885(2061537845)).append(" ").append(IComponentDefinitions.aClass199_2552.method2891(453221733)).toString());
+				Class214.sendPanelBoxMessage(new StringBuilder().append(IComponentDefinitions.aClass199_2694.method2885(2095019710)).append(" ").append(IComponentDefinitions.aClass199_2694.method2891(453221733)).toString());
 			} else if (4 == i)
 				Class558.method6817(false, -988098835);
 			else if (20 == i) {

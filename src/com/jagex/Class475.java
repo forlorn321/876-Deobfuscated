@@ -30,7 +30,7 @@ public class Class475 {
 		aClass475_5380 = new Class475(8);
 	}
 
-	static final void method5743(InterfaceDefinitions class251, Class668 class668, byte i) {
+	static final void method5743(IComponentDefinitions class251, Class668 class668, byte i) {
 		int i_0_ = 10;
 		Class406.method4945(class251, i_0_, class668, -1801935638);
 	}
@@ -52,7 +52,7 @@ public class Class475 {
 
 	static final void method5746(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class328_Sub2.method9152(class251, class234, class668, -1379450258);
 	}

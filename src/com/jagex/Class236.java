@@ -96,7 +96,7 @@ public class Class236 implements Interface75 {
 
 	static final void method3345(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anInt8542 -= -1225469822;
 		byte[] is = null;
 		byte[] is_5_ = null;

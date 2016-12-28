@@ -32,7 +32,7 @@ public class Class481 {
 		anInt5421 = 1566942627 * i;
 	}
 
-	static final void method5831(InterfaceDefinitions class251, int i, byte[] is, byte[] is_0_, Class668 class668, int i_1_) {
+	static final void method5831(IComponentDefinitions class251, int i, byte[] is, byte[] is_0_, Class668 class668, int i_1_) {
 		if (null == class251.opKeys) {
 			if (null != is) {
 				class251.opKeys = new byte[11][];
@@ -60,7 +60,7 @@ public class Class481 {
 
 	static final void method5832(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class462.method5620(class251, class234, class668, -1991869906);
 	}

@@ -73,7 +73,7 @@ public class Class103 {
 		aClass199_1231.method2892(266809290);
 	}
 
-	static void method1371(Class167 class167, Class161 class161, InterfaceDefinitions class251, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_) {
+	static void method1371(Class167 class167, Class161 class161, IComponentDefinitions class251, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_) {
 		Class248 class248 = ((Class248) Class398_Sub1.aClass34_Sub8_10110.method70(i_3_, (byte) 91));
 		if (class248 != null && class248.anIntArray2506 != null && class248.method3429(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, 440832876))
 			class248 = class248.method3435(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, -1305113627);
@@ -182,7 +182,7 @@ public class Class103 {
 
 	static final void method1372(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1151043453 * class251.anInt2571;
 	}
 
@@ -201,8 +201,8 @@ public class Class103 {
 			client.aShort11278 = (short) 320;
 	}
 
-	static final void method1375(InterfaceDefinitions class251, int i) {
-		if (-1769600535 * class251.anInt2562 == InterfaceDefinitions.anInt2536 * 1542493203) {
+	static final void method1375(IComponentDefinitions class251, int i) {
+		if (-1769600535 * class251.anInt2562 == IComponentDefinitions.anInt2536 * 1542493203) {
 			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username == null) {
 				class251.modelId = 0;
 				class251.anInt2603 = 0;
@@ -226,7 +226,7 @@ public class Class103 {
 
 	static final void method1376(Class668 class668, int i) {
 		int i_28_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_28_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_28_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_28_ >> 16];
 		Class628.method7492(class251, class234, class668, 1993371298);
 	}

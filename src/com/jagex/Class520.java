@@ -129,7 +129,7 @@ public class Class520 {
 		}
 	}
 
-	static final void method6348(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6348(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.maxLines = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1108499687;
 		Class668.method8011(class251, 263642117);
 	}
@@ -158,7 +158,7 @@ public class Class520 {
 		return null;
 	}
 
-	static final void method6351(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6351(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -916987741) != null)
 			string = string.substring(0, string.length() - 1);

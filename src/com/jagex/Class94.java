@@ -22,7 +22,7 @@ public class Class94 {
 		Class45.aString528 = string;
 	}
 
-	static final void method1289(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method1289(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		Class73 class73 = (Class73) Class207.aClass34_Sub22_2244.method70(i_0_, (byte) -7);
@@ -38,12 +38,12 @@ public class Class94 {
 
 	static final void method1291(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_1_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class390.method4856(class251, class234, false, 2, class668, (byte) -85);
 	}
 
-	static final void method1292(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method1292(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (i_3_ >= 1 && i_3_ <= 10)

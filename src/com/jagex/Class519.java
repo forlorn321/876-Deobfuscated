@@ -21,7 +21,7 @@ public class Class519 {
 
 	static final void method6334(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class230.method3298(class251, class234, class668, 2033328431);
 	}
@@ -40,8 +40,8 @@ public class Class519 {
 		return i_3_;
 	}
 
-	static InterfaceDefinitions method6337(InterfaceDefinitions class251, int i) {
-		InterfaceDefinitions class251_4_ = client.method10382(class251);
+	static IComponentDefinitions method6337(IComponentDefinitions class251, int i) {
+		IComponentDefinitions class251_4_ = client.method10382(class251);
 		if (null == class251_4_)
 			class251_4_ = class251.aClass251_2553;
 		return class251_4_;

@@ -54,19 +54,19 @@ public class Class171 {
 		return 7 - i_1_ - (i_4_ - 1);
 	}
 
-	static void method2425(Class234 class234, InterfaceDefinitions class251, int i) {
+	static void method2425(Class234 class234, IComponentDefinitions class251, int i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				InterfaceDefinitions class251_8_ = class234.method3337(-1940204141 * class251.parentLayer, 552340768);
+				IComponentDefinitions class251_8_ = class234.method3337(-1940204141 * class251.parentLayer, 552340768);
 				if (class251_8_ != null) {
 					if (class251_8_.aClass251Array2725 == class251_8_.aClass251Array2726) {
-						class251_8_.aClass251Array2726 = (new InterfaceDefinitions[class251_8_.aClass251Array2725.length]);
+						class251_8_.aClass251Array2726 = (new IComponentDefinitions[class251_8_.aClass251Array2725.length]);
 						class251_8_.aClass251Array2726[class251_8_.aClass251Array2726.length - 1] = class251;
 						Class687.method8116(class251_8_.aClass251Array2725, 0, class251_8_.aClass251Array2726, 0, class251.anInt2546 * -809980533);
 						Class687.method8116(class251_8_.aClass251Array2725, 1 + (class251.anInt2546 * -809980533), class251_8_.aClass251Array2726, -809980533 * class251.anInt2546, ((class251_8_.aClass251Array2725).length - class251.anInt2546 * -809980533 - 1));
 					} else {
 						int i_9_ = 0;
-						InterfaceDefinitions[] class251s;
+						IComponentDefinitions[] class251s;
 						for (class251s = class251_8_.aClass251Array2726; (i_9_ < class251s.length && class251s[i_9_] != class251); i_9_++) {
 							/* empty */
 						}
@@ -77,7 +77,7 @@ public class Class171 {
 					}
 				}
 			} else {
-				InterfaceDefinitions[] class251s = class234.method3338(1877345864);
+				IComponentDefinitions[] class251s = class234.method3338(1877345864);
 				int i_10_;
 				for (i_10_ = 0; i_10_ < class251s.length && class251s[i_10_] != class251; i_10_++) {
 					/* empty */
@@ -96,7 +96,7 @@ public class Class171 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class489.method5879(string, i_11_ == 1, 2097030051);
 	}
 
-	static final void method2427(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2427(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -515799474) != null)
 			string = string.substring(0, string.length() - 1);
@@ -144,7 +144,7 @@ public class Class171 {
 		return i_15_;
 	}
 
-	static final void method2429(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method2429(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1435460688) != null)
 			string = string.substring(0, string.length() - 1);

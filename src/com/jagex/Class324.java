@@ -124,14 +124,14 @@ public class Class324 implements Interface14 {
 
 	static final void method4270(Class668 class668, int i) {
 		int i_15_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_15_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_15_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_15_ >> 16];
 		Class207.method2966(class251, class234, class668, 1989787980);
 	}
 
 	static final void method4271(Class668 class668, byte i) {
 		int i_16_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_16_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_16_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_16_ >> 16];
 		Class534.method6469(class251, class234, class668, -142337968);
 	}

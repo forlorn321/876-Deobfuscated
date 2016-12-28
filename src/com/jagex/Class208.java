@@ -117,12 +117,12 @@ class Class208 implements Interface55 {
 				throw new RuntimeException("");
 			throw new RuntimeException("");
 		}
-		InterfaceDefinitions class251 = class683.method8094(-1374574797);
+		IComponentDefinitions class251 = class683.method8094(-1374574797);
 		class251.aClass251Array2725[(class683.aClass251_8650.anInt2546 * -809980533)] = null;
 		Class668.method8011(class251, 263642117);
 	}
 
-	static final void method2968(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
+	static final void method2968(IComponentDefinitions class251, Class234 class234, Class668 class668, short i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (!string.equals(class251.text)) {
 			class251.text = string;
@@ -132,7 +132,7 @@ class Class208 implements Interface55 {
 			Class79.method1161(-1591767037 * class251.anInt2559, 1574038584);
 	}
 
-	static final void method2969(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2969(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1769800149) != null)
 			string = string.substring(0, string.length() - 1);
@@ -144,7 +144,7 @@ class Class208 implements Interface55 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(1824836319);
 	}
 
-	static final void method2971(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method2971(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -524483587) != null)
 			string = string.substring(0, string.length() - 1);

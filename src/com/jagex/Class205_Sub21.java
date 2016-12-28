@@ -26,7 +26,7 @@ public class Class205_Sub21 extends Class205 {
 
 	static final void method9095(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 92396219 * class251.yan2d;
 	}
 

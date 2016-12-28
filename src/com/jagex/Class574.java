@@ -111,7 +111,7 @@ public class Class574 implements DefinitionI, Interface7 {
 
 	static final void method6946(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.getIComponentSettings(class251).method9474();
 	}
 

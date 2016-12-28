@@ -95,7 +95,7 @@ public class Class73 implements DefinitionI, Interface7 {
 		return Class453.aClass453_5084 == aClass453_804;
 	}
 
-	static int method1132(InterfaceDefinitions class251, int i, int i_3_) {
+	static int method1132(IComponentDefinitions class251, int i, int i_3_) {
 		if (!client.getIComponentSettings(class251).method9472(i) && class251.onOpHook == null)
 			return -1;
 		return ((null != class251.opCursors && class251.opCursors.length > i) ? class251.opCursors[i] : -1);

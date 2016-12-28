@@ -57,7 +57,7 @@ public class Class675 {
 		anInt8587 = i_4_ * -308548251;
 	}
 
-	static final void method8037(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method8037(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		class251.anInt2711 = 180322533;
 		if (i_5_ != class251.graphicId * -1307221069) {

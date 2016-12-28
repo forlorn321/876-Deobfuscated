@@ -38,11 +38,11 @@ public class Class219 implements Interface27 {
 
 	static final void method3100(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1064708005 * class251.anInt2658;
 	}
 
-	static void method3101(InterfaceDefinitions class251, int i, int i_0_, int i_1_) {
+	static void method3101(IComponentDefinitions class251, int i, int i_0_, int i_1_) {
 		if (client.aBool11188) {
 			Class73 class73 = ((Class73) (Class173_Sub1.anInt9384 * -4715005 != -1 ? Class207.aClass34_Sub22_2244.method70((-4715005 * (Class173_Sub1.anInt9384)), (byte) 41) : null));
 			if (client.getIComponentSettings(class251).method9491() && (Class511.anInt6931 * 1686601581 & 0x20) != 0 && (null == class73 || (class251.getIntParamDefault(Class173_Sub1.anInt9384 * -4715005, class73.anInt803 * 1566477951, 1869360746) != 1566477951 * class73.anInt803)))

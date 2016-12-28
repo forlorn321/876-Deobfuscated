@@ -25,7 +25,7 @@ public class Class534 implements Interface64 {
 		client.aClass106_11322.method1409(class536_sub23, 1884156957);
 	}
 
-	static final void method6469(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method6469(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		if (i_1_ < 0 || i_1_ > 9)
 			class668.anInt8544 -= 1946079257;
@@ -33,7 +33,7 @@ public class Class534 implements Interface64 {
 			class251.setOp(i_1_, (String) (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]));
 	}
 
-	static void method6470(InterfaceDefinitions class251, int i) {
+	static void method6470(IComponentDefinitions class251, int i) {
 		if (1049444347 * class251.anInt2728 == 5 && -1484799213 * class251.anInt2711 != -1)
 			Class228.method3288(Class677.aClass167_8609, class251, 73603669);
 	}

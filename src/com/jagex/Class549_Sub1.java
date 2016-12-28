@@ -376,9 +376,9 @@ public final class Class549_Sub1 extends Class549 implements KeyListener, FocusL
 		aComponent10583.addFocusListener(this);
 	}
 
-	static final void method9674(InterfaceDefinitions[] class251s, int i, int i_14_) {
+	static final void method9674(IComponentDefinitions[] class251s, int i, int i_14_) {
 		for (int i_15_ = 0; i_15_ < class251s.length; i_15_++) {
-			InterfaceDefinitions class251 = class251s[i_15_];
+			IComponentDefinitions class251 = class251s[i_15_];
 			if (class251 != null && class251.parentLayer * -1940204141 == i && !client.method10439(class251)) {
 				if (class251.anInt2728 * 1049444347 == 0) {
 					method9674(class251s, -1591767037 * class251.anInt2559, 1983741393);

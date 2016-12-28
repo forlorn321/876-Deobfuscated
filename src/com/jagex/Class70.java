@@ -28,7 +28,7 @@ public class Class70 {
 	static int anInt767;
 	static int anInt768;
 	static int anInt769;
-	static InterfaceDefinitions aClass251_770;
+	static IComponentDefinitions aClass251_770;
 	static int anInt771;
 	static int anInt772;
 	static final int anInt773 = 6;
@@ -744,7 +744,7 @@ public class Class70 {
 		return false;
 	}
 
-	static final void method1115(InterfaceDefinitions class251, Class668 class668, int i) {
+	static final void method1115(IComponentDefinitions class251, Class668 class668, int i) {
 		int i_68_ = 10;
 		int i_69_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class99.method1325(class251, i_68_, i_69_, class668, 483138766);
@@ -752,7 +752,7 @@ public class Class70 {
 
 	static final void method1116(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class536_Sub30.method9639(class251, class234, class668, -1584634367);
 	}

@@ -713,7 +713,7 @@ public class Class248 implements DefinitionI {
 		return i_58_;
 	}
 
-	static final void method3446(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
+	static final void method3446(IComponentDefinitions class251, Class234 class234, Class668 class668, short i) {
 		class251.fontId = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1355450591;
 		Class668.method8011(class251, 263642117);
 		if (-809980533 * class251.anInt2546 == -1 && !class234.aBool2379)

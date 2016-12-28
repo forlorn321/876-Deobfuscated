@@ -85,14 +85,14 @@ public class Class221 implements Interface27 {
 
 	static final void method3109(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_3_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class675.method8037(class251, class234, class668, 2141266766);
 	}
 
 	static final void method3110(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class700.method8251(class251, class234, class668, -693578313);
 	}

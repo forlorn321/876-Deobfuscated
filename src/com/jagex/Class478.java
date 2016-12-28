@@ -42,10 +42,10 @@ public class Class478 implements Interface75 {
 	}
 
 	public static void method5755(byte i) {
-		InterfaceDefinitions.aClass199_2552.method2892(1476790285);
-		InterfaceDefinitions.aClass199_2694.method2892(-463576285);
-		InterfaceDefinitions.aClass199_2568.method2892(-1912303390);
-		InterfaceDefinitions.aClass199_2554.method2892(1261224843);
+		IComponentDefinitions.aClass199_2552.method2892(1476790285);
+		IComponentDefinitions.aClass199_2694.method2892(-463576285);
+		IComponentDefinitions.aClass199_2568.method2892(-1912303390);
+		IComponentDefinitions.aClass199_2554.method2892(1261224843);
 	}
 
 	public Object method5756(RSByteBuffer class536_sub33, byte i) {
@@ -71,7 +71,7 @@ public class Class478 implements Interface75 {
 		return new Class478[] { aClass478_5387, aClass478_5385, aClass478_5388, aClass478_5386, aClass478_5389 };
 	}
 
-	static final void method5758(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method5758(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.angle2Id = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -207488001;
 		Class668.method8011(class251, 263642117);
 	}

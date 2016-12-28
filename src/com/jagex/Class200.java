@@ -211,7 +211,7 @@ class Class200 implements Interface55 {
 		this$0 = class211;
 	}
 
-	static final void method2914(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2914(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.modelType = -323602093;
 		class251.modelId = -436498141 * client.anInt11156;
 		class251.anInt2603 = 0;

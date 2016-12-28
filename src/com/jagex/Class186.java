@@ -116,13 +116,13 @@ public class Class186 implements DefinitionI, Interface7 {
 		/* empty */
 	}
 
-	static final void method2774(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
+	static final void method2774(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class251.op = null;
 	}
 
 	static final void method2775(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class227.method3284(class251, class668, 2049791046);
 	}
 

@@ -105,7 +105,7 @@ public class Class332 {
 		anInputStream3612 = inputstream;
 	}
 
-	static final void method4339(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method4339(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.anInt2660 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 726833675;
 	}
 }

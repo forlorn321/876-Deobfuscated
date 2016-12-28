@@ -103,14 +103,14 @@ public class Class678 implements Interface75 {
 
 	static final void method8060(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class442.method5333(class251, class234, class668, 861505483);
 	}
 
 	static final void method8061(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class492.method5972(class251, class234, class668, (byte) -33);
 	}
@@ -297,9 +297,9 @@ public class Class678 implements Interface75 {
 							Class536_Sub42 class536_sub42 = (Class536_Sub42) client.aClass708_11241.method8305(1296557205);
 							if (class536_sub42 == null)
 								break;
-							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+							IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 							if (class251.anInt2546 * -809980533 >= 0) {
-								InterfaceDefinitions class251_17_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
+								IComponentDefinitions class251_17_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (class251_17_ == null || class251_17_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_17_.aClass251Array2725).length) || class251 != (class251_17_.aClass251Array2725[(-809980533 * class251.anInt2546)]))
 									continue;
 							}
@@ -309,9 +309,9 @@ public class Class678 implements Interface75 {
 							Class536_Sub42 class536_sub42 = ((Class536_Sub42) client.aClass708_11181.method8305(-1272409954));
 							if (class536_sub42 == null)
 								break;
-							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+							IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 							if (-809980533 * class251.anInt2546 >= 0) {
-								InterfaceDefinitions class251_18_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
+								IComponentDefinitions class251_18_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (null == class251_18_ || class251_18_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_18_.aClass251Array2725).length) || class251 != (class251_18_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}
@@ -321,9 +321,9 @@ public class Class678 implements Interface75 {
 							Class536_Sub42 class536_sub42 = (Class536_Sub42) client.aClass708_11077.method8305(1236199034);
 							if (null == class536_sub42)
 								break;
-							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
+							IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 							if (-809980533 * class251.anInt2546 >= 0) {
-								InterfaceDefinitions class251_19_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
+								IComponentDefinitions class251_19_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (null == class251_19_ || class251_19_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= (class251_19_.aClass251Array2725).length) || class251 != (class251_19_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}

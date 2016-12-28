@@ -100,14 +100,14 @@ public class Class470 {
 
 	static final void method5707(Class668 class668, byte i) {
 		int i_26_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_26_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_26_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_26_ >> 16];
 		Class320.method4243(class251, class234, class668, -1028581094);
 	}
 
 	static final void method5708(Class668 class668, int i) {
 		int i_27_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_27_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_27_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_27_ >> 16];
 		Class390.method4856(class251, class234, false, 0, class668, (byte) -20);
 	}

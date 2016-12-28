@@ -143,7 +143,7 @@ public class Class661 implements Runnable {
 
 	static final void method7981(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class400.method4918(class251, class234, class668, 779591250);
 	}

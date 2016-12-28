@@ -32,7 +32,7 @@ public class Class257 implements Interface27 {
 
 	static final void method3542(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class662.method7985(class251, class234, class668, -1498715688);
 	}
@@ -46,7 +46,7 @@ public class Class257 implements Interface27 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass649_Sub1_Sub1_Sub1_8556.method9953(1596027471);
 	}
 
-	static void method3545(int i, int i_1_, InterfaceDefinitions class251, byte i_2_) {
+	static void method3545(int i, int i_1_, IComponentDefinitions class251, byte i_2_) {
 		int i_3_ = -1606950689 * class251.anInt2573 + i;
 		int i_4_ = 15 + i_1_;
 		if (client.aBool11314) {

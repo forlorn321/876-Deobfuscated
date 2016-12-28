@@ -50,7 +50,7 @@ public class Class545 {
 		return 1390500653 * anInt7273;
 	}
 
-	static final void method6608(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
+	static final void method6608(IComponentDefinitions class251, Class234 class234, Class668 class668, short i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1614359878) != null)
 			string = string.substring(0, string.length() - 1);

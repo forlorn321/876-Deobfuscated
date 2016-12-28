@@ -83,19 +83,19 @@ public class Class402 implements Interface75 {
 		return Class463.aClass234Array5227[i >> 16];
 	}
 
-	static void method4925(Class234 class234, InterfaceDefinitions class251, byte i) {
+	static void method4925(Class234 class234, IComponentDefinitions class251, byte i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				InterfaceDefinitions class251_4_ = (class234.aClass251Array2378[class251.parentLayer * -1940204141 & 0xffff]);
+				IComponentDefinitions class251_4_ = (class234.aClass251Array2378[class251.parentLayer * -1940204141 & 0xffff]);
 				if (null != class251_4_) {
 					if (class251_4_.aClass251Array2726 == class251_4_.aClass251Array2725) {
-						class251_4_.aClass251Array2726 = (new InterfaceDefinitions[class251_4_.aClass251Array2725.length]);
+						class251_4_.aClass251Array2726 = (new IComponentDefinitions[class251_4_.aClass251Array2725.length]);
 						class251_4_.aClass251Array2726[0] = class251;
 						Class687.method8116(class251_4_.aClass251Array2725, 0, class251_4_.aClass251Array2726, 1, class251.anInt2546 * -809980533);
 						Class687.method8116(class251_4_.aClass251Array2725, -809980533 * class251.anInt2546 + 1, class251_4_.aClass251Array2726, class251.anInt2546 * -809980533 + 1, (class251_4_.aClass251Array2725.length - -809980533 * class251.anInt2546 - 1));
 					} else {
 						int i_5_ = 0;
-						InterfaceDefinitions[] class251s;
+						IComponentDefinitions[] class251s;
 						for (class251s = class251_4_.aClass251Array2726; (i_5_ < class251s.length && class251 != class251s[i_5_]); i_5_++) {
 							/* empty */
 						}
@@ -106,7 +106,7 @@ public class Class402 implements Interface75 {
 					}
 				}
 			} else {
-				InterfaceDefinitions[] class251s = class234.method3338(2011307086);
+				IComponentDefinitions[] class251s = class234.method3338(2011307086);
 				int i_6_;
 				for (i_6_ = 0; i_6_ < class251s.length && class251s[i_6_] != class251; i_6_++) {
 					/* empty */
@@ -121,16 +121,16 @@ public class Class402 implements Interface75 {
 
 	static final void method4926(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
 		Class657.method7947(class251, class234, class668, 1983868557);
 	}
 
 	static final void method4927(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
-		InterfaceDefinitions class251 = class683.aClass251_8650;
+		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
-		InterfaceDefinitions class251_7_ = Class648.method7834(class234, class251, -16777216);
+		IComponentDefinitions class251_7_ = Class648.method7834(class234, class251, -16777216);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251_7_ == null ? -1 : class251_7_.anInt2559 * -1591767037;
 	}
 

@@ -61,7 +61,7 @@ public class Class406 {
 		throw new Error();
 	}
 
-	static final void method4945(InterfaceDefinitions class251, int i, Class668 class668, int i_0_) {
+	static final void method4945(IComponentDefinitions class251, int i, Class668 class668, int i_0_) {
 		if (null == class251.opKeys)
 			throw new RuntimeException();
 		if (null == class251.anIntArray2738)

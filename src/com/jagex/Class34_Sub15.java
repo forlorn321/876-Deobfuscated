@@ -56,7 +56,7 @@ public class Class34_Sub15 extends Class34 {
 		((Class681) anInterface6_289).method8079(i, (byte) -116);
 	}
 
-	static final void method10350(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method10350(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class668.anInt8542 -= 1472892954;
 		class251.anInt2581 = -178631565 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
 		if (class251.anInt2581 * 1428895931 > (class251.anInt2585 * -1382035527 - -1606950689 * class251.anInt2573))

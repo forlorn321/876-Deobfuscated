@@ -75,7 +75,7 @@ public class Class300 {
 		return i_3_;
 	}
 
-	static final void method4027(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
+	static final void method4027(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class251.dragDeadZone = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -881661827;
 	}
 }
