@@ -62,7 +62,7 @@ public class Class659 {
 
 	public static void method7954() {
 		if (Class225.method3218(1616259432))
-			Class536_Sub14.method9498(new Class629(), (byte) -71);
+			IComponentSettings.method9498(new Class629(), (byte) -71);
 	}
 
 	static void method7955() {
@@ -147,7 +147,7 @@ public class Class659 {
 
 	public static void method7961() {
 		if (Class225.method3218(-1973807708))
-			Class536_Sub14.method9498(new Class629(), (byte) -42);
+			IComponentSettings.method9498(new Class629(), (byte) -42);
 	}
 
 	public static void method7962() {

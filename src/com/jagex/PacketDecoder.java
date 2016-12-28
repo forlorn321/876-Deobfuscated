@@ -462,15 +462,15 @@ public class PacketDecoder {
 				System.out.println("player.getPackets().sendIComponentSettings("+interfaceId+", "+componentId+", "+fromSlot+", "+toSlot+", "+value+");");
 			for (int i_79_ = fromSlot; i_79_ <= toSlot; i_79_++) {
 				long l = ((long) interfaceHash << 32) + (long) i_79_;
-				Class536_Sub14 class536_sub14 = (Class536_Sub14) client.aClass4_11243.method556(l);
-				Class536_Sub14 class536_sub14_80_;
+				IComponentSettings class536_sub14 = (IComponentSettings) client.aClass4_11243.method556(l);
+				IComponentSettings class536_sub14_80_;
 				if (class536_sub14 == null) {
 					if (i_79_ == -1)
-						class536_sub14_80_ = new Class536_Sub14(value, (Class264.method3678(interfaceHash, -689214737).aClass536_Sub14_2575.anInt10478) * 501091713);
+						class536_sub14_80_ = new IComponentSettings(value, (Class264.method3678(interfaceHash, -689214737).aClass536_Sub14_2575.interfaceHash) * 501091713);
 					else
-						class536_sub14_80_ = new Class536_Sub14(value, -1);
+						class536_sub14_80_ = new IComponentSettings(value, -1);
 				} else {
-					class536_sub14_80_ = new Class536_Sub14(value, (class536_sub14.anInt10478 * 501091713));
+					class536_sub14_80_ = new IComponentSettings(value, (class536_sub14.interfaceHash * 501091713));
 					class536_sub14.method6484(524356204);
 				}
 				client.aClass4_11243.method560(class536_sub14_80_, l);
@@ -1388,15 +1388,15 @@ public class PacketDecoder {
 			Class307.method4133();
 			for (int i_237_ = i_234_; i_237_ <= i_235_; i_237_++) {
 				long l = ((long) i_233_ << 32) + (long) i_237_;
-				Class536_Sub14 class536_sub14 = (Class536_Sub14) client.aClass4_11243.method556(l);
-				Class536_Sub14 class536_sub14_238_;
+				IComponentSettings class536_sub14 = (IComponentSettings) client.aClass4_11243.method556(l);
+				IComponentSettings class536_sub14_238_;
 				if (null == class536_sub14) {
 					if (-1 == i_237_)
-						class536_sub14_238_ = new Class536_Sub14((Class264.method3678(i_233_, -689214737).aClass536_Sub14_2575.anInt10469) * -512963777, i_236_);
+						class536_sub14_238_ = new IComponentSettings((Class264.method3678(i_233_, -689214737).aClass536_Sub14_2575.settings) * -512963777, i_236_);
 					else
-						class536_sub14_238_ = new Class536_Sub14(0, i_236_);
+						class536_sub14_238_ = new IComponentSettings(0, i_236_);
 				} else {
-					class536_sub14_238_ = new Class536_Sub14((-512963777 * class536_sub14.anInt10469), i_236_);
+					class536_sub14_238_ = new IComponentSettings((-512963777 * class536_sub14.settings), i_236_);
 					class536_sub14.method6484(523680172);
 				}
 				client.aClass4_11243.method560(class536_sub14_238_, l);

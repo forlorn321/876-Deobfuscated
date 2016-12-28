@@ -240,7 +240,7 @@ public class Class26 {
 			class251.anInt2573 = (class251.anInt2693 * 460230119 * (223822141 * class251.anInt2574) / (class251.anInt2576 * 1468559887) * -1094460641);
 		if (class251.aByte2618 == 4)
 			class251.anInt2574 = (class251.anInt2576 * 1468559887 * (class251.anInt2573 * -1606950689) / (460230119 * class251.anInt2693) * 1965334037);
-		if (client.aBool11010 && (client.method10389(class251).anInt10469 * -512963777 != 0 || 0 == 1049444347 * class251.anInt2728)) {
+		if (client.aBool11010 && (client.method10389(class251).settings * -512963777 != 0 || 0 == 1049444347 * class251.anInt2728)) {
 			if (class251.anInt2574 * 223822141 < 5 && class251.anInt2573 * -1606950689 < 5) {
 				class251.anInt2574 = 1236735593;
 				class251.anInt2573 = -1177335909;

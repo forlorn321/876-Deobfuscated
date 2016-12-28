@@ -83,7 +83,7 @@ class Class620 implements Iterator {
 					int i_10_ = class251.anInt2571 * 1151043453 + i_4_;
 					int i_11_ = class251.anInt2572 * -712740187 + i_5_;
 					int i_12_ = class251.anInt2589 * 1425974027;
-					if (client.aBool11010 && ((client.method10389(class251).anInt10469 * -512963777) != 0 || 0 == class251.anInt2728 * 1049444347) && i_12_ > 127)
+					if (client.aBool11010 && ((client.method10389(class251).settings * -512963777) != 0 || 0 == class251.anInt2728 * 1049444347) && i_12_ > 127)
 						i_12_ = 127;
 					if (class251 == client.aClass251_10992) {
 						if (i != -1412584499 && ((class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2535 * -292337027) || (class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2617 * 10493011) || (client.method10389(class251).method9477(1157638953) && (1087226469 * InterfaceDefinitions.anInt2634 != (-2010774799 * class251.anInt2534))))) {

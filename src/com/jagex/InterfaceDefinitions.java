@@ -47,7 +47,7 @@ public class InterfaceDefinitions {
 	public int anInt2572;
 	public int anInt2573;
 	public int anInt2574;
-	public Class536_Sub14 aClass536_Sub14_2575;
+	public IComponentSettings aClass536_Sub14_2575;
 	public int anInt2576;
 	public int anInt2577;
 	public boolean aBool2578;
@@ -393,7 +393,7 @@ public class InterfaceDefinitions {
 			if (1973741201 * anInt2713 == 65535)
 				anInt2713 = -1993579121;
 		}
-		aClass536_Sub14_2575 = new Class536_Sub14(i_7_, i_19_);
+		aClass536_Sub14_2575 = new IComponentSettings(i_7_, i_19_);
 		if (i_3_ >= 0) {
 			int i_20_ = class536_sub33.readUnsignedByte();
 			for (int i_21_ = 0; i_21_ < i_20_; i_21_++) {
@@ -528,7 +528,7 @@ public class InterfaceDefinitions {
 		aBool2644 = false;
 		anInt2643 = 0;
 		aBool2608 = false;
-		aClass536_Sub14_2575 = Class536_Sub14.aClass536_Sub14_10477;
+		aClass536_Sub14_2575 = IComponentSettings.aClass536_Sub14_10477;
 		aBool2582 = false;
 		aString2556 = "";
 		anInt2660 = -726833675;

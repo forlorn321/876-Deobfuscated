@@ -1693,7 +1693,7 @@ public final class client extends Class505 {
 					i_83_ = i_85_ < i_72_ ? i_85_ : i_72_;
 					i_84_ = i_86_ < i_73_ ? i_86_ : i_73_;
 				}
-				if (0 != 1049444347 * class251.anInt2728 && !class251.aBool2666 && method10389(class251).anInt10469 * -512963777 == 0 && aClass251_11199 != class251 && (-1769600535 * class251.anInt2562 != InterfaceDefinitions.anInt2691 * 1208417731) && (InterfaceDefinitions.anInt2605 * 280161423 != -1769600535 * class251.anInt2562) && (-1769600535 * class251.anInt2562 != InterfaceDefinitions.anInt2537 * -2049675251) && (InterfaceDefinitions.anInt2646 * -1686834873 != class251.anInt2562 * -1769600535)) {
+				if (0 != 1049444347 * class251.anInt2728 && !class251.aBool2666 && method10389(class251).settings * -512963777 == 0 && aClass251_11199 != class251 && (-1769600535 * class251.anInt2562 != InterfaceDefinitions.anInt2691 * 1208417731) && (InterfaceDefinitions.anInt2605 * 280161423 != -1769600535 * class251.anInt2562) && (-1769600535 * class251.anInt2562 != InterfaceDefinitions.anInt2537 * -2049675251) && (InterfaceDefinitions.anInt2646 * -1686834873 != class251.anInt2562 * -1769600535)) {
 					if (i_81_ < i_83_ && i_82_ < i_84_)
 						Class534.method6470(class251, 2086053374);
 				} else if (!method10439(class251)) {
@@ -1803,8 +1803,8 @@ public final class client extends Class505 {
 										Class273.method3730(i_96_ + 1, -1591767037 * class251.anInt2559, -809980533 * class251.anInt2546, "", -1656222990);
 									else if (i_96_ == 10) {
 										Class270.method3717(378095825);
-										Class536_Sub14 class536_sub14 = method10389(class251);
-										Class501.method6033(class251, class536_sub14.method9474((byte) 3), (class536_sub14.anInt10478 * 501091713), 1561786323);
+										IComponentSettings class536_sub14 = method10389(class251);
+										Class501.method6033(class251, class536_sub14.method9474((byte) 3), (class536_sub14.interfaceHash * 501091713), 1561786323);
 										aString11185 = Class554.method6785(class251, 795492450);
 										if (aString11185 == null)
 											aString11185 = "Null";
@@ -2322,7 +2322,7 @@ public final class client extends Class505 {
 	}
 
 	static InterfaceDefinitions method10382(InterfaceDefinitions class251) {
-		Class536_Sub14 class536_sub14 = method10389(class251);
+		IComponentSettings class536_sub14 = method10389(class251);
 		if (class536_sub14.method9477(377974859))
 			return Class107.aClass251_1323;
 		int i = class536_sub14.method9494(-1411037171);
@@ -3217,8 +3217,8 @@ public final class client extends Class505 {
 		}
 	}
 
-	public static Class536_Sub14 method10389(InterfaceDefinitions class251) {
-		Class536_Sub14 class536_sub14 = ((Class536_Sub14) aClass4_11243.method556(((long) (-1591767037 * class251.anInt2559) << 32) + (long) (-809980533 * class251.anInt2546)));
+	public static IComponentSettings method10389(InterfaceDefinitions class251) {
+		IComponentSettings class536_sub14 = ((IComponentSettings) aClass4_11243.method556(((long) (-1591767037 * class251.anInt2559) << 32) + (long) (-809980533 * class251.anInt2546)));
 		return (class536_sub14 != null ? class536_sub14 : class251.aClass536_Sub14_2575);
 	}
 
@@ -4506,7 +4506,7 @@ public final class client extends Class505 {
 
 	public static boolean method10439(InterfaceDefinitions class251) {
 		if (aBool11010) {
-			if (method10389(class251).anInt10469 * -512963777 != 0)
+			if (method10389(class251).settings * -512963777 != 0)
 				return false;
 			if (0 == 1049444347 * class251.anInt2728)
 				return false;

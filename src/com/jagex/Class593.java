@@ -1128,7 +1128,7 @@ public class Class593 {
 			Class603.method7201(class668, -1687082133);
 			break;
 		case 445:
-			Class536_Sub14.method9500(class668, (byte) -1);
+			IComponentSettings.method9500(class668, (byte) -1);
 			break;
 		case 1100:
 			Class61.method1043(class668, 653672513);
@@ -3842,7 +3842,7 @@ public class Class593 {
 			Class188.method2791(class668, 1933392010);
 			break;
 		case 499:
-			Class536_Sub14.method9499(class668, (byte) 0);
+			IComponentSettings.method9499(class668, (byte) 0);
 			break;
 		case 778:
 			Class528.method6435(class668, 1472260417);

@@ -84,7 +84,7 @@ public abstract class Class554 {
 
 	public static void method6783(byte i) {
 		if (Class225.method3218(-110920746))
-			Class536_Sub14.method9498(new Class629(), (byte) -99);
+			IComponentSettings.method9498(new Class629(), (byte) -99);
 	}
 
 	static final void method6784(Class668 class668, int i) {
