@@ -1066,7 +1066,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 						i_128_ -= 16384;
 						is[i_125_] = i_128_ | 0x40000000;
 						class1s[i_125_] = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_128_, (byte) 77);
-						int i_129_ = class1s[i_125_].anInt76 * 755426589;
+						int i_129_ = class1s[i_125_].teamId * 755426589;
 						if (0 != i_129_)
 							anInt12191 = -554265225 * i_129_;
 					} else

@@ -39,7 +39,7 @@ final class Class275 implements Interface29 {
 				class12.anIntArray149[0] = class536_sub33.readBigSmart();
 				class12.anIntArray152[0] = class536_sub33.readBigSmart();
 			}
-			if (-1 != class1.anInt46 * 661594531 || -490119801 * class1.anInt48 != -1) {
+			if (-1 != class1.maleEquip2 * 661594531 || -490119801 * class1.femaleEquip2 != -1) {
 				if (i <= 1) {
 					class12.anIntArray149[1] = class536_sub33.readUnsignedShort();
 					class12.anIntArray152[1] = class536_sub33.readUnsignedShort();
@@ -48,7 +48,7 @@ final class Class275 implements Interface29 {
 					class12.anIntArray152[1] = class536_sub33.readBigSmart();
 				}
 			}
-			if (-1 != 1280785913 * class1.anInt66 || class1.anInt20 * 835049345 != -1) {
+			if (-1 != 1280785913 * class1.maleEquipModelId3 || class1.femaleEquipModelId3 * 835049345 != -1) {
 				if (i <= 1) {
 					class12.anIntArray149[2] = class536_sub33.readUnsignedShort();
 					class12.anIntArray152[2] = class536_sub33.readUnsignedShort();

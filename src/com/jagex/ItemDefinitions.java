@@ -10,76 +10,76 @@ import java.util.Arrays;
 
 public class ItemDefinitions implements DefinitionI {
 	static String aString9;
-	int anInt11;
+	int femaleEquip1;
 	public static short[] aShortArray14 = new short[256];
 	Interface12 anInterface12_15;
 	Class16 aClass16_16;
-	public int anInt17;
+	public int lendTemplateId;
 	public int anInt18 = -975650179;
-	int anInt19;
-	int anInt20;
+	int modelId;
+	int femaleEquipModelId3;
 	String aString21;
-	short[] aShortArray22;
-	int anInt23;
-	public String[] aStringArray24;
-	short[] aShortArray25;
+	short[] modifiedModelColors;
+	int bindId;
+	public String[] inventoryOptions;
+	short[] modifiedTextureColors;
 	byte[] aByteArray26;
 	byte[] aByteArray27;
-	short[] aShortArray28;
-	public int anInt29;
-	public int anInt30;
+	short[] originalModelColors;
+	public int certId;
+	public int modelRotation2;
 	public int anInt31;
-	public int anInt32;
-	public int anInt33;
-	public int anInt34;
+	public int modelOffset1;
+	public int modelOffset2;
+	public int stackable;
 	public int anInt35;
-	public int anInt36;
-	public boolean aBool37;
-	public String[] aStringArray38;
+	public int value;
+	public boolean membersOnly;
+	public String[] groundOptions;
 	int anInt39;
 	public int anInt40;
 	int[] anIntArray41;
-	public int anInt42;
-	public int anInt43;
-	public String aString44 = "null";
-	int anInt45;
-	int anInt46;
-	public int anInt47 = -60909040;
-	int anInt48;
+	public int equipSlot;
+	public int equipLookHideSlot;
+	public String name = "null";
+	int maleEquip1;
+	int maleEquip2;
+	public int modelZoom = -60909040;
+	int femaleEquip2;
 	public boolean aBool49;
 	public int anInt50;
 	int anInt51;
 	int anInt52;
 	int anInt53;
-	public int anInt54 = 0;
+	public int modelRotation1 = 0;
 	int anInt55;
 	int anInt56;
 	int anInt57;
 	int anInt58;
 	int anInt59;
 	int anInt60;
-	int[] anIntArray61;
-	int[] anIntArray62;
-	public int anInt63;
+	int[] stackIds;
+	int[] stackAmounts;
+	public int certTemplateId;
 	public int anInt64;
-	int anInt65;
-	int anInt66;
+	int lendId;
+	int maleEquipModelId3;
 	public int anInt67;
 	int anInt69;
-	public int anInt70;
+	public int equipLookHideSlot2;
 	int anInt71;
 	int anInt72;
 	int anInt73;
 	int anInt74;
-	short[] aShortArray75;
-	public int anInt76;
-	public boolean aBool77;
+	short[] originalTextureColors;
+	public int teamId;
+	public boolean tradeable;
 	public int anInt78;
-	Class4 aClass4_79;
+	Class4 clientScriptData;
 	public int[] anIntArray80;
 	public int anInt81;
 	int anInt82;
-	public int anInt83;
+	public int bindTemplateId;
 	public boolean aBool84;
 	int[] anIntArray85;
 	byte[] aByteArray87;
@@ -89,23 +89,23 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	public void method75(byte i) {
-		if (anInt63 * 79208069 != -1)
-			method500((ItemDefinitions) anInterface12_15.method70(anInt63 * 79208069, (byte) 52), (ItemDefinitions) anInterface12_15.method70(1990739153 * anInt29, (byte) -27), aClass16_16.aClass664_176, -113470931);
-		else if (-1494720165 * anInt17 != -1)
-			method497((ItemDefinitions) anInterface12_15.method70(anInt17 * -1494720165, (byte) -77), (ItemDefinitions) anInterface12_15.method70(515259213 * anInt65, (byte) -112), aClass16_16.aClass664_176, -2018787355);
-		else if (-1 != anInt83 * -377039411)
-			method501((ItemDefinitions) anInterface12_15.method70(anInt83 * -377039411, (byte) 32), (ItemDefinitions) anInterface12_15.method70(1859340953 * anInt23, (byte) 14), aClass16_16.aClass664_176, (byte) -107);
+		if (certTemplateId * 79208069 != -1)
+			method500((ItemDefinitions) anInterface12_15.method70(certTemplateId * 79208069, (byte) 52), (ItemDefinitions) anInterface12_15.method70(1990739153 * certId, (byte) -27), aClass16_16.aClass664_176, -113470931);
+		else if (-1494720165 * lendTemplateId != -1)
+			method497((ItemDefinitions) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -77), (ItemDefinitions) anInterface12_15.method70(515259213 * lendId, (byte) -112), aClass16_16.aClass664_176, -2018787355);
+		else if (-1 != bindTemplateId * -377039411)
+			method501((ItemDefinitions) anInterface12_15.method70(bindTemplateId * -377039411, (byte) 32), (ItemDefinitions) anInterface12_15.method70(1859340953 * bindId, (byte) 14), aClass16_16.aClass664_176, (byte) -107);
 		else if (-1 != 208949951 * anInt64)
 			method502((ItemDefinitions) anInterface12_15.method70(208949951 * anInt64, (byte) -41), (ItemDefinitions) anInterface12_15.method70(anInt67 * 989214201, (byte) 38), aClass16_16.aClass664_176, (byte) -39);
-		if (!aClass16_16.aBool174 && aBool37) {
-			anInt76 = 0;
-			aStringArray38 = aClass16_16.aStringArray182;
-			aStringArray24 = aClass16_16.aStringArray183;
-			aBool77 = false;
+		if (!aClass16_16.aBool174 && membersOnly) {
+			teamId = 0;
+			groundOptions = aClass16_16.aStringArray182;
+			inventoryOptions = aClass16_16.aStringArray183;
+			tradeable = false;
 			anIntArray80 = null;
-			if (null != aClass4_79) {
+			if (null != clientScriptData) {
 				boolean bool = false;
-				for (Class536 class536 = aClass4_79.method562(-1886721107); class536 != null; class536 = aClass4_79.method567(785392296)) {
+				for (Class536 class536 = clientScriptData.method562(-1886721107); class536 != null; class536 = clientScriptData.method567(785392296)) {
 					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -66));
 					if (class73.aBool802)
 						class536.method6484(1169878739);
@@ -113,53 +113,53 @@ public class ItemDefinitions implements DefinitionI {
 						bool = true;
 				}
 				if (!bool)
-					aClass4_79 = null;
+					clientScriptData = null;
 			}
 		}
 	}
 
 	void method499(Class13 class13, ItemDefinitions class1_2_, ItemDefinitions class1_3_, Class38 class38, Class664 class664, byte i) {
-		anInt19 = class1_2_.anInt19 * 1;
-		anInt47 = class1_2_.anInt47 * 1;
-		anInt54 = class1_2_.anInt54 * 1;
-		anInt30 = 1 * class1_2_.anInt30;
+		modelId = class1_2_.modelId * 1;
+		modelZoom = class1_2_.modelZoom * 1;
+		modelRotation1 = class1_2_.modelRotation1 * 1;
+		modelRotation2 = 1 * class1_2_.modelRotation2;
 		anInt31 = class1_2_.anInt31 * 1;
-		anInt32 = 1 * class1_2_.anInt32;
-		anInt33 = 1 * class1_2_.anInt33;
+		modelOffset1 = 1 * class1_2_.modelOffset1;
+		modelOffset2 = 1 * class1_2_.modelOffset2;
 		ItemDefinitions class1_4_ = Class13.aClass13_157 == class13 ? class1_2_ : class1_3_;
-		aShortArray28 = class1_4_.aShortArray28;
-		aShortArray22 = class1_4_.aShortArray22;
+		originalModelColors = class1_4_.originalModelColors;
+		modifiedModelColors = class1_4_.modifiedModelColors;
 		aByteArray87 = class1_4_.aByteArray87;
-		aShortArray75 = class1_4_.aShortArray75;
-		aShortArray25 = class1_4_.aShortArray25;
-		aString44 = class1_3_.aString44;
-		aBool37 = class1_3_.aBool37;
+		originalTextureColors = class1_4_.originalTextureColors;
+		modifiedTextureColors = class1_4_.modifiedTextureColors;
+		name = class1_3_.name;
+		membersOnly = class1_3_.membersOnly;
 		if (Class13.aClass13_157 == class13) {
-			anInt36 = 1 * class1_3_.anInt36;
-			anInt34 = -201081757;
+			value = 1 * class1_3_.value;
+			stackable = -201081757;
 		} else if (Class13.aClass13_160 == class13) {
-			aString44 = class1_3_.aString21;
-			anInt36 = (int) Math.floor((double) (-680425497 * class1_3_.anInt36 / (class1_3_.anInt50 * -682434919))) * 384998359;
-			anInt34 = -201081757;
-			aBool77 = class1_3_.aBool77;
+			name = class1_3_.aString21;
+			value = (int) Math.floor((double) (-680425497 * class1_3_.value / (class1_3_.anInt50 * -682434919))) * 384998359;
+			stackable = -201081757;
+			tradeable = class1_3_.tradeable;
 			anInt18 = 1 * class1_2_.anInt18;
 			anIntArray85 = class1_2_.anIntArray85;
 			anIntArray41 = class1_2_.anIntArray41;
-			aStringArray24 = new String[5];
-			aStringArray24[0] = Class38.aClass38_316.method840(class664, 1854381950);
-			aStringArray24[4] = class38.method840(class664, 1833967988);
+			inventoryOptions = new String[5];
+			inventoryOptions[0] = Class38.aClass38_316.method840(class664, 1854381950);
+			inventoryOptions[4] = class38.method840(class664, 1833967988);
 		} else {
-			anInt36 = 0;
-			anInt34 = class1_3_.anInt34 * 1;
-			anInt42 = class1_3_.anInt42 * 1;
-			anInt43 = class1_3_.anInt43 * 1;
-			anInt70 = 1 * class1_3_.anInt70;
-			anInt45 = 1 * class1_3_.anInt45;
-			anInt46 = 1 * class1_3_.anInt46;
-			anInt66 = 1 * class1_3_.anInt66;
-			anInt11 = class1_3_.anInt11 * 1;
-			anInt48 = 1 * class1_3_.anInt48;
-			anInt20 = class1_3_.anInt20 * 1;
+			value = 0;
+			stackable = class1_3_.stackable * 1;
+			equipSlot = class1_3_.equipSlot * 1;
+			equipLookHideSlot = class1_3_.equipLookHideSlot * 1;
+			equipLookHideSlot2 = 1 * class1_3_.equipLookHideSlot2;
+			maleEquip1 = 1 * class1_3_.maleEquip1;
+			maleEquip2 = 1 * class1_3_.maleEquip2;
+			maleEquipModelId3 = 1 * class1_3_.maleEquipModelId3;
+			femaleEquip1 = class1_3_.femaleEquip1 * 1;
+			femaleEquip2 = 1 * class1_3_.femaleEquip2;
+			femaleEquipModelId3 = class1_3_.femaleEquipModelId3 * 1;
 			anInt51 = 1 * class1_3_.anInt51;
 			anInt52 = class1_3_.anInt52 * 1;
 			anInt53 = 1 * class1_3_.anInt53;
@@ -171,15 +171,15 @@ public class ItemDefinitions implements DefinitionI {
 			anInt59 = class1_3_.anInt59 * 1;
 			anInt82 = 1 * class1_3_.anInt82;
 			anInt18 = 1 * class1_3_.anInt18;
-			anInt76 = 1 * class1_3_.anInt76;
-			aStringArray38 = class1_3_.aStringArray38;
-			aClass4_79 = class1_3_.aClass4_79;
-			aStringArray24 = new String[5];
-			if (class1_3_.aStringArray24 != null) {
+			teamId = 1 * class1_3_.teamId;
+			groundOptions = class1_3_.groundOptions;
+			clientScriptData = class1_3_.clientScriptData;
+			inventoryOptions = new String[5];
+			if (class1_3_.inventoryOptions != null) {
 				for (int i_5_ = 0; i_5_ < 4; i_5_++)
-					aStringArray24[i_5_] = class1_3_.aStringArray24[i_5_];
+					inventoryOptions[i_5_] = class1_3_.inventoryOptions[i_5_];
 			}
-			aStringArray24[4] = class38.method840(class664, 1674609059);
+			inventoryOptions[4] = class38.method840(class664, 1674609059);
 		}
 	}
 
@@ -205,11 +205,11 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	public final Class177 method503(Class167 class167, int i, int i_12_, Class617 class617, Class688 class688, int i_13_, int i_14_, int i_15_, int i_16_, byte i_17_) {
-		if (anIntArray61 != null && i_12_ > 1) {
+		if (stackIds != null && i_12_ > 1) {
 			int i_18_ = -1;
 			for (int i_19_ = 0; i_19_ < 10; i_19_++) {
-				if (i_12_ >= anIntArray62[i_19_] && 0 != anIntArray62[i_19_])
-					i_18_ = anIntArray61[i_19_];
+				if (i_12_ >= stackAmounts[i_19_] && 0 != stackAmounts[i_19_])
+					i_18_ = stackIds[i_19_];
 			}
 			if (-1 != i_18_)
 				return (((ItemDefinitions) anInterface12_15.method70(i_18_, (byte) -38)).method503(class167, i, 1, class617, class688, i_13_, i_14_, i_15_, i_16_, (byte) -12));
@@ -225,9 +225,9 @@ public class ItemDefinitions implements DefinitionI {
 			if (class177 != null)
 				i_20_ = class167.method2068(i_20_, class177.method2466());
 			int i_21_ = i_20_;
-			if (aShortArray75 != null)
+			if (originalTextureColors != null)
 				i_21_ |= 0x8000;
-			if (null != aShortArray28 || class617 != null)
+			if (null != originalModelColors || class617 != null)
 				i_21_ |= 0x4000;
 			if (128 != anInt71 * -268256853)
 				i_21_ |= 0x1;
@@ -235,7 +235,7 @@ public class ItemDefinitions implements DefinitionI {
 				i_21_ |= 0x2;
 			if (anInt73 * 622326303 != 128)
 				i_21_ |= 0x4;
-			Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, -603352859 * anInt19, 0);
+			Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, -603352859 * modelId, 0);
 			if (null == class180)
 				return null;
 			if (class180.anInt1949 < 13)
@@ -243,17 +243,17 @@ public class ItemDefinitions implements DefinitionI {
 			class177 = class167.method2093(class180, i_21_, aClass16_16.anInt181 * -1879025117, -2092145097 * anInt60 + 64, anInt74 * -573721669 + 850);
 			if (anInt71 * -268256853 != 128 || 1833389311 * anInt72 != 128 || 128 != anInt73 * 622326303)
 				class177.method2474(-268256853 * anInt71, anInt72 * 1833389311, anInt73 * 622326303);
-			if (aShortArray28 != null) {
-				for (int i_22_ = 0; i_22_ < aShortArray28.length; i_22_++) {
+			if (originalModelColors != null) {
+				for (int i_22_ = 0; i_22_ < originalModelColors.length; i_22_++) {
 					if (aByteArray87 != null && i_22_ < aByteArray87.length)
-						class177.method2507(aShortArray28[i_22_], (aShortArray14[aByteArray87[i_22_] & 0xff]));
+						class177.method2507(originalModelColors[i_22_], (aShortArray14[aByteArray87[i_22_] & 0xff]));
 					else
-						class177.method2507(aShortArray28[i_22_], aShortArray22[i_22_]);
+						class177.method2507(originalModelColors[i_22_], modifiedModelColors[i_22_]);
 				}
 			}
-			if (aShortArray75 != null) {
-				for (int i_23_ = 0; i_23_ < aShortArray75.length; i_23_++)
-					class177.method2509(aShortArray75[i_23_], aShortArray25[i_23_]);
+			if (originalTextureColors != null) {
+				for (int i_23_ = 0; i_23_ < originalTextureColors.length; i_23_++)
+					class177.method2509(originalTextureColors[i_23_], modifiedTextureColors[i_23_]);
 			}
 			if (class617 != null) {
 				for (int i_24_ = 0; i_24_ < 10; i_24_++) {
@@ -286,11 +286,11 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	public ItemDefinitions method504(int i, int i_28_) {
-		if (null != anIntArray61 && i > 1) {
+		if (null != stackIds && i > 1) {
 			int i_29_ = -1;
 			for (int i_30_ = 0; i_30_ < 10; i_30_++) {
-				if (i >= anIntArray62[i_30_] && anIntArray62[i_30_] != 0)
-					i_29_ = anIntArray61[i_30_];
+				if (i >= stackAmounts[i_30_] && stackAmounts[i_30_] != 0)
+					i_29_ = stackIds[i_30_];
 			}
 			if (i_29_ != -1)
 				return (ItemDefinitions) anInterface12_15.method70(i_29_, (byte) -6);
@@ -346,18 +346,18 @@ public class ItemDefinitions implements DefinitionI {
 				i_65_ = class12.anIntArray152[1];
 				i_66_ = class12.anIntArray152[2];
 			} else {
-				i_64_ = -324829393 * anInt11;
-				i_65_ = -490119801 * anInt48;
-				i_66_ = 835049345 * anInt20;
+				i_64_ = -324829393 * femaleEquip1;
+				i_65_ = -490119801 * femaleEquip2;
+				i_66_ = 835049345 * femaleEquipModelId3;
 			}
 		} else if (null != class12 && null != class12.anIntArray149) {
 			i_64_ = class12.anIntArray149[0];
 			i_65_ = class12.anIntArray149[1];
 			i_66_ = class12.anIntArray149[2];
 		} else {
-			i_64_ = anInt45 * -64038767;
-			i_65_ = 661594531 * anInt46;
-			i_66_ = 1280785913 * anInt66;
+			i_64_ = maleEquip1 * -64038767;
+			i_65_ = 661594531 * maleEquip2;
+			i_66_ = 1280785913 * maleEquipModelId3;
 		}
 		if (-1 == i_64_)
 			return null;
@@ -385,23 +385,23 @@ public class ItemDefinitions implements DefinitionI {
 			class180.method2705(918907781 * anInt51, anInt53 * -1489063167, -1529289737 * anInt55);
 		if (bool && (anInt52 * 2036233391 != 0 || 360451697 * anInt56 != 0 || 0 != -896441729 * anInt69))
 			class180.method2705(2036233391 * anInt52, 360451697 * anInt56, -896441729 * anInt69);
-		if (null != aShortArray28) {
+		if (null != originalModelColors) {
 			short[] is;
 			if (null != class12 && class12.aShortArray155 != null)
 				is = class12.aShortArray155;
 			else
-				is = aShortArray22;
-			for (int i_69_ = 0; i_69_ < aShortArray28.length; i_69_++)
-				class180.method2703(aShortArray28[i_69_], is[i_69_]);
+				is = modifiedModelColors;
+			for (int i_69_ = 0; i_69_ < originalModelColors.length; i_69_++)
+				class180.method2703(originalModelColors[i_69_], is[i_69_]);
 		}
-		if (null != aShortArray75) {
+		if (null != originalTextureColors) {
 			short[] is;
 			if (class12 != null && null != class12.aShortArray156)
 				is = class12.aShortArray156;
 			else
-				is = aShortArray25;
-			for (int i_70_ = 0; i_70_ < aShortArray75.length; i_70_++)
-				class180.method2704(aShortArray75[i_70_], is[i_70_]);
+				is = modifiedTextureColors;
+			for (int i_70_ = 0; i_70_ < originalTextureColors.length; i_70_++)
+				class180.method2704(originalTextureColors[i_70_], is[i_70_]);
 		}
 		return class180;
 	}
@@ -416,9 +416,9 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	public int method510(int i, int i_72_, byte i_73_) {
-		if (aClass4_79 == null)
+		if (clientScriptData == null)
 			return i_72_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_79.method556((long) i);
+		Class536_Sub26 class536_sub26 = (Class536_Sub26) clientScriptData.method556((long) i);
 		if (null == class536_sub26)
 			return i_72_;
 		return class536_sub26.anInt10533 * 2083602213;
@@ -435,32 +435,32 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	public String method512(int i, String string, int i_75_) {
-		if (null == aClass4_79)
+		if (null == clientScriptData)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_79.method556((long) i);
+		Class536_Sub13 class536_sub13 = (Class536_Sub13) clientScriptData.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
 		return (String) class536_sub13.anObject10468;
 	}
 
 	public void method77() {
-		if (anInt63 * 79208069 != -1)
-			method500((ItemDefinitions) anInterface12_15.method70(anInt63 * 79208069, (byte) -40), (ItemDefinitions) anInterface12_15.method70(1990739153 * anInt29, (byte) -72), aClass16_16.aClass664_176, -1247668190);
-		else if (-1494720165 * anInt17 != -1)
-			method497((ItemDefinitions) anInterface12_15.method70(anInt17 * -1494720165, (byte) -19), (ItemDefinitions) anInterface12_15.method70(515259213 * anInt65, (byte) 10), aClass16_16.aClass664_176, -24657178);
-		else if (-1 != anInt83 * -377039411)
-			method501((ItemDefinitions) anInterface12_15.method70(anInt83 * -377039411, (byte) -65), (ItemDefinitions) anInterface12_15.method70(1859340953 * anInt23, (byte) 75), aClass16_16.aClass664_176, (byte) -106);
+		if (certTemplateId * 79208069 != -1)
+			method500((ItemDefinitions) anInterface12_15.method70(certTemplateId * 79208069, (byte) -40), (ItemDefinitions) anInterface12_15.method70(1990739153 * certId, (byte) -72), aClass16_16.aClass664_176, -1247668190);
+		else if (-1494720165 * lendTemplateId != -1)
+			method497((ItemDefinitions) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -19), (ItemDefinitions) anInterface12_15.method70(515259213 * lendId, (byte) 10), aClass16_16.aClass664_176, -24657178);
+		else if (-1 != bindTemplateId * -377039411)
+			method501((ItemDefinitions) anInterface12_15.method70(bindTemplateId * -377039411, (byte) -65), (ItemDefinitions) anInterface12_15.method70(1859340953 * bindId, (byte) 75), aClass16_16.aClass664_176, (byte) -106);
 		else if (-1 != 208949951 * anInt64)
 			method502((ItemDefinitions) anInterface12_15.method70(208949951 * anInt64, (byte) 35), (ItemDefinitions) anInterface12_15.method70(anInt67 * 989214201, (byte) -34), aClass16_16.aClass664_176, (byte) -110);
-		if (!aClass16_16.aBool174 && aBool37) {
-			anInt76 = 0;
-			aStringArray38 = aClass16_16.aStringArray182;
-			aStringArray24 = aClass16_16.aStringArray183;
-			aBool77 = false;
+		if (!aClass16_16.aBool174 && membersOnly) {
+			teamId = 0;
+			groundOptions = aClass16_16.aStringArray182;
+			inventoryOptions = aClass16_16.aStringArray183;
+			tradeable = false;
 			anIntArray80 = null;
-			if (null != aClass4_79) {
+			if (null != clientScriptData) {
 				boolean bool = false;
-				for (Class536 class536 = aClass4_79.method562(-1551289147); class536 != null; class536 = aClass4_79.method567(-335423598)) {
+				for (Class536 class536 = clientScriptData.method562(-1551289147); class536 != null; class536 = clientScriptData.method567(-335423598)) {
 					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -82));
 					if (class73.aBool802)
 						class536.method6484(-1437571573);
@@ -468,29 +468,29 @@ public class ItemDefinitions implements DefinitionI {
 						bool = true;
 				}
 				if (!bool)
-					aClass4_79 = null;
+					clientScriptData = null;
 			}
 		}
 	}
 
 	ItemDefinitions(int i, Interface12 interface12, Class16 class16) {
-		anInt30 = 0;
+		modelRotation2 = 0;
 		anInt31 = 0;
-		anInt32 = 0;
-		anInt33 = 0;
-		anInt34 = 0;
+		modelOffset1 = 0;
+		modelOffset2 = 0;
+		stackable = 0;
 		anInt35 = 415875853;
-		anInt36 = 384998359;
-		aBool37 = false;
-		anInt42 = -507874001;
-		anInt43 = -132064527;
-		anInt70 = -1533255093;
-		anInt45 = 1449138063;
-		anInt46 = -988092939;
-		anInt11 = -1012148175;
-		anInt48 = 1638541257;
-		anInt66 = -268366921;
-		anInt20 = -1019373697;
+		value = 384998359;
+		membersOnly = false;
+		equipSlot = -507874001;
+		equipLookHideSlot = -132064527;
+		equipLookHideSlot2 = -1533255093;
+		maleEquip1 = 1449138063;
+		maleEquip2 = -988092939;
+		femaleEquip1 = -1012148175;
+		femaleEquip2 = 1638541257;
+		maleEquipModelId3 = -268366921;
+		femaleEquipModelId3 = -1019373697;
 		anInt51 = 0;
 		anInt52 = 0;
 		anInt53 = 0;
@@ -501,10 +501,10 @@ public class ItemDefinitions implements DefinitionI {
 		anInt58 = 613914743;
 		anInt59 = -174858125;
 		anInt82 = -1501092231;
-		anInt63 = -379890253;
-		anInt29 = 1973251023;
-		anInt65 = 191007355;
-		anInt17 = 1526667565;
+		certTemplateId = -379890253;
+		certId = 1973251023;
+		lendId = 191007355;
+		lendTemplateId = 1526667565;
 		anInt67 = -743865417;
 		anInt64 = 1107288769;
 		aString21 = "null";
@@ -514,38 +514,38 @@ public class ItemDefinitions implements DefinitionI {
 		anInt73 = -1618677888;
 		anInt60 = 0;
 		anInt74 = 0;
-		anInt76 = 0;
-		aBool77 = false;
+		teamId = 0;
+		tradeable = false;
 		anInt78 = 0;
 		anInt81 = 0;
-		anInt23 = -170092969;
-		anInt83 = -1415716613;
+		bindId = -170092969;
+		bindTemplateId = -1415716613;
 		aBool84 = false;
 		aBool49 = false;
 		anInt39 = -797967173 * i;
 		anInterface12_15 = interface12;
 		aClass16_16 = class16;
-		aStringArray38 = (String[]) aClass16_16.aStringArray182.clone();
-		aStringArray24 = (String[]) aClass16_16.aStringArray183.clone();
+		groundOptions = (String[]) aClass16_16.aStringArray182.clone();
+		inventoryOptions = (String[]) aClass16_16.aStringArray183.clone();
 	}
 
 	int[] method513(Class167 class167, Class167 class167_76_, int i, int i_77_, int i_78_, boolean bool, int i_79_, Class184 class184, Class617 class617, Class628 class628, int i_80_) {
-		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, anInt19 * -603352859, 0);
+		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, modelId * -603352859, 0);
 		if (class180 == null)
 			return null;
 		if (class180.anInt1949 < 13)
 			class180.method2707(2);
-		if (aShortArray28 != null) {
-			for (int i_81_ = 0; i_81_ < aShortArray28.length; i_81_++) {
+		if (originalModelColors != null) {
+			for (int i_81_ = 0; i_81_ < originalModelColors.length; i_81_++) {
 				if (aByteArray87 != null && i_81_ < aByteArray87.length)
-					class180.method2703(aShortArray28[i_81_], (aShortArray14[aByteArray87[i_81_] & 0xff]));
+					class180.method2703(originalModelColors[i_81_], (aShortArray14[aByteArray87[i_81_] & 0xff]));
 				else
-					class180.method2703(aShortArray28[i_81_], aShortArray22[i_81_]);
+					class180.method2703(originalModelColors[i_81_], modifiedModelColors[i_81_]);
 			}
 		}
-		if (null != aShortArray75) {
-			for (int i_82_ = 0; i_82_ < aShortArray75.length; i_82_++)
-				class180.method2704(aShortArray75[i_82_], aShortArray25[i_82_]);
+		if (null != originalTextureColors) {
+			for (int i_82_ = 0; i_82_ < originalTextureColors.length; i_82_++)
+				class180.method2704(originalTextureColors[i_82_], modifiedTextureColors[i_82_]);
 		}
 		if (class617 != null) {
 			for (int i_83_ = 0; i_83_ < 10; i_83_++) {
@@ -573,16 +573,16 @@ public class ItemDefinitions implements DefinitionI {
 		if (bool_88_)
 			class177.method2474(anInt71 * -268256853, 1833389311 * anInt72, 622326303 * anInt73);
 		Class143 class143 = null;
-		if (-1 != anInt63 * 79208069) {
-			class143 = aClass16_16.method646(class167, class167_76_, 1990739153 * anInt29, 10, 1, 0, true, true, 0, class184, class617, class628, anInterface12_15, -889560749);
+		if (-1 != certTemplateId * 79208069) {
+			class143 = aClass16_16.method646(class167, class167_76_, 1990739153 * certId, 10, 1, 0, true, true, 0, class184, class617, class628, anInterface12_15, -889560749);
 			if (null == class143)
 				return null;
-		} else if (-1 != -1494720165 * anInt17) {
-			class143 = aClass16_16.method646(class167, class167_76_, 515259213 * anInt65, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 1133511832);
+		} else if (-1 != -1494720165 * lendTemplateId) {
+			class143 = aClass16_16.method646(class167, class167_76_, 515259213 * lendId, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 1133511832);
 			if (null == class143)
 				return null;
-		} else if (-1 != anInt83 * -377039411) {
-			class143 = aClass16_16.method646(class167, class167_76_, anInt23 * 1859340953, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 284352773);
+		} else if (-1 != bindTemplateId * -377039411) {
+			class143 = aClass16_16.method646(class167, class167_76_, bindId * 1859340953, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 284352773);
 			if (null == class143)
 				return null;
 		} else if (anInt64 * 208949951 != -1) {
@@ -592,11 +592,11 @@ public class ItemDefinitions implements DefinitionI {
 		}
 		int i_89_;
 		if (bool)
-			i_89_ = (int) ((double) (anInt47 * -1906278051) * 1.5) << 2;
+			i_89_ = (int) ((double) (modelZoom * -1906278051) * 1.5) << 2;
 		else if (i_77_ == 2)
-			i_89_ = (int) ((double) (-1906278051 * anInt47) * 1.04) << 2;
+			i_89_ = (int) ((double) (-1906278051 * modelZoom) * 1.04) << 2;
 		else
-			i_89_ = anInt47 * -1906278051 << 2;
+			i_89_ = modelZoom * -1906278051 << 2;
 		Class443 class443 = class167.method2103();
 		Class443 class443_90_ = class167.method2391();
 		class443_90_.method5350(16.0F, 16.0F, 512.0F, 512.0F, 50.0F, 2.14748365E9F, (float) class167.method2278((byte) 82).method2725(), (float) class167.method2278((byte) -67).method2726());
@@ -608,9 +608,9 @@ public class ItemDefinitions implements DefinitionI {
 		class167.method2105(16777215, 0.95F + (float) (Math.random() / 10.0), 0.95F + (float) (Math.random() / 10.0), -50.0F, -10.0F, -50.0F);
 		Class433 class433_91_ = class167.method2091();
 		class433_91_.method5206(0.0F, 0.0F, 1.0F, Class447.method5400(-(anInt31 * -751322115) << 3));
-		class433_91_.method5214(0.0F, 1.0F, 0.0F, Class447.method5400(anInt30 * 824706077 << 3));
-		class433_91_.method5200((float) (anInt32 * 814524581 << 2), (float) (((Class447.anIntArray4906[211736907 * anInt54 << 3]) * i_89_ >> 14) - class177.method2562() / 2 + (-1832345149 * anInt33 << 2)), (float) ((anInt33 * -1832345149 << 2) + (((Class447.anIntArray4921[211736907 * anInt54 << 3]) * i_89_) >> 14)));
-		class433_91_.method5214(1.0F, 0.0F, 0.0F, Class447.method5400(anInt54 * 211736907 << 3));
+		class433_91_.method5214(0.0F, 1.0F, 0.0F, Class447.method5400(modelRotation2 * 824706077 << 3));
+		class433_91_.method5200((float) (modelOffset1 * 814524581 << 2), (float) (((Class447.anIntArray4906[211736907 * modelRotation1 << 3]) * i_89_ >> 14) - class177.method2562() / 2 + (-1832345149 * modelOffset2 << 2)), (float) ((modelOffset2 * -1832345149 << 2) + (((Class447.anIntArray4921[211736907 * modelRotation1 << 3]) * i_89_) >> 14)));
+		class433_91_.method5214(1.0F, 0.0F, 0.0F, Class447.method5400(modelRotation1 * 211736907 << 3));
 		class167.method2369(0, 0, 36, 32);
 		class167.method2000(2, 0);
 		class167.method2063(0, 0, 36, 32, 0, 0);
@@ -625,16 +625,16 @@ public class ItemDefinitions implements DefinitionI {
 		}
 		if (i_78_ != 0)
 			method507(is, i_78_, (byte) 5);
-		if (-1 != anInt17 * -1494720165)
+		if (-1 != lendTemplateId * -1494720165)
 			class143.method1728(0, 0);
-		else if (-1 != anInt83 * -377039411)
+		else if (-1 != bindTemplateId * -377039411)
 			class143.method1728(0, 0);
 		class167.method2081(is, 0, 36, 36, 32, (byte) -98).method1728(0, 0);
-		if (anInt63 * 79208069 != -1)
+		if (certTemplateId * 79208069 != -1)
 			class143.method1728(0, 0);
 		if (208949951 * anInt64 != -1)
 			class143.method1728(0, 0);
-		if (i_79_ == 1 || i_79_ == 2 && (anInt34 * -1370184373 == 1 || i != 1) && i != -1)
+		if (i_79_ == 1 || i_79_ == 2 && (stackable * -1370184373 == 1 || i != 1) && i != -1)
 			class184.method2763(Class60.method998(i, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
 		is = class167.method2078(0, 0, 36, 32);
 		for (int i_92_ = 0; i_92_ < is.length; i_92_++) {
@@ -684,18 +684,18 @@ public class ItemDefinitions implements DefinitionI {
 				i_97_ = class12.anIntArray152[1];
 				i_98_ = class12.anIntArray152[2];
 			} else {
-				i_96_ = -324829393 * anInt11;
-				i_97_ = -490119801 * anInt48;
-				i_98_ = anInt20 * 835049345;
+				i_96_ = -324829393 * femaleEquip1;
+				i_97_ = -490119801 * femaleEquip2;
+				i_98_ = femaleEquipModelId3 * 835049345;
 			}
 		} else if (null != class12 && class12.anIntArray149 != null) {
 			i_96_ = class12.anIntArray149[0];
 			i_97_ = class12.anIntArray149[1];
 			i_98_ = class12.anIntArray149[2];
 		} else {
-			i_96_ = anInt45 * -64038767;
-			i_97_ = 661594531 * anInt46;
-			i_98_ = 1280785913 * anInt66;
+			i_96_ = maleEquip1 * -64038767;
+			i_97_ = 661594531 * maleEquip2;
+			i_98_ = 1280785913 * maleEquipModelId3;
 		}
 		if (i_96_ == -1)
 			return true;
@@ -739,87 +739,87 @@ public class ItemDefinitions implements DefinitionI {
 			Class180[] class180s = { class180, class180_124_ };
 			class180 = new Class180(class180s, 2);
 		}
-		if (null != aShortArray28) {
+		if (null != originalModelColors) {
 			short[] is;
 			if (class12 != null && null != class12.aShortArray155)
 				is = class12.aShortArray155;
 			else
-				is = aShortArray22;
-			for (int i_125_ = 0; i_125_ < aShortArray28.length; i_125_++)
-				class180.method2703(aShortArray28[i_125_], is[i_125_]);
+				is = modifiedModelColors;
+			for (int i_125_ = 0; i_125_ < originalModelColors.length; i_125_++)
+				class180.method2703(originalModelColors[i_125_], is[i_125_]);
 		}
-		if (aShortArray75 != null) {
+		if (originalTextureColors != null) {
 			short[] is;
 			if (null != class12 && class12.aShortArray156 != null)
 				is = class12.aShortArray156;
 			else
-				is = aShortArray25;
-			for (int i_126_ = 0; i_126_ < aShortArray75.length; i_126_++)
-				class180.method2704(aShortArray75[i_126_], is[i_126_]);
+				is = modifiedTextureColors;
+			for (int i_126_ = 0; i_126_ < originalTextureColors.length; i_126_++)
+				class180.method2704(originalTextureColors[i_126_], is[i_126_]);
 		}
 		return class180;
 	}
 
 	void decode(RSByteBuffer buffer, int opcode) {
 		if (1 == opcode)
-			anInt19 = buffer.readBigSmart() * -1192252179;
+			modelId = buffer.readBigSmart() * -1192252179;
 		else if (opcode == 2)
-			aString44 = buffer.readString();
+			name = buffer.readString();
 		else if (4 == opcode)
-			anInt47 = buffer.readUnsignedShort() * 246930165;
+			modelZoom = buffer.readUnsignedShort() * 246930165;
 		else if (5 == opcode)
-			anInt54 = buffer.readUnsignedShort() * -1959597981;
+			modelRotation1 = buffer.readUnsignedShort() * -1959597981;
 		else if (6 == opcode)
-			anInt30 = buffer.readUnsignedShort() * 1725881909;
+			modelRotation2 = buffer.readUnsignedShort() * 1725881909;
 		else if (opcode == 7) {
-			anInt32 = buffer.readUnsignedShort() * -1039990995;
-			if (814524581 * anInt32 > 32767)
-				anInt32 -= -13828096;
+			modelOffset1 = buffer.readUnsignedShort() * -1039990995;
+			if (814524581 * modelOffset1 > 32767)
+				modelOffset1 -= -13828096;
 		} else if (opcode == 8) {
-			anInt33 = buffer.readUnsignedShort() * 584341227;
-			if (anInt33 * -1832345149 > 32767)
-				anInt33 -= 1458241536;
+			modelOffset2 = buffer.readUnsignedShort() * 584341227;
+			if (modelOffset2 * -1832345149 > 32767)
+				modelOffset2 -= 1458241536;
 		} else if (opcode == 11)
-			anInt34 = -201081757;
+			stackable = -201081757;
 		else if (12 == opcode)
-			anInt36 = buffer.readInt() * 384998359;
+			value = buffer.readInt() * 384998359;
 		else if (opcode == 13)
-			anInt42 = buffer.readUnsignedByte() * 507874001;
+			equipSlot = buffer.readUnsignedByte() * 507874001;
 		else if (opcode == 14)
-			anInt43 = buffer.readUnsignedByte() * 132064527;
+			equipLookHideSlot = buffer.readUnsignedByte() * 132064527;
 		else if (16 == opcode)
-			aBool37 = true;
+			membersOnly = true;
 		else if (opcode == 18)
 			anInt35 = buffer.readUnsignedShort() * -415875853;
 		else if (23 == opcode)
-			anInt45 = buffer.readBigSmart() * -1449138063;
+			maleEquip1 = buffer.readBigSmart() * -1449138063;
 		else if (24 == opcode)
-			anInt46 = buffer.readBigSmart() * 988092939;
+			maleEquip2 = buffer.readBigSmart() * 988092939;
 		else if (opcode == 25)
-			anInt11 = buffer.readBigSmart() * 1012148175;
+			femaleEquip1 = buffer.readBigSmart() * 1012148175;
 		else if (26 == opcode)
-			anInt48 = buffer.readBigSmart() * -1638541257;
+			femaleEquip2 = buffer.readBigSmart() * -1638541257;
 		else if (opcode == 27)
-			anInt70 = buffer.readUnsignedByte() * 1533255093;
+			equipLookHideSlot2 = buffer.readUnsignedByte() * 1533255093;
 		else if (opcode >= 30 && opcode < 35)
-			aStringArray38[opcode - 30] = buffer.readString();
+			groundOptions[opcode - 30] = buffer.readString();
 		else if (opcode >= 35 && opcode < 40)
-			aStringArray24[opcode - 35] = buffer.readString();
+			inventoryOptions[opcode - 35] = buffer.readString();
 		else if (opcode == 40) {
-			int i_128_ = buffer.readUnsignedByte();
-			aShortArray28 = new short[i_128_];
-			aShortArray22 = new short[i_128_];
-			for (int i_129_ = 0; i_129_ < i_128_; i_129_++) {
-				aShortArray28[i_129_] = (short) buffer.readUnsignedShort();
-				aShortArray22[i_129_] = (short) buffer.readUnsignedShort();
+			int length = buffer.readUnsignedByte();
+			originalModelColors = new short[length];
+			modifiedModelColors = new short[length];
+			for (int i_129_ = 0; i_129_ < length; i_129_++) {
+				originalModelColors[i_129_] = (short) buffer.readUnsignedShort();
+				modifiedModelColors[i_129_] = (short) buffer.readUnsignedShort();
 			}
 		} else if (opcode == 41) {
-			int i_130_ = buffer.readUnsignedByte();
-			aShortArray75 = new short[i_130_];
-			aShortArray25 = new short[i_130_];
-			for (int i_131_ = 0; i_131_ < i_130_; i_131_++) {
-				aShortArray75[i_131_] = (short) buffer.readUnsignedShort();
-				aShortArray25[i_131_] = (short) buffer.readUnsignedShort();
+			int length = buffer.readUnsignedByte();
+			originalTextureColors = new short[length];
+			modifiedTextureColors = new short[length];
+			for (int i_131_ = 0; i_131_ < length; i_131_++) {
+				originalTextureColors[i_131_] = (short) buffer.readUnsignedShort();
+				modifiedTextureColors[i_131_] = (short) buffer.readUnsignedShort();
 			}
 		} else if (42 == opcode) {
 			int i_132_ = buffer.readUnsignedByte();
@@ -830,14 +830,14 @@ public class ItemDefinitions implements DefinitionI {
 			anInt40 = buffer.readInt() * -1485044269;
 			aBool84 = true;
 		} else if (44 == opcode) {
-			int i_134_ = buffer.readUnsignedShort();
-			int i_135_ = 0;
-			for (int i_136_ = i_134_; i_136_ > 0; i_136_ >>= 1)
-				i_135_++;
-			aByteArray26 = new byte[i_135_];
+			int length = buffer.readUnsignedShort();
+			int arraySize = 0;
+			for (int i_136_ = length; i_136_ > 0; i_136_ >>= 1)
+				arraySize++;
+			aByteArray26 = new byte[arraySize];
 			byte i_137_ = 0;
-			for (int i_138_ = 0; i_138_ < i_135_; i_138_++) {
-				if ((i_134_ & 1 << i_138_) > 0) {
+			for (int i_138_ = 0; i_138_ < arraySize; i_138_++) {
+				if ((length & 1 << i_138_) > 0) {
 					aByteArray26[i_138_] = i_137_;
 					i_137_++;
 				} else
@@ -858,11 +858,11 @@ public class ItemDefinitions implements DefinitionI {
 					aByteArray27[i_143_] = (byte) -1;
 			}
 		} else if (65 == opcode)
-			aBool77 = true;
+			tradeable = true;
 		else if (opcode == 78)
-			anInt66 = buffer.readBigSmart() * 268366921;
+			maleEquipModelId3 = buffer.readBigSmart() * 268366921;
 		else if (79 == opcode)
-			anInt20 = buffer.readBigSmart() * 1019373697;
+			femaleEquipModelId3 = buffer.readBigSmart() * 1019373697;
 		else if (90 == opcode)
 			anInt57 = buffer.readBigSmart() * 495777045;
 		else if (opcode == 91)
@@ -878,16 +878,16 @@ public class ItemDefinitions implements DefinitionI {
 		else if (96 == opcode)
 			anInt78 = buffer.readUnsignedByte() * -1239015883;
 		else if (opcode == 97)
-			anInt29 = buffer.readUnsignedShort() * -1973251023;
+			certId = buffer.readUnsignedShort() * -1973251023;
 		else if (opcode == 98)
-			anInt63 = buffer.readUnsignedShort() * 379890253;
+			certTemplateId = buffer.readUnsignedShort() * 379890253;
 		else if (opcode >= 100 && opcode < 110) {
-			if (anIntArray61 == null) {
-				anIntArray61 = new int[10];
-				anIntArray62 = new int[10];
+			if (stackIds == null) {
+				stackIds = new int[10];
+				stackAmounts = new int[10];
 			}
-			anIntArray61[opcode - 100] = buffer.readUnsignedShort();
-			anIntArray62[opcode - 100] = buffer.readUnsignedShort();
+			stackIds[opcode - 100] = buffer.readUnsignedShort();
+			stackAmounts[opcode - 100] = buffer.readUnsignedShort();
 		} else if (110 == opcode)
 			anInt71 = buffer.readUnsignedShort() * 950171907;
 		else if (opcode == 111)
@@ -899,11 +899,11 @@ public class ItemDefinitions implements DefinitionI {
 		else if (opcode == 114)
 			anInt74 = buffer.readByte() * -1313505473;
 		else if (115 == opcode)
-			anInt76 = buffer.readUnsignedByte() * 1227687221;
+			teamId = buffer.readUnsignedByte() * 1227687221;
 		else if (opcode == 121)
-			anInt65 = buffer.readUnsignedShort() * -191007355;
+			lendId = buffer.readUnsignedShort() * -191007355;
 		else if (122 == opcode)
-			anInt17 = buffer.readUnsignedShort() * -1526667565;
+			lendTemplateId = buffer.readUnsignedShort() * -1526667565;
 		else if (opcode == 125) {
 			anInt51 = (buffer.readByte() << 2) * -1655319219;
 			anInt53 = (buffer.readByte() << 2) * -555070207;
@@ -923,9 +923,9 @@ public class ItemDefinitions implements DefinitionI {
 		} else if (134 == opcode)
 			anInt81 = buffer.readUnsignedByte() * -1286735167;
 		else if (opcode == 139)
-			anInt23 = buffer.readUnsignedShort() * 170092969;
+			bindId = buffer.readUnsignedShort() * 170092969;
 		else if (140 == opcode)
-			anInt83 = buffer.readUnsignedShort() * 1415716613;
+			bindTemplateId = buffer.readUnsignedShort() * 1415716613;
 		else if (opcode >= 142 && opcode < 147) {
 			if (anIntArray85 == null) {
 				anIntArray85 = new int[6];
@@ -950,22 +950,22 @@ public class ItemDefinitions implements DefinitionI {
 			else if (opcode == 164)
 				aString21 = buffer.readString();
 			else if (opcode == 165)
-				anInt34 = -402163514;
+				stackable = -402163514;
 			else if (opcode == 249) {
-				int i_146_ = buffer.readUnsignedByte();
-				if (null == aClass4_79) {
-					int i_147_ = Class528.method6434(i_146_, -1806816082);
-					aClass4_79 = new Class4(i_147_);
+				int length = buffer.readUnsignedByte();
+				if (null == clientScriptData) {
+					int i_147_ = Class528.method6434(length, -1806816082);
+					clientScriptData = new Class4(i_147_);
 				}
-				for (int i_148_ = 0; i_148_ < i_146_; i_148_++) {
-					boolean bool = buffer.readUnsignedByte() == 1;
-					int i_149_ = buffer.read24BitUnsignedInteger();
-					Class536 class536;
-					if (bool)
-						class536 = new Class536_Sub13(buffer.readString());
+				for (int i_148_ = 0; i_148_ < length; i_148_++) {
+					boolean stringInstance = buffer.readUnsignedByte() == 1;
+					int key = buffer.read24BitUnsignedInteger();
+					Class536 value;
+					if (stringInstance)
+						value = new Class536_Sub13(buffer.readString());
 					else
-						class536 = new Class536_Sub26(buffer.readInt());
-					aClass4_79.method560(class536, (long) i_149_);
+						value = new Class536_Sub26(buffer.readInt());
+					clientScriptData.method560(value, (long) key);
 				}
 			}
 		}

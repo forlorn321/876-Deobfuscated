@@ -37,8 +37,8 @@ public class Class577 implements Interface68 {
 	static final void method7004(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) 83);
-		if (class1.anInt63 * 79208069 >= 0 && 1990739153 * class1.anInt29 >= 0)
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1990739153 * class1.anInt29;
+		if (class1.certTemplateId * 79208069 >= 0 && 1990739153 * class1.certId >= 0)
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1990739153 * class1.certId;
 		else
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_1_;
 	}

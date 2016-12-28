@@ -90,7 +90,7 @@ public class Class214 implements Interface27 {
 		int i_8_;
 		if (class1.aBool84)
 			i_8_ = 676567643 * class1.anInt40;
-		else if (class1.aBool37)
+		else if (class1.membersOnly)
 			i_8_ = -1020331067 * Class331_Sub2.aClass621_10048.anInt8103;
 		else
 			i_8_ = 696751511 * Class331_Sub2.aClass621_10048.anInt8102;

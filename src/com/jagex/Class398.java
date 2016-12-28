@@ -104,7 +104,7 @@ public class Class398 implements Interface49 {
 	static final void method4904(Class668 class668, int i) {
 		int i_10_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_10_, (byte) 72);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1370184373 * class1.anInt34 == 2 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1370184373 * class1.stackable == 2 ? 1 : 0;
 	}
 
 	static final void method4905(Class668 class668, byte i) {

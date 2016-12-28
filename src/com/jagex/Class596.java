@@ -36,13 +36,13 @@ public class Class596 {
 			class536_sub9.aClass708_10433.method8335(class536_sub6, -472311645);
 		} else {
 			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(((class536_sub6.anInt10419) * 1696543099), (byte) 103));
-			int i_3_ = -680425497 * class1.anInt36;
-			if (1 == -1370184373 * class1.anInt34)
+			int i_3_ = -680425497 * class1.value;
+			if (1 == -1370184373 * class1.stackable)
 				i_3_ *= 1 + 1740996619 * class536_sub6.anInt10420;
 			for (Class536_Sub6 class536_sub6_4_ = ((Class536_Sub6) class536_sub9.aClass708_10433.method8308(1867269829)); class536_sub6_4_ != null; class536_sub6_4_ = (Class536_Sub6) class536_sub9.aClass708_10433.method8311(1179924953)) {
 				class1 = (ItemDefinitions) (Class111.aClass34_Sub13_1391.method70(1696543099 * class536_sub6_4_.anInt10419, (byte) 39));
-				int i_5_ = -680425497 * class1.anInt36;
-				if (1 == class1.anInt34 * -1370184373)
+				int i_5_ = -680425497 * class1.value;
+				if (1 == class1.stackable * -1370184373)
 					i_5_ *= 1740996619 * class536_sub6_4_.anInt10420 + 1;
 				if (i_3_ > i_5_) {
 					Class80.method1163(class536_sub6, class536_sub6_4_, -839091445);

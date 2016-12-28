@@ -13,7 +13,7 @@ public class Class389 implements Interface73 {
 		}
 		if (class614 == Class614.aClass614_8025 || Class614.aClass614_8023 == class614) {
 			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70((int) l, (byte) -62));
-			return class1.aString44;
+			return class1.name;
 		}
 		if (class614 == Class614.aClass614_8019 || Class614.aClass614_8016 == class614 || Class614.aClass614_8024 == class614)
 			return ((Class39) Class676.aClass34_Sub6_8589.method70(is[0], (byte) 67)).method851((int) l, 199065355);
@@ -27,7 +27,7 @@ public class Class389 implements Interface73 {
 		}
 		if (class614 == Class614.aClass614_8025 || Class614.aClass614_8023 == class614) {
 			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70((int) l, (byte) 3));
-			return class1.aString44;
+			return class1.name;
 		}
 		if (class614 == Class614.aClass614_8019 || Class614.aClass614_8016 == class614 || Class614.aClass614_8024 == class614)
 			return ((Class39) Class676.aClass34_Sub6_8589.method70(is[0], (byte) 14)).method851((int) l, 199065355);
@@ -41,7 +41,7 @@ public class Class389 implements Interface73 {
 		}
 		if (class614 == Class614.aClass614_8025 || Class614.aClass614_8023 == class614) {
 			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70((int) l, (byte) -24));
-			return class1.aString44;
+			return class1.name;
 		}
 		if (class614 == Class614.aClass614_8019 || Class614.aClass614_8016 == class614 || Class614.aClass614_8024 == class614)
 			return ((Class39) Class676.aClass34_Sub6_8589.method70(is[0], (byte) 15)).method851((int) l, 199065355);

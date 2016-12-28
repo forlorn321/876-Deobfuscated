@@ -90,7 +90,7 @@ public class Class219 implements Interface27 {
 
 	static final void method3104(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -33)).anInt43) * 2087922159;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -33)).equipLookHideSlot) * 2087922159;
 	}
 
 	public static Class167 method3105(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, Class461 class461, int i_8_, int i_9_) {

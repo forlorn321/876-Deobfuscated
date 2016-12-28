@@ -17,23 +17,23 @@ public class Class12 {
 	public short[] aShortArray156;
 
 	Class12(ItemDefinitions class1) {
-		anIntArray149[0] = class1.anInt45 * -64038767;
-		anIntArray149[1] = 661594531 * class1.anInt46;
-		anIntArray149[2] = 1280785913 * class1.anInt66;
-		anIntArray152[0] = -324829393 * class1.anInt11;
-		anIntArray152[1] = class1.anInt48 * -490119801;
-		anIntArray152[2] = 835049345 * class1.anInt20;
+		anIntArray149[0] = class1.maleEquip1 * -64038767;
+		anIntArray149[1] = 661594531 * class1.maleEquip2;
+		anIntArray149[2] = 1280785913 * class1.maleEquipModelId3;
+		anIntArray152[0] = -324829393 * class1.femaleEquip1;
+		anIntArray152[1] = class1.femaleEquip2 * -490119801;
+		anIntArray152[2] = 835049345 * class1.femaleEquipModelId3;
 		anIntArray153[0] = class1.anInt57 * -1724009923;
 		anIntArray153[1] = class1.anInt58 * -869646663;
 		anIntArray154[0] = class1.anInt59 * 1399733061;
 		anIntArray154[1] = class1.anInt82 * 1550687287;
-		if (class1.aShortArray22 != null) {
-			aShortArray155 = new short[class1.aShortArray22.length];
-			System.arraycopy(class1.aShortArray22, 0, aShortArray155, 0, aShortArray155.length);
+		if (class1.modifiedModelColors != null) {
+			aShortArray155 = new short[class1.modifiedModelColors.length];
+			System.arraycopy(class1.modifiedModelColors, 0, aShortArray155, 0, aShortArray155.length);
 		}
-		if (null != class1.aShortArray25) {
-			aShortArray156 = new short[class1.aShortArray25.length];
-			System.arraycopy(class1.aShortArray25, 0, aShortArray156, 0, aShortArray156.length);
+		if (null != class1.modifiedTextureColors) {
+			aShortArray156 = new short[class1.modifiedTextureColors.length];
+			System.arraycopy(class1.modifiedTextureColors, 0, aShortArray156, 0, aShortArray156.length);
 		}
 	}
 

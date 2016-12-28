@@ -185,17 +185,17 @@ public class Class494 {
 									int i_52_;
 									if (class1.aBool84)
 										i_52_ = class1.anInt40 * 676567643;
-									else if (class1.aBool37)
+									else if (class1.membersOnly)
 										i_52_ = (Class331_Sub2.aClass621_10048.anInt8103) * -1020331067;
 									else
 										i_52_ = 696751511 * (Class331_Sub2.aClass621_10048.anInt8102);
 									if (client.aBool11188 && ((class563.aClass649_Sub1_7582.aByte10839) == (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839))) {
 										Class73 class73 = ((Class73) (-1 != (Class173_Sub1.anInt9384 * -4715005) ? (Class207.aClass34_Sub22_2244.method70((Class173_Sub1.anInt9384 * -4715005), (byte) 45)) : null));
 										if (0 != ((Class511.anInt6931 * 1686601581) & 0x1) && (class73 == null || ((class1.method510((Class173_Sub1.anInt9384 * -4715005), (1566477951 * class73.anInt803), (byte) 96)) != (class73.anInt803 * 1566477951))))
-											Class521_Sub6.method9389(client.aString11185, new StringBuilder().append(client.aString11186).append(" ").append(Class40.aString495).append(" ").append(Class264.method3680(i_52_, -1753577563)).append(class1.aString44).toString(), 1764906975 * Class13.anInt161, 17, -1, (long) (1696543099 * (class536_sub6.anInt10419)), i_22_, i_23_, true, false, (long) i_51_, false, 950404063);
+											Class521_Sub6.method9389(client.aString11185, new StringBuilder().append(client.aString11186).append(" ").append(Class40.aString495).append(" ").append(Class264.method3680(i_52_, -1753577563)).append(class1.name).toString(), 1764906975 * Class13.anInt161, 17, -1, (long) (1696543099 * (class536_sub6.anInt10419)), i_22_, i_23_, true, false, (long) i_51_, false, 950404063);
 									}
 									if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) == (class563.aClass649_Sub1_7582.aByte10839)) {
-										String[] strings = class1.aStringArray38;
+										String[] strings = class1.groundOptions;
 										for (int i_53_ = strings.length - 1; i_53_ >= 0; i_53_--) {
 											if (strings[i_53_] != null) {
 												int i_54_ = 0;
@@ -215,7 +215,7 @@ public class Class494 {
 												int i_56_ = (class1.method511(i_53_, 1294189286));
 												if (i_56_ != -1)
 													i_55_ = i_56_;
-												Class521_Sub6.method9389(strings[i_53_], new StringBuilder().append(Class264.method3680(i_52_, -1251111124)).append(class1.aString44).toString(), i_55_, i_54_, -1, (long) (1696543099 * (class536_sub6.anInt10419)), i_22_, i_23_, true, false, (long) i_51_, false, 876987344);
+												Class521_Sub6.method9389(strings[i_53_], new StringBuilder().append(Class264.method3680(i_52_, -1251111124)).append(class1.name).toString(), i_55_, i_54_, -1, (long) (1696543099 * (class536_sub6.anInt10419)), i_22_, i_23_, true, false, (long) i_51_, false, 876987344);
 											}
 										}
 									}

@@ -278,10 +278,10 @@ class Class620 implements Iterator {
 										String string = class251.aString2638;
 										if (-1484799213 * class251.anInt2711 != -1) {
 											ItemDefinitions class1 = ((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((class251.anInt2711 * -1484799213), (byte) 21)));
-											string = class1.aString44;
+											string = class1.name;
 											if (null == string)
 												string = "null";
-											if ((1 == (class1.anInt34 * -1370184373) || 1 != (-1880327077 * (class251.anInt2712))) && ((-1880327077 * class251.anInt2712) != -1))
+											if ((1 == (class1.stackable * -1370184373) || 1 != (-1880327077 * (class251.anInt2712))) && ((-1880327077 * class251.anInt2712) != -1))
 												string = new StringBuilder().append(Class264.method3680(16748608, -1945533512)).append(string).append(Class40.aString497).append(" x").append(Class190.method2827((class251.anInt2712 * -1880327077), 1118178337)).toString();
 										}
 										if (class251 == client.aClass251_11057) {
