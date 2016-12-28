@@ -96,7 +96,7 @@ public abstract class Class554 {
 	}
 
 	static String method6785(InterfaceDefinitions class251, int i) {
-		if (client.method10389(class251).method9474((byte) 3) == 0)
+		if (client.method10389(class251).method9474() == 0)
 			return null;
 		if (null == class251.aString2665 || class251.aString2665.trim().length() == 0) {
 			if (client.aBool11010)

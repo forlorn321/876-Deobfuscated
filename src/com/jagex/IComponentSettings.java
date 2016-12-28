@@ -8,23 +8,23 @@ public final class IComponentSettings extends Class536 {
 	static IComponentSettings aClass536_Sub14_10477 = new IComponentSettings(0, -1);
 	public int interfaceHash;
 
-	public final boolean method9472(int i, int i_0_) {
+	public final boolean method9472(int i) {
 		return 0 != (settings * -512963777 >> 1 + i & 0x1);
 	}
 
-	public final boolean method9473(int i) {
+	public final boolean method9473() {
 		return (settings * -512963777 >> 21 & 0x1) != 0;
 	}
 
-	public final int method9474(byte i) {
+	public final int method9474() {
 		return Class703.method8258(-512963777 * settings, 2126713908);
 	}
 
-	public final boolean method9476(short i) {
+	public final boolean method9476() {
 		return (-512963777 * settings & 0x1) != 0;
 	}
 
-	public final boolean method9477(int i) {
+	public final boolean method9477() {
 		return 0 != (settings * -512963777 >> 23 & 0x1);
 	}
 
@@ -33,11 +33,11 @@ public final class IComponentSettings extends Class536 {
 		interfaceHash = i_1_ * 1081619073;
 	}
 
-	public final boolean method9491(int i) {
+	public final boolean method9491() {
 		return 0 != (settings * -512963777 >> 22 & 0x1);
 	}
 
-	public final int method9494(int i) {
+	public final int method9494() {
 		return settings * -512963777 >> 18 & 0x7;
 	}
 

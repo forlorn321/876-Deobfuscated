@@ -107,7 +107,7 @@ public class Class188 {
 		InterfaceDefinitions class251 = Class527.method6429(i_2_, i_3_, (byte) 3);
 		Class270.method3717(112258221);
 		IComponentSettings class536_sub14 = client.method10389(class251);
-		Class501.method6033(class251, class536_sub14.method9474((byte) 3), 501091713 * class536_sub14.interfaceHash, 421252950);
+		Class501.method6033(class251, class536_sub14.method9474(), 501091713 * class536_sub14.interfaceHash, 421252950);
 	}
 
 	static final void method2798(Class668 class668, int i) {

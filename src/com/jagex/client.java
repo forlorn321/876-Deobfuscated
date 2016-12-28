@@ -1804,7 +1804,7 @@ public final class client extends Class505 {
 									else if (i_96_ == 10) {
 										Class270.method3717(378095825);
 										IComponentSettings class536_sub14 = method10389(class251);
-										Class501.method6033(class251, class536_sub14.method9474((byte) 3), (class536_sub14.interfaceHash * 501091713), 1561786323);
+										Class501.method6033(class251, class536_sub14.method9474(), (class536_sub14.interfaceHash * 501091713), 1561786323);
 										aString11185 = Class554.method6785(class251, 795492450);
 										if (aString11185 == null)
 											aString11185 = "Null";
@@ -1832,7 +1832,7 @@ public final class client extends Class505 {
 						if (null != aClass251_10992 && class251 != aClass251_10992 && bool_87_) {
 							if (class251.aBool2708 == true)
 								aClass251_11202 = null;
-							if (method10389(class251).method9473(1569223986))
+							if (method10389(class251).method9473())
 								aClass251_11202 = class251;
 						}
 						if (class251 == aClass251_11199) {
@@ -2323,9 +2323,9 @@ public final class client extends Class505 {
 
 	static InterfaceDefinitions method10382(InterfaceDefinitions class251) {
 		IComponentSettings class536_sub14 = method10389(class251);
-		if (class536_sub14.method9477(377974859))
+		if (class536_sub14.method9477())
 			return Class107.aClass251_1323;
-		int i = class536_sub14.method9494(-1411037171);
+		int i = class536_sub14.method9494();
 		if (0 == i)
 			return null;
 		for (int i_143_ = 0; i_143_ < i; i_143_++) {

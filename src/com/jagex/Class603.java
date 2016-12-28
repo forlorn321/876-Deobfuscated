@@ -146,7 +146,7 @@ public abstract class Class603 {
 				if (null != class251) {
 					Class270.method3717(-1541208997);
 					IComponentSettings class536_sub14 = client.method10389(class251);
-					Class501.method6033(class251, class536_sub14.method9474((byte) 3), 501091713 * class536_sub14.interfaceHash, 619367353);
+					Class501.method6033(class251, class536_sub14.method9474(), 501091713 * class536_sub14.interfaceHash, 619367353);
 					client.aString11185 = Class554.method6785(class251, 1845942644);
 					if (client.aString11185 == null)
 						client.aString11185 = "Null";

@@ -211,7 +211,7 @@ public class Class466 implements Runnable {
 	}
 
 	static final void method5682(InterfaceDefinitions class251, Class668 class668, int i) {
-		if (client.method10389(class251).method9476((short) -14735) && null == client.aClass251_11057) {
+		if (client.method10389(class251).method9476() && null == client.aClass251_11057) {
 			Class465_Sub1.method9386(-1591767037 * class251.anInt2559, class251.anInt2546 * -809980533, (byte) -106);
 			client.aClass251_11057 = Class527.method6429(-1591767037 * class251.anInt2559, class251.anInt2546 * -809980533, (byte) -56);
 			Class668.method8011(client.aClass251_11057, 263642117);
