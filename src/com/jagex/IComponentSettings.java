@@ -15,9 +15,13 @@ public final class IComponentSettings extends Class536 {
 	public final boolean method9473() {
 		return (settings * -512963777 >> 21 & 0x1) != 0;
 	}
+	
+	static final int method8258(int i) {
+		return i >> 11 & 0x7f;
+	}
 
 	public final int method9474() {
-		return Class703.method8258(-512963777 * settings, 2126713908);
+		return method8258(-512963777 * settings);
 	}
 
 	public final boolean method9476() {

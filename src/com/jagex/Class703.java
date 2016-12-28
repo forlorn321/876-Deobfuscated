@@ -76,10 +76,6 @@ public final class Class703 {
 		return new Class387(i_0_, class395, class399, i_1_, i_2_, i_3_, i_4_, i_5_, i_6_, i_7_, bool);
 	}
 
-	static final int method8258(int i, int i_8_) {
-		return i >> 11 & 0x7f;
-	}
-
 	static final void method8259(Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);

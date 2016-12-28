@@ -377,7 +377,7 @@ public class InterfaceDefinitions {
 		anInt2534 = class536_sub33.readUnsignedByte() * 52080145;
 		aString2665 = class536_sub33.readString();
 		int i_19_ = -1;
-		if (Class703.method8258(i_7_, 2109459857) != 0) {
+		if (IComponentSettings.method8258(i_7_) != 0) {
 			i_19_ = class536_sub33.readUnsignedShort();
 			if (65535 == i_19_)
 				i_19_ = -1;
