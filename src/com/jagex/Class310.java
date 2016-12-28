@@ -406,8 +406,8 @@ public class Class310 {
 			if (!Class644.method7794((1657790451 * Class644.aClass628_8352.anInt8195), null, 1544319225))
 				return 0;
 			boolean bool = true;
-			for (int i = 0; i < (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378).length; i++) {
-				IComponentDefinitions class251 = (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378[i]);
+			for (int i = 0; i < (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].icomponentDefinitions).length; i++) {
+				IComponentDefinitions class251 = (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].icomponentDefinitions[i]);
 				if (1049444347 * class251.anInt2728 == 5 && -1 != class251.graphicId * -1307221069 && !Class398.aClass461_4122.method5558((-1307221069 * (class251.graphicId)), 0, 758234553))
 					bool = false;
 			}

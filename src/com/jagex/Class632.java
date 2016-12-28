@@ -84,7 +84,7 @@ public class Class632 implements Iterator {
 
 	static final void method7541(Class668 class668, byte i) {
 		int i_8_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_8_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_8_);
 		Class234 class234 = Class463.aClass234Array5227[i_8_ >> 16];
 		Class292.method3968(class251, class234, class668, -878876194);
 	}

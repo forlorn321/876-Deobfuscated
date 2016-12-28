@@ -458,7 +458,7 @@ public class Class313 implements DefinitionI {
 		byte[] is = { (byte) class668.anIntArray8541[class668.anInt8542 * 1867269829] };
 		byte[] is_94_ = { (byte) class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] };
 		int i_95_ = class668.anIntArray8541[2 + class668.anInt8542 * 1867269829];
-		IComponentDefinitions class251 = Class264.method3678(i_95_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_95_);
 		Class386.method4844(class251, is, is_94_, class668, 874400348);
 	}
 

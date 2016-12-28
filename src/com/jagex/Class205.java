@@ -60,6 +60,6 @@ public abstract class Class205 {
 
 	static final void method2950(int i, int i_3_, int i_4_) {
 		if (Class644.method7794(i, null, 140667413))
-			Class56.method964((Class463.aClass234Array5227[i].aClass251Array2378), i_3_, -2075596792);
+			Class56.method964((Class463.aClass234Array5227[i].icomponentDefinitions), i_3_, -2075596792);
 	}
 }

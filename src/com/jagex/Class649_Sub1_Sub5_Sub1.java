@@ -476,7 +476,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		if (aClass234_11955 == null)
 			return false;
 		anInt11956 = i * -1314772775;
-		Class609.method7262(aClass234_11955.aClass251Array2378, (byte) 1);
+		Class609.method7262(aClass234_11955.icomponentDefinitions, (byte) 1);
 		return true;
 	}
 
@@ -899,7 +899,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 
 	public void method10916(int i, int i_148_, boolean bool, int i_149_) {
 		if (method10889((byte) -34))
-			Class564.method6874(aClass234_11955.aClass251Array2378, -1, i, i_148_, bool, -2096514705);
+			Class564.method6874(aClass234_11955.icomponentDefinitions, -1, i, i_148_, bool, -2096514705);
 	}
 
 	public final void method10917(int i, int i_150_, int i_151_, int i_152_, boolean bool, int i_153_, int i_154_) {

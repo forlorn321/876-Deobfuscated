@@ -131,9 +131,9 @@ public class Class523 {
 	static final void method6403(Class668 class668, int i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
 		if (bool)
-			Class609.method7265(2, -258578822);
+			Class609.method7265(2);
 		else
-			Class609.method7265(1, -250995234);
+			Class609.method7265(1);
 	}
 
 	static final void method6404(Class668 class668, int i) {

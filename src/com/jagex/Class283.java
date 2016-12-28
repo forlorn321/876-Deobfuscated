@@ -697,7 +697,7 @@ public class Class283 implements Interface75 {
 
 	static final void method3777(Class668 class668, int i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_21_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_21_);
 		Class227.method3284(class251, class668, 1786540197);
 	}
 }

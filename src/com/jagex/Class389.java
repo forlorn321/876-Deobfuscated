@@ -59,7 +59,7 @@ public class Class389 implements Interface73 {
 
 	static final void method4853(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_2_);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class319.method4238(class251, class234, class668, (byte) 42);
 	}

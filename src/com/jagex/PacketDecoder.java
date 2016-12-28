@@ -72,9 +72,9 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4696 == class106.currentPacket) {
 			boolean bool = stream.readUnsignedByte() == 1;
 			if (bool)
-				Class609.method7265(2, -1557386429);
+				Class609.method7265(2);
 			else
-				Class609.method7265(1, -573211891);
+				Class609.method7265(1);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -302,14 +302,14 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.ICOMPONENT_MODEL == class106.currentPacket) {
-			int i_51_ = stream.readInt();
-			int i_52_ = stream.readLEInt();
-			int interfaceId = i_51_ >> 16;
-			int componentId = i_51_ & 0xFFFF;
+			int if_hash = stream.readInt();
+			int modelId = stream.readLEInt();
+			int interfaceId = if_hash >> 16;
+			int componentId = if_hash & 0xFFFF;
 			if (RS3Applet.DUMP)
-				System.out.println("player.getPackets().sendIComponentModel(" + interfaceId + ", " + componentId + ", " + i_52_ + ");");
+				System.out.println("player.getPackets().sendIComponentModel(" + interfaceId + ", " + componentId + ", " + modelId + ");");
 			Class307.method4133();
-			Class206.method2961(i_51_, 1, i_52_, -1, -1187242940);
+			Class206.method2961(if_hash, 1, modelId, -1, -1187242940);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -466,7 +466,7 @@ public class PacketDecoder {
 				IComponentSettings class536_sub14_80_;
 				if (class536_sub14 == null) {
 					if (i_79_ == -1)
-						class536_sub14_80_ = new IComponentSettings(value, (Class264.method3678(interfaceHash, -689214737).settings.interfaceHash) * 501091713);
+						class536_sub14_80_ = new IComponentSettings(value, (Class264.getIComponentDefinitions(interfaceHash).settings.interfaceHash) * 501091713);
 					else
 						class536_sub14_80_ = new IComponentSettings(value, -1);
 				} else {
@@ -532,7 +532,7 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4618 == class106.currentPacket) {
+		if (IncomingPacket.CAMERA_SHAKE == class106.currentPacket) {
 			int i_85_ = stream.readUnsigned128Byte();
 			int i_86_ = stream.readUnsigned128Byte();
 			int i_87_ = stream.readUnsignedShortLE128();
@@ -599,8 +599,8 @@ public class PacketDecoder {
 			if (Class463.aClass234Array5227[i_98_] != null) {
 				for (int i_101_ = i_99_; i_101_ < i_100_; i_101_++) {
 					int i_102_ = stream.read24BitUnsignedInteger();
-					if (i_101_ < (Class463.aClass234Array5227[i_98_].aClass251Array2378).length && (Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_]) != null)
-						Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_].anInt2558 = 2115749181 * i_102_;
+					if (i_101_ < (Class463.aClass234Array5227[i_98_].icomponentDefinitions).length && (Class463.aClass234Array5227[i_98_].icomponentDefinitions[i_101_]) != null)
+						Class463.aClass234Array5227[i_98_].icomponentDefinitions[i_101_].anInt2558 = 2115749181 * i_102_;
 				}
 			}
 			class106.currentPacket = null;
@@ -1169,14 +1169,14 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (class106.currentPacket == IncomingPacket.aClass422_4722) {
-			int i_193_ = stream.readUnsignedByte();
-			int i_194_ = stream.readUnsignedByte();
+		if (class106.currentPacket == IncomingPacket.GRAND_EXCHANGE) {
+			int unknown = stream.readUnsignedByte();
+			int slotIndex = stream.readUnsignedByte();
 			if (stream.readUnsignedByte() == 0)
-				client.aClass485ArrayArray11266[i_193_][i_194_] = new Class485();
+				client.aClass485ArrayArray11266[unknown][slotIndex] = new Class485();
 			else {
 				stream.off -= 516175515;
-				client.aClass485ArrayArray11266[i_193_][i_194_] = new Class485(stream, null);
+				client.aClass485ArrayArray11266[unknown][slotIndex] = new Class485(stream, null);
 			}
 			client.anInt11144 = client.anInt11215 * 1144493727;
 			class106.currentPacket = null;
@@ -1392,7 +1392,7 @@ public class PacketDecoder {
 				IComponentSettings class536_sub14_238_;
 				if (null == class536_sub14) {
 					if (-1 == i_237_)
-						class536_sub14_238_ = new IComponentSettings((Class264.method3678(i_233_, -689214737).settings.settings) * -512963777, i_236_);
+						class536_sub14_238_ = new IComponentSettings((Class264.getIComponentDefinitions(i_233_).settings.settings) * -512963777, i_236_);
 					else
 						class536_sub14_238_ = new IComponentSettings(0, i_236_);
 				} else {
@@ -1509,10 +1509,10 @@ public class PacketDecoder {
 				class536_sub36.method6484();
 				client.aClass4_11008.method560(class536_sub36, (long) i_248_);
 			}
-			IComponentDefinitions class251 = Class264.method3678(i_249_, -689214737);
+			IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_249_);
 			if (class251 != null)
 				Class668.method8011(class251, 263642117);
-			class251 = Class264.method3678(i_248_, -689214737);
+			class251 = Class264.getIComponentDefinitions(i_248_);
 			if (class251 != null) {
 				Class668.method8011(class251, 263642117);
 				Class499.method6023((Class463.aClass234Array5227[(class251.anInt2559 * -1591767037 >>> 16)]), class251, true, (byte) -38);
@@ -1859,10 +1859,10 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (IncomingPacket.aClass422_4652 == class106.currentPacket) {
-			int i_310_ = stream.readUnsignedByteC();
+		if (IncomingPacket.PLAYER_UNDER_NPC_PRIORITY == class106.currentPacket) {
+			int priority = stream.readUnsignedByteC();
 			Class307.method4133();
-			client.anInt11132 = 1448609337 * i_310_;
+			client.anInt11132 = 1448609337 * priority;
 			class106.currentPacket = null;
 			return true;
 		}
@@ -2217,16 +2217,16 @@ public class PacketDecoder {
 			return true;
 		}
 		if (class106.currentPacket == IncomingPacket.HINT_ICON) {
-			int i_382_ = stream.readUnsignedByte();
-			int i_383_ = i_382_ >> 5;
-			int i_384_ = i_382_ & 0x1f;
-			if (0 == i_384_) {
-				client.aClass103Array11020[i_383_] = null;
+			int hash = stream.readUnsignedByte();
+			int index = hash >> 5;
+			int targetType = hash & 0x1f;
+			if (0 == targetType) {
+				client.aClass103Array11020[index] = null;
 				class106.currentPacket = null;
 				return true;
 			}
 			Class103 class103 = new Class103();
-			class103.anInt1224 = -18369493 * i_384_;
+			class103.anInt1224 = -18369493 * targetType;
 			class103.anInt1222 = stream.readUnsignedByte() * -403223793;
 			if (-1060879377 * class103.anInt1222 >= 0 && (class103.anInt1222 * -1060879377 < Class458_Sub5.aClass143Array10338.length)) {
 				if (1 == class103.anInt1224 * 2030004867 || class103.anInt1224 * 2030004867 == 10) {
@@ -2263,7 +2263,7 @@ public class PacketDecoder {
 					class103.anInt1228 = (stream.readUnsignedShort() * -511359211);
 				}
 				class103.anInt1229 = stream.readInt() * -275637823;
-				client.aClass103Array11020[i_383_] = class103;
+				client.aClass103Array11020[index] = class103;
 			}
 			class106.currentPacket = null;
 			return true;
@@ -2378,15 +2378,15 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.ICOMPONENT_SPRITE == class106.currentPacket) {
-			int i_413_ = stream.readIntV1();
-			int i_414_ = stream.readInt();
-			int interfaceId = i_413_ >> 16;
-			int componentId = i_413_ & 0xFFFF;
+			int hash = stream.readIntV1();
+			int spriteId = stream.readInt();
+			int interfaceId = hash >> 16;
+			int componentId = hash & 0xFFFF;
 			if (RS3Applet.DUMP)
-				System.out.println("player.getPackets().sendIComponentSprite(" + interfaceId + ", " + componentId + ", " + i_414_ + ");");
+				System.out.println("player.getPackets().sendIComponentSprite(" + interfaceId + ", " + componentId + ", " + spriteId + ");");
 			Class307.method4133();
-			IComponentDefinitions class251 = Class264.method3678(i_413_, -689214737);
-			class251.anInt2604 = -1513859745 * i_414_;
+			IComponentDefinitions definitions = Class264.getIComponentDefinitions(hash);
+			definitions.spriteId = -1513859745 * spriteId;
 			class106.currentPacket = null;
 			return true;
 		}
@@ -2406,9 +2406,9 @@ public class PacketDecoder {
 			class106.currentPacket = null;
 			return true;
 		}
-		if (class106.currentPacket == IncomingPacket.aClass422_4601) {
+		if (class106.currentPacket == IncomingPacket.STOP_CAMERA_SHAKE) {
 			Class307.method4133();
-			Class609.method7265(Class65.method1062((short) -15997), -1459725839);
+			Class609.method7265(Class65.method1062());
 			class106.currentPacket = null;
 			return true;
 		}

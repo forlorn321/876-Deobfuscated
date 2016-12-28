@@ -132,7 +132,7 @@ public final class Class471 implements Comparable {
 
 	static final void method5720(Class668 class668, byte i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_18_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_18_);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
 		Class329.method4317(class251, class234, class668, 1643719200);
 	}

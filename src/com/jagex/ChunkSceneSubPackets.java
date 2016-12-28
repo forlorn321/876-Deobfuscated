@@ -41,7 +41,7 @@ public class ChunkSceneSubPackets {
 	static void method4967(Class234 class234, int i, int i_0_, int i_1_, boolean bool, Class668 class668, byte i_2_) {
 		if (0 == i_0_)
 			throw new RuntimeException();
-		IComponentDefinitions class251 = class234.aClass251Array2378[i];
+		IComponentDefinitions class251 = class234.icomponentDefinitions[i];
 		if (class251.aClass251Array2725 == null) {
 			class251.aClass251Array2725 = new IComponentDefinitions[i_1_ + 1];
 			class251.aClass251Array2726 = class251.aClass251Array2725;
@@ -84,7 +84,7 @@ public class ChunkSceneSubPackets {
 
 	static final void method4968(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_7_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_7_);
 		Class234 class234 = Class463.aClass234Array5227[i_7_ >> 16];
 		Class700.method8251(class251, class234, class668, 837944822);
 	}

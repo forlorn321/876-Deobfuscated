@@ -26,7 +26,7 @@ public class Class272 {
 
 	static final void method3720(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_1_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_1_);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2606 * -1027484909;
 	}
 
@@ -59,7 +59,7 @@ public class Class272 {
 
 	static final void method3724(Class668 class668, int i) {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_7_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_7_);
 		Class254.method3538(class251, class668, 278560769);
 	}
 }

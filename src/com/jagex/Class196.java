@@ -189,7 +189,7 @@ class Class196 implements Interface55 {
 
 	static final void method2867(Class668 class668, byte i) {
 		int i_34_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_34_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_34_);
 		Class234 class234 = Class463.aClass234Array5227[i_34_ >> 16];
 		Class573.method6940(class251, class234, class668, 1582262265);
 	}

@@ -81,7 +81,7 @@ public class Class571 implements Interface68 {
 
 	static final void method6928(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_1_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_1_);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >>> 16];
 		IComponentDefinitions class251_2_ = Class648.method7834(class234, class251, -16777216);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = null == class251_2_ ? -1 : class251_2_.anInt2559 * -1591767037;

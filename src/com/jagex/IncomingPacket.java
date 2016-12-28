@@ -14,7 +14,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4598;
 	public static IncomingPacket SET_INTERFACE;
 	public static IncomingPacket aClass422_4600;
-	public static IncomingPacket aClass422_4601;
+	public static IncomingPacket STOP_CAMERA_SHAKE;
 	public static IncomingPacket SOUND_EFFECT;
 	public static IncomingPacket aClass422_4603;
 	public static IncomingPacket aClass422_4604;
@@ -31,7 +31,7 @@ public class IncomingPacket {
 	public static IncomingPacket aClass422_4615;
 	public static IncomingPacket CS_VAR_STRING_2;
 	public static IncomingPacket ADD_GROUND_ITEM;
-	public static IncomingPacket aClass422_4618;
+	public static IncomingPacket CAMERA_SHAKE;
 	public static IncomingPacket aClass422_4619;
 	public static IncomingPacket aClass422_4620;
 	public static IncomingPacket aClass422_4621;
@@ -65,7 +65,7 @@ public class IncomingPacket {
 	public static IncomingPacket SKILLS;
 	public static IncomingPacket aClass422_4650;
 	public static IncomingPacket aClass422_4651;
-	public static IncomingPacket aClass422_4652;
+	public static IncomingPacket PLAYER_UNDER_NPC_PRIORITY;
 	public static IncomingPacket aClass422_4653;
 	public static IncomingPacket aClass422_4654;
 	public static IncomingPacket aClass422_4655;
@@ -135,7 +135,7 @@ public class IncomingPacket {
 	public static IncomingPacket VARP_2;
 	public static IncomingPacket aClass422_4720;
 	public static IncomingPacket aClass422_4721;
-	public static IncomingPacket aClass422_4722;
+	public static IncomingPacket GRAND_EXCHANGE;
 	public static IncomingPacket aClass422_4723;
 	public static IncomingPacket aClass422_4724;
 	public static IncomingPacket aClass422_4725;
@@ -234,7 +234,7 @@ public class IncomingPacket {
 		aClass422_4615 = new IncomingPacket(24, 7);
 		aClass422_4677 = new IncomingPacket(25, 2);
 		ADD_GROUND_ITEM = new IncomingPacket(26, 5);
-		aClass422_4618 = new IncomingPacket(27, 6);
+		CAMERA_SHAKE = new IncomingPacket(27, 6);
 		aClass422_4619 = new IncomingPacket(28, -1);
 		RUN_ENERGY = new IncomingPacket(29, 1);
 		aClass422_4621 = new IncomingPacket(30, -2);
@@ -247,7 +247,7 @@ public class IncomingPacket {
 		aClass422_4628 = new IncomingPacket(37, 0);
 		aClass422_4629 = new IncomingPacket(38, 2);
 		NPC_UPDATE = new IncomingPacket(39, -2);
-		aClass422_4601 = new IncomingPacket(40, 0);
+		STOP_CAMERA_SHAKE = new IncomingPacket(40, 0);
 		CS_VAR_1 = new IncomingPacket(41, 3);
 		aClass422_4785 = new IncomingPacket(42, -1);
 		GAME_MESSAGE = new IncomingPacket(43, -1);
@@ -268,7 +268,7 @@ public class IncomingPacket {
 		aClass422_4597 = new IncomingPacket(58, 2);
 		aClass422_4596 = new IncomingPacket(59, 1);
 		aClass422_4651 = new IncomingPacket(60, 2);
-		aClass422_4652 = new IncomingPacket(61, 1);
+		PLAYER_UNDER_NPC_PRIORITY = new IncomingPacket(61, 1);
 		aClass422_4779 = new IncomingPacket(62, 6);
 		aClass422_4650 = new IncomingPacket(63, -2);
 		aClass422_4655 = new IncomingPacket(64, -1);
@@ -338,7 +338,7 @@ public class IncomingPacket {
 		VARP_2 = new IncomingPacket(128, 6);
 		HINT_ICON = new IncomingPacket(129, 14);
 		aClass422_4721 = new IncomingPacket(130, -2);
-		aClass422_4722 = new IncomingPacket(131, 21);
+		GRAND_EXCHANGE = new IncomingPacket(131, 21);
 		aClass422_4644 = new IncomingPacket(132, 8);
 		aClass422_4724 = new IncomingPacket(133, 1);
 		HIDE_ICOMPONENT = new IncomingPacket(134, 5);

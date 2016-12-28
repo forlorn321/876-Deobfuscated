@@ -86,7 +86,7 @@ public class Class402 implements Interface75 {
 	static void method4925(Class234 class234, IComponentDefinitions class251, byte i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				IComponentDefinitions class251_4_ = (class234.aClass251Array2378[class251.parentLayer * -1940204141 & 0xffff]);
+				IComponentDefinitions class251_4_ = (class234.icomponentDefinitions[class251.parentLayer * -1940204141 & 0xffff]);
 				if (null != class251_4_) {
 					if (class251_4_.aClass251Array2726 == class251_4_.aClass251Array2725) {
 						class251_4_.aClass251Array2726 = (new IComponentDefinitions[class251_4_.aClass251Array2725.length]);

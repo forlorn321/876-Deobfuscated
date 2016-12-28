@@ -51,7 +51,7 @@ public class Class609 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub16_10751.method8348(i_1_, -1102005131);
 	}
 
-	public static final void method7265(int i, int i_2_) {
+	public static final void method7265(int i) {
 		for (int i_3_ = 0; i_3_ < 5; i_3_++)
 			client.aBoolArray11270[i_3_] = false;
 		client.anInt11192 = -1863105115;

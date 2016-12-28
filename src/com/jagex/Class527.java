@@ -131,7 +131,7 @@ public class Class527 implements Interface19 {
 		class668.anInt8542 -= 1472892954;
 		boolean bool = class668.anIntArray8541[class668.anInt8542 * 1867269829] == 1;
 		int i_2_ = class668.anIntArray8541[1 + class668.anInt8542 * 1867269829];
-		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_2_);
 		Class234 class234 = Class463.aClass234Array5227[i_2_ >> 16];
 		Class198.method2873(class251, class234, class668, (bool ? Class233.aClass233_2376 : Class233.aClass233_2370), (byte) -23);
 	}
@@ -154,7 +154,7 @@ public class Class527 implements Interface19 {
 	}
 
 	public static IComponentDefinitions method6429(int i, int i_8_, byte i_9_) {
-		IComponentDefinitions class251 = Class264.method3678(i, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i);
 		if (-1 == i_8_)
 			return class251;
 		if (class251 == null || class251.aClass251Array2725 == null || i_8_ >= class251.aClass251Array2725.length)

@@ -61,7 +61,7 @@ class Class141 implements Runnable {
 
 	static final void method1708(Class668 class668, short i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_0_);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class171.method2427(class251, class234, class668, 1742667173);
 	}
@@ -103,7 +103,7 @@ class Class141 implements Runnable {
 		client.aClass4_11050.method561(-2117553523);
 		client.anInt11164 = 0;
 		client.aClass4_11170.method561(-2117553523);
-		Class609.method7265(Class65.method1062((short) -6780), -355603119);
+		Class609.method7265(Class65.method1062());
 		client.anInt11063 = 0;
 		Class465_Sub1.aClass96_10352.aClass610_1164.method7271(-1056104537);
 		Class50.aClass350_585 = null;

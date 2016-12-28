@@ -13,21 +13,21 @@ public class Class166 {
 
 	static final void method1994(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_0_);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class524.method6409(class251, class234, class668, 2003687979);
 	}
 
 	static final void method1995(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_1_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_1_);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class320.method4244(class251, class234, class668, 637295437);
 	}
 
 	static final void method1996(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_2_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_2_);
 		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.text;
 	}
 

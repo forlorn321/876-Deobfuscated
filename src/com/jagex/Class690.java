@@ -47,7 +47,7 @@ public class Class690 implements Interface75 {
 
 	static final void method8185(int i, int i_7_, int i_8_, boolean bool, int i_9_) {
 		if (Class644.method7794(i, null, 1236501925))
-			Class564.method6874((Class463.aClass234Array5227[i].aClass251Array2378), -1, i_7_, i_8_, bool, -1094073228);
+			Class564.method6874((Class463.aClass234Array5227[i].icomponentDefinitions), -1, i_7_, i_8_, bool, -1094073228);
 	}
 
 	public static void method8186(short i) {

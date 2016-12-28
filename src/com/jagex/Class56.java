@@ -164,7 +164,7 @@ public class Class56 implements DefinitionI {
 				}
 				if (i == 1 && class251.onSubChangeHook != null) {
 					if (class251.anInt2546 * -809980533 >= 0) {
-						IComponentDefinitions class251_18_ = Class264.method3678((-1591767037 * class251.anInt2559), -689214737);
+						IComponentDefinitions class251_18_ = Class264.getIComponentDefinitions((-1591767037 * class251.anInt2559));
 						if (class251_18_ == null || class251_18_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= class251_18_.aClass251Array2725.length) || class251 != (class251_18_.aClass251Array2725[-809980533 * class251.anInt2546]))
 							continue;
 					}

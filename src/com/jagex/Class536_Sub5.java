@@ -23,14 +23,14 @@ public class Class536_Sub5 extends Class536 {
 
 	static final void method9402(Class668 class668, byte i) {
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_4_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_4_);
 		Class234 class234 = Class463.aClass234Array5227[i_4_ >> 16];
 		Class190.method2826(class251, class234, class668, -1238707415);
 	}
 
 	static final void method9403(Class668 class668, int i) {
 		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_5_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_5_);
 		Class295.method3978(class251, class668, (byte) -73);
 	}
 }

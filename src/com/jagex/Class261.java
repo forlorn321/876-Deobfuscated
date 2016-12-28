@@ -52,7 +52,7 @@ public class Class261 implements Interface75 {
 
 	static final void method3624(int i, int[] is, int i_1_) {
 		if (Class644.method7794(i, is, 1096675058)) {
-			IComponentDefinitions[] class251s = Class463.aClass234Array5227[i].aClass251Array2378;
+			IComponentDefinitions[] class251s = Class463.aClass234Array5227[i].icomponentDefinitions;
 			for (int i_2_ = 0; i_2_ < class251s.length; i_2_++) {
 				IComponentDefinitions class251 = class251s[i_2_];
 				if (null != class251 && class251.aClass688_2653 != null)
@@ -63,7 +63,7 @@ public class Class261 implements Interface75 {
 
 	static final void method3625(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_3_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_3_);
 		Class234 class234 = Class463.aClass234Array5227[i_3_ >> 16];
 		Class98.method1322(class251, class234, class668, (byte) 0);
 	}

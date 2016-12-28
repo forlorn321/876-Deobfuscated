@@ -76,7 +76,7 @@ public class IComponentDefinitions {
 	public int modelType;
 	public int modelId;
 	public int anInt2603;
-	public int anInt2604;
+	public int spriteId;
 	public static int anInt2605;
 	public int anInt2606;
 	public boolean aBool2607;
@@ -543,7 +543,7 @@ public class IComponentDefinitions {
 		aString2699 = null;
 		aBool2671 = false;
 		anInt2716 = -1848781035;
-		anInt2604 = 1513859745;
+		spriteId = 1513859745;
 		animId = 726203335;
 		aBool2727 = false;
 		aBool2607 = false;

@@ -35,7 +35,7 @@ class Class216 implements Interface42 {
 		if (null == Class463.aClass234Array5227[i_0_])
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else {
-			String string = (Class463.aClass234Array5227[i_0_].aClass251Array2378[0].aString2557);
+			String string = (Class463.aClass234Array5227[i_0_].icomponentDefinitions[0].aString2557);
 			if (null == string)
 				class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 			else

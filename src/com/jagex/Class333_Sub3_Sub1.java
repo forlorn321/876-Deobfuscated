@@ -94,7 +94,7 @@ public class Class333_Sub3_Sub1 extends Class333_Sub3 {
 
 	static final void method10600(Class668 class668, byte i) {
 		int i_16_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_16_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_16_);
 		Class234 class234 = Class463.aClass234Array5227[i_16_ >> 16];
 		Class621.method7410(class251, class234, class668, 1903121955);
 	}

@@ -58,7 +58,7 @@ public class Class241 implements Interface26 {
 
 	static final void method3386(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_3_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_3_);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.parentLayer * -1940204141;
 	}
 

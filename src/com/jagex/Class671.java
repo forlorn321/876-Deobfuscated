@@ -158,18 +158,18 @@ public class Class671 {
 		else if (class234 == null)
 			class251s = new IComponentDefinitions[i_31_];
 		else
-			class251s = class234.aClass251Array2378;
+			class251s = class234.icomponentDefinitions;
 		if (null == class234)
 			class234 = new Class234(bool, class251s);
 		else {
-			class234.aClass251Array2378 = class251s;
+			class234.icomponentDefinitions = class251s;
 			class234.aBool2379 = bool;
 		}
 		for (int i_32_ = 0; i_32_ < i_31_; i_32_++) {
-			if (null == class234.aClass251Array2378[i_32_]) {
+			if (null == class234.icomponentDefinitions[i_32_]) {
 				byte[] is_33_ = Class452.aClass461_4953.method5557(i, i_32_, is, 591884610);
 				if (null != is_33_) {
-					IComponentDefinitions class251 = class234.aClass251Array2378[i_32_] = new IComponentDefinitions();
+					IComponentDefinitions class251 = class234.icomponentDefinitions[i_32_] = new IComponentDefinitions();
 					class251.anInt2559 = 1002674859 * ((i << 16) + i_32_);
 					class251.decode(new RSByteBuffer(is_33_));
 				}

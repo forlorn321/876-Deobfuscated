@@ -44,7 +44,7 @@ public class Class246 implements Interface75 {
 
 	static final void method3416(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_1_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_1_);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
 		Class520.method6351(class251, class234, class668, 2093598409);
 	}

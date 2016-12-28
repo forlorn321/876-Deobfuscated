@@ -29,7 +29,7 @@ public final class Class685 {
 
 	static final void method8110(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_0_);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class657.method7947(class251, class234, class668, -733807551);
 	}

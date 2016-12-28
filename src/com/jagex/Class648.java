@@ -263,7 +263,7 @@ public class Class648 {
 
 	static final void method7830(Class668 class668, int i) {
 		int i_16_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_16_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_16_);
 		Class234 class234 = Class463.aClass234Array5227[i_16_ >> 16];
 		Class453.method5447(class251, class234, class668, (byte) 90);
 	}
@@ -449,13 +449,13 @@ public class Class648 {
 
 	public static final IComponentDefinitions method7834(Class234 class234, IComponentDefinitions class251, int i) {
 		if (-1 != -1940204141 * class251.parentLayer)
-			return class234.method3337(class251.parentLayer * -1940204141, 552340768);
+			return class234.getIComponentDefinitions(class251.parentLayer * -1940204141);
 		if (!class234.aBool2379) {
 			int i_45_ = -1591767037 * class251.anInt2559 >>> 16;
 			Class3 class3 = new Class3(client.aClass4_11008);
 			for (Class536_Sub36 class536_sub36 = (Class536_Sub36) class3.method552(-1780150733); null != class536_sub36; class536_sub36 = (Class536_Sub36) class3.next()) {
 				if (i_45_ == class536_sub36.anInt10634 * -358726121)
-					return Class264.method3678((int) (class536_sub36.aLong7133 * -6909195213925454795L), -689214737);
+					return Class264.getIComponentDefinitions((int) (class536_sub36.aLong7133 * -6909195213925454795L));
 			}
 		}
 		return null;

@@ -159,7 +159,7 @@ class Class187 implements Interface55 {
 		if (Class463.aClass234Array5227[i_31_] == null)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class463.aClass234Array5227[i_31_].aClass251Array2378.length;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class463.aClass234Array5227[i_31_].icomponentDefinitions.length;
 	}
 
 	public static Class694 method2785(int i, byte i_32_) {

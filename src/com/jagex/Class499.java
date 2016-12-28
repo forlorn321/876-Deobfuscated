@@ -2579,7 +2579,7 @@ public class Class499 implements Interface9 {
 	}
 
 	public static void method6023(Class234 class234, IComponentDefinitions class251, boolean bool, byte i) {
-		Class320.method4242(class234.aClass251Array2378, class251, bool, 1571544888);
+		Class320.method4242(class234.icomponentDefinitions, class251, bool, 1571544888);
 	}
 
 	public static int method6024(int i, int i_2_, boolean bool, int i_3_) {

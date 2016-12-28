@@ -1280,7 +1280,7 @@ public final class client extends Class505 {
 				break;
 			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				IComponentDefinitions class251_20_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_20_ = Class264.getIComponentDefinitions(class251.parentLayer * -1940204141);
 				if (class251_20_ == null || class251_20_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= class251_20_.aClass251Array2725.length) || (class251_20_.aClass251Array2725[class251.anInt2546 * -809980533]) != class251)
 					continue;
 			}
@@ -1292,7 +1292,7 @@ public final class client extends Class505 {
 				break;
 			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				IComponentDefinitions class251_21_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_21_ = Class264.getIComponentDefinitions(class251.parentLayer * -1940204141);
 				if (class251_21_ == null || class251_21_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= class251_21_.aClass251Array2725.length) || (class251_21_.aClass251Array2725[-809980533 * class251.anInt2546]) != class251)
 					continue;
 			}
@@ -1304,7 +1304,7 @@ public final class client extends Class505 {
 				break;
 			IComponentDefinitions class251 = class536_sub42.aClass251_10804;
 			if (-809980533 * class251.anInt2546 >= 0) {
-				IComponentDefinitions class251_22_ = Class264.method3678(class251.parentLayer * -1940204141, -689214737);
+				IComponentDefinitions class251_22_ = Class264.getIComponentDefinitions(class251.parentLayer * -1940204141);
 				if (class251_22_ == null || null == class251_22_.aClass251Array2725 || (-809980533 * class251.anInt2546 >= class251_22_.aClass251Array2725.length) || (class251_22_.aClass251Array2725[class251.anInt2546 * -809980533]) != class251)
 					continue;
 			}
@@ -3177,7 +3177,7 @@ public final class client extends Class505 {
 						IComponentDefinitions class251 = method10382(aClass251_10992);
 						IComponentDefinitions class251_159_ = aClass251_11202;
 						boolean bool = false;
-						for (/**/; (null != class251_159_ && -1 != class251_159_.parentLayer * -1940204141 && null != class251); class251_159_ = (Class463.aClass234Array5227[(-1591767037 * class251_159_.anInt2559 >> 16)].aClass251Array2378[(-1940204141 * class251_159_.parentLayer & 0xffff)])) {
+						for (/**/; (null != class251_159_ && -1 != class251_159_.parentLayer * -1940204141 && null != class251); class251_159_ = (Class463.aClass234Array5227[(-1591767037 * class251_159_.anInt2559 >> 16)].icomponentDefinitions[(-1940204141 * class251_159_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_159_.anInt2559) {
 								bool = true;
 								break;
@@ -3299,7 +3299,7 @@ public final class client extends Class505 {
 		aClass4_11050.method561(-2117553523);
 		anInt11164 = 0;
 		aClass4_11170.method561(-2117553523);
-		Class609.method7265(Class65.method1062((short) -15916), -952911284);
+		Class609.method7265(Class65.method1062());
 		anInt11063 = 0;
 		Class465_Sub1.aClass96_10352.aClass610_1164.method7271(-1056104537);
 		Class50.aClass350_585 = null;
@@ -3541,7 +3541,7 @@ public final class client extends Class505 {
 		Class593.anInt7811 = 0;
 		Class460_Sub1.anInt10291 = 0;
 		Class246.anInt2474 = 68985507;
-		if (Class65.method1062((short) -17864) == 2) {
+		if (Class65.method1062() == 2) {
 			Class598 class598 = aClass515_11066.method6255(-1977873276);
 			int i = 1858049507 * class598.anInt7839 << 9;
 			int i_162_ = 1479112045 * class598.anInt7840 << 9;
@@ -4565,7 +4565,7 @@ public final class client extends Class505 {
 						IComponentDefinitions class251 = method10382(aClass251_10992);
 						IComponentDefinitions class251_237_ = aClass251_11202;
 						boolean bool = false;
-						for (/**/; (null != class251_237_ && -1 != class251_237_.parentLayer * -1940204141 && null != class251); class251_237_ = (Class463.aClass234Array5227[(-1591767037 * class251_237_.anInt2559 >> 16)].aClass251Array2378[(-1940204141 * class251_237_.parentLayer & 0xffff)])) {
+						for (/**/; (null != class251_237_ && -1 != class251_237_.parentLayer * -1940204141 && null != class251); class251_237_ = (Class463.aClass234Array5227[(-1591767037 * class251_237_.anInt2559 >> 16)].icomponentDefinitions[(-1940204141 * class251_237_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_237_.anInt2559) {
 								bool = true;
 								break;
@@ -4686,17 +4686,17 @@ public final class client extends Class505 {
 
 	static final void method10444(int i) {
 		if (Class644.method7794(i, null, 345167250))
-			Class549_Sub1.method9674((Class463.aClass234Array5227[i].aClass251Array2378), -1, 1983741393);
+			Class549_Sub1.method9674((Class463.aClass234Array5227[i].icomponentDefinitions), -1, 1983741393);
 	}
 
 	static final void method10445(int i) {
 		if (Class644.method7794(i, null, 2124626593))
-			Class549_Sub1.method9674((Class463.aClass234Array5227[i].aClass251Array2378), -1, 1983741393);
+			Class549_Sub1.method9674((Class463.aClass234Array5227[i].icomponentDefinitions), -1, 1983741393);
 	}
 
 	static final void method10446(int i) {
 		if (Class644.method7794(i, null, 1676894385))
-			Class549_Sub1.method9674((Class463.aClass234Array5227[i].aClass251Array2378), -1, 1983741393);
+			Class549_Sub1.method9674((Class463.aClass234Array5227[i].icomponentDefinitions), -1, 1983741393);
 	}
 
 	public static final void method10447() {
@@ -4707,7 +4707,7 @@ public final class client extends Class505 {
 		Class593.anInt7811 = 0;
 		Class460_Sub1.anInt10291 = 0;
 		Class246.anInt2474 = 68985507;
-		if (Class65.method1062((short) -18024) == 2) {
+		if (Class65.method1062() == 2) {
 			Class598 class598 = aClass515_11066.method6255(-1299084972);
 			int i = 1858049507 * class598.anInt7839 << 9;
 			int i_255_ = 1479112045 * class598.anInt7840 << 9;
@@ -4888,7 +4888,7 @@ public final class client extends Class505 {
 
 	static final void method10455(int i) {
 		if (Class644.method7794(i, null, 915976043))
-			Class549_Sub1.method9674((Class463.aClass234Array5227[i].aClass251Array2378), -1, 1983741393);
+			Class549_Sub1.method9674((Class463.aClass234Array5227[i].icomponentDefinitions), -1, 1983741393);
 	}
 
 	void method10456() {

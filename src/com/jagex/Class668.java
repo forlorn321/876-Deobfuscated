@@ -58,7 +58,7 @@ public class Class668 {
 
 	static final void method8006(Class668 class668, byte i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_0_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_0_);
 		Class234 class234 = Class463.aClass234Array5227[i_0_ >> 16];
 		Class248.method3446(class251, class234, class668, (short) -17560);
 	}
@@ -86,7 +86,7 @@ public class Class668 {
 
 	public static void method8010(int i, int[] is, int i_2_) {
 		if (i != -1 && Class644.method7794(i, is, 1454645175)) {
-			IComponentDefinitions[] class251s = Class463.aClass234Array5227[i].aClass251Array2378;
+			IComponentDefinitions[] class251s = Class463.aClass234Array5227[i].icomponentDefinitions;
 			Class609.method7262(class251s, (byte) 1);
 		}
 	}

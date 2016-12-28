@@ -1192,7 +1192,7 @@ public class Class61 {
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
 		Class411.method5004((byte) -114);
-		Class609.method7265(Class65.method1062((short) -4943), -1670259035);
+		Class609.method7265(Class65.method1062());
 		Class673.method8026(9, -1798113843);
 		for (int i = 0; i < 106; i++)
 			client.aBoolArray11240[i] = true;
@@ -1224,7 +1224,7 @@ public class Class61 {
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
 		Class411.method5004((byte) -15);
-		Class609.method7265(Class65.method1062((short) 3990), -1187672503);
+		Class609.method7265(Class65.method1062());
 		Class673.method8026(9, -1798113843);
 		for (int i = 0; i < 106; i++)
 			client.aBoolArray11240[i] = true;
@@ -1256,7 +1256,7 @@ public class Class61 {
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
 		Class411.method5004((byte) -46);
-		Class609.method7265(Class65.method1062((short) -12130), -301660125);
+		Class609.method7265(Class65.method1062());
 		Class673.method8026(9, -1798113843);
 		for (int i = 0; i < 106; i++)
 			client.aBoolArray11240[i] = true;

@@ -67,7 +67,7 @@ public class Class540 {
 		if (null == Class463.aClass234Array5227[i_13_])
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class463.aClass234Array5227[i_13_].aClass251Array2378[i_12_].anInt2558) * -1413662187;
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class463.aClass234Array5227[i_13_].icomponentDefinitions[i_12_].anInt2558) * -1413662187;
 	}
 
 	static final void method6521(Class668 class668, short i) {

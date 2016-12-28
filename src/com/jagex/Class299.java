@@ -36,7 +36,7 @@ public class Class299 {
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
 		Class411.method5004((byte) -9);
-		Class609.method7265(Class65.method1062((short) -12458), -1647734340);
+		Class609.method7265(Class65.method1062());
 		Class673.method8026(9, -1798113843);
 		for (int i_3_ = 0; i_3_ < 106; i_3_++)
 			client.aBoolArray11240[i_3_] = true;

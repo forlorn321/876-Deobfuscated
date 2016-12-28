@@ -225,7 +225,7 @@ public class Class466 implements Runnable {
 
 	static final void method5684(Class668 class668, int i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_6_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_6_);
 		Class234 class234 = Class463.aClass234Array5227[i_6_ >> 16];
 		Class536_Sub30.method9639(class251, class234, class668, -1878483750);
 	}

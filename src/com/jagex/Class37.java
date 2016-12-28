@@ -342,7 +342,7 @@ public class Class37 {
 	}
 
 	static final void method838(Class668 class668, int i) {
-		Class609.method7265(Class65.method1062((short) -26586), -1147247352);
+		Class609.method7265(Class65.method1062());
 	}
 
 	public static void method839(int i, int i_55_) {

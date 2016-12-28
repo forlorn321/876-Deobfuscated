@@ -605,7 +605,7 @@ public class Class515 {
 			Class461.anInt5216 -= 1712049664 * i_71_;
 			Class222.anInt2326 -= i_72_ * -967711232;
 			if (6 != 155362615 * Class246.anInt2474 && 2 != 155362615 * Class246.anInt2474)
-				Class609.method7265(Class65.method1062((short) -2205), -1235953114);
+				Class609.method7265(Class65.method1062());
 		} else {
 			Class440.anInt4874 -= -1470004169 * i_71_;
 			Class606.anInt7898 -= i_72_ * 1281447141;

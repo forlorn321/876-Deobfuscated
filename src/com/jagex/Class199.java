@@ -410,6 +410,6 @@ public final class Class199 {
 
 	static final void method2913(int i, int i_31_) {
 		if (Class644.method7794(i, null, 679868352))
-			Class549_Sub1.method9674((Class463.aClass234Array5227[i].aClass251Array2378), -1, 1983741393);
+			Class549_Sub1.method9674((Class463.aClass234Array5227[i].icomponentDefinitions), -1, 1983741393);
 	}
 }

@@ -73,7 +73,7 @@ public class Class580 {
 
 	static final void method7016(Class668 class668, byte i) {
 		int i_12_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_12_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_12_);
 		Class656.method7944(class251, class668, -1329991286);
 	}
 

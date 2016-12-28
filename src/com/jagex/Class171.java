@@ -57,7 +57,7 @@ public class Class171 {
 	static void method2425(Class234 class234, IComponentDefinitions class251, int i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				IComponentDefinitions class251_8_ = class234.method3337(-1940204141 * class251.parentLayer, 552340768);
+				IComponentDefinitions class251_8_ = class234.getIComponentDefinitions(-1940204141 * class251.parentLayer);
 				if (class251_8_ != null) {
 					if (class251_8_.aClass251Array2725 == class251_8_.aClass251Array2726) {
 						class251_8_.aClass251Array2726 = (new IComponentDefinitions[class251_8_.aClass251Array2725.length]);

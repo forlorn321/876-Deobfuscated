@@ -45,13 +45,13 @@ public class Class205_Sub15 extends Class205 {
 	static final void method9086(int i, int i_6_) {
 		int i_7_ = client.cycles - client.anInt11267 * 219142479;
 		if (i_7_ >= 100) {
-			Class246.anInt2474 = Class65.method1062((short) -10921) * -1704189817;
+			Class246.anInt2474 = Class65.method1062() * -1704189817;
 			Class667.anInt8535 = 1594603721;
 			Class658.anInt8498 = -662013517;
 		} else {
 			float f = 1.0F - ((float) ((100 - i_7_) * ((100 - i_7_) * (100 - i_7_))) / 1000000.0F);
 			int i_8_;
-			if (Class65.method1062((short) -10878) == 2) {
+			if (Class65.method1062() == 2) {
 				Class536_Sub30 class536_sub30 = Class683.aClass301_Sub1_8651.method4051(826143221).method4353(-1713984555);
 				Class598 class598 = client.aClass515_11066.method6255(-1455257551);
 				Class141.anInt1658 = ((int) ((double) Class683.aClass301_Sub1_8651.method4058((byte) -75) * 2607.5945876176133) & 0x3fff) * 269246561;

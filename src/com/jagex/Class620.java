@@ -307,11 +307,11 @@ class Class620 implements Iterator {
 									if (-1 != class251.anInt2711 * -1484799213) {
 										Class617 class617 = (class251.aBool2671 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null);
 										class143 = (Class111.aClass34_Sub13_1391.method10342(Class677.aClass167_8609, (-1484799213 * class251.anInt2711), (-1880327077 * class251.anInt2712), (1960646061 * class251.outline), (~0xffffff | (1514577167 * class251.graphicShadow)), (-1273595415 * class251.anInt2595), class617, -1895524453));
-									} else if (class251.anInt2604 * 11093663 != -1) {
-										class143 = ((Class143) (client.aClass199_11300.method2886((long) (11093663 * (class251.anInt2604)))));
-										if (class143 == null && !(client.aMap11301.containsKey(Integer.valueOf(class251.anInt2604 * 11093663)))) {
+									} else if (class251.spriteId * 11093663 != -1) {
+										class143 = ((Class143) (client.aClass199_11300.method2886((long) (11093663 * (class251.spriteId)))));
+										if (class143 == null && !(client.aMap11301.containsKey(Integer.valueOf(class251.spriteId * 11093663)))) {
 											try {
-												client.aMap11301.put((Integer.valueOf(class251.anInt2604 * 11093663)), (Class208.aClass60_2245.method990((new URL(new StringBuilder().append(client.aString10998).append("/img/image_").append((class251.anInt2604) * 11093663).append(".png?a=").append(Class249.method3450(1381073741)).toString())), -1124813087)));
+												client.aMap11301.put((Integer.valueOf(class251.spriteId * 11093663)), (Class208.aClass60_2245.method990((new URL(new StringBuilder().append(client.aString10998).append("/img/image_").append((class251.spriteId) * 11093663).append(".png?a=").append(Class249.method3450(1381073741)).toString())), -1124813087)));
 											} catch (MalformedURLException malformedurlexception) {
 												Class81.method1165(null, malformedurlexception, (byte) -92);
 											}

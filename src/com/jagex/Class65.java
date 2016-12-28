@@ -10,7 +10,7 @@ public class Class65 {
 		throw new Error();
 	}
 
-	public static int method1062(short i) {
+	public static int method1062() {
 		return Class644.aClass628_8352.aBool8211 ? 2 : 1;
 	}
 

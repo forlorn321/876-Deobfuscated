@@ -83,7 +83,7 @@ public class Class359 {
 		if (null == Class463.aClass234Array5227[i_11_])
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else {
-			String string = (Class463.aClass234Array5227[i_11_].aClass251Array2378[i_10_].aString2557);
+			String string = (Class463.aClass234Array5227[i_11_].icomponentDefinitions[i_10_].aString2557);
 			if (null == string)
 				class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 			else

@@ -89,7 +89,7 @@ public class Class441 implements Interface5 {
 						IComponentDefinitions class251 = client.method10382(client.aClass251_10992);
 						IComponentDefinitions class251_4_ = client.aClass251_11202;
 						boolean bool = false;
-						for (/**/; (null != class251_4_ && -1 != class251_4_.parentLayer * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].aClass251Array2378[(-1940204141 * class251_4_.parentLayer & 0xffff)])) {
+						for (/**/; (null != class251_4_ && -1 != class251_4_.parentLayer * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].icomponentDefinitions[(-1940204141 * class251_4_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_4_.anInt2559) {
 								bool = true;
 								break;

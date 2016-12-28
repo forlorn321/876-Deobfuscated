@@ -272,7 +272,7 @@ public class Class494 {
 
 	static final void method5990(Class668 class668, int i) {
 		int i_61_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		IComponentDefinitions class251 = Class264.method3678(i_61_, -689214737);
+		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_61_);
 		Class234 class234 = Class463.aClass234Array5227[i_61_ >> 16];
 		Class390.method4856(class251, class234, true, 0, class668, (byte) -37);
 	}

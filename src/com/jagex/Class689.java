@@ -104,7 +104,7 @@ public class Class689 implements Iterator {
 		Class593.anInt7811 = 0;
 		Class460_Sub1.anInt10291 = 0;
 		Class246.anInt2474 = 68985507;
-		if (Class65.method1062((short) -27216) == 2) {
+		if (Class65.method1062() == 2) {
 			Class598 class598 = client.aClass515_11066.method6255(-1877472177);
 			int i_1_ = 1858049507 * class598.anInt7839 << 9;
 			int i_2_ = 1479112045 * class598.anInt7840 << 9;

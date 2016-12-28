@@ -5,33 +5,33 @@ package com.jagex;
 
 public class Class234 {
 	IComponentDefinitions[] aClass251Array2377;
-	public IComponentDefinitions[] aClass251Array2378;
+	public IComponentDefinitions[] icomponentDefinitions;
 	public boolean aBool2379;
 	static int[] anIntArray2380;
 	static int anInt2381;
 
-	public IComponentDefinitions method3337(int i, int i_0_) {
-		if (i >>> 16 != -1591767037 * aClass251Array2378[0].anInt2559 >>> 16)
+	public IComponentDefinitions getIComponentDefinitions(int hash) {
+		if (hash >>> 16 != -1591767037 * icomponentDefinitions[0].anInt2559 >>> 16)
 			throw new IllegalArgumentException();
-		return aClass251Array2378[i & 0xffff];
+		return icomponentDefinitions[hash & 0xffff];
 	}
 
 	Class234(boolean bool, IComponentDefinitions[] class251s) {
-		aClass251Array2378 = class251s;
+		icomponentDefinitions = class251s;
 		aBool2379 = bool;
 	}
 
 	public IComponentDefinitions[] method3338(int i) {
 		if (aClass251Array2377 == null) {
-			int i_1_ = aClass251Array2378.length;
+			int i_1_ = icomponentDefinitions.length;
 			aClass251Array2377 = new IComponentDefinitions[i_1_];
-			System.arraycopy(aClass251Array2378, 0, aClass251Array2377, 0, aClass251Array2378.length);
+			System.arraycopy(icomponentDefinitions, 0, aClass251Array2377, 0, icomponentDefinitions.length);
 		}
 		return aClass251Array2377;
 	}
 
 	public IComponentDefinitions[] method3339(int i) {
-		return (aClass251Array2377 == null ? aClass251Array2378 : aClass251Array2377);
+		return (aClass251Array2377 == null ? icomponentDefinitions : aClass251Array2377);
 	}
 
 	static final void method3340(Class668 class668, byte i) {

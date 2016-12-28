@@ -21,7 +21,7 @@ public class Class683 {
 	}
 
 	IComponentDefinitions method8094(int i) {
-		return aClass234_8649.method3337((-1591767037 * aClass251_8650.anInt2559), 552340768);
+		return aClass234_8649.getIComponentDefinitions((-1591767037 * aClass251_8650.anInt2559));
 	}
 
 	void method8095(int i) {
