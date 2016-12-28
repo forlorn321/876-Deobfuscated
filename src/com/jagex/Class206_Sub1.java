@@ -7,11 +7,11 @@ public class Class206_Sub1 extends Class206 {
 	public static Class461 aClass461_10024;
 	public static int anInt10025;
 
-	public Interface13 method55(int i, Interface12 interface12, int i_0_) {
+	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
 		return new Class191(i, this);
 	}
 
-	public Interface13 method53(int i, Interface12 interface12) {
+	public DefinitionI method53(int i, Interface12 interface12) {
 		return new Class191(i, this);
 	}
 
@@ -19,7 +19,7 @@ public class Class206_Sub1 extends Class206 {
 		return com.jagex.Class191.class;
 	}
 
-	public Interface13 method54(int i, Interface12 interface12) {
+	public DefinitionI method54(int i, Interface12 interface12) {
 		return new Class191(i, this);
 	}
 

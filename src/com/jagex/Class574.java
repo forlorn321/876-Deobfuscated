@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class574 implements Interface13, Interface7 {
+public class Class574 implements DefinitionI, Interface7 {
 	int anInt7640;
 	Class569 aClass569_7641;
 	int[] anIntArray7642;

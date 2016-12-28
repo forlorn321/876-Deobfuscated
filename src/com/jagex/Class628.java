@@ -78,9 +78,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.read24BitUnsignedInteger(1847838876) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger() * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.read24BitUnsignedInteger(1338761853) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger() * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -206,9 +206,9 @@ public class Class628 {
 			} else if (4 == i_13_)
 				aBool8218 = false;
 			else if (5 == i_13_)
-				anInt8195 = class536_sub33.read24BitUnsignedInteger(1869077864) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger() * 1563873595;
 			else if (6 == i_13_)
-				anInt8225 = class536_sub33.read24BitUnsignedInteger(855814435) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger() * 864400697;
 			else if (7 == i_13_) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -334,9 +334,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.read24BitUnsignedInteger(1863202120) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger() * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.read24BitUnsignedInteger(1497707761) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger() * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -462,9 +462,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.read24BitUnsignedInteger(1449431842) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger() * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.read24BitUnsignedInteger(1724315829) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger() * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];
@@ -628,9 +628,9 @@ public class Class628 {
 			} else if (4 == i)
 				aBool8218 = false;
 			else if (5 == i)
-				anInt8195 = class536_sub33.read24BitUnsignedInteger(2013652493) * 1563873595;
+				anInt8195 = class536_sub33.read24BitUnsignedInteger() * 1563873595;
 			else if (6 == i)
-				anInt8225 = class536_sub33.read24BitUnsignedInteger(1185879678) * 864400697;
+				anInt8225 = class536_sub33.read24BitUnsignedInteger() * 864400697;
 			else if (7 == i) {
 				aShortArrayArray8189 = new short[10][4];
 				aShortArrayArrayArray8202 = new short[10][4][];

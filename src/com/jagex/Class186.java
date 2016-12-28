@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class186 implements Interface13, Interface7 {
+public class Class186 implements DefinitionI, Interface7 {
 	public boolean[] aBoolArray2126;
 
 	public void method58(int i) {

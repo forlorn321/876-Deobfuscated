@@ -8,11 +8,11 @@ public class Class645_Sub1 extends Class645 implements Interface6 {
 		return com.jagex.Class638.class;
 	}
 
-	public Interface13 method55(int i, Interface12 interface12, int i_0_) {
+	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
 		return new Class638(i, this);
 	}
 
-	public Interface13 method54(int i, Interface12 interface12) {
+	public DefinitionI method54(int i, Interface12 interface12) {
 		return new Class638(i, this);
 	}
 
@@ -20,7 +20,7 @@ public class Class645_Sub1 extends Class645 implements Interface6 {
 		super(class461);
 	}
 
-	public Interface13 method53(int i, Interface12 interface12) {
+	public DefinitionI method53(int i, Interface12 interface12) {
 		return new Class638(i, this);
 	}
 

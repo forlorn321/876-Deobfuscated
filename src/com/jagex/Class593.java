@@ -1218,7 +1218,7 @@ public class Class593 {
 			Class441.method5329(class668, -2110992489);
 			break;
 		case 39:
-			Class1.method523(class668, 1857517913);
+			ItemDefinitions.method523(class668, 1857517913);
 			break;
 		case 1103:
 			Class285.method3840(class668, -1610843831);
@@ -3053,7 +3053,7 @@ public class Class593 {
 			Class504.method6078(class668, (short) -7461);
 			break;
 		case 145:
-			Class1.method525(class668, (byte) 30);
+			ItemDefinitions.method525(class668, (byte) 30);
 			break;
 		case 340:
 			Class664.method7990(class668, -825581025);

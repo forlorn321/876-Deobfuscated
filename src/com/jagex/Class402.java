@@ -56,9 +56,9 @@ public class Class402 implements Interface75 {
 	static int[] method4923(Class536_Sub18_Sub9 class536_sub18_sub9, int i) {
 		int[] is = null;
 		if (Class432.method5189(-517484763 * class536_sub18_sub9.anInt11718, (short) 352))
-			is = ((Class1) (Class111.aClass34_Sub13_1391.method70((int) (9092992429781309163L * class536_sub18_sub9.aLong11711), (byte) -28))).anIntArray80;
+			is = ((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70((int) (9092992429781309163L * class536_sub18_sub9.aLong11711), (byte) -28))).anIntArray80;
 		else if (class536_sub18_sub9.anInt11710 * 245161179 != -1)
-			is = ((Class1) (Class111.aClass34_Sub13_1391.method70(245161179 * class536_sub18_sub9.anInt11710, (byte) 24))).anIntArray80;
+			is = ((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70(245161179 * class536_sub18_sub9.anInt11710, (byte) 24))).anIntArray80;
 		else if (Class465.method5668((class536_sub18_sub9.anInt11718 * -517484763), (byte) -23)) {
 			Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (int) (9092992429781309163L * class536_sub18_sub9.aLong11711))));
 			if (null != class536_sub13) {

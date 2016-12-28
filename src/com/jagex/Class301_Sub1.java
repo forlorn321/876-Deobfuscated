@@ -57,7 +57,7 @@ public class Class301_Sub1 extends Class301 {
 			if ((i_3_ >> Class295.aClass295_3255.anInt3264 * -1131119493 & 0x1) == 1)
 				aClass302_3365 = Class580.method7014(class536_sub33.readUnsignedByte(), (byte) 2);
 			if ((i_3_ >> Class295.aClass295_3256.anInt3264 * -1131119493 & 0x1) == 1) {
-				anInt3376 = class536_sub33.read24BitUnsignedInteger(1295985534) * -86569843;
+				anInt3376 = class536_sub33.read24BitUnsignedInteger() * -86569843;
 				class536_sub33.readUnsignedByte();
 			}
 			if ((i_3_ >> Class295.aClass295_3251.anInt3264 * -1131119493 & 0x1) == 1) {

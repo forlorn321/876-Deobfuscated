@@ -70,7 +70,7 @@ public class Class181 {
 			class536_sub33.off = (is.length - 7 - i_3_ * 8 - (i_7_ - 1) * 3) * 516175515;
 			int[] is_13_ = new int[i_7_];
 			for (int i_14_ = 1; i_14_ < i_7_; i_14_++) {
-				is_13_[i_14_] = class536_sub33.read24BitUnsignedInteger(1833446094);
+				is_13_[i_14_] = class536_sub33.read24BitUnsignedInteger();
 				if (is_13_[i_14_] == 0)
 					is_13_[i_14_] = 1;
 			}
@@ -130,7 +130,7 @@ public class Class181 {
 			for (int i_33_ = 0; i_33_ < i_3_; i_33_++) {
 				int[] is_34_ = new int[i_31_ * i_32_];
 				for (int i_35_ = 0; i_35_ < i_31_ * i_32_; i_35_++) {
-					is_34_[i_35_] = ~0xffffff | class536_sub33.read24BitUnsignedInteger(1166802001);
+					is_34_[i_35_] = ~0xffffff | class536_sub33.read24BitUnsignedInteger();
 					if (is_34_[i_35_] == -65281)
 						is_34_[i_35_] = 0;
 				}

@@ -64,7 +64,7 @@ public abstract class Class504 {
 
 	static final void method6078(Class668 class668, short i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((Class1) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -87)).anInt42) * 432606769;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -87)).anInt42) * 432606769;
 	}
 
 	static void method6079(InterfaceDefinitions class251, Class161 class161, int i, int i_3_, int i_4_, int i_5_, int i_6_, String string, Class184 class184, Class2 class2, int i_7_, int i_8_) {

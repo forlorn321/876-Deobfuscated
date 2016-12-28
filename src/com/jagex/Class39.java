@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Class39 implements Interface13, Interface7 {
+public class Class39 implements DefinitionI, Interface7 {
 	public Class453 aClass453_482;
 	public Class453 aClass453_483;
 	String aString484 = "null";

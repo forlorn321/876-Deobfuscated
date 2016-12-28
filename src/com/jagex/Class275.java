@@ -24,7 +24,7 @@ final class Class275 implements Interface29 {
 		return Class30.method780(string, (byte) -108);
 	}
 
-	static Class12 method3736(Class1 class1, RSByteBuffer class536_sub33, int i, int i_0_) {
+	static Class12 method3736(ItemDefinitions class1, RSByteBuffer class536_sub33, int i, int i_0_) {
 		Class12 class12 = new Class12(class1);
 		int i_1_ = class536_sub33.readUnsignedByte();
 		boolean bool = (i_1_ & 0x1) != 0;

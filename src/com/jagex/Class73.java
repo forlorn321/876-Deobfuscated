@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class73 implements Interface13, Interface7 {
+public class Class73 implements DefinitionI, Interface7 {
 	public boolean aBool802 = true;
 	public int anInt803;
 	Class453 aClass453_804;

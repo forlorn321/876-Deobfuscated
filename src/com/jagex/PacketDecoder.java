@@ -134,7 +134,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4655) {
 			String string = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_15_ = (long) stream.read24BitUnsignedInteger(1584315645);
+			long l_15_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-1461571648), stream.readUnsignedByte(), 1858049507));
 			boolean bool = stream.readUnsignedByte() == 1;
 			long l_16_ = l_15_ + (l << 32);
@@ -393,7 +393,7 @@ public class PacketDecoder {
 			if (bool)
 				string_64_ = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_65_ = (long) stream.read24BitUnsignedInteger(1417052576);
+			long l_65_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(992299809), stream.readUnsignedByte(), 1858049507));
 			int i_66_ = stream.readUnsignedShort();
 			long l_67_ = l_65_ + (l << 32);
@@ -559,7 +559,7 @@ public class PacketDecoder {
 				string_90_ = stream.readString();
 			String string_91_ = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_92_ = (long) stream.read24BitUnsignedInteger(1868228596);
+			long l_92_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-969837515), stream.readUnsignedByte(), 1858049507));
 			int i_93_ = stream.readUnsignedShort();
 			long l_94_ = l_92_ + (l << 32);
@@ -598,7 +598,7 @@ public class PacketDecoder {
 			Class307.method4133();
 			if (Class463.aClass234Array5227[i_98_] != null) {
 				for (int i_101_ = i_99_; i_101_ < i_100_; i_101_++) {
-					int i_102_ = stream.read24BitUnsignedInteger(1254797117);
+					int i_102_ = stream.read24BitUnsignedInteger();
 					if (i_101_ < (Class463.aClass234Array5227[i_98_].aClass251Array2378).length && (Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_]) != null)
 						Class463.aClass234Array5227[i_98_].aClass251Array2378[i_101_].anInt2558 = 2115749181 * i_102_;
 				}
@@ -1273,7 +1273,7 @@ public class PacketDecoder {
 			boolean bool = stream.readUnsignedByte() == 1;
 			String string = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_218_ = (long) stream.read24BitUnsignedInteger(1607406376);
+			long l_218_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(1056117194), stream.readUnsignedByte(), 1858049507));
 			int i_219_ = stream.readUnsignedShort();
 			long l_220_ = l_218_ + (l << 32);
@@ -1338,7 +1338,7 @@ public class PacketDecoder {
 			if (bool)
 				string_226_ = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_227_ = (long) stream.read24BitUnsignedInteger(1856093933);
+			long l_227_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-88856294), stream.readUnsignedByte(), 1858049507));
 			long l_228_ = l_227_ + (l << 32);
 			boolean bool_229_ = false;
@@ -1464,7 +1464,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4758) {
 			boolean bool = stream.readUnsignedByte() == 1;
 			long l = (long) stream.readUnsignedShort();
-			long l_242_ = (long) stream.read24BitUnsignedInteger(1049136975);
+			long l_242_ = (long) stream.read24BitUnsignedInteger();
 			long l_243_ = l_242_ + (l << 32);
 			boolean bool_244_ = false;
 			Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
@@ -1967,7 +1967,7 @@ public class PacketDecoder {
 			boolean bool = stream.readUnsignedByte() == 1;
 			String string = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_331_ = (long) stream.read24BitUnsignedInteger(1867459018);
+			long l_331_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-1200400101), stream.readUnsignedByte(), 1858049507));
 			long l_332_ = l_331_ + (l << 32);
 			boolean bool_333_ = false;
@@ -2155,7 +2155,7 @@ public class PacketDecoder {
 				string_368_ = stream.readString();
 			String string_369_ = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_370_ = (long) stream.read24BitUnsignedInteger(1954072536);
+			long l_370_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-142450876), stream.readUnsignedByte(), 1858049507));
 			long l_371_ = l_370_ + (l << 32);
 			boolean bool_372_ = false;
@@ -2557,7 +2557,7 @@ public class PacketDecoder {
 				i_444_ = -1;
 			Class307.method4133();
 			Class216.method3094(i_442_, i_444_, i_443_, -413124118);
-			Class1 class1 = ((Class1) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
+			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_444_, (byte) 19));
 			Class504_Sub1.method9322(i_442_, class1.anInt54 * 211736907, 824706077 * class1.anInt30, -1906278051 * class1.anInt47, (byte) -34);
 			Class706_Sub4.method10317(i_442_, class1.anInt32 * 814524581, class1.anInt33 * -1832345149, class1.anInt31 * -751322115, 1021240981);
 			class106.currentPacket = null;
@@ -2684,7 +2684,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.aClass422_4751) {
 			String string = stream.readString();
 			long l = (long) stream.readUnsignedShort();
-			long l_464_ = (long) stream.read24BitUnsignedInteger(1995733377);
+			long l_464_ = (long) stream.read24BitUnsignedInteger();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(-153815932), stream.readUnsignedByte(), 1858049507));
 			boolean bool = stream.readUnsignedByte() == 1;
 			int i_465_ = stream.readUnsignedShort();
@@ -2963,7 +2963,7 @@ public class PacketDecoder {
 			int i_84_ = (i_82_ & 0x7) + Class618.sceneY * 1895190105;
 			int i_85_ = stream.readUnsignedShort();
 			int i_86_ = stream.readUnsignedByte();
-			int i_87_ = stream.read24BitUnsignedInteger(2015090931);
+			int i_87_ = stream.read24BitUnsignedInteger();
 			String string = stream.readString();
 			if (client.aClass515_11066.method6315(95863962) != Class498.aClass498_5556)
 				Class21.method707(-502818839 * Class512.scenePlane, i_83_, i_84_, i_86_, i_85_, i_87_, string, 217843226);

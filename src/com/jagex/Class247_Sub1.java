@@ -7,7 +7,7 @@ public class Class247_Sub1 extends Class247 {
 	public static Class461 aClass461_9968;
 	public static Class143 aClass143_9969;
 
-	public Interface13 method55(int i, Interface12 interface12, int i_0_) {
+	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
 		return new Class248(i, interface12, this);
 	}
 
@@ -19,11 +19,11 @@ public class Class247_Sub1 extends Class247 {
 		return com.jagex.Class248.class;
 	}
 
-	public Interface13 method53(int i, Interface12 interface12) {
+	public DefinitionI method53(int i, Interface12 interface12) {
 		return new Class248(i, interface12, this);
 	}
 
-	public Interface13 method54(int i, Interface12 interface12) {
+	public DefinitionI method54(int i, Interface12 interface12) {
 		return new Class248(i, interface12, this);
 	}
 

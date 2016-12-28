@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class191 implements Interface13 {
+public class Class191 implements DefinitionI {
 	public boolean aBool2152;
 	Class206 aClass206_2153;
 	public int anInt2154;
@@ -172,7 +172,7 @@ public class Class191 implements Interface13 {
 				int i_16_ = class536_sub33.readUnsignedByte();
 				if (i_16_ > 0) {
 					anIntArrayArray2161[i_15_] = new int[i_16_];
-					anIntArrayArray2161[i_15_][0] = class536_sub33.read24BitUnsignedInteger(1665886938);
+					anIntArrayArray2161[i_15_][0] = class536_sub33.read24BitUnsignedInteger();
 					for (int i_17_ = 1; i_17_ < i_16_; i_17_++)
 						anIntArrayArray2161[i_15_][i_17_] = class536_sub33.readUnsignedShort();
 				}
@@ -226,7 +226,7 @@ public class Class191 implements Interface13 {
 				}
 				for (int i_24_ = 0; i_24_ < i_22_; i_24_++) {
 					boolean bool = class536_sub33.readUnsignedByte() == 1;
-					int i_25_ = class536_sub33.read24BitUnsignedInteger(2074309959);
+					int i_25_ = class536_sub33.read24BitUnsignedInteger();
 					Class536 class536;
 					if (bool)
 						class536 = new Class536_Sub13(class536_sub33.readString());
@@ -283,7 +283,7 @@ public class Class191 implements Interface13 {
 				int i_35_ = class536_sub33.readUnsignedByte();
 				if (i_35_ > 0) {
 					anIntArrayArray2161[i_34_] = new int[i_35_];
-					anIntArrayArray2161[i_34_][0] = class536_sub33.read24BitUnsignedInteger(1895785900);
+					anIntArrayArray2161[i_34_][0] = class536_sub33.read24BitUnsignedInteger();
 					for (int i_36_ = 1; i_36_ < i_35_; i_36_++)
 						anIntArrayArray2161[i_34_][i_36_] = class536_sub33.readUnsignedShort();
 				}
@@ -337,7 +337,7 @@ public class Class191 implements Interface13 {
 				}
 				for (int i_43_ = 0; i_43_ < i_41_; i_43_++) {
 					boolean bool = class536_sub33.readUnsignedByte() == 1;
-					int i_44_ = class536_sub33.read24BitUnsignedInteger(564445731);
+					int i_44_ = class536_sub33.read24BitUnsignedInteger();
 					Class536 class536;
 					if (bool)
 						class536 = new Class536_Sub13(class536_sub33.readString());

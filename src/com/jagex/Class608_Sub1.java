@@ -31,15 +31,15 @@ public class Class608_Sub1 extends Class608 implements Interface6 {
 		}
 	}
 
-	public Interface13 method55(int i, Interface12 interface12, int i_2_) {
+	public DefinitionI method55(int i, Interface12 interface12, int i_2_) {
 		return new Class612(i, this, interface12);
 	}
 
-	public Interface13 method53(int i, Interface12 interface12) {
+	public DefinitionI method53(int i, Interface12 interface12) {
 		return new Class612(i, this, interface12);
 	}
 
-	public Interface13 method54(int i, Interface12 interface12) {
+	public DefinitionI method54(int i, Interface12 interface12) {
 		return new Class612(i, this, interface12);
 	}
 

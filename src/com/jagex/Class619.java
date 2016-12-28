@@ -112,7 +112,7 @@ public class Class619 {
 		}
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11242 = true;
-		Class612.aShortArray7932 = Class296.aShortArray3267 = Class1.aShortArray14 = new short[256];
+		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
 		Class689.aString8692 = Class38.aClass38_310.method840(Class459.aClass664_5178, 1525670882);
 		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10761), Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(2040015227), (byte) 1);
 		client.anInt11063 = 0;

@@ -64,7 +64,7 @@ public class Class390 {
 			class251.anInt2711 = i_4_ * -180322533;
 			class251.anInt2712 = -1232317485 * i_5_;
 			class251.aBool2671 = bool;
-			Class1 class1 = ((Class1) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
+			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
 			class251.anInt2551 = -1128581953 * class1.anInt54;
 			class251.anInt2547 = -1144059129 * class1.anInt30;
 			class251.anInt2609 = 497715903 * class1.anInt31;

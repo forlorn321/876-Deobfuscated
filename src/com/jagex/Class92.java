@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class92 implements Interface13, Interface7 {
+public class Class92 implements DefinitionI, Interface7 {
 	public Class453[][] aClass453ArrayArray885;
 	public Object[][] anObjectArrayArray886;
 

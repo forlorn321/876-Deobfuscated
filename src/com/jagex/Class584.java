@@ -95,7 +95,7 @@ public abstract class Class584 {
 
 	static final void method7044(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class1 class1 = (Class1) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) 2);
+		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) 2);
 		if (-1 == class1.anInt63 * 79208069 && class1.anInt29 * 1990739153 >= 0)
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1990739153 * class1.anInt29;
 		else

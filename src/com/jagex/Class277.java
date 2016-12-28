@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class277 implements Interface13 {
+public class Class277 implements DefinitionI {
 	public String[] aStringArray3026;
 	public String aString3027;
 	public String aString3028;
@@ -123,7 +123,7 @@ public class Class277 implements Interface13 {
 			}
 			for (int i_18_ = 0; i_18_ < i_16_; i_18_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_19_ = class536_sub33.read24BitUnsignedInteger(1584122615);
+				int i_19_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());
@@ -355,7 +355,7 @@ public class Class277 implements Interface13 {
 			}
 			for (int i_55_ = 0; i_55_ < i_53_; i_55_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_56_ = class536_sub33.read24BitUnsignedInteger(666594760);
+				int i_56_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());
@@ -452,7 +452,7 @@ public class Class277 implements Interface13 {
 			}
 			for (int i_73_ = 0; i_73_ < i_71_; i_73_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_74_ = class536_sub33.read24BitUnsignedInteger(902873776);
+				int i_74_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());

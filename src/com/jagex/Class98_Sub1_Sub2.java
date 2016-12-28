@@ -19,7 +19,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 		return class153_sub2;
 	}
 
-	public Interface13 method70(int i, byte i_1_) {
+	public DefinitionI method70(int i, byte i_1_) {
 		Class153_Sub2 class153_sub2;
 		synchronized (aClass199_11333) {
 			class153_sub2 = (Class153_Sub2) aClass199_11333.method2886((long) i);
@@ -118,7 +118,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 		return new Class620(this);
 	}
 
-	public Interface13 method72(int i) {
+	public DefinitionI method72(int i) {
 		Class153_Sub2 class153_sub2;
 		synchronized (aClass199_11333) {
 			class153_sub2 = (Class153_Sub2) aClass199_11333.method2886((long) i);

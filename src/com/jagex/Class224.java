@@ -27,7 +27,7 @@ public class Class224 {
 		class668.anInt8542 -= 1472892954;
 		int i_1_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_2_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
-		Class1 class1 = (Class1) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) -21);
+		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) -21);
 		if (i_2_ >= 1 && i_2_ <= 5 && null != class1.aStringArray38[i_2_ - 1])
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class1.aStringArray38[i_2_ - 1];
 		else

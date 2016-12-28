@@ -80,9 +80,9 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		return class430;
 	}
 
-	public abstract Interface13 method70(int i, byte i_3_);
+	public abstract DefinitionI method70(int i, byte i_3_);
 
-	public abstract Interface13 method72(int i);
+	public abstract DefinitionI method72(int i);
 
 	public int method12() {
 		return anInt1180 * 1628850519;

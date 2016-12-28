@@ -6,7 +6,7 @@ package com.jagex;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class Class589 implements Interface7, Interface13 {
+public class Class589 implements Interface7, DefinitionI {
 	public int anInt7741;
 	public int[] anIntArray7742;
 	public int[] anIntArray7743;

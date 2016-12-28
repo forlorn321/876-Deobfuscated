@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class587 implements Interface13 {
+public class Class587 implements DefinitionI {
 	public int anInt7711;
 	Class584 aClass584_7712;
 	public static final int anInt7713 = -1;
@@ -47,7 +47,7 @@ public class Class587 implements Interface13 {
 		if (i == 1)
 			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
-			anInt7711 = class536_sub33.read24BitUnsignedInteger(1629502606) * 1123951115;
+			anInt7711 = class536_sub33.read24BitUnsignedInteger() * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
 			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
@@ -236,7 +236,7 @@ public class Class587 implements Interface13 {
 		if (i == 1)
 			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
-			anInt7711 = class536_sub33.read24BitUnsignedInteger(1809588909) * 1123951115;
+			anInt7711 = class536_sub33.read24BitUnsignedInteger() * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
 			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
@@ -351,7 +351,7 @@ public class Class587 implements Interface13 {
 		if (i == 1)
 			anInt7719 = class536_sub33.readBigSmart() * 224880251;
 		else if (i == 2) {
-			anInt7711 = class536_sub33.read24BitUnsignedInteger(571320232) * 1123951115;
+			anInt7711 = class536_sub33.read24BitUnsignedInteger() * 1123951115;
 			aBool7718 = true;
 		} else if (i == 3)
 			anInt7722 = class536_sub33.readBigSmart() * 1834581293;
