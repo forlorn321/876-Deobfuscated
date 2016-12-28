@@ -9,7 +9,7 @@ import java.awt.Graphics;
 import java.util.Arrays;
 
 public class ItemDefinitions implements DefinitionI {
-	static String aString9;
+	static String colorPostfix;
 	int femaleEquip1;
 	public static short[] aShortArray14 = new short[256];
 	Interface12 anInterface12_15;
@@ -431,7 +431,7 @@ public class ItemDefinitions implements DefinitionI {
 	}
 
 	static {
-		aString9 = "</col>";
+		colorPostfix = "</col>";
 	}
 
 	public String method512(int i, String string, int i_75_) {
