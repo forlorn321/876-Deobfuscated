@@ -135,7 +135,7 @@ public class Class281 {
 
 	static final void method3763(Class668 class668, int i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class668.aClass536_Sub15_8553.aClass349Array10479[i_21_].anInt3697) * -2028086957;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class668.aClass536_Sub15_8553.members[i_21_].worldId) * -2028086957;
 	}
 
 	public static char method3764(byte i, int i_22_) {

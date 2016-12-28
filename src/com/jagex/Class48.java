@@ -32,6 +32,6 @@ final class Class48 implements Interface64 {
 
 	static final void method916(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.aStringArray3703[i_0_];
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.stringMembers[i_0_];
 	}
 }

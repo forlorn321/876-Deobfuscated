@@ -65,7 +65,7 @@ public class Class26 {
 					return 0L;
 			}
 			class536_sub33.off = 0;
-			long l_0_ = class536_sub33.readLong(702869087);
+			long l_0_ = class536_sub33.readLong();
 			l = l_0_;
 		} catch (Exception exception) {
 			return 0L;
@@ -96,7 +96,7 @@ public class Class26 {
 					return 0L;
 			}
 			class536_sub33.off = 0;
-			long l_1_ = class536_sub33.readLong(702869087);
+			long l_1_ = class536_sub33.readLong();
 			l = l_1_;
 		} catch (Exception exception) {
 			return 0L;
@@ -180,7 +180,7 @@ public class Class26 {
 				for (int i_17_ = 0; i_17_ < strings.length; i_17_++) {
 					int i_18_ = 8 + i_17_ * i_16_;
 					class167.method2369(i_18_, 0, i_16_ + i_18_ - 8, 350);
-					Class536_Sub15.aClass184_10488.renderItemAmountIThink(Class580.method7015(strings[i_17_], 2117647683), i_18_, (350 - 1213913633 * Class105.anInt1237 - 2 - Class223.aClass2_2338.anInt92 * 1780869003 - ((i_15_ - 817280251 * Class105.anInt1240) * (Class105.anInt1238 * 1496715277))), -1, -16777216, (byte) -94);
+					Clan.aClass184_10488.renderItemAmountIThink(Class580.method7015(strings[i_17_], 2117647683), i_18_, (350 - 1213913633 * Class105.anInt1237 - 2 - Class223.aClass2_2338.anInt92 * 1780869003 - ((i_15_ - 817280251 * Class105.anInt1240) * (Class105.anInt1238 * 1496715277))), -1, -16777216, (byte) -94);
 				}
 			}
 		}

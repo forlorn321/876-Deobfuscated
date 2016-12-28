@@ -23,7 +23,7 @@ public class Class344 {
 	static final int anInt3681 = 14;
 
 	void method4478(RSByteBuffer class536_sub33) {
-		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong() * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
@@ -63,7 +63,7 @@ public class Class344 {
 	}
 
 	void method4479(RSByteBuffer class536_sub33, byte i) {
-		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong() * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i_0_ = class536_sub33.readUnsignedByte(); i_0_ != 0; i_0_ = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;
@@ -103,15 +103,15 @@ public class Class344 {
 	}
 
 	public void method4480(ClanSettings class350, byte i) {
-		if ((7284136569447624827L * aLong3666 != 2661818979595036235L * class350.aLong3701) || anInt3672 * -289909045 != class350.anInt3702 * 1667474273)
+		if ((7284136569447624827L * aLong3666 != 2661818979595036235L * class350.aLong3701) || anInt3672 * -289909045 != class350.updateNumber * 1667474273)
 			throw new RuntimeException("");
 		for (Class536_Sub22 class536_sub22 = (Class536_Sub22) aClass708_3667.method8308(1867269829); null != class536_sub22; class536_sub22 = (Class536_Sub22) aClass708_3667.method8311(1594461910))
 			class536_sub22.method9581(class350, -1411037171);
-		class350.anInt3702 += -2076295007;
+		class350.updateNumber += -2076295007;
 	}
 
 	void method4481(RSByteBuffer class536_sub33) {
-		aLong3666 = class536_sub33.readLong(702869087) * 6202303521460629171L;
+		aLong3666 = class536_sub33.readLong() * 6202303521460629171L;
 		anInt3672 = class536_sub33.readInt() * 1442176739;
 		for (int i = class536_sub33.readUnsignedByte(); i != 0; i = class536_sub33.readUnsignedByte()) {
 			Class536_Sub22 class536_sub22;

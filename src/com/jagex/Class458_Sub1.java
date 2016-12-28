@@ -39,7 +39,7 @@ final class Class458_Sub1 extends Class458 {
 		int i_3_;
 		try {
 			Dimension dimension = Class399.aCanvas4127.getSize();
-			Class306.method4120(Class38.aClass38_403.method840(Class459.aClass664_5178, 1910101812), true, Class677.aClass167_8609, Class536_Sub15.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+			Class306.method4120(Class38.aClass38_403.method840(Class459.aClass664_5178, 1910101812), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			Class180 class180 = Class180.method2708(Class602.aClass461_7857, (183673691 * Class644.aClass628_8352.anInt8197), 0);
 			long l = Class249.method3450(1357261973);
 			Class677.aClass167_8609.method2051();

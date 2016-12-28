@@ -24,7 +24,7 @@ public class Class668 {
 	int[] anIntArray8550;
 	Class382 aClass382_8551;
 	int anInt8552;
-	Class536_Sub15 aClass536_Sub15_8553;
+	Clan aClass536_Sub15_8553;
 	Class649_Sub1_Sub5_Sub1 aClass649_Sub1_Sub5_Sub1_8554;
 	Interface59 anInterface59_8555;
 	Class649_Sub1_Sub1_Sub1 aClass649_Sub1_Sub1_Sub1_8556;

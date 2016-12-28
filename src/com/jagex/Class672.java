@@ -47,13 +47,13 @@ public class Class672 {
 
 	public static final void method8025(int i, boolean bool, byte i_8_) {
 		if (null != Class646.aClass536_Sub15_8361 && (i >= 0 && i < (Class646.aClass536_Sub15_8361.anInt10482 * 1494047173))) {
-			Class349 class349 = Class646.aClass536_Sub15_8361.aClass349Array10479[i];
+			ClanMember class349 = Class646.aClass536_Sub15_8361.members[i];
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4522, class106.aClass15_1258, 889229786);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(class349.aString3695, 1665491456));
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(class349.username, 1665491456));
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i, -1778059594);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695);
+			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.username);
 			class106.method1409(class536_sub23, 877143203);
 		}
 	}

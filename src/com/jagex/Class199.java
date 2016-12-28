@@ -305,7 +305,7 @@ public final class Class199 {
 	public static void method2908(Class167 class167, int i) {
 		Class18.aClass184_190 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (-219992997 * Class35.anInt295), true, true, (byte) 1));
 		Class556.aClass2_7510 = Class196.aClass410_2202.method4981(client.anInterface51_11196, -219992997 * Class35.anInt295, 1446493303);
-		Class536_Sub15.aClass184_10488 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (1743452435 * Class35.anInt298), true, true, (byte) -78));
+		Clan.aClass184_10488 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (1743452435 * Class35.anInt298), true, true, (byte) -78));
 		Class223.aClass2_2338 = Class196.aClass410_2202.method4981(client.anInterface51_11196, Class35.anInt298 * 1743452435, 1528507160);
 		Class26.aClass184_248 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class35.anInt294 * 1622294095), true, true, (byte) -42));
 		Class260.aClass2_2840 = Class196.aClass410_2202.method4981(client.anInterface51_11196, 1622294095 * Class35.anInt294, -1803730983);

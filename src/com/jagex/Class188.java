@@ -127,6 +127,6 @@ public class Class188 {
 	}
 
 	static final void method2800(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass536_Sub15_8553.aByte10487;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass536_Sub15_8553.kickRank;
 	}
 }

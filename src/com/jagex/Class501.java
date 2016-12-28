@@ -59,7 +59,7 @@ public class Class501 {
 
 	static final void method6034(Class668 class668, int i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.aStringArray3722[i_6_];
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.stringBannedMembers[i_6_];
 	}
 
 	public static int method6035(int i, byte i_7_) {

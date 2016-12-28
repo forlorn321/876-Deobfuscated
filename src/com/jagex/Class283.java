@@ -183,8 +183,8 @@ public class Class283 implements Interface75 {
 						Class586.aClass106_7710.byteBuffer.off = -331126352;
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
-						Class61.aLong649 = (Class586.aClass106_7710.byteBuffer.readLong(702869087) * -4822916419102841261L);
-						Class61.aLong644 = (Class586.aClass106_7710.byteBuffer.readLong(702869087) * -6047393890855416081L);
+						Class61.aLong649 = (Class586.aClass106_7710.byteBuffer.readLong() * -4822916419102841261L);
+						Class61.aLong644 = (Class586.aClass106_7710.byteBuffer.readLong() * -6047393890855416081L);
 						Class61.loginStage = -1026539102;
 					}
 					if (82 == -129171495 * Class61.loginStage) {
@@ -546,7 +546,7 @@ public class Class283 implements Interface75 {
 								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte12197 = (byte) stream.readUnsignedByte();
 								client.aBool11163 = stream.readUnsignedByte() == 1;
 								client.aBool11303 = stream.readUnsignedByte() == 1;
-								Class471.aLong5361 = (stream.readLong(702869087) * -3451902742676028657L);
+								Class471.aLong5361 = (stream.readLong() * -3451902742676028657L);
 								Class292.aLong3244 = (((-1435655525908132881L * Class471.aLong5361) - Class249.method3450(2028488713) - stream.read5ByteInteger(-1975364973)) * 8806393363580464715L);
 								int i_17_ = stream.readUnsignedByte();
 								client.aBool11290 = 0 != (i_17_ & 0x1);

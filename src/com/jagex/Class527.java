@@ -200,6 +200,6 @@ public class Class527 implements Interface19 {
 
 	static final void method6433(Class668 class668, short i) {
 		int i_23_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class668.aClass536_Sub15_8553.aClass349Array10479[i_23_].aByte3696);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (class668.aClass536_Sub15_8553.members[i_23_].rank);
 	}
 }

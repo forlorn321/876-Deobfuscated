@@ -10,7 +10,7 @@ public class Class305 {
 
 	static final void method4107(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class668.aClass536_Sub15_8553.aClass349Array10479[i_0_].aString3695);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class668.aClass536_Sub15_8553.members[i_0_].username);
 	}
 
 	static final void method4108(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i) {

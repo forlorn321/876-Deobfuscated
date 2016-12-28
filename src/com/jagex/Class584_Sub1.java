@@ -31,6 +31,6 @@ public class Class584_Sub1 extends Class584 implements Interface6 {
 	}
 
 	static final void method9623(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass536_Sub15_8553.aByte10486;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class668.aClass536_Sub15_8553.talkRank;
 	}
 }

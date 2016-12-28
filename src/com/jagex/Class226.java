@@ -207,11 +207,11 @@ public class Class226 {
 			aBool2353 = 0 != (i_14_ & 0x2);
 			aBool2341 = 0 != (i_14_ & 0x4);
 			anInt2356 = class536_sub33.readInt() * -1006532289;
-			aLong2346 = class536_sub33.readLong(702869087) * 5009906337283657983L;
+			aLong2346 = class536_sub33.readLong() * 5009906337283657983L;
 			aString2355 = class536_sub33.readString();
 			anInt2354 = class536_sub33.readShort() * 1044707155;
 			class536_sub33.readInt();
-			class536_sub33.readLong(702869087);
+			class536_sub33.readLong();
 			int i_15_ = class536_sub33.readUnsignedShort();
 			anArrayList2351 = new ArrayList(i_15_);
 			for (int i_16_ = 0; i_16_ < i_15_; i_16_++)

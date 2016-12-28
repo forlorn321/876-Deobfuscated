@@ -55,7 +55,7 @@ public class Class198 {
 			break;
 		case 4:
 		case 5:
-			class251.aString2699 = (class668.aClass536_Sub15_8553.aClass349Array10479[i_0_].aString3695);
+			class251.aString2699 = (class668.aClass536_Sub15_8553.members[i_0_].username);
 			break;
 		case 2:
 			if (2 == client.anInt11289 * -1484801557 && i_0_ < client.anInt11288 * 142551095)

@@ -72,13 +72,13 @@ public class Class214 implements Interface27 {
 
 	public static final void method3080(int i, int i_6_) {
 		if (Class646.aClass536_Sub15_8361 != null && (i >= 0 && i < (1494047173 * Class646.aClass536_Sub15_8361.anInt10482))) {
-			Class349 class349 = Class646.aClass536_Sub15_8361.aClass349Array10479[i];
-			if (class349.aByte3696 == -1) {
+			ClanMember class349 = Class646.aClass536_Sub15_8361.members[i];
+			if (class349.rank == -1) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4497, class106.aClass15_1258, 1478623793);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(2 + Class555.method6802(class349.aString3695, 1359327571));
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(2 + Class555.method6802(class349.username, 1359327571));
 				class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i, -1778059594);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.aString3695);
+				class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.username);
 				class106.method1409(class536_sub23, -100796677);
 			}
 		}

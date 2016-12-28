@@ -488,6 +488,6 @@ public class Class39 implements DefinitionI, Interface7 {
 		int i_32_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_32_);
 		Class234 class234 = Class463.aClass234Array5227[i_32_ >> 16];
-		Class349.method4593(class251, class234, class668, 906910120);
+		ClanMember.method4593(class251, class234, class668, 906910120);
 	}
 }

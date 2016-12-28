@@ -30,7 +30,7 @@ class Class476 implements Interface58 {
 	}
 
 	static final void method5748(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 984431303 * class668.aClass350_8563.anInt3719;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 984431303 * class668.aClass350_8563.bannedSize;
 	}
 
 	static final void method5749(Class668 class668, int i) {

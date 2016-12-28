@@ -141,7 +141,7 @@ public class Class222 {
 
 	Class222(RSByteBuffer class536_sub33, boolean bool, boolean bool_6_, Interface28 interface28) {
 		if (bool)
-			aLong2313 = class536_sub33.readLong(702869087) * 589872936712312469L;
+			aLong2313 = class536_sub33.readLong() * 589872936712312469L;
 		else
 			aLong2313 = -589872936712312469L;
 		if (bool_6_)

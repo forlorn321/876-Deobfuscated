@@ -163,7 +163,7 @@ public class Class34 implements Interface12 {
 	}
 
 	static final void method816(Class668 class668, short i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass536_Sub15_8553.aString10485;
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass536_Sub15_8553.name;
 	}
 
 	public static final void method817(int i) {

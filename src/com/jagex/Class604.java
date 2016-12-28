@@ -60,7 +60,7 @@ public class Class604 implements Interface75 {
 					return 0L;
 			}
 			class536_sub33.off = 0;
-			long l_3_ = class536_sub33.readLong(702869087);
+			long l_3_ = class536_sub33.readLong();
 			l = l_3_;
 		} catch (Exception exception) {
 			return 0L;

@@ -104,14 +104,14 @@ public final class Class471 implements Comparable {
 			if (client.aBool11314) {
 				int i_13_ = i + i_3_ - 5;
 				int i_14_ = i_4_ + i_2_ - 8;
-				Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Fps: ").append(GameShell.anInt6856 * -311312947).append(" (").append(GameShell.anInt6884 * 93998629).append(" ms)").toString(), i_13_, i_14_, 16776960, -1, -256630460);
+				Clan.aClass184_10488.method2741(new StringBuilder().append("Fps: ").append(GameShell.anInt6856 * -311312947).append(" (").append(GameShell.anInt6884 * 93998629).append(" ms)").toString(), i_13_, i_14_, 16776960, -1, -256630460);
 				i_14_ -= 15;
 				Runtime runtime = Runtime.getRuntime();
 				int i_15_ = (int) ((runtime.totalMemory() - runtime.freeMemory()) / 1024L);
 				int i_16_ = 16776960;
 				if (i_15_ > 65536)
 					i_16_ = 16711680;
-				Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Mem:").append(i_15_).append("k").toString(), i_13_, i_14_, i_16_, -1, 727570684);
+				Clan.aClass184_10488.method2741(new StringBuilder().append("Mem:").append(i_15_).append("k").toString(), i_13_, i_14_, i_16_, -1, 727570684);
 				i_14_ -= 15;
 			}
 			Class542_Sub1.aClass199_7166.method2883(5, -1951545000);

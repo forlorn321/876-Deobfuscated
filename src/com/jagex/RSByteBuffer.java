@@ -209,7 +209,7 @@ public class RSByteBuffer extends Class536 {
 		return (l << 32) + l_23_;
 	}
 
-	public long readLong(int i) {
+	public long readLong() {
 		long l = (long) readInt() & 0xffffffffL;
 		long l_24_ = (long) readInt() & 0xffffffffL;
 		return l_24_ + (l << 32);

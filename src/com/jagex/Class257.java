@@ -53,7 +53,7 @@ public class Class257 implements Interface27 {
 			int i_5_ = -256;
 			if (-311312947 * client.anInt6856 < 20)
 				i_5_ = -65536;
-			Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Fps:").append(-311312947 * client.anInt6856).append(" (").append(93998629 * client.anInt6884).append(" ms)").toString(), i_3_, i_4_, i_5_, -1, -636852084);
+			Clan.aClass184_10488.method2741(new StringBuilder().append("Fps:").append(-311312947 * client.anInt6856).append(" (").append(93998629 * client.anInt6884).append(" ms)").toString(), i_3_, i_4_, i_5_, -1, -636852084);
 			i_4_ += 15;
 			Runtime runtime = Runtime.getRuntime();
 			long l = runtime.totalMemory() / 1024L;
@@ -61,7 +61,7 @@ public class Class257 implements Interface27 {
 			int i_7_ = -256;
 			if (l_6_ > 262144L)
 				i_7_ = -65536;
-			Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Mem:").append(l_6_).append("/").append(l).append("k").toString(), i_3_, i_4_, i_7_, -1, -1990281439);
+			Clan.aClass184_10488.method2741(new StringBuilder().append("Mem:").append(l_6_).append("/").append(l).append("k").toString(), i_3_, i_4_, i_7_, -1, -1990281439);
 			i_4_ += 15;
 			long l_8_ = client.aClass106_11322.aClass27_1272.method747(1074553518);
 			String string = "N/A";
@@ -70,7 +70,7 @@ public class Class257 implements Interface27 {
 				if (l_8_ > 500L)
 					string = new StringBuilder().append(Class264.method3680(16711680, -1761422499)).append(string).append(Class264.method3680(16776960, -1222731397)).toString();
 			}
-			Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Game: In:").append(client.aClass106_11322.anInt1269 * -1625480315).append("B/s ").append("Out:").append(-482436795 * client.aClass106_11322.anInt1273).append("B/s ").append("Ping:").append(string).toString(), i_3_, i_4_, -256, -1, -153055796);
+			Clan.aClass184_10488.method2741(new StringBuilder().append("Game: In:").append(client.aClass106_11322.anInt1269 * -1625480315).append("B/s ").append("Out:").append(-482436795 * client.aClass106_11322.anInt1273).append("B/s ").append("Ping:").append(string).toString(), i_3_, i_4_, -256, -1, -153055796);
 			i_4_ += 15;
 			long l_9_ = client.aClass106_11218.aClass27_1272.method747(1074553518);
 			String string_10_ = "N/A";
@@ -79,10 +79,10 @@ public class Class257 implements Interface27 {
 				if (l_9_ > 500L)
 					string_10_ = new StringBuilder().append(Class264.method3680(16711680, -1691763648)).append(string_10_).append(Class264.method3680(16776960, -1761297398)).toString();
 			}
-			Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Lobby: In:").append(-1625480315 * client.aClass106_11218.anInt1269).append("B/s ").append("Out:").append(-482436795 * client.aClass106_11218.anInt1273).append("B/s ").append("Ping:").append(string_10_).toString(), i_3_, i_4_, -256, -1, -503508468);
+			Clan.aClass184_10488.method2741(new StringBuilder().append("Lobby: In:").append(-1625480315 * client.aClass106_11218.anInt1269).append("B/s ").append("Out:").append(-482436795 * client.aClass106_11218.anInt1273).append("B/s ").append("Ping:").append(string_10_).toString(), i_3_, i_4_, -256, -1, -503508468);
 			i_4_ += 15;
 			int i_11_ = Class677.aClass167_8609.method2008() / 1024;
-			Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Offheap:").append(i_11_).append("k").toString(), i_3_, i_4_, i_11_ > 65536 ? -65536 : -256, -1, -360173563);
+			Clan.aClass184_10488.method2741(new StringBuilder().append("Offheap:").append(i_11_).append("k").toString(), i_3_, i_4_, i_11_ > 65536 ? -65536 : -256, -1, -360173563);
 			i_4_ += 15;
 			int i_12_ = 0;
 			int i_13_ = 0;

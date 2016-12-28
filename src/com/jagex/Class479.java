@@ -559,7 +559,7 @@ public class Class479 {
 	}
 
 	static final void method5824(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1097649699 * class668.aClass350_8563.anInt3710;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1097649699 * class668.aClass350_8563.memberSize;
 	}
 
 	static final void method5825(Class668 class668, byte i) {

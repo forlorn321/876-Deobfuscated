@@ -403,7 +403,7 @@ public class JS5ConfigGroup {
 					client.aBool11012 = false;
 				if (client.aBool11012) {
 					Class677.aClass167_8609.method2057(i, i_17_, i_18_, i_19_, -16777216, (short) -6740);
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1895792731), false, Class677.aClass167_8609, Class536_Sub15.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1895792731), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				}
 				Class317.method4228(client.aClass443_11198, false, (float) (i_18_ / 2 + i), (float) (i_19_ / 2 + i_17_), (float) (client.anInt11287 * 455927939 << 1), (float) (455927939 * client.anInt11287 << 1), i_18_, i_19_, 1599693767);
 				Class677.aClass167_8609.method2390(client.aClass443_11198);

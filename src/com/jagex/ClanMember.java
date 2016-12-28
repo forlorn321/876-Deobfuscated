@@ -3,12 +3,12 @@
  */
 package com.jagex;
 
-public class Class349 {
-	public String aString3695;
-	public byte aByte3696;
-	public int anInt3697;
+public class ClanMember {
+	public String username;
+	public byte rank;
+	public int worldId;
 
-	Class349() {
+	ClanMember() {
 		/* empty */
 	}
 

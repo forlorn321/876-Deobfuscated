@@ -441,7 +441,7 @@ public abstract class GameShell implements Interface62, Runnable, FocusListener,
 				/* empty */
 			}
 		}
-		if (Class536_Sub24.method9591(1357904623))
+		if (ChangeClanSettings.method9591(1357904623))
 			Class114.method1481((byte) 33).method209(-1448067218);
 		if (Class399.aCanvas4127 != null) {
 			try {

@@ -210,7 +210,7 @@ public class Class593 {
 			Class273.method3727(class668, -1084174005);
 			break;
 		case 123:
-			Class349.method4592(class668, -408477009);
+			ClanMember.method4592(class668, -408477009);
 			break;
 		case 812:
 			Class694.method8208(class668, (byte) 10);
@@ -2535,7 +2535,7 @@ public class Class593 {
 			Class582.method7024(class668, 1277571877);
 			break;
 		case 877:
-			Class536_Sub24_Sub4.method10697(class668, 748170653);
+			RemoveMemberSetting.method10697(class668, 748170653);
 			break;
 		case 1050:
 			Class468.method5697(class668, 1312049811);
@@ -2753,7 +2753,7 @@ public class Class593 {
 			Class497.method6014(class668, (short) 8192);
 			break;
 		case 841:
-			Class536_Sub24_Sub5.method10698(class668, 1303236673);
+			ChangesMajorSettings.method10698(class668, 1303236673);
 			break;
 		case 51:
 			Class226.method3279(class668, (byte) 108);

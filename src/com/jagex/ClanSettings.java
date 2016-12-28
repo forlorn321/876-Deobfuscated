@@ -5,19 +5,19 @@ package com.jagex;
 
 public class ClanSettings {
 	public byte aByte3698;
-	boolean aBool3699;
-	boolean aBool3700;
+	boolean longUsername;
+	boolean stringUsername;
 	long aLong3701;
-	int anInt3702 = 0;
-	public String[] aStringArray3703;
+	int updateNumber = 0;
+	public String[] stringMembers;
 	public byte aByte3704;
 	int anInt3705;
 	public byte aByte3706;
-	public String aString3707 = null;
+	public String name = null;
 	public byte aByte3708;
 	static final byte aByte3709 = 0;
-	public int anInt3710;
-	long[] aLongArray3711;
+	public int memberSize;
+	long[] longMembers;
 	public byte[] aByteArray3712;
 	int[] anIntArray3713;
 	Class4 aClass4_3714;
@@ -25,10 +25,10 @@ public class ClanSettings {
 	public boolean[] aBoolArray3716;
 	public int anInt3717;
 	public int anInt3718;
-	public int anInt3719;
-	long[] aLongArray3720;
+	public int bannedSize;
+	long[] longBannedMembers;
 	public int[] anIntArray3721;
-	public String[] aStringArray3722;
+	public String[] stringBannedMembers;
 	static final int anInt3723 = 6;
 	public boolean aBool3724;
 	static final byte aByte3725 = 126;
@@ -37,91 +37,91 @@ public class ClanSettings {
 	static final byte aByte3728 = 127;
 
 	void method4594(int i) {
-		anInt3719 -= 772237047;
-		if (anInt3719 * 984431303 == 0) {
-			aLongArray3720 = null;
-			aStringArray3722 = null;
+		bannedSize -= 772237047;
+		if (bannedSize * 984431303 == 0) {
+			longBannedMembers = null;
+			stringBannedMembers = null;
 		} else {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, i + 1, aLongArray3720, i, 984431303 * anInt3719 - i);
-			if (aStringArray3722 != null)
-				System.arraycopy(aStringArray3722, i + 1, aStringArray3722, i, anInt3719 * 984431303 - i);
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, i + 1, longBannedMembers, i, 984431303 * bannedSize - i);
+			if (stringBannedMembers != null)
+				System.arraycopy(stringBannedMembers, i + 1, stringBannedMembers, i, bannedSize * 984431303 - i);
 		}
 	}
 
 	void method4595(int i, int i_0_) {
-		if (aBool3699) {
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, 0, aLongArray3711 = new long[i], 0, anInt3710 * -1097649699);
+		if (longUsername) {
+			if (null != longMembers)
+				System.arraycopy(longMembers, 0, longMembers = new long[i], 0, memberSize * -1097649699);
 			else
-				aLongArray3711 = new long[i];
+				longMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3703)
-				System.arraycopy(aStringArray3703, 0, aStringArray3703 = new String[i], 0, -1097649699 * anInt3710);
+		if (stringUsername) {
+			if (null != stringMembers)
+				System.arraycopy(stringMembers, 0, stringMembers = new String[i], 0, -1097649699 * memberSize);
 			else
-				aStringArray3703 = new String[i];
+				stringMembers = new String[i];
 		}
 		if (aByteArray3712 != null)
-			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, memberSize * -1097649699);
 		else
 			aByteArray3712 = new byte[i];
 		if (null != anIntArray3727)
-			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * anInt3710);
+			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * memberSize);
 		else
 			anIntArray3727 = new int[i];
 		if (null != anIntArray3721)
-			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, memberSize * -1097649699);
 		else
 			anIntArray3721 = new int[i];
 		if (null != aBoolArray3716)
-			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, memberSize * -1097649699);
 		else
 			aBoolArray3716 = new boolean[i];
 	}
 
 	void method4596(int i, int i_1_) {
-		if (aBool3699) {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, 0, aLongArray3720 = new long[i], 0, 984431303 * anInt3719);
+		if (longUsername) {
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, 0, longBannedMembers = new long[i], 0, 984431303 * bannedSize);
 			else
-				aLongArray3720 = new long[i];
+				longBannedMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3722)
-				System.arraycopy(aStringArray3722, 0, aStringArray3722 = new String[i], 0, 984431303 * anInt3719);
+		if (stringUsername) {
+			if (null != stringBannedMembers)
+				System.arraycopy(stringBannedMembers, 0, stringBannedMembers = new String[i], 0, 984431303 * bannedSize);
 			else
-				aStringArray3722 = new String[i];
+				stringBannedMembers = new String[i];
 		}
 	}
 
 	void method4597(int i) {
-		if (aBool3699) {
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, 0, aLongArray3711 = new long[i], 0, anInt3710 * -1097649699);
+		if (longUsername) {
+			if (null != longMembers)
+				System.arraycopy(longMembers, 0, longMembers = new long[i], 0, memberSize * -1097649699);
 			else
-				aLongArray3711 = new long[i];
+				longMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3703)
-				System.arraycopy(aStringArray3703, 0, aStringArray3703 = new String[i], 0, -1097649699 * anInt3710);
+		if (stringUsername) {
+			if (null != stringMembers)
+				System.arraycopy(stringMembers, 0, stringMembers = new String[i], 0, -1097649699 * memberSize);
 			else
-				aStringArray3703 = new String[i];
+				stringMembers = new String[i];
 		}
 		if (aByteArray3712 != null)
-			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, memberSize * -1097649699);
 		else
 			aByteArray3712 = new byte[i];
 		if (null != anIntArray3727)
-			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * anInt3710);
+			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * memberSize);
 		else
 			anIntArray3727 = new int[i];
 		if (null != anIntArray3721)
-			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, memberSize * -1097649699);
 		else
 			anIntArray3721 = new int[i];
 		if (null != aBoolArray3716)
-			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, memberSize * -1097649699);
 		else
 			aBoolArray3716 = new boolean[i];
 	}
@@ -160,10 +160,10 @@ public class ClanSettings {
 
 	public int[] method4602(int i) {
 		if (null == anIntArray3713) {
-			String[] strings = new String[-1097649699 * anInt3710];
-			anIntArray3713 = new int[-1097649699 * anInt3710];
-			for (int i_9_ = 0; i_9_ < -1097649699 * anInt3710; i_9_++) {
-				strings[i_9_] = aStringArray3703[i_9_];
+			String[] strings = new String[-1097649699 * memberSize];
+			anIntArray3713 = new int[-1097649699 * memberSize];
+			for (int i_9_ = 0; i_9_ < -1097649699 * memberSize; i_9_++) {
+				strings[i_9_] = stringMembers[i_9_];
 				if (null != strings[i_9_])
 					strings[i_9_] = strings[i_9_].toLowerCase();
 				anIntArray3713[i_9_] = i_9_;
@@ -174,13 +174,13 @@ public class ClanSettings {
 	}
 
 	void method4603(int i, byte i_10_) {
-		if (i < 0 || i >= -1097649699 * anInt3710)
+		if (i < 0 || i >= -1097649699 * memberSize)
 			throw new RuntimeException("");
-		anInt3710 -= 2010033781;
+		memberSize -= 2010033781;
 		anIntArray3713 = null;
-		if (anInt3710 * -1097649699 == 0) {
-			aLongArray3711 = null;
-			aStringArray3703 = null;
+		if (memberSize * -1097649699 == 0) {
+			longMembers = null;
+			stringMembers = null;
 			aByteArray3712 = null;
 			anIntArray3727 = null;
 			anIntArray3721 = null;
@@ -188,59 +188,59 @@ public class ClanSettings {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
-			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * anInt3710 - i);
-			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * anInt3710 - i);
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, i + 1, aLongArray3711, i, anInt3710 * -1097649699 - i);
-			if (aStringArray3703 != null)
-				System.arraycopy(aStringArray3703, i + 1, aStringArray3703, i, -1097649699 * anInt3710 - i);
+			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, memberSize * -1097649699 - i);
+			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * memberSize - i);
+			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, memberSize * -1097649699 - i);
+			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * memberSize - i);
+			if (null != longMembers)
+				System.arraycopy(longMembers, i + 1, longMembers, i, memberSize * -1097649699 - i);
+			if (stringMembers != null)
+				System.arraycopy(stringMembers, i + 1, stringMembers, i, -1097649699 * memberSize - i);
 			method4621(514637503);
 		}
 	}
 
 	void method4604(int i) {
-		if (aBool3699) {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, 0, aLongArray3720 = new long[i], 0, 984431303 * anInt3719);
+		if (longUsername) {
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, 0, longBannedMembers = new long[i], 0, 984431303 * bannedSize);
 			else
-				aLongArray3720 = new long[i];
+				longBannedMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3722)
-				System.arraycopy(aStringArray3722, 0, aStringArray3722 = new String[i], 0, 984431303 * anInt3719);
+		if (stringUsername) {
+			if (null != stringBannedMembers)
+				System.arraycopy(stringBannedMembers, 0, stringBannedMembers = new String[i], 0, 984431303 * bannedSize);
 			else
-				aStringArray3722 = new String[i];
+				stringBannedMembers = new String[i];
 		}
 	}
 
 	void method4605(long l, String string, byte i) {
 		if (string != null && string.length() == 0)
 			string = null;
-		if (aBool3699 != l > 0L)
+		if (longUsername != l > 0L)
 			throw new RuntimeException("");
-		if ((null != string) != aBool3700)
+		if ((null != string) != stringUsername)
 			throw new RuntimeException("");
-		if (l > 0L && (null == aLongArray3720 || anInt3719 * 984431303 >= aLongArray3720.length) || (string != null && (aStringArray3722 == null || anInt3719 * 984431303 >= aStringArray3722.length)))
-			method4596(anInt3719 * 984431303 + 5, 1472671728);
-		if (aLongArray3720 != null)
-			aLongArray3720[984431303 * anInt3719] = l;
-		if (aStringArray3722 != null)
-			aStringArray3722[984431303 * anInt3719] = string;
-		anInt3719 += 772237047;
+		if (l > 0L && (null == longBannedMembers || bannedSize * 984431303 >= longBannedMembers.length) || (string != null && (stringBannedMembers == null || bannedSize * 984431303 >= stringBannedMembers.length)))
+			method4596(bannedSize * 984431303 + 5, 1472671728);
+		if (longBannedMembers != null)
+			longBannedMembers[984431303 * bannedSize] = l;
+		if (stringBannedMembers != null)
+			stringBannedMembers[984431303 * bannedSize] = string;
+		bannedSize += 772237047;
 	}
 
 	void method4606(int i, byte i_11_) {
-		anInt3719 -= 772237047;
-		if (anInt3719 * 984431303 == 0) {
-			aLongArray3720 = null;
-			aStringArray3722 = null;
+		bannedSize -= 772237047;
+		if (bannedSize * 984431303 == 0) {
+			longBannedMembers = null;
+			stringBannedMembers = null;
 		} else {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, i + 1, aLongArray3720, i, 984431303 * anInt3719 - i);
-			if (aStringArray3722 != null)
-				System.arraycopy(aStringArray3722, i + 1, aStringArray3722, i, anInt3719 * 984431303 - i);
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, i + 1, longBannedMembers, i, 984431303 * bannedSize - i);
+			if (stringBannedMembers != null)
+				System.arraycopy(stringBannedMembers, i + 1, stringBannedMembers, i, bannedSize * 984431303 - i);
 		}
 	}
 
@@ -328,97 +328,97 @@ public class ClanSettings {
 		return true;
 	}
 
-	void method4613(RSByteBuffer class536_sub33, int i) {
-		int i_35_ = class536_sub33.readUnsignedByte();
-		if (i_35_ < 1 || i_35_ > 6)
-			throw new RuntimeException(new StringBuilder().append("").append(i_35_).toString());
-		int i_36_ = class536_sub33.readUnsignedByte();
-		if (0 != (i_36_ & 0x1))
-			aBool3699 = true;
-		if (0 != (i_36_ & 0x2))
-			aBool3700 = true;
-		if (!aBool3699) {
-			aLongArray3711 = null;
-			aLongArray3720 = null;
+	void method4613(RSByteBuffer buffer) {
+		int version = buffer.readUnsignedByte();
+		if (version < 1 || version > 6)
+			throw new RuntimeException(new StringBuilder().append("").append(version).toString());
+		int usernameFlag = buffer.readUnsignedByte();
+		if (0 != (usernameFlag & 0x1))
+			longUsername = true;
+		if (0 != (usernameFlag & 0x2))
+			stringUsername = true;
+		if (!longUsername) {
+			longMembers = null;
+			longBannedMembers = null;
 		}
-		if (!aBool3700) {
-			aStringArray3703 = null;
-			aStringArray3722 = null;
+		if (!stringUsername) {
+			stringMembers = null;
+			stringBannedMembers = null;
 		}
-		anInt3702 = class536_sub33.readInt() * -2076295007;
-		anInt3705 = class536_sub33.readInt() * 1731525133;
-		if (i_35_ <= 3 && 1101587653 * anInt3705 != 0)
+		updateNumber = buffer.readInt() * -2076295007;
+		anInt3705 = buffer.readInt() * 1731525133;
+		if (version <= 3 && 1101587653 * anInt3705 != 0)
 			anInt3705 += 114369824;
-		anInt3710 = class536_sub33.readUnsignedShort() * 2010033781;
-		anInt3719 = class536_sub33.readUnsignedByte() * 772237047;
-		aString3707 = class536_sub33.readString();
-		if (i_35_ >= 4)
-			class536_sub33.readInt();
-		aBool3724 = class536_sub33.readUnsignedByte() == 1;
-		aByte3706 = class536_sub33.readByte();
-		aByte3698 = class536_sub33.readByte();
-		aByte3708 = class536_sub33.readByte();
-		aByte3704 = class536_sub33.readByte();
-		if (-1097649699 * anInt3710 > 0) {
-			if (aBool3699 && (null == aLongArray3711 || aLongArray3711.length < anInt3710 * -1097649699))
-				aLongArray3711 = new long[-1097649699 * anInt3710];
-			if (aBool3700 && (null == aStringArray3703 || aStringArray3703.length < anInt3710 * -1097649699))
-				aStringArray3703 = new String[-1097649699 * anInt3710];
-			if (aByteArray3712 == null || aByteArray3712.length < anInt3710 * -1097649699)
-				aByteArray3712 = new byte[-1097649699 * anInt3710];
-			if (anIntArray3727 == null || anIntArray3727.length < anInt3710 * -1097649699)
-				anIntArray3727 = new int[anInt3710 * -1097649699];
-			if (null == anIntArray3721 || anIntArray3721.length < -1097649699 * anInt3710)
-				anIntArray3721 = new int[-1097649699 * anInt3710];
-			if (null == aBoolArray3716 || aBoolArray3716.length < -1097649699 * anInt3710)
-				aBoolArray3716 = new boolean[-1097649699 * anInt3710];
-			for (int i_37_ = 0; i_37_ < anInt3710 * -1097649699; i_37_++) {
-				if (aBool3699)
-					aLongArray3711[i_37_] = class536_sub33.readLong(702869087);
-				if (aBool3700)
-					aStringArray3703[i_37_] = class536_sub33.method9713(16509697);
-				aByteArray3712[i_37_] = class536_sub33.readByte();
-				if (i_35_ >= 2)
-					anIntArray3727[i_37_] = class536_sub33.readInt();
-				if (i_35_ >= 5)
-					anIntArray3721[i_37_] = class536_sub33.readUnsignedShort();
+		memberSize = buffer.readUnsignedShort() * 2010033781;
+		bannedSize = buffer.readUnsignedByte() * 772237047;
+		name = buffer.readString();
+		if (version >= 4)
+			buffer.readInt();
+		aBool3724 = buffer.readUnsignedByte() == 1;
+		aByte3706 = buffer.readByte();
+		aByte3698 = buffer.readByte();
+		aByte3708 = buffer.readByte();
+		aByte3704 = buffer.readByte();
+		if (-1097649699 * memberSize > 0) {
+			if (longUsername && (null == longMembers || longMembers.length < memberSize * -1097649699))
+				longMembers = new long[-1097649699 * memberSize];
+			if (stringUsername && (null == stringMembers || stringMembers.length < memberSize * -1097649699))
+				stringMembers = new String[-1097649699 * memberSize];
+			if (aByteArray3712 == null || aByteArray3712.length < memberSize * -1097649699)
+				aByteArray3712 = new byte[-1097649699 * memberSize];
+			if (anIntArray3727 == null || anIntArray3727.length < memberSize * -1097649699)
+				anIntArray3727 = new int[memberSize * -1097649699];
+			if (null == anIntArray3721 || anIntArray3721.length < -1097649699 * memberSize)
+				anIntArray3721 = new int[-1097649699 * memberSize];
+			if (null == aBoolArray3716 || aBoolArray3716.length < -1097649699 * memberSize)
+				aBoolArray3716 = new boolean[-1097649699 * memberSize];
+			for (int i_37_ = 0; i_37_ < memberSize * -1097649699; i_37_++) {
+				if (longUsername)
+					longMembers[i_37_] = buffer.readLong();
+				if (stringUsername)
+					stringMembers[i_37_] = buffer.method9713(16509697);
+				aByteArray3712[i_37_] = buffer.readByte();
+				if (version >= 2)
+					anIntArray3727[i_37_] = buffer.readInt();
+				if (version >= 5)
+					anIntArray3721[i_37_] = buffer.readUnsignedShort();
 				else
 					anIntArray3721[i_37_] = 0;
-				if (i_35_ >= 6)
-					aBoolArray3716[i_37_] = class536_sub33.readUnsignedByte() == 1;
+				if (version >= 6)
+					aBoolArray3716[i_37_] = buffer.readUnsignedByte() == 1;
 				else
 					aBoolArray3716[i_37_] = false;
 			}
 			method4621(-151470967);
 		}
-		if (984431303 * anInt3719 > 0) {
-			if (aBool3699 && (aLongArray3720 == null || aLongArray3720.length < 984431303 * anInt3719))
-				aLongArray3720 = new long[984431303 * anInt3719];
-			if (aBool3700 && (null == aStringArray3722 || aStringArray3722.length < 984431303 * anInt3719))
-				aStringArray3722 = new String[anInt3719 * 984431303];
-			for (int i_38_ = 0; i_38_ < 984431303 * anInt3719; i_38_++) {
-				if (aBool3699)
-					aLongArray3720[i_38_] = class536_sub33.readLong(702869087);
-				if (aBool3700)
-					aStringArray3722[i_38_] = class536_sub33.method9713(16509697);
+		if (984431303 * bannedSize > 0) {
+			if (longUsername && (longBannedMembers == null || longBannedMembers.length < 984431303 * bannedSize))
+				longBannedMembers = new long[984431303 * bannedSize];
+			if (stringUsername && (null == stringBannedMembers || stringBannedMembers.length < 984431303 * bannedSize))
+				stringBannedMembers = new String[bannedSize * 984431303];
+			for (int i_38_ = 0; i_38_ < 984431303 * bannedSize; i_38_++) {
+				if (longUsername)
+					longBannedMembers[i_38_] = buffer.readLong();
+				if (stringUsername)
+					stringBannedMembers[i_38_] = buffer.method9713(16509697);
 			}
 		}
-		if (i_35_ >= 3) {
-			int i_39_ = class536_sub33.readUnsignedShort();
+		if (version >= 3) {
+			int i_39_ = buffer.readUnsignedShort();
 			if (i_39_ > 0) {
 				aClass4_3714 = new Class4(i_39_ < 16 ? Class528.method6434(i_39_, -2071539782) : 16);
 				while (i_39_-- > 0) {
-					int i_40_ = class536_sub33.readInt();
+					int i_40_ = buffer.readInt();
 					int i_41_ = i_40_ & 0x3fffffff;
 					int i_42_ = i_40_ >>> 30;
 					if (0 == i_42_) {
-						int i_43_ = class536_sub33.readInt();
+						int i_43_ = buffer.readInt();
 						aClass4_3714.method560(new IntParam(i_43_), (long) i_41_);
 					} else if (i_42_ == 1) {
-						long l = class536_sub33.readLong(702869087);
+						long l = buffer.readLong();
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_41_);
 					} else if (2 == i_42_) {
-						String string = class536_sub33.readString();
+						String string = buffer.readString();
 						aClass4_3714.method560(new ObjectParam(string), (long) i_41_);
 					}
 				}
@@ -432,13 +432,13 @@ public class ClanSettings {
 	}
 
 	void method4615(int i) {
-		if (i < 0 || i >= -1097649699 * anInt3710)
+		if (i < 0 || i >= -1097649699 * memberSize)
 			throw new RuntimeException("");
-		anInt3710 -= 2010033781;
+		memberSize -= 2010033781;
 		anIntArray3713 = null;
-		if (anInt3710 * -1097649699 == 0) {
-			aLongArray3711 = null;
-			aStringArray3703 = null;
+		if (memberSize * -1097649699 == 0) {
+			longMembers = null;
+			stringMembers = null;
 			aByteArray3712 = null;
 			anIntArray3727 = null;
 			anIntArray3721 = null;
@@ -446,51 +446,51 @@ public class ClanSettings {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
-			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * anInt3710 - i);
-			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * anInt3710 - i);
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, i + 1, aLongArray3711, i, anInt3710 * -1097649699 - i);
-			if (aStringArray3703 != null)
-				System.arraycopy(aStringArray3703, i + 1, aStringArray3703, i, -1097649699 * anInt3710 - i);
+			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, memberSize * -1097649699 - i);
+			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * memberSize - i);
+			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, memberSize * -1097649699 - i);
+			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * memberSize - i);
+			if (null != longMembers)
+				System.arraycopy(longMembers, i + 1, longMembers, i, memberSize * -1097649699 - i);
+			if (stringMembers != null)
+				System.arraycopy(stringMembers, i + 1, stringMembers, i, -1097649699 * memberSize - i);
 			method4621(381103264);
 		}
 	}
 
 	void method4616(int i) {
-		if (aBool3699) {
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, 0, aLongArray3711 = new long[i], 0, anInt3710 * -1097649699);
+		if (longUsername) {
+			if (null != longMembers)
+				System.arraycopy(longMembers, 0, longMembers = new long[i], 0, memberSize * -1097649699);
 			else
-				aLongArray3711 = new long[i];
+				longMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3703)
-				System.arraycopy(aStringArray3703, 0, aStringArray3703 = new String[i], 0, -1097649699 * anInt3710);
+		if (stringUsername) {
+			if (null != stringMembers)
+				System.arraycopy(stringMembers, 0, stringMembers = new String[i], 0, -1097649699 * memberSize);
 			else
-				aStringArray3703 = new String[i];
+				stringMembers = new String[i];
 		}
 		if (aByteArray3712 != null)
-			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, memberSize * -1097649699);
 		else
 			aByteArray3712 = new byte[i];
 		if (null != anIntArray3727)
-			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * anInt3710);
+			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * memberSize);
 		else
 			anIntArray3727 = new int[i];
 		if (null != anIntArray3721)
-			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, memberSize * -1097649699);
 		else
 			anIntArray3721 = new int[i];
 		if (null != aBoolArray3716)
-			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, memberSize * -1097649699);
 		else
 			aBoolArray3716 = new boolean[i];
 	}
 
 	void method4617() {
-		if (-1097649699 * anInt3710 == 0) {
+		if (-1097649699 * memberSize == 0) {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
@@ -498,7 +498,7 @@ public class ClanSettings {
 			anInt3718 = 2003344807;
 			int i = 0;
 			byte i_47_ = aByteArray3712[0];
-			for (int i_48_ = 1; i_48_ < -1097649699 * anInt3710; i_48_++) {
+			for (int i_48_ = 1; i_48_ < -1097649699 * memberSize; i_48_++) {
 				if (aByteArray3712[i_48_] > i_47_) {
 					if (i_47_ == 125)
 						anInt3718 = -2003344807 * i;
@@ -514,17 +514,17 @@ public class ClanSettings {
 	}
 
 	void method4618(int i) {
-		if (aBool3699) {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, 0, aLongArray3720 = new long[i], 0, 984431303 * anInt3719);
+		if (longUsername) {
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, 0, longBannedMembers = new long[i], 0, 984431303 * bannedSize);
 			else
-				aLongArray3720 = new long[i];
+				longBannedMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3722)
-				System.arraycopy(aStringArray3722, 0, aStringArray3722 = new String[i], 0, 984431303 * anInt3719);
+		if (stringUsername) {
+			if (null != stringBannedMembers)
+				System.arraycopy(stringBannedMembers, 0, stringBannedMembers = new String[i], 0, 984431303 * bannedSize);
 			else
-				aStringArray3722 = new String[i];
+				stringBannedMembers = new String[i];
 		}
 	}
 
@@ -534,38 +534,38 @@ public class ClanSettings {
 	}
 
 	void method4620(int i) {
-		if (aBool3699) {
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, 0, aLongArray3711 = new long[i], 0, anInt3710 * -1097649699);
+		if (longUsername) {
+			if (null != longMembers)
+				System.arraycopy(longMembers, 0, longMembers = new long[i], 0, memberSize * -1097649699);
 			else
-				aLongArray3711 = new long[i];
+				longMembers = new long[i];
 		}
-		if (aBool3700) {
-			if (null != aStringArray3703)
-				System.arraycopy(aStringArray3703, 0, aStringArray3703 = new String[i], 0, -1097649699 * anInt3710);
+		if (stringUsername) {
+			if (null != stringMembers)
+				System.arraycopy(stringMembers, 0, stringMembers = new String[i], 0, -1097649699 * memberSize);
 			else
-				aStringArray3703 = new String[i];
+				stringMembers = new String[i];
 		}
 		if (aByteArray3712 != null)
-			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aByteArray3712, 0, aByteArray3712 = new byte[i], 0, memberSize * -1097649699);
 		else
 			aByteArray3712 = new byte[i];
 		if (null != anIntArray3727)
-			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * anInt3710);
+			System.arraycopy(anIntArray3727, 0, anIntArray3727 = new int[i], 0, -1097649699 * memberSize);
 		else
 			anIntArray3727 = new int[i];
 		if (null != anIntArray3721)
-			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(anIntArray3721, 0, anIntArray3721 = new int[i], 0, memberSize * -1097649699);
 		else
 			anIntArray3721 = new int[i];
 		if (null != aBoolArray3716)
-			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, anInt3710 * -1097649699);
+			System.arraycopy(aBoolArray3716, 0, aBoolArray3716 = new boolean[i], 0, memberSize * -1097649699);
 		else
 			aBoolArray3716 = new boolean[i];
 	}
 
 	void method4621(int i) {
-		if (-1097649699 * anInt3710 == 0) {
+		if (-1097649699 * memberSize == 0) {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
@@ -573,7 +573,7 @@ public class ClanSettings {
 			anInt3718 = 2003344807;
 			int i_52_ = 0;
 			byte i_53_ = aByteArray3712[0];
-			for (int i_54_ = 1; i_54_ < -1097649699 * anInt3710; i_54_++) {
+			for (int i_54_ = 1; i_54_ < -1097649699 * memberSize; i_54_++) {
 				if (aByteArray3712[i_54_] > i_53_) {
 					if (i_53_ == 125)
 						anInt3718 = -2003344807 * i_52_;
@@ -591,25 +591,25 @@ public class ClanSettings {
 	void method4622(long l, String string, int i, int i_55_) {
 		if (null != string && string.length() == 0)
 			string = null;
-		if (l > 0L != aBool3699)
+		if (l > 0L != longUsername)
 			throw new RuntimeException("");
-		if (aBool3700 != (null != string))
+		if (stringUsername != (null != string))
 			throw new RuntimeException("");
-		if (l > 0L && (null == aLongArray3711 || anInt3710 * -1097649699 >= aLongArray3711.length) || (string != null && (null == aStringArray3703 || anInt3710 * -1097649699 >= aStringArray3703.length)))
-			method4595(5 + anInt3710 * -1097649699, 1840357689);
-		if (aLongArray3711 != null)
-			aLongArray3711[anInt3710 * -1097649699] = l;
-		if (null != aStringArray3703)
-			aStringArray3703[-1097649699 * anInt3710] = string;
+		if (l > 0L && (null == longMembers || memberSize * -1097649699 >= longMembers.length) || (string != null && (null == stringMembers || memberSize * -1097649699 >= stringMembers.length)))
+			method4595(5 + memberSize * -1097649699, 1840357689);
+		if (longMembers != null)
+			longMembers[memberSize * -1097649699] = l;
+		if (null != stringMembers)
+			stringMembers[-1097649699 * memberSize] = string;
 		if (anInt3717 * 352877239 == -1) {
-			anInt3717 = anInt3710 * 1312650251;
-			aByteArray3712[-1097649699 * anInt3710] = (byte) 126;
+			anInt3717 = memberSize * 1312650251;
+			aByteArray3712[-1097649699 * memberSize] = (byte) 126;
 		} else
-			aByteArray3712[-1097649699 * anInt3710] = (byte) 0;
-		anIntArray3727[-1097649699 * anInt3710] = 0;
-		anIntArray3721[anInt3710 * -1097649699] = i;
-		aBoolArray3716[anInt3710 * -1097649699] = false;
-		anInt3710 += 2010033781;
+			aByteArray3712[-1097649699 * memberSize] = (byte) 0;
+		anIntArray3727[-1097649699 * memberSize] = 0;
+		anIntArray3721[memberSize * -1097649699] = i;
+		aBoolArray3716[memberSize * -1097649699] = false;
+		memberSize += 2010033781;
 		anIntArray3713 = null;
 	}
 
@@ -633,13 +633,13 @@ public class ClanSettings {
 	}
 
 	void method4624(int i) {
-		if (i < 0 || i >= -1097649699 * anInt3710)
+		if (i < 0 || i >= -1097649699 * memberSize)
 			throw new RuntimeException("");
-		anInt3710 -= 2010033781;
+		memberSize -= 2010033781;
 		anIntArray3713 = null;
-		if (anInt3710 * -1097649699 == 0) {
-			aLongArray3711 = null;
-			aStringArray3703 = null;
+		if (memberSize * -1097649699 == 0) {
+			longMembers = null;
+			stringMembers = null;
 			aByteArray3712 = null;
 			anIntArray3727 = null;
 			anIntArray3721 = null;
@@ -647,20 +647,20 @@ public class ClanSettings {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
-			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * anInt3710 - i);
-			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * anInt3710 - i);
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, i + 1, aLongArray3711, i, anInt3710 * -1097649699 - i);
-			if (aStringArray3703 != null)
-				System.arraycopy(aStringArray3703, i + 1, aStringArray3703, i, -1097649699 * anInt3710 - i);
+			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, memberSize * -1097649699 - i);
+			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * memberSize - i);
+			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, memberSize * -1097649699 - i);
+			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * memberSize - i);
+			if (null != longMembers)
+				System.arraycopy(longMembers, i + 1, longMembers, i, memberSize * -1097649699 - i);
+			if (stringMembers != null)
+				System.arraycopy(stringMembers, i + 1, stringMembers, i, -1097649699 * memberSize - i);
 			method4621(-2128091825);
 		}
 	}
 
 	void method4625() {
-		if (-1097649699 * anInt3710 == 0) {
+		if (-1097649699 * memberSize == 0) {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
@@ -668,7 +668,7 @@ public class ClanSettings {
 			anInt3718 = 2003344807;
 			int i = 0;
 			byte i_58_ = aByteArray3712[0];
-			for (int i_59_ = 1; i_59_ < -1097649699 * anInt3710; i_59_++) {
+			for (int i_59_ = 1; i_59_ < -1097649699 * memberSize; i_59_++) {
 				if (aByteArray3712[i_59_] > i_58_) {
 					if (i_58_ == 125)
 						anInt3718 = -2003344807 * i;
@@ -684,7 +684,7 @@ public class ClanSettings {
 	}
 
 	void method4626() {
-		if (-1097649699 * anInt3710 == 0) {
+		if (-1097649699 * memberSize == 0) {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
@@ -692,7 +692,7 @@ public class ClanSettings {
 			anInt3718 = 2003344807;
 			int i = 0;
 			byte i_60_ = aByteArray3712[0];
-			for (int i_61_ = 1; i_61_ < -1097649699 * anInt3710; i_61_++) {
+			for (int i_61_ = 1; i_61_ < -1097649699 * memberSize; i_61_++) {
 				if (aByteArray3712[i_61_] > i_60_) {
 					if (i_60_ == 125)
 						anInt3718 = -2003344807 * i;
@@ -711,55 +711,55 @@ public class ClanSettings {
 		anInt3705 = 0;
 		anInt3717 = -80708359;
 		anInt3718 = 2003344807;
-		method4613(class536_sub33, -992123471);
+		method4613(class536_sub33);
 	}
 
 	void method4627(int i) {
-		anInt3719 -= 772237047;
-		if (anInt3719 * 984431303 == 0) {
-			aLongArray3720 = null;
-			aStringArray3722 = null;
+		bannedSize -= 772237047;
+		if (bannedSize * 984431303 == 0) {
+			longBannedMembers = null;
+			stringBannedMembers = null;
 		} else {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, i + 1, aLongArray3720, i, 984431303 * anInt3719 - i);
-			if (aStringArray3722 != null)
-				System.arraycopy(aStringArray3722, i + 1, aStringArray3722, i, anInt3719 * 984431303 - i);
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, i + 1, longBannedMembers, i, 984431303 * bannedSize - i);
+			if (stringBannedMembers != null)
+				System.arraycopy(stringBannedMembers, i + 1, stringBannedMembers, i, bannedSize * 984431303 - i);
 		}
 	}
 
 	public int method4628(String string, byte i) {
 		if (null == string || string.length() == 0)
 			return -1;
-		for (int i_62_ = 0; i_62_ < anInt3710 * -1097649699; i_62_++) {
-			if (aStringArray3703[i_62_].equals(string))
+		for (int i_62_ = 0; i_62_ < memberSize * -1097649699; i_62_++) {
+			if (stringMembers[i_62_].equals(string))
 				return i_62_;
 		}
 		return -1;
 	}
 
 	void method4629(int i) {
-		anInt3719 -= 772237047;
-		if (anInt3719 * 984431303 == 0) {
-			aLongArray3720 = null;
-			aStringArray3722 = null;
+		bannedSize -= 772237047;
+		if (bannedSize * 984431303 == 0) {
+			longBannedMembers = null;
+			stringBannedMembers = null;
 		} else {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, i + 1, aLongArray3720, i, 984431303 * anInt3719 - i);
-			if (aStringArray3722 != null)
-				System.arraycopy(aStringArray3722, i + 1, aStringArray3722, i, anInt3719 * 984431303 - i);
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, i + 1, longBannedMembers, i, 984431303 * bannedSize - i);
+			if (stringBannedMembers != null)
+				System.arraycopy(stringBannedMembers, i + 1, stringBannedMembers, i, bannedSize * 984431303 - i);
 		}
 	}
 
 	void method4630(int i) {
-		anInt3719 -= 772237047;
-		if (anInt3719 * 984431303 == 0) {
-			aLongArray3720 = null;
-			aStringArray3722 = null;
+		bannedSize -= 772237047;
+		if (bannedSize * 984431303 == 0) {
+			longBannedMembers = null;
+			stringBannedMembers = null;
 		} else {
-			if (aLongArray3720 != null)
-				System.arraycopy(aLongArray3720, i + 1, aLongArray3720, i, 984431303 * anInt3719 - i);
-			if (aStringArray3722 != null)
-				System.arraycopy(aStringArray3722, i + 1, aStringArray3722, i, anInt3719 * 984431303 - i);
+			if (longBannedMembers != null)
+				System.arraycopy(longBannedMembers, i + 1, longBannedMembers, i, 984431303 * bannedSize - i);
+			if (stringBannedMembers != null)
+				System.arraycopy(stringBannedMembers, i + 1, stringBannedMembers, i, bannedSize * 984431303 - i);
 		}
 	}
 
@@ -809,13 +809,13 @@ public class ClanSettings {
 	}
 
 	void method4633(int i) {
-		if (i < 0 || i >= -1097649699 * anInt3710)
+		if (i < 0 || i >= -1097649699 * memberSize)
 			throw new RuntimeException("");
-		anInt3710 -= 2010033781;
+		memberSize -= 2010033781;
 		anIntArray3713 = null;
-		if (anInt3710 * -1097649699 == 0) {
-			aLongArray3711 = null;
-			aStringArray3703 = null;
+		if (memberSize * -1097649699 == 0) {
+			longMembers = null;
+			stringMembers = null;
 			aByteArray3712 = null;
 			anIntArray3727 = null;
 			anIntArray3721 = null;
@@ -823,14 +823,14 @@ public class ClanSettings {
 			anInt3717 = -80708359;
 			anInt3718 = 2003344807;
 		} else {
-			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * anInt3710 - i);
-			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, anInt3710 * -1097649699 - i);
-			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * anInt3710 - i);
-			if (null != aLongArray3711)
-				System.arraycopy(aLongArray3711, i + 1, aLongArray3711, i, anInt3710 * -1097649699 - i);
-			if (aStringArray3703 != null)
-				System.arraycopy(aStringArray3703, i + 1, aStringArray3703, i, -1097649699 * anInt3710 - i);
+			System.arraycopy(aByteArray3712, 1 + i, aByteArray3712, i, memberSize * -1097649699 - i);
+			System.arraycopy(anIntArray3727, 1 + i, anIntArray3727, i, -1097649699 * memberSize - i);
+			System.arraycopy(anIntArray3721, 1 + i, anIntArray3721, i, memberSize * -1097649699 - i);
+			System.arraycopy(aBoolArray3716, 1 + i, aBoolArray3716, i, -1097649699 * memberSize - i);
+			if (null != longMembers)
+				System.arraycopy(longMembers, i + 1, longMembers, i, memberSize * -1097649699 - i);
+			if (stringMembers != null)
+				System.arraycopy(stringMembers, i + 1, stringMembers, i, -1097649699 * memberSize - i);
 			method4621(1730063394);
 		}
 	}
@@ -841,24 +841,24 @@ public class ClanSettings {
 			throw new RuntimeException(new StringBuilder().append("").append(i).toString());
 		int i_65_ = class536_sub33.readUnsignedByte();
 		if (0 != (i_65_ & 0x1))
-			aBool3699 = true;
+			longUsername = true;
 		if (0 != (i_65_ & 0x2))
-			aBool3700 = true;
-		if (!aBool3699) {
-			aLongArray3711 = null;
-			aLongArray3720 = null;
+			stringUsername = true;
+		if (!longUsername) {
+			longMembers = null;
+			longBannedMembers = null;
 		}
-		if (!aBool3700) {
-			aStringArray3703 = null;
-			aStringArray3722 = null;
+		if (!stringUsername) {
+			stringMembers = null;
+			stringBannedMembers = null;
 		}
-		anInt3702 = class536_sub33.readInt() * -2076295007;
+		updateNumber = class536_sub33.readInt() * -2076295007;
 		anInt3705 = class536_sub33.readInt() * 1731525133;
 		if (i <= 3 && 1101587653 * anInt3705 != 0)
 			anInt3705 += 114369824;
-		anInt3710 = class536_sub33.readUnsignedShort() * 2010033781;
-		anInt3719 = class536_sub33.readUnsignedByte() * 772237047;
-		aString3707 = class536_sub33.readString();
+		memberSize = class536_sub33.readUnsignedShort() * 2010033781;
+		bannedSize = class536_sub33.readUnsignedByte() * 772237047;
+		name = class536_sub33.readString();
 		if (i >= 4)
 			class536_sub33.readInt();
 		aBool3724 = class536_sub33.readUnsignedByte() == 1;
@@ -866,24 +866,24 @@ public class ClanSettings {
 		aByte3698 = class536_sub33.readByte();
 		aByte3708 = class536_sub33.readByte();
 		aByte3704 = class536_sub33.readByte();
-		if (-1097649699 * anInt3710 > 0) {
-			if (aBool3699 && (null == aLongArray3711 || aLongArray3711.length < anInt3710 * -1097649699))
-				aLongArray3711 = new long[-1097649699 * anInt3710];
-			if (aBool3700 && (null == aStringArray3703 || aStringArray3703.length < anInt3710 * -1097649699))
-				aStringArray3703 = new String[-1097649699 * anInt3710];
-			if (aByteArray3712 == null || aByteArray3712.length < anInt3710 * -1097649699)
-				aByteArray3712 = new byte[-1097649699 * anInt3710];
-			if (anIntArray3727 == null || anIntArray3727.length < anInt3710 * -1097649699)
-				anIntArray3727 = new int[anInt3710 * -1097649699];
-			if (null == anIntArray3721 || anIntArray3721.length < -1097649699 * anInt3710)
-				anIntArray3721 = new int[-1097649699 * anInt3710];
-			if (null == aBoolArray3716 || aBoolArray3716.length < -1097649699 * anInt3710)
-				aBoolArray3716 = new boolean[-1097649699 * anInt3710];
-			for (int i_66_ = 0; i_66_ < anInt3710 * -1097649699; i_66_++) {
-				if (aBool3699)
-					aLongArray3711[i_66_] = class536_sub33.readLong(702869087);
-				if (aBool3700)
-					aStringArray3703[i_66_] = class536_sub33.method9713(16509697);
+		if (-1097649699 * memberSize > 0) {
+			if (longUsername && (null == longMembers || longMembers.length < memberSize * -1097649699))
+				longMembers = new long[-1097649699 * memberSize];
+			if (stringUsername && (null == stringMembers || stringMembers.length < memberSize * -1097649699))
+				stringMembers = new String[-1097649699 * memberSize];
+			if (aByteArray3712 == null || aByteArray3712.length < memberSize * -1097649699)
+				aByteArray3712 = new byte[-1097649699 * memberSize];
+			if (anIntArray3727 == null || anIntArray3727.length < memberSize * -1097649699)
+				anIntArray3727 = new int[memberSize * -1097649699];
+			if (null == anIntArray3721 || anIntArray3721.length < -1097649699 * memberSize)
+				anIntArray3721 = new int[-1097649699 * memberSize];
+			if (null == aBoolArray3716 || aBoolArray3716.length < -1097649699 * memberSize)
+				aBoolArray3716 = new boolean[-1097649699 * memberSize];
+			for (int i_66_ = 0; i_66_ < memberSize * -1097649699; i_66_++) {
+				if (longUsername)
+					longMembers[i_66_] = class536_sub33.readLong();
+				if (stringUsername)
+					stringMembers[i_66_] = class536_sub33.method9713(16509697);
 				aByteArray3712[i_66_] = class536_sub33.readByte();
 				if (i >= 2)
 					anIntArray3727[i_66_] = class536_sub33.readInt();
@@ -898,16 +898,16 @@ public class ClanSettings {
 			}
 			method4621(1144918047);
 		}
-		if (984431303 * anInt3719 > 0) {
-			if (aBool3699 && (aLongArray3720 == null || aLongArray3720.length < 984431303 * anInt3719))
-				aLongArray3720 = new long[984431303 * anInt3719];
-			if (aBool3700 && (null == aStringArray3722 || aStringArray3722.length < 984431303 * anInt3719))
-				aStringArray3722 = new String[anInt3719 * 984431303];
-			for (int i_67_ = 0; i_67_ < 984431303 * anInt3719; i_67_++) {
-				if (aBool3699)
-					aLongArray3720[i_67_] = class536_sub33.readLong(702869087);
-				if (aBool3700)
-					aStringArray3722[i_67_] = class536_sub33.method9713(16509697);
+		if (984431303 * bannedSize > 0) {
+			if (longUsername && (longBannedMembers == null || longBannedMembers.length < 984431303 * bannedSize))
+				longBannedMembers = new long[984431303 * bannedSize];
+			if (stringUsername && (null == stringBannedMembers || stringBannedMembers.length < 984431303 * bannedSize))
+				stringBannedMembers = new String[bannedSize * 984431303];
+			for (int i_67_ = 0; i_67_ < 984431303 * bannedSize; i_67_++) {
+				if (longUsername)
+					longBannedMembers[i_67_] = class536_sub33.readLong();
+				if (stringUsername)
+					stringBannedMembers[i_67_] = class536_sub33.method9713(16509697);
 			}
 		}
 		if (i >= 3) {
@@ -922,7 +922,7 @@ public class ClanSettings {
 						int i_72_ = class536_sub33.readInt();
 						aClass4_3714.method560(new IntParam(i_72_), (long) i_70_);
 					} else if (i_71_ == 1) {
-						long l = class536_sub33.readLong(702869087);
+						long l = class536_sub33.readLong();
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_70_);
 					} else if (2 == i_71_) {
 						String string = class536_sub33.readString();

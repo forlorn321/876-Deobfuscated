@@ -1279,7 +1279,7 @@ public class PacketDecoder {
 			long l_220_ = l_218_ + (l << 32);
 			boolean bool_221_ = false;
 			Object object = null;
-			Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
+			Clan class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
 			while_70_: do {
 				if (null == class536_sub15)
 					bool_221_ = true;
@@ -1300,9 +1300,9 @@ public class PacketDecoder {
 				String string_223_ = Class198.aClass32_2216.method788(i_219_, (byte) -2).method10712(stream, (byte) -102);
 				int i_224_ = bool ? 42 : 45;
 				if (1719069535 * class402.anInt4201 != -1)
-					Class536_Sub18_Sub2.method10491(i_224_, 0, new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) 44)).append(string).toString(), new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) 49)).append(string).toString(), string, string_223_, class536_sub15.aString10485, i_219_, class402, -1967917467);
+					Class536_Sub18_Sub2.method10491(i_224_, 0, new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) 44)).append(string).toString(), new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) 49)).append(string).toString(), string, string_223_, class536_sub15.name, i_219_, class402, -1967917467);
 				else
-					Class536_Sub18_Sub2.method10491(i_224_, 0, string, string, string, string_223_, (class536_sub15.aString10485), i_219_, class402, -769666274);
+					Class536_Sub18_Sub2.method10491(i_224_, 0, string, string, string, string_223_, (class536_sub15.name), i_219_, class402, -769666274);
 			}
 			class106.currentPacket = null;
 			return true;
@@ -1311,7 +1311,7 @@ public class PacketDecoder {
 			client.anInt11234 = client.anInt11215 * -1759549907;
 			boolean bool = stream.readUnsignedByte() == 1;
 			Class353 class353 = new Class353(stream);
-			Class536_Sub15 class536_sub15;
+			Clan class536_sub15;
 			if (bool)
 				class536_sub15 = Class646.aClass536_Sub15_8361;
 			else
@@ -1467,7 +1467,7 @@ public class PacketDecoder {
 			long l_242_ = (long) stream.read24BitUnsignedInteger();
 			long l_243_ = l_242_ + (l << 32);
 			boolean bool_244_ = false;
-			Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
+			Clan class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
 			if (class536_sub15 == null)
 				bool_244_ = true;
 			else {
@@ -1483,7 +1483,7 @@ public class PacketDecoder {
 				client.anInt11072 = (client.anInt11072 * 632873891 + 1) % 100 * 308045835;
 				String string = Class323.unpackHuffmanString(stream);
 				int i_246_ = bool ? 43 : 46;
-				Class536_Sub18_Sub2.method10491(i_246_, 0, "", "", "", string, class536_sub15.aString10485, -1, null, -180123751);
+				Class536_Sub18_Sub2.method10491(i_246_, 0, "", "", "", string, class536_sub15.name, -1, null, -180123751);
 			}
 			class106.currentPacket = null;
 			return true;
@@ -1972,7 +1972,7 @@ public class PacketDecoder {
 			long l_332_ = l_331_ + (l << 32);
 			boolean bool_333_ = false;
 			Object object = null;
-			Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
+			Clan class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
 			while_72_: do {
 				if (class536_sub15 == null)
 					bool_333_ = true;
@@ -1997,9 +1997,9 @@ public class PacketDecoder {
 				String string_335_ = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 124));
 				int i_336_ = bool ? 41 : 44;
 				if (-1 != 1719069535 * class402.anInt4201)
-					Class536_Sub18_Sub2.method10491(i_336_, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 8)).append(string).toString(), new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 21)).append(string).toString(), string, string_335_, class536_sub15.aString10485, -1, class402, 1789658075);
+					Class536_Sub18_Sub2.method10491(i_336_, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 8)).append(string).toString(), new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 21)).append(string).toString(), string, string_335_, class536_sub15.name, -1, class402, 1789658075);
 				else
-					Class536_Sub18_Sub2.method10491(i_336_, 0, string, string, string, string_335_, (class536_sub15.aString10485), -1, class402, -87081790);
+					Class536_Sub18_Sub2.method10491(i_336_, 0, string, string, string, string_335_, (class536_sub15.name), -1, class402, -87081790);
 			}
 			class106.currentPacket = null;
 			return true;
@@ -2098,9 +2098,9 @@ public class PacketDecoder {
 				return true;
 			}
 			if (bool)
-				Class646.aClass536_Sub15_8361 = new Class536_Sub15(stream);
+				Class646.aClass536_Sub15_8361 = new Clan(stream);
 			else
-				Class66.aClass536_Sub15_724 = new Class536_Sub15(stream);
+				Class66.aClass536_Sub15_724 = new Clan(stream);
 			class106.currentPacket = null;
 			return true;
 		}

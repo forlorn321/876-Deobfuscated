@@ -10,7 +10,7 @@ public class Class646 {
 	Object[] anObjectArray8358;
 	long[] aLongArray8359;
 	public static int anInt8360;
-	public static Class536_Sub15 aClass536_Sub15_8361;
+	public static Clan aClass536_Sub15_8361;
 
 	Class646() {
 		/* empty */

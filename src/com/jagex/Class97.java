@@ -69,11 +69,11 @@ public class Class97 {
 	}
 
 	public static final void method1320(boolean bool, int i, int i_9_) {
-		Class536_Sub15 class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
+		Clan class536_sub15 = (bool ? Class646.aClass536_Sub15_8361 : Class66.aClass536_Sub15_724);
 		if (null != class536_sub15 && i >= 0 && i < class536_sub15.anInt10482 * 1494047173) {
-			Class349 class349 = class536_sub15.aClass349Array10479[i];
-			if (class349.aByte3696 == -1) {
-				String string = class349.aString3695;
+			ClanMember class349 = class536_sub15.members[i];
+			if (class349.rank == -1) {
+				String string = class349.username;
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4468, class106.aClass15_1258, 1687531729);
 				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(string, -2044328457));

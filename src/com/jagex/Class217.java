@@ -28,7 +28,7 @@ class Class217 implements Interface42 {
 	}
 
 	static final void method3095(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.aString3707;
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class668.aClass350_8563.name;
 	}
 
 	static final void method3096(Class668 class668, byte i) {

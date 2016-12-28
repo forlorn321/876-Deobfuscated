@@ -15,7 +15,7 @@ public class Class66 {
 	static final int anInt721 = 10;
 	LinkedHashMap aLinkedHashMap722 = new LinkedHashMap();
 	public static int anInt723;
-	public static Class536_Sub15 aClass536_Sub15_724;
+	public static Clan aClass536_Sub15_724;
 
 	Class66() {
 		this(null);
@@ -186,7 +186,7 @@ public class Class66 {
 			if (i > 0 && i <= 1) {
 				int i_4_ = class536_sub33.readUnsignedByte();
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-					long l = class536_sub33.readLong(702869087);
+					long l = class536_sub33.readLong();
 					int i_6_ = class536_sub33.readInt();
 					aLinkedHashMap722.put(Long.valueOf(l), Integer.valueOf(i_6_));
 				}

@@ -8,7 +8,7 @@ public class Class224 {
 
 	Class224(RSByteBuffer class536_sub33, boolean bool, boolean bool_0_) {
 		if (bool)
-			class536_sub33.readLong(702869087);
+			class536_sub33.readLong();
 		if (bool_0_)
 			aString2339 = class536_sub33.method9713(16509697);
 		else

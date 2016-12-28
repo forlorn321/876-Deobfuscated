@@ -41,7 +41,7 @@ public class Class667 {
 
 	static void method8005(int i) {
 		Class18.aClass184_190 = null;
-		Class536_Sub15.aClass184_10488 = null;
+		Clan.aClass184_10488 = null;
 		Class26.aClass184_248 = null;
 		Class458_Sub5.aClass143Array10338 = null;
 		Class688_Sub2_Sub1.aClass143Array11872 = null;

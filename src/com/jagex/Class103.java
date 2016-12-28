@@ -168,7 +168,7 @@ public class Class103 {
 				Class184 class184 = Class18.aClass184_190;
 				Class2 class2 = Class556.aClass2_7510;
 				if (class248.anInt2486 * 1093270539 == 1) {
-					class184 = Class536_Sub15.aClass184_10488;
+					class184 = Clan.aClass184_10488;
 					class2 = Class223.aClass2_2338;
 				}
 				if (1093270539 * class248.anInt2486 == 2) {

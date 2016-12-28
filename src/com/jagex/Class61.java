@@ -323,8 +323,8 @@ public class Class61 {
 						Class586.aClass106_7710.byteBuffer.off = -331126352;
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
-						aLong649 = (Class586.aClass106_7710.byteBuffer.readLong(702869087) * -4822916419102841261L);
-						aLong644 = (Class586.aClass106_7710.byteBuffer.readLong(702869087) * -6047393890855416081L);
+						aLong649 = (Class586.aClass106_7710.byteBuffer.readLong() * -4822916419102841261L);
+						aLong644 = (Class586.aClass106_7710.byteBuffer.readLong() * -6047393890855416081L);
 						loginStage = -1026539102;
 					}
 					if (82 == -129171495 * loginStage) {
@@ -686,7 +686,7 @@ public class Class61 {
 								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte12197 = (byte) class536_sub33_sub2.readUnsignedByte();
 								client.aBool11163 = class536_sub33_sub2.readUnsignedByte() == 1;
 								client.aBool11303 = class536_sub33_sub2.readUnsignedByte() == 1;
-								Class471.aLong5361 = (class536_sub33_sub2.readLong(702869087) * -3451902742676028657L);
+								Class471.aLong5361 = (class536_sub33_sub2.readLong() * -3451902742676028657L);
 								Class292.aLong3244 = (((-1435655525908132881L * Class471.aLong5361) - Class249.method3450(1414103758) - class536_sub33_sub2.read5ByteInteger(-822882496)) * 8806393363580464715L);
 								int i_14_ = class536_sub33_sub2.readUnsignedByte();
 								client.aBool11290 = 0 != (i_14_ & 0x1);
