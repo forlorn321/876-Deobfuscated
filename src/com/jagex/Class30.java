@@ -75,7 +75,7 @@ public class Class30 {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 
-	public static Class461 method785(Class46 class46, boolean bool, int i, boolean bool_8_, boolean bool_9_, byte i_10_) {
+	public static Class461 method785(JS5Archive class46, boolean bool, int i, boolean bool_8_, boolean bool_9_, byte i_10_) {
 		if (Class275.aClass459_Sub1Array3024 == null) {
 			Class275.aClass459_Sub1Array3024 = new Class459_Sub1[Class319.method4240(-1974867093)];
 			Class211.aMap2292 = new HashMap();
@@ -83,7 +83,7 @@ public class Class30 {
 		Class547 class547 = null;
 		int i_11_ = class46.method903(969914377);
 		if (null != client.aClass18_6879 && !Class97.aBool1179)
-			class547 = new Class547(i_11_, client.aClass18_6879, Class484.aClass18Array5436[i_11_], (i_11_ == Class46.aClass46_555.method903(-233346589) ? 8000000 : 2500000));
+			class547 = new Class547(i_11_, client.aClass18_6879, Class484.aClass18Array5436[i_11_], (i_11_ == JS5Archive.DLLS.method903(-233346589) ? 8000000 : 2500000));
 		Class275.aClass459_Sub1Array3024[i_11_] = Class290.aClass426_3223.method5123(i_11_, class547, Class653.aClass547_8490, class46.method902(-1565860380), 691809011);
 		if (bool_9_)
 			Class275.aClass459_Sub1Array3024[i_11_].method9239(1206569215);

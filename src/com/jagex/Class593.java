@@ -519,7 +519,7 @@ public class Class593 {
 			Class32.method790(class668, -1466467431);
 			break;
 		case 614:
-			Class46.method907(class668, 2052975770);
+			JS5Archive.method907(class668, 2052975770);
 			break;
 		case 180:
 			Class521_Sub2.method9340(class668, 925942332);

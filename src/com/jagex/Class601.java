@@ -114,17 +114,17 @@ public class Class601 implements Interface75 {
 				return 0;
 			Class656.method7945(0, null, true, (byte) -99);
 			Class310.aBool3466 = !Class175.method2451((byte) 15);
-			InputStream_Sub1.aClass461_10979 = Class30.method785((Class310.aBool3466 ? Class46.aClass46_559 : Class46.aClass46_572), false, 1, true, true, (byte) -38);
-			Class161.aClass461_1770 = Class30.method785(Class46.aClass46_558, false, 1, true, true, (byte) -113);
-			Class710_Sub43.aClass461_10940 = Class30.method785(Class46.aClass46_539, false, 1, true, true, (byte) -77);
-			Class184_Sub2.aClass461_9443 = Class30.method785(Class46.aClass46_532, true, 1, true, true, (byte) -95);
+			InputStream_Sub1.aClass461_10979 = Class30.method785((Class310.aBool3466 ? JS5Archive.LOADING_SPRITES_RAW : JS5Archive.LOADING_SPRITES), false, 1, true, true, (byte) -38);
+			Class161.aClass461_1770 = Class30.method785(JS5Archive.LOADING_SCREENS, false, 1, true, true, (byte) -113);
+			Class710_Sub43.aClass461_10940 = Class30.method785(JS5Archive.FONT_METRICS, false, 1, true, true, (byte) -77);
+			Class184_Sub2.aClass461_9443 = Class30.method785(JS5Archive.DEFAULTS, true, 1, true, true, (byte) -95);
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3415) {
 			boolean bool = Class161.aClass461_1770.method5561(-1376011786);
 			boolean bool_7_ = Class184_Sub2.aClass461_9443.method5561(-1376011786);
-			int i_8_ = Class275.aClass459_Sub1Array3024[Class46.aClass46_558.method903(1859216960)].method9232((byte) 112);
-			i_8_ = i_8_ + Class275.aClass459_Sub1Array3024[(Class310.aBool3466 ? Class46.aClass46_559.method903(-437999709) : Class46.aClass46_572.method903(-1566797578))].method9232((byte) 112);
-			i_8_ += Class275.aClass459_Sub1Array3024[Class46.aClass46_539.method903(-867625406)].method9232((byte) 42);
+			int i_8_ = Class275.aClass459_Sub1Array3024[JS5Archive.LOADING_SCREENS.method903(1859216960)].method9232((byte) 112);
+			i_8_ = i_8_ + Class275.aClass459_Sub1Array3024[(Class310.aBool3466 ? JS5Archive.LOADING_SPRITES_RAW.method903(-437999709) : JS5Archive.LOADING_SPRITES.method903(-1566797578))].method9232((byte) 112);
+			i_8_ += Class275.aClass459_Sub1Array3024[JS5Archive.FONT_METRICS.method903(-867625406)].method9232((byte) 42);
 			i_8_ = i_8_ + (bool_7_ ? 100 : Class184_Sub2.aClass461_9443.method5563(1366896953));
 			i_8_ = i_8_ + (bool ? 100 : Class161.aClass461_1770.method5563(859090222));
 			if (500 != i_8_)
@@ -163,37 +163,37 @@ public class Class601 implements Interface75 {
 			Class673.method8026(15, -1798113843);
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3408) {
-			Class398.aClass461_4122 = Class30.method785(Class46.aClass46_557, false, 1, false, true, (byte) -64);
-			Class529_Sub1.aClass461_10283 = Class30.method785(Class46.aClass46_571, false, 1, false, true, (byte) -30);
-			Class586.aClass461_7709 = Class30.method785(Class46.aClass46_531, false, 1, false, true, (byte) -17);
-			Class205_Sub9.aClass461_9887 = Class30.method785(Class46.aClass46_533, false, 1, true, true, (byte) 1);
-			Class247_Sub1.aClass461_9968 = Class30.method785(Class46.aClass46_556, false, 1, true, true, (byte) -46);
-			Class318.aClass461_3526 = Class30.method785(Class46.aClass46_538, false, 1, true, true, (byte) 1);
-			Class116.aClass461_1432 = Class30.method785(Class46.aClass46_534, true, 1, false, true, (byte) 4);
-			Class602.aClass461_7857 = Class30.method785(Class46.aClass46_535, false, 1, false, true, (byte) -77);
-			Class279.aClass461_3162 = Class30.method785(Class46.aClass46_564, true, 1, false, true, (byte) -15);
-			Class65.aClass461_719 = Class30.method785(Class46.aClass46_565, true, 1, false, true, (byte) -70);
-			Class395.aClass461_4109 = Class30.method785(Class46.aClass46_537, false, 1, false, true, (byte) -107);
-			Class649_Sub1_Sub4_Sub2.aClass461_12021 = Class30.method785(Class46.aClass46_530, false, 1, true, true, (byte) -44);
-			Class206_Sub1.aClass461_10024 = Class30.method785(Class46.aClass46_553, true, 1, false, false, (byte) -10);
-			Class14.aClass461_164 = Class30.method785(Class46.aClass46_561, true, 1, false, false, (byte) -32);
-			Class214.aClass461_2301 = Class30.method785(Class46.aClass46_541, false, 1, true, true, (byte) -70);
-			Class303.aClass461_3432 = Class30.method785(Class46.aClass46_542, false, 1, true, true, (byte) -44);
-			Class214.aClass461_2302 = Class30.method785(Class46.aClass46_563, false, 1, true, true, (byte) -112);
-			Class154.aClass461_1720 = Class30.method785(Class46.aClass46_573, false, 1, true, true, (byte) -11);
-			Class20.aClass461_215 = Class30.method785(Class46.aClass46_545, false, 1, true, true, (byte) -79);
-			Class218.aClass461_2308 = Class30.method785(Class46.aClass46_546, false, 1, true, true, (byte) -91);
-			Class397.aClass461_4114 = Class30.method785(Class46.aClass46_547, false, 1, true, true, (byte) -90);
-			Class613.aClass461_8013 = Class30.method785(Class46.aClass46_552, true, 1, false, false, (byte) -38);
-			Class622.aClass461_8129 = Class30.method785(Class46.aClass46_562, true, 1, false, true, (byte) -43);
-			Class576.aClass461_7687 = Class30.method785(Class46.aClass46_549, false, 1, true, true, (byte) -56);
-			Class711.aClass461_8849 = Class30.method785(Class46.aClass46_575, false, 1, true, true, (byte) -77);
-			Class590.aClass461_7789 = Class30.method785(Class46.aClass46_551, true, 1, true, true, (byte) -105);
-			Class550_Sub1.aClass461_10617 = Class30.method785(Class46.aClass46_544, false, 1, true, true, (byte) -33);
-			Class271.aClass461_2886 = Class30.method785(Class46.aClass46_540, false, 1, true, true, (byte) -23);
-			Class98_Sub1_Sub1.aClass461_11326 = Class30.method785(Class46.aClass46_548, true, 1, false, true, (byte) -17);
-			Class460.aClass461_5203 = Class30.method785(Class46.aClass46_555, true, 1, false, true, (byte) -68);
-			Class540.aClass461_7161 = Class30.method785(Class46.aClass46_536, true, 1, true, true, (byte) -117);
+			Class398.aClass461_4122 = Class30.method785(JS5Archive.SPRITES, false, 1, false, true, (byte) -64);
+			Class529_Sub1.aClass461_10283 = Class30.method785(JS5Archive.ANIMATIONS, false, 1, false, true, (byte) -30);
+			Class586.aClass461_7709 = Class30.method785(JS5Archive.BASES, false, 1, false, true, (byte) -17);
+			Class205_Sub9.aClass461_9887 = Class30.method785(JS5Archive.CONFIG, false, 1, true, true, (byte) 1);
+			Class247_Sub1.aClass461_9968 = Class30.method785(JS5Archive.DB_TABLE_INDEX, false, 1, true, true, (byte) -46);
+			Class318.aClass461_3526 = Class30.method785(JS5Archive.INTERFACES, false, 1, true, true, (byte) 1);
+			Class116.aClass461_1432 = Class30.method785(JS5Archive.MAPS, true, 1, false, true, (byte) 4);
+			Class602.aClass461_7857 = Class30.method785(JS5Archive.MODELS, false, 1, false, true, (byte) -77);
+			Class279.aClass461_3162 = Class30.method785(JS5Archive.TEXTURES_DIFFUSE_PNG, true, 1, false, true, (byte) -15);
+			Class65.aClass461_719 = Class30.method785(JS5Archive.TEXTURES_HDR_PNG, true, 1, false, true, (byte) -70);
+			Class395.aClass461_4109 = Class30.method785(JS5Archive.BINARY, false, 1, false, true, (byte) -107);
+			Class649_Sub1_Sub4_Sub2.aClass461_12021 = Class30.method785(JS5Archive.CLIENT_SCRIPTS, false, 1, true, true, (byte) -44);
+			Class206_Sub1.aClass461_10024 = Class30.method785(JS5Archive.VORBIS, true, 1, false, false, (byte) -10);
+			Class14.aClass461_164 = Class30.method785(JS5Archive.AUDIO_STREAMS, true, 1, false, false, (byte) -32);
+			Class214.aClass461_2301 = Class30.method785(JS5Archive.CONFIG_LOC, false, 1, true, true, (byte) -70);
+			Class303.aClass461_3432 = Class30.method785(JS5Archive.CONFIG_ENUM, false, 1, true, true, (byte) -44);
+			Class214.aClass461_2302 = Class30.method785(JS5Archive.CONFIG_NPC, false, 1, true, true, (byte) -112);
+			Class154.aClass461_1720 = Class30.method785(JS5Archive.CONFIG_OBJ, false, 1, true, true, (byte) -11);
+			Class20.aClass461_215 = Class30.method785(JS5Archive.CONFIG_SEQ, false, 1, true, true, (byte) -79);
+			Class218.aClass461_2308 = Class30.method785(JS5Archive.CONFIG_SPOT, false, 1, true, true, (byte) -91);
+			Class397.aClass461_4114 = Class30.method785(JS5Archive.CONFIG_STRUCT, false, 1, true, true, (byte) -90);
+			Class613.aClass461_8013 = Class30.method785(JS5Archive.WORLD_MAP, true, 1, false, false, (byte) -38);
+			Class622.aClass461_8129 = Class30.method785(JS5Archive.WORLD_MAP_AREA, true, 1, false, true, (byte) -43);
+			Class576.aClass461_7687 = Class30.method785(JS5Archive.QUICK_CHAT, false, 1, true, true, (byte) -56);
+			Class711.aClass461_8849 = Class30.method785(JS5Archive.QUICK_CHAT_GLOBAL, false, 1, true, true, (byte) -77);
+			Class590.aClass461_7789 = Class30.method785(JS5Archive.MATERIALS, true, 1, true, true, (byte) -105);
+			Class550_Sub1.aClass461_10617 = Class30.method785(JS5Archive.PARTICLES, false, 1, true, true, (byte) -33);
+			Class271.aClass461_2886 = Class30.method785(JS5Archive.BILLBOARDS, false, 1, true, true, (byte) -23);
+			Class98_Sub1_Sub1.aClass461_11326 = Class30.method785(JS5Archive.CUTSCENES, true, 1, false, true, (byte) -17);
+			Class460.aClass461_5203 = Class30.method785(JS5Archive.DLLS, true, 1, false, true, (byte) -68);
+			Class540.aClass461_7161 = Class30.method785(JS5Archive.SHADERS, true, 1, true, true, (byte) -117);
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3423) {
 			int i_13_ = 0;
@@ -349,9 +349,9 @@ public class Class601 implements Interface75 {
 			Class161.aClass461_1770 = null;
 			Class708.aClass87_8824 = null;
 			Class310.anInterface30Array3473 = null;
-			Class211.aMap2292.remove(Class46.aClass46_558);
-			Class211.aMap2292.remove(Class46.aClass46_572);
-			Class211.aMap2292.remove(Class46.aClass46_559);
+			Class211.aMap2292.remove(JS5Archive.LOADING_SCREENS);
+			Class211.aMap2292.remove(JS5Archive.LOADING_SPRITES);
+			Class211.aMap2292.remove(JS5Archive.LOADING_SPRITES_RAW);
 			Class287.method3911(-2013398097);
 			client.aBool10994 = ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783.method10236(-2026408065) == 1;
 			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783), 1, (byte) 1);

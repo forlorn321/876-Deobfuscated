@@ -118,10 +118,10 @@ public class ShadowQualitySetting extends ClientSetting {
 		return -789865385 * anInt8842;
 	}
 
-	public static Class46[] method10035(int i) {
-		return new Class46[] { Class46.aClass46_571, Class46.aClass46_531, Class46.aClass46_533, Class46.aClass46_538, Class46.aClass46_534, Class46.aClass46_535, Class46.aClass46_557, Class46.aClass46_537, Class46.aClass46_530, Class46.aClass46_539, Class46.aClass46_553, Class46.aClass46_541, Class46.aClass46_542, Class46.aClass46_563, Class46.aClass46_573, Class46.aClass46_545, Class46.aClass46_546, Class46.aClass46_547, Class46.aClass46_552, Class46.aClass46_549, Class46.aClass46_575,
-				Class46.aClass46_551, Class46.aClass46_544, Class46.aClass46_532, Class46.aClass46_540, Class46.aClass46_555, Class46.aClass46_536, Class46.aClass46_572, Class46.aClass46_558, Class46.aClass46_559, Class46.aClass46_548, Class46.aClass46_561, Class46.aClass46_562, Class46.aClass46_570, Class46.aClass46_564, Class46.aClass46_565, Class46.aClass46_566, Class46.aClass46_550, Class46.aClass46_568, Class46.aClass46_569, Class46.aClass46_556, Class46.aClass46_567,
-				Class46.aClass46_543 };
+	public static JS5Archive[] method10035(int i) {
+		return new JS5Archive[] { JS5Archive.ANIMATIONS, JS5Archive.BASES, JS5Archive.CONFIG, JS5Archive.INTERFACES, JS5Archive.MAPS, JS5Archive.MODELS, JS5Archive.SPRITES, JS5Archive.BINARY, JS5Archive.CLIENT_SCRIPTS, JS5Archive.FONT_METRICS, JS5Archive.VORBIS, JS5Archive.CONFIG_LOC, JS5Archive.CONFIG_ENUM, JS5Archive.CONFIG_NPC, JS5Archive.CONFIG_OBJ, JS5Archive.CONFIG_SEQ, JS5Archive.CONFIG_SPOT, JS5Archive.CONFIG_STRUCT, JS5Archive.WORLD_MAP, JS5Archive.QUICK_CHAT, JS5Archive.QUICK_CHAT_GLOBAL,
+				JS5Archive.MATERIALS, JS5Archive.PARTICLES, JS5Archive.DEFAULTS, JS5Archive.BILLBOARDS, JS5Archive.DLLS, JS5Archive.SHADERS, JS5Archive.LOADING_SPRITES, JS5Archive.LOADING_SCREENS, JS5Archive.LOADING_SPRITES_RAW, JS5Archive.CUTSCENES, JS5Archive.AUDIO_STREAMS, JS5Archive.WORLD_MAP_AREA, JS5Archive.WORLD_MAP_LABELS, JS5Archive.TEXTURES_DIFFUSE_PNG, JS5Archive.TEXTURES_HDR_PNG, JS5Archive.TEXTURES_DIFFUSE_DXT, JS5Archive.TEXTURES_HDR_PNG_MIPPED, JS5Archive.MODELS_RT7, JS5Archive.ANIMATIONS_RT7, JS5Archive.DB_TABLE_INDEX, JS5Archive.aClass46_567,
+				JS5Archive.aClass46_543 };
 	}
 
 	static boolean method10036(int i) {

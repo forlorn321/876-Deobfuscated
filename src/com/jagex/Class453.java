@@ -450,10 +450,10 @@ public class Class453 implements Interface75, Interface57 {
 	}
 
 	static void method5443(RSBitBuffer class536_sub33_sub2, int i) {
-		Class46[] class46s = ShadowQualitySetting.method10035(2044337135);
+		JS5Archive[] class46s = ShadowQualitySetting.method10035(2044337135);
 		for (int i_0_ = 0; i_0_ < class46s.length; i_0_++) {
-			Class46 class46 = class46s[i_0_];
-			if (Class46.aClass46_572 != class46) {
+			JS5Archive class46 = class46s[i_0_];
+			if (JS5Archive.LOADING_SPRITES != class46) {
 				Class461 class461 = (Class461) Class211.aMap2292.get(class46);
 				if (class461 == null)
 					class536_sub33_sub2.writeInt(0);

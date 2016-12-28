@@ -225,15 +225,15 @@ public abstract class Class319 implements Interface33 {
 	}
 
 	public static int method4240(int i) {
-		if (-1 == Class46.anInt554 * 819264887) {
-			Class46[] class46s = ShadowQualitySetting.method10035(1712884762);
+		if (-1 == JS5Archive.anInt554 * 819264887) {
+			JS5Archive[] class46s = ShadowQualitySetting.method10035(1712884762);
 			for (int i_29_ = 0; i_29_ < class46s.length; i_29_++) {
-				Class46 class46 = class46s[i_29_];
-				if (-960064969 * class46.anInt560 > 819264887 * Class46.anInt554)
-					Class46.anInt554 = 1612792129 * class46.anInt560;
+				JS5Archive class46 = class46s[i_29_];
+				if (-960064969 * class46.anInt560 > 819264887 * JS5Archive.anInt554)
+					JS5Archive.anInt554 = 1612792129 * class46.anInt560;
 			}
-			Class46.anInt554 += 1071443015;
+			JS5Archive.anInt554 += 1071443015;
 		}
-		return Class46.anInt554 * 819264887;
+		return JS5Archive.anInt554 * 819264887;
 	}
 }
