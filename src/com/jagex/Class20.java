@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class20 implements Interface13, Interface7 {
+public class Class20 implements DefinitionI, Interface7 {
 	public int anInt206;
 	public int anInt207;
 	int anInt208 = 0;
@@ -21,7 +21,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	void method693(RSByteBuffer class536_sub33, int i, int i_0_) {
 		if (1 == i) {
-			anInt208 = class536_sub33.read24BitUnsignedInteger(755615122) * 973856227;
+			anInt208 = class536_sub33.read24BitUnsignedInteger() * 973856227;
 			method694(-20295733 * anInt208, (byte) 21);
 		} else if (2 == i) {
 			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
@@ -165,7 +165,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	void method696(RSByteBuffer class536_sub33, int i) {
 		if (1 == i) {
-			anInt208 = class536_sub33.read24BitUnsignedInteger(935581440) * 973856227;
+			anInt208 = class536_sub33.read24BitUnsignedInteger() * 973856227;
 			method694(-20295733 * anInt208, (byte) 17);
 		} else if (2 == i) {
 			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
@@ -185,7 +185,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	void method697(RSByteBuffer class536_sub33, int i) {
 		if (1 == i) {
-			anInt208 = class536_sub33.read24BitUnsignedInteger(1044414566) * 973856227;
+			anInt208 = class536_sub33.read24BitUnsignedInteger() * 973856227;
 			method694(-20295733 * anInt208, (byte) -4);
 		} else if (2 == i) {
 			anInt207 = class536_sub33.readUnsignedShort() * -39893207;
@@ -205,7 +205,7 @@ public class Class20 implements Interface13, Interface7 {
 
 	void method698(RSByteBuffer class536_sub33, int i) {
 		if (1 == i) {
-			anInt208 = class536_sub33.read24BitUnsignedInteger(1133914970) * 973856227;
+			anInt208 = class536_sub33.read24BitUnsignedInteger() * 973856227;
 			method694(-20295733 * anInt208, (byte) -48);
 		} else if (2 == i) {
 			anInt207 = class536_sub33.readUnsignedShort() * -39893207;

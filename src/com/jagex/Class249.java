@@ -67,7 +67,7 @@ public final class Class249 {
 	static final void method3455(Class668 class668, byte i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.method10389(class251).method9474((byte) 3);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.getIComponentSettings(class251).method9474();
 	}
 
 	static final void method3456(Class668 class668, int i) throws Exception_Sub3 {

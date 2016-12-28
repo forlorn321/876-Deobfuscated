@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class612 implements Interface13 {
+public class Class612 implements DefinitionI {
 	public int anInt7931;
 	public static short[] aShortArray7932 = new short[256];
 	Class4 aClass4_7933;
@@ -387,7 +387,7 @@ public class Class612 implements Interface13 {
 							}
 							for (int i_39_ = 0; i_39_ < i_37_; i_39_++) {
 								boolean bool = (class536_sub33.readUnsignedByte() == 1);
-								int i_40_ = class536_sub33.read24BitUnsignedInteger(1635846899);
+								int i_40_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
 									class536 = new Class536_Sub13(class536_sub33.readString().intern());
@@ -1075,7 +1075,7 @@ public class Class612 implements Interface13 {
 							}
 							for (int i_126_ = 0; i_126_ < i_124_; i_126_++) {
 								boolean bool = (class536_sub33.readUnsignedByte() == 1);
-								int i_127_ = class536_sub33.read24BitUnsignedInteger(1318621877);
+								int i_127_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
 									class536 = new Class536_Sub13(class536_sub33.readString().intern());
@@ -1526,7 +1526,7 @@ public class Class612 implements Interface13 {
 							}
 							for (int i_165_ = 0; i_165_ < i_163_; i_165_++) {
 								boolean bool = (class536_sub33.readUnsignedByte() == 1);
-								int i_166_ = class536_sub33.read24BitUnsignedInteger(737314588);
+								int i_166_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
 									class536 = new Class536_Sub13(class536_sub33.readString().intern());

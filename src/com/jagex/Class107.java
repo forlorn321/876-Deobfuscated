@@ -115,12 +115,12 @@ public class Class107 {
 
 	static final void method1436(Class668 class668, short i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((Class1) Class111.aClass34_Sub13_1391.method70(i_0_, (byte) 39)).anInt34 * -1370184373) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_0_, (byte) 39)).stackable * -1370184373) == 1 ? 1 : 0;
 	}
 
 	static final void method1437(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((Class1) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) -67)).anInt36) * -680425497;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_1_, (byte) -67)).value) * -680425497;
 	}
 
 	static final void method1438(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {

@@ -465,7 +465,7 @@ public class RSByteBuffer extends Class536 {
 		return i_76_;
 	}
 
-	public int read24BitUnsignedInteger(int i) {
+	public int read24BitUnsignedInteger() {
 		off += 1548526545;
 		return ((buffer[off * -810172525 - 1] & 0xff) + (((buffer[-810172525 * off - 3] & 0xff) << 16) + ((buffer[off * -810172525 - 2] & 0xff) << 8)));
 	}

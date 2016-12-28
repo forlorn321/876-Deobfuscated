@@ -9,7 +9,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Random;
 
-public class Class638 implements Interface13 {
+public class Class638 implements DefinitionI {
 	int anInt8302;
 	Class645 aClass645_8303;
 	public int anInt8304;

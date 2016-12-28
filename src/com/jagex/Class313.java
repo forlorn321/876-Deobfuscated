@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class313 implements Interface13 {
+public class Class313 implements DefinitionI {
 	short[] aShortArray3488;
 	byte[] aByteArray3489;
 	short[] aShortArray3490;

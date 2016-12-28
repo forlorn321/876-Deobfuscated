@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class536_Sub18_Sub1 extends Class536_Sub18 implements Interface13, Interface7 {
+public class Class536_Sub18_Sub1 extends Class536_Sub18 implements DefinitionI, Interface7 {
 	public int anInt11327 = 0;
 	public int[] anIntArray11328;
 	public int[] anIntArray11329;

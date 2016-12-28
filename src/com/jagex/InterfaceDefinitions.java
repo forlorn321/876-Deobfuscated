@@ -47,7 +47,7 @@ public class InterfaceDefinitions {
 	public int anInt2572;
 	public int anInt2573;
 	public int anInt2574;
-	public Class536_Sub14 aClass536_Sub14_2575;
+	public IComponentSettings aClass536_Sub14_2575;
 	public int anInt2576;
 	public int anInt2577;
 	public boolean aBool2578;
@@ -327,7 +327,7 @@ public class InterfaceDefinitions {
 			anInt2587 = class536_sub33.readInt() * 1647150685;
 			aBool2692 = class536_sub33.readUnsignedByte() == 1;
 		}
-		int i_7_ = class536_sub33.read24BitUnsignedInteger(1115932125);
+		int i_7_ = class536_sub33.read24BitUnsignedInteger();
 		int i_8_ = class536_sub33.readUnsignedByte();
 		if (i_8_ != 0) {
 			aByteArrayArray2647 = new byte[11][];
@@ -377,7 +377,7 @@ public class InterfaceDefinitions {
 		anInt2534 = class536_sub33.readUnsignedByte() * 52080145;
 		aString2665 = class536_sub33.readString();
 		int i_19_ = -1;
-		if (Class703.method8258(i_7_, 2109459857) != 0) {
+		if (IComponentSettings.method8258(i_7_) != 0) {
 			i_19_ = class536_sub33.readUnsignedShort();
 			if (65535 == i_19_)
 				i_19_ = -1;
@@ -393,17 +393,17 @@ public class InterfaceDefinitions {
 			if (1973741201 * anInt2713 == 65535)
 				anInt2713 = -1993579121;
 		}
-		aClass536_Sub14_2575 = new Class536_Sub14(i_7_, i_19_);
+		aClass536_Sub14_2575 = new IComponentSettings(i_7_, i_19_);
 		if (i_3_ >= 0) {
 			int i_20_ = class536_sub33.readUnsignedByte();
 			for (int i_21_ = 0; i_21_ < i_20_; i_21_++) {
-				int i_22_ = class536_sub33.read24BitUnsignedInteger(773993057);
+				int i_22_ = class536_sub33.read24BitUnsignedInteger();
 				int i_23_ = class536_sub33.readInt();
 				aClass4_2630.method560(new Class536_Sub26(i_23_), (long) i_22_);
 			}
 			int i_24_ = class536_sub33.readUnsignedByte();
 			for (int i_25_ = 0; i_25_ < i_24_; i_25_++) {
-				int i_26_ = class536_sub33.read24BitUnsignedInteger(1184258397);
+				int i_26_ = class536_sub33.read24BitUnsignedInteger();
 				String string = class536_sub33.readVersionedString();
 				aClass4_2630.method560(new Class536_Sub13(string), (long) i_26_);
 			}
@@ -528,7 +528,7 @@ public class InterfaceDefinitions {
 		aBool2644 = false;
 		anInt2643 = 0;
 		aBool2608 = false;
-		aClass536_Sub14_2575 = Class536_Sub14.aClass536_Sub14_10477;
+		aClass536_Sub14_2575 = IComponentSettings.aClass536_Sub14_10477;
 		aBool2582 = false;
 		aString2556 = "";
 		anInt2660 = -726833675;
@@ -1085,7 +1085,7 @@ public class InterfaceDefinitions {
 			return class177;
 		}
 		if (4 == anInt2601 * 1939619399) {
-			Class1 class1 = ((Class1) class34_sub13.method70(-2011124813 * anInt2602, (byte) 6));
+			ItemDefinitions class1 = ((ItemDefinitions) class34_sub13.method70(-2011124813 * anInt2602, (byte) 6));
 			Class177 class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
 			if (null == class177) {
 				aBool2724 = true;

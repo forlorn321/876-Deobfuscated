@@ -39,7 +39,7 @@ public class Class536_Sub1 extends Class536 {
 			int i_5_ = i_2_;
 			boolean bool_6_ = false;
 			for (int i_7_ = 0; i_7_ < is.length; i_7_++) {
-				if (-1 != is[i_7_] && !((Class1) Class111.aClass34_Sub13_1391.method70(is[i_7_], (byte) 6)).method515(bool, null, 1585092918))
+				if (-1 != is[i_7_] && !((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(is[i_7_], (byte) 6)).method515(bool, null, 1585092918))
 					bool_6_ = true;
 			}
 			if (bool_6_)
@@ -47,7 +47,7 @@ public class Class536_Sub1 extends Class536 {
 			Class180[] class180s = new Class180[is.length];
 			for (int i_8_ = 0; i_8_ < is.length; i_8_++) {
 				if (-1 != is[i_8_])
-					class180s[i_8_] = ((Class1) Class111.aClass34_Sub13_1391.method70(is[i_8_], (byte) 2)).method509(bool, null, 2055272488);
+					class180s[i_8_] = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(is[i_8_], (byte) 2)).method509(bool, null, 2055272488);
 			}
 			if (null != class589 && class589.anIntArrayArray7749 != null) {
 				for (int i_9_ = 0; i_9_ < class589.anIntArrayArray7749.length; i_9_++) {

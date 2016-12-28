@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class546 implements Interface13 {
+public class Class546 implements DefinitionI {
 	public int anInt7278;
 	static final int anInt7279 = 70;
 	public int anInt7280;

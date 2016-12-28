@@ -21,7 +21,7 @@ public class OutgoingPacket {
 	public static OutgoingPacket aClass414_4416;
 	public static OutgoingPacket ACTION_BUTTON_1;
 	public static OutgoingPacket aClass414_4418;
-	public static OutgoingPacket aClass414_4419;
+	public static OutgoingPacket COMMANDS_PACKET;
 	public static OutgoingPacket ACTION_BUTTON_4;
 	public static OutgoingPacket ACTION_BUTTON_6;
 	public static OutgoingPacket aClass414_4422;
@@ -239,7 +239,7 @@ public class OutgoingPacket {
 		aClass414_4508 = new OutgoingPacket(106, 0);
 		aClass414_4435 = new OutgoingPacket(107, 17);
 		aClass414_4440 = new OutgoingPacket(108, 4);
-		aClass414_4419 = new OutgoingPacket(109, -1);
+		COMMANDS_PACKET = new OutgoingPacket(109, -1);
 		aClass414_4512 = new OutgoingPacket(110, 18);
 		aClass414_4513 = new OutgoingPacket(111, -1);
 		aClass414_4514 = new OutgoingPacket(112, -2);

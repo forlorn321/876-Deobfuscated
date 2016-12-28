@@ -74,9 +74,9 @@ public class Class540 {
 		class668.anInt8542 -= 1472892954;
 		int i_14_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_15_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
-		Class1 class1 = ((Class1) Class111.aClass34_Sub13_1391.method70(i_14_, (byte) -19));
-		if (i_15_ >= 1 && i_15_ <= 5 && null != class1.aStringArray24[i_15_ - 1])
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class1.aStringArray24[i_15_ - 1];
+		ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_14_, (byte) -19));
+		if (i_15_ >= 1 && i_15_ <= 5 && null != class1.inventoryOptions[i_15_ - 1])
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class1.inventoryOptions[i_15_ - 1];
 		else
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 	}

@@ -1128,7 +1128,7 @@ public class Class593 {
 			Class603.method7201(class668, -1687082133);
 			break;
 		case 445:
-			Class536_Sub14.method9500(class668, (byte) -1);
+			IComponentSettings.method9500(class668, (byte) -1);
 			break;
 		case 1100:
 			Class61.method1043(class668, 653672513);
@@ -1218,7 +1218,7 @@ public class Class593 {
 			Class441.method5329(class668, -2110992489);
 			break;
 		case 39:
-			Class1.method523(class668, 1857517913);
+			ItemDefinitions.method523(class668, 1857517913);
 			break;
 		case 1103:
 			Class285.method3840(class668, -1610843831);
@@ -3053,7 +3053,7 @@ public class Class593 {
 			Class504.method6078(class668, (short) -7461);
 			break;
 		case 145:
-			Class1.method525(class668, (byte) 30);
+			ItemDefinitions.method525(class668, (byte) 30);
 			break;
 		case 340:
 			Class664.method7990(class668, -825581025);
@@ -3842,7 +3842,7 @@ public class Class593 {
 			Class188.method2791(class668, 1933392010);
 			break;
 		case 499:
-			Class536_Sub14.method9499(class668, (byte) 0);
+			IComponentSettings.method9499(class668, (byte) 0);
 			break;
 		case 778:
 			Class528.method6435(class668, 1472260417);

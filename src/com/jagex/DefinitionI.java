@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public interface Interface13 {
+public interface DefinitionI {
 	public void method74(RSByteBuffer class536_sub33, int i);
 
 	public void method75(byte i);

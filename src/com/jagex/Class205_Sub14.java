@@ -168,7 +168,7 @@ public class Class205_Sub14 extends Class205 {
 		anInt9910 = class536_sub33.readUnsignedShort() * 1208451057;
 		anInt9918 = class536_sub33.readUnsignedByte() * -86326947;
 		anInt9915 = class536_sub33.readUnsignedByte() * -1667516553;
-		anInt9917 = class536_sub33.read24BitUnsignedInteger(912386209) * 1189889357;
+		anInt9917 = class536_sub33.read24BitUnsignedInteger() * 1189889357;
 		anInt9905 = class536_sub33.readUnsignedShort() * 288637087;
 		anInt9919 = class536_sub33.readUnsignedByte() * -1827769969;
 	}
@@ -200,7 +200,7 @@ public class Class205_Sub14 extends Class205 {
 
 	static Class536_Sub18_Sub14 method9075(Class461 class461, int i, int i_20_) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(class461.method5556(0, i, (byte) 1));
-		return Class1.method526(class536_sub33, i, -935823897);
+		return ItemDefinitions.method526(class536_sub33, i, -935823897);
 	}
 
 	static Class536_Sub18_Sub16 method9076(byte[] is, int i) {

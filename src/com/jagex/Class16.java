@@ -36,15 +36,15 @@ public abstract class Class16 implements Interface6 {
 			if (class143 != null)
 				return class143;
 		}
-		Class1 class1 = (Class1) interface12.method70(i, (byte) -100);
-		if (i_1_ > 1 && null != class1.anIntArray61) {
+		ItemDefinitions class1 = (ItemDefinitions) interface12.method70(i, (byte) -100);
+		if (i_1_ > 1 && null != class1.stackIds) {
 			int i_7_ = -1;
 			for (int i_8_ = 0; i_8_ < 10; i_8_++) {
-				if (i_1_ >= class1.anIntArray62[i_8_] && 0 != class1.anIntArray62[i_8_])
-					i_7_ = class1.anIntArray61[i_8_];
+				if (i_1_ >= class1.stackAmounts[i_8_] && 0 != class1.stackAmounts[i_8_])
+					i_7_ = class1.stackIds[i_8_];
 			}
 			if (i_7_ != -1)
-				class1 = (Class1) interface12.method70(i_7_, (byte) -6);
+				class1 = (ItemDefinitions) interface12.method70(i_7_, (byte) -6);
 		}
 		int[] is = class1.method513(class167, class167_0_, i_1_, i_2_, i_3_, bool, i_5_, class184, class617, class628, 1983241245);
 		if (is == null)

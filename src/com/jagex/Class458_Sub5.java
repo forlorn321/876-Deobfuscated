@@ -57,7 +57,7 @@ final class Class458_Sub5 extends Class458 {
 
 	static final void method9375(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class1 class1 = (Class1) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -76);
+		ItemDefinitions class1 = (ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -76);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class1.aBool84 ? 1 : 0;
 	}
 }

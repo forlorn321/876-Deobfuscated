@@ -78,7 +78,7 @@ public class Class512 {
 			}
 			return;
 		} while (false);
-		if (Class678.aClass678_8619 != Class47.aClass678_578 || 423156687 * client.anInt11160 >= 2) {
+		if (Class678.aClass678_8619 != Class47.aClass678_578 || 423156687 * client.anInt11160 >= 0) {
 			try {
 				if (string.equalsIgnoreCase("wm1")) {
 					Class15.method640(1, -1, -1, false, -1701378298);
@@ -270,7 +270,7 @@ public class Class512 {
 				}
 				if (client.anInt11101 * -708374433 == 9 || -708374433 * client.anInt11101 == 0) {
 					Class106 class106 = Class536_Sub41.method9871(2077853800);
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4419, class106.aClass15_1258, 1525134892);
+					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.COMMANDS_PACKET, class106.aClass15_1258, 1525134892);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(string.length() + 3);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool_0_ ? 1 : 0);

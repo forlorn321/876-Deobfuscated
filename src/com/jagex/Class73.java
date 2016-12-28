@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class73 implements Interface13, Interface7 {
+public class Class73 implements DefinitionI, Interface7 {
 	public boolean aBool802 = true;
 	public int anInt803;
 	Class453 aClass453_804;
@@ -96,7 +96,7 @@ public class Class73 implements Interface13, Interface7 {
 	}
 
 	static int method1132(InterfaceDefinitions class251, int i, int i_3_) {
-		if (!client.method10389(class251).method9472(i, -1495350477) && class251.anObjectArray2705 == null)
+		if (!client.getIComponentSettings(class251).method9472(i) && class251.anObjectArray2705 == null)
 			return -1;
 		return ((null != class251.anIntArray2668 && class251.anIntArray2668.length > i) ? class251.anIntArray2668[i] : -1);
 	}

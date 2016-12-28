@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class574 implements Interface13, Interface7 {
+public class Class574 implements DefinitionI, Interface7 {
 	int anInt7640;
 	Class569 aClass569_7641;
 	int[] anIntArray7642;
@@ -112,7 +112,7 @@ public class Class574 implements Interface13, Interface7 {
 	static final void method6946(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.method10389(class251).method9474((byte) 3);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.getIComponentSettings(class251).method9474();
 	}
 
 	static void method6947(int i, byte i_6_) {

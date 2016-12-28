@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class311 implements Interface13, Interface7 {
+public class Class311 implements DefinitionI, Interface7 {
 	public int anInt3475;
 	public int anInt3476 = -1289603752;
 	public int anInt3477;
@@ -38,7 +38,7 @@ public class Class311 implements Interface13, Interface7 {
 		else if (i == 5)
 			anInt3483 = class536_sub33.readBigSmart() * 718669759;
 		else if (i == 6)
-			anInt3481 = class536_sub33.read24BitUnsignedInteger(1308808177) * -496105867;
+			anInt3481 = class536_sub33.read24BitUnsignedInteger() * -496105867;
 		else if (7 == i) {
 			anInt3475 = class536_sub33.readShort((byte) -88) * -1777370783;
 			anInt3484 = class536_sub33.readShort((byte) -65) * -580593381;

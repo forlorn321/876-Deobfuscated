@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class647 implements Interface13, Interface7 {
+public class Class647 implements DefinitionI, Interface7 {
 	public boolean aBool8362;
 	int anInt8363;
 	public int anInt8364 = 0;
@@ -36,7 +36,7 @@ public class Class647 implements Interface13, Interface7 {
 
 	void method7811(RSByteBuffer class536_sub33, int i, int i_1_) {
 		if (i == 1)
-			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(1284000565), (byte) 50) * 1852842473;
+			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) 50) * 1852842473;
 		else if (i == 2)
 			anInt8365 = class536_sub33.readUnsignedByte() * 1883456873;
 		else if (i == 3) {
@@ -46,7 +46,7 @@ public class Class647 implements Interface13, Interface7 {
 		} else if (5 == i)
 			aBool8362 = false;
 		else if (i == 7)
-			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(1258087298), (byte) 5) * -114755775;
+			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) 5) * -114755775;
 		else if (8 != i) {
 			if (9 == i)
 				anInt8372 = ((class536_sub33.readUnsignedShort() << 2) * 204951213);
@@ -57,7 +57,7 @@ public class Class647 implements Interface13, Interface7 {
 			else if (12 == i)
 				aBool8371 = true;
 			else if (i == 13)
-				anInt8367 = class536_sub33.read24BitUnsignedInteger(986149512) * 1189193267;
+				anInt8367 = class536_sub33.read24BitUnsignedInteger() * 1189193267;
 			else if (i == 14)
 				anInt8368 = (class536_sub33.readUnsignedByte() << 2) * 225541593;
 			else if (16 == i)
@@ -98,7 +98,7 @@ public class Class647 implements Interface13, Interface7 {
 
 	void method7812(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(903994787), (byte) -33) * 1852842473;
+			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) -33) * 1852842473;
 		else if (i == 2)
 			anInt8365 = class536_sub33.readUnsignedByte() * 1883456873;
 		else if (i == 3) {
@@ -108,7 +108,7 @@ public class Class647 implements Interface13, Interface7 {
 		} else if (5 == i)
 			aBool8362 = false;
 		else if (i == 7)
-			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(1789269078), (byte) 21) * -114755775;
+			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) 21) * -114755775;
 		else if (8 != i) {
 			if (9 == i)
 				anInt8372 = ((class536_sub33.readUnsignedShort() << 2) * 204951213);
@@ -119,7 +119,7 @@ public class Class647 implements Interface13, Interface7 {
 			else if (12 == i)
 				aBool8371 = true;
 			else if (i == 13)
-				anInt8367 = class536_sub33.read24BitUnsignedInteger(1301969592) * 1189193267;
+				anInt8367 = class536_sub33.read24BitUnsignedInteger() * 1189193267;
 			else if (i == 14)
 				anInt8368 = ((class536_sub33.readUnsignedByte() << 2) * 225541593);
 			else if (16 == i)
@@ -154,7 +154,7 @@ public class Class647 implements Interface13, Interface7 {
 
 	void method7813(RSByteBuffer class536_sub33, int i) {
 		if (i == 1)
-			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(786261806), (byte) 51) * 1852842473;
+			anInt8364 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) 51) * 1852842473;
 		else if (i == 2)
 			anInt8365 = class536_sub33.readUnsignedByte() * 1883456873;
 		else if (i == 3) {
@@ -164,7 +164,7 @@ public class Class647 implements Interface13, Interface7 {
 		} else if (5 == i)
 			aBool8362 = false;
 		else if (i == 7)
-			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(2043304224), (byte) 30) * -114755775;
+			anInt8366 = Class449.method5416(class536_sub33.read24BitUnsignedInteger(), (byte) 30) * -114755775;
 		else if (8 != i) {
 			if (9 == i)
 				anInt8372 = ((class536_sub33.readUnsignedShort() << 2) * 204951213);
@@ -175,7 +175,7 @@ public class Class647 implements Interface13, Interface7 {
 			else if (12 == i)
 				aBool8371 = true;
 			else if (i == 13)
-				anInt8367 = class536_sub33.read24BitUnsignedInteger(1343775908) * 1189193267;
+				anInt8367 = class536_sub33.read24BitUnsignedInteger() * 1189193267;
 			else if (i == 14)
 				anInt8368 = (class536_sub33.readUnsignedByte() << 2) * 225541593;
 			else if (16 == i)

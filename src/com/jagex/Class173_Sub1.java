@@ -96,7 +96,7 @@ public class Class173_Sub1 extends Class173 {
 			class251.anInt2572 = ((-206409331 * class251.anInt2655 * i_11_ >> 14) + (i_11_ - 223822141 * class251.anInt2574) / 2) * 464397613;
 		else
 			class251.anInt2572 = (i_11_ - class251.anInt2574 * 223822141 - (i_11_ * (class251.anInt2655 * -206409331) >> 14)) * 464397613;
-		if (client.aBool11010 && (client.method10389(class251).anInt10469 * -512963777 != 0 || class251.anInt2728 * 1049444347 == 0)) {
+		if (client.aBool11010 && (client.getIComponentSettings(class251).settings * -512963777 != 0 || class251.anInt2728 * 1049444347 == 0)) {
 			if (class251.anInt2571 * 1151043453 < 0)
 				class251.anInt2571 = 0;
 			else if ((1151043453 * class251.anInt2571 + -1606950689 * class251.anInt2573) > i)

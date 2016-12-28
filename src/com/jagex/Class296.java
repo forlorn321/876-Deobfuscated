@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.util.Arrays;
 
-public class Class296 implements Interface13 {
+public class Class296 implements DefinitionI {
 	public boolean aBool3265;
 	public static final int anInt3266 = 8;
 	public static short[] aShortArray3267 = new short[256];
@@ -325,7 +325,7 @@ public class Class296 implements Interface13 {
 					}
 					for (int i_35_ = 0; i_35_ < i_33_; i_35_++) {
 						boolean bool = class536_sub33.readUnsignedByte() == 1;
-						int i_36_ = class536_sub33.read24BitUnsignedInteger(814509791);
+						int i_36_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
 							class536 = (new Class536_Sub13(class536_sub33.readString()));
@@ -590,7 +590,7 @@ public class Class296 implements Interface13 {
 					}
 					for (int i_74_ = 0; i_74_ < i_72_; i_74_++) {
 						boolean bool = class536_sub33.readUnsignedByte() == 1;
-						int i_75_ = class536_sub33.read24BitUnsignedInteger(1800314387);
+						int i_75_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
 							class536 = (new Class536_Sub13(class536_sub33.readString()));
@@ -1080,7 +1080,7 @@ public class Class296 implements Interface13 {
 					}
 					for (int i_131_ = 0; i_131_ < i_129_; i_131_++) {
 						boolean bool = class536_sub33.readUnsignedByte() == 1;
-						int i_132_ = class536_sub33.read24BitUnsignedInteger(862057578);
+						int i_132_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
 							class536 = (new Class536_Sub13(class536_sub33.readString()));
@@ -1347,7 +1347,7 @@ public class Class296 implements Interface13 {
 					}
 					for (int i_168_ = 0; i_168_ < i_166_; i_168_++) {
 						boolean bool = class536_sub33.readUnsignedByte() == 1;
-						int i_169_ = class536_sub33.read24BitUnsignedInteger(753467725);
+						int i_169_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
 							class536 = (new Class536_Sub13(class536_sub33.readString()));
@@ -1603,7 +1603,7 @@ public class Class296 implements Interface13 {
 					}
 					for (int i_205_ = 0; i_205_ < i_203_; i_205_++) {
 						boolean bool = class536_sub33.readUnsignedByte() == 1;
-						int i_206_ = class536_sub33.read24BitUnsignedInteger(1385182686);
+						int i_206_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
 							class536 = (new Class536_Sub13(class536_sub33.readString()));

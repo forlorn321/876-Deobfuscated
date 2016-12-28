@@ -147,7 +147,7 @@ public class Class306 implements Interface30 {
 	}
 
 	void method4111(int i) {
-		Class1.method527(Class192.aClass292_2177.method3944(2088325628), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], -1738070155);
+		ItemDefinitions.method527(Class192.aClass292_2177.method3944(2088325628), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], -1738070155);
 	}
 
 	public void method182(int i) {
@@ -265,15 +265,15 @@ public class Class306 implements Interface30 {
 	}
 
 	void method4114() {
-		Class1.method527(Class192.aClass292_2177.method3944(470909930), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], 2033254005);
+		ItemDefinitions.method527(Class192.aClass292_2177.method3944(470909930), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], 2033254005);
 	}
 
 	void method4115() {
-		Class1.method527(Class192.aClass292_2177.method3944(-2005426549), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], -704455680);
+		ItemDefinitions.method527(Class192.aClass292_2177.method3944(-2005426549), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], -704455680);
 	}
 
 	void method4116() {
-		Class1.method527(Class192.aClass292_2177.method3944(-368102923), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], 1996135866);
+		ItemDefinitions.method527(Class192.aClass292_2177.method3944(-368102923), Class192.aClass292_2177.method3936((byte) 11), client.aColorArray11038[247320061 * client.anInt10988], client.aColorArray11039[client.anInt10988 * 247320061], client.aColorArray11058[247320061 * client.anInt10988], 1996135866);
 	}
 
 	public void method183() {

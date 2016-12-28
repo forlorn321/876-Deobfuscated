@@ -19,15 +19,15 @@ public class Class270 implements Interface6 {
 		return com.jagex.Class277.class;
 	}
 
-	public Interface13 method53(int i, Interface12 interface12) {
+	public DefinitionI method53(int i, Interface12 interface12) {
 		return new Class277(i, interface12);
 	}
 
-	public Interface13 method54(int i, Interface12 interface12) {
+	public DefinitionI method54(int i, Interface12 interface12) {
 		return new Class277(i, interface12);
 	}
 
-	public Interface13 method55(int i, Interface12 interface12, int i_0_) {
+	public DefinitionI method55(int i, Interface12 interface12, int i_0_) {
 		return new Class277(i, interface12);
 	}
 

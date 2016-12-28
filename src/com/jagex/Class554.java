@@ -84,7 +84,7 @@ public abstract class Class554 {
 
 	public static void method6783(byte i) {
 		if (Class225.method3218(-110920746))
-			Class536_Sub14.method9498(new Class629(), (byte) -99);
+			IComponentSettings.method9498(new Class629(), (byte) -99);
 	}
 
 	static final void method6784(Class668 class668, int i) {
@@ -96,7 +96,7 @@ public abstract class Class554 {
 	}
 
 	static String method6785(InterfaceDefinitions class251, int i) {
-		if (client.method10389(class251).method9474((byte) 3) == 0)
+		if (client.getIComponentSettings(class251).method9474() == 0)
 			return null;
 		if (null == class251.aString2665 || class251.aString2665.trim().length() == 0) {
 			if (client.aBool11010)

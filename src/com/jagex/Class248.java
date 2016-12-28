@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class248 implements Interface13 {
+public class Class248 implements DefinitionI {
 	int anInt2478;
 	Interface12 anInterface12_2479;
 	public int anInt2480;
@@ -71,9 +71,9 @@ public class Class248 implements Interface13 {
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
-			anInt2484 = class536_sub33.read24BitUnsignedInteger(1042086526) * -180963073;
+			anInt2484 = class536_sub33.read24BitUnsignedInteger() * -180963073;
 		else if (i == 5)
-			anInt2523 = class536_sub33.read24BitUnsignedInteger(1332555378) * 2016971861;
+			anInt2523 = class536_sub33.read24BitUnsignedInteger() * 2016971861;
 		else if (i == 6)
 			anInt2486 = class536_sub33.readUnsignedByte() * -7622749;
 		else if (i == 7) {
@@ -173,7 +173,7 @@ public class Class248 implements Interface13 {
 			}
 			for (int i_12_ = 0; i_12_ < i_10_; i_12_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_13_ = class536_sub33.read24BitUnsignedInteger(891131558);
+				int i_13_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());
@@ -291,9 +291,9 @@ public class Class248 implements Interface13 {
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
-			anInt2484 = class536_sub33.read24BitUnsignedInteger(1364121898) * -180963073;
+			anInt2484 = class536_sub33.read24BitUnsignedInteger() * -180963073;
 		else if (i == 5)
-			anInt2523 = class536_sub33.read24BitUnsignedInteger(1356482836) * 2016971861;
+			anInt2523 = class536_sub33.read24BitUnsignedInteger() * 2016971861;
 		else if (i == 6)
 			anInt2486 = class536_sub33.readUnsignedByte() * -7622749;
 		else if (i == 7) {
@@ -393,7 +393,7 @@ public class Class248 implements Interface13 {
 			}
 			for (int i_32_ = 0; i_32_ < i_30_; i_32_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_33_ = class536_sub33.read24BitUnsignedInteger(829971068);
+				int i_33_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());
@@ -476,9 +476,9 @@ public class Class248 implements Interface13 {
 		else if (3 == i)
 			aString2483 = class536_sub33.readString();
 		else if (i == 4)
-			anInt2484 = class536_sub33.read24BitUnsignedInteger(2072582021) * -180963073;
+			anInt2484 = class536_sub33.read24BitUnsignedInteger() * -180963073;
 		else if (i == 5)
-			anInt2523 = class536_sub33.read24BitUnsignedInteger(1711152072) * 2016971861;
+			anInt2523 = class536_sub33.read24BitUnsignedInteger() * 2016971861;
 		else if (i == 6)
 			anInt2486 = class536_sub33.readUnsignedByte() * -7622749;
 		else if (i == 7) {
@@ -578,7 +578,7 @@ public class Class248 implements Interface13 {
 			}
 			for (int i_50_ = 0; i_50_ < i_48_; i_50_++) {
 				boolean bool = class536_sub33.readUnsignedByte() == 1;
-				int i_51_ = class536_sub33.read24BitUnsignedInteger(1044077007);
+				int i_51_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
 					class536 = new Class536_Sub13(class536_sub33.readString());

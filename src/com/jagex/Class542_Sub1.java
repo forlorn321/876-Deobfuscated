@@ -209,10 +209,10 @@ public class Class542_Sub1 extends Class542 {
 	}
 
 	static boolean method9848(InterfaceDefinitions class251, int i) {
-		Class536_Sub14 class536_sub14 = client.method10389(class251);
-		if (class536_sub14.method9494(-1411037171) > 0)
+		IComponentSettings class536_sub14 = client.getIComponentSettings(class251);
+		if (class536_sub14.method9494() > 0)
 			return true;
-		if (class536_sub14.method9477(1969330973))
+		if (class536_sub14.method9477())
 			return true;
 		if (null != class251.aClass251_2553)
 			return true;
