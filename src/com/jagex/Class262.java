@@ -184,7 +184,7 @@ public class Class262 {
 		buffer.finishBitAccess(-1878447564);
 	}
 
-	static Interface19 method3643(Class350 class350, int i) {
+	static Interface19 method3643(ClanSettings class350, int i) {
 		return new Class660(class350);
 	}
 }

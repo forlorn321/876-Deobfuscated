@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class Class34 implements Interface12 {
 	Class199 aClass199_287;
-	Class648 aClass648_288;
+	JS5ConfigGroup aClass648_288;
 	protected Interface6 anInterface6_289;
 	public int anInt290;
 	Class461 aClass461_291;
@@ -97,7 +97,7 @@ public class Class34 implements Interface12 {
 		return 2103424577 * anInt290;
 	}
 
-	public Class34(GameMode class670, Class664 class664, Class461 class461, Class648 class648, int i, Interface6 interface6) {
+	public Class34(GameMode class670, Class664 class664, Class461 class461, JS5ConfigGroup class648, int i, Interface6 interface6) {
 		aClass461_291 = class461;
 		aClass648_288 = class648;
 		anInterface6_289 = interface6;

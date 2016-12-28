@@ -88,8 +88,8 @@ public class Class323 implements Runnable {
 		/* empty */
 	}
 
-	public static String method4257(RSByteBuffer class536_sub33, byte i) {
-		return Class660.method7972(class536_sub33, 32767, -1483388020);
+	public static String unpackHuffmanString(RSByteBuffer buffer) {
+		return Class660.unpackHuffmanString(buffer, 32767);
 	}
 
 	static final void method4258(Class668 class668, int i) {

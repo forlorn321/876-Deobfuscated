@@ -7,7 +7,7 @@ final class Class458_Sub4 extends Class458 {
 	public static Class536_Sub38 aClass536_Sub38_10336;
 	public static int anInt10337;
 
-	Class458_Sub4(Class648 class648, int i, boolean bool, boolean bool_0_) {
+	Class458_Sub4(JS5ConfigGroup class648, int i, boolean bool, boolean bool_0_) {
 		super(class648, i, bool, bool_0_);
 	}
 

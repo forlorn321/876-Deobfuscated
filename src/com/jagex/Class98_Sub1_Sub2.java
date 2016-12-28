@@ -12,7 +12,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 	static int anInt11335;
 
 	Class153_Sub2 method10492(int i, byte i_0_) {
-		byte[] is = aClass461_11332.method5556((aClass458_8868.method5498(1026582322).anInt8389) * 1716263195, i, (byte) 1);
+		byte[] is = aClass461_11332.method5556((aClass458_8868.method5498(1026582322).id) * 1716263195, i, (byte) 1);
 		Class153_Sub2 class153_sub2 = new Class153_Sub2(aClass458_8868, i);
 		if (null != is)
 			class153_sub2.method74(new RSByteBuffer(is), -2120215925);
@@ -92,7 +92,7 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 	}
 
 	public Class98_Sub1_Sub2(GameMode class670, Class458 class458, Class664 class664, Class461 class461) {
-		super(class670, class458, class664, (class461 != null ? class461.method5566((class458.method5498(466181547).anInt8389 * 1716263195), 1044361307) : 0));
+		super(class670, class458, class664, (class461 != null ? class461.method5566((class458.method5498(466181547).id * 1716263195), 1044361307) : 0));
 		aClass461_11332 = class461;
 	}
 

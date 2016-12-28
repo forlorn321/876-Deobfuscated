@@ -6,7 +6,7 @@ package com.jagex;
 final class Class458_Sub2 extends Class458 {
 	public static Class98_Sub1_Sub2 aClass98_Sub1_Sub2_10306;
 
-	Class458_Sub2(Class648 class648, int i, boolean bool, boolean bool_0_) {
+	Class458_Sub2(JS5ConfigGroup class648, int i, boolean bool, boolean bool_0_) {
 		super(class648, i, bool, bool_0_);
 	}
 

@@ -22,11 +22,11 @@ public class Class536_Sub22_Sub10 extends Class536_Sub22 {
 		aString11694 = class536_sub33.method9713(16509697);
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4622(-4391481928540294381L * aLong11695, aString11694, 0, -1804882421);
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4622(-4391481928540294381L * aLong11695, aString11694, 0, 481275833);
 	}
 

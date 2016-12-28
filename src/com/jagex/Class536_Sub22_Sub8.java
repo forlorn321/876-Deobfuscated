@@ -18,11 +18,11 @@ public class Class536_Sub22_Sub8 extends Class536_Sub22 {
 		aBool11687 = class536_sub33.readUnsignedByte() == 1;
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4608(967878371 * anInt11686, aBool11687, -1411037171);
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4608(967878371 * anInt11686, aBool11687, -1411037171);
 	}
 

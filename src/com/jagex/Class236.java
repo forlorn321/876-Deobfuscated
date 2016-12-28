@@ -65,7 +65,7 @@ public class Class236 implements Interface75 {
 	}
 
 	public static void method3342(int[] is, float[] fs, float[] fs_1_, int i) {
-		Class648.method7828(is, fs, fs_1_, 0, is.length - 1, (byte) 89);
+		JS5ConfigGroup.method7828(is, fs, fs_1_, 0, is.length - 1, (byte) 89);
 	}
 
 	static void method3343(Class668 class668, int i) {

@@ -122,7 +122,7 @@ public class Class611 implements Interface75 {
 				class536_sub7.anInt10424 = -1723553063 * i_14_;
 				class536_sub7.anInt10427 = i_13_ * -1838853613;
 				class536_sub7.anInt10428 = i_15_ * 1031708437;
-				Class648.aClass708_8457.method8335(class536_sub7, -415494091);
+				JS5ConfigGroup.aClass708_8457.method8335(class536_sub7, -415494091);
 			}
 		}
 	}

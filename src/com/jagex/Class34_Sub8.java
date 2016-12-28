@@ -14,7 +14,7 @@ public class Class34_Sub8 extends Class34 {
 	}
 
 	public Class34_Sub8(GameMode class670, Class664 class664, Class461 class461, Class461 class461_2_) {
-		super(class670, class664, class461, Class648.aClass648_8413, 128, new Class247_Sub1(class461_2_, 64));
+		super(class670, class664, class461, JS5ConfigGroup.MEL_TYPE, 128, new Class247_Sub1(class461_2_, 64));
 	}
 
 	public void method809(byte i) {

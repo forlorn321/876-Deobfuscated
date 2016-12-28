@@ -130,7 +130,7 @@ public class Class402 implements Interface75 {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
-		IComponentDefinitions class251_7_ = Class648.method7834(class234, class251, -16777216);
+		IComponentDefinitions class251_7_ = JS5ConfigGroup.method7834(class234, class251, -16777216);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251_7_ == null ? -1 : class251_7_.anInt2559 * -1591767037;
 	}
 

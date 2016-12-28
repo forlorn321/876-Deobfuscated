@@ -9,7 +9,7 @@ public class Class536_Sub22_Sub1 extends Class536_Sub22 {
 	Class344 this$0;
 	static int[] anIntArray11618;
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4623(1108977277 * anInt11616, anInt11617 * 1326005639, (byte) -108);
 	}
 
@@ -18,7 +18,7 @@ public class Class536_Sub22_Sub1 extends Class536_Sub22 {
 		anInt11617 = class536_sub33.readInt() * 1972369463;
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4623(1108977277 * anInt11616, anInt11617 * 1326005639, (byte) -122);
 	}
 

@@ -15,7 +15,7 @@ public class Class536_Sub22_Sub11 extends Class536_Sub22 {
 		anInt11697 = class536_sub33.readUnsignedShort() * -1430835777;
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4603(637518399 * anInt11697, (byte) 106);
 	}
 
@@ -28,7 +28,7 @@ public class Class536_Sub22_Sub11 extends Class536_Sub22 {
 		anInt11697 = class536_sub33.readUnsignedShort() * -1430835777;
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4603(637518399 * anInt11697, (byte) 8);
 	}
 }

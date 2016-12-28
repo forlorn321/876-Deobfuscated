@@ -855,7 +855,7 @@ public class Class465_Sub1 extends Class465 {
 	}
 
 	static void method9387(int i) {
-		Class648.aClass708_8457 = null;
+		JS5ConfigGroup.aClass708_8457 = null;
 		Class542_Sub1.anInt10700 = 0;
 		Class542_Sub1.anInt7216 = 0;
 		Class72.aClass251_801 = null;

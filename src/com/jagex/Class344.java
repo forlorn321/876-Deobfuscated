@@ -102,7 +102,7 @@ public class Class344 {
 		}
 	}
 
-	public void method4480(Class350 class350, byte i) {
+	public void method4480(ClanSettings class350, byte i) {
 		if ((7284136569447624827L * aLong3666 != 2661818979595036235L * class350.aLong3701) || anInt3672 * -289909045 != class350.anInt3702 * 1667474273)
 			throw new RuntimeException("");
 		for (Class536_Sub22 class536_sub22 = (Class536_Sub22) aClass708_3667.method8308(1867269829); null != class536_sub22; class536_sub22 = (Class536_Sub22) aClass708_3667.method8311(1594461910))

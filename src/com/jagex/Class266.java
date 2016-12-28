@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class266 {
-	static Class282 aClass282_2866;
+	static Huffman huffman;
 	public static Class503 aClass503_2867;
 
 	Class266() throws Throwable {

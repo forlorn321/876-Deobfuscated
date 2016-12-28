@@ -428,13 +428,13 @@ public class Class191 implements DefinitionI {
 		}
 	}
 
-	static int method2840(Class461 class461, Class648 class648, int i) {
+	static int method2840(Class461 class461, JS5ConfigGroup class648, int i) {
 		if (class461 != null) {
-			if (class648.method7819(-1966275174) > 1) {
+			if (class648.getGroupSize() > 1) {
 				int i_52_ = class461.method5570(1085815444) - 1;
-				return (i_52_ * class648.method7819(655682450) + class461.method5566(i_52_, -522748013));
+				return (i_52_ * class648.getGroupSize() + class461.method5566(i_52_, -522748013));
 			}
-			return class461.method5566(class648.anInt8389 * 1716263195, 1096872211);
+			return class461.method5566(class648.id * 1716263195, 1096872211);
 		}
 		return 0;
 	}

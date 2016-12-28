@@ -334,8 +334,8 @@ public class Class310 {
 			Class207.aClass34_Sub22_2244 = new Class34_Sub22(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class497.aClass34_Sub16_5554 = new Class34_Sub16(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class580.aClass34_Sub19_7695 = new Class34_Sub19(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, Class398.aClass461_4122);
-			Class228.aClass34_2360 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, Class648.aClass648_8418, 64, new Class58(com.jagex.Class14.class));
-			Class205_Sub17.aClass34_9949 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, Class648.aClass648_8417, 16, new Class58(com.jagex.Class92.class));
+			Class228.aClass34_2360 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, JS5ConfigGroup.DB_ROW_TYPE, 64, new Class58(com.jagex.Class14.class));
+			Class205_Sub17.aClass34_9949 = new Class34(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887, JS5ConfigGroup.DB_TABLE_TYPE, 16, new Class58(com.jagex.Class92.class));
 			Class676.aClass34_Sub6_8589 = new Class34_Sub6(client.aClass670_11043, Class459.aClass664_5178, Class303.aClass461_3432);
 			Class654.aClass34_Sub4_8494 = new Class34_Sub4(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class279.aClass34_Sub3_3163 = new Class34_Sub3(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
@@ -379,7 +379,7 @@ public class Class310 {
 			Class69.method1094(Class45.aClass34_Sub11_529, (byte) -88);
 			Class160.method1963(Class402.aClass397_4204, Class237.aClass396_2422, 1709291521);
 			Class652.method7868(Class602.aClass461_7857, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, -1292180565);
-			Class282 class282 = new Class282(Class395.aClass461_4109.method5609("huffman", "", -6855510));
+			Huffman class282 = new Huffman(Class395.aClass461_4109.method5609("huffman", "", -6855510));
 			Class390.method4855(class282, -1695021445);
 			GameShell.aClass504_6883 = Class449.method5423(-1600254925);
 			Class458_Sub4.aClass536_Sub38_10336 = new Class536_Sub38(true);

@@ -276,8 +276,8 @@ public class Class536_Sub19 extends Class536 {
 				}
 			}
 		}
-		if (Class542_Sub1.aBool10717 && Class648.aClass708_8457 != null) {
-			for (Class536_Sub7 class536_sub7 = ((Class536_Sub7) Class648.aClass708_8457.method8308(1867269829)); class536_sub7 != null; class536_sub7 = (Class536_Sub7) Class648.aClass708_8457.method8311(943814293)) {
+		if (Class542_Sub1.aBool10717 && JS5ConfigGroup.aClass708_8457 != null) {
+			for (Class536_Sub7 class536_sub7 = ((Class536_Sub7) JS5ConfigGroup.aClass708_8457.method8308(1867269829)); class536_sub7 != null; class536_sub7 = (Class536_Sub7) JS5ConfigGroup.aClass708_8457.method8311(943814293)) {
 				Class248 class248 = ((Class248) (Class542_Sub1.aClass34_Sub8_7212.method70((class536_sub7.aClass536_Sub41_10426.anInt10793 * 2000440429), (byte) -50)));
 				if (class536_sub7.method9408(i, i_18_, (byte) -62)) {
 					if (class248.aStringArray2496 != null) {

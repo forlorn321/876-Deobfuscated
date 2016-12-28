@@ -59,7 +59,7 @@ public class Class100 {
 		int i_0_ = -810172525 * class536_sub33.off;
 		byte[] is = Class364.method4765(string, -1874135843);
 		class536_sub33.method9701(is.length, 2115389956);
-		class536_sub33.off += Class266.aClass282_2866.method3768(is, 0, is.length, (class536_sub33.buffer), (class536_sub33.off * -810172525), 1019413944) * 516175515;
+		class536_sub33.off += Class266.huffman.method3768(is, 0, is.length, (class536_sub33.buffer), (class536_sub33.off * -810172525), 1019413944) * 516175515;
 		return class536_sub33.off * -810172525 - i_0_;
 	}
 

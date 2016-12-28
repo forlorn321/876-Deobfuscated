@@ -29,7 +29,7 @@ public class Class34_Sub11 extends Class34 {
 	}
 
 	public Class34_Sub11(GameMode class670, Class664 class664, Class461 class461, Class461 class461_2_, Class461 class461_3_, Class34_Sub18 class34_sub18) {
-		super(class670, class664, class461, Class648.aClass648_8416, 64, new Class206_Sub1(class34_sub18, class461_2_, class461_3_));
+		super(class670, class664, class461, JS5ConfigGroup.SEQ_TYPE, 64, new Class206_Sub1(class34_sub18, class461_2_, class461_3_));
 	}
 
 	public void method806() {

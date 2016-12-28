@@ -39,7 +39,7 @@ public class Class536_Sub22_Sub3 extends Class536_Sub22 {
 		this$0 = class344;
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.aBool3724 = aBool11638;
 		class350.aByte3706 = aByte11636;
 		class350.aByte3698 = aByte11637;
@@ -47,7 +47,7 @@ public class Class536_Sub22_Sub3 extends Class536_Sub22 {
 		class350.aByte3704 = aByte11640;
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.aBool3724 = aBool11638;
 		class350.aByte3706 = aByte11636;
 		class350.aByte3698 = aByte11637;

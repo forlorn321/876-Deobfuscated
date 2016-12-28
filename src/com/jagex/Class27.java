@@ -118,7 +118,7 @@ public class Class27 implements Runnable {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (string.startsWith(Class635.method7563(0, (byte) 39)) || string.startsWith(Class635.method7563(1, (byte) -63)))
 			string = string.substring(7);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class350.method4638(string, (short) -220) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClanSettings.method4638(string, (short) -220) ? 1 : 0;
 	}
 
 	static final void method760(Class668 class668, int i) {
@@ -203,7 +203,7 @@ public class Class27 implements Runnable {
 				Class542_Sub1.aByteArrayArrayArray7177 = Class58.method974(Class542_Sub1.anInt7178, -733451043);
 				Class455.method5480((byte) 109);
 				Class542_Sub1.method6553();
-				Class648.aClass708_8457 = new Class708();
+				JS5ConfigGroup.aClass708_8457 = new Class708();
 				Class542_Sub1.anInt7175 += (int) (Math.random() * 5.0) - 2;
 				if (Class542_Sub1.anInt7175 < -8)
 					Class542_Sub1.anInt7175 = -8;

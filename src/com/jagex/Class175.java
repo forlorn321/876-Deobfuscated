@@ -36,7 +36,7 @@ public class Class175 {
 		try {
 			Class85 class85 = new Class85();
 			byte[] is = class85.method1185(Class291.aByteArray3231, 1793456077);
-			Class282.method3771(is, (byte) 12);
+			Huffman.method3771(is, (byte) 12);
 			bool = true;
 		} catch (Exception exception) {
 			return false;

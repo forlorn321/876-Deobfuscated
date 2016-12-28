@@ -2329,7 +2329,7 @@ public final class client extends GameShell {
 		if (0 == i)
 			return null;
 		for (int i_143_ = 0; i_143_ < i; i_143_++) {
-			class251 = Class648.method7834(Class402.method4924((-1591767037 * (class251.anInt2559)), -1178274465), class251, -16777216);
+			class251 = JS5ConfigGroup.method7834(Class402.method4924((-1591767037 * (class251.anInt2559)), -1178274465), class251, -16777216);
 			if (class251 == null)
 				return Class107.aClass251_1323;
 		}

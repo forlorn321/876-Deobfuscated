@@ -152,7 +152,7 @@ public class PacketDecoder {
 					if (class402.aBool4203) {
 						if (client.aBool11078 && !client.aBool11163 || client.aBool11166)
 							bool_17_ = true;
-						else if (Class350.method4638(string, (short) -2409))
+						else if (ClanSettings.method4638(string, (short) -2409))
 							bool_17_ = true;
 					}
 				}
@@ -160,7 +160,7 @@ public class PacketDecoder {
 			if (!bool_17_) {
 				client.aLongArray11235[632873891 * client.anInt11072] = l_16_;
 				client.anInt11072 = 308045835 * ((632873891 * client.anInt11072 + 1) % 100);
-				String string_19_ = (Class166.method1997(Class323.method4257(stream, (byte) 79), (byte) 98));
+				String string_19_ = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 98));
 				int i_20_ = bool ? 22 : 24;
 				if (1719069535 * class402.anInt4201 != -1)
 					Class536_Sub18_Sub2.method10491(i_20_, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) -31)).append(string).toString(), new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) 21)).append(string).toString(), string, string_19_, Class63.aClass226_717.method3255(-789593300), -1, class402, -294633906);
@@ -405,7 +405,7 @@ public class PacketDecoder {
 						break while_68_;
 					}
 				}
-				if (class402.aBool4203 && Class350.method4638(string_64_, (short) -15828))
+				if (class402.aBool4203 && ClanSettings.method4638(string_64_, (short) -15828))
 					bool_68_ = true;
 			} while (false);
 			if (!bool_68_) {
@@ -571,7 +571,7 @@ public class PacketDecoder {
 						break while_69_;
 					}
 				}
-				if (class402.aBool4203 && Class350.method4638(string_90_, (short) -8743))
+				if (class402.aBool4203 && ClanSettings.method4638(string_90_, (short) -8743))
 					bool_95_ = true;
 			} while (false);
 			if (!bool_95_) {
@@ -689,9 +689,9 @@ public class PacketDecoder {
 				return true;
 			}
 			if (bool)
-				Class256.aClass350_2762 = new Class350(stream);
+				Class256.aClass350_2762 = new ClanSettings(stream);
 			else
-				Class50.aClass350_585 = new Class350(stream);
+				Class50.aClass350_585 = new ClanSettings(stream);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -1064,7 +1064,7 @@ public class PacketDecoder {
 		}
 		if (class106.currentPacket == IncomingPacket.aClass422_4640) {
 			String string = stream.readString();
-			String string_177_ = Class166.method1997(Class323.method4257(stream, (byte) 65), (byte) 53);
+			String string_177_ = Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 53);
 			Class635.method7564(6, 0, string, string, string, string_177_, null, -1538266173);
 			class106.currentPacket = null;
 			return true;
@@ -1290,7 +1290,7 @@ public class PacketDecoder {
 							break while_70_;
 						}
 					}
-					if (class402.aBool4203 && Class350.method4638(string, (short) 6157))
+					if (class402.aBool4203 && ClanSettings.method4638(string, (short) 6157))
 						bool_221_ = true;
 				}
 			} while (false);
@@ -1352,14 +1352,14 @@ public class PacketDecoder {
 				if (class402.aBool4203) {
 					if (client.aBool11078 && !client.aBool11163 || client.aBool11166)
 						bool_229_ = true;
-					else if (Class350.method4638(string_226_, (short) 301))
+					else if (ClanSettings.method4638(string_226_, (short) 301))
 						bool_229_ = true;
 				}
 			} while (false);
 			if (!bool_229_) {
 				client.aLongArray11235[632873891 * client.anInt11072] = l_228_;
 				client.anInt11072 = 308045835 * ((1 + 632873891 * client.anInt11072) % 100);
-				String string_231_ = (Class166.method1997(Class323.method4257(stream, (byte) 75), (byte) 22));
+				String string_231_ = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 22));
 				int i_232_ = class402.aBool4202 ? 7 : 3;
 				if (-1 != class402.anInt4201 * 1719069535)
 					Class536_Sub18_Sub2.method10491(i_232_, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) -92)).append(string).toString(), new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) -58)).append(string_226_).toString(), string, string_231_, null, -1, class402, 2102642043);
@@ -1481,7 +1481,7 @@ public class PacketDecoder {
 			if (!bool_244_) {
 				client.aLongArray11235[632873891 * client.anInt11072] = l_243_;
 				client.anInt11072 = (client.anInt11072 * 632873891 + 1) % 100 * 308045835;
-				String string = Class323.method4257(stream, (byte) 36);
+				String string = Class323.unpackHuffmanString(stream);
 				int i_246_ = bool ? 43 : 46;
 				Class536_Sub18_Sub2.method10491(i_246_, 0, "", "", "", string, class536_sub15.aString10485, -1, null, -180123751);
 			}
@@ -1602,7 +1602,7 @@ public class PacketDecoder {
 			else if (98 == messageType)
 				Class298.method4013(message, -2086717899);
 			else {
-				if (!displayName.equals("") && Class350.method4638(displayName, (short) -6856)) {
+				if (!displayName.equals("") && ClanSettings.method4638(displayName, (short) -6856)) {
 					class106.currentPacket = null;
 					return true;
 				}
@@ -1803,7 +1803,7 @@ public class PacketDecoder {
 				if (class402.aBool4203) {
 					if (!bool && (client.aBool11078 && !client.aBool11163 || client.aBool11166))
 						bool_301_ = true;
-					else if (Class350.method4638((player.username), (short) -20530))
+					else if (ClanSettings.method4638((player.username), (short) -20530))
 						bool_301_ = true;
 				}
 				if (!bool_301_) {
@@ -1815,7 +1815,7 @@ public class PacketDecoder {
 						i_302_ = 810974573 * class382.anInt4013;
 						string = (class382.aClass536_Sub18_Sub10_4012.method10712(stream, (byte) -21));
 					} else
-						string = (Class166.method1997(Class323.method4257(stream, (byte) 40), (byte) 108));
+						string = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 108));
 					player.method11090(string.trim(), i_300_ >> 8, i_300_ & 0xff, (byte) 3);
 					int i_303_;
 					if (class402.aBool4202)
@@ -1878,7 +1878,7 @@ public class PacketDecoder {
 			client.anInt11226 = -49549167 * client.anInt11215;
 			boolean bool = stream.readUnsignedByte() == 1;
 			Class344 class344 = new Class344(stream);
-			Class350 class350;
+			ClanSettings class350;
 			if (bool)
 				class350 = Class256.aClass350_2762;
 			else
@@ -1986,7 +1986,7 @@ public class PacketDecoder {
 					if (class402.aBool4203) {
 						if (client.aBool11078 && !client.aBool11163 || client.aBool11166)
 							bool_333_ = true;
-						else if (Class350.method4638(string, (short) 7189))
+						else if (ClanSettings.method4638(string, (short) 7189))
 							bool_333_ = true;
 					}
 				}
@@ -1994,7 +1994,7 @@ public class PacketDecoder {
 			if (!bool_333_) {
 				client.aLongArray11235[client.anInt11072 * 632873891] = l_332_;
 				client.anInt11072 = 308045835 * ((1 + 632873891 * client.anInt11072) % 100);
-				String string_335_ = (Class166.method1997(Class323.method4257(stream, (byte) 29), (byte) 124));
+				String string_335_ = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 124));
 				int i_336_ = bool ? 41 : 44;
 				if (-1 != 1719069535 * class402.anInt4201)
 					Class536_Sub18_Sub2.method10491(i_336_, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 8)).append(string).toString(), new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 21)).append(string).toString(), string, string_335_, class536_sub15.aString10485, -1, class402, 1789658075);
@@ -2169,14 +2169,14 @@ public class PacketDecoder {
 				if (class402.aBool4203) {
 					if (client.aBool11078 && !client.aBool11163 || client.aBool11166)
 						bool_372_ = true;
-					else if (Class350.method4638(string_368_, (short) 1289))
+					else if (ClanSettings.method4638(string_368_, (short) 1289))
 						bool_372_ = true;
 				}
 			} while (false);
 			if (!bool_372_) {
 				client.aLongArray11235[632873891 * client.anInt11072] = l_371_;
 				client.anInt11072 = (1 + 632873891 * client.anInt11072) % 100 * 308045835;
-				String string_374_ = (Class166.method1997(Class323.method4257(stream, (byte) 36), (byte) 48));
+				String string_374_ = (Class166.method1997(Class323.unpackHuffmanString(stream), (byte) 48));
 				if (-1 != class402.anInt4201 * 1719069535)
 					Class536_Sub18_Sub2.method10491(9, 0, new StringBuilder().append(Class635.method7563((class402.anInt4201 * 1719069535), (byte) 80)).append(string).toString(), new StringBuilder().append(Class635.method7563((1719069535 * class402.anInt4201), (byte) -34)).append(string_368_).toString(), string, string_374_, string_369_, -1, class402, -686305909);
 				else
@@ -2700,7 +2700,7 @@ public class PacketDecoder {
 							break while_74_;
 						}
 					}
-					if (class402.aBool4203 && Class350.method4638(string, (short) 21599))
+					if (class402.aBool4203 && ClanSettings.method4638(string, (short) 21599))
 						bool_467_ = true;
 				}
 			} while (false);

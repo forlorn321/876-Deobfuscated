@@ -11,11 +11,11 @@ public class Class458 implements Interface75 {
 	static Class458 aClass458_5169;
 	public static Class458 aClass458_5170;
 	public static Class458 aClass458_5171;
-	Class648 aClass648_5172;
+	JS5ConfigGroup aClass648_5172;
 	static Class458 aClass458_5173;
 	public static Class458 aClass458_5174;
 	static Class458 aClass458_5175;
-	public static Class458 aClass458_5176 = new Class458_Sub5(Class648.aClass648_8429, 0, true, true);
+	public static Class458 aClass458_5176 = new Class458_Sub5(JS5ConfigGroup.VAR_PLAYER, 0, true, true);
 	static Class458 aClass458_5177;
 
 	public int method12() {
@@ -37,16 +37,16 @@ public class Class458 implements Interface75 {
 	}
 
 	static {
-		aClass458_5166 = new Class458_Sub2(Class648.aClass648_8432, 1, false, true);
-		aClass458_5167 = new Class458_Sub3(Class648.aClass648_8414, 2, true, true);
-		aClass458_5177 = new Class458_Sub1(Class648.aClass648_8412, 3, false, false);
-		aClass458_5169 = new Class458(Class648.aClass648_8435, 4, false, false);
-		aClass458_5170 = new Class458(Class648.aClass648_8422, 5, true, true);
-		aClass458_5171 = new Class458(Class648.aClass648_8437, 6, true, true);
-		aClass458_5165 = new Class458(Class648.aClass648_8438, 7, true, false);
-		aClass458_5173 = new Class458_Sub4(Class648.aClass648_8439, 8, false, false);
-		aClass458_5174 = new Class458(Class648.aClass648_8450, 9, false, true);
-		aClass458_5175 = new Class458(Class648.aClass648_8453, 10, false, false);
+		aClass458_5166 = new Class458_Sub2(JS5ConfigGroup.VAR_NPC, 1, false, true);
+		aClass458_5167 = new Class458_Sub3(JS5ConfigGroup.VAR_CLIENT, 2, true, true);
+		aClass458_5177 = new Class458_Sub1(JS5ConfigGroup.VAR_WORLD, 3, false, false);
+		aClass458_5169 = new Class458(JS5ConfigGroup.VAR_REGION, 4, false, false);
+		aClass458_5170 = new Class458(JS5ConfigGroup.VAR_OBJECT, 5, true, true);
+		aClass458_5171 = new Class458(JS5ConfigGroup.VAR_CLAN, 6, true, true);
+		aClass458_5165 = new Class458(JS5ConfigGroup.VAR_CLAN_SETTING, 7, true, false);
+		aClass458_5173 = new Class458_Sub4(JS5ConfigGroup.aClass648_8439, 8, false, false);
+		aClass458_5174 = new Class458(JS5ConfigGroup.VAR_PLAYER_GROUP, 9, false, true);
+		aClass458_5175 = new Class458(JS5ConfigGroup.aClass648_8453, 10, false, false);
 	}
 
 	public int method73() {
@@ -65,12 +65,12 @@ public class Class458 implements Interface75 {
 		return new Class458[] { aClass458_5176, aClass458_5173, aClass458_5165, aClass458_5170, aClass458_5171, aClass458_5174, aClass458_5167, aClass458_5169, aClass458_5166, aClass458_5177, aClass458_5175 };
 	}
 
-	Class458(Class648 class648, int i, boolean bool, boolean bool_1_) {
+	Class458(JS5ConfigGroup class648, int i, boolean bool, boolean bool_1_) {
 		aClass648_5172 = class648;
 		anInt5168 = -1083595565 * i;
 	}
 
-	public final Class648 method5498(int i) {
+	public final JS5ConfigGroup method5498(int i) {
 		return aClass648_5172;
 	}
 
@@ -310,7 +310,7 @@ public class Class458 implements Interface75 {
 			class536_sub7.anInt10424 = -1723553063 * i_18_;
 			class536_sub7.anInt10427 = -1838853613 * i_19_;
 			class536_sub7.anInt10428 = i_20_ * 1031708437;
-			Class648.aClass708_8457.method8335(class536_sub7, -883481172);
+			JS5ConfigGroup.aClass708_8457.method8335(class536_sub7, -883481172);
 		}
 		return false;
 	}

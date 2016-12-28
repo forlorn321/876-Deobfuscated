@@ -6,7 +6,7 @@ package com.jagex;
 import java.awt.Dimension;
 
 final class Class458_Sub1 extends Class458 {
-	Class458_Sub1(Class648 class648, int i, boolean bool, boolean bool_0_) {
+	Class458_Sub1(JS5ConfigGroup class648, int i, boolean bool, boolean bool_0_) {
 		super(class648, i, bool, bool_0_);
 	}
 

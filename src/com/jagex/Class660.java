@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class660 implements Interface19 {
-	Class350 aClass350_8505;
+	ClanSettings aClass350_8505;
 
 	public void method106(Class324 class324, int i) {
 		throw new UnsupportedOperationException();
@@ -132,7 +132,7 @@ public class Class660 implements Interface19 {
 		return aClass350_8505.method4601(((client.aClass670_11043.anInt8567 * 273023065) << 16 | class153.anInt1715 * -1786401803), -1943471146);
 	}
 
-	Class660(Class350 class350) {
+	Class660(ClanSettings class350) {
 		aClass350_8505 = class350;
 	}
 
@@ -149,14 +149,14 @@ public class Class660 implements Interface19 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (null == class277.anIntArrayArray3037 ? 0 : class277.anIntArrayArray3037.length);
 	}
 
-	static String method7972(RSByteBuffer class536_sub33, int i, int i_2_) {
+	static String unpackHuffmanString(RSByteBuffer buffer, int i) {
 		String string;
 		try {
-			int i_3_ = class536_sub33.readUnsignedSmart();
+			int i_3_ = buffer.readUnsignedSmart();
 			if (i_3_ > i)
 				i_3_ = i;
 			byte[] is = new byte[i_3_];
-			class536_sub33.off += (Class266.aClass282_2866.method3769((class536_sub33.buffer), (-810172525 * (class536_sub33.off)), is, 0, i_3_, 377832910) * 516175515);
+			buffer.off += (Class266.huffman.method3769((buffer.buffer), (-810172525 * (buffer.off)), is, 0, i_3_, 377832910) * 516175515);
 			String string_4_ = Class202.method2925(is, 0, i_3_, -1694498816);
 			string = string_4_;
 		} catch (Exception exception) {

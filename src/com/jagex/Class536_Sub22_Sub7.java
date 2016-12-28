@@ -8,7 +8,7 @@ public class Class536_Sub22_Sub7 extends Class536_Sub22 {
 	long aLong11682;
 	Class344 this$0;
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4612(-459286979 * anInt11681, 8065457998243632007L * aLong11682);
 	}
 
@@ -22,7 +22,7 @@ public class Class536_Sub22_Sub7 extends Class536_Sub22 {
 		aLong11682 = class536_sub33.readLong(702869087) * 7953056938319692343L;
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4612(-459286979 * anInt11681, 8065457998243632007L * aLong11682);
 	}
 

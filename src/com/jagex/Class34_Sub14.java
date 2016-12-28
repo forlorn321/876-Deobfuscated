@@ -10,7 +10,7 @@ public class Class34_Sub14 extends Class34 {
 	static long aLong10970;
 
 	public Class34_Sub14(GameMode class670, Class664 class664, Class461 class461, Map map) {
-		super(class670, class664, class461, Class648.aClass648_8440, 64, new Class325_Sub1(map));
+		super(class670, class664, class461, JS5ConfigGroup.VAR_BIT, 64, new Class325_Sub1(map));
 	}
 
 	public static void method10347(int i, int i_0_, int i_1_) {

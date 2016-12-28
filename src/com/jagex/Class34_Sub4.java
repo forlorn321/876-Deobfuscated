@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class34_Sub4 extends Class34 {
 	public Class34_Sub4(GameMode class670, Class664 class664, Class461 class461) {
-		super(class670, class664, class461, Class648.aClass648_8388, 64, new Class58(com.jagex.Class647.class));
+		super(class670, class664, class461, JS5ConfigGroup.FLU_TYPE, 64, new Class58(com.jagex.Class647.class));
 	}
 
 	static final void method10318(Class668 class668, int i) {

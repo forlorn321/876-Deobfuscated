@@ -141,7 +141,7 @@ class Class620 implements Iterator {
 							if ((IComponentDefinitions.anInt2537 * -2049675251 == class251.anInt2562 * -1769600535) || (IComponentDefinitions.anInt2646 * -1686834873 == class251.anInt2562 * -1769600535)) {
 								if (client.aBool11147) {
 									Class677.aClass167_8609.method2084();
-									Class648.method7832(i_10_, i_11_, class251.anInt2573 * -1606950689, 223822141 * class251.anInt2574, (-1686834873 * IComponentDefinitions.anInt2646 == -1769600535 * class251.anInt2562), 890824445);
+									JS5ConfigGroup.method7832(i_10_, i_11_, class251.anInt2573 * -1606950689, 223822141 * class251.anInt2574, (-1686834873 * IComponentDefinitions.anInt2646 == -1769600535 * class251.anInt2562), 890824445);
 									Class290.method3926(i_9_, i_15_, i_16_, i_17_, i_18_, i_10_, i_11_, 1572076274);
 									Class677.aClass167_8609.method2047();
 									Class677.aClass167_8609.method2369(i_0_, i_1_, i_2_, i_3_);

@@ -402,7 +402,7 @@ public final class Class199 {
 
 	static final void method2912(int i, int i_27_, int i_28_, int i_29_, byte i_30_) {
 		Class22.method716(Class677.aClass167_8609, -2131423477);
-		Class648.method7833(i, i_27_, i_28_, i_29_, 256, 256, (byte) 127);
+		JS5ConfigGroup.method7833(i, i_27_, i_28_, i_29_, 256, 256, (byte) 127);
 		Class184.method2767(i, i_27_, i_28_, i_29_, 256, 256, 1645574689);
 		Class232.method3325(i, i_27_, i_28_, i_29_, 256, 256, -631686314);
 		Class591.method7111(i, i_27_, i_28_, i_29_, -744312771);

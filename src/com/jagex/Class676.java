@@ -46,7 +46,7 @@ public final class Class676 {
 	}
 
 	static void method8041(Class167 class167, Class708 class708, int i, int i_6_, int i_7_) {
-		Class648.aClass708_8457.method8304(454036827);
+		JS5ConfigGroup.aClass708_8457.method8304(454036827);
 		if (!Class542_Sub1.aBool10708) {
 			for (Class536_Sub41 class536_sub41 = (Class536_Sub41) class708.method8308(1867269829); class536_sub41 != null; class536_sub41 = (Class536_Sub41) class708.method8311(1268812365)) {
 				Class248 class248 = ((Class248) (Class542_Sub1.aClass34_Sub8_7212.method70(2000440429 * class536_sub41.anInt10793, (byte) 32)));

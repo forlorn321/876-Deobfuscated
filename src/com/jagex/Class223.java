@@ -326,7 +326,7 @@ public class Class223 {
 	}
 
 	public static void method3202(Class234 class234, IComponentDefinitions class251, int i) {
-		IComponentDefinitions class251_48_ = Class648.method7834(class234, class251, -16777216);
+		IComponentDefinitions class251_48_ = JS5ConfigGroup.method7834(class234, class251, -16777216);
 		int i_49_;
 		int i_50_;
 		if (null == class251_48_) {

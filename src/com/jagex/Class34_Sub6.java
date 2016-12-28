@@ -7,7 +7,7 @@ public class Class34_Sub6 extends Class34 {
 	public static int anInt10965;
 
 	public Class34_Sub6(GameMode class670, Class664 class664, Class461 class461) {
-		super(class670, class664, class461, Class648.aClass648_8385, 128, new Class58(com.jagex.Class39.class));
+		super(class670, class664, class461, JS5ConfigGroup.ENUM_TYPE, 128, new Class58(com.jagex.Class39.class));
 	}
 
 	public static int method10321(CharSequence charsequence, CharSequence charsequence_0_, Class664 class664, int i) {

@@ -22,7 +22,7 @@ final class Class458_Sub3 extends Class458 {
 		return class153.aClass453_1716.method5439(1892211810);
 	}
 
-	Class458_Sub3(Class648 class648, int i, boolean bool, boolean bool_0_) {
+	Class458_Sub3(JS5ConfigGroup class648, int i, boolean bool, boolean bool_0_) {
 		super(class648, i, bool, bool_0_);
 	}
 

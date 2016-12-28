@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class256 {
-	public static Class350 aClass350_2762;
+	public static ClanSettings aClass350_2762;
 
 	Class256() throws Throwable {
 		throw new Error();

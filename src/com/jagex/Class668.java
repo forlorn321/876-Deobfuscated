@@ -34,7 +34,7 @@ public class Class668 {
 	int anInt8560;
 	Object[] anObjectArray8561;
 	Class683 aClass683_8562;
-	Class350 aClass350_8563;
+	ClanSettings aClass350_8563;
 	int anInt8564;
 	long[] aLongArray8565;
 

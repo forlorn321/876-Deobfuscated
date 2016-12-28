@@ -214,7 +214,7 @@ public class Class193 {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_18_);
 		Class234 class234 = Class463.aClass234Array5227[i_18_ >> 16];
-		Class648.method7829(class251, class234, class668, -1285360642);
+		JS5ConfigGroup.method7829(class251, class234, class668, -1285360642);
 	}
 
 	static void method2852(int i, int i_19_, int i_20_, int i_21_, int i_22_) {

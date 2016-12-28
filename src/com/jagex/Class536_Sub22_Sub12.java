@@ -17,11 +17,11 @@ public class Class536_Sub22_Sub12 extends Class536_Sub22 {
 		class536_sub33.readInt();
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.aString3707 = aString11698;
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.aString3707 = aString11698;
 	}
 

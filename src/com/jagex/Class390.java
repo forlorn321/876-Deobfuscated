@@ -43,8 +43,8 @@ public class Class390 {
 		return new Class398(i_0_, class395, class399, i_1_, i_2_);
 	}
 
-	public static void method4855(Class282 class282, int i) {
-		Class266.aClass282_2866 = class282;
+	public static void method4855(Huffman class282, int i) {
+		Class266.huffman = class282;
 	}
 
 	static final void method4856(IComponentDefinitions class251, Class234 class234, boolean bool, int i, Class668 class668, byte i_3_) {

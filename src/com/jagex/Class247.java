@@ -20,7 +20,7 @@ public abstract class Class247 implements Interface6 {
 			if (Class310.aBool3466)
 				class143 = Class677.aClass167_8609.method2082(Class181.method2717(class461, i), true);
 			else
-				class143 = Class282.method3771(class461.method5595(i, -1242322216), (byte) 12);
+				class143 = Huffman.method3771(class461.method5595(i, -1242322216), (byte) 12);
 			Class291.aClass199_3230.method2881(class143, (long) i);
 		}
 		return class143;

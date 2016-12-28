@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 public class Class53 implements Interface12 {
 	protected int anInt592;
-	Class648 aClass648_593;
+	JS5ConfigGroup aClass648_593;
 	Class461 aClass461_594;
 	DefinitionI[] anInterface13Array595;
 	DefinitionI anInterface13_596;
@@ -48,7 +48,7 @@ public class Class53 implements Interface12 {
 		return new Class68(this);
 	}
 
-	Class53(GameMode class670, Class664 class664, Class648 class648, Class461 class461, Interface6 interface6, boolean bool) {
+	Class53(GameMode class670, Class664 class664, JS5ConfigGroup class648, Class461 class461, Interface6 interface6, boolean bool) {
 		anInterface6_597 = interface6;
 		aClass648_593 = class648;
 		aClass461_594 = class461;

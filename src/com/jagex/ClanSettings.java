@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class350 {
+public class ClanSettings {
 	public byte aByte3698;
 	boolean aBool3699;
 	boolean aBool3700;
@@ -707,7 +707,7 @@ public class Class350 {
 		}
 	}
 
-	public Class350(RSByteBuffer class536_sub33) {
+	public ClanSettings(RSByteBuffer class536_sub33) {
 		anInt3705 = 0;
 		anInt3717 = -80708359;
 		anInt3718 = 2003344807;

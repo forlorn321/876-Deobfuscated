@@ -231,7 +231,7 @@ public class Class593 {
 			Class581.method7019(class668, -133832167);
 			break;
 		case 815:
-			Class648.method7831(class668, 1824424503);
+			JS5ConfigGroup.method7831(class668, 1824424503);
 			break;
 		case 616:
 			Class412.method5014(class668, 1041190815);
@@ -711,7 +711,7 @@ public class Class593 {
 			Class383.method4829(class668, (byte) 12);
 			break;
 		case 159:
-			Class350.method4635(class668, 65280);
+			ClanSettings.method4635(class668, 65280);
 			break;
 		case 917:
 			Class247.method3426(class668, -1224341121);
@@ -765,7 +765,7 @@ public class Class593 {
 			Class374.method4784(class668, -553891371);
 			break;
 		case 11:
-			Class282.method3772(class668, -2139512993);
+			Huffman.method3772(class668, -2139512993);
 			break;
 		case 526:
 			Class272.method3720(class668, (byte) 31);
@@ -1326,7 +1326,7 @@ public class Class593 {
 			Class57.method968(class668, 686450547);
 			break;
 		case 251:
-			Class648.method7830(class668, -414739265);
+			JS5ConfigGroup.method7830(class668, -414739265);
 			break;
 		case 1004:
 			Class141.method1708(class668, (short) 255);
@@ -1374,7 +1374,7 @@ public class Class593 {
 			Class374.method4782(class668, (byte) 80);
 			break;
 		case 1263:
-			Class350.method4636(class668, 1674188724);
+			ClanSettings.method4636(class668, 1674188724);
 			break;
 		case 680:
 			Class550.method6682(class668, 1228758909);
@@ -3341,7 +3341,7 @@ public class Class593 {
 			Class632.method7540(class668, -1148239461);
 			break;
 		case 0:
-			Class350.method4637(class668, -1068613841);
+			ClanSettings.method4637(class668, -1068613841);
 			break;
 		case 531:
 			Class624.method7426(class668, -383564666);

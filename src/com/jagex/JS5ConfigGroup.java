@@ -3,213 +3,189 @@
  */
 package com.jagex;
 
-public class Class648 {
-	static Class648 aClass648_8378;
-	static Class648 aClass648_8379;
-	public static Class648 aClass648_8380;
-	public static Class648 aClass648_8381;
-	public static Class648 aClass648_8382;
-	static Class648 aClass648_8383;
-	static Class648 aClass648_8384;
-	public static Class648 aClass648_8385;
-	static Class648 aClass648_8386;
-	public static Class648 aClass648_8387;
-	public static Class648 aClass648_8388;
-	public int anInt8389;
-	public static Class648 aClass648_8390;
-	static Class648 aClass648_8391;
-	static Class648 aClass648_8392;
-	static Class648 aClass648_8393;
-	static Class648 aClass648_8394;
-	static Class648 aClass648_8395;
-	static Class648 aClass648_8396;
-	static Class648 aClass648_8397;
-	static Class648 aClass648_8398;
-	static Class648 aClass648_8399;
-	static Class648 aClass648_8400;
-	static Class648 aClass648_8401;
-	static Class648 aClass648_8402;
-	public static Class648 aClass648_8403;
-	public static Class648 aClass648_8404;
-	static Class648 aClass648_8405;
-	public static Class648 aClass648_8406;
-	public static Class648 aClass648_8407;
-	public static Class648 aClass648_8408;
-	public static Class648 aClass648_8409;
-	public static Class648 aClass648_8410;
-	public static Class648 aClass648_8411;
-	public static Class648 aClass648_8412;
-	public static Class648 aClass648_8413;
-	public static Class648 aClass648_8414;
-	static Class648 aClass648_8415;
-	public static Class648 aClass648_8416;
-	public static Class648 aClass648_8417;
-	public static Class648 aClass648_8418;
-	static Class648 aClass648_8419;
-	static Class648 aClass648_8420;
-	static Class648 aClass648_8421;
-	public static Class648 aClass648_8422;
-	public static Class648 aClass648_8423;
-	static Class648 aClass648_8424;
-	static Class648 aClass648_8425;
-	static Class648 aClass648_8426;
-	static Class648 aClass648_8427;
-	static Class648 aClass648_8428;
-	public static Class648 aClass648_8429;
-	public static Class648 aClass648_8430;
-	static Class648 aClass648_8431;
-	public static Class648 aClass648_8432;
-	static Class648 aClass648_8433;
-	public static Class648 aClass648_8434 = new Class648(1);
-	public static Class648 aClass648_8435;
-	static Class648 aClass648_8436;
-	public static Class648 aClass648_8437;
-	public static Class648 aClass648_8438;
-	public static Class648 aClass648_8439;
-	public static Class648 aClass648_8440;
-	static Class648 aClass648_8441;
-	public static Class648 aClass648_8442;
-	static Class648 aClass648_8443;
-	static Class648 aClass648_8444;
-	static Class648 aClass648_8445;
-	static Class648 aClass648_8446;
-	public static Class648 aClass648_8447;
-	static Class648 aClass648_8448;
-	static Class648 aClass648_8449;
-	public static Class648 aClass648_8450;
-	static Class648 aClass648_8451;
-	static Class648 aClass648_8452;
-	public static Class648 aClass648_8453;
-	static Class648 aClass648_8454;
-	public static Class648 aClass648_8455;
-	int anInt8456;
+public class JS5ConfigGroup {
+	static JS5ConfigGroup CHAT_PHRASE_TYPE;
+	static JS5ConfigGroup aClass648_8379;
+	public static JS5ConfigGroup IDK_TYPE;
+	public static JS5ConfigGroup INV_TYPE;
+	public static JS5ConfigGroup CURSOR_TYPE;
+	static JS5ConfigGroup aClass648_8383;
+	static JS5ConfigGroup aClass648_8384;
+	public static JS5ConfigGroup ENUM_TYPE;
+	static JS5ConfigGroup aClass648_8386;
+	public static JS5ConfigGroup OBJ_TYPE;
+	public static JS5ConfigGroup FLU_TYPE;
+	public int id;
+	public static JS5ConfigGroup SPOT_TYPE;
+	static JS5ConfigGroup VARBIT;
+	static JS5ConfigGroup VARC_STR;
+	static JS5ConfigGroup VARP;
+	static JS5ConfigGroup aClass648_8394;
+	static JS5ConfigGroup AREA_TYPE;
+	static JS5ConfigGroup VARC;
+	static JS5ConfigGroup aClass648_8397;
+	static JS5ConfigGroup aClass648_8398;
+	static JS5ConfigGroup aClass648_8399;
+	static JS5ConfigGroup aClass648_8400;
+	static JS5ConfigGroup aClass648_8401;
+	static JS5ConfigGroup CHAT_CAT_TYPE;
+	public static JS5ConfigGroup STRUCT_TYPE;
+	public static JS5ConfigGroup PARAM_TYPE;
+	static JS5ConfigGroup aClass648_8405;
+	public static JS5ConfigGroup SKYBOX_TYPE;
+	public static JS5ConfigGroup aClass648_8407;
+	public static JS5ConfigGroup LIGHT_TYPE;
+	public static JS5ConfigGroup BAS_TYPE;
+	public static JS5ConfigGroup QUEST_TYPE;
+	public static JS5ConfigGroup MSI_TYPE;
+	public static JS5ConfigGroup VAR_WORLD;
+	public static JS5ConfigGroup MEL_TYPE;
+	public static JS5ConfigGroup VAR_CLIENT;
+	static JS5ConfigGroup aClass648_8415;
+	public static JS5ConfigGroup SEQ_TYPE;
+	public static JS5ConfigGroup DB_TABLE_TYPE;
+	public static JS5ConfigGroup DB_ROW_TYPE;
+	static JS5ConfigGroup aClass648_8419;
+	static JS5ConfigGroup aClass648_8420;
+	static JS5ConfigGroup aClass648_8421;
+	public static JS5ConfigGroup VAR_OBJECT;
+	public static JS5ConfigGroup HIT_MARK_TYPE;
+	static JS5ConfigGroup VARCLAN;
+	static JS5ConfigGroup ITEM_CODE_TYPE;
+	static JS5ConfigGroup CATEGORY_TYPE;
+	static JS5ConfigGroup aClass648_8427;
+	static JS5ConfigGroup aClass648_8428;
+	public static JS5ConfigGroup VAR_PLAYER;
+	public static JS5ConfigGroup NPC_TYPE;
+	static JS5ConfigGroup aClass648_8431;
+	public static JS5ConfigGroup VAR_NPC;
+	static JS5ConfigGroup aClass648_8433;
+	public static JS5ConfigGroup FLO_TYPE = new JS5ConfigGroup(1);
+	public static JS5ConfigGroup VAR_REGION;
+	static JS5ConfigGroup aClass648_8436;
+	public static JS5ConfigGroup VAR_CLAN;
+	public static JS5ConfigGroup VAR_CLAN_SETTING;
+	public static JS5ConfigGroup aClass648_8439;
+	public static JS5ConfigGroup VAR_BIT;
+	static JS5ConfigGroup GAME_LOG_TYPE;
+	public static JS5ConfigGroup HEAD_BAR_TYPE;
+	static JS5ConfigGroup aClass648_8443;
+	static JS5ConfigGroup aClass648_8444;
+	static JS5ConfigGroup aClass648_8445;
+	static JS5ConfigGroup aClass648_8446;
+	public static JS5ConfigGroup SEQ_GROUP_TYPE;
+	static JS5ConfigGroup aClass648_8448;
+	static JS5ConfigGroup aClass648_8449;
+	public static JS5ConfigGroup VAR_PLAYER_GROUP;
+	static JS5ConfigGroup WATER_TYPE;
+	static JS5ConfigGroup aClass648_8452;
+	public static JS5ConfigGroup aClass648_8453;
+	static JS5ConfigGroup aClass648_8454;
+	public static JS5ConfigGroup LOC_TYPE;
+	int groupBitSize;
 	static Class708 aClass708_8457;
 
-	public int method7817(int i) {
-		return i & (1 << 810453289 * anInt8456) - 1;
+	JS5ConfigGroup(int i, int i_2_) {
+		id = -828663533 * i;
+		groupBitSize = i_2_ * -579591399;
 	}
 
-	public int method7818(int i, int i_0_) {
-		return i >>> 810453289 * anInt8456;
+	public int getClientFileId(int i) {
+		return i & (1 << 810453289 * groupBitSize) - 1;
 	}
 
-	public int method7819(int i) {
-		return 1 << 810453289 * anInt8456;
+	public int getGroupSize() {
+		return 1 << 810453289 * groupBitSize;
 	}
 
-	public int method7820() {
-		return 1 << 810453289 * anInt8456;
-	}
-
-	public int method7821(int i, int i_1_) {
-		return i & (1 << 810453289 * anInt8456) - 1;
-	}
-
-	Class648(int i, int i_2_) {
-		anInt8389 = -828663533 * i;
-		anInt8456 = i_2_ * -579591399;
-	}
-
-	public int method7822(int i) {
-		return i & (1 << 810453289 * anInt8456) - 1;
-	}
-
-	public int method7823() {
-		return 1 << 810453289 * anInt8456;
-	}
-
-	public int method7824(int i) {
-		return i >>> 810453289 * anInt8456;
-	}
-
-	public int method7825(int i) {
-		return i >>> 810453289 * anInt8456;
+	public int getClientGroupId(int i) {
+		return i >>> 810453289 * groupBitSize;
 	}
 
 	static {
-		aClass648_8379 = new Class648(2);
-		aClass648_8380 = new Class648(3);
-		aClass648_8388 = new Class648(4);
-		aClass648_8381 = new Class648(5);
-		aClass648_8455 = new Class648(6, 8);
-		aClass648_8384 = new Class648(7);
-		aClass648_8385 = new Class648(8, 8);
-		aClass648_8430 = new Class648(9, 7);
-		aClass648_8387 = new Class648(10, 8);
-		aClass648_8404 = new Class648(11);
-		aClass648_8416 = new Class648(12, 7);
-		aClass648_8390 = new Class648(13, 8);
-		aClass648_8391 = new Class648(14, 10);
-		aClass648_8392 = new Class648(15);
-		aClass648_8393 = new Class648(16);
-		aClass648_8394 = new Class648(17);
-		aClass648_8395 = new Class648(18);
-		aClass648_8396 = new Class648(19);
-		aClass648_8397 = new Class648(20);
-		aClass648_8398 = new Class648(21);
-		aClass648_8399 = new Class648(22);
-		aClass648_8386 = new Class648(23);
-		aClass648_8401 = new Class648(24);
-		aClass648_8433 = new Class648(25);
-		aClass648_8403 = new Class648(26, 5);
-		aClass648_8378 = new Class648(27);
-		aClass648_8402 = new Class648(28);
-		aClass648_8406 = new Class648(29);
-		aClass648_8407 = new Class648(30);
-		aClass648_8408 = new Class648(31);
-		aClass648_8409 = new Class648(32);
-		aClass648_8382 = new Class648(33);
-		aClass648_8411 = new Class648(34);
-		aClass648_8410 = new Class648(35);
-		aClass648_8413 = new Class648(36);
-		aClass648_8446 = new Class648(37);
-		aClass648_8415 = new Class648(38);
-		aClass648_8419 = new Class648(39);
-		aClass648_8417 = new Class648(40);
-		aClass648_8418 = new Class648(41);
-		aClass648_8445 = new Class648(42);
-		aClass648_8420 = new Class648(43);
-		aClass648_8448 = new Class648(44);
-		aClass648_8443 = new Class648(45);
-		aClass648_8423 = new Class648(46);
-		aClass648_8424 = new Class648(47);
-		aClass648_8425 = new Class648(48);
-		aClass648_8426 = new Class648(49);
-		aClass648_8427 = new Class648(50);
-		aClass648_8428 = new Class648(51);
-		aClass648_8431 = new Class648(53);
-		aClass648_8400 = new Class648(54);
-		aClass648_8429 = new Class648(60);
-		aClass648_8432 = new Class648(61);
-		aClass648_8414 = new Class648(62);
-		aClass648_8412 = new Class648(63);
-		aClass648_8435 = new Class648(64);
-		aClass648_8422 = new Class648(65);
-		aClass648_8437 = new Class648(66);
-		aClass648_8438 = new Class648(67);
-		aClass648_8439 = new Class648(68);
-		aClass648_8440 = new Class648(69);
-		aClass648_8441 = new Class648(70);
-		aClass648_8442 = new Class648(72);
-		aClass648_8405 = new Class648(73);
-		aClass648_8444 = new Class648(74);
-		aClass648_8453 = new Class648(75);
-		aClass648_8451 = new Class648(76);
-		aClass648_8447 = new Class648(77);
-		aClass648_8383 = new Class648(78);
-		aClass648_8449 = new Class648(79);
-		aClass648_8450 = new Class648(80);
-		aClass648_8421 = new Class648(81);
-		aClass648_8452 = new Class648(82);
-		aClass648_8436 = new Class648(83);
-		aClass648_8454 = new Class648(84);
+		aClass648_8379 = new JS5ConfigGroup(2);
+		IDK_TYPE = new JS5ConfigGroup(3);
+		FLU_TYPE = new JS5ConfigGroup(4);
+		INV_TYPE = new JS5ConfigGroup(5);
+		LOC_TYPE = new JS5ConfigGroup(6, 8);
+		aClass648_8384 = new JS5ConfigGroup(7);
+		ENUM_TYPE = new JS5ConfigGroup(8, 8);
+		NPC_TYPE = new JS5ConfigGroup(9, 7);
+		OBJ_TYPE = new JS5ConfigGroup(10, 8);
+		PARAM_TYPE = new JS5ConfigGroup(11);
+		SEQ_TYPE = new JS5ConfigGroup(12, 7);
+		SPOT_TYPE = new JS5ConfigGroup(13, 8);
+		VARBIT = new JS5ConfigGroup(14, 10);
+		VARC_STR = new JS5ConfigGroup(15);
+		VARP = new JS5ConfigGroup(16);
+		aClass648_8394 = new JS5ConfigGroup(17);
+		AREA_TYPE = new JS5ConfigGroup(18);
+		VARC = new JS5ConfigGroup(19);
+		aClass648_8397 = new JS5ConfigGroup(20);
+		aClass648_8398 = new JS5ConfigGroup(21);
+		aClass648_8399 = new JS5ConfigGroup(22);
+		aClass648_8386 = new JS5ConfigGroup(23);
+		aClass648_8401 = new JS5ConfigGroup(24);
+		aClass648_8433 = new JS5ConfigGroup(25);
+		STRUCT_TYPE = new JS5ConfigGroup(26, 5);
+		CHAT_PHRASE_TYPE = new JS5ConfigGroup(27);
+		CHAT_CAT_TYPE = new JS5ConfigGroup(28);
+		SKYBOX_TYPE = new JS5ConfigGroup(29);
+		aClass648_8407 = new JS5ConfigGroup(30);
+		LIGHT_TYPE = new JS5ConfigGroup(31);
+		BAS_TYPE = new JS5ConfigGroup(32);
+		CURSOR_TYPE = new JS5ConfigGroup(33);
+		MSI_TYPE = new JS5ConfigGroup(34);
+		QUEST_TYPE = new JS5ConfigGroup(35);
+		MEL_TYPE = new JS5ConfigGroup(36);
+		aClass648_8446 = new JS5ConfigGroup(37);
+		aClass648_8415 = new JS5ConfigGroup(38);
+		aClass648_8419 = new JS5ConfigGroup(39);
+		DB_TABLE_TYPE = new JS5ConfigGroup(40);
+		DB_ROW_TYPE = new JS5ConfigGroup(41);
+		aClass648_8445 = new JS5ConfigGroup(42);
+		aClass648_8420 = new JS5ConfigGroup(43);
+		aClass648_8448 = new JS5ConfigGroup(44);
+		aClass648_8443 = new JS5ConfigGroup(45);
+		HIT_MARK_TYPE = new JS5ConfigGroup(46);
+		VARCLAN = new JS5ConfigGroup(47);
+		ITEM_CODE_TYPE = new JS5ConfigGroup(48);
+		CATEGORY_TYPE = new JS5ConfigGroup(49);
+		aClass648_8427 = new JS5ConfigGroup(50);
+		aClass648_8428 = new JS5ConfigGroup(51);
+		aClass648_8431 = new JS5ConfigGroup(53);
+		aClass648_8400 = new JS5ConfigGroup(54);
+		VAR_PLAYER = new JS5ConfigGroup(60);
+		VAR_NPC = new JS5ConfigGroup(61);
+		VAR_CLIENT = new JS5ConfigGroup(62);
+		VAR_WORLD = new JS5ConfigGroup(63);
+		VAR_REGION = new JS5ConfigGroup(64);
+		VAR_OBJECT = new JS5ConfigGroup(65);
+		VAR_CLAN = new JS5ConfigGroup(66);
+		VAR_CLAN_SETTING = new JS5ConfigGroup(67);
+		aClass648_8439 = new JS5ConfigGroup(68);
+		VAR_BIT = new JS5ConfigGroup(69);
+		GAME_LOG_TYPE = new JS5ConfigGroup(70);
+		HEAD_BAR_TYPE = new JS5ConfigGroup(72);
+		aClass648_8405 = new JS5ConfigGroup(73);
+		aClass648_8444 = new JS5ConfigGroup(74);
+		aClass648_8453 = new JS5ConfigGroup(75);
+		WATER_TYPE = new JS5ConfigGroup(76);
+		SEQ_GROUP_TYPE = new JS5ConfigGroup(77);
+		aClass648_8383 = new JS5ConfigGroup(78);
+		aClass648_8449 = new JS5ConfigGroup(79);
+		VAR_PLAYER_GROUP = new JS5ConfigGroup(80);
+		aClass648_8421 = new JS5ConfigGroup(81);
+		aClass648_8452 = new JS5ConfigGroup(82);
+		aClass648_8436 = new JS5ConfigGroup(83);
+		aClass648_8454 = new JS5ConfigGroup(84);
 	}
 
 	public int method7826(int i) {
-		return i & (1 << 810453289 * anInt8456) - 1;
+		return i & (1 << 810453289 * groupBitSize) - 1;
 	}
 
-	Class648(int i) {
+	JS5ConfigGroup(int i) {
 		this(i, 0);
 	}
 

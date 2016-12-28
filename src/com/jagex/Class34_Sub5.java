@@ -30,7 +30,7 @@ public class Class34_Sub5 extends Class34 {
 	}
 
 	public Class34_Sub5(GameMode class670, Class664 class664, Class461 class461, Class461 class461_1_) {
-		super(class670, class664, class461, Class648.aClass648_8442, 64, new Class554_Sub1(class461_1_));
+		super(class670, class664, class461, JS5ConfigGroup.HEAD_BAR_TYPE, 64, new Class554_Sub1(class461_1_));
 	}
 
 	public void method807(int i) {

@@ -41,9 +41,9 @@ public class Class634 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1428895931 * class251.anInt2581;
 	}
 
-	static byte[] method7549(Class461 class461, Class648 class648, int i, byte i_2_) {
-		if (class648.method7819(731773092) > 1)
-			return class461.method5556(class648.method7818(i, -80028574), class648.method7821(i, 2096623500), (byte) 1);
-		return class461.method5556(class648.anInt8389 * 1716263195, i, (byte) 1);
+	static byte[] method7549(Class461 class461, JS5ConfigGroup class648, int i, byte i_2_) {
+		if (class648.getGroupSize() > 1)
+			return class461.method5556(class648.getClientGroupId(i), class648.getClientFileId(i), (byte) 1);
+		return class461.method5556(class648.id * 1716263195, i, (byte) 1);
 	}
 }

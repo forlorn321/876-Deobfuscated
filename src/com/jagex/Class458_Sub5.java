@@ -8,7 +8,7 @@ import java.awt.Point;
 final class Class458_Sub5 extends Class458 {
 	static Class143[] aClass143Array10338;
 
-	Class458_Sub5(Class648 class648, int i, boolean bool, boolean bool_0_) {
+	Class458_Sub5(JS5ConfigGroup class648, int i, boolean bool, boolean bool_0_) {
 		super(class648, i, bool, bool_0_);
 	}
 

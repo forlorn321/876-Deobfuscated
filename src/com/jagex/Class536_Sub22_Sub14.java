@@ -30,7 +30,7 @@ public class Class536_Sub22_Sub14 extends Class536_Sub22 {
 		aString11701 = null;
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4605(aLong11702 * -8272249061848253881L, aString11701, (byte) 100);
 	}
 
@@ -42,7 +42,7 @@ public class Class536_Sub22_Sub14 extends Class536_Sub22 {
 		aString11701 = class536_sub33.method9713(16509697);
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4605(aLong11702 * -8272249061848253881L, aString11701, (byte) -51);
 	}
 }

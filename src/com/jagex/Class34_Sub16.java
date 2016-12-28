@@ -7,7 +7,7 @@ public class Class34_Sub16 extends Class34 {
 	public static Class589 aClass589_10972 = new Class589(-1);
 
 	public Class34_Sub16(GameMode class670, Class664 class664, Class461 class461) {
-		super(class670, class664, class461, Class648.aClass648_8409, 64, new Class58(com.jagex.Class589.class));
+		super(class670, class664, class461, JS5ConfigGroup.BAS_TYPE, 64, new Class58(com.jagex.Class589.class));
 	}
 
 	static final void method10351(Class668 class668, int i) {

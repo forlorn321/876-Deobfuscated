@@ -10,7 +10,7 @@ public class Class50 {
 	public static Class50 aClass50_582 = new Class50();
 	public static Class50 aClass50_583;
 	public static Class50 aClass50_584;
-	public static Class350 aClass350_585;
+	public static ClanSettings aClass350_585;
 	public static int anInt586;
 
 	public static Class549 method928(Component component, int i) {

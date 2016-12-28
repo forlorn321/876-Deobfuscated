@@ -137,7 +137,7 @@ public class Class283 implements Interface75 {
 						int i_5_ = Class586.aClass106_7710.byteBuffer.readUnsignedByte();
 						if (0 != i_5_) {
 							Class61.loginStage = 0;
-							Class648.method7827(i_5_, (short) 9328);
+							JS5ConfigGroup.method7827(i_5_, (short) 9328);
 							Class537.method6507(i_5_, 1280785913);
 							Class586.aClass106_7710.method1418(366441967);
 							Class314.method4203(861456321);

@@ -8,7 +8,7 @@ import java.awt.MediaTracker;
 import java.awt.Toolkit;
 import java.awt.image.PixelGrabber;
 
-public class Class282 {
+public class Huffman {
 	byte[] aByteArray3176;
 	int[] anIntArray3177;
 	int[] anIntArray3178;
@@ -53,7 +53,7 @@ public class Class282 {
 		return (i_5_ + 7 >> 3) - i_2_;
 	}
 
-	public Class282(byte[] is) {
+	public Huffman(byte[] is) {
 		int i = is.length;
 		anIntArray3177 = new int[i];
 		aByteArray3176 = is;

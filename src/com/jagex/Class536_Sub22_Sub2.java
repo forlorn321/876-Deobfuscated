@@ -24,11 +24,11 @@ public class Class536_Sub22_Sub2 extends Class536_Sub22 {
 		anInt11621 = class536_sub33.readUnsignedByte() * 918309631;
 	}
 
-	void method9581(Class350 class350, int i) {
+	void method9581(ClanSettings class350, int i) {
 		class350.method4610(anInt11623 * -710808009, anInt11620 * -801707013, -2119163595 * anInt11622, anInt11621 * -1739934465, 1036324886);
 	}
 
-	void method9580(Class350 class350) {
+	void method9580(ClanSettings class350) {
 		class350.method4610(anInt11623 * -710808009, anInt11620 * -801707013, -2119163595 * anInt11622, anInt11621 * -1739934465, 1370765324);
 	}
 
