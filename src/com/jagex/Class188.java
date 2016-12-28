@@ -106,7 +106,7 @@ public class Class188 {
 		int i_3_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
 		InterfaceDefinitions class251 = Class527.method6429(i_2_, i_3_, (byte) 3);
 		Class270.method3717(112258221);
-		IComponentSettings class536_sub14 = client.method10389(class251);
+		IComponentSettings class536_sub14 = client.getIComponentSettings(class251);
 		Class501.method6033(class251, class536_sub14.method9474(), 501091713 * class536_sub14.interfaceHash, 421252950);
 	}
 

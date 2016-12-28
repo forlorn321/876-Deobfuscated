@@ -83,10 +83,10 @@ class Class620 implements Iterator {
 					int i_10_ = class251.anInt2571 * 1151043453 + i_4_;
 					int i_11_ = class251.anInt2572 * -712740187 + i_5_;
 					int i_12_ = class251.anInt2589 * 1425974027;
-					if (client.aBool11010 && ((client.method10389(class251).settings * -512963777) != 0 || 0 == class251.anInt2728 * 1049444347) && i_12_ > 127)
+					if (client.aBool11010 && ((client.getIComponentSettings(class251).settings * -512963777) != 0 || 0 == class251.anInt2728 * 1049444347) && i_12_ > 127)
 						i_12_ = 127;
 					if (class251 == client.aClass251_10992) {
-						if (i != -1412584499 && ((class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2535 * -292337027) || (class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2617 * 10493011) || (client.method10389(class251).method9477() && (1087226469 * InterfaceDefinitions.anInt2634 != (-2010774799 * class251.anInt2534))))) {
+						if (i != -1412584499 && ((class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2535 * -292337027) || (class251.anInt2534 * -2010774799 == InterfaceDefinitions.anInt2617 * 10493011) || (client.getIComponentSettings(class251).method9477() && (1087226469 * InterfaceDefinitions.anInt2634 != (-2010774799 * class251.anInt2534))))) {
 							Class397.aClass251Array4115 = class251s;
 							Class581.anInt7698 = i_4_ * 1551682379;
 							Class512.anInt6936 = -366094201 * i_5_;
@@ -105,7 +105,7 @@ class Class620 implements Iterator {
 								i_14_ = 1260646355 * client.anInt11205;
 							if (i_14_ + class251.anInt2574 * 223822141 > (1260646355 * client.anInt11205 + 904217971 * client.anInt11207))
 								i_14_ = (1260646355 * client.anInt11205 + client.anInt11207 * 904217971 - 223822141 * class251.anInt2574);
-							if (client.method10389(class251).method9477())
+							if (client.getIComponentSettings(class251).method9477())
 								Class680.method8073(i_13_, i_14_, (-1606950689 * class251.anInt2573), (class251.anInt2574 * 223822141), (byte) 61);
 							if (class251.anInt2534 * -2010774799 != InterfaceDefinitions.anInt2634 * 1087226469) {
 								i_10_ = i_13_;

@@ -310,7 +310,7 @@ public class Class273 {
 				class536_sub42.anObjectArray10802 = class251.anObjectArray2705;
 				Class618.method7388(class536_sub42, -227864852);
 			}
-			if (client.method10389(class251).method9472(i - 1)) {
+			if (client.getIComponentSettings(class251).method9472(i - 1)) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				if (-708374433 * client.anInt11101 == 0 || -708374433 * client.anInt11101 == 9 || -708374433 * client.anInt11101 == 11) {
 					if (class251.aString2699 != null && null != class251.aClass233_2714) {
