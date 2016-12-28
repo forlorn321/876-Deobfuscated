@@ -85,7 +85,7 @@ public class Class651 {
 			Class247_Sub1.aClass143_9969.method1728(i, i_5_);
 			Class640.aClass143_8311.method1728(i_6_ + i - Class640.aClass143_8311.method1720(), i_5_);
 		}
-		class184.method2763(string, 3 + i, (-1214764847 * class2.anInt91 + i_5_ + (20 - class2.anInt91 * -1214764847) / 2), 1559126045 * Class158.anInt1743 | ~0xffffff, -1, (byte) -45);
+		class184.renderItemAmountIThink(string, 3 + i, (-1214764847 * class2.anInt91 + i_5_ + (20 - class2.anInt91 * -1214764847) / 2), 1559126045 * Class158.anInt1743 | ~0xffffff, -1, (byte) -45);
 		class167.method2063(i, i_8_ + i_5_, i_6_, i_7_ - i_8_, i_10_ << 24 | -1070393461 * Class105.anInt1253, 1);
 	}
 }

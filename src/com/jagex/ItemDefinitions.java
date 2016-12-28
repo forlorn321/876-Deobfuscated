@@ -529,7 +529,7 @@ public class ItemDefinitions implements DefinitionI {
 		inventoryOptions = (String[]) aClass16_16.aStringArray183.clone();
 	}
 
-	int[] method513(Class167 class167, Class167 class167_76_, int i, int i_77_, int i_78_, boolean bool, int i_79_, Class184 class184, Class617 class617, Class628 class628, int i_80_) {
+	int[] method513(Class167 class167, Class167 class167_76_, int amount, int i_77_, int i_78_, boolean bool, int i_79_, Class184 class184, Class617 class617, Class628 class628, int i_80_) {
 		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, modelId * -603352859, 0);
 		if (class180 == null)
 			return null;
@@ -578,11 +578,11 @@ public class ItemDefinitions implements DefinitionI {
 			if (null == class143)
 				return null;
 		} else if (-1 != -1494720165 * lendTemplateId) {
-			class143 = aClass16_16.method646(class167, class167_76_, 515259213 * lendId, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 1133511832);
+			class143 = aClass16_16.method646(class167, class167_76_, 515259213 * lendId, amount, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 1133511832);
 			if (null == class143)
 				return null;
 		} else if (-1 != bindTemplateId * -377039411) {
-			class143 = aClass16_16.method646(class167, class167_76_, bindId * 1859340953, i, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 284352773);
+			class143 = aClass16_16.method646(class167, class167_76_, bindId * 1859340953, amount, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 284352773);
 			if (null == class143)
 				return null;
 		} else if (anInt64 * 208949951 != -1) {
@@ -634,8 +634,8 @@ public class ItemDefinitions implements DefinitionI {
 			class143.method1728(0, 0);
 		if (208949951 * anInt64 != -1)
 			class143.method1728(0, 0);
-		if (i_79_ == 1 || i_79_ == 2 && (stackable * -1370184373 == 1 || i != 1) && i != -1)
-			class184.method2763(Class60.colorifyItemAmount(i, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
+		if (i_79_ == 1 || i_79_ == 2 && (stackable * -1370184373 == 1 || amount != 1) && amount != -1)
+			class184.renderItemAmountIThink(Class60.colorifyItemAmount(amount, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
 		is = class167.method2078(0, 0, 36, 32);
 		for (int i_92_ = 0; i_92_ < is.length; i_92_++) {
 			if (0 == (is[i_92_] & 0xffffff))
