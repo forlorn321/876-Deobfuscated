@@ -113,7 +113,7 @@ public class Class622 {
 	static final void method7418(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (1 == 1939619399 * class251.anInt2601 ? class251.anInt2602 * -2011124813 : -1);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (1 == 1939619399 * class251.modelType ? class251.modelId * -2011124813 : -1);
 	}
 
 	static final void method7419(Class668 class668, int i) {

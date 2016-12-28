@@ -114,10 +114,10 @@ public class Class260 {
 		InterfaceDefinitions class251 = class683.aClass251_8650;
 		int i_22_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		i_22_--;
-		if (null == class251.aStringArray2657 || i_22_ >= class251.aStringArray2657.length || class251.aStringArray2657[i_22_] == null)
+		if (null == class251.op || i_22_ >= class251.op.length || class251.op[i_22_] == null)
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aStringArray2657[i_22_];
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.op[i_22_];
 	}
 
 	static final void method3617(Class668 class668, byte i) {

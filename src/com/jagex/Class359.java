@@ -94,9 +94,9 @@ public class Class359 {
 	static final void method4724(InterfaceDefinitions class251, Class668 class668, int i) {
 		int i_12_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_13_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
-		if (1939619399 * class251.anInt2601 != 6)
+		if (1939619399 * class251.modelType != 6)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.anInt2602 * -2011124813, (byte) 54));
+		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 54));
 		if (class251.aClass304_2583 == null)
 			class251.aClass304_2583 = new Class304(class296, true);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(726730692) * 1195640203384682761L;

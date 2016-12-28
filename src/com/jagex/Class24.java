@@ -15,9 +15,9 @@ public class Class24 implements Interface32 {
 		if (Class308.aClass308_3456 == class308)
 			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
 		if (Class308.aClass308_3457 == class308) {
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)
-				return (Interface31) class536_sub13.anObject10468;
+				return (Interface31) class536_sub13.value;
 		}
 		return null;
 	}
@@ -26,9 +26,9 @@ public class Class24 implements Interface32 {
 		if (Class308.aClass308_3456 == class308)
 			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
 		if (Class308.aClass308_3457 == class308) {
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)
-				return (Interface31) class536_sub13.anObject10468;
+				return (Interface31) class536_sub13.value;
 		}
 		return null;
 	}
@@ -37,9 +37,9 @@ public class Class24 implements Interface32 {
 		if (Class308.aClass308_3456 == class308)
 			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
 		if (Class308.aClass308_3457 == class308) {
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)
-				return (Interface31) class536_sub13.anObject10468;
+				return (Interface31) class536_sub13.value;
 		}
 		return null;
 	}

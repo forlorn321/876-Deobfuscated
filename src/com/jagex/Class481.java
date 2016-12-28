@@ -33,23 +33,23 @@ public class Class481 {
 	}
 
 	static final void method5831(InterfaceDefinitions class251, int i, byte[] is, byte[] is_0_, Class668 class668, int i_1_) {
-		if (null == class251.aByteArrayArray2647) {
+		if (null == class251.opKeys) {
 			if (null != is) {
-				class251.aByteArrayArray2647 = new byte[11][];
+				class251.opKeys = new byte[11][];
 				class251.aByteArrayArray2648 = new byte[11][];
-				class251.anIntArray2560 = new int[11];
+				class251.opKeyRates = new int[11];
 				class251.anIntArray2722 = new int[11];
-				class251.anIntArray2651 = new int[11];
+				class251.opChars = new int[11];
 			} else
 				return;
 		}
-		class251.aByteArrayArray2647[i] = is;
+		class251.opKeys[i] = is;
 		if (null != is)
 			class251.aBool2582 = true;
 		else {
 			class251.aBool2582 = false;
-			for (int i_2_ = 0; i_2_ < class251.aByteArrayArray2647.length; i_2_++) {
-				if (null != class251.aByteArrayArray2647[i_2_] || class251.anIntArray2651[i_2_] > 0) {
+			for (int i_2_ = 0; i_2_ < class251.opKeys.length; i_2_++) {
+				if (null != class251.opKeys[i_2_] || class251.opChars[i_2_] > 0) {
 					class251.aBool2582 = true;
 					break;
 				}

@@ -62,11 +62,11 @@ class Class151 implements Comparator {
 		int i_7_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_8_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		int i_9_ = i_8_;
-		if (6 != 1939619399 * class251.anInt2601 && 1939619399 * class251.anInt2601 != 2)
+		if (6 != 1939619399 * class251.modelType && 1939619399 * class251.modelType != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.anInt2602, (byte) -36));
+		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) -36));
 		if (null == class251.aClass304_2583)
-			class251.aClass304_2583 = new Class304(class296, class251.anInt2601 * 1939619399 == 6);
+			class251.aClass304_2583 = new Class304(class296, class251.modelType * 1939619399 == 6);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(-960212750) * 1195640203384682761L;
 		if (class296.aByteArray3307 != null) {
 			if (i_8_ < 0 || i_8_ >= class296.aByteArray3307.length)

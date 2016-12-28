@@ -37,9 +37,9 @@ public class Class307 {
 	static final void method4134(int i) {
 		for (int i_2_ = 0; i_2_ < client.anInt11053 * -664631943; i_2_++) {
 			int i_3_ = client.anIntArray11211[i_2_];
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i_3_);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i_3_);
 			if (class536_sub13 != null) {
-				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 				Class583.method7028(class649_sub1_sub5_sub1_sub1, false, 65535);
 			}
 		}

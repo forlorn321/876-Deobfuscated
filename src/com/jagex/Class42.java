@@ -33,8 +33,8 @@ public class Class42 {
 		int[] is = Class510.method6183(string, class668, -507294061);
 		if (null != is)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2710 = Class33.method796(string, class668, (short) 8355);
-		class251.anIntArray2688 = is;
-		class251.aBool2666 = true;
+		class251.onVarcstrTransmitHook = Class33.method796(string, class668, (short) 8355);
+		class251.varcstrTransmitList = is;
+		class251.hasComponentHook = true;
 	}
 }

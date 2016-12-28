@@ -328,9 +328,9 @@ public class Class296 implements DefinitionI {
 						int i_36_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
-							class536 = (new Class536_Sub13(class536_sub33.readString()));
+							class536 = (new ObjectParam(class536_sub33.readString()));
 						else
-							class536 = (new Class536_Sub26(class536_sub33.readInt()));
+							class536 = (new IntParam(class536_sub33.readInt()));
 						aClass4_3309.method560(class536, (long) i_36_);
 					}
 				}
@@ -593,9 +593,9 @@ public class Class296 implements DefinitionI {
 						int i_75_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
-							class536 = (new Class536_Sub13(class536_sub33.readString()));
+							class536 = (new ObjectParam(class536_sub33.readString()));
 						else
-							class536 = (new Class536_Sub26(class536_sub33.readInt()));
+							class536 = (new IntParam(class536_sub33.readInt()));
 						aClass4_3309.method560(class536, (long) i_75_);
 					}
 				}
@@ -772,10 +772,10 @@ public class Class296 implements DefinitionI {
 	public String method3983(int i, String string, int i_89_) {
 		if (null == aClass4_3309)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_3309.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_3309.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public final Class296 method3984(Interface20 interface20, Interface18 interface18, byte i) {
@@ -1083,9 +1083,9 @@ public class Class296 implements DefinitionI {
 						int i_132_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
-							class536 = (new Class536_Sub13(class536_sub33.readString()));
+							class536 = (new ObjectParam(class536_sub33.readString()));
 						else
-							class536 = (new Class536_Sub26(class536_sub33.readInt()));
+							class536 = (new IntParam(class536_sub33.readInt()));
 						aClass4_3309.method560(class536, (long) i_132_);
 					}
 				}
@@ -1350,9 +1350,9 @@ public class Class296 implements DefinitionI {
 						int i_169_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
-							class536 = (new Class536_Sub13(class536_sub33.readString()));
+							class536 = (new ObjectParam(class536_sub33.readString()));
 						else
-							class536 = (new Class536_Sub26(class536_sub33.readInt()));
+							class536 = (new IntParam(class536_sub33.readInt()));
 						aClass4_3309.method560(class536, (long) i_169_);
 					}
 				}
@@ -1606,9 +1606,9 @@ public class Class296 implements DefinitionI {
 						int i_206_ = class536_sub33.read24BitUnsignedInteger();
 						Class536 class536;
 						if (bool)
-							class536 = (new Class536_Sub13(class536_sub33.readString()));
+							class536 = (new ObjectParam(class536_sub33.readString()));
 						else
-							class536 = (new Class536_Sub26(class536_sub33.readInt()));
+							class536 = (new IntParam(class536_sub33.readInt()));
 						aClass4_3309.method560(class536, (long) i_206_);
 					}
 				}
@@ -1651,10 +1651,10 @@ public class Class296 implements DefinitionI {
 	public int method3993(int i, int i_209_, int i_210_) {
 		if (null == aClass4_3309)
 			return i_209_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_3309.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_3309.method556((long) i);
 		if (class536_sub26 == null)
 			return i_209_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public final boolean method3994() {
@@ -1686,10 +1686,10 @@ public class Class296 implements DefinitionI {
 	public String method3996(int i, String string) {
 		if (null == aClass4_3309)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_3309.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_3309.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public final Class177 method3997(Class167 class167, int i, Class34_Sub16 class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_215_, Class688[] class688s, int[] is, int i_216_, Class304 class304, int i_217_, boolean bool, int i_218_) {

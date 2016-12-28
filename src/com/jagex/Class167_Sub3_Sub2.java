@@ -153,8 +153,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 	}
 
 	void method8720() {
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(2011747202)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(2011747202)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method353();
 			if (interface52 == aClass183_1849)
 				interface52.method352();
@@ -293,7 +293,7 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 
 	void method10608(Interface52 interface52) {
 		if (method10623(interface52) == null)
-			aClass708_11544.method8335(new Class536_Sub13(interface52), 868732479);
+			aClass708_11544.method8335(new ObjectParam(interface52), 868732479);
 	}
 
 	final void method8727(int i, Class379 class379, boolean bool, boolean bool_22_) {
@@ -1622,8 +1622,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 
 	void method8719() {
 		method2393();
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(993064614)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(993064614)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method131();
 		}
 		super.method8719();
@@ -1665,9 +1665,9 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 		return aBool11567 && aBool11568;
 	}
 
-	Class536_Sub13 method10623(Interface52 interface52) {
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(1460386376)) {
-			if (class536_sub13.anObject10468 == interface52)
+	ObjectParam method10623(Interface52 interface52) {
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(1460386376)) {
+			if (class536_sub13.value == interface52)
 				return class536_sub13;
 		}
 		return null;
@@ -1802,8 +1802,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 
 	void method8882() {
 		method2393();
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(1075030291)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(1075030291)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method131();
 		}
 		super.method8719();
@@ -1811,8 +1811,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 
 	void method8883() {
 		method2393();
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(1643935707)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(1643935707)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method131();
 		}
 		super.method8719();
@@ -1823,8 +1823,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 	}
 
 	void method8885() {
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(1324671303)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(1324671303)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method353();
 			if (interface52 == aClass183_1849)
 				interface52.method352();
@@ -1833,8 +1833,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 	}
 
 	void method8886() {
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(1787607931)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(1787607931)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method353();
 			if (interface52 == aClass183_1849)
 				interface52.method352();
@@ -1864,8 +1864,8 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 	}
 
 	void method8884() {
-		for (Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (Class536_Sub13) aClass708_11544.method8311(880752850)) {
-			Interface52 interface52 = (Interface52) class536_sub13.anObject10468;
+		for (ObjectParam class536_sub13 = (ObjectParam) aClass708_11544.method8308(1867269829); class536_sub13 != null; class536_sub13 = (ObjectParam) aClass708_11544.method8311(880752850)) {
+			Interface52 interface52 = (Interface52) class536_sub13.value;
 			interface52.method353();
 			if (interface52 == aClass183_1849)
 				interface52.method352();
@@ -1890,9 +1890,9 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 	}
 
 	void method10624(Interface52 interface52) {
-		Class536_Sub13 class536_sub13 = method10623(interface52);
+		ObjectParam class536_sub13 = method10623(interface52);
 		if (class536_sub13 != null)
-			class536_sub13.method6484(-368301636);
+			class536_sub13.method6484();
 	}
 
 	public void method2191(long l) {

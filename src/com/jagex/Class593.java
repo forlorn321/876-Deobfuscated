@@ -777,7 +777,7 @@ public class Class593 {
 			Class34.method816(class668, (short) -15950);
 			break;
 		case 837:
-			Class536_Sub26.method9593(class668, (byte) -91);
+			IntParam.method9593(class668, (byte) -91);
 			break;
 		case 1154:
 			Class458.method5503(class668, 498470885);
@@ -2319,7 +2319,7 @@ public class Class593 {
 			Class456.method5484(class668, (byte) 1);
 			break;
 		case 163:
-			Class536_Sub13.method9469(class668, (byte) 104);
+			ObjectParam.method9469(class668, (byte) 104);
 			break;
 		case 1068:
 			Class536_Sub17.method9520(class668, -1918249791);

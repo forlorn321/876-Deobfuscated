@@ -78,9 +78,9 @@ public class Class462 implements Callable {
 	}
 
 	static final void method5619(InterfaceDefinitions class251, int i, int i_6_, int i_7_, Class668 class668, int i_8_) {
-		if (null == class251.anIntArray2560)
+		if (null == class251.opKeyRates)
 			throw new RuntimeException();
-		class251.anIntArray2560[i] = i_6_;
+		class251.opKeyRates[i] = i_6_;
 		class251.anIntArray2722[i] = i_7_;
 	}
 

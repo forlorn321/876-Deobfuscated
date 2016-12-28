@@ -106,7 +106,7 @@ public class Class295 {
 		Class2 class2 = class251.method3470(Class196.aClass410_2202, client.anInterface51_11196, (byte) -35);
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		int i_3_ = class2.method540(class251.aString2638, -1606950689 * class251.anInt2573, class251.anInt2721 * -1204882523, i_2_, i_1_, Class195.aClass143Array2201, -1022270402);
+		int i_3_ = class2.method540(class251.text, -1606950689 * class251.anInt2573, class251.lineHeight * -1204882523, i_2_, i_1_, Class195.aClass143Array2201, -1022270402);
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_3_;
 	}
 }

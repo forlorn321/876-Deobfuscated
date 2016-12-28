@@ -63,8 +63,8 @@ public class Class109 {
 	public static Class394 method1449(RSByteBuffer class536_sub33, int i) {
 		Class395 class395 = (Class333_Sub3.method9230(1822744981)[class536_sub33.readUnsignedByte()]);
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
-		int i_0_ = class536_sub33.readShort((byte) -76);
-		int i_1_ = class536_sub33.readShort((byte) -20);
+		int i_0_ = class536_sub33.readShort();
+		int i_1_ = class536_sub33.readShort();
 		int i_2_ = class536_sub33.readBigSmart();
 		int i_3_ = class536_sub33.readInt();
 		int i_4_ = class536_sub33.readUnsignedByte();

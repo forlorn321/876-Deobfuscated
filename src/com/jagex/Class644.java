@@ -338,8 +338,8 @@ public final class Class644 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -2025655484) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2715 = Class33.method796(string, class668, (short) -5240);
-		class251.aBool2666 = true;
+		class251.onScrollWheelHook = Class33.method796(string, class668, (short) -5240);
+		class251.hasComponentHook = true;
 	}
 
 	public static void method7792(byte i) {

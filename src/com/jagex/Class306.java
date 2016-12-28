@@ -406,8 +406,8 @@ public class Class306 implements Interface30 {
 		String string = class536_sub33.readString();
 		Class395 class395 = (Class333_Sub3.method9230(1525738188)[class536_sub33.readUnsignedByte()]);
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
-		int i_24_ = class536_sub33.readShort((byte) -17);
-		int i_25_ = class536_sub33.readShort((byte) -100);
+		int i_24_ = class536_sub33.readShort();
+		int i_25_ = class536_sub33.readShort();
 		int i_26_ = class536_sub33.readUnsignedByte();
 		int i_27_ = class536_sub33.readUnsignedByte();
 		int i_28_ = class536_sub33.readUnsignedByte();
@@ -497,8 +497,8 @@ public class Class306 implements Interface30 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -807866914) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2543 = Class33.method796(string, class668, (short) -21941);
-		class251.aBool2666 = true;
+		class251.onTimerHook = Class33.method796(string, class668, (short) -21941);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method4123(Class668 class668, int i) {

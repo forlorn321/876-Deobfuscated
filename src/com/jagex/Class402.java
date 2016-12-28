@@ -60,9 +60,9 @@ public class Class402 implements Interface75 {
 		else if (class536_sub18_sub9.anInt11710 * 245161179 != -1)
 			is = ((ItemDefinitions) (Class111.aClass34_Sub13_1391.method70(245161179 * class536_sub18_sub9.anInt11710, (byte) 24))).anIntArray80;
 		else if (Class465.method5668((class536_sub18_sub9.anInt11718 * -517484763), (byte) -23)) {
-			Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (int) (9092992429781309163L * class536_sub18_sub9.aLong11711))));
+			ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (int) (9092992429781309163L * class536_sub18_sub9.aLong11711))));
 			if (null != class536_sub13) {
-				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 				Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 				if (class296.anIntArray3304 != null)
 					class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -42);
@@ -86,7 +86,7 @@ public class Class402 implements Interface75 {
 	static void method4925(Class234 class234, InterfaceDefinitions class251, byte i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				InterfaceDefinitions class251_4_ = (class234.aClass251Array2378[class251.anInt2577 * -1940204141 & 0xffff]);
+				InterfaceDefinitions class251_4_ = (class234.aClass251Array2378[class251.parentLayer * -1940204141 & 0xffff]);
 				if (null != class251_4_) {
 					if (class251_4_.aClass251Array2726 == class251_4_.aClass251Array2725) {
 						class251_4_.aClass251Array2726 = (new InterfaceDefinitions[class251_4_.aClass251Array2725.length]);

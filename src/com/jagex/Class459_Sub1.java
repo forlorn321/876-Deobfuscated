@@ -136,7 +136,7 @@ public class Class459_Sub1 extends Class459 {
 		if (class536_sub18_sub15 == null)
 			return null;
 		byte[] is = class536_sub18_sub15.method10771(2120245279);
-		class536_sub18_sub15.method6484(-1272183893);
+		class536_sub18_sub15.method6484();
 		return is;
 	}
 
@@ -149,14 +149,14 @@ public class Class459_Sub1 extends Class459 {
 			for (Class536 class536 = aClass708_10150.method8308(1867269829); null != class536; class536 = aClass708_10150.method8311(1457014802)) {
 				int i_1_ = (int) (class536.aLong7133 * -6909195213925454795L);
 				if (i_1_ < 0 || i_1_ >= 608172963 * aClass467_10142.anInt5333 || aClass467_10142.anIntArray5340[i_1_] == 0)
-					class536.method6484(-52234125);
+					class536.method6484();
 				else {
 					if (0 == aByteArray10137[i_1_])
 						method9256(i_1_, 1, 1567970848);
 					if (aByteArray10137[i_1_] == -1)
 						method9256(i_1_, 2, 791262591);
 					if (aByteArray10137[i_1_] == 1)
-						class536.method6484(827367727);
+						class536.method6484();
 				}
 			}
 		}
@@ -461,7 +461,7 @@ public class Class459_Sub1 extends Class459 {
 					if (aByteArray10137[i_11_] == 0)
 						method9256(i_11_, 1, 1863198798);
 					if (aByteArray10137[i_11_] != 0)
-						class536.method6484(-521344021);
+						class536.method6484();
 					else
 						bool = false;
 				}
@@ -495,7 +495,7 @@ public class Class459_Sub1 extends Class459 {
 					if (1 != aByteArray10137[i_12_])
 						method9256(i_12_, 2, 1952753279);
 					if (1 == aByteArray10137[i_12_])
-						class536.method6484(2101827573);
+						class536.method6484();
 					else
 						bool = false;
 				}
@@ -531,7 +531,7 @@ public class Class459_Sub1 extends Class459 {
 					if (class536_sub18_sub15.aBool11779) {
 						if (!class536_sub18_sub15.aBool11778)
 							throw new RuntimeException();
-						class536_sub18_sub15.method6484(78830017);
+						class536_sub18_sub15.method6484();
 					} else
 						class536_sub18_sub15.aBool11779 = true;
 				}
@@ -554,7 +554,7 @@ public class Class459_Sub1 extends Class459 {
 		if (class536_sub18_sub15 == null)
 			return null;
 		byte[] is = class536_sub18_sub15.method10771(2125064494);
-		class536_sub18_sub15.method6484(-922192795);
+		class536_sub18_sub15.method6484();
 		return is;
 	}
 
@@ -630,7 +630,7 @@ public class Class459_Sub1 extends Class459 {
 	Class536_Sub18_Sub15 method9256(int i, int i_17_, int i_18_) {
 		Class536_Sub18_Sub15 class536_sub18_sub15 = (Class536_Sub18_Sub15) aClass4_10139.method556((long) i);
 		if (null != class536_sub18_sub15 && 0 == i_17_ && !class536_sub18_sub15.aBool11778 && class536_sub18_sub15.aBool11777) {
-			class536_sub18_sub15.method6484(-346075604);
+			class536_sub18_sub15.method6484();
 			class536_sub18_sub15 = null;
 		}
 		if (null == class536_sub18_sub15) {
@@ -696,11 +696,11 @@ public class Class459_Sub1 extends Class459 {
 					aByteArray10137[i] = (byte) 1;
 				}
 				if (!class536_sub18_sub15.aBool11778)
-					class536_sub18_sub15.method6484(-548318106);
+					class536_sub18_sub15.method6484();
 				class536_sub18_sub15_19_ = class536_sub18_sub15;
 			} catch (Exception exception) {
 				aByteArray10137[i] = (byte) -1;
-				class536_sub18_sub15.method6484(106631834);
+				class536_sub18_sub15.method6484();
 				if (class536_sub18_sub15.aBool11778) {
 					if (null != aClass449_10158) {
 						if (!aClass449_10158.method5406((byte) -1)) {
@@ -720,7 +720,7 @@ public class Class459_Sub1 extends Class459 {
 		try {
 			if (null == is || is.length <= 2) {
 				if (null != aClass449_10158) {
-					class536_sub18_sub15.method6484(298379240);
+					class536_sub18_sub15.method6484();
 					return null;
 				}
 				throw new RuntimeException();
@@ -744,7 +744,7 @@ public class Class459_Sub1 extends Class459 {
 			}
 		} catch (RuntimeException runtimeexception) {
 			aClass460_10129.method5527(-1029966251 * anInt10143, i, -1100540231);
-			class536_sub18_sub15.method6484(-304571244);
+			class536_sub18_sub15.method6484();
 			if (class536_sub18_sub15.aBool11778) {
 				if (null != aClass449_10158) {
 					if (!aClass449_10158.method5406((byte) -1)) {
@@ -769,7 +769,7 @@ public class Class459_Sub1 extends Class459 {
 			}
 		}
 		if (!class536_sub18_sub15.aBool11778)
-			class536_sub18_sub15.method6484(-1071010825);
+			class536_sub18_sub15.method6484();
 		return class536_sub18_sub15;
 	}
 
@@ -792,14 +792,14 @@ public class Class459_Sub1 extends Class459 {
 			for (Class536 class536 = aClass708_10150.method8308(1867269829); null != class536; class536 = aClass708_10150.method8311(1408717133)) {
 				int i = (int) (class536.aLong7133 * -6909195213925454795L);
 				if (i < 0 || i >= 608172963 * aClass467_10142.anInt5333 || aClass467_10142.anIntArray5340[i] == 0)
-					class536.method6484(-517253332);
+					class536.method6484();
 				else {
 					if (0 == aByteArray10137[i])
 						method9256(i, 1, 893344163);
 					if (aByteArray10137[i] == -1)
 						method9256(i, 2, 2113830374);
 					if (aByteArray10137[i] == 1)
-						class536.method6484(128292439);
+						class536.method6484();
 				}
 			}
 		}

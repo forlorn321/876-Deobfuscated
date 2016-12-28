@@ -17,7 +17,7 @@ public class Class708 implements Iterable, Collection {
 
 	public void method8304(int i) {
 		while (aClass536_8826 != aClass536_8826.aClass536_7132)
-			aClass536_8826.aClass536_7132.method6484(-310388310);
+			aClass536_8826.aClass536_7132.method6484();
 	}
 
 	public boolean remove(Object object) {
@@ -28,7 +28,7 @@ public class Class708 implements Iterable, Collection {
 		Class536 class536 = aClass536_8826.aClass536_7132;
 		if (aClass536_8826 == class536)
 			return null;
-		class536.method6484(1974861999);
+		class536.method6484();
 		return class536;
 	}
 
@@ -46,7 +46,7 @@ public class Class708 implements Iterable, Collection {
 
 	public void method8307() {
 		while (aClass536_8826 != aClass536_8826.aClass536_7132)
-			aClass536_8826.aClass536_7132.method6484(-1365232204);
+			aClass536_8826.aClass536_7132.method6484();
 	}
 
 	public Class536 method8308(int i) {
@@ -262,7 +262,7 @@ public class Class708 implements Iterable, Collection {
 
 	public void method8335(Class536 class536, int i) {
 		if (class536.aClass536_7134 != null)
-			class536.method6484(1856977283);
+			class536.method6484();
 		class536.aClass536_7134 = aClass536_8826.aClass536_7134;
 		class536.aClass536_7132 = aClass536_8826;
 		class536.aClass536_7134.aClass536_7132 = class536;

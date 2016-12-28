@@ -3,11 +3,12 @@
  */
 package com.jagex;
 
-public class Class536_Sub13 extends Class536 {
-	public Object anObject10468;
+public class ObjectParam extends Class536 {
+	
+	public Object value;
 
-	public Class536_Sub13(Object object) {
-		anObject10468 = object;
+	public ObjectParam(Object object) {
+		value = object;
 	}
 
 	static final void method9469(Class668 class668, byte i) {

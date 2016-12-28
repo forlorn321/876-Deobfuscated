@@ -51,9 +51,9 @@ public class Class205_Sub22 extends Class205 {
 		}
 		for (int i_2_ = 0; i_2_ < client.anInt11053 * -664631943; i_2_++) {
 			long l = (long) client.anIntArray11211[i_2_];
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556(l);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556(l);
 			if (class536_sub13 != null)
-				((Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468).method10905((byte) -90);
+				((Class649_Sub1_Sub5_Sub1) class536_sub13.value).method10905((byte) -90);
 		}
 		if (1542697723 * client.anInt11074 == 4) {
 			for (int i_3_ = 0; i_3_ < Class193.aClass189Array2180.length; i_3_++) {

@@ -81,7 +81,7 @@ public class Class441 implements Interface5 {
 			if (!Class329.aClass550_3601.method6655((short) 255)) {
 				if (client.aBool11121) {
 					Class270.method3717(-919424081);
-					if (null != client.aClass251_10992.anObjectArray2676) {
+					if (null != client.aClass251_10992.onDragCompleteHook) {
 						Class536_Sub42 class536_sub42 = new Class536_Sub42();
 						class536_sub42.aClass251_10804 = client.aClass251_10992;
 						class536_sub42.anInt10803 = 1761425895 * i_2_;
@@ -89,7 +89,7 @@ public class Class441 implements Interface5 {
 						InterfaceDefinitions class251 = client.method10382(client.aClass251_10992);
 						InterfaceDefinitions class251_4_ = client.aClass251_11202;
 						boolean bool = false;
-						for (/**/; (null != class251_4_ && -1 != class251_4_.anInt2577 * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].aClass251Array2378[(-1940204141 * class251_4_.anInt2577 & 0xffff)])) {
+						for (/**/; (null != class251_4_ && -1 != class251_4_.parentLayer * -1940204141 && null != class251); class251_4_ = (Class463.aClass234Array5227[-1591767037 * class251_4_.anInt2559 >> 16].aClass251Array2378[(-1940204141 * class251_4_.parentLayer & 0xffff)])) {
 							if (-1591767037 * class251.anInt2559 == -1591767037 * class251_4_.anInt2559) {
 								bool = true;
 								break;
@@ -99,7 +99,7 @@ public class Class441 implements Interface5 {
 							class536_sub42.aClass251_10806 = Class107.aClass251_1323;
 						else
 							class536_sub42.aClass251_10806 = client.aClass251_11202;
-						class536_sub42.anObjectArray10802 = client.aClass251_10992.anObjectArray2676;
+						class536_sub42.anObjectArray10802 = client.aClass251_10992.onDragCompleteHook;
 						Class618.method7388(class536_sub42, -1442250412);
 					}
 					if (client.aClass251_11202 != null && client.method10382(client.aClass251_10992) != null)
@@ -111,18 +111,18 @@ public class Class441 implements Interface5 {
 				client.aClass251_10992 = null;
 				client.aClass251_11199 = null;
 			} else {
-				if (Class360.anInt3827 * 2018211705 > client.aClass251_10992.anInt2663 * 1330942333) {
+				if (Class360.anInt3827 * 2018211705 > client.aClass251_10992.dragDeadTime * 1330942333) {
 					int i_5_ = i_0_ - 1961670097 * client.anInt11209;
 					int i_6_ = i_1_ - 411701121 * client.anInt11210;
-					if (i_5_ > 632017109 * client.aClass251_10992.anInt2600 || i_5_ < -(632017109 * client.aClass251_10992.anInt2600) || i_6_ > 632017109 * client.aClass251_10992.anInt2600 || i_6_ < -(client.aClass251_10992.anInt2600 * 632017109))
+					if (i_5_ > 632017109 * client.aClass251_10992.dragDeadZone || i_5_ < -(632017109 * client.aClass251_10992.dragDeadZone) || i_6_ > 632017109 * client.aClass251_10992.dragDeadZone || i_6_ < -(client.aClass251_10992.dragDeadZone * 632017109))
 						client.aBool11121 = true;
 				}
-				if (null != client.aClass251_10992.anObjectArray2675 && client.aBool11121) {
+				if (null != client.aClass251_10992.onDragHook && client.aBool11121) {
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = client.aClass251_10992;
 					class536_sub42.anInt10803 = i_2_ * 1761425895;
 					class536_sub42.anInt10800 = -1275012151 * i_3_;
-					class536_sub42.anObjectArray10802 = client.aClass251_10992.anObjectArray2675;
+					class536_sub42.anObjectArray10802 = client.aClass251_10992.onDragHook;
 					Class618.method7388(class536_sub42, 307961802);
 				}
 			}

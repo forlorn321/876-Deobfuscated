@@ -156,13 +156,13 @@ public class Class56 implements DefinitionI {
 					if (class536_sub36 != null)
 						Class205.method2950((-358726121 * class536_sub36.anInt10634), i, -870807069);
 				}
-				if (i == 0 && null != class251.anObjectArray2703) {
+				if (i == 0 && null != class251.onDialogAbortHook) {
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = class251;
-					class536_sub42.anObjectArray10802 = class251.anObjectArray2703;
+					class536_sub42.anObjectArray10802 = class251.onDialogAbortHook;
 					Class618.method7388(class536_sub42, 1906304947);
 				}
-				if (i == 1 && class251.anObjectArray2704 != null) {
+				if (i == 1 && class251.onSubChangeHook != null) {
 					if (class251.anInt2546 * -809980533 >= 0) {
 						InterfaceDefinitions class251_18_ = Class264.method3678((-1591767037 * class251.anInt2559), -689214737);
 						if (class251_18_ == null || class251_18_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= class251_18_.aClass251Array2725.length) || class251 != (class251_18_.aClass251Array2725[-809980533 * class251.anInt2546]))
@@ -170,7 +170,7 @@ public class Class56 implements DefinitionI {
 					}
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = class251;
-					class536_sub42.anObjectArray10802 = class251.anObjectArray2704;
+					class536_sub42.anObjectArray10802 = class251.onSubChangeHook;
 					Class618.method7388(class536_sub42, -1748882624);
 				}
 			}

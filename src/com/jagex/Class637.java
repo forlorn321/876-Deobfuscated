@@ -26,7 +26,7 @@ public abstract class Class637 {
 				Class536_Sub31 class536_sub31 = (Class536_Sub31) iterator.next();
 				if (null != class536_sub23 && (-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_0_ >= 252 - (6 + method7629(1030757703))))
 					break;
-				class536_sub31.method6484(1868837382);
+				class536_sub31.method6484();
 				int i_3_ = class536_sub31.method9643((byte) 1);
 				if (i_3_ < -1)
 					i_3_ = -1;

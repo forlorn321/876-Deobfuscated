@@ -31,23 +31,23 @@ public class Class99 {
 	}
 
 	static final void method1325(InterfaceDefinitions class251, int i, int i_0_, Class668 class668, int i_1_) {
-		if (null == class251.anIntArray2651) {
+		if (null == class251.opChars) {
 			if (i_0_ > 0) {
-				class251.aByteArrayArray2647 = new byte[11][];
+				class251.opKeys = new byte[11][];
 				class251.aByteArrayArray2648 = new byte[11][];
-				class251.anIntArray2560 = new int[11];
+				class251.opKeyRates = new int[11];
 				class251.anIntArray2722 = new int[11];
-				class251.anIntArray2651 = new int[11];
+				class251.opChars = new int[11];
 			} else
 				return;
 		}
-		class251.anIntArray2651[i] = i_0_;
+		class251.opChars[i] = i_0_;
 		if (i_0_ > 0)
 			class251.aBool2582 = true;
 		else {
 			class251.aBool2582 = false;
-			for (int i_2_ = 0; i_2_ < class251.aByteArrayArray2647.length; i_2_++) {
-				if (null != class251.aByteArrayArray2647[i_2_] || class251.anIntArray2651[i_2_] > 0) {
+			for (int i_2_ = 0; i_2_ < class251.opKeys.length; i_2_++) {
+				if (null != class251.opKeys[i_2_] || class251.opChars[i_2_] > 0) {
 					class251.aBool2582 = true;
 					break;
 				}
@@ -59,16 +59,16 @@ public class Class99 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1548100402) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2703 = Class33.method796(string, class668, (short) -15409);
-		class251.aBool2666 = true;
+		class251.onDialogAbortHook = Class33.method796(string, class668, (short) -15409);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method1327(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1640364600) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2624 = Class33.method796(string, class668, (short) 12386);
-		class251.aBool2666 = true;
+		class251.onOptHook = Class33.method796(string, class668, (short) 12386);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method1328(Class668 class668, byte i) {

@@ -108,7 +108,7 @@ public class ItemDefinitions implements DefinitionI {
 				for (Class536 class536 = clientScriptData.method562(-1886721107); class536 != null; class536 = clientScriptData.method567(785392296)) {
 					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -66));
 					if (class73.aBool802)
-						class536.method6484(1169878739);
+						class536.method6484();
 					else
 						bool = true;
 				}
@@ -418,10 +418,10 @@ public class ItemDefinitions implements DefinitionI {
 	public int method510(int i, int i_72_, byte i_73_) {
 		if (clientScriptData == null)
 			return i_72_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) clientScriptData.method556((long) i);
+		IntParam class536_sub26 = (IntParam) clientScriptData.method556((long) i);
 		if (null == class536_sub26)
 			return i_72_;
-		return class536_sub26.anInt10533 * 2083602213;
+		return class536_sub26.value * 2083602213;
 	}
 
 	public int method511(int i, int i_74_) {
@@ -437,10 +437,10 @@ public class ItemDefinitions implements DefinitionI {
 	public String method512(int i, String string, int i_75_) {
 		if (null == clientScriptData)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) clientScriptData.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) clientScriptData.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public void method77() {
@@ -463,7 +463,7 @@ public class ItemDefinitions implements DefinitionI {
 				for (Class536 class536 = clientScriptData.method562(-1551289147); class536 != null; class536 = clientScriptData.method567(-335423598)) {
 					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -82));
 					if (class73.aBool802)
-						class536.method6484(-1437571573);
+						class536.method6484();
 					else
 						bool = true;
 				}
@@ -962,9 +962,9 @@ public class ItemDefinitions implements DefinitionI {
 					int key = buffer.read24BitUnsignedInteger();
 					Class536 value;
 					if (stringInstance)
-						value = new Class536_Sub13(buffer.readString());
+						value = new ObjectParam(buffer.readString());
 					else
-						value = new Class536_Sub26(buffer.readInt());
+						value = new IntParam(buffer.readInt());
 					clientScriptData.method560(value, (long) key);
 				}
 			}

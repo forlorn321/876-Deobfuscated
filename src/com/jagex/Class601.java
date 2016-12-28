@@ -328,7 +328,7 @@ public class Class601 implements Interface75 {
 			boolean bool = true;
 			for (int i_19_ = 0; i_19_ < (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378).length; i_19_++) {
 				InterfaceDefinitions class251 = (Class463.aClass234Array5227[1657790451 * Class644.aClass628_8352.anInt8195].aClass251Array2378[i_19_]);
-				if (1049444347 * class251.anInt2728 == 5 && -1 != class251.anInt2592 * -1307221069 && !Class398.aClass461_4122.method5558((-1307221069 * (class251.anInt2592)), 0, -1248136142))
+				if (1049444347 * class251.anInt2728 == 5 && -1 != class251.graphicId * -1307221069 && !Class398.aClass461_4122.method5558((-1307221069 * (class251.graphicId)), 0, -1248136142))
 					bool = false;
 			}
 			if (!bool)

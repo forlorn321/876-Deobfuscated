@@ -26,11 +26,11 @@ public final class Class195 {
 	public void method2856(Class536_Sub18 class536_sub18, long l) {
 		if (anInt2197 * 1465761799 == 0) {
 			Class536_Sub18 class536_sub18_1_ = aClass700_2196.method8237(587880634);
-			class536_sub18_1_.method6484(-220257974);
+			class536_sub18_1_.method6484();
 			class536_sub18_1_.method9521(-1142611689);
 			if (aClass536_Sub18_2198 == class536_sub18_1_) {
 				class536_sub18_1_ = aClass700_2196.method8237(83082638);
-				class536_sub18_1_.method6484(1833574929);
+				class536_sub18_1_.method6484();
 				class536_sub18_1_.method9521(-2131714429);
 			}
 		} else

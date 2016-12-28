@@ -209,7 +209,7 @@ public abstract class Class319 implements Interface33 {
 	}
 
 	static final void method4238(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
-		class251.anInt2613 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1926815261;
+		class251.zoom2d = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1926815261;
 		Class668.method8011(class251, 263642117);
 		if (-1 == class251.anInt2546 * -809980533 && !class234.aBool2379)
 			Class294.method3975(class251.anInt2559 * -1591767037, (byte) -45);

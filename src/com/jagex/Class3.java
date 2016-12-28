@@ -70,7 +70,7 @@ public class Class3 implements Iterator {
 	public void remove() {
 		if (aClass536_100 == null)
 			throw new IllegalStateException();
-		aClass536_100.method6484(1219438802);
+		aClass536_100.method6484();
 		aClass536_100 = null;
 	}
 
@@ -126,7 +126,7 @@ public class Class3 implements Iterator {
 	public void method551() {
 		if (aClass536_100 == null)
 			throw new IllegalStateException();
-		aClass536_100.method6484(770432371);
+		aClass536_100.method6484();
 		aClass536_100 = null;
 	}
 

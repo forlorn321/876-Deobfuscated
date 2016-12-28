@@ -13,8 +13,8 @@ public class Class582 {
 
 	static final void method7023(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= -1349181388;
-		class251.anInt2569 = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * 1219788737);
-		class251.anInt2664 = (49026457 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
+		class251.sizeX = (class668.anIntArray8541[class668.anInt8542 * 1867269829] * 1219788737);
+		class251.sizeY = (49026457 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
 		class251.anInt2614 = 0;
 		class251.anInt2615 = 0;
 		int i_0_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2];
@@ -27,8 +27,8 @@ public class Class582 {
 			i_1_ = 0;
 		else if (i_1_ > 4)
 			i_1_ = 4;
-		class251.aByte2565 = (byte) i_0_;
-		class251.aByte2618 = (byte) i_1_;
+		class251.sizeXMode = (byte) i_0_;
+		class251.sizeYMode = (byte) i_1_;
 		Class668.method8011(class251, 263642117);
 		Class223.method3202(class234, class251, 779208084);
 		if (0 == class251.anInt2728 * 1049444347)

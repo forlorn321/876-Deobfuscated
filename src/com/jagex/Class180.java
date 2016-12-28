@@ -284,8 +284,8 @@ public class Class180 {
 				aFloatArray1959 = new float[anInt1963];
 				aFloatArray1960 = new float[anInt1963];
 				for (i_68_ = 0; i_68_ < anInt1963; i_68_++) {
-					aFloatArray1959[i_68_] = ((float) class536_sub33_0_.readShort((byte) -91) / 4096.0F);
-					aFloatArray1960[i_68_] = ((float) class536_sub33_1_.readShort((byte) -111) / 4096.0F);
+					aFloatArray1959[i_68_] = ((float) class536_sub33_0_.readShort() / 4096.0F);
+					aFloatArray1960[i_68_] = ((float) class536_sub33_1_.readShort() / 4096.0F);
 				}
 			}
 			class536_sub33.off = i_41_ * 516175515;

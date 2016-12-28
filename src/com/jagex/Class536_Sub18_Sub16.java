@@ -113,7 +113,7 @@ public class Class536_Sub18_Sub16 extends Class536_Sub18 {
 				while (i_11_-- > 0) {
 					int i_12_ = class536_sub33.readInt();
 					int i_13_ = class536_sub33.readInt();
-					class4.method560(new Class536_Sub26(i_13_), (long) i_12_);
+					class4.method560(new IntParam(i_13_), (long) i_12_);
 				}
 			}
 		}

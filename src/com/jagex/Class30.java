@@ -54,9 +54,9 @@ public class Class30 {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class73 class73 = (Class73) Class207.aClass34_Sub22_2244.method70(i_6_, (byte) 31);
 		if (class73.method1128((byte) 97))
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.method3477(i_6_, class73.aString805, -279793543);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.getStringParamDefault(i_6_, class73.aString805, -279793543);
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.method3476(i_6_, 1566477951 * class73.anInt803, 1869360746);
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.getIntParamDefault(i_6_, 1566477951 * class73.anInt803, 1869360746);
 	}
 
 	static final void method783(Class668 class668, byte i) {

@@ -57,7 +57,7 @@ public class Class225 implements Interface26 {
 	static final void method3215(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2609 * 1533121603;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.zan2d * 1533121603;
 	}
 
 	static final void method3216(Class668 class668, int i) {

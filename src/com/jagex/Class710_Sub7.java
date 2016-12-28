@@ -109,10 +109,10 @@ public class Class710_Sub7 extends Class710 {
 	static final void method9936(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
-		if (null == class251.aString2556)
+		if (null == class251.opBase)
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aString2556;
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.opBase;
 	}
 
 	static void method9937(int i) {

@@ -181,9 +181,9 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 				Class103 class103 = client.aClass103Array11020[i_18_];
 				if (class103 != null && -1 != class103.anInt1229 * 19461697) {
 					if (2030004867 * class103.anInt1224 == 1) {
-						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
+						ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_19_ = (int) class436.aFloat4850;
 							int i_20_ = (int) class436.aFloat4853;
@@ -465,9 +465,9 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 				Class103 class103 = client.aClass103Array11020[i_43_];
 				if (class103 != null && -1 != class103.anInt1229 * 19461697) {
 					if (2030004867 * class103.anInt1224 == 1) {
-						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
+						ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_44_ = (int) class436.aFloat4850;
 							int i_45_ = (int) class436.aFloat4853;
@@ -633,9 +633,9 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 				Class103 class103 = client.aClass103Array11020[i_60_];
 				if (class103 != null && -1 != class103.anInt1229 * 19461697) {
 					if (2030004867 * class103.anInt1224 == 1) {
-						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
+						ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_61_ = (int) class436.aFloat4850;
 							int i_62_ = (int) class436.aFloat4853;
@@ -866,9 +866,9 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 				Class103 class103 = client.aClass103Array11020[i_92_];
 				if (class103 != null && -1 != class103.anInt1229 * 19461697) {
 					if (2030004867 * class103.anInt1224 == 1) {
-						Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
+						ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 						if (class536_sub13 != null) {
-							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+							NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 							Class436 class436 = (Class436.method5252((class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823), Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823));
 							int i_93_ = (int) class436.aFloat4850;
 							int i_94_ = (int) class436.aFloat4853;

@@ -145,7 +145,7 @@ public class Class26 {
 	static final void method738(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2587 * -336626187;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.colour * -336626187;
 	}
 
 	static void method739(Class167 class167, int i) {
@@ -224,21 +224,21 @@ public class Class26 {
 	static void method743(InterfaceDefinitions class251, int i, int i_20_, boolean bool, int i_21_) {
 		int i_22_ = -1606950689 * class251.anInt2573;
 		int i_23_ = 223822141 * class251.anInt2574;
-		if (0 == class251.aByte2565)
-			class251.anInt2573 = 734859999 * class251.anInt2569;
-		else if (class251.aByte2565 == 1)
-			class251.anInt2573 = (i - 101683265 * class251.anInt2569) * -1094460641;
-		else if (class251.aByte2565 == 2)
-			class251.anInt2573 = (i * (class251.anInt2569 * 101683265) >> 14) * -1094460641;
-		if (class251.aByte2618 == 0)
-			class251.anInt2574 = 247423453 * class251.anInt2664;
-		else if (1 == class251.aByte2618)
-			class251.anInt2574 = 1965334037 * (i_20_ - -1769050455 * class251.anInt2664);
-		else if (class251.aByte2618 == 2)
-			class251.anInt2574 = 1965334037 * (class251.anInt2664 * -1769050455 * i_20_ >> 14);
-		if (4 == class251.aByte2565)
+		if (0 == class251.sizeXMode)
+			class251.anInt2573 = 734859999 * class251.sizeX;
+		else if (class251.sizeXMode == 1)
+			class251.anInt2573 = (i - 101683265 * class251.sizeX) * -1094460641;
+		else if (class251.sizeXMode == 2)
+			class251.anInt2573 = (i * (class251.sizeX * 101683265) >> 14) * -1094460641;
+		if (class251.sizeYMode == 0)
+			class251.anInt2574 = 247423453 * class251.sizeY;
+		else if (1 == class251.sizeYMode)
+			class251.anInt2574 = 1965334037 * (i_20_ - -1769050455 * class251.sizeY);
+		else if (class251.sizeYMode == 2)
+			class251.anInt2574 = 1965334037 * (class251.sizeY * -1769050455 * i_20_ >> 14);
+		if (4 == class251.sizeXMode)
 			class251.anInt2573 = (class251.anInt2693 * 460230119 * (223822141 * class251.anInt2574) / (class251.anInt2576 * 1468559887) * -1094460641);
-		if (class251.aByte2618 == 4)
+		if (class251.sizeYMode == 4)
 			class251.anInt2574 = (class251.anInt2576 * 1468559887 * (class251.anInt2573 * -1606950689) / (460230119 * class251.anInt2693) * 1965334037);
 		if (client.aBool11010 && (client.getIComponentSettings(class251).settings * -512963777 != 0 || 0 == 1049444347 * class251.anInt2728)) {
 			if (class251.anInt2574 * 223822141 < 5 && class251.anInt2573 * -1606950689 < 5) {
@@ -253,10 +253,10 @@ public class Class26 {
 		}
 		if (InterfaceDefinitions.anInt2537 * -2049675251 == -1769600535 * class251.anInt2562)
 			client.aClass251_11195 = class251;
-		if (bool && null != class251.anObjectArray2706 && (i_22_ != class251.anInt2573 * -1606950689 || i_23_ != 223822141 * class251.anInt2574)) {
+		if (bool && null != class251.onResizeHook && (i_22_ != class251.anInt2573 * -1606950689 || i_23_ != 223822141 * class251.anInt2574)) {
 			Class536_Sub42 class536_sub42 = new Class536_Sub42();
 			class536_sub42.aClass251_10804 = class251;
-			class536_sub42.anObjectArray10802 = class251.anObjectArray2706;
+			class536_sub42.anObjectArray10802 = class251.onResizeHook;
 			client.aClass708_11077.method8335(class536_sub42, -422152708);
 		}
 	}

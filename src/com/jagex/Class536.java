@@ -20,7 +20,7 @@ public class Class536 {
 		}
 	}
 
-	public void method6484(int i) {
+	public void method6484() {
 		if (null != aClass536_7134) {
 			aClass536_7134.aClass536_7132 = aClass536_7132;
 			aClass536_7132.aClass536_7134 = aClass536_7134;

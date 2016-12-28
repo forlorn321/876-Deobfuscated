@@ -26,19 +26,19 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 	public int method10481(int i, int i_1_) {
 		if (null == aClass4_11331)
 			return i_1_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_11331.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub26)
 			return i_1_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public String method10482(int i, String string, int i_2_) {
 		if (null == aClass4_11331)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_11331.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public void method59(int i, int i_3_) {
@@ -57,9 +57,9 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 				int i_8_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_11331.method560(class536, (long) i_8_);
 			}
 		}
@@ -81,10 +81,10 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 	public int method10484(int i, int i_9_, byte i_10_) {
 		if (null == aClass4_11331)
 			return i_9_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_11331.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub26)
 			return i_9_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public void method58(int i) {
@@ -103,9 +103,9 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 				int i_14_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_11331.method560(class536, (long) i_14_);
 			}
 		}
@@ -123,9 +123,9 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 				int i_18_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_11331.method560(class536, (long) i_18_);
 			}
 		}
@@ -142,28 +142,28 @@ public class Class536_Sub18_Sub2 extends Class536_Sub18 implements DefinitionI, 
 	public int method10487(int i, int i_19_) {
 		if (null == aClass4_11331)
 			return i_19_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_11331.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub26)
 			return i_19_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public String method10488(int i, String string) {
 		if (null == aClass4_11331)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_11331.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public String method10489(int i, String string) {
 		if (null == aClass4_11331)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_11331.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_11331.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	static final void method10490(Class668 class668, int i) {

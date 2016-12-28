@@ -69,7 +69,7 @@ public class Class693 implements Iterator {
 	public void method8203() {
 		if (aClass536_8725 == null)
 			throw new IllegalStateException();
-		aClass536_8725.method6484(112803026);
+		aClass536_8725.method6484();
 		aClass536_8725 = null;
 	}
 
@@ -103,7 +103,7 @@ public class Class693 implements Iterator {
 	public void remove() {
 		if (aClass536_8725 == null)
 			throw new IllegalStateException();
-		aClass536_8725.method6484(-1064424588);
+		aClass536_8725.method6484();
 		aClass536_8725 = null;
 	}
 

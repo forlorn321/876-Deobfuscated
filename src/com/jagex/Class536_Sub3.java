@@ -49,7 +49,7 @@ public class Class536_Sub3 extends Class536 {
 				Class184_Sub2.aClass211_9442.method3002(class536_sub3.aClass479_10387, -1092963117);
 				class536_sub3.aClass479_10387 = null;
 			}
-			class536_sub3.method6484(1964098861);
+			class536_sub3.method6484();
 		}
 		if (bool) {
 			for (Class536_Sub3 class536_sub3 = (Class536_Sub3) aClass708_10386.method8308(1867269829); class536_sub3 != null; class536_sub3 = ((Class536_Sub3) aClass708_10386.method8311(1100575997))) {
@@ -58,7 +58,7 @@ public class Class536_Sub3 extends Class536 {
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);
 					class536_sub3.aClass479_10389 = null;
 				}
-				class536_sub3.method6484(1494291431);
+				class536_sub3.method6484();
 			}
 			for (Class536_Sub3 class536_sub3 = (Class536_Sub3) aClass4_10366.method562(-1504316821); class536_sub3 != null; class536_sub3 = (Class536_Sub3) aClass4_10366.method567(199184599)) {
 				if (class536_sub3.aClass479_10389 != null) {
@@ -66,7 +66,7 @@ public class Class536_Sub3 extends Class536 {
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);
 					class536_sub3.aClass479_10389 = null;
 				}
-				class536_sub3.method6484(755634469);
+				class536_sub3.method6484();
 			}
 		}
 	}

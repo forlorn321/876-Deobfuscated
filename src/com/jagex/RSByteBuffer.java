@@ -176,7 +176,7 @@ public class RSByteBuffer extends Class536 {
 		return (((buffer[off * -810172525 - 2] & 0xff) << 8) + (buffer[off * -810172525 - 1] & 0xff));
 	}
 
-	public int readShort(byte i) {
+	public int readShort() {
 		off += 1032351030;
 		int i_20_ = ((buffer[off * -810172525 - 1] & 0xff) + ((buffer[-810172525 * off - 2] & 0xff) << 8));
 		if (i_20_ > 32767)

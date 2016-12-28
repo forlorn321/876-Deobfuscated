@@ -131,9 +131,9 @@ public class Class335 implements Interface33 {
 
 	static void method4377(Class167 class167, int i, int i_6_, InterfaceDefinitions class251, Class161 class161, int i_7_, int i_8_, int i_9_) {
 		for (int i_10_ = 0; i_10_ < client.anInt11053 * -664631943; i_10_++) {
-			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
+			ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
 			if (null != class536_sub13) {
-				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 				if (class649_sub1_sub5_sub1_sub1.method11068(2073549523) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == class649_sub1_sub5_sub1_sub1.aByte10839)) {
 					Class296 class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 					if (null != class296 && null != class296.anIntArray3304)

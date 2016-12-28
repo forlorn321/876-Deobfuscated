@@ -36,7 +36,7 @@ public abstract class Class47 {
 				Class184_Sub2.aClass211_9442.method3002(class536_sub3.aClass479_10389, -1092963117);
 				class536_sub3.aClass479_10389 = null;
 			}
-			class536_sub3.method6484(-1334550304);
+			class536_sub3.method6484();
 		}
 	}
 

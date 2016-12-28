@@ -230,11 +230,11 @@ public class Class612 implements DefinitionI {
 			else if (i == 69)
 				class536_sub33.readUnsignedByte();
 			else if (70 == i)
-				anInt7978 = ((class536_sub33.readShort((byte) -64) << 2) * -445350345);
+				anInt7978 = ((class536_sub33.readShort() << 2) * -445350345);
 			else if (i == 71)
-				anInt7979 = (class536_sub33.readShort((byte) -97) << 2) * 902429351;
+				anInt7979 = (class536_sub33.readShort() << 2) * 902429351;
 			else if (72 == i)
-				anInt7962 = ((class536_sub33.readShort((byte) -28) << 2) * 1093534315);
+				anInt7962 = ((class536_sub33.readShort() << 2) * 1093534315);
 			else if (73 == i)
 				aBool7945 = true;
 			else if (i == 74)
@@ -285,7 +285,7 @@ public class Class612 implements DefinitionI {
 				aByte7954 = (byte) 4;
 			else if (i == 95) {
 				aByte7954 = (byte) 5;
-				anInt7955 = class536_sub33.readShort((byte) -26) * -512704885;
+				anInt7955 = class536_sub33.readShort() * -512704885;
 			} else if (i == 97)
 				aBool7970 = true;
 			else if (i == 98)
@@ -334,11 +334,11 @@ public class Class612 implements DefinitionI {
 				aByte7948 = class536_sub33.readByte();
 				aByte7949 = class536_sub33.readByte();
 			} else if (i == 164)
-				anInt7981 = class536_sub33.readShort((byte) -16) * -1554100081;
+				anInt7981 = class536_sub33.readShort() * -1554100081;
 			else if (i == 165)
-				anInt7984 = class536_sub33.readShort((byte) -117) * -698357095;
+				anInt7984 = class536_sub33.readShort() * -698357095;
 			else if (i == 166)
-				anInt7936 = class536_sub33.readShort((byte) -18) * -1406833241;
+				anInt7936 = class536_sub33.readShort() * -1406833241;
 			else if (167 == i)
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
@@ -390,9 +390,9 @@ public class Class612 implements DefinitionI {
 								int i_40_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
-									class536 = new Class536_Sub13(class536_sub33.readString().intern());
+									class536 = new ObjectParam(class536_sub33.readString().intern());
 								else
-									class536 = new Class536_Sub26(class536_sub33.readInt());
+									class536 = new IntParam(class536_sub33.readInt());
 								aClass4_7933.method560(class536, (long) i_40_);
 							}
 						}
@@ -704,19 +704,19 @@ public class Class612 implements DefinitionI {
 	public int method7290(int i, int i_81_, int i_82_) {
 		if (null == aClass4_7933)
 			return i_81_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_7933.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_7933.method556((long) i);
 		if (null == class536_sub26)
 			return i_81_;
-		return class536_sub26.anInt10533 * 2083602213;
+		return class536_sub26.value * 2083602213;
 	}
 
 	public String method7291(int i, String string, int i_83_) {
 		if (aClass4_7933 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_7933.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_7933.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public final boolean method7292(Class656 class656, byte i) {
@@ -918,11 +918,11 @@ public class Class612 implements DefinitionI {
 			else if (i == 69)
 				class536_sub33.readUnsignedByte();
 			else if (70 == i)
-				anInt7978 = ((class536_sub33.readShort((byte) -25) << 2) * -445350345);
+				anInt7978 = ((class536_sub33.readShort() << 2) * -445350345);
 			else if (i == 71)
-				anInt7979 = (class536_sub33.readShort((byte) -37) << 2) * 902429351;
+				anInt7979 = (class536_sub33.readShort() << 2) * 902429351;
 			else if (72 == i)
-				anInt7962 = ((class536_sub33.readShort((byte) -51) << 2) * 1093534315);
+				anInt7962 = ((class536_sub33.readShort() << 2) * 1093534315);
 			else if (73 == i)
 				aBool7945 = true;
 			else if (i == 74)
@@ -973,7 +973,7 @@ public class Class612 implements DefinitionI {
 				aByte7954 = (byte) 4;
 			else if (i == 95) {
 				aByte7954 = (byte) 5;
-				anInt7955 = class536_sub33.readShort((byte) -127) * -512704885;
+				anInt7955 = class536_sub33.readShort() * -512704885;
 			} else if (i == 97)
 				aBool7970 = true;
 			else if (i == 98)
@@ -1022,11 +1022,11 @@ public class Class612 implements DefinitionI {
 				aByte7948 = class536_sub33.readByte();
 				aByte7949 = class536_sub33.readByte();
 			} else if (i == 164)
-				anInt7981 = class536_sub33.readShort((byte) -98) * -1554100081;
+				anInt7981 = class536_sub33.readShort() * -1554100081;
 			else if (i == 165)
-				anInt7984 = class536_sub33.readShort((byte) -63) * -698357095;
+				anInt7984 = class536_sub33.readShort() * -698357095;
 			else if (i == 166)
-				anInt7936 = class536_sub33.readShort((byte) -94) * -1406833241;
+				anInt7936 = class536_sub33.readShort() * -1406833241;
 			else if (167 == i)
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
@@ -1078,9 +1078,9 @@ public class Class612 implements DefinitionI {
 								int i_127_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
-									class536 = new Class536_Sub13(class536_sub33.readString().intern());
+									class536 = new ObjectParam(class536_sub33.readString().intern());
 								else
-									class536 = new Class536_Sub26(class536_sub33.readInt());
+									class536 = new IntParam(class536_sub33.readInt());
 								aClass4_7933.method560(class536, (long) i_127_);
 							}
 						}
@@ -1250,10 +1250,10 @@ public class Class612 implements DefinitionI {
 	public String method7306(int i, String string) {
 		if (aClass4_7933 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_7933.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_7933.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public boolean method7307() {
@@ -1369,11 +1369,11 @@ public class Class612 implements DefinitionI {
 			else if (i == 69)
 				class536_sub33.readUnsignedByte();
 			else if (70 == i)
-				anInt7978 = ((class536_sub33.readShort((byte) -91) << 2) * -445350345);
+				anInt7978 = ((class536_sub33.readShort() << 2) * -445350345);
 			else if (i == 71)
-				anInt7979 = (class536_sub33.readShort((byte) -8) << 2) * 902429351;
+				anInt7979 = (class536_sub33.readShort() << 2) * 902429351;
 			else if (72 == i)
-				anInt7962 = ((class536_sub33.readShort((byte) -69) << 2) * 1093534315);
+				anInt7962 = ((class536_sub33.readShort() << 2) * 1093534315);
 			else if (73 == i)
 				aBool7945 = true;
 			else if (i == 74)
@@ -1424,7 +1424,7 @@ public class Class612 implements DefinitionI {
 				aByte7954 = (byte) 4;
 			else if (i == 95) {
 				aByte7954 = (byte) 5;
-				anInt7955 = class536_sub33.readShort((byte) -120) * -512704885;
+				anInt7955 = class536_sub33.readShort() * -512704885;
 			} else if (i == 97)
 				aBool7970 = true;
 			else if (i == 98)
@@ -1473,11 +1473,11 @@ public class Class612 implements DefinitionI {
 				aByte7948 = class536_sub33.readByte();
 				aByte7949 = class536_sub33.readByte();
 			} else if (i == 164)
-				anInt7981 = class536_sub33.readShort((byte) -34) * -1554100081;
+				anInt7981 = class536_sub33.readShort() * -1554100081;
 			else if (i == 165)
-				anInt7984 = class536_sub33.readShort((byte) -75) * -698357095;
+				anInt7984 = class536_sub33.readShort() * -698357095;
 			else if (i == 166)
-				anInt7936 = class536_sub33.readShort((byte) -15) * -1406833241;
+				anInt7936 = class536_sub33.readShort() * -1406833241;
 			else if (167 == i)
 				anInt7987 = class536_sub33.readUnsignedShort() * 277144019;
 			else if (168 != i && 169 != i) {
@@ -1529,9 +1529,9 @@ public class Class612 implements DefinitionI {
 								int i_166_ = class536_sub33.read24BitUnsignedInteger();
 								Class536 class536;
 								if (bool)
-									class536 = new Class536_Sub13(class536_sub33.readString().intern());
+									class536 = new ObjectParam(class536_sub33.readString().intern());
 								else
-									class536 = new Class536_Sub26(class536_sub33.readInt());
+									class536 = new IntParam(class536_sub33.readInt());
 								aClass4_7933.method560(class536, (long) i_166_);
 							}
 						}

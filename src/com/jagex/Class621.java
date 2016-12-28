@@ -145,10 +145,10 @@ public class Class621 {
 		class668.anInt8542 -= 123711566;
 		class251.anInt2658 = 39819219 * (class668.anIntArray8541[1867269829 * class668.anInt8542]);
 		class251.anInt2606 = (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829] * 679538459);
-		class251.anInt2551 = (-1501528611 * class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2]);
-		class251.anInt2547 = (-947955085 * class668.anIntArray8541[3 + 1867269829 * class668.anInt8542]);
-		class251.anInt2609 = (465590379 * class668.anIntArray8541[4 + class668.anInt8542 * 1867269829]);
-		class251.anInt2613 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 5] * -1926815261);
+		class251.xan2d = (-1501528611 * class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2]);
+		class251.yan2d = (-947955085 * class668.anIntArray8541[3 + 1867269829 * class668.anInt8542]);
+		class251.zan2d = (465590379 * class668.anIntArray8541[4 + class668.anInt8542 * 1867269829]);
+		class251.zoom2d = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 5] * -1926815261);
 		Class668.method8011(class251, 263642117);
 		if (class251.anInt2546 * -809980533 == -1 && !class234.aBool2379) {
 			Class294.method3975(class251.anInt2559 * -1591767037, (byte) -30);

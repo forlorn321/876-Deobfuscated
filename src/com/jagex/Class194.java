@@ -13,9 +13,9 @@ public class Class194 {
 	}
 
 	static final void method2853(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
-		class251.anInt2601 = 729552622;
+		class251.modelType = 729552622;
 		class251.aClass304_2583 = null;
-		class251.anInt2602 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1639447419;
+		class251.modelId = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1639447419;
 		if (-809980533 * class251.anInt2546 == -1 && !class234.aBool2379)
 			Class34_Sub7.method10328(-1591767037 * class251.anInt2559, (short) -29238);
 	}

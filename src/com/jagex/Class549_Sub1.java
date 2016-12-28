@@ -379,7 +379,7 @@ public final class Class549_Sub1 extends Class549 implements KeyListener, FocusL
 	static final void method9674(InterfaceDefinitions[] class251s, int i, int i_14_) {
 		for (int i_15_ = 0; i_15_ < class251s.length; i_15_++) {
 			InterfaceDefinitions class251 = class251s[i_15_];
-			if (class251 != null && class251.anInt2577 * -1940204141 == i && !client.method10439(class251)) {
+			if (class251 != null && class251.parentLayer * -1940204141 == i && !client.method10439(class251)) {
 				if (class251.anInt2728 * 1049444347 == 0) {
 					method9674(class251s, -1591767037 * class251.anInt2559, 1983741393);
 					if (null != class251.aClass251Array2726)
@@ -388,10 +388,10 @@ public final class Class549_Sub1 extends Class549 implements KeyListener, FocusL
 					if (null != class536_sub36)
 						Class199.method2913((class536_sub36.anInt10634 * -358726121), -97240780);
 				}
-				if (6 == class251.anInt2728 * 1049444347 && 1625008649 * class251.anInt2723 != -1) {
+				if (6 == class251.anInt2728 * 1049444347 && 1625008649 * class251.animId != -1) {
 					if (class251.aClass688_2653 == null) {
 						class251.aClass688_2653 = new Class688_Sub1();
-						class251.aClass688_2653.method8122((1625008649 * (class251.anInt2723)), -1474623312);
+						class251.aClass688_2653.method8122((1625008649 * (class251.animId)), -1474623312);
 					}
 					if (class251.aClass688_2653.method8138((client.anInt11180 * -1483561311), 1489564848) && class251.aClass688_2653.method8135(495203082))
 						class251.aClass688_2653.method8137(-703751447);

@@ -44,7 +44,7 @@ public class Class106 {
 					break;
 				aClass536_Sub33_1257.writeBytes(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 114);
 				anInt1268 -= -1844865695 * class536_sub23.anInt10530;
-				class536_sub23.method6484(601871671);
+				class536_sub23.method6484();
 				class536_sub23.aClass536_Sub33_Sub2_10528.method9685(120764410);
 				class536_sub23.method9582((byte) 127);
 			}
@@ -79,7 +79,7 @@ public class Class106 {
 					break;
 				aClass536_Sub33_1257.writeBytes(class536_sub23.aClass536_Sub33_Sub2_10528.buffer, 0, class536_sub23.anInt10530 * -1225204241, (byte) 90);
 				anInt1268 -= -1844865695 * class536_sub23.anInt10530;
-				class536_sub23.method6484(-1062937264);
+				class536_sub23.method6484();
 				class536_sub23.aClass536_Sub33_Sub2_10528.method9685(120764410);
 				class536_sub23.method9582((byte) 127);
 			}
@@ -258,7 +258,7 @@ public class Class106 {
 		RSBitBuffer buffer = client.aClass106_11322.byteBuffer;
 		for (int i_2_ = 0; i_2_ < 816748469 * client.anInt11055; i_2_++) {
 			int i_3_ = client.anIntArray11105[i_2_];
-			NPC npc = ((NPC) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));
+			NPC npc = ((NPC) (((ObjectParam) client.aClass4_11050.method556((long) i_3_)).value));
 			buffer.readUnsignedShort();
 			int i_4_ = buffer.readUnsignedByte();
 			if ((i_4_ & 0x2) != 0)

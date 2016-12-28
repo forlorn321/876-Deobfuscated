@@ -37,7 +37,7 @@ public class Class468 {
 	static final void method5696(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2609 * 1533121603;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.zan2d * 1533121603;
 	}
 
 	static final void method5697(Class668 class668, int i) {

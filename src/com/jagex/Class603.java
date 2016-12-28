@@ -82,7 +82,7 @@ public abstract class Class603 {
 	static final void method7199(Class668 class668, short i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -632476725 * class251.anInt2613;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -632476725 * class251.zoom2d;
 	}
 
 	static void method7200(Class536_Sub18_Sub9 class536_sub18_sub9, int i, int i_1_, boolean bool, int i_2_) {
@@ -150,7 +150,7 @@ public abstract class Class603 {
 					client.aString11185 = Class554.method6785(class251, 1845942644);
 					if (client.aString11185 == null)
 						client.aString11185 = "Null";
-					client.aString11186 = new StringBuilder().append(class251.aString2556).append(Class264.method3680(16777215, -2073833307)).toString();
+					client.aString11186 = new StringBuilder().append(class251.opBase).append(Class264.method3680(16777215, -2073833307)).toString();
 				}
 			} else {
 				if (i_5_ == 57 || 1007 == i_5_)
@@ -202,9 +202,9 @@ public abstract class Class603 {
 				else if (1003 == i_5_)
 					class414 = OutgoingPacket.aClass414_4405;
 				if (null != class414) {
-					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_6_));
+					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_6_));
 					if (null != class536_sub13) {
-						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 						client.anInt11134 = i * -1202273473;
 						client.anInt11135 = i_1_ * -1725614879;
 						client.anInt11007 = -505091686;
@@ -243,9 +243,9 @@ public abstract class Class603 {
 					Class205_Sub17.method9089(i_3_, i_4_, (byte) -25);
 				}
 				if (i_5_ == 8) {
-					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_6_));
+					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_6_));
 					if (class536_sub13 != null) {
-						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 						client.anInt11134 = -1202273473 * i;
 						client.anInt11135 = -1725614879 * i_1_;
 						client.anInt11007 = -505091686;

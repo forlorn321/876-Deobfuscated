@@ -27,8 +27,8 @@ public class Class613 {
 
 	static final void method7317(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		class668.anInt8542 -= 1472892954;
-		class251.anInt2610 = -2137233423 * (class668.anIntArray8541[1867269829 * class668.anInt8542]);
-		class251.anInt2611 = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 1] * -610004565);
+		class251.modelOriginX = -2137233423 * (class668.anIntArray8541[1867269829 * class668.anInt8542]);
+		class251.modelOriginY = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 1] * -610004565);
 		Class668.method8011(class251, 263642117);
 	}
 

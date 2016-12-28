@@ -69,7 +69,7 @@ public class Class562 {
 		anInt7575 = ((i_11_ & 0xe0) << 3) * -1893390687;
 		if (31 != anInt7572 * -1719604617)
 			method6854(-122430139);
-		anInt7565 = class536_sub33.readShort((byte) -108) * 1154972407;
+		anInt7565 = class536_sub33.readShort() * 1154972407;
 		method6858(class167, i_1_, i_3_, i_2_, i_4_, i_10_, -381675850);
 	}
 
@@ -358,7 +358,7 @@ public class Class562 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1365220561) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2702 = Class33.method796(string, class668, (short) 8636);
-		class251.aBool2666 = true;
+		class251.onStockTransmitHook = Class33.method796(string, class668, (short) 8636);
+		class251.hasComponentHook = true;
 	}
 }

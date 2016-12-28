@@ -60,7 +60,7 @@ public class Class173_Sub1 extends Class173 {
 	static final void method8633(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_9_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (InterfaceDefinitions.anInt2617 * 10493011 == i_9_ || i_9_ == InterfaceDefinitions.anInt2533 * -1139317763 || i_9_ == InterfaceDefinitions.anInt2535 * -292337027 || 1087226469 * InterfaceDefinitions.anInt2634 == i_9_)
-			class251.anInt2534 = i_9_ * 52080145;
+			class251.dragRenderBehaviour = i_9_ * 52080145;
 	}
 
 	public static void method8634(int i, String string, int i_10_) {
@@ -72,30 +72,30 @@ public class Class173_Sub1 extends Class173 {
 	}
 
 	static void method8636(InterfaceDefinitions class251, int i, int i_11_, short i_12_) {
-		if (class251.aByte2563 == 0)
-			class251.anInt2571 = 1462897253 * class251.anInt2567;
-		else if (class251.aByte2563 == 1)
-			class251.anInt2571 = ((i - -1606950689 * class251.anInt2573) / 2 + 370234961 * class251.anInt2567) * 452880853;
-		else if (2 == class251.aByte2563)
-			class251.anInt2571 = (i - -1606950689 * class251.anInt2573 - class251.anInt2567 * 370234961) * 452880853;
-		else if (class251.aByte2563 == 3)
-			class251.anInt2571 = (class251.anInt2567 * 370234961 * i >> 14) * 452880853;
-		else if (4 == class251.aByte2563)
-			class251.anInt2571 = 452880853 * ((i - -1606950689 * class251.anInt2573) / 2 + (i * (370234961 * class251.anInt2567) >> 14));
+		if (class251.posXMode == 0)
+			class251.anInt2571 = 1462897253 * class251.posX;
+		else if (class251.posXMode == 1)
+			class251.anInt2571 = ((i - -1606950689 * class251.anInt2573) / 2 + 370234961 * class251.posX) * 452880853;
+		else if (2 == class251.posXMode)
+			class251.anInt2571 = (i - -1606950689 * class251.anInt2573 - class251.posX * 370234961) * 452880853;
+		else if (class251.posXMode == 3)
+			class251.anInt2571 = (class251.posX * 370234961 * i >> 14) * 452880853;
+		else if (4 == class251.posXMode)
+			class251.anInt2571 = 452880853 * ((i - -1606950689 * class251.anInt2573) / 2 + (i * (370234961 * class251.posX) >> 14));
 		else
-			class251.anInt2571 = 452880853 * (i - -1606950689 * class251.anInt2573 - (i * (class251.anInt2567 * 370234961) >> 14));
-		if (class251.aByte2564 == 0)
-			class251.anInt2572 = -1382197559 * class251.anInt2655;
-		else if (class251.aByte2564 == 1)
-			class251.anInt2572 = 464397613 * ((i_11_ - class251.anInt2574 * 223822141) / 2 + class251.anInt2655 * -206409331);
-		else if (2 == class251.aByte2564)
-			class251.anInt2572 = (i_11_ - class251.anInt2574 * 223822141 - -206409331 * class251.anInt2655) * 464397613;
-		else if (3 == class251.aByte2564)
-			class251.anInt2572 = (-206409331 * class251.anInt2655 * i_11_ >> 14) * 464397613;
-		else if (4 == class251.aByte2564)
-			class251.anInt2572 = ((-206409331 * class251.anInt2655 * i_11_ >> 14) + (i_11_ - 223822141 * class251.anInt2574) / 2) * 464397613;
+			class251.anInt2571 = 452880853 * (i - -1606950689 * class251.anInt2573 - (i * (class251.posX * 370234961) >> 14));
+		if (class251.posYMode == 0)
+			class251.anInt2572 = -1382197559 * class251.posY;
+		else if (class251.posYMode == 1)
+			class251.anInt2572 = 464397613 * ((i_11_ - class251.anInt2574 * 223822141) / 2 + class251.posY * -206409331);
+		else if (2 == class251.posYMode)
+			class251.anInt2572 = (i_11_ - class251.anInt2574 * 223822141 - -206409331 * class251.posY) * 464397613;
+		else if (3 == class251.posYMode)
+			class251.anInt2572 = (-206409331 * class251.posY * i_11_ >> 14) * 464397613;
+		else if (4 == class251.posYMode)
+			class251.anInt2572 = ((-206409331 * class251.posY * i_11_ >> 14) + (i_11_ - 223822141 * class251.anInt2574) / 2) * 464397613;
 		else
-			class251.anInt2572 = (i_11_ - class251.anInt2574 * 223822141 - (i_11_ * (class251.anInt2655 * -206409331) >> 14)) * 464397613;
+			class251.anInt2572 = (i_11_ - class251.anInt2574 * 223822141 - (i_11_ * (class251.posY * -206409331) >> 14)) * 464397613;
 		if (client.aBool11010 && (client.getIComponentSettings(class251).settings * -512963777 != 0 || class251.anInt2728 * 1049444347 == 0)) {
 			if (class251.anInt2571 * 1151043453 < 0)
 				class251.anInt2571 = 0;

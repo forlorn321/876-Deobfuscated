@@ -188,7 +188,7 @@ final class Class629 implements Interface74 {
 				}
 			}
 			class536_sub33_sub2.method9768(i_21_, (byte) 86);
-			class536_sub34.method6484(1299294636);
+			class536_sub34.method6484();
 		}
 	}
 }

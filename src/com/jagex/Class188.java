@@ -113,7 +113,7 @@ public class Class188 {
 	static final void method2798(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.aBool2578 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.hidden ? 1 : 0;
 	}
 
 	static final void method2799(InterfaceDefinitions class251, Class668 class668, int i) {

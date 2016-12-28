@@ -28,9 +28,9 @@ public class Class434 {
 		int[] is = Class510.method6183(string, class668, -1362720412);
 		if (null != is)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2669 = Class33.method796(string, class668, (short) -16785);
-		class251.anIntArray2561 = is;
-		class251.aBool2666 = true;
+		class251.onInvTransmitHook = Class33.method796(string, class668, (short) -16785);
+		class251.invTransmitList = is;
+		class251.hasComponentHook = true;
 	}
 
 	static final void method5234(Class668 class668, int i) {

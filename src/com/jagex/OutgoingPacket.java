@@ -263,7 +263,7 @@ public class OutgoingPacket {
 	static final void method5026(Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_1_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2587 * -336626187;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.colour * -336626187;
 	}
 
 	public static void method5027(int i, int i_2_, int i_3_, byte i_4_) {

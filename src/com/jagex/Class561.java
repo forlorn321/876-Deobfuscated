@@ -360,9 +360,9 @@ public class Class561 implements Runnable {
 	static final void method6849(Class668 class668, int i) {
 		Class536_Sub18_Sub9 class536_sub18_sub9 = Class19.method690((byte) 59);
 		if (Class555.method6805(class536_sub18_sub9, -631595865) == 4) {
-			Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556(class536_sub18_sub9.method10700(34163334)));
+			ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556(class536_sub18_sub9.method10700(34163334)));
 			if (null != class536_sub13) {
-				class668.aClass649_Sub1_Sub5_Sub1_8554 = (Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468;
+				class668.aClass649_Sub1_Sub5_Sub1_8554 = (Class649_Sub1_Sub5_Sub1) class536_sub13.value;
 				class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1;
 				return;
 			}

@@ -24,10 +24,10 @@ public final class Class610 implements Interface19 {
 				if ((-8221678582872212071L * class536_sub16.aLong10489 & 0x4000000000000000L) != 0L) {
 					int i_0_ = (int) (-6909195213925454795L * class536_sub16.aLong7133);
 					anIntArray7916[i_0_] = anIntArray7919[i_0_];
-					class536_sub16.method6484(615271047);
+					class536_sub16.method6484();
 					return i_0_;
 				}
-				class536_sub16.method6484(1385430678);
+				class536_sub16.method6484();
 			}
 		}
 		return -1;

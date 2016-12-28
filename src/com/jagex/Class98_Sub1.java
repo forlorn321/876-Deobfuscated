@@ -147,15 +147,15 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		boolean bool = false;
 		for (int i_6_ = 0; i_6_ < client.anInt11247 * 537050591; i_6_++) {
 			int i_7_ = client.anIntArray11059[i_6_];
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) i_7_);
-			NPC class649_sub1_sub5_sub1_sub1 = (NPC) class536_sub13.anObject10468;
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i_7_);
+			NPC class649_sub1_sub5_sub1_sub1 = (NPC) class536_sub13.value;
 			if (1597199359 * client.anInt11124 != class649_sub1_sub5_sub1_sub1.anInt11934 * 1081522251) {
 				if (Class70.aBool752 && Class709.method8343(i_7_, 36161))
 					Class51.method930(-1398418648);
 				if (class649_sub1_sub5_sub1_sub1.aClass296_12174.method3986(-198439992))
 					Class18.method688(class649_sub1_sub5_sub1_sub1, -270177334);
 				class649_sub1_sub5_sub1_sub1.method11065(null, 179188063);
-				class536_sub13.method6484(1708251234);
+				class536_sub13.method6484();
 				bool = true;
 			}
 		}
@@ -165,7 +165,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 			int i_9_ = 0;
 			Iterator iterator = client.aClass4_11050.iterator();
 			while (iterator.hasNext()) {
-				Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
+				ObjectParam class536_sub13 = (ObjectParam) iterator.next();
 				client.aClass536_Sub13Array11044[i_9_++] = class536_sub13;
 			}
 			for (int i_10_ = client.anInt11164 * -1683770117; i_10_ < i_8_; i_10_++)
@@ -190,8 +190,8 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		if (0 != (-1683770117 * client.anInt11164 - client.anInt11053 * -664631943))
 			throw new RuntimeException(new StringBuilder().append("").append(client.anInt11164 * -1683770117 - -664631943 * client.anInt11053).toString());
 		for (int i_12_ = 0; i_12_ < client.anInt11164 * -1683770117; i_12_++) {
-			if (1081522251 * ((Class649_Sub1_Sub5_Sub1) (client.aClass536_Sub13Array11044[i_12_].anObject10468)).anInt11934 != 1597199359 * client.anInt11124)
-				throw new RuntimeException(new StringBuilder().append("").append((((Class649_Sub1_Sub5_Sub1) (client.aClass536_Sub13Array11044[i_12_].anObject10468)).anInt11889) * 1710020215).toString());
+			if (1081522251 * ((Class649_Sub1_Sub5_Sub1) (client.aClass536_Sub13Array11044[i_12_].value)).anInt11934 != 1597199359 * client.anInt11124)
+				throw new RuntimeException(new StringBuilder().append("").append((((Class649_Sub1_Sub5_Sub1) (client.aClass536_Sub13Array11044[i_12_].value)).anInt11889) * 1710020215).toString());
 		}
 	}
 

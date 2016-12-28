@@ -65,8 +65,8 @@ public class Class628 {
 					anIntArray8187 = new int[4];
 				}
 				for (int i_0_ = 0; i_0_ < anIntArray8220.length; i_0_++) {
-					anIntArray8220[i_0_] = class536_sub33.readShort((byte) -82);
-					anIntArray8187[i_0_] = class536_sub33.readShort((byte) -64);
+					anIntArray8220[i_0_] = class536_sub33.readShort();
+					anIntArray8187[i_0_] = class536_sub33.readShort();
 				}
 				bool = true;
 			} else if (2 == i)
@@ -193,8 +193,8 @@ public class Class628 {
 					anIntArray8187 = new int[4];
 				}
 				for (int i_14_ = 0; i_14_ < anIntArray8220.length; i_14_++) {
-					anIntArray8220[i_14_] = class536_sub33.readShort((byte) -103);
-					anIntArray8187[i_14_] = class536_sub33.readShort((byte) -127);
+					anIntArray8220[i_14_] = class536_sub33.readShort();
+					anIntArray8187[i_14_] = class536_sub33.readShort();
 				}
 				bool = true;
 			} else if (2 == i_13_)
@@ -321,8 +321,8 @@ public class Class628 {
 					anIntArray8187 = new int[4];
 				}
 				for (int i_28_ = 0; i_28_ < anIntArray8220.length; i_28_++) {
-					anIntArray8220[i_28_] = class536_sub33.readShort((byte) -13);
-					anIntArray8187[i_28_] = class536_sub33.readShort((byte) -43);
+					anIntArray8220[i_28_] = class536_sub33.readShort();
+					anIntArray8187[i_28_] = class536_sub33.readShort();
 				}
 				bool = true;
 			} else if (2 == i)
@@ -449,8 +449,8 @@ public class Class628 {
 					anIntArray8187 = new int[4];
 				}
 				for (int i_41_ = 0; i_41_ < anIntArray8220.length; i_41_++) {
-					anIntArray8220[i_41_] = class536_sub33.readShort((byte) -98);
-					anIntArray8187[i_41_] = class536_sub33.readShort((byte) 0);
+					anIntArray8220[i_41_] = class536_sub33.readShort();
+					anIntArray8187[i_41_] = class536_sub33.readShort();
 				}
 				bool = true;
 			} else if (2 == i)
@@ -615,8 +615,8 @@ public class Class628 {
 					anIntArray8187 = new int[4];
 				}
 				for (int i_54_ = 0; i_54_ < anIntArray8220.length; i_54_++) {
-					anIntArray8220[i_54_] = class536_sub33.readShort((byte) -82);
-					anIntArray8187[i_54_] = class536_sub33.readShort((byte) -24);
+					anIntArray8220[i_54_] = class536_sub33.readShort();
+					anIntArray8187[i_54_] = class536_sub33.readShort();
 				}
 				bool = true;
 			} else if (2 == i)
@@ -735,9 +735,9 @@ public class Class628 {
 		int[] is = Class510.method6183(string, class668, -1278934401);
 		if (is != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2662 = Class33.method796(string, class668, (short) 14509);
-		class251.anIntArray2686 = is;
-		class251.aBool2666 = true;
+		class251.onVarcTransmitHook = Class33.method796(string, class668, (short) 14509);
+		class251.varcTransmitList = is;
+		class251.hasComponentHook = true;
 	}
 
 	static final void method7493(Class668 class668, int i) {

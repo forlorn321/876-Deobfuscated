@@ -257,7 +257,7 @@ public class Class648 {
 	}
 
 	static final void method7829(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2589 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1266192547;
+		class251.transparency = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1266192547;
 		Class668.method8011(class251, 263642117);
 	}
 
@@ -448,8 +448,8 @@ public class Class648 {
 	}
 
 	public static final InterfaceDefinitions method7834(Class234 class234, InterfaceDefinitions class251, int i) {
-		if (-1 != -1940204141 * class251.anInt2577)
-			return class234.method3337(class251.anInt2577 * -1940204141, 552340768);
+		if (-1 != -1940204141 * class251.parentLayer)
+			return class234.method3337(class251.parentLayer * -1940204141, 552340768);
 		if (!class234.aBool2379) {
 			int i_45_ = -1591767037 * class251.anInt2559 >>> 16;
 			Class3 class3 = new Class3(client.aClass4_11008);

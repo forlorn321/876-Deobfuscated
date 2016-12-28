@@ -219,7 +219,7 @@ public class Class466 implements Runnable {
 	}
 
 	static final void method5683(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aBool2597 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.vFlip = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}
 

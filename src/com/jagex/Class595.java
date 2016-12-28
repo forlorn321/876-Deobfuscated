@@ -67,16 +67,16 @@ public class Class595 implements Interface75 {
 	}
 
 	static int method7133(int i, int i_1_) {
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) Class626.aClass4_8158.method556((long) i);
+		IntParam class536_sub26 = (IntParam) Class626.aClass4_8158.method556((long) i);
 		if (null == class536_sub26) {
 			Class393 class393 = Class532.anInterface46_7121.method333(i, 2116268337);
 			if (class393 == null || 2 != class393.anInt4087 * -1267717877)
 				return -1;
-			class536_sub26 = new Class536_Sub26(Class626.anInt8164 * -1289969367);
+			class536_sub26 = new IntParam(Class626.anInt8164 * -1289969367);
 			Class626.aClass4_8158.method560(class536_sub26, (long) i);
 			Class626.aClass393Array8163[(Class626.anInt8164 += 1216056089) * -1289969367 - 1] = class393;
 		}
-		return class536_sub26.anInt10533 * 2083602213;
+		return class536_sub26.value * 2083602213;
 	}
 
 	static void method7134(byte i) {

@@ -52,10 +52,10 @@ public class Class270 implements Interface6 {
 	public static void method3717(int i) {
 		if (client.aBool11188) {
 			InterfaceDefinitions class251 = Class527.method6429(1625551467 * Class663.anInt8515, client.anInt11183 * -1059472497, (byte) -11);
-			if (null != class251 && null != class251.anObjectArray2678) {
+			if (null != class251 && null != class251.onTargetLeaveHook) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
-				class536_sub42.anObjectArray10802 = class251.anObjectArray2678;
+				class536_sub42.anObjectArray10802 = class251.onTargetLeaveHook;
 				Class618.method7388(class536_sub42, -1182649216);
 			}
 			client.anInt11179 = -937599055;
@@ -73,7 +73,7 @@ public class Class270 implements Interface6 {
 			Class649_Sub1_Sub5_Sub4 class649_sub1_sub5_sub4 = class536_sub18_sub4.aClass649_Sub1_Sub5_Sub4_11619;
 			class649_sub1_sub5_sub4.method11028(1, (byte) 3);
 			if (class649_sub1_sub5_sub4.method11032(1259470197)) {
-				class536_sub18_sub4.method6484(501912145);
+				class536_sub18_sub4.method6484();
 				class649_sub1_sub5_sub4.method11026(-159343355);
 			}
 		}

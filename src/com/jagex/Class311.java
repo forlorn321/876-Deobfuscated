@@ -30,9 +30,9 @@ public class Class311 implements DefinitionI, Interface7 {
 		else if (2 == i)
 			aBool3480 = true;
 		else if (3 == i) {
-			anInt3477 = class536_sub33.readShort((byte) -118) * 607092271;
-			anInt3478 = class536_sub33.readShort((byte) -89) * 306678829;
-			anInt3479 = class536_sub33.readShort((byte) -5) * -875688417;
+			anInt3477 = class536_sub33.readShort() * 607092271;
+			anInt3478 = class536_sub33.readShort() * 306678829;
+			anInt3479 = class536_sub33.readShort() * -875688417;
 		} else if (i == 4)
 			anInt3482 = class536_sub33.readUnsignedByte() * -2107798657;
 		else if (i == 5)
@@ -40,9 +40,9 @@ public class Class311 implements DefinitionI, Interface7 {
 		else if (i == 6)
 			anInt3481 = class536_sub33.read24BitUnsignedInteger() * -496105867;
 		else if (7 == i) {
-			anInt3475 = class536_sub33.readShort((byte) -88) * -1777370783;
-			anInt3484 = class536_sub33.readShort((byte) -65) * -580593381;
-			anInt3485 = class536_sub33.readShort((byte) -18) * -1263664647;
+			anInt3475 = class536_sub33.readShort() * -1777370783;
+			anInt3484 = class536_sub33.readShort() * -580593381;
+			anInt3485 = class536_sub33.readShort() * -1263664647;
 		}
 	}
 
@@ -88,8 +88,8 @@ public class Class311 implements DefinitionI, Interface7 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1831641204) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2678 = Class33.method796(string, class668, (short) 8049);
-		class251.aBool2666 = true;
+		class251.onTargetLeaveHook = Class33.method796(string, class668, (short) 8049);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method4181(Class668 class668, byte i) {

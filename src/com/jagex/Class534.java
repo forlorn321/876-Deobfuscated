@@ -30,7 +30,7 @@ public class Class534 implements Interface64 {
 		if (i_1_ < 0 || i_1_ > 9)
 			class668.anInt8544 -= 1946079257;
 		else
-			class251.method3474(i_1_, (String) (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]), -1411037171);
+			class251.setOp(i_1_, (String) (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]));
 	}
 
 	static void method6470(InterfaceDefinitions class251, int i) {

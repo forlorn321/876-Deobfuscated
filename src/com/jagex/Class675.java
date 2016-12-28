@@ -60,8 +60,8 @@ public class Class675 {
 	static final void method8037(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		class251.anInt2711 = 180322533;
-		if (i_5_ != class251.anInt2592 * -1307221069) {
-			class251.anInt2592 = i_5_ * -2093350021;
+		if (i_5_ != class251.graphicId * -1307221069) {
+			class251.graphicId = i_5_ * -2093350021;
 			Class668.method8011(class251, 263642117);
 		}
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)

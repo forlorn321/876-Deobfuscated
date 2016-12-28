@@ -450,8 +450,8 @@ public class Class515 {
 			if (Class498.aClass498_5558 == aClass498_6992 || Class498.aClass498_5560 == aClass498_6992 || (aClass498_6993 != aClass498_6992 && (Class498.aClass498_5557 == aClass498_6992 || Class498.aClass498_5557 == aClass498_6993))) {
 				Iterator iterator = client.aClass4_11050.iterator();
 				while (iterator.hasNext()) {
-					Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
-					Class18.method688(((NPC) class536_sub13.anObject10468), 1568950305);
+					ObjectParam class536_sub13 = (ObjectParam) iterator.next();
+					Class18.method688(((NPC) class536_sub13.value), 1568950305);
 				}
 				client.anInt11053 = 0;
 				client.anInt11164 = 0;
@@ -466,9 +466,9 @@ public class Class515 {
 		int i_72_ = (aClass598_7023.anInt7840 * 1479112045 - aClass598_6998.anInt7840 * 1479112045);
 		if (i == 10) {
 			for (int i_73_ = 0; i_73_ < -1683770117 * client.anInt11164; i_73_++) {
-				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_73_];
+				ObjectParam class536_sub13 = client.aClass536_Sub13Array11044[i_73_];
 				if (null != class536_sub13) {
-					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 					for (int i_74_ = 0; i_74_ < (class649_sub1_sub5_sub1_sub1.screenX).length; i_74_++) {
 						class649_sub1_sub5_sub1_sub1.screenX[i_74_] -= i_71_;
 						class649_sub1_sub5_sub1_sub1.screenY[i_74_] -= i_72_;
@@ -486,16 +486,16 @@ public class Class515 {
 			int i_75_ = 1416731136 * anInt7030 - 512;
 			int i_76_ = anInt7011 * -1429538304 - 512;
 			for (int i_77_ = 0; i_77_ < -1683770117 * client.anInt11164; i_77_++) {
-				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_77_];
+				ObjectParam class536_sub13 = client.aClass536_Sub13Array11044[i_77_];
 				if (null != class536_sub13) {
-					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+					NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 					Class436 class436 = Class436.method5240(class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 					class436.aFloat4850 -= (float) (i_71_ * 512);
 					class436.aFloat4853 -= (float) (512 * i_72_);
 					class649_sub1_sub5_sub1_sub1.method7841(class436);
 					if ((int) class436.aFloat4850 < 0 || (int) class436.aFloat4850 > i_75_ || (int) class436.aFloat4853 < 0 || (int) class436.aFloat4853 > i_76_) {
 						class649_sub1_sub5_sub1_sub1.method11065(null, 179188063);
-						class536_sub13.method6484(775312665);
+						class536_sub13.method6484();
 						bool = true;
 					} else {
 						boolean bool_78_ = true;
@@ -509,7 +509,7 @@ public class Class515 {
 							client.anIntArray11211[((client.anInt11053 += -1094331191) * -664631943) - 1] = (1710020215 * class649_sub1_sub5_sub1_sub1.anInt11889);
 						else {
 							class649_sub1_sub5_sub1_sub1.method11065(null, 179188063);
-							class536_sub13.method6484(-268022593);
+							class536_sub13.method6484();
 							bool = true;
 						}
 					}
@@ -521,7 +521,7 @@ public class Class515 {
 				int i_80_ = 0;
 				Iterator iterator = client.aClass4_11050.iterator();
 				while (iterator.hasNext()) {
-					Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
+					ObjectParam class536_sub13 = (ObjectParam) iterator.next();
 					client.aClass536_Sub13Array11044[i_80_++] = class536_sub13;
 				}
 			}
@@ -562,7 +562,7 @@ public class Class515 {
 				i_85_ = -1981381335 * class612.anInt8002;
 			}
 			if (Class498.aClass498_5561 != aClass498_6992 && (i_84_ + 848380705 * class536_sub2.anInt10309 <= 0 || -499217723 * class536_sub2.anInt10312 + i_85_ <= 0 || (class536_sub2.anInt10309 * 848380705 >= anInt7030 * -324388659) || (-499217723 * class536_sub2.anInt10312 >= -1001036419 * anInt7011)))
-				class536_sub2.method6484(26218341);
+				class536_sub2.method6484();
 		}
 		for (Class536_Sub2 class536_sub2 = ((Class536_Sub2) Class536_Sub2.aClass708_10321.method8308(1867269829)); null != class536_sub2; class536_sub2 = (Class536_Sub2) Class536_Sub2.aClass708_10321.method8311(1494865754)) {
 			class536_sub2.anInt10309 -= 399769825 * i_71_;
@@ -578,7 +578,7 @@ public class Class515 {
 				i_87_ = -1981381335 * class612.anInt8002;
 			}
 			if (aClass498_6992 != Class498.aClass498_5561 && (i_86_ + class536_sub2.anInt10309 * 848380705 <= 0 || class536_sub2.anInt10312 * -499217723 + i_87_ <= 0 || (class536_sub2.anInt10309 * 848380705 >= -324388659 * anInt7030) || (-499217723 * class536_sub2.anInt10312 >= -1001036419 * anInt7011)))
-				class536_sub2.method6484(-1293614782);
+				class536_sub2.method6484();
 		}
 		for (Class536_Sub9 class536_sub9 = (Class536_Sub9) client.aClass4_11170.method562(-1295102343); null != class536_sub9; class536_sub9 = ((Class536_Sub9) client.aClass4_11170.method567(1391057622))) {
 			int i_88_ = (int) (-6909195213925454795L * class536_sub9.aLong7133 >> 28 & 0x3L);
@@ -589,7 +589,7 @@ public class Class515 {
 			if (aClass553_7003 != null) {
 				if (i_90_ < 0 || i_92_ < 0 || i_90_ >= anInt7030 * -324388659 || i_92_ >= -1001036419 * anInt7011 || i_90_ >= aClass553_7003.anInt7428 * 937313339 || i_92_ >= aClass553_7003.anInt7464 * 1965060689) {
 					if (aClass498_6992 != Class498.aClass498_5561)
-						class536_sub9.method6484(-1407425142);
+						class536_sub9.method6484();
 				} else if (aClass553_7003.aClass556ArrayArrayArray7430 != null)
 					aClass553_7003.method6718(i_88_, i_90_, i_92_, -366818792);
 			}
@@ -729,9 +729,9 @@ public class Class515 {
 					class649_sub1_sub5_sub1_sub2.aClass553_10838 = null;
 			}
 			for (int i_105_ = 0; i_105_ < client.aClass536_Sub13Array11044.length; i_105_++) {
-				Class536_Sub13 class536_sub13 = client.aClass536_Sub13Array11044[i_105_];
+				ObjectParam class536_sub13 = client.aClass536_Sub13Array11044[i_105_];
 				if (class536_sub13 != null)
-					((Class649_Sub1) class536_sub13.anObject10468).aClass553_10838 = null;
+					((Class649_Sub1) class536_sub13.value).aClass553_10838 = null;
 			}
 		}
 		if (!aBool7005)
@@ -1383,11 +1383,11 @@ public class Class515 {
 					int i_206_ = ((anIntArray6996[i_197_] >> 8) * 64 - 1858049507 * aClass598_7023.anInt7839 + i_204_);
 					int i_207_ = i_205_ + (64 * (anIntArray6996[i_197_] & 0xff) - 1479112045 * aClass598_7023.anInt7840);
 					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -16)));
-					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_201_));
+					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_201_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_206_ >= 0 && (i_206_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_207_ >= 0 && (i_207_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
 						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
 						class649_sub1_sub5_sub1_sub1.anInt11889 = i_201_ * 675537735;
-						Class536_Sub13 class536_sub13_208_ = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
+						ObjectParam class536_sub13_208_ = new ObjectParam(class649_sub1_sub5_sub1_sub1);
 						client.aClass4_11050.method560(class536_sub13_208_, (long) i_201_);
 						client.aClass536_Sub13Array11044[((client.anInt11164 += -255707597) * -1683770117) - 1] = class536_sub13_208_;
 						client.anIntArray11211[((client.anInt11053 += -1094331191) * -664631943 - 1)] = i_201_;
@@ -1497,8 +1497,8 @@ public class Class515 {
 			if (Class498.aClass498_5558 == aClass498_6992 || Class498.aClass498_5560 == aClass498_6992 || (aClass498_6993 != aClass498_6992 && (Class498.aClass498_5557 == aClass498_6992 || Class498.aClass498_5557 == aClass498_6993))) {
 				Iterator iterator = client.aClass4_11050.iterator();
 				while (iterator.hasNext()) {
-					Class536_Sub13 class536_sub13 = (Class536_Sub13) iterator.next();
-					Class18.method688(((NPC) class536_sub13.anObject10468), -284180918);
+					ObjectParam class536_sub13 = (ObjectParam) iterator.next();
+					Class18.method688(((NPC) class536_sub13.value), -284180918);
 				}
 				client.anInt11053 = 0;
 				client.anInt11164 = 0;
@@ -1610,11 +1610,11 @@ public class Class515 {
 					int i_228_ = ((anIntArray6996[i_219_] >> 8) * 64 - 1858049507 * aClass598_7023.anInt7839 + i_226_);
 					int i_229_ = i_227_ + (64 * (anIntArray6996[i_219_] & 0xff) - 1479112045 * aClass598_7023.anInt7840);
 					Class296 class296 = ((Class296) (Class172.aClass34_Sub7_1922.method70(class536_sub33.readUnsignedShort(), (byte) -32)));
-					Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_223_));
+					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_223_));
 					if (class536_sub13 == null && (class296.aByte3316 & 0x1) > 0 && i_228_ >= 0 && (i_228_ + 830254667 * class296.anInt3272 < -324388659 * anInt7030) && i_229_ >= 0 && (i_229_ + 830254667 * class296.anInt3272 < -1001036419 * anInt7011)) {
 						NPC class649_sub1_sub5_sub1_sub1 = new NPC(aClass553_7003);
 						class649_sub1_sub5_sub1_sub1.anInt11889 = i_223_ * 675537735;
-						Class536_Sub13 class536_sub13_230_ = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
+						ObjectParam class536_sub13_230_ = new ObjectParam(class649_sub1_sub5_sub1_sub1);
 						client.aClass4_11050.method560(class536_sub13_230_, (long) i_223_);
 						client.aClass536_Sub13Array11044[((client.anInt11164 += -255707597) * -1683770117) - 1] = class536_sub13_230_;
 						client.anIntArray11211[((client.anInt11053 += -1094331191) * -664631943 - 1)] = i_223_;

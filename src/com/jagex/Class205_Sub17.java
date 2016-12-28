@@ -80,7 +80,7 @@ public class Class205_Sub17 extends Class205 {
 		client.anInt11053 = 0;
 		for (int i_2_ = 0; i_2_ < localNPCSize; i_2_++) {
 			int i_3_ = client.anIntArray11211[i_2_];
-			NPC class649_sub1_sub5_sub1_sub1 = ((NPC) (((Class536_Sub13) client.aClass4_11050.method556((long) i_3_)).anObject10468));
+			NPC class649_sub1_sub5_sub1_sub1 = ((NPC) (((ObjectParam) client.aClass4_11050.method556((long) i_3_)).value));
 			int needsRemove = class536_sub33_sub2.readBits(1);
 			if (needsRemove == 0) {
 				client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = i_3_;

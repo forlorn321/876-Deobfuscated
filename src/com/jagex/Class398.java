@@ -76,7 +76,7 @@ public class Class398 implements Interface49 {
 	public static final void method4903(Class536_Sub36 class536_sub36, boolean bool, boolean bool_5_, int i) {
 		int i_6_ = -358726121 * class536_sub36.anInt10634;
 		int i_7_ = (int) (class536_sub36.aLong7133 * -6909195213925454795L);
-		class536_sub36.method6484(-1038740508);
+		class536_sub36.method6484();
 		if (bool)
 			Class444.method5395(i_6_, -687424059);
 		Class574.method6947(i_6_, (byte) 91);

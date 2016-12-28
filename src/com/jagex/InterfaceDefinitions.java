@@ -6,51 +6,51 @@ package com.jagex;
 public class InterfaceDefinitions {
 	public static final int anInt2532 = 2;
 	public static int anInt2533;
-	public int anInt2534;
+	public int dragRenderBehaviour;
 	public static int anInt2535;
 	public static int anInt2536;
 	public static int anInt2537;
-	public Object[] anObjectArray2538;
+	public Object[] onKeyHook;
 	public static int anInt2539;
 	public static int anInt2540;
 	public static int anInt2541;
 	public static int anInt2542;
-	public Object[] anObjectArray2543;
-	public Object[] anObjectArray2544;
+	public Object[] onTimerHook;
+	public Object[] onClanSettingsTransmitHook;
 	public static int anInt2545;
 	public int anInt2546;
-	public int anInt2547;
+	public int yan2d;
 	public static int anInt2548;
 	public static int anInt2549;
 	public static final int anInt2550 = 5;
-	public int anInt2551;
+	public int xan2d;
 	public static Class199 aClass199_2552;
 	public InterfaceDefinitions aClass251_2553;
 	static Class199 aClass199_2554;
-	public Object[] anObjectArray2555;
-	public String aString2556;
+	public Object[] onClickHook;
+	public String opBase;
 	public String aString2557;
 	public int anInt2558;
 	public int anInt2559 = -1002674859;
-	public int[] anIntArray2560;
-	public int[] anIntArray2561;
+	public int[] opKeyRates;
+	public int[] invTransmitList;
 	public int anInt2562;
-	public byte aByte2563;
-	public byte aByte2564;
-	public byte aByte2565;
-	public String aString2566;
-	public int anInt2567;
+	public byte posXMode;
+	public byte posYMode;
+	public byte sizeXMode;
+	public String pauseText;
+	public int posX;
 	static Class199 aClass199_2568;
-	public int anInt2569;
+	public int sizeX;
 	public static int anInt2570;
 	public int anInt2571;
 	public int anInt2572;
 	public int anInt2573;
 	public int anInt2574;
-	public IComponentSettings aClass536_Sub14_2575;
+	public IComponentSettings settings;
 	public int anInt2576;
-	public int anInt2577;
-	public boolean aBool2578;
+	public int parentLayer;
+	public boolean hidden;
 	public int anInt2579;
 	public int anInt2580;
 	public int anInt2581;
@@ -59,143 +59,143 @@ public class InterfaceDefinitions {
 	public int anInt2584;
 	public int anInt2585;
 	public int anInt2586;
-	public int anInt2587;
+	public int colour;
 	public int anInt2588;
-	public int anInt2589;
-	public int anInt2590;
+	public int transparency;
+	public int lineWidth;
 	public static final int anInt2591 = 5;
-	public int anInt2592;
-	public int anInt2593;
-	public boolean aBool2594;
+	public int graphicId;
+	public int angle2Id;
+	public boolean tiling;
 	public int anInt2595;
-	public int anInt2596;
-	public boolean aBool2597;
-	public boolean aBool2598;
-	public Object[] anObjectArray2599;
-	public int anInt2600;
-	public int anInt2601;
-	public int anInt2602;
+	public int graphicShadow;
+	public boolean vFlip;
+	public boolean hFlip;
+	public Object[] onPlayerGroupVarpTransmitHook;
+	public int dragDeadZone;
+	public int modelType;
+	public int modelId;
 	public int anInt2603;
 	public int anInt2604;
 	public static int anInt2605;
 	public int anInt2606;
 	public boolean aBool2607;
 	public boolean aBool2608;
-	public int anInt2609;
-	public int anInt2610;
-	public int anInt2611;
+	public int zan2d;
+	public int modelOriginX;
+	public int modelOriginY;
 	public int anInt2612;
-	public int anInt2613;
+	public int zoom2d;
 	public int anInt2614;
 	public int anInt2615;
-	public boolean aBool2616;
+	public boolean orthoginal;
 	public static int anInt2617 = 0;
-	public byte aByte2618;
+	public byte sizeYMode;
 	short[] aShortArray2619;
 	short[] aShortArray2620;
 	short[] aShortArray2621;
 	short[] aShortArray2622;
 	public int anInt2623;
-	public Object[] anObjectArray2624;
+	public Object[] onOptHook;
 	public int anInt2625;
 	public int anInt2626;
 	public int anInt2627;
-	public Object[] anObjectArray2628;
+	public Object[] onMiscTransmitHook;
 	public int anInt2629;
-	Class4 aClass4_2630;
+	Class4 params;
 	public int anInt2631;
 	public int anInt2632;
 	public boolean aBool2633;
 	public static int anInt2634;
 	public int anInt2635;
-	public int anInt2636;
-	public boolean aBool2637;
-	public String aString2638;
+	public int fontId;
+	public boolean fontMono;
+	public String text;
 	public int anInt2639;
-	public int anInt2640;
-	public int anInt2641;
-	public boolean aBool2642;
-	public int anInt2643;
-	public boolean aBool2644;
-	public Object[] anObjectArray2645;
+	public int horizTextAlign;
+	public int vertTextAlign;
+	public boolean fill;
+	public int maxLines;
+	public boolean textShadow;
+	public Object[] onClickRepeatHook;
 	public static int anInt2646;
-	public byte[][] aByteArrayArray2647;
+	public byte[][] opKeys;
 	public byte[][] aByteArrayArray2648;
-	public boolean aBool2649;
+	public boolean alpha;
 	public int anInt2650;
-	public int[] anIntArray2651;
+	public int[] opChars;
 	public static final int anInt2652 = 1;
 	public Class688 aClass688_2653;
 	public static final int anInt2654 = 4;
-	public int anInt2655;
+	public int posY;
 	public static final int anInt2656 = 8;
-	public String[] aStringArray2657;
+	public String[] op;
 	public int anInt2658;
 	public boolean aBool2659;
 	public int anInt2660;
-	public Object[] anObjectArray2661;
-	public Object[] anObjectArray2662;
-	public int anInt2663;
-	public int anInt2664;
-	public String aString2665;
-	public boolean aBool2666;
-	public Object[] anObjectArray2667;
-	public int[] anIntArray2668;
-	public Object[] anObjectArray2669;
-	public Object[] anObjectArray2670;
+	public Object[] onCamFinishedHook;
+	public Object[] onVarcTransmitHook;
+	public int dragDeadTime;
+	public int sizeY;
+	public String targetVerb;
+	public boolean hasComponentHook;
+	public Object[] onLoadHook;
+	public int[] opCursors;
+	public Object[] onInvTransmitHook;
+	public Object[] onReleaseHook;
 	public boolean aBool2671;
-	public Object[] anObjectArray2672;
-	public Object[] anObjectArray2673;
-	public Object[] anObjectArray2674;
-	public Object[] anObjectArray2675;
-	public Object[] anObjectArray2676;
-	public boolean aBool2677;
-	public Object[] anObjectArray2678;
-	public Object[] anObjectArray2679;
-	public int[] anIntArray2680;
+	public Object[] onMouseOverHook;
+	public Object[] onMouseRepeatHook;
+	public Object[] onMouseLeaveHook;
+	public Object[] onDragHook;
+	public Object[] onDragCompleteHook;
+	public boolean clickMask;
+	public Object[] onTargetLeaveHook;
+	public Object[] onVarTransmitHook;
+	public int[] varTransmitList;
 	public int anInt2681;
 	public boolean aBool2682;
-	public Object[] anObjectArray2683;
-	public int[] anIntArray2684;
+	public Object[] onStatTransmitHook;
+	public int[] statTransmitList;
 	public static int anInt2685;
-	public int[] anIntArray2686;
+	public int[] varcTransmitList;
 	public int anInt2687;
-	public int[] anIntArray2688;
+	public int[] varcstrTransmitList;
 	public Object[] anObjectArray2689;
 	public int[] anIntArray2690;
 	public static int anInt2691;
-	public boolean aBool2692;
+	public boolean lineDirection;
 	public int anInt2693;
 	public static Class199 aClass199_2694;
-	public Object[] anObjectArray2695;
-	public Object[] anObjectArray2696;
-	public Object[] anObjectArray2697;
-	public Object[] anObjectArray2698;
+	public Object[] onChatTransmitHook;
+	public Object[] onHoldHook;
+	public Object[] onFriendTransmitHook;
+	public Object[] onClanTransmitHook;
 	public String aString2699;
 	int anInt2700;
-	public Object[] anObjectArray2701;
-	public Object[] anObjectArray2702;
-	public Object[] anObjectArray2703;
-	public Object[] anObjectArray2704;
-	public Object[] anObjectArray2705;
-	public Object[] anObjectArray2706;
-	public Object[] anObjectArray2707;
-	public boolean aBool2708;
-	public Object[] anObjectArray2709;
-	public Object[] anObjectArray2710;
+	public Object[] onClanChannelTransmitHook;
+	public Object[] onStockTransmitHook;
+	public Object[] onDialogAbortHook;
+	public Object[] onSubChangeHook;
+	public Object[] onOpHook;
+	public Object[] onResizeHook;
+	public Object[] onPlayerGroupTransmitHook;
+	public boolean noClickThrough;
+	public Object[] onCameraUpdateTransmitHook;
+	public Object[] onVarcstrTransmitHook;
 	public int anInt2711;
 	public int anInt2712;
-	public int anInt2713;
+	public int mouseOverCursor;
 	public Class233 aClass233_2714;
-	public Object[] anObjectArray2715;
+	public Object[] onScrollWheelHook;
 	public int anInt2716;
 	public int anInt2717;
 	public int anInt2718;
 	int anInt2719;
-	public int anInt2720;
-	public int anInt2721;
+	public int outline;
+	public int lineHeight;
 	public int[] anIntArray2722;
-	public int anInt2723;
+	public int animId;
 	public static boolean aBool2724;
 	public InterfaceDefinitions[] aClass251Array2725;
 	public InterfaceDefinitions[] aClass251Array2726;
@@ -212,7 +212,7 @@ public class InterfaceDefinitions {
 	int anInt2737;
 	public int[] anIntArray2738;
 	public Class627 aClass627_2739;
-	public Object[] anObjectArray2740;
+	public Object[] onTargetEnterHook;
 
 	public void method3465(int i, short i_0_, short i_1_, int i_2_) {
 		if (i < 5) {
@@ -225,326 +225,326 @@ public class InterfaceDefinitions {
 		}
 	}
 
-	void method3466(RSByteBuffer class536_sub33, byte i) {
-		int i_3_ = class536_sub33.readUnsignedByte();
+	void decode(RSByteBuffer buffer) {
+		int i_3_ = buffer.readUnsignedByte(); //version #?
 		if (i_3_ == 255)
 			i_3_ = -1;
-		anInt2728 = class536_sub33.readUnsignedByte() * -611060941;
+		anInt2728 = buffer.readUnsignedByte() * -611060941; //type of interface. string changes if value |= 0x80;
 		if ((anInt2728 * 1049444347 & 0x80) != 0) {
 			anInt2728 = (1049444347 * anInt2728 & 0x7f) * -611060941;
-			aString2557 = class536_sub33.readString();
+			aString2557 = buffer.readString();
 		}
-		anInt2562 = class536_sub33.readUnsignedShort() * -657760679;
-		anInt2567 = class536_sub33.readShort((byte) -10) * -45108559;
-		anInt2655 = class536_sub33.readShort((byte) -84) * -1160038075;
-		anInt2569 = class536_sub33.readUnsignedShort() * 1219788737;
-		anInt2664 = class536_sub33.readUnsignedShort() * 49026457;
-		aByte2565 = class536_sub33.readByte();
-		aByte2618 = class536_sub33.readByte();
-		aByte2563 = class536_sub33.readByte();
-		aByte2564 = class536_sub33.readByte();
-		anInt2577 = class536_sub33.readUnsignedShort() * 1248497819;
-		if (65535 == -1940204141 * anInt2577)
-			anInt2577 = -1248497819;
+		anInt2562 = buffer.readUnsignedShort() * -657760679;
+		posX = buffer.readShort() * -45108559;
+		posY = buffer.readShort() * -1160038075;
+		sizeX = buffer.readUnsignedShort() * 1219788737;
+		sizeY = buffer.readUnsignedShort() * 49026457;
+		sizeXMode = buffer.readByte();
+		sizeYMode = buffer.readByte();
+		posXMode = buffer.readByte();
+		posYMode = buffer.readByte();
+		parentLayer = buffer.readUnsignedShort() * 1248497819;
+		if (65535 == -1940204141 * parentLayer)
+			parentLayer = -1248497819;
 		else
-			anInt2577 = 1248497819 * ((-1591767037 * anInt2559 & ~0xffff) + -1940204141 * anInt2577);
-		int i_4_ = class536_sub33.readUnsignedByte();
-		aBool2578 = (i_4_ & 0x1) != 0;
+			parentLayer = 1248497819 * ((-1591767037 * anInt2559 & ~0xffff) + -1940204141 * parentLayer);
+		int i_4_ = buffer.readUnsignedByte();
+		hidden = (i_4_ & 0x1) != 0;
 		if (i_3_ >= 0)
-			aBool2708 = (i_4_ & 0x2) != 0;
+			noClickThrough = (i_4_ & 0x2) != 0;
 		if (1049444347 * anInt2728 == 0) {
-			anInt2585 = class536_sub33.readUnsignedShort() * 1043826313;
-			anInt2586 = class536_sub33.readUnsignedShort() * -114650895;
+			anInt2585 = buffer.readUnsignedShort() * 1043826313;
+			anInt2586 = buffer.readUnsignedShort() * -114650895;
 			if (i_3_ < 0)
-				aBool2708 = class536_sub33.readUnsignedByte() == 1;
+				noClickThrough = buffer.readUnsignedByte() == 1;
 		}
 		if (5 == 1049444347 * anInt2728) {
-			anInt2592 = class536_sub33.readInt() * -2093350021;
-			anInt2593 = class536_sub33.readUnsignedShort() * -207488001;
-			int i_5_ = class536_sub33.readUnsignedByte();
-			aBool2594 = (i_5_ & 0x1) != 0;
-			aBool2649 = (i_5_ & 0x2) != 0;
-			anInt2589 = class536_sub33.readUnsignedByte() * 1266192547;
-			anInt2720 = class536_sub33.readUnsignedByte() * 483071525;
-			anInt2596 = class536_sub33.readInt() * -87772689;
-			aBool2597 = class536_sub33.readUnsignedByte() == 1;
-			aBool2598 = class536_sub33.readUnsignedByte() == 1;
-			anInt2587 = class536_sub33.readInt() * 1647150685;
+			graphicId = buffer.readInt() * -2093350021;
+			angle2Id = buffer.readUnsignedShort() * -207488001;
+			int i_5_ = buffer.readUnsignedByte();
+			tiling = (i_5_ & 0x1) != 0;
+			alpha = (i_5_ & 0x2) != 0;
+			transparency = buffer.readUnsignedByte() * 1266192547;
+			outline = buffer.readUnsignedByte() * 483071525;
+			graphicShadow = buffer.readInt() * -87772689;
+			vFlip = buffer.readUnsignedByte() == 1;
+			hFlip = buffer.readUnsignedByte() == 1;
+			colour = buffer.readInt() * 1647150685;
 			if (i_3_ >= 3)
-				aBool2677 = class536_sub33.readUnsignedByte() == 1;
+				clickMask = buffer.readUnsignedByte() == 1;
 		}
 		if (1049444347 * anInt2728 == 6) {
-			anInt2601 = -1782707337;
-			anInt2602 = class536_sub33.readBigSmart() * 1639447419;
-			int i_6_ = class536_sub33.readUnsignedByte();
+			modelType = -1782707337;
+			modelId = buffer.readBigSmart() * 1639447419;
+			int i_6_ = buffer.readUnsignedByte();
 			boolean bool = (i_6_ & 0x1) == 1;
 			aBool2633 = (i_6_ & 0x2) == 2;
-			aBool2616 = 4 == (i_6_ & 0x4);
+			orthoginal = 4 == (i_6_ & 0x4);
 			aBool2682 = (i_6_ & 0x8) == 8;
 			if (bool) {
-				anInt2610 = class536_sub33.readShort((byte) -94) * -2137233423;
-				anInt2611 = class536_sub33.readShort((byte) -123) * -610004565;
-				anInt2551 = class536_sub33.readUnsignedShort() * -1501528611;
-				anInt2547 = class536_sub33.readUnsignedShort() * -947955085;
-				anInt2609 = class536_sub33.readUnsignedShort() * 465590379;
-				anInt2613 = class536_sub33.readUnsignedShort() * -1926815261;
+				modelOriginX = buffer.readShort() * -2137233423;
+				modelOriginY = buffer.readShort() * -610004565;
+				xan2d = buffer.readUnsignedShort() * -1501528611;
+				yan2d = buffer.readUnsignedShort() * -947955085;
+				zan2d = buffer.readUnsignedShort() * 465590379;
+				zoom2d = buffer.readUnsignedShort() * -1926815261;
 			} else if (aBool2633) {
-				anInt2610 = class536_sub33.readShort((byte) -101) * -2137233423;
-				anInt2611 = class536_sub33.readShort((byte) -46) * -610004565;
-				anInt2612 = class536_sub33.readShort((byte) -91) * -1069708807;
-				anInt2551 = class536_sub33.readUnsignedShort() * -1501528611;
-				anInt2547 = class536_sub33.readUnsignedShort() * -947955085;
-				anInt2609 = class536_sub33.readUnsignedShort() * 465590379;
-				anInt2613 = class536_sub33.readShort((byte) -32) * -1926815261;
+				modelOriginX = buffer.readShort() * -2137233423;
+				modelOriginY = buffer.readShort() * -610004565;
+				anInt2612 = buffer.readShort() * -1069708807;
+				xan2d = buffer.readUnsignedShort() * -1501528611;
+				yan2d = buffer.readUnsignedShort() * -947955085;
+				zan2d = buffer.readUnsignedShort() * 465590379;
+				zoom2d = buffer.readShort() * -1926815261;
 			}
-			anInt2723 = class536_sub33.readBigSmart() * -726203335;
-			if (0 != aByte2565)
-				anInt2614 = class536_sub33.readUnsignedShort() * 170735961;
-			if (0 != aByte2618)
-				anInt2615 = class536_sub33.readUnsignedShort() * -118712993;
+			animId = buffer.readBigSmart() * -726203335;
+			if (0 != sizeXMode)
+				anInt2614 = buffer.readUnsignedShort() * 170735961;
+			if (0 != sizeYMode)
+				anInt2615 = buffer.readUnsignedShort() * -118712993;
 		}
 		if (anInt2728 * 1049444347 == 4) {
-			anInt2636 = class536_sub33.readBigSmart() * 1355450591;
+			fontId = buffer.readBigSmart() * 1355450591;
 			if (i_3_ >= 2)
-				aBool2637 = class536_sub33.readUnsignedByte() == 1;
-			aString2638 = class536_sub33.readString();
-			anInt2721 = class536_sub33.readUnsignedByte() * -1326793683;
-			anInt2640 = class536_sub33.readUnsignedByte() * -70230299;
-			anInt2641 = class536_sub33.readUnsignedByte() * -358806889;
-			aBool2644 = class536_sub33.readUnsignedByte() == 1;
-			anInt2587 = class536_sub33.readInt() * 1647150685;
-			anInt2589 = class536_sub33.readUnsignedByte() * 1266192547;
+				fontMono = buffer.readUnsignedByte() == 1;
+			text = buffer.readString();
+			lineHeight = buffer.readUnsignedByte() * -1326793683;
+			horizTextAlign = buffer.readUnsignedByte() * -70230299;
+			vertTextAlign = buffer.readUnsignedByte() * -358806889;
+			textShadow = buffer.readUnsignedByte() == 1;
+			colour = buffer.readInt() * 1647150685;
+			transparency = buffer.readUnsignedByte() * 1266192547;
 			if (i_3_ >= 0)
-				anInt2643 = class536_sub33.readUnsignedByte() * -1108499687;
+				maxLines = buffer.readUnsignedByte() * -1108499687;
 		}
 		if (3 == 1049444347 * anInt2728) {
-			anInt2587 = class536_sub33.readInt() * 1647150685;
-			aBool2642 = class536_sub33.readUnsignedByte() == 1;
-			anInt2589 = class536_sub33.readUnsignedByte() * 1266192547;
+			colour = buffer.readInt() * 1647150685;
+			fill = buffer.readUnsignedByte() == 1;
+			transparency = buffer.readUnsignedByte() * 1266192547;
 		}
 		if (1049444347 * anInt2728 == 9) {
-			anInt2590 = class536_sub33.readUnsignedByte() * -1272549053;
-			anInt2587 = class536_sub33.readInt() * 1647150685;
-			aBool2692 = class536_sub33.readUnsignedByte() == 1;
+			lineWidth = buffer.readUnsignedByte() * -1272549053;
+			colour = buffer.readInt() * 1647150685;
+			lineDirection = buffer.readUnsignedByte() == 1;
 		}
-		int i_7_ = class536_sub33.read24BitUnsignedInteger();
-		int i_8_ = class536_sub33.readUnsignedByte();
+		int settingsFlag = buffer.read24BitUnsignedInteger();
+		int i_8_ = buffer.readUnsignedByte();
 		if (i_8_ != 0) {
-			aByteArrayArray2647 = new byte[11][];
+			opKeys = new byte[11][];
 			aByteArrayArray2648 = new byte[11][];
-			anIntArray2560 = new int[11];
-			anIntArray2651 = new int[11];
-			for (/**/; i_8_ != 0; i_8_ = class536_sub33.readUnsignedByte()) {
+			opKeyRates = new int[11];
+			opChars = new int[11];
+			for (/**/; i_8_ != 0; i_8_ = buffer.readUnsignedByte()) {
 				int i_9_ = (i_8_ >> 4) - 1;
-				i_8_ = i_8_ << 8 | class536_sub33.readUnsignedByte();
+				i_8_ = i_8_ << 8 | buffer.readUnsignedByte();
 				i_8_ &= 0xfff;
 				if (4095 == i_8_)
 					i_8_ = -1;
-				byte i_10_ = class536_sub33.readByte();
+				byte i_10_ = buffer.readByte();
 				if (0 != i_10_)
 					aBool2582 = true;
-				byte i_11_ = class536_sub33.readByte();
-				anIntArray2560[i_9_] = i_8_;
-				aByteArrayArray2647[i_9_] = new byte[] { i_10_ };
+				byte i_11_ = buffer.readByte();
+				opKeyRates[i_9_] = i_8_;
+				opKeys[i_9_] = new byte[] { i_10_ };
 				aByteArrayArray2648[i_9_] = new byte[] { i_11_ };
 			}
 		}
-		aString2556 = class536_sub33.readString();
-		int i_12_ = class536_sub33.readUnsignedByte();
+		opBase = buffer.readString();
+		int i_12_ = buffer.readUnsignedByte();
 		int i_13_ = i_12_ & 0xf;
 		int i_14_ = i_12_ >> 4;
 		if (i_13_ > 0) {
-			aStringArray2657 = new String[i_13_];
+			op = new String[i_13_];
 			for (int i_15_ = 0; i_15_ < i_13_; i_15_++)
-				aStringArray2657[i_15_] = class536_sub33.readString();
+				op[i_15_] = buffer.readString();
 		}
 		if (i_14_ > 0) {
-			int i_16_ = class536_sub33.readUnsignedByte();
-			anIntArray2668 = new int[1 + i_16_];
-			for (int i_17_ = 0; i_17_ < anIntArray2668.length; i_17_++)
-				anIntArray2668[i_17_] = -1;
-			anIntArray2668[i_16_] = class536_sub33.readUnsignedShort();
+			int i_16_ = buffer.readUnsignedByte();
+			opCursors = new int[1 + i_16_];
+			for (int i_17_ = 0; i_17_ < opCursors.length; i_17_++)
+				opCursors[i_17_] = -1;
+			opCursors[i_16_] = buffer.readUnsignedShort();
 		}
 		if (i_14_ > 1) {
-			int i_18_ = class536_sub33.readUnsignedByte();
-			anIntArray2668[i_18_] = class536_sub33.readUnsignedShort();
+			int i_18_ = buffer.readUnsignedByte();
+			opCursors[i_18_] = buffer.readUnsignedShort();
 		}
-		aString2566 = class536_sub33.readString();
-		if (aString2566.equals(""))
-			aString2566 = null;
-		anInt2600 = class536_sub33.readUnsignedByte() * -881661827;
-		anInt2663 = class536_sub33.readUnsignedByte() * 1261514709;
-		anInt2534 = class536_sub33.readUnsignedByte() * 52080145;
-		aString2665 = class536_sub33.readString();
-		int i_19_ = -1;
-		if (IComponentSettings.method8258(i_7_) != 0) {
-			i_19_ = class536_sub33.readUnsignedShort();
-			if (65535 == i_19_)
-				i_19_ = -1;
-			anInt2626 = class536_sub33.readUnsignedShort() * 323164283;
+		pauseText = buffer.readString();
+		if (pauseText.equals(""))
+			pauseText = null;
+		dragDeadZone = buffer.readUnsignedByte() * -881661827;
+		dragDeadTime = buffer.readUnsignedByte() * 1261514709;
+		dragRenderBehaviour = buffer.readUnsignedByte() * 52080145;
+		targetVerb = buffer.readString();
+		int interfaceHash = -1;
+		if (IComponentSettings.method8258(settingsFlag) != 0) {
+			interfaceHash = buffer.readUnsignedShort();
+			if (65535 == interfaceHash)
+				interfaceHash = -1;
+			anInt2626 = buffer.readUnsignedShort() * 323164283;
 			if (65535 == anInt2626 * -1130821965)
 				anInt2626 = -323164283;
-			anInt2580 = class536_sub33.readUnsignedShort() * -979286481;
+			anInt2580 = buffer.readUnsignedShort() * -979286481;
 			if (-652492593 * anInt2580 == 65535)
 				anInt2580 = 979286481;
 		}
 		if (i_3_ >= 0) {
-			anInt2713 = class536_sub33.readUnsignedShort() * 1993579121;
-			if (1973741201 * anInt2713 == 65535)
-				anInt2713 = -1993579121;
+			mouseOverCursor = buffer.readUnsignedShort() * 1993579121;
+			if (1973741201 * mouseOverCursor == 65535)
+				mouseOverCursor = -1993579121;
 		}
-		aClass536_Sub14_2575 = new IComponentSettings(i_7_, i_19_);
+		settings = new IComponentSettings(settingsFlag, interfaceHash);
 		if (i_3_ >= 0) {
-			int i_20_ = class536_sub33.readUnsignedByte();
-			for (int i_21_ = 0; i_21_ < i_20_; i_21_++) {
-				int i_22_ = class536_sub33.read24BitUnsignedInteger();
-				int i_23_ = class536_sub33.readInt();
-				aClass4_2630.method560(new Class536_Sub26(i_23_), (long) i_22_);
+			int intParamSize = buffer.readUnsignedByte();
+			for (int i = 0; i < intParamSize; i++) {
+				int key = buffer.read24BitUnsignedInteger();
+				int value = buffer.readInt();
+				params.method560(new IntParam(value), (long) key);
 			}
-			int i_24_ = class536_sub33.readUnsignedByte();
-			for (int i_25_ = 0; i_25_ < i_24_; i_25_++) {
-				int i_26_ = class536_sub33.read24BitUnsignedInteger();
-				String string = class536_sub33.readVersionedString();
-				aClass4_2630.method560(new Class536_Sub13(string), (long) i_26_);
+			int stringParamSize = buffer.readUnsignedByte();
+			for (int i = 0; i < stringParamSize; i++) {
+				int key = buffer.read24BitUnsignedInteger();
+				String value = buffer.readVersionedString();
+				params.method560(new ObjectParam(value), (long) key);
 			}
 		}
-		anObjectArray2667 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2672 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2674 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2678 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2740 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2679 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2669 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2683 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2543 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2705 = method3467(class536_sub33, (byte) 56);
+		onLoadHook = decodeComponentHook(buffer);
+		onMouseOverHook = decodeComponentHook(buffer);
+		onMouseLeaveHook = decodeComponentHook(buffer);
+		onTargetLeaveHook = decodeComponentHook(buffer);
+		onTargetEnterHook = decodeComponentHook(buffer);
+		onVarTransmitHook = decodeComponentHook(buffer);
+		onInvTransmitHook = decodeComponentHook(buffer);
+		onStatTransmitHook = decodeComponentHook(buffer);
+		onTimerHook = decodeComponentHook(buffer);
+		onOpHook = decodeComponentHook(buffer);
 		if (i_3_ >= 0)
-			anObjectArray2624 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2673 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2555 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2645 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2670 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2696 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2675 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2676 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2715 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2662 = method3467(class536_sub33, (byte) 56);
-		anObjectArray2710 = method3467(class536_sub33, (byte) 56);
-		anIntArray2680 = method3468(class536_sub33, 1944166389);
-		anIntArray2561 = method3468(class536_sub33, -547351737);
-		anIntArray2684 = method3468(class536_sub33, 1025351193);
-		anIntArray2686 = method3468(class536_sub33, 1645875915);
-		anIntArray2688 = method3468(class536_sub33, 113886516);
+			onOptHook = decodeComponentHook(buffer);
+		onMouseRepeatHook = decodeComponentHook(buffer);
+		onClickHook = decodeComponentHook(buffer);
+		onClickRepeatHook = decodeComponentHook(buffer);
+		onReleaseHook = decodeComponentHook(buffer);
+		onHoldHook = decodeComponentHook(buffer);
+		onDragHook = decodeComponentHook(buffer);
+		onDragCompleteHook = decodeComponentHook(buffer);
+		onScrollWheelHook = decodeComponentHook(buffer);
+		onVarcTransmitHook = decodeComponentHook(buffer);
+		onVarcstrTransmitHook = decodeComponentHook(buffer);
+		varTransmitList = decodeTransmitList(buffer);
+		invTransmitList = decodeTransmitList(buffer);
+		statTransmitList = decodeTransmitList(buffer);
+		varcTransmitList = decodeTransmitList(buffer);
+		varcstrTransmitList = decodeTransmitList(buffer);
 	}
 
-	Object[] method3467(RSByteBuffer class536_sub33, byte i) {
-		int i_27_ = class536_sub33.readUnsignedByte();
-		if (i_27_ == 0)
+	Object[] decodeComponentHook(RSByteBuffer buffer) {
+		int size = buffer.readUnsignedByte();
+		if (size == 0)
 			return null;
-		Object[] objects = new Object[i_27_];
-		for (int i_28_ = 0; i_28_ < i_27_; i_28_++) {
-			int i_29_ = class536_sub33.readUnsignedByte();
+		Object[] hooks = new Object[size];
+		for (int i = 0; i < size; i++) {
+			int i_29_ = buffer.readUnsignedByte();
 			if (0 == i_29_)
-				objects[i_28_] = new Integer(class536_sub33.readInt());
+				hooks[i] = new Integer(buffer.readInt());
 			else if (1 == i_29_)
-				objects[i_28_] = class536_sub33.readString();
+				hooks[i] = buffer.readString();
 		}
-		aBool2666 = true;
-		return objects;
+		hasComponentHook = true;
+		return hooks;
 	}
 
-	int[] method3468(RSByteBuffer class536_sub33, int i) {
-		int i_30_ = class536_sub33.readUnsignedByte();
-		if (i_30_ == 0)
+	int[] decodeTransmitList(RSByteBuffer buffer) {
+		int size = buffer.readUnsignedByte();
+		if (size == 0)
 			return null;
-		int[] is = new int[i_30_];
-		for (int i_31_ = 0; i_31_ < i_30_; i_31_++)
-			is[i_31_] = class536_sub33.readInt();
-		return is;
+		int[] transmits = new int[size];
+		for (int i_31_ = 0; i_31_ < size; i_31_++)
+			transmits[i_31_] = buffer.readInt();
+		return transmits;
 	}
 
 	public InterfaceDefinitions() {
 		anInt2546 = -724931107;
 		anInt2562 = 0;
-		aByte2563 = (byte) 0;
-		aByte2564 = (byte) 0;
-		aByte2565 = (byte) 0;
-		aByte2618 = (byte) 0;
-		anInt2567 = 0;
-		anInt2655 = 0;
-		anInt2569 = 0;
-		anInt2664 = 0;
+		posXMode = (byte) 0;
+		posYMode = (byte) 0;
+		sizeXMode = (byte) 0;
+		sizeYMode = (byte) 0;
+		posX = 0;
+		posY = 0;
+		sizeX = 0;
+		sizeY = 0;
 		anInt2571 = 0;
 		anInt2572 = 0;
 		anInt2573 = 0;
 		anInt2574 = 0;
 		anInt2693 = -1035323945;
 		anInt2576 = -1090634513;
-		anInt2577 = -1248497819;
-		aBool2578 = false;
+		parentLayer = -1248497819;
+		hidden = false;
 		anInt2626 = -323164283;
 		anInt2580 = 979286481;
-		anInt2713 = -1993579121;
-		aBool2708 = false;
+		mouseOverCursor = -1993579121;
+		noClickThrough = false;
 		anInt2581 = 0;
 		anInt2584 = 0;
 		anInt2585 = 0;
 		anInt2586 = 0;
-		anInt2587 = 0;
-		aBool2642 = false;
-		anInt2589 = 0;
-		anInt2590 = -1272549053;
-		aBool2692 = false;
-		anInt2592 = 2093350021;
-		anInt2593 = 0;
-		aBool2594 = false;
-		anInt2720 = 0;
-		anInt2596 = 0;
-		aBool2649 = false;
-		aBool2677 = true;
-		anInt2601 = -1782707337;
+		colour = 0;
+		fill = false;
+		transparency = 0;
+		lineWidth = -1272549053;
+		lineDirection = false;
+		graphicId = 2093350021;
+		angle2Id = 0;
+		tiling = false;
+		outline = 0;
+		graphicShadow = 0;
+		alpha = false;
+		clickMask = true;
+		modelType = -1782707337;
 		anInt2603 = -721316367;
 		anInt2658 = 0;
 		anInt2606 = 0;
-		anInt2551 = 0;
-		anInt2547 = 0;
-		anInt2609 = 0;
-		anInt2610 = 0;
-		anInt2611 = 0;
+		xan2d = 0;
+		yan2d = 0;
+		zan2d = 0;
+		modelOriginX = 0;
+		modelOriginY = 0;
 		anInt2612 = 0;
-		anInt2613 = 592002220;
+		zoom2d = 592002220;
 		anInt2614 = 0;
 		anInt2615 = 0;
-		aBool2616 = false;
+		orthoginal = false;
 		aBool2682 = false;
 		anInt2595 = -1360798542;
 		aBool2659 = false;
-		anInt2636 = -1355450591;
-		aBool2637 = true;
-		aString2638 = "";
-		anInt2721 = 0;
-		anInt2640 = 0;
-		anInt2641 = 0;
-		aBool2644 = false;
-		anInt2643 = 0;
+		fontId = -1355450591;
+		fontMono = true;
+		text = "";
+		lineHeight = 0;
+		horizTextAlign = 0;
+		vertTextAlign = 0;
+		textShadow = false;
+		maxLines = 0;
 		aBool2608 = false;
-		aClass536_Sub14_2575 = IComponentSettings.aClass536_Sub14_10477;
+		settings = IComponentSettings.DEFAULT_SETTINGS;
 		aBool2582 = false;
-		aString2556 = "";
+		opBase = "";
 		anInt2660 = -726833675;
 		aClass251_2553 = null;
-		anInt2600 = 0;
-		anInt2663 = 0;
-		anInt2534 = anInt2617 * -1219474557;
-		aString2665 = "";
-		aBool2666 = false;
+		dragDeadZone = 0;
+		dragDeadTime = 0;
+		dragRenderBehaviour = anInt2617 * -1219474557;
+		targetVerb = "";
+		hasComponentHook = false;
 		anInt2711 = 180322533;
 		anInt2712 = 0;
 		aString2699 = null;
 		aBool2671 = false;
 		anInt2716 = -1848781035;
 		anInt2604 = 1513859745;
-		anInt2723 = 726203335;
+		animId = 726203335;
 		aBool2727 = false;
 		aBool2607 = false;
 		anInt2729 = 1185389879;
@@ -559,13 +559,13 @@ public class InterfaceDefinitions {
 	}
 
 	public Class184 method3469(Class410 class410, Interface51 interface51, byte i) {
-		Class184 class184 = ((Class184) class410.method4980(interface51, 2003514143 * anInt2636, false, aBool2637, (byte) -19));
+		Class184 class184 = ((Class184) class410.method4980(interface51, 2003514143 * fontId, false, fontMono, (byte) -19));
 		aBool2724 = null == class184;
 		return class184;
 	}
 
 	public Class2 method3470(Class410 class410, Interface51 interface51, byte i) {
-		Class2 class2 = class410.method4981(interface51, anInt2636 * 2003514143, -1014405925);
+		Class2 class2 = class410.method4981(interface51, fontId * 2003514143, -1014405925);
 		aBool2724 = class2 == null;
 		return class2;
 	}
@@ -593,114 +593,114 @@ public class InterfaceDefinitions {
 	}
 
 	public void method3473(int i) {
-		anObjectArray2667 = null;
-		anObjectArray2555 = null;
-		anObjectArray2645 = null;
-		anObjectArray2670 = null;
-		anObjectArray2696 = null;
-		anObjectArray2672 = null;
-		anObjectArray2673 = null;
-		anObjectArray2674 = null;
-		anObjectArray2675 = null;
-		anObjectArray2676 = null;
-		anObjectArray2740 = null;
-		anObjectArray2678 = null;
-		anObjectArray2679 = null;
-		anIntArray2680 = null;
+		onLoadHook = null;
+		onClickHook = null;
+		onClickRepeatHook = null;
+		onReleaseHook = null;
+		onHoldHook = null;
+		onMouseOverHook = null;
+		onMouseRepeatHook = null;
+		onMouseLeaveHook = null;
+		onDragHook = null;
+		onDragCompleteHook = null;
+		onTargetEnterHook = null;
+		onTargetLeaveHook = null;
+		onVarTransmitHook = null;
+		varTransmitList = null;
 		anInt2730 = 0;
-		anObjectArray2669 = null;
-		anIntArray2561 = null;
+		onInvTransmitHook = null;
+		invTransmitList = null;
 		anInt2731 = 0;
-		anObjectArray2683 = null;
-		anIntArray2684 = null;
+		onStatTransmitHook = null;
+		statTransmitList = null;
 		anInt2732 = 0;
-		anObjectArray2662 = null;
-		anIntArray2686 = null;
+		onVarcTransmitHook = null;
+		varcTransmitList = null;
 		anInt2733 = 0;
-		anObjectArray2710 = null;
-		anIntArray2688 = null;
+		onVarcstrTransmitHook = null;
+		varcstrTransmitList = null;
 		anInt2734 = 0;
 		anObjectArray2689 = null;
 		anIntArray2690 = null;
 		anInt2735 = 0;
-		anObjectArray2543 = null;
-		anObjectArray2705 = null;
-		anObjectArray2624 = null;
-		anObjectArray2715 = null;
-		anObjectArray2695 = null;
-		anObjectArray2538 = null;
-		anObjectArray2697 = null;
-		anObjectArray2698 = null;
-		anObjectArray2544 = null;
-		anObjectArray2701 = null;
-		anObjectArray2628 = null;
-		anObjectArray2702 = null;
-		anObjectArray2703 = null;
-		anObjectArray2704 = null;
-		anObjectArray2661 = null;
-		anObjectArray2706 = null;
-		anObjectArray2707 = null;
-		anObjectArray2599 = null;
-		anObjectArray2709 = null;
+		onTimerHook = null;
+		onOpHook = null;
+		onOptHook = null;
+		onScrollWheelHook = null;
+		onChatTransmitHook = null;
+		onKeyHook = null;
+		onFriendTransmitHook = null;
+		onClanTransmitHook = null;
+		onClanSettingsTransmitHook = null;
+		onClanChannelTransmitHook = null;
+		onMiscTransmitHook = null;
+		onStockTransmitHook = null;
+		onDialogAbortHook = null;
+		onSubChangeHook = null;
+		onCamFinishedHook = null;
+		onResizeHook = null;
+		onPlayerGroupTransmitHook = null;
+		onPlayerGroupVarpTransmitHook = null;
+		onCameraUpdateTransmitHook = null;
 		anInt2729 = 1185389879;
 	}
 
-	public void method3474(int i, String string, int i_33_) {
-		if (null == aStringArray2657 || aStringArray2657.length <= i) {
-			String[] strings = new String[i + 1];
-			if (aStringArray2657 != null) {
-				for (int i_34_ = 0; i_34_ < aStringArray2657.length; i_34_++)
-					strings[i_34_] = aStringArray2657[i_34_];
+	public void setOp(int index, String value) {
+		if (null == op || op.length <= index) {
+			String[] strings = new String[index + 1];
+			if (op != null) {
+				for (int i = 0; i < op.length; i++)
+					strings[i] = op[i];
 			}
-			aStringArray2657 = strings;
+			op = strings;
 		}
-		aStringArray2657[i] = string;
+		op[index] = value;
 	}
 
-	public void method3475(int i, int i_35_, int i_36_) {
-		if (null == anIntArray2668 || anIntArray2668.length <= i) {
-			int[] is = new int[i + 1];
-			if (null != anIntArray2668) {
-				for (int i_37_ = 0; i_37_ < anIntArray2668.length; i_37_++)
-					is[i_37_] = anIntArray2668[i_37_];
-				for (int i_38_ = anIntArray2668.length; i_38_ < i; i_38_++)
-					is[i_38_] = -1;
+	public void setOpCursor(int index, int cursor) {
+		if (null == opCursors || opCursors.length <= index) {
+			int[] cursors = new int[index + 1];
+			if (null != opCursors) {
+				for (int i = 0; i < opCursors.length; i++)
+					cursors[i] = opCursors[i];
+				for (int i = opCursors.length; i < index; i++)
+					cursors[i] = -1;
 			}
-			anIntArray2668 = is;
+			opCursors = cursors;
 		}
-		anIntArray2668[i] = i_35_;
+		opCursors[index] = cursor;
 	}
 
-	public int method3476(int i, int i_39_, int i_40_) {
-		if (aClass4_2630 == null)
-			return i_39_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2630.method556((long) i);
-		if (null == class536_sub26)
-			return i_39_;
-		return 2083602213 * class536_sub26.anInt10533;
+	public int getIntParamDefault(int key, int defaultValue, int i_40_) {
+		if (params == null)
+			return defaultValue;
+		IntParam param = (IntParam) params.method556((long) key);
+		if (null == param)
+			return defaultValue;
+		return 2083602213 * param.value;
 	}
 
-	public String method3477(int i, String string, int i_41_) {
-		if (aClass4_2630 == null)
-			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2630.method556((long) i);
-		if (class536_sub13 == null)
-			return string;
-		return (String) class536_sub13.anObject10468;
+	public String getStringParamDefault(int key, String defaultValue, int i_41_) {
+		if (params == null)
+			return defaultValue;
+		ObjectParam param = (ObjectParam) params.method556((long) key);
+		if (param == null)
+			return defaultValue;
+		return (String) param.value;
 	}
 
 	public Class244 method3478(Class167 class167, int i) {
 		long l = ((long) (-1591767037 * anInt2559) << 32 | (long) (-809980533 * anInt2546) & 0xffffffffL);
 		Class244 class244 = (Class244) aClass199_2568.method2886(l);
 		if (class244 != null) {
-			if (-1307221069 * anInt2592 != class244.anInt2459 * -959136425) {
+			if (-1307221069 * graphicId != class244.anInt2459 * -959136425) {
 				aClass199_2568.method2879(l);
 				class244 = null;
 			}
 			if (class244 != null)
 				return class244;
 		}
-		Class179 class179 = Class181.method2718(Class252.aClass461_2745, -1307221069 * anInt2592, 0);
+		Class179 class179 = Class181.method2718(Class252.aClass461_2745, -1307221069 * graphicId, 0);
 		if (null == class179)
 			return null;
 		int i_42_ = class179.method2640();
@@ -728,20 +728,20 @@ public class InterfaceDefinitions {
 		Class161 class161 = class167.method2087(i_42_, i_43_, is, is_44_);
 		if (class161 == null)
 			return null;
-		class244 = new Class244(i_42_, i_43_, is_44_, is, class161, -1307221069 * anInt2592);
+		class244 = new Class244(i_42_, i_43_, is_44_, is, class161, -1307221069 * graphicId);
 		aClass199_2568.method2881(class244, l);
 		return class244;
 	}
 
-	public void method3479(int i, String string, int i_50_) {
-		if (null == aClass4_2630) {
-			aClass4_2630 = new Class4(16);
-			aClass4_2630.method560(new Class536_Sub13(string), (long) i);
+	public void setStringParam(int key, String value, int i_50_) {
+		if (null == params) {
+			params = new Class4(16);
+			params.method560(new ObjectParam(value), (long) key);
 		} else {
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2630.method556((long) i);
-			if (null != class536_sub13)
-				class536_sub13.method6484(1521060553);
-			aClass4_2630.method560(new Class536_Sub13(string), (long) i);
+			ObjectParam param = (ObjectParam) params.method556((long) key);
+			if (null != param)
+				param.method6484();
+			params.method560(new ObjectParam(value), (long) key);
 		}
 	}
 
@@ -802,29 +802,29 @@ public class InterfaceDefinitions {
 
 	public Class143 method3484(Class167 class167, int i) {
 		aBool2724 = false;
-		long l = (((long) (1514577167 * anInt2596) << 40) + (((aBool2597 ? 1L : 0L) << 38) + (((long) (1960646061 * anInt2720) << 36) + ((long) (anInt2592 * -1307221069) + ((aBool2649 ? 1L : 0L) << 35))) + ((aBool2598 ? 1L : 0L) << 39)));
+		long l = (((long) (1514577167 * graphicShadow) << 40) + (((vFlip ? 1L : 0L) << 38) + (((long) (1960646061 * outline) << 36) + ((long) (graphicId * -1307221069) + ((alpha ? 1L : 0L) << 35))) + ((hFlip ? 1L : 0L) << 39)));
 		Class143 class143 = (Class143) aClass199_2552.method2886(l);
 		if (class143 != null)
 			return class143;
-		Class179 class179 = Class181.method2718(Class252.aClass461_2745, -1307221069 * anInt2592, 0);
+		Class179 class179 = Class181.method2718(Class252.aClass461_2745, -1307221069 * graphicId, 0);
 		if (class179 == null) {
 			aBool2724 = true;
 			return null;
 		}
-		if (aBool2597)
+		if (vFlip)
 			class179.method2646();
-		if (aBool2598)
+		if (hFlip)
 			class179.method2648();
-		if (anInt2720 * 1960646061 > 0)
-			class179.method2642(anInt2720 * 1960646061);
-		else if (1514577167 * anInt2596 != 0)
+		if (outline * 1960646061 > 0)
+			class179.method2642(outline * 1960646061);
+		else if (1514577167 * graphicShadow != 0)
 			class179.method2642(1);
-		if (anInt2720 * 1960646061 >= 1)
+		if (outline * 1960646061 >= 1)
 			class179.method2655(1);
-		if (anInt2720 * 1960646061 >= 2)
+		if (outline * 1960646061 >= 2)
 			class179.method2655(16777215);
-		if (0 != anInt2596 * 1514577167)
-			class179.method2644(~0xffffff | anInt2596 * 1514577167);
+		if (0 != graphicShadow * 1514577167)
+			class179.method2644(~0xffffff | graphicShadow * 1514577167);
 		class143 = class167.method2082(class179, true);
 		aClass199_2552.method2882(class143, l, (class143.method1720() * class143.method1752() * 4), (byte) 122);
 		return class143;
@@ -845,15 +845,15 @@ public class InterfaceDefinitions {
 	}
 
 	public void method3487(int i, int i_54_, int i_55_) {
-		if (aClass4_2630 == null) {
-			aClass4_2630 = new Class4(16);
-			aClass4_2630.method560(new Class536_Sub26(i_54_), (long) i);
+		if (params == null) {
+			params = new Class4(16);
+			params.method560(new IntParam(i_54_), (long) i);
 		} else {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2630.method556((long) i);
+			IntParam class536_sub26 = (IntParam) params.method556((long) i);
 			if (class536_sub26 == null)
-				aClass4_2630.method560(new Class536_Sub26(i_54_), (long) i);
+				params.method560(new IntParam(i_54_), (long) i);
 			else
-				class536_sub26.anInt10533 = 1189135533 * i_54_;
+				class536_sub26.value = 1189135533 * i_54_;
 		}
 	}
 
@@ -913,92 +913,92 @@ public class InterfaceDefinitions {
 	}
 
 	public void method3497(int i, byte i_56_) {
-		if (aClass4_2630 != null) {
-			Class536 class536 = aClass4_2630.method556((long) i);
+		if (params != null) {
+			Class536 class536 = params.method556((long) i);
 			if (null != class536)
-				class536.method6484(2035415367);
+				class536.method6484();
 		}
 	}
 
 	public void method3498() {
-		anObjectArray2667 = null;
-		anObjectArray2555 = null;
-		anObjectArray2645 = null;
-		anObjectArray2670 = null;
-		anObjectArray2696 = null;
-		anObjectArray2672 = null;
-		anObjectArray2673 = null;
-		anObjectArray2674 = null;
-		anObjectArray2675 = null;
-		anObjectArray2676 = null;
-		anObjectArray2740 = null;
-		anObjectArray2678 = null;
-		anObjectArray2679 = null;
-		anIntArray2680 = null;
+		onLoadHook = null;
+		onClickHook = null;
+		onClickRepeatHook = null;
+		onReleaseHook = null;
+		onHoldHook = null;
+		onMouseOverHook = null;
+		onMouseRepeatHook = null;
+		onMouseLeaveHook = null;
+		onDragHook = null;
+		onDragCompleteHook = null;
+		onTargetEnterHook = null;
+		onTargetLeaveHook = null;
+		onVarTransmitHook = null;
+		varTransmitList = null;
 		anInt2730 = 0;
-		anObjectArray2669 = null;
-		anIntArray2561 = null;
+		onInvTransmitHook = null;
+		invTransmitList = null;
 		anInt2731 = 0;
-		anObjectArray2683 = null;
-		anIntArray2684 = null;
+		onStatTransmitHook = null;
+		statTransmitList = null;
 		anInt2732 = 0;
-		anObjectArray2662 = null;
-		anIntArray2686 = null;
+		onVarcTransmitHook = null;
+		varcTransmitList = null;
 		anInt2733 = 0;
-		anObjectArray2710 = null;
-		anIntArray2688 = null;
+		onVarcstrTransmitHook = null;
+		varcstrTransmitList = null;
 		anInt2734 = 0;
 		anObjectArray2689 = null;
 		anIntArray2690 = null;
 		anInt2735 = 0;
-		anObjectArray2543 = null;
-		anObjectArray2705 = null;
-		anObjectArray2624 = null;
-		anObjectArray2715 = null;
-		anObjectArray2695 = null;
-		anObjectArray2538 = null;
-		anObjectArray2697 = null;
-		anObjectArray2698 = null;
-		anObjectArray2544 = null;
-		anObjectArray2701 = null;
-		anObjectArray2628 = null;
-		anObjectArray2702 = null;
-		anObjectArray2703 = null;
-		anObjectArray2704 = null;
-		anObjectArray2661 = null;
-		anObjectArray2706 = null;
-		anObjectArray2707 = null;
-		anObjectArray2599 = null;
-		anObjectArray2709 = null;
+		onTimerHook = null;
+		onOpHook = null;
+		onOptHook = null;
+		onScrollWheelHook = null;
+		onChatTransmitHook = null;
+		onKeyHook = null;
+		onFriendTransmitHook = null;
+		onClanTransmitHook = null;
+		onClanSettingsTransmitHook = null;
+		onClanChannelTransmitHook = null;
+		onMiscTransmitHook = null;
+		onStockTransmitHook = null;
+		onDialogAbortHook = null;
+		onSubChangeHook = null;
+		onCamFinishedHook = null;
+		onResizeHook = null;
+		onPlayerGroupTransmitHook = null;
+		onPlayerGroupVarpTransmitHook = null;
+		onCameraUpdateTransmitHook = null;
 		anInt2729 = 1185389879;
 	}
 
 	public void method3499(int i, int i_57_) {
-		if (null == anIntArray2668 || anIntArray2668.length <= i) {
+		if (null == opCursors || opCursors.length <= i) {
 			int[] is = new int[i + 1];
-			if (null != anIntArray2668) {
-				for (int i_58_ = 0; i_58_ < anIntArray2668.length; i_58_++)
-					is[i_58_] = anIntArray2668[i_58_];
-				for (int i_59_ = anIntArray2668.length; i_59_ < i; i_59_++)
+			if (null != opCursors) {
+				for (int i_58_ = 0; i_58_ < opCursors.length; i_58_++)
+					is[i_58_] = opCursors[i_58_];
+				for (int i_59_ = opCursors.length; i_59_ < i; i_59_++)
 					is[i_59_] = -1;
 			}
-			anIntArray2668 = is;
+			opCursors = is;
 		}
-		anIntArray2668[i] = i_57_;
+		opCursors[i] = i_57_;
 	}
 
 	public void method3500(int i, int i_60_) {
-		if (null == anIntArray2668 || anIntArray2668.length <= i) {
+		if (null == opCursors || opCursors.length <= i) {
 			int[] is = new int[i + 1];
-			if (null != anIntArray2668) {
-				for (int i_61_ = 0; i_61_ < anIntArray2668.length; i_61_++)
-					is[i_61_] = anIntArray2668[i_61_];
-				for (int i_62_ = anIntArray2668.length; i_62_ < i; i_62_++)
+			if (null != opCursors) {
+				for (int i_61_ = 0; i_61_ < opCursors.length; i_61_++)
+					is[i_61_] = opCursors[i_61_];
+				for (int i_62_ = opCursors.length; i_62_ < i; i_62_++)
 					is[i_62_] = -1;
 			}
-			anIntArray2668 = is;
+			opCursors = is;
 		}
-		anIntArray2668[i] = i_60_;
+		opCursors[i] = i_60_;
 	}
 
 	public static void method3501(int i) {
@@ -1008,11 +1008,11 @@ public class InterfaceDefinitions {
 
 	public Class177 method3502(Class167 class167, int i, Class34_Sub16 class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Class34_Sub11 class34_sub11, Interface20 interface20, Interface18 interface18, Class688 class688, Class617 class617, short i_63_) {
 		aBool2724 = false;
-		if (0 == 1939619399 * anInt2601)
+		if (0 == 1939619399 * modelType)
 			return null;
-		if (1 == anInt2601 * 1939619399 && anInt2602 * -2011124813 == -1)
+		if (1 == modelType * 1939619399 && modelId * -2011124813 == -1)
 			return null;
-		if (1939619399 * anInt2601 == 1) {
+		if (1939619399 * modelType == 1) {
 			int i_64_ = i;
 			if (null != class688)
 				i |= class688.method8162((byte) 34);
@@ -1036,12 +1036,12 @@ public class InterfaceDefinitions {
 				}
 				i |= 0x8000;
 			}
-			long l_67_ = ((long) (class167.anInt1850 * 1526643673) << 59 | (long) (1939619399 * anInt2601) << 55 | (long) (anInt2602 * -2011124813) << 38 | l & 0x3fffffffffL);
+			long l_67_ = ((long) (class167.anInt1850 * 1526643673) << 59 | (long) (1939619399 * modelType) << 55 | (long) (modelId * -2011124813) << 38 | l & 0x3fffffffffL);
 			Class177 class177 = (Class177) aClass199_2694.method2886(l_67_);
 			if (null == class177 || class167.method2308(class177.method2466(), i) != 0) {
 				if (class177 != null)
 					i = class167.method2068(i, class177.method2466());
-				Class180 class180 = Class180.method2708(Class537.aClass461_7152, -2011124813 * anInt2602, 0);
+				Class180 class180 = Class180.method2708(Class537.aClass461_7152, -2011124813 * modelId, 0);
 				if (class180 == null) {
 					aBool2724 = true;
 					return null;
@@ -1066,15 +1066,15 @@ public class InterfaceDefinitions {
 			class177.method2465(i_64_);
 			return class177;
 		}
-		if (2 == anInt2601 * 1939619399) {
-			Class177 class177 = (((Class296) class34_sub7.method70(anInt2602 * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
+		if (2 == modelType * 1939619399) {
+			Class177 class177 = (((Class296) class34_sub7.method70(modelId * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
 			if (class177 == null) {
 				aBool2724 = true;
 				return null;
 			}
 			return class177;
 		}
-		if (3 == anInt2601 * 1939619399) {
+		if (3 == modelType * 1939619399) {
 			if (null == class617)
 				return null;
 			Class177 class177 = class617.method7346(class167, i, class34_sub2, class34_sub7, class34_sub13, interface20, interface18, class688, -211912518);
@@ -1084,8 +1084,8 @@ public class InterfaceDefinitions {
 			}
 			return class177;
 		}
-		if (4 == anInt2601 * 1939619399) {
-			ItemDefinitions class1 = ((ItemDefinitions) class34_sub13.method70(-2011124813 * anInt2602, (byte) 6));
+		if (4 == modelType * 1939619399) {
+			ItemDefinitions class1 = ((ItemDefinitions) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
 			Class177 class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
 			if (null == class177) {
 				aBool2724 = true;
@@ -1093,19 +1093,19 @@ public class InterfaceDefinitions {
 			}
 			return class177;
 		}
-		if (1939619399 * anInt2601 == 6) {
-			Class177 class177 = (((Class296) class34_sub7.method70(-2011124813 * anInt2602, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
+		if (1939619399 * modelType == 6) {
+			Class177 class177 = (((Class296) class34_sub7.method70(-2011124813 * modelId, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
 			if (null == class177) {
 				aBool2724 = true;
 				return null;
 			}
 			return class177;
 		}
-		if (anInt2601 * 1939619399 == 7) {
+		if (modelType * 1939619399 == 7) {
 			if (null == class617)
 				return null;
-			int i_70_ = anInt2602 * -2011124813 >>> 16;
-			int i_71_ = anInt2602 * -2011124813 & 0xffff;
+			int i_70_ = modelId * -2011124813 >>> 16;
+			int i_71_ = modelId * -2011124813 & 0xffff;
 			int i_72_ = 2109818095 * anInt2603;
 			Class177 class177 = class617.method7347(class167, i, class34_sub2, class34_sub11, class688, i_70_, i_71_, i_72_, -1539494094);
 			if (null == class177) {
@@ -1118,81 +1118,81 @@ public class InterfaceDefinitions {
 	}
 
 	public void method3503(int i, int i_73_) {
-		if (aClass4_2630 == null) {
-			aClass4_2630 = new Class4(16);
-			aClass4_2630.method560(new Class536_Sub26(i_73_), (long) i);
+		if (params == null) {
+			params = new Class4(16);
+			params.method560(new IntParam(i_73_), (long) i);
 		} else {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2630.method556((long) i);
+			IntParam class536_sub26 = (IntParam) params.method556((long) i);
 			if (class536_sub26 == null)
-				aClass4_2630.method560(new Class536_Sub26(i_73_), (long) i);
+				params.method560(new IntParam(i_73_), (long) i);
 			else
-				class536_sub26.anInt10533 = 1189135533 * i_73_;
+				class536_sub26.value = 1189135533 * i_73_;
 		}
 	}
 
 	public void method3504(int i, int i_74_) {
-		if (aClass4_2630 == null) {
-			aClass4_2630 = new Class4(16);
-			aClass4_2630.method560(new Class536_Sub26(i_74_), (long) i);
+		if (params == null) {
+			params = new Class4(16);
+			params.method560(new IntParam(i_74_), (long) i);
 		} else {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2630.method556((long) i);
+			IntParam class536_sub26 = (IntParam) params.method556((long) i);
 			if (class536_sub26 == null)
-				aClass4_2630.method560(new Class536_Sub26(i_74_), (long) i);
+				params.method560(new IntParam(i_74_), (long) i);
 			else
-				class536_sub26.anInt10533 = 1189135533 * i_74_;
+				class536_sub26.value = 1189135533 * i_74_;
 		}
 	}
 
 	public void method3505() {
-		anObjectArray2667 = null;
-		anObjectArray2555 = null;
-		anObjectArray2645 = null;
-		anObjectArray2670 = null;
-		anObjectArray2696 = null;
-		anObjectArray2672 = null;
-		anObjectArray2673 = null;
-		anObjectArray2674 = null;
-		anObjectArray2675 = null;
-		anObjectArray2676 = null;
-		anObjectArray2740 = null;
-		anObjectArray2678 = null;
-		anObjectArray2679 = null;
-		anIntArray2680 = null;
+		onLoadHook = null;
+		onClickHook = null;
+		onClickRepeatHook = null;
+		onReleaseHook = null;
+		onHoldHook = null;
+		onMouseOverHook = null;
+		onMouseRepeatHook = null;
+		onMouseLeaveHook = null;
+		onDragHook = null;
+		onDragCompleteHook = null;
+		onTargetEnterHook = null;
+		onTargetLeaveHook = null;
+		onVarTransmitHook = null;
+		varTransmitList = null;
 		anInt2730 = 0;
-		anObjectArray2669 = null;
-		anIntArray2561 = null;
+		onInvTransmitHook = null;
+		invTransmitList = null;
 		anInt2731 = 0;
-		anObjectArray2683 = null;
-		anIntArray2684 = null;
+		onStatTransmitHook = null;
+		statTransmitList = null;
 		anInt2732 = 0;
-		anObjectArray2662 = null;
-		anIntArray2686 = null;
+		onVarcTransmitHook = null;
+		varcTransmitList = null;
 		anInt2733 = 0;
-		anObjectArray2710 = null;
-		anIntArray2688 = null;
+		onVarcstrTransmitHook = null;
+		varcstrTransmitList = null;
 		anInt2734 = 0;
 		anObjectArray2689 = null;
 		anIntArray2690 = null;
 		anInt2735 = 0;
-		anObjectArray2543 = null;
-		anObjectArray2705 = null;
-		anObjectArray2624 = null;
-		anObjectArray2715 = null;
-		anObjectArray2695 = null;
-		anObjectArray2538 = null;
-		anObjectArray2697 = null;
-		anObjectArray2698 = null;
-		anObjectArray2544 = null;
-		anObjectArray2701 = null;
-		anObjectArray2628 = null;
-		anObjectArray2702 = null;
-		anObjectArray2703 = null;
-		anObjectArray2704 = null;
-		anObjectArray2661 = null;
-		anObjectArray2706 = null;
-		anObjectArray2707 = null;
-		anObjectArray2599 = null;
-		anObjectArray2709 = null;
+		onTimerHook = null;
+		onOpHook = null;
+		onOptHook = null;
+		onScrollWheelHook = null;
+		onChatTransmitHook = null;
+		onKeyHook = null;
+		onFriendTransmitHook = null;
+		onClanTransmitHook = null;
+		onClanSettingsTransmitHook = null;
+		onClanChannelTransmitHook = null;
+		onMiscTransmitHook = null;
+		onStockTransmitHook = null;
+		onDialogAbortHook = null;
+		onSubChangeHook = null;
+		onCamFinishedHook = null;
+		onResizeHook = null;
+		onPlayerGroupTransmitHook = null;
+		onPlayerGroupVarpTransmitHook = null;
+		onCameraUpdateTransmitHook = null;
 		anInt2729 = 1185389879;
 	}
 
@@ -1202,26 +1202,26 @@ public class InterfaceDefinitions {
 	}
 
 	public void method3507(int i) {
-		if (aClass4_2630 != null) {
-			Class536 class536 = aClass4_2630.method556((long) i);
+		if (params != null) {
+			Class536 class536 = params.method556((long) i);
 			if (null != class536)
-				class536.method6484(-1207226900);
+				class536.method6484();
 		}
 	}
 
 	public void method3508(int i) {
-		if (aClass4_2630 != null) {
-			Class536 class536 = aClass4_2630.method556((long) i);
+		if (params != null) {
+			Class536 class536 = params.method556((long) i);
 			if (null != class536)
-				class536.method6484(2107396312);
+				class536.method6484();
 		}
 	}
 
 	public void method3509(int i) {
-		if (aClass4_2630 != null) {
-			Class536 class536 = aClass4_2630.method556((long) i);
+		if (params != null) {
+			Class536 class536 = params.method556((long) i);
 			if (null != class536)
-				class536.method6484(140287130);
+				class536.method6484();
 		}
 	}
 

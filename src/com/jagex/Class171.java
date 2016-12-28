@@ -57,7 +57,7 @@ public class Class171 {
 	static void method2425(Class234 class234, InterfaceDefinitions class251, int i) {
 		if (class251 != null) {
 			if (-1 != -809980533 * class251.anInt2546) {
-				InterfaceDefinitions class251_8_ = class234.method3337(-1940204141 * class251.anInt2577, 552340768);
+				InterfaceDefinitions class251_8_ = class234.method3337(-1940204141 * class251.parentLayer, 552340768);
 				if (class251_8_ != null) {
 					if (class251_8_.aClass251Array2725 == class251_8_.aClass251Array2726) {
 						class251_8_.aClass251Array2726 = (new InterfaceDefinitions[class251_8_.aClass251Array2725.length]);
@@ -100,8 +100,8 @@ public class Class171 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -515799474) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2555 = Class33.method796(string, class668, (short) -21106);
-		class251.aBool2666 = true;
+		class251.onClickHook = Class33.method796(string, class668, (short) -21106);
+		class251.hasComponentHook = true;
 	}
 
 	static int method2428(CharSequence charsequence, int i, boolean bool, int i_12_) {
@@ -148,8 +148,8 @@ public class Class171 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1435460688) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2696 = Class33.method796(string, class668, (short) -26427);
-		class251.aBool2666 = true;
+		class251.onHoldHook = Class33.method796(string, class668, (short) -26427);
+		class251.hasComponentHook = true;
 	}
 
 	static void method2430(byte i) {

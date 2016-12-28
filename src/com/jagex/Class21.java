@@ -325,7 +325,7 @@ public class Class21 implements Interface3 {
 	}
 
 	static final void method712(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
-		class251.aBool2642 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.fill = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}
 }

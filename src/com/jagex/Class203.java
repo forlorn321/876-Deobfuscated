@@ -5,38 +5,38 @@ package com.jagex;
 
 final class Class203 implements Interface18 {
 	public int method99(Class153 class153, int i) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
 		if (class536_sub26 == null)
 			return Class465_Sub1.aClass96_10352.method99(class153, 1811700534);
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method97(Class153 class153) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
 		if (class536_sub26 == null)
 			return Class465_Sub1.aClass96_10352.method99(class153, 1727888004);
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method95(Class324 class324) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556(0x100000000L | (long) (class324.anInt3553 * -891974799)));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556(0x100000000L | (long) (class324.anInt3553 * -891974799)));
 		if (class536_sub26 == null)
 			return Class465_Sub1.aClass96_10352.method96(class324, -1630697867);
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method98(Class153 class153) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556((long) (-1786401803 * class153.anInt1715)));
 		if (class536_sub26 == null)
 			return Class465_Sub1.aClass96_10352.method99(class153, 1647654259);
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method96(Class324 class324, int i) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556(0x100000000L | (long) (class324.anInt3553 * -891974799)));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556(0x100000000L | (long) (class324.anInt3553 * -891974799)));
 		if (class536_sub26 == null)
 			return Class465_Sub1.aClass96_10352.method96(class324, 1661418192);
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	static final void method2928(Class668 class668, int i) {

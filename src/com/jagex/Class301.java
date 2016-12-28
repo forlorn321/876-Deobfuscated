@@ -305,7 +305,7 @@ public abstract class Class301 {
 	public void method4059(int i) {
 		Class536_Sub18_Sub18 class536_sub18_sub18 = (Class536_Sub18_Sub18) aClass4_3399.method556((long) i);
 		if (null != class536_sub18_sub18)
-			class536_sub18_sub18.method6484(-264665448);
+			class536_sub18_sub18.method6484();
 	}
 
 	float method4060(byte i) {
@@ -422,7 +422,7 @@ public abstract class Class301 {
 	public void method4075(int i) {
 		Class536_Sub18_Sub18 class536_sub18_sub18 = (Class536_Sub18_Sub18) aClass4_3399.method556((long) i);
 		if (null != class536_sub18_sub18)
-			class536_sub18_sub18.method6484(1925308430);
+			class536_sub18_sub18.method6484();
 	}
 
 	public void method4076(Class436 class436) throws Exception_Sub3 {
@@ -448,7 +448,7 @@ public abstract class Class301 {
 	public void method4079(int i) {
 		Class536_Sub18_Sub18 class536_sub18_sub18 = (Class536_Sub18_Sub18) aClass4_3399.method556((long) i);
 		if (null != class536_sub18_sub18)
-			class536_sub18_sub18.method6484(-1104553989);
+			class536_sub18_sub18.method6484();
 	}
 
 	public Interface32 method4080(int i) {
@@ -546,7 +546,7 @@ public abstract class Class301 {
 	public void method4089(int i, byte i_16_) {
 		Class536_Sub18_Sub18 class536_sub18_sub18 = (Class536_Sub18_Sub18) aClass4_3399.method556((long) i);
 		if (null != class536_sub18_sub18)
-			class536_sub18_sub18.method6484(-477952453);
+			class536_sub18_sub18.method6484();
 	}
 
 	public boolean method4090(int i) {

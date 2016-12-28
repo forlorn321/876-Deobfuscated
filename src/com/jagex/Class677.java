@@ -317,9 +317,9 @@ public class Class677 implements DefinitionI {
 					class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_63_]);
 			} else {
 				int i_64_ = i_48_ - 1;
-				Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_64_));
+				ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_64_));
 				if (class536_sub13 != null)
-					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468);
+					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) class536_sub13.value);
 			}
 			if (class649_sub1_sub5_sub1 != null) {
 				Class589 class589 = class649_sub1_sub5_sub1.method10877(2123636973);

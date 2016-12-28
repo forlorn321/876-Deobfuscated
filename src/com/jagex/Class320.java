@@ -249,9 +249,9 @@ public class Class320 implements Interface33 {
 			}
 			for (int i_18_ = 0; i_18_ < -664631943 * client.anInt11053; i_18_++) {
 				int i_19_ = client.anIntArray11211[i_18_];
-				Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_19_));
+				ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_19_));
 				if (null != class536_sub13)
-					((Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468).method10916(i_14_, i_15_, bool, 1401753877);
+					((Class649_Sub1_Sub5_Sub1) class536_sub13.value).method10916(i_14_, i_15_, bool, 1401753877);
 			}
 		}
 	}
@@ -260,15 +260,15 @@ public class Class320 implements Interface33 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1633785810) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2695 = Class33.method796(string, class668, (short) 5739);
-		class251.aBool2666 = true;
+		class251.onChatTransmitHook = Class33.method796(string, class668, (short) 5739);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method4244(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1770351247) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2698 = Class33.method796(string, class668, (short) 11440);
-		class251.aBool2666 = true;
+		class251.onClanTransmitHook = Class33.method796(string, class668, (short) 11440);
+		class251.hasComponentHook = true;
 	}
 }

@@ -36,7 +36,7 @@ public abstract class Class168 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -533339504) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2544 = Class33.method796(string, class668, (short) -6178);
-		class251.aBool2666 = true;
+		class251.onClanSettingsTransmitHook = Class33.method796(string, class668, (short) -6178);
+		class251.hasComponentHook = true;
 	}
 }

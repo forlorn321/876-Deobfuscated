@@ -178,7 +178,7 @@ public class Class589 implements Interface7, DefinitionI {
 				anIntArrayArray7749 = (int[][]) Arrays.copyOf(anIntArrayArray7749, i_3_ + 1);
 			anIntArrayArray7749[i_3_] = new int[6];
 			for (int i_4_ = 0; i_4_ < 6; i_4_++)
-				anIntArrayArray7749[i_3_][i_4_] = class536_sub33.readShort((byte) -32);
+				anIntArrayArray7749[i_3_][i_4_] = class536_sub33.readShort();
 		} else if (28 == i) {
 			int i_5_ = class536_sub33.readUnsignedByte();
 			anIntArray7760 = new int[i_5_];
@@ -196,13 +196,13 @@ public class Class589 implements Interface7, DefinitionI {
 		else if (i == 32)
 			anInt7774 = class536_sub33.readUnsignedShort() * -1601731675;
 		else if (i == 33)
-			anInt7776 = class536_sub33.readShort((byte) -75) * -1115275197;
+			anInt7776 = class536_sub33.readShort() * -1115275197;
 		else if (34 == i)
 			anInt7770 = class536_sub33.readUnsignedByte() * -242454385;
 		else if (i == 35)
 			anInt7780 = class536_sub33.readUnsignedShort() * 441458675;
 		else if (36 == i)
-			anInt7781 = class536_sub33.readShort((byte) -104) * -53443997;
+			anInt7781 = class536_sub33.readShort() * -53443997;
 		else if (i == 37)
 			anInt7782 = class536_sub33.readUnsignedByte() * 140970409;
 		else if (38 == i)
@@ -263,7 +263,7 @@ public class Class589 implements Interface7, DefinitionI {
 				anIntArrayArray7775 = (int[][]) Arrays.copyOf(anIntArrayArray7775, i_11_ + 1);
 			anIntArrayArray7775[i_11_] = new int[3];
 			for (int i_12_ = 0; i_12_ < 3; i_12_++)
-				anIntArrayArray7775[i_11_][i_12_] = class536_sub33.readShort((byte) -93);
+				anIntArrayArray7775[i_11_][i_12_] = class536_sub33.readShort();
 		}
 	}
 
@@ -471,7 +471,7 @@ public class Class589 implements Interface7, DefinitionI {
 				anIntArrayArray7749 = (int[][]) Arrays.copyOf(anIntArrayArray7749, i_27_ + 1);
 			anIntArrayArray7749[i_27_] = new int[6];
 			for (int i_28_ = 0; i_28_ < 6; i_28_++)
-				anIntArrayArray7749[i_27_][i_28_] = class536_sub33.readShort((byte) -7);
+				anIntArrayArray7749[i_27_][i_28_] = class536_sub33.readShort();
 		} else if (28 == i) {
 			int i_29_ = class536_sub33.readUnsignedByte();
 			anIntArray7760 = new int[i_29_];
@@ -489,13 +489,13 @@ public class Class589 implements Interface7, DefinitionI {
 		else if (i == 32)
 			anInt7774 = class536_sub33.readUnsignedShort() * -1601731675;
 		else if (i == 33)
-			anInt7776 = class536_sub33.readShort((byte) -61) * -1115275197;
+			anInt7776 = class536_sub33.readShort() * -1115275197;
 		else if (34 == i)
 			anInt7770 = class536_sub33.readUnsignedByte() * -242454385;
 		else if (i == 35)
 			anInt7780 = class536_sub33.readUnsignedShort() * 441458675;
 		else if (36 == i)
-			anInt7781 = class536_sub33.readShort((byte) -112) * -53443997;
+			anInt7781 = class536_sub33.readShort() * -53443997;
 		else if (i == 37)
 			anInt7782 = class536_sub33.readUnsignedByte() * 140970409;
 		else if (38 == i)
@@ -556,7 +556,7 @@ public class Class589 implements Interface7, DefinitionI {
 				anIntArrayArray7775 = (int[][]) Arrays.copyOf(anIntArrayArray7775, i_35_ + 1);
 			anIntArrayArray7775[i_35_] = new int[3];
 			for (int i_36_ = 0; i_36_ < 3; i_36_++)
-				anIntArrayArray7775[i_35_][i_36_] = class536_sub33.readShort((byte) -15);
+				anIntArrayArray7775[i_35_][i_36_] = class536_sub33.readShort();
 		}
 	}
 

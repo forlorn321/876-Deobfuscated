@@ -302,12 +302,12 @@ public class Class273 {
 	public static void method3730(int i, int i_2_, int i_3_, String string, int i_4_) {
 		InterfaceDefinitions class251 = Class527.method6429(i_2_, i_3_, (byte) -124);
 		if (null != class251) {
-			if (null != class251.anObjectArray2705) {
+			if (null != class251.onOpHook) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
 				class536_sub42.anInt10805 = i * -606844337;
 				class536_sub42.aString10809 = string;
-				class536_sub42.anObjectArray10802 = class251.anObjectArray2705;
+				class536_sub42.anObjectArray10802 = class251.onOpHook;
 				Class618.method7388(class536_sub42, -227864852);
 			}
 			if (client.getIComponentSettings(class251).method9472(i - 1)) {

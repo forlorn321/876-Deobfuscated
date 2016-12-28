@@ -39,11 +39,11 @@ public class Class241 implements Interface26 {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
 		int i_2_ = i_1_;
-		if (6 != class251.anInt2601 * 1939619399 && class251.anInt2601 * 1939619399 != 2)
+		if (6 != class251.modelType * 1939619399 && class251.modelType * 1939619399 != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.anInt2602, (byte) 30));
+		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(-2011124813 * class251.modelId, (byte) 30));
 		if (class251.aClass304_2583 == null)
-			class251.aClass304_2583 = new Class304(class296, 1939619399 * class251.anInt2601 == 6);
+			class251.aClass304_2583 = new Class304(class296, 1939619399 * class251.modelType == 6);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(999292582) * 1195640203384682761L;
 		if (null != class296.aByteArray3283) {
 			if (i_1_ < 0 || i_1_ >= class296.aByteArray3283.length)
@@ -59,7 +59,7 @@ public class Class241 implements Interface26 {
 	static final void method3386(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_3_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2577 * -1940204141;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.parentLayer * -1940204141;
 	}
 
 	static final void method3387(Class668 class668, int i) {

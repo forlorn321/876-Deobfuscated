@@ -61,7 +61,7 @@ public class Class336_Sub1 extends Class336 {
 	static Class536_Sub18_Sub5 method9157(int i) {
 		Class536_Sub18_Sub5 class536_sub18_sub5 = ((Class536_Sub18_Sub5) Class536_Sub18_Sub5.aClass700_11647.method8248(1204730496));
 		if (null != class536_sub18_sub5) {
-			class536_sub18_sub5.method6484(1535652666);
+			class536_sub18_sub5.method6484();
 			class536_sub18_sub5.method9521(-889431304);
 			return class536_sub18_sub5;
 		}
@@ -71,7 +71,7 @@ public class Class336_Sub1 extends Class336 {
 				return null;
 			if (class536_sub18_sub5.method10682(-1910215392) > Class249.method3450(1781403953))
 				return null;
-			class536_sub18_sub5.method6484(1807354593);
+			class536_sub18_sub5.method6484();
 			class536_sub18_sub5.method9521(-1532414489);
 			if (0L != (4749301371101216403L * class536_sub18_sub5.aLong10507 & ~0x7fffffffffffffffL))
 				return class536_sub18_sub5;

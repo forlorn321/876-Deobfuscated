@@ -118,7 +118,7 @@ public class Class574 implements DefinitionI, Interface7 {
 	static void method6947(int i, byte i_6_) {
 		for (Class536 class536 = client.aClass4_11243.method562(-1589104751); null != class536; class536 = client.aClass4_11243.method567(-1065638845)) {
 			if ((class536.aLong7133 * -6909195213925454795L >> 48 & 0xffffL) == (long) i)
-				class536.method6484(-708598847);
+				class536.method6484();
 		}
 	}
 }

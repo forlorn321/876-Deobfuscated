@@ -54,11 +54,11 @@ public class Class202 {
 		for (int i_3_ = 0; i_3_ < i; i_3_++) {
 			anIntArray2229[i_3_] = class536_sub33.readUnsignedShort() - 5120;
 			anIntArray2228[i_3_] = class536_sub33.readUnsignedShort() - 5120;
-			anIntArray2224[i_3_] = class536_sub33.readShort((byte) -50);
+			anIntArray2224[i_3_] = class536_sub33.readShort();
 			anIntArray2227[i_3_] = class536_sub33.readUnsignedShort() - 5120;
 			anIntArray2225[i_3_] = class536_sub33.readUnsignedShort() - 5120;
-			anIntArray2223[i_3_] = class536_sub33.readShort((byte) -123);
-			anIntArray2226[i_3_] = class536_sub33.readShort((byte) -86);
+			anIntArray2223[i_3_] = class536_sub33.readShort();
+			anIntArray2226[i_3_] = class536_sub33.readShort();
 		}
 	}
 

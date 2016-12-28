@@ -58,7 +58,7 @@ public class Class625 {
 			aFloat8135 = 1.1523438F;
 		}
 		if ((i_0_ & Class643.aClass643_8339.anInt8345 * -742426051) != 0)
-			aClass436_8138 = Class436.method5257((float) class536_sub33.readShort((byte) -47), (float) class536_sub33.readShort((byte) -27), (float) class536_sub33.readShort((byte) -48));
+			aClass436_8138 = Class436.method5257((float) class536_sub33.readShort(), (float) class536_sub33.readShort(), (float) class536_sub33.readShort());
 		else
 			aClass436_8138 = Class436.method5257(-50.0F, -60.0F, -50.0F);
 		if (0 != (i_0_ & -742426051 * Class643.aClass643_8336.anInt8345))
@@ -369,9 +369,9 @@ public class Class625 {
 
 	public void method7443(RSByteBuffer class536_sub33, Class636 class636, int i) {
 		int i_38_ = class536_sub33.readUnsignedShort();
-		int i_39_ = class536_sub33.readShort((byte) -118);
-		int i_40_ = class536_sub33.readShort((byte) -17);
-		int i_41_ = class536_sub33.readShort((byte) -78);
+		int i_39_ = class536_sub33.readShort();
+		int i_40_ = class536_sub33.readShort();
+		int i_41_ = class536_sub33.readShort();
 		int i_42_ = class536_sub33.readUnsignedShort();
 		Class206_Sub1.anInt10025 = i_42_ * 76870447;
 		aClass507_8145 = class636.method7612(i_38_, i_39_, i_40_, i_41_, (short) 16383);

@@ -39,7 +39,7 @@ public class Class442 implements Interface5 {
 	}
 
 	static final void method5333(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aBool2677 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.clickMask = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)
 			Class645_Sub1.method10044(class251.anInt2559 * -1591767037, (short) 15086);

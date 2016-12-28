@@ -117,7 +117,7 @@ public class Class186 implements DefinitionI, Interface7 {
 	}
 
 	static final void method2774(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aStringArray2657 = null;
+		class251.op = null;
 	}
 
 	static final void method2775(Class668 class668, byte i) {

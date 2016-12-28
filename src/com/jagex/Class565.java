@@ -20,8 +20,8 @@ public class Class565 {
 
 	static final void method6876(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= -1349181388;
-		class251.anInt2567 = -45108559 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
-		class251.anInt2655 = (-1160038075 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
+		class251.posX = -45108559 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
+		class251.posY = (-1160038075 * class668.anIntArray8541[1 + 1867269829 * class668.anInt8542]);
 		int i_0_ = class668.anIntArray8541[2 + class668.anInt8542 * 1867269829];
 		if (i_0_ < 0)
 			i_0_ = 0;
@@ -32,8 +32,8 @@ public class Class565 {
 			i_1_ = 0;
 		else if (i_1_ > 5)
 			i_1_ = 5;
-		class251.aByte2563 = (byte) i_0_;
-		class251.aByte2564 = (byte) i_1_;
+		class251.posXMode = (byte) i_0_;
+		class251.posYMode = (byte) i_1_;
 		Class668.method8011(class251, 263642117);
 		Class223.method3202(class234, class251, 864054473);
 		if (class251.anInt2728 * 1049444347 == 0)

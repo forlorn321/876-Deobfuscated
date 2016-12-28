@@ -625,9 +625,9 @@ public class Class360_Sub1 extends Class360 {
 
 	static final void method9271(Class668 class668, int i) {
 		Class4 class4 = (class668.aClass536_Sub18_Sub16_8547.aClass4Array11806[class668.anIntArray8537[-1640738851 * class668.anInt8564]]);
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) class4.method556((long) class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]));
+		IntParam class536_sub26 = ((IntParam) class4.method556((long) class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]));
 		if (class536_sub26 != null)
-			class668.anInt8564 += class536_sub26.anInt10533 * -1268425751;
+			class668.anInt8564 += class536_sub26.value * -1268425751;
 	}
 
 	static void method9272(short i) {

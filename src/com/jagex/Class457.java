@@ -39,8 +39,8 @@ public class Class457 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -2052584478) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2645 = Class33.method796(string, class668, (short) -18473);
-		class251.aBool2666 = true;
+		class251.onClickRepeatHook = Class33.method796(string, class668, (short) -18473);
+		class251.hasComponentHook = true;
 	}
 
 	static void method5487(Class668 class668, int i) {

@@ -73,13 +73,13 @@ public class Class709 implements Interface75 {
 
 	static void method8345(InterfaceDefinitions class251, int i) {
 		if (client.aBool11188) {
-			if (null != class251.anObjectArray2624) {
+			if (null != class251.onOptHook) {
 				InterfaceDefinitions class251_3_ = Class527.method6429(1625551467 * Class663.anInt8515, -1059472497 * client.anInt11183, (byte) -93);
 				if (null != class251_3_) {
 					Class536_Sub42 class536_sub42 = new Class536_Sub42();
 					class536_sub42.aClass251_10804 = class251;
 					class536_sub42.aClass251_10806 = class251_3_;
-					class536_sub42.anObjectArray10802 = class251.anObjectArray2624;
+					class536_sub42.anObjectArray10802 = class251.onOptHook;
 					Class618.method7388(class536_sub42, -1540734620);
 				}
 			}

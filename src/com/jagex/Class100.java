@@ -117,7 +117,7 @@ public class Class100 {
 				Class184_Sub2.aClass211_9442.method3002(class536_sub3.aClass479_10387, -1092963117);
 				class536_sub3.aClass479_10387 = null;
 			}
-			class536_sub3.method6484(-227110523);
+			class536_sub3.method6484();
 		}
 		if (bool) {
 			for (Class536_Sub3 class536_sub3 = ((Class536_Sub3) Class536_Sub3.aClass708_10386.method8308(1867269829)); class536_sub3 != null; class536_sub3 = (Class536_Sub3) Class536_Sub3.aClass708_10386.method8311(2124277521)) {
@@ -126,7 +126,7 @@ public class Class100 {
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);
 					class536_sub3.aClass479_10389 = null;
 				}
-				class536_sub3.method6484(454682663);
+				class536_sub3.method6484();
 			}
 			for (Class536_Sub3 class536_sub3 = ((Class536_Sub3) Class536_Sub3.aClass4_10366.method562(-2078540391)); class536_sub3 != null; class536_sub3 = (Class536_Sub3) Class536_Sub3.aClass4_10366.method567(2044605996)) {
 				if (class536_sub3.aClass479_10389 != null) {
@@ -134,7 +134,7 @@ public class Class100 {
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);
 					class536_sub3.aClass479_10389 = null;
 				}
-				class536_sub3.method6484(1621319713);
+				class536_sub3.method6484();
 			}
 		}
 	}

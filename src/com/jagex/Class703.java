@@ -65,8 +65,8 @@ public final class Class703 {
 		int i_0_ = class536_sub33.readUnsignedByte();
 		Class395 class395 = (Class333_Sub3.method9230(1524574745)[class536_sub33.readUnsignedByte()]);
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
-		int i_1_ = class536_sub33.readShort((byte) -46);
-		int i_2_ = class536_sub33.readShort((byte) -32);
+		int i_1_ = class536_sub33.readShort();
+		int i_2_ = class536_sub33.readShort();
 		int i_3_ = class536_sub33.readUnsignedShort();
 		int i_4_ = class536_sub33.readUnsignedShort();
 		int i_5_ = class536_sub33.readInt();

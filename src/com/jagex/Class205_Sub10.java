@@ -8,11 +8,11 @@ public class Class205_Sub10 extends Class205 {
 	int anInt9889;
 
 	public void method2940(int i) {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
 		if (null != class536_sub26)
-			class536_sub26.anInt10533 = -16159079 * anInt9889;
+			class536_sub26.value = -16159079 * anInt9889;
 		else
-			Class193.aClass4_2187.method560(new Class536_Sub26(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
+			Class193.aClass4_2187.method560(new IntParam(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
 	}
 
 	Class205_Sub10(RSByteBuffer class536_sub33, boolean bool) {
@@ -26,19 +26,19 @@ public class Class205_Sub10 extends Class205 {
 	}
 
 	public void method2942() {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
 		if (null != class536_sub26)
-			class536_sub26.anInt10533 = -16159079 * anInt9889;
+			class536_sub26.value = -16159079 * anInt9889;
 		else
-			Class193.aClass4_2187.method560(new Class536_Sub26(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
+			Class193.aClass4_2187.method560(new IntParam(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
 	}
 
 	public void method2943() {
-		Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
+		IntParam class536_sub26 = ((IntParam) Class193.aClass4_2187.method556(aLong9888 * 8989997160734938989L));
 		if (null != class536_sub26)
-			class536_sub26.anInt10533 = -16159079 * anInt9889;
+			class536_sub26.value = -16159079 * anInt9889;
 		else
-			Class193.aClass4_2187.method560(new Class536_Sub26(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
+			Class193.aClass4_2187.method560(new IntParam(anInt9889 * 1977459485), aLong9888 * 8989997160734938989L);
 	}
 
 	static final void method9065(Class668 class668, short i) {

@@ -110,7 +110,7 @@ public class Class606 implements Interface75 {
 	static final void method7218(Class668 class668, byte i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2547 * 92396219;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.yan2d * 92396219;
 	}
 
 	public static Class47 method7219(String string, int i, int i_3_) {

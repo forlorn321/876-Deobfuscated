@@ -212,8 +212,8 @@ class Class200 implements Interface55 {
 	}
 
 	static final void method2914(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2601 = -323602093;
-		class251.anInt2602 = -436498141 * client.anInt11156;
+		class251.modelType = -323602093;
+		class251.modelId = -436498141 * client.anInt11156;
 		class251.anInt2603 = 0;
 		if (-1 == class251.anInt2546 * -809980533 && !class234.aBool2379)
 			Class34_Sub7.method10328(-1591767037 * class251.anInt2559, (short) -17373);

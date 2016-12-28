@@ -45,7 +45,7 @@ public class Class643 {
 	static final void method7735(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1515601291 * class251.anInt2551;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -1515601291 * class251.xan2d;
 	}
 
 	static void method7736(Class167 class167, Class612 class612, int i, int i_1_, int i_2_, int i_3_) {

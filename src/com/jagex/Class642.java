@@ -192,9 +192,9 @@ public class Class642 {
 			aFloat8323 = class536_sub33.method9712(-1177797278);
 		if (0 != (i_2_ & -742426051 * Class643.aClass643_8347.anInt8345)) {
 			anInt8325 = class536_sub33.readUnsignedShort() * 1609828289;
-			anInt8326 = class536_sub33.readShort((byte) -67) * 1956158279;
-			anInt8327 = class536_sub33.readShort((byte) -34) * -1904235993;
-			anInt8315 = class536_sub33.readShort((byte) -20) * -187466517;
+			anInt8326 = class536_sub33.readShort() * 1956158279;
+			anInt8327 = class536_sub33.readShort() * -1904235993;
+			anInt8315 = class536_sub33.readShort() * -187466517;
 			anInt8316 = class536_sub33.readUnsignedShort() * -1128011937;
 		}
 		if (0 != (i_2_ & Class643.aClass643_8342.anInt8345 * -742426051)) {
@@ -335,7 +335,7 @@ public class Class642 {
 	}
 
 	static final void method7733(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2596 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * -87772689;
+		class251.graphicShadow = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * -87772689;
 		Class668.method8011(class251, 263642117);
 	}
 

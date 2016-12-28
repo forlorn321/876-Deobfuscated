@@ -209,7 +209,7 @@ public class Class226 {
 			anInt2356 = class536_sub33.readInt() * -1006532289;
 			aLong2346 = class536_sub33.readLong(702869087) * 5009906337283657983L;
 			aString2355 = class536_sub33.readString();
-			anInt2354 = class536_sub33.readShort((byte) -125) * 1044707155;
+			anInt2354 = class536_sub33.readShort() * 1044707155;
 			class536_sub33.readInt();
 			class536_sub33.readLong(702869087);
 			int i_15_ = class536_sub33.readUnsignedShort();
@@ -382,7 +382,7 @@ public class Class226 {
 	static final void method3278(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2592 * -1307221069;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.graphicId * -1307221069;
 	}
 
 	static final void method3279(Class668 class668, byte i) {

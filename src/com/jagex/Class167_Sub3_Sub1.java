@@ -1098,24 +1098,24 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 	}
 
 	final synchronized void method10560(int i, int i_100_) {
-		Class536_Sub26 class536_sub26 = new Class536_Sub26(i_100_);
+		IntParam class536_sub26 = new IntParam(i_100_);
 		class536_sub26.aLong7133 = (long) i * -6756113042487376355L;
 		aClass708_11427.method8335(class536_sub26, -1157652688);
 	}
 
 	final synchronized void method10561(int i, int i_101_) {
-		Class536_Sub26 class536_sub26 = new Class536_Sub26(i_101_);
+		IntParam class536_sub26 = new IntParam(i_101_);
 		class536_sub26.aLong7133 = (long) i * -6756113042487376355L;
 		aClass708_11428.method8335(class536_sub26, -382306705);
 	}
 
 	final synchronized void method10562(int i) {
-		Class536_Sub26 class536_sub26 = new Class536_Sub26(i);
+		IntParam class536_sub26 = new IntParam(i);
 		aClass708_11429.method8335(class536_sub26, 13480224);
 	}
 
 	final synchronized void method10563(int i, int i_102_) {
-		Class536_Sub26 class536_sub26 = new Class536_Sub26(i_102_);
+		IntParam class536_sub26 = new IntParam(i_102_);
 		class536_sub26.aLong7133 = (long) i * -6756113042487376355L;
 		aClass708_11430.method8335(class536_sub26, -644109518);
 	}
@@ -1549,9 +1549,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		int i_143_ = 0;
 		i &= 0x7fffffff;
 		while (!aClass708_11427.method8313(686244725)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11427.method8305(1536224423);
+			IntParam class536_sub26 = (IntParam) aClass708_11427.method8305(1536224423);
 			anIntArray11434[i_143_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9557 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9557 -= class536_sub26.value * 2083602213;
 			if (i_143_ == 1000) {
 				OpenGL.glDeleteBuffersARB(i_143_, anIntArray11434, 0);
 				i_143_ = 0;
@@ -1562,9 +1562,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_143_ = 0;
 		}
 		while (!aClass708_11428.method8313(342978512)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11428.method8305(-1989809503);
+			IntParam class536_sub26 = (IntParam) aClass708_11428.method8305(-1989809503);
 			anIntArray11434[i_143_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9556 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9556 -= class536_sub26.value * 2083602213;
 			if (i_143_ == 1000) {
 				OpenGL.glDeleteTextures(i_143_, anIntArray11434, 0);
 				i_143_ = 0;
@@ -1575,8 +1575,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_143_ = 0;
 		}
 		while (!aClass708_11429.method8313(58991542)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11429.method8305(-1935080411);
-			anIntArray11434[i_143_++] = class536_sub26.anInt10533 * 2083602213;
+			IntParam class536_sub26 = (IntParam) aClass708_11429.method8305(-1935080411);
+			anIntArray11434[i_143_++] = class536_sub26.value * 2083602213;
 			if (i_143_ == 1000) {
 				OpenGL.glDeleteFramebuffersEXT(i_143_, anIntArray11434, 0);
 				i_143_ = 0;
@@ -1587,9 +1587,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_143_ = 0;
 		}
 		while (!aClass708_11430.method8313(-931632039)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11430.method8305(1558200512);
+			IntParam class536_sub26 = (IntParam) aClass708_11430.method8305(1558200512);
 			anIntArray11434[i_143_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9558 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9558 -= class536_sub26.value * 2083602213;
 			if (i_143_ == 1000) {
 				OpenGL.glDeleteRenderbuffersEXT(i_143_, anIntArray11434, 0);
 				i_143_ = 0;
@@ -1600,8 +1600,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			boolean bool = false;
 		}
 		while (!aClass708_11426.method8313(534976598)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-1182198425);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-1182198425);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		while (!aClass708_11431.method8313(-702652599)) {
 			Class536 class536 = aClass708_11431.method8305(661691356);
@@ -1612,8 +1612,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			OpenGL.glDeleteShader((int) (class536.aLong7133 * -6909195213925454795L));
 		}
 		while (!aClass708_11426.method8313(890158858)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(954385050);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(954385050);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		if (method2008() > 100663296 && Class249.method3450(1691086061) > aLong11452 + 60000L) {
 			System.gc();
@@ -1952,9 +1952,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		int i_174_ = 0;
 		i &= 0x7fffffff;
 		while (!aClass708_11427.method8313(-2137202953)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11427.method8305(1568570459);
+			IntParam class536_sub26 = (IntParam) aClass708_11427.method8305(1568570459);
 			anIntArray11434[i_174_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9557 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9557 -= class536_sub26.value * 2083602213;
 			if (i_174_ == 1000) {
 				OpenGL.glDeleteBuffersARB(i_174_, anIntArray11434, 0);
 				i_174_ = 0;
@@ -1965,9 +1965,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_174_ = 0;
 		}
 		while (!aClass708_11428.method8313(-1628621164)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11428.method8305(1868066722);
+			IntParam class536_sub26 = (IntParam) aClass708_11428.method8305(1868066722);
 			anIntArray11434[i_174_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9556 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9556 -= class536_sub26.value * 2083602213;
 			if (i_174_ == 1000) {
 				OpenGL.glDeleteTextures(i_174_, anIntArray11434, 0);
 				i_174_ = 0;
@@ -1978,8 +1978,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_174_ = 0;
 		}
 		while (!aClass708_11429.method8313(-701458333)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11429.method8305(919104064);
-			anIntArray11434[i_174_++] = class536_sub26.anInt10533 * 2083602213;
+			IntParam class536_sub26 = (IntParam) aClass708_11429.method8305(919104064);
+			anIntArray11434[i_174_++] = class536_sub26.value * 2083602213;
 			if (i_174_ == 1000) {
 				OpenGL.glDeleteFramebuffersEXT(i_174_, anIntArray11434, 0);
 				i_174_ = 0;
@@ -1990,9 +1990,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_174_ = 0;
 		}
 		while (!aClass708_11430.method8313(-2073608932)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11430.method8305(-42712320);
+			IntParam class536_sub26 = (IntParam) aClass708_11430.method8305(-42712320);
 			anIntArray11434[i_174_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9558 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9558 -= class536_sub26.value * 2083602213;
 			if (i_174_ == 1000) {
 				OpenGL.glDeleteRenderbuffersEXT(i_174_, anIntArray11434, 0);
 				i_174_ = 0;
@@ -2003,8 +2003,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			boolean bool = false;
 		}
 		while (!aClass708_11426.method8313(-1863343221)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-62013127);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-62013127);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		while (!aClass708_11431.method8313(321386292)) {
 			Class536 class536 = aClass708_11431.method8305(-1059072475);
@@ -2015,8 +2015,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			OpenGL.glDeleteShader((int) (class536.aLong7133 * -6909195213925454795L));
 		}
 		while (!aClass708_11426.method8313(-1241314585)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-507144249);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-507144249);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		if (method2008() > 100663296 && Class249.method3450(1998579638) > aLong11452 + 60000L) {
 			System.gc();
@@ -3073,9 +3073,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		int i_242_ = 0;
 		i &= 0x7fffffff;
 		while (!aClass708_11427.method8313(-1824793777)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11427.method8305(-1587972085);
+			IntParam class536_sub26 = (IntParam) aClass708_11427.method8305(-1587972085);
 			anIntArray11434[i_242_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9557 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9557 -= class536_sub26.value * 2083602213;
 			if (i_242_ == 1000) {
 				OpenGL.glDeleteBuffersARB(i_242_, anIntArray11434, 0);
 				i_242_ = 0;
@@ -3086,9 +3086,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_242_ = 0;
 		}
 		while (!aClass708_11428.method8313(-1281393781)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11428.method8305(-977175828);
+			IntParam class536_sub26 = (IntParam) aClass708_11428.method8305(-977175828);
 			anIntArray11434[i_242_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9556 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9556 -= class536_sub26.value * 2083602213;
 			if (i_242_ == 1000) {
 				OpenGL.glDeleteTextures(i_242_, anIntArray11434, 0);
 				i_242_ = 0;
@@ -3099,8 +3099,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_242_ = 0;
 		}
 		while (!aClass708_11429.method8313(-150778548)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11429.method8305(1520656350);
-			anIntArray11434[i_242_++] = class536_sub26.anInt10533 * 2083602213;
+			IntParam class536_sub26 = (IntParam) aClass708_11429.method8305(1520656350);
+			anIntArray11434[i_242_++] = class536_sub26.value * 2083602213;
 			if (i_242_ == 1000) {
 				OpenGL.glDeleteFramebuffersEXT(i_242_, anIntArray11434, 0);
 				i_242_ = 0;
@@ -3111,9 +3111,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_242_ = 0;
 		}
 		while (!aClass708_11430.method8313(697471711)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11430.method8305(115153236);
+			IntParam class536_sub26 = (IntParam) aClass708_11430.method8305(115153236);
 			anIntArray11434[i_242_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9558 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9558 -= class536_sub26.value * 2083602213;
 			if (i_242_ == 1000) {
 				OpenGL.glDeleteRenderbuffersEXT(i_242_, anIntArray11434, 0);
 				i_242_ = 0;
@@ -3124,8 +3124,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			boolean bool = false;
 		}
 		while (!aClass708_11426.method8313(-1118636925)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-1546100489);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-1546100489);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		while (!aClass708_11431.method8313(-1425045902)) {
 			Class536 class536 = aClass708_11431.method8305(304723258);
@@ -3136,8 +3136,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			OpenGL.glDeleteShader((int) (class536.aLong7133 * -6909195213925454795L));
 		}
 		while (!aClass708_11426.method8313(-1564024182)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-458599878);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-458599878);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		if (method2008() > 100663296 && Class249.method3450(1569841928) > aLong11452 + 60000L) {
 			System.gc();
@@ -3166,9 +3166,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		int i_245_ = 0;
 		i &= 0x7fffffff;
 		while (!aClass708_11427.method8313(-1846625823)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11427.method8305(497241173);
+			IntParam class536_sub26 = (IntParam) aClass708_11427.method8305(497241173);
 			anIntArray11434[i_245_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9557 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9557 -= class536_sub26.value * 2083602213;
 			if (i_245_ == 1000) {
 				OpenGL.glDeleteBuffersARB(i_245_, anIntArray11434, 0);
 				i_245_ = 0;
@@ -3179,9 +3179,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_245_ = 0;
 		}
 		while (!aClass708_11428.method8313(-1018447195)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11428.method8305(-24837890);
+			IntParam class536_sub26 = (IntParam) aClass708_11428.method8305(-24837890);
 			anIntArray11434[i_245_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9556 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9556 -= class536_sub26.value * 2083602213;
 			if (i_245_ == 1000) {
 				OpenGL.glDeleteTextures(i_245_, anIntArray11434, 0);
 				i_245_ = 0;
@@ -3192,8 +3192,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_245_ = 0;
 		}
 		while (!aClass708_11429.method8313(833053026)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11429.method8305(-68133346);
-			anIntArray11434[i_245_++] = class536_sub26.anInt10533 * 2083602213;
+			IntParam class536_sub26 = (IntParam) aClass708_11429.method8305(-68133346);
+			anIntArray11434[i_245_++] = class536_sub26.value * 2083602213;
 			if (i_245_ == 1000) {
 				OpenGL.glDeleteFramebuffersEXT(i_245_, anIntArray11434, 0);
 				i_245_ = 0;
@@ -3204,9 +3204,9 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			i_245_ = 0;
 		}
 		while (!aClass708_11430.method8313(-1462194068)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11430.method8305(2030173149);
+			IntParam class536_sub26 = (IntParam) aClass708_11430.method8305(2030173149);
 			anIntArray11434[i_245_++] = (int) (class536_sub26.aLong7133 * -6909195213925454795L);
-			anInt9558 -= class536_sub26.anInt10533 * 2083602213;
+			anInt9558 -= class536_sub26.value * 2083602213;
 			if (i_245_ == 1000) {
 				OpenGL.glDeleteRenderbuffersEXT(i_245_, anIntArray11434, 0);
 				i_245_ = 0;
@@ -3217,8 +3217,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			boolean bool = false;
 		}
 		while (!aClass708_11426.method8313(-72803492)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(-1673624806);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(-1673624806);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		while (!aClass708_11431.method8313(95123950)) {
 			Class536 class536 = aClass708_11431.method8305(-99700574);
@@ -3229,8 +3229,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 			OpenGL.glDeleteShader((int) (class536.aLong7133 * -6909195213925454795L));
 		}
 		while (!aClass708_11426.method8313(-1700108715)) {
-			Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass708_11426.method8305(366402316);
-			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.anInt10533 * 2083602213);
+			IntParam class536_sub26 = (IntParam) aClass708_11426.method8305(366402316);
+			OpenGL.glDeleteLists((int) (class536_sub26.aLong7133 * -6909195213925454795L), class536_sub26.value * 2083602213);
 		}
 		if (method2008() > 100663296 && Class249.method3450(1851282244) > aLong11452 + 60000L) {
 			System.gc();

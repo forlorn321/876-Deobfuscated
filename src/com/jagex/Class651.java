@@ -33,10 +33,10 @@ public class Class651 {
 		InterfaceDefinitions class251 = Class264.method3678(i_0_, -689214737);
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		i_1_--;
-		if (class251.aStringArray2657 == null || i_1_ >= class251.aStringArray2657.length || null == class251.aStringArray2657[i_1_])
+		if (class251.op == null || i_1_ >= class251.op.length || null == class251.op[i_1_])
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aStringArray2657[i_1_];
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.op[i_1_];
 	}
 
 	public static Class2 method7862(Class461 class461, int i, int i_2_, Interface4 interface4, int i_3_) {

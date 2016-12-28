@@ -39,14 +39,14 @@ public class Class645_Sub1 extends Class645 implements Interface6 {
 
 	static final void method10043(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		if (class251.anInt2723 * 1625008649 != i_1_) {
+		if (class251.animId * 1625008649 != i_1_) {
 			if (i_1_ != -1) {
 				if (null == class251.aClass688_2653)
 					class251.aClass688_2653 = new Class688_Sub1();
 				class251.aClass688_2653.method8122(i_1_, -1942941646);
 			} else
 				class251.aClass688_2653 = null;
-			class251.anInt2723 = i_1_ * -726203335;
+			class251.animId = i_1_ * -726203335;
 			Class668.method8011(class251, 263642117);
 		}
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)

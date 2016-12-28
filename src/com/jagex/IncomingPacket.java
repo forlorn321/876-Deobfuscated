@@ -466,9 +466,9 @@ public class IncomingPacket {
 		if (-1 != class649_sub1_sub5_sub1.anInt11911 * -1375730507) {
 			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1_3_ = null;
 			if (class649_sub1_sub5_sub1.anInt11911 * -1375730507 < 32768) {
-				Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (-1375730507 * class649_sub1_sub5_sub1.anInt11911))));
+				ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (-1375730507 * class649_sub1_sub5_sub1.anInt11911))));
 				if (class536_sub13 != null)
-					class649_sub1_sub5_sub1_3_ = ((Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468);
+					class649_sub1_sub5_sub1_3_ = ((Class649_Sub1_Sub5_Sub1) class536_sub13.value);
 			} else if (class649_sub1_sub5_sub1.anInt11911 * -1375730507 >= 32768)
 				class649_sub1_sub5_sub1_3_ = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[(class649_sub1_sub5_sub1.anInt11911 * -1375730507 - 32768)]);
 			if (null != class649_sub1_sub5_sub1_3_) {

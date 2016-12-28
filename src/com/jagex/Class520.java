@@ -99,7 +99,7 @@ public class Class520 {
 
 	static void method6347(Class536_Sub18_Sub9 class536_sub18_sub9, int i) {
 		if (!Class70.aBool752) {
-			class536_sub18_sub9.method6484(-373369152);
+			class536_sub18_sub9.method6484();
 			Class70.anInt760 -= 354678071;
 			if (!class536_sub18_sub9.aBool11717) {
 				long l = class536_sub18_sub9.aLong11719 * 4372728678228642485L;
@@ -130,7 +130,7 @@ public class Class520 {
 	}
 
 	static final void method6348(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2643 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1108499687;
+		class251.maxLines = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1108499687;
 		Class668.method8011(class251, 263642117);
 	}
 
@@ -162,8 +162,8 @@ public class Class520 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -916987741) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2740 = Class33.method796(string, class668, (short) -2852);
-		class251.aBool2666 = true;
+		class251.onTargetEnterHook = Class33.method796(string, class668, (short) -2852);
+		class251.hasComponentHook = true;
 	}
 
 	static int method6352(int i) {

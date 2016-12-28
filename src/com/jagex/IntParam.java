@@ -3,11 +3,12 @@
  */
 package com.jagex;
 
-public class Class536_Sub26 extends Class536 {
-	public int anInt10533;
+public class IntParam extends Class536 {
+	
+	public int value;
 
-	public Class536_Sub26(int i) {
-		anInt10533 = 1189135533 * i;
+	public IntParam(int i) {
+		value = 1189135533 * i;
 	}
 
 	static final void method9593(Class668 class668, byte i) {

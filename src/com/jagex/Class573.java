@@ -13,7 +13,7 @@ public class Class573 {
 	}
 
 	static final void method6940(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aBool2594 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.tiling = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}
 

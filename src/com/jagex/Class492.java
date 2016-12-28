@@ -1610,6 +1610,6 @@ public class Class492 {
 	static final void method5973(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aString2638;
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.text;
 	}
 }

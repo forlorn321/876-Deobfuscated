@@ -476,8 +476,8 @@ public class Class39 implements DefinitionI, Interface7 {
 
 	static final void method866(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
-		if (bool != class251.aBool2578) {
-			class251.aBool2578 = bool;
+		if (bool != class251.hidden) {
+			class251.hidden = bool;
 			Class668.method8011(class251, 263642117);
 		}
 		if (class251.anInt2546 * -809980533 == -1 && !class234.aBool2379)

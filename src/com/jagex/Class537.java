@@ -344,9 +344,9 @@ public class Class537 {
 			Class103 class103 = class103s[i_39_];
 			if (class103 != null && 2030004867 * class103.anInt1224 != 0 && client.cycles % 20 < 10) {
 				if (1 == class103.anInt1224 * 2030004867) {
-					Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
+					ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) (class103.anInt1223 * 1298998125))));
 					if (null != class536_sub13) {
-						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+						NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 						Class436 class436 = (class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 						int i_40_ = (int) class436.aFloat4850 / 128 - i / 128;
 						int i_41_ = (int) class436.aFloat4853 / 128 - i_35_ / 128;

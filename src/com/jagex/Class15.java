@@ -660,8 +660,8 @@ public final class Class15 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1457100677) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2672 = Class33.method796(string, class668, (short) 21429);
-		class251.aBool2666 = true;
+		class251.onMouseOverHook = Class33.method796(string, class668, (short) 21429);
+		class251.hasComponentHook = true;
 	}
 
 	public static int method643(int i, int i_55_) {

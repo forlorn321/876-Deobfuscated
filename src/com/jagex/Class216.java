@@ -27,7 +27,7 @@ class Class216 implements Interface42 {
 	}
 
 	static final void method3091(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aBool2708 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.noClickThrough = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 	}
 
 	static final void method3092(Class668 class668, byte i) {

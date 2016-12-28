@@ -171,7 +171,7 @@ public class Class671 {
 				if (null != is_33_) {
 					InterfaceDefinitions class251 = class234.aClass251Array2378[i_32_] = new InterfaceDefinitions();
 					class251.anInt2559 = 1002674859 * ((i << 16) + i_32_);
-					class251.method3466(new RSByteBuffer(is_33_), (byte) -88);
+					class251.decode(new RSByteBuffer(is_33_));
 				}
 			}
 		}

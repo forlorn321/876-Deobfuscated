@@ -39,8 +39,8 @@ public class Class247_Sub1 extends Class247 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1125896429) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2675 = Class33.method796(string, class668, (short) 18903);
-		class251.aBool2666 = true;
+		class251.onDragHook = Class33.method796(string, class668, (short) 18903);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method9106(Class668 class668, int i) {

@@ -348,7 +348,7 @@ public class Class292 implements Runnable {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1996770834) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2707 = Class33.method796(string, class668, (short) 308);
-		class251.aBool2666 = true;
+		class251.onPlayerGroupTransmitHook = Class33.method796(string, class668, (short) 308);
+		class251.hasComponentHook = true;
 	}
 }

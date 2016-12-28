@@ -17,7 +17,7 @@ public abstract class Class161 {
 	static final void method1965(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2551 * -1515601291;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.xan2d * -1515601291;
 	}
 
 	static final void method1966(Class668 class668, byte i) throws Exception_Sub3 {

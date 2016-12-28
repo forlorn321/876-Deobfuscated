@@ -5,7 +5,7 @@ package com.jagex;
 
 public final class IComponentSettings extends Class536 {
 	public int settings;
-	static IComponentSettings aClass536_Sub14_10477 = new IComponentSettings(0, -1);
+	static IComponentSettings DEFAULT_SETTINGS = new IComponentSettings(0, -1);
 	public int interfaceHash;
 
 	public final boolean method9472(int i) {
@@ -32,9 +32,9 @@ public final class IComponentSettings extends Class536 {
 		return 0 != (settings * -512963777 >> 23 & 0x1);
 	}
 
-	public IComponentSettings(int i, int i_1_) {
-		settings = -1704942401 * i;
-		interfaceHash = i_1_ * 1081619073;
+	public IComponentSettings(int settings, int interfaceHash) {
+		this.settings = -1704942401 * settings;
+		this.interfaceHash = interfaceHash * 1081619073;
 	}
 
 	public final boolean method9491() {
@@ -54,7 +54,7 @@ public final class IComponentSettings extends Class536 {
 	static final void method9499(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 2003514143 * class251.anInt2636;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 2003514143 * class251.fontId;
 	}
 
 	static final void method9500(Class668 class668, byte i) {

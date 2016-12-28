@@ -78,7 +78,7 @@ public final class Class4 implements Iterable {
 
 	public void method560(Class536 class536, long l) {
 		if (null != class536.aClass536_7134)
-			class536.method6484(-1388584569);
+			class536.method6484();
 		Class536 class536_8_ = (aClass536Array105[(int) (l & (long) (anInt101 * -1392230473 - 1))]);
 		class536.aClass536_7134 = class536_8_.aClass536_7134;
 		class536.aClass536_7132 = class536_8_;
@@ -94,7 +94,7 @@ public final class Class4 implements Iterable {
 				Class536 class536_10_ = class536.aClass536_7132;
 				if (class536_10_ == class536)
 					break;
-				class536_10_.method6484(-5278054);
+				class536_10_.method6484();
 			}
 		}
 		aClass536_104 = null;
@@ -185,7 +185,7 @@ public final class Class4 implements Iterable {
 				Class536 class536_19_ = class536.aClass536_7132;
 				if (class536_19_ == class536)
 					break;
-				class536_19_.method6484(545397217);
+				class536_19_.method6484();
 			}
 		}
 		aClass536_104 = null;
@@ -198,8 +198,8 @@ public final class Class4 implements Iterable {
 	}
 
 	static final void method572(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2601 = -1782707337;
-		class251.anInt2602 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1639447419;
+		class251.modelType = -1782707337;
+		class251.modelId = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1639447419;
 		Class668.method8011(class251, 263642117);
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)
 			Class34_Sub7.method10328(-1591767037 * class251.anInt2559, (short) -268);

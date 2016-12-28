@@ -112,7 +112,7 @@ public class Class71 {
 				}
 			}
 			class536_sub33_sub2.method9768(i, (byte) 86);
-			class536_sub34.method6484(-26478031);
+			class536_sub34.method6484();
 		}
 	}
 

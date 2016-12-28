@@ -96,8 +96,8 @@ public class Class73 implements DefinitionI, Interface7 {
 	}
 
 	static int method1132(InterfaceDefinitions class251, int i, int i_3_) {
-		if (!client.getIComponentSettings(class251).method9472(i) && class251.anObjectArray2705 == null)
+		if (!client.getIComponentSettings(class251).method9472(i) && class251.onOpHook == null)
 			return -1;
-		return ((null != class251.anIntArray2668 && class251.anIntArray2668.length > i) ? class251.anIntArray2668[i] : -1);
+		return ((null != class251.opCursors && class251.opCursors.length > i) ? class251.opCursors[i] : -1);
 	}
 }

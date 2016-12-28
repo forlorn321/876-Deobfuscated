@@ -126,9 +126,9 @@ public class Class277 implements DefinitionI {
 				int i_19_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_3040.method560(class536, (long) i_19_);
 			}
 		}
@@ -142,19 +142,19 @@ public class Class277 implements DefinitionI {
 	public int method3741(int i, int i_20_, int i_21_) {
 		if (null == aClass4_3040)
 			return i_20_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_3040.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_3040.method556((long) i);
 		if (null == class536_sub26)
 			return i_20_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public String method3742(int i, String string, byte i_22_) {
 		if (null == aClass4_3040)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_3040.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_3040.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public boolean method3743(Interface18 interface18, byte i) {
@@ -358,9 +358,9 @@ public class Class277 implements DefinitionI {
 				int i_56_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_3040.method560(class536, (long) i_56_);
 			}
 		}
@@ -455,9 +455,9 @@ public class Class277 implements DefinitionI {
 				int i_74_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_3040.method560(class536, (long) i_74_);
 			}
 		}

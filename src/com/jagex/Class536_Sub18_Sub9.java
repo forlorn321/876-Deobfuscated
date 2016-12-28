@@ -221,11 +221,11 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 						int i_47_ = ((i_46_ >> 14 & 0x3fff) - 1858049507 * class598.anInt7839);
 						int i_48_ = ((i_46_ & 0x3fff) - class598.anInt7840 * 1479112045);
 						if (i_47_ >= 0 && i_47_ < i_9_ && i_48_ >= 0 && i_48_ < i_10_)
-							Class101.aClass708_1197.method8335(new Class536_Sub26(i_45_), 452589636);
+							Class101.aClass708_1197.method8335(new IntParam(i_45_), 452589636);
 						else {
 							Class248 class248 = ((Class248) (Class398_Sub1.aClass34_Sub8_10110.method70(class543.anIntArray7236[i_45_], (byte) -53)));
 							if (class248.anIntArray2497 != null && (-2077796911 * class248.anInt2490 + i_47_ >= 0) && (-10405275 * class248.anInt2507 + i_47_ < i_9_) && i_48_ + class248.anInt2510 * 1889839503 >= 0 && (-1552833791 * class248.anInt2520 + i_48_ < i_10_))
-								Class101.aClass708_1197.method8335(new Class536_Sub26(i_45_), 823918111);
+								Class101.aClass708_1197.method8335(new IntParam(i_45_), 823918111);
 						}
 					}
 				}

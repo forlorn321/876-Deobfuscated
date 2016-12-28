@@ -67,8 +67,8 @@ public class Class668 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1938074119) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2628 = Class33.method796(string, class668, (short) 2150);
-		class251.aBool2666 = true;
+		class251.onMiscTransmitHook = Class33.method796(string, class668, (short) 2150);
+		class251.hasComponentHook = true;
 	}
 
 	static boolean method8008(int i, byte i_1_) {

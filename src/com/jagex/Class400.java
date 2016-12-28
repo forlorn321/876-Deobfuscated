@@ -83,8 +83,8 @@ public class Class400 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1415456470) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2670 = Class33.method796(string, class668, (short) 856);
-		class251.aBool2666 = true;
+		class251.onReleaseHook = Class33.method796(string, class668, (short) 856);
+		class251.hasComponentHook = true;
 	}
 
 	public static void method4919(int i, int i_6_, int i_7_, int i_8_, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {

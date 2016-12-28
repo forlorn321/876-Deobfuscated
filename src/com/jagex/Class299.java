@@ -31,7 +31,7 @@ public class Class299 {
 			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_1_] = null;
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
 		for (int i_2_ = 0; i_2_ < -1683770117 * client.anInt11164; i_2_++) {
-			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i_2_].anObject10468);
+			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i_2_].value);
 			if (class649_sub1_sub5_sub1 != null)
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}

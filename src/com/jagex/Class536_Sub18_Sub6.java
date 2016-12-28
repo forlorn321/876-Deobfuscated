@@ -31,7 +31,7 @@ public class Class536_Sub18_Sub6 extends Class536_Sub18 {
 		class536_sub18_sub9.method9521(-1869075396);
 		anInt11685 -= 196395293;
 		if (-606992075 * anInt11685 == 0) {
-			method6484(-529542311);
+			method6484();
 			method9521(-789580585);
 			Class70.anInt761 -= 389540193;
 			Class70.aClass199_757.method2881(this, (class536_sub18_sub9.aLong11719 * 4372728678228642485L));

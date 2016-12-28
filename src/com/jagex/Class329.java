@@ -115,9 +115,9 @@ public class Class329 implements Interface33 {
 		int[] is = Class510.method6183(string, class668, -702307481);
 		if (null != is)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2683 = Class33.method796(string, class668, (short) -17486);
-		class251.anIntArray2684 = is;
-		class251.aBool2666 = true;
+		class251.onStatTransmitHook = Class33.method796(string, class668, (short) -17486);
+		class251.statTransmitList = is;
+		class251.hasComponentHook = true;
 	}
 
 	static final void method4318(Class668 class668, byte i) {

@@ -299,7 +299,7 @@ public class Class678 implements Interface75 {
 								break;
 							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
 							if (class251.anInt2546 * -809980533 >= 0) {
-								InterfaceDefinitions class251_17_ = Class264.method3678((class251.anInt2577 * -1940204141), -689214737);
+								InterfaceDefinitions class251_17_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (class251_17_ == null || class251_17_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_17_.aClass251Array2725).length) || class251 != (class251_17_.aClass251Array2725[(-809980533 * class251.anInt2546)]))
 									continue;
 							}
@@ -311,7 +311,7 @@ public class Class678 implements Interface75 {
 								break;
 							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
 							if (-809980533 * class251.anInt2546 >= 0) {
-								InterfaceDefinitions class251_18_ = Class264.method3678((class251.anInt2577 * -1940204141), -689214737);
+								InterfaceDefinitions class251_18_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (null == class251_18_ || class251_18_.aClass251Array2725 == null || (class251.anInt2546 * -809980533 >= (class251_18_.aClass251Array2725).length) || class251 != (class251_18_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}
@@ -323,7 +323,7 @@ public class Class678 implements Interface75 {
 								break;
 							InterfaceDefinitions class251 = class536_sub42.aClass251_10804;
 							if (-809980533 * class251.anInt2546 >= 0) {
-								InterfaceDefinitions class251_19_ = Class264.method3678((class251.anInt2577 * -1940204141), -689214737);
+								InterfaceDefinitions class251_19_ = Class264.method3678((class251.parentLayer * -1940204141), -689214737);
 								if (null == class251_19_ || class251_19_.aClass251Array2725 == null || (-809980533 * class251.anInt2546 >= (class251_19_.aClass251Array2725).length) || class251 != (class251_19_.aClass251Array2725[(class251.anInt2546 * -809980533)]))
 									continue;
 							}

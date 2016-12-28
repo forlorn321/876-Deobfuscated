@@ -135,9 +135,9 @@ public class Class350 {
 		if (null == aClass4_3714)
 			return null;
 		Class536 class536 = aClass4_3714.method556((long) i);
-		if (null == class536 || !(class536 instanceof Class536_Sub26))
+		if (null == class536 || !(class536 instanceof IntParam))
 			return null;
-		return new Integer(2083602213 * ((Class536_Sub26) class536).anInt10533);
+		return new Integer(2083602213 * ((IntParam) class536).value);
 	}
 
 	public Long method4600(int i, int i_7_) {
@@ -153,9 +153,9 @@ public class Class350 {
 		if (null == aClass4_3714)
 			return null;
 		Class536 class536 = aClass4_3714.method556((long) i);
-		if (null == class536 || !(class536 instanceof Class536_Sub13))
+		if (null == class536 || !(class536 instanceof ObjectParam))
 			return null;
-		return (String) ((Class536_Sub13) class536).anObject10468;
+		return (String) ((ObjectParam) class536).value;
 	}
 
 	public int[] method4602(int i) {
@@ -291,21 +291,21 @@ public class Class350 {
 		if (null != aClass4_3714) {
 			Class536 class536 = aClass4_3714.method556((long) i);
 			if (null != class536) {
-				if (class536 instanceof Class536_Sub26) {
-					Class536_Sub26 class536_sub26 = (Class536_Sub26) class536;
-					if ((class536_sub26.anInt10533 * 2083602213 & i_32_) == i_26_)
+				if (class536 instanceof IntParam) {
+					IntParam class536_sub26 = (IntParam) class536;
+					if ((class536_sub26.value * 2083602213 & i_32_) == i_26_)
 						return false;
-					Class536_Sub26 class536_sub26_33_;
-					(class536_sub26_33_ = class536_sub26).anInt10533 = (1189135533 * (2083602213 * class536_sub26_33_.anInt10533 & (i_32_ ^ 0xffffffff)));
-					Class536_Sub26 class536_sub26_34_;
-					(class536_sub26_34_ = class536_sub26).anInt10533 = ((2083602213 * class536_sub26_34_.anInt10533 | i_26_) * 1189135533);
+					IntParam class536_sub26_33_;
+					(class536_sub26_33_ = class536_sub26).value = (1189135533 * (2083602213 * class536_sub26_33_.value & (i_32_ ^ 0xffffffff)));
+					IntParam class536_sub26_34_;
+					(class536_sub26_34_ = class536_sub26).value = ((2083602213 * class536_sub26_34_.value | i_26_) * 1189135533);
 					return true;
 				}
-				class536.method6484(1266348258);
+				class536.method6484();
 			}
 		} else
 			aClass4_3714 = new Class4(4);
-		aClass4_3714.method560(new Class536_Sub26(i_26_), (long) i);
+		aClass4_3714.method560(new IntParam(i_26_), (long) i);
 		return true;
 	}
 
@@ -320,7 +320,7 @@ public class Class350 {
 					class536_sub16.aLong10489 = 1363666573745260201L * l;
 					return true;
 				}
-				class536.method6484(1195058721);
+				class536.method6484();
 			}
 		} else
 			aClass4_3714 = new Class4(4);
@@ -413,13 +413,13 @@ public class Class350 {
 					int i_42_ = i_40_ >>> 30;
 					if (0 == i_42_) {
 						int i_43_ = class536_sub33.readInt();
-						aClass4_3714.method560(new Class536_Sub26(i_43_), (long) i_41_);
+						aClass4_3714.method560(new IntParam(i_43_), (long) i_41_);
 					} else if (i_42_ == 1) {
 						long l = class536_sub33.readLong(702869087);
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_41_);
 					} else if (2 == i_42_) {
 						String string = class536_sub33.readString();
-						aClass4_3714.method560(new Class536_Sub13(string), (long) i_41_);
+						aClass4_3714.method560(new ObjectParam(string), (long) i_41_);
 					}
 				}
 			}
@@ -617,18 +617,18 @@ public class Class350 {
 		if (null != aClass4_3714) {
 			Class536 class536 = aClass4_3714.method556((long) i);
 			if (null != class536) {
-				if (class536 instanceof Class536_Sub26) {
-					Class536_Sub26 class536_sub26 = (Class536_Sub26) class536;
-					if (class536_sub26.anInt10533 * 2083602213 == i_56_)
+				if (class536 instanceof IntParam) {
+					IntParam class536_sub26 = (IntParam) class536;
+					if (class536_sub26.value * 2083602213 == i_56_)
 						return false;
-					class536_sub26.anInt10533 = 1189135533 * i_56_;
+					class536_sub26.value = 1189135533 * i_56_;
 					return true;
 				}
-				class536.method6484(315871873);
+				class536.method6484();
 			}
 		} else
 			aClass4_3714 = new Class4(4);
-		aClass4_3714.method560(new Class536_Sub26(i_56_), (long) i);
+		aClass4_3714.method560(new IntParam(i_56_), (long) i);
 		return true;
 	}
 
@@ -771,21 +771,21 @@ public class Class350 {
 		if (null != aClass4_3714) {
 			Class536 class536 = aClass4_3714.method556((long) i);
 			if (class536 != null) {
-				if (class536 instanceof Class536_Sub13) {
-					Class536_Sub13 class536_sub13 = (Class536_Sub13) class536;
-					if (class536_sub13.anObject10468 instanceof String) {
-						if (string.equals(class536_sub13.anObject10468))
+				if (class536 instanceof ObjectParam) {
+					ObjectParam class536_sub13 = (ObjectParam) class536;
+					if (class536_sub13.value instanceof String) {
+						if (string.equals(class536_sub13.value))
 							return false;
-						class536_sub13.method6484(-949847317);
-						aClass4_3714.method560(new Class536_Sub13(string), (-6909195213925454795L * class536_sub13.aLong7133));
+						class536_sub13.method6484();
+						aClass4_3714.method560(new ObjectParam(string), (-6909195213925454795L * class536_sub13.aLong7133));
 						return true;
 					}
 				}
-				class536.method6484(1952794609);
+				class536.method6484();
 			}
 		} else
 			aClass4_3714 = new Class4(4);
-		aClass4_3714.method560(new Class536_Sub13(string), (long) i);
+		aClass4_3714.method560(new ObjectParam(string), (long) i);
 		return true;
 	}
 
@@ -793,18 +793,18 @@ public class Class350 {
 		if (null != aClass4_3714) {
 			Class536 class536 = aClass4_3714.method556((long) i);
 			if (null != class536) {
-				if (class536 instanceof Class536_Sub26) {
-					Class536_Sub26 class536_sub26 = (Class536_Sub26) class536;
-					if (class536_sub26.anInt10533 * 2083602213 == i_64_)
+				if (class536 instanceof IntParam) {
+					IntParam class536_sub26 = (IntParam) class536;
+					if (class536_sub26.value * 2083602213 == i_64_)
 						return false;
-					class536_sub26.anInt10533 = 1189135533 * i_64_;
+					class536_sub26.value = 1189135533 * i_64_;
 					return true;
 				}
-				class536.method6484(1507967763);
+				class536.method6484();
 			}
 		} else
 			aClass4_3714 = new Class4(4);
-		aClass4_3714.method560(new Class536_Sub26(i_64_), (long) i);
+		aClass4_3714.method560(new IntParam(i_64_), (long) i);
 		return true;
 	}
 
@@ -920,13 +920,13 @@ public class Class350 {
 					int i_71_ = i_69_ >>> 30;
 					if (0 == i_71_) {
 						int i_72_ = class536_sub33.readInt();
-						aClass4_3714.method560(new Class536_Sub26(i_72_), (long) i_70_);
+						aClass4_3714.method560(new IntParam(i_72_), (long) i_70_);
 					} else if (i_71_ == 1) {
 						long l = class536_sub33.readLong(702869087);
 						aClass4_3714.method560(new Class536_Sub16(l), (long) i_70_);
 					} else if (2 == i_71_) {
 						String string = class536_sub33.readString();
-						aClass4_3714.method560(new Class536_Sub13(string), (long) i_70_);
+						aClass4_3714.method560(new ObjectParam(string), (long) i_70_);
 					}
 				}
 			}

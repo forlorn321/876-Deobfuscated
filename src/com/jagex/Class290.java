@@ -52,9 +52,9 @@ public class Class290 {
 			}
 			for (int i_9_ = 0; i_9_ < -664631943 * client.anInt11053; i_9_++) {
 				int i_10_ = client.anIntArray11211[i_9_];
-				Class536_Sub13 class536_sub13 = ((Class536_Sub13) client.aClass4_11050.method556((long) i_10_));
+				ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_10_));
 				if (null != class536_sub13)
-					((Class649_Sub1_Sub5_Sub1) class536_sub13.anObject10468).method10884(i, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_, (byte) -101);
+					((Class649_Sub1_Sub5_Sub1) class536_sub13.value).method10884(i, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_, (byte) -101);
 			}
 		}
 	}

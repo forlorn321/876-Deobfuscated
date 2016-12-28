@@ -204,19 +204,19 @@ public class Class103 {
 	static final void method1375(InterfaceDefinitions class251, int i) {
 		if (-1769600535 * class251.anInt2562 == InterfaceDefinitions.anInt2536 * 1542493203) {
 			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username == null) {
-				class251.anInt2602 = 0;
+				class251.modelId = 0;
 				class251.anInt2603 = 0;
 			} else {
-				class251.anInt2551 = -1890992258;
-				class251.anInt2547 = ((int) (Math.sin((double) client.cycles / 40.0) * 256.0) & 0x7ff) * -947955085;
-				class251.anInt2601 = -323602093;
-				class251.anInt2602 = -436498141 * client.anInt11156;
+				class251.xan2d = -1890992258;
+				class251.yan2d = ((int) (Math.sin((double) client.cycles / 40.0) * 256.0) & 0x7ff) * -947955085;
+				class251.modelType = -323602093;
+				class251.modelId = -436498141 * client.anInt11156;
 				class251.anInt2603 = Class264.method3677((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), -311312947) * 721316367;
 				Class688_Sub3 class688_sub3 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass688_Sub3_11914);
 				if (class688_sub3 != null) {
 					if (class251.aClass688_2653 == null)
 						class251.aClass688_2653 = new Class688_Sub1();
-					class251.anInt2723 = class688_sub3.method8120((byte) 118) * -726203335;
+					class251.animId = class688_sub3.method8120((byte) 118) * -726203335;
 					class251.aClass688_2653.method8157(class688_sub3, 858459449);
 				} else
 					class251.aClass688_2653 = null;

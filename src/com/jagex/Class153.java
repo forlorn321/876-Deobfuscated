@@ -149,7 +149,7 @@ public abstract class Class153 implements Interface14 {
 	static final void method1868(Class668 class668, int i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.anInt2577 * -1940204141;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class251.parentLayer * -1940204141;
 	}
 
 	public static final void method1869(String string, byte i) {

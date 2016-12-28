@@ -17,7 +17,7 @@ public class Class259 {
 	void method3598(int i) {
 		Class536_Sub8 class536_sub8 = method3597(i, -1684549445);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(-1366822206);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}
@@ -25,7 +25,7 @@ public class Class259 {
 	void method3599(int i, byte i_1_) {
 		Class536_Sub8 class536_sub8 = method3597(i, -1572204280);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(-820040855);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}
@@ -69,7 +69,7 @@ public class Class259 {
 	void method3602(int i) {
 		Class536_Sub8 class536_sub8 = method3597(i, -303292947);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(-1015346794);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}
@@ -87,7 +87,7 @@ public class Class259 {
 	void method3603(int i) {
 		Class536_Sub8 class536_sub8 = method3597(i, -1676833455);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(-563885205);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}
@@ -95,7 +95,7 @@ public class Class259 {
 	void method3604(int i) {
 		Class536_Sub8 class536_sub8 = method3597(i, -951332834);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(192972632);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}
@@ -103,7 +103,7 @@ public class Class259 {
 	void method3605(int i) {
 		Class536_Sub8 class536_sub8 = method3597(i, -1207001437);
 		if (null != class536_sub8) {
-			class536_sub8.method6484(-917488974);
+			class536_sub8.method6484();
 			aClass536_Sub8Array2837[class536_sub8.anInt10430 * 913244505] = null;
 		}
 	}

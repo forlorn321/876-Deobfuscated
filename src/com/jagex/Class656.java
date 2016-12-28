@@ -24,9 +24,9 @@ public class Class656 {
 	static final void method7944(InterfaceDefinitions class251, Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		int i_1_ = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) - 1);
-		if (1939619399 * class251.anInt2601 != 2)
+		if (1939619399 * class251.modelType != 2)
 			throw new RuntimeException("");
-		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.anInt2602 * -2011124813, (byte) 23));
+		Class296 class296 = ((Class296) Class172.aClass34_Sub7_1922.method70(class251.modelId * -2011124813, (byte) 23));
 		if (null == class251.aClass304_2583)
 			class251.aClass304_2583 = new Class304(class296, false);
 		class251.aClass304_2583.aLong3434 = Class584.method7047(-852559198) * 1195640203384682761L;

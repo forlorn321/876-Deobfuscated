@@ -225,10 +225,10 @@ public class Class381 {
 			anInt3966 = class536_sub33.readUnsignedByte() * -375577793;
 		else if (29 == i) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3980 = (anInt3981 = (class536_sub33.readShort((byte) -96) * 1229085368)) * 855915051;
+				anInt3980 = (anInt3981 = (class536_sub33.readShort() * 1229085368)) * 855915051;
 			else {
-				anInt3980 = class536_sub33.readShort((byte) -42) * 1771236584;
-				anInt3981 = class536_sub33.readShort((byte) -107) * 1229085368;
+				anInt3980 = class536_sub33.readShort() * 1771236584;
+				anInt3981 = class536_sub33.readShort() * 1229085368;
 			}
 		} else if (i == 30)
 			aBool3962 = true;
@@ -243,10 +243,10 @@ public class Class381 {
 			aBool3990 = false;
 		else if (i == 35) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3977 = (anInt3978 = (class536_sub33.readShort((byte) -2) * 1032355576)) * -1761878835;
+				anInt3977 = (anInt3978 = (class536_sub33.readShort() * 1032355576)) * -1761878835;
 			else {
-				anInt3977 = class536_sub33.readShort((byte) -102) * 1620233368;
-				anInt3978 = class536_sub33.readShort((byte) -44) * 1032355576;
+				anInt3977 = class536_sub33.readShort() * 1620233368;
+				anInt3978 = class536_sub33.readShort() * 1032355576;
 				anInt3979 = class536_sub33.readUnsignedByte() * -427361291;
 			}
 		} else if (i == 36)
@@ -395,10 +395,10 @@ public class Class381 {
 			anInt3966 = class536_sub33.readUnsignedByte() * -375577793;
 		else if (29 == i) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3980 = (anInt3981 = (class536_sub33.readShort((byte) -94) * 1229085368)) * 855915051;
+				anInt3980 = (anInt3981 = (class536_sub33.readShort() * 1229085368)) * 855915051;
 			else {
-				anInt3980 = class536_sub33.readShort((byte) -99) * 1771236584;
-				anInt3981 = class536_sub33.readShort((byte) -2) * 1229085368;
+				anInt3980 = class536_sub33.readShort() * 1771236584;
+				anInt3981 = class536_sub33.readShort() * 1229085368;
 			}
 		} else if (i == 30)
 			aBool3962 = true;
@@ -413,10 +413,10 @@ public class Class381 {
 			aBool3990 = false;
 		else if (i == 35) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3977 = (anInt3978 = (class536_sub33.readShort((byte) -85) * 1032355576)) * -1761878835;
+				anInt3977 = (anInt3978 = (class536_sub33.readShort() * 1032355576)) * -1761878835;
 			else {
-				anInt3977 = class536_sub33.readShort((byte) -61) * 1620233368;
-				anInt3978 = class536_sub33.readShort((byte) -38) * 1032355576;
+				anInt3977 = class536_sub33.readShort() * 1620233368;
+				anInt3978 = class536_sub33.readShort() * 1032355576;
 				anInt3979 = class536_sub33.readUnsignedByte() * -427361291;
 			}
 		} else if (i == 36)
@@ -505,10 +505,10 @@ public class Class381 {
 			anInt3966 = class536_sub33.readUnsignedByte() * -375577793;
 		else if (29 == i) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3980 = ((anInt3981 = class536_sub33.readShort((byte) -127) * 1229085368) * 855915051);
+				anInt3980 = ((anInt3981 = class536_sub33.readShort() * 1229085368) * 855915051);
 			else {
-				anInt3980 = class536_sub33.readShort((byte) -65) * 1771236584;
-				anInt3981 = class536_sub33.readShort((byte) -120) * 1229085368;
+				anInt3980 = class536_sub33.readShort() * 1771236584;
+				anInt3981 = class536_sub33.readShort() * 1229085368;
 			}
 		} else if (i == 30)
 			aBool3962 = true;
@@ -523,10 +523,10 @@ public class Class381 {
 			aBool3990 = false;
 		else if (i == 35) {
 			if (class536_sub33.readUnsignedByte() == 0)
-				anInt3977 = (anInt3978 = (class536_sub33.readShort((byte) -47) * 1032355576)) * -1761878835;
+				anInt3977 = (anInt3978 = (class536_sub33.readShort() * 1032355576)) * -1761878835;
 			else {
-				anInt3977 = class536_sub33.readShort((byte) -44) * 1620233368;
-				anInt3978 = class536_sub33.readShort((byte) -27) * 1032355576;
+				anInt3977 = class536_sub33.readShort() * 1620233368;
+				anInt3978 = class536_sub33.readShort() * 1032355576;
 				anInt3979 = class536_sub33.readUnsignedByte() * -427361291;
 			}
 		} else if (i == 36)

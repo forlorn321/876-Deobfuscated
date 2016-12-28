@@ -45,10 +45,10 @@ public class Class254 implements Interface27 {
 	static final void method3538(InterfaceDefinitions class251, Class668 class668, int i) {
 		if (943429543 * class668.anInt8559 >= 10)
 			throw new RuntimeException();
-		if (null != class251.anObjectArray2706) {
+		if (null != class251.onResizeHook) {
 			Class536_Sub42 class536_sub42 = new Class536_Sub42();
 			class536_sub42.aClass251_10804 = class251;
-			class536_sub42.anObjectArray10802 = class251.anObjectArray2706;
+			class536_sub42.anObjectArray10802 = class251.onResizeHook;
 			class536_sub42.anInt10810 = class668.anInt8559 * -500518129 + 1737782873;
 			client.aClass708_11077.method8335(class536_sub42, -1099410433);
 		}

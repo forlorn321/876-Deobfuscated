@@ -115,14 +115,14 @@ public class Class480 {
 	}
 
 	static String method5829(InterfaceDefinitions class251, int i, short i_2_) {
-		if (!client.getIComponentSettings(class251).method9472(i) && class251.anObjectArray2705 == null)
+		if (!client.getIComponentSettings(class251).method9472(i) && class251.onOpHook == null)
 			return null;
-		if (null == class251.aStringArray2657 || class251.aStringArray2657.length <= i || null == class251.aStringArray2657[i] || class251.aStringArray2657[i].trim().length() == 0) {
+		if (null == class251.op || class251.op.length <= i || null == class251.op[i] || class251.op[i].trim().length() == 0) {
 			if (client.aBool11010)
 				return new StringBuilder().append("Hidden-").append(i).toString();
 			return null;
 		}
-		return class251.aStringArray2657[i];
+		return class251.op[i];
 	}
 
 	static final void method5830(Class668 class668, int i) {

@@ -82,19 +82,19 @@ public class Class191 implements DefinitionI {
 	public int method2829(int i, int i_2_, int i_3_) {
 		if (aClass4_2175 == null)
 			return i_2_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2175.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2175.method556((long) i);
 		if (null == class536_sub26)
 			return i_2_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public String method2830(int i, String string, int i_4_) {
 		if (aClass4_2175 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2175.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_2175.method556((long) i);
 		if (null == class536_sub13)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	Class191(int i, Class206 class206) {
@@ -229,9 +229,9 @@ public class Class191 implements DefinitionI {
 					int i_25_ = class536_sub33.read24BitUnsignedInteger();
 					Class536 class536;
 					if (bool)
-						class536 = new Class536_Sub13(class536_sub33.readString());
+						class536 = new ObjectParam(class536_sub33.readString());
 					else
-						class536 = new Class536_Sub26(class536_sub33.readInt());
+						class536 = new IntParam(class536_sub33.readInt());
 					aClass4_2175.method560(class536, (long) i_25_);
 				}
 			}
@@ -340,9 +340,9 @@ public class Class191 implements DefinitionI {
 					int i_44_ = class536_sub33.read24BitUnsignedInteger();
 					Class536 class536;
 					if (bool)
-						class536 = new Class536_Sub13(class536_sub33.readString());
+						class536 = new ObjectParam(class536_sub33.readString());
 					else
-						class536 = new Class536_Sub26(class536_sub33.readInt());
+						class536 = new IntParam(class536_sub33.readInt());
 					aClass4_2175.method560(class536, (long) i_44_);
 				}
 			}
@@ -404,19 +404,19 @@ public class Class191 implements DefinitionI {
 	public int method2838(int i, int i_50_) {
 		if (aClass4_2175 == null)
 			return i_50_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2175.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2175.method556((long) i);
 		if (null == class536_sub26)
 			return i_50_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method2839(int i, int i_51_) {
 		if (aClass4_2175 == null)
 			return i_51_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2175.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2175.method556((long) i);
 		if (null == class536_sub26)
 			return i_51_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public void method76(RSByteBuffer class536_sub33) {

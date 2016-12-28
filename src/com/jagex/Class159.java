@@ -335,7 +335,7 @@ public class Class159 {
 	void method1901(Class536_Sub12 class536_sub12) {
 		class536_sub12.aBool10467 = false;
 		class536_sub12.method9434();
-		class536_sub12.method6484(564858870);
+		class536_sub12.method6484();
 		method1902();
 	}
 

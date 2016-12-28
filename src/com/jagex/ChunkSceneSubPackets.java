@@ -67,7 +67,7 @@ public class ChunkSceneSubPackets {
 			throw new RuntimeException(new StringBuilder().append("").append(i_1_ - 1).toString());
 		InterfaceDefinitions class251_6_ = new InterfaceDefinitions();
 		class251_6_.anInt2728 = -611060941 * i_0_;
-		class251_6_.anInt2577 = (class251_6_.anInt2559 = 1 * class251.anInt2559) * -832839215;
+		class251_6_.parentLayer = (class251_6_.anInt2559 = 1 * class251.anInt2559) * -832839215;
 		class251_6_.anInt2546 = 724931107 * i_1_;
 		class251.aClass251Array2725[i_1_] = class251_6_;
 		if (class251.aClass251Array2726 != class251.aClass251Array2725)

@@ -116,7 +116,7 @@ public class Class323 implements Runnable {
 					Class510.method6187(class536_sub2.anInt10310 * -1676454841, 702777497 * class536_sub2.anInt10308, class536_sub2.anInt10309 * 848380705, -499217723 * class536_sub2.anInt10312, class536_sub2.anInt10311 * 466531913, 9068075 * class536_sub2.anInt10322, class536_sub2.anInt10307 * 1346298053, -1, 0, -279793543);
 				else
 					Class455.method5479(-1676454841 * class536_sub2.anInt10310, 702777497 * class536_sub2.anInt10308, 848380705 * class536_sub2.anInt10309, -499217723 * class536_sub2.anInt10312, null, 611603948);
-				class536_sub2.method6484(1568708819);
+				class536_sub2.method6484();
 			}
 		} else if (class536_sub2.aBool10318 && 848380705 * class536_sub2.anInt10309 >= 1 && -499217723 * class536_sub2.anInt10312 >= 1 && (848380705 * class536_sub2.anInt10309 <= client.aClass515_11066.method6321((byte) 21) - 2) && (-499217723 * class536_sub2.anInt10312 <= client.aClass515_11066.method6243(177401017) - 2)
 				&& (744541999 * class536_sub2.anInt10314 < 0 || Class551.method6686(client.aClass515_11066.method6280(-1073841494), (744541999 * class536_sub2.anInt10314), (1818098737 * class536_sub2.anInt10313), -1906625320))) {
@@ -126,9 +126,9 @@ public class Class323 implements Runnable {
 				Class455.method5479(-1676454841 * class536_sub2.anInt10310, 702777497 * class536_sub2.anInt10308, 848380705 * class536_sub2.anInt10309, -499217723 * class536_sub2.anInt10312, class536_sub2.aClass590_10317, 960923834);
 			class536_sub2.aBool10318 = false;
 			if (!bool && (466531913 * class536_sub2.anInt10311 == class536_sub2.anInt10314 * 744541999) && -1 == class536_sub2.anInt10311 * 466531913)
-				class536_sub2.method6484(-73759650);
+				class536_sub2.method6484();
 			else if (!bool && (466531913 * class536_sub2.anInt10311 == 744541999 * class536_sub2.anInt10314) && (class536_sub2.anInt10322 * 9068075 == class536_sub2.anInt10315 * -190376161) && (1346298053 * class536_sub2.anInt10307 == class536_sub2.anInt10313 * 1818098737))
-				class536_sub2.method6484(-1275924524);
+				class536_sub2.method6484();
 		}
 	}
 

@@ -40,9 +40,9 @@ public class Class198 {
 
 	static final void method2872(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
 		class668.anInt8542 -= 61855783;
-		class251.anInt2640 = -70230299 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
-		class251.anInt2641 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] * -358806889);
-		class251.anInt2721 = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2] * -1326793683);
+		class251.horizTextAlign = -70230299 * (class668.anIntArray8541[class668.anInt8542 * 1867269829]);
+		class251.vertTextAlign = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] * -358806889);
+		class251.lineHeight = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2] * -1326793683);
 		Class668.method8011(class251, 263642117);
 	}
 

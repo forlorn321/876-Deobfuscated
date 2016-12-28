@@ -17,10 +17,10 @@ final class Class48 implements Interface64 {
 	static final void method914(Class668 class668, byte i) {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		InterfaceDefinitions class251 = class683.aClass251_8650;
-		if (null == class251.aString2556)
+		if (null == class251.opBase)
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 		else
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aString2556;
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.opBase;
 	}
 
 	static void method915(Class167 class167, byte i) {

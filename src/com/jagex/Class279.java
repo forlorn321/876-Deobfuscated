@@ -19,7 +19,7 @@ public class Class279 {
 		if (class536_sub18_sub12 == null)
 			class536_sub18_sub12 = new Class536_Sub18_Sub12(i, i_0_, string, string_1_, string_2_, string_4_, i_5_, string_3_, class402);
 		else {
-			class536_sub18_sub12.method6484(1557054963);
+			class536_sub18_sub12.method6484();
 			class536_sub18_sub12.method9521(-1669901019);
 			class536_sub18_sub12.method10739(i, i_0_, string, string_1_, string_2_, string_4_, i_5_, string_3_, class402, 702897581);
 		}

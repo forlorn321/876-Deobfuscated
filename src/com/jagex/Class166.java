@@ -28,7 +28,7 @@ public class Class166 {
 	static final void method1996(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		InterfaceDefinitions class251 = Class264.method3678(i_2_, -689214737);
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.aString2638;
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.text;
 	}
 
 	public static String method1997(String string, byte i) {

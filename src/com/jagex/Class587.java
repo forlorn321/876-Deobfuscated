@@ -58,24 +58,24 @@ public class Class587 implements DefinitionI {
 		else if (6 == i)
 			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
-			anInt7731 = class536_sub33.readShort((byte) -125) * 104053305;
+			anInt7731 = class536_sub33.readShort() * 104053305;
 		else if (i == 8)
 			aString7729 = class536_sub33.readVersionedString();
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)
-			anInt7727 = class536_sub33.readShort((byte) -70) * -841503441;
+			anInt7727 = class536_sub33.readShort() * -841503441;
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
 			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
-			anInt7733 = class536_sub33.readShort((byte) -54) * -1019225517;
+			anInt7733 = class536_sub33.readShort() * -1019225517;
 		else if (i == 14)
 			anInt7735 = class536_sub33.readUnsignedShort() * 163526433;
 		else if (i == 16) {
-			anInt7732 = class536_sub33.readShort((byte) -64) * 1542216787;
-			anInt7714 = class536_sub33.readShort((byte) -45) * 995308857;
+			anInt7732 = class536_sub33.readShort() * 1542216787;
+			anInt7714 = class536_sub33.readShort() * 995308857;
 		} else if (i == 17 || i == 18) {
 			anInt7728 = class536_sub33.readUnsignedShort() * -816379749;
 			if (65535 == 1085119891 * anInt7728)
@@ -247,24 +247,24 @@ public class Class587 implements DefinitionI {
 		else if (6 == i)
 			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
-			anInt7731 = class536_sub33.readShort((byte) -61) * 104053305;
+			anInt7731 = class536_sub33.readShort() * 104053305;
 		else if (i == 8)
 			aString7729 = class536_sub33.readVersionedString();
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)
-			anInt7727 = class536_sub33.readShort((byte) -12) * -841503441;
+			anInt7727 = class536_sub33.readShort() * -841503441;
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
 			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
-			anInt7733 = class536_sub33.readShort((byte) -91) * -1019225517;
+			anInt7733 = class536_sub33.readShort() * -1019225517;
 		else if (i == 14)
 			anInt7735 = class536_sub33.readUnsignedShort() * 163526433;
 		else if (i == 16) {
-			anInt7732 = class536_sub33.readShort((byte) -70) * 1542216787;
-			anInt7714 = class536_sub33.readShort((byte) -15) * 995308857;
+			anInt7732 = class536_sub33.readShort() * 1542216787;
+			anInt7714 = class536_sub33.readShort() * 995308857;
 		} else if (i == 17 || i == 18) {
 			anInt7728 = class536_sub33.readUnsignedShort() * -816379749;
 			if (65535 == 1085119891 * anInt7728)
@@ -362,24 +362,24 @@ public class Class587 implements DefinitionI {
 		else if (6 == i)
 			anInt7725 = class536_sub33.readBigSmart() * 299529583;
 		else if (7 == i)
-			anInt7731 = class536_sub33.readShort((byte) -31) * 104053305;
+			anInt7731 = class536_sub33.readShort() * 104053305;
 		else if (i == 8)
 			aString7729 = class536_sub33.readVersionedString();
 		else if (9 == i)
 			anInt7715 = class536_sub33.readUnsignedShort() * -649903291;
 		else if (i == 10)
-			anInt7727 = class536_sub33.readShort((byte) -79) * -841503441;
+			anInt7727 = class536_sub33.readShort() * -841503441;
 		else if (i == 11)
 			anInt7735 = 0;
 		else if (12 == i)
 			anInt7730 = class536_sub33.readUnsignedByte() * -217317801;
 		else if (i == 13)
-			anInt7733 = class536_sub33.readShort((byte) -92) * -1019225517;
+			anInt7733 = class536_sub33.readShort() * -1019225517;
 		else if (i == 14)
 			anInt7735 = class536_sub33.readUnsignedShort() * 163526433;
 		else if (i == 16) {
-			anInt7732 = class536_sub33.readShort((byte) -86) * 1542216787;
-			anInt7714 = class536_sub33.readShort((byte) -97) * 995308857;
+			anInt7732 = class536_sub33.readShort() * 1542216787;
+			anInt7714 = class536_sub33.readShort() * 995308857;
 		} else if (i == 17 || i == 18) {
 			anInt7728 = class536_sub33.readUnsignedShort() * -816379749;
 			if (65535 == 1085119891 * anInt7728)

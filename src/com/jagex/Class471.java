@@ -65,8 +65,8 @@ public final class Class471 implements Comparable {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -2091455035) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2674 = Class33.method796(string, class668, (short) 22578);
-		class251.aBool2666 = true;
+		class251.onMouseLeaveHook = Class33.method796(string, class668, (short) 22578);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method5716(Class668 class668, byte i) {

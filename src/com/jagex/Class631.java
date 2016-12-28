@@ -137,8 +137,8 @@ public class Class631 {
 				else
 					Class536_Sub8.aClass143_10432.method1744(((float) i + (float) (class251.anInt2573 * -1606950689) / 2.0F), ((float) (223822141 * class251.anInt2574) / 2.0F + (float) i_9_), (float) i_15_, (float) i_16_, i_14_, i_13_ << 2, 1, -1, 1);
 				Class543 class543 = client.aClass515_11066.method6244((byte) -119);
-				for (Class536_Sub26 class536_sub26 = ((Class536_Sub26) Class101.aClass708_1197.method8308(1867269829)); class536_sub26 != null; class536_sub26 = ((Class536_Sub26) Class101.aClass708_1197.method8311(1798723961))) {
-					int i_17_ = 2083602213 * class536_sub26.anInt10533;
+				for (IntParam class536_sub26 = ((IntParam) Class101.aClass708_1197.method8308(1867269829)); class536_sub26 != null; class536_sub26 = ((IntParam) Class101.aClass708_1197.method8311(1798723961))) {
+					int i_17_ = 2083602213 * class536_sub26.value;
 					int i_18_ = ((class543.anIntArray7235[i_17_] >> 14 & 0x3fff) - 1858049507 * class598.anInt7839);
 					int i_19_ = ((class543.anIntArray7235[i_17_] & 0x3fff) - class598.anInt7840 * 1479112045);
 					int i_20_ = 2 + i_18_ * 4 - i_11_ / 128;

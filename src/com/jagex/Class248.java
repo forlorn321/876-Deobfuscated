@@ -57,10 +57,10 @@ public class Class248 implements DefinitionI {
 	public int method3427(int i, int i_0_) {
 		if (null == aClass4_2501)
 			return i_0_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2501.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2501.method556((long) i);
 		if (null == class536_sub26)
 			return i_0_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	void method3428(RSByteBuffer class536_sub33, int i) {
@@ -99,7 +99,7 @@ public class Class248 implements DefinitionI {
 			int i_2_ = class536_sub33.readUnsignedByte();
 			anIntArray2497 = new int[2 * i_2_];
 			for (int i_3_ = 0; i_3_ < i_2_ * 2; i_3_++)
-				anIntArray2497[i_3_] = class536_sub33.readShort((byte) -91);
+				anIntArray2497[i_3_] = class536_sub33.readShort();
 			anInt2509 = class536_sub33.readInt() * 1612502845;
 			int i_4_ = class536_sub33.readUnsignedByte();
 			anIntArray2519 = new int[i_4_];
@@ -134,8 +134,8 @@ public class Class248 implements DefinitionI {
 			anInt2513 = class536_sub33.readUnsignedByte() * 1973839709;
 			anInt2514 = class536_sub33.readUnsignedByte() * -1112294055;
 		} else if (24 == i) {
-			anInt2515 = class536_sub33.readShort((byte) -54) * 896394271;
-			anInt2499 = class536_sub33.readShort((byte) -113) * -49190051;
+			anInt2515 = class536_sub33.readShort() * 896394271;
+			anInt2499 = class536_sub33.readShort() * -49190051;
 		} else if (25 == i)
 			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
@@ -176,9 +176,9 @@ public class Class248 implements DefinitionI {
 				int i_13_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_2501.method560(class536, (long) i_13_);
 			}
 		}
@@ -319,7 +319,7 @@ public class Class248 implements DefinitionI {
 			int i_22_ = class536_sub33.readUnsignedByte();
 			anIntArray2497 = new int[2 * i_22_];
 			for (int i_23_ = 0; i_23_ < i_22_ * 2; i_23_++)
-				anIntArray2497[i_23_] = class536_sub33.readShort((byte) -121);
+				anIntArray2497[i_23_] = class536_sub33.readShort();
 			anInt2509 = class536_sub33.readInt() * 1612502845;
 			int i_24_ = class536_sub33.readUnsignedByte();
 			anIntArray2519 = new int[i_24_];
@@ -354,8 +354,8 @@ public class Class248 implements DefinitionI {
 			anInt2513 = class536_sub33.readUnsignedByte() * 1973839709;
 			anInt2514 = class536_sub33.readUnsignedByte() * -1112294055;
 		} else if (24 == i) {
-			anInt2515 = class536_sub33.readShort((byte) -20) * 896394271;
-			anInt2499 = class536_sub33.readShort((byte) -30) * -49190051;
+			anInt2515 = class536_sub33.readShort() * 896394271;
+			anInt2499 = class536_sub33.readShort() * -49190051;
 		} else if (25 == i)
 			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
@@ -396,9 +396,9 @@ public class Class248 implements DefinitionI {
 				int i_33_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_2501.method560(class536, (long) i_33_);
 			}
 		}
@@ -407,10 +407,10 @@ public class Class248 implements DefinitionI {
 	public String method3434(int i, String string, byte i_34_) {
 		if (aClass4_2501 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2501.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_2501.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public final Class248 method3435(Interface20 interface20, Interface18 interface18, int i) {
@@ -504,7 +504,7 @@ public class Class248 implements DefinitionI {
 			int i_40_ = class536_sub33.readUnsignedByte();
 			anIntArray2497 = new int[2 * i_40_];
 			for (int i_41_ = 0; i_41_ < i_40_ * 2; i_41_++)
-				anIntArray2497[i_41_] = class536_sub33.readShort((byte) -18);
+				anIntArray2497[i_41_] = class536_sub33.readShort();
 			anInt2509 = class536_sub33.readInt() * 1612502845;
 			int i_42_ = class536_sub33.readUnsignedByte();
 			anIntArray2519 = new int[i_42_];
@@ -539,8 +539,8 @@ public class Class248 implements DefinitionI {
 			anInt2513 = class536_sub33.readUnsignedByte() * 1973839709;
 			anInt2514 = class536_sub33.readUnsignedByte() * -1112294055;
 		} else if (24 == i) {
-			anInt2515 = class536_sub33.readShort((byte) -79) * 896394271;
-			anInt2499 = class536_sub33.readShort((byte) -62) * -49190051;
+			anInt2515 = class536_sub33.readShort() * 896394271;
+			anInt2499 = class536_sub33.readShort() * -49190051;
 		} else if (25 == i)
 			anInt2525 = class536_sub33.readBigSmart() * -1823971701;
 		else if (26 == i || i == 27) {
@@ -581,9 +581,9 @@ public class Class248 implements DefinitionI {
 				int i_51_ = class536_sub33.read24BitUnsignedInteger();
 				Class536 class536;
 				if (bool)
-					class536 = new Class536_Sub13(class536_sub33.readString());
+					class536 = new ObjectParam(class536_sub33.readString());
 				else
-					class536 = new Class536_Sub26(class536_sub33.readInt());
+					class536 = new IntParam(class536_sub33.readInt());
 				aClass4_2501.method560(class536, (long) i_51_);
 			}
 		}
@@ -592,10 +592,10 @@ public class Class248 implements DefinitionI {
 	public int method3437(int i, int i_52_, byte i_53_) {
 		if (null == aClass4_2501)
 			return i_52_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2501.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2501.method556((long) i);
 		if (null == class536_sub26)
 			return i_52_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public Class143 method3438(Class167 class167) {
@@ -627,37 +627,37 @@ public class Class248 implements DefinitionI {
 	public int method3440(int i, int i_54_) {
 		if (null == aClass4_2501)
 			return i_54_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2501.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2501.method556((long) i);
 		if (null == class536_sub26)
 			return i_54_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public int method3441(int i, int i_55_) {
 		if (null == aClass4_2501)
 			return i_55_;
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_2501.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_2501.method556((long) i);
 		if (null == class536_sub26)
 			return i_55_;
-		return 2083602213 * class536_sub26.anInt10533;
+		return 2083602213 * class536_sub26.value;
 	}
 
 	public String method3442(int i, String string) {
 		if (aClass4_2501 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2501.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_2501.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	public String method3443(int i, String string) {
 		if (aClass4_2501 == null)
 			return string;
-		Class536_Sub13 class536_sub13 = (Class536_Sub13) aClass4_2501.method556((long) i);
+		ObjectParam class536_sub13 = (ObjectParam) aClass4_2501.method556((long) i);
 		if (class536_sub13 == null)
 			return string;
-		return (String) class536_sub13.anObject10468;
+		return (String) class536_sub13.value;
 	}
 
 	Class248(int i, Interface12 interface12, Class247 class247) {
@@ -714,7 +714,7 @@ public class Class248 implements DefinitionI {
 	}
 
 	static final void method3446(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
-		class251.anInt2636 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1355450591;
+		class251.fontId = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1355450591;
 		Class668.method8011(class251, 263642117);
 		if (-809980533 * class251.anInt2546 == -1 && !class234.aBool2379)
 			Class34_Sub12.method10335(class251.anInt2559 * -1591767037, 1933001832);

@@ -1187,7 +1187,7 @@ public class Class61 {
 			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
 		for (int i = 0; i < -1683770117 * client.anInt11164; i++) {
-			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].anObject10468);
+			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].value);
 			if (class649_sub1_sub5_sub1 != null)
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
@@ -1219,7 +1219,7 @@ public class Class61 {
 			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
 		for (int i = 0; i < -1683770117 * client.anInt11164; i++) {
-			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].anObject10468);
+			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].value);
 			if (class649_sub1_sub5_sub1 != null)
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}
@@ -1251,7 +1251,7 @@ public class Class61 {
 			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
 		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
 		for (int i = 0; i < -1683770117 * client.anInt11164; i++) {
-			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].anObject10468);
+			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i].value);
 			if (class649_sub1_sub5_sub1 != null)
 				class649_sub1_sub5_sub1.anInt11911 = 16791139;
 		}

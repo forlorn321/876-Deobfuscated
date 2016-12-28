@@ -17,7 +17,7 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -110) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 
 	public void method74(RSByteBuffer class536_sub33, int i) {
@@ -76,7 +76,7 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -61) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 
 	void method1180(RSByteBuffer class536_sub33, int i) {
@@ -87,7 +87,7 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -4) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 
 	void method1181(RSByteBuffer class536_sub33, int i) {
@@ -98,7 +98,7 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -32) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 
 	void method1182(RSByteBuffer class536_sub33, int i) {
@@ -109,7 +109,7 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -111) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 
 	void method1183(RSByteBuffer class536_sub33, int i) {
@@ -120,6 +120,6 @@ public class Class84 implements DefinitionI, Interface7 {
 		else if (i == 3)
 			anInt866 = class536_sub33.readUnsignedShort() * -563225365;
 		else if (4 == i)
-			anInt865 = class536_sub33.readShort((byte) -28) * 1858377877;
+			anInt865 = class536_sub33.readShort() * 1858377877;
 	}
 }

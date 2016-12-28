@@ -85,7 +85,7 @@ public class Class87 {
 				int i_12_;
 				int i_13_;
 				if (i > 2) {
-					anInt874 = class536_sub33.readShort((byte) -30) * -252218945;
+					anInt874 = class536_sub33.readShort() * -252218945;
 					i_12_ = class536_sub33.read24BitUnsignedInteger();
 					i_13_ = class536_sub33.readUnsignedShort();
 				} else {

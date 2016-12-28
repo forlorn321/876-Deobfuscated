@@ -39,10 +39,10 @@ public class Class501 {
 
 	public static void method6033(InterfaceDefinitions class251, int i, int i_4_, int i_5_) {
 		if (class251 != null) {
-			if (class251.anObjectArray2740 != null) {
+			if (class251.onTargetEnterHook != null) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
-				class536_sub42.anObjectArray10802 = class251.anObjectArray2740;
+				class536_sub42.anObjectArray10802 = class251.onTargetEnterHook;
 				Class618.method7388(class536_sub42, -1184053981);
 			}
 			client.aBool11188 = true;

@@ -131,6 +131,6 @@ public class Class98_Sub1_Sub2 extends Class98_Sub1 implements Interface12 {
 	}
 
 	static final void method10505(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aString2566 = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		class251.pauseText = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 	}
 }

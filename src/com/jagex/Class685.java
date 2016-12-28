@@ -35,7 +35,7 @@ public final class Class685 {
 	}
 
 	static final void method8111(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2713 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1993579121;
+		class251.mouseOverCursor = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * 1993579121;
 	}
 
 	static final void method8112(long l) {

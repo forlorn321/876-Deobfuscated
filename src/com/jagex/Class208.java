@@ -124,8 +124,8 @@ class Class208 implements Interface55 {
 
 	static final void method2968(InterfaceDefinitions class251, Class234 class234, Class668 class668, short i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
-		if (!string.equals(class251.aString2638)) {
-			class251.aString2638 = string;
+		if (!string.equals(class251.text)) {
+			class251.text = string;
 			Class668.method8011(class251, 263642117);
 		}
 		if (-1 == -809980533 * class251.anInt2546 && !class234.aBool2379)
@@ -136,8 +136,8 @@ class Class208 implements Interface55 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -1769800149) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2705 = Class33.method796(string, class668, (short) 10589);
-		class251.aBool2666 = true;
+		class251.onOpHook = Class33.method796(string, class668, (short) 10589);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method2970(Class668 class668, int i) {
@@ -148,8 +148,8 @@ class Class208 implements Interface55 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -524483587) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2697 = Class33.method796(string, class668, (short) 4172);
-		class251.aBool2666 = true;
+		class251.onFriendTransmitHook = Class33.method796(string, class668, (short) 4172);
+		class251.hasComponentHook = true;
 	}
 
 	public static final void method2972(int i) {

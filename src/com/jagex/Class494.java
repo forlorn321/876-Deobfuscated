@@ -96,9 +96,9 @@ public class Class494 {
 								int i_25_ = ((int) class436.aFloat4850 - (class649_sub1_sub5_sub1_sub2.method10874() - 1 << 8));
 								int i_26_ = ((int) class436.aFloat4853 - (class649_sub1_sub5_sub1_sub2.method10874() - 1 << 8));
 								for (int i_27_ = 0; i_27_ < client.anInt11053 * -664631943; i_27_++) {
-									Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) client.anIntArray11211[i_27_])));
+									ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) client.anIntArray11211[i_27_])));
 									if (class536_sub13 != null) {
-										NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.anObject10468);
+										NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
 										if ((client.cycles != (class649_sub1_sub5_sub1_sub1.anInt11897) * -1388995997) && (class649_sub1_sub5_sub1_sub1.aBool11894)) {
 											Class436 class436_28_ = (class649_sub1_sub5_sub1_sub1.method7837().aClass436_4823);
 											int i_29_ = ((int) (class436_28_.aFloat4850) - (((class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272) * 830254667 - 1) << 8));
@@ -138,9 +138,9 @@ public class Class494 {
 									int i_37_ = ((int) class436.aFloat4850 - (((830254667 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272)) - 1) << 8));
 									int i_38_ = ((int) class436.aFloat4853 - (((830254667 * (class649_sub1_sub5_sub1_sub1.aClass296_12174.anInt3272)) - 1) << 8));
 									for (int i_39_ = 0; (i_39_ < client.anInt11053 * -664631943); i_39_++) {
-										Class536_Sub13 class536_sub13 = ((Class536_Sub13) (client.aClass4_11050.method556((long) client.anIntArray11211[i_39_])));
+										ObjectParam class536_sub13 = ((ObjectParam) (client.aClass4_11050.method556((long) client.anIntArray11211[i_39_])));
 										if (class536_sub13 != null) {
-											NPC class649_sub1_sub5_sub1_sub1_40_ = ((NPC) (class536_sub13.anObject10468));
+											NPC class649_sub1_sub5_sub1_sub1_40_ = ((NPC) (class536_sub13.value));
 											if (((-1388995997 * (class649_sub1_sub5_sub1_sub1_40_.anInt11897)) != client.cycles) && (class649_sub1_sub5_sub1_sub1 != class649_sub1_sub5_sub1_sub1_40_) && (class649_sub1_sub5_sub1_sub1_40_.aBool11894)) {
 												Class436 class436_41_ = (class649_sub1_sub5_sub1_sub1_40_.method7837().aClass436_4823);
 												int i_42_ = ((int) (class436_41_.aFloat4850) - ((830254667 * (class649_sub1_sub5_sub1_sub1_40_.aClass296_12174.anInt3272)) - 1 << 8));

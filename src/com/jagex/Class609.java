@@ -33,10 +33,10 @@ public class Class609 implements Interface75 {
 	public static void method7262(InterfaceDefinitions[] class251s, byte i) {
 		for (int i_0_ = 0; i_0_ < class251s.length; i_0_++) {
 			InterfaceDefinitions class251 = class251s[i_0_];
-			if (class251.anObjectArray2667 != null) {
+			if (class251.onLoadHook != null) {
 				Class536_Sub42 class536_sub42 = new Class536_Sub42();
 				class536_sub42.aClass251_10804 = class251;
-				class536_sub42.anObjectArray10802 = class251.anObjectArray2667;
+				class536_sub42.anObjectArray10802 = class251.onLoadHook;
 				Class277.method3753(class536_sub42, 5000000, -83407901);
 			}
 		}

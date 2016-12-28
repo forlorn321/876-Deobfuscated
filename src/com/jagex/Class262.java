@@ -144,16 +144,16 @@ public class Class262 {
 			if (npcIndex == 32767)
 				break;
 			boolean bool = false;
-			Class536_Sub13 class536_sub13 = (Class536_Sub13) client.aClass4_11050.method556((long) npcIndex);
+			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) npcIndex);
 			if (class536_sub13 == null) {
 				NPC class649_sub1_sub5_sub1_sub1 = (new NPC(client.aClass515_11066.method6249(2074504345)));
 				class649_sub1_sub5_sub1_sub1.anInt11889 = 675537735 * npcIndex;
-				class536_sub13 = new Class536_Sub13(class649_sub1_sub5_sub1_sub1);
+				class536_sub13 = new ObjectParam(class649_sub1_sub5_sub1_sub1);
 				client.aClass4_11050.method560(class536_sub13, (long) npcIndex);
 				client.aClass536_Sub13Array11044[(client.anInt11164 += -255707597) * -1683770117 - 1] = class536_sub13;
 				bool = true;
 			}
-			NPC npc = (NPC) class536_sub13.anObject10468;
+			NPC npc = (NPC) class536_sub13.value;
 			client.anIntArray11211[(client.anInt11053 += -1094331191) * -664631943 - 1] = npcIndex;
 			npc.anInt11934 = client.anInt11124 * 1266166429;
 			if (npc.aClass296_12174 != null && npc.aClass296_12174.method3986(-198439992))

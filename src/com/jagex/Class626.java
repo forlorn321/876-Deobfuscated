@@ -84,29 +84,29 @@ public class Class626 {
 	}
 
 	static int method7457(int i) {
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_8158.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_8158.method556((long) i);
 		if (null == class536_sub26) {
 			Class393 class393 = Class532.anInterface46_7121.method333(i, 2113019060);
 			if (class393 == null || 2 != class393.anInt4087 * -1267717877)
 				return -1;
-			class536_sub26 = new Class536_Sub26(anInt8164 * -1289969367);
+			class536_sub26 = new IntParam(anInt8164 * -1289969367);
 			aClass4_8158.method560(class536_sub26, (long) i);
 			aClass393Array8163[(anInt8164 += 1216056089) * -1289969367 - 1] = class393;
 		}
-		return class536_sub26.anInt10533 * 2083602213;
+		return class536_sub26.value * 2083602213;
 	}
 
 	static int method7458(int i) {
-		Class536_Sub26 class536_sub26 = (Class536_Sub26) aClass4_8158.method556((long) i);
+		IntParam class536_sub26 = (IntParam) aClass4_8158.method556((long) i);
 		if (null == class536_sub26) {
 			Class393 class393 = Class532.anInterface46_7121.method333(i, 2023258485);
 			if (class393 == null || 2 != class393.anInt4087 * -1267717877)
 				return -1;
-			class536_sub26 = new Class536_Sub26(anInt8164 * -1289969367);
+			class536_sub26 = new IntParam(anInt8164 * -1289969367);
 			aClass4_8158.method560(class536_sub26, (long) i);
 			aClass393Array8163[(anInt8164 += 1216056089) * -1289969367 - 1] = class393;
 		}
-		return class536_sub26.anInt10533 * 2083602213;
+		return class536_sub26.value * 2083602213;
 	}
 
 	static final void method7459(Class668 class668, byte i) {

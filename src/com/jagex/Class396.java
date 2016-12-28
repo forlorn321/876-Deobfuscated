@@ -61,7 +61,7 @@ public class Class396 implements Interface46 {
 			for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8308(1867269829)); null != class536_sub18_sub9; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8311(1035509369))) {
 				int i_1_ = class536_sub18_sub9.anInt11718 * -517484763;
 				if (i_1_ < 1000) {
-					class536_sub18_sub9.method6484(-169064388);
+					class536_sub18_sub9.method6484();
 					if (i_1_ == 59 || 2 == i_1_ || i_1_ == 8 || i_1_ == 17 || i_1_ == 15 || 16 == i_1_ || 58 == i_1_)
 						Class70.aClass708_790.method8335(class536_sub18_sub9, -675256784);
 					else

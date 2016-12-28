@@ -51,7 +51,7 @@ public class Class627 {
 		while (iterator.hasNext()) {
 			Class536_Sub37 class536_sub37 = (Class536_Sub37) iterator.next();
 			if (class536_sub37.aClass393_10636.anInt4087 * -1267717877 == 1)
-				class536_sub37.method6484(1166594488);
+				class536_sub37.method6484();
 		}
 		for (int i = 0; i < aClass521_Sub2_Sub1_Sub1Array8170.length; i++) {
 			if (aClass521_Sub2_Sub1_Sub1Array8170[i] != null) {
@@ -146,7 +146,7 @@ public class Class627 {
 		while (iterator.hasNext()) {
 			Class536_Sub37 class536_sub37 = (Class536_Sub37) iterator.next();
 			if (class536_sub37.aClass393_10636.anInt4087 * -1267717877 == 1)
-				class536_sub37.method6484(1055442339);
+				class536_sub37.method6484();
 		}
 		for (int i = 0; i < aClass521_Sub2_Sub1_Sub1Array8170.length; i++) {
 			if (aClass521_Sub2_Sub1_Sub1Array8170[i] != null) {
@@ -233,10 +233,10 @@ public class Class627 {
 				}
 			}
 			if (!bool) {
-				class536_sub37.method6484(-659478812);
+				class536_sub37.method6484();
 				anInt8182--;
 				if (class536_sub37.method6487((byte) -103)) {
-					class536_sub37.method6484(1063149517);
+					class536_sub37.method6484();
 					Class626.anInt8166 -= -1754799671;
 				}
 			}

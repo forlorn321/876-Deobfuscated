@@ -38,8 +38,8 @@ public class Class390 {
 		int i_0_ = class536_sub33.readBigSmart();
 		Class395 class395 = (Class333_Sub3.method9230(1586724215)[class536_sub33.readUnsignedByte()]);
 		Class399 class399 = (Class266.method3692(878827744)[class536_sub33.readUnsignedByte()]);
-		int i_1_ = class536_sub33.readShort((byte) -36);
-		int i_2_ = class536_sub33.readShort((byte) -37);
+		int i_1_ = class536_sub33.readShort();
+		int i_2_ = class536_sub33.readShort();
 		return new Class398(i_0_, class395, class399, i_1_, i_2_);
 	}
 
@@ -57,25 +57,25 @@ public class Class390 {
 			Class616.method7338(class251.anInt2559 * -1591767037, (byte) 119);
 		}
 		if (-1 == i_4_) {
-			class251.anInt2601 = -1782707337;
-			class251.anInt2602 = -1639447419;
+			class251.modelType = -1782707337;
+			class251.modelId = -1639447419;
 			class251.anInt2711 = 180322533;
 		} else {
 			class251.anInt2711 = i_4_ * -180322533;
 			class251.anInt2712 = -1232317485 * i_5_;
 			class251.aBool2671 = bool;
 			ItemDefinitions class1 = ((ItemDefinitions) Class111.aClass34_Sub13_1391.method70(i_4_, (byte) -108));
-			class251.anInt2551 = -1128581953 * class1.modelRotation1;
-			class251.anInt2547 = -1144059129 * class1.modelRotation2;
-			class251.anInt2609 = 497715903 * class1.anInt31;
+			class251.xan2d = -1128581953 * class1.modelRotation1;
+			class251.yan2d = -1144059129 * class1.modelRotation2;
+			class251.zan2d = 497715903 * class1.anInt31;
 			class251.anInt2658 = -626830593 * class1.modelOffset1;
 			class251.anInt2606 = class1.modelOffset2 * 598613137;
-			class251.anInt2613 = class1.modelZoom * -1637174665;
+			class251.zoom2d = class1.modelZoom * -1637174665;
 			class251.anInt2595 = i * -680399271;
 			if (class251.anInt2614 * -555385111 > 0)
-				class251.anInt2613 = (1235581280 * class251.anInt2613 / (-555385111 * class251.anInt2614) * -1926815261);
-			else if (class251.anInt2569 * 101683265 > 0)
-				class251.anInt2613 = (1235581280 * class251.anInt2613 / (101683265 * class251.anInt2569) * -1926815261);
+				class251.zoom2d = (1235581280 * class251.zoom2d / (-555385111 * class251.anInt2614) * -1926815261);
+			else if (class251.sizeX * 101683265 > 0)
+				class251.zoom2d = (1235581280 * class251.zoom2d / (101683265 * class251.sizeX) * -1926815261);
 		}
 	}
 

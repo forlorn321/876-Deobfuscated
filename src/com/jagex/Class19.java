@@ -54,7 +54,7 @@ public class Class19 implements Interface75 {
 	}
 
 	static final void method692(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.anInt2590 = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1272549053;
+		class251.lineWidth = class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)] * -1272549053;
 		Class668.method8011(class251, 263642117);
 	}
 }

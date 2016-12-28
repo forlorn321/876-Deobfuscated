@@ -600,7 +600,7 @@ public abstract class Class184 {
 				if (i_177_ < i_175_)
 					class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_177_]]);
 				else {
-					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((Class536_Sub13) (client.aClass4_11050.method556((long) client.anIntArray11211[i_177_ - i_175_]))).anObject10468));
+					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) (client.aClass4_11050.method556((long) client.anIntArray11211[i_177_ - i_175_]))).value));
 					class296 = ((NPC) class649_sub1_sub5_sub1).aClass296_12174;
 					if (null != class296.anIntArray3304) {
 						class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -95);
@@ -1053,13 +1053,13 @@ public abstract class Class184 {
 			if (i_278_ < 2048)
 				class649_sub1_sub5_sub1 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_278_];
 			else
-				class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((Class536_Sub13) client.aClass4_11050.method556((long) (i_278_ - 2048))).anObject10468));
+				class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) client.aClass4_11050.method556((long) (i_278_ - 2048))).value));
 			int i_279_ = client.anIntArray11129[i_277_];
 			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1_280_;
 			if (i_279_ < 2048)
 				class649_sub1_sub5_sub1_280_ = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_279_];
 			else
-				class649_sub1_sub5_sub1_280_ = ((Class649_Sub1_Sub5_Sub1) (((Class536_Sub13) client.aClass4_11050.method556((long) (i_279_ - 2048))).anObject10468));
+				class649_sub1_sub5_sub1_280_ = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) client.aClass4_11050.method556((long) (i_279_ - 2048))).value));
 			Class206.method2962(class649_sub1_sub5_sub1, class649_sub1_sub5_sub1_280_, (class649_sub1_sub5_sub1.anInt11896 -= -2104510915) * -1991503595, i, i_169_, i_170_, i_171_, i_172_, i_173_, 355273862);
 		}
 		int i_281_ = 2 + (1780869003 * Class260.aClass2_2840.anInt92 + Class260.aClass2_2840.anInt91 * -1214764847);

@@ -84,7 +84,7 @@ public class Class536_Sub18_Sub1 extends Class536_Sub18 implements DefinitionI, 
 	}
 
 	static final void method10479(InterfaceDefinitions class251, Class234 class234, Class668 class668, byte i) {
-		class251.aBool2637 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.fontMono = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 		if (-1 == class251.anInt2546 * -809980533 && !class234.aBool2379)
 			Class665.method8001(class251.anInt2559 * -1591767037, (byte) -19);

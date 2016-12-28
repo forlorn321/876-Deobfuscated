@@ -123,6 +123,6 @@ public class Class401 {
 	static void method4921(int i, boolean bool, byte i_1_) {
 		Class536_Sub1 class536_sub1 = Class659.method7970(i, bool, -1368581125);
 		if (null != class536_sub1)
-			class536_sub1.method6484(1105128493);
+			class536_sub1.method6484();
 	}
 }

@@ -54,8 +54,8 @@ public abstract class Class567 {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		if (Class510.method6183(string, class668, -504840433) != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2676 = Class33.method796(string, class668, (short) 5827);
-		class251.aBool2666 = true;
+		class251.onDragCompleteHook = Class33.method796(string, class668, (short) 5827);
+		class251.hasComponentHook = true;
 	}
 
 	static final void method6916(Class668 class668, int i) {

@@ -41,6 +41,6 @@ public class Class524 {
 	}
 
 	static final void method6409(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aString2665 = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
+		class251.targetVerb = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 	}
 }

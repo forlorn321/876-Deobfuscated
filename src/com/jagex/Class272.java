@@ -41,7 +41,7 @@ public class Class272 {
 		if (null != Class542_Sub1.aClass4_10720) {
 			Class536 class536 = Class542_Sub1.aClass4_10720.method556((long) i_2_);
 			if (class536 != null && !bool)
-				class536.method6484(-1397462497);
+				class536.method6484();
 			else if (class536 == null && bool) {
 				class536 = new Class536();
 				Class542_Sub1.aClass4_10720.method560(class536, (long) i_2_);

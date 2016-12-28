@@ -2604,7 +2604,7 @@ public class Class499 implements Interface9 {
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);
 					class536_sub3.aClass479_10389 = null;
 				}
-				class536_sub3.method6484(-871007635);
+				class536_sub3.method6484();
 				break;
 			}
 		}

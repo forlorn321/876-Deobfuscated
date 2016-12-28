@@ -13,7 +13,7 @@ public class Class34_Sub20 extends Class34 {
 	}
 
 	static final void method10364(InterfaceDefinitions class251, Class234 class234, Class668 class668, int i) {
-		class251.aBool2598 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
+		class251.hFlip = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		Class668.method8011(class251, 263642117);
 	}
 }

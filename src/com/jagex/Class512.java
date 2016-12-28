@@ -329,8 +329,8 @@ public class Class512 {
 		int[] is = Class510.method6183(string, class668, -564863261);
 		if (is != null)
 			string = string.substring(0, string.length() - 1);
-		class251.anObjectArray2679 = Class33.method796(string, class668, (short) -7169);
-		class251.anIntArray2680 = is;
-		class251.aBool2666 = true;
+		class251.onVarTransmitHook = Class33.method796(string, class668, (short) -7169);
+		class251.varTransmitList = is;
+		class251.hasComponentHook = true;
 	}
 }
