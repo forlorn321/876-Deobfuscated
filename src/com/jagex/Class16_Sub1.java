@@ -14,7 +14,7 @@ public class Class16_Sub1 extends Class16 {
 		return new ItemDefinitions(i, interface12, this);
 	}
 
-	Class16_Sub1(Class670 class670, Class664 class664, boolean bool, Class461 class461, Interface12 interface12) {
+	Class16_Sub1(GameMode class670, Class664 class664, boolean bool, Class461 class461, Interface12 interface12) {
 		super(class670, class664, bool, class461, interface12);
 	}
 

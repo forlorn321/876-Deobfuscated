@@ -92,11 +92,11 @@ public abstract class Class645 {
 			Class69.method1091(true, (short) 128);
 			i_4_ = 1;
 		}
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1104839862) != i) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), i, (byte) 1);
+		if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() != i) {
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), i, (byte) 1);
 			Class704.method8264(i, false, (byte) 50);
 		} else
-			Class710.aClass536_Sub40_8843.method9858((Class710.aClass536_Sub40_8843.aClass710_Sub15_10767), true, (byte) -40);
+			ClientSetting.aClass536_Sub40_8843.method9858((ClientSetting.aClass536_Sub40_8843.toolkit), true, (byte) -40);
 		Class27.method763(1968136931);
 		class67_sub1.method9794(i_4_, -1641162333);
 	}

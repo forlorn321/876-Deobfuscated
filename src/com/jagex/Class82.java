@@ -70,9 +70,9 @@ public class Class82 {
 		method1167(new RSByteBuffer(is), -53320811);
 	}
 
-	static Class536_Sub40 method1170(int i) {
+	static ClientSettings method1170(int i) {
 		Class6 class6 = null;
-		Class536_Sub40 class536_sub40 = new Class536_Sub40(client.aClass670_11043, 0);
+		ClientSettings class536_sub40 = new ClientSettings(client.aClass670_11043, 0);
 		try {
 			class6 = Class153_Sub1.method8383("", client.aClass670_11043.aString8573, false, 2116348009);
 			byte[] is = new byte[(int) class6.method586(917143623)];
@@ -82,7 +82,7 @@ public class Class82 {
 				if (-1 == i_8_)
 					throw new IOException();
 			}
-			class536_sub40 = new Class536_Sub40(new RSByteBuffer(is), client.aClass670_11043, 0);
+			class536_sub40 = new ClientSettings(new RSByteBuffer(is), client.aClass670_11043, 0);
 		} catch (Exception exception) {
 			/* empty */
 		}

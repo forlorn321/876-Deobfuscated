@@ -3,11 +3,11 @@
  */
 package com.jagex;
 
-public class Class710_Sub23 extends Class710 {
+public class AnimationDetailSetting extends ClientSetting {
 	public static final int anInt10878 = 1;
 	public static final int anInt10879 = 0;
 
-	public Class710_Sub23(int i, Class536_Sub40 class536_sub40) {
+	public AnimationDetailSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -93,7 +93,7 @@ public class Class710_Sub23 extends Class710 {
 		return -789865385 * anInt8842;
 	}
 
-	public Class710_Sub23(Class536_Sub40 class536_sub40) {
+	public AnimationDetailSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

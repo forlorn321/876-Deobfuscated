@@ -186,7 +186,7 @@ public class Class11 implements Interface70 {
 			}
 			if (class296.aBool3287) {
 				if (class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673 != 0) {
-					String string_10_ = (client.aClass670_11043 == Class670.aClass670_8575 ? Class38.aClass38_441.method840((Class459.aClass664_5178), 1511247488) : Class38.aClass38_480.method840((Class459.aClass664_5178), 2072030078));
+					String string_10_ = (client.aClass670_11043 == GameMode.aClass670_8575 ? Class38.aClass38_441.method840((Class459.aClass664_5178), 1511247488) : Class38.aClass38_480.method840((Class459.aClass664_5178), 2072030078));
 					string = new StringBuilder().append(string).append(Class457.method5492((class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673), (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -2045963405)).append(Class40.aString493).append(string_10_).append(400189673 * class649_sub1_sub5_sub1_sub1.anInt12160).append(Class40.aString494).toString();
 				}
 				if (client.aBool11188 && !bool) {

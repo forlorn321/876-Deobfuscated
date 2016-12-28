@@ -141,7 +141,7 @@ class Class208 implements Interface55 {
 	}
 
 	static final void method2970(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(1824836319);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9916();
 	}
 
 	static final void method2971(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {

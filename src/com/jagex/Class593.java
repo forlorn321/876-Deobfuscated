@@ -195,7 +195,7 @@ public class Class593 {
 			Class585.method7051(class668, -1288173967);
 			break;
 		case 918:
-			Class710_Sub3.method9900(class668, 365037652);
+			WaterDetailSetting.method9900(class668, 365037652);
 			break;
 		case 482:
 			Class317.method4226(class668, (byte) -77);
@@ -804,7 +804,7 @@ public class Class593 {
 			method7124(class668, -102195103);
 			break;
 		case 242:
-			Class639.method7662(class668, 1695544345);
+			ColourUtils.method7662(class668, 1695544345);
 			break;
 		case 204:
 			Class575.method6997(class668, (byte) 1);
@@ -813,7 +813,7 @@ public class Class593 {
 			Class205_Sub7.method9061(class668, (byte) 9);
 			break;
 		case 763:
-			Class710_Sub10.method10021(class668, (byte) 26);
+			SpotShadowSetting.method10021(class668, (byte) 26);
 			break;
 		case 542:
 			Class374.method4783(class668, 2013262118);
@@ -1116,7 +1116,7 @@ public class Class593 {
 			Class567.method6917(class668, (byte) 51);
 			break;
 		case 185:
-			Class710_Sub35.method10216(class668, (byte) 121);
+			SoundVolumeSetting.method10216(class668, (byte) 121);
 			break;
 		case 775:
 			Class482.method5835(class668, 294953677);
@@ -1209,7 +1209,7 @@ public class Class593 {
 			Class641.method7684(class668, 1294716896);
 			break;
 		case 591:
-			Class639.method7665(class668, (short) -9103);
+			ColourUtils.method7665(class668, (short) -9103);
 			break;
 		case 1066:
 			Class454.method5462(class668, 1316603396);
@@ -1302,7 +1302,7 @@ public class Class593 {
 			Class612.method7314(class668, 319675571);
 			break;
 		case 402:
-			Class710_Sub9.method10011(class668, -426371588);
+			ShadowSetting.method10011(class668, -426371588);
 			break;
 		case 634:
 			Class296.method4002(class668, 399699509);
@@ -1428,7 +1428,7 @@ public class Class593 {
 			Class212.method3069(class668, -1574917498);
 			break;
 		case 49:
-			Class639.method7663(class668, 1741592726);
+			ColourUtils.method7663(class668, 1741592726);
 			break;
 		case 1153:
 			Class202.method2924(class668, (byte) -75);
@@ -1593,7 +1593,7 @@ public class Class593 {
 			Class260.method3620(class668, 2034110814);
 			break;
 		case 530:
-			Class536_Sub40.method9870(class668, (byte) 126);
+			ClientSettings.method9870(class668, (byte) 126);
 			break;
 		case 762:
 			Class210.method2981(class668, (short) 26892);
@@ -1695,7 +1695,7 @@ public class Class593 {
 			Class55.method956(class668, (byte) -20);
 			break;
 		case 1094:
-			Class710_Sub13.method10050(class668, (byte) 91);
+			BrightnessSetting.method10050(class668, (byte) 91);
 			break;
 		case 282:
 			Class398.method4901(class668, 1537698259);
@@ -1764,7 +1764,7 @@ public class Class593 {
 			Class269.method3712(class668, 2132999391);
 			break;
 		case 843:
-			Class710_Sub9.method10010(class668, 913307477);
+			ShadowSetting.method10010(class668, 913307477);
 			break;
 		case 900:
 			Class153_Sub1.method8385(class668, 1011111925);
@@ -1791,7 +1791,7 @@ public class Class593 {
 			Class561.method6847(class668, -1724466837);
 			break;
 		case 1250:
-			Class639.method7666(class668, 452842640);
+			ColourUtils.method7666(class668, 452842640);
 			break;
 		case 378:
 			ChunkSceneSubPackets.method4974(class668, (byte) 0);
@@ -2004,7 +2004,7 @@ public class Class593 {
 			Class231.method3319(class668, -855261630);
 			break;
 		case 1160:
-			Class710_Sub15.method10078(class668, -1103609760);
+			ToolkitSetting.method10078(class668, -1103609760);
 			break;
 		case 961:
 			Class516.method6326(class668, 34336);
@@ -2553,7 +2553,7 @@ public class Class593 {
 			Class264.method3675(class668, -664627230);
 			break;
 		case 130:
-			Class670.method8013(class668, (byte) 15);
+			GameMode.method8013(class668, (byte) 15);
 			break;
 		case 149:
 			Class405.method4944(class668, 1141507807);
@@ -2702,7 +2702,7 @@ public class Class593 {
 			Class537.method6505(class668, (byte) -25);
 			break;
 		case 46:
-			Class705.method8274(class668, -1026600667);
+			CircularBuffer.method8274(class668, -1026600667);
 			break;
 		case 83:
 			Class381.method4820(class668, 1010845362);
@@ -2786,7 +2786,7 @@ public class Class593 {
 			Class678.method8056(class668, (byte) 121);
 			break;
 		case 906:
-			Class710_Sub7.method9936(class668, 1034008067);
+			GroundDecorationSetting.method9936(class668, 1034008067);
 			break;
 		case 573:
 			Class8.method603(class668, 575130754);
@@ -2822,7 +2822,7 @@ public class Class593 {
 			Class279.method3760(class668, 1609206936);
 			break;
 		case 437:
-			Class710_Sub3.method9901(class668, 2027693981);
+			WaterDetailSetting.method9901(class668, 2027693981);
 			break;
 		case 924:
 			Class219.method3104(class668, 74569975);
@@ -3407,7 +3407,7 @@ public class Class593 {
 			Class507.method6169(class668, 650327106);
 			break;
 		case 579:
-			Class505.method6137(class668, 1891024563);
+			GameShell.method6137(class668, 1891024563);
 			break;
 		case 365:
 			Class614.method7321(class668, -1740906961);
@@ -3887,7 +3887,7 @@ public class Class593 {
 			Class512.method6213(class668, -1292050669);
 			break;
 		case 57:
-			Class705.method8273(class668, (byte) 1);
+			CircularBuffer.method8273(class668, (byte) 1);
 			break;
 		case 228:
 			Class49.method925(class668, -1222723827);

@@ -41,11 +41,11 @@ public class Class444 implements Interface5 {
 	}
 
 	public static final void method5392(int i) {
-		Class505.aClass504_6883.method6059(1474485579);
+		GameShell.aClass504_6883.method6059(1474485579);
 		for (int i_0_ = 0; i_0_ < 32; i_0_++)
-			Class505.aLongArray6860[i_0_] = 0L;
+			GameShell.aLongArray6860[i_0_] = 0L;
 		for (int i_1_ = 0; i_1_ < 32; i_1_++)
-			Class505.aLongArray6861[i_1_] = 0L;
+			GameShell.aLongArray6861[i_1_] = 0L;
 		Class243.anInt2458 = 0;
 	}
 
@@ -71,6 +71,6 @@ public class Class444 implements Interface5 {
 	}
 
 	static final void method5396(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10014(-1904559876) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1 ? 1 : 0;
 	}
 }

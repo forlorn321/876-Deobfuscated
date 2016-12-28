@@ -31,9 +31,9 @@ final class Class458_Sub1 extends Class458 {
 	public static int method9334(int i, int i_1_, byte i_2_) {
 		if (183673691 * Class644.aClass628_8352.anInt8197 == -1)
 			return 1;
-		if (i != Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1164675814)) {
+		if (i != ClientSetting.aClass536_Sub40_8843.toolkit.method10071()) {
 			Class101.method1355(i, Class38.aClass38_403.method840(Class459.aClass664_5178, 1549341707), true, -504758393);
-			if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(670562620) != i)
+			if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() != i)
 				return -1;
 		}
 		int i_3_;

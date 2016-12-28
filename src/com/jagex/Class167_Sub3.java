@@ -402,9 +402,9 @@ public abstract class Class167_Sub3 extends Class167 {
 			else
 				aClass340_9561 = null;
 			if (anInt9689 == 0)
-				anIntArray9708 = Class639.anIntArray8309;
+				anIntArray9708 = ColourUtils.anIntArray8309;
 			else
-				anIntArray9708 = Class639.anIntArray8310;
+				anIntArray9708 = ColourUtils.anIntArray8310;
 			try {
 				Field field = sun.misc.Unsafe.class.getDeclaredField("theUnsafe");
 				field.setAccessible(true);

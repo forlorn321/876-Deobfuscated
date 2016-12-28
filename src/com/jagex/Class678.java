@@ -264,7 +264,7 @@ public class Class678 implements Interface75 {
 						Class270.method3718((byte) -116);
 						Class161_Sub2.method8671(1438449750);
 						Class297.method4007(false, -1689347740);
-						Class27.method761(Class677.aClass167_8609, Class710_Sub26.aClass174_10892, -1532192264);
+						Class27.method761(Class677.aClass167_8609, CPUUsageSetting.aClass174_10892, -1532192264);
 						client.anInt11180 += 640335201;
 						if (496146437 * client.anInt11007 != 0) {
 							client.anInt11130 += -1179905348;

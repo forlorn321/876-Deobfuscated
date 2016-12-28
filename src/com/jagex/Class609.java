@@ -48,7 +48,7 @@ public class Class609 implements Interface75 {
 
 	static final void method7264(Class668 class668, byte i) {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub16_10751.method8348(i_1_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.fogSetting.method8348(i_1_, -1102005131);
 	}
 
 	public static final void method7265(int i) {

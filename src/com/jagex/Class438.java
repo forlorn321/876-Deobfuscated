@@ -51,11 +51,11 @@ public class Class438 {
 
 	static final void method5302(Class668 class668, short i) {
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub7_10753.method8348(i_4_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method8348(i_4_, -1102005131);
 	}
 
 	static final void method5303(Class668 class668, int i) {
 		int i_5_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method8348(i_5_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.textureSetting.method8348(i_5_, -1102005131);
 	}
 }

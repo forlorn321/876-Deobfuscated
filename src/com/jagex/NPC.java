@@ -44,7 +44,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		anInt12172 = (32 + (int) (Math.random() * 4.0)) * 707918361;
 		anInt12173 = (3 + (int) (Math.random() * 2.0)) * 949556023;
 		anInt12171 = (16 + (int) (Math.random() * 3.0)) * -1474567727;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1726728072) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1726728072) == 1)
 			anInt12169 = (int) (Math.random() * 6.0) * -779404377;
 		else
 			anInt12169 = (int) (Math.random() * 12.0) * -779404377;
@@ -82,7 +82,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
+		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
 			Class688 class688 = ((aClass688_11925.method8121(-2119321736) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 			Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-101727391) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 			short i_3_ = Class644.aClass628_8352.aShort8186;
@@ -92,7 +92,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_4_ = aClass296_12174.aByte3315;
 			}
 			Class177 class177;
-			if (i_3_ > -1 && Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1848529785) == 1)
+			if (i_3_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1848529785) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i_1_, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_3_, i_4_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
 				class177 = Class381.method4819(class167, i_1_, anInt11892 * 1681595873, anInt11900 * 1915921525, -2111850483 * anInt11891, (aClass296_12174.anInt3272 * 830254667), aClass177Array11953[0], aClass296_12174.aShort3280 & 0xffff, aClass296_12174.aShort3311 & 0xffff, aClass296_12174.aByte3277 & 0xff, aClass296_12174.aByte3313 & 0xff, (null != class688_sub3 ? (Class688) class688_sub3 : class688), 469097337);
@@ -527,7 +527,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
+		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
 			Class688 class688 = ((aClass688_11925.method8121(-1322176938) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 			Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1552184919) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 			short i_48_ = Class644.aClass628_8352.aShort8186;
@@ -537,7 +537,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_49_ = aClass296_12174.aByte3315;
 			}
 			Class177 class177;
-			if (i_48_ > -1 && Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(1694971276) == 1)
+			if (i_48_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(1694971276) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_48_, i_49_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
 				class177 = Class381.method4819(class167, i, anInt11892 * 1681595873, anInt11900 * 1915921525, -2111850483 * anInt11891, (aClass296_12174.anInt3272 * 830254667), aClass177Array11953[0], aClass296_12174.aShort3280 & 0xffff, aClass296_12174.aShort3311 & 0xffff, aClass296_12174.aByte3277 & 0xff, aClass296_12174.aByte3313 & 0xff, (null != class688_sub3 ? (Class688) class688_sub3 : class688), -1838687083);
@@ -608,7 +608,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
+		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
 			Class688 class688 = ((aClass688_11925.method8121(-1303570998) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 			Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1871161535) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 			short i_54_ = Class644.aClass628_8352.aShort8186;
@@ -618,7 +618,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_55_ = aClass296_12174.aByte3315;
 			}
 			Class177 class177;
-			if (i_54_ > -1 && Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1399306120) == 1)
+			if (i_54_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1399306120) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_54_, i_55_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
 				class177 = Class381.method4819(class167, i, anInt11892 * 1681595873, anInt11900 * 1915921525, -2111850483 * anInt11891, (aClass296_12174.anInt3272 * 830254667), aClass177Array11953[0], aClass296_12174.aShort3280 & 0xffff, aClass296_12174.aShort3311 & 0xffff, aClass296_12174.aByte3277 & 0xff, aClass296_12174.aByte3313 & 0xff, (null != class688_sub3 ? (Class688) class688_sub3 : class688), 455724981);
@@ -689,7 +689,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		boolean bool = null != class296.aClass437_3291;
 		aBool11917 = false;
 		Class563 class563 = null;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
+		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1 && class296.aBool3265 && class589.aBool7778) {
 			Class688 class688 = ((aClass688_11925.method8121(-923382141) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 			Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1179384782) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 			short i_60_ = Class644.aClass628_8352.aShort8186;
@@ -699,7 +699,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_61_ = aClass296_12174.aByte3315;
 			}
 			Class177 class177;
-			if (i_60_ > -1 && Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1533214378) == 1)
+			if (i_60_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1533214378) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_60_, i_61_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
 				class177 = Class381.method4819(class167, i, anInt11892 * 1681595873, anInt11900 * 1915921525, -2111850483 * anInt11891, (aClass296_12174.anInt3272 * 830254667), aClass177Array11953[0], aClass296_12174.aShort3280 & 0xffff, aClass296_12174.aShort3311 & 0xffff, aClass296_12174.aByte3277 & 0xff, aClass296_12174.aByte3313 & 0xff, (null != class688_sub3 ? (Class688) class688_sub3 : class688), -308041440);
@@ -1077,7 +1077,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		anInt12172 = (32 + (int) (Math.random() * 4.0)) * 707918361;
 		anInt12173 = (3 + (int) (Math.random() * 2.0)) * 949556023;
 		anInt12171 = (16 + (int) (Math.random() * 3.0)) * -1474567727;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-2062344363) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-2062344363) == 1)
 			anInt12169 = (int) (Math.random() * 6.0) * -779404377;
 		else
 			anInt12169 = (int) (Math.random() * 12.0) * -779404377;

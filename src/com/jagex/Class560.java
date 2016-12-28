@@ -99,7 +99,7 @@ class Class560 implements Runnable {
 	}
 
 	static final void method6826(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10002((short) -3781) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.shadowSetting.method10002((short) -3781) ? 1 : 0;
 	}
 
 	public static void method6827(int i, byte i_5_) {
@@ -114,6 +114,6 @@ class Class560 implements Runnable {
 	}
 
 	static final void method6829(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub21_10741.method10109((byte) 1);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.idleAnimationSetting.method10109((byte) 1);
 	}
 }

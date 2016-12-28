@@ -193,12 +193,12 @@ public abstract class Class16 implements Interface6 {
 		}
 	}
 
-	Class16(Class670 class670, Class664 class664, boolean bool, Class461 class461, Interface12 interface12) {
+	Class16(GameMode class670, Class664 class664, boolean bool, Class461 class461, Interface12 interface12) {
 		aClass664_176 = class664;
 		aBool174 = bool;
 		aClass461_175 = class461;
 		anInterface12_180 = interface12;
-		if (class670 == Class670.aClass670_8568)
+		if (class670 == GameMode.aClass670_8568)
 			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(aClass664_176, 1718619298), null, null, Class38.aClass38_459.method840(aClass664_176, 1955475016) };
 		else
 			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(aClass664_176, 2096276904), null, null, null };

@@ -44,9 +44,9 @@ public class Class214 implements Interface27 {
 			for (int i_5_ = Class105.anInt1247 * -2122502799; i_5_ > 0; i_5_--)
 				Class205_Sub16.aStringArray9941[i_5_] = Class205_Sub16.aStringArray9941[i_5_ - 1];
 			Class205_Sub16.aStringArray9941[0] = new StringBuilder().append(string_3_).append(": ").append(strings[i_4_]).toString();
-			if (null != Class710_Sub7.aFileOutputStream10835) {
+			if (null != GroundDecorationSetting.aFileOutputStream10835) {
 				try {
-					Class710_Sub7.aFileOutputStream10835.write(Class364.method4765(new StringBuilder().append(Class205_Sub16.aStringArray9941[0]).append("\n").toString(), -1778056149));
+					GroundDecorationSetting.aFileOutputStream10835.write(Class364.method4765(new StringBuilder().append(Class205_Sub16.aStringArray9941[0]).append("\n").toString(), -1778056149));
 				} catch (IOException ioexception) {
 					/* empty */
 				}

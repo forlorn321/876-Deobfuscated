@@ -312,8 +312,8 @@ public final class Class199 {
 	}
 
 	static void method2909(int i) {
-		if (Class639.anIntArray8308 == null)
-			Class639.anIntArray8308 = new int[65536];
+		if (ColourUtils.anIntArray8308 == null)
+			ColourUtils.anIntArray8308 = new int[65536];
 		else
 			return;
 		double d = 0.7 + (Math.random() * 0.03 - 0.015);
@@ -365,7 +365,7 @@ public final class Class199 {
 				int i_24_ = (int) (f_14_ * 256.0F);
 				int i_25_ = (int) (f_15_ * 256.0F);
 				int i_26_ = i_25_ + ((i_24_ << 8) + (-16777216 + (i_23_ << 16)));
-				Class639.anIntArray8308[i_8_++] = i_26_;
+				ColourUtils.anIntArray8308[i_8_++] = i_26_;
 			}
 		}
 	}

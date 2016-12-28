@@ -51,7 +51,7 @@ public class Class633 {
 	}
 
 	static final void method7545(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(-217823595);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.antiAliasingSetting.method10156();
 	}
 
 	static void method7546(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i, int i_2_, int i_3_, int i_4_) {

@@ -13,7 +13,7 @@ public class Class501 {
 		anInt6846 = (32 + (int) (Math.random() * 4.0)) * -770327825;
 		anInt6848 = (3 + (int) (Math.random() * 2.0)) * -948033059;
 		anInt6847 = (16 + (int) (Math.random() * 3.0)) * 1758099647;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-171348888) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-171348888) == 1)
 			anInt6845 = (int) (Math.random() * 6.0) * 1580166355;
 		else
 			anInt6845 = (int) (Math.random() * 12.0) * 1580166355;

@@ -122,12 +122,12 @@ public class Class260 {
 
 	static final void method3617(Class668 class668, byte i) {
 		int i_23_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class639.anIntArray8308[i_23_ & 0xffff];
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ColourUtils.anIntArray8308[i_23_ & 0xffff];
 	}
 
 	static final void method3618(Class668 class668, int i) {
 		int i_24_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method8348(i_24_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.defaultToolkit.method8348(i_24_, -1102005131);
 	}
 
 	static final void method3619(Class668 class668, byte i) {

@@ -74,7 +74,7 @@ public class Class572 implements Interface75, Interface67 {
 	}
 
 	static final void method6937(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9894(-1017210055) == 2 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9894(-1017210055) == 2 ? 1 : 0;
 	}
 
 	static final void method6938(Class668 class668, int i) {

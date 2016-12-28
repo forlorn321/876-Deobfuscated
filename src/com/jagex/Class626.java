@@ -131,7 +131,7 @@ public class Class626 {
 
 	static final void method7462(Class668 class668, short i) {
 		int i_0_ = Class95.method1296(2105570873);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class620.anInt8094 = Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(318591617) * 478435273) * -1761381767;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class620.anInt8094 = ClientSetting.aClass536_Sub40_8843.toolkit.method10071() * 478435273) * -1761381767;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = i_0_;
 		Class608.method7261((byte) 0);
 		client.aClass515_11066.method6319(-1994873470);

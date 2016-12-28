@@ -121,7 +121,7 @@ public class Class329 implements Interface33 {
 	}
 
 	static final void method4318(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub9_10756), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.shadowSetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
 		client.aClass515_11066.method6319(-740320255);
 		Class27.method763(1884533970);
 		client.aBool11015 = false;

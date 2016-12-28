@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub35 extends Class710 {
+public class SoundVolumeSetting extends ClientSetting {
 	static final int anInt10910 = 0;
 	static final int anInt10911 = 255;
 
@@ -11,7 +11,7 @@ public class Class710_Sub35 extends Class710 {
 		return 127;
 	}
 
-	public Class710_Sub35(int i, Class536_Sub40 class536_sub40) {
+	public SoundVolumeSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -24,7 +24,7 @@ public class Class710_Sub35 extends Class710 {
 		return 127;
 	}
 
-	public Class710_Sub35(Class536_Sub40 class536_sub40) {
+	public SoundVolumeSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

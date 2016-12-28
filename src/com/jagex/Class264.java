@@ -111,7 +111,7 @@ public class Class264 {
 
 	static final void method3675(Class668 class668, int i) {
 		if (Class707.aBool8822 && Class223.aFrame2336 != null)
-			Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-586688740), -1, -1, false, -1697411702);
+			Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -1697411702);
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
 		String string_18_ = new StringBuilder().append(Class206.method2960(1103456779)).append(string).toString();
@@ -120,8 +120,8 @@ public class Class264 {
 
 	static final void method3676(Class668 class668, int i) {
 		int i_19_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		if (i_19_ != Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method10126(1041246061)) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub23_10774), i_19_, (byte) 1);
+		if (i_19_ != ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061)) {
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.animationDetailSetting), i_19_, (byte) 1);
 			Class27.method763(2018176055);
 			client.aBool11015 = false;
 			client.aClass515_11066.method6319(-1653009630);

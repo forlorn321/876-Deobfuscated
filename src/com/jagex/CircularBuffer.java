@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class705 {
+public class CircularBuffer {
 	static byte[][] aByteArrayArray8812;
 	static int anInt8813 = 0;
 	static int anInt8814;
@@ -76,7 +76,7 @@ public class Class705 {
 		aByteArrayArray8817 = new byte[50][];
 	}
 
-	Class705() throws Throwable {
+	CircularBuffer() throws Throwable {
 		throw new Error();
 	}
 
@@ -102,7 +102,7 @@ public class Class705 {
 	}
 
 	static final void method8273(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub25_10735.method10141(481974905) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub25_10735.method10141(481974905) ? 1 : 0;
 	}
 
 	static final void method8274(Class668 class668, int i) {

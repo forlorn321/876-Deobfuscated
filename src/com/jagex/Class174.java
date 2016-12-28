@@ -35,7 +35,7 @@ public class Class174 {
 	}
 
 	static final void method2448(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub43_10780.method10276(1480325368);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780.method10276(1480325368);
 	}
 
 	static final void method2449(Class668 class668, int i) {

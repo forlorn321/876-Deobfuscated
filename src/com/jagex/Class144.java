@@ -70,7 +70,7 @@ public class Class144 implements Interface75 {
 	}
 
 	static final void method1794(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9890((byte) -83) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9890((byte) -83) ? 1 : 0;
 	}
 
 	static Class536_Sub23 method1795(int i) {
@@ -82,7 +82,7 @@ public class Class144 implements Interface75 {
 	static void method1796(Class67_Sub1 class67_sub1, byte i) {
 		class67_sub1.method9797(0, (byte) -16);
 		int i_4_;
-		if (Class505.anInt6857 * -839563813 >= 96) {
+		if (GameShell.maxMemory * -839563813 >= 96) {
 			int i_5_ = Class156.method1883(-323771008);
 			if (i_5_ <= 101) {
 				Class38.method843((byte) -28);
@@ -103,11 +103,11 @@ public class Class144 implements Interface75 {
 			i_4_ = 1;
 			class67_sub1.method9792(64, -2125603541);
 		}
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(429696594) != 0) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), 0, (byte) 1);
+		if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() != 0) {
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), 0, (byte) 1);
 			Class704.method8264(0, false, (byte) 65);
 		} else
-			Class710.aClass536_Sub40_8843.method9858((Class710.aClass536_Sub40_8843.aClass710_Sub15_10767), true, (byte) 3);
+			ClientSetting.aClass536_Sub40_8843.method9858((ClientSetting.aClass536_Sub40_8843.toolkit), true, (byte) 3);
 		Class27.method763(2059521898);
 		class67_sub1.method9794(i_4_, -1914631539);
 	}

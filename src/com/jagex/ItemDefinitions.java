@@ -1031,10 +1031,10 @@ public class ItemDefinitions implements DefinitionI {
 				graphics_156_.setFont(Class41_Sub1.aFont10561);
 				graphics_156_.setColor(color_154_);
 				graphics_156_.drawString(string, (i_157_ + (304 - string.length() * 6) / 2), 22 + i_158_);
-				if (null != Class505.aString6881) {
+				if (null != GameShell.aString6881) {
 					graphics_156_.setFont(Class41_Sub1.aFont10561);
 					graphics_156_.setColor(color_154_);
-					graphics_156_.drawString(Class505.aString6881, (-1804846931 * Class144.anInt1679 / 2 - Class505.aString6881.length() * 6 / 2), Class34_Sub6.anInt10965 * 589116499 / 2 - 26);
+					graphics_156_.drawString(GameShell.aString6881, (-1804846931 * Class144.anInt1679 / 2 - GameShell.aString6881.length() * 6 / 2), Class34_Sub6.anInt10965 * 589116499 / 2 - 26);
 				}
 				graphics.drawImage(Class655.anImage8495, 0, 0, null);
 			} catch (Exception exception) {
@@ -1051,10 +1051,10 @@ public class ItemDefinitions implements DefinitionI {
 				graphics.fillRect(i_159_ + 2 + i * 3, i_160_ + 2, 300 - i * 3, 30);
 				graphics.setFont(Class41_Sub1.aFont10561);
 				graphics.setColor(color_154_);
-				if (Class505.aString6881 != null) {
+				if (GameShell.aString6881 != null) {
 					graphics.setFont(Class41_Sub1.aFont10561);
 					graphics.setColor(color_154_);
-					graphics.drawString(Class505.aString6881, (Class144.anInt1679 * -1804846931 / 2 - (Class505.aString6881.length() * 6 / 2)), (589116499 * Class34_Sub6.anInt10965 / 2) - 26);
+					graphics.drawString(GameShell.aString6881, (Class144.anInt1679 * -1804846931 / 2 - (GameShell.aString6881.length() * 6 / 2)), (589116499 * Class34_Sub6.anInt10965 / 2) - 26);
 				}
 				graphics.drawString(string, i_159_ + (304 - string.length() * 6) / 2, i_160_ + 22);
 			}

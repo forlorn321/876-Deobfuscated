@@ -145,6 +145,6 @@ public abstract class Class549 {
 	}
 
 	static final void method6650(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-1424689268);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038();
 	}
 }

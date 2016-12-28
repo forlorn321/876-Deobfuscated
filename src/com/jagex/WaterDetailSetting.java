@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub3 extends Class710 {
+public class WaterDetailSetting extends ClientSetting {
 	static final int anInt10819 = 1;
 	public static final int anInt10820 = 2;
 	public static final int anInt10821 = 0;
@@ -26,12 +26,12 @@ public class Class710_Sub3 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub3(int i, Class536_Sub40 class536_sub40) {
+	public WaterDetailSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
 	public int method8348(int i, int i_0_) {
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -65,25 +65,25 @@ public class Class710_Sub3 extends Class710 {
 	}
 
 	public int method8355(int i) {
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
 
 	public int method8356(int i) {
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
 
 	public int method8357(int i) {
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
 
 	public int method8358(int i) {
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -114,12 +114,12 @@ public class Class710_Sub3 extends Class710 {
 		return anInt8842 * -789865385;
 	}
 
-	public Class710_Sub3(Class536_Sub40 class536_sub40) {
+	public WaterDetailSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
 	static final void method9900(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub17_10763.method10087(2050800616) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.flickeringSetting.method10087(2050800616) == 1 ? 1 : 0;
 	}
 
 	static final void method9901(Class668 class668, int i) {

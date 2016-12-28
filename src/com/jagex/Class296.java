@@ -607,7 +607,7 @@ public class Class296 implements DefinitionI {
 		if (null == anIntArray3317)
 			anIntArray3317 = new int[0];
 		if (-1 == aByte3331) {
-			if (null == aClass309_3268 || aClass309_3268.aClass670_3459 == Class670.aClass670_8568)
+			if (null == aClass309_3268 || aClass309_3268.aClass670_3459 == GameMode.aClass670_8568)
 				aByte3331 = (byte) 1;
 			else
 				aByte3331 = (byte) 0;
@@ -1097,7 +1097,7 @@ public class Class296 implements DefinitionI {
 		if (null == anIntArray3317)
 			anIntArray3317 = new int[0];
 		if (-1 == aByte3331) {
-			if (null == aClass309_3268 || aClass309_3268.aClass670_3459 == Class670.aClass670_8568)
+			if (null == aClass309_3268 || aClass309_3268.aClass670_3459 == GameMode.aClass670_8568)
 				aByte3331 = (byte) 1;
 			else
 				aByte3331 = (byte) 0;
@@ -1966,6 +1966,6 @@ public class Class296 implements DefinitionI {
 	}
 
 	static final void method4003(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method10015((byte) 71) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10015((byte) 71) ? 1 : 0;
 	}
 }

@@ -22,17 +22,17 @@ import java.net.URL;
 
 import jaclib.nanotime.QueryPerformanceCounter;
 
-public abstract class Class505 implements Interface62, Runnable, FocusListener, WindowListener {
+public abstract class GameShell implements Interface62, Runnable, FocusListener, WindowListener {
 	static long aLong6855;
 	public static int anInt6856;
-	public static int anInt6857;
+	public static int maxMemory;
 	boolean aBool6858;
 	static final int anInt6859 = 32;
 	static long[] aLongArray6860;
 	static long[] aLongArray6861;
 	boolean aBool6862 = false;
 	public static int anInt6863;
-	public static int anInt6864;
+	public static int cpuCount;
 	protected static volatile boolean aBool6865;
 	static final String aString6866 = "main_file_cache.dat2";
 	static final int anInt6867 = 0;
@@ -108,11 +108,11 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 		} catch (Exception exception) {
 			Class333.aString3621 = "Unknown";
 		}
-		Class241.aString2456 = Class333.aString3621.toLowerCase();
+		Class241.osName = Class333.aString3621.toLowerCase();
 		try {
-			Class451.aString4948 = System.getProperty("os.arch").toLowerCase();
+			Class451.osArchRaw = System.getProperty("os.arch").toLowerCase();
 		} catch (Exception exception) {
-			Class451.aString4948 = "";
+			Class451.osArchRaw = "";
 		}
 		try {
 			Class221.aString2312 = System.getProperty("os.version").toLowerCase();
@@ -127,7 +127,7 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			/* empty */
 		}
 		try {
-			if (Class241.aString2456.startsWith("win")) {
+			if (Class241.osName.startsWith("win")) {
 				if (null == Class189.aString2145)
 					Class189.aString2145 = System.getenv("USERPROFILE");
 			} else if (null == Class189.aString2145)
@@ -505,7 +505,7 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 		aBool6889 = true;
 	}
 
-	Class505() {
+	GameShell() {
 		aBool6858 = false;
 	}
 
@@ -595,8 +595,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 		aClass512_6888 = null;
 		aLong6855 = 0L;
 		aBool6885 = false;
-		anInt6857 = -886517331;
-		anInt6864 = -1652957041;
+		maxMemory = -886517331;
+		cpuCount = -1652957041;
 	}
 
 	public final void windowDeiconified(WindowEvent windowevent) {
@@ -755,8 +755,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			}
 		}
 		Class300.method4022((byte) 0).setFocusCycleRoot(true);
-		anInt6857 = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
-		anInt6864 = Runtime.getRuntime().availableProcessors() * -1652957041;
+		maxMemory = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
+		cpuCount = Runtime.getRuntime().availableProcessors() * -1652957041;
 		method6080((byte) -40);
 		method6084(-1588861472);
 		aClass504_6883 = Class449.method5423(-1056111649);
@@ -792,8 +792,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			}
 		}
 		Class300.method4022((byte) 0).setFocusCycleRoot(true);
-		anInt6857 = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
-		anInt6864 = Runtime.getRuntime().availableProcessors() * -1652957041;
+		maxMemory = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
+		cpuCount = Runtime.getRuntime().availableProcessors() * -1652957041;
 		method6080((byte) 0);
 		method6084(395764202);
 		aClass504_6883 = Class449.method5423(-1425002107);
@@ -829,8 +829,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			}
 		}
 		Class300.method4022((byte) 0).setFocusCycleRoot(true);
-		anInt6857 = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
-		anInt6864 = Runtime.getRuntime().availableProcessors() * -1652957041;
+		maxMemory = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
+		cpuCount = Runtime.getRuntime().availableProcessors() * -1652957041;
 		method6080((byte) 51);
 		method6084(-1137452363);
 		aClass504_6883 = Class449.method5423(-1169607858);
@@ -952,8 +952,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			}
 		}
 		Class300.method4022((byte) 0).setFocusCycleRoot(true);
-		anInt6857 = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
-		anInt6864 = Runtime.getRuntime().availableProcessors() * -1652957041;
+		maxMemory = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
+		cpuCount = Runtime.getRuntime().availableProcessors() * -1652957041;
 		method6080((byte) -4);
 		method6084(2125058834);
 		aClass504_6883 = Class449.method5423(-1118276029);
@@ -1067,8 +1067,8 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			}
 		}
 		Class300.method4022((byte) 0).setFocusCycleRoot(true);
-		anInt6857 = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
-		anInt6864 = Runtime.getRuntime().availableProcessors() * -1652957041;
+		maxMemory = (((int) (Runtime.getRuntime().maxMemory() / 1048576L) + 1) * 886517331);
+		cpuCount = Runtime.getRuntime().availableProcessors() * -1652957041;
 		method6080((byte) -55);
 		method6084(1778811660);
 		aClass504_6883 = Class449.method5423(-1656083384);
@@ -1133,7 +1133,7 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 			try {
 				QueryPerformanceCounter.init();
 			} catch (Throwable throwable) {
-				if (Class241.aString2456.startsWith("win"))
+				if (Class241.osName.startsWith("win"))
 					throw new Exception_Sub6(128, "jaclib");
 			}
 			aBool6858 = true;
@@ -1159,6 +1159,6 @@ public abstract class Class505 implements Interface62, Runnable, FocusListener, 
 	}
 
 	static final void method6137(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-141560769);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-141560769);
 	}
 }

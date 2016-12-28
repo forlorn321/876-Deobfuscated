@@ -18,7 +18,7 @@ public class RSByteBuffer extends Class536 {
 
 	public void method9685(int i) {
 		if (null != buffer)
-			Class705.method8270(buffer, 1184229658);
+			CircularBuffer.method8270(buffer, 1184229658);
 		buffer = null;
 	}
 
@@ -391,7 +391,7 @@ public class RSByteBuffer extends Class536 {
 	}
 
 	public RSByteBuffer(int i) {
-		buffer = Class705.method8268(i, 1413422708);
+		buffer = CircularBuffer.method8268(i, 1413422708);
 		off = 0;
 	}
 
@@ -432,7 +432,7 @@ public class RSByteBuffer extends Class536 {
 	}
 
 	public RSByteBuffer(int i, boolean bool) {
-		buffer = Class705.method8269(i, bool, -731672108);
+		buffer = CircularBuffer.method8269(i, bool, -731672108);
 	}
 
 	public void write128Short(int i, int i_74_) {

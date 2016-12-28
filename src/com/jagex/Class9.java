@@ -17,9 +17,9 @@ public class Class9 {
 		class668.anInt8542 -= 1472892954;
 		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		boolean bool = 1 == (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1]);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), i_0_, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), i_0_, (byte) 1);
 		if (!bool)
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub43_10780), 0, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 0, (byte) 1);
 		Class27.method763(2061495893);
 		client.aBool11015 = false;
 	}

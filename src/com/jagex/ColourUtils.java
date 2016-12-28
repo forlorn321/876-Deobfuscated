@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class639 {
+public class ColourUtils {
 	static int anInt8306;
 	static int anInt8307 = 0;
 	public static int[] anIntArray8308;
@@ -35,7 +35,7 @@ public class Class639 {
 		return (i & 0xff80) + i_2_;
 	}
 
-	Class639() throws Throwable {
+	ColourUtils() throws Throwable {
 		throw new Error();
 	}
 

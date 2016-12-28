@@ -24,7 +24,7 @@ public class Class314 {
 	}
 
 	static final void method4202(Class668 class668, short i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub11_10757), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.shadowQualitySetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
 		client.aClass515_11066.method6319(-773336384);
 		Class27.method763(1962815800);
 		client.aBool11015 = false;

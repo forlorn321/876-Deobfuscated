@@ -215,7 +215,7 @@ public class Class649_Sub1_Sub3_Sub2 extends Class649_Sub1_Sub3 implements Inter
 		aByte12029 = (byte) i_16_;
 		aBool12032 = 0 != 1248110961 * class612.anInt7953 && !bool;
 		aBool12033 = bool_17_;
-		aBool12025 = (class167.method2012() && class612.aBool8000 && !aBool12034 && Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(-1652907588) != 0);
+		aBool12025 = (class167.method2012() && class612.aBool8000 && !aBool12034 && ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(-1652907588) != 0);
 		int i_18_ = 2048;
 		if (aBool12033)
 			i_18_ |= 0x10000;

@@ -55,7 +55,7 @@ public class Class515 {
 	public int anInt7035;
 
 	void method6240() {
-		method6299(Class510.method6188(Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method9996((byte) 28), -1709781983), 1121434602);
+		method6299(Class510.method6188(ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method9996((byte) 28), -1709781983), 1121434602);
 		int i = aClass598_7023.anInt7839 * 1858049507;
 		int i_0_ = aClass598_7023.anInt7840 * 1479112045;
 		int i_1_ = (i >> 3) + (Class637.anInt8301 * -1607026219 >> 12);
@@ -737,7 +737,7 @@ public class Class515 {
 		if (!aBool7005)
 			Class558.method6817(true, -1371729051);
 		boolean bool = false;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9894(-1017210055) == 2) {
+		if (ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9894(-1017210055) == 2) {
 			for (int i_106_ = 0; i_106_ < anInt7022 * -861422801; i_106_++) {
 				if (aByteArrayArray7029[i_106_] != null || null != aByteArrayArray7028[i_106_]) {
 					bool = true;
@@ -745,7 +745,7 @@ public class Class515 {
 				}
 			}
 		}
-		int i_107_ = (Class229.method3293(Class710.aClass536_Sub40_8843.aClass710_Sub40_10745.method10246(-2026593254), (byte) -59).anInt3349 * 931674088);
+		int i_107_ = (Class229.method3293(ClientSetting.aClass536_Sub40_8843.drawDistanceSetting.method10246(-2026593254), (byte) -59).anInt3349 * 931674088);
 		if (Class677.aClass167_8609.method2407())
 			i_107_++;
 		method6263(-2076691100);
@@ -762,11 +762,11 @@ public class Class515 {
 		aFloat7007 = -0.05F + (float) (Math.random() / 10.0);
 		aClass465_Sub1_6991 = new Class465_Sub1(aClass553_7003, aClass34_Sub17_7012, 4, anInt7030 * -324388659, -1001036419 * anInt7011, false, aClass455_6999, aClass636_6994);
 		aClass465_Sub1_6991.method5658(1546481980);
-		aClass465_Sub1_6991.anInt5268 = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(1609247486) * -1635053223;
-		aClass465_Sub1_6991.aBool5237 = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9894(-1017210055) == 2;
-		aClass465_Sub1_6991.aBool5238 = Class710.aClass536_Sub40_8843.aClass710_Sub14_10755.method10066((byte) 0) == 1;
-		aClass465_Sub1_6991.aBool5239 = Class710.aClass536_Sub40_8843.aClass710_Sub29_10752.method10171(-498458505) == 1;
-		aClass465_Sub1_6991.aBool5231 = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(221547964) == 1;
+		aClass465_Sub1_6991.anInt5268 = ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(1609247486) * -1635053223;
+		aClass465_Sub1_6991.aBool5237 = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9894(-1017210055) == 2;
+		aClass465_Sub1_6991.aBool5238 = ClientSetting.aClass536_Sub40_8843.lightingDetailSetting.method10066((byte) 0) == 1;
+		aClass465_Sub1_6991.aBool5239 = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10171(-498458505) == 1;
+		aClass465_Sub1_6991.aBool5231 = ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(221547964) == 1;
 		if (!aClass498_6992.method6016((byte) -1))
 			method6273(aClass465_Sub1_6991, aByteArrayArray7025, (byte) 57);
 		else
@@ -779,11 +779,11 @@ public class Class515 {
 			aClass553_7003.method6763(true, -2035267085);
 			aClass465_Sub1_6995 = new Class465_Sub1(aClass553_7003, aClass34_Sub17_7012, 1, -324388659 * anInt7030, -1001036419 * anInt7011, true, aClass455_6999, aClass636_6994);
 			aClass465_Sub1_6995.method5658(2036579120);
-			aClass465_Sub1_6995.anInt5268 = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(1089100668) * -1635053223;
-			aClass465_Sub1_6995.aBool5237 = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method9894(-1017210055) == 2;
-			aClass465_Sub1_6995.aBool5238 = Class710.aClass536_Sub40_8843.aClass710_Sub14_10755.method10066((byte) 0) == 1;
-			aClass465_Sub1_6995.aBool5239 = Class710.aClass536_Sub40_8843.aClass710_Sub29_10752.method10171(-498458505) == 1;
-			aClass465_Sub1_6995.aBool5231 = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-426924339) == 1;
+			aClass465_Sub1_6995.anInt5268 = ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(1089100668) * -1635053223;
+			aClass465_Sub1_6995.aBool5237 = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9894(-1017210055) == 2;
+			aClass465_Sub1_6995.aBool5238 = ClientSetting.aClass536_Sub40_8843.lightingDetailSetting.method10066((byte) 0) == 1;
+			aClass465_Sub1_6995.aBool5239 = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10171(-498458505) == 1;
+			aClass465_Sub1_6995.aBool5231 = ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-426924339) == 1;
 			if (!aClass498_6992.method6016((byte) -116)) {
 				method6273(aClass465_Sub1_6995, aByteArrayArray7028, (byte) 74);
 				if (!aBool7005)
@@ -1248,7 +1248,7 @@ public class Class515 {
 	}
 
 	void method6296(int i) {
-		method6299(Class510.method6188(Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method9996((byte) 101), -1248789177), 1121434602);
+		method6299(Class510.method6188(ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method9996((byte) 101), -1248789177), 1121434602);
 		int i_187_ = aClass598_7023.anInt7839 * 1858049507;
 		int i_188_ = aClass598_7023.anInt7840 * 1479112045;
 		int i_189_ = (i_187_ >> 3) + (Class637.anInt8301 * -1607026219 >> 12);
@@ -1442,7 +1442,7 @@ public class Class515 {
 	}
 
 	void method6313() {
-		method6299(Class510.method6188(Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method9996((byte) 127), -880834776), 1121434602);
+		method6299(Class510.method6188(ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method9996((byte) 127), -880834776), 1121434602);
 		int i = aClass598_7023.anInt7839 * 1858049507;
 		int i_209_ = aClass598_7023.anInt7840 * 1479112045;
 		int i_210_ = (i >> 3) + (Class637.anInt8301 * -1607026219 >> 12);

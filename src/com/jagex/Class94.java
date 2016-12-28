@@ -33,7 +33,7 @@ public class Class94 {
 	}
 
 	static final void method1290(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(615150507);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(615150507);
 	}
 
 	static final void method1291(Class668 class668, byte i) {

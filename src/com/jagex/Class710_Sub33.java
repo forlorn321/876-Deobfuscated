@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub33 extends Class710 {
+public class Class710_Sub33 extends ClientSetting {
 	public static final int anInt10904 = 1;
 	public static final int anInt10905 = 0;
 	public static final int anInt10906 = 2;
@@ -12,7 +12,7 @@ public class Class710_Sub33 extends Class710 {
 		anInt8842 = i * -1100148889;
 	}
 
-	public Class710_Sub33(int i, Class536_Sub40 class536_sub40) {
+	public Class710_Sub33(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -22,7 +22,7 @@ public class Class710_Sub33 extends Class710 {
 	}
 
 	int method8353() {
-		if (aClass536_Sub40_8841.aClass710_Sub15_10767.method10073((byte) 29) && Class211.method3065(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(1413437703), 2074323163))
+		if (aClass536_Sub40_8841.toolkit.method10073((byte) 29) && Class211.method3065(aClass536_Sub40_8841.toolkit.method10071(), 2074323163))
 			return 1;
 		return 0;
 	}
@@ -54,7 +54,7 @@ public class Class710_Sub33 extends Class710 {
 	}
 
 	int method8352() {
-		if (aClass536_Sub40_8841.aClass710_Sub15_10767.method10073((byte) 31) && Class211.method3065(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(693364833), 1751478434))
+		if (aClass536_Sub40_8841.toolkit.method10073((byte) 31) && Class211.method3065(aClass536_Sub40_8841.toolkit.method10071(), 1751478434))
 			return 1;
 		return 0;
 	}
@@ -63,12 +63,12 @@ public class Class710_Sub33 extends Class710 {
 		anInt8842 = i * -1100148889;
 	}
 
-	public Class710_Sub33(Class536_Sub40 class536_sub40) {
+	public Class710_Sub33(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
 	int method8347(byte i) {
-		if (aClass536_Sub40_8841.aClass710_Sub15_10767.method10073((byte) 29) && Class211.method3065(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(1671454796), 1716456039))
+		if (aClass536_Sub40_8841.toolkit.method10073((byte) 29) && Class211.method3065(aClass536_Sub40_8841.toolkit.method10071(), 1716456039))
 			return 1;
 		return 0;
 	}
@@ -82,7 +82,7 @@ public class Class710_Sub33 extends Class710 {
 	}
 
 	int method8351() {
-		if (aClass536_Sub40_8841.aClass710_Sub15_10767.method10073((byte) 41) && Class211.method3065(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(715642131), 2044844072))
+		if (aClass536_Sub40_8841.toolkit.method10073((byte) 41) && Class211.method3065(aClass536_Sub40_8841.toolkit.method10071(), 2044844072))
 			return 1;
 		return 0;
 	}

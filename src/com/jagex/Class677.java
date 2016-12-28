@@ -343,7 +343,7 @@ public class Class677 implements DefinitionI {
 		Class582.anInt7699 = (-650718371 * class668.anIntArray8541[1867269829 * class668.anInt8542 + 2]);
 		Class26.anInt247 = (class668.anIntArray8541[3 + class668.anInt8542 * 1867269829] * 2088111479);
 		Class28.anInt260 = (-1904654023 * class668.anIntArray8541[4 + class668.anInt8542 * 1867269829]);
-		Class710_Sub16.anInt10862 = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 5] * 43031081);
+		FogSetting.anInt10862 = (class668.anIntArray8541[1867269829 * class668.anInt8542 + 5] * 43031081);
 		Class587.anInt7739 = (class668.anIntArray8541[6 + class668.anInt8542 * 1867269829] * 1517005929);
 		Class252.anInt2746 = (class668.anIntArray8541[7 + class668.anInt8542 * 1867269829] * -341267247);
 		Class575.anInt7680 = (class668.anIntArray8541[8 + 1867269829 * class668.anInt8542] * -1348047085);
@@ -351,7 +351,7 @@ public class Class677 implements DefinitionI {
 		Class461.anInt5217 = (class668.anIntArray8541[10 + 1867269829 * class668.anInt8542] * -1458393235);
 		Class301.anInt3400 = -308671957 * (class668.anIntArray8541[1867269829 * class668.anInt8542 + 11]);
 		Class398.aClass461_4122.method5580(-1034889975 * Class28.anInt260, -964514165);
-		Class398.aClass461_4122.method5580(Class710_Sub16.anInt10862 * -1675910631, -964514165);
+		Class398.aClass461_4122.method5580(FogSetting.anInt10862 * -1675910631, -964514165);
 		Class398.aClass461_4122.method5580(Class587.anInt7739 * 1037345753, -964514165);
 		Class398.aClass461_4122.method5580(-1147982799 * Class252.anInt2746, -964514165);
 		Class398.aClass461_4122.method5580(Class575.anInt7680 * -1877429477, -964514165);

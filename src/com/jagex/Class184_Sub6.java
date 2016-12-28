@@ -608,7 +608,7 @@ public class Class184_Sub6 extends Class184 {
 	}
 
 	static final void method9083(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9883(1527274134) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.textureSetting.method9883(1527274134) ? 1 : 0;
 	}
 
 	public static Class709[] method9084(int i) {

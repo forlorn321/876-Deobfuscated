@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub28 extends Class710 {
+public class CustomCursorSetting extends ClientSetting {
 	public static final int anInt10895 = 0;
 	public static final int anInt10896 = 1;
 
@@ -52,7 +52,7 @@ public class Class710_Sub28 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub28(Class536_Sub40 class536_sub40) {
+	public CustomCursorSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
@@ -86,7 +86,7 @@ public class Class710_Sub28 extends Class710 {
 		return anInt8842 * -789865385;
 	}
 
-	public Class710_Sub28(int i, Class536_Sub40 class536_sub40) {
+	public CustomCursorSetting(int i, ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

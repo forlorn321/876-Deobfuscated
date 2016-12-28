@@ -256,6 +256,6 @@ public final class Class610 implements Interface19 {
 	}
 
 	static final void method7276(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub25_10735.method10142(1665721795);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub25_10735.method10142(1665721795);
 	}
 }

@@ -134,9 +134,9 @@ public abstract class Class285 implements Interface35 {
 
 	static final void method3840(Class668 class668, int i) {
 		int i_54_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		int i_55_ = Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(-1267859400);
+		int i_55_ = ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(-1267859400);
 		if (i_54_ != i_55_) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub35_10790), i_54_, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting), i_54_, (byte) 1);
 			Class27.method763(2068456638);
 			client.aBool11015 = false;
 		}

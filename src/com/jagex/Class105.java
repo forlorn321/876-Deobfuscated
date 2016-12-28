@@ -37,7 +37,7 @@ public class Class105 {
 			if (i == 6)
 				Class98_Sub1.method8393(48831511);
 			else if (16 == i)
-				Class214.sendPanelBoxMessage(new StringBuilder().append("").append(-311312947 * Class505.anInt6856).toString());
+				Class214.sendPanelBoxMessage(new StringBuilder().append("").append(-311312947 * GameShell.anInt6856).toString());
 			else if (3 == i) {
 				Class544 class544 = (client.aClass515_11066.method6249(-1118250862).aClass544_7426);
 				class544.aBool7239 = !class544.aBool7239;
@@ -78,7 +78,7 @@ public class Class105 {
 			else if (i == 7)
 				Class399.aCanvas4127.setLocation(50, 50);
 			else if (i == 25)
-				Class399.aCanvas4127.setLocation((Class505.anInt6887 * 1509041125), (Class505.anInt6863 * -1413419225));
+				Class399.aCanvas4127.setLocation((GameShell.anInt6887 * 1509041125), (GameShell.anInt6863 * -1413419225));
 			else if (i == 17)
 				Class388.method4850((byte) 46);
 			else if (8 == i) {
@@ -320,14 +320,14 @@ public class Class105 {
 	}
 
 	static void method1393() {
-		if (null != Class710_Sub7.aFileOutputStream10835) {
+		if (null != GroundDecorationSetting.aFileOutputStream10835) {
 			try {
-				Class710_Sub7.aFileOutputStream10835.close();
+				GroundDecorationSetting.aFileOutputStream10835.close();
 			} catch (IOException ioexception) {
 				/* empty */
 			}
 		}
-		Class710_Sub7.aFileOutputStream10835 = null;
+		GroundDecorationSetting.aFileOutputStream10835 = null;
 	}
 
 	static void method1394() {
@@ -357,14 +357,14 @@ public class Class105 {
 	}
 
 	static void method1396() {
-		if (null != Class710_Sub7.aFileOutputStream10835) {
+		if (null != GroundDecorationSetting.aFileOutputStream10835) {
 			try {
-				Class710_Sub7.aFileOutputStream10835.close();
+				GroundDecorationSetting.aFileOutputStream10835.close();
 			} catch (IOException ioexception) {
 				/* empty */
 			}
 		}
-		Class710_Sub7.aFileOutputStream10835 = null;
+		GroundDecorationSetting.aFileOutputStream10835 = null;
 	}
 
 	Class105() throws Throwable {
@@ -497,7 +497,7 @@ public class Class105 {
 			if (i == 6)
 				Class98_Sub1.method8393(1830015994);
 			else if (16 == i)
-				Class214.sendPanelBoxMessage(new StringBuilder().append("").append(-311312947 * Class505.anInt6856).toString());
+				Class214.sendPanelBoxMessage(new StringBuilder().append("").append(-311312947 * GameShell.anInt6856).toString());
 			else if (3 == i) {
 				Class544 class544 = (client.aClass515_11066.method6249(-1077234689).aClass544_7426);
 				class544.aBool7239 = !class544.aBool7239;
@@ -538,7 +538,7 @@ public class Class105 {
 			else if (i == 7)
 				Class399.aCanvas4127.setLocation(50, 50);
 			else if (i == 25)
-				Class399.aCanvas4127.setLocation((Class505.anInt6887 * 1509041125), (Class505.anInt6863 * -1413419225));
+				Class399.aCanvas4127.setLocation((GameShell.anInt6887 * 1509041125), (GameShell.anInt6863 * -1413419225));
 			else if (i == 17)
 				Class388.method4850((byte) 92);
 			else if (8 == i) {

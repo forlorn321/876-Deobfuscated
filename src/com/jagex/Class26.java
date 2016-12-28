@@ -137,7 +137,7 @@ public class Class26 {
 	}
 
 	static final void method737(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub29_10752, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.groundBlendingSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0 ? 1 : 0, (byte) 1);
 		Class27.method763(1926239903);
 		client.aClass515_11066.method6319(-1336882576);
 	}

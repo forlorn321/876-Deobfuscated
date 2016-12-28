@@ -587,7 +587,7 @@ public abstract class Class301 {
 
 	static final void method4094(Class668 class668, int i) {
 		if (client.aString11137 != null)
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class639.method7664(client.aString11137, (byte) -63);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = ColourUtils.method7664(client.aString11137, (byte) -63);
 		else
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = "";
 	}

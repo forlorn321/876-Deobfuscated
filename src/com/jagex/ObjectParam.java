@@ -12,7 +12,7 @@ public class ObjectParam extends Class536 {
 	}
 
 	static final void method9469(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub37_10791, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.stereoVolumeSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
 		Class27.method763(1984542379);
 		client.aBool11015 = false;
 	}

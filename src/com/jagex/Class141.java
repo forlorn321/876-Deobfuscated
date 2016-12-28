@@ -155,7 +155,7 @@ class Class141 implements Runnable {
 			int i_16_ = ((i_12_ * (1171941285 * Class514.anInt6990) / Class542_Sub1.anInt7187) + i);
 			int i_17_ = i_8_ + i_13_ - (i_13_ * (-2077040371 * Class360.anInt3828) / Class542_Sub1.anInt7188) - i_15_;
 			int i_18_ = -1996554240;
-			if (client.aClass670_11043 == Class670.aClass670_8575)
+			if (client.aClass670_11043 == GameMode.aClass670_8575)
 				i_18_ = -1996488705;
 			class167.method2063(i_16_, i_17_, i_14_, i_15_, i_18_, 1);
 			class167.method2062(i_16_, i_17_, i_14_, i_15_, i_18_, 0);

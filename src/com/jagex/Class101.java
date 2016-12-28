@@ -174,7 +174,7 @@ public class Class101 {
 		Class584_Sub1.anInt10560 = i_21_ * 190907193;
 		Class234.anInt2381 = i_22_ * 1832046409;
 		if (Class246.anInt2474 * 155362615 == 2)
-			Class710_Sub23.method10132(1485087813);
+			AnimationDetailSetting.method10132(1485087813);
 		if (bool && Class234.anInt2381 * -1497935111 >= 100) {
 			Class637.anInt8301 = Class440.anInt4874 * 1474287104 + -1330152192;
 			Class685.anInt8665 = 724215296 * Class606.anInt7898 + -1060159744;

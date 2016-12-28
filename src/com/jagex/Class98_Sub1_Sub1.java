@@ -113,7 +113,7 @@ public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 		}
 	}
 
-	public Class98_Sub1_Sub1(Class670 class670, Class458 class458, Class664 class664, Class461 class461) {
+	public Class98_Sub1_Sub1(GameMode class670, Class458 class458, Class664 class664, Class461 class461) {
 		super(class670, class458, class664, (null != class461 ? class461.method5566((class458.method5498(1821017415).anInt8389 * 1716263195), 1053953900) : 0));
 		aClass461_11325 = class461;
 	}
@@ -131,7 +131,7 @@ public class Class98_Sub1_Sub1 extends Class98_Sub1 implements Interface12 {
 	}
 
 	static final void method10474(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub35_10785), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.soundVolumeSetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
 		Class27.method763(2123244716);
 		client.aBool11015 = false;
 	}

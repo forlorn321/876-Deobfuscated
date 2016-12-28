@@ -17,10 +17,10 @@ public class Class288 {
 	}
 
 	static void method3915(RSByteBuffer class536_sub33, int i, int i_0_) {
-		if (Class505.aClass18_6878 != null) {
+		if (GameShell.aClass18_6878 != null) {
 			try {
-				Class505.aClass18_6878.method673(0L);
-				Class505.aClass18_6878.method678((class536_sub33.buffer), i, 24, -1030297220);
+				GameShell.aClass18_6878.method673(0L);
+				GameShell.aClass18_6878.method678((class536_sub33.buffer), i, 24, -1030297220);
 			} catch (Exception exception) {
 				/* empty */
 			}
@@ -28,7 +28,7 @@ public class Class288 {
 	}
 
 	static final void method3916(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub14_10755, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.lightingDetailSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
 		Class184.method2769(1441080267);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		Class27.method763(1916697484);

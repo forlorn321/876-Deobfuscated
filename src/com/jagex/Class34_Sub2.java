@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class34_Sub2 extends Class34 {
-	public Class34_Sub2(Class670 class670, Class664 class664, Class461 class461, Class461 class461_0_) {
+	public Class34_Sub2(GameMode class670, Class664 class664, Class461 class461, Class461 class461_0_) {
 		super(class670, class664, class461, Class648.aClass648_8380, 64, new Class312(class461_0_));
 	}
 

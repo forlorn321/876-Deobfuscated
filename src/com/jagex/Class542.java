@@ -157,9 +157,9 @@ public class Class542 {
 			else if (i_10_ > 127)
 				i_10_ = 127;
 			int i_11_ = (i_9_ + i_5_ & 0xfc00) + (i_9_ & 0x380) + i_10_;
-			i_8_ = (~0xffffff | (Class639.anIntArray8308[Class254.method3537(Class249.method3454(i_11_, 96, -832367056), 1409175155) & 0xffff]));
+			i_8_ = (~0xffffff | (ColourUtils.anIntArray8308[Class254.method3537(Class249.method3454(i_11_, 96, -832367056), 1409175155) & 0xffff]));
 		} else if (i_7_ >= 0)
-			i_8_ = (~0xffffff | (Class639.anIntArray8308[Class254.method3537(Class249.method3454((class174.method2446(i_7_, -1844114562).aShort1831), 96, -832367056), 1409175155) & 0xffff]));
+			i_8_ = (~0xffffff | (ColourUtils.anIntArray8308[Class254.method3537(Class249.method3454((class174.method2446(i_7_, -1844114562).aShort1831), 96, -832367056), 1409175155) & 0xffff]));
 		else if (class647.anInt8364 * 1648019033 == -1)
 			i_8_ = 0;
 		else {
@@ -170,7 +170,7 @@ public class Class542 {
 			else if (i_13_ > 127)
 				i_13_ = 127;
 			int i_14_ = (i_12_ + i_5_ & 0xfc00) + (i_12_ & 0x380) + i_13_;
-			i_8_ = (~0xffffff | (Class639.anIntArray8308[Class254.method3537(Class249.method3454(i_14_, 96, -832367056), 1409175155) & 0xffff]));
+			i_8_ = (~0xffffff | (ColourUtils.anIntArray8308[Class254.method3537(Class249.method3454(i_14_, 96, -832367056), 1409175155) & 0xffff]));
 		}
 		return i_8_;
 	}
@@ -1285,7 +1285,7 @@ public class Class542 {
 				} else {
 					int i_352_ = bool_349_ ? 0 : 1;
 					int i_353_ = Class432.method5185(i_346_ >> 6 & 0x3, i_350_, -1914173312);
-					i_350_ = Class505.method6136(i_350_, (byte) 88);
+					i_350_ = GameShell.method6136(i_350_, (byte) 88);
 					method6545(is, i, i_340_, i_341_, i_342_, i_343_, i_343_, i_344_, anIntArray7189[i_345_], aByteArrayArrayArray7177[i_350_ - 1][i_353_], anInt7178, i_352_);
 				}
 			}
@@ -1419,7 +1419,7 @@ public class Class542 {
 								i_386_ = 127;
 							int i_387_ = ((i_385_ + i & 0xfc00) + (i_385_ & 0x380) + i_386_);
 							int i_388_ = i_370_ + i_381_ * anInt7187;
-							int i_389_ = (Class639.anIntArray8308[(Class254.method3537(Class392.method4863(i_387_, 96, 1566755916), 1409175155)) & 0xffff]);
+							int i_389_ = (ColourUtils.anIntArray8308[(Class254.method3537(Class392.method4863(i_387_, 96, 1566755916), 1409175155)) & 0xffff]);
 							is_362_[i_388_] = (byte) (i_389_ >> 16 & 0xff);
 							is_363_[i_388_] = (short) (i_389_ & 0xffff);
 						}

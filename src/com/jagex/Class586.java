@@ -185,6 +185,6 @@ public class Class586 {
 
 	static final void method7065(Class668 class668, short i) {
 		int i_19_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub25_10735.method8348(i_19_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub25_10735.method8348(i_19_, -1102005131);
 	}
 }

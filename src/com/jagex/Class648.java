@@ -361,9 +361,9 @@ public class Class648 {
 					Class685.anInt8665 = 0;
 				if (Class685.anInt8665 * -1646092097 > ((client.aClass515_11066.method6249(1025220307).anInt7464 * 1965060689) << 9) - 1)
 					Class685.anInt8665 = (((client.aClass515_11066.method6249(-1375722687).anInt7464) * 1965060689 << 9) - 1) * 717279039;
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub5_10761.method9916(-379778859) == 2)
+				if (ClientSetting.aClass536_Sub40_8843.removeRoofSetting.method9916() == 2)
 					Class205_Sub5.method9058(1478237882);
-				else if (Class710.aClass536_Sub40_8843.aClass710_Sub5_10761.method9916(653453201) == 3)
+				else if (ClientSetting.aClass536_Sub40_8843.removeRoofSetting.method9916() == 3)
 					Class74.method1138((byte) -10);
 				Class677.aClass167_8609.method2048(i, i_17_, i_18_, i_19_);
 				Class677.aClass167_8609.method2245(true);
@@ -400,7 +400,7 @@ public class Class648 {
 				Class677.aClass167_8609.method2245(false);
 				Class18.method686(client.aClass433_11110, client.aClass443_11198, i_18_, i_19_, 1903100682);
 				client.aClass515_11066.method6252(1796531619).method7567(client.aClass515_11066, -1411037171);
-				int i_37_ = Class710.aClass536_Sub40_8843.aClass710_Sub5_10761.method9916(861419284);
+				int i_37_ = ClientSetting.aClass536_Sub40_8843.removeRoofSetting.method9916();
 				byte i_38_;
 				if (2 == i_37_)
 					i_38_ = (byte) (648319383 * client.anInt11127);
@@ -410,10 +410,10 @@ public class Class648 {
 					i_38_ = (byte) 1;
 				if (Class70.method1117(-1727260073) || Class246.anInt2474 * 155362615 == 2)
 					client.aClass515_11066.method6249(-1830350637).method6730(client.cycles, 606032575 * class305.anInt3441, class305.anInt3442 * 1904157639, 1232077433 * class305.anInt3443, client.aClass515_11066.method6314((byte) -31), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, 1 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), i_38_, (int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9,
-							Class710.aClass536_Sub40_8843.aClass710_Sub17_10763.method10087(2069851228) == 0, true, 0, true);
+							ClientSetting.aClass536_Sub40_8843.flickeringSetting.method10087(2069851228) == 0, true, 0, true);
 				else
 					client.aClass515_11066.method6249(-674673073).method6730(client.cycles, Class637.anInt8301 * -1607026219, -1598853731 * Class205_Sub21.anInt9958, -1646092097 * Class685.anInt8665, client.aClass515_11066.method6314((byte) 20), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) + 1, i_38_, (int) class436.aFloat4850 >> 9,
-							(int) class436.aFloat4853 >> 9, Class710.aClass536_Sub40_8843.aClass710_Sub17_10763.method10087(2052345428) == 0, true, 0, true);
+							(int) class436.aFloat4853 >> 9, ClientSetting.aClass536_Sub40_8843.flickeringSetting.method10087(2052345428) == 0, true, 0, true);
 				client.anInt11028 += 1265757775;
 				if (!Class677.aClass167_8609.method2116() && client.anInt11101 * -708374433 == 9)
 					Class199.method2912(i, i_17_, i_18_, i_19_, (byte) -6);

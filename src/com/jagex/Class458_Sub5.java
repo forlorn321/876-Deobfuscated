@@ -31,7 +31,7 @@ final class Class458_Sub5 extends Class458 {
 	}
 
 	static void method9373(int i, byte i_1_) {
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub28_10748.method10165((short) 836) == 0)
+		if (ClientSetting.aClass536_Sub40_8843.customCursorSetting.method10165((short) 836) == 0)
 			i = -1;
 		if (616246675 * client.anInt11085 != i) {
 			if (i != -1) {
@@ -51,7 +51,7 @@ final class Class458_Sub5 extends Class458 {
 	}
 
 	static final void method9374(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub28_10748, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.customCursorSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0 ? 1 : 0, (byte) 1);
 		Class27.method763(2012497437);
 	}
 

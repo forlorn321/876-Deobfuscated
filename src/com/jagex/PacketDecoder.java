@@ -510,7 +510,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4646 == class106.currentPacket) {
 			if (Class707.aBool8822 && null != Class223.aFrame2336)
-				Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-1278523423), -1, -1, false, -1298793998);
+				Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -1298793998);
 			byte[] is = new byte[610303591 * class106.anInt1262];
 			stream.method10776(is, 0, 610303591 * class106.anInt1262, -399442820);
 			String string = Class202.method2925(is, 0, class106.anInt1262 * 610303591, -1694498816);
@@ -1324,7 +1324,7 @@ public class PacketDecoder {
 			RSBitBuffer class536_sub33_sub2_225_ = new RSBitBuffer(class106.anInt1262 * 610303591);
 			System.arraycopy((class106.byteBuffer.buffer), (-810172525 * class106.byteBuffer.off), class536_sub33_sub2_225_.buffer, 0, class106.anInt1262 * 610303591);
 			Class478.method5762(753155875);
-			if (Class710.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
+			if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
 				Class266.aClass503_2867.method6043(new Class510(Class498.aClass498_5557, class536_sub33_sub2_225_), (byte) 122);
 			else
 				client.aClass515_11066.method6291(new Class510(Class498.aClass498_5557, class536_sub33_sub2_225_), (byte) -87);
@@ -1889,7 +1889,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.aClass422_4721 == class106.currentPacket) {
 			if (Class707.aBool8822 && null != Class223.aFrame2336)
-				Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-1146339449), -1, -1, false, -1631489726);
+				Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -1631489726);
 			byte[] is = new byte[610303591 * class106.anInt1262 - 1];
 			boolean bool = stream.readUnsignedByte() == 1;
 			stream.method10776(is, 0, class106.anInt1262 * 610303591 - 1, -399442820);
@@ -1899,7 +1899,7 @@ public class PacketDecoder {
 				String string_313_ = class536_sub33.readString();
 				if (string_313_.length() == 0)
 					string_313_ = string;
-				if (!client.aBool10984 || Class241.aString2456.startsWith("mac") || !Class575.method7000(string, 1, Class412.aClass412_4392.method5005(1262993710), -1538496515))
+				if (!client.aBool10984 || Class241.osName.startsWith("mac") || !Class575.method7000(string, 1, Class412.aClass412_4392.method5005(1262993710), -1538496515))
 					Class380.method4809(string_313_, true, client.aBool11228, 1887390142);
 			} else
 				Class380.method4809(string, true, client.aBool11228, 1657675759);
@@ -2008,7 +2008,7 @@ public class PacketDecoder {
 			int i_337_ = stream.readIntV2();
 			int i_338_ = stream.readIntV1();
 			Class307.method4133();
-			Class639.method7667(i_337_, i_338_, (short) 18545);
+			ColourUtils.method7667(i_337_, i_338_, (short) 18545);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -2042,7 +2042,7 @@ public class PacketDecoder {
 			RSBitBuffer class536_sub33_sub2_342_ = new RSBitBuffer(class106.anInt1262 * 610303591);
 			System.arraycopy((class106.byteBuffer.buffer), (class106.byteBuffer.off * -810172525), class536_sub33_sub2_342_.buffer, 0, class106.anInt1262 * 610303591);
 			Class478.method5762(204029425);
-			if (Class710.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
+			if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
 				Class266.aClass503_2867.method6043(new Class510(Class498.aClass498_5558, class536_sub33_sub2_342_), (byte) 109);
 			else
 				client.aClass515_11066.method6291(new Class510(Class498.aClass498_5558, class536_sub33_sub2_342_), (byte) -52);

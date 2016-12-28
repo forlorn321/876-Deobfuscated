@@ -94,7 +94,7 @@ public class Class478 implements Interface75 {
 	}
 
 	static final void method5761(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10196((byte) 0) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762.method10196((byte) 0) ? 1 : 0;
 	}
 
 	static final void method5762(int i) {

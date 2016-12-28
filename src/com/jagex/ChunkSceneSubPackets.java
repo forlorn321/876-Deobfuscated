@@ -148,6 +148,6 @@ public class ChunkSceneSubPackets {
 
 	static final void method4974(Class668 class668, byte i) {
 		int i_21_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub3_10754.method8348(i_21_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method8348(i_21_, -1102005131);
 	}
 }

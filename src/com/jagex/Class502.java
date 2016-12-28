@@ -36,7 +36,7 @@ public class Class502 {
 	}
 
 	static final void method6039(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1485705955) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1485705955) == 1 ? 1 : 0;
 	}
 
 	public static void method6040(int i) {
@@ -57,8 +57,8 @@ public class Class502 {
 	public static void method6042(RSByteBuffer class536_sub33, byte i) {
 		byte[] is = new byte[24];
 		try {
-			Class505.aClass18_6878.method673(0L);
-			Class505.aClass18_6878.method685(is, (byte) 78);
+			GameShell.aClass18_6878.method673(0L);
+			GameShell.aClass18_6878.method685(is, (byte) 78);
 			int i_2_;
 			for (i_2_ = 0; i_2_ < 24 && 0 == is[i_2_]; i_2_++) {
 				/* empty */

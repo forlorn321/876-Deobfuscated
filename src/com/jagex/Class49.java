@@ -60,7 +60,7 @@ public class Class49 {
 	}
 
 	static final void method925(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub31_10782.method10186(-957266183);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.loadingScreenTypeSetting.method10186(-957266183);
 	}
 
 	static void method926(byte i) {

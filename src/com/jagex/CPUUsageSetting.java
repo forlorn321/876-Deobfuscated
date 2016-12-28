@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub26 extends Class710 {
+public class CPUUsageSetting extends ClientSetting {
 	public static final int anInt10887 = 3;
 	public static final int anInt10888 = 1;
 	public static final int anInt10889 = 2;
@@ -17,7 +17,7 @@ public class Class710_Sub26 extends Class710 {
 		return 2;
 	}
 
-	public Class710_Sub26(int i, Class536_Sub40 class536_sub40) {
+	public CPUUsageSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -41,7 +41,7 @@ public class Class710_Sub26 extends Class710 {
 		return -789865385 * anInt8842;
 	}
 
-	public Class710_Sub26(Class536_Sub40 class536_sub40) {
+	public CPUUsageSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

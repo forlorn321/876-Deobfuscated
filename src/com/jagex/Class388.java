@@ -44,7 +44,7 @@ public class Class388 implements Interface49 {
 	}
 
 	static void method4850(byte i) {
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub41_10784.method10248(65533) == 1)
 			Class266.aClass503_2867.method6043(new Class510((Class498.aClass498_5562), null), (byte) 108);
 		else {
 			client.aClass515_11066.method6319(-1587051454);
@@ -60,7 +60,7 @@ public class Class388 implements Interface49 {
 			Class677.aClass167_8609.method2023(Class399.aCanvas4127, dimension.width, dimension.height, (byte) 1);
 			Class677.aClass167_8609.method2026(Class399.aCanvas4127, -1649601467);
 		} else
-			Class704.method8264(Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1891654182), false, (byte) 104);
+			Class704.method8264(ClientSetting.aClass536_Sub40_8843.toolkit.method10071(), false, (byte) 104);
 		Class552.method6692(-1471526330);
 	}
 }

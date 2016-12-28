@@ -98,7 +98,7 @@ public class Class221 implements Interface27 {
 	}
 
 	static final void method3111(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(809894116);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.toolkit.method10071();
 	}
 
 	static final void method3112(Class668 class668, int i) {

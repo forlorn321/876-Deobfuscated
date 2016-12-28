@@ -69,7 +69,7 @@ class Class477 implements Interface45 {
 		boolean bool = false;
 		boolean bool_8_ = false;
 		boolean bool_9_ = false;
-		if (Class241.aString2456.startsWith("win")) {
+		if (Class241.osName.startsWith("win")) {
 			bool_8_ = true;
 			bool = true;
 			bool_9_ = true;
@@ -98,10 +98,10 @@ class Class477 implements Interface45 {
 		int i_12_ = -1;
 		if (bool_8_) {
 			try {
-				Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub39_10783, 3, (byte) 1);
+				ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783, 3, (byte) 1);
 				Class27.method763(2085981023);
 				i_11_ = Class458_Sub1.method9334(3, 1000, (byte) -123);
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(681372852) == 3) {
+				if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 3) {
 					class67_sub1.method9792(4, -631431786);
 					Class145 class145 = Class677.aClass167_8609.method2001();
 					long l = (class145.aLong1688 * -1138482170592229701L & 0xffffffffffffL);
@@ -128,10 +128,10 @@ class Class477 implements Interface45 {
 		}
 		if (bool_9_) {
 			try {
-				Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub39_10783, 5, (byte) 1);
+				ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783, 5, (byte) 1);
 				Class27.method763(2104119533);
 				i_12_ = Class458_Sub1.method9334(5, 1000, (byte) -28);
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(723920365) == 5)
+				if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 5)
 					class67_sub1.method9792(8192, -542846325);
 			} catch (Exception exception) {
 				class67_sub1.method9792(32768, 596303013);
@@ -139,16 +139,16 @@ class Class477 implements Interface45 {
 		}
 		if (bool) {
 			try {
-				Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub39_10783, 4, (byte) 1);
+				ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783, 4, (byte) 1);
 				Class27.method763(2027114927);
 				i_10_ = Class458_Sub1.method9334(1, 1000, (byte) -96);
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1455330871) == 1)
+				if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 1)
 					class67_sub1.method9792(2, 807774330);
 			} catch (Exception exception) {
 				class67_sub1.method9792(2048, 250319035);
 			}
 		}
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub39_10783), 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783), 0, (byte) 1);
 		if (i_10_ == -1 && -1 == i_11_) {
 			Class144.method1796(class67_sub1, (byte) -1);
 			return class67_sub1;

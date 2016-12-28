@@ -145,7 +145,7 @@ public class Class492 {
 				anInterface43_5474.method323(aBool5496, (aBool5479 ? anInt5480 * 2005465249 : 0), 800613571 * anInt5524, 1499868731 * anInt5491);
 				if (anInterface58_5482 != null) {
 					int i_9_ = (class536_sub33.buffer.length - 60379087 * anInt5477);
-					byte[] is_10_ = Class705.method8269(i_9_, true, 768798937);
+					byte[] is_10_ = CircularBuffer.method8269(i_9_, true, 768798937);
 					System.arraycopy(class536_sub33.buffer, anInt5477 * 60379087, is_10_, 0, i_9_);
 					class536_sub33.buffer = is_10_;
 					class536_sub33.off = i_9_ * 516175515;

@@ -218,7 +218,7 @@ public abstract class Class173 implements Interface24 {
 	}
 
 	static final void method2443(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub7_10753.method9932(-2015548878) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method9932(-2015548878) == 1 ? 1 : 0;
 	}
 
 	static final void method2444(Class668 class668, byte i) {

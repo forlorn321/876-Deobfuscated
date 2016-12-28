@@ -35,7 +35,7 @@ public class Class234 {
 	}
 
 	static final void method3340(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub37_10791.method10226(-1404949445) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.stereoVolumeSetting.method10226(-1404949445) == 1 ? 1 : 0;
 	}
 
 	static final void method3341(Class668 class668, int i) {

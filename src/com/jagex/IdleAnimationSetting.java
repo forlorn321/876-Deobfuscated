@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub21 extends Class710 {
+public class IdleAnimationSetting extends ClientSetting {
 	public static final int anInt10871 = 1;
 	public static final int anInt10872 = 0;
 	static final int anInt10873 = 2;
@@ -13,14 +13,14 @@ public class Class710_Sub21 extends Class710 {
 	}
 
 	public void method10106() {
-		if (aClass536_Sub40_8841.method9865((byte) -94) == Class670.aClass670_8575)
+		if (aClass536_Sub40_8841.method9865((byte) -94) == GameMode.aClass670_8575)
 			anInt8842 = 2094669518;
 		if (anInt8842 * -789865385 < 0 || -789865385 * anInt8842 > 2)
 			anInt8842 = method8347((byte) -73) * -1100148889;
 	}
 
 	public void method10107(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -21) == Class670.aClass670_8575)
+		if (aClass536_Sub40_8841.method9865((byte) -21) == GameMode.aClass670_8575)
 			anInt8842 = 2094669518;
 		if (anInt8842 * -789865385 < 0 || -789865385 * anInt8842 > 2)
 			anInt8842 = method8347((byte) 59) * -1100148889;
@@ -47,7 +47,7 @@ public class Class710_Sub21 extends Class710 {
 	}
 
 	public void method10108() {
-		if (aClass536_Sub40_8841.method9865((byte) -79) == Class670.aClass670_8575)
+		if (aClass536_Sub40_8841.method9865((byte) -79) == GameMode.aClass670_8575)
 			anInt8842 = 2094669518;
 		if (anInt8842 * -789865385 < 0 || -789865385 * anInt8842 > 2)
 			anInt8842 = method8347((byte) -23) * -1100148889;
@@ -57,7 +57,7 @@ public class Class710_Sub21 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub21(int i, Class536_Sub40 class536_sub40) {
+	public IdleAnimationSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -86,13 +86,13 @@ public class Class710_Sub21 extends Class710 {
 	}
 
 	public void method10110() {
-		if (aClass536_Sub40_8841.method9865((byte) -47) == Class670.aClass670_8575)
+		if (aClass536_Sub40_8841.method9865((byte) -47) == GameMode.aClass670_8575)
 			anInt8842 = 2094669518;
 		if (anInt8842 * -789865385 < 0 || -789865385 * anInt8842 > 2)
 			anInt8842 = method8347((byte) 105) * -1100148889;
 	}
 
-	public Class710_Sub21(Class536_Sub40 class536_sub40) {
+	public IdleAnimationSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

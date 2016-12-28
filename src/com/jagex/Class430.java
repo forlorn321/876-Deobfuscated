@@ -99,7 +99,7 @@ public class Class430 {
 	}
 
 	static final void method5168(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub35_10788.method10213(999112287);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.speechVolumeSetting.method10213(999112287);
 	}
 
 	static void method5169(int i) {

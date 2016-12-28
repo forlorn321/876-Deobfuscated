@@ -44,8 +44,8 @@ public class Class500 {
 		class668.anInt8542 -= -1411037171;
 	}
 
-	static Class670[] method6029(byte i) {
-		return (new Class670[] { Class670.aClass670_8569, Class670.aClass670_8568, Class670.aClass670_8571, Class670.aClass670_8570, Class670.aClass670_8575, Class670.aClass670_8572 });
+	static GameMode[] method6029(byte i) {
+		return (new GameMode[] { GameMode.aClass670_8569, GameMode.aClass670_8568, GameMode.aClass670_8571, GameMode.aClass670_8570, GameMode.aClass670_8575, GameMode.aClass670_8572 });
 	}
 
 	static final void method6030(Class668 class668, byte i) {

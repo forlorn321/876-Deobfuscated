@@ -34,6 +34,6 @@ public abstract class Class183_Sub2 extends Class183 {
 	}
 
 	static final void method9044(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub16_10751.method10081(1436659191) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.fogSetting.method10081(1436659191) == 1 ? 1 : 0;
 	}
 }

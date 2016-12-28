@@ -36,8 +36,8 @@ public class Class404 {
 	}
 
 	static final void method4932(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub27_10743), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
-		Class704.method8264(Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(10236284), false, (byte) 11);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.antiAliasingSetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		Class704.method8264(ClientSetting.aClass536_Sub40_8843.toolkit.method10071(), false, (byte) 11);
 		Class27.method763(1953530298);
 	}
 

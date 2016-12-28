@@ -14,14 +14,14 @@ public class Class613 {
 
 	public static void method7316(boolean bool, boolean bool_0_, short i) {
 		if (bool) {
-			Class639.anInt8307 -= 1472561865;
-			if (Class639.anInt8307 * -903071879 == 0)
-				Class639.anIntArray8308 = null;
+			ColourUtils.anInt8307 -= 1472561865;
+			if (ColourUtils.anInt8307 * -903071879 == 0)
+				ColourUtils.anIntArray8308 = null;
 		}
 		if (bool_0_) {
-			Class639.anInt8306 -= 2092703225;
-			if (-316402615 * Class639.anInt8306 == 0)
-				Class639.anIntArray8309 = null;
+			ColourUtils.anInt8306 -= 2092703225;
+			if (-316402615 * ColourUtils.anInt8306 == 0)
+				ColourUtils.anIntArray8309 = null;
 		}
 	}
 

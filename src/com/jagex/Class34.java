@@ -97,7 +97,7 @@ public class Class34 implements Interface12 {
 		return 2103424577 * anInt290;
 	}
 
-	public Class34(Class670 class670, Class664 class664, Class461 class461, Class648 class648, int i, Interface6 interface6) {
+	public Class34(GameMode class670, Class664 class664, Class461 class461, Class648 class648, int i, Interface6 interface6) {
 		aClass461_291 = class461;
 		aClass648_288 = class648;
 		anInterface6_289 = interface6;

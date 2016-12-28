@@ -28,6 +28,6 @@ public class Class516 {
 
 	static final void method6327(Class668 class668, byte i) {
 		if (Class707.aBool8822 && Class223.aFrame2336 != null)
-			Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-418442556), -1, -1, false, -1266401212);
+			Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -1266401212);
 	}
 }

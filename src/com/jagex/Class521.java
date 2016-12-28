@@ -59,8 +59,8 @@ public class Class521 {
 
 	static void method6359(byte i) {
 		int i_0_ = 0;
-		if (null != Class710.aClass536_Sub40_8843)
-			i_0_ = Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-133160808);
+		if (null != ClientSetting.aClass536_Sub40_8843)
+			i_0_ = ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-133160808);
 		if (2 == i_0_) {
 			int i_1_ = (569699291 * Class500.anInt6841 > 800 ? 800 : Class500.anInt6841 * 569699291);
 			int i_2_ = (160996593 * Class313.anInt3499 > 600 ? 600 : 160996593 * Class313.anInt3499);

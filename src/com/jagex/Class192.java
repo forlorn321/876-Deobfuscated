@@ -10,7 +10,7 @@ class Class192 implements Interface42 {
 	public static Class292 aClass292_2177;
 
 	public float method285(int i) {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(544654630) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(544654630) / 255.0F);
 	}
 
 	Class192(Class211 class211) {
@@ -18,19 +18,19 @@ class Class192 implements Interface42 {
 	}
 
 	public float method286() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(-1113385635) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(-1113385635) / 255.0F);
 	}
 
 	public float method287() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(231527432) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(231527432) / 255.0F);
 	}
 
 	public float method288() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(-1895917188) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(-1895917188) / 255.0F);
 	}
 
 	static final void method2841(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub29_10752.method10172(1602714949) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10172(1602714949) ? 1 : 0;
 	}
 
 	public static void method2842(Class167 class167, long l) {

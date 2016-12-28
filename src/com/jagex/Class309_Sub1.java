@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class309_Sub1 extends Class309 {
-	Class309_Sub1(boolean bool, Class461 class461, Class664 class664, Class670 class670) {
+	Class309_Sub1(boolean bool, Class461 class461, Class664 class664, GameMode class670) {
 		super(bool, class461, class664, class670);
 	}
 
@@ -29,7 +29,7 @@ public class Class309_Sub1 extends Class309 {
 	}
 
 	static final void method9188(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(-45764204);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(-45764204);
 	}
 
 	static final void method9189(Class668 class668, byte i) {

@@ -14,7 +14,7 @@ public class Class34_Sub10 extends Class34 {
 		((Class584) anInterface6_289).method7032(i, (byte) 51);
 	}
 
-	public Class34_Sub10(Class670 class670, Class664 class664, Class461 class461, Class461 class461_0_) {
+	public Class34_Sub10(GameMode class670, Class664 class664, Class461 class461, Class461 class461_0_) {
 		super(class670, class664, class461, Class648.aClass648_8423, 64, new Class584_Sub1(class461_0_));
 	}
 

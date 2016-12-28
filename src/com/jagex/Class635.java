@@ -143,7 +143,7 @@ public class Class635 {
 	}
 
 	static final void method7562(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10069(-1286425232) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10069(-1286425232) ? 1 : 0;
 	}
 
 	public static String method7563(int i, byte i_15_) {

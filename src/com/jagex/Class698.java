@@ -75,8 +75,8 @@ public final class Class698 {
 		if (160996593 * Class313.anInt3499 < i_1_)
 			i_1_ = Class313.anInt3499 * 160996593;
 		try {
-			if (null != Class710.aClass536_Sub40_8843)
-				Class412.aClass412_4386.method5007((new Object[] { Integer.valueOf(i_0_), Integer.valueOf(i_1_), Integer.valueOf(Class315.method4212((byte) 65)), Integer.valueOf(Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-1729661639)) }), -1134142030);
+			if (null != ClientSetting.aClass536_Sub40_8843)
+				Class412.aClass412_4386.method5007((new Object[] { Integer.valueOf(i_0_), Integer.valueOf(i_1_), Integer.valueOf(Class315.method4212((byte) 65)), Integer.valueOf(ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-1729661639)) }), -1134142030);
 		} catch (Throwable throwable) {
 			/* empty */
 		}

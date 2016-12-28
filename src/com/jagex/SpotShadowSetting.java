@@ -3,15 +3,15 @@
  */
 package com.jagex;
 
-public class Class710_Sub10 extends Class710 {
+public class SpotShadowSetting extends ClientSetting {
 	public static final int anInt10846 = 1;
 	public static final int anInt10847 = 0;
 
-	public Class710_Sub10(int i, Class536_Sub40 class536_sub40) {
+	public SpotShadowSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
-	public Class710_Sub10(Class536_Sub40 class536_sub40) {
+	public SpotShadowSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

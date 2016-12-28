@@ -22,8 +22,8 @@ public final class Class654 {
 	}
 
 	static final void method7883(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -311312947 * Class505.anInt6856;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class505.anInt6856 * -311312947;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = -311312947 * GameShell.anInt6856;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = GameShell.anInt6856 * -311312947;
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1;
 	}
 

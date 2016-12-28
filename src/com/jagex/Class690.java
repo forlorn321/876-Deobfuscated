@@ -38,7 +38,7 @@ public class Class690 implements Interface75 {
 			for (int i_4_ = 127; i_4_ >= 0; i_4_--) {
 				int i_5_ = (i_1_ & 0x3f) << 10 | (i_3_ & 0x7) << 7 | i_4_ & 0x7f;
 				Class38.method845(false, true, 84200204);
-				int i_6_ = Class639.anIntArray8308[i_5_];
+				int i_6_ = ColourUtils.anIntArray8308[i_5_];
 				Class613.method7316(false, true, (short) 192);
 				class167.method2063((i_4_ * (-1606950689 * class251.anInt2573) >> 7) + i, i_0_ + (class251.anInt2574 * 223822141 * (7 - i_3_) >> 3), 1 + (-1606950689 * class251.anInt2573 >> 7), (223822141 * class251.anInt2574 >> 3) + 1, ~0xffffff | i_6_, 0);
 			}

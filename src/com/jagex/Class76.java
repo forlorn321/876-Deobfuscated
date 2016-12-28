@@ -161,6 +161,6 @@ public abstract class Class76 implements Interface6 {
 	}
 
 	static final void method1157(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub40_10745.method10246(-2026593254);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.drawDistanceSetting.method10246(-2026593254);
 	}
 }

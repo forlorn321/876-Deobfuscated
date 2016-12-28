@@ -59,7 +59,7 @@ public class Class85 {
 	}
 
 	public static final void method1188(int i) {
-		int i_6_ = Class710.aClass536_Sub40_8843.aClass710_Sub5_10761.method9916(1585425774);
+		int i_6_ = ClientSetting.aClass536_Sub40_8843.removeRoofSetting.method9916();
 		if (i_6_ == 0) {
 			client.aClass515_11066.method6246(null, -1557750801);
 			Class689.method8183(0, (byte) -60);

@@ -41,7 +41,7 @@ public class Class384 implements Interface49 {
 
 	static final void method4835(Class668 class668, byte i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub4_10759), i_3_, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub4_10759), i_3_, (byte) 1);
 		Class27.method763(1996431080);
 		client.aBool11015 = false;
 	}

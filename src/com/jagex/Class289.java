@@ -57,9 +57,9 @@ public class Class289 {
 
 	static final void method3919(Class668 class668, byte i) {
 		int i_4_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		int i_5_ = Class710.aClass536_Sub40_8843.aClass710_Sub35_10750.method10213(2044352058);
+		int i_5_ = ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(2044352058);
 		if (i_4_ != i_5_) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub35_10750), i_4_, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.musicVolumeSetting), i_4_, (byte) 1);
 			Class27.method763(2015602225);
 			client.aBool11015 = false;
 		}

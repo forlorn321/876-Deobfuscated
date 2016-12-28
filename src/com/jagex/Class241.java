@@ -6,7 +6,7 @@ package com.jagex;
 public class Class241 implements Interface26 {
 	Class213 this$0;
 	Class222 aClass222_2455;
-	public static String aString2456;
+	public static String osName;
 
 	public void method155(Class226 class226) {
 		class226.method3229(aClass222_2455, (byte) -123);

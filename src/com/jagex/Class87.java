@@ -57,7 +57,7 @@ public class Class87 {
 		return -1600029121 * anInt874 != -1;
 	}
 
-	public Class87(Class670 class670, Class664 class664, Class461 class461) {
+	public Class87(GameMode class670, Class664 class664, Class461 class461) {
 		aClass461_873 = class461;
 		RSByteBuffer class536_sub33 = new RSByteBuffer(aClass461_873.method5556(0, 0, (byte) 1));
 		int i = ((class536_sub33.buffer == null || class536_sub33.buffer.length < 1) ? -1 : class536_sub33.readUnsignedByte());

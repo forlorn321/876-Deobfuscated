@@ -271,26 +271,26 @@ public class Class550_Sub1 extends Class550 implements MouseListener, MouseMotio
 		try {
 			File file = new File(Class189.aString2145, "random.dat");
 			if (file.exists())
-				Class505.aClass18_6878 = new Class18(new Class6(file, "rw", 25L), 24, 0);
+				GameShell.aClass18_6878 = new Class18(new Class6(file, "rw", 25L), 24, 0);
 			else {
 				while_66_: for (int i_9_ = 0; i_9_ < Class248.aStringArray2526.length; i_9_++) {
 					for (int i_10_ = 0; i_10_ < Class107.aStringArray1322.length; i_10_++) {
 						File file_11_ = new File(new StringBuilder().append(Class107.aStringArray1322[i_10_]).append(Class248.aStringArray2526[i_9_]).append(File.separatorChar).append("random.dat").toString());
 						if (file_11_.exists()) {
-							Class505.aClass18_6878 = new Class18(new Class6(file_11_, "rw", 25L), 24, 0);
+							GameShell.aClass18_6878 = new Class18(new Class6(file_11_, "rw", 25L), 24, 0);
 							break while_66_;
 						}
 					}
 				}
 			}
-			if (Class505.aClass18_6878 == null) {
+			if (GameShell.aClass18_6878 == null) {
 				RandomAccessFile randomaccessfile = new RandomAccessFile(file, "rw");
 				int i_12_ = randomaccessfile.read();
 				randomaccessfile.seek(0L);
 				randomaccessfile.write(i_12_);
 				randomaccessfile.seek(0L);
 				randomaccessfile.close();
-				Class505.aClass18_6878 = new Class18(new Class6(file, "rw", 25L), 24, 0);
+				GameShell.aClass18_6878 = new Class18(new Class6(file, "rw", 25L), 24, 0);
 			}
 		} catch (IOException ioexception) {
 			/* empty */

@@ -7,11 +7,11 @@ class Class216 implements Interface42 {
 	Class211 this$0;
 
 	public float method287() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10788.method10213(131754200) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.speechVolumeSetting.method10213(131754200) / 255.0F);
 	}
 
 	public float method285(int i) {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10788.method10213(1375913895) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.speechVolumeSetting.method10213(1375913895) / 255.0F);
 	}
 
 	Class216(Class211 class211) {
@@ -19,11 +19,11 @@ class Class216 implements Interface42 {
 	}
 
 	public float method286() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10788.method10213(1621096931) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.speechVolumeSetting.method10213(1621096931) / 255.0F);
 	}
 
 	public float method288() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10788.method10213(1157418600) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.speechVolumeSetting.method10213(1157418600) / 255.0F);
 	}
 
 	static final void method3091(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {

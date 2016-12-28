@@ -67,15 +67,15 @@ public class Class536_Sub38 extends Class536 {
 
 	public Class536_Sub38(boolean bool) {
 		if (bool) {
-			if (Class241.aString2456.startsWith("win"))
+			if (Class241.osName.startsWith("win"))
 				anInt10650 = 467162529;
-			else if (Class241.aString2456.startsWith("mac"))
+			else if (Class241.osName.startsWith("mac"))
 				anInt10650 = 934325058;
-			else if (Class241.aString2456.startsWith("linux"))
+			else if (Class241.osName.startsWith("linux"))
 				anInt10650 = 1401487587;
 			else
 				anInt10650 = 1868650116;
-			if (Class451.aString4948.startsWith("amd64") || Class451.aString4948.startsWith("x86_64"))
+			if (Class451.osArchRaw.startsWith("amd64") || Class451.osArchRaw.startsWith("x86_64"))
 				aBool10683 = true;
 			else
 				aBool10683 = false;
@@ -170,9 +170,9 @@ public class Class536_Sub38 extends Class536 {
 			}
 			anInt10678 = 847615163 * i_0_;
 			aBool10674 = false;
-			anInt10647 = -1356813877 * Class505.anInt6857;
+			anInt10647 = -1356813877 * GameShell.maxMemory;
 			if (982781675 * anInt10676 > 3)
-				anInt10695 = -647223503 * Class505.anInt6864;
+				anInt10695 = -647223503 * GameShell.cpuCount;
 			else
 				anInt10695 = 0;
 			try {

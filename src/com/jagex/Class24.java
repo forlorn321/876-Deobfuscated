@@ -45,7 +45,7 @@ public class Class24 implements Interface32 {
 	}
 
 	static final void method725(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class458_Sub1.method9334(Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1159906707), 200, (byte) -47);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class458_Sub1.method9334(ClientSetting.aClass536_Sub40_8843.toolkit.method10071(), 200, (byte) -47);
 	}
 
 	static final void method726(Class668 class668, int i) {

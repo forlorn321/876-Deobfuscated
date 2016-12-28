@@ -75,7 +75,7 @@ public class Class385 implements Interface47 {
 			Class697[] class697s = Class250.method3461(Class464.aClass691_5228, (byte) 0);
 			Class697[] class697s_5_ = new Class697[class697s.length];
 			int i_6_ = 0;
-			int i_7_ = Class710.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-1284917305);
+			int i_7_ = ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762.method10197(-1284917305);
 			while_62_: for (int i_8_ = 0; i_8_ < class697s.length; i_8_++) {
 				Class697 class697 = class697s[i_8_];
 				if ((class697.anInt8745 * 1117205975 <= 0 || 1117205975 * class697.anInt8745 >= 24) && class697.anInt8744 * -1090373425 >= 800 && 832859273 * class697.anInt8743 >= 600 && (2 != i_7_ || (-1090373425 * class697.anInt8744 <= 800 && class697.anInt8743 * 832859273 <= 600)) && (i_7_ != 1 || (-1090373425 * class697.anInt8744 <= 1024 && class697.anInt8743 * 832859273 <= 768))) {

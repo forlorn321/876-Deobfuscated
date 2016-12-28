@@ -18,7 +18,7 @@ public class Class473 {
 			int i = 10240;
 			RSByteBuffer class536_sub33 = new RSByteBuffer(i, true);
 			int i_0_ = 0;
-			byte[] is = Class705.method8268(1024, 1413422708);
+			byte[] is = CircularBuffer.method8268(1024, 1413422708);
 			while (i_0_ >= 0) {
 				try {
 					i_0_ = inputstream.read(is);
@@ -29,9 +29,9 @@ public class Class473 {
 				if (i_0_ > 0) {
 					if (i_0_ + class536_sub33.off * -810172525 >= class536_sub33.buffer.length) {
 						int i_1_ = class536_sub33.buffer.length + 10240;
-						byte[] is_2_ = Class705.method8269(i_1_, true, 1810046795);
+						byte[] is_2_ = CircularBuffer.method8269(i_1_, true, 1810046795);
 						System.arraycopy(class536_sub33.buffer, 0, is_2_, 0, (-810172525 * class536_sub33.off));
-						Class705.method8270(class536_sub33.buffer, 565075853);
+						CircularBuffer.method8270(class536_sub33.buffer, 565075853);
 						class536_sub33.buffer = is_2_;
 					}
 					class536_sub33.writeBytes(is, 0, i_0_, (byte) 38);
@@ -43,7 +43,7 @@ public class Class473 {
 			System.arraycopy(class536_sub33.buffer, 0, is_4_, 0, class536_sub33.off * -810172525);
 			class536_sub33.method9685(120764410);
 			Object object = null;
-			Class705.method8270(is, 1532840305);
+			CircularBuffer.method8270(is, 1532840305);
 			Object object_5_ = null;
 			aByteArray5370 = is_4_;
 			try {

@@ -714,7 +714,7 @@ public class Class617 {
 	}
 
 	static final void method7365(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub35_10742), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
 		Class27.method763(1946128829);
 		client.aBool11015 = false;
 	}

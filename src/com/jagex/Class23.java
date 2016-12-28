@@ -116,6 +116,6 @@ public class Class23 {
 	}
 
 	static final void method724(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub26_10758.method10149(-664631943);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.cpuUsageSetting.method10149(-664631943);
 	}
 }

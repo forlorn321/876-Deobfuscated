@@ -47,7 +47,7 @@ public class Class405 {
 			Class59.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) -96);
 			Class59.aClass59_614.method985(new Class432("jaggl"), (byte) 74);
 			Class432 class432 = new Class432("jagdx");
-			if (!Class241.aString2456.startsWith("win"))
+			if (!Class241.osName.startsWith("win"))
 				class432.method5181((byte) 55);
 			Class59.aClass59_612.method985(class432, (byte) 35);
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) -47);
@@ -136,7 +136,7 @@ public class Class405 {
 	}
 
 	static final void method4943(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class710.aClass536_Sub40_8843.aClass710_Sub34_10787.method10206(1599762845) && Class677.aClass167_8609.method2013()) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (ClientSetting.aClass536_Sub40_8843.bloomSetting.method10206(1599762845) && Class677.aClass167_8609.method2013()) ? 1 : 0;
 	}
 
 	static final void method4944(Class668 class668, int i) {

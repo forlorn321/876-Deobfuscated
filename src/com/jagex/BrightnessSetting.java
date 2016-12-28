@@ -3,12 +3,12 @@
  */
 package com.jagex;
 
-public class Class710_Sub13 extends Class710 {
-	public Class710_Sub13(Class536_Sub40 class536_sub40) {
+public class BrightnessSetting extends ClientSetting {
+	public BrightnessSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
-	public Class710_Sub13(int i, Class536_Sub40 class536_sub40) {
+	public BrightnessSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 

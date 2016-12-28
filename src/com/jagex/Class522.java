@@ -66,7 +66,7 @@ public class Class522 {
 		}
 		method6367(aClass649_Sub1_7060, -1294163166);
 		if (bool_1_)
-			bool_1_ = bool_1_ & (aBool7071 & !aBool7073 & Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(-639173902) != 0);
+			bool_1_ = bool_1_ & (aBool7071 & !aBool7073 & ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(-639173902) != 0);
 		if (bool && !bool_1_) {
 			anInt7068 = class612.anInt8008 * -1531879593;
 			return null;
@@ -152,7 +152,7 @@ public class Class522 {
 		}
 		if (aClass688_7065.method8121(289934863)) {
 			if (aClass688_7065.method8138((client.cycles - anInt7057 * 701818341), 1793467864)) {
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(-944463154) == 2)
+				if (ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(-944463154) == 2)
 					aBool7073 = false;
 				if (aClass688_7065.method8135(-1684042710)) {
 					aClass688_7065.method8122(-1, -1210701484);
@@ -239,7 +239,7 @@ public class Class522 {
 			if (class612 == class612_15_)
 				class612_15_ = null;
 			if (class612.method7300((byte) -115)) {
-				if (!class612.aBool7993 || Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method10126(1041246061) == 1) {
+				if (!class612.aBool7993 || ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061) == 1) {
 					if (bool && aClass688_7065.method8121(-393240839) && class612.method7296(aClass688_7065.method8120((byte) 34), -2082504538))
 						return;
 					if (class612.anInt8008 * 1083959103 != -1942155687 * anInt7068)
@@ -250,7 +250,7 @@ public class Class522 {
 					else
 						i_10_ = 1;
 				}
-			} else if (class612_15_ != null && class612_15_.method7300((byte) -121) && (!class612_15_.aBool7993 || Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method10126(1041246061) == 1)) {
+			} else if (class612_15_ != null && class612_15_.method7300((byte) -121) && (!class612_15_.aBool7993 || ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061) == 1)) {
 				if (bool && aClass688_7065.method8121(391739265) && class612_15_.method7296(aClass688_7065.method8120((byte) 113), -1796929211))
 					return;
 				if (1083959103 * class612.anInt8008 != anInt7068 * -1942155687)

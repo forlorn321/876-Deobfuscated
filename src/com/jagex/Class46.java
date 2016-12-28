@@ -66,7 +66,7 @@ public class Class46 {
 
 	public static int method904() {
 		if (-1 == anInt554 * 819264887) {
-			Class46[] class46s = Class710_Sub11.method10035(1134937128);
+			Class46[] class46s = ShadowQualitySetting.method10035(1134937128);
 			for (int i = 0; i < class46s.length; i++) {
 				Class46 class46 = class46s[i];
 				if (-960064969 * class46.anInt560 > 819264887 * anInt554)
@@ -83,7 +83,7 @@ public class Class46 {
 
 	public static int method906() {
 		if (-1 == anInt554 * 819264887) {
-			Class46[] class46s = Class710_Sub11.method10035(-967724144);
+			Class46[] class46s = ShadowQualitySetting.method10035(-967724144);
 			for (int i = 0; i < class46s.length; i++) {
 				Class46 class46 = class46s[i];
 				if (-960064969 * class46.anInt560 > 819264887 * anInt554)
@@ -141,6 +141,6 @@ public class Class46 {
 	}
 
 	static final void method907(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub9_10756.method10004(2119230397);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.shadowSetting.method10004(2119230397);
 	}
 }

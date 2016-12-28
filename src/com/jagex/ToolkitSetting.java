@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub15 extends Class710 {
+public class ToolkitSetting extends ClientSetting {
 	public boolean aBool10858;
 	boolean aBool10859 = true;
 
@@ -12,7 +12,7 @@ public class Class710_Sub15 extends Class710 {
 			anInt8842 = method8347((byte) 23) * -1100148889;
 	}
 
-	public Class710_Sub15(int i, Class536_Sub40 class536_sub40) {
+	public ToolkitSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 		aBool10858 = false;
 	}
@@ -35,7 +35,7 @@ public class Class710_Sub15 extends Class710 {
 		return true;
 	}
 
-	public int method10071(int i) {
+	public int method10071() {
 		return anInt8842 * -789865385;
 	}
 
@@ -56,7 +56,7 @@ public class Class710_Sub15 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub15(Class536_Sub40 class536_sub40) {
+	public ToolkitSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 		aBool10858 = false;
 	}

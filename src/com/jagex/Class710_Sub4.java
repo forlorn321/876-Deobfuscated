@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub4 extends Class710 {
+public class Class710_Sub4 extends ClientSetting {
 	public static short[][] aShortArrayArray10822;
 	public static final int anInt10823 = 2;
 	public static final int anInt10824 = 1;
@@ -15,7 +15,7 @@ public class Class710_Sub4 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub4(int i, Class536_Sub40 class536_sub40) {
+	public Class710_Sub4(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 		Class37.method839(-789865385 * anInt8842, 1303571915);
 	}
@@ -150,7 +150,7 @@ public class Class710_Sub4 extends Class710 {
 		return true;
 	}
 
-	public Class710_Sub4(Class536_Sub40 class536_sub40) {
+	public Class710_Sub4(ClientSettings class536_sub40) {
 		super(class536_sub40);
 		Class37.method839(anInt8842 * -789865385, 1303571915);
 	}

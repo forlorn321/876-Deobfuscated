@@ -15,7 +15,7 @@ public abstract class Class98_Sub1 extends Class98 implements Interface54 {
 		return class153.method1855((byte) -30);
 	}
 
-	Class98_Sub1(Class670 class670, Class458 class458, Class664 class664, int i) {
+	Class98_Sub1(GameMode class670, Class458 class458, Class664 class664, int i) {
 		super(class670, class664, i);
 		aClass458_8868 = class458;
 	}

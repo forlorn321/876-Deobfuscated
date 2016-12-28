@@ -17,13 +17,13 @@ public class Class88 {
 	}
 
 	static void method1213(int i) {
-		if (null != Class710_Sub7.aFileOutputStream10835) {
+		if (null != GroundDecorationSetting.aFileOutputStream10835) {
 			try {
-				Class710_Sub7.aFileOutputStream10835.close();
+				GroundDecorationSetting.aFileOutputStream10835.close();
 			} catch (IOException ioexception) {
 				/* empty */
 			}
 		}
-		Class710_Sub7.aFileOutputStream10835 = null;
+		GroundDecorationSetting.aFileOutputStream10835 = null;
 	}
 }

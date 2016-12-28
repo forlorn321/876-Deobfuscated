@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub20 extends Class710 {
+public class Class710_Sub20 extends ClientSetting {
 	static final int anInt10869 = 2;
 	static final int anInt10870 = 0;
 
@@ -65,7 +65,7 @@ public class Class710_Sub20 extends Class710 {
 		anInt8842 = -1100148889 * i;
 	}
 
-	public Class710_Sub20(Class536_Sub40 class536_sub40) {
+	public Class710_Sub20(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
@@ -86,7 +86,7 @@ public class Class710_Sub20 extends Class710 {
 			anInt8842 = method8347((byte) -11) * -1100148889;
 	}
 
-	public Class710_Sub20(int i, Class536_Sub40 class536_sub40) {
+	public Class710_Sub20(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 }

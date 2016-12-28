@@ -5,23 +5,23 @@ package com.jagex;
 
 import java.io.FileOutputStream;
 
-public class Class710_Sub7 extends Class710 {
+public class GroundDecorationSetting extends ClientSetting {
 	public static final int anInt10834 = 0;
 	static FileOutputStream aFileOutputStream10835;
 	public static final int anInt10836 = 1;
 
 	public int method8357(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -126) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -126) == GameMode.aClass670_8568)
 			return 1;
 		return 3;
 	}
 
-	public Class710_Sub7(int i, Class536_Sub40 class536_sub40) {
+	public GroundDecorationSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
 	public int method8355(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -92) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -92) == GameMode.aClass670_8568)
 			return 1;
 		return 3;
 	}
@@ -31,13 +31,13 @@ public class Class710_Sub7 extends Class710 {
 	}
 
 	public boolean method9931(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -22) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -22) == GameMode.aClass670_8568)
 			return true;
 		return false;
 	}
 
 	public int method8348(int i, int i_0_) {
-		if (aClass536_Sub40_8841.method9865((byte) -30) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -30) == GameMode.aClass670_8568)
 			return 1;
 		return 3;
 	}
@@ -67,7 +67,7 @@ public class Class710_Sub7 extends Class710 {
 	}
 
 	public void method9933(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -81) != Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -81) != GameMode.aClass670_8568)
 			anInt8842 = -1100148889;
 		if (0 != -789865385 * anInt8842 && 1 != anInt8842 * -789865385)
 			anInt8842 = method8347((byte) -54) * -1100148889;
@@ -78,30 +78,30 @@ public class Class710_Sub7 extends Class710 {
 	}
 
 	public int method8356(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -60) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -60) == GameMode.aClass670_8568)
 			return 1;
 		return 3;
 	}
 
-	public Class710_Sub7(Class536_Sub40 class536_sub40) {
+	public GroundDecorationSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
 	public int method8358(int i) {
-		if (aClass536_Sub40_8841.method9865((byte) -76) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -76) == GameMode.aClass670_8568)
 			return 1;
 		return 3;
 	}
 
 	public void method9934() {
-		if (aClass536_Sub40_8841.method9865((byte) -102) != Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -102) != GameMode.aClass670_8568)
 			anInt8842 = -1100148889;
 		if (0 != -789865385 * anInt8842 && 1 != anInt8842 * -789865385)
 			anInt8842 = method8347((byte) 2) * -1100148889;
 	}
 
 	public boolean method9935() {
-		if (aClass536_Sub40_8841.method9865((byte) -72) == Class670.aClass670_8568)
+		if (aClass536_Sub40_8841.method9865((byte) -72) == GameMode.aClass670_8568)
 			return true;
 		return false;
 	}
@@ -116,9 +116,9 @@ public class Class710_Sub7 extends Class710 {
 	}
 
 	static void method9937(int i) {
-		if (Class639.anIntArray8309 == null) {
-			Class639.anIntArray8309 = new int[65536];
-			Class639.anIntArray8310 = new int[65536];
+		if (ColourUtils.anIntArray8309 == null) {
+			ColourUtils.anIntArray8309 = new int[65536];
+			ColourUtils.anIntArray8310 = new int[65536];
 			double d = 0.7 + (Math.random() * 0.03 - 0.015);
 			for (int i_3_ = 0; i_3_ < 65536; i_3_++) {
 				double d_4_ = (double) (i_3_ >> 10 & 0x3f) / 64.0 + 0.0078125;
@@ -173,9 +173,9 @@ public class Class710_Sub7 extends Class710 {
 				int i_16_ = (int) (256.0 * d_8_);
 				int i_17_ = (int) (d_9_ * 256.0);
 				int i_18_ = (i_16_ << 8) + (i_15_ << 16) + i_17_;
-				Class639.anIntArray8309[i_3_] = i_18_ & 0xffffff;
+				ColourUtils.anIntArray8309[i_3_] = i_18_ & 0xffffff;
 				int i_19_ = i_15_ + ((i_17_ << 16) + (i_16_ << 8));
-				Class639.anIntArray8310[i_3_] = i_19_;
+				ColourUtils.anIntArray8310[i_3_] = i_19_;
 			}
 		}
 	}

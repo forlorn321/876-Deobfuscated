@@ -127,6 +127,6 @@ public class Class62 {
 	}
 
 	static final void method1055(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub11_10757.method10023(1187359536);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.shadowQualitySetting.method10023(1187359536);
 	}
 }

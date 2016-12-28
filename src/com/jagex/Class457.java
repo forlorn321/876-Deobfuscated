@@ -76,7 +76,7 @@ public class Class457 {
 
 	static final void method5489(Class668 class668, byte i) {
 		int i_6_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub11_10757.method8348(i_6_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.shadowQualitySetting.method8348(i_6_, -1102005131);
 	}
 
 	static final void method5490(int i) {

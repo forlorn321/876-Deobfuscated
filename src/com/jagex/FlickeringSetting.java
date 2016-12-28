@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub17 extends Class710 {
+public class FlickeringSetting extends ClientSetting {
 	public static final int anInt10863 = 1;
 	public static final int anInt10864 = 0;
 
@@ -12,7 +12,7 @@ public class Class710_Sub17 extends Class710 {
 			anInt8842 = method8347((byte) -33) * -1100148889;
 	}
 
-	public Class710_Sub17(int i, Class536_Sub40 class536_sub40) {
+	public FlickeringSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -36,7 +36,7 @@ public class Class710_Sub17 extends Class710 {
 		return -789865385 * anInt8842;
 	}
 
-	public Class710_Sub17(Class536_Sub40 class536_sub40) {
+	public FlickeringSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

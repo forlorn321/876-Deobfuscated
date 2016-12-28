@@ -104,7 +104,7 @@ public final class Class471 implements Comparable {
 			if (client.aBool11314) {
 				int i_13_ = i + i_3_ - 5;
 				int i_14_ = i_4_ + i_2_ - 8;
-				Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Fps: ").append(Class505.anInt6856 * -311312947).append(" (").append(Class505.anInt6884 * 93998629).append(" ms)").toString(), i_13_, i_14_, 16776960, -1, -256630460);
+				Class536_Sub15.aClass184_10488.method2741(new StringBuilder().append("Fps: ").append(GameShell.anInt6856 * -311312947).append(" (").append(GameShell.anInt6884 * 93998629).append(" ms)").toString(), i_13_, i_14_, 16776960, -1, -256630460);
 				i_14_ -= 15;
 				Runtime runtime = Runtime.getRuntime();
 				int i_15_ = (int) ((runtime.totalMemory() - runtime.freeMemory()) / 1024L);

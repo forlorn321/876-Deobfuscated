@@ -561,7 +561,7 @@ public class Class591 implements Interface71 {
 	}
 
 	static final void method7113(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method9995(551063575) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method9995(551063575) ? 1 : 0;
 	}
 
 	public static int method7114(int i, int i_22_, int i_23_, byte i_24_) {

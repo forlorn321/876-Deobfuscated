@@ -26,7 +26,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		anInt12132 = (32 + (int) (Math.random() * 4.0)) * -252971745;
 		anInt12133 = (3 + (int) (Math.random() * 2.0)) * 828261257;
 		anInt12135 = (16 + (int) (Math.random() * 3.0)) * 747599179;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(722074472) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(722074472) == 1)
 			anInt12119 = (int) (Math.random() * 10.0) * -746677787;
 		else
 			anInt12119 = (int) (Math.random() * 20.0) * -746677787;
@@ -36,7 +36,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		anInt12132 = (32 + (int) (Math.random() * 4.0)) * -252971745;
 		anInt12133 = (3 + (int) (Math.random() * 2.0)) * 828261257;
 		anInt12135 = (16 + (int) (Math.random() * 3.0)) * 747599179;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(1237165171) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(1237165171) == 1)
 			anInt12119 = (int) (Math.random() * 10.0) * -746677787;
 		else
 			anInt12119 = (int) (Math.random() * 20.0) * -746677787;
@@ -497,7 +497,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		anInt12132 = (32 + (int) (Math.random() * 4.0)) * -252971745;
 		anInt12133 = (3 + (int) (Math.random() * 2.0)) * 828261257;
 		anInt12135 = (16 + (int) (Math.random() * 3.0)) * 747599179;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(318232440) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(318232440) == 1)
 			anInt12119 = (int) (Math.random() * 10.0) * -746677787;
 		else
 			anInt12119 = (int) (Math.random() * 20.0) * -746677787;
@@ -757,7 +757,7 @@ public class Class649_Sub1_Sub1_Sub1 extends Class649_Sub1_Sub1 {
 		anInt12132 = (32 + (int) (Math.random() * 4.0)) * -252971745;
 		anInt12133 = (3 + (int) (Math.random() * 2.0)) * 828261257;
 		anInt12135 = (16 + (int) (Math.random() * 3.0)) * 747599179;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(-1880999217) == 1)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1880999217) == 1)
 			anInt12119 = (int) (Math.random() * 10.0) * -746677787;
 		else
 			anInt12119 = (int) (Math.random() * 20.0) * -746677787;

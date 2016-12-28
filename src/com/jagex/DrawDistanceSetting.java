@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub40 extends Class710 {
+public class DrawDistanceSetting extends ClientSetting {
 	int method8358(int i) {
 		return 1;
 	}
@@ -12,7 +12,7 @@ public class Class710_Sub40 extends Class710 {
 		anInt8842 = i * -1100148889;
 	}
 
-	public Class710_Sub40(int i, Class536_Sub40 class536_sub40) {
+	public DrawDistanceSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -60,7 +60,7 @@ public class Class710_Sub40 extends Class710 {
 		anInt8842 = i * -1100148889;
 	}
 
-	public Class710_Sub40(Class536_Sub40 class536_sub40) {
+	public DrawDistanceSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

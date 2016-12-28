@@ -380,8 +380,8 @@ public class Class555 {
 	static final void method6800(Class668 class668, int i) {
 		int i_67_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (i_67_ >= 1 && i_67_ <= 2) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub12_10769), i_67_, (byte) 1);
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub12_10771), i_67_, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769), i_67_, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10771), i_67_, (byte) 1);
 			Class27.method763(1950857363);
 		}
 	}

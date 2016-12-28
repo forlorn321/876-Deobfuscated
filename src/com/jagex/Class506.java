@@ -110,7 +110,7 @@ public class Class506 {
 			}
 		}
 		if (3 == i_1_ && (!Class707.aBool8822 || Class223.aFrame2336 == null))
-			method6142(i, Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-404983866), -1, -1, true, (byte) -121);
+			method6142(i, ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, true, (byte) -121);
 		else {
 			Container container = Class300.method4022((byte) 0);
 			if (null != Class223.aFrame2336) {

@@ -8,7 +8,7 @@ public class Class451 implements Interface75 {
 	int anInt4945;
 	static Class451 aClass451_4946;
 	static Class451 aClass451_4947 = new Class451(1);
-	public static String aString4948;
+	public static String osArchRaw;
 
 	public int method73() {
 		return 2027745769 * anInt4945;
@@ -70,7 +70,7 @@ public class Class451 implements Interface75 {
 						if (i_3_ > i_2_)
 							bool_1_ = false;
 					}
-					String string_4_ = (client.aClass670_11043 == Class670.aClass670_8575 ? Class38.aClass38_441.method840((Class459.aClass664_5178), 1852964028) : Class38.aClass38_480.method840((Class459.aClass664_5178), 1542847096));
+					String string_4_ = (client.aClass670_11043 == GameMode.aClass670_8575 ? Class38.aClass38_441.method840((Class459.aClass664_5178), 1852964028) : Class38.aClass38_480.method840((Class459.aClass664_5178), 1542847096));
 					if (611144047 * class649_sub1_sub5_sub1_sub2.anInt12186 >= (1305068021 * class649_sub1_sub5_sub1_sub2.anInt12187))
 						string = new StringBuilder().append(class649_sub1_sub5_sub1_sub2.method11085(true, (byte) 1)).append(bool_1_ ? (Class457.method5492((611144047 * (class649_sub1_sub5_sub1_sub2.anInt12186)), (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -1131655358)) : Class264.method3680(16777215, -1847667476)).append(Class40.aString493).append(string_4_).append(class649_sub1_sub5_sub1_sub2.anInt12186 * 611144047).append(Class40.aString494).toString();
 					else
@@ -87,7 +87,7 @@ public class Class451 implements Interface75 {
 						bool_5_ = true;
 						string = ((Class296) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) 35))).aString3271;
 						if (1188862419 * class296.anInt3292 != 0) {
-							String string_6_ = ((Class670.aClass670_8575 == client.aClass670_11043) ? (Class38.aClass38_441.method840(Class459.aClass664_5178, 1395734488)) : (Class38.aClass38_480.method840(Class459.aClass664_5178, 2067180394)));
+							String string_6_ = ((GameMode.aClass670_8575 == client.aClass670_11043) ? (Class38.aClass38_441.method840(Class459.aClass664_5178, 1395734488)) : (Class38.aClass38_480.method840(Class459.aClass664_5178, 2067180394)));
 							string = new StringBuilder().append(string).append(Class457.method5492(class296.anInt3292 * 1188862419, (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -17766460)).append(Class40.aString493).append(string_6_).append(1188862419 * class296.anInt3292).append(Class40.aString494).toString();
 						}
 					}
@@ -98,7 +98,7 @@ public class Class451 implements Interface75 {
 					for (int i_7_ = 7; i_7_ >= 0; i_7_--) {
 						if (client.aStringArray11100[i_7_] != null) {
 							short i_8_ = 0;
-							if ((client.aClass670_11043 == Class670.aClass670_8568) && (client.aStringArray11100[i_7_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 1907592279)))) {
+							if ((client.aClass670_11043 == GameMode.aClass670_8568) && (client.aStringArray11100[i_7_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 1907592279)))) {
 								if (Class634.aClass634_8263 == client.aClass634_11165)
 									i_8_ = (short) 2000;
 								else if ((Class634.aClass634_8264 == client.aClass634_11165) && ((611144047 * (class649_sub1_sub5_sub1_sub2.anInt12186)) > (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186) * 611144047))

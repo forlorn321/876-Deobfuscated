@@ -66,7 +66,7 @@ public class Class269 {
 	}
 
 	static final void method3711(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub29_10752.method10171(-498458505) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10171(-498458505) == 1 ? 1 : 0;
 	}
 
 	static final void method3712(Class668 class668, int i) {

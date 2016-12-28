@@ -134,7 +134,7 @@ public class Class204 {
 	}
 
 	static final void method2936(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub21_10741.method10109((byte) 1);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.idleAnimationSetting.method10109((byte) 1);
 	}
 
 	static final void method2937(Class668 class668, int i) {

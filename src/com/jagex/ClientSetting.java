@@ -3,17 +3,17 @@
  */
 package com.jagex;
 
-public abstract class Class710 {
+public abstract class ClientSetting {
 	protected static final int anInt8838 = 2;
 	protected static final int anInt8839 = 1;
 	public static final int anInt8840 = 3;
-	protected Class536_Sub40 aClass536_Sub40_8841;
+	protected ClientSettings aClass536_Sub40_8841;
 	protected int anInt8842;
-	public static Class536_Sub40 aClass536_Sub40_8843;
+	public static ClientSettings aClass536_Sub40_8843;
 
 	abstract void method8346(int i);
 
-	Class710(int i, Class536_Sub40 class536_sub40) {
+	ClientSetting(int i, ClientSettings class536_sub40) {
 		anInt8842 = i * -1100148889;
 		aClass536_Sub40_8841 = class536_sub40;
 	}
@@ -29,7 +29,7 @@ public abstract class Class710 {
 
 	abstract void method8350(int i, int i_2_);
 
-	Class710(Class536_Sub40 class536_sub40) {
+	ClientSetting(ClientSettings class536_sub40) {
 		aClass536_Sub40_8841 = class536_sub40;
 		anInt8842 = method8347((byte) 3) * -1100148889;
 	}

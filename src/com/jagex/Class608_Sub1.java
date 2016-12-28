@@ -68,7 +68,7 @@ public class Class608_Sub1 extends Class608 implements Interface6 {
 		}
 	}
 
-	Class608_Sub1(boolean bool, Class461 class461, Class664 class664, Class670 class670) {
+	Class608_Sub1(boolean bool, Class461 class461, Class664 class664, GameMode class670) {
 		super(bool, class664, class670);
 		aClass461_10553 = class461;
 	}

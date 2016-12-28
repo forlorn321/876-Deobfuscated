@@ -136,7 +136,7 @@ public class Class402 implements Interface75 {
 
 	static final void method4928(Class668 class668, int i) {
 		int i_8_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub29_10752.method8348(i_8_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method8348(i_8_, -1102005131);
 	}
 
 	static boolean method4929(Interface66 interface66, Class536_Sub31 class536_sub31, int i) {

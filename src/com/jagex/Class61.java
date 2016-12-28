@@ -359,11 +359,11 @@ public class Class61 {
 							class536_sub33_sub2.writeByte(Class315.method4212((byte) 51));
 							class536_sub33_sub2.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							class536_sub33_sub2.writeShort(((Class34_Sub6.anInt10965) * 589116499), -1778059594);
-							class536_sub33_sub2.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1604877220));
+							class536_sub33_sub2.writeByte(ClientSetting.aClass536_Sub40_8843.antiAliasingSetting.method10156());
 							Class502.method6042(class536_sub33_sub2, (byte) 125);
 							class536_sub33_sub2.writeString(client.aString10986);
 							class536_sub33_sub2.writeInt((1051867059 * (client.anInt10987)));
-							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+							RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 							class536_sub33_sub2.writeByte(((class536_sub33.off) * -810172525));
 							class536_sub33_sub2.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 6);
 							client.aBool11015 = true;
@@ -416,10 +416,10 @@ public class Class61 {
 							class536_sub33_sub2.writeByte(Class315.method4212((byte) 73));
 							class536_sub33_sub2.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							class536_sub33_sub2.writeShort((589116499 * (Class34_Sub6.anInt10965)), -1778059594);
-							class536_sub33_sub2.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1700615796));
+							class536_sub33_sub2.writeByte(ClientSetting.aClass536_Sub40_8843.antiAliasingSetting.method10156());
 							Class502.method6042(class536_sub33_sub2, (byte) 110);
 							class536_sub33_sub2.writeString(client.aString10986);
-							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+							RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 							class536_sub33_sub2.writeByte(((class536_sub33.off) * -810172525));
 							class536_sub33_sub2.writeBytes(class536_sub33.buffer, 0, -810172525 * class536_sub33.off, (byte) 36);
 							RSByteBuffer class536_sub33_9_ = (new RSByteBuffer(Class458_Sub4.aClass536_Sub38_10336.method9823(-1884671285)));
@@ -1087,7 +1087,7 @@ public class Class61 {
 		client.aBool11242 = true;
 		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
 		Class689.aString8692 = Class38.aClass38_310.method840(Class459.aClass664_5178, 1720896232);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10761), Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(419872533), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.removeRoofSetting), ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9916(), (byte) 1);
 		client.anInt11063 = 0;
 		Class106.method1429(-1963199046);
 		Class398.aClass654_4123 = null;
@@ -1164,7 +1164,7 @@ public class Class61 {
 		client.aBool11242 = true;
 		Class612.aShortArray7932 = Class296.aShortArray3267 = ItemDefinitions.aShortArray14 = new short[256];
 		Class689.aString8692 = Class38.aClass38_310.method840(Class459.aClass664_5178, 1527838713);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10761), Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(127200377), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.removeRoofSetting), ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9916(), (byte) 1);
 		client.anInt11063 = 0;
 		Class106.method1429(1678620487);
 		Class398.aClass654_4123 = null;

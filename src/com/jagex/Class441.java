@@ -105,9 +105,9 @@ public class Class441 implements Interface5 {
 					if (client.aClass251_11202 != null && client.method10382(client.aClass251_10992) != null)
 						Class578.method7008(client.aClass251_10992, client.aClass251_11202, -2145704482);
 				} else if ((1 == 1862126853 * client.anInt11040 || Class622.method7417((byte) -67)) && 1780207751 * Class70.anInt760 > 2)
-					Class670.method8014((client.anInt11209 * 1961670097 + client.anInt11281 * -1721422785), (client.anInt11210 * 411701121 + client.anInt11201 * 671669755), -1978761146);
+					GameMode.method8014((client.anInt11209 * 1961670097 + client.anInt11281 * -1721422785), (client.anInt11210 * 411701121 + client.anInt11201 * 671669755), -1978761146);
 				else if (Class536_Sub15.method9518(419371655))
-					Class670.method8014((1961670097 * client.anInt11209 + -1721422785 * client.anInt11281), (411701121 * client.anInt11210 + 671669755 * client.anInt11201), 937499902);
+					GameMode.method8014((1961670097 * client.anInt11209 + -1721422785 * client.anInt11281), (411701121 * client.anInt11210 + 671669755 * client.anInt11201), 937499902);
 				client.aClass251_10992 = null;
 				client.aClass251_11199 = null;
 			} else {

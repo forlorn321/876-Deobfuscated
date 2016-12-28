@@ -49,7 +49,7 @@ public class Class114 {
 	}
 
 	static final void method1483(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub16_10751, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.fogSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
 		client.aClass515_11066.method6319(-1990555740);
 		Class27.method763(2139101534);
 		client.aBool11015 = false;

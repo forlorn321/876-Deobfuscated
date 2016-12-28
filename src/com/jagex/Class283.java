@@ -55,7 +55,7 @@ public class Class283 implements Interface75 {
 	}
 
 	static final void method3775(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method10126(1041246061);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061);
 	}
 
 	static int prevLoginStage = -1;
@@ -219,11 +219,11 @@ public class Class283 implements Interface75 {
 							stream.writeByte(Class315.method4212((byte) 108));
 							stream.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							stream.writeShort(((Class34_Sub6.anInt10965) * 589116499), -1778059594);
-							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1942339354));
+							stream.writeByte(ClientSetting.aClass536_Sub40_8843.antiAliasingSetting.method10156());
 							Class502.method6042(stream, (byte) 104);
 							stream.writeString(client.aString10986);
 							stream.writeInt((1051867059 * (client.anInt10987)));
-							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+							RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 							stream.writeByte(((class536_sub33.off) * -810172525));
 							stream.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 21);
 							client.aBool11015 = true;
@@ -276,10 +276,10 @@ public class Class283 implements Interface75 {
 							stream.writeByte(Class315.method4212((byte) 50));
 							stream.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							stream.writeShort((589116499 * (Class34_Sub6.anInt10965)), -1778059594);
-							stream.writeByte(Class710.aClass536_Sub40_8843.aClass710_Sub27_10743.method10156(1441321506));
+							stream.writeByte(ClientSetting.aClass536_Sub40_8843.antiAliasingSetting.method10156());
 							Class502.method6042(stream, (byte) 66);
 							stream.writeString(client.aString10986);
-							RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+							RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 							stream.writeByte(((class536_sub33.off) * -810172525));
 							stream.writeBytes(class536_sub33.buffer, 0, -810172525 * class536_sub33.off, (byte) 83);
 							RSByteBuffer class536_sub33_12_ = (new RSByteBuffer(Class458_Sub4.aClass536_Sub38_10336.method9823(-2094799820)));

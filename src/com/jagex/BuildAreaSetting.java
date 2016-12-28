@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub8 extends Class710 {
+public class BuildAreaSetting extends ClientSetting {
 	public int method8358(int i) {
 		if (aClass536_Sub40_8841.method9856(2057515844).method8367((byte) -17))
 			return 3;
@@ -43,7 +43,7 @@ public class Class710_Sub8 extends Class710 {
 		}
 	}
 
-	public Class710_Sub8(int i, Class536_Sub40 class536_sub40) {
+	public BuildAreaSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -101,7 +101,7 @@ public class Class710_Sub8 extends Class710 {
 		anInt8842 = -1100148889 * i;
 	}
 
-	public Class710_Sub8(Class536_Sub40 class536_sub40) {
+	public BuildAreaSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

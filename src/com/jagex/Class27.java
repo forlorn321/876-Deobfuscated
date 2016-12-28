@@ -122,7 +122,7 @@ public class Class27 implements Runnable {
 	}
 
 	static final void method760(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub21_10741), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.idleAnimationSetting), (class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (byte) 1);
 		method763(2133495125);
 		client.aBool11015 = false;
 	}
@@ -270,7 +270,7 @@ public class Class27 implements Runnable {
 		Class6 class6 = null;
 		try {
 			class6 = Class153_Sub1.method8383("", client.aClass670_11043.aString8573, true, 2041514804);
-			RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+			RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 			class6.method584(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 1);
 		} catch (Exception exception) {
 			/* empty */

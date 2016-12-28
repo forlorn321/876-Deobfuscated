@@ -46,7 +46,7 @@ public class Class699 implements Interface75 {
 
 	static void method8235(Class167 class167, int i) {
 		if (Class54.aClass708_602.method8339((byte) 75) != 0) {
-			if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(219696046) == 0) {
+			if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 0) {
 				for (Class536_Sub5 class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8308(1867269829)); class536_sub5 != null; class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8311(2006801508))) {
 					Class111.aClass34_Sub13_1391.method10338(class167, class167, class536_sub5.anInt10417 * 1511029381, 982613921 * class536_sub5.anInt10413, 382349973 * class536_sub5.anInt10412, class536_sub5.anInt10415 * -2100961019, false, false, 1811899613 * class536_sub5.anInt10416, Class18.aClass184_190, (class536_sub5.aBool10414 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null), Class644.aClass628_8352, -2081820608);
 					class536_sub5.method6484();
@@ -56,7 +56,7 @@ public class Class699 implements Interface75 {
 				if (null == Class54.aClass167_600) {
 					Canvas canvas = new Canvas();
 					canvas.setSize(36, 32);
-					Class54.aClass167_600 = Class219.method3105(0, canvas, Class710_Sub26.aClass174_10892, Class175.anInterface24_1935, Class53.aClass385_598, Class402.aClass397_4204, Class237.aClass396_2422, Class540.aClass461_7161, 0, -896397719);
+					Class54.aClass167_600 = Class219.method3105(0, canvas, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, Class53.aClass385_598, Class402.aClass397_4204, Class237.aClass396_2422, Class540.aClass461_7161, 0, -896397719);
 					Class54.aClass184_601 = (Class54.aClass167_600.method2089(Class259.method3608(Class710_Sub43.aClass461_10940, -219992997 * Class35.anInt295, 0, (byte) 10), Class181.method2720(Class398.aClass461_4122, -219992997 * Class35.anInt295, 0), true));
 				}
 				for (Class536_Sub5 class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8308(1867269829)); null != class536_sub5; class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8311(995251041))) {

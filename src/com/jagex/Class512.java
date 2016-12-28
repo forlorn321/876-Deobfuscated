@@ -44,7 +44,7 @@ public class Class512 {
 						Class214.sendPanelBoxMessage("FPS off");
 				} else if (string.equals("renderer")) {
 					Class145 class145 = Class677.aClass167_8609.method2001();
-					Class214.sendPanelBoxMessage(new StringBuilder().append("Toolkit ID: ").append(Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1254214221)).toString());
+					Class214.sendPanelBoxMessage(new StringBuilder().append("Toolkit ID: ").append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).toString());
 					Class214.sendPanelBoxMessage(new StringBuilder().append("Vendor: ").append(class145.anInt1687 * -808026883).toString());
 					Class214.sendPanelBoxMessage(new StringBuilder().append("Name: ").append(class145.aString1682).toString());
 					Class214.sendPanelBoxMessage(new StringBuilder().append("Version: ").append(class145.anInt1689 * -593755673).toString());
@@ -54,7 +54,7 @@ public class Class512 {
 					if (string_1_.length() > 0)
 						Class214.sendPanelBoxMessage(string_1_);
 				} else if (string.equals("heap"))
-					Class214.sendPanelBoxMessage(new StringBuilder().append("Heap: ").append(-839563813 * Class505.anInt6857).append("MB").toString());
+					Class214.sendPanelBoxMessage(new StringBuilder().append("Heap: ").append(-839563813 * GameShell.maxMemory).append("MB").toString());
 				else {
 					if (!string.equalsIgnoreCase("getcamerapos"))
 						break;
@@ -136,9 +136,9 @@ public class Class512 {
 				}
 				if (string.equalsIgnoreCase("tk0")) {
 					Class704.method8264(0, false, (byte) 17);
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1720283526) == 0) {
+					if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 0) {
 						Class214.sendPanelBoxMessage("Success");
-						Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), 0, (byte) 1);
+						ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), 0, (byte) 1);
 						Class27.method763(2027184071);
 						client.aBool11015 = false;
 					} else
@@ -147,9 +147,9 @@ public class Class512 {
 				}
 				if (string.equalsIgnoreCase("tk1")) {
 					Class704.method8264(1, false, (byte) 32);
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1376216948) == 1) {
+					if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 1) {
 						Class214.sendPanelBoxMessage("Success");
-						Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), 1, (byte) 1);
+						ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), 1, (byte) 1);
 						Class27.method763(2146187357);
 						client.aBool11015 = false;
 					} else
@@ -158,9 +158,9 @@ public class Class512 {
 				}
 				if (string.equalsIgnoreCase("tk3")) {
 					Class704.method8264(3, false, (byte) 127);
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(1595570150) == 3) {
+					if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 3) {
 						Class214.sendPanelBoxMessage("Success");
-						Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), 3, (byte) 1);
+						ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), 3, (byte) 1);
 						Class27.method763(1982180856);
 						client.aBool11015 = false;
 					} else
@@ -169,9 +169,9 @@ public class Class512 {
 				}
 				if (string.equalsIgnoreCase("tk5")) {
 					Class704.method8264(5, false, (byte) 95);
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10767.method10071(2118922655) == 5) {
+					if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 5) {
 						Class214.sendPanelBoxMessage("Success");
-						Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766), 5, (byte) 1);
+						ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultToolkit), 5, (byte) 1);
 						Class27.method763(1943587194);
 						client.aBool11015 = false;
 					} else
@@ -230,12 +230,12 @@ public class Class512 {
 							return;
 						}
 					}
-					if (null != Class710_Sub7.aFileOutputStream10835) {
-						Class710_Sub7.aFileOutputStream10835.close();
-						Class710_Sub7.aFileOutputStream10835 = null;
+					if (null != GroundDecorationSetting.aFileOutputStream10835) {
+						GroundDecorationSetting.aFileOutputStream10835.close();
+						GroundDecorationSetting.aFileOutputStream10835 = null;
 					}
 					try {
-						Class710_Sub7.aFileOutputStream10835 = new FileOutputStream(file);
+						GroundDecorationSetting.aFileOutputStream10835 = new FileOutputStream(file);
 					} catch (FileNotFoundException filenotfoundexception) {
 						Class214.sendPanelBoxMessage(new StringBuilder().append("Could not create ").append(file.getName()).toString());
 					} catch (SecurityException securityexception) {
@@ -244,9 +244,9 @@ public class Class512 {
 					return;
 				}
 				if (string.equals("closeoutput")) {
-					if (null != Class710_Sub7.aFileOutputStream10835)
-						Class710_Sub7.aFileOutputStream10835.close();
-					Class710_Sub7.aFileOutputStream10835 = null;
+					if (null != GroundDecorationSetting.aFileOutputStream10835)
+						GroundDecorationSetting.aFileOutputStream10835.close();
+					GroundDecorationSetting.aFileOutputStream10835 = null;
 					return;
 				}
 				if (string.startsWith("runscript ")) {

@@ -416,7 +416,7 @@ public class Class649_Sub1_Sub3_Sub1 extends Class649_Sub1_Sub3 implements Inter
 	static void method10939(Class536_Sub3 class536_sub3, int i, int i_30_, int i_31_, int i_32_, int i_33_) {
 		if (class536_sub3.anInt10388 * -1095423089 != -1 || class536_sub3.anIntArray10365 != null) {
 			int i_34_ = class536_sub3.anInt10376 * -540425639;
-			if (0 == class536_sub3.anInt10375 * -93526815 || Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(-692892104) == 0 || class536_sub3.anInt10364 * -121615235 != i) {
+			if (0 == class536_sub3.anInt10375 * -93526815 || ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(-692892104) == 0 || class536_sub3.anInt10364 * -121615235 != i) {
 				if (class536_sub3.aClass479_10389 != null) {
 					class536_sub3.aClass479_10389.method5774(100, (byte) 32);
 					Class184_Sub2.aClass211_9442.method3002((class536_sub3.aClass479_10389), -1092963117);

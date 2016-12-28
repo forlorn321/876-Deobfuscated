@@ -261,13 +261,13 @@ public class Class659 {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4412, client.aClass106_11322.aClass15_1258, 1042749459);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 			int i = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-			RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+			RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 53);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9699((class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525) - i, 1907156316);
 			client.aClass106_11322.method1409(class536_sub23, 1863604243);
 			client.aBool11015 = true;
 		}
-		if (!client.aBool11223 && Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10071(761671864) == 1) {
+		if (!client.aBool11223 && ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10071() == 1) {
 			int[] is = Class677.aClass167_8609.method2019();
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4402, client.aClass106_11322.aClass15_1258, 1218152329);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
@@ -369,13 +369,13 @@ public class Class659 {
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4412, client.aClass106_11322.aClass15_1258, 781344754);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
 			int i = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-			RSByteBuffer class536_sub33 = Class710.aClass536_Sub40_8843.method9852(-534711081);
+			RSByteBuffer class536_sub33 = ClientSetting.aClass536_Sub40_8843.method9852(-534711081);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 91);
 			class536_sub23.aClass536_Sub33_Sub2_10528.method9699((class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525) - i, -1137567716);
 			client.aClass106_11322.method1409(class536_sub23, -325217742);
 			client.aBool11015 = true;
 		}
-		if (!client.aBool11223 && Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10071(2058964926) == 1) {
+		if (!client.aBool11223 && ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10071() == 1) {
 			int[] is = Class677.aClass167_8609.method2019();
 			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4402, client.aClass106_11322.aClass15_1258, 1545829479);
 			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
@@ -425,7 +425,7 @@ public class Class659 {
 
 	static final void method7969(Class668 class668, int i) {
 		int i_10_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub10_10781.method8348(i_10_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method8348(i_10_, -1102005131);
 	}
 
 	static Class536_Sub1 method7970(int i, boolean bool, int i_11_) {

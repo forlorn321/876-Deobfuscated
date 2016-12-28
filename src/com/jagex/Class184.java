@@ -563,9 +563,9 @@ public abstract class Class184 {
 	static final void method2766(Class668 class668, int i) {
 		int i_168_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (-1 == i_168_)
-			Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub5_10761, Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9916(1753449855), (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.removeRoofSetting, ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9916(), (byte) 1);
 		else
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10761), i_168_, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.removeRoofSetting), i_168_, (byte) 1);
 		Class85.method1188(1014953755);
 	}
 
@@ -1162,14 +1162,14 @@ public abstract class Class184 {
 
 	public static void method2769(int i) {
 		int i_300_ = 0;
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub14_10755.method10066((byte) 0) == 1) {
+		if (ClientSetting.aClass536_Sub40_8843.lightingDetailSetting.method10066((byte) 0) == 1) {
 			i_300_ |= 0x1;
 			i_300_ |= 0x10;
 			i_300_ |= 0x20;
 			i_300_ |= 0x2;
 			i_300_ |= 0x4;
 		}
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(925865461) == 0)
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(925865461) == 0)
 			i_300_ |= 0x40;
 		Class153.method1866(i_300_, (byte) -69);
 		client.aClass515_11066.method6280(-1073841494).method10352(i_300_, (byte) -121);

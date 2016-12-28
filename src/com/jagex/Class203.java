@@ -40,7 +40,7 @@ final class Class203 implements Interface18 {
 	}
 
 	static final void method2928(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method9996((byte) 102);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method9996((byte) 102);
 	}
 
 	static final void method2929(Class668 class668, int i) {

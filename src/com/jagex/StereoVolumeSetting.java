@@ -3,11 +3,11 @@
  */
 package com.jagex;
 
-public class Class710_Sub37 extends Class710 {
+public class StereoVolumeSetting extends ClientSetting {
 	public static final int anInt10915 = 0;
 	public static final int anInt10916 = 1;
 
-	public Class710_Sub37(int i, Class536_Sub40 class536_sub40) {
+	public StereoVolumeSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -48,7 +48,7 @@ public class Class710_Sub37 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub37(Class536_Sub40 class536_sub40) {
+	public StereoVolumeSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 

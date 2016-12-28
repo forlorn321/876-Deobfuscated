@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class53_Sub2 extends Class53 {
-	public Class53_Sub2(Class670 class670, Class664 class664, Class461 class461, boolean bool) {
+	public Class53_Sub2(GameMode class670, Class664 class664, Class461 class461, boolean bool) {
 		super(class670, class664, Class648.aClass648_8410, class461, new Class270(), bool);
 	}
 

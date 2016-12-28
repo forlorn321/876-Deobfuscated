@@ -19,7 +19,7 @@ public abstract class Class98 implements Interface12 {
 		return 1628850519 * anInt1180;
 	}
 
-	Class98(Class670 class670, Class664 class664, int i) {
+	Class98(GameMode class670, Class664 class664, int i) {
 		anInt1180 = 1862709863 * i;
 	}
 

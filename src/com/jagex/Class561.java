@@ -350,7 +350,7 @@ public class Class561 implements Runnable {
 	}
 
 	static final void method6847(Class668 class668, int i) {
-		Class705.method8276((String) (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]), -1553727198);
+		CircularBuffer.method8276((String) (class668.anObjectArray8543[((class668.anInt8544 -= 1946079257) * 366709801)]), -1553727198);
 	}
 
 	static final void method6848(Class668 class668, int i) {
@@ -372,10 +372,10 @@ public class Class561 implements Runnable {
 
 	static final void method6850(Class668 class668, int i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10760), i_18_, (byte) 1);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub5_10761), i_18_, (byte) 1);
-		Class710.aClass536_Sub40_8843.aClass710_Sub5_10760.method9915(-245343484);
-		Class710.aClass536_Sub40_8843.aClass710_Sub5_10761.method9915(-1304948507);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting), i_18_, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.removeRoofSetting), i_18_, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.defaultRemoveRoofSetting.method9915(-245343484);
+		ClientSetting.aClass536_Sub40_8843.removeRoofSetting.method9915(-1304948507);
 		Class85.method1188(-291631285);
 		Class27.method763(2129799137);
 		client.aBool11015 = false;

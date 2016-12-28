@@ -42,8 +42,8 @@ public class Class434 {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		if (i_0_ > 255 || i_0_ < 0)
 			i_0_ = 0;
-		if (i_0_ != Class710.aClass536_Sub40_8843.aClass710_Sub31_10782.method10186(-965046076)) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub31_10782), i_0_, (byte) 1);
+		if (i_0_ != ClientSetting.aClass536_Sub40_8843.loadingScreenTypeSetting.method10186(-965046076)) {
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.loadingScreenTypeSetting), i_0_, (byte) 1);
 			Class27.method763(2018089425);
 			client.aBool11015 = false;
 		}

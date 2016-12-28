@@ -218,7 +218,7 @@ public class Class177_Sub2 extends Class177 {
 				}
 				if (i_23_ == -1)
 					throw new RuntimeException();
-				int i_25_ = ((Class639.anIntArray8309[(class180.aShortArray1972[class170.anInt1892 * -479439647]) & 0xffff]) & 0xffffff);
+				int i_25_ = ((ColourUtils.anIntArray8309[(class180.aShortArray1972[class170.anInt1892 * -479439647]) & 0xffff]) & 0xffffff);
 				i_25_ = i_25_ | 255 - (class180.aByteArray1970 != null ? (class180.aByteArray1970[class170.anInt1892 * -479439647]) : 0) << 24;
 				aClass372Array9510[i_22_] = new Class372(i_23_, (class180.aShortArray1962[class170.anInt1892 * -479439647]), (class180.aShortArray1979[class170.anInt1892 * -479439647]), (class180.aShortArray1964[class170.anInt1892 * -479439647]), class400.anInt4131 * -1116339673, class400.anInt4132 * 1459124959, class400.anInt4130 * -428264537, class400.anInt4135 * 303721477, class400.anInt4133 * -1199139105, class400.aBool4136, class400.aBool4134, class170.anInt1893 * 1430346167);
 				aClass346Array9511[i_22_] = new Class346(i_25_);
@@ -1174,7 +1174,7 @@ public class Class177_Sub2 extends Class177 {
 						for (int i_328_ = 0; i_328_ < anInt9509; i_328_++) {
 							Class372 class372 = aClass372Array9510[i_328_];
 							Class346 class346 = aClass346Array9511[i_328_];
-							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (Class639.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
+							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (ColourUtils.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
 						}
 					}
 					method8678();
@@ -1855,7 +1855,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_519_ = 0; i_519_ < anInt9509; i_519_++) {
 					Class372 class372 = aClass372Array9510[i_519_];
 					Class346 class346 = aClass346Array9511[i_519_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -1880,7 +1880,7 @@ public class Class177_Sub2 extends Class177 {
 			for (int i_528_ = 0; i_528_ < anInt9509; i_528_++) {
 				Class372 class372 = aClass372Array9510[i_528_];
 				Class346 class346 = aClass346Array9511[i_528_];
-				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 			}
 		}
 		method8678();
@@ -2049,7 +2049,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_558_ = 0; i_558_ < anInt9509; i_558_++) {
 					Class372 class372 = aClass372Array9510[i_558_];
 					Class346 class346 = aClass346Array9511[i_558_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -3179,7 +3179,7 @@ public class Class177_Sub2 extends Class177 {
 			for (int i_811_ = 0; i_811_ < anInt9509; i_811_++) {
 				Class372 class372 = aClass372Array9510[i_811_];
 				Class346 class346 = aClass346Array9511[i_811_];
-				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 			}
 		}
 		method8678();
@@ -3717,7 +3717,7 @@ public class Class177_Sub2 extends Class177 {
 						for (int i_954_ = 0; i_954_ < anInt9509; i_954_++) {
 							Class372 class372 = aClass372Array9510[i_954_];
 							Class346 class346 = aClass346Array9511[i_954_];
-							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (Class639.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
+							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (ColourUtils.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
 						}
 					}
 					method8678();
@@ -3886,7 +3886,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_992_ = 0; i_992_ < anInt9509; i_992_++) {
 					Class372 class372 = aClass372Array9510[i_992_];
 					Class346 class346 = aClass346Array9511[i_992_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -4019,7 +4019,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_1021_ = 0; i_1021_ < anInt9509; i_1021_++) {
 					Class372 class372 = aClass372Array9510[i_1021_];
 					Class346 class346 = aClass346Array9511[i_1021_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -4567,7 +4567,7 @@ public class Class177_Sub2 extends Class177 {
 						for (int i_1225_ = 0; i_1225_ < anInt9509; i_1225_++) {
 							Class372 class372 = aClass372Array9510[i_1225_];
 							Class346 class346 = aClass346Array9511[i_1225_];
-							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (Class639.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
+							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (ColourUtils.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
 						}
 					}
 					method8678();
@@ -5195,7 +5195,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_1318_ = 0; i_1318_ < anInt9509; i_1318_++) {
 					Class372 class372 = aClass372Array9510[i_1318_];
 					Class346 class346 = aClass346Array9511[i_1318_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -5319,7 +5319,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_1342_ = 0; i_1342_ < anInt9509; i_1342_++) {
 					Class372 class372 = aClass372Array9510[i_1342_];
 					Class346 class346 = aClass346Array9511[i_1342_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -5416,7 +5416,7 @@ public class Class177_Sub2 extends Class177 {
 				for (int i_1349_ = 0; i_1349_ < anInt9509; i_1349_++) {
 					Class372 class372 = aClass372Array9510[i_1349_];
 					Class346 class346 = aClass346Array9511[i_1349_];
-					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+					class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 				}
 			}
 			method8678();
@@ -5468,7 +5468,7 @@ public class Class177_Sub2 extends Class177 {
 			for (int i_1359_ = 0; i_1359_ < anInt9509; i_1359_++) {
 				Class372 class372 = aClass372Array9510[i_1359_];
 				Class346 class346 = aClass346Array9511[i_1359_];
-				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 			}
 		}
 		method8678();
@@ -6146,7 +6146,7 @@ public class Class177_Sub2 extends Class177 {
 			for (int i_1462_ = 0; i_1462_ < anInt9509; i_1462_++) {
 				Class372 class372 = aClass372Array9510[i_1462_];
 				Class346 class346 = aClass346Array9511[i_1462_];
-				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((Class639.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
+				class346.anInt3686 = (class346.anInt3686 & ~0xffffff | ((ColourUtils.anIntArray8309[aShortArray9490[class372.anInt3889] & 0xffff]) & 0xffffff));
 			}
 		}
 		method8678();
@@ -6404,7 +6404,7 @@ public class Class177_Sub2 extends Class177 {
 						for (int i_1549_ = 0; i_1549_ < anInt9509; i_1549_++) {
 							Class372 class372 = aClass372Array9510[i_1549_];
 							Class346 class346 = aClass346Array9511[i_1549_];
-							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (Class639.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
+							class346.anInt3686 = (class346.anInt3686 & ~0xffffff | (ColourUtils.anIntArray8309[(aShortArray9490[class372.anInt3889] & 0xffff)]) & 0xffffff);
 						}
 					}
 					method8678();

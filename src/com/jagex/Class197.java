@@ -7,11 +7,11 @@ class Class197 implements Interface42 {
 	Class211 this$0;
 
 	public float method287() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10750.method10213(313112457) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(313112457) / 255.0F);
 	}
 
 	public float method285(int i) {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10750.method10213(2051589686) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(2051589686) / 255.0F);
 	}
 
 	Class197(Class211 class211) {
@@ -19,11 +19,11 @@ class Class197 implements Interface42 {
 	}
 
 	public float method288() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10750.method10213(1903204598) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(1903204598) / 255.0F);
 	}
 
 	public float method286() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10750.method10213(-1911619333) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.musicVolumeSetting.method10213(-1911619333) / 255.0F);
 	}
 
 	public static void method2869(Class461 class461, Class461 class461_0_, Class461 class461_1_, Class461 class461_2_, int i) {

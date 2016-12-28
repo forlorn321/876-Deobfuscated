@@ -34,7 +34,7 @@ public class Class440 {
 			Class59.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) 11);
 			Class59.aClass59_614.method985(new Class432("jaggl"), (byte) -94);
 			Class432 class432 = new Class432("jagdx");
-			if (!Class241.aString2456.startsWith("win"))
+			if (!Class241.osName.startsWith("win"))
 				class432.method5181((byte) 101);
 			Class59.aClass59_612.method985(class432, (byte) 55);
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) 82);
@@ -126,7 +126,7 @@ public class Class440 {
 			Class59.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) 55);
 			Class59.aClass59_614.method985(new Class432("jaggl"), (byte) -8);
 			Class432 class432 = new Class432("jagdx");
-			if (!Class241.aString2456.startsWith("win"))
+			if (!Class241.osName.startsWith("win"))
 				class432.method5181((byte) 112);
 			Class59.aClass59_612.method985(class432, (byte) 22);
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) -55);
@@ -214,7 +214,7 @@ public class Class440 {
 			Class59.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) 8);
 			Class59.aClass59_614.method985(new Class432("jaggl"), (byte) -27);
 			Class432 class432 = new Class432("jagdx");
-			if (!Class241.aString2456.startsWith("win"))
+			if (!Class241.osName.startsWith("win"))
 				class432.method5181((byte) 51);
 			Class59.aClass59_612.method985(class432, (byte) 67);
 			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) 26);

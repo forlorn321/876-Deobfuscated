@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub16 extends Class710 {
+public class FogSetting extends ClientSetting {
 	public static final int anInt10860 = 1;
 	public static final int anInt10861 = 0;
 	public static int anInt10862;
@@ -13,7 +13,7 @@ public class Class710_Sub16 extends Class710 {
 	}
 
 	public void method10079(int i) {
-		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) != 1)
+		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) != 1)
 			anInt8842 = 0;
 		if (-789865385 * anInt8842 != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) -27) == 2)
 			anInt8842 = 0;
@@ -28,7 +28,7 @@ public class Class710_Sub16 extends Class710 {
 	public int method8357(int i) {
 		if (i != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) 56) == 2)
 			return 3;
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -36,7 +36,7 @@ public class Class710_Sub16 extends Class710 {
 	public int method8358(int i) {
 		if (i != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) -47) == 2)
 			return 3;
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -44,7 +44,7 @@ public class Class710_Sub16 extends Class710 {
 	public int method8348(int i, int i_0_) {
 		if (i != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) -11) == 2)
 			return 3;
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -73,26 +73,26 @@ public class Class710_Sub16 extends Class710 {
 		anInt8842 = -1100148889 * i;
 	}
 
-	public Class710_Sub16(Class536_Sub40 class536_sub40) {
+	public FogSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
 	public int method8355(int i) {
 		if (i != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) -49) == 2)
 			return 3;
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
 
-	public Class710_Sub16(int i, Class536_Sub40 class536_sub40) {
+	public FogSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
 	public int method8356(int i) {
 		if (i != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) 51) == 2)
 			return 3;
-		if (0 == i || aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) == 1)
+		if (0 == i || aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) == 1)
 			return 1;
 		return 2;
 	}
@@ -102,7 +102,7 @@ public class Class710_Sub16 extends Class710 {
 	}
 
 	public void method10082() {
-		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) != 1)
+		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) != 1)
 			anInt8842 = 0;
 		if (-789865385 * anInt8842 != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) -94) == 2)
 			anInt8842 = 0;
@@ -111,7 +111,7 @@ public class Class710_Sub16 extends Class710 {
 	}
 
 	public void method10083() {
-		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.aClass710_Sub29_10752.method10171(-498458505) != 1)
+		if (0 != anInt8842 * -789865385 && aClass536_Sub40_8841.groundBlendingSetting.method10171(-498458505) != 1)
 			anInt8842 = 0;
 		if (-789865385 * anInt8842 != 0 && aClass536_Sub40_8841.aClass710_Sub20_10779.method10103((byte) 41) == 2)
 			anInt8842 = 0;

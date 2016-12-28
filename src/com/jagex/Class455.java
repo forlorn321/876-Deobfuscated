@@ -216,6 +216,6 @@ public class Class455 {
 
 	static final void method5481(Class668 class668, byte i) {
 		int i_51_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub8_10770.method8348(i_51_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.buildAreaSetting.method8348(i_51_, -1102005131);
 	}
 }

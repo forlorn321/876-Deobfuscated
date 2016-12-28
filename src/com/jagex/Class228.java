@@ -13,19 +13,19 @@ class Class228 implements Interface42 {
 	}
 
 	public float method288() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(988027290) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(988027290) / 255.0F);
 	}
 
 	public float method286() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(-1314130949) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(-1314130949) / 255.0F);
 	}
 
 	public float method287() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(803491637) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(803491637) / 255.0F);
 	}
 
 	public float method285(int i) {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10790.method10213(601245860) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(601245860) / 255.0F);
 	}
 
 	static final void method3286(Class668 class668, int i) {
@@ -34,7 +34,7 @@ class Class228 implements Interface42 {
 	}
 
 	static final void method3287(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub20_10779.method10102(860620332) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.aClass710_Sub20_10779.method10102(860620332) ? 1 : 0;
 	}
 
 	static void method3288(Class167 class167, IComponentDefinitions class251, int i) {

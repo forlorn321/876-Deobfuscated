@@ -37,7 +37,7 @@ public class Class601 implements Interface75 {
 	}
 
 	static final void method7164(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (Class710.aClass536_Sub40_8843.aClass710_Sub27_10746.method10155((byte) -47) && Class677.aClass167_8609.method2015()) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10155((byte) -47) && Class677.aClass167_8609.method2015()) ? 1 : 0;
 	}
 
 	public static byte[] method7165(byte[] is, int i, int i_0_, byte i_1_) {
@@ -97,10 +97,10 @@ public class Class601 implements Interface75 {
 	}
 
 	static int method7169(int i) {
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub39_10783.method10236(-1980192452) == 0) {
+		if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783.method10236(-1980192452) == 0) {
 			for (int i_6_ = 0; i_6_ < -1816034791 * client.anInt11033; i_6_++) {
 				if (client.anInterface63Array11034[i_6_].method412((byte) -104) == 's' || client.anInterface63Array11034[i_6_].method412((byte) -81) == 'S') {
-					Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub39_10783, 1, (byte) 1);
+					ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783, 1, (byte) 1);
 					client.aBool10995 = true;
 					Class398.method4898(Class63.aClass63_710, (byte) 0);
 					break;
@@ -131,7 +131,7 @@ public class Class601 implements Interface75 {
 				return i_8_ / 5;
 			Class644.aClass628_8352 = new Class628(Class184_Sub2.aClass461_9443);
 			Class594.method7127(Class644.aClass628_8352, 1898130781);
-			int i_9_ = Class710.aClass536_Sub40_8843.aClass710_Sub31_10782.method10186(-900485541);
+			int i_9_ = ClientSetting.aClass536_Sub40_8843.loadingScreenTypeSetting.method10186(-900485541);
 			Class708.aClass87_8824 = new Class87(client.aClass670_11043, Class459.aClass664_5178, Class161.aClass461_1770);
 			Class88[] class88s = Class708.aClass87_8824.method1207(i_9_, -1411037171);
 			if (0 == class88s.length)
@@ -249,7 +249,7 @@ public class Class601 implements Interface75 {
 		if (Class483.aClass303_5431 == Class303.aClass303_3417) {
 			if (183673691 * Class644.aClass628_8352.anInt8197 != -1 && !Class602.aClass461_7857.method5558((183673691 * (Class644.aClass628_8352.anInt8197)), 0, -661641174))
 				return 99;
-			Class710_Sub26.aClass174_10892 = new Class174(Class590.aClass461_7789);
+			CPUUsageSetting.aClass174_10892 = new Class174(Class590.aClass461_7789);
 			Class175.anInterface24_1935 = new Class173_Sub1(Class279.aClass461_3162, Class65.aClass461_719);
 			Class207.aClass34_Sub22_2244 = new Class34_Sub22(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
 			Class497.aClass34_Sub16_5554 = new Class34_Sub16(client.aClass670_11043, Class459.aClass664_5178, Class205_Sub9.aClass461_9887);
@@ -298,10 +298,10 @@ public class Class601 implements Interface75 {
 			Class184.method2769(2052496465);
 			Class69.method1094(Class45.aClass34_Sub11_529, (byte) -114);
 			Class160.method1963(Class402.aClass397_4204, Class237.aClass396_2422, 1334437075);
-			Class652.method7868(Class602.aClass461_7857, Class710_Sub26.aClass174_10892, Class175.anInterface24_1935, -1438323382);
+			Class652.method7868(Class602.aClass461_7857, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, -1438323382);
 			Class282 class282 = new Class282(Class395.aClass461_4109.method5609("huffman", "", -6855510));
 			Class390.method4855(class282, -628193606);
-			Class505.aClass504_6883 = Class449.method5423(-1643875150);
+			GameShell.aClass504_6883 = Class449.method5423(-1643875150);
 			Class458_Sub4.aClass536_Sub38_10336 = new Class536_Sub38(true);
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3418) {
@@ -353,23 +353,23 @@ public class Class601 implements Interface75 {
 			Class211.aMap2292.remove(Class46.aClass46_572);
 			Class211.aMap2292.remove(Class46.aClass46_559);
 			Class287.method3911(-2013398097);
-			client.aBool10994 = Class710.aClass536_Sub40_8843.aClass710_Sub39_10783.method10236(-2026408065) == 1;
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub39_10783), 1, (byte) 1);
+			client.aBool10994 = ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783.method10236(-2026408065) == 1;
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub39_10783), 1, (byte) 1);
 			if (client.aBool10994)
-				Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub15_10766, 0, (byte) 1);
-			else if ((Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.aBool10858) && (Class458_Sub4.aClass536_Sub38_10336.anInt10684 * -853108975) < 512 && 0 != -853108975 * (Class458_Sub4.aClass536_Sub38_10336.anInt10684))
-				Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub15_10766, 0, (byte) 1);
+				ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.defaultToolkit, 0, (byte) 1);
+			else if ((ClientSetting.aClass536_Sub40_8843.defaultToolkit.aBool10858) && (Class458_Sub4.aClass536_Sub38_10336.anInt10684 * -853108975) < 512 && 0 != -853108975 * (Class458_Sub4.aClass536_Sub38_10336.anInt10684))
+				ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.defaultToolkit, 0, (byte) 1);
 			Class27.method763(1909866459);
 			if (client.aBool10994) {
 				Class704.method8264(0, false, (byte) 30);
 				if (!client.aBool10995)
 					Class398.method4898(Class63.aClass63_711, (byte) 0);
 			} else {
-				Class704.method8264(Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10071(1075555834), false, (byte) 45);
-				if (Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10071(669630151) == 0)
+				Class704.method8264(ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10071(), false, (byte) 45);
+				if (ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10071() == 0)
 					Class398.method4898(Class63.aClass63_712, (byte) 0);
 			}
-			Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-1648816917), -1, -1, false, -1239133661);
+			Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -1239133661);
 			Class196.aClass410_2202.method4976(client.anInterface51_11196, 1766214944);
 			Class199.method2908(Class677.aClass167_8609, -2028484045);
 			Class536_Sub34.method9816(Class677.aClass167_8609, Class398.aClass461_4122, (byte) 0);

@@ -48,7 +48,7 @@ public class Class53 implements Interface12 {
 		return new Class68(this);
 	}
 
-	Class53(Class670 class670, Class664 class664, Class648 class648, Class461 class461, Interface6 interface6, boolean bool) {
+	Class53(GameMode class670, Class664 class664, Class648 class648, Class461 class461, Interface6 interface6, boolean bool) {
 		anInterface6_597 = interface6;
 		aClass648_593 = class648;
 		aClass461_594 = class461;

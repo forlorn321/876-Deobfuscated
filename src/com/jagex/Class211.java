@@ -585,9 +585,9 @@ public class Class211 {
 					method3030(Class198.aClass198_2208, i_52_, i_53_, i_57_, Class188.aClass188_2130.method2788(-1611829038), Class207.aClass207_2242, 0.0F, 0.0F, null, class649_sub1.aByte10839, i_56_, 0, (byte) 11);
 			} else {
 				if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == class649_sub1) {
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub35_10785.method10213(1443536621) == 0)
+					if (ClientSetting.aClass536_Sub40_8843.soundVolumeSetting.method10213(1443536621) == 0)
 						return;
-				} else if (Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(2120680915) == 0)
+				} else if (ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(2120680915) == 0)
 					return;
 				if (-1 != class191.anInt2159 * -621579199) {
 					int i_58_ = 0;
@@ -1335,7 +1335,7 @@ public class Class211 {
 	}
 
 	static final void method3063(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub17_10763, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.flickeringSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
 		Class27.method763(1900152233);
 		client.aBool11015 = false;
 	}

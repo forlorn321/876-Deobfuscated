@@ -164,7 +164,7 @@ public class Class248 implements DefinitionI {
 		else if (29 == i)
 			aClass261_2505 = ((Class261) Class682.method8091(Class344.method4485(-1062550878), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 30)
-			aClass283_2518 = ((Class283) Class682.method8091(Class710_Sub17.method10091(-453688078), class536_sub33.readUnsignedByte(), 1858049507));
+			aClass283_2518 = ((Class283) Class682.method8091(FlickeringSetting.method10091(-453688078), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 249) {
 			int i_10_ = class536_sub33.readUnsignedByte();
 			if (null == aClass4_2501) {
@@ -384,7 +384,7 @@ public class Class248 implements DefinitionI {
 		else if (29 == i)
 			aClass261_2505 = ((Class261) Class682.method8091(Class344.method4485(-710630031), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 30)
-			aClass283_2518 = ((Class283) Class682.method8091(Class710_Sub17.method10091(976764257), class536_sub33.readUnsignedByte(), 1858049507));
+			aClass283_2518 = ((Class283) Class682.method8091(FlickeringSetting.method10091(976764257), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 249) {
 			int i_30_ = class536_sub33.readUnsignedByte();
 			if (null == aClass4_2501) {
@@ -569,7 +569,7 @@ public class Class248 implements DefinitionI {
 		else if (29 == i)
 			aClass261_2505 = ((Class261) Class682.method8091(Class344.method4485(-1449131152), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 30)
-			aClass283_2518 = ((Class283) Class682.method8091(Class710_Sub17.method10091(33812784), class536_sub33.readUnsignedByte(), 1858049507));
+			aClass283_2518 = ((Class283) Class682.method8091(FlickeringSetting.method10091(33812784), class536_sub33.readUnsignedByte(), 1858049507));
 		else if (i == 249) {
 			int i_48_ = class536_sub33.readUnsignedByte();
 			if (null == aClass4_2501) {

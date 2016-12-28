@@ -70,7 +70,7 @@ public class Class74 implements Interface75 {
 	}
 
 	public static Class512 method1136(int i) {
-		return Class505.aClass512_6888;
+		return GameShell.aClass512_6888;
 	}
 
 	public static Class452[] method1137(int i) {

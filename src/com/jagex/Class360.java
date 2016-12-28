@@ -74,6 +74,6 @@ public abstract class Class360 {
 	public abstract Class359 method4756(int i);
 
 	static final void method4757(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub15_10766.method10071(138664875);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.defaultToolkit.method10071();
 	}
 }

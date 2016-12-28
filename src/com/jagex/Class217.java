@@ -8,15 +8,15 @@ class Class217 implements Interface42 {
 	static int anInt2305;
 
 	public float method287() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(22983264) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(22983264) / 255.0F);
 	}
 
 	public float method285(int i) {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(-1418567324) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(-1418567324) / 255.0F);
 	}
 
 	public float method286() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(-367185057) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(-367185057) / 255.0F);
 	}
 
 	Class217(Class211 class211) {
@@ -24,7 +24,7 @@ class Class217 implements Interface42 {
 	}
 
 	public float method288() {
-		return ((float) Class710.aClass536_Sub40_8843.aClass710_Sub35_10742.method10213(730070313) / 255.0F);
+		return ((float) ClientSetting.aClass536_Sub40_8843.bgSoundVolumeSetting.method10213(730070313) / 255.0F);
 	}
 
 	static final void method3095(Class668 class668, int i) {

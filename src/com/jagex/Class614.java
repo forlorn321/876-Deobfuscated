@@ -58,6 +58,6 @@ public class Class614 {
 	}
 
 	static long method7323(int i) {
-		return Class505.aClass504_6883.method6062((byte) -114);
+		return GameShell.aClass504_6883.method6062((byte) -114);
 	}
 }

@@ -89,7 +89,7 @@ public final class Class195 {
 		Class593.anInt7811 = i_5_ * -151939085;
 		Class460_Sub1.anInt10291 = 2001317011 * i_6_;
 		if (2 == Class246.anInt2474 * 155362615)
-			Class710_Sub23.method10132(1931500034);
+			AnimationDetailSetting.method10132(1931500034);
 		if (Class460_Sub1.anInt10291 * -699510373 >= 100) {
 			int i_8_ = 256 + -590130688 * Class438.anInt4868;
 			int i_9_ = Class550.anInt7412 * -28297728 + 256;

@@ -351,7 +351,7 @@ public class Class465_Sub1 extends Class465 {
 		if (i_91_ < anInt10339 * 1660037511)
 			anInt10339 = -1099740105 * i_91_;
 		Class612 class612 = (Class612) aClass34_Sub17_10351.method70(i_94_, (byte) 11);
-		if (Class710.aClass536_Sub40_8843.aClass710_Sub2_10765.method9885(1532864971) != 0 || !class612.aBool7999) {
+		if (ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(1532864971) != 0 || !class612.aBool7999) {
 			int i_100_;
 			int i_101_;
 			if (i_95_ == 1 || 3 == i_95_) {
@@ -390,10 +390,10 @@ public class Class465_Sub1 extends Class465 {
 			boolean bool = aBool5247 && !aBool5298 && class612.aBool7956;
 			if (class612.method7282((short) 255))
 				Class76.method1155(i_91_, i_92_, i_93_, i_95_, class612, null, null, 352877239);
-			boolean bool_109_ = (-1 == i_97_ && (!class612.method7300((byte) -23) || class612.aBool7993 && (Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method10126(1041246061) == 0)) && class612.anIntArray7988 == null && !class612.aBool8003 && !class612.aBool8007);
+			boolean bool_109_ = (-1 == i_97_ && (!class612.method7300((byte) -23) || class612.aBool7993 && (ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method10126(1041246061) == 0)) && class612.anIntArray7988 == null && !class612.aBool8003 && !class612.aBool8007);
 			if (!aBool10344 || ((!Class374.method4779(i_96_, -1699980071) || 1 == 1174186059 * class612.anInt7995) && (!Class199.method2907(i_96_, (byte) -95) || 0 != class612.anInt7995 * 1174186059))) {
 				if (Class606.aClass606_7895.anInt7878 * -723459231 == i_96_) {
-					if (Class710.aClass536_Sub40_8843.aClass710_Sub7_10753.method9932(-2015548878) != 0 || 1248110961 * class612.anInt7953 != 0 || -1137177093 * class612.anInt7952 == 1 || class612.aBool7945) {
+					if (ClientSetting.aClass536_Sub40_8843.groundDecorationSetting.method9932(-2015548878) != 0 || 1248110961 * class612.anInt7953 != 0 || -1137177093 * class612.anInt7952 == 1 || class612.aBool7945) {
 						Class649_Sub1_Sub2 class649_sub1_sub2;
 						if (bool_109_) {
 							Class649_Sub1_Sub2_Sub2 class649_sub1_sub2_sub2 = (new Class649_Sub1_Sub2_Sub2(aClass553_5269, class167, aClass34_Sub17_10351, class612, i_91_, i, i_107_, i_106_, i_108_, aBool5298, i_95_, bool));

@@ -12,7 +12,7 @@ public class Class592 {
 	}
 
 	static final void method7115(Class668 class668, int i) {
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub43_10780), 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 0, (byte) 1);
 		Class27.method763(1921443807);
 		client.aBool11015 = false;
 	}

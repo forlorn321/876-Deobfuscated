@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub12 extends Class710 {
+public class Class710_Sub12 extends ClientSetting {
 	public static final int anInt10851 = 1;
 	public static final int anInt10852 = 2;
 	public static final int anInt10853 = 3;
@@ -12,7 +12,7 @@ public class Class710_Sub12 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub12(Class536_Sub40 class536_sub40) {
+	public Class710_Sub12(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
@@ -25,7 +25,7 @@ public class Class710_Sub12 extends Class710 {
 		return (aClass536_Sub40_8841.method9856(2052788624).method8365(1330186022) ? 3 : 2);
 	}
 
-	public int method10038(int i) {
+	public int method10038() {
 		return -789865385 * anInt8842;
 	}
 
@@ -65,7 +65,7 @@ public class Class710_Sub12 extends Class710 {
 		return 1;
 	}
 
-	public Class710_Sub12(int i, Class536_Sub40 class536_sub40) {
+	public Class710_Sub12(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 

@@ -51,7 +51,7 @@ public class Class300 {
 
 	static void method4024(Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.method8361(string, 1878410046);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.method8361(string, 1878410046);
 	}
 
 	static final void method4025(Class668 class668, int i) {

@@ -210,7 +210,7 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 		Class101.anInt1199 = 0;
 		Class101.aClass708_1197.method8304(454036827);
 		if (!Class101.aBool1207) {
-			Class710_Sub17.method10092(i, 643213747);
+			FlickeringSetting.method10092(i, 643213747);
 			Class543 class543 = client.aClass515_11066.method6244((byte) -109);
 			if (null != class543) {
 				Class398_Sub1.aClass34_Sub8_10110.method10330(1024, 64, 808161328);

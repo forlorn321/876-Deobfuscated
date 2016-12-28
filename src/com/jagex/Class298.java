@@ -63,15 +63,15 @@ public class Class298 {
 
 	public static void method4015(int[] is, int[] is_4_, int i) {
 		if (is == null || is_4_ == null) {
-			Class705.anIntArray8816 = null;
-			Class705.anIntArray8819 = null;
-			Class705.aByteArrayArrayArray8820 = null;
+			CircularBuffer.anIntArray8816 = null;
+			CircularBuffer.anIntArray8819 = null;
+			CircularBuffer.aByteArrayArrayArray8820 = null;
 		} else {
-			Class705.anIntArray8816 = is;
-			Class705.anIntArray8819 = new int[is.length];
-			Class705.aByteArrayArrayArray8820 = new byte[is.length][][];
-			for (int i_5_ = 0; i_5_ < Class705.anIntArray8816.length; i_5_++)
-				Class705.aByteArrayArrayArray8820[i_5_] = new byte[is_4_[i_5_]][];
+			CircularBuffer.anIntArray8816 = is;
+			CircularBuffer.anIntArray8819 = new int[is.length];
+			CircularBuffer.aByteArrayArrayArray8820 = new byte[is.length][][];
+			for (int i_5_ = 0; i_5_ < CircularBuffer.anIntArray8816.length; i_5_++)
+				CircularBuffer.aByteArrayArrayArray8820[i_5_] = new byte[is_4_[i_5_]][];
 		}
 	}
 }

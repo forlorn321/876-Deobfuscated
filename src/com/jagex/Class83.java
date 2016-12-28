@@ -32,7 +32,7 @@ public class Class83 {
 		if (Class390.aClass390_4053 == class390)
 			return Class390.method4854(class536_sub33, (byte) -104);
 		if (class390 == Class390.aClass390_4059)
-			return Class705.method8275(class536_sub33, -1479101078);
+			return CircularBuffer.method8275(class536_sub33, -1479101078);
 		if (class390 == Class390.aClass390_4051)
 			return Class676.method8040(class536_sub33, (byte) -83);
 		if (Class390.aClass390_4054 == class390)

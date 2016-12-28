@@ -13,7 +13,7 @@ public class Class161_Sub2 extends Class161 {
 	}
 
 	static final void method8670(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub11_10757.method10022((byte) -48) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.shadowQualitySetting.method10022((byte) -48) ? 1 : 0;
 	}
 
 	static final void method8671(int i) {

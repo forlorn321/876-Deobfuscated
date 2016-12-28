@@ -79,7 +79,7 @@ public class Class580 {
 
 	static final void method7017(Class668 class668, int i) {
 		int i_13_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub23_10774.method8348(i_13_, -1102005131);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.animationDetailSetting.method8348(i_13_, -1102005131);
 	}
 
 	static void method7018(int i) {

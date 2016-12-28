@@ -3,16 +3,16 @@
  */
 package com.jagex;
 
-public class Class710_Sub36 extends Class710 {
+public class Class710_Sub36 extends ClientSetting {
 	static final int anInt10912 = 0;
 	static final int anInt10913 = 1;
 	static final int anInt10914 = 3;
 
-	public Class710_Sub36(Class536_Sub40 class536_sub40) {
+	public Class710_Sub36(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
-	public Class710_Sub36(int i, Class536_Sub40 class536_sub40) {
+	public Class710_Sub36(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -25,7 +25,7 @@ public class Class710_Sub36 extends Class710 {
 	}
 
 	int method8348(int i, int i_0_) {
-		if (!Class265.method3689(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(1911651296), 1230943285))
+		if (!Class265.method3689(aClass536_Sub40_8841.toolkit.method10071(), 1230943285))
 			return 3;
 		return 1;
 	}
@@ -60,13 +60,13 @@ public class Class710_Sub36 extends Class710 {
 	}
 
 	int method8355(int i) {
-		if (!Class265.method3689(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(677639801), 1397165960))
+		if (!Class265.method3689(aClass536_Sub40_8841.toolkit.method10071(), 1397165960))
 			return 3;
 		return 1;
 	}
 
 	int method8356(int i) {
-		if (!Class265.method3689(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(1344271857), 1860472859))
+		if (!Class265.method3689(aClass536_Sub40_8841.toolkit.method10071(), 1860472859))
 			return 3;
 		return 1;
 	}
@@ -76,7 +76,7 @@ public class Class710_Sub36 extends Class710 {
 	}
 
 	int method8358(int i) {
-		if (!Class265.method3689(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(754019021), 2074543101))
+		if (!Class265.method3689(aClass536_Sub40_8841.toolkit.method10071(), 2074543101))
 			return 3;
 		return 1;
 	}
@@ -96,7 +96,7 @@ public class Class710_Sub36 extends Class710 {
 	}
 
 	int method8357(int i) {
-		if (!Class265.method3689(aClass536_Sub40_8841.aClass710_Sub15_10767.method10071(1277506765), 1173675861))
+		if (!Class265.method3689(aClass536_Sub40_8841.toolkit.method10071(), 1173675861))
 			return 3;
 		return 1;
 	}

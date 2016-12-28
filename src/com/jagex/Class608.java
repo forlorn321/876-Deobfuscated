@@ -202,12 +202,12 @@ public abstract class Class608 {
 
 	abstract byte[] method7255(int i, int i_3_);
 
-	Class608(boolean bool, Class664 class664, Class670 class670) {
+	Class608(boolean bool, Class664 class664, GameMode class670) {
 		aClass199_7906 = new Class199(50);
 		aClass180Array7909 = new Class180[4];
 		aClass7_7903 = new Class7(null, null);
 		aBool7910 = bool;
-		if (Class670.aClass670_8568 == class670)
+		if (GameMode.aClass670_8568 == class670)
 			aStringArray7908 = new String[] { null, null, null, null, null, Class38.aClass38_459.method840(class664, 1799123243) };
 		else
 			aStringArray7908 = new String[] { null, null, null, null, null, null };

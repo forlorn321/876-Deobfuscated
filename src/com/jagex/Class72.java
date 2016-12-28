@@ -44,10 +44,10 @@ public class Class72 {
 		Class484.method5845(class251, class234, class668, -213751254);
 	}
 
-	public static Class670 method1126(int i, byte i_2_) {
-		Class670[] class670s = Class500.method6029((byte) 0);
+	public static GameMode method1126(int i, byte i_2_) {
+		GameMode[] class670s = Class500.method6029((byte) 0);
 		for (int i_3_ = 0; i_3_ < class670s.length; i_3_++) {
-			Class670 class670 = class670s[i_3_];
+			GameMode class670 = class670s[i_3_];
 			if (i == 273023065 * class670.anInt8567)
 				return class670;
 		}

@@ -60,7 +60,7 @@ final class Class64 implements Interface28 {
 
 	static final void method1058(Class668 class668, int i) {
 		if (Class707.aBool8822 && null != Class223.aFrame2336)
-			Class15.method640(Class710.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(-557010401), -1, -1, false, -2143834336);
+			Class15.method640(ClientSetting.aClass536_Sub40_8843.aClass710_Sub12_10769.method10038(), -1, -1, false, -2143834336);
 		if (Class74.method1136(-1617235478) == Class512.aClass512_6934) {
 			Class567.method6918(785499689);
 			System.exit(0);

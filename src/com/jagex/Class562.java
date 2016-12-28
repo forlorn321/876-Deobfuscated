@@ -63,7 +63,7 @@ public class Class562 {
 			aShortArray7571[i_6_] = (short) (i_8_ << 8 | i_9_);
 		}
 		i_4_ = (i_4_ << i) + (1 << i >> 1);
-		int i_10_ = (Class639.anIntArray8309 != null ? (Class639.anIntArray8309[class536_sub33.readUnsignedShort()]) : (Class639.anIntArray8308[Class254.method3537(class536_sub33.readUnsignedShort(), 1409175155) & 0xffff]));
+		int i_10_ = (ColourUtils.anIntArray8309 != null ? (ColourUtils.anIntArray8309[class536_sub33.readUnsignedShort()]) : (ColourUtils.anIntArray8308[Class254.method3537(class536_sub33.readUnsignedShort(), 1409175155) & 0xffff]));
 		int i_11_ = class536_sub33.readUnsignedByte();
 		anInt7572 = -1693577401 * (i_11_ & 0x1f);
 		anInt7575 = ((i_11_ & 0xe0) << 3) * -1893390687;

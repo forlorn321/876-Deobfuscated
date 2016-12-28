@@ -48,7 +48,7 @@ public class Class616 {
 		for (int i_10_ = 63; i_10_ >= 0; i_10_--) {
 			int i_11_ = (i_10_ & 0x3f) << 10 | (i_9_ & 0x7) << 7 | i_8_ & 0x7f;
 			Class38.method845(false, true, 84200204);
-			int i_12_ = Class639.anIntArray8308[i_11_];
+			int i_12_ = ColourUtils.anIntArray8308[i_11_];
 			Class613.method7316(false, true, (short) 192);
 			class167.method2063(i, (223822141 * class251.anInt2574 * (63 - i_10_) >> 6) + i_6_, class251.anInt2573 * -1606950689, (class251.anInt2574 * 223822141 >> 6) + 1, ~0xffffff | i_12_, 0);
 		}

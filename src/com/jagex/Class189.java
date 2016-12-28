@@ -197,8 +197,8 @@ public final class Class189 {
 
 	static final void method2812(Class668 class668, short i) {
 		int i_18_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		if (i_18_ != Class710.aClass536_Sub40_8843.aClass710_Sub25_10735.method10142(1787590399)) {
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub25_10735), i_18_, (byte) 1);
+		if (i_18_ != ClientSetting.aClass536_Sub40_8843.aClass710_Sub25_10735.method10142(1787590399)) {
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub25_10735), i_18_, (byte) 1);
 			Class27.method763(2142667222);
 			client.aBool11015 = false;
 		}

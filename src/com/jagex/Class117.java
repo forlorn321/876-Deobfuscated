@@ -5,7 +5,7 @@ import com.jagex.Class167_Sub1;
 import com.jagex.Class254;
 import com.jagex.Class302;
 import com.jagex.Class595;
-import com.jagex.Class639;
+import com.jagex.ColourUtils;
 
 public class Class117 {
 
@@ -54,9 +54,9 @@ public class Class117 {
       if(!var1) {
          this.method1507(false, var2, var3, var4, var5, var6, var7, var8, var9, var10, var11, var12, 0);
       } else if(this.aBool1471) {
-         this.aClass167_Sub1_1433.method2060((int)var7, (int)var4, (int)var8, (int)var5, Class639.anIntArray8308[(int)var13 & '\uffff'], 254834806);
-         this.aClass167_Sub1_1433.method2060((int)var8, (int)var5, (int)var9, (int)var6, Class639.anIntArray8308[(int)var13 & '\uffff'], -728274460);
-         this.aClass167_Sub1_1433.method2060((int)var9, (int)var6, (int)var7, (int)var4, Class639.anIntArray8308[(int)var13 & '\uffff'], -572652471);
+         this.aClass167_Sub1_1433.method2060((int)var7, (int)var4, (int)var8, (int)var5, ColourUtils.anIntArray8308[(int)var13 & '\uffff'], 254834806);
+         this.aClass167_Sub1_1433.method2060((int)var8, (int)var5, (int)var9, (int)var6, ColourUtils.anIntArray8308[(int)var13 & '\uffff'], -728274460);
+         this.aClass167_Sub1_1433.method2060((int)var9, (int)var6, (int)var7, (int)var4, ColourUtils.anIntArray8308[(int)var13 & '\uffff'], -572652471);
       } else {
          float var16 = var8 - var7;
          float var17 = var5 - var4;
@@ -535,7 +535,7 @@ public class Class117 {
                if(this.anInt1436 == 0) {
                   if(var6 > 0) {
                      do {
-                        var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                        var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                         var9 += var10;
                         ++var4;
                         if(!var1 || var11 < this.aFloatArray1452[var4]) {
@@ -579,7 +579,7 @@ public class Class117 {
 
                   var6 = var8 - var7 & 3;
                   if(var6 > 0) {
-                     var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
 
                      do {
                         ++var4;
@@ -599,7 +599,7 @@ public class Class117 {
                   var14 = 256 - this.anInt1436;
                   if(var6 > 0) {
                      do {
-                        var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                        var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                         var9 += var10;
                         var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
                         ++var4;
@@ -668,7 +668,7 @@ public class Class117 {
 
                   var6 = var8 - var7 & 3;
                   if(var6 > 0) {
-                     var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                      var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
 
                      do {
@@ -697,7 +697,7 @@ public class Class117 {
                   do {
                      ++var4;
                      if(!var1 || var11 < this.aFloatArray1452[var4]) {
-                        var3[var4] = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                        var3[var4] = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                         if(var1) {
                            this.aFloatArray1452[var4] = var11;
                         }
@@ -714,7 +714,7 @@ public class Class117 {
                   do {
                      ++var4;
                      if(!var1 || var11 < this.aFloatArray1452[var4]) {
-                        var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                        var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                         var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
                         var15 = var3[var4];
                         if(var2) {
@@ -740,7 +740,7 @@ public class Class117 {
             if(this.anInt1436 == 0) {
                if(var6 > 0) {
                   do {
-                     var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                      var9 += var10;
                      ++var4;
                      if(!var1 || var11 < this.aFloatArray1452[var4]) {
@@ -772,7 +772,7 @@ public class Class117 {
 
                var6 = var8 - var7 & 3;
                if(var6 > 0) {
-                  var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                  var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
 
                   do {
                      ++var4;
@@ -789,7 +789,7 @@ public class Class117 {
                var14 = 256 - this.anInt1436;
                if(var6 > 0) {
                   do {
-                     var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                      var9 += var10;
                      var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
                      ++var4;
@@ -842,7 +842,7 @@ public class Class117 {
 
                var6 = var8 - var7 & 3;
                if(var6 > 0) {
-                  var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                  var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                   var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
 
                   do {
@@ -867,7 +867,7 @@ public class Class117 {
                do {
                   ++var4;
                   if(!var1 || var11 < this.aFloatArray1452[var4]) {
-                     var3[var4] = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var3[var4] = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                   }
 
                   var11 += var12;
@@ -881,7 +881,7 @@ public class Class117 {
                do {
                   ++var4;
                   if(!var1 || var11 < this.aFloatArray1452[var4]) {
-                     var5 = Class639.anIntArray8308[(int)var9 & '\uffff'];
+                     var5 = ColourUtils.anIntArray8308[(int)var9 & '\uffff'];
                      var5 = ((var5 & 16711935) * var14 >> 8 & 16711935) + ((var5 & '\uff00') * var14 >> 8 & '\uff00');
                      var15 = var3[var4];
                      if(var2) {
@@ -1709,7 +1709,7 @@ public class Class117 {
                this.anInt1454 = -1;
                this.anInt1436 = 255 - (var22 >> 24 & 255);
                this.anInt1465 = 0;
-               int var75 = Class639.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var29), 1409175155) & '\uffff'];
+               int var75 = ColourUtils.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var29), 1409175155) & '\uffff'];
                var32 = -16777216 | (var22 >> 16 & 255) * (var75 >> 16 & 255) << 8 & 16711680 | (var22 >> 8 & 255) * (var75 >> 8 & 255) & '\uff00' | (var22 & 255) * (var75 & 255) >> 8;
                this.method1504(true, var2, var3, var4, var5, var6, var7, var8, var9, var10, var11, var12, Class302.method4097(var32, var25, var26, -1825552150), Class302.method4097(var32, var25, var27, -1283859155), Class302.method4097(var32, var25, var28, -1826985262));
                return;
@@ -2421,7 +2421,7 @@ public class Class117 {
             if(this.anIntArray1455 == null) {
                this.anInt1454 = -1;
                this.anInt1436 = 255 - (var22 >> 24 & 255);
-               var94 = Class639.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var29), 1409175155) & '\uffff'];
+               var94 = ColourUtils.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var29), 1409175155) & '\uffff'];
                var95 = -16777216 | (var22 >> 16 & 255) * (var94 >> 16 & 255) << 8 & 16711680 | (var22 >> 8 & 255) * (var94 >> 8 & 255) & '\uff00' | (var22 & 255) * (var94 & 255) >> 8;
                this.method1504(true, var2, var3, var4, var5, var6, var7, var8, var9, var10, var11, var12, Class302.method4097(var95, var25, var26, -1142640288), Class302.method4097(var95, var25, var27, -1773539956), Class302.method4097(var95, var25, var28, -1716172052));
                return;
@@ -2439,7 +2439,7 @@ public class Class117 {
             if(this.anIntArray1463 == null) {
                this.anInt1469 = -1;
                this.anInt1436 = 255 - (var22 >> 24 & 255);
-               var94 = Class639.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var31), 1409175155) & '\uffff'];
+               var94 = ColourUtils.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var31), 1409175155) & '\uffff'];
                var95 = -16777216 | (var22 >> 16 & 255) * (var94 >> 16 & 255) << 8 & 16711680 | (var22 >> 8 & 255) * (var94 >> 8 & 255) & '\uff00' | (var22 & 255) * (var94 & 255) >> 8;
                this.method1504(true, var2, var3, var4, var5, var6, var7, var8, var9, var10, var11, var12, Class302.method4097(var95, var25, var26, -840364423), Class302.method4097(var95, var25, var27, -2051263031), Class302.method4097(var95, var25, var28, -999460310));
                return;
@@ -2456,7 +2456,7 @@ public class Class117 {
             if(this.anIntArray1468 == null) {
                this.anInt1467 = -1;
                this.anInt1436 = 255 - (var22 >> 24 & 255);
-               var94 = Class639.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var33), 1409175155) & '\uffff'];
+               var94 = ColourUtils.anIntArray8308[Class254.method3537(this.aClass167_Sub1_1433.method8448(var33), 1409175155) & '\uffff'];
                var95 = -16777216 | (var22 >> 16 & 255) * (var94 >> 16 & 255) << 8 & 16711680 | (var22 >> 8 & 255) * (var94 >> 8 & 255) & '\uff00' | (var22 & 255) * (var94 & 255) >> 8;
                this.method1504(true, var2, var3, (float)((int)var4), (float)((int)var5), (float)((int)var6), (float)((int)var7), (float)((int)var8), (float)((int)var9), (float)((int)var10), (float)((int)var11), (float)((int)var12), Class302.method4097(var95, var25, var26, -924498830), Class302.method4097(var95, var25, var27, -1813152191), Class302.method4097(var95, var25, var28, -1157509218));
                return;

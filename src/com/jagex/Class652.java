@@ -25,7 +25,7 @@ public class Class652 {
 	}
 
 	static final void method7867(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub28_10748.method10165((short) 836) == 1 ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.customCursorSetting.method10165((short) 836) == 1 ? 1 : 0;
 	}
 
 	public static void method7868(Class461 class461, Class174 class174, Interface24 interface24, int i) {
@@ -35,9 +35,9 @@ public class Class652 {
 	}
 
 	static void method7869(int i) {
-		if (678116975 * Class505.anInt6864 > 1)
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub26_10758), 4, (byte) 1);
+		if (678116975 * GameShell.cpuCount > 1)
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.cpuUsageSetting), 4, (byte) 1);
 		else
-			Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub26_10758), 2, (byte) 1);
+			ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.cpuUsageSetting), 2, (byte) 1);
 	}
 }

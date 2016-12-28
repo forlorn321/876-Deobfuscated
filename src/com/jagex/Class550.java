@@ -100,7 +100,7 @@ public abstract class Class550 {
 
 	static final void method6682(Class668 class668, int i) {
 		int i_2_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class710.aClass536_Sub40_8843.method9857((Class710.aClass536_Sub40_8843.aClass710_Sub13_10739), i_2_, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.brightnessSetting), i_2_, (byte) 1);
 		client.aClass515_11066.method6319(-1884574223);
 		Class27.method763(1946671431);
 		client.aBool11015 = false;

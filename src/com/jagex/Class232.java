@@ -46,7 +46,7 @@ public class Class232 implements Interface27 {
 	}
 
 	static final void method3324(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub27_10746.method10156(128563989);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156();
 	}
 
 	static final void method3325(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_) {

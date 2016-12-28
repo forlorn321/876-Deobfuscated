@@ -225,7 +225,7 @@ public class Class319_Sub1 extends Class319 {
 	}
 
 	public static final int method9134(int i) {
-		return (int) (1000000000L / (-4013848546647482281L * Class505.aLong6886));
+		return (int) (1000000000L / (-4013848546647482281L * GameShell.aLong6886));
 	}
 
 	public static void method9135(int i, int i_55_, int i_56_) {

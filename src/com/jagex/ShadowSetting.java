@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class710_Sub9 extends Class710 {
+public class ShadowSetting extends ClientSetting {
 	public static final int anInt10843 = 2;
 	public static final int anInt10844 = 0;
 	public static final int anInt10845 = 1;
@@ -12,12 +12,12 @@ public class Class710_Sub9 extends Class710 {
 		return 2;
 	}
 
-	public Class710_Sub9(int i, Class536_Sub40 class536_sub40) {
+	public ShadowSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
 	public void method10001(int i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(1026166679) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(1026166679) == 0)
 			anInt8842 = 0;
 		if (anInt8842 * -789865385 < 0 || anInt8842 * -789865385 > 2)
 			anInt8842 = method8347((byte) -31) * -1100148889;
@@ -28,13 +28,13 @@ public class Class710_Sub9 extends Class710 {
 	}
 
 	public int method8348(int i, int i_0_) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(-2047127272) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(-2047127272) == 0)
 			return 3;
 		return 1;
 	}
 
 	public boolean method10002(short i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(1745188092) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(1745188092) == 0)
 			return false;
 		return true;
 	}
@@ -44,7 +44,7 @@ public class Class710_Sub9 extends Class710 {
 	}
 
 	public int method8358(int i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(1750959097) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(1750959097) == 0)
 			return 3;
 		return 1;
 	}
@@ -58,7 +58,7 @@ public class Class710_Sub9 extends Class710 {
 	}
 
 	public void method10003() {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(1384139445) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(1384139445) == 0)
 			anInt8842 = 0;
 		if (anInt8842 * -789865385 < 0 || anInt8842 * -789865385 > 2)
 			anInt8842 = method8347((byte) 35) * -1100148889;
@@ -73,24 +73,24 @@ public class Class710_Sub9 extends Class710 {
 	}
 
 	public int method8355(int i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(-455273103) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(-455273103) == 0)
 			return 3;
 		return 1;
 	}
 
 	public int method8356(int i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(-408202843) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(-408202843) == 0)
 			return 3;
 		return 1;
 	}
 
 	public int method8357(int i) {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(123527943) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(123527943) == 0)
 			return 3;
 		return 1;
 	}
 
-	public Class710_Sub9(Class536_Sub40 class536_sub40) {
+	public ShadowSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
@@ -99,13 +99,13 @@ public class Class710_Sub9 extends Class710 {
 	}
 
 	public boolean method10005() {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(660160523) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(660160523) == 0)
 			return false;
 		return true;
 	}
 
 	public boolean method10006() {
-		if (aClass536_Sub40_8841.aClass710_Sub2_10765.method9885(156235731) == 0)
+		if (aClass536_Sub40_8841.textureSetting.method9885(156235731) == 0)
 			return false;
 		return true;
 	}

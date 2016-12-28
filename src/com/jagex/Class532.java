@@ -25,7 +25,7 @@ public class Class532 {
 	}
 
 	static final void method6443(Class668 class668, byte i) {
-		Class710.aClass536_Sub40_8843.method9857(Class710.aClass536_Sub40_8843.aClass710_Sub3_10754, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 2 : 0, (byte) 1);
+		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.waterDetailSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 2 : 0, (byte) 1);
 		client.aClass515_11066.method6319(-1900259270);
 		Class27.method763(2057957788);
 		client.aBool11015 = false;

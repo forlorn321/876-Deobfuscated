@@ -38,7 +38,7 @@ public class Class521_Sub4 extends Class521 {
 		if (!Class677.aClass167_8609.method2013())
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 3;
 		else
-			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class710.aClass536_Sub40_8843.aClass710_Sub34_10787.method8348(i_3_, -1102005131);
+			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.bloomSetting.method8348(i_3_, -1102005131);
 	}
 
 	public static void method9368(int i) {

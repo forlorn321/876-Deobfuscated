@@ -3,12 +3,12 @@
  */
 package com.jagex;
 
-public class Class710_Sub31 extends Class710 {
+public class LoadingScreenTypeSetting extends ClientSetting {
 	int method8358(int i) {
 		return 1;
 	}
 
-	public Class710_Sub31(int i, Class536_Sub40 class536_sub40) {
+	public LoadingScreenTypeSetting(int i, ClientSettings class536_sub40) {
 		super(i, class536_sub40);
 	}
 
@@ -20,7 +20,7 @@ public class Class710_Sub31 extends Class710 {
 		return 0;
 	}
 
-	public Class710_Sub31(Class536_Sub40 class536_sub40) {
+	public LoadingScreenTypeSetting(ClientSettings class536_sub40) {
 		super(class536_sub40);
 	}
 
