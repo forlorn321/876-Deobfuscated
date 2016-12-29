@@ -8,11 +8,11 @@ public final class IComponentSettings extends Class536 {
 	static IComponentSettings DEFAULT_SETTINGS = new IComponentSettings(0, -1);
 	public int interfaceHash;
 
-	public final boolean method9472(int i) {
-		return 0 != (settings * -512963777 >> 1 + i & 0x1);
+	public final boolean clickOptionEnabled(int option) {
+		return 0 != (settings * -512963777 >> 1 + option & 0x1);
 	}
 
-	public final boolean method9473() {
+	public final boolean dragEnabled() {
 		return (settings * -512963777 >> 21 & 0x1) != 0;
 	}
 	
@@ -24,7 +24,7 @@ public final class IComponentSettings extends Class536 {
 		return method8258(-512963777 * settings);
 	}
 
-	public final boolean method9476() {
+	public final boolean dialogueEnabled() {
 		return (-512963777 * settings & 0x1) != 0;
 	}
 

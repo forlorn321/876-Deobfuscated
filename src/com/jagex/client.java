@@ -1832,7 +1832,7 @@ public final class client extends GameShell {
 						if (null != aClass251_10992 && interfaceDefs != aClass251_10992 && bool_87_) {
 							if (interfaceDefs.noClickThrough == true)
 								aClass251_11202 = null;
-							if (getIComponentSettings(interfaceDefs).method9473())
+							if (getIComponentSettings(interfaceDefs).dragEnabled())
 								aClass251_11202 = interfaceDefs;
 						}
 						if (interfaceDefs == aClass251_11199) {

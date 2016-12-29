@@ -460,6 +460,8 @@ public class PacketDecoder {
 			int componentId = interfaceHash & 0xFFFF;
 			if (RS3Applet.DUMP)
 				System.out.println("player.getPackets().sendIComponentSettings("+interfaceId+", "+componentId+", "+fromSlot+", "+toSlot+", "+value+");");
+//			if (0 != (value >> 23 & 0x1))
+//				System.out.println("Settings: " + interfaceId + ", " + componentId);
 			for (int i_79_ = fromSlot; i_79_ <= toSlot; i_79_++) {
 				long l = ((long) interfaceHash << 32) + (long) i_79_;
 				IComponentSettings class536_sub14 = (IComponentSettings) client.aClass4_11243.method556(l);

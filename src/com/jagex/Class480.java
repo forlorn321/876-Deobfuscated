@@ -115,7 +115,7 @@ public class Class480 {
 	}
 
 	static String method5829(IComponentDefinitions class251, int i, short i_2_) {
-		if (!client.getIComponentSettings(class251).method9472(i) && class251.onOpHook == null)
+		if (!client.getIComponentSettings(class251).clickOptionEnabled(i) && class251.onOpHook == null)
 			return null;
 		if (null == class251.op || class251.op.length <= i || null == class251.op[i] || class251.op[i].trim().length() == 0) {
 			if (client.aBool11010)

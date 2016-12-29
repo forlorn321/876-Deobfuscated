@@ -138,7 +138,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Connecting to Rs or a Rsps
 	 */
-	public static boolean RSPS = true;
+	public static boolean RSPS = false;
 
 	/**
 	 * Chooses ip based on if Rs or Rsps
@@ -148,7 +148,7 @@ public class RS3Applet extends Applet implements AppletStub {
 	/**
 	 * Whether or not to dump info such as vars
 	 */
-	public static boolean DUMP = true;
+	public static boolean DUMP = false;
 
 	/**
 	 * The parameters of the client.

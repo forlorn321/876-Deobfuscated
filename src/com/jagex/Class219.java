@@ -61,7 +61,7 @@ public class Class219 implements Interface27 {
 			if (null != string_4_)
 				Class521_Sub6.method9389(string_4_, class251.opBase, Class73.method1132(class251, i_3_, 62613787), 57, class251.anInt2711 * -1484799213, (long) (1 + i_3_), -809980533 * class251.anInt2546, -1591767037 * class251.anInt2559, true, false, (long) (-809980533 * class251.anInt2546 << 0 | class251.anInt2559 * -1591767037), false, 273151590);
 		}
-		if (client.getIComponentSettings(class251).method9476()) {
+		if (client.getIComponentSettings(class251).dialogueEnabled()) {
 			if (class251.pauseText != null)
 				Class521_Sub6.method9389(class251.pauseText, "", -1, 30, -1484799213 * class251.anInt2711, 0L, -809980533 * class251.anInt2546, class251.anInt2559 * -1591767037, true, false, (long) (class251.anInt2546 * -809980533 << 0 | class251.anInt2559 * -1591767037), false, -184389048);
 			else
