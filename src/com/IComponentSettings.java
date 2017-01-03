@@ -173,7 +173,7 @@ public class IComponentSettings {
 		if (bit22Enabled()) {
 			s += ".bit22Enabled()";
 		}
-		s += " //" + settings;
+		s += ") //" + settings;
 		return s;
 	}
 }
