@@ -62,7 +62,7 @@ public final class Class199 {
 		Class536_Sub18_Sub11_Sub1 class536_sub18_sub11_sub1 = new Class536_Sub18_Sub11_Sub1(object, i);
 		aClass4_2219.method560(class536_sub18_sub11_sub1, l);
 		aClass700_2220.method8239(class536_sub18_sub11_sub1, (byte) 53);
-		class536_sub18_sub11_sub1.aLong10507 = 0L;
+		class536_sub18_sub11_sub1.requestHash = 0L;
 	}
 
 	public void method2883(int i, int i_1_) {
@@ -73,7 +73,7 @@ public final class Class199 {
 					class536_sub18_sub11.method9521(-1016168651);
 					anInt2218 += -2030602581 * class536_sub18_sub11.anInt11726;
 				}
-			} else if ((class536_sub18_sub11.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub11.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub11_Sub2 class536_sub18_sub11_sub2 = (new Class536_Sub18_Sub11_Sub2(class536_sub18_sub11.method10733((byte) 101), class536_sub18_sub11.anInt11726 * -305300681));
 				aClass4_2219.method560(class536_sub18_sub11_sub2, (-6909195213925454795L * class536_sub18_sub11.aLong7133));
 				Class38.method841(class536_sub18_sub11_sub2, class536_sub18_sub11, 1285724811);
@@ -108,12 +108,12 @@ public final class Class199 {
 			Class536_Sub18_Sub11_Sub1 class536_sub18_sub11_sub1 = new Class536_Sub18_Sub11_Sub1(object, (-305300681 * (class536_sub18_sub11.anInt11726)));
 			aClass4_2219.method560(class536_sub18_sub11_sub1, (-6909195213925454795L * class536_sub18_sub11.aLong7133));
 			aClass700_2220.method8239(class536_sub18_sub11_sub1, (byte) -19);
-			class536_sub18_sub11_sub1.aLong10507 = 0L;
+			class536_sub18_sub11_sub1.requestHash = 0L;
 			class536_sub18_sub11.method6484();
 			class536_sub18_sub11.method9521(-1338786414);
 		} else {
 			aClass700_2220.method8239(class536_sub18_sub11, (byte) -11);
-			class536_sub18_sub11.aLong10507 = 0L;
+			class536_sub18_sub11.requestHash = 0L;
 		}
 		return object;
 	}
@@ -195,7 +195,7 @@ public final class Class199 {
 					class536_sub18_sub11.method9521(-843954758);
 					anInt2218 += -2030602581 * class536_sub18_sub11.anInt11726;
 				}
-			} else if ((class536_sub18_sub11.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub11.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub11_Sub2 class536_sub18_sub11_sub2 = (new Class536_Sub18_Sub11_Sub2(class536_sub18_sub11.method10733((byte) -110), class536_sub18_sub11.anInt11726 * -305300681));
 				aClass4_2219.method560(class536_sub18_sub11_sub2, (-6909195213925454795L * class536_sub18_sub11.aLong7133));
 				Class38.method841(class536_sub18_sub11_sub2, class536_sub18_sub11, 985396881);
@@ -213,7 +213,7 @@ public final class Class199 {
 					class536_sub18_sub11.method9521(-1471947722);
 					anInt2218 += -2030602581 * class536_sub18_sub11.anInt11726;
 				}
-			} else if ((class536_sub18_sub11.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub11.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub11_Sub2 class536_sub18_sub11_sub2 = (new Class536_Sub18_Sub11_Sub2(class536_sub18_sub11.method10733((byte) -46), class536_sub18_sub11.anInt11726 * -305300681));
 				aClass4_2219.method560(class536_sub18_sub11_sub2, (-6909195213925454795L * class536_sub18_sub11.aLong7133));
 				Class38.method841(class536_sub18_sub11_sub2, class536_sub18_sub11, 1272643254);

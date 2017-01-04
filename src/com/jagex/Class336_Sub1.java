@@ -73,7 +73,7 @@ public class Class336_Sub1 extends Class336 {
 				return null;
 			class536_sub18_sub5.method6484();
 			class536_sub18_sub5.method9521(-1532414489);
-			if (0L != (4749301371101216403L * class536_sub18_sub5.aLong10507 & ~0x7fffffffffffffffL))
+			if (0L != (4749301371101216403L * class536_sub18_sub5.requestHash & ~0x7fffffffffffffffL))
 				return class536_sub18_sub5;
 		}
 	}
