@@ -11,7 +11,7 @@ public class Class426 {
 	Class466 aClass466_4802;
 	BigInteger aBigInteger4803;
 	BigInteger aBigInteger4804;
-	Class536_Sub18_Sub15_Sub2 aClass536_Sub18_Sub15_Sub2_4805;
+	JS5ArchiveRequest aClass536_Sub18_Sub15_Sub2_4805;
 	Class536_Sub18_Sub15_Sub3 aClass536_Sub18_Sub15_Sub3_4806;
 	Class460 aClass460_4807;
 	Class469 aClass469_4808;

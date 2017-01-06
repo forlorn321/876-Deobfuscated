@@ -23,12 +23,12 @@ public class Class607 {
 						Class536_Sub18_Sub19_Sub1 class536_sub18_sub19_sub1 = (new Class536_Sub18_Sub19_Sub1(interface70, object, class536_sub18_sub19.anInt11827));
 						aClass4_7901.method560(class536_sub18_sub19_sub1, (class536_sub18_sub19.aLong7133 * -6909195213925454795L));
 						aClass700_7902.method8239(class536_sub18_sub19_sub1, (byte) 57);
-						class536_sub18_sub19_sub1.aLong10507 = 0L;
+						class536_sub18_sub19_sub1.requestHash = 0L;
 						class536_sub18_sub19.method6484();
 						class536_sub18_sub19.method9521(-709943953);
 					} else {
 						aClass700_7902.method8239(class536_sub18_sub19, (byte) -33);
-						class536_sub18_sub19.aLong10507 = 0L;
+						class536_sub18_sub19.requestHash = 0L;
 					}
 					return object;
 				}
@@ -55,7 +55,7 @@ public class Class607 {
 					class536_sub18_sub19.method9521(-638159489);
 					anInt7899 += class536_sub18_sub19.anInt11827;
 				}
-			} else if ((class536_sub18_sub19.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub19.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub19_Sub2 class536_sub18_sub19_sub2 = (new Class536_Sub18_Sub19_Sub2(class536_sub18_sub19.anInterface70_11826, class536_sub18_sub19.method10814(), class536_sub18_sub19.anInt11827));
 				aClass4_7901.method560(class536_sub18_sub19_sub2, (class536_sub18_sub19.aLong7133 * -6909195213925454795L));
 				Class38.method841(class536_sub18_sub19_sub2, class536_sub18_sub19, 1723756988);
@@ -81,7 +81,7 @@ public class Class607 {
 		Class536_Sub18_Sub19_Sub1 class536_sub18_sub19_sub1 = new Class536_Sub18_Sub19_Sub1(interface70, object, i);
 		aClass4_7901.method560(class536_sub18_sub19_sub1, interface70.method436());
 		aClass700_7902.method8239(class536_sub18_sub19_sub1, (byte) -34);
-		class536_sub18_sub19_sub1.aLong10507 = 0L;
+		class536_sub18_sub19_sub1.requestHash = 0L;
 	}
 
 	public final void method7227(int i) {
@@ -92,7 +92,7 @@ public class Class607 {
 					class536_sub18_sub19.method9521(-1124137203);
 					anInt7899 += class536_sub18_sub19.anInt11827;
 				}
-			} else if ((class536_sub18_sub19.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub19.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub19_Sub2 class536_sub18_sub19_sub2 = (new Class536_Sub18_Sub19_Sub2(class536_sub18_sub19.anInterface70_11826, class536_sub18_sub19.method10814(), class536_sub18_sub19.anInt11827));
 				aClass4_7901.method560(class536_sub18_sub19_sub2, (class536_sub18_sub19.aLong7133 * -6909195213925454795L));
 				Class38.method841(class536_sub18_sub19_sub2, class536_sub18_sub19, 1095057505);
@@ -142,7 +142,7 @@ public class Class607 {
 					class536_sub18_sub19.method9521(-1408837793);
 					anInt7899 += class536_sub18_sub19.anInt11827;
 				}
-			} else if ((class536_sub18_sub19.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub19.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub19_Sub2 class536_sub18_sub19_sub2 = (new Class536_Sub18_Sub19_Sub2(class536_sub18_sub19.anInterface70_11826, class536_sub18_sub19.method10814(), class536_sub18_sub19.anInt11827));
 				aClass4_7901.method560(class536_sub18_sub19_sub2, (class536_sub18_sub19.aLong7133 * -6909195213925454795L));
 				Class38.method841(class536_sub18_sub19_sub2, class536_sub18_sub19, 1060637748);
@@ -160,7 +160,7 @@ public class Class607 {
 					class536_sub18_sub19.method9521(-218064834);
 					anInt7899 += class536_sub18_sub19.anInt11827;
 				}
-			} else if ((class536_sub18_sub19.aLong10507 += 2122374251850846107L) * 4749301371101216403L > (long) i) {
+			} else if ((class536_sub18_sub19.requestHash += 2122374251850846107L) * 4749301371101216403L > (long) i) {
 				Class536_Sub18_Sub19_Sub2 class536_sub18_sub19_sub2 = (new Class536_Sub18_Sub19_Sub2(class536_sub18_sub19.anInterface70_11826, class536_sub18_sub19.method10814(), class536_sub18_sub19.anInt11827));
 				aClass4_7901.method560(class536_sub18_sub19_sub2, (class536_sub18_sub19.aLong7133 * -6909195213925454795L));
 				Class38.method841(class536_sub18_sub19_sub2, class536_sub18_sub19, 778889033);

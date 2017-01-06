@@ -709,7 +709,7 @@ public class Class459_Sub1 extends Class459 {
 								aClass4_10139.method560(class536_sub18_sub15_sub3, (long) i);
 						}
 					} else if (!aClass460_10129.method5528((byte) 1)) {
-						Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = aClass460_10129.method5522((-1029966251 * anInt10143), i, (byte) 2, true, 1099044667);
+						JS5ArchiveRequest class536_sub18_sub15_sub2 = aClass460_10129.method5522((-1029966251 * anInt10143), i, (byte) 2, true, 1099044667);
 						aClass4_10139.method560(class536_sub18_sub15_sub2, (long) i);
 					}
 				}
@@ -753,7 +753,7 @@ public class Class459_Sub1 extends Class459 {
 							aClass4_10139.method560(class536_sub18_sub15_sub3, (long) i);
 					}
 				} else if (!aClass460_10129.method5528((byte) 1)) {
-					Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = aClass460_10129.method5522(anInt10143 * -1029966251, i, (byte) 2, true, 1099044667);
+					JS5ArchiveRequest class536_sub18_sub15_sub2 = aClass460_10129.method5522(anInt10143 * -1029966251, i, (byte) 2, true, 1099044667);
 					aClass4_10139.method560(class536_sub18_sub15_sub2, (long) i);
 				}
 			}

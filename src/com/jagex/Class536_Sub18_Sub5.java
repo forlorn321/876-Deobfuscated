@@ -42,7 +42,7 @@ public class Class536_Sub18_Sub5 extends Class536_Sub18 {
 	}
 
 	void method10659(int i) {
-		aLong10507 = (4749301371101216403L * aLong10507 | ~0x7fffffffffffffffL) * 2122374251850846107L;
+		requestHash = (4749301371101216403L * requestHash | ~0x7fffffffffffffffL) * 2122374251850846107L;
 		if (method10682(-1992447305) == 0L)
 			aClass700_11647.method8239(this, (byte) 42);
 	}
@@ -103,7 +103,7 @@ public class Class536_Sub18_Sub5 extends Class536_Sub18 {
 	}
 
 	void method10669(int i) {
-		aLong10507 = ((4749301371101216403L * aLong10507 & ~0x7fffffffffffffffL | Class249.method3450(1374662720) + 500L) * 2122374251850846107L);
+		requestHash = ((4749301371101216403L * requestHash & ~0x7fffffffffffffffL | Class249.method3450(1374662720) + 500L) * 2122374251850846107L);
 		aClass700_11674.method8239(this, (byte) 59);
 	}
 
@@ -167,7 +167,7 @@ public class Class536_Sub18_Sub5 extends Class536_Sub18 {
 	}
 
 	long method10682(int i) {
-		return aLong10507 * 4749301371101216403L & 0x7fffffffffffffffL;
+		return requestHash * 4749301371101216403L & 0x7fffffffffffffffL;
 	}
 
 	static void method10683() {

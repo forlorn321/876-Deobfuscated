@@ -16,7 +16,7 @@ public class Class466 implements Runnable {
 		class536_sub18_sub15_sub1.anInt12099 = 146310815;
 		synchronized (aClass700_5321) {
 			for (Class536_Sub18_Sub15_Sub1 class536_sub18_sub15_sub1_1_ = ((Class536_Sub18_Sub15_Sub1) aClass700_5321.method8248(-1786466546)); class536_sub18_sub15_sub1_1_ != null; class536_sub18_sub15_sub1_1_ = ((Class536_Sub18_Sub15_Sub1) aClass700_5321.method8241(-1777921390))) {
-				if ((long) i == (class536_sub18_sub15_sub1_1_.aLong10507 * 4749301371101216403L) && class547 == class536_sub18_sub15_sub1_1_.aClass547_12096 && (-1532684961 * class536_sub18_sub15_sub1_1_.anInt12099 == 2)) {
+				if ((long) i == (class536_sub18_sub15_sub1_1_.requestHash * 4749301371101216403L) && class547 == class536_sub18_sub15_sub1_1_.aClass547_12096 && (-1532684961 * class536_sub18_sub15_sub1_1_.anInt12099 == 2)) {
 					class536_sub18_sub15_sub1.aByteArray12101 = class536_sub18_sub15_sub1_1_.aByteArray12101;
 					class536_sub18_sub15_sub1.aBool11777 = false;
 					Class536_Sub18_Sub15_Sub1 class536_sub18_sub15_sub1_2_ = class536_sub18_sub15_sub1;
@@ -33,7 +33,7 @@ public class Class466 implements Runnable {
 	Class536_Sub18_Sub15_Sub1 method5670(int i, byte[] is, Class547 class547, byte i_3_) {
 		Class536_Sub18_Sub15_Sub1 class536_sub18_sub15_sub1 = new Class536_Sub18_Sub15_Sub1();
 		class536_sub18_sub15_sub1.anInt12099 = 292621630;
-		class536_sub18_sub15_sub1.aLong10507 = (long) i * 2122374251850846107L;
+		class536_sub18_sub15_sub1.requestHash = (long) i * 2122374251850846107L;
 		class536_sub18_sub15_sub1.aByteArray12101 = is;
 		class536_sub18_sub15_sub1.aClass547_12096 = class547;
 		class536_sub18_sub15_sub1.aBool11778 = false;
@@ -59,9 +59,9 @@ public class Class466 implements Runnable {
 			}
 			try {
 				if (2 == class536_sub18_sub15_sub1.anInt12099 * -1532684961)
-					class536_sub18_sub15_sub1.aClass547_12096.method6628((int) (4749301371101216403L * class536_sub18_sub15_sub1.aLong10507), class536_sub18_sub15_sub1.aByteArray12101, class536_sub18_sub15_sub1.aByteArray12101.length, -1254656080);
+					class536_sub18_sub15_sub1.aClass547_12096.method6628((int) (4749301371101216403L * class536_sub18_sub15_sub1.requestHash), class536_sub18_sub15_sub1.aByteArray12101, class536_sub18_sub15_sub1.aByteArray12101.length, -1254656080);
 				else if (class536_sub18_sub15_sub1.anInt12099 * -1532684961 == 3)
-					class536_sub18_sub15_sub1.aByteArray12101 = (class536_sub18_sub15_sub1.aClass547_12096.method6626((int) (4749301371101216403L * class536_sub18_sub15_sub1.aLong10507), 643577275));
+					class536_sub18_sub15_sub1.aByteArray12101 = (class536_sub18_sub15_sub1.aClass547_12096.method6626((int) (4749301371101216403L * class536_sub18_sub15_sub1.requestHash), 643577275));
 			} catch (Exception exception) {
 				Class81.method1165(null, exception, (byte) 30);
 			}
@@ -130,9 +130,9 @@ public class Class466 implements Runnable {
 			}
 			try {
 				if (2 == class536_sub18_sub15_sub1.anInt12099 * -1532684961)
-					class536_sub18_sub15_sub1.aClass547_12096.method6628((int) (4749301371101216403L * class536_sub18_sub15_sub1.aLong10507), class536_sub18_sub15_sub1.aByteArray12101, class536_sub18_sub15_sub1.aByteArray12101.length, 1820711846);
+					class536_sub18_sub15_sub1.aClass547_12096.method6628((int) (4749301371101216403L * class536_sub18_sub15_sub1.requestHash), class536_sub18_sub15_sub1.aByteArray12101, class536_sub18_sub15_sub1.aByteArray12101.length, 1820711846);
 				else if (class536_sub18_sub15_sub1.anInt12099 * -1532684961 == 3)
-					class536_sub18_sub15_sub1.aByteArray12101 = (class536_sub18_sub15_sub1.aClass547_12096.method6626((int) (4749301371101216403L * class536_sub18_sub15_sub1.aLong10507), 643577275));
+					class536_sub18_sub15_sub1.aByteArray12101 = (class536_sub18_sub15_sub1.aClass547_12096.method6626((int) (4749301371101216403L * class536_sub18_sub15_sub1.requestHash), 643577275));
 			} catch (Exception exception) {
 				Class81.method1165(null, exception, (byte) -1);
 			}
@@ -177,7 +177,7 @@ public class Class466 implements Runnable {
 	Class536_Sub18_Sub15_Sub1 method5679(int i, Class547 class547, byte i_5_) {
 		Class536_Sub18_Sub15_Sub1 class536_sub18_sub15_sub1 = new Class536_Sub18_Sub15_Sub1();
 		class536_sub18_sub15_sub1.anInt12099 = 438932445;
-		class536_sub18_sub15_sub1.aLong10507 = (long) i * 2122374251850846107L;
+		class536_sub18_sub15_sub1.requestHash = (long) i * 2122374251850846107L;
 		class536_sub18_sub15_sub1.aClass547_12096 = class547;
 		class536_sub18_sub15_sub1.aBool11778 = false;
 		method5671(class536_sub18_sub15_sub1, 1564233666);
