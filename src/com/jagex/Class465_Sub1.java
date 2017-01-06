@@ -337,7 +337,7 @@ public class Class465_Sub1 extends Class465 {
 						i_86_ = class612.anInt8002 * -1981381335;
 					}
 					int i_87_ = i_68_ + Class171.method2424(i_80_ & 0x7, i_79_ & 0x7, i_73_, (-1981381335 * class612.anInt8002), (class612.anInt7980 * -90266503), i_84_, -2052338781);
-					int i_88_ = (i_69_ + Class567_Sub1.method9876(i_80_ & 0x7, i_79_ & 0x7, i_73_, (-1981381335 * class612.anInt8002), (class612.anInt7980 * -90266503), i_84_, 177323065));
+					int i_88_ = (i_69_ + RSSocket.method9876(i_80_ & 0x7, i_79_ & 0x7, i_73_, (-1981381335 * class612.anInt8002), (class612.anInt7980 * -90266503), i_84_, 177323065));
 					int i_89_ = i_87_ + i_85_;
 					int i_90_ = i_88_ + i_86_;
 					if (i_87_ < 312855363 * anInt5242 && i_88_ < -183622811 * anInt5284 && i_89_ > 0 && i_90_ > 0 && ((ObjShapes.aClass606_7880.anInt7878 * -723459231 == i_83_) || (ObjShapes.aClass606_7894.anInt7878 * -723459231 == i_83_) || (i_87_ > 0 && i_88_ > 0 && i_87_ < anInt5242 * 312855363 - 1 && i_88_ < anInt5284 * -183622811 - 1)))

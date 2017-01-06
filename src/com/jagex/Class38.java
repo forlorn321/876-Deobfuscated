@@ -480,7 +480,7 @@ public class Class38 {
 	static void method847(Class167 class167, int i) {
 		int i_13_ = -10660793;
 		Class359.method4722(class167, Class312.anInt3487 * -467577567, 1644471179 * Class70.anInt768, 917143623 * Class2.anInt95, Class153.anInt1719 * -311054579, i_13_, -16777216, (byte) 8);
-		Class26.aClass184_248.renderItemAmountIThink(aClass38_435.method840(Class459.aClass664_5178, 1539317907), 3 + -467577567 * Class312.anInt3487, 14 + 1644471179 * Class70.anInt768, i_13_, -1, (byte) -121);
+		Class26.aClass184_248.renderItemAmountIThink(aClass38_435.method840(Class459.CLIENT_PARAMS, 1539317907), 3 + -467577567 * Class312.anInt3487, 14 + 1644471179 * Class70.anInt768, i_13_, -1, (byte) -121);
 		int i_14_ = Class329.aClass550_3601.method6656(-992134619);
 		int i_15_ = Class329.aClass550_3601.method6657(-1661586685);
 		if (!Class70.aBool753) {

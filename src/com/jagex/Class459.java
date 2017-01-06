@@ -4,7 +4,7 @@
 package com.jagex;
 
 public abstract class Class459 {
-	public static Language aClass664_5178;
+	public static Language CLIENT_PARAMS;
 	public static Class34_Sub9 aClass34_Sub9_5179;
 	static int anInt5180;
 

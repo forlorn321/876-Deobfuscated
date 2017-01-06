@@ -263,7 +263,7 @@ public class Class27 implements Runnable {
 
 	static final void method762(Class668 class668, int i) {
 		class668.anInt8544 -= -402808782;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class34_Sub6.method10321(((String) (class668.anObjectArray8543[366709801 * class668.anInt8544])), (String) (class668.anObjectArray8543[1 + (366709801 * class668.anInt8544)]), Class459.aClass664_5178, -1675425713);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class34_Sub6.method10321(((String) (class668.anObjectArray8543[366709801 * class668.anInt8544])), (String) (class668.anObjectArray8543[1 + (366709801 * class668.anInt8544)]), Class459.CLIENT_PARAMS, -1675425713);
 	}
 
 	public static void method763(int i) {

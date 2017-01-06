@@ -71,7 +71,7 @@ final class Class640 implements Runnable {
 		if (null != client.aString10986)
 			string_6_ = new StringBuilder().append("/p=").append(client.aString10986).toString();
 		String string_7_ = new StringBuilder().append(client.aClass670_11043.aString8573).append(".com").toString();
-		return new StringBuilder().append(string_5_).append(string).append(".").append(string_7_).append("/l=").append(-1919173613 * Class459.aClass664_5178.anInt8526).append("/a=").append(client.anInt10987 * 1051867059).append(string_6_).append("/").toString();
+		return new StringBuilder().append(string_5_).append(string).append(".").append(string_7_).append("/l=").append(-1919173613 * Class459.CLIENT_PARAMS.languageId).append("/a=").append(client.anInt10987 * 1051867059).append(string_6_).append("/").toString();
 	}
 
 	static final void method7674(Class668 class668, byte i) {

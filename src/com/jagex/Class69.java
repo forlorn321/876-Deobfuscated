@@ -99,7 +99,7 @@ final class Class69 implements Interface51 {
 				client.aClass515_11066.method6319(-1309348381);
 			}
 		} catch (Exception exception) {
-			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.aClass664_5178, 2073734058));
+			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.CLIENT_PARAMS, 2073734058));
 		}
 	}
 

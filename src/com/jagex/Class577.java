@@ -56,7 +56,7 @@ public class Class577 implements Interface68 {
 			return i_4_ - i_5_;
 		}
 		if (i == 2)
-			return Class34_Sub6.method10321(class603_sub1.method9616((byte) -19), class603_sub1_2_.method9616((byte) -15), Class459.aClass664_5178, -1675425713);
+			return Class34_Sub6.method10321(class603_sub1.method9616((byte) -19), class603_sub1_2_.method9616((byte) -15), Class459.CLIENT_PARAMS, -1675425713);
 		if (3 == i) {
 			if (class603_sub1.worldActivity.equals("-")) {
 				if (class603_sub1_2_.worldActivity.equals("-"))
@@ -65,7 +65,7 @@ public class Class577 implements Interface68 {
 			}
 			if (class603_sub1_2_.worldActivity.equals("-"))
 				return bool ? 1 : -1;
-			return Class34_Sub6.method10321(class603_sub1.worldActivity, class603_sub1_2_.worldActivity, Class459.aClass664_5178, -1675425713);
+			return Class34_Sub6.method10321(class603_sub1.worldActivity, class603_sub1_2_.worldActivity, Class459.CLIENT_PARAMS, -1675425713);
 		}
 		if (4 == i)
 			return (class603_sub1.method7195(-544818663) ? class603_sub1_2_.method7195(1319778335) ? 0 : 1 : class603_sub1_2_.method7195(662320524) ? -1 : 0);

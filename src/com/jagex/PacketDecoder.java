@@ -15,7 +15,7 @@ public class PacketDecoder {
 			if (class106.aBool1263) {
 				if (!class567.bitsRemaining(1, -820615647))
 					return false;
-				class567.method6899((class106.byteBuffer.buffer), 0, 1, -838434603);
+				class567.copyBuffer((class106.byteBuffer.buffer), 0, 1, -838434603);
 				class106.anInt1259 += 1205722163;
 				class106.anInt1264 = 0;
 				class106.aBool1263 = false;
@@ -24,7 +24,7 @@ public class PacketDecoder {
 			if (stream.method10784(-1248706266)) {
 				if (!class567.bitsRemaining(1, -1841555963))
 					return false;
-				class567.method6899((class106.byteBuffer.buffer), 1, 1, 1955509841);
+				class567.copyBuffer((class106.byteBuffer.buffer), 1, 1, 1955509841);
 				class106.anInt1259 += 1205722163;
 				class106.anInt1264 = 0;
 			}
@@ -39,7 +39,7 @@ public class PacketDecoder {
 		if (-1 == 610303591 * class106.anInt1262) {
 			if (!class567.bitsRemaining(1, -1216243629))
 				return false;
-			class567.method6899(stream.buffer, 0, 1, 1154994607);
+			class567.copyBuffer(stream.buffer, 0, 1, 1154994607);
 			class106.anInt1262 = (stream.buffer[0] & 0xff) * 925220183;
 			class106.anInt1259 += 1205722163;
 			class106.anInt1264 = 0;
@@ -47,7 +47,7 @@ public class PacketDecoder {
 		if (610303591 * class106.anInt1262 == -2) {
 			if (!class567.bitsRemaining(2, -943952845))
 				return false;
-			class567.method6899(stream.buffer, 0, 2, -877017357);
+			class567.copyBuffer(stream.buffer, 0, 2, -877017357);
 			stream.off = 0;
 			class106.anInt1262 = stream.readUnsignedShort() * 925220183;
 			class106.anInt1259 += -1883522970;
@@ -57,7 +57,7 @@ public class PacketDecoder {
 			if (!class567.bitsRemaining(class106.anInt1262 * 610303591, -236946734))
 				return false;
 			stream.off = 0;
-			class567.method6899(stream.buffer, 0, 610303591 * class106.anInt1262, -1235057777);
+			class567.copyBuffer(stream.buffer, 0, 610303591 * class106.anInt1262, -1235057777);
 			class106.anInt1259 += -607866235 * class106.anInt1262;
 			class106.anInt1264 = 0;
 		}
@@ -1037,7 +1037,7 @@ public class PacketDecoder {
 			return false;
 		}
 		if (IncomingPacket.aClass422_4684 == class106.currentPacket) {
-			Class689.aString8692 = (class106.anInt1262 * 610303591 > 2 ? stream.readString() : Class38.aClass38_310.method840(Class459.aClass664_5178, 1640018385));
+			Class689.aString8692 = (class106.anInt1262 * 610303591 > 2 ? stream.readString() : Class38.aClass38_310.method840(Class459.CLIENT_PARAMS, 1640018385));
 			client.anInt11035 = (610303591 * class106.anInt1262 > 0 ? stream.readUnsignedShort() : -1) * -1003121495;
 			if (client.anInt11035 * -1869983847 == 65535)
 				client.anInt11035 = 1003121495;

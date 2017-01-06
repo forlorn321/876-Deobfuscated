@@ -149,7 +149,7 @@ public class Class636 {
 		Object object = null;
 		int i_10_ = -1;
 		int i_11_ = -1;
-		if (Class566.method6895(-708374433 * client.anInt11101, 2024182213) || Class233.method3334(-708374433 * client.anInt11101, (byte) -103)) {
+		if (RSOutputStream.method6895(-708374433 * client.anInt11101, 2024182213) || Class233.method3334(-708374433 * client.anInt11101, (byte) -103)) {
 			i_10_ = -1607026219 * Class637.anInt8301 >> 12;
 			i_11_ = Class685.anInt8665 * -1646092097 >> 12;
 		} else {

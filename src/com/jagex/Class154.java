@@ -67,22 +67,22 @@ class Class154 implements Runnable {
 				if (Class45.anInt523 * -358161959 > i_0_)
 					Class442.method5336((byte) 1);
 				if (Class45.aClass42_525 == Class42.aClass42_508) {
-					client.aClass106_11218.method1420(Class506.method6146(Class23.aClass5_230.method575((byte) 20), 40000, (byte) 59), Class23.aClass5_230.aString112, -1933050734);
+					client.aClass106_11218.method1420(Class506.createRSSocket(Class23.aClass5_230.createSocket((byte) 20), 40000, (byte) 59), Class23.aClass5_230.aString112, -1933050734);
 					client.aClass106_11218.method1407(-452273809);
 					Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1304470174);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1258126983 * Class420.aClass420_4584.anInt4571);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1258126983 * Class420.aClass420_4584.connectionType);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 					int i_1_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(876, -1778059594);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1, -1778059594);
 					Class45.anIntArray526 = Class62.method1053(class536_sub23, 1719876200);
 					int i_2_ = (-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off));
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeString(client.aString11004);
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeString(client.GAMEPACK_KEY);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1051867059 * client.anInt10987, -1778059594);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt10991 * -811133827);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt11017 * -599766855);
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class210.aString2260);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class459.aClass664_5178.method78());
+					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class459.CLIENT_PARAMS.method78());
 					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.aClass670_11043.anInt8567 * 273023065);
 					Class502.method6042((class536_sub23.aClass536_Sub33_Sub2_10528), (byte) 87);
 					String string = client.aString10996;
@@ -101,7 +101,7 @@ class Class154 implements Runnable {
 					if (client.aClass106_11218.method1413((short) 16381) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) 16167).bitsRemaining(1, -1036446546)) {
-						client.aClass106_11218.method1413((short) -17086).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1779776192);
+						client.aClass106_11218.method1413((short) -17086).copyBuffer((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1779776192);
 						Class45.aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(2053659211), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == Class45.aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(Class45.anIntArray526);

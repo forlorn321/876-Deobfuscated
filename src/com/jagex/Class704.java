@@ -76,7 +76,7 @@ public class Class704 {
 	}
 
 	public static void method8264(int i, boolean bool, byte i_2_) {
-		Class101.method1355(i, Class38.aClass38_402.method840((Class459.aClass664_5178), 2088071124), bool, -504758393);
+		Class101.method1355(i, Class38.aClass38_402.method840((Class459.CLIENT_PARAMS), 2088071124), bool, -504758393);
 	}
 
 	static final boolean method8265(int[][] is, int[][] is_3_, int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {

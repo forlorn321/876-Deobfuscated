@@ -9,7 +9,7 @@ public class Class321 implements Interface33 {
 	Class388 aClass388_3540;
 	JS5ResourceProvider aClass461_3541;
 	Class143 aClass143_3542;
-	static Socket aSocket3543;
+	static Socket HANDSHAKE_SOCKET;
 
 	public void method217() {
 		aClass143_3542 = Class247.method3419(aClass461_3541, aClass388_3540.anInt4045 * 363945019, -973820162);
@@ -176,7 +176,7 @@ public class Class321 implements Interface33 {
 		int i_44_ = client.aBool11290 ? 400 : 200;
 		if (string != null) {
 			if (client.anInt11288 * 142551095 >= i_44_)
-				Class173_Sub1.method8634(4, (client.aBool11290 ? Class38.aClass38_341.method840(Class459.aClass664_5178, 1629823457) : Class38.aClass38_342.method840(Class459.aClass664_5178, 2082344966)), -1752204138);
+				Class173_Sub1.method8634(4, (client.aBool11290 ? Class38.aClass38_341.method840(Class459.CLIENT_PARAMS, 1629823457) : Class38.aClass38_342.method840(Class459.CLIENT_PARAMS, 2082344966)), -1752204138);
 			else {
 				String string_45_ = Class473.method5740(string, Class302.aClass74_3406, (byte) -52);
 				if (string_45_ != null) {
@@ -184,13 +184,13 @@ public class Class321 implements Interface33 {
 						Class31 class31 = client.aClass31Array11291[i_46_];
 						String string_47_ = Class473.method5740(class31.aString266, Class302.aClass74_3406, (byte) -99);
 						if (null != string_47_ && string_47_.equals(string_45_)) {
-							Class173_Sub1.method8634(4, new StringBuilder().append(string).append(Class38.aClass38_451.method840(Class459.aClass664_5178, 1772516320)).toString(), -641813117);
+							Class173_Sub1.method8634(4, new StringBuilder().append(string).append(Class38.aClass38_451.method840(Class459.CLIENT_PARAMS, 1772516320)).toString(), -641813117);
 							return;
 						}
 						if (null != class31.aString267) {
 							String string_48_ = Class473.method5740(class31.aString267, Class302.aClass74_3406, (byte) -74);
 							if (null != string_48_ && string_48_.equals(string_45_)) {
-								Class173_Sub1.method8634(4, new StringBuilder().append(string).append(Class38.aClass38_451.method840(Class459.aClass664_5178, 1829186805)).toString(), -1139189889);
+								Class173_Sub1.method8634(4, new StringBuilder().append(string).append(Class38.aClass38_451.method840(Class459.CLIENT_PARAMS, 1829186805)).toString(), -1139189889);
 								return;
 							}
 						}
@@ -199,19 +199,19 @@ public class Class321 implements Interface33 {
 						Class30 class30 = client.aClass30Array11295[i_49_];
 						String string_50_ = Class473.method5740(class30.aString263, Class302.aClass74_3406, (byte) -115);
 						if (null != string_50_ && string_50_.equals(string_45_)) {
-							Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_458.method840(Class459.aClass664_5178, 1686615344)).append(string).append(Class38.aClass38_406.method840(Class459.aClass664_5178, 2020172396)).toString(), -1860722324);
+							Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_458.method840(Class459.CLIENT_PARAMS, 1686615344)).append(string).append(Class38.aClass38_406.method840(Class459.CLIENT_PARAMS, 2020172396)).toString(), -1860722324);
 							return;
 						}
 						if (class30.aString262 != null) {
 							String string_51_ = Class473.method5740(class30.aString262, Class302.aClass74_3406, (byte) -72);
 							if (null != string_51_ && string_51_.equals(string_45_)) {
-								Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_458.method840(Class459.aClass664_5178, 1893748724)).append(string).append(Class38.aClass38_406.method840(Class459.aClass664_5178, 1741048552)).toString(), -320339043);
+								Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_458.method840(Class459.CLIENT_PARAMS, 1893748724)).append(string).append(Class38.aClass38_406.method840(Class459.CLIENT_PARAMS, 1741048552)).toString(), -320339043);
 								return;
 							}
 						}
 					}
 					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), Class302.aClass74_3406, (byte) -78).equals(string_45_))
-						Class173_Sub1.method8634(4, (Class38.aClass38_455.method840(Class459.aClass664_5178, 1615698386)), 263075062);
+						Class173_Sub1.method8634(4, (Class38.aClass38_455.method840(Class459.CLIENT_PARAMS, 1615698386)), 263075062);
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
 						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4511, class106.aClass15_1258, 572713022);

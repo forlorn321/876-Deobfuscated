@@ -74,7 +74,7 @@ public class Class512 {
 					}
 				}
 			} catch (Exception exception) {
-				Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.aClass664_5178, 1547501832));
+				Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.CLIENT_PARAMS, 1547501832));
 			}
 			return;
 		} while (false);
@@ -278,12 +278,12 @@ public class Class512 {
 					class106.method1409(class536_sub23, 1530458000);
 				}
 			} catch (Exception exception) {
-				Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.aClass664_5178, 1311318412));
+				Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.CLIENT_PARAMS, 1311318412));
 				return;
 			}
 		}
 		if (-708374433 * client.anInt11101 != 9 && -708374433 * client.anInt11101 != 0)
-			Class214.sendPanelBoxMessage(new StringBuilder().append(Class38.aClass38_307.method840(Class459.aClass664_5178, 1830765523)).append(string).toString());
+			Class214.sendPanelBoxMessage(new StringBuilder().append(Class38.aClass38_307.method840(Class459.CLIENT_PARAMS, 1830765523)).append(string).toString());
 	}
 
 	static final void method6212(Class668 class668, int i) {

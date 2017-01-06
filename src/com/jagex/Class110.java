@@ -82,6 +82,6 @@ public class Class110 {
 			}
 		}
 		if (!bool)
-			Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_431.method840(Class459.aClass664_5178, 1958934299)).append(string).toString(), -1101290493);
+			Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_431.method840(Class459.CLIENT_PARAMS, 1958934299)).append(string).toString(), -1101290493);
 	}
 }

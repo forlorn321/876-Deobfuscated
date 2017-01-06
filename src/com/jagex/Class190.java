@@ -99,9 +99,9 @@ public class Class190 {
 		for (int i_10_ = string.length() - 3; i_10_ > 0; i_10_ -= 3)
 			string = new StringBuilder().append(string.substring(0, i_10_)).append(Class40.aString491).append(string.substring(i_10_)).toString();
 		if (string.length() > 9)
-			return new StringBuilder().append(" ").append(Class264.method3680(65408, -1318647965)).append(string.substring(0, string.length() - 8)).append(Class38.aClass38_445.method840(Class459.aClass664_5178, 1743394720)).append(" (").append(string).append(")").append(Class40.aString497).toString();
+			return new StringBuilder().append(" ").append(Class264.method3680(65408, -1318647965)).append(string.substring(0, string.length() - 8)).append(Class38.aClass38_445.method840(Class459.CLIENT_PARAMS, 1743394720)).append(" (").append(string).append(")").append(Class40.aString497).toString();
 		if (string.length() > 6)
-			return new StringBuilder().append(" ").append(Class264.method3680(16777215, -1879569384)).append(string.substring(0, string.length() - 4)).append(Class38.aClass38_447.method840(Class459.aClass664_5178, 1328863648)).append(" (").append(string).append(")").append(Class40.aString497).toString();
+			return new StringBuilder().append(" ").append(Class264.method3680(16777215, -1879569384)).append(string.substring(0, string.length() - 4)).append(Class38.aClass38_447.method840(Class459.CLIENT_PARAMS, 1328863648)).append(" (").append(string).append(")").append(Class40.aString497).toString();
 		return new StringBuilder().append(" ").append(Class264.method3680(16776960, -1775699338)).append(string).append(Class40.aString497).toString();
 	}
 

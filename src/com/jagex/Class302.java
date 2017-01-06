@@ -20,7 +20,7 @@ public class Class302 {
 	}
 
 	public static int method4097(int i, int i_0_, float f, int i_1_) {
-		return Class59.method984(i, i_0_, (int) f, -402310046);
+		return UpdateKey.method984(i, i_0_, (int) f, -402310046);
 	}
 
 	static void method4098(Class668 class668, byte i) {

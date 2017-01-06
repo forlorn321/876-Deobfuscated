@@ -96,13 +96,13 @@ public class Class283 implements Interface75 {
 					}
 					if (Class61.loginStage * -129171495 == 18) {
 						if (Class76_Sub1.anInt10981 * 1382700277 == 244)
-							Class586.aClass106_7710.method1420(Class506.method6146(Class23.aClass5_221.method575((byte) 43), 40000, (byte) 97), Class23.aClass5_221.aString112, -1933050734);
+							Class586.aClass106_7710.method1420(Class506.createRSSocket(Class23.aClass5_221.createSocket((byte) 43), 40000, (byte) 97), Class23.aClass5_221.aString112, -1933050734);
 						else
-							Class586.aClass106_7710.method1420(Class506.method6146(Class23.aClass5_230.method575((byte) 84), 40000, (byte) 90), Class23.aClass5_230.aString112, -1933050734);
+							Class586.aClass106_7710.method1420(Class506.createRSSocket(Class23.aClass5_230.createSocket((byte) 84), 40000, (byte) 90), Class23.aClass5_230.aString112, -1933050734);
 						Class586.aClass106_7710.method1407(-564736805);
 						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1880826857);
 						if (Class61.aBool647) {
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4580.anInt4571));
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4580.connectionType));
 							class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
 							int i_3_ = ((class536_sub23.aClass536_Sub33_Sub2_10528.off) * -810172525);
 							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(876);
@@ -113,7 +113,7 @@ public class Class283 implements Interface75 {
 							Class655.method7938(stream, (long) (Class61.anInt648 * 1234839363));
 							Class450.aLong4943 = (5595631816110933555L * (long) Class61.anInt648);
 							stream.writeByte((1234839363 * Class61.anInt648));
-							stream.writeByte(Class459.aClass664_5178.method78());
+							stream.writeByte(Class459.CLIENT_PARAMS.method78());
 							stream.writeInt((1051867059 * client.anInt10987));
 							for (int i_4_ = 0; i_4_ < 5; i_4_++)
 								stream.writeInt((int) (Math.random() * 9.9999999E7));
@@ -124,7 +124,7 @@ public class Class283 implements Interface75 {
 							class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(stream.buffer, 0, stream.off * -810172525, (byte) 6);
 							class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_3_, 309253871);
 						} else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4581.anInt4571));
+							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4581.connectionType));
 						Class586.aClass106_7710.method1409(class536_sub23, 461885639);
 						Class586.aClass106_7710.method1408(-553916622);
 						Class61.loginStage = -1657664224;
@@ -132,7 +132,7 @@ public class Class283 implements Interface75 {
 					if (32 == -129171495 * Class61.loginStage) {
 						if (!Class586.aClass106_7710.method1413((short) -11212).bitsRemaining(1, -2064942498))
 							break;
-						Class586.aClass106_7710.method1413((short) -6431).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, 1913546577);
+						Class586.aClass106_7710.method1413((short) -6431).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, 1913546577);
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						int i_5_ = Class586.aClass106_7710.byteBuffer.readUnsignedByte();
 						if (0 != i_5_) {
@@ -152,7 +152,7 @@ public class Class283 implements Interface75 {
 					if (45 == -129171495 * Class61.loginStage) {
 						if (!Class586.aClass106_7710.method1413((short) -5611).bitsRemaining(2, -1010061291))
 							break;
-						Class586.aClass106_7710.method1413((short) -3206).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, 654157741);
+						Class586.aClass106_7710.method1413((short) -3206).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, 654157741);
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						Class586.aClass106_7710.byteBuffer.off = Class586.aClass106_7710.byteBuffer.readUnsignedShort() * 516175515;
 						Class61.loginStage = -546220716;
@@ -160,7 +160,7 @@ public class Class283 implements Interface75 {
 					if (52 == -129171495 * Class61.loginStage) {
 						if (!Class586.aClass106_7710.method1413((short) -1313).bitsRemaining(-810172525 * (Class586.aClass106_7710.byteBuffer.off), -279295679))
 							break;
-						Class586.aClass106_7710.method1413((short) -8465).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, -810172525 * (Class586.aClass106_7710.byteBuffer.off), 1601221752);
+						Class586.aClass106_7710.method1413((short) -8465).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, -810172525 * (Class586.aClass106_7710.byteBuffer.off), 1601221752);
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						String string = Class586.aClass106_7710.byteBuffer.readVersionedString();
@@ -172,14 +172,14 @@ public class Class283 implements Interface75 {
 					if (67 == -129171495 * Class61.loginStage) {
 						if (!Class586.aClass106_7710.method1413((short) 15438).bitsRemaining(1, -1342227871))
 							break;
-						Class586.aClass106_7710.method1413((short) -8911).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -686726654);
+						Class586.aClass106_7710.method1413((short) -8911).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -686726654);
 						if (1 == ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff))
 							Class61.loginStage = 1742568630;
 					}
 					if (70 == Class61.loginStage * -129171495) {
 						if (!Class586.aClass106_7710.method1413((short) -23141).bitsRemaining(16, -749041154))
 							break;
-						Class586.aClass106_7710.method1413((short) -4572).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 16, -813454082);
+						Class586.aClass106_7710.method1413((short) -4572).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 16, -813454082);
 						Class586.aClass106_7710.byteBuffer.off = -331126352;
 						Class586.aClass106_7710.byteBuffer.method9724(Class234.anIntArray2380, 130924266);
 						Class586.aClass106_7710.byteBuffer.off = 0;
@@ -198,7 +198,7 @@ public class Class283 implements Interface75 {
 								class420 = Class420.aClass420_4576;
 							else
 								class420 = Class420.aClass420_4573;
-							stream.writeByte((1258126983 * (class420.anInt4571)));
+							stream.writeByte((1258126983 * (class420.connectionType)));
 							stream.writeShort(0, -1778059594);
 							int i_7_ = stream.off * -810172525;
 							int i_8_ = -810172525 * stream.off;
@@ -243,7 +243,7 @@ public class Class283 implements Interface75 {
 							stream.writeByte((client.aBool11000 ? 1 : 0));
 							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1));
 							stream.writeInt((76385059 * (client.anInt11003)));
-							stream.writeString(client.aString11004);
+							stream.writeString(client.GAMEPACK_KEY);
 							stream.writeByte((null == Class23.aClass5_228 || (Class23.aClass5_228.anInt111 * 1318197187 != (Class23.aClass5_221.anInt111 * 1318197187))) ? 1 : 0);
 							stream.writeShort(((Class23.aClass5_230.anInt111) * 1318197187), -1778059594);
 							Class453.method5443(stream, 516435697);
@@ -255,7 +255,7 @@ public class Class283 implements Interface75 {
 								class420 = Class420.aClass420_4576;
 							else
 								class420 = Class420.aClass420_4574;
-							stream.writeByte((1258126983 * (class420.anInt4571)));
+							stream.writeByte((1258126983 * (class420.connectionType)));
 							stream.writeShort(0, -1778059594);
 							int i_10_ = stream.off * -810172525;
 							int i_11_ = -810172525 * stream.off;
@@ -272,7 +272,7 @@ public class Class283 implements Interface75 {
 									stream.writeLong(Class61.aLong649 * -7692785137277514277L);
 							}
 							stream.writeByte((273023065 * (client.aClass670_11043.anInt8567)));
-							stream.writeByte(Class459.aClass664_5178.method78());
+							stream.writeByte(Class459.CLIENT_PARAMS.method78());
 							stream.writeByte(Class315.method4212((byte) 50));
 							stream.writeShort((Class144.anInt1679 * -1804846931), -1778059594);
 							stream.writeShort((589116499 * (Class34_Sub6.anInt10965)), -1778059594);
@@ -289,7 +289,7 @@ public class Class283 implements Interface75 {
 							stream.writeString(Class210.aString2260);
 							stream.writeInt((client.anInt10987 * 1051867059));
 							stream.writeInt((client.anInt11003 * 76385059));
-							stream.writeString(client.aString11004);
+							stream.writeString(client.GAMEPACK_KEY);
 							stream.writeByte(((Class353.anInt3740 * -1598677295) & 0x1));
 							Class453.method5443(stream, 657042519);
 							stream.method9725(Class234.anIntArray2380, i_11_, -810172525 * stream.off, -2045710808);
@@ -309,7 +309,7 @@ public class Class283 implements Interface75 {
 					if (-129171495 * Class61.loginStage == 90) {
 						if (!Class586.aClass106_7710.method1413((short) -5706).bitsRemaining(1, -17787116))
 							break;
-						Class586.aClass106_7710.method1413((short) -22741).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -488112440);
+						Class586.aClass106_7710.method1413((short) -22741).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -488112440);
 						int i_14_ = Class586.aClass106_7710.byteBuffer.readUnsignedByte();
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						if (i_14_ == 21)
@@ -376,7 +376,7 @@ public class Class283 implements Interface75 {
 					}
 					if (121 == -129171495 * Class61.loginStage) {
 						if (Class586.aClass106_7710.method1413((short) -9900).bitsRemaining(1, -326223239)) {
-							Class586.aClass106_7710.method1413((short) 16482).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, 899930747);
+							Class586.aClass106_7710.method1413((short) 16482).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, 899930747);
 							int i_15_ = ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff);
 							Class61.anInt691 = i_15_ * 978493646;
 							Class61.loginStage = 0;
@@ -386,13 +386,13 @@ public class Class283 implements Interface75 {
 						}
 					} else if (212 == Class61.loginStage * -129171495) {
 						if (Class586.aClass106_7710.method1413((short) -25301).bitsRemaining(2, -1707478181)) {
-							Class586.aClass106_7710.method1413((short) 22277).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -610021124);
+							Class586.aClass106_7710.method1413((short) 22277).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -610021124);
 							Class61.anInt694 = (((Class586.aClass106_7710.byteBuffer.buffer[1]) & 0xff) + (((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff) << 8)) * 712892153;
 							Class61.loginStage = -1440955158;
 						}
 					} else if (-129171495 * Class61.loginStage == 245) {
 						if (Class586.aClass106_7710.method1413((short) -3724).bitsRemaining(4, -763799203)) {
-							Class586.aClass106_7710.method1413((short) 9652).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 4, 1117853473);
+							Class586.aClass106_7710.method1413((short) 9652).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 4, 1117853473);
 							Class61.anInt659 = Class586.aClass106_7710.byteBuffer.readInt() * -1676086137;
 							Class586.aClass106_7710.byteBuffer.off = 0;
 							Class61.loginStage = 0;
@@ -404,12 +404,12 @@ public class Class283 implements Interface75 {
 						if (29 == 862241013 * Class434.anInt4845) {
 							if (!Class586.aClass106_7710.method1413((short) 20373).bitsRemaining(1, -1900149253))
 								break;
-							Class586.aClass106_7710.method1413((short) -5800).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -1497801218);
+							Class586.aClass106_7710.method1413((short) -5800).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -1497801218);
 							Class61.anInt693 = ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff) * 258201153;
 						} else if (862241013 * Class434.anInt4845 == 45) {
 							if (!Class586.aClass106_7710.method1413((short) 3162).bitsRemaining(3, -817876651))
 								break;
-							Class586.aClass106_7710.method1413((short) 23311).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 3, 1557781137);
+							Class586.aClass106_7710.method1413((short) 23311).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 3, 1557781137);
 							Class61.anInt693 = 258201153 * ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff);
 							Class61.anInt651 = (((Class586.aClass106_7710.byteBuffer.buffer[2]) & 0xff) + (((Class586.aClass106_7710.byteBuffer.buffer[1]) & 0xff) << 8)) * -541470089;
 						} else
@@ -424,7 +424,7 @@ public class Class283 implements Interface75 {
 						}
 					} else if (222 == Class61.loginStage * -129171495) {
 						if (Class586.aClass106_7710.method1413((short) -139).bitsRemaining(2, -1143363952)) {
-							Class586.aClass106_7710.method1413((short) -1854).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -534642974);
+							Class586.aClass106_7710.method1413((short) -1854).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -534642974);
 							Class586.aClass106_7710.byteBuffer.off = 0;
 							Class61.anInt686 = Class586.aClass106_7710.byteBuffer.readUnsignedShort() * 1281009209;
 							Class586.aClass106_7710.byteBuffer.off = 0;
@@ -432,7 +432,7 @@ public class Class283 implements Interface75 {
 						}
 					} else if (Class61.loginStage * -129171495 == 238) {
 						if (Class586.aClass106_7710.method1413((short) 14187).bitsRemaining(261187593 * Class61.anInt686, -1865502158)) {
-							Class586.aClass106_7710.method1413((short) -705).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, Class61.anInt686 * 261187593, -1622375509);
+							Class586.aClass106_7710.method1413((short) -705).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, Class61.anInt686 * 261187593, -1622375509);
 							Class586.aClass106_7710.byteBuffer.off = 0;
 							byte[] is = new byte[1 + 261187593 * Class61.anInt686];
 							Class586.aClass106_7710.byteBuffer.method10776(is, 0, Class61.anInt686 * 261187593, -399442820);
@@ -453,7 +453,7 @@ public class Class283 implements Interface75 {
 						if (Class61.loginStage * -129171495 == 255) {
 							if (!Class586.aClass106_7710.method1413((short) 18842).bitsRemaining(2, -634869061))
 								break;
-							Class586.aClass106_7710.method1413((short) -5627).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, 324355780);
+							Class586.aClass106_7710.method1413((short) -5627).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, 324355780);
 							Class586.aClass106_7710.byteBuffer.off = 0;
 							Class586.aClass106_7710.anInt1262 = Class586.aClass106_7710.byteBuffer.readUnsignedShort() * 925220183;
 							Class61.loginStage = -790827960;
@@ -461,7 +461,7 @@ public class Class283 implements Interface75 {
 						if (264 == -129171495 * Class61.loginStage) {
 							if (!Class586.aClass106_7710.method1413((short) -31393).bitsRemaining((610303591 * Class586.aClass106_7710.anInt1262), -1794641496))
 								break;
-							Class586.aClass106_7710.method1413((short) -19183).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, Class586.aClass106_7710.anInt1262 * 610303591, -1813942440);
+							Class586.aClass106_7710.method1413((short) -19183).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, Class586.aClass106_7710.anInt1262 * 610303591, -1813942440);
 							Class586.aClass106_7710.byteBuffer.off = 0;
 							boolean bool = (Class586.aClass106_7710.byteBuffer.readUnsignedByte() == 1);
 							while (-810172525 * (Class586.aClass106_7710.byteBuffer.off) < (610303591 * Class586.aClass106_7710.anInt1262)) {
@@ -471,7 +471,7 @@ public class Class283 implements Interface75 {
 							if (bool) {
 								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(2043701963);
 								RSBitBuffer class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
-								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.anInt4571));
+								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.connectionType));
 								Class586.aClass106_7710.method1409(class536_sub23, 193095407);
 								Class586.aClass106_7710.method1408(2145499619);
 								Class61.loginStage = -1572759818;
@@ -481,7 +481,7 @@ public class Class283 implements Interface75 {
 						if (134 == -129171495 * Class61.loginStage) {
 							if (!Class586.aClass106_7710.method1413((short) -28570).bitsRemaining(1, -1138366668))
 								break;
-							Class586.aClass106_7710.method1413((short) -19799).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -695173613);
+							Class586.aClass106_7710.method1413((short) -19799).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -695173613);
 							int i_16_ = ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff);
 							if (2 != i_16_) {
 								if (i_16_ == 29 || 45 == i_16_) {
@@ -505,7 +505,7 @@ public class Class283 implements Interface75 {
 						if (143 == Class61.loginStage * -129171495) {
 							if (!Class586.aClass106_7710.method1413((short) 26200).bitsRemaining(1, -1804428087))
 								break;
-							Class586.aClass106_7710.method1413((short) 8312).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -1400001440);
+							Class586.aClass106_7710.method1413((short) 8312).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 1, -1400001440);
 							Class111.anInt1390 = -838755691 * ((Class586.aClass106_7710.byteBuffer.buffer[0]) & 0xff);
 							Class61.loginStage = -461316310;
 						}
@@ -514,7 +514,7 @@ public class Class283 implements Interface75 {
 							if (244 == 1382700277 * Class76_Sub1.anInt10981) {
 								if (!Class586.aClass106_7710.method1413((short) -9347).bitsRemaining(Class111.anInt1390 * -1774886723, -575659247))
 									break;
-								Class586.aClass106_7710.method1413((short) 5243).method6899(stream.buffer, 0, Class111.anInt1390 * -1774886723, -2095545630);
+								Class586.aClass106_7710.method1413((short) 5243).copyBuffer(stream.buffer, 0, Class111.anInt1390 * -1774886723, -2095545630);
 								stream.off = 0;
 								Class8.method605(stream, (byte) 49);
 								client.anInt11160 = (stream.readUnsignedByte() * -1078572241);
@@ -536,7 +536,7 @@ public class Class283 implements Interface75 {
 							} else {
 								if (!Class586.aClass106_7710.method1413((short) 26284).bitsRemaining(Class111.anInt1390 * -1774886723, -1985450726))
 									break;
-								Class586.aClass106_7710.method1413((short) 4553).method6899(stream.buffer, 0, -1774886723 * Class111.anInt1390, -954524616);
+								Class586.aClass106_7710.method1413((short) 4553).copyBuffer(stream.buffer, 0, -1774886723 * Class111.anInt1390, -954524616);
 								stream.off = 0;
 								Class8.method605(stream, (byte) 64);
 								client.anInt11160 = (stream.readUnsignedByte() * -1078572241);
@@ -613,7 +613,7 @@ public class Class283 implements Interface75 {
 						if (Class61.loginStage * -129171495 == 170) {
 							if (!Class586.aClass106_7710.method1413((short) 14174).bitsRemaining(3, -349982251))
 								break;
-							Class586.aClass106_7710.method1413((short) 3424).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 3, -1583915461);
+							Class586.aClass106_7710.method1413((short) 3424).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 3, -1583915461);
 							Class61.loginStage = 998640924;
 						}
 						if (Class61.loginStage * -129171495 == 188) {
@@ -622,7 +622,7 @@ public class Class283 implements Interface75 {
 							if (class536_sub33_sub2.method10784(-1060827206)) {
 								if (!Class586.aClass106_7710.method1413((short) -6753).bitsRemaining(1, -1443733857))
 									break;
-								Class586.aClass106_7710.method1413((short) -3391).method6899(class536_sub33_sub2.buffer, 3, 1, -2057318191);
+								Class586.aClass106_7710.method1413((short) -3391).copyBuffer(class536_sub33_sub2.buffer, 3, 1, -2057318191);
 							}
 							Class586.aClass106_7710.currentPacket = (Class374.method4778(1774670600)[class536_sub33_sub2.method10778(694140266)]);
 							Class586.aClass106_7710.anInt1262 = class536_sub33_sub2.readUnsignedShort() * 925220183;
@@ -630,7 +630,7 @@ public class Class283 implements Interface75 {
 						}
 						if (167 == -129171495 * Class61.loginStage) {
 							if (Class586.aClass106_7710.method1413((short) -26444).bitsRemaining(610303591 * Class586.aClass106_7710.anInt1262, -755963604)) {
-								Class586.aClass106_7710.method1413((short) 16335).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, (Class586.aClass106_7710.anInt1262 * 610303591), -1334059410);
+								Class586.aClass106_7710.method1413((short) 16335).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, (Class586.aClass106_7710.anInt1262 * 610303591), -1334059410);
 								Class586.aClass106_7710.byteBuffer.off = 0;
 								int i_18_ = (Class586.aClass106_7710.anInt1262 * 610303591);
 								Class61.loginStage = 0;
@@ -655,12 +655,12 @@ public class Class283 implements Interface75 {
 							if (610303591 * Class586.aClass106_7710.anInt1262 == -2) {
 								if (!Class586.aClass106_7710.method1413((short) 25398).bitsRemaining(2, -735440629))
 									break;
-								Class586.aClass106_7710.method1413((short) -4516).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -2072283285);
+								Class586.aClass106_7710.method1413((short) -4516).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, 2, -2072283285);
 								Class586.aClass106_7710.byteBuffer.off = 0;
 								Class586.aClass106_7710.anInt1262 = (Class586.aClass106_7710.byteBuffer.readUnsignedShort() * 925220183);
 							}
 							if (Class586.aClass106_7710.method1413((short) 9424).bitsRemaining(610303591 * Class586.aClass106_7710.anInt1262, -1358651921)) {
-								Class586.aClass106_7710.method1413((short) 15744).method6899((Class586.aClass106_7710.byteBuffer.buffer), 0, (Class586.aClass106_7710.anInt1262 * 610303591), -2141813157);
+								Class586.aClass106_7710.method1413((short) 15744).copyBuffer((Class586.aClass106_7710.byteBuffer.buffer), 0, (Class586.aClass106_7710.anInt1262 * 610303591), -2141813157);
 								Class586.aClass106_7710.byteBuffer.off = 0;
 								int i_20_ = (610303591 * Class586.aClass106_7710.anInt1262);
 								Class61.loginStage = 0;

@@ -68,7 +68,7 @@ public class Class205_Sub5 extends Class205 {
 					i_6_ = -153477497 * Class667.anInt8535;
 				}
 				if (((class455.aByteArrayArrayArray5154[Class320.anInt3539 * -989431627][i_5_ >> 9][i_6_ >> 9]) & 0x4) != 0)
-					Class566.method6896(class553.aClass556ArrayArrayArray7430, 0, i_5_ >> 9, i_6_ >> 9, false, 1038006048);
+					RSOutputStream.method6896(class553.aClass556ArrayArrayArray7430, 0, i_5_ >> 9, i_6_ >> 9, false, 1038006048);
 				else {
 					int i_8_;
 					int i_9_;
@@ -87,7 +87,7 @@ public class Class205_Sub5 extends Class205 {
 					if (class455.method5465(i_8_, i_9_, -116034839)) {
 						int i_13_ = Class54.method944((Class637.anInt8301 * -1607026219), (-1646092097 * Class685.anInt8665), 3, 2021418090);
 						if (Class205_Sub21.anInt9958 * -1598853731 >= i_13_)
-							Class566.method6896(class553.aClass556ArrayArrayArray7430, 1, i_8_, i_9_, false, 1595271514);
+							RSOutputStream.method6896(class553.aClass556ArrayArrayArray7430, 1, i_8_, i_9_, false, 1595271514);
 					} else {
 						while_47_: do {
 							if (62800801 * Class141.anInt1658 < 2560) {
@@ -118,15 +118,15 @@ public class Class205_Sub5 extends Class205 {
 											else if (i_8_ > i_11_)
 												i_8_--;
 											if (0 != ((class455.aByteArrayArrayArray5154[(-989431627 * Class320.anInt3539)][i_8_][i_9_]) & 0x4)) {
-												Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_, false, 1938560943);
+												RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_, false, 1938560943);
 												break while_46_;
 											}
 											if ((i_9_ + 1 < (class455.aByteArrayArrayArray5154[(-989431627 * Class320.anInt3539)][i_8_]).length) && (0 != ((class455.aByteArrayArrayArray5154[(Class320.anInt3539 * -989431627)][i_8_][1 + i_9_]) & 0x4))) {
-												Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, 1 + i_9_, false, 1896751389);
+												RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, 1 + i_9_, false, 1896751389);
 												break while_46_;
 											}
 											if (i_9_ > 0 && (0 != ((class455.aByteArrayArrayArray5154[(Class320.anInt3539 * -989431627)][i_8_][i_9_ - 1]) & 0x4))) {
-												Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ - 1, false, 1062143126);
+												RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ - 1, false, 1062143126);
 												break while_46_;
 											}
 											i_17_ += i_16_;
@@ -134,14 +134,14 @@ public class Class205_Sub5 extends Class205 {
 												i_17_ -= 65536;
 												if (i_9_ < i_12_) {
 													if ((++i_9_ + 1 < (class455.aByteArrayArrayArray5154[((Class320.anInt3539) * -989431627)][i_8_]).length) && ((class455.aByteArrayArrayArray5154[((Class320.anInt3539) * -989431627)][i_8_][1 + i_9_]) & 0x4) != 0) {
-														Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ + 1, false, 1127027934);
+														RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ + 1, false, 1127027934);
 														break while_46_;
 													}
 												} else if (i_9_ > i_12_ && --i_9_ > 0 && ((class455.aByteArrayArrayArray5154[((Class320.anInt3539) * -989431627)][i_8_][i_9_ - 1]) & 0x4) != 0)
 													break;
 											}
 										}
-										Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ - 1, false, 1491720489);
+										RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_ - 1, false, 1491720489);
 									} while (false);
 								} else {
 									int i_18_ = 65536 * i_14_ / i_15_;
@@ -154,15 +154,15 @@ public class Class205_Sub5 extends Class205 {
 										else if (i_9_ > i_12_)
 											i_9_--;
 										if (((class455.aByteArrayArrayArray5154[-989431627 * Class320.anInt3539][i_8_][i_9_]) & 0x4) != 0) {
-											Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_, false, 1037263840);
+											RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_, i_9_, false, 1037263840);
 											break while_47_;
 										}
 										if ((i_8_ + 1 < (class455.aByteArrayArrayArray5154[(Class320.anInt3539 * -989431627)]).length) && ((class455.aByteArrayArrayArray5154[(-989431627 * Class320.anInt3539)][1 + i_8_][i_9_]) & 0x4) != 0) {
-											Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ + 1, i_9_, false, 1354599548);
+											RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ + 1, i_9_, false, 1354599548);
 											break while_47_;
 										}
 										if (i_8_ > 0 && ((class455.aByteArrayArrayArray5154[(-989431627 * Class320.anInt3539)][i_8_ - 1][i_9_]) & 0x4) != 0) {
-											Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ - 1, i_9_, false, 1697127525);
+											RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ - 1, i_9_, false, 1697127525);
 											break while_47_;
 										}
 										i_19_ += i_18_;
@@ -171,14 +171,14 @@ public class Class205_Sub5 extends Class205 {
 											if (i_8_ < i_11_) {
 												i_8_++;
 												if ((1 + i_8_ < (class455.aByteArrayArrayArray5154[(-989431627 * (Class320.anInt3539))]).length) && ((class455.aByteArrayArrayArray5154[(-989431627 * (Class320.anInt3539))][1 + i_8_][i_9_]) & 0x4) != 0) {
-													Class566.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ + 1, i_9_, false, 1429323891);
+													RSOutputStream.method6896((class553.aClass556ArrayArrayArray7430), 1, i_8_ + 1, i_9_, false, 1429323891);
 													break while_47_;
 												}
 											} else if (i_8_ > i_11_ && --i_8_ > 0 && ((class455.aByteArrayArrayArray5154[((Class320.anInt3539) * -989431627)][i_8_ - 1][i_9_]) & 0x4) != 0)
 												break;
 										}
 									}
-									Class566.method6896(class553.aClass556ArrayArrayArray7430, 1, i_8_ - 1, i_9_, false, 1469096456);
+									RSOutputStream.method6896(class553.aClass556ArrayArrayArray7430, 1, i_8_ - 1, i_9_, false, 1469096456);
 								}
 							}
 						} while (false);
@@ -187,7 +187,7 @@ public class Class205_Sub5 extends Class205 {
 			} else {
 				int i_20_ = Class54.method944(-1607026219 * Class637.anInt8301, -1646092097 * Class685.anInt8665, Class320.anInt3539 * -989431627, 1463159927);
 				if (i_20_ - Class205_Sub21.anInt9958 * -1598853731 < 3200 && ((class455.aByteArrayArrayArray5154[Class320.anInt3539 * -989431627][-1607026219 * Class637.anInt8301 >> 9][-1646092097 * Class685.anInt8665 >> 9]) & 0x4) != 0)
-					Class566.method6896(class553.aClass556ArrayArrayArray7430, 1, -1607026219 * Class637.anInt8301 >> 9, Class685.anInt8665 * -1646092097 >> 9, false, 2099940685);
+					RSOutputStream.method6896(class553.aClass556ArrayArrayArray7430, 1, -1607026219 * Class637.anInt8301 >> 9, Class685.anInt8665 * -1646092097 >> 9, false, 2099940685);
 			}
 		}
 	}

@@ -63,7 +63,7 @@ public class Class494 {
 								Class270.method3717(-637059713);
 						} else {
 							if (Class532.aBool7124)
-								Class521_Sub6.method9389((Class38.aClass38_438.method840(Class459.aClass664_5178, 2138110047)), "", -1, 60, -1, 0L, i_4_, i_5_, true, false, (long) (i_4_ << 0 | i_5_), true, 2103785516);
+								Class521_Sub6.method9389((Class38.aClass38_438.method840(Class459.CLIENT_PARAMS, 2138110047)), "", -1, 60, -1, 0L, i_4_, i_5_, true, false, (long) (i_4_ << 0 | i_5_), true, 2103785516);
 							Class521_Sub6.method9389(Class689.aString8692, "", (client.anInt11035 * -1869983847), 23, -1, 0L, i_4_, i_5_, true, false, (long) (i_4_ << 0 | i_5_), true, 1306789397);
 						}
 					}

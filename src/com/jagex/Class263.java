@@ -206,6 +206,6 @@ public class Class263 {
 	}
 
 	static final void method3668(Class668 class668, byte i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (Class536_Sub36_Sub1.method10752(Class588.method7085((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (short) 17738), Class459.aClass664_5178.method78(), -1619918777));
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (Class536_Sub36_Sub1.method10752(Class588.method7085((class668.anIntArray8541[((class668.anInt8542 -= -1411037171) * 1867269829)]), (short) 17738), Class459.CLIENT_PARAMS.method78(), -1619918777));
 	}
 }

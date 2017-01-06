@@ -7,7 +7,7 @@ import java.awt.Desktop;
 import java.net.URI;
 
 public class Class420 {
-	public int anInt4571;
+	public int connectionType;
 	public static Class420 aClass420_4572;
 	public static Class420 aClass420_4573;
 	public static Class420 aClass420_4574;
@@ -38,11 +38,11 @@ public class Class420 {
 		aClass420Array4575 = new Class420[32];
 		Class420[] class420s = Class380.method4805(-1634690095);
 		for (int i = 0; i < class420s.length; i++)
-			aClass420Array4575[1258126983 * class420s[i].anInt4571] = class420s[i];
+			aClass420Array4575[1258126983 * class420s[i].connectionType] = class420s[i];
 	}
 
 	Class420(int i, int i_0_) {
-		anInt4571 = 271771447 * i;
+		connectionType = 271771447 * i;
 	}
 
 	static final void method5062(Class668 class668, int i) {

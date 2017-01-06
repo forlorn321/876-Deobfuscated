@@ -1135,6 +1135,6 @@ public class ClientSettings extends Class536 {
 		class668.anInt8542 -= 1472892954;
 		int i_17_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_18_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class561.method6852(i_17_, i_18_, (byte) 7) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = RSInputStream.method6852(i_17_, i_18_, (byte) 7) ? 1 : 0;
 	}
 }

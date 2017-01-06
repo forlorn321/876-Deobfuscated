@@ -34,6 +34,6 @@ public class Class206_Sub1 extends Class206 {
 	static boolean method9166(int i) {
 		if (-1 != Class61.anInt648 * 1234839363)
 			return Class579.method7010(-1643442951);
-		return Class566.method6894(Class61.aString679, Class61.aString696, (byte) -7);
+		return RSOutputStream.method6894(Class61.aString679, Class61.aString696, (byte) -7);
 	}
 }

@@ -54,7 +54,7 @@ public final class Class644 {
 		class668.anInt8542 -= 61855783;
 		if (aBool8351) {
 			Class141.method1707(0 != (class668.anIntArray8541[class668.anInt8542 * 1867269829]), 743124383);
-			Class59.method987(0 != (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), (byte) 59);
+			UpdateKey.method987(0 != (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), (byte) 59);
 			Class261.method3621(0 != (class668.anIntArray8541[2 + class668.anInt8542 * 1867269829]), -765456852);
 		}
 	}
@@ -292,7 +292,7 @@ public final class Class644 {
 		class668.anInt8542 -= 61855783;
 		if (aBool8351) {
 			Class141.method1707(0 != (class668.anIntArray8541[class668.anInt8542 * 1867269829]), -1173517536);
-			Class59.method987(0 != (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), (byte) 83);
+			UpdateKey.method987(0 != (class668.anIntArray8541[1 + class668.anInt8542 * 1867269829]), (byte) 83);
 			Class261.method3621(0 != (class668.anIntArray8541[2 + class668.anInt8542 * 1867269829]), 1843468120);
 		}
 	}
@@ -327,7 +327,7 @@ public final class Class644 {
 		int i_19_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_20_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
 		int i_21_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 2];
-		long l = Class59.method986(0, 0, 12, i_19_, i_20_, i_21_, -1162950490);
+		long l = UpdateKey.method986(0, 0, 12, i_19_, i_20_, i_21_, -1162950490);
 		int i_22_ = Class641.method7685(l);
 		if (i_21_ < 1970)
 			i_22_--;

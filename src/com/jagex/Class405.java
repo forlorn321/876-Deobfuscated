@@ -26,10 +26,10 @@ public class Class405 {
 
 	public static int method4938(int i) {
 		if (-135589647 * Class440.anInt4871 == 0) {
-			Class59.aClass59_613.method985(new Class432("jaclib"), (byte) -97);
-			if (Class59.aClass59_613.method976(-1894391340).method48(-2018821559) != 100)
+			UpdateKey.aClass59_613.method985(new Class432("jaclib"), (byte) -97);
+			if (UpdateKey.aClass59_613.method976(-1894391340).method48(-2018821559) != 100)
 				return 1;
-			if (!((Class432) Class59.aClass59_613.method976(1866549365)).method5180((short) -11372) && !Class167.method2410(-1504778739)) {
+			if (!((Class432) UpdateKey.aClass59_613.method976(1866549365)).method5180((short) -11372) && !Class167.method2410(-1504778739)) {
 				try {
 					Class313.aclient3500.method6133((byte) 5);
 					Class554.method6783((byte) -13);
@@ -43,43 +43,43 @@ public class Class405 {
 			Class440.anInt4871 = 1671553041;
 		}
 		if (1 == -135589647 * Class440.anInt4871) {
-			Class440.aClass59Array4872 = Class59.method983(-2133746640);
-			Class59.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) -96);
-			Class59.aClass59_614.method985(new Class432("jaggl"), (byte) 74);
+			Class440.aClass59Array4872 = UpdateKey.getReferenceList();
+			UpdateKey.aClass59_620.method985(new Class442(Class184_Sub2.aClass461_9443), (byte) -96);
+			UpdateKey.aClass59_614.method985(new Class432("jaggl"), (byte) 74);
 			Class432 class432 = new Class432("jagdx");
 			if (!Class241.osName.startsWith("win"))
 				class432.method5181((byte) 55);
-			Class59.aClass59_612.method985(class432, (byte) 35);
-			Class59.aClass59_616.method985(new Class432("sw3d"), (byte) -47);
-			Class59.aClass59_617.method985(new Class432("hw3d"), (byte) 53);
-			Class59.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) 51);
-			Class59.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) -107);
-			Class59.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -15);
-			Class59.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 22);
-			Class59.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -66);
-			Class59.aClass59_623.method985(new Class442(Class214.aClass461_2302), (byte) -51);
-			Class59.aClass59_624.method985(new Class442(Class154.aClass461_1720), (byte) 26);
-			Class59.aClass59_622.method985(new Class442(Class20.aClass461_215), (byte) 107);
-			Class59.aClass59_626.method985(new Class442(Class218.aClass461_2308), (byte) 82);
-			Class59.aClass59_625.method985(new Class442(Class397.aClass461_4114), (byte) -6);
-			Class59.aClass59_627.method985(new Class442(Class247_Sub1.aClass461_9968), (byte) -35);
-			Class59.aClass59_629.method985(new Class442(Class576.aClass461_7687), (byte) 10);
-			Class59.aClass59_630.method985(new Class442(Class711.aClass461_8849), (byte) 117);
-			Class59.aClass59_631.method985(new Class442(Class550_Sub1.aClass461_10617), (byte) -5);
-			Class59.aClass59_628.method985(new Class442(Class271.aClass461_2886), (byte) 22);
-			Class59.aClass59_633.method985(new Class441((Class395.aClass461_4109), "huffman"), (byte) -33);
-			Class59.aClass59_634.method985(new Class442(Class318.aClass461_3526), (byte) -67);
-			Class59.aClass59_635.method985(new Class442(Class649_Sub1_Sub4_Sub2.aClass461_12021), (byte) -4);
-			Class59.aClass59_636.method985(new Class442(Class710_Sub43.aClass461_10940), (byte) -2);
-			Class59.aClass59_637.method985(new Class444((Class613.aClass461_8013), 0), (byte) -80);
+			UpdateKey.aClass59_612.method985(class432, (byte) 35);
+			UpdateKey.aClass59_616.method985(new Class432("sw3d"), (byte) -47);
+			UpdateKey.aClass59_617.method985(new Class432("hw3d"), (byte) 53);
+			UpdateKey.aClass59_618.method985(new Class442(Class540.aClass461_7161), (byte) 51);
+			UpdateKey.aClass59_619.method985(new Class442(ObjTypeTransformation.aClass461_7789), (byte) -107);
+			UpdateKey.aClass59_632.method985(new Class442(Class205_Sub9.aClass461_9887), (byte) -15);
+			UpdateKey.aClass59_638.method985(new Class442(Class214.aClass461_2301), (byte) 22);
+			UpdateKey.aClass59_621.method985(new Class442(Class303.aClass461_3432), (byte) -66);
+			UpdateKey.aClass59_623.method985(new Class442(Class214.aClass461_2302), (byte) -51);
+			UpdateKey.aClass59_624.method985(new Class442(Class154.aClass461_1720), (byte) 26);
+			UpdateKey.aClass59_622.method985(new Class442(Class20.aClass461_215), (byte) 107);
+			UpdateKey.aClass59_626.method985(new Class442(Class218.aClass461_2308), (byte) 82);
+			UpdateKey.aClass59_625.method985(new Class442(Class397.aClass461_4114), (byte) -6);
+			UpdateKey.aClass59_627.method985(new Class442(Class247_Sub1.aClass461_9968), (byte) -35);
+			UpdateKey.aClass59_629.method985(new Class442(Class576.aClass461_7687), (byte) 10);
+			UpdateKey.aClass59_630.method985(new Class442(Class711.aClass461_8849), (byte) 117);
+			UpdateKey.aClass59_631.method985(new Class442(Class550_Sub1.aClass461_10617), (byte) -5);
+			UpdateKey.aClass59_628.method985(new Class442(Class271.aClass461_2886), (byte) 22);
+			UpdateKey.aClass59_633.method985(new Class441((Class395.aClass461_4109), "huffman"), (byte) -33);
+			UpdateKey.aClass59_634.method985(new Class442(Class318.aClass461_3526), (byte) -67);
+			UpdateKey.aClass59_635.method985(new Class442(Class649_Sub1_Sub4_Sub2.aClass461_12021), (byte) -4);
+			UpdateKey.aClass59_636.method985(new Class442(Class710_Sub43.aClass461_10940), (byte) -2);
+			UpdateKey.aClass59_637.method985(new Class444((Class613.aClass461_8013), 0), (byte) -80);
 			for (int i_0_ = 0; i_0_ < Class440.aClass59Array4872.length; i_0_++) {
 				if (Class440.aClass59Array4872[i_0_].method976(-1143824623) == null)
 					throw new RuntimeException();
 			}
 			int i_1_ = 0;
-			Class59[] class59s = Class440.aClass59Array4872;
+			UpdateKey[] class59s = Class440.aClass59Array4872;
 			for (int i_2_ = 0; i_2_ < class59s.length; i_2_++) {
-				Class59 class59 = class59s[i_2_];
+				UpdateKey class59 = class59s[i_2_];
 				int i_3_ = class59.method975((byte) 27);
 				int i_4_ = class59.method976(1012455536).method48(-2095772073);
 				i_1_ += i_3_ * i_4_ / 100;
@@ -92,9 +92,9 @@ public class Class405 {
 		int i_5_ = 0;
 		int i_6_ = 0;
 		boolean bool = true;
-		Class59[] class59s = Class440.aClass59Array4872;
+		UpdateKey[] class59s = Class440.aClass59Array4872;
 		for (int i_7_ = 0; i_7_ < class59s.length; i_7_++) {
-			Class59 class59 = class59s[i_7_];
+			UpdateKey class59 = class59s[i_7_];
 			int i_8_ = class59.method975((byte) 102);
 			int i_9_ = class59.method976(942082239).method48(-1982405749);
 			if (i_9_ < 100)

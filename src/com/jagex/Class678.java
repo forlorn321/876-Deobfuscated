@@ -351,9 +351,9 @@ public class Class678 implements Interface75 {
 						for (Class521_Sub6 class521_sub6 = (Class521_Sub6) client.aClass695_11292.method8210(846629764); null != class521_sub6; class521_sub6 = ((Class521_Sub6) client.aClass695_11292.method8219(-787561041))) {
 							if ((long) (class521_sub6.anInt10362 * 1936831955) < (Class249.method3450(1465680845) / 1000L - 5L)) {
 								if (class521_sub6.aShort10361 > 0)
-									Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_429.method840(Class459.aClass664_5178, 1985186604)).toString(), null, -1538266173);
+									Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_429.method840(Class459.CLIENT_PARAMS, 1985186604)).toString(), null, -1538266173);
 								if (0 == class521_sub6.aShort10361)
-									Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_430.method840(Class459.aClass664_5178, 1532057750)).toString(), null, -1538266173);
+									Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_430.method840(Class459.CLIENT_PARAMS, 1532057750)).toString(), null, -1538266173);
 								class521_sub6.method6354((byte) -41);
 							}
 						}

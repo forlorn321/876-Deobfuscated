@@ -181,7 +181,7 @@ public class Class506 {
 		Class85.method1187(i_6_, 2060471582);
 	}
 
-	public static Class567 method6146(Socket socket, int i, byte i_7_) throws IOException {
-		return new Class567_Sub1(socket, i);
+	public static Class567 createRSSocket(Socket socket, int i, byte i_7_) throws IOException {
+		return new RSSocket(socket, i);
 	}
 }

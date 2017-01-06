@@ -112,7 +112,7 @@ public class Class158 {
 		Class553 class553 = client.aClass515_11066.method6249(126533483);
 		for (int i_18_ = 0; i_18_ < client.aClass515_11066.method6321((byte) -95); i_18_++) {
 			for (int i_19_ = 0; i_19_ < client.aClass515_11066.method6243(177401017); i_19_++) {
-				if (Class566.method6896(class553.aClass556ArrayArrayArray7430, i_17_, i_18_, i_19_, true, 2095857239))
+				if (RSOutputStream.method6896(class553.aClass556ArrayArrayArray7430, i_17_, i_18_, i_19_, true, 2095857239))
 					i_17_++;
 				if (i_17_ >= 512)
 					return;

@@ -111,7 +111,7 @@ public class Class105 {
 				client.aClass515_11066.method6319(-758828535);
 			}
 		} catch (Exception exception) {
-			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.aClass664_5178, 1430231994));
+			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.CLIENT_PARAMS, 1430231994));
 		}
 	}
 
@@ -169,7 +169,7 @@ public class Class105 {
 		Class205_Sub16.aStringArray9941 = new String[500];
 		for (int i = 0; i < Class205_Sub16.aStringArray9941.length; i++)
 			Class205_Sub16.aStringArray9941[i] = "";
-		Class214.sendPanelBoxMessage(Class38.aClass38_364.method840((Class459.aClass664_5178), 1334253947));
+		Class214.sendPanelBoxMessage(Class38.aClass38_364.method840((Class459.CLIENT_PARAMS), 1334253947));
 	}
 
 	static void method1386() {
@@ -187,7 +187,7 @@ public class Class105 {
 		Class205_Sub16.aStringArray9941 = new String[500];
 		for (int i = 0; i < Class205_Sub16.aStringArray9941.length; i++)
 			Class205_Sub16.aStringArray9941[i] = "";
-		Class214.sendPanelBoxMessage(Class38.aClass38_364.method840((Class459.aClass664_5178), 2087226637));
+		Class214.sendPanelBoxMessage(Class38.aClass38_364.method840((Class459.CLIENT_PARAMS), 2087226637));
 	}
 
 	static boolean method1388() {
@@ -571,7 +571,7 @@ public class Class105 {
 				client.aClass515_11066.method6319(-889838848);
 			}
 		} catch (Exception exception) {
-			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.aClass664_5178, 1470767741));
+			Class214.sendPanelBoxMessage(Class38.aClass38_305.method840(Class459.CLIENT_PARAMS, 1470767741));
 		}
 	}
 

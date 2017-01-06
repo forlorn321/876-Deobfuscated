@@ -86,7 +86,7 @@ public final class Class471 implements Comparable {
 			class167.method2063(i, i_2_, i_3_, i_4_, -16777216, 0);
 			class167.method2062(i_7_ - 152, i_8_, 304, 34, client.aColorArray11039[client.anInt10988 * 247320061].getRGB(), 0);
 			class167.method2063(i_7_ - 150, i_8_ + 2, Class542_Sub1.anInt10700 * -1407808963, 30, client.aColorArray11038[client.anInt10988 * 247320061].getRGB(), 0);
-			Class26.aClass184_248.method2742(Class38.aClass38_425.method840(Class459.aClass664_5178, 1526292006), i_7_, i_6_ + i_8_, client.aColorArray11058[client.anInt10988 * 247320061].getRGB(), -1, (byte) -52);
+			Class26.aClass184_248.method2742(Class38.aClass38_425.method840(Class459.CLIENT_PARAMS, 1526292006), i_7_, i_6_ + i_8_, client.aColorArray11058[client.anInt10988 * 247320061].getRGB(), -1, (byte) -52);
 		} else {
 			int i_9_ = (804924017 * Class552.anInt7416 - (int) ((float) i_3_ / Class542_Sub1.aFloat7181));
 			int i_10_ = (Class391.anInt4063 * 2122662073 + (int) ((float) i_4_ / Class542_Sub1.aFloat7181));

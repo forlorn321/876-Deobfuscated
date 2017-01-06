@@ -727,7 +727,7 @@ public class Class617 {
 		if ((1780207751 * Class70.anInt760 >= 2 || client.aBool11188) && client.aClass251_10992 == null) {
 			String string;
 			if (client.aBool11188 && Class70.anInt760 * 1780207751 < 2)
-				string = new StringBuilder().append(client.aString11185).append(Class38.aClass38_444.method840(Class459.aClass664_5178, 1874106645)).append(client.aString11186).append(" ").append(Class40.aString495).toString();
+				string = new StringBuilder().append(client.aString11185).append(Class38.aClass38_444.method840(Class459.CLIENT_PARAMS, 1874106645)).append(client.aString11186).append(" ").append(Class40.aString495).toString();
 			else if (Class176.method2454((byte) -9) && Class70.anInt760 * 1780207751 > 2)
 				string = Class87.method1212(Class70.aClass536_Sub18_Sub9_759, 1910397862);
 			else {
@@ -740,7 +740,7 @@ public class Class617 {
 					string = new StringBuilder().append(string).append(Class158.method1892(is, -1192355961)).toString();
 			}
 			if (Class70.anInt760 * 1780207751 > 2)
-				string = new StringBuilder().append(string).append(Class264.method3680(16777215, -1200361023)).append(" / ").append(1780207751 * Class70.anInt760 - 2).append(Class38.aClass38_387.method840(Class459.aClass664_5178, 1890094037)).toString();
+				string = new StringBuilder().append(string).append(Class264.method3680(16777215, -1200361023)).append(" / ").append(1780207751 * Class70.anInt760 - 2).append(Class38.aClass38_387.method840(Class459.CLIENT_PARAMS, 1890094037)).toString();
 			if (Class70.aClass251_770 != null) {
 				Class184 class184 = Class70.aClass251_770.method3469(Class196.aClass410_2202, (client.anInterface51_11196), (byte) 1);
 				if (class184 == null)

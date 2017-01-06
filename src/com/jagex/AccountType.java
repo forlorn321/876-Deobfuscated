@@ -88,7 +88,7 @@ public class AccountType implements Interface75 {
 		else
 			class184 = Class642.aClass184_8333;
 		Class2 class2 = Class231.method3316(1331488694);
-		Class651.method7864(class167, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, 917143623 * Class2.anInt95, -311054579 * Class153.anInt1719, i_13_, class184, class2, Class38.aClass38_435.method840((Class459.aClass664_5178), 1916428980), (byte) 8);
+		Class651.method7864(class167, Class312.anInt3487 * -467577567, Class70.anInt768 * 1644471179, 917143623 * Class2.anInt95, -311054579 * Class153.anInt1719, i_13_, class184, class2, Class38.aClass38_435.method840((Class459.CLIENT_PARAMS), 1916428980), (byte) 8);
 		int i_15_ = (255 - Class26.anInt247 * 1641077831 - 1566263285 * Class70.anInt781);
 		if (i_15_ < 0)
 			i_15_ = 0;

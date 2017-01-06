@@ -94,7 +94,7 @@ public class Class460_Sub1 extends Class460 {
 					int i_4_ = 5 - aClass536_Sub33_5199.off * -810172525;
 					if (i_4_ > i_3_)
 						i_4_ = i_3_;
-					aClass567_10290.method6899((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_4_, -1540123216);
+					aClass567_10290.copyBuffer((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_4_, -1540123216);
 					if (aByte5182 != 0) {
 						for (int i_5_ = 0; i_5_ < i_4_; i_5_++)
 							aClass536_Sub33_5199.buffer[i_5_ + (aClass536_Sub33_5199.off * -810172525)] ^= aByte5182;
@@ -138,7 +138,7 @@ public class Class460_Sub1 extends Class460 {
 						int i_10_ = 5 - buffer.off * -810172525;
 						if (i_10_ > i_3_)
 							i_10_ = i_3_;
-						aClass567_10290.method6899(buffer.buffer, -810172525 * buffer.off, i_10_, 1702247399);
+						aClass567_10290.copyBuffer(buffer.buffer, -810172525 * buffer.off, i_10_, 1702247399);
 						if (aByte5182 != 0) {
 							for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 								buffer.buffer[-810172525 * (buffer.off) + i_11_] ^= aByte5182;
@@ -163,7 +163,7 @@ public class Class460_Sub1 extends Class460 {
 							i_16_ = (i_15_ - -810172525 * class536_sub33.off);
 						if (i_16_ > i_3_)
 							i_16_ = i_3_;
-						aClass567_10290.method6899((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_16_, -660377501);
+						aClass567_10290.copyBuffer((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_16_, -660377501);
 						if (aByte5182 != 0) {
 							for (int i_17_ = 0; i_17_ < i_16_; i_17_++)
 								class536_sub33.buffer[i_17_ + (class536_sub33.off * -810172525)] ^= aByte5182;
@@ -312,7 +312,7 @@ public class Class460_Sub1 extends Class460 {
 					int i_19_ = 5 - aClass536_Sub33_5199.off * -810172525;
 					if (i_19_ > i_18_)
 						i_19_ = i_18_;
-					aClass567_10290.method6899((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_19_, 1273047684);
+					aClass567_10290.copyBuffer((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_19_, 1273047684);
 					if (aByte5182 != 0) {
 						for (int i_20_ = 0; i_20_ < i_19_; i_20_++)
 							aClass536_Sub33_5199.buffer[i_20_ + (aClass536_Sub33_5199.off * -810172525)] ^= aByte5182;
@@ -356,7 +356,7 @@ public class Class460_Sub1 extends Class460 {
 						int i_25_ = 5 - buffer.off * -810172525;
 						if (i_25_ > i_18_)
 							i_25_ = i_18_;
-						aClass567_10290.method6899(buffer.buffer, -810172525 * buffer.off, i_25_, 915699093);
+						aClass567_10290.copyBuffer(buffer.buffer, -810172525 * buffer.off, i_25_, 915699093);
 						if (aByte5182 != 0) {
 							for (int i_26_ = 0; i_26_ < i_25_; i_26_++)
 								buffer.buffer[-810172525 * (buffer.off) + i_26_] ^= aByte5182;
@@ -381,7 +381,7 @@ public class Class460_Sub1 extends Class460 {
 							i_31_ = (i_30_ - -810172525 * class536_sub33.off);
 						if (i_31_ > i_18_)
 							i_31_ = i_18_;
-						aClass567_10290.method6899((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_31_, -908692013);
+						aClass567_10290.copyBuffer((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_31_, -908692013);
 						if (aByte5182 != 0) {
 							for (int i_32_ = 0; i_32_ < i_31_; i_32_++)
 								class536_sub33.buffer[i_32_ + (class536_sub33.off * -810172525)] ^= aByte5182;
@@ -465,7 +465,7 @@ public class Class460_Sub1 extends Class460 {
 					int i_34_ = 5 - aClass536_Sub33_5199.off * -810172525;
 					if (i_34_ > i_33_)
 						i_34_ = i_33_;
-					aClass567_10290.method6899((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_34_, 341199586);
+					aClass567_10290.copyBuffer((aClass536_Sub33_5199.buffer), (aClass536_Sub33_5199.off * -810172525), i_34_, 341199586);
 					if (aByte5182 != 0) {
 						for (int i_35_ = 0; i_35_ < i_34_; i_35_++)
 							aClass536_Sub33_5199.buffer[i_35_ + (aClass536_Sub33_5199.off * -810172525)] ^= aByte5182;
@@ -509,7 +509,7 @@ public class Class460_Sub1 extends Class460 {
 						int i_40_ = 5 - buffer.off * -810172525;
 						if (i_40_ > i_33_)
 							i_40_ = i_33_;
-						aClass567_10290.method6899(buffer.buffer, -810172525 * buffer.off, i_40_, -301530719);
+						aClass567_10290.copyBuffer(buffer.buffer, -810172525 * buffer.off, i_40_, -301530719);
 						if (aByte5182 != 0) {
 							for (int i_41_ = 0; i_41_ < i_40_; i_41_++)
 								buffer.buffer[-810172525 * (buffer.off) + i_41_] ^= aByte5182;
@@ -534,7 +534,7 @@ public class Class460_Sub1 extends Class460 {
 							i_46_ = (i_45_ - -810172525 * class536_sub33.off);
 						if (i_46_ > i_33_)
 							i_46_ = i_33_;
-						aClass567_10290.method6899((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_46_, 714761375);
+						aClass567_10290.copyBuffer((class536_sub33.buffer), -810172525 * (class536_sub33.off), i_46_, 714761375);
 						if (aByte5182 != 0) {
 							for (int i_47_ = 0; i_47_ < i_46_; i_47_++)
 								class536_sub33.buffer[i_47_ + (class536_sub33.off * -810172525)] ^= aByte5182;

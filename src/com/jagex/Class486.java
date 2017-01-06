@@ -35,9 +35,9 @@ final class Class486 implements Interface11 {
 	}
 
 	static void method5861(int i, int i_1_, int i_2_) {
-		if (Class644.aClass628_8352.aBool8218 || (1 != 1780207751 * Class70.anInt760 && (!Class532.aBool7124 || 2 != 1780207751 * Class70.anInt760 || !(Class228.aClass536_Sub18_Sub9_2359.aString11716.equals(Class38.aClass38_438.method840((Class459.aClass664_5178), 2131910364)))))) {
+		if (Class644.aClass628_8352.aBool8218 || (1 != 1780207751 * Class70.anInt760 && (!Class532.aBool7124 || 2 != 1780207751 * Class70.anInt760 || !(Class228.aClass536_Sub18_Sub9_2359.aString11716.equals(Class38.aClass38_438.method840((Class459.CLIENT_PARAMS), 2131910364)))))) {
 			Class2 class2 = Class231.method3316(1555934262);
-			int i_3_ = (class2.method530(Class38.aClass38_435.method840(Class459.aClass664_5178, 1901654744), (byte) -120));
+			int i_3_ = (class2.method530(Class38.aClass38_435.method840(Class459.CLIENT_PARAMS, 1901654744), (byte) -120));
 			int i_4_;
 			if (!Class70.aBool753) {
 				for (Class536_Sub18_Sub9 class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8308(1867269829)); null != class536_sub18_sub9; class536_sub18_sub9 = ((Class536_Sub18_Sub9) Class70.aClass708_755.method8311(1873292995))) {

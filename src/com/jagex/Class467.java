@@ -492,7 +492,7 @@ public class Class467 {
 	static final void method5693(Class668 class668, int i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0);
 		int i_116_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class650.method7859((long) i_116_, 0, bool, Class459.aClass664_5178, -1327360575);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class650.method7859((long) i_116_, 0, bool, Class459.CLIENT_PARAMS, -1327360575);
 	}
 
 	static final void method5694(Class668 class668, int i) {

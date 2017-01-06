@@ -285,7 +285,7 @@ class Class620 implements Iterator {
 												string = new StringBuilder().append(Class264.method3680(16748608, -1945533512)).append(string).append(Class40.aString497).append(" x").append(Class190.method2827((class251.anInt2712 * -1880327077), 1118178337)).toString();
 										}
 										if (class251 == client.aClass251_11057) {
-											string = (Class38.aClass38_442.method840(Class459.aClass664_5178, 1733594989));
+											string = (Class38.aClass38_442.method840(Class459.CLIENT_PARAMS, 1733594989));
 											i_33_ = (-336626187 * class251.colour);
 										}
 										if (client.aBool11136)

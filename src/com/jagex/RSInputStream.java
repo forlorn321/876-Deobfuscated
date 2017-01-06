@@ -7,7 +7,7 @@ import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class Class561 implements Runnable {
+public class RSInputStream implements Runnable {
 	IOException anIOException7538;
 	InputStream anInputStream7539;
 	int anInt7540;
@@ -135,7 +135,7 @@ public class Class561 implements Runnable {
 		anInputStream7539 = new InputStream_Sub1();
 	}
 
-	Class561(InputStream inputstream, int i) {
+	RSInputStream(InputStream inputstream, int i) {
 		anInputStream7539 = inputstream;
 		anInt7540 = (1 + i) * -896158587;
 		aByteArray7543 = new byte[anInt7540 * 740172877];

@@ -141,7 +141,7 @@ public abstract class Class460 {
 		Class536_Sub18_Sub12 class536_sub18_sub12 = Class649_Sub1_Sub4_Sub2.method10955(i_6_, (short) -6486);
 		if (class536_sub18_sub12 != null) {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub12.anInt11729 * -966390473;
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (-1919173613 * Class459.aClass664_5178.anInt8526), 1009886607);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (-1919173613 * Class459.CLIENT_PARAMS.languageId), 1009886607);
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1331173969 * class536_sub18_sub12.anInt11733;
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11727 != null ? class536_sub18_sub12.aString11727 : "");
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11732 != null ? class536_sub18_sub12.aString11732 : "");

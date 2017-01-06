@@ -6,7 +6,7 @@ package com.jagex;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class Class566 implements Runnable {
+public class RSOutputStream implements Runnable {
 	byte[] aByteArray7592;
 	OutputStream anOutputStream7593;
 	int anInt7594;
@@ -170,7 +170,7 @@ public class Class566 implements Runnable {
 		} while (!method6882((byte) 33));
 	}
 
-	Class566(OutputStream outputstream, int i) {
+	RSOutputStream(OutputStream outputstream, int i) {
 		anOutputStream7593 = outputstream;
 		anInt7594 = -1321122239 * (1 + i);
 		aByteArray7592 = new byte[anInt7594 * -1084110399];

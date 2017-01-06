@@ -50,7 +50,7 @@ public class Class209 {
 	}
 
 	static void method2978(int i) {
-		Class70.aClass536_Sub18_Sub9_748 = new Class536_Sub18_Sub9((Class38.aClass38_308.method840(Class459.aClass664_5178, 1416622314)), "", 181434031 * client.anInt11179, 1006, -1, 0L, 0, 0, true, false, 0L, true);
+		Class70.aClass536_Sub18_Sub9_748 = new Class536_Sub18_Sub9((Class38.aClass38_308.method840(Class459.CLIENT_PARAMS, 1416622314)), "", 181434031 * client.anInt11179, 1006, -1, 0L, 0, 0, true, false, 0L, true);
 	}
 
 	static final void method2979(Class668 class668, int i) {
