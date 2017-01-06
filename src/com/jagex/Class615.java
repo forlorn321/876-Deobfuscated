@@ -335,18 +335,18 @@ public class Class615 {
 
 	public static void method7332(String string, String string_43_, int i, boolean bool, String string_44_, int i_45_) {
 		if (11 == -708374433 * client.anInt11101) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4476, client.aClass106_11218.aClass15_1258, 2049389072);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-			int i_46_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_43_);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_44_);
-			class536_sub23.aClass536_Sub33_Sub2_10528.off += -681738691;
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9725(Class45.anIntArray526, i_46_, (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525), 72942787);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_46_, 863716548);
-			client.aClass106_11218.method1409(class536_sub23, 1539574618);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4476, client.aClass106_11218.aClass15_1258, 2049389072);
+			class536_sub23.stream.writeShort(0, -1778059594);
+			int i_46_ = (class536_sub23.stream.off * -810172525);
+			class536_sub23.stream.writeString(string);
+			class536_sub23.stream.writeString(string_43_);
+			class536_sub23.stream.writeByte(i);
+			class536_sub23.stream.writeByte(bool ? 1 : 0);
+			class536_sub23.stream.writeString(string_44_);
+			class536_sub23.stream.off += -681738691;
+			class536_sub23.stream.method9725(Class45.anIntArray526, i_46_, (class536_sub23.stream.off * -810172525), 72942787);
+			class536_sub23.stream.method9698(-810172525 * (class536_sub23.stream.off) - i_46_, 863716548);
+			client.aClass106_11218.writePacket(class536_sub23, 1539574618);
 			if (i < 13) {
 				client.aBool11200 = true;
 				Class625.method7449((short) 3930);

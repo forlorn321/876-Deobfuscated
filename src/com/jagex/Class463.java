@@ -40,7 +40,7 @@ public class Class463 implements Interface75 {
 	}
 
 	static final void method5622(Class668 class668, byte i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass62_11940.method1047((byte) 16) >> 3;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.MY_PLAYER.aClass62_11940.method1047((byte) 16) >> 3;
 	}
 
 	static final void method5623(Class668 class668, int i) {

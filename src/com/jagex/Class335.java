@@ -79,13 +79,13 @@ public class Class335 implements Interface33 {
 		String string_0_ = ((String) class668.anObjectArray8543[class668.anInt8544 * 366709801 + 1]);
 		if (0 != client.anInt11160 * 423156687 || ((!client.aBool11078 || client.aBool11163) && !client.aBool11166)) {
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4460, class106.aClass15_1258, 712227686);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-			int i_1_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-			Class100.method1334(class536_sub23.aClass536_Sub33_Sub2_10528, string_0_, -2111850483);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_1_, 740048950);
-			class106.method1409(class536_sub23, -223218520);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4460, class106.aClass15_1258, 712227686);
+			class536_sub23.stream.writeShort(0, -1778059594);
+			int i_1_ = (-810172525 * class536_sub23.stream.off);
+			class536_sub23.stream.writeString(string);
+			Class100.method1334(class536_sub23.stream, string_0_, -2111850483);
+			class536_sub23.stream.method9698(-810172525 * (class536_sub23.stream.off) - i_1_, 740048950);
+			class106.writePacket(class536_sub23, -223218520);
 		}
 	}
 
@@ -134,7 +134,7 @@ public class Class335 implements Interface33 {
 			ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
 			if (null != class536_sub13) {
 				NPC class649_sub1_sub5_sub1_sub1 = ((NPC) class536_sub13.value);
-				if (class649_sub1_sub5_sub1_sub1.method11068(2073549523) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == class649_sub1_sub5_sub1_sub1.aByte10839)) {
+				if (class649_sub1_sub5_sub1_sub1.method11068(2073549523) && (Class565.MY_PLAYER.aByte10839 == class649_sub1_sub5_sub1_sub1.aByte10839)) {
 					NPCDecoder class296 = class649_sub1_sub5_sub1_sub1.aClass296_12174;
 					if (null != class296 && null != class296.anIntArray3304)
 						class296 = class296.method3984(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, (byte) -76);

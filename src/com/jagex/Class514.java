@@ -40,9 +40,9 @@ public class Class514 {
 
 	static final void method6236(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4493, client.aClass106_11322.aClass15_1258, 1861085072);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_0_, -1778059594);
-		client.aClass106_11322.method1409(class536_sub23, 89488743);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4493, client.aClass106_11322.aClass15_1258, 1861085072);
+		class536_sub23.stream.writeShort(i_0_, -1778059594);
+		client.aClass106_11322.writePacket(class536_sub23, 89488743);
 	}
 
 	static final void method6237(Class668 class668, byte i) {
@@ -65,6 +65,6 @@ public class Class514 {
 	}
 
 	static final void method6239(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202 != null) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202.aBool8076)) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class565.MY_PLAYER.aClass617_12202 != null) && (Class565.MY_PLAYER.aClass617_12202.aBool8076)) ? 1 : 0;
 	}
 }

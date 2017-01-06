@@ -56,10 +56,10 @@ public class Class596 {
 	public static final void method7138(String string, byte i) {
 		if (!string.equals("")) {
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1305482951);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1271712159));
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-			class106.method1409(class536_sub23, 65370716);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1305482951);
+			class536_sub23.stream.writeByte(Class555.method6802(string, 1271712159));
+			class536_sub23.stream.writeString(string);
+			class106.writePacket(class536_sub23, 65370716);
 		}
 	}
 }

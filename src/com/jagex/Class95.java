@@ -10,8 +10,8 @@ public class Class95 {
 	static byte[] aByteArray1153;
 	static RSByteBuffer[] playerRenderData;
 	static RSByteBuffer[] iconData;
-	public static int anInt1156;
-	static int[] anIntArray1157;
+	public static int PLAYERLIST_SIZE;
+	static int[] PLAYERLIST_INDICES;
 	static int anInt1158;
 	static int[] anIntArray1159;
 	static int[] anIntArray1160;
@@ -21,7 +21,7 @@ public class Class95 {
 	static long aLong1163;
 
 	static void method1293() {
-		anInt1156 = 0;
+		PLAYERLIST_SIZE = 0;
 		for (int i = 0; i < 2048; i++) {
 			playerRenderData[i] = null;
 			iconData[i] = null;
@@ -33,7 +33,7 @@ public class Class95 {
 	static final void method1294(RSBitBuffer class536_sub33_sub2) {
 		class536_sub33_sub2.initBitAccess();
 		int i = client.anInt11156 * -1791435655;
-		Player class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Player(client.aClass515_11066.method6249(1248320850))));
+		Player class649_sub1_sub5_sub1_sub2 = (Class565.MY_PLAYER = client.PLAYER_LIST[i] = (new Player(client.aClass515_11066.method6249(1248320850))));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
 		int i_0_ = class536_sub33_sub2.readBits(30);
 		byte i_1_ = (byte) (i_0_ >> 28);
@@ -50,8 +50,8 @@ public class Class95 {
 			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(playerRenderData[i]);
 		if (iconData[i] != null)
 			class649_sub1_sub5_sub1_sub2.decodeIcons(iconData[i]);
-		anInt1156 = 0;
-		anIntArray1157[(anInt1156 += 1948535215) * -1482773169 - 1] = i;
+		PLAYERLIST_SIZE = 0;
+		PLAYERLIST_INDICES[(PLAYERLIST_SIZE += 1948535215) * -1482773169 - 1] = i;
 		aByteArray1152[i] = (byte) 0;
 		anInt1158 = 0;
 		for (int i_4_ = 1; i_4_ < 2048; i_4_++) {
@@ -88,8 +88,8 @@ public class Class95 {
 		aByteArray1153 = new byte[2048];
 		playerRenderData = new RSByteBuffer[2048];
 		iconData = new RSByteBuffer[2048];
-		anInt1156 = 0;
-		anIntArray1157 = new int[2048];
+		PLAYERLIST_SIZE = 0;
+		PLAYERLIST_INDICES = new int[2048];
 		anInt1158 = 0;
 		anIntArray1159 = new int[2048];
 		aClass43Array1162 = new Class43[2048];
@@ -102,7 +102,7 @@ public class Class95 {
 	}
 
 	static void method1295() {
-		anInt1156 = 0;
+		PLAYERLIST_SIZE = 0;
 		for (int i = 0; i < 2048; i++) {
 			playerRenderData[i] = null;
 			iconData[i] = null;

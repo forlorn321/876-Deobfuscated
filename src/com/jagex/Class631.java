@@ -94,7 +94,7 @@ public class Class631 {
 	}
 
 	static void method7533(Class167 class167, IComponentDefinitions class251, int i, int i_9_, int i_10_) {
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
+		if (Class565.MY_PLAYER != null) {
 			class167.method2084();
 			Class244 class244 = null;
 			Class161 class161 = null;
@@ -121,7 +121,7 @@ public class Class631 {
 					i_13_ = (int) -client.aFloat11106 & 0x3fff;
 					i_14_ = 4096;
 				} else {
-					Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+					Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 					i_11_ = (int) class436.aFloat4850;
 					i_12_ = (int) class436.aFloat4853;
 					if (2 == Class246.anInt2474 * 155362615)
@@ -171,11 +171,11 @@ public class Class631 {
 				Class537.method6508(i_11_, i_12_, class251, class244, i, i_9_, 1315924436);
 				if (6 != Class246.anInt2474 * 155362615) {
 					if (-349564685 * Class101.anInt1205 != -1) {
-						int i_30_ = (2 + Class101.anInt1205 * -1398258740 - i_11_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 2);
-						int i_31_ = (2 + Class101.anInt1194 * 1603069908 - i_12_ / 128 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 2);
+						int i_30_ = (2 + Class101.anInt1205 * -1398258740 - i_11_ / 128 + (Class565.MY_PLAYER.method10874() - 1) * 2);
+						int i_31_ = (2 + Class101.anInt1194 * 1603069908 - i_12_ / 128 + (Class565.MY_PLAYER.method10874() - 1) * 2);
 						Class656.method7946(class251, class161, i - (Class694.anInt8731 * -1334329881), i_9_ - (-856950269 * Class281.anInt3175), i_30_, i_31_, (Class610.aClass143Array7922[Class101.aBool1206 ? 1 : 0]), 100.0, Class261.aClass261_2844, Class283.aClass283_3181, (byte) -1);
 					}
-					if (!Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass623_12201.method7421(714021316))
+					if (!Class565.MY_PLAYER.aClass623_12201.method7421(714021316))
 						class167.method2057(i + class251.anInt2573 * -1606950689 / 2 - 1, i_9_ + class251.anInt2574 * 223822141 / 2 - 1, 3, 3, -1, (short) -5110);
 				}
 				class167.method2048(Class101.anIntArray1209[0], Class101.anIntArray1209[1], Class101.anIntArray1209[2], Class101.anIntArray1209[3]);

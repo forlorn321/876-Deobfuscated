@@ -262,11 +262,11 @@ public class Class26 {
 	}
 
 	static void method744(int i, int i_24_, IComponentDefinitions class251, Class161 class161, int i_25_, int i_26_, short i_27_) {
-		int i_28_ = -1482773169 * Class95.anInt1156;
-		int[] is = Class95.anIntArray1157;
+		int i_28_ = -1482773169 * Class95.PLAYERLIST_SIZE;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		for (int i_29_ = 0; i_29_ < i_28_; i_29_++) {
-			Player player = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_29_]];
-			if (null != player && player.method11088(1644471179) && !player.aClass623_12201.method7421(811086071) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != player) && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == player.aByte10839)) {
+			Player player = client.PLAYER_LIST[is[i_29_]];
+			if (null != player && player.method11088(1644471179) && !player.aClass623_12201.method7421(811086071) && (Class565.MY_PLAYER != player) && (Class565.MY_PLAYER.aByte10839 == player.aByte10839)) {
 				Class436 class436 = player.method7837().aClass436_4823;
 				int i_30_ = (int) class436.aFloat4850 / 128 - i / 128;
 				int i_31_ = (int) class436.aFloat4853 / 128 - i_24_ / 128;
@@ -286,7 +286,7 @@ public class Class26 {
 					}
 				}
 				boolean bool_35_ = false;
-				if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12191 * 1717228615) != 0 && (player.anInt12191 * 1717228615 != 0) && ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12191 * 1717228615) == (player.anInt12191 * 1717228615)))
+				if ((Class565.MY_PLAYER.anInt12191 * 1717228615) != 0 && (player.anInt12191 * 1717228615 != 0) && ((Class565.MY_PLAYER.anInt12191 * 1717228615) == (player.anInt12191 * 1717228615)))
 					bool_35_ = true;
 				if (null != player.aClass617_12202 && -1 != -587726343 * (player.aClass617_12202.anInt8079) && ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70((player.aClass617_12202.anInt8079) * -587726343, (byte) 47))).aBool3339)
 					Class533.method6467(class251, class161, i_25_, i_26_, i_30_, i_31_, Class35.aClass143Array292[1], (byte) 84);

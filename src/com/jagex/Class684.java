@@ -48,9 +48,9 @@ public class Class684 {
 			if (Class193.anInt2184 * 518181271 > 0)
 				Class170.method2421(Class570.aClass570_7626, Class193.anInt2184 * 518181271, -1, -162989105);
 			Class521_Sub4.method9368(1334888769);
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4425, client.aClass106_11322.aClass15_1258, 1762520380);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
-			client.aClass106_11322.method1409(class536_sub23, 432833800);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4425, client.aClass106_11322.aClass15_1258, 1762520380);
+			class536_sub23.stream.writeByte(bool ? 1 : 0);
+			client.aClass106_11322.writePacket(class536_sub23, 432833800);
 		}
 	}
 

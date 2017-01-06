@@ -176,7 +176,7 @@ public class Class511 {
 		class668.anInt8542 -= 1472892954;
 		int i_12_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_13_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
-		if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202)
-			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202.method7342(i_12_, i_13_, (byte) -67);
+		if (null != Class565.MY_PLAYER.aClass617_12202)
+			Class565.MY_PLAYER.aClass617_12202.method7342(i_12_, i_13_, (byte) -67);
 	}
 }

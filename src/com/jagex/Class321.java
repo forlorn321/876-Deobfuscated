@@ -210,14 +210,14 @@ public class Class321 implements Interface33 {
 							}
 						}
 					}
-					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), Class302.aClass74_3406, (byte) -78).equals(string_45_))
+					if (Class473.method5740((Class565.MY_PLAYER.username), Class302.aClass74_3406, (byte) -78).equals(string_45_))
 						Class173_Sub1.method8634(4, (Class38.aClass38_455.method840(Class459.CLIENT_PARAMS, 1615698386)), 263075062);
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
-						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4511, class106.aClass15_1258, 572713022);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 822510229));
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-						class106.method1409(class536_sub23, 2066314123);
+						OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4511, class106.aClass15_1258, 572713022);
+						class536_sub23.stream.writeByte(Class555.method6802(string, 822510229));
+						class536_sub23.stream.writeString(string);
+						class106.writePacket(class536_sub23, 2066314123);
 					}
 				}
 			}
@@ -227,8 +227,8 @@ public class Class321 implements Interface33 {
 	static final void method4247(Class668 class668, int i) {
 		int i_52_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CHAT_TYPE, class106.aClass15_1258, 990169686);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_52_);
-		class106.method1409(class536_sub23, -430384915);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.CHAT_TYPE, class106.aClass15_1258, 990169686);
+		class536_sub23.stream.writeByte(i_52_);
+		class106.writePacket(class536_sub23, -430384915);
 	}
 }

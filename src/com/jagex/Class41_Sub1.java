@@ -9,31 +9,31 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 	static Font aFont10561;
 
 	public void method131() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 753522960);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2084087695);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, 863964582);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1941898572);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, 1821906987);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 753522960);
+		class536_sub23.stream.writeIntV1(-778209537 * anInt499, -2084087695);
+		class536_sub23.stream.method9753(anInt498 * 1099957461, 863964582);
+		class536_sub23.stream.writeByte(anInt502 * -1291747847);
+		class536_sub23.stream.writeIntLE(1124031699 * anInt506, 1941898572);
+		class536_sub23.stream.writeShort128(-1213016365 * anInt500, (byte) 0);
+		class536_sub23.stream.method9753(1438833961 * anInt501, 1821906987);
 		int i = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i, (byte) 74);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -1027873020);
-		client.aClass106_11322.method1409(class536_sub23, 652397578);
+		class536_sub23.stream.writeByte128(i);
+		class536_sub23.stream.method9729(anInt503 * -295180599, -1027873020);
+		client.aClass106_11322.writePacket(class536_sub23, 652397578);
 	}
 
 	public void method206(int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 847665742);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2057862953);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, -262650363);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1769437720);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1059406607);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 847665742);
+		class536_sub23.stream.writeIntV1(-778209537 * anInt499, -2057862953);
+		class536_sub23.stream.method9753(anInt498 * 1099957461, -262650363);
+		class536_sub23.stream.writeByte(anInt502 * -1291747847);
+		class536_sub23.stream.writeIntLE(1124031699 * anInt506, 1769437720);
+		class536_sub23.stream.writeShort128(-1213016365 * anInt500, (byte) 0);
+		class536_sub23.stream.method9753(1438833961 * anInt501, -1059406607);
 		int i_0_ = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i_0_, (byte) 122);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -956649220);
-		client.aClass106_11322.method1409(class536_sub23, 665704356);
+		class536_sub23.stream.writeByte128(i_0_);
+		class536_sub23.stream.method9729(anInt503 * -295180599, -956649220);
+		client.aClass106_11322.writePacket(class536_sub23, 665704356);
 	}
 
 	Class41_Sub1(int i, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, boolean bool, boolean bool_6_, int i_7_) {
@@ -41,17 +41,17 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 	}
 
 	public void method296() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 1653291138);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-778209537 * anInt499, -2025929460);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(anInt498 * 1099957461, 737771266);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(anInt502 * -1291747847);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(1124031699 * anInt506, 1872144563);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1213016365 * anInt500, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(1438833961 * anInt501, -1540788084);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4403, client.aClass106_11322.aClass15_1258, 1653291138);
+		class536_sub23.stream.writeIntV1(-778209537 * anInt499, -2025929460);
+		class536_sub23.stream.method9753(anInt498 * 1099957461, 737771266);
+		class536_sub23.stream.writeByte(anInt502 * -1291747847);
+		class536_sub23.stream.writeIntLE(1124031699 * anInt506, 1872144563);
+		class536_sub23.stream.writeShort128(-1213016365 * anInt500, (byte) 0);
+		class536_sub23.stream.method9753(1438833961 * anInt501, -1540788084);
 		int i = (aBool505 ? 2 : 0) | (aBool504 ? 1 : 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(i, (byte) 29);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(anInt503 * -295180599, -1373329012);
-		client.aClass106_11322.method1409(class536_sub23, -413314193);
+		class536_sub23.stream.writeByte128(i);
+		class536_sub23.stream.method9729(anInt503 * -295180599, -1373329012);
+		client.aClass106_11322.writePacket(class536_sub23, -413314193);
 	}
 
 	static final void method9624(Class668 class668, int i) {
@@ -65,11 +65,11 @@ public class Class41_Sub1 extends Class41 implements Interface68 {
 
 	public static final void method9625(String string, int i, int i_8_) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4505, class106.aClass15_1258, 1423197358);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1 + Class555.method6802(string, 234499511));
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i);
-		class106.method1409(class536_sub23, 1156195131);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4505, class106.aClass15_1258, 1423197358);
+		class536_sub23.stream.writeByte(1 + Class555.method6802(string, 234499511));
+		class536_sub23.stream.writeString(string);
+		class536_sub23.stream.writeByte(i);
+		class106.writePacket(class536_sub23, 1156195131);
 	}
 
 	static void method9626(int[] is, double d) {

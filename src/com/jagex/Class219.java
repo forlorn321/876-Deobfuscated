@@ -81,8 +81,8 @@ public class Class219 implements Interface27 {
 
 	static final void method3103(Class668 class668, short i) {
 		String string;
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null && (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192))
-			string = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method11086(false, -1923065949);
+		if (Class565.MY_PLAYER != null && (null != Class565.MY_PLAYER.aString12192))
+			string = Class565.MY_PLAYER.method11086(false, -1923065949);
 		else
 			string = "";
 		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string;

@@ -1464,7 +1464,7 @@ public class Class465 {
 	}
 
 	static final void method5664(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (611144047 * Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (611144047 * Class565.MY_PLAYER.anInt12186);
 	}
 
 	static final void method5665(Class668 class668, int i) {

@@ -44,9 +44,9 @@ final class Class640 implements Runnable {
 		int i_4_ = 0;
 		if (Class710_Sub30.method10184(string, -1506968299))
 			i_4_ = Class392.method4867(string, 39454950);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4462, client.aClass106_11322.aClass15_1258, 1729398461);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_);
-		client.aClass106_11322.method1409(class536_sub23, 1969176895);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4462, client.aClass106_11322.aClass15_1258, 1729398461);
+		class536_sub23.stream.writeInt(i_4_);
+		client.aClass106_11322.writePacket(class536_sub23, 1969176895);
 	}
 
 	static final void method7672(Class668 class668, byte i) {

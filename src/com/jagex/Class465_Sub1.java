@@ -848,10 +848,10 @@ public class Class465_Sub1 extends Class465 {
 	}
 
 	public static void method9386(int i, int i_196_, byte i_197_) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4482, client.aClass106_11322.aClass15_1258, 1683364185);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_196_, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i, (byte) -40);
-		client.aClass106_11322.method1409(class536_sub23, 401806054);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4482, client.aClass106_11322.aClass15_1258, 1683364185);
+		class536_sub23.stream.writeShort(i_196_, -1778059594);
+		class536_sub23.stream.writeIntV2(i, (byte) -40);
+		client.aClass106_11322.writePacket(class536_sub23, 401806054);
 	}
 
 	static void method9387(int i) {

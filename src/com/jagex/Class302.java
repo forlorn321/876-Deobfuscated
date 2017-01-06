@@ -53,7 +53,7 @@ public class Class302 {
 		for (int index = 0; index < 38697745 * Class95.anInt1150; index++) {
 			buffer.readUnsignedShort();
 			int playerIndex = Class95.anIntArray1160[index];
-			Player player = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[playerIndex];
+			Player player = client.PLAYER_LIST[playerIndex];
 			int flag = buffer.readUnsignedByte();
 			if (0 != (flag & 0x80))
 				flag += buffer.readUnsignedByte() << 8;

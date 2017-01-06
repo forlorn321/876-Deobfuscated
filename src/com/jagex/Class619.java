@@ -62,8 +62,8 @@ public class Class619 {
 		client.aFloat11106 = (float) ((int) (Math.random() * 160.0) - 80 & 0x3fff);
 		Class9.method607((byte) -33);
 		for (int i_2_ = 0; i_2_ < 2048; i_2_++)
-			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_2_] = null;
-		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
+			client.PLAYER_LIST[i_2_] = null;
+		Class565.MY_PLAYER = null;
 		client.anInt11053 = 0;
 		client.anInt11164 = 0;
 		client.aClass4_11050.method561(-2117553523);

@@ -131,16 +131,16 @@ public class Class678 implements Interface75 {
 			}
 			if (9 == -708374433 * client.anInt11101) {
 				while (Class233.method3331(-473434572)) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4507, (client.aClass106_11322.aClass15_1258), 1139044640);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-					int i_6_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-					Class629.method7502((class536_sub23.aClass536_Sub33_Sub2_10528), -1640317657);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_6_), 713533004);
-					client.aClass106_11322.method1409(class536_sub23, -34323115);
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4507, (client.aClass106_11322.aClass15_1258), 1139044640);
+					class536_sub23.stream.writeByte(0);
+					int i_6_ = (class536_sub23.stream.off * -810172525);
+					Class629.method7502((class536_sub23.stream), -1640317657);
+					class536_sub23.stream.method9699((-810172525 * (class536_sub23.stream.off) - i_6_), 713533004);
+					client.aClass106_11322.writePacket(class536_sub23, -34323115);
 				}
 				if (null != Class398.aClass654_4123) {
 					if (-1 != Class398.aClass654_4123.anInt8493 * -1190285297) {
-						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4410, (client.aClass106_11322.aClass15_1258), 1982238332);
+						OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4410, (client.aClass106_11322.aClass15_1258), 1982238332);
 						if (Class336_Sub1.aGarbageCollectorMXBean10016 == null || !Class336_Sub1.aGarbageCollectorMXBean10016.isValid()) {
 							try {
 								Iterator iterator = ManagementFactory.getGarbageCollectorMXBeans().iterator();
@@ -169,10 +169,10 @@ public class Class678 implements Interface75 {
 							client.aLong11191 = -7131540482466414253L * l_8_;
 							client.aLong11299 = -4401799186768191899L * l;
 						}
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9753(client.anInt6856 * -311312947, -1507508787);
-						class536_sub23.aClass536_Sub33_Sub2_10528.write128Short(Class398.aClass654_4123.anInt8493 * -1190285297, -1952316498);
-						class536_sub23.aClass536_Sub33_Sub2_10528.method9753(i_7_, 791960341);
-						client.aClass106_11322.method1409(class536_sub23, 855284612);
+						class536_sub23.stream.method9753(client.anInt6856 * -311312947, -1507508787);
+						class536_sub23.stream.write128Short(Class398.aClass654_4123.anInt8493 * -1190285297);
+						class536_sub23.stream.method9753(i_7_, 791960341);
+						client.aClass106_11322.writePacket(class536_sub23, 855284612);
 						Class398.aClass654_4123 = null;
 						Class567.aLong7600 = (30000L + l) * -4336846166215492363L;
 					}
@@ -288,9 +288,9 @@ public class Class678 implements Interface75 {
 						Class458_Sub4.method9372(-1205567709);
 						client.anInt11215 += -575680763;
 						if (client.aBool11214) {
-							Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4439, (client.aClass106_11322.aClass15_1258), 1249145634);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt((Class53.anInt599 * 33919627 << 28 | Class205_Sub16.anInt9942 * 50718141 << 14 | Class151.anInt1713 * -1426113041));
-							client.aClass106_11322.method1409(class536_sub23, 1286631430);
+							OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4439, (client.aClass106_11322.aClass15_1258), 1249145634);
+							class536_sub23.stream.writeInt((Class53.anInt599 * 33919627 << 28 | Class205_Sub16.anInt9942 * 50718141 << 14 | Class151.anInt1713 * -1426113041));
+							client.aClass106_11322.writePacket(class536_sub23, 1286631430);
 							client.aBool11214 = false;
 						}
 						for (;;) {
@@ -335,13 +335,13 @@ public class Class678 implements Interface75 {
 							Class441.method5330(1092137829);
 						Class396.method4885(523954249);
 						if (423156687 * client.anInt11160 > 0 && Class331_Sub2.aClass549_10049.method6638(82, (byte) 0) && Class331_Sub2.aClass549_10049.method6638(81, (byte) 0) && client.anInt11031 * 1990425561 != 0) {
-							int i_20_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) - client.anInt11031 * 1990425561);
+							int i_20_ = ((Class565.MY_PLAYER.aByte10839) - client.anInt11031 * 1990425561);
 							if (i_20_ < 0)
 								i_20_ = 0;
 							else if (i_20_ > 3)
 								i_20_ = 3;
 							Class598 class598 = client.aClass515_11066.method6255(-1446431348);
-							Class521_Sub4.method9366(i_20_, ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) + 1858049507 * class598.anInt7839), (class598.anInt7840 * 1479112045 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])), 2070080059);
+							Class521_Sub4.method9366(i_20_, ((Class565.MY_PLAYER.screenX[0]) + 1858049507 * class598.anInt7839), (class598.anInt7840 * 1479112045 + (Class565.MY_PLAYER.screenY[0])), 2070080059);
 						}
 						for (int i_21_ = 0; i_21_ < 5; i_21_++)
 							client.anIntArray11302[i_21_]++;
@@ -399,8 +399,8 @@ public class Class678 implements Interface75 {
 							client.anInt11099 = 458285263;
 						client.aClass106_11322.anInt1265 += -768200239;
 						if (-1086863567 * client.aClass106_11322.anInt1265 > 50) {
-							Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4521, (client.aClass106_11322.aClass15_1258), 1083264874);
-							client.aClass106_11322.method1409(class536_sub23, 1256996378);
+							OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4521, (client.aClass106_11322.aClass15_1258), 1083264874);
+							client.aClass106_11322.writePacket(class536_sub23, 1256996378);
 						}
 						if (client.aBool11064) {
 							Class611.method7279(975300967);

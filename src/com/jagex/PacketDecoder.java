@@ -95,7 +95,7 @@ public class PacketDecoder {
 		}
 		if (IncomingPacket.PLAYER_LOOK == class106.currentPacket) {
 			byte isMale = stream.readByte();
-			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.decodePlayerLook(stream, isMale);
+			Class565.MY_PLAYER.decodePlayerLook(stream, isMale);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -799,9 +799,9 @@ public class PacketDecoder {
 				int i_137_ = i_118_ & 0xffff;
 				Player class649_sub1_sub5_sub1_sub2;
 				if (i_137_ == client.anInt11156 * -1791435655)
-					class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+					class649_sub1_sub5_sub1_sub2 = Class565.MY_PLAYER;
 				else
-					class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_137_]);
+					class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i_137_]);
 				if (class649_sub1_sub5_sub1_sub2 != null) {
 					Class500 class500 = (class649_sub1_sub5_sub1_sub2.aClass500Array11901[i_117_]);
 					if (65535 == i_121_)
@@ -994,7 +994,7 @@ public class PacketDecoder {
 				class94s[i_170_].anInt1145 = (stream.readUnsignedShort() * 1991460897);
 				class94s[i_170_].aByte1147 = stream.readByte();
 				class94s[i_170_].aString1142 = stream.readString();
-				if (class94s[i_170_].aString1146.equals(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username))
+				if (class94s[i_170_].aString1146.equals(Class565.MY_PLAYER.username))
 					Class446.aByte4903 = class94s[i_170_].aByte1147;
 			}
 			boolean bool_171_ = false;
@@ -1789,9 +1789,9 @@ public class PacketDecoder {
 			int i_299_ = stream.readUnsignedShort();
 			Player player;
 			if (client.anInt11156 * -1791435655 == i_299_)
-				player = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+				player = Class565.MY_PLAYER;
 			else
-				player = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_299_];
+				player = client.PLAYER_LIST[i_299_];
 			if (null == player) {
 				class106.currentPacket = null;
 				return true;
@@ -2537,10 +2537,10 @@ public class PacketDecoder {
 			return true;
 		}
 		if (IncomingPacket.aClass422_4628 == class106.currentPacket) {
-			for (int i_440_ = 0; (i_440_ < client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155.length); i_440_++) {
-				if (null != (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_440_])) {
-					client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_440_].anIntArray11913 = null;
-					client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_440_].aClass688_11925.method8122(-1, -1003425005);
+			for (int i_440_ = 0; (i_440_ < client.PLAYER_LIST.length); i_440_++) {
+				if (null != (client.PLAYER_LIST[i_440_])) {
+					client.PLAYER_LIST[i_440_].anIntArray11913 = null;
+					client.PLAYER_LIST[i_440_].aClass688_11925.method8122(-1, -1003425005);
 				}
 			}
 			for (int i_441_ = 0; i_441_ < -1683770117 * client.anInt11164; i_441_++) {
@@ -2721,11 +2721,11 @@ public class PacketDecoder {
 		if (IncomingPacket.aClass422_4714 == class106.currentPacket) {
 			int i_471_ = stream.readInt();
 			int i_472_ = stream.readInt();
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4432, class106.aClass15_1258, 2050670086);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i_471_, (byte) 38);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(i_472_, 1795793310);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.anInt6856 * -311312947);
-			class106.method1409(class536_sub23, 1563853139);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4432, class106.aClass15_1258, 2050670086);
+			class536_sub23.stream.writeIntV2(i_471_, (byte) 38);
+			class536_sub23.stream.writeIntLE(i_472_, 1795793310);
+			class536_sub23.stream.writeByte(client.anInt6856 * -311312947);
+			class106.writePacket(class536_sub23, 1563853139);
 			class106.currentPacket = null;
 			return true;
 		}
@@ -2774,7 +2774,7 @@ public class PacketDecoder {
 						Class360_Sub1.aClass94Array10168[i_480_].anInt1145 = 1991460897 * i_474_;
 						Class360_Sub1.aClass94Array10168[i_480_].aByte1147 = i_475_;
 						Class360_Sub1.aClass94Array10168[i_480_].aString1142 = string_479_;
-						if (string_473_.equals(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username))
+						if (string_473_.equals(Class565.MY_PLAYER.username))
 							Class446.aByte4903 = i_475_;
 						client.anInt11232 = client.anInt11215 * -2101414481;
 						class106.currentPacket = null;
@@ -2793,7 +2793,7 @@ public class PacketDecoder {
 					Class360_Sub1.aClass94Array10168 = new Class94[100];
 				Class360_Sub1.aClass94Array10168[i_480_ + 1] = class94;
 				Class269.anInt2880 += 1093210431;
-				if (string_473_.equals(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username))
+				if (string_473_.equals(Class565.MY_PLAYER.username))
 					Class446.aByte4903 = i_475_;
 			}
 			client.anInt11232 = -2101414481 * client.anInt11215;
@@ -3021,7 +3021,7 @@ public class PacketDecoder {
 			if (client.aClass515_11066.method6315(-1134055537) != Class498.aClass498_5556) {
 				if (i_97_ >= 0 && i_98_ >= 0 && i_97_ < client.aClass515_11066.method6321((byte) -78) && i_98_ < client.aClass515_11066.method6243(177401017)) {
 					int i_106_ = i_101_ + 1;
-					if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >= i_97_ - i_106_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) <= i_97_ + i_106_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >= i_98_ - i_106_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) <= i_106_ + i_98_) {
+					if ((Class565.MY_PLAYER.screenX[0]) >= i_97_ - i_106_ && (Class565.MY_PLAYER.screenX[0]) <= i_97_ + i_106_ && (Class565.MY_PLAYER.screenY[0]) >= i_98_ - i_106_ && (Class565.MY_PLAYER.screenY[0]) <= i_106_ + i_98_) {
 						Class436 class436 = new Class436((float) (i_97_ << 9), 0.0F, (float) (i_98_ << 9));
 						int i_107_ = Class512.scenePlane * -502818839;
 						int i_108_ = (bool ? Class188.aClass188_2129.method2788(-1313244031) : Class188.aClass188_2133.method2788(-846887302));
@@ -3126,7 +3126,7 @@ public class PacketDecoder {
 			if (client.aClass515_11066.method6315(595421904) != Class498.aClass498_5556) {
 				if (i_150_ >= 0 && i_151_ >= 0 && i_150_ < client.aClass515_11066.method6321((byte) -16) && i_151_ < client.aClass515_11066.method6243(177401017)) {
 					int i_159_ = 1 + i_154_;
-					if ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >= i_150_ - i_159_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) <= i_159_ + i_150_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >= i_151_ - i_159_ && (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) <= i_151_ + i_159_) {
+					if ((Class565.MY_PLAYER.screenX[0]) >= i_150_ - i_159_ && (Class565.MY_PLAYER.screenX[0]) <= i_159_ + i_150_ && (Class565.MY_PLAYER.screenY[0]) >= i_151_ - i_159_ && (Class565.MY_PLAYER.screenY[0]) <= i_151_ + i_159_) {
 						Class436 class436 = new Class436((float) (i_150_ << 9), 0.0F, (float) (i_151_ << 9));
 						int i_160_ = -502818839 * Class512.scenePlane;
 						Class184_Sub2.aClass211_9442.method3030(Class198.aClass198_2212, i_152_, i_155_, i_157_, Class188.aClass188_2133.method2788(-2001243474), Class207.aClass207_2240, 0.0F, (float) (i_154_ << 9), class436, i_160_, i_158_, i_156_, (byte) 74);

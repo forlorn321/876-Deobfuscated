@@ -76,18 +76,18 @@ class Class242 implements Iterator {
 	static void method3397(String string, String string_483_, String string_484_, boolean bool, boolean bool_485_, int i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
 		if (class106.method1413((short) 11684) != null) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4504, class106.aClass15_1258, 2123327853);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((Class555.method6802(string, 224779434) + Class555.method6802(string_483_, 287243558) + Class555.method6802(string_484_, -759942065) + 1), -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_483_);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_484_);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4504, class106.aClass15_1258, 2123327853);
+			class536_sub23.stream.writeShort((Class555.method6802(string, 224779434) + Class555.method6802(string_483_, 287243558) + Class555.method6802(string_484_, -759942065) + 1), -1778059594);
+			class536_sub23.stream.writeString(string);
+			class536_sub23.stream.writeString(string_483_);
+			class536_sub23.stream.writeString(string_484_);
 			int i_486_ = 0;
 			if (bool)
 				i_486_ |= 0x1;
 			if (bool_485_)
 				i_486_ |= 0x2;
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_486_);
-			class106.method1409(class536_sub23, 895809939);
+			class536_sub23.stream.writeByte(i_486_);
+			class106.writePacket(class536_sub23, 895809939);
 		}
 	}
 

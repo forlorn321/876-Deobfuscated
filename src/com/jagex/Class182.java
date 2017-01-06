@@ -107,8 +107,8 @@ public class Class182 {
 		class668.anInt8542 -= 1472892954;
 		int i_0_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_1_ = class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1];
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202 != null)
-			Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202.method7343(i_0_, i_1_, 1935500088);
+		if (Class565.MY_PLAYER.aClass617_12202 != null)
+			Class565.MY_PLAYER.aClass617_12202.method7343(i_0_, i_1_, 1935500088);
 	}
 
 	static final void method2723(IComponentDefinitions class251, Class234 class234, Class668 class668, byte i) {

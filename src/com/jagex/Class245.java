@@ -17,16 +17,16 @@ public final class Class245 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class597.method7140(i_0_, i_1_, true, 648285582);
 	}
 
-	static Class536_Sub23 method3413(int i, int i_2_, int i_3_, int i_4_) {
-		Class536_Sub23 class536_sub23 = null;
+	static OutgoingPacketContainer method3413(int i, int i_2_, int i_3_, int i_4_) {
+		OutgoingPacketContainer class536_sub23 = null;
 		if (0 == i_3_)
-			class536_sub23 = Class213.method3075(OutgoingPacket.WALKING_PACKET, client.aClass106_11322.aClass15_1258, 970716290);
+			class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.WALKING_PACKET, client.aClass106_11322.aClass15_1258, 970716290);
 		if (1 == i_3_)
-			class536_sub23 = Class213.method3075(OutgoingPacket.MINI_WALKING_PACKET, client.aClass106_11322.aClass15_1258, 1885004815);
+			class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.MINI_WALKING_PACKET, client.aClass106_11322.aClass15_1258, 1885004815);
 		Class598 class598 = client.aClass515_11066.method6255(-1252219861);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(Class569.method6925(-1608490852) ? 1 : 0, (byte) 91);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_2_ + class598.anInt7840 * 1479112045, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(i + class598.anInt7839 * 1858049507, -1411037171);
+		class536_sub23.stream.writeByte128(Class569.method6925(-1608490852) ? 1 : 0);
+		class536_sub23.stream.writeShort128(i_2_ + class598.anInt7840 * 1479112045, (byte) 0);
+		class536_sub23.stream.writeLEShort(i + class598.anInt7839 * 1858049507, -1411037171);
 		Class101.anInt1205 = -1245738949 * i;
 		Class101.anInt1194 = i_2_ * 1934813789;
 		Class101.aBool1206 = false;

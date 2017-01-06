@@ -80,7 +80,7 @@ public class Class74 implements Interface75 {
 	static final void method1138(byte i) {
 		client.aBool11304 = false;
 		if (3 != Class320.anInt3539 * -989431627) {
-			Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+			Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 			Class455 class455 = client.aClass515_11066.method6251(1206723447);
 			if (Class246.anInt2474 * 155362615 == 1 || Class246.anInt2474 * 155362615 == 2 || -1 != 403120773 * Class658.anInt8498) {
 				Class598 class598 = client.aClass515_11066.method6255(-1290884712);

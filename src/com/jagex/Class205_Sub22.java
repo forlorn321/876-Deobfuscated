@@ -43,9 +43,9 @@ public class Class205_Sub22 extends Class205 {
 	}
 
 	static final void method9099(int i) {
-		int[] is = Class95.anIntArray1157;
-		for (int i_1_ = 0; i_1_ < Class95.anInt1156 * -1482773169; i_1_++) {
-			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_1_]];
+		int[] is = Class95.PLAYERLIST_INDICES;
+		for (int i_1_ = 0; i_1_ < Class95.PLAYERLIST_SIZE * -1482773169; i_1_++) {
+			Player class649_sub1_sub5_sub1_sub2 = client.PLAYER_LIST[is[i_1_]];
 			if (class649_sub1_sub5_sub1_sub2 != null)
 				class649_sub1_sub5_sub1_sub2.method10905((byte) -82);
 		}

@@ -661,11 +661,11 @@ public class Class381 {
 		if (class680 != Class680.aClass680_8638 && Class680.aClass680_8639 != class680 && class680 != Class680.aClass680_8640)
 			throw new RuntimeException("");
 		if (null != client.aClass106_11322) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4491, client.aClass106_11322.aClass15_1258, 1815077435);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(1858049507 * class598.anInt7839, -1411037171);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9729(class680.method78(), -1570457746);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1479112045 * class598.anInt7840, -1778059594);
-			client.aClass106_11322.method1409(class536_sub23, 12804733);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4491, client.aClass106_11322.aClass15_1258, 1815077435);
+			class536_sub23.stream.writeLEShort(1858049507 * class598.anInt7839, -1411037171);
+			class536_sub23.stream.method9729(class680.method78(), -1570457746);
+			class536_sub23.stream.writeShort(1479112045 * class598.anInt7840, -1778059594);
+			client.aClass106_11322.writePacket(class536_sub23, 12804733);
 		}
 	}
 }

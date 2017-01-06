@@ -80,7 +80,7 @@ public class Class711 {
 	}
 
 	static final void method8376(long l) {
-		Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+		Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 		int i = 938724179 * client.anInt10983 + (int) class436.aFloat4850;
 		int i_3_ = (int) class436.aFloat4853 + client.anInt11091 * 1846249523;
 		if (-787333673 * JS5ResourceProvider.anInt5216 - i < -2000 || -787333673 * JS5ResourceProvider.anInt5216 - i > 2000 || -1817694149 * Class222.anInt2326 - i_3_ < -2000 || -1817694149 * Class222.anInt2326 - i_3_ > 2000) {

@@ -46,11 +46,11 @@ final class Class458_Sub3 extends Class458 {
 		return class536_sub33;
 	}
 
-	public static Class536_Sub23 method9359(int i) {
-		Class536_Sub23 class536_sub23 = Class144.method1795(-2071625918);
+	public static OutgoingPacketContainer method9359(int i) {
+		OutgoingPacketContainer class536_sub23 = Class144.method1795(-2071625918);
 		class536_sub23.aClass414_10529 = null;
 		class536_sub23.anInt10527 = 0;
-		class536_sub23.aClass536_Sub33_Sub2_10528 = new RSBitBuffer(5000);
+		class536_sub23.stream = new RSBitBuffer(5000);
 		return class536_sub23;
 	}
 }

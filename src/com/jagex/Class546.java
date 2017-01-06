@@ -221,7 +221,7 @@ public class Class546 implements ConfigType {
 			int i_22_ = (int) f_19_ >> 9;
 			int i_23_ = (int) f_21_ >> 9;
 			if (i_22_ > 0 && i_23_ > 0 && i_22_ < client.aClass515_11066.method6321((byte) -51) && i_23_ < client.aClass515_11066.method6243(177401017)) {
-				int i_24_ = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839;
+				int i_24_ = Class565.MY_PLAYER.aByte10839;
 				if (i_24_ < 3 && ((client.aClass515_11066.method6251(1164788132).aByteArrayArrayArray5154[1][i_22_][i_23_]) & 0x2) != 0)
 					i_24_++;
 				int i_25_ = class553.aClass160Array7459[i_24_].method1925((int) f_19_, (int) f_21_, (byte) 8);

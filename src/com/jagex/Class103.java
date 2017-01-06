@@ -203,7 +203,7 @@ public class Class103 {
 
 	static final void method1375(IComponentDefinitions class251, int i) {
 		if (-1769600535 * class251.anInt2562 == IComponentDefinitions.anInt2536 * 1542493203) {
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username == null) {
+			if (Class565.MY_PLAYER.username == null) {
 				class251.modelId = 0;
 				class251.anInt2603 = 0;
 			} else {
@@ -211,8 +211,8 @@ public class Class103 {
 				class251.yan2d = ((int) (Math.sin((double) client.cycles / 40.0) * 256.0) & 0x7ff) * -947955085;
 				class251.modelType = -323602093;
 				class251.modelId = -436498141 * client.anInt11156;
-				class251.anInt2603 = Class264.method3677((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), -311312947) * 721316367;
-				Class688_Sub3 class688_sub3 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass688_Sub3_11914);
+				class251.anInt2603 = Class264.method3677((Class565.MY_PLAYER.username), -311312947) * 721316367;
+				Class688_Sub3 class688_sub3 = (Class565.MY_PLAYER.aClass688_Sub3_11914);
 				if (class688_sub3 != null) {
 					if (class251.aClass688_2653 == null)
 						class251.aClass688_2653 = new Class688_Sub1();

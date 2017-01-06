@@ -67,7 +67,7 @@ public class Class57 {
 	static final void method972(RSBitBuffer class536_sub33_sub2, byte i) {
 		class536_sub33_sub2.initBitAccess();
 		int i_5_ = client.anInt11156 * -1791435655;
-		Player class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_5_] = new Player(client.aClass515_11066.method6249(512040507)));
+		Player class649_sub1_sub5_sub1_sub2 = (Class565.MY_PLAYER = client.PLAYER_LIST[i_5_] = new Player(client.aClass515_11066.method6249(512040507)));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i_5_;
 		int i_6_ = class536_sub33_sub2.readBits(30);
 		byte i_7_ = (byte) (i_6_ >> 28);
@@ -84,8 +84,8 @@ public class Class57 {
 			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance((Class95.playerRenderData[i_5_]));
 		if (Class95.iconData[i_5_] != null)
 			class649_sub1_sub5_sub1_sub2.decodeIcons((Class95.iconData[i_5_]));
-		Class95.anInt1156 = 0;
-		Class95.anIntArray1157[((Class95.anInt1156 += 1948535215) * -1482773169 - 1)] = i_5_;
+		Class95.PLAYERLIST_SIZE = 0;
+		Class95.PLAYERLIST_INDICES[((Class95.PLAYERLIST_SIZE += 1948535215) * -1482773169 - 1)] = i_5_;
 		Class95.aByteArray1152[i_5_] = (byte) 0;
 		Class95.anInt1158 = 0;
 		for (int i_10_ = 1; i_10_ < 2048; i_10_++) {

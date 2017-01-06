@@ -164,8 +164,8 @@ public abstract class Class160 {
 		Class536_Sub18_Sub9 class536_sub18_sub9 = Class19.method690((byte) -105);
 		if (Class555.method6805(class536_sub18_sub9, -731436892) == 7) {
 			int i_161_ = (int) class536_sub18_sub9.method10706(16711680);
-			if (i_161_ >= 0 && i_161_ <= Class95.anInt1156 * -1482773169) {
-				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_161_];
+			if (i_161_ >= 0 && i_161_ <= Class95.PLAYERLIST_SIZE * -1482773169) {
+				Player class649_sub1_sub5_sub1_sub2 = client.PLAYER_LIST[i_161_];
 				if (null != class649_sub1_sub5_sub1_sub2) {
 					class668.aClass649_Sub1_Sub5_Sub1_8554 = class649_sub1_sub5_sub1_sub2;
 					class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1;

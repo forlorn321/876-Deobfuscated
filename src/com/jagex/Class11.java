@@ -187,7 +187,7 @@ public class Class11 implements Interface70 {
 			if (class296.aBool3287) {
 				if (class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673 != 0) {
 					String string_10_ = (client.aClass670_11043 == GameMode.aClass670_8575 ? Class38.aClass38_441.method840((Class459.CLIENT_PARAMS), 1511247488) : Class38.aClass38_480.method840((Class459.CLIENT_PARAMS), 2072030078));
-					string = new StringBuilder().append(string).append(Class457.method5492((class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673), (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -2045963405)).append(Class40.aString493).append(string_10_).append(400189673 * class649_sub1_sub5_sub1_sub1.anInt12160).append(Class40.aString494).toString();
+					string = new StringBuilder().append(string).append(Class457.method5492((class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673), (611144047 * (Class565.MY_PLAYER.anInt12186)), -2045963405)).append(Class40.aString493).append(string_10_).append(400189673 * class649_sub1_sub5_sub1_sub1.anInt12160).append(Class40.aString494).toString();
 				}
 				if (client.aBool11188 && !bool) {
 					Class73 class73 = ((Class73) (-1 != -4715005 * Class173_Sub1.anInt9384 ? (Class207.aClass34_Sub22_2244.method70(-4715005 * Class173_Sub1.anInt9384, (byte) 44)) : null));
@@ -225,7 +225,7 @@ public class Class11 implements Interface70 {
 							for (int i_15_ = 0; i_15_ < strings.length; i_15_++) {
 								if (strings[i_15_] != null && ((-666688077 * (class649_sub1_sub5_sub1_sub1.anInt12176)) & 1 << i_15_) == 0 && ((strings[i_15_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.CLIENT_PARAMS, 1579540962))) || (strings[i_15_].equalsIgnoreCase(Class38.aClass38_459.method840(Class459.CLIENT_PARAMS, 1309329313))))) {
 									short i_16_ = 0;
-									if ((400189673 * (class649_sub1_sub5_sub1_sub1.anInt12160)) > (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)))
+									if ((400189673 * (class649_sub1_sub5_sub1_sub1.anInt12160)) > (611144047 * (Class565.MY_PLAYER.anInt12186)))
 										i_16_ = (short) 2000;
 									short i_17_ = 0;
 									int i_18_ = 1600879063 * client.anInt11203;

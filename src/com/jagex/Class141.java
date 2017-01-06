@@ -98,7 +98,7 @@ class Class141 implements Runnable {
 			client.aClass526Array11021[i_5_] = null;
 		Class324.method4276(-1786363719);
 		for (int i_6_ = 0; i_6_ < 2048; i_6_++)
-			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_] = null;
+			client.PLAYER_LIST[i_6_] = null;
 		client.anInt11053 = 0;
 		client.aClass4_11050.method561(-2117553523);
 		client.anInt11164 = 0;

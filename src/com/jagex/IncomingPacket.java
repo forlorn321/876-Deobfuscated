@@ -470,7 +470,7 @@ public class IncomingPacket {
 				if (class536_sub13 != null)
 					class649_sub1_sub5_sub1_3_ = ((Class649_Sub1_Sub5_Sub1) class536_sub13.value);
 			} else if (class649_sub1_sub5_sub1.anInt11911 * -1375730507 >= 32768)
-				class649_sub1_sub5_sub1_3_ = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[(class649_sub1_sub5_sub1.anInt11911 * -1375730507 - 32768)]);
+				class649_sub1_sub5_sub1_3_ = (client.PLAYER_LIST[(class649_sub1_sub5_sub1.anInt11911 * -1375730507 - 32768)]);
 			if (null != class649_sub1_sub5_sub1_3_) {
 				Class436 class436 = Class436.method5252((class649_sub1_sub5_sub1.method7837().aClass436_4823), class649_sub1_sub5_sub1_3_.method7837().aClass436_4823);
 				int i_4_ = (int) class436.aFloat4850;

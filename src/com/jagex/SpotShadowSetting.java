@@ -104,6 +104,6 @@ public class SpotShadowSetting extends ClientSetting {
 	}
 
 	static final void method10021(Class668 class668, byte i) {
-		Class514.method6238(class668, Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591, -820514656);
+		Class514.method6238(class668, Class565.MY_PLAYER, -820514656);
 	}
 }

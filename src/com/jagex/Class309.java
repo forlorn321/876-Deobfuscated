@@ -159,7 +159,7 @@ public abstract class Class309 implements Interface6 {
 	}
 
 	static final void method4153(Class668 class668, short i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10885(637868966);
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class565.MY_PLAYER.method10885(637868966);
 	}
 
 	static void method4154(byte[] is, int i) {

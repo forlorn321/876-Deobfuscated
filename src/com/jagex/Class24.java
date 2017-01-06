@@ -13,7 +13,7 @@ public class Class24 implements Interface32 {
 
 	public Interface31 method205(Class308 class308, int i, int i_0_) {
 		if (Class308.aClass308_3456 == class308)
-			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+			return client.PLAYER_LIST[i];
 		if (Class308.aClass308_3457 == class308) {
 			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)
@@ -24,7 +24,7 @@ public class Class24 implements Interface32 {
 
 	public Interface31 method204(Class308 class308, int i) {
 		if (Class308.aClass308_3456 == class308)
-			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+			return client.PLAYER_LIST[i];
 		if (Class308.aClass308_3457 == class308) {
 			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)
@@ -35,7 +35,7 @@ public class Class24 implements Interface32 {
 
 	public Interface31 method203(Class308 class308, int i) {
 		if (Class308.aClass308_3456 == class308)
-			return client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+			return client.PLAYER_LIST[i];
 		if (Class308.aClass308_3457 == class308) {
 			ObjectParam class536_sub13 = (ObjectParam) client.aClass4_11050.method556((long) i);
 			if (null != class536_sub13)

@@ -312,9 +312,9 @@ public class Class677 implements ConfigType {
 			if (i_48_ < 0) {
 				int i_63_ = -i_48_ - 1;
 				if (i_63_ == -1791435655 * client.anInt11156)
-					class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+					class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 				else
-					class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_63_]);
+					class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i_63_]);
 			} else {
 				int i_64_ = i_48_ - 1;
 				ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_64_));

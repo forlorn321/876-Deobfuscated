@@ -80,10 +80,10 @@ public abstract class Class206 implements Interface6 {
 			boolean bool = class536_sub33_sub2.readBits(1) == 1;
 			if (bool)
 				Class95.anIntArray1160[(Class95.anInt1150 += -1305881103) * 38697745 - 1] = i;
-			if (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] != null)
+			if (client.PLAYER_LIST[i] != null)
 				throw new RuntimeException();
 			Class43 class43 = Class95.aClass43Array1162[i];
-			Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Player(client.aClass515_11066.method6249(1569682681))));
+			Player class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i] = (new Player(client.aClass515_11066.method6249(1569682681))));
 			class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
 			if (Class95.playerRenderData[i] != null)
 				class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(Class95.playerRenderData[i]);

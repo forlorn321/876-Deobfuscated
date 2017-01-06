@@ -103,15 +103,15 @@ public class Class586 {
 							}
 						}
 					}
-					if (Class473.method5740((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username), Class302.aClass74_3406, (byte) -9).equals(string_11_))
+					if (Class473.method5740((Class565.MY_PLAYER.username), Class302.aClass74_3406, (byte) -9).equals(string_11_))
 						Class173_Sub1.method8634(4, (Class38.aClass38_379.method840(Class459.CLIENT_PARAMS, 2056636684)), 391318944);
 					else {
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
-						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4502, class106.aClass15_1258, 1006023601);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1311863979) + 1);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
-						class106.method1409(class536_sub23, 1268430293);
+						OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4502, class106.aClass15_1258, 1006023601);
+						class536_sub23.stream.writeByte(Class555.method6802(string, 1311863979) + 1);
+						class536_sub23.stream.writeString(string);
+						class536_sub23.stream.writeByte(bool ? 1 : 0);
+						class106.writePacket(class536_sub23, 1268430293);
 					}
 				}
 			}

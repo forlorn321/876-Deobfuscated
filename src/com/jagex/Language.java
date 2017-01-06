@@ -137,9 +137,9 @@ public class Language implements Interface75 {
 					int i_7_ = (-(class649_sub1_sub5_sub6.anInt12144 * -2056997773) - 1);
 					Player class649_sub1_sub5_sub1_sub2;
 					if (-1791435655 * client.anInt11156 == i_7_)
-						class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1_sub2 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_7_]);
+						class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i_7_]);
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						Class436 class436 = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 						if ((int) class436.aFloat4850 >= 0 && ((int) class436.aFloat4850 < client.aClass515_11066.method6321((byte) 117) * 512) && (int) class436.aFloat4853 >= 0 && ((int) class436.aFloat4853 < (client.aClass515_11066.method6243(177401017) * 512)))

@@ -45,7 +45,7 @@ public class Class205_Sub5 extends Class205 {
 				client.anIntArray11097[i_4_] = 1000000;
 				client.anIntArray11146[i_4_] = 0;
 			}
-			Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+			Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 			Class455 class455 = client.aClass515_11066.method6251(768294815);
 			Class553 class553 = client.aClass515_11066.method6249(1364970554);
 			if (155362615 * Class246.anInt2474 == 1 || 2 == 155362615 * Class246.anInt2474 || 403120773 * Class658.anInt8498 != -1) {

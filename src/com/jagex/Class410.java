@@ -350,7 +350,7 @@ public class Class410 implements Interface4 {
 		boolean bool = false;
 		if (client.aBool10984) {
 			try {
-				Object object = (Class412.aClass412_4387.method5006((new Object[] { Integer.valueOf(Class75.anInt819 * -1158267747), Boolean.valueOf((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte12197) == 1), Integer.valueOf(class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) }), (byte) 16));
+				Object object = (Class412.aClass412_4387.method5006((new Object[] { Integer.valueOf(Class75.anInt819 * -1158267747), Boolean.valueOf((Class565.MY_PLAYER.aByte12197) == 1), Integer.valueOf(class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) }), (byte) 16));
 				if (null != object)
 					bool = ((Boolean) object).booleanValue();
 			} catch (Throwable throwable) {

@@ -8,7 +8,7 @@ public class Class565 {
 	static final int anInt7588 = 2048;
 	public static final int anInt7589 = 16384;
 	static final int anInt7590 = 2048;
-	public static Player aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+	public static Player MY_PLAYER;
 
 	Class565() throws Throwable {
 		throw new Error();

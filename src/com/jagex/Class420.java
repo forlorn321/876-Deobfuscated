@@ -46,7 +46,7 @@ public class Class420 {
 	}
 
 	static final void method5062(Class668 class668, int i) {
-		Class387.method4847(class668, Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591, -2088204263);
+		Class387.method4847(class668, Class565.MY_PLAYER, -2088204263);
 	}
 
 	public static void method5063(String string, boolean bool, String string_1_, boolean bool_2_, byte i) {

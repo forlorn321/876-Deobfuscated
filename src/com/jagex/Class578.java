@@ -19,13 +19,13 @@ public class Class578 {
 	}
 
 	static void method7008(IComponentDefinitions class251, IComponentDefinitions class251_1_, int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4414, client.aClass106_11322.aClass15_1258, 1234471396);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(-1484799213 * class251.anInt2711, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(-1591767037 * class251_1_.anInt2559, -2116010874);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(class251_1_.anInt2546 * -809980533, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(class251.anInt2559 * -1591767037, 1926010801);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1484799213 * class251_1_.anInt2711, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-809980533 * class251.anInt2546, -1411037171);
-		client.aClass106_11322.method1409(class536_sub23, 1526171799);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4414, client.aClass106_11322.aClass15_1258, 1234471396);
+		class536_sub23.stream.writeShort(-1484799213 * class251.anInt2711, -1778059594);
+		class536_sub23.stream.writeIntV1(-1591767037 * class251_1_.anInt2559, -2116010874);
+		class536_sub23.stream.writeShort(class251_1_.anInt2546 * -809980533, -1778059594);
+		class536_sub23.stream.writeIntLE(class251.anInt2559 * -1591767037, 1926010801);
+		class536_sub23.stream.writeShort128(-1484799213 * class251_1_.anInt2711, (byte) 0);
+		class536_sub23.stream.writeLEShort(-809980533 * class251.anInt2546, -1411037171);
+		client.aClass106_11322.writePacket(class536_sub23, 1526171799);
 	}
 }

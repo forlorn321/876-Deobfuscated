@@ -346,9 +346,9 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 				else if (anInt12156 * 591263957 < 0) {
 					int i_35_ = -(591263957 * anInt12156) - 1;
 					if (client.anInt11156 * -1791435655 == i_35_)
-						class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_35_]);
+						class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i_35_]);
 				} else {
 					int i_36_ = 591263957 * anInt12156 - 1;
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_36_));
@@ -443,9 +443,9 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 				else if (anInt12156 * 591263957 < 0) {
 					int i = -(591263957 * anInt12156) - 1;
 					if (client.anInt11156 * -1791435655 == i)
-						class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i]);
+						class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i]);
 				} else {
 					int i = 591263957 * anInt12156 - 1;
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i));
@@ -499,9 +499,9 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 				else if (anInt12156 * 591263957 < 0) {
 					int i = -(591263957 * anInt12156) - 1;
 					if (client.anInt11156 * -1791435655 == i)
-						class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i]);
+						class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i]);
 				} else {
 					int i = 591263957 * anInt12156 - 1;
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i));
@@ -555,9 +555,9 @@ public class Class649_Sub1_Sub5_Sub6 extends Class649_Sub1_Sub5 {
 				else if (anInt12156 * 591263957 < 0) {
 					int i = -(591263957 * anInt12156) - 1;
 					if (client.anInt11156 * -1791435655 == i)
-						class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i]);
+						class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i]);
 				} else {
 					int i = 591263957 * anInt12156 - 1;
 					ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i));

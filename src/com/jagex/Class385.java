@@ -105,6 +105,6 @@ public class Class385 implements Interface47 {
 
 	static final void method4842(Class668 class668, short i) {
 		class668.anInt8542 -= -1411037171;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10881((byte) -41).method7145((byte) -35);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.MY_PLAYER.method10881((byte) -41).method7145((byte) -35);
 	}
 }

@@ -101,7 +101,7 @@ public class Class62 {
 		return anInt700 * 897724319 & 0x3fff;
 	}
 
-	static int[] method1053(Class536_Sub23 class536_sub23, int i) {
+	static int[] method1053(OutgoingPacketContainer class536_sub23, int i) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(518);
 		int[] is = new int[4];
 		for (int i_10_ = 0; i_10_ < 4; i_10_++)
@@ -115,7 +115,7 @@ public class Class62 {
 			class536_sub33.writeInt((int) (Math.random() * 9.9999999E7));
 		class536_sub33.writeShort((int) (Math.random() * 9.9999999E7), -1778059594);
 		class536_sub33.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, -2034700978);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 84);
+		class536_sub23.stream.writeBytes(class536_sub33.buffer, 0, class536_sub33.off * -810172525, (byte) 84);
 		return is;
 	}
 

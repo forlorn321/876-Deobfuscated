@@ -62,14 +62,14 @@ public class Class33 implements Runnable {
 	static final void method798(Class668 class668, int i) {
 		int i_3_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4473, class106.aClass15_1258, 1335974335);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		int i_4_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_3_);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(class668.aClass382_8551.anInt4013 * 810974573, -1778059594);
-		class668.aClass382_8551.aClass536_Sub18_Sub10_4012.method10711(class536_sub23.aClass536_Sub33_Sub2_10528, class668.aClass382_8551.anIntArray4014, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i_4_), 1483827605);
-		class106.method1409(class536_sub23, -123569022);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4473, class106.aClass15_1258, 1335974335);
+		class536_sub23.stream.writeByte(0);
+		int i_4_ = (-810172525 * class536_sub23.stream.off);
+		class536_sub23.stream.writeByte(i_3_);
+		class536_sub23.stream.writeShort(class668.aClass382_8551.anInt4013 * 810974573, -1778059594);
+		class668.aClass382_8551.aClass536_Sub18_Sub10_4012.method10711(class536_sub23.stream, class668.aClass382_8551.anIntArray4014, (byte) 0);
+		class536_sub23.stream.method9699((-810172525 * class536_sub23.stream.off - i_4_), 1483827605);
+		class106.writePacket(class536_sub23, -123569022);
 	}
 
 	static final void method799(Class668 class668, int i) {

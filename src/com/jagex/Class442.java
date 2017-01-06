@@ -52,9 +52,9 @@ public class Class442 implements Interface5 {
 		boolean bool = 1 == class668.anIntArray8541[1867269829 * class668.anInt8542];
 		boolean bool_0_ = (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 1] == 1);
 		boolean bool_1_ = 1 == (class668.anIntArray8541[class668.anInt8542 * 1867269829 + 2]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4452, client.aClass106_11218.aClass15_1258, 1244265029);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(Class555.method6802(string, -1492239936) + 1, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4452, client.aClass106_11218.aClass15_1258, 1244265029);
+		class536_sub23.stream.writeShort(Class555.method6802(string, -1492239936) + 1, -1778059594);
+		class536_sub23.stream.writeString(string);
 		int i_2_ = 0;
 		if (bool)
 			i_2_ |= 0x1;
@@ -62,8 +62,8 @@ public class Class442 implements Interface5 {
 			i_2_ |= 0x2;
 		if (bool_1_)
 			i_2_ |= 0x4;
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_2_);
-		client.aClass106_11218.method1409(class536_sub23, 674054650);
+		class536_sub23.stream.writeByte(i_2_);
+		client.aClass106_11218.writePacket(class536_sub23, 674054650);
 	}
 
 	static final void method5335(byte i) {

@@ -36,13 +36,13 @@ public class Class207 {
 
 	public static final void method2965(String string, String string_2_, byte i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4506, class106.aClass15_1258, 1399244557);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4506, class106.aClass15_1258, 1399244557);
 		if (string_2_.length() > 30)
 			string_2_ = string_2_.substring(0, 30);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 522556789) + Class555.method6802(string_2_, -818730005)));
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_2_);
-		class106.method1409(class536_sub23, 991721859);
+		class536_sub23.stream.writeByte((Class555.method6802(string, 522556789) + Class555.method6802(string_2_, -818730005)));
+		class536_sub23.stream.writeString(string);
+		class536_sub23.stream.writeString(string_2_);
+		class106.writePacket(class536_sub23, 991721859);
 	}
 
 	static final void method2966(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {

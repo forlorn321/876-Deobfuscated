@@ -75,9 +75,9 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 		Class455 class455 = client.aClass515_11066.method6251(2023873427);
 		Class553 class553 = client.aClass515_11066.method6249(1591184838);
 		int i_11_ = i;
-		if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) {
-			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
-			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
+		if (null != Class565.MY_PLAYER) {
+			int i_12_ = ((Class565.MY_PLAYER.screenX[0]) >> 3);
+			int i_13_ = ((Class565.MY_PLAYER.screenY[0]) >> 3);
 			if (i_12_ >= 0 && i_12_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_13_ >= 0 && (i_13_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_].length) && Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_][i_13_])
 				i_11_ = 0;
 		}
@@ -217,7 +217,7 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 				Class598 class598 = client.aClass515_11066.method6255(-1921400371);
 				for (int i_45_ = 0; i_45_ < class543.anInt7234 * -1605869619; i_45_++) {
 					int i_46_ = class543.anIntArray7235[i_45_];
-					if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839 == i_46_ >> 28) {
+					if (Class565.MY_PLAYER.aByte10839 == i_46_ >> 28) {
 						int i_47_ = ((i_46_ >> 14 & 0x3fff) - 1858049507 * class598.anInt7839);
 						int i_48_ = ((i_46_ & 0x3fff) - class598.anInt7840 * 1479112045);
 						if (i_47_ >= 0 && i_47_ < i_9_ && i_48_ >= 0 && i_48_ < i_10_)

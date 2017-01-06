@@ -59,7 +59,7 @@ public class Class510 {
 					client.aClass515_11066.method6292(1613960925).method9379(Class677.aClass167_8609, i_11_, i, i_3_, i_4_, i_5_, i_6_, i_7_, i_8_, i_9_, -1756284379);
 					ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.groundDecorationSetting, i_12_, (byte) 1);
 				}
-				FlickeringSetting.method10092((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), -576910451);
+				FlickeringSetting.method10092((Class565.MY_PLAYER.aByte10839), -576910451);
 			}
 		}
 	}

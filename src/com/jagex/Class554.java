@@ -89,10 +89,10 @@ public abstract class Class554 {
 
 	static final void method6784(Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4516, client.aClass106_11322.aClass15_1258, 1207388917);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(string.length() + 1);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		client.aClass106_11322.method1409(class536_sub23, 1985123058);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4516, client.aClass106_11322.aClass15_1258, 1207388917);
+		class536_sub23.stream.writeByte(string.length() + 1);
+		class536_sub23.stream.writeString(string);
+		client.aClass106_11322.writePacket(class536_sub23, 1985123058);
 	}
 
 	static String method6785(IComponentDefinitions class251, int i) {

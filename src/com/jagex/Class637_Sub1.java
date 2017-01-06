@@ -16,11 +16,11 @@ public class Class637_Sub1 extends Class637 {
 	void method7624(int i) {
 		Class536_Sub31_Sub2 class536_sub31_sub2 = (Class536_Sub31_Sub2) aQueue10826.poll();
 		if (class536_sub31_sub2 != null) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 829843227);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE((class536_sub31_sub2.method9647(-2090995109) | class536_sub31_sub2.method9643((byte) 1) << 16), 1884805680);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(method7628(class536_sub31_sub2, 65535, 52652528), (byte) 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1), (byte) 54);
-			client.aClass106_11322.method1409(class536_sub23, 1114928092);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 829843227);
+			class536_sub23.stream.writeIntLE((class536_sub31_sub2.method9647(-2090995109) | class536_sub31_sub2.method9643((byte) 1) << 16), 1884805680);
+			class536_sub23.stream.writeShort128(method7628(class536_sub31_sub2, 65535, 52652528), (byte) 0);
+			class536_sub23.stream.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1));
+			client.aClass106_11322.writePacket(class536_sub23, 1114928092);
 			class536_sub31_sub2.method9641(-2111772564);
 		}
 	}
@@ -29,8 +29,8 @@ public class Class637_Sub1 extends Class637 {
 		return (!aQueue10826.isEmpty() || (1257646413264406655L * aLong8298 < Class249.method3450(1679308468) - 2000L));
 	}
 
-	Class536_Sub23 method7633(int i) {
-		return Class213.method3075(OutgoingPacket.aClass414_4455, client.aClass106_11322.aClass15_1258, 1667170378);
+	OutgoingPacketContainer method7633(int i) {
+		return Class213.createOutgoingPacket(OutgoingPacket.aClass414_4455, client.aClass106_11322.aClass15_1258, 1667170378);
 	}
 
 	void method9913(RSByteBuffer class536_sub33, Class536_Sub31_Sub2 class536_sub31_sub2, int i) {
@@ -44,11 +44,11 @@ public class Class637_Sub1 extends Class637 {
 	void method7631() {
 		Class536_Sub31_Sub2 class536_sub31_sub2 = (Class536_Sub31_Sub2) aQueue10826.poll();
 		if (class536_sub31_sub2 != null) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 1786998046);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE((class536_sub31_sub2.method9647(-1657912532) | class536_sub31_sub2.method9643((byte) 1) << 16), 1795334448);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(method7628(class536_sub31_sub2, 65535, -195482653), (byte) 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1), (byte) 101);
-			client.aClass106_11322.method1409(class536_sub23, 1236869222);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.CLICK_2, client.aClass106_11322.aClass15_1258, 1786998046);
+			class536_sub23.stream.writeIntLE((class536_sub31_sub2.method9647(-1657912532) | class536_sub31_sub2.method9643((byte) 1) << 16), 1795334448);
+			class536_sub23.stream.writeShort128(method7628(class536_sub31_sub2, 65535, -195482653), (byte) 0);
+			class536_sub23.stream.writeByte128((class536_sub31_sub2.method10820(65536) << 1 | class536_sub31_sub2.method10834(-1411037171) & 0x1));
+			client.aClass106_11322.writePacket(class536_sub23, 1236869222);
 			class536_sub31_sub2.method9641(-2013730592);
 		}
 	}
@@ -61,8 +61,8 @@ public class Class637_Sub1 extends Class637 {
 		method9913(class536_sub33, (Class536_Sub31_Sub2) class536_sub31, 1280517682);
 	}
 
-	Class536_Sub23 method7634() {
-		return Class213.method3075(OutgoingPacket.aClass414_4455, client.aClass106_11322.aClass15_1258, 2040563639);
+	OutgoingPacketContainer method7634() {
+		return Class213.createOutgoingPacket(OutgoingPacket.aClass414_4455, client.aClass106_11322.aClass15_1258, 2040563639);
 	}
 
 	int method7635() {

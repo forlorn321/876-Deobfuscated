@@ -46,8 +46,8 @@ public class Class298 {
 	}
 
 	static final void method4012(Class668 class668, byte i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4508, client.aClass106_11322.aClass15_1258, 1173456635);
-		client.aClass106_11322.method1409(class536_sub23, 1381347610);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4508, client.aClass106_11322.aClass15_1258, 1173456635);
+		client.aClass106_11322.writePacket(class536_sub23, 1381347610);
 	}
 
 	public static void method4013(String string, int i) {

@@ -178,7 +178,7 @@ public class Class324 implements Interface14 {
 	}
 
 	static void method4276(int i) {
-		Class95.anInt1156 = 0;
+		Class95.PLAYERLIST_SIZE = 0;
 		for (int i_23_ = 0; i_23_ < 2048; i_23_++) {
 			Class95.playerRenderData[i_23_] = null;
 			Class95.iconData[i_23_] = null;

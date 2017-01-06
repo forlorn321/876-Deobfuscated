@@ -175,7 +175,7 @@ public class Class262 {
 			npc.anInt11938 = -1906385303 * (235698067 * (npc.aClass296_12174.anInt3318) << 3);
 			if (bool)
 				npc.method10893(i_7_, true, (byte) 108);
-			npc.method11067(plane, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) + x, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) + y, 1 == hasTeleported, npc.method10874(), 753452752);
+			npc.method11067(plane, (Class565.MY_PLAYER.screenX[0]) + x, (Class565.MY_PLAYER.screenY[0]) + y, 1 == hasTeleported, npc.method10874(), 753452752);
 			if (npc.aClass296_12174.method3986(-198439992))
 				Class76.method1155(npc.aByte10839, (npc.screenX[0]), (npc.screenY[0]), 0, null, npc, null, 352877239);
 			if (bool)

@@ -17,14 +17,14 @@ public abstract class Class637 {
 
 	void method7625(short i) {
 		if (method7632((byte) 0)) {
-			Class536_Sub23 class536_sub23 = null;
+			OutgoingPacketContainer class536_sub23 = null;
 			int i_0_ = 0;
 			int i_1_ = 0;
 			int i_2_ = 0;
 			Iterator iterator = aClass708_8297.iterator();
 			while (iterator.hasNext()) {
 				Class536_Sub31 class536_sub31 = (Class536_Sub31) iterator.next();
-				if (null != class536_sub23 && (-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_0_ >= 252 - (6 + method7629(1030757703))))
+				if (null != class536_sub23 && (-810172525 * (class536_sub23.stream.off) - i_0_ >= 252 - (6 + method7629(1030757703))))
 					break;
 				class536_sub31.method6484();
 				int i_3_ = class536_sub31.method9643((byte) 1);
@@ -42,9 +42,9 @@ public abstract class Class637 {
 				else {
 					if (class536_sub23 == null) {
 						class536_sub23 = method7633(1875354728);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-						i_0_ = -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off);
-						class536_sub23.aClass536_Sub33_Sub2_10528.off += 1032351030;
+						class536_sub23.stream.writeByte(0);
+						i_0_ = -810172525 * (class536_sub23.stream.off);
+						class536_sub23.stream.off += 1032351030;
 						i_1_ = 0;
 						i_2_ = 0;
 					}
@@ -66,39 +66,39 @@ public abstract class Class637 {
 					if (i_7_ < 8 && i_5_ >= -32 && i_5_ <= 31 && i_6_ >= -32 && i_6_ <= 31) {
 						i_5_ += 32;
 						i_6_ += 32;
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((i_5_ << 6) + (i_7_ << 12) + i_6_, -1778059594);
+						class536_sub23.stream.writeShort((i_5_ << 6) + (i_7_ << 12) + i_6_, -1778059594);
 					} else if (i_7_ < 32 && i_5_ >= -128 && i_5_ <= 127 && i_6_ >= -128 && i_6_ <= 127) {
 						i_5_ += 128;
 						i_6_ += 128;
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(128 + i_7_);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_6_ + (i_5_ << 8), -1778059594);
+						class536_sub23.stream.writeByte(128 + i_7_);
+						class536_sub23.stream.writeShort(i_6_ + (i_5_ << 8), -1778059594);
 					} else if (i_7_ < 32) {
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_7_ + 192);
+						class536_sub23.stream.writeByte(i_7_ + 192);
 						if (i_4_ == -1 || -1 == i_3_)
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648);
+							class536_sub23.stream.writeInt(-2147483648);
 						else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16);
+							class536_sub23.stream.writeInt(i_4_ | i_3_ << 16);
 					} else {
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((i_7_ & 0x1fff) + 57344, -1778059594);
+						class536_sub23.stream.writeShort((i_7_ & 0x1fff) + 57344, -1778059594);
 						if (i_4_ == -1 || i_3_ == -1)
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-2147483648);
+							class536_sub23.stream.writeInt(-2147483648);
 						else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_ | i_3_ << 16);
+							class536_sub23.stream.writeInt(i_4_ | i_3_ << 16);
 					}
 					i_2_++;
-					method7627(class536_sub23.aClass536_Sub33_Sub2_10528, class536_sub31, -82248126);
+					method7627(class536_sub23.stream, class536_sub31, -82248126);
 					aLong8298 = (class536_sub31.method9645((byte) -74) * -8003679466240051329L);
 					class536_sub31.method9641(-2099117372);
 				}
 			}
 			if (class536_sub23 != null) {
-				class536_sub23.aClass536_Sub33_Sub2_10528.method9699(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_0_, 1446927489);
-				int i_8_ = (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off);
-				class536_sub23.aClass536_Sub33_Sub2_10528.off = i_0_ * 516175515;
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ / i_2_);
-				class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(i_1_ % i_2_);
-				class536_sub23.aClass536_Sub33_Sub2_10528.off = i_8_ * 516175515;
-				client.aClass106_11322.method1409(class536_sub23, 1389331639);
+				class536_sub23.stream.method9699(-810172525 * (class536_sub23.stream.off) - i_0_, 1446927489);
+				int i_8_ = (-810172525 * class536_sub23.stream.off);
+				class536_sub23.stream.off = i_0_ * 516175515;
+				class536_sub23.stream.writeByte(i_1_ / i_2_);
+				class536_sub23.stream.writeByte(i_1_ % i_2_);
+				class536_sub23.stream.off = i_8_ * 516175515;
+				client.aClass106_11322.writePacket(class536_sub23, 1389331639);
 			}
 		}
 		method7624(369851848);
@@ -141,7 +141,7 @@ public abstract class Class637 {
 
 	abstract boolean method7632(byte i);
 
-	abstract Class536_Sub23 method7633(int i);
+	abstract OutgoingPacketContainer method7633(int i);
 
 	Class637() {
 		aLong8298 = 8003679466240051329L;
@@ -149,7 +149,7 @@ public abstract class Class637 {
 		anInt8300 = -2056952257;
 	}
 
-	abstract Class536_Sub23 method7634();
+	abstract OutgoingPacketContainer method7634();
 
 	abstract int method7635();
 

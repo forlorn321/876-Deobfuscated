@@ -26,8 +26,8 @@ public class Class506 {
 					return;
 				class106.anInt1265 = 0;
 				if (!class106.aBool1266 && class106.method1413((short) 23212) != null) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 870919099);
-					class106.method1409(class536_sub23, 567910352);
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 870919099);
+					class106.writePacket(class536_sub23, 567910352);
 					try {
 						class106.method1408(1193199381);
 					} catch (IOException ioexception) {
@@ -50,8 +50,8 @@ public class Class506 {
 					return;
 				class106.anInt1265 = 0;
 				if (!class106.aBool1266 && class106.method1413((short) 27043) != null) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 1835719208);
-					class106.method1409(class536_sub23, -338312800);
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 1835719208);
+					class106.writePacket(class536_sub23, -338312800);
 					try {
 						class106.method1408(1396312959);
 					} catch (IOException ioexception) {
@@ -74,8 +74,8 @@ public class Class506 {
 					return;
 				class106.anInt1265 = 0;
 				if (!class106.aBool1266 && class106.method1413((short) -12124) != null) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 1116261277);
-					class106.method1409(class536_sub23, 1691947664);
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4521, class106.aClass15_1258, 1116261277);
+					class106.writePacket(class536_sub23, 1691947664);
 					try {
 						class106.method1408(304757111);
 					} catch (IOException ioexception) {

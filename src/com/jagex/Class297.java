@@ -51,7 +51,7 @@ public class Class297 implements Interface75 {
 	}
 
 	static void method4007(boolean bool, int i) {
-		Class598 class598 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10881((byte) 27);
+		Class598 class598 = Class565.MY_PLAYER.method10881((byte) 27);
 		Class536_Sub18_Sub14 class536_sub18_sub14 = Class542_Sub1.method6535(1858049507 * class598.anInt7839, 1479112045 * class598.anInt7840);
 		if (null == class536_sub18_sub14)
 			class536_sub18_sub14 = Class542_Sub1.method6563((Class542_Sub1.aClass622_7228.anInt8123) * 1201697905);

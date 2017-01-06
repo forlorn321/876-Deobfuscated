@@ -111,7 +111,7 @@ public class Class27 implements Runnable {
 	}
 
 	static final void method758(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10881((byte) 33).method7145((byte) 76);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.MY_PLAYER.method10881((byte) 33).method7145((byte) 76);
 	}
 
 	static final void method759(Class668 class668, byte i) {
@@ -152,9 +152,9 @@ public class Class27 implements Runnable {
 				int[] is = new int[3];
 				int i_2_ = -1;
 				int i_3_ = -1;
-				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+				Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 				Class598 class598 = client.aClass515_11066.method6255(-2041832532);
-				if (Class542_Sub1.aClass536_Sub18_Sub14_7202.method10767(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839, (((int) class436.aFloat4850 >> 9) + class598.anInt7839 * 1858049507), (((int) class436.aFloat4853 >> 9) + 1479112045 * class598.anInt7840), is, (byte) 5)) {
+				if (Class542_Sub1.aClass536_Sub18_Sub14_7202.method10767(Class565.MY_PLAYER.aByte10839, (((int) class436.aFloat4850 >> 9) + class598.anInt7839 * 1858049507), (((int) class436.aFloat4853 >> 9) + 1479112045 * class598.anInt7840), is, (byte) 5)) {
 					i_2_ = is[1] - Class542_Sub1.anInt7185;
 					i_3_ = is[2] - Class542_Sub1.anInt7186;
 				}

@@ -305,7 +305,7 @@ class Class620 implements Iterator {
 								else {
 									Class143 class143;
 									if (-1 != class251.anInt2711 * -1484799213) {
-										Class617 class617 = (class251.aBool2671 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null);
+										Class617 class617 = (class251.aBool2671 ? (Class565.MY_PLAYER.aClass617_12202) : null);
 										class143 = (Class111.aClass34_Sub13_1391.method10342(Class677.aClass167_8609, (-1484799213 * class251.anInt2711), (-1880327077 * class251.anInt2712), (1960646061 * class251.outline), (~0xffffff | (1514577167 * class251.graphicShadow)), (-1273595415 * class251.anInt2595), class617, -1895524453));
 									} else if (class251.spriteId * 11093663 != -1) {
 										class143 = ((Class143) (client.aClass199_11300.method2886((long) (11093663 * (class251.spriteId)))));
@@ -379,7 +379,7 @@ class Class620 implements Iterator {
 									ItemDecoder class1 = ((ItemDecoder) (Class111.aClass34_Sub13_1391.method70(-1484799213 * class251.anInt2711, (byte) -45)));
 									if (class1 != null) {
 										class1 = (class1.method504((-1880327077 * class251.anInt2712), -174651263));
-										class177 = (class1.method503(Class677.aClass167_8609, i_43_, 1, (class251.aBool2671 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null), class251.aClass688_2653, 0, 0, 0, 0, (byte) 26));
+										class177 = (class1.method503(Class677.aClass167_8609, i_43_, 1, (class251.aBool2671 ? (Class565.MY_PLAYER.aClass617_12202) : null), class251.aClass688_2653, 0, 0, 0, 0, (byte) 26));
 										if (null != class177)
 											i_44_ = -class177.method2562() >> 1;
 										else
@@ -388,7 +388,7 @@ class Class620 implements Iterator {
 								} else if (class251.modelType * 1939619399 == 3) {
 									int i_45_ = class251.modelId * -2011124813;
 									if (i_45_ >= 0 && i_45_ < 2048) {
-										Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_45_]);
+										Player class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i_45_]);
 										if ((null != class649_sub1_sub5_sub1_sub2) && (i_45_ == (-1791435655 * client.anInt11156) || ((Class264.method3677((class649_sub1_sub5_sub1_sub2.username), -311312947)) == (class251.anInt2603 * 2109818095)))) {
 											class177 = (class251.method3502(Class677.aClass167_8609, i_43_, (Class497.aClass34_Sub16_5554), (Class205_Sub7.aClass34_Sub2_9878), (Class172.aClass34_Sub7_1922), (Class111.aClass34_Sub13_1391), Class45.aClass34_Sub11_529, (Class465_Sub1.aClass96_10352), (Class465_Sub1.aClass96_10352), class251.aClass688_2653, (class649_sub1_sub5_sub1_sub2.aClass617_12202), (short) -4149));
 											if (class177 == null && IComponentDefinitions.aBool2724)
@@ -400,11 +400,11 @@ class Class620 implements Iterator {
 									Player class649_sub1_sub5_sub1_sub2 = null;
 									boolean bool_47_ = false;
 									if (i_46_ >= 0 && i_46_ < 2048) {
-										class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_46_]);
+										class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i_46_]);
 										bool_47_ = ((null != class649_sub1_sub5_sub1_sub2) && (((-1791435655 * client.anInt11156) == i_46_) || ((Class264.method3677((class649_sub1_sub5_sub1_sub2.username), -311312947)) == (2109818095 * (class251.anInt2603)))));
 									} else if (-1 == i_46_) {
 										bool_47_ = true;
-										class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591);
+										class649_sub1_sub5_sub1_sub2 = (Class565.MY_PLAYER);
 									} else {
 										Player class649_sub1_sub5_sub1_sub2_48_ = ((Player) (client.aMap11157.get(Integer.valueOf(i_46_))));
 										if ((null != class649_sub1_sub5_sub1_sub2_48_) && (1710020215 * (class649_sub1_sub5_sub1_sub2_48_.anInt11889)) == i_46_) {
@@ -417,13 +417,13 @@ class Class620 implements Iterator {
 								} else if (8 == class251.modelType * 1939619399 || (1939619399 * class251.modelType == 9)) {
 									Class536_Sub1 class536_sub1 = Class659.method7970((-2011124813 * (class251.modelId)), false, -992904672);
 									if (class536_sub1 != null)
-										class177 = (class536_sub1.method9346(Class677.aClass167_8609, i_43_, class251.aClass688_2653, (2109818095 * class251.anInt2603), 9 == (class251.modelType * 1939619399), (class251.aBool2671 ? (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202) : null), -1860430658));
+										class177 = (class536_sub1.method9346(Class677.aClass167_8609, i_43_, class251.aClass688_2653, (2109818095 * class251.anInt2603), 9 == (class251.modelType * 1939619399), (class251.aBool2671 ? (Class565.MY_PLAYER.aClass617_12202) : null), -1860430658));
 								} else if (null == class251.aClass688_2653 || !class251.aClass688_2653.method8121(-823836134)) {
-									class177 = (class251.method3502(Class677.aClass167_8609, i_43_, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class45.aClass34_Sub11_529, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, null, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202), (short) 20956));
+									class177 = (class251.method3502(Class677.aClass167_8609, i_43_, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class45.aClass34_Sub11_529, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, null, (Class565.MY_PLAYER.aClass617_12202), (short) 20956));
 									if (null == class177 && IComponentDefinitions.aBool2724)
 										Class668.method8011(class251, 263642117);
 								} else {
-									class177 = (class251.method3502(Class677.aClass167_8609, i_43_, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class45.aClass34_Sub11_529, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class251.aClass688_2653, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass617_12202), (short) 14955));
+									class177 = (class251.method3502(Class677.aClass167_8609, i_43_, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class45.aClass34_Sub11_529, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class251.aClass688_2653, (Class565.MY_PLAYER.aClass617_12202), (short) 14955));
 									if (null == class177 && IComponentDefinitions.aBool2724)
 										Class668.method8011(class251, 263642117);
 								}

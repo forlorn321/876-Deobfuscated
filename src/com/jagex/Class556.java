@@ -25,10 +25,10 @@ public class Class556 {
 
 	static final void method6806(Class668 class668, int i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4486, client.aClass106_11218.aClass15_1258, 1349982741);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 1082807001));
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		client.aClass106_11218.method1409(class536_sub23, 1699777960);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4486, client.aClass106_11218.aClass15_1258, 1349982741);
+		class536_sub23.stream.writeByte(Class555.method6802(string, 1082807001));
+		class536_sub23.stream.writeString(string);
+		client.aClass106_11218.writePacket(class536_sub23, 1699777960);
 	}
 
 	public static void method6807(Class628 class628, int i) {

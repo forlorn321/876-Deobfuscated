@@ -100,15 +100,15 @@ public class Class283 implements Interface75 {
 						else
 							Class586.aClass106_7710.method1420(Class506.createRSSocket(Class23.aClass5_230.createSocket((byte) 84), 40000, (byte) 90), Class23.aClass5_230.aString112, -1933050734);
 						Class586.aClass106_7710.method1407(-564736805);
-						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1880826857);
+						OutgoingPacketContainer class536_sub23 = Class458_Sub3.method9359(1880826857);
 						if (Class61.aBool647) {
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4580.connectionType));
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-							int i_3_ = ((class536_sub23.aClass536_Sub33_Sub2_10528.off) * -810172525);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(876);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(1);
+							class536_sub23.stream.writeByte((1258126983 * Class420.aClass420_4580.connectionType));
+							class536_sub23.stream.writeShort(0, -1778059594);
+							int i_3_ = ((class536_sub23.stream.off) * -810172525);
+							class536_sub23.stream.writeInt(876);
+							class536_sub23.stream.writeInt(1);
 							if (244 == Class76_Sub1.anInt10981 * 1382700277)
-								class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((17 == -708374433 * client.anInt11101 ? 1 : 0));
+								class536_sub23.stream.writeByte((17 == -708374433 * client.anInt11101 ? 1 : 0));
 							RSByteBuffer stream = Class458_Sub3.method9358((byte) -10);
 							Class655.method7938(stream, (long) (Class61.anInt648 * 1234839363));
 							Class450.aLong4943 = (5595631816110933555L * (long) Class61.anInt648);
@@ -121,11 +121,11 @@ public class Class283 implements Interface75 {
 							stream.writeByte((client.aClass670_11043.anInt8567) * 273023065);
 							stream.writeByte((int) (Math.random() * 9.9999999E7));
 							stream.applyRSA(Class72.LOGIN_PUBLIC_EXPONENT, Class72.LOGIN_PUBLIC_MODULUS, 1699688896);
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeBytes(stream.buffer, 0, stream.off * -810172525, (byte) 6);
-							class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_3_, 309253871);
+							class536_sub23.stream.writeBytes(stream.buffer, 0, stream.off * -810172525, (byte) 6);
+							class536_sub23.stream.method9698(-810172525 * (class536_sub23.stream.off) - i_3_, 309253871);
 						} else
-							class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((1258126983 * Class420.aClass420_4581.connectionType));
-						Class586.aClass106_7710.method1409(class536_sub23, 461885639);
+							class536_sub23.stream.writeByte((1258126983 * Class420.aClass420_4581.connectionType));
+						Class586.aClass106_7710.writePacket(class536_sub23, 461885639);
 						Class586.aClass106_7710.method1408(-553916622);
 						Class61.loginStage = -1657664224;
 					}
@@ -190,8 +190,8 @@ public class Class283 implements Interface75 {
 					if (82 == -129171495 * Class61.loginStage) {
 						Class586.aClass106_7710.byteBuffer.off = 0;
 						Class586.aClass106_7710.method1407(-462750759);
-						Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1968268194);
-						RSBitBuffer stream = class536_sub23.aClass536_Sub33_Sub2_10528;
+						OutgoingPacketContainer class536_sub23 = Class458_Sub3.method9359(1968268194);
+						RSBitBuffer stream = class536_sub23.stream;
 						if (244 == Class76_Sub1.anInt10981 * 1382700277) {
 							Class420 class420;
 							if (Class61.aBool647)
@@ -295,7 +295,7 @@ public class Class283 implements Interface75 {
 							stream.method9725(Class234.anIntArray2380, i_11_, -810172525 * stream.off, -2045710808);
 							stream.method9698((-810172525 * stream.off - i_10_), 1200013464);
 						}
-						Class586.aClass106_7710.method1409(class536_sub23, 597023125);
+						Class586.aClass106_7710.writePacket(class536_sub23, 597023125);
 						Class586.aClass106_7710.method1408(1730274143);
 						Class586.aClass106_7710.aClass15_1258 = new Class15(Class234.anIntArray2380);
 						for (int i_13_ = 0; i_13_ < 4; i_13_++)
@@ -469,10 +469,10 @@ public class Class283 implements Interface75 {
 								ObjTypeTransformation.aClass147_Sub1_7791.anInterface3_1696.method18(706703961 * class430.anInt4820, class430.anObject4819, (byte) -56);
 							}
 							if (bool) {
-								Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(2043701963);
-								RSBitBuffer class536_sub33_sub2 = (class536_sub23.aClass536_Sub33_Sub2_10528);
+								OutgoingPacketContainer class536_sub23 = Class458_Sub3.method9359(2043701963);
+								RSBitBuffer class536_sub33_sub2 = (class536_sub23.stream);
 								class536_sub33_sub2.writeByte((1258126983 * Class420.aClass420_4577.connectionType));
-								Class586.aClass106_7710.method1409(class536_sub23, 193095407);
+								Class586.aClass106_7710.writePacket(class536_sub23, 193095407);
 								Class586.aClass106_7710.method1408(2145499619);
 								Class61.loginStage = -1572759818;
 							} else
@@ -543,7 +543,7 @@ public class Class283 implements Interface75 {
 								client.anInt11118 = stream.readUnsignedByte() * 1771788825;
 								client.aBool11078 = stream.readUnsignedByte() == 1;
 								Class75.anInt819 = stream.read24BitInteger((byte) 115) * 89794997;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte12197 = (byte) stream.readUnsignedByte();
+								Class565.MY_PLAYER.aByte12197 = (byte) stream.readUnsignedByte();
 								client.aBool11163 = stream.readUnsignedByte() == 1;
 								client.aBool11303 = stream.readUnsignedByte() == 1;
 								Class471.aLong5361 = (stream.readLong() * -3451902742676028657L);
@@ -563,7 +563,7 @@ public class Class283 implements Interface75 {
 								Class66.anInt723 = (stream.readUnsignedShort() * -860628261);
 								NPCHeadIconCustomization.anInt3454 = (stream.readUnsignedShort() * 434166907);
 								Class151.aBool1712 = stream.readUnsignedByte() == 1;
-								Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.username = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
+								Class565.MY_PLAYER.username = Class565.MY_PLAYER.aString12192 = RuntimeException_Sub1.aString12036 = stream.readVersionedString();
 								Class646.anInt8360 = stream.readUnsignedByte() * 431261749;
 								Class622.anInt8127 = stream.readInt() * 57169007;
 								Class23.aClass5_228 = new Class5();

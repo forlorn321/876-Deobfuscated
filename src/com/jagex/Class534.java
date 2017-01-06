@@ -20,9 +20,9 @@ public class Class534 implements Interface64 {
 
 	static final void method6468(Class668 class668, int i) {
 		int i_0_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4515, client.aClass106_11322.aClass15_1258, 663786877);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_0_, -1778059594);
-		client.aClass106_11322.method1409(class536_sub23, 1884156957);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4515, client.aClass106_11322.aClass15_1258, 663786877);
+		class536_sub23.stream.writeShort(i_0_, -1778059594);
+		client.aClass106_11322.writePacket(class536_sub23, 1884156957);
 	}
 
 	static final void method6469(IComponentDefinitions class251, Class234 class234, Class668 class668, int i) {

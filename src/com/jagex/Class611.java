@@ -39,11 +39,11 @@ public class Class611 implements Interface75 {
 	static final void method7277(Class668 class668, byte i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		String string_0_ = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4457, client.aClass106_11218.aClass15_1258, 2065455689);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((Class555.method6802(string, 883535022) + Class555.method6802(string_0_, -420371775)), -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_);
-		client.aClass106_11218.method1409(class536_sub23, 1718592966);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4457, client.aClass106_11218.aClass15_1258, 2065455689);
+		class536_sub23.stream.writeShort((Class555.method6802(string, 883535022) + Class555.method6802(string_0_, -420371775)), -1778059594);
+		class536_sub23.stream.writeString(string);
+		class536_sub23.stream.writeString(string_0_);
+		client.aClass106_11218.writePacket(class536_sub23, 1718592966);
 	}
 
 	static void method7278(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1, int i, int i_1_) {
@@ -59,9 +59,9 @@ public class Class611 implements Interface75 {
 
 	static void method7279(int i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4443, class106.aClass15_1258, 1030764888);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt11063 * -1672186801);
-		class106.method1409(class536_sub23, -76972843);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4443, class106.aClass15_1258, 1030764888);
+		class536_sub23.stream.writeInt(client.anInt11063 * -1672186801);
+		class106.writePacket(class536_sub23, -76972843);
 	}
 
 	static void method7280(Class167 class167, Class536_Sub41 class536_sub41, Class248 class248, int i) {

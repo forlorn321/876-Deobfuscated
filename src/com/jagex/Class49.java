@@ -87,10 +87,10 @@ public class Class49 {
 							client.aClass31Array11291[i_4_] = client.aClass31Array11291[i_4_ + 1];
 						client.anInt11231 = client.anInt11215 * 1286029873;
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
-						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4477, class106.aClass15_1258, 1985049189);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, 577105588));
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-						class106.method1409(class536_sub23, 2002805730);
+						OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4477, class106.aClass15_1258, 1985049189);
+						class536_sub23.stream.writeByte(Class555.method6802(string, 577105588));
+						class536_sub23.stream.writeString(string);
+						class106.writePacket(class536_sub23, 2002805730);
 						break;
 					}
 				}
