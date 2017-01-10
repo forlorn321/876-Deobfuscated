@@ -15,7 +15,7 @@ public class PlayerAppearance {
 	public int[] colors;
 	ItemEffects[] aClass12Array8073;
 	public static final int anInt8074 = -2147483648;
-	public int[] anIntArray8075;
+	public int[] textures;
 	public boolean aBool8076;
 	public static final int anInt8077 = 4;
 	long aLong8078;
@@ -35,7 +35,7 @@ public class PlayerAppearance {
 		anIntArray8071 = is;
 		aClass12Array8073 = class12s;
 		colors = is_0_;
-		anIntArray8075 = is_1_;
+		textures = is_1_;
 		aBool8076 = bool;
 		anInt8079 = 1381953609 * i_2_;
 		method7363(-2103263168);
@@ -56,7 +56,7 @@ public class PlayerAppearance {
 	}
 
 	public void method7343(int i, int i_6_, int i_7_) {
-		anIntArray8075[i] = i_6_;
+		textures[i] = i_6_;
 		method7363(2027737916);
 	}
 
@@ -247,9 +247,9 @@ public class PlayerAppearance {
 					}
 				}
 				for (int i_44_ = 0; i_44_ < 10; i_44_++) {
-					for (int i_45_ = 0; (i_45_ < Class710_Sub4.aShortArrayArray10822[i_44_].length); i_45_++) {
-						if (anIntArray8075[i_44_] < (Class44.aShortArrayArrayArray520[i_44_][i_45_]).length)
-							class177.method2509((Class710_Sub4.aShortArrayArray10822[i_44_][i_45_]), (Class44.aShortArrayArrayArray520[i_44_][i_45_][anIntArray8075[i_44_]]));
+					for (int i_45_ = 0; (i_45_ < Class710_Sub4.skinTextures[i_44_].length); i_45_++) {
+						if (textures[i_44_] < (Class44.skinTextures[i_44_][i_45_]).length)
+							class177.method2509((Class710_Sub4.skinTextures[i_44_][i_45_]), (Class44.skinTextures[i_44_][i_45_][textures[i_44_]]));
 					}
 				}
 				class177.method2501();
@@ -361,9 +361,9 @@ public class PlayerAppearance {
 				}
 			}
 			for (int i_60_ = 0; i_60_ < 10; i_60_++) {
-				for (int i_61_ = 0; i_61_ < Class710_Sub4.aShortArrayArray10822[i_60_].length; i_61_++) {
-					if (anIntArray8075[i_60_] < (Class44.aShortArrayArrayArray520[i_60_][i_61_]).length)
-						class177.method2509((Class710_Sub4.aShortArrayArray10822[i_60_][i_61_]), (Class44.aShortArrayArrayArray520[i_60_][i_61_][anIntArray8075[i_60_]]));
+				for (int i_61_ = 0; i_61_ < Class710_Sub4.skinTextures[i_60_].length; i_61_++) {
+					if (textures[i_60_] < (Class44.skinTextures[i_60_][i_61_]).length)
+						class177.method2509((Class710_Sub4.skinTextures[i_60_][i_61_]), (Class44.skinTextures[i_60_][i_61_][textures[i_60_]]));
 				}
 			}
 			class177.method2465(i_51_);
@@ -411,9 +411,9 @@ public class PlayerAppearance {
 					}
 				}
 				for (int i_72_ = 0; i_72_ < 10; i_72_++) {
-					for (int i_73_ = 0; (i_73_ < Class710_Sub4.aShortArrayArray10822[i_72_].length); i_73_++) {
-						if (anIntArray8075[i_72_] < (Class44.aShortArrayArrayArray520[i_72_][i_73_]).length)
-							class177.method2509((Class710_Sub4.aShortArrayArray10822[i_72_][i_73_]), (Class44.aShortArrayArrayArray520[i_72_][i_73_][anIntArray8075[i_72_]]));
+					for (int i_73_ = 0; (i_73_ < Class710_Sub4.skinTextures[i_72_].length); i_73_++) {
+						if (textures[i_72_] < (Class44.skinTextures[i_72_][i_73_]).length)
+							class177.method2509((Class710_Sub4.skinTextures[i_72_][i_73_]), (Class44.skinTextures[i_72_][i_73_][textures[i_72_]]));
 					}
 				}
 				class177.method2465(i_67_);
@@ -511,7 +511,7 @@ public class PlayerAppearance {
 		for (int i = 0; i < 10; i++)
 			aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) colors[i]) & 0xffL)]));
 		for (int i = 0; i < 10; i++)
-			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) anIntArray8075[i]) & 0xffL)]) * -7740964439852778563L;
+			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) textures[i]) & 0xffL)]) * -7740964439852778563L;
 		aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) (aBool8076 ? 1 : 0)) & 0xffL)]));
 	}
 
@@ -568,7 +568,7 @@ public class PlayerAppearance {
 		for (int i = 0; i < 10; i++)
 			aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) colors[i]) & 0xffL)]));
 		for (int i = 0; i < 10; i++)
-			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) anIntArray8075[i]) & 0xffL)]) * -7740964439852778563L;
+			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) textures[i]) & 0xffL)]) * -7740964439852778563L;
 		aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) (aBool8076 ? 1 : 0)) & 0xffL)]));
 	}
 
@@ -700,7 +700,7 @@ public class PlayerAppearance {
 		for (int i_97_ = 0; i_97_ < 10; i_97_++)
 			aLong8078 = (-7740964439852778563L * (8665352308600706965L * aLong8078 >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) colors[i_97_]) & 0xffL)]));
 		for (int i_98_ = 0; i_98_ < 10; i_98_++)
-			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) anIntArray8075[i_98_]) & 0xffL)]) * -7740964439852778563L;
+			aLong8078 = (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) textures[i_98_]) & 0xffL)]) * -7740964439852778563L;
 		aLong8078 = (-7740964439852778563L * (aLong8078 * 8665352308600706965L >>> 8 ^ ls[(int) ((aLong8078 * 8665352308600706965L ^ (long) (aBool8076 ? 1 : 0)) & 0xffL)]));
 	}
 

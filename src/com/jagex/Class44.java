@@ -9,7 +9,7 @@ public class Class44 {
 	int anInt517;
 	int anInt518;
 	int anInt519;
-	public static short[][][] aShortArrayArrayArray520;
+	public static short[][][] skinTextures;
 
 	Class44(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		anInt515 = 1702590229 * i;

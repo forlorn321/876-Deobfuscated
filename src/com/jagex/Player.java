@@ -1095,7 +1095,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		int[] is_136_ = new int[10];
 		for (int i_137_ = 0; i_137_ < 10; i_137_++) {
 			int i_138_ = stream.readUnsignedByte();
-			if (Class44.aShortArrayArrayArray520.length < 1 || i_138_ < 0 || (i_138_ >= Class44.aShortArrayArrayArray520[i_137_][0].length))
+			if (Class44.skinTextures.length < 1 || i_138_ < 0 || (i_138_ >= Class44.skinTextures[i_137_][0].length))
 				i_138_ = 0;
 			is_136_[i_137_] = i_138_;
 		}

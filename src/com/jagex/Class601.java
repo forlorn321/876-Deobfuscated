@@ -234,8 +234,8 @@ public class Class601 implements Interface75 {
 			Class388.method4849((Class184_Sub2.aClass461_9443.method5595((Class633.aClass633_8257.anInt8258 * -848473139), -2073080638)), (byte) -90);
 			Class500.skinColors = Class644.aClass628_8352.aShortArrayArray8189;
 			Class267.skinColors = Class644.aClass628_8352.aShortArrayArrayArray8202;
-			Class710_Sub4.aShortArrayArray10822 = Class644.aClass628_8352.aShortArrayArray8203;
-			Class44.aShortArrayArrayArray520 = Class644.aClass628_8352.aShortArrayArrayArray8204;
+			Class710_Sub4.skinTextures = Class644.aClass628_8352.aShortArrayArray8203;
+			Class44.skinTextures = Class644.aClass628_8352.aShortArrayArrayArray8204;
 			if (-1 != Class644.aClass628_8352.anInt8209 * 40680465 && Class644.aClass628_8352.anInt8227 * -1332536013 != -1) {
 				client.anInt11152 = Class644.aClass628_8352.anInt8209 * 450786931;
 				client.anInt11153 = 450748111 * Class644.aClass628_8352.anInt8227;

@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class710_Sub4 extends ClientSetting {
-	public static short[][] aShortArrayArray10822;
+	public static short[][] skinTextures;
 	public static final int anInt10823 = 2;
 	public static final int anInt10824 = 1;
 	public static final int anInt10825 = 0;
