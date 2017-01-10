@@ -165,7 +165,7 @@ public class Class103 {
 				int i_27_ = 0;
 				if (null != class143)
 					i_27_ = class143.method1752();
-				FontRenderer class184 = Class18.aClass184_190;
+				FontRenderer class184 = Class18.FONT_RENDERER;
 				Class2 class2 = Class556.aClass2_7510;
 				if (class248.anInt2486 * 1093270539 == 1) {
 					class184 = Clan.aClass184_10488;

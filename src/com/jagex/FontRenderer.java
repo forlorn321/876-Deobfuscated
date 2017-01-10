@@ -891,8 +891,8 @@ public abstract class FontRenderer {
 										i_231_ = client.anIntArray11321[0];
 									}
 								}
-								FontRenderer class184 = Class18.aClass184_190;
-								FontRenderer class184_236_ = Class18.aClass184_190;
+								FontRenderer class184 = Class18.FONT_RENDERER;
+								FontRenderer class184_236_ = Class18.FONT_RENDERER;
 								Class2 class2 = Class556.aClass2_7510;
 								Class2 class2_237_ = Class556.aClass2_7510;
 								int i_238_ = class587.anInt7719 * -1272543053;

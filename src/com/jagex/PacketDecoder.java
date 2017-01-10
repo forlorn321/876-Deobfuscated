@@ -1799,7 +1799,7 @@ public class PacketDecoder {
 			int i_300_ = stream.readUnsignedShort();
 			Class402 class402 = ((Class402) Class682.method8091(Class402.method4922(1530576446), stream.readUnsignedByte(), 1858049507));
 			boolean bool = (i_300_ & 0x8000) != 0;
-			if (player.username != null && player.aClass617_12202 != null) {
+			if (player.username != null && player.appearance != null) {
 				boolean bool_301_ = false;
 				if (class402.aBool4203) {
 					if (!bool && (client.aBool11078 && !client.aBool11163 || client.aBool11166))

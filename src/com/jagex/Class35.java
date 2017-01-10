@@ -14,7 +14,7 @@ public class Class35 {
 	static int anInt299;
 
 	public static void method818(GraphicalRenderer class167) {
-		Class18.aClass184_190 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, -219992997 * anInt295, true, true, (byte) -6));
+		Class18.FONT_RENDERER = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, -219992997 * anInt295, true, true, (byte) -6));
 		Class556.aClass2_7510 = Class196.aClass410_2202.method4981(client.anInterface51_11196, -219992997 * anInt295, -1985074106);
 		Clan.aClass184_10488 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, 1743452435 * anInt298, true, true, (byte) -38));
 		Class223.aClass2_2338 = Class196.aClass410_2202.method4981(client.anInterface51_11196, anInt298 * 1743452435, -1648086483);
@@ -23,7 +23,7 @@ public class Class35 {
 	}
 
 	public static void method819(GraphicalRenderer class167) {
-		Class18.aClass184_190 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, -219992997 * anInt295, true, true, (byte) -17));
+		Class18.FONT_RENDERER = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, -219992997 * anInt295, true, true, (byte) -17));
 		Class556.aClass2_7510 = Class196.aClass410_2202.method4981(client.anInterface51_11196, -219992997 * anInt295, -491577424);
 		Clan.aClass184_10488 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, 1743452435 * anInt298, true, true, (byte) -42));
 		Class223.aClass2_2338 = Class196.aClass410_2202.method4981(client.anInterface51_11196, anInt298 * 1743452435, -1233971761);

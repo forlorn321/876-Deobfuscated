@@ -755,7 +755,7 @@ public class Class515 {
 		aClass553_7003.method6694(client.anInt11027 * -562745919, 1336159818);
 		aClass553_7003.method6741(aHashMap7034, 1556382578);
 		if (client.anInt11027 * -562745919 != 0)
-			aClass553_7003.method6695(Class18.aClass184_190, (byte) -61);
+			aClass553_7003.method6695(Class18.FONT_RENDERER, (byte) -61);
 		else
 			aClass553_7003.method6695(null, (byte) -3);
 		aClass501_7010 = new Class501();

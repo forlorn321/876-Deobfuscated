@@ -97,7 +97,7 @@ public class Class257 implements Interface27 {
 			int i_16_ = 0 == i_12_ ? 0 : 100 * i_14_ / i_12_;
 			int i_17_ = i_12_ == 0 ? 0 : i_13_ * 10000 / i_12_;
 			String string_18_ = new StringBuilder().append("Cache:").append(Class650.method7859((long) i_17_, 2, true, Language.aClass664_8524, 497890603)).append("% (").append(i_16_).append("%)").toString();
-			Class18.aClass184_190.method2741(string_18_, i_3_, i_4_, -256, -1, -153408222);
+			Class18.FONT_RENDERER.method2741(string_18_, i_3_, i_4_, -256, -1, -153408222);
 			i_4_ += 12;
 		}
 	}

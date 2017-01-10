@@ -611,7 +611,7 @@ public class Class105 {
 		class668.anInt8544 -= -402808782;
 		String string = ((String) class668.anObjectArray8543[class668.anInt8544 * 366709801]);
 		String string_27_ = ((String) class668.anObjectArray8543[class668.anInt8544 * 366709801 + 1]);
-		if (Class565.MY_PLAYER.aClass617_12202 != null && (Class565.MY_PLAYER.aClass617_12202.aBool8076))
+		if (Class565.MY_PLAYER.appearance != null && (Class565.MY_PLAYER.appearance.aBool8076))
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string_27_;
 		else
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string;

@@ -303,7 +303,7 @@ public final class Class199 {
 	}
 
 	public static void method2908(GraphicalRenderer class167, int i) {
-		Class18.aClass184_190 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (-219992997 * Class35.anInt295), true, true, (byte) 1));
+		Class18.FONT_RENDERER = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (-219992997 * Class35.anInt295), true, true, (byte) 1));
 		Class556.aClass2_7510 = Class196.aClass410_2202.method4981(client.anInterface51_11196, -219992997 * Class35.anInt295, 1446493303);
 		Clan.aClass184_10488 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (1743452435 * Class35.anInt298), true, true, (byte) -78));
 		Class223.aClass2_2338 = Class196.aClass410_2202.method4981(client.anInterface51_11196, Class35.anInt298 * 1743452435, 1528507160);

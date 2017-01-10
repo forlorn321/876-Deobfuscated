@@ -28,7 +28,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	public int transformNPC;
 	public Class210 aClass210_12200;
 	public Class623 aClass623_12201;
-	public PlayerAppearance aClass617_12202;
+	public PlayerAppearance appearance;
 
 	public Player(Class553 class553, int i) {
 		super(class553, i, Class532.aClass98_Sub1_Sub1_7122);
@@ -132,7 +132,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	Class563 method9944(GraphicalRenderer class167, byte i) {
-		if (aClass617_12202 == null || !method11089(class167, 2048, 1228636418))
+		if (appearance == null || !method11089(class167, 2048, 1228636418))
 			return null;
 		Class433 class433 = class167.method2091();
 		Class433 class433_13_ = method7851();
@@ -150,14 +150,14 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
 			BASTypeDecoder class589 = method10877(407379079);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 96))).aBool3265)) {
+			if (class589.aBool7778 && (-1 == -587726343 * appearance.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) 96))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1247322779) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-1772101721) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_16_ = Class644.aClass628_8352.aShort8186;
 				byte i_17_ = Class644.aClass628_8352.aByte8199;
-				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_16_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -31))).aShort3314;
-					i_17_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -27))).aByte3315;
+				if (appearance.anInt8079 * -587726343 != -1) {
+					i_16_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -31))).aShort3314;
+					i_17_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -27))).aByte3315;
 				}
 				Object object = null;
 				MeshRasterizer class177;
@@ -237,7 +237,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	void method9945(GraphicalRenderer class167, int i) {
-		if (aClass617_12202 != null && (aBool11931 || method11089(class167, 0, -1163035825))) {
+		if (appearance != null && (aBool11931 || method11089(class167, 0, -1163035825))) {
 			Class433 class433 = class167.method2091();
 			class433.method5191(method7837());
 			class433.method5200(0.0F, -5.0F, 0.0F);
@@ -302,14 +302,14 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public final boolean method11088(int i) {
-		if (null == aClass617_12202)
+		if (null == appearance)
 			return false;
 		return true;
 	}
 
 	public int method10874() {
-		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 5)).anInt3272 * 830254667);
+		if (null != appearance && -587726343 * appearance.anInt8079 != -1)
+			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (appearance.anInt8079)), (byte) 5)).anInt3272 * 830254667);
 		return super.method10874();
 	}
 
@@ -361,8 +361,8 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public int method10903() {
-		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -64)).anInt3272) * 830254667);
+		if (null != appearance && -587726343 * appearance.anInt8079 != -1)
+			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (appearance.anInt8079)), (byte) -64)).anInt3272) * 830254667);
 		return super.method10874();
 	}
 
@@ -416,7 +416,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	Class563 method9965(GraphicalRenderer class167) {
-		if (aClass617_12202 == null || !method11089(class167, 2048, -41189478))
+		if (appearance == null || !method11089(class167, 2048, -41189478))
 			return null;
 		Class433 class433 = class167.method2091();
 		Class433 class433_39_ = method7851();
@@ -434,14 +434,14 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
 			BASTypeDecoder class589 = method10877(-1477732075);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 63))).aBool3265)) {
+			if (class589.aBool7778 && (-1 == -587726343 * appearance.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) 63))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1497788714) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-2074918880) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_41_ = Class644.aClass628_8352.aShort8186;
 				byte i_42_ = Class644.aClass628_8352.aByte8199;
-				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_41_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -14))).aShort3314;
-					i_42_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -34))).aByte3315;
+				if (appearance.anInt8079 * -587726343 != -1) {
+					i_41_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -14))).aShort3314;
+					i_42_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -34))).aByte3315;
 				}
 				Object object = null;
 				MeshRasterizer class177;
@@ -558,7 +558,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	boolean method9969(GraphicalRenderer class167, int i, int i_53_) {
-		if (null == aClass617_12202 || !method11089(class167, 131072, 1754321439))
+		if (null == appearance || !method11089(class167, 131072, 1754321439))
 			return false;
 		Class433 class433 = method7851();
 		boolean bool = false;
@@ -584,7 +584,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	Class563 method9966(GraphicalRenderer class167) {
-		if (aClass617_12202 == null || !method11089(class167, 2048, -29797067))
+		if (appearance == null || !method11089(class167, 2048, -29797067))
 			return null;
 		Class433 class433 = class167.method2091();
 		Class433 class433_56_ = method7851();
@@ -602,14 +602,14 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
 			BASTypeDecoder class589 = method10877(-225976905);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 35))).aBool3265)) {
+			if (class589.aBool7778 && (-1 == -587726343 * appearance.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) 35))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1850758818) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-2064803389) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_58_ = Class644.aClass628_8352.aShort8186;
 				byte i_59_ = Class644.aClass628_8352.aByte8199;
-				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_58_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -49))).aShort3314;
-					i_59_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -84))).aByte3315;
+				if (appearance.anInt8079 * -587726343 != -1) {
+					i_58_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -49))).aShort3314;
+					i_59_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -84))).aByte3315;
 				}
 				Object object = null;
 				MeshRasterizer class177;
@@ -689,7 +689,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	void method9967(GraphicalRenderer class167) {
-		if (aClass617_12202 != null && (aBool11931 || method11089(class167, 0, -975188663))) {
+		if (appearance != null && (aBool11931 || method11089(class167, 0, -975188663))) {
 			Class433 class433 = class167.method2091();
 			class433.method5191(method7837());
 			class433.method5200(0.0F, -5.0F, 0.0F);
@@ -700,7 +700,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	void method9975(GraphicalRenderer class167) {
-		if (aClass617_12202 != null && (aBool11931 || method11089(class167, 0, 459003066))) {
+		if (appearance != null && (aBool11931 || method11089(class167, 0, 459003066))) {
 			Class433 class433 = class167.method2091();
 			class433.method5191(method7837());
 			class433.method5200(0.0F, -5.0F, 0.0F);
@@ -723,7 +723,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		boolean bool = (0 != aByte11958 && client.cycles >= -329856901 * anInt11926 && client.cycles < -736181855 * anInt11927);
 		if (bool)
 			i |= 0x80000;
-		MeshRasterizer class177 = (aClass177Array11953[0] = aClass617_12202.method7345(class167, i, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_74_, true, Class71.aClass631_796, 16711680));
+		MeshRasterizer class177 = (aClass177Array11953[0] = appearance.method7345(class167, i, Class497.aClass34_Sub16_5554, Class205_Sub7.aClass34_Sub2_9878, Class172.aClass34_Sub7_1922, Class111.aClass34_Sub13_1391, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_74_, true, Class71.aClass631_796, 16711680));
 		int i_75_ = Class36.method829(-862353037);
 		if (GameShell.maxMemory * -839563813 < 96 && i_75_ > 50)
 			Class99.method1332((byte) 11);
@@ -763,7 +763,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	boolean method9957(GraphicalRenderer class167, int i, int i_77_) {
-		if (null == aClass617_12202 || !method11089(class167, 131072, 1656446957))
+		if (null == appearance || !method11089(class167, 131072, 1656446957))
 			return false;
 		Class433 class433 = method7851();
 		boolean bool = false;
@@ -811,13 +811,13 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public int method10902() {
-		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) -19)).anInt3272) * 830254667);
+		if (null != appearance && -587726343 * appearance.anInt8079 != -1)
+			return ((((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (appearance.anInt8079)), (byte) -19)).anInt3272) * 830254667);
 		return super.method10874();
 	}
 
 	Class563 method9985(GraphicalRenderer class167) {
-		if (aClass617_12202 == null || !method11089(class167, 2048, 918244321))
+		if (appearance == null || !method11089(class167, 2048, 918244321))
 			return null;
 		Class433 class433 = class167.method2091();
 		Class433 class433_88_ = method7851();
@@ -835,14 +835,14 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 		aBool11917 = false;
 		if (ClientSetting.aClass536_Sub40_8843.spotShadowSetting.method10014(-1904559876) == 1) {
 			BASTypeDecoder class589 = method10877(-666449940);
-			if (class589.aBool7778 && (-1 == -587726343 * aClass617_12202.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 9))).aBool3265)) {
+			if (class589.aBool7778 && (-1 == -587726343 * appearance.anInt8079 || ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) 9))).aBool3265)) {
 				Class688 class688 = ((aClass688_11925.method8121(-1693903310) && aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
 				Class688_Sub3 class688_sub3 = ((aClass688_Sub3_11914.method8121(-242886574) && (!aClass688_Sub3_11914.aBool10975 || class688 == null)) ? aClass688_Sub3_11914 : null);
 				short i_90_ = Class644.aClass628_8352.aShort8186;
 				byte i_91_ = Class644.aClass628_8352.aByte8199;
-				if (aClass617_12202.anInt8079 * -587726343 != -1) {
-					i_90_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) -68))).aShort3314;
-					i_91_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * aClass617_12202.anInt8079, (byte) 64))).aByte3315;
+				if (appearance.anInt8079 * -587726343 != -1) {
+					i_90_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) -68))).aShort3314;
+					i_91_ = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * appearance.anInt8079, (byte) 64))).aByte3315;
 				}
 				Object object = null;
 				MeshRasterizer class177;
@@ -922,8 +922,8 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	public int method10904() {
-		if (null != aClass617_12202 && -587726343 * aClass617_12202.anInt8079 != -1)
-			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (aClass617_12202.anInt8079)), (byte) 79)).anInt3272 * 830254667);
+		if (null != appearance && -587726343 * appearance.anInt8079 != -1)
+			return (((NPCDecoder) Class172.aClass34_Sub7_1922.method70((-587726343 * (appearance.anInt8079)), (byte) 79)).anInt3272 * 830254667);
 		return super.method10874();
 	}
 
@@ -1007,7 +1007,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	boolean method9939(GraphicalRenderer class167, int i, int i_110_, byte i_111_) {
-		if (null == aClass617_12202 || !method11089(class167, 131072, -350100517))
+		if (null == appearance || !method11089(class167, 131072, -350100517))
 			return false;
 		Class433 class433 = method7851();
 		boolean bool = false;
@@ -1023,7 +1023,7 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 	}
 
 	boolean method9971(GraphicalRenderer class167, int i, int i_120_) {
-		if (null == aClass617_12202 || !method11089(class167, 131072, -1228725661))
+		if (null == appearance || !method11089(class167, 131072, -1228725661))
 			return false;
 		Class433 class433 = method7851();
 		boolean bool = false;
@@ -1100,11 +1100,11 @@ public class Player extends Class649_Sub1_Sub5_Sub1 {
 			is_136_[i_137_] = i_138_;
 		}
 		anInt12182 = stream.readUnsignedShort() * 1741785803;
-		if (aClass617_12202 == null)
-			aClass617_12202 = new PlayerAppearance();
-		int i_139_ = aClass617_12202.anInt8079 * -587726343;
-		int[] is_140_ = aClass617_12202.colors;
-		aClass617_12202.method7340(method10897(1991099139), is, itemEffects, is_133_, is_136_, 1 == aByte12197, i_124_, (byte) -65);
+		if (appearance == null)
+			appearance = new PlayerAppearance();
+		int i_139_ = appearance.anInt8079 * -587726343;
+		int[] is_140_ = appearance.colors;
+		appearance.method7340(method10897(1991099139), is, itemEffects, is_133_, is_136_, 1 == aByte12197, i_124_, (byte) -65);
 		if (i_139_ != i_124_) {
 			Class436 class436 = Class436.method5240(method7837().aClass436_4823);
 			class436.aFloat4850 = (float) ((screenX[0] << 9) + (method10874() << 8));

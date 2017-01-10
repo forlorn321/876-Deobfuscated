@@ -118,16 +118,16 @@ public class Class679 implements Interface75 {
 		class668.anInt8542 -= 1472892954;
 		int i_2_ = class668.anIntArray8541[class668.anInt8542 * 1867269829];
 		int i_3_ = class668.anIntArray8541[1 + 1867269829 * class668.anInt8542];
-		if (null != Class565.MY_PLAYER.aClass617_12202) {
+		if (null != Class565.MY_PLAYER.appearance) {
 			for (int i_4_ = 0; i_4_ < Class313.anIntArray3497.length; i_4_++) {
 				if (i_2_ == Class313.anIntArray3497[i_4_]) {
-					Class565.MY_PLAYER.aClass617_12202.method7350(i_4_, i_3_, Class205_Sub7.aClass34_Sub2_9878, -1793063308);
+					Class565.MY_PLAYER.appearance.method7350(i_4_, i_3_, Class205_Sub7.aClass34_Sub2_9878, -1793063308);
 					return;
 				}
 			}
 			for (int i_5_ = 0; i_5_ < Class313.anIntArray3498.length; i_5_++) {
 				if (i_2_ == Class313.anIntArray3498[i_5_]) {
-					Class565.MY_PLAYER.aClass617_12202.method7350(i_5_, i_3_, Class205_Sub7.aClass34_Sub2_9878, -1600530731);
+					Class565.MY_PLAYER.appearance.method7350(i_5_, i_3_, Class205_Sub7.aClass34_Sub2_9878, -1600530731);
 					break;
 				}
 			}

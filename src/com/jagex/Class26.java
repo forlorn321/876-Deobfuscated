@@ -184,7 +184,7 @@ public class Class26 {
 				}
 			}
 		}
-		Class18.aClass184_190.method2741("876 1", Class144.anInt1679 * -1804846931 - 25, 330, -1, -16777216, -1516754983);
+		Class18.FONT_RENDERER.method2741("876 1", Class144.anInt1679 * -1804846931 - 25, 330, -1, -16777216, -1516754983);
 		class167.method2369(0, 0, Class144.anInt1679 * -1804846931, 350);
 		class167.method2059(0, 350 - 1213913633 * Class105.anInt1237, Class144.anInt1679 * -1804846931, -1, -1399442393);
 		aClass184_248.renderText(new StringBuilder().append("--> ").append(Class580.method7015(Class105.aString1243, 659315203)).toString(), 10, (350 - 1780869003 * Class260.aClass2_2840.anInt92 - 1), -1, -16777216, (byte) -23);
@@ -288,7 +288,7 @@ public class Class26 {
 				boolean bool_35_ = false;
 				if ((Class565.MY_PLAYER.anInt12191 * 1717228615) != 0 && (player.anInt12191 * 1717228615 != 0) && ((Class565.MY_PLAYER.anInt12191 * 1717228615) == (player.anInt12191 * 1717228615)))
 					bool_35_ = true;
-				if (null != player.aClass617_12202 && -1 != -587726343 * (player.aClass617_12202.anInt8079) && ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70((player.aClass617_12202.anInt8079) * -587726343, (byte) 47))).aBool3339)
+				if (null != player.appearance && -1 != -587726343 * (player.appearance.anInt8079) && ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70((player.appearance.anInt8079) * -587726343, (byte) 47))).aBool3339)
 					Class533.method6467(class251, class161, i_25_, i_26_, i_30_, i_31_, Class35.aClass143Array292[1], (byte) 84);
 				else if (Class210.aClass210_2259 == player.aClass210_12200)
 					Class533.method6467(class251, class161, i_25_, i_26_, i_30_, i_31_, Class35.aClass143Array292[8], (byte) 39);

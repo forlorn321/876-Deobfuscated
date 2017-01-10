@@ -290,8 +290,8 @@ public class Class512 {
 		class668.anInt8542 -= 1472892954;
 		int i_11_ = class668.anIntArray8541[1867269829 * class668.anInt8542];
 		int i_12_ = class668.anIntArray8541[1867269829 * class668.anInt8542 + 1];
-		if (null != Class565.MY_PLAYER.aClass617_12202)
-			Class565.MY_PLAYER.aClass617_12202.method7354(i_11_, i_12_, Class111.aClass34_Sub13_1391, 1376312589);
+		if (null != Class565.MY_PLAYER.appearance)
+			Class565.MY_PLAYER.appearance.method7354(i_11_, i_12_, Class111.aClass34_Sub13_1391, 1376312589);
 	}
 
 	static final void method6213(Class668 class668, int i) {

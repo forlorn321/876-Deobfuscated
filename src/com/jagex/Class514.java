@@ -65,6 +65,6 @@ public class Class514 {
 	}
 
 	static final void method6239(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class565.MY_PLAYER.aClass617_12202 != null) && (Class565.MY_PLAYER.aClass617_12202.aBool8076)) ? 1 : 0;
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ((Class565.MY_PLAYER.appearance != null) && (Class565.MY_PLAYER.appearance.aBool8076)) ? 1 : 0;
 	}
 }

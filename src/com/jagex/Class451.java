@@ -32,8 +32,8 @@ public class Class451 implements Interface75 {
 
 	static final void method5429(Class668 class668, int i) {
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) != 0);
-		if (null != Class565.MY_PLAYER.aClass617_12202)
-			Class565.MY_PLAYER.aClass617_12202.method7357(bool, 741179106);
+		if (null != Class565.MY_PLAYER.appearance)
+			Class565.MY_PLAYER.appearance.method7357(bool, 741179106);
 	}
 
 	static final void method5430(Class668 class668, short i) {
@@ -81,11 +81,11 @@ public class Class451 implements Interface75 {
 				else
 					string = new StringBuilder().append(class649_sub1_sub5_sub1_sub2.method11085(true, (byte) 1)).append(Class40.aString493).append(Class38.aClass38_360.method840(Class459.CLIENT_PARAMS, 1435049222)).append(class649_sub1_sub5_sub1_sub2.anInt12189 * -1543258759).append(Class40.aString494).toString();
 				boolean bool_5_ = false;
-				if (null != class649_sub1_sub5_sub1_sub2.aClass617_12202 && (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079 * -587726343) != -1) {
-					NPCDecoder class296 = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) -2)));
+				if (null != class649_sub1_sub5_sub1_sub2.appearance && (class649_sub1_sub5_sub1_sub2.appearance.anInt8079 * -587726343) != -1) {
+					NPCDecoder class296 = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.appearance.anInt8079), (byte) -2)));
 					if (class296.aBool3339) {
 						bool_5_ = true;
-						string = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.aClass617_12202.anInt8079), (byte) 35))).aString3271;
+						string = ((NPCDecoder) (Class172.aClass34_Sub7_1922.method70(-587726343 * (class649_sub1_sub5_sub1_sub2.appearance.anInt8079), (byte) 35))).aString3271;
 						if (1188862419 * class296.anInt3292 != 0) {
 							String string_6_ = ((GameMode.aClass670_8575 == client.aClass670_11043) ? (Class38.aClass38_441.method840(Class459.CLIENT_PARAMS, 1395734488)) : (Class38.aClass38_480.method840(Class459.CLIENT_PARAMS, 2067180394)));
 							string = new StringBuilder().append(string).append(Class457.method5492(class296.anInt3292 * 1188862419, (611144047 * (Class565.MY_PLAYER.anInt12186)), -17766460)).append(Class40.aString493).append(string_6_).append(1188862419 * class296.anInt3292).append(Class40.aString494).toString();

@@ -38,7 +38,7 @@ class Class228 implements Interface42 {
 	}
 
 	static void method3288(GraphicalRenderer class167, IComponentDefinitions class251, int i) {
-		boolean bool = ((Class111.aClass34_Sub13_1391.method10342(class167, -1484799213 * class251.anInt2711, -1880327077 * class251.anInt2712, 1960646061 * class251.outline, ~0xffffff | class251.graphicShadow * 1514577167, -1273595415 * class251.anInt2595, (class251.aBool2671 ? Class565.MY_PLAYER.aClass617_12202 : null), -2142406631)) == null);
+		boolean bool = ((Class111.aClass34_Sub13_1391.method10342(class167, -1484799213 * class251.anInt2711, -1880327077 * class251.anInt2712, 1960646061 * class251.outline, ~0xffffff | class251.graphicShadow * 1514577167, -1273595415 * class251.anInt2595, (class251.aBool2671 ? Class565.MY_PLAYER.appearance : null), -2142406631)) == null);
 		if (bool) {
 			Class54.aClass708_602.method8335(new Class536_Sub5(class251.anInt2711 * -1484799213, -1880327077 * class251.anInt2712, class251.outline * 1960646061, ~0xffffff | 1514577167 * class251.graphicShadow, class251.anInt2595 * -1273595415, class251.aBool2671), 152341297);
 			Class668.method8011(class251, 263642117);
