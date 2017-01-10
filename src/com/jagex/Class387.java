@@ -44,7 +44,7 @@ public class Class387 implements Interface49 {
 		aBool4039 = bool;
 	}
 
-	public static void method4846(Class553 class553, Class167 class167, int i) {
+	public static void method4846(Class553 class553, GraphicalRenderer class167, int i) {
 		Iterator iterator = Class626.aList8161.iterator();
 		while (iterator.hasNext()) {
 			Class627 class627 = (Class627) iterator.next();

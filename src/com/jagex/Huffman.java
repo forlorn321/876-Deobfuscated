@@ -300,10 +300,10 @@ public class Huffman {
 		return i_40_ + 1 - i;
 	}
 
-	static Class143 method3771(byte[] is, byte i) {
+	static NativeSprite method3771(byte[] is, byte i) {
 		if (null == is)
 			throw new RuntimeException("");
-		Class143 class143;
+		NativeSprite class143;
 		for (;;) {
 			try {
 				Image image = Toolkit.getDefaultToolkit().createImage(is);
@@ -318,7 +318,7 @@ public class Huffman {
 				int[] is_45_ = new int[i_44_ * i_43_];
 				PixelGrabber pixelgrabber = new PixelGrabber(image, 0, 0, i_43_, i_44_, is_45_, 0, i_43_);
 				pixelgrabber.grabPixels();
-				class143 = Class677.aClass167_8609.method2081(is_45_, 0, i_43_, i_43_, i_44_, (byte) -26);
+				class143 = Class677.aClass167_8609.createNativeSprite(is_45_, 0, i_43_, i_43_, i_44_, (byte) -26);
 				break;
 			} catch (InterruptedException interruptedexception) {
 				/* empty */

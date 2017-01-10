@@ -127,7 +127,7 @@ public class Class27 implements Runnable {
 		client.aBool11015 = false;
 	}
 
-	static final void method761(Class167 class167, Class174 class174, int i) {
+	static final void method761(GraphicalRenderer class167, Class174 class174, int i) {
 		if (Class542_Sub1.anInt10700 * 962386111 != 100 && Class542_Sub1.aClass536_Sub18_Sub14_7202 != null) {
 			Class249.method3450(1557328514);
 			Class249.method3450(1962156685);
@@ -246,7 +246,7 @@ public class Class27 implements Runnable {
 				for (int i_4_ = 0; i_4_ < 3; i_4_++) {
 					for (int i_5_ = 0; i_5_ < 5; i_5_++) {
 						if (null == (Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_]) || null == (Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_])) {
-							Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_] = ((Class184) (Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), true, true, (byte) -124)));
+							Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_] = ((FontRenderer) (Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), true, true, (byte) -124)));
 							Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_] = (Class196.aClass410_2202.method4981(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), 1765934720));
 							if ((Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_]) != null && (Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_]) != null)
 								Class542_Sub1.anInt10700 += 1704445373;

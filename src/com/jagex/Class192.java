@@ -33,7 +33,7 @@ class Class192 implements Interface42 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10172(1602714949) ? 1 : 0;
 	}
 
-	public static void method2842(Class167 class167, long l) {
+	public static void method2842(GraphicalRenderer class167, long l) {
 		Class626.anInt8153 = 1485776131 * Class626.anInt8160;
 		Class626.anInt8160 = 0;
 		Class249.method3450(1465734066);

@@ -93,7 +93,7 @@ public class Class219 implements Interface27 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -33)).equipLookHideSlot) * 2087922159;
 	}
 
-	public static Class167 method3105(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_8_, int i_9_) {
+	public static GraphicalRenderer method3105(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_8_, int i_9_) {
 		int i_10_ = 0;
 		int i_11_ = 0;
 		if (null != canvas) {
@@ -101,6 +101,6 @@ public class Class219 implements Interface27 {
 			i_10_ = dimension.width;
 			i_11_ = dimension.height;
 		}
-		return Class167.method2142(i, canvas, class174, interface24, interface47, interface48, interface46, class461, i_8_, i_10_, i_11_, (byte) -12);
+		return GraphicalRenderer.method2142(i, canvas, class174, interface24, interface47, interface48, interface46, class461, i_8_, i_10_, i_11_, (byte) -12);
 	}
 }

@@ -977,7 +977,7 @@ public final class client extends GameShell {
 						} else if (Class44.method882(259854151) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(359282232);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
 							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 2087486238)), (byte) -113);
 					}
@@ -1052,7 +1052,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_5_ = Class66.method1077(bufferedimage, -1755254907);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_5_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -117));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_5_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -117));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(1836620767), ioexception, (byte) -26);
@@ -4246,7 +4246,7 @@ public final class client extends GameShell {
 						} else if (Class44.method882(765303365) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(1327422080);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
 							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1338285243)), (byte) -85);
 					}
@@ -4321,7 +4321,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_226_ = Class66.method1077(bufferedimage, -1655573017);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_226_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -107));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_226_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -107));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(21887516), ioexception, (byte) -92);
@@ -5930,7 +5930,7 @@ public final class client extends GameShell {
 						} else if (Class44.method882(320657273) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(557142479);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
 							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1584865630)), (byte) -21);
 					}
@@ -6005,7 +6005,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_270_ = Class66.method1077(bufferedimage, -869751986);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_270_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -56));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_270_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -56));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(1184482271), ioexception, (byte) -101);
@@ -6074,7 +6074,7 @@ public final class client extends GameShell {
 						} else if (Class44.method882(666746671) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(1712997656);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
 							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1802097441)), (byte) -16);
 					}
@@ -6149,7 +6149,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_272_ = Class66.method1077(bufferedimage, -1112578753);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_272_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -102));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_272_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -102));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(-1155404374), ioexception, (byte) 23);

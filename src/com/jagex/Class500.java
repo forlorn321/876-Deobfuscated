@@ -10,7 +10,7 @@ public class Class500 {
 	protected static int anInt6841;
 	public int anInt6842;
 	public Class688 aClass688_6843;
-	public static short[][] aShortArrayArray6844;
+	public static short[][] skinColors;
 
 	Class500(Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1) {
 		aClass688_6843 = new Class688_Sub2(class649_sub1_sub5_sub1, false);

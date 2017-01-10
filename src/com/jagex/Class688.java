@@ -25,7 +25,7 @@ public class Class688 {
 		anInt8683 = i * 826435197;
 	}
 
-	public final void method8119(Class177 class177, byte i) {
+	public final void method8119(MeshRasterizer class177, byte i) {
 		if (null != aClass191_8676.anIntArray2155 && method8141(-1719759936)) {
 			class177.method2482(aClass704_8687.aClass536_Sub18_Sub17_8808, aClass704_8687.anInt8806 * -347676463);
 			if (aBool8686 && aClass191_8676.anIntArray2156 != null && aClass704_8677.aBool8807)
@@ -81,7 +81,7 @@ public class Class688 {
 		method8126(i, 0, 0, bool, 695339144);
 	}
 
-	public final void method8132(Class177 class177, int i, int i_9_) {
+	public final void method8132(MeshRasterizer class177, int i, int i_9_) {
 		if (null != aClass191_8676) {
 			if (null != aClass191_8676.anIntArray2155 && method8141(-1202012395)) {
 				class177.method2479(aClass704_8687.aClass536_Sub18_Sub17_8808, -347676463 * aClass704_8687.anInt8806, aClass704_8687.aClass536_Sub18_Sub17_8809, 1412721225 * aClass704_8687.anInt8805, anInt8680 * 1937301297, (aClass191_8676.anIntArray2157[anInt8678 * -1632963705]), i, aClass191_8676.aBool2152);
@@ -91,7 +91,7 @@ public class Class688 {
 		}
 	}
 
-	public final void method8133(Class177 class177, int i, int i_10_, int i_11_) {
+	public final void method8133(MeshRasterizer class177, int i, int i_10_, int i_11_) {
 		if (aClass191_8676.anIntArray2155 != null && method8141(591759829)) {
 			class177.method2481(aClass704_8687.aClass536_Sub18_Sub17_8808, aClass704_8687.anInt8806 * -347676463, aClass704_8687.aClass536_Sub18_Sub17_8809, 1412721225 * aClass704_8687.anInt8805, anInt8680 * 1937301297, (aClass191_8676.anIntArray2157[-1632963705 * anInt8678]), i, i_10_, aClass191_8676.aBool2152, null);
 			if (aBool8686 && aClass191_8676.anIntArray2156 != null && aClass704_8677.aBool8807)

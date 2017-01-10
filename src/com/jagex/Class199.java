@@ -302,12 +302,12 @@ public final class Class199 {
 		return (i >= ObjShapes.aClass606_7883.anInt7878 * -723459231 && i <= ObjShapes.aClass606_7877.anInt7878 * -723459231);
 	}
 
-	public static void method2908(Class167 class167, int i) {
-		Class18.aClass184_190 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (-219992997 * Class35.anInt295), true, true, (byte) 1));
+	public static void method2908(GraphicalRenderer class167, int i) {
+		Class18.aClass184_190 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (-219992997 * Class35.anInt295), true, true, (byte) 1));
 		Class556.aClass2_7510 = Class196.aClass410_2202.method4981(client.anInterface51_11196, -219992997 * Class35.anInt295, 1446493303);
-		Clan.aClass184_10488 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (1743452435 * Class35.anInt298), true, true, (byte) -78));
+		Clan.aClass184_10488 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (1743452435 * Class35.anInt298), true, true, (byte) -78));
 		Class223.aClass2_2338 = Class196.aClass410_2202.method4981(client.anInterface51_11196, Class35.anInt298 * 1743452435, 1528507160);
-		Class26.aClass184_248 = ((Class184) Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class35.anInt294 * 1622294095), true, true, (byte) -42));
+		Class26.aClass184_248 = ((FontRenderer) Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class35.anInt294 * 1622294095), true, true, (byte) -42));
 		Class260.aClass2_2840 = Class196.aClass410_2202.method4981(client.anInterface51_11196, 1622294095 * Class35.anInt294, -1803730983);
 	}
 
@@ -403,7 +403,7 @@ public final class Class199 {
 	static final void method2912(int i, int i_27_, int i_28_, int i_29_, byte i_30_) {
 		Class22.method716(Class677.aClass167_8609, -2131423477);
 		JS5ConfigGroup.method7833(i, i_27_, i_28_, i_29_, 256, 256, (byte) 127);
-		Class184.method2767(i, i_27_, i_28_, i_29_, 256, 256, 1645574689);
+		FontRenderer.method2767(i, i_27_, i_28_, i_29_, 256, 256, 1645574689);
 		Class232.method3325(i, i_27_, i_28_, i_29_, 256, 256, -631686314);
 		Class591.method7111(i, i_27_, i_28_, i_29_, -744312771);
 	}

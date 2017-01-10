@@ -62,14 +62,14 @@ public class AccountType implements Interface75 {
 		}
 	}
 
-	static void method8030(Class167 class167, byte i) {
+	static void method8030(GraphicalRenderer class167, byte i) {
 		int i_9_ = -467577567 * Class312.anInt3487;
 		int i_10_ = 1644471179 * Class70.anInt768;
 		int i_11_ = Class2.anInt95 * 917143623;
 		int i_12_ = Class153.anInt1719 * -311054579 - 3;
 		int i_13_ = 20;
 		if (Class642.aClass184_8333 == null || null == Class287.aClass2_3209) {
-			Class642.aClass184_8333 = ((Class184) Class196.aClass410_2202.method4980((client.anInterface51_11196), (Class301.anInt3400 * 614229123), true, true, (byte) 12));
+			Class642.aClass184_8333 = ((FontRenderer) Class196.aClass410_2202.method4980((client.anInterface51_11196), (Class301.anInt3400 * 614229123), true, true, (byte) 12));
 			Class287.aClass2_3209 = Class196.aClass410_2202.method4981((client.anInterface51_11196), (614229123 * Class301.anInt3400), -1041916677);
 			if (null != Class642.aClass184_8333 && Class287.aClass2_3209 != null) {
 				Class51.method930(-1398418648);
@@ -82,7 +82,7 @@ public class AccountType implements Interface75 {
 				return;
 			}
 		}
-		Class184 class184;
+		FontRenderer class184;
 		if (null == Class642.aClass184_8333 || null == Class287.aClass2_3209)
 			class184 = Class26.aClass184_248;
 		else

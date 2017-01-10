@@ -19,7 +19,7 @@ public class Class465_Sub1 extends Class465 {
 	Class34_Sub17 aClass34_Sub17_10351;
 	public static Class96 aClass96_10352;
 
-	public final void method9376(Class167 class167, RSByteBuffer class536_sub33, int i, int i_0_, int i_1_) {
+	public final void method9376(GraphicalRenderer class167, RSByteBuffer class536_sub33, int i, int i_0_, int i_1_) {
 		if (!aBool5298) {
 			class536_sub33.off += -165563176;
 			boolean bool = false;
@@ -175,7 +175,7 @@ public class Class465_Sub1 extends Class465 {
 		}
 	}
 
-	public final void method9377(Class167 class167, RSByteBuffer class536_sub33, int i, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_, byte i_40_) {
+	public final void method9377(GraphicalRenderer class167, RSByteBuffer class536_sub33, int i, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_, byte i_40_) {
 		if (!aBool5298) {
 			class536_sub33.off += -165563176;
 			boolean bool = false;
@@ -305,7 +305,7 @@ public class Class465_Sub1 extends Class465 {
 		}
 	}
 
-	public final void method9378(Class167 class167, byte[] is, int i, int i_68_, int i_69_, int i_70_, int i_71_, int i_72_, int i_73_, byte i_74_) {
+	public final void method9378(GraphicalRenderer class167, byte[] is, int i, int i_68_, int i_69_, int i_70_, int i_71_, int i_72_, int i_73_, byte i_74_) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_75_ = -1;
 		for (;;) {
@@ -347,7 +347,7 @@ public class Class465_Sub1 extends Class465 {
 		}
 	}
 
-	final void method9379(Class167 class167, int i, int i_91_, int i_92_, int i_93_, int i_94_, int i_95_, int i_96_, int i_97_, int i_98_, int i_99_) {
+	final void method9379(GraphicalRenderer class167, int i, int i_91_, int i_92_, int i_93_, int i_94_, int i_95_, int i_96_, int i_97_, int i_98_, int i_99_) {
 		if (i_91_ < anInt10339 * 1660037511)
 			anInt10339 = -1099740105 * i_91_;
 		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_10351.method70(i_94_, (byte) 11);
@@ -461,7 +461,7 @@ public class Class465_Sub1 extends Class465 {
 		return interface59;
 	}
 
-	boolean method9381(Class167 class167, int i, int i_118_, boolean bool, ObjTypeDecoder class612, int i_119_, int i_120_, int i_121_, int i_122_, int i_123_, int i_124_, int i_125_, int i_126_, int i_127_, int i_128_) {
+	boolean method9381(GraphicalRenderer class167, int i, int i_118_, boolean bool, ObjTypeDecoder class612, int i_119_, int i_120_, int i_121_, int i_122_, int i_123_, int i_124_, int i_125_, int i_126_, int i_127_, int i_128_) {
 		if (-723459231 * ObjShapes.aClass606_7888.anInt7878 == i) {
 			Class649_Sub1_Sub4 class649_sub1_sub4;
 			if (bool) {
@@ -548,7 +548,7 @@ public class Class465_Sub1 extends Class465 {
 		return false;
 	}
 
-	void method9382(Class167 class167, int i, int i_137_, int i_138_, int i_139_, byte i_140_) {
+	void method9382(GraphicalRenderer class167, int i, int i_137_, int i_138_, int i_139_, byte i_140_) {
 		Interface59 interface59 = method9380(i, i_137_, i_138_, i_139_, -1689402463);
 		if (null != interface59) {
 			ObjTypeDecoder class612 = ((ObjTypeDecoder) aClass34_Sub17_10351.method70(interface59.method373((byte) 24), (byte) 4));
@@ -587,7 +587,7 @@ public class Class465_Sub1 extends Class465 {
 		}
 	}
 
-	public final void method9383(Class167 class167, boolean bool, int i) {
+	public final void method9383(GraphicalRenderer class167, boolean bool, int i) {
 		aClass553_5269.method6727();
 		if (!bool) {
 			if (-1581600933 * anInt5241 > 1) {
@@ -647,7 +647,7 @@ public class Class465_Sub1 extends Class465 {
 		aClass636_10346 = class636;
 	}
 
-	public final void method9384(Class167 class167, byte[] is, int i, int i_159_, int i_160_) {
+	public final void method9384(GraphicalRenderer class167, byte[] is, int i, int i_159_, int i_160_) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		int i_161_ = -1;
 		for (;;) {
@@ -694,7 +694,7 @@ public class Class465_Sub1 extends Class465 {
 		anIntArray10340 = new int[] { -1, -1, 1, 1 };
 	}
 
-	boolean method9385(Class167 class167, int i, int i_177_, boolean bool, ObjTypeDecoder class612, int i_178_, int i_179_, int i_180_, int i_181_, int i_182_, int i_183_, int i_184_, int i_185_, int i_186_, boolean bool_187_, Class160 class160, int i_188_, int i_189_, int i_190_) {
+	boolean method9385(GraphicalRenderer class167, int i, int i_177_, boolean bool, ObjTypeDecoder class612, int i_178_, int i_179_, int i_180_, int i_181_, int i_182_, int i_183_, int i_184_, int i_185_, int i_186_, boolean bool_187_, Class160 class160, int i_188_, int i_189_, int i_190_) {
 		if (i == -723459231 * ObjShapes.aClass606_7892.anInt7878) {
 			int i_191_ = 1174186059 * class612.anInt7995;
 			if (aBool10349 && -1 == 1174186059 * class612.anInt7995)

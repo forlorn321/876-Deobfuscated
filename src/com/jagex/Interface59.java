@@ -16,9 +16,9 @@ public interface Interface59 {
 
 	public boolean method370(int i);
 
-	public void method371(Class167 class167, int i);
+	public void method371(GraphicalRenderer class167, int i);
 
-	public void method372(Class167 class167, int i);
+	public void method372(GraphicalRenderer class167, int i);
 
 	public int method373(byte i);
 
@@ -46,11 +46,11 @@ public interface Interface59 {
 
 	public boolean method381();
 
-	public void method382(Class167 class167);
+	public void method382(GraphicalRenderer class167);
 
 	public void method270();
 
-	public void method383(Class167 class167);
+	public void method383(GraphicalRenderer class167);
 
-	public void method384(Class167 class167);
+	public void method384(GraphicalRenderer class167);
 }

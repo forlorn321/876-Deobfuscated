@@ -81,7 +81,7 @@ public class Class49 {
 					Class31 class31 = client.aClass31Array11291[i_1_];
 					String string_2_ = class31.aString266;
 					String string_3_ = Class473.method5740(string_2_, Class302.aClass74_3406, (byte) -70);
-					if (Class184.method2764(string, string_0_, string_2_, string_3_, -850056868)) {
+					if (FontRenderer.method2764(string, string_0_, string_2_, string_3_, -850056868)) {
 						client.anInt11288 -= 500239751;
 						for (int i_4_ = i_1_; i_4_ < 142551095 * client.anInt11288; i_4_++)
 							client.aClass31Array11291[i_4_] = client.aClass31Array11291[i_4_ + 1];

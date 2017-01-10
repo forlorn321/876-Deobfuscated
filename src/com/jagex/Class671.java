@@ -110,7 +110,7 @@ public class Class671 {
 			}
 			int i_14_ = i_7_ * i_13_ + i_8_ * i_12_ >> 14;
 			int i_15_ = i_8_ * i_13_ - i_12_ * i_7_ >> 14;
-			Class143 class143 = Class688_Sub2_Sub1.aClass143Array11872[i_9_];
+			NativeSprite class143 = Class688_Sub2_Sub1.aClass143Array11872[i_9_];
 			int i_16_ = class143.method1720();
 			int i_17_ = class143.method1752();
 			int i_18_ = i_14_ + class251.anInt2573 * -1606950689 / 2 - i_16_ / 2;

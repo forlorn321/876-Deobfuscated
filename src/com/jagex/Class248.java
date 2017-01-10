@@ -239,10 +239,10 @@ public class Class248 implements ConfigType {
 		return true;
 	}
 
-	public Class143 method3430(Class167 class167, boolean bool, int i) {
+	public NativeSprite method3430(GraphicalRenderer class167, boolean bool, int i) {
 		int i_18_ = bool ? -1002957977 * anInt2482 : 400801363 * anInt2481;
 		int i_19_ = i_18_ | 1526643673 * class167.anInt1850 << 29;
-		Class143 class143 = ((Class143) aClass247_2516.aClass199_2477.method2886((long) i_19_));
+		NativeSprite class143 = ((NativeSprite) aClass247_2516.aClass199_2477.method2886((long) i_19_));
 		if (class143 != null)
 			return class143;
 		if (!aClass247_2516.aClass461_2476.method5580(i_18_, -964514165))
@@ -255,9 +255,9 @@ public class Class248 implements ConfigType {
 		return class143;
 	}
 
-	public Class143 method3431(Class167 class167, int i) {
+	public NativeSprite method3431(GraphicalRenderer class167, int i) {
 		int i_20_ = -1695002333 * anInt2525 | class167.anInt1850 * 1526643673 << 29;
-		Class143 class143 = ((Class143) aClass247_2516.aClass199_2477.method2886((long) i_20_));
+		NativeSprite class143 = ((NativeSprite) aClass247_2516.aClass199_2477.method2886((long) i_20_));
 		if (class143 != null)
 			return class143;
 		if (!aClass247_2516.aClass461_2476.method5580(-1695002333 * anInt2525, -964514165))
@@ -270,8 +270,8 @@ public class Class248 implements ConfigType {
 		return class143;
 	}
 
-	public Class143 method3432(Class167 class167, int i) {
-		Class143 class143 = (Class143) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
+	public NativeSprite method3432(GraphicalRenderer class167, int i) {
+		NativeSprite class143 = (NativeSprite) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
 		if (class143 != null)
 			return class143;
 		aClass247_2516.aClass461_2476.method5580(-793613357 * anInt2504, -964514165);
@@ -598,8 +598,8 @@ public class Class248 implements ConfigType {
 		return 2083602213 * class536_sub26.value;
 	}
 
-	public Class143 method3438(Class167 class167) {
-		Class143 class143 = (Class143) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
+	public NativeSprite method3438(GraphicalRenderer class167) {
+		NativeSprite class143 = (NativeSprite) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
 		if (class143 != null)
 			return class143;
 		aClass247_2516.aClass461_2476.method5580(-793613357 * anInt2504, -964514165);
@@ -611,8 +611,8 @@ public class Class248 implements ConfigType {
 		return class143;
 	}
 
-	public Class143 method3439(Class167 class167) {
-		Class143 class143 = (Class143) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
+	public NativeSprite method3439(GraphicalRenderer class167) {
+		NativeSprite class143 = (NativeSprite) (aClass247_2516.aClass199_2477.method2886((long) (anInt2504 * -793613357 | 0x20000 | 1526643673 * class167.anInt1850 << 29)));
 		if (class143 != null)
 			return class143;
 		aClass247_2516.aClass461_2476.method5580(-793613357 * anInt2504, -964514165);

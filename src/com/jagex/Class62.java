@@ -6,7 +6,7 @@ package com.jagex;
 public class Class62 {
 	int anInt699;
 	public int anInt700;
-	static Class143[] aClass143Array701;
+	static NativeSprite[] aClass143Array701;
 
 	public void method1044(int i) {
 		anInt700 = 400501855 * i;

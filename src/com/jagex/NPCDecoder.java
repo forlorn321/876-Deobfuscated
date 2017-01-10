@@ -666,7 +666,7 @@ public class NPCDecoder implements ConfigType {
 		aStringArray3288 = (String[]) aClass309_3268.aStringArray3464.clone();
 	}
 
-	public final Class177 method3981(Class167 class167, int i, Interface20 interface20, Interface18 interface18, Class688 class688, NPCCustomization class304, short i_76_) {
+	public final MeshRasterizer method3981(GraphicalRenderer class167, int i, Interface20 interface20, Interface18 interface18, Class688 class688, NPCCustomization class304, short i_76_) {
 		if (anIntArray3304 != null) {
 			NPCDecoder class296_77_ = method3984(interface20, interface18, (byte) -27);
 			if (class296_77_ == null)
@@ -681,9 +681,9 @@ public class NPCDecoder implements ConfigType {
 		long l = (long) (anInt3270 * -1647549559 | 1526643673 * class167.anInt1850 << 16);
 		if (class304 != null)
 			l |= -2746811695092079303L * class304.aLong3434 << 24;
-		Class177 class177;
+		MeshRasterizer class177;
 		synchronized (aClass309_3268.aClass199_3462) {
-			class177 = (Class177) aClass309_3268.aClass199_3462.method2886(l);
+			class177 = (MeshRasterizer) aClass309_3268.aClass199_3462.method2886(l);
 		}
 		if (null == class177 || (class177.method2466() & i_78_) != i_78_) {
 			if (null != class177)
@@ -705,21 +705,21 @@ public class NPCDecoder implements ConfigType {
 			}
 			if (bool)
 				return null;
-			Class180[] class180s = new Class180[is.length];
+			RSMesh[] class180s = new RSMesh[is.length];
 			synchronized (aClass309_3268.aClass461_3460) {
 				for (int i_81_ = 0; i_81_ < is.length; i_81_++)
-					class180s[i_81_] = Class180.method2708(aClass309_3268.aClass461_3460, is[i_81_], 0);
+					class180s[i_81_] = RSMesh.decodeMesh(aClass309_3268.aClass461_3460, is[i_81_], 0);
 			}
 			for (int i_82_ = 0; i_82_ < is.length; i_82_++) {
 				if (null != class180s[i_82_] && class180s[i_82_].anInt1949 < 13)
-					class180s[i_82_].method2707(2);
+					class180s[i_82_].upscale(2);
 			}
-			Class180 class180;
+			RSMesh class180;
 			if (1 == class180s.length)
 				class180 = class180s[0];
 			else
-				class180 = new Class180(class180s, class180s.length);
-			class177 = class167.method2093(class180, i_79_, aClass309_3268.anInt3458 * 740522041, 64, 768);
+				class180 = new RSMesh(class180s, class180s.length);
+			class177 = class167.createMeshRasterizer(class180, i_79_, aClass309_3268.anInt3458 * 740522041, 64, 768);
 			if (aShortArray3330 != null) {
 				short[] is_83_;
 				if (null != class304 && null != class304.aShortArray3438)
@@ -1671,7 +1671,7 @@ public class NPCDecoder implements ConfigType {
 		return bool;
 	}
 
-	public final Class177 method3995(Class167 class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_212_, Class688[] class688s, int[] is, int i_213_, NPCCustomization class304, int i_214_) {
+	public final MeshRasterizer method3995(GraphicalRenderer class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_212_, Class688[] class688s, int[] is, int i_213_, NPCCustomization class304, int i_214_) {
 		return method3997(class167, i, class34_sub16, interface20, interface18, class688, class688_212_, class688s, is, i_213_, class304, -1091541297 * anInt3305, true, 362571452);
 	}
 
@@ -1693,7 +1693,7 @@ public class NPCDecoder implements ConfigType {
 		return (String) class536_sub13.value;
 	}
 
-	public final Class177 method3997(Class167 class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_215_, Class688[] class688s, int[] is, int i_216_, NPCCustomization class304, int i_217_, boolean bool, int i_218_) {
+	public final MeshRasterizer method3997(GraphicalRenderer class167, int i, BASTypeList class34_sub16, Interface20 interface20, Interface18 interface18, Class688 class688, Class688 class688_215_, Class688[] class688s, int[] is, int i_216_, NPCCustomization class304, int i_217_, boolean bool, int i_218_) {
 		if (anIntArray3304 != null) {
 			NPCDecoder class296_219_ = method3984(interface20, interface18, (byte) -96);
 			if (null == class296_219_)
@@ -1724,9 +1724,9 @@ public class NPCDecoder implements ConfigType {
 		long l = (long) (anInt3270 * -1647549559 | 1526643673 * class167.anInt1850 << 16);
 		if (class304 != null)
 			l |= class304.aLong3434 * -2746811695092079303L << 24;
-		Class177 class177;
+		MeshRasterizer class177;
 		synchronized (aClass309_3268.aClass199_3461) {
-			class177 = (Class177) aClass309_3268.aClass199_3461.method2886(l);
+			class177 = (MeshRasterizer) aClass309_3268.aClass199_3461.method2886(l);
 		}
 		BASTypeDecoder class589 = null;
 		if (!bool && -1 != i_217_)
@@ -1753,15 +1753,15 @@ public class NPCDecoder implements ConfigType {
 			}
 			if (bool_226_)
 				return null;
-			Class180[] class180s = new Class180[is_225_.length];
+			RSMesh[] class180s = new RSMesh[is_225_.length];
 			for (int i_228_ = 0; i_228_ < is_225_.length; i_228_++) {
 				if (is_225_[i_228_] != -1) {
 					synchronized (aClass309_3268.aClass461_3460) {
-						class180s[i_228_] = Class180.method2708((aClass309_3268.aClass461_3460), is_225_[i_228_], 0);
+						class180s[i_228_] = RSMesh.decodeMesh((aClass309_3268.aClass461_3460), is_225_[i_228_], 0);
 					}
 					if (class180s[i_228_] != null) {
 						if (class180s[i_228_].anInt1949 < 13)
-							class180s[i_228_].method2707(2);
+							class180s[i_228_].upscale(2);
 						if (anIntArrayArray3325 != null && anIntArrayArray3325[i_228_] != null)
 							class180s[i_228_].method2705(anIntArrayArray3325[i_228_][0], anIntArrayArray3325[i_228_][1], anIntArrayArray3325[i_228_][2]);
 					}
@@ -1803,12 +1803,12 @@ public class NPCDecoder implements ConfigType {
 					}
 				}
 			}
-			Class180 class180;
+			RSMesh class180;
 			if (class180s.length == 1)
 				class180 = class180s[0];
 			else
-				class180 = new Class180(class180s, class180s.length);
-			class177 = class167.method2093(class180, i_224_, 740522041 * aClass309_3268.anInt3458, 64 + 838691545 * anInt3298, anInt3275 * 334802251 + 850);
+				class180 = new RSMesh(class180s, class180s.length);
+			class177 = class167.createMeshRasterizer(class180, i_224_, 740522041 * aClass309_3268.anInt3458, 64 + 838691545 * anInt3298, anInt3275 * 334802251 + 850);
 			if (aShortArray3330 != null) {
 				short[] is_237_;
 				if (null != class304 && class304.aShortArray3438 != null)
@@ -1839,7 +1839,7 @@ public class NPCDecoder implements ConfigType {
 				aClass309_3268.aClass199_3461.method2881(class177, l);
 			}
 		}
-		Class177 class177_241_ = class177.method2623((byte) 4, i_220_, true);
+		MeshRasterizer class177_241_ = class177.method2623((byte) 4, i_220_, true);
 		boolean bool_242_ = false;
 		if (null != is) {
 			for (int i_243_ = 0; i_243_ < 12; i_243_++) {
@@ -1890,7 +1890,7 @@ public class NPCDecoder implements ConfigType {
 		else if (null != class688_215_)
 			class688_215_.method8132(class177_241_, 0, -820899898);
 		if (128 != anInt3293 * 1586417225 || 128 != -443044803 * anInt3294)
-			class177_241_.method2474(anInt3293 * 1586417225, anInt3294 * -443044803, anInt3293 * 1586417225);
+			class177_241_.resize(anInt3293 * 1586417225, anInt3294 * -443044803, anInt3293 * 1586417225);
 		class177_241_.method2465(i);
 		return class177_241_;
 	}

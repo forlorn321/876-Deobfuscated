@@ -77,7 +77,7 @@ public abstract class Class554 {
 		}
 	}
 
-	public static int method6782(Class167 class167, byte i) {
+	public static int method6782(GraphicalRenderer class167, byte i) {
 		Class382.method4821((short) 27351);
 		return Class536_Sub42.aTwitchTV10811.StopStreaming();
 	}

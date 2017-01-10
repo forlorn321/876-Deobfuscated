@@ -16,7 +16,7 @@ public class Class440 {
 			UpdateKey.aClass59_613.method985(new Class432("jaclib"), (byte) 13);
 			if (UpdateKey.aClass59_613.method976(827910416).method48(-1965536233) != 100)
 				return 1;
-			if (!((Class432) UpdateKey.aClass59_613.method976(-1755898842)).method5180((short) -16159) && !Class167.method2410(-1504778739)) {
+			if (!((Class432) UpdateKey.aClass59_613.method976(-1755898842)).method5180((short) -16159) && !GraphicalRenderer.method2410(-1504778739)) {
 				try {
 					Class313.aclient3500.method6133((byte) 5);
 					Class554.method6783((byte) 1);
@@ -108,7 +108,7 @@ public class Class440 {
 			UpdateKey.aClass59_613.method985(new Class432("jaclib"), (byte) -58);
 			if (UpdateKey.aClass59_613.method976(-156897680).method48(-2073460681) != 100)
 				return 1;
-			if (!((Class432) UpdateKey.aClass59_613.method976(655224871)).method5180((short) 3403) && !Class167.method2410(-1504778739)) {
+			if (!((Class432) UpdateKey.aClass59_613.method976(655224871)).method5180((short) 3403) && !GraphicalRenderer.method2410(-1504778739)) {
 				try {
 					Class313.aclient3500.method6133((byte) 5);
 					Class554.method6783((byte) 7);
@@ -196,7 +196,7 @@ public class Class440 {
 			UpdateKey.aClass59_613.method985(new Class432("jaclib"), (byte) -26);
 			if (UpdateKey.aClass59_613.method976(1504414219).method48(-2023401523) != 100)
 				return 1;
-			if (!((Class432) UpdateKey.aClass59_613.method976(277025795)).method5180((short) -10286) && !Class167.method2410(-1504778739)) {
+			if (!((Class432) UpdateKey.aClass59_613.method976(277025795)).method5180((short) -10286) && !GraphicalRenderer.method2410(-1504778739)) {
 				try {
 					Class313.aclient3500.method6133((byte) 5);
 					Class554.method6783((byte) 24);

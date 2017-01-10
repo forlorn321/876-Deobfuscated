@@ -65,7 +65,7 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 		return 4372728678228642485L * aLong11719;
 	}
 
-	static boolean method10707(Class167 class167, int i, int i_8_) {
+	static boolean method10707(GraphicalRenderer class167, int i, int i_8_) {
 		class167.method2084();
 		Class249.method3450(1886001221);
 		if (!class167.method2387(2094630559))
@@ -119,7 +119,7 @@ public class Class536_Sub18_Sub9 extends Class536_Sub18 {
 			i_24_ = 48;
 			class167.method2000(1, 0);
 		} else
-			Class536_Sub8.aClass143_10432 = class167.method2081(is, 0, i_21_, i_21_, i_21_, (byte) -126);
+			Class536_Sub8.aClass143_10432 = class167.createNativeSprite(is, 0, i_21_, i_21_, i_21_, (byte) -126);
 		client.aClass515_11066.method6252(1796531619).method7616((byte) 117);
 		int i_25_ = ~0xffffff | ((238 + (int) (Math.random() * 20.0) - 10 << 16) + (238 + (int) (Math.random() * 20.0) - 10 << 8) + (238 + (int) (Math.random() * 20.0) - 10));
 		int i_26_ = ~0xffffff | 238 + (int) (Math.random() * 20.0) - 10 << 16;

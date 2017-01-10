@@ -102,7 +102,7 @@ public class Class458 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = client.anInt11286 * 1930681379;
 	}
 
-	static boolean method5504(Class167 class167, Class536_Sub41 class536_sub41, Class248 class248, int i, int i_3_, byte i_4_) {
+	static boolean method5504(GraphicalRenderer class167, Class536_Sub41 class536_sub41, Class248 class248, int i, int i_3_, byte i_4_) {
 		if (Class542_Sub1.aBool7197 && !client.aBool11123 && !Class542_Sub1.method6552(753546687 * class536_sub41.anInt10794, (class536_sub41.anInt10796 * 1902597877)))
 			return false;
 		if (null != class248.anIntArray2506) {
@@ -120,7 +120,7 @@ public class Class458 implements Interface75 {
 			i_8_ = (Class542_Sub1.anInt7230 - ((Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) * (1902597877 * class536_sub41.anInt10796 + -1552833791 * class248.anInt2520 - Class542_Sub1.anInt7226) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
 			i_7_ = (Class542_Sub1.anInt7230 - ((class248.anInt2510 * 1889839503 + class536_sub41.anInt10796 * 1902597877 - Class542_Sub1.anInt7226) * (Class542_Sub1.anInt7230 - Class542_Sub1.anInt7199) / (Class542_Sub1.anInt7224 - Class542_Sub1.anInt7226)));
 		}
-		Class143 class143 = null;
+		NativeSprite class143 = null;
 		int i_9_ = 0;
 		int i_10_ = 0;
 		int i_11_ = 0;
@@ -169,7 +169,7 @@ public class Class458 implements Interface75 {
 					i_8_ = i_12_;
 			}
 		}
-		Class143 class143_13_ = null;
+		NativeSprite class143_13_ = null;
 		if (-1 != class248.anInt2525 * -1695002333)
 			class143_13_ = class248.method3431(class167, 735249098);
 		int i_14_ = 0;

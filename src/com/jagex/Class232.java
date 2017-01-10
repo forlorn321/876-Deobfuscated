@@ -56,7 +56,7 @@ public class Class232 implements Interface27 {
 			if (null != class103 && class103.anInt1224 * 2030004867 == 2) {
 				Class672.method8024(class103.anInt1221 * -852709175, 987706607 * class103.anInt1225, -1675921633 * class103.anInt1226, 0, -230158586 * class103.anInt1227, false, false, -2131275969);
 				if (client.aFloatArray11133[0] > -1.0F && client.cycles % 20 < 10) {
-					Class143 class143 = (Class458_Sub5.aClass143Array10338[-1060879377 * class103.anInt1222]);
+					NativeSprite class143 = (Class458_Sub5.aClass143Array10338[-1060879377 * class103.anInt1222]);
 					int i_9_ = (int) (client.aFloatArray11133[0] + (float) i - 12.0F);
 					int i_10_ = (int) (client.aFloatArray11133[1] + (float) i_2_ - 28.0F);
 					class143.method1728(i_9_, i_10_);

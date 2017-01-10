@@ -21,7 +21,7 @@ public class Class310 {
 		aString3472 = Class61.aString679;
 		Class87.aString872 = Class61.aString696;
 		Class275.method3737(false, -1843726747);
-		Class184.method2768((short) -18069);
+		FontRenderer.method2768((short) -18069);
 		aClass303Array3467 = null;
 		Class290.aClass426_3223 = null;
 		Class673.method8026(18, -1798113843);
@@ -32,7 +32,7 @@ public class Class310 {
 		aString3472 = Class61.aString679;
 		Class87.aString872 = Class61.aString696;
 		Class275.method3737(false, -1568203617);
-		Class184.method2768((short) -29641);
+		FontRenderer.method2768((short) -29641);
 		aClass303Array3467 = null;
 		Class290.aClass426_3223 = null;
 		Class673.method8026(18, -1798113843);
@@ -312,8 +312,8 @@ public class Class310 {
 			if (i < 100)
 				return i;
 			Class388.method4849((Class184_Sub2.aClass461_9443.method5595((Class633.aClass633_8257.anInt8258 * -848473139), -1262516097)), (byte) -68);
-			Class500.aShortArrayArray6844 = Class644.aClass628_8352.aShortArrayArray8189;
-			Class267.aShortArrayArrayArray2870 = Class644.aClass628_8352.aShortArrayArrayArray8202;
+			Class500.skinColors = Class644.aClass628_8352.aShortArrayArray8189;
+			Class267.skinColors = Class644.aClass628_8352.aShortArrayArrayArray8202;
 			Class710_Sub4.aShortArrayArray10822 = Class644.aClass628_8352.aShortArrayArray8203;
 			Class44.aShortArrayArrayArray520 = Class644.aClass628_8352.aShortArrayArrayArray8204;
 			if (-1 != Class644.aClass628_8352.anInt8209 * 40680465 && Class644.aClass628_8352.anInt8227 * -1332536013 != -1) {
@@ -375,7 +375,7 @@ public class Class310 {
 			Class39.aClass450_490 = new Class450(Class459.CLIENT_PARAMS, Class576.aClass461_7687, Class711.aClass461_8849);
 			Class198.aClass32_2216 = new Class32(Class459.CLIENT_PARAMS, Class576.aClass461_7687, Class711.aClass461_8849, new Class389());
 			Class465_Sub1.aClass96_10352 = new Class96(Class532.aClass98_Sub1_Sub1_7122, Class56.aClass34_Sub14_608, Class611.aClass602_7930.method7173(1469612243));
-			Class184.method2769(1766275376);
+			FontRenderer.method2769(1766275376);
 			Class69.method1094(Class45.aClass34_Sub11_529, (byte) -88);
 			Class160.method1963(Class402.aClass397_4204, Class237.aClass396_2422, 1709291521);
 			Class652.method7868(Class602.aClass461_7857, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, -1292180565);
@@ -386,7 +386,7 @@ public class Class310 {
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3418) {
 			int i = (Class635.method7565(Class398.aClass461_4122, (byte) -13) + Class196.aClass410_2202.method4979(true, (byte) -1));
-			int i_7_ = (Class167.method2412(2097888879) + Class196.aClass410_2202.method4978(1558792313));
+			int i_7_ = (GraphicalRenderer.method2412(2097888879) + Class196.aClass410_2202.method4978(1558792313));
 			if (i < i_7_)
 				return i * 100 / i_7_;
 		}

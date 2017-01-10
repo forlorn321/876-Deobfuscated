@@ -6,7 +6,7 @@ package com.jagex;
 public class Class532 {
 	static Interface46 anInterface46_7121;
 	public static Class98_Sub1_Sub1 aClass98_Sub1_Sub1_7122;
-	static Class143 aClass143_7123;
+	static NativeSprite aClass143_7123;
 	static boolean aBool7124;
 
 	Class532() throws Throwable {

@@ -10,7 +10,7 @@ public class Class18 {
 	long aLong187;
 	Class6 aClass6_188;
 	byte[] aByteArray189;
-	public static Class184 aClass184_190;
+	public static FontRenderer aClass184_190;
 	long aLong191 = 4959175407544468093L;
 	byte[] aByteArray192;
 	static final int anInt193 = 200000000;

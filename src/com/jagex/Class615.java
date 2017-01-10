@@ -51,7 +51,7 @@ public class Class615 {
 		}
 	}
 
-	Class615(Class167 class167, Class172 class172, Class627 class627, long l) {
+	Class615(GraphicalRenderer class167, Class172 class172, Class627 class627, long l) {
 		aClass616_8036 = new Class616();
 		aBool8048 = false;
 		aBool8051 = false;
@@ -75,7 +75,7 @@ public class Class615 {
 		aClass616_8036.anInt8060 = 1 * aClass616_8041.anInt8060;
 	}
 
-	void method7325(Class167 class167, long l, int i, boolean bool, int i_0_) {
+	void method7325(GraphicalRenderer class167, long l, int i, boolean bool, int i_0_) {
 		if (aBool8040)
 			bool = false;
 		else if (Class626.anInt8167 * 500175661 < aClass381_8042.anInt3947 * 1316819989)
@@ -234,7 +234,7 @@ public class Class615 {
 		Class626.anInt8160 += anInt8034 * -2016056675;
 	}
 
-	void method7326(Class553 class553, Class167 class167, long l) {
+	void method7326(Class553 class553, GraphicalRenderer class167, long l) {
 		for (Class521_Sub2_Sub1_Sub1 class521_sub2_sub1_sub1 = ((Class521_Sub2_Sub1_Sub1) aClass695_8050.method8210(647170393)); null != class521_sub2_sub1_sub1; class521_sub2_sub1_sub1 = ((Class521_Sub2_Sub1_Sub1) aClass695_8050.method8219(1570735550)))
 			class521_sub2_sub1_sub1.method10989(class553, class167, l);
 	}
@@ -320,7 +320,7 @@ public class Class615 {
 		}
 	}
 
-	void method7330(Class553 class553, Class167 class167, long l) {
+	void method7330(Class553 class553, GraphicalRenderer class167, long l) {
 		for (Class521_Sub2_Sub1_Sub1 class521_sub2_sub1_sub1 = ((Class521_Sub2_Sub1_Sub1) aClass695_8050.method8210(393376403)); null != class521_sub2_sub1_sub1; class521_sub2_sub1_sub1 = ((Class521_Sub2_Sub1_Sub1) aClass695_8050.method8219(1399869134)))
 			class521_sub2_sub1_sub1.method10989(class553, class167, l);
 	}

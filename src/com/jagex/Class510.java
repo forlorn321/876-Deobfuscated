@@ -40,7 +40,7 @@ public class Class510 {
 		Class310.aString3472 = Class61.aString679;
 		Class87.aString872 = Class61.aString696;
 		Class275.method3737(false, -1195068252);
-		Class184.method2768((short) -17335);
+		FontRenderer.method2768((short) -17335);
 		Class310.aClass303Array3467 = null;
 		Class290.aClass426_3223 = null;
 		Class673.method8026(18, -1798113843);

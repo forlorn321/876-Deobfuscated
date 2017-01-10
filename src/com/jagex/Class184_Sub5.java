@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.nio.ByteBuffer;
 
-public class Class184_Sub5 extends Class184 {
+public class Class184_Sub5 extends FontRenderer {
 	Class167_Sub3 aClass167_Sub3_9921;
 	int anInt9922;
 	Interface38 anInterface38_9923;

@@ -93,7 +93,7 @@ public class Class631 {
 		Class39.method866(class251, class234, class668, (byte) 127);
 	}
 
-	static void method7533(Class167 class167, IComponentDefinitions class251, int i, int i_9_, int i_10_) {
+	static void method7533(GraphicalRenderer class167, IComponentDefinitions class251, int i, int i_9_, int i_10_) {
 		if (Class565.MY_PLAYER != null) {
 			class167.method2084();
 			Class244 class244 = null;

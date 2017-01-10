@@ -31,7 +31,7 @@ public class Class207 {
 		int i_1_ = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]);
 		IComponentDefinitions class251 = Class264.getIComponentDefinitions(i_1_);
 		Class234 class234 = Class463.aClass234Array5227[i_1_ >> 16];
-		Class167.method2411(class251, class234, class668, 1724353800);
+		GraphicalRenderer.method2411(class251, class234, class668, 1724353800);
 	}
 
 	public static final void method2965(String string, String string_2_, byte i) {

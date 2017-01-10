@@ -82,7 +82,7 @@ public class Class104 implements Interface22 {
 		Class198.method2872(class251, class234, class668, 1193761028);
 	}
 
-	static void method1380(Class167 class167, int i, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_) {
+	static void method1380(GraphicalRenderer class167, int i, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_) {
 		if ((Class472.aClass143_5369 == null || Class323.aClass143_3550 == null || Class204.aClass143_2234 == null) && Class398.aClass461_4122.method5580(Class587.anInt7739 * 1037345753, -964514165) && Class398.aClass461_4122.method5580(-1147982799 * Class252.anInt2746, -964514165) && Class398.aClass461_4122.method5580(Class575.anInt7680 * -1877429477, -964514165)) {
 			Class179 class179 = Class181.method2718(Class398.aClass461_4122, -1147982799 * Class252.anInt2746, 0);
 			Class323.aClass143_3550 = class167.method2082(class179, true);

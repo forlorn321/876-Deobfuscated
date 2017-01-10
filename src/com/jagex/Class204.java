@@ -11,7 +11,7 @@ public class Class204 {
 	int[] anIntArray2231;
 	static final int anInt2232 = 0;
 	int[] anIntArray2233;
-	public static Class143 aClass143_2234;
+	public static NativeSprite aClass143_2234;
 
 	Class204(RSByteBuffer class536_sub33) {
 		int i = class536_sub33.readUnsignedSmart();
@@ -46,7 +46,7 @@ public class Class204 {
 		}
 	}
 
-	public static void method2932(Class167 class167, long l, int i, int i_10_, int i_11_) {
+	public static void method2932(GraphicalRenderer class167, long l, int i, int i_10_, int i_11_) {
 		do {
 			if (class167.method2284() && class167.method2149() > -1) {
 				int i_12_ = class167.method2149();

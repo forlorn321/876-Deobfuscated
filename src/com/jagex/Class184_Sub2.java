@@ -3,11 +3,11 @@
  */
 package com.jagex;
 
-public class Class184_Sub2 extends Class184 {
+public class Class184_Sub2 extends FontRenderer {
 	int[] anIntArray9435;
-	Class143[] aClass143Array9436;
+	NativeSprite[] aClass143Array9436;
 	int[] anIntArray9437;
-	Class143[] aClass143Array9438;
+	NativeSprite[] aClass143Array9438;
 	int[] anIntArray9439;
 	int[] anIntArray9440;
 	Class167_Sub1 aClass167_Sub1_9441;
@@ -65,8 +65,8 @@ public class Class184_Sub2 extends Class184 {
 		aClass167_Sub1_9441 = class167_sub1;
 		anIntArray9435 = is;
 		anIntArray9439 = is_18_;
-		aClass143Array9436 = new Class143[class179_sub1s.length];
-		aClass143Array9438 = new Class143[class179_sub1s.length];
+		aClass143Array9436 = new NativeSprite[class179_sub1s.length];
+		aClass143Array9438 = new NativeSprite[class179_sub1s.length];
 		anIntArray9440 = new int[class179_sub1s.length];
 		anIntArray9437 = new int[class179_sub1s.length];
 		for (int i = 0; i < class179_sub1s.length; i++) {

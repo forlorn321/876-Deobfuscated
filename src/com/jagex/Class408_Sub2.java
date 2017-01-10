@@ -21,7 +21,7 @@ public class Class408_Sub2 extends Class408 implements Interface36 {
 	}
 
 	public void method218(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_) {
-		int[] is = aClass167_Sub3_Sub2_4302.method2078(i_3_, i_4_, i_1_, i_2_);
+		int[] is = aClass167_Sub3_Sub2_4302.getPixelArea(i_3_, i_4_, i_1_, i_2_);
 		if (is != null) {
 			for (int i_5_ = 0; i_5_ < is.length; i_5_++)
 				is[i_5_] |= ~0xffffff;
@@ -345,7 +345,7 @@ public class Class408_Sub2 extends Class408 implements Interface36 {
 	}
 
 	public void method247(int i, int i_78_, int i_79_, int i_80_, int i_81_, int i_82_) {
-		int[] is = aClass167_Sub3_Sub2_4302.method2078(i_81_, i_82_, i_79_, i_80_);
+		int[] is = aClass167_Sub3_Sub2_4302.getPixelArea(i_81_, i_82_, i_79_, i_80_);
 		if (is != null) {
 			for (int i_83_ = 0; i_83_ < is.length; i_83_++)
 				is[i_83_] |= ~0xffffff;
@@ -402,7 +402,7 @@ public class Class408_Sub2 extends Class408 implements Interface36 {
 	}
 
 	public void method231(int i, int i_84_, int i_85_, int i_86_, int i_87_, int i_88_) {
-		int[] is = aClass167_Sub3_Sub2_4302.method2078(i_87_, i_88_, i_85_, i_86_);
+		int[] is = aClass167_Sub3_Sub2_4302.getPixelArea(i_87_, i_88_, i_85_, i_86_);
 		if (is != null) {
 			for (int i_89_ = 0; i_89_ < is.length; i_89_++)
 				is[i_89_] |= ~0xffffff;

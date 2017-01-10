@@ -182,7 +182,7 @@ class Class154 implements Runnable {
 		Class652.method7869(-484022156);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 1, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 3, (byte) 1);
-		Class184.method2769(1160866938);
+		FontRenderer.method2769(1160866938);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}

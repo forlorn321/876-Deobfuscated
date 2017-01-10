@@ -14,7 +14,7 @@ public class ItemDecoder implements ConfigType {
 	int femaleEquip1;
 	public static short[] aShortArray14 = new short[256];
 	Interface12 anInterface12_15;
-	Class16 aClass16_16;
+	Class16 loader;
 	public int lendTemplateId;
 	public int anInt18 = -975650179;
 	int modelId;
@@ -58,7 +58,7 @@ public class ItemDecoder implements ConfigType {
 	int anInt57;
 	int anInt58;
 	int anInt59;
-	int anInt60;
+	int ambient;
 	int[] stackIds;
 	int[] stackAmounts;
 	public int certTemplateId;
@@ -68,10 +68,10 @@ public class ItemDecoder implements ConfigType {
 	public int anInt67;
 	int anInt69;
 	public int equipLookHideSlot2;
-	int anInt71;
-	int anInt72;
-	int anInt73;
-	int anInt74;
+	int resizeX;
+	int resizeY;
+	int resizeZ;
+	int contrast;
 	short[] originalTextureColors;
 	public int teamId;
 	public boolean tradeable;
@@ -91,23 +91,23 @@ public class ItemDecoder implements ConfigType {
 
 	public void postDecode() {
 		if (certTemplateId * 79208069 != -1)
-			method500((ItemDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) 52), (ItemDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -27), aClass16_16.aClass664_176, -113470931);
+			method500((ItemDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) 52), (ItemDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -27), loader.language, -113470931);
 		else if (-1494720165 * lendTemplateId != -1)
-			method497((ItemDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -77), (ItemDecoder) anInterface12_15.method70(515259213 * lendId, (byte) -112), aClass16_16.aClass664_176, -2018787355);
+			method497((ItemDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -77), (ItemDecoder) anInterface12_15.method70(515259213 * lendId, (byte) -112), loader.language, -2018787355);
 		else if (-1 != bindTemplateId * -377039411)
-			method501((ItemDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) 32), (ItemDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 14), aClass16_16.aClass664_176, (byte) -107);
+			method501((ItemDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) 32), (ItemDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 14), loader.language, (byte) -107);
 		else if (-1 != 208949951 * anInt64)
-			method502((ItemDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) -41), (ItemDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) 38), aClass16_16.aClass664_176, (byte) -39);
-		if (!aClass16_16.aBool174 && membersOnly) {
+			method502((ItemDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) -41), (ItemDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) 38), loader.language, (byte) -39);
+		if (!loader.aBool174 && membersOnly) {
 			teamId = 0;
-			groundOptions = aClass16_16.aStringArray182;
-			inventoryOptions = aClass16_16.aStringArray183;
+			groundOptions = loader.aStringArray182;
+			inventoryOptions = loader.aStringArray183;
 			tradeable = false;
 			anIntArray80 = null;
 			if (null != clientScriptData) {
 				boolean bool = false;
 				for (Class536 class536 = clientScriptData.method562(-1886721107); class536 != null; class536 = clientScriptData.method567(785392296)) {
-					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -66));
+					Class73 class73 = (Class73) (loader.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -66));
 					if (class73.aBool802)
 						class536.method6484();
 					else
@@ -205,7 +205,7 @@ public class ItemDecoder implements ConfigType {
 		method499(Class13.aClass13_160, class1_10_, class1_11_, Class38.aClass38_318, class664, (byte) 126);
 	}
 
-	public final Class177 method503(Class167 class167, int i, int i_12_, Class617 class617, Class688 class688, int i_13_, int i_14_, int i_15_, int i_16_, byte i_17_) {
+	public final MeshRasterizer method503(GraphicalRenderer class167, int i, int i_12_, PlayerAppearance class617, Class688 class688, int i_13_, int i_14_, int i_15_, int i_16_, byte i_17_) {
 		if (stackIds != null && i_12_ > 1) {
 			int i_18_ = -1;
 			for (int i_19_ = 0; i_19_ < 10; i_19_++) {
@@ -218,9 +218,9 @@ public class ItemDecoder implements ConfigType {
 		int i_20_ = i;
 		if (class688 != null)
 			i_20_ |= class688.method8162((byte) 39);
-		Class177 class177;
-		synchronized (aClass16_16.aClass199_177) {
-			class177 = ((Class177) (aClass16_16.aClass199_177.method2886((long) (anInt39 * 729344115 | 1526643673 * class167.anInt1850 << 29))));
+		MeshRasterizer class177;
+		synchronized (loader.aClass199_177) {
+			class177 = ((MeshRasterizer) (loader.aClass199_177.method2886((long) (anInt39 * 729344115 | 1526643673 * class167.anInt1850 << 29))));
 		}
 		if (null == class177 || class167.method2308(class177.method2466(), i_20_) != 0) {
 			if (class177 != null)
@@ -230,20 +230,20 @@ public class ItemDecoder implements ConfigType {
 				i_21_ |= 0x8000;
 			if (null != originalModelColors || class617 != null)
 				i_21_ |= 0x4000;
-			if (128 != anInt71 * -268256853)
+			if (128 != resizeX * -268256853)
 				i_21_ |= 0x1;
-			if (anInt72 * 1833389311 != 128)
+			if (resizeY * 1833389311 != 128)
 				i_21_ |= 0x2;
-			if (anInt73 * 622326303 != 128)
+			if (resizeZ * 622326303 != 128)
 				i_21_ |= 0x4;
-			Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, -603352859 * modelId, 0);
+			RSMesh class180 = RSMesh.decodeMesh(loader.table, -603352859 * modelId, 0);
 			if (null == class180)
 				return null;
 			if (class180.anInt1949 < 13)
-				class180.method2707(2);
-			class177 = class167.method2093(class180, i_21_, aClass16_16.anInt181 * -1879025117, -2092145097 * anInt60 + 64, anInt74 * -573721669 + 850);
-			if (anInt71 * -268256853 != 128 || 1833389311 * anInt72 != 128 || 128 != anInt73 * 622326303)
-				class177.method2474(-268256853 * anInt71, anInt72 * 1833389311, anInt73 * 622326303);
+				class180.upscale(2);
+			class177 = class167.createMeshRasterizer(class180, i_21_, loader.anInt181 * -1879025117, -2092145097 * ambient + 64, contrast * -573721669 + 850);
+			if (resizeX * -268256853 != 128 || 1833389311 * resizeY != 128 || 128 != resizeZ * 622326303)
+				class177.resize(-268256853 * resizeX, resizeY * 1833389311, resizeZ * 622326303);
 			if (originalModelColors != null) {
 				for (int i_22_ = 0; i_22_ < originalModelColors.length; i_22_++) {
 					if (aByteArray87 != null && i_22_ < aByteArray87.length)
@@ -258,9 +258,9 @@ public class ItemDecoder implements ConfigType {
 			}
 			if (class617 != null) {
 				for (int i_24_ = 0; i_24_ < 10; i_24_++) {
-					for (int i_25_ = 0; i_25_ < Class500.aShortArrayArray6844[i_24_].length; i_25_++) {
-						if (class617.anIntArray8072[i_24_] < (Class267.aShortArrayArrayArray2870[i_24_][i_25_]).length)
-							class177.method2507(Class500.aShortArrayArray6844[i_24_][i_25_], (Class267.aShortArrayArrayArray2870[i_24_][i_25_][class617.anIntArray8072[i_24_]]));
+					for (int i_25_ = 0; i_25_ < Class500.skinColors[i_24_].length; i_25_++) {
+						if (class617.colors[i_24_] < (Class267.skinColors[i_24_][i_25_]).length)
+							class177.method2507(Class500.skinColors[i_24_][i_25_], (Class267.skinColors[i_24_][i_25_][class617.colors[i_24_]]));
 					}
 				}
 				for (int i_26_ = 0; i_26_ < 10; i_26_++) {
@@ -271,8 +271,8 @@ public class ItemDecoder implements ConfigType {
 				}
 			}
 			class177.method2465(i_20_);
-			synchronized (aClass16_16.aClass199_177) {
-				aClass16_16.aClass199_177.method2881(class177, (long) (729344115 * anInt39 | class167.anInt1850 * 1526643673 << 29));
+			synchronized (loader.aClass199_177) {
+				loader.aClass199_177.method2881(class177, (long) (729344115 * anInt39 | class167.anInt1850 * 1526643673 << 29));
 			}
 		}
 		if (class688 != null || i_16_ != 0) {
@@ -299,7 +299,7 @@ public class ItemDecoder implements ConfigType {
 		return this;
 	}
 
-	int[] method506(int[] is, int i, int i_53_) {
+	int[] addOutlines(int[] is, int i, int i_53_) {
 		int[] is_54_ = new int[1152];
 		int i_55_ = 0;
 		for (int i_56_ = 0; i_56_ < 32; i_56_++) {
@@ -321,7 +321,7 @@ public class ItemDecoder implements ConfigType {
 		return is_54_;
 	}
 
-	void method507(int[] is, int i, byte i_59_) {
+	void addShadow(int[] is, int i, byte i_59_) {
 		for (int i_60_ = 31; i_60_ > 0; i_60_--) {
 			int i_61_ = i_60_ * 36;
 			for (int i_62_ = 35; i_62_ > 0; i_62_--) {
@@ -337,7 +337,7 @@ public class ItemDecoder implements ConfigType {
 		return anIntArray41[i];
 	}
 
-	public final Class180 method509(boolean bool, ItemEffects class12, int i) {
+	public final RSMesh method509(boolean bool, ItemEffects class12, int i) {
 		int i_64_;
 		int i_65_;
 		int i_66_;
@@ -362,24 +362,24 @@ public class ItemDecoder implements ConfigType {
 		}
 		if (-1 == i_64_)
 			return null;
-		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, i_64_, 0);
+		RSMesh class180 = RSMesh.decodeMesh(loader.table, i_64_, 0);
 		if (null == class180)
 			return null;
 		if (class180.anInt1949 < 13)
-			class180.method2707(2);
+			class180.upscale(2);
 		if (-1 != i_65_) {
-			Class180 class180_67_ = Class180.method2708(aClass16_16.aClass461_175, i_65_, 0);
+			RSMesh class180_67_ = RSMesh.decodeMesh(loader.table, i_65_, 0);
 			if (class180_67_.anInt1949 < 13)
-				class180_67_.method2707(2);
+				class180_67_.upscale(2);
 			if (-1 != i_66_) {
-				Class180 class180_68_ = Class180.method2708(aClass16_16.aClass461_175, i_66_, 0);
+				RSMesh class180_68_ = RSMesh.decodeMesh(loader.table, i_66_, 0);
 				if (class180_68_.anInt1949 < 13)
-					class180_68_.method2707(2);
-				Class180[] class180s = { class180, class180_67_, class180_68_ };
-				class180 = new Class180(class180s, 3);
+					class180_68_.upscale(2);
+				RSMesh[] class180s = { class180, class180_67_, class180_68_ };
+				class180 = new RSMesh(class180s, 3);
 			} else {
-				Class180[] class180s = { class180, class180_67_ };
-				class180 = new Class180(class180s, 2);
+				RSMesh[] class180s = { class180, class180_67_ };
+				class180 = new RSMesh(class180s, 2);
 			}
 		}
 		if (!bool && (0 != 918907781 * anInt51 || 0 != anInt53 * -1489063167 || -1529289737 * anInt55 != 0))
@@ -393,7 +393,7 @@ public class ItemDecoder implements ConfigType {
 			else
 				is = modifiedModelColors;
 			for (int i_69_ = 0; i_69_ < originalModelColors.length; i_69_++)
-				class180.method2703(originalModelColors[i_69_], is[i_69_]);
+				class180.recolor(originalModelColors[i_69_], is[i_69_]);
 		}
 		if (null != originalTextureColors) {
 			short[] is;
@@ -402,7 +402,7 @@ public class ItemDecoder implements ConfigType {
 			else
 				is = modifiedTextureColors;
 			for (int i_70_ = 0; i_70_ < originalTextureColors.length; i_70_++)
-				class180.method2704(originalTextureColors[i_70_], is[i_70_]);
+				class180.retexture(originalTextureColors[i_70_], is[i_70_]);
 		}
 		return class180;
 	}
@@ -446,23 +446,23 @@ public class ItemDecoder implements ConfigType {
 
 	public void method77() {
 		if (certTemplateId * 79208069 != -1)
-			method500((ItemDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) -40), (ItemDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -72), aClass16_16.aClass664_176, -1247668190);
+			method500((ItemDecoder) anInterface12_15.method70(certTemplateId * 79208069, (byte) -40), (ItemDecoder) anInterface12_15.method70(1990739153 * certId, (byte) -72), loader.language, -1247668190);
 		else if (-1494720165 * lendTemplateId != -1)
-			method497((ItemDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -19), (ItemDecoder) anInterface12_15.method70(515259213 * lendId, (byte) 10), aClass16_16.aClass664_176, -24657178);
+			method497((ItemDecoder) anInterface12_15.method70(lendTemplateId * -1494720165, (byte) -19), (ItemDecoder) anInterface12_15.method70(515259213 * lendId, (byte) 10), loader.language, -24657178);
 		else if (-1 != bindTemplateId * -377039411)
-			method501((ItemDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) -65), (ItemDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 75), aClass16_16.aClass664_176, (byte) -106);
+			method501((ItemDecoder) anInterface12_15.method70(bindTemplateId * -377039411, (byte) -65), (ItemDecoder) anInterface12_15.method70(1859340953 * bindId, (byte) 75), loader.language, (byte) -106);
 		else if (-1 != 208949951 * anInt64)
-			method502((ItemDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) 35), (ItemDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) -34), aClass16_16.aClass664_176, (byte) -110);
-		if (!aClass16_16.aBool174 && membersOnly) {
+			method502((ItemDecoder) anInterface12_15.method70(208949951 * anInt64, (byte) 35), (ItemDecoder) anInterface12_15.method70(anInt67 * 989214201, (byte) -34), loader.language, (byte) -110);
+		if (!loader.aBool174 && membersOnly) {
 			teamId = 0;
-			groundOptions = aClass16_16.aStringArray182;
-			inventoryOptions = aClass16_16.aStringArray183;
+			groundOptions = loader.aStringArray182;
+			inventoryOptions = loader.aStringArray183;
 			tradeable = false;
 			anIntArray80 = null;
 			if (null != clientScriptData) {
 				boolean bool = false;
 				for (Class536 class536 = clientScriptData.method562(-1551289147); class536 != null; class536 = clientScriptData.method567(-335423598)) {
-					Class73 class73 = (Class73) (aClass16_16.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -82));
+					Class73 class73 = (Class73) (loader.anInterface12_180.method70((int) (-6909195213925454795L * class536.aLong7133), (byte) -82));
 					if (class73.aBool802)
 						class536.method6484();
 					else
@@ -510,11 +510,11 @@ public class ItemDecoder implements ConfigType {
 		anInt64 = 1107288769;
 		aString21 = "null";
 		anInt50 = 0;
-		anInt71 = 1362919808;
-		anInt72 = 1205436288;
-		anInt73 = -1618677888;
-		anInt60 = 0;
-		anInt74 = 0;
+		resizeX = 1362919808;
+		resizeY = 1205436288;
+		resizeZ = -1618677888;
+		ambient = 0;
+		contrast = 0;
 		teamId = 0;
 		tradeable = false;
 		anInt78 = 0;
@@ -525,126 +525,126 @@ public class ItemDecoder implements ConfigType {
 		aBool49 = false;
 		anInt39 = -797967173 * i;
 		anInterface12_15 = interface12;
-		aClass16_16 = class16;
-		groundOptions = (String[]) aClass16_16.aStringArray182.clone();
-		inventoryOptions = (String[]) aClass16_16.aStringArray183.clone();
+		loader = class16;
+		groundOptions = (String[]) loader.aStringArray182.clone();
+		inventoryOptions = (String[]) loader.aStringArray183.clone();
 	}
 
-	int[] method513(Class167 class167, Class167 class167_76_, int amount, int i_77_, int i_78_, boolean bool, int i_79_, Class184 class184, Class617 class617, Class628 class628, int i_80_) {
-		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, modelId * -603352859, 0);
-		if (class180 == null)
+	int[] renderToSprite(GraphicalRenderer hardwareRenderer, GraphicalRenderer softwareRenderer, int amount, int outlineSize, int shadowColor, boolean zoomedIn, int i_79_, FontRenderer fontRenderer, PlayerAppearance playerAppearance, Class628 class628, int i_80_) {
+		RSMesh inventoryMesh = RSMesh.decodeMesh(loader.table, modelId * -603352859, 0);
+		if (inventoryMesh == null)
 			return null;
-		if (class180.anInt1949 < 13)
-			class180.method2707(2);
+		if (inventoryMesh.anInt1949 < 13)
+			inventoryMesh.upscale(2);
 		if (originalModelColors != null) {
 			for (int i_81_ = 0; i_81_ < originalModelColors.length; i_81_++) {
 				if (aByteArray87 != null && i_81_ < aByteArray87.length)
-					class180.method2703(originalModelColors[i_81_], (aShortArray14[aByteArray87[i_81_] & 0xff]));
+					inventoryMesh.recolor(originalModelColors[i_81_], (aShortArray14[aByteArray87[i_81_] & 0xff]));
 				else
-					class180.method2703(originalModelColors[i_81_], modifiedModelColors[i_81_]);
+					inventoryMesh.recolor(originalModelColors[i_81_], modifiedModelColors[i_81_]);
 			}
 		}
 		if (null != originalTextureColors) {
 			for (int i_82_ = 0; i_82_ < originalTextureColors.length; i_82_++)
-				class180.method2704(originalTextureColors[i_82_], modifiedTextureColors[i_82_]);
+				inventoryMesh.retexture(originalTextureColors[i_82_], modifiedTextureColors[i_82_]);
 		}
-		if (class617 != null) {
+		if (playerAppearance != null) {
 			for (int i_83_ = 0; i_83_ < 10; i_83_++) {
-				for (int i_84_ = 0; i_84_ < Class500.aShortArrayArray6844[i_83_].length; i_84_++) {
-					if (class617.anIntArray8072[i_83_] < (Class267.aShortArrayArrayArray2870[i_83_][i_84_]).length)
-						class180.method2703((Class500.aShortArrayArray6844[i_83_][i_84_]), (Class267.aShortArrayArrayArray2870[i_83_][i_84_][(class617.anIntArray8072[i_83_])]));
+				for (int i_84_ = 0; i_84_ < Class500.skinColors[i_83_].length; i_84_++) {
+					if (playerAppearance.colors[i_83_] < (Class267.skinColors[i_83_][i_84_]).length)
+						inventoryMesh.recolor((Class500.skinColors[i_83_][i_84_]), (Class267.skinColors[i_83_][i_84_][(playerAppearance.colors[i_83_])]));
 				}
 			}
-			for (int i_85_ = 0; i_85_ < 10; i_85_++) {
+			for (int i_85_ = 0; i_85_ < 10; i_85_++) { //new skin colors
 				for (int i_86_ = 0; i_86_ < Class710_Sub4.aShortArrayArray10822[i_85_].length; i_86_++) {
-					if (class617.anIntArray8075[i_85_] < (Class44.aShortArrayArrayArray520[i_85_][i_86_]).length)
-						class180.method2704(Class710_Sub4.aShortArrayArray10822[i_85_][i_86_], (Class44.aShortArrayArrayArray520[i_85_][i_86_][class617.anIntArray8075[i_85_]]));
+					if (playerAppearance.anIntArray8075[i_85_] < (Class44.aShortArrayArrayArray520[i_85_][i_86_]).length)
+						inventoryMesh.retexture(Class710_Sub4.aShortArrayArray10822[i_85_][i_86_], (Class44.aShortArrayArrayArray520[i_85_][i_86_][playerAppearance.anIntArray8075[i_85_]]));
 				}
 			}
 		}
-		int i_87_ = 2048;
-		boolean bool_88_ = false;
-		if (-268256853 * anInt71 != 128 || 128 != anInt72 * 1833389311 || 128 != anInt73 * 622326303) {
-			bool_88_ = true;
-			i_87_ |= 0x7;
+		int mask = 2048;
+		boolean needsResizing = false;
+		if (-268256853 * resizeX != 128 || 128 != resizeY * 1833389311 || 128 != resizeZ * 622326303) {
+			needsResizing = true;
+			mask |= 0x7;
 		}
-		Class177 class177 = class167.method2093(class180, i_87_, 64, 64 + anInt60 * -2092145097, -573721669 * anInt74 + 768);
-		if (!class177.method2480())
+		MeshRasterizer meshRasterizer = hardwareRenderer.createMeshRasterizer(inventoryMesh, mask, 64, 64 + ambient * -2092145097, -573721669 * contrast + 768);
+		if (!meshRasterizer.successful())
 			return null;
-		if (bool_88_)
-			class177.method2474(anInt71 * -268256853, 1833389311 * anInt72, 622326303 * anInt73);
-		Class143 class143 = null;
+		if (needsResizing)
+			meshRasterizer.resize(resizeX * -268256853, 1833389311 * resizeY, 622326303 * resizeZ);
+		NativeSprite sprite = null;
 		if (-1 != certTemplateId * 79208069) {
-			class143 = aClass16_16.method646(class167, class167_76_, 1990739153 * certId, 10, 1, 0, true, true, 0, class184, class617, class628, anInterface12_15, -889560749);
-			if (null == class143)
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 1990739153 * certId, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, -889560749);
+			if (null == sprite)
 				return null;
 		} else if (-1 != -1494720165 * lendTemplateId) {
-			class143 = aClass16_16.method646(class167, class167_76_, 515259213 * lendId, amount, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 1133511832);
-			if (null == class143)
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 515259213 * lendId, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, 1133511832);
+			if (null == sprite)
 				return null;
 		} else if (-1 != bindTemplateId * -377039411) {
-			class143 = aClass16_16.method646(class167, class167_76_, bindId * 1859340953, amount, i_77_, i_78_, false, true, 0, class184, class617, class628, anInterface12_15, 284352773);
-			if (null == class143)
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, bindId * 1859340953, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, 284352773);
+			if (null == sprite)
 				return null;
 		} else if (anInt64 * 208949951 != -1) {
-			class143 = aClass16_16.method646(class167, class167_76_, 989214201 * anInt67, 10, 1, 0, true, true, 0, class184, class617, class628, anInterface12_15, -2107081638);
-			if (null == class143)
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 989214201 * anInt67, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, -2107081638);
+			if (null == sprite)
 				return null;
 		}
-		int i_89_;
-		if (bool)
-			i_89_ = (int) ((double) (modelZoom * -1906278051) * 1.5) << 2;
-		else if (i_77_ == 2)
-			i_89_ = (int) ((double) (-1906278051 * modelZoom) * 1.04) << 2;
+		int zoom;
+		if (zoomedIn)
+			zoom = (int) ((double) (modelZoom * -1906278051) * 1.5) << 2;
+		else if (outlineSize == 2)
+			zoom = (int) ((double) (-1906278051 * modelZoom) * 1.04) << 2;
 		else
-			i_89_ = modelZoom * -1906278051 << 2;
-		Class443 class443 = class167.method2103();
-		Class443 class443_90_ = class167.method2391();
-		class443_90_.method5350(16.0F, 16.0F, 512.0F, 512.0F, 50.0F, 2.14748365E9F, (float) class167.method2278((byte) 82).method2725(), (float) class167.method2278((byte) -67).method2726());
-		class167.method2390(class443_90_);
-		class167.method2048(0, 0, class167.method2278((byte) 18).method2725(), class167.method2278((byte) -12).method2726());
+			zoom = modelZoom * -1906278051 << 2;
+		Class443 class443 = hardwareRenderer.method2103();
+		Class443 class443_90_ = hardwareRenderer.method2391();
+		class443_90_.method5350(16.0F, 16.0F, 512.0F, 512.0F, 50.0F, 2.14748365E9F, (float) hardwareRenderer.method2278((byte) 82).method2725(), (float) hardwareRenderer.method2278((byte) -67).method2726());
+		hardwareRenderer.method2390(class443_90_);
+		hardwareRenderer.method2048(0, 0, hardwareRenderer.method2278((byte) 18).method2725(), hardwareRenderer.method2278((byte) -12).method2726());
 		Class433 class433 = new Class433();
-		class167.method2099(class433);
-		class167.method2006(0.95F + (float) (Math.random() / 10.0));
-		class167.method2105(16777215, 0.95F + (float) (Math.random() / 10.0), 0.95F + (float) (Math.random() / 10.0), -50.0F, -10.0F, -50.0F);
-		Class433 class433_91_ = class167.method2091();
+		hardwareRenderer.method2099(class433);
+		hardwareRenderer.method2006(0.95F + (float) (Math.random() / 10.0));
+		hardwareRenderer.method2105(16777215, 0.95F + (float) (Math.random() / 10.0), 0.95F + (float) (Math.random() / 10.0), -50.0F, -10.0F, -50.0F);
+		Class433 class433_91_ = hardwareRenderer.method2091();
 		class433_91_.method5206(0.0F, 0.0F, 1.0F, Class447.method5400(-(anInt31 * -751322115) << 3));
 		class433_91_.method5214(0.0F, 1.0F, 0.0F, Class447.method5400(modelRotation2 * 824706077 << 3));
-		class433_91_.method5200((float) (modelOffset1 * 814524581 << 2), (float) (((Class447.anIntArray4906[211736907 * modelRotation1 << 3]) * i_89_ >> 14) - class177.method2562() / 2 + (-1832345149 * modelOffset2 << 2)), (float) ((modelOffset2 * -1832345149 << 2) + (((Class447.anIntArray4921[211736907 * modelRotation1 << 3]) * i_89_) >> 14)));
+		class433_91_.method5200((float) (modelOffset1 * 814524581 << 2), (float) (((Class447.anIntArray4906[211736907 * modelRotation1 << 3]) * zoom >> 14) - meshRasterizer.method2562() / 2 + (-1832345149 * modelOffset2 << 2)), (float) ((modelOffset2 * -1832345149 << 2) + (((Class447.anIntArray4921[211736907 * modelRotation1 << 3]) * zoom) >> 14)));
 		class433_91_.method5214(1.0F, 0.0F, 0.0F, Class447.method5400(modelRotation1 * 211736907 << 3));
-		class167.method2369(0, 0, 36, 32);
-		class167.method2000(2, 0);
-		class167.method2063(0, 0, 36, 32, 0, 0);
-		class167.method2107(0, -1, 0);
-		class177.method2490(class433_91_, null, 1);
-		class167.method2390(class443);
-		int[] is = class167.method2078(0, 0, 36, 32);
-		if (i_77_ >= 1) {
-			is = method506(is, -16777214, -1371650055);
-			if (i_77_ >= 2)
-				is = method506(is, -1, -330011200);
+		hardwareRenderer.method2369(0, 0, 36, 32);
+		hardwareRenderer.method2000(2, 0);
+		hardwareRenderer.method2063(0, 0, 36, 32, 0, 0);
+		hardwareRenderer.method2107(0, -1, 0);
+		meshRasterizer.method2490(class433_91_, null, 1);
+		hardwareRenderer.method2390(class443);
+		int[] pixels = hardwareRenderer.getPixelArea(0, 0, 36, 32);
+		if (outlineSize >= 1) {
+			pixels = addOutlines(pixels, -16777214, -1371650055);
+			if (outlineSize >= 2)
+				pixels = addOutlines(pixels, -1, -330011200);
 		}
-		if (i_78_ != 0)
-			method507(is, i_78_, (byte) 5);
+		if (shadowColor != 0)
+			addShadow(pixels, shadowColor, (byte) 5);
 		if (-1 != lendTemplateId * -1494720165)
-			class143.method1728(0, 0);
+			sprite.method1728(0, 0);
 		else if (-1 != bindTemplateId * -377039411)
-			class143.method1728(0, 0);
-		class167.method2081(is, 0, 36, 36, 32, (byte) -98).method1728(0, 0);
+			sprite.method1728(0, 0);
+		hardwareRenderer.createNativeSprite(pixels, 0, 36, 36, 32, (byte) -98).method1728(0, 0);
 		if (certTemplateId * 79208069 != -1)
-			class143.method1728(0, 0);
+			sprite.method1728(0, 0);
 		if (208949951 * anInt64 != -1)
-			class143.method1728(0, 0);
+			sprite.method1728(0, 0);
 		if (i_79_ == 1 || i_79_ == 2 && (stackable * -1370184373 == 1 || amount != 1) && amount != -1)
-			class184.renderItemAmountIThink(Class60.colorifyItemAmount(amount, aClass16_16.aClass664_176, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
-		is = class167.method2078(0, 0, 36, 32);
-		for (int i_92_ = 0; i_92_ < is.length; i_92_++) {
-			if (0 == (is[i_92_] & 0xffffff))
-				is[i_92_] = 0;
+			fontRenderer.renderText(Class60.colorifyItemAmount(amount, loader.language, class628, -1735265180), 0, 9, -256, -16777215, (byte) -96);
+		pixels = hardwareRenderer.getPixelArea(0, 0, 36, 32);
+		for (int i_92_ = 0; i_92_ < pixels.length; i_92_++) {
+			if (0 == (pixels[i_92_] & 0xffffff))
+				pixels[i_92_] = 0;
 			else
-				is[i_92_] |= ~0xffffff;
+				pixels[i_92_] |= ~0xffffff;
 		}
-		return is;
+		return pixels;
 	}
 
 	public final boolean method514(boolean bool, ItemEffects class12, int i) {
@@ -668,9 +668,9 @@ public class ItemDecoder implements ConfigType {
 		if (-1 == i_93_)
 			return true;
 		boolean bool_95_ = true;
-		if (!aClass16_16.aClass461_175.method5558(i_93_, 0, 367375023))
+		if (!loader.table.method5558(i_93_, 0, 367375023))
 			bool_95_ = false;
-		if (-1 != i_94_ && !aClass16_16.aClass461_175.method5558(i_94_, 0, 1390793256))
+		if (-1 != i_94_ && !loader.table.method5558(i_94_, 0, 1390793256))
 			bool_95_ = false;
 		return bool_95_;
 	}
@@ -701,16 +701,16 @@ public class ItemDecoder implements ConfigType {
 		if (i_96_ == -1)
 			return true;
 		boolean bool_99_ = true;
-		if (!aClass16_16.aClass461_175.method5558(i_96_, 0, -944398882))
+		if (!loader.table.method5558(i_96_, 0, -944398882))
 			bool_99_ = false;
-		if (i_97_ != -1 && !aClass16_16.aClass461_175.method5558(i_97_, 0, 413776572))
+		if (i_97_ != -1 && !loader.table.method5558(i_97_, 0, 413776572))
 			bool_99_ = false;
-		if (i_98_ != -1 && !aClass16_16.aClass461_175.method5558(i_98_, 0, -1005164162))
+		if (i_98_ != -1 && !loader.table.method5558(i_98_, 0, -1005164162))
 			bool_99_ = false;
 		return bool_99_;
 	}
 
-	public final Class180 method517(boolean bool, ItemEffects class12, byte i) {
+	public final RSMesh method517(boolean bool, ItemEffects class12, byte i) {
 		int i_122_;
 		int i_123_;
 		if (bool) {
@@ -730,15 +730,15 @@ public class ItemDecoder implements ConfigType {
 		}
 		if (-1 == i_122_)
 			return null;
-		Class180 class180 = Class180.method2708(aClass16_16.aClass461_175, i_122_, 0);
+		RSMesh class180 = RSMesh.decodeMesh(loader.table, i_122_, 0);
 		if (class180.anInt1949 < 13)
-			class180.method2707(2);
+			class180.upscale(2);
 		if (i_123_ != -1) {
-			Class180 class180_124_ = Class180.method2708(aClass16_16.aClass461_175, i_123_, 0);
+			RSMesh class180_124_ = RSMesh.decodeMesh(loader.table, i_123_, 0);
 			if (class180_124_.anInt1949 < 13)
-				class180_124_.method2707(2);
-			Class180[] class180s = { class180, class180_124_ };
-			class180 = new Class180(class180s, 2);
+				class180_124_.upscale(2);
+			RSMesh[] class180s = { class180, class180_124_ };
+			class180 = new RSMesh(class180s, 2);
 		}
 		if (null != originalModelColors) {
 			short[] is;
@@ -747,7 +747,7 @@ public class ItemDecoder implements ConfigType {
 			else
 				is = modifiedModelColors;
 			for (int i_125_ = 0; i_125_ < originalModelColors.length; i_125_++)
-				class180.method2703(originalModelColors[i_125_], is[i_125_]);
+				class180.recolor(originalModelColors[i_125_], is[i_125_]);
 		}
 		if (originalTextureColors != null) {
 			short[] is;
@@ -756,7 +756,7 @@ public class ItemDecoder implements ConfigType {
 			else
 				is = modifiedTextureColors;
 			for (int i_126_ = 0; i_126_ < originalTextureColors.length; i_126_++)
-				class180.method2704(originalTextureColors[i_126_], is[i_126_]);
+				class180.retexture(originalTextureColors[i_126_], is[i_126_]);
 		}
 		return class180;
 	}
@@ -890,15 +890,15 @@ public class ItemDecoder implements ConfigType {
 			stackIds[opcode - 100] = buffer.readUnsignedShort();
 			stackAmounts[opcode - 100] = buffer.readUnsignedShort();
 		} else if (110 == opcode)
-			anInt71 = buffer.readUnsignedShort() * 950171907;
+			resizeX = buffer.readUnsignedShort() * 950171907;
 		else if (opcode == 111)
-			anInt72 = buffer.readUnsignedShort() * 1888465663;
+			resizeY = buffer.readUnsignedShort() * 1888465663;
 		else if (opcode == 112)
-			anInt73 = buffer.readUnsignedShort() * 1564412383;
+			resizeZ = buffer.readUnsignedShort() * 1564412383;
 		else if (opcode == 113)
-			anInt60 = buffer.readByte() * -1969344633;
+			ambient = buffer.readByte() * -1969344633;
 		else if (opcode == 114)
-			anInt74 = buffer.readByte() * -1313505473;
+			contrast = buffer.readByte() * -1313505473;
 		else if (115 == opcode)
 			teamId = buffer.readUnsignedByte() * 1227687221;
 		else if (opcode == 121)

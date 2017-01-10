@@ -58,7 +58,7 @@ public class Class298 {
 	static final void method4014(Class668 class668, byte i) {
 		client.aBool11147 = (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1;
 		if (client.aBool11147)
-			Class167.method2408(1105758597);
+			GraphicalRenderer.method2408(1105758597);
 	}
 
 	public static void method4015(int[] is, int[] is_4_, int i) {

@@ -247,7 +247,7 @@ public abstract class Class173 implements Interface24 {
 					Class30 class30 = client.aClass30Array11295[i_65_];
 					String string_66_ = class30.aString263;
 					String string_67_ = Class473.method5740(string_66_, Class302.aClass74_3406, (byte) -87);
-					if (Class184.method2764(string, string_64_, string_66_, string_67_, -1113769417)) {
+					if (FontRenderer.method2764(string, string_64_, string_66_, string_67_, -1113769417)) {
 						client.anInt11293 -= -758864271;
 						for (int i_68_ = i_65_; i_68_ < 1857706641 * client.anInt11293; i_68_++)
 							client.aClass30Array11295[i_68_] = client.aClass30Array11295[1 + i_68_];

@@ -8,7 +8,7 @@ import java.net.Socket;
 public class Class321 implements Interface33 {
 	Class388 aClass388_3540;
 	JS5ResourceProvider aClass461_3541;
-	Class143 aClass143_3542;
+	NativeSprite aClass143_3542;
 	static Socket HANDSHAKE_SOCKET;
 
 	public void method217() {

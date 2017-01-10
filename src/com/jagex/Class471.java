@@ -77,7 +77,7 @@ public final class Class471 implements Comparable {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 	}
 
-	static void method5717(Class167 class167, int i, int i_2_, int i_3_, int i_4_, int i_5_) {
+	static void method5717(GraphicalRenderer class167, int i, int i_2_, int i_3_, int i_4_, int i_5_) {
 		class167.method2369(i, i_2_, i + i_3_, i_2_ + i_4_);
 		if (962386111 * Class542_Sub1.anInt10700 < 100) {
 			int i_6_ = 20;

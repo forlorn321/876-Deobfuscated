@@ -29,7 +29,7 @@ public class Class405 {
 			UpdateKey.aClass59_613.method985(new Class432("jaclib"), (byte) -97);
 			if (UpdateKey.aClass59_613.method976(-1894391340).method48(-2018821559) != 100)
 				return 1;
-			if (!((Class432) UpdateKey.aClass59_613.method976(1866549365)).method5180((short) -11372) && !Class167.method2410(-1504778739)) {
+			if (!((Class432) UpdateKey.aClass59_613.method976(1866549365)).method5180((short) -11372) && !GraphicalRenderer.method2410(-1504778739)) {
 				try {
 					Class313.aclient3500.method6133((byte) 5);
 					Class554.method6783((byte) -13);

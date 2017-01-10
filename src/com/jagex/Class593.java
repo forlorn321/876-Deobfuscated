@@ -597,7 +597,7 @@ public class Class593 {
 			Class196.method2866(class668, -393645079);
 			break;
 		case 458:
-			Class617.method7365(class668, 2019461208);
+			PlayerAppearance.method7365(class668, 2019461208);
 			break;
 		case 967:
 			Class298.method4011(class668, 1828669705);
@@ -723,7 +723,7 @@ public class Class593 {
 			Class311.method4181(class668, (byte) 90);
 			break;
 		case 59:
-			Class184.method2766(class668, -1325704268);
+			FontRenderer.method2766(class668, -1325704268);
 			break;
 		case 644:
 			Class571.method6928(class668, -1687673905);
@@ -1038,7 +1038,7 @@ public class Class593 {
 			Class183_Sub1.method8659(class668, (byte) -23);
 			break;
 		case 1088:
-			Class184.method2765(class668, 36650657);
+			FontRenderer.method2765(class668, 36650657);
 			break;
 		case 422:
 			Class434.method5237(class668, 1483418012);
@@ -1194,7 +1194,7 @@ public class Class593 {
 			Class476.method5748(class668, 1315926055);
 			break;
 		case 773:
-			Class167.method2413(class668, (byte) 124);
+			GraphicalRenderer.method2413(class668, (byte) 124);
 			break;
 		case 1256:
 			Class642.method7732(class668, -1087802104);
@@ -1896,7 +1896,7 @@ public class Class593 {
 			Class571.method6931(class668, (byte) 96);
 			break;
 		case 1173:
-			Class617.method7368(class668, 1158243215);
+			PlayerAppearance.method7368(class668, 1158243215);
 			break;
 		case 429:
 			Class289.method3921(class668, 1821681753);
@@ -2172,7 +2172,7 @@ public class Class593 {
 			Class645_Sub1.method10042(class668, -2145193758);
 			break;
 		case 660:
-			Class617.method7366(class668, -1302338280);
+			PlayerAppearance.method7366(class668, -1302338280);
 			break;
 		case 681:
 			Class26.method737(class668, (byte) 13);
@@ -2717,7 +2717,7 @@ public class Class593 {
 			Class198.method2874(class668, -369448145);
 			break;
 		case 626:
-			Class617.method7369(class668, 1550654881);
+			PlayerAppearance.method7369(class668, 1550654881);
 			break;
 		case 418:
 			Class710_Sub39.method10245(class668, 1815629367);
@@ -3149,7 +3149,7 @@ public class Class593 {
 			Class587.method7080(class668, -1743072297);
 			break;
 		case 62:
-			Class167.method2409(class668, (byte) 9);
+			GraphicalRenderer.method2409(class668, (byte) 9);
 			break;
 		case 529:
 			Class591.method7109(class668, -674903560);

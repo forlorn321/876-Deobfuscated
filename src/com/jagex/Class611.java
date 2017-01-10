@@ -64,8 +64,8 @@ public class Class611 implements Interface75 {
 		class106.writePacket(class536_sub23, -76972843);
 	}
 
-	static void method7280(Class167 class167, Class536_Sub41 class536_sub41, Class248 class248, int i) {
-		Class143 class143 = class248.method3432(class167, 1184117658);
+	static void method7280(GraphicalRenderer class167, Class536_Sub41 class536_sub41, Class248 class248, int i) {
+		NativeSprite class143 = class248.method3432(class167, 1184117658);
 		if (class143 != null) {
 			int i_3_ = class143.method1720();
 			if (class143.method1752() > i_3_)

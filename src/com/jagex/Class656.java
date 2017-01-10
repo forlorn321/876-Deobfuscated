@@ -42,17 +42,17 @@ public class Class656 {
 			if (string != null) {
 				Class677.aClass167_8609.method2000(1, 0);
 				Class2 class2 = Class651.method7862(Class710_Sub43.aClass461_10940, Class35.anInt298 * 1743452435, 0, Class196.aClass410_2202, 1551196755);
-				Class184 class184 = (Class677.aClass167_8609.method2089(class2, Class181.method2720(Class398.aClass461_4122, 1743452435 * Class35.anInt298, 0), true));
+				FontRenderer class184 = (Class677.aClass167_8609.method2089(class2, Class181.method2720(Class398.aClass461_4122, 1743452435 * Class35.anInt298, 0), true));
 				Class477.method5751((byte) -100);
 				Class306.method4120(string, true, Class677.aClass167_8609, class184, class2, (byte) 0);
 			}
 		} else {
-			Class167 class167 = null;
+			GraphicalRenderer class167 = null;
 			if (string != null) {
 				class167 = Class219.method3105(0, Class399.aCanvas4127, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, Class53.aClass385_598, Class402.aClass397_4204, Class237.aClass396_2422, Class540.aClass461_7161, 0, 1351324176);
 				class167.method2000(1, 0);
 				Class2 class2 = Class259.method3608(Class710_Sub43.aClass461_10940, Class35.anInt298 * 1743452435, 0, (byte) 91);
-				Class184 class184 = (class167.method2089(class2, Class181.method2720(Class398.aClass461_4122, Class35.anInt298 * 1743452435, 0), true));
+				FontRenderer class184 = (class167.method2089(class2, Class181.method2720(Class398.aClass461_4122, Class35.anInt298 * 1743452435, 0), true));
 				Class477.method5751((byte) -113);
 				Class306.method4120(string, true, class167, class184, class2, (byte) 0);
 				try {
@@ -156,7 +156,7 @@ public class Class656 {
 		Class677.aClass167_8609.method2039(0.0F, 1.0F);
 	}
 
-	static void method7946(IComponentDefinitions class251, Class161 class161, int i, int i_7_, int i_8_, int i_9_, Class143 class143, double d, Class261 class261, Class283 class283, byte i_10_) {
+	static void method7946(IComponentDefinitions class251, Class161 class161, int i, int i_7_, int i_8_, int i_9_, NativeSprite class143, double d, Class261 class261, Class283 class283, byte i_10_) {
 		if (class143 != null) {
 			int i_11_;
 			if (Class246.anInt2474 * 155362615 == 2)

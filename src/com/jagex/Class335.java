@@ -129,7 +129,7 @@ public class Class335 implements Interface33 {
 		Class683.aClass301_Sub1_8651.method4089(i_5_, (byte) 92);
 	}
 
-	static void method4377(Class167 class167, int i, int i_6_, IComponentDefinitions class251, Class161 class161, int i_7_, int i_8_, int i_9_) {
+	static void method4377(GraphicalRenderer class167, int i, int i_6_, IComponentDefinitions class251, Class161 class161, int i_7_, int i_8_, int i_9_) {
 		for (int i_10_ = 0; i_10_ < client.anInt11053 * -664631943; i_10_++) {
 			ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) client.anIntArray11211[i_10_]));
 			if (null != class536_sub13) {

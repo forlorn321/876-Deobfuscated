@@ -4,7 +4,7 @@
 package com.jagex;
 
 final class Class640 implements Runnable {
-	public static Class143 aClass143_8311;
+	public static NativeSprite aClass143_8311;
 
 	public void run() {
 		try {

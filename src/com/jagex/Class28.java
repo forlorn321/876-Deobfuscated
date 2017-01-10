@@ -12,7 +12,7 @@ public class Class28 {
 	static final int anInt256 = 12;
 	public static int[] anIntArray257;
 	public static int anInt258;
-	static Class143[] aClass143Array259;
+	static NativeSprite[] aClass143Array259;
 	public static int anInt260;
 
 	static final void method764(Class668 class668, byte i) {

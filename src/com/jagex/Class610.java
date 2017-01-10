@@ -11,7 +11,7 @@ public final class Class610 implements Interface19 {
 	int[] anIntArray7919;
 	static final long aLong7920 = 4611686018427387903L;
 	Class4 aClass4_7921 = new Class4(128);
-	static Class143[] aClass143Array7922;
+	static NativeSprite[] aClass143Array7922;
 
 	public int method98(Class153 class153) {
 		return anIntArray7916[class153.anInt1715 * -1786401803];

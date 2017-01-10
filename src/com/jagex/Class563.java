@@ -17,7 +17,7 @@ public class Class563 {
 		}
 	}
 
-	public boolean method6867(Class167 class167, int i, int i_0_, byte i_1_) {
+	public boolean method6867(GraphicalRenderer class167, int i, int i_0_, byte i_1_) {
 		int i_2_ = aClass649_Sub1_7582.method9954(-1237432603);
 		if (null != aClass649_Sub1_7582.aClass178Array10842) {
 			for (int i_3_ = 0; i_3_ < aClass649_Sub1_7582.aClass178Array10842.length; i_3_++) {

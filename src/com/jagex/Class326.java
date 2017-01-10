@@ -15,7 +15,7 @@ public class Class326 implements Interface33 {
 		return aClass323_3563.method4255((byte) 1);
 	}
 
-	int method4280(Class184 class184, String string, int i, int i_0_, int i_1_, short i_2_) {
+	int method4280(FontRenderer class184, String string, int i, int i_0_, int i_1_, short i_2_) {
 		return class184.method2743(string, i_1_ + i, i_0_ + i_1_, (aClass387_3564.anInt4034 * -1469209785 - i_1_ * 2), (648638955 * aClass387_3564.anInt4042 - i_1_ * 2), aClass387_3564.anInt4038 * -718978793, aClass387_3564.anInt4043 * 717823735, 0, 0, 0, null, null, null, 0, 0, -1958566508);
 	}
 

@@ -14,7 +14,7 @@ public class Class507 {
 	int anInt6895;
 	Class513[] aClass513Array6896;
 	int anInt6897;
-	Class143 aClass143_6898;
+	NativeSprite aClass143_6898;
 	int anInt6899;
 	int anInt6900 = 1325974445;
 	int anInt6901;
@@ -24,7 +24,7 @@ public class Class507 {
 	int anInt6905;
 	static final int anInt6906 = 512;
 	boolean aBool6907 = true;
-	Class177 aClass177_6908;
+	MeshRasterizer aClass177_6908;
 	byte[] aByteArray6909;
 	boolean aBool6910;
 	Class569 aClass569_6911;
@@ -63,7 +63,7 @@ public class Class507 {
 		anInt6901 = 2065758183 * i_6_;
 	}
 
-	void method6149(Class167 class167, int i, int i_7_, int i_8_, int i_9_, byte i_10_) {
+	void method6149(GraphicalRenderer class167, int i, int i_7_, int i_8_, int i_9_, byte i_10_) {
 		Class433 class433 = class167.method2100();
 		Class433 class433_11_ = new Class433();
 		class433_11_.method5203(0.0F, 0.0F, 0.0F);
@@ -84,7 +84,7 @@ public class Class507 {
 		return aClass507_6912;
 	}
 
-	public boolean method6151(Class167 class167, int i, int i_13_, int i_14_) {
+	public boolean method6151(GraphicalRenderer class167, int i, int i_13_, int i_14_) {
 		if (i != 2023647195 * anInt6900) {
 			anInt6900 = -1325974445 * i;
 			int i_15_ = Class72.method1124(i, 1254841045);
@@ -131,13 +131,13 @@ public class Class507 {
 		return bool;
 	}
 
-	void method6152(Class167 class167, byte i) {
+	void method6152(GraphicalRenderer class167, byte i) {
 		try {
 			boolean bool = Class269.aClass461_2879.method5560(anInt6901 * 1601448919, 324927502);
 			if (bool) {
 				class167.method2105(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-				Class180 class180 = Class180.method2708(Class269.aClass461_2879, anInt6901 * 1601448919, 0);
-				aClass177_6908 = class167.method2093(class180, 1099776, 0, 255, 1);
+				RSMesh class180 = RSMesh.decodeMesh(Class269.aClass461_2879, anInt6901 * 1601448919, 0);
+				aClass177_6908 = class167.createMeshRasterizer(class180, 1099776, 0, 255, 1);
 				byte[] is = aClass177_6908.method2506();
 				if (null == is)
 					aByteArray6909 = null;
@@ -151,11 +151,11 @@ public class Class507 {
 		}
 	}
 
-	public void method6153(Class167 class167, int i, int i_20_, int i_21_, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_, int i_27_, short i_28_) {
+	public void method6153(GraphicalRenderer class167, int i, int i_20_, int i_21_, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_, int i_27_, short i_28_) {
 		method6154(class167, i, i_20_, i_21_, i_22_, i_23_, i_24_, i_25_, 0, i_27_, true, false, -149796516);
 	}
 
-	public void method6154(Class167 class167, int i, int i_29_, int i_30_, int i_31_, int i_32_, int i_33_, int i_34_, int i_35_, int i_36_, boolean bool, boolean bool_37_, int i_38_) {
+	public void method6154(GraphicalRenderer class167, int i, int i_29_, int i_30_, int i_31_, int i_32_, int i_33_, int i_34_, int i_35_, int i_36_, boolean bool, boolean bool_37_, int i_38_) {
 		int i_39_ = 0;
 		if (aBool6910)
 			i_39_ = anInt6902 * -1922994219;
@@ -176,7 +176,7 @@ public class Class507 {
 		}
 	}
 
-	void method6155(Class167 class167, int i, int i_42_, int i_43_, int i_44_, int i_45_, int i_46_, int i_47_, int i_48_, int i_49_, boolean bool, boolean bool_50_, int i_51_, int i_52_) {
+	void method6155(GraphicalRenderer class167, int i, int i_42_, int i_43_, int i_44_, int i_45_, int i_46_, int i_47_, int i_48_, int i_49_, boolean bool, boolean bool_50_, int i_51_, int i_52_) {
 		int i_53_ = 255 - i_51_;
 		class167.method2084();
 		class167.method2085();
@@ -189,7 +189,7 @@ public class Class507 {
 					int[] is = (class164.aClass595_1805 == Class595.aClass595_7819 ? (Class218.anInterface24_2306.method134(Class599.aClass599_7843, class164.anInt1801 * -398625547, 0.7F, -1522661639 * anInt6893, anInt6893 * -1522661639, false, -745501863)) : (Class218.anInterface24_2306.method133(Class599.aClass599_7843, -398625547 * class164.anInt1801, 0.7F, anInt6893 * -1522661639, -1522661639 * anInt6893, false, -521320062)));
 					anInt6904 = is[0] * 894472427;
 					anInt6905 = -708742741 * is[is.length - 1];
-					aClass143_6898 = class167.method2081(is, 0, class164.anInt1815 * -1174323635, -1174323635 * class164.anInt1815, -1174323635 * class164.anInt1815, (byte) -2);
+					aClass143_6898 = class167.createNativeSprite(is, 0, class164.anInt1815 * -1174323635, -1174323635 * class164.anInt1815, -1174323635 * class164.anInt1815, (byte) -2);
 				}
 				int i_54_ = (i_53_ == 255 ? (class164.aClass595_1805 == Class595.aClass595_7819 ? 1 : 0) : 1);
 				if (1 == i_54_ && bool)
@@ -385,7 +385,7 @@ public class Class507 {
 		Class207.method2965(string, string_72_, (byte) 12);
 	}
 
-	static void method6171(Class167 class167, int i, int i_73_, int i_74_, int i_75_, int i_76_, int i_77_, int i_78_, int i_79_) {
+	static void method6171(GraphicalRenderer class167, int i, int i_73_, int i_74_, int i_75_, int i_76_, int i_77_, int i_78_, int i_79_) {
 		Class553 class553 = client.aClass515_11066.method6249(-493122155);
 		Interface59 interface59 = (Interface59) class553.method6716(i, i_73_, i_74_, -342954341);
 		if (interface59 != null) {

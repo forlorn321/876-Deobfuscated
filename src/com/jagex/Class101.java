@@ -197,7 +197,7 @@ public class Class101 {
 		Class536_Sub34.method9816(Class677.aClass167_8609, Class398.aClass461_4122, (byte) 0);
 		Class706_Sub2.method10262((byte) 104);
 		Class552.method6692(-2033868655);
-		Class184.method2769(1071955793);
+		FontRenderer.method2769(1071955793);
 		if (-708374433 * client.anInt11101 == 16)
 			Class673.method8026(7, -1798113843);
 		else if (client.anInt11101 * -708374433 == 0)

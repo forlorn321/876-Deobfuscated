@@ -605,7 +605,7 @@ public class BASTypeDecoder implements Interface7, ConfigType {
 		Class683 class683 = (class668.aBool8548 ? class668.aClass683_8562 : class668.aClass683_8549);
 		IComponentDefinitions class251 = class683.aClass251_8650;
 		Class234 class234 = class683.aClass234_8649;
-		Class167.method2411(class251, class234, class668, 707956218);
+		GraphicalRenderer.method2411(class251, class234, class668, 707956218);
 	}
 
 	static final void method7097(Class668 class668, short i) {

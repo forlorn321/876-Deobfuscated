@@ -77,17 +77,17 @@ public class Class260 {
 		}
 	}
 
-	public static Class177 method3614(Class167 class167, int i, int i_16_, int i_17_, int i_18_, int i_19_, int i_20_) {
+	public static MeshRasterizer method3614(GraphicalRenderer class167, int i, int i_16_, int i_17_, int i_18_, int i_19_, int i_20_) {
 		long l = (long) i_19_;
-		Class177 class177 = (Class177) Class103.aClass199_1231.method2886(l);
+		MeshRasterizer class177 = (MeshRasterizer) Class103.aClass199_1231.method2886(l);
 		int i_21_ = 2055;
 		if (null == class177) {
-			Class180 class180 = Class180.method2708(Class602.aClass461_7857, i_19_, 0);
+			RSMesh class180 = RSMesh.decodeMesh(Class602.aClass461_7857, i_19_, 0);
 			if (null == class180)
 				return null;
 			if (class180.anInt1949 < 13)
-				class180.method2707(2);
-			class177 = class167.method2093(class180, i_21_, Class223.anInt2335 * -1536067173, 64, 768);
+				class180.upscale(2);
+			class177 = class167.createMeshRasterizer(class180, i_21_, Class223.anInt2335 * -1536067173, 64, 768);
 			Class103.aClass199_1231.method2881(class177, l);
 		}
 		class177 = class177.method2623((byte) 6, i_21_, true);

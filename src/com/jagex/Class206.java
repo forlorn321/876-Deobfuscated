@@ -185,7 +185,7 @@ public abstract class Class206 implements Interface6 {
 		int i_44_ = class649_sub1_sub5_sub1_36_.method10879((byte) -69);
 		if (i_44_ != -1) {
 			Object object = null;
-			Class143 class143 = (Class143) client.aClass199_11320.method2886((long) i_44_);
+			NativeSprite class143 = (NativeSprite) client.aClass199_11320.method2886((long) i_44_);
 			if (null == class143) {
 				Class179[] class179s = Class181.method2720(Class398.aClass461_4122, i_44_, 0);
 				if (class179s == null)

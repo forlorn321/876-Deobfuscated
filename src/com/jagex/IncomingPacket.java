@@ -441,7 +441,7 @@ public class IncomingPacket {
 		Class652.method7869(915220698);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 2, (byte) 1);
-		Class184.method2769(2127077988);
+		FontRenderer.method2769(2127077988);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}

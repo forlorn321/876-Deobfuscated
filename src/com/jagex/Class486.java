@@ -82,11 +82,11 @@ final class Class486 implements Interface11 {
 	}
 
 	public static void method5862(int i, byte i_9_) {
-		synchronized (Class617.aClass199_8081) {
-			Class617.aClass199_8081.method2883(i, -1032069301);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			PlayerAppearance.aClass199_8081.method2883(i, -1032069301);
 		}
-		synchronized (Class617.aClass199_8082) {
-			Class617.aClass199_8082.method2883(i, -1366326229);
+		synchronized (PlayerAppearance.aClass199_8082) {
+			PlayerAppearance.aClass199_8082.method2883(i, -1366326229);
 		}
 	}
 }

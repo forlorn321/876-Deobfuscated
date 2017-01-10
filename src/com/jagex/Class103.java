@@ -73,7 +73,7 @@ public class Class103 {
 		aClass199_1231.method2892(266809290);
 	}
 
-	static void method1371(Class167 class167, Class161 class161, IComponentDefinitions class251, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_) {
+	static void method1371(GraphicalRenderer class167, Class161 class161, IComponentDefinitions class251, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_) {
 		Class248 class248 = ((Class248) Class398_Sub1.aClass34_Sub8_10110.method70(i_3_, (byte) 91));
 		if (class248 != null && class248.anIntArray2506 != null && class248.method3429(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, 440832876))
 			class248 = class248.method3435(Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, -1305113627);
@@ -153,7 +153,7 @@ public class Class103 {
 					class167.method2277(is[is.length - 2], is[is.length - 1], is[0], is[1], (class248.anIntArray2519[(class248.aByteArray2521[(class248.aByteArray2521.length - 1)]) & 0xff]), 1);
 				}
 			}
-			Class143 class143 = null;
+			NativeSprite class143 = null;
 			if (-1 != 400801363 * class248.anInt2481) {
 				class143 = class248.method3430(class167, false, 276352132);
 				if (class143 != null) {
@@ -165,7 +165,7 @@ public class Class103 {
 				int i_27_ = 0;
 				if (null != class143)
 					i_27_ = class143.method1752();
-				Class184 class184 = Class18.aClass184_190;
+				FontRenderer class184 = Class18.aClass184_190;
 				Class2 class2 = Class556.aClass2_7510;
 				if (class248.anInt2486 * 1093270539 == 1) {
 					class184 = Clan.aClass184_10488;

@@ -30,7 +30,7 @@ public class Class156 {
 	public static int method1883(int i) {
 		Canvas canvas = new Canvas();
 		canvas.setSize(100, 100);
-		Class167 class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -1001121825);
+		GraphicalRenderer class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -1001121825);
 		long l = Class249.method3450(1352626123);
 		for (int i_2_ = 0; i_2_ < 10000; i_2_++)
 			class167.method2030(5, 10, 100.0F, 75, 50, 100.0F, 15, 90, 100.0F, -65536, -65536, -65536, 1);

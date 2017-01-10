@@ -5,7 +5,7 @@ package com.jagex;
 
 import jaggl.OpenGL;
 
-public class Class143_Sub2 extends Class143 {
+public class Class143_Sub2 extends NativeSprite {
 	int anInt9033;
 	int anInt9034 = 0;
 	Class167_Sub2 aClass167_Sub2_9035;
@@ -280,7 +280,7 @@ public class Class143_Sub2 extends Class143 {
 
 	void method8477(int i, int i_51_, int i_52_, int i_53_, int i_54_, int i_55_, boolean bool) {
 		if (aClass167_Sub2_9035.aBool9199 && !bool) {
-			int[] is = aClass167_Sub2_9035.method2078(i_54_, i_55_, i_52_, i_53_);
+			int[] is = aClass167_Sub2_9035.getPixelArea(i_54_, i_55_, i_52_, i_53_);
 			if (is != null) {
 				for (int i_56_ = 0; i_56_ < is.length; i_56_++)
 					is[i_56_] |= ~0xffffff;

@@ -521,11 +521,11 @@ public class Class591 implements Interface71 {
 		int i_9_ = client.anInt11134 * -1402295105;
 		int i_10_ = 746262305 * client.anInt11135;
 		if (client.anInt11007 * 496146437 == 1) {
-			Class143 class143 = (Class28.aClass143Array259[-377873525 * client.anInt11130 / 100]);
+			NativeSprite class143 = (Class28.aClass143Array259[-377873525 * client.anInt11130 / 100]);
 			class143.method1728(i_9_ - 8, i_10_ - 8);
 		}
 		if (2 == 496146437 * client.anInt11007) {
-			Class143 class143 = (Class28.aClass143Array259[client.anInt11130 * -377873525 / 100 + 4]);
+			NativeSprite class143 = (Class28.aClass143Array259[client.anInt11130 * -377873525 / 100 + 4]);
 			class143.method1728(i_9_ - 8, i_10_ - 8);
 		}
 	}

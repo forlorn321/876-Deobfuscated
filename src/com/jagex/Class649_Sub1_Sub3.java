@@ -69,7 +69,7 @@ public abstract class Class649_Sub1_Sub3 extends Class649_Sub1 {
 		return (aClass553_10838.aBoolArrayArray7471[(aClass553_10838.anInt7447 * 813474573 + (((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444) - -1629030593 * aClass553_10838.anInt7454))][(((int) class436.aFloat4853 >> aClass553_10838.anInt7444 * 1893698405) - aClass553_10838.anInt7455 * -1430999951 + 813474573 * aClass553_10838.anInt7447)]);
 	}
 
-	boolean method9948(Class167 class167, int i) {
+	boolean method9948(GraphicalRenderer class167, int i) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6591(this, aByte10840, ((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444), ((int) class436.aFloat4853 >> aClass553_10838.anInt7444 * 1893698405)));
 	}
@@ -183,7 +183,7 @@ public abstract class Class649_Sub1_Sub3 extends Class649_Sub1 {
 			aClass536_Sub19Array11786[i_16_] = null;
 	}
 
-	boolean method9982(Class167 class167) {
+	boolean method9982(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6591(this, aByte10840, ((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444), ((int) class436.aFloat4853 >> aClass553_10838.anInt7444 * 1893698405)));
 	}

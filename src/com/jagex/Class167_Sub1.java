@@ -5,7 +5,7 @@ package com.jagex;
 
 import java.awt.Canvas;
 
-public class Class167_Sub1 extends Class167 {
+public class Class167_Sub1 extends GraphicalRenderer {
 	int anInt8993;
 	int anInt8994;
 	boolean aBool8995;
@@ -42,9 +42,9 @@ public class Class167_Sub1 extends Class167 {
 	int anInt9026;
 	Class199 aClass199_9027;
 	Class199 aClass199_9028;
-	Class143 aClass143_9029;
+	NativeSprite aClass143_9029;
 	int anInt9030;
-	Class143 aClass143_9031;
+	NativeSprite aClass143_9031;
 	Class183_Sub2 aClass183_Sub2_9032;
 
 	public Class536_Sub25 method2194(int i) {
@@ -303,7 +303,7 @@ public class Class167_Sub1 extends Class167 {
 		method2047();
 	}
 
-	public int[] method2078(int i, int i_27_, int i_28_, int i_29_) {
+	public int[] getPixelArea(int i, int i_27_, int i_28_, int i_29_) {
 		if (null == anIntArray8996)
 			throw new IllegalStateException("");
 		int[] is = new int[i_29_ * i_28_];
@@ -1355,7 +1355,7 @@ public class Class167_Sub1 extends Class167 {
 		return class437.method5296(i, i_375_, i_376_, i_377_, class443, aFloat9002, aFloat9022, aFloat9019, aFloat9023);
 	}
 
-	public Class177 method2261(Class180 class180, int i, int i_378_, int i_379_, int i_380_) {
+	public MeshRasterizer method2261(RSMesh class180, int i, int i_378_, int i_379_, int i_380_) {
 		return new Class177_Sub3(this, class180, i, i_379_, i_380_, i_378_);
 	}
 
@@ -1378,7 +1378,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class143 method2082(Class179 class179, boolean bool) {
+	public NativeSprite method2082(Class179 class179, boolean bool) {
 		int i = class179.method2633();
 		int i_386_ = class179.method2677();
 		Class143_Sub1 class143_sub1;
@@ -1405,7 +1405,7 @@ public class Class167_Sub1 extends Class167 {
 		return class143_sub1;
 	}
 
-	public Class143 method2205(int i, int i_392_, int i_393_, int i_394_, boolean bool) {
+	public NativeSprite method2205(int i, int i_392_, int i_393_, int i_394_, boolean bool) {
 		if (anIntArray8996 == null)
 			throw new IllegalStateException("");
 		int[] is = new int[i_394_ * i_393_];
@@ -1462,7 +1462,7 @@ public class Class167_Sub1 extends Class167 {
 		}
 	}
 
-	public Class177 method2330(Class180 class180, int i, int i_412_, int i_413_, int i_414_) {
+	public MeshRasterizer method2330(RSMesh class180, int i, int i_412_, int i_413_, int i_414_) {
 		return new Class177_Sub3(this, class180, i, i_413_, i_414_, i_412_);
 	}
 
@@ -2041,13 +2041,13 @@ public class Class167_Sub1 extends Class167 {
 			method8455(bool_563_, i, i_565_, f, i_568_, class521_sub2_sub1.anInt11594, 1);
 		else {
 			if (-26431769 * anInt8994 != i_567_) {
-				Class143 class143 = (Class143) aClass199_9028.method2886((long) i_567_);
+				NativeSprite class143 = (NativeSprite) aClass199_9028.method2886((long) i_567_);
 				if (class143 == null) {
 					Class164 class164 = aClass174_1852.method2446(i_567_, -594819784);
 					int[] is = method8444(i_567_);
 					if (is != null) {
 						int i_569_ = class164.anInt1815 * -1174323635;
-						class143 = method2081(is, 0, i_569_, i_569_, i_569_, (byte) -97);
+						class143 = createNativeSprite(is, 0, i_569_, i_569_, i_569_, (byte) -97);
 						aClass199_9028.method2881(class143, (long) i_567_);
 					} else
 						return;
@@ -2171,7 +2171,7 @@ public class Class167_Sub1 extends Class167 {
 			anInterface24_1851.method29(645305262);
 	}
 
-	public Class184 method2089(Class2 class2, Class179[] class179s, boolean bool) {
+	public FontRenderer method2089(Class2 class2, Class179[] class179s, boolean bool) {
 		int[] is = new int[class179s.length];
 		int[] is_602_ = new int[class179s.length];
 		boolean bool_603_ = false;
@@ -2331,7 +2331,7 @@ public class Class167_Sub1 extends Class167 {
 		}
 	}
 
-	public Class143 method2355(int[] is, int i, int i_641_, int i_642_, int i_643_, boolean bool) {
+	public NativeSprite method2355(int[] is, int i, int i_641_, int i_642_, int i_643_, boolean bool) {
 		boolean bool_644_ = false;
 		int i_645_ = i;
 		while_29_: for (int i_646_ = 0; i_646_ < i_643_; i_646_++) {
@@ -2600,7 +2600,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class143 method2283(Class179 class179, boolean bool) {
+	public NativeSprite method2283(Class179 class179, boolean bool) {
 		int i = class179.method2633();
 		int i_695_ = class179.method2677();
 		Class143_Sub1 class143_sub1;
@@ -2720,7 +2720,7 @@ public class Class167_Sub1 extends Class167 {
 		method8451();
 	}
 
-	public Class143 method2050(int i, int i_720_, boolean bool, boolean bool_721_) {
+	public NativeSprite method2050(int i, int i_720_, boolean bool, boolean bool_721_) {
 		if (bool)
 			return new Class143_Sub1_Sub1(this, i, i_720_);
 		return new Class143_Sub1_Sub2(this, i, i_720_);
@@ -4520,7 +4520,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class143 method2379(int i, int i_1274_, boolean bool, boolean bool_1275_) {
+	public NativeSprite method2379(int i, int i_1274_, boolean bool, boolean bool_1275_) {
 		if (bool)
 			return new Class143_Sub1_Sub1(this, i, i_1274_);
 		return new Class143_Sub1_Sub2(this, i, i_1274_);
@@ -4531,7 +4531,7 @@ public class Class167_Sub1 extends Class167 {
 		aClass143_9031 = null;
 	}
 
-	public Class143 method2251(Class179 class179, boolean bool) {
+	public NativeSprite method2251(Class179 class179, boolean bool) {
 		int i = class179.method2633();
 		int i_1276_ = class179.method2677();
 		Class143_Sub1 class143_sub1;
@@ -4627,7 +4627,7 @@ public class Class167_Sub1 extends Class167 {
 		method8470(0);
 	}
 
-	public Class177 method2259(Class180 class180, int i, int i_1293_, int i_1294_, int i_1295_) {
+	public MeshRasterizer method2259(RSMesh class180, int i, int i_1293_, int i_1294_, int i_1295_) {
 		return new Class177_Sub3(this, class180, i, i_1294_, i_1295_, i_1293_);
 	}
 
@@ -4715,7 +4715,7 @@ public class Class167_Sub1 extends Class167 {
 		return class107.aClass433_1289;
 	}
 
-	public Class143 method2080(int[] is, int i, int i_1306_, int i_1307_, int i_1308_, boolean bool) {
+	public NativeSprite method2080(int[] is, int i, int i_1306_, int i_1307_, int i_1308_, boolean bool) {
 		boolean bool_1309_ = false;
 		int i_1310_ = i;
 		while_30_: for (int i_1311_ = 0; i_1311_ < i_1308_; i_1311_++) {
@@ -4790,7 +4790,7 @@ public class Class167_Sub1 extends Class167 {
 		aBool9014 = true;
 	}
 
-	public Class184 method2255(Class2 class2, Class179[] class179s, boolean bool) {
+	public FontRenderer method2255(Class2 class2, Class179[] class179s, boolean bool) {
 		int[] is = new int[class179s.length];
 		int[] is_1325_ = new int[class179s.length];
 		boolean bool_1326_ = false;
@@ -4829,7 +4829,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class177 method2093(Class180 class180, int i, int i_1329_, int i_1330_, int i_1331_) {
+	public MeshRasterizer createMeshRasterizer(RSMesh class180, int i, int i_1329_, int i_1330_, int i_1331_) {
 		return new Class177_Sub3(this, class180, i, i_1330_, i_1331_, i_1329_);
 	}
 
@@ -5012,13 +5012,13 @@ public class Class167_Sub1 extends Class167 {
 				Class164 class164 = aClass174_1852.method2446(i_1355_, -1970058577);
 				if (!class164.aBool1820) {
 					if (-26431769 * anInt8994 != i_1355_) {
-						Class143 class143 = ((Class143) aClass199_9028.method2886((long) i_1355_));
+						NativeSprite class143 = ((NativeSprite) aClass199_9028.method2886((long) i_1355_));
 						if (class143 == null) {
 							int[] is = method8444(i_1355_);
 							if (is == null)
 								return;
 							int i_1359_ = class164.anInt1815 * -1174323635;
-							class143 = method2081(is, 0, i_1359_, i_1359_, i_1359_, (byte) -27);
+							class143 = createNativeSprite(is, 0, i_1359_, i_1359_, i_1359_, (byte) -27);
 							aClass199_9028.method2881(class143, (long) i_1355_);
 						}
 						anInt8994 = 333874391 * i_1355_;
@@ -5293,7 +5293,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class143 method2280(Class179 class179, boolean bool) {
+	public NativeSprite method2280(Class179 class179, boolean bool) {
 		int i = class179.method2633();
 		int i_1441_ = class179.method2677();
 		Class143_Sub1 class143_sub1;
@@ -5399,7 +5399,7 @@ public class Class167_Sub1 extends Class167 {
 		/* empty */
 	}
 
-	public Class143 method2353(int[] is, int i, int i_1467_, int i_1468_, int i_1469_, boolean bool) {
+	public NativeSprite method2353(int[] is, int i, int i_1467_, int i_1468_, int i_1469_, boolean bool) {
 		boolean bool_1470_ = false;
 		int i_1471_ = i;
 		while_31_: for (int i_1472_ = 0; i_1472_ < i_1469_; i_1472_++) {
@@ -5416,7 +5416,7 @@ public class Class167_Sub1 extends Class167 {
 		return new Class143_Sub1_Sub2(this, is, i, i_1467_, i_1468_, i_1469_, bool);
 	}
 
-	public Class143 method2333(int[] is, int i, int i_1475_, int i_1476_, int i_1477_, boolean bool) {
+	public NativeSprite method2333(int[] is, int i, int i_1475_, int i_1476_, int i_1477_, boolean bool) {
 		boolean bool_1478_ = false;
 		int i_1479_ = i;
 		while_32_: for (int i_1480_ = 0; i_1480_ < i_1477_; i_1480_++) {
@@ -5438,7 +5438,7 @@ public class Class167_Sub1 extends Class167 {
 		is[1] = -1805705211 * anInt8998;
 	}
 
-	public Class143 method2303(int i, int i_1483_, int i_1484_, int i_1485_, boolean bool) {
+	public NativeSprite method2303(int i, int i_1483_, int i_1484_, int i_1485_, boolean bool) {
 		if (anIntArray8996 == null)
 			throw new IllegalStateException("");
 		int[] is = new int[i_1485_ * i_1484_];
@@ -5455,7 +5455,7 @@ public class Class167_Sub1 extends Class167 {
 		return new Class143_Sub1_Sub2(this, is, i_1484_, i_1485_);
 	}
 
-	public Class143 method2357(int i, int i_1491_, int i_1492_, int i_1493_, boolean bool) {
+	public NativeSprite method2357(int i, int i_1491_, int i_1492_, int i_1493_, boolean bool) {
 		if (anIntArray8996 == null)
 			throw new IllegalStateException("");
 		int[] is = new int[i_1493_ * i_1492_];

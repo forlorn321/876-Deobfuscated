@@ -10,7 +10,7 @@ public abstract class Class608 {
 	Class199 aClass199_7906;
 	Class199 aClass199_7907 = new Class199(30);
 	String[] aStringArray7908;
-	Class180[] aClass180Array7909;
+	RSMesh[] aClass180Array7909;
 	boolean aBool7910;
 
 	void method7234() {
@@ -123,7 +123,7 @@ public abstract class Class608 {
 		synchronized (aClass199_7906) {
 			aClass199_7906.method2884((byte) -43);
 		}
-		aClass180Array7909 = new Class180[4];
+		aClass180Array7909 = new RSMesh[4];
 		aClass7_7903 = new Class7(null, null);
 	}
 
@@ -170,7 +170,7 @@ public abstract class Class608 {
 		synchronized (aClass199_7906) {
 			aClass199_7906.method2884((byte) -93);
 		}
-		aClass180Array7909 = new Class180[4];
+		aClass180Array7909 = new RSMesh[4];
 		aClass7_7903 = new Class7(null, null);
 	}
 
@@ -184,7 +184,7 @@ public abstract class Class608 {
 		synchronized (aClass199_7906) {
 			aClass199_7906.method2884((byte) -100);
 		}
-		aClass180Array7909 = new Class180[4];
+		aClass180Array7909 = new RSMesh[4];
 		aClass7_7903 = new Class7(null, null);
 	}
 
@@ -204,7 +204,7 @@ public abstract class Class608 {
 
 	Class608(boolean bool, Language class664, GameMode class670) {
 		aClass199_7906 = new Class199(50);
-		aClass180Array7909 = new Class180[4];
+		aClass180Array7909 = new RSMesh[4];
 		aClass7_7903 = new Class7(null, null);
 		aBool7910 = bool;
 		if (GameMode.aClass670_8568 == class670)

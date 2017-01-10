@@ -16,7 +16,7 @@ public class Class308 {
 		return (new int[] { Class35.anInt295 * -219992997, Class35.anInt298 * 1743452435, 1622294095 * Class35.anInt294 });
 	}
 
-	static void method4136(Class167 class167, Class536_Sub41 class536_sub41, Class248 class248, int i, int i_0_, int i_1_, int i_2_, int i_3_) {
+	static void method4136(GraphicalRenderer class167, Class536_Sub41 class536_sub41, Class248 class248, int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		int i_4_ = i - 5;
 		int i_5_ = 2 + i_0_;
 		if (0 != 637992035 * class248.anInt2494)

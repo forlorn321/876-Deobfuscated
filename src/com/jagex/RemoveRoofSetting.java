@@ -88,7 +88,7 @@ public class RemoveRoofSetting extends ClientSetting {
 		return anInt8842 * -789865385;
 	}
 
-	static void method9920(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, Class536_Sub18_Sub9 class536_sub18_sub9, Class184 class184, Class2 class2, int i_8_, int i_9_, int i_10_) {
+	static void method9920(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, Class536_Sub18_Sub9 class536_sub18_sub9, FontRenderer class184, Class2 class2, int i_8_, int i_9_, int i_10_) {
 		if (i > i_3_ && i < i_5_ + i_3_ && i_2_ > i_7_ - class2.anInt91 * -1214764847 - 1 && i_2_ < 1780869003 * class2.anInt92 + i_7_ && class536_sub18_sub9.aBool11714)
 			i_8_ = i_9_;
 		int[] is = Class402.method4923(class536_sub18_sub9, 963140472);

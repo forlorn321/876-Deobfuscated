@@ -44,7 +44,7 @@ public class Class699 implements Interface75 {
 		anInt8788 = 435289565 * i;
 	}
 
-	static void method8235(Class167 class167, int i) {
+	static void method8235(GraphicalRenderer class167, int i) {
 		if (Class54.aClass708_602.method8339((byte) 75) != 0) {
 			if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() == 0) {
 				for (Class536_Sub5 class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8308(1867269829)); class536_sub5 != null; class536_sub5 = ((Class536_Sub5) Class54.aClass708_602.method8311(2006801508))) {

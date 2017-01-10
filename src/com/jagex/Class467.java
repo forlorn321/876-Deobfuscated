@@ -456,7 +456,7 @@ public class Class467 {
 		return (new Class595[] { Class595.aClass595_7819, Class595.aClass595_7820, Class595.aClass595_7818 });
 	}
 
-	public static Class143 method5691(byte i) {
+	public static NativeSprite method5691(byte i) {
 		return Class575.aClass143_7676;
 	}
 

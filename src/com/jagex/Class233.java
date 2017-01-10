@@ -81,10 +81,10 @@ public class Class233 implements Interface75 {
 		class668.anInt8542 -= 1472892954;
 	}
 
-	static void method3336(Class167 class167, byte i) {
+	static void method3336(GraphicalRenderer class167, byte i) {
 		if (Class70.aBool752)
 			Class48.method915(class167, (byte) -119);
 		else
-			Class617.method7367(class167, -1410881436);
+			PlayerAppearance.method7367(class167, -1410881436);
 	}
 }

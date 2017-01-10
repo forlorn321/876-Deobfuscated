@@ -18,7 +18,7 @@ public abstract class Class649_Sub1_Sub4 extends Class649_Sub1 {
 		return (aClass553_10838.aBoolArrayArray7471[(((int) class436.aFloat4850 >> aClass553_10838.anInt7444 * 1893698405) - -1629030593 * aClass553_10838.anInt7454 + aClass553_10838.anInt7447 * 813474573)][(813474573 * aClass553_10838.anInt7447 + (((int) class436.aFloat4853 >> aClass553_10838.anInt7444 * 1893698405) - aClass553_10838.anInt7455 * -1430999951))]);
 	}
 
-	boolean method9948(Class167 class167, int i) {
+	boolean method9948(GraphicalRenderer class167, int i) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6595(aByte10840, ((int) class436.aFloat4850 >> aClass553_10838.anInt7444 * 1893698405), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444), method9960(-705575457)));
 	}
@@ -43,7 +43,7 @@ public abstract class Class649_Sub1_Sub4 extends Class649_Sub1 {
 			aClass536_Sub19Array11820[i_6_] = null;
 	}
 
-	boolean method9982(Class167 class167) {
+	boolean method9982(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6595(aByte10840, ((int) class436.aFloat4850 >> aClass553_10838.anInt7444 * 1893698405), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444), method9960(-1765583219)));
 	}
@@ -56,11 +56,11 @@ public abstract class Class649_Sub1_Sub4 extends Class649_Sub1 {
 		return false;
 	}
 
-	final void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_7_, int i_8_, boolean bool, int i_9_) {
+	final void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_7_, int i_8_, boolean bool, int i_9_) {
 		throw new IllegalStateException();
 	}
 
-	final void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_10_, int i_11_, boolean bool) {
+	final void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_10_, int i_11_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
@@ -117,7 +117,7 @@ public abstract class Class649_Sub1_Sub4 extends Class649_Sub1 {
 		return -2095107563 * anInt11822;
 	}
 
-	final void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_13_, int i_14_, boolean bool) {
+	final void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_13_, int i_14_, boolean bool) {
 		throw new IllegalStateException();
 	}
 }

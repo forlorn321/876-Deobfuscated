@@ -6,7 +6,7 @@ package com.jagex;
 public class Class289 {
 	static Class289 aClass289_3213;
 	static Class289 aClass289_3214 = new Class289(0);
-	static Class143 aClass143_3215;
+	static NativeSprite aClass143_3215;
 
 	static {
 		aClass289_3213 = new Class289(1);

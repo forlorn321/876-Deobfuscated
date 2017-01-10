@@ -14,7 +14,7 @@ public class Class323 implements Runnable {
 	volatile boolean aBool3547;
 	Thread aThread3548;
 	Class314[] aClass314Array3549;
-	public static Class143 aClass143_3550;
+	public static NativeSprite aClass143_3550;
 
 	public void method4253() {
 		try {

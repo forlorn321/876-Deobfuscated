@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class143_Sub3 extends Class143 {
+public class Class143_Sub3 extends NativeSprite {
 	boolean aBool9334;
 	boolean aBool9335;
 	Interface22 anInterface22_9336;
@@ -493,7 +493,7 @@ public class Class143_Sub3 extends Class143 {
 	}
 
 	public void method1727(int i, int i_153_, int i_154_) {
-		int[] is = aClass167_Sub3_9339.method2078(i, i_153_, anInt9338, anInt9344);
+		int[] is = aClass167_Sub3_9339.getPixelArea(i, i_153_, anInt9338, anInt9344);
 		int[] is_155_ = new int[anInt9338 * anInt9344];
 		anInterface36_9337.method243(0, 0, anInt9338, anInt9344, is_155_, 0);
 		if (i_154_ == 0) {
@@ -525,7 +525,7 @@ public class Class143_Sub3 extends Class143 {
 	}
 
 	public void method1751(int i, int i_168_, int i_169_) {
-		int[] is = aClass167_Sub3_9339.method2078(i, i_168_, anInt9338, anInt9344);
+		int[] is = aClass167_Sub3_9339.getPixelArea(i, i_168_, anInt9338, anInt9344);
 		int[] is_170_ = new int[anInt9338 * anInt9344];
 		anInterface36_9337.method243(0, 0, anInt9338, anInt9344, is_170_, 0);
 		if (i_169_ == 0) {
@@ -755,7 +755,7 @@ public class Class143_Sub3 extends Class143 {
 	}
 
 	public void method1750(int i, int i_217_, int i_218_) {
-		int[] is = aClass167_Sub3_9339.method2078(i, i_217_, anInt9338, anInt9344);
+		int[] is = aClass167_Sub3_9339.getPixelArea(i, i_217_, anInt9338, anInt9344);
 		int[] is_219_ = new int[anInt9338 * anInt9344];
 		anInterface36_9337.method243(0, 0, anInt9338, anInt9344, is_219_, 0);
 		if (i_218_ == 0) {
@@ -1572,7 +1572,7 @@ public class Class143_Sub3 extends Class143 {
 	}
 
 	public void method1742(int i, int i_440_, int i_441_) {
-		int[] is = aClass167_Sub3_9339.method2078(i, i_440_, anInt9338, anInt9344);
+		int[] is = aClass167_Sub3_9339.getPixelArea(i, i_440_, anInt9338, anInt9344);
 		int[] is_442_ = new int[anInt9338 * anInt9344];
 		anInterface36_9337.method243(0, 0, anInt9338, anInt9344, is_442_, 0);
 		if (i_441_ == 0) {

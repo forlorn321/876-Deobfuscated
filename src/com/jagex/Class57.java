@@ -19,11 +19,11 @@ public class Class57 {
 
 	public static void method966(int i, int i_0_) {
 		Class98_Sub1_Sub1.anInt11323 = i * 1812291805;
-		synchronized (Class617.aClass199_8082) {
-			Class617.aClass199_8082.method2884((byte) -11);
+		synchronized (PlayerAppearance.aClass199_8082) {
+			PlayerAppearance.aClass199_8082.method2884((byte) -11);
 		}
-		synchronized (Class617.aClass199_8081) {
-			Class617.aClass199_8081.method2884((byte) -94);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			PlayerAppearance.aClass199_8081.method2884((byte) -94);
 		}
 	}
 
@@ -60,7 +60,7 @@ public class Class57 {
 		}
 	}
 
-	public static Class167 method971(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, int i, int i_3_, int i_4_) {
+	public static GraphicalRenderer method971(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, int i, int i_3_, int i_4_) {
 		return new Class167_Sub1(canvas, class174, interface24, interface47, interface48, interface46, i, i_3_);
 	}
 

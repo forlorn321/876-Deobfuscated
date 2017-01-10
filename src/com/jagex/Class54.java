@@ -4,8 +4,8 @@
 package com.jagex;
 
 public class Class54 {
-	static Class167 aClass167_600;
-	static Class184 aClass184_601;
+	static GraphicalRenderer aClass167_600;
+	static FontRenderer aClass184_601;
 	static Class708 aClass708_602 = new Class708();
 
 	Class54() throws Throwable {

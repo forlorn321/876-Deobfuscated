@@ -44,7 +44,7 @@ public class Class295 {
 		anInt3264 = i * 224133811;
 	}
 
-	public static void method3977(Class167 class167, long l) {
+	public static void method3977(GraphicalRenderer class167, long l) {
 		if (Class575.anInt7658 * 179908453 != 3 && 0 != Class575.anInt7658 * 179908453) {
 			if (1 == 179908453 * Class575.anInt7658) {
 				if (Class575.aStringArray7650 == null || Class575.aStringArray7650.length == 0)

@@ -45,7 +45,7 @@ public final class Class676 {
 		return new Class392_Sub3(class392.aClass395_4064, class392.aClass399_4065, 316945261 * class392.anInt4066, class392.anInt4069 * 1917287119, -1755858667 * class392.anInt4068, class392.anInt4067 * -840030237, -2068781397 * class392.anInt4070, class392.anInt4071 * 1694830205, -369678755 * class392.anInt4072, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_);
 	}
 
-	static void method8041(Class167 class167, Class708 class708, int i, int i_6_, int i_7_) {
+	static void method8041(GraphicalRenderer class167, Class708 class708, int i, int i_6_, int i_7_) {
 		JS5ConfigGroup.aClass708_8457.method8304(454036827);
 		if (!Class542_Sub1.aBool10708) {
 			for (Class536_Sub41 class536_sub41 = (Class536_Sub41) class708.method8308(1867269829); class536_sub41 != null; class536_sub41 = (Class536_Sub41) class708.method8311(1268812365)) {

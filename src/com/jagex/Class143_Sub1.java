@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public abstract class Class143_Sub1 extends Class143 {
+public abstract class Class143_Sub1 extends NativeSprite {
 	static int anInt8943;
 	static int anInt8944;
 	int anInt8945;

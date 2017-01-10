@@ -6,7 +6,7 @@ package com.jagex;
 public class Class536_Sub8 extends Class536 {
 	int anInt10430;
 	String aString10431;
-	static Class143 aClass143_10432;
+	static NativeSprite aClass143_10432;
 
 	Class536_Sub8() {
 		/* empty */

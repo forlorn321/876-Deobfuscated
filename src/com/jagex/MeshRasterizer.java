@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public abstract class Class177 {
+public abstract class MeshRasterizer {
 	static final float aFloat1937 = 3.1415927F;
 	protected boolean aBool1938 = false;
 	public boolean aBool1939 = true;
@@ -123,7 +123,7 @@ public abstract class Class177 {
 		}
 	}
 
-	public abstract void method2469(Class177 class177_35_, int i, int i_36_, int i_37_, boolean bool);
+	public abstract void method2469(MeshRasterizer class177_35_, int i, int i_36_, int i_37_, boolean bool);
 
 	public abstract void method2470(int i);
 
@@ -133,7 +133,7 @@ public abstract class Class177 {
 
 	public abstract void method2473();
 
-	public abstract void method2474(int i, int i_40_, int i_41_);
+	public abstract void resize(int i, int i_40_, int i_41_);
 
 	public abstract void method2475(int i, int i_42_, Class160 class160, Class160 class160_43_, int i_44_, int i_45_, int i_46_);
 
@@ -218,7 +218,7 @@ public abstract class Class177 {
 		}
 	}
 
-	public abstract boolean method2480();
+	public abstract boolean successful();
 
 	public final void method2481(Class536_Sub18_Sub17 class536_sub18_sub17, int i, Class536_Sub18_Sub17 class536_sub18_sub17_82_, int i_83_, int i_84_, int i_85_, int i_86_, int i_87_, boolean bool, int[] is) {
 		if (i != -1) {
@@ -313,7 +313,7 @@ public abstract class Class177 {
 
 	abstract void method2486(int i, int[] is, int i_103_, int i_104_, int i_105_, int i_106_, boolean bool);
 
-	Class177() {
+	MeshRasterizer() {
 		/* empty */
 	}
 
@@ -355,7 +355,7 @@ public abstract class Class177 {
 
 	public abstract int method2493();
 
-	Class163 method2494(Class180 class180, int[] is, int i) {
+	Class163 method2494(RSMesh class180, int[] is, int i) {
 		int[] is_125_ = null;
 		int[] is_126_ = null;
 		int[] is_127_ = null;
@@ -450,7 +450,7 @@ public abstract class Class177 {
 
 	public abstract void method2495(int i);
 
-	public abstract Class177 method2496(byte i, int i_149_, boolean bool);
+	public abstract MeshRasterizer method2496(byte i, int i_149_, boolean bool);
 
 	public abstract int method2497();
 
@@ -492,7 +492,7 @@ public abstract class Class177 {
 
 	public abstract void method2516(int i);
 
-	public abstract void method2517(Class177 class177_155_, int i, int i_156_, int i_157_, boolean bool);
+	public abstract void method2517(MeshRasterizer class177_155_, int i, int i_156_, int i_157_, boolean bool);
 
 	static float[] method2518(int i, int i_158_, int i_159_, int i_160_, float f, float f_161_, float f_162_) {
 		float[] fs = new float[9];
@@ -756,7 +756,7 @@ public abstract class Class177 {
 
 	public abstract void method2560();
 
-	public abstract void method2561(Class177 class177_238_, int i, int i_239_, int i_240_, boolean bool);
+	public abstract void method2561(MeshRasterizer class177_238_, int i, int i_239_, int i_240_, boolean bool);
 
 	public abstract int method2562();
 
@@ -893,9 +893,9 @@ public abstract class Class177 {
 		fs_251_[1] = f_256_;
 	}
 
-	public abstract Class177 method2617(byte i, int i_259_, boolean bool);
+	public abstract MeshRasterizer method2617(byte i, int i_259_, boolean bool);
 
-	public abstract Class177 method2618(byte i, int i_260_, boolean bool);
+	public abstract MeshRasterizer method2618(byte i, int i_260_, boolean bool);
 
 	public abstract void method2619(Class433 class433, Class178 class178, int i);
 
@@ -905,7 +905,7 @@ public abstract class Class177 {
 
 	public abstract int method2622();
 
-	public abstract Class177 method2623(byte i, int i_264_, boolean bool);
+	public abstract MeshRasterizer method2623(byte i, int i_264_, boolean bool);
 
 	public abstract void method2624(int i);
 

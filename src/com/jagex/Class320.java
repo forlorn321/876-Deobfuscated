@@ -7,7 +7,7 @@ public class Class320 implements Interface33 {
 	JS5ResourceProvider aClass461_3533;
 	Class394 aClass394_3534;
 	JS5ResourceProvider aClass461_3535;
-	Class184 aClass184_3536;
+	FontRenderer aClass184_3536;
 	long aLong3537 = -6788776513541852395L;
 	int anInt3538;
 	public static int anInt3539;

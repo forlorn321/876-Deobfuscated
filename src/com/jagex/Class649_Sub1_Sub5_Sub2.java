@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Interface59 {
-	Class177 aClass177_11978;
+	MeshRasterizer aClass177_11978;
 	Class34_Sub17 aClass34_Sub17_11979;
 	Class536_Sub18_Sub7 aClass536_Sub18_Sub7_11980;
 	Class559 aClass559_11981;
@@ -17,7 +17,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 	boolean aBool11988;
 	boolean aBool11989;
 
-	Class563 method9965(Class167 class167) {
+	Class563 method9965(GraphicalRenderer class167) {
 		if (null == aClass177_11978)
 			return null;
 		Class433 class433 = method7851();
@@ -36,11 +36,11 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			aClass177_11978.method2467();
 	}
 
-	boolean method9969(Class167 class167, int i, int i_0_) {
+	boolean method9969(GraphicalRenderer class167, int i, int i_0_) {
 		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_11979.method70(304510135 * anInt11982, (byte) 58)).aClass437_8010);
 		if (null != class437)
 			return class167.method2073(i, i_0_, method7851(), class437, -1749442517);
-		Class177 class177 = method10930(class167, 131072, 713199109);
+		MeshRasterizer class177 = method10930(class167, 131072, 713199109);
 		if (null != class177) {
 			Class433 class433 = method7851();
 			return class177.method2549(i, i_0_, class433, false, 0);
@@ -52,16 +52,16 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aClass177_11978 != null ? aClass177_11978.method2562() : 0;
 	}
 
-	Class177 method10930(Class167 class167, int i, int i_1_) {
+	MeshRasterizer method10930(GraphicalRenderer class167, int i, int i_1_) {
 		if (null != aClass177_11978 && class167.method2308(aClass177_11978.method2466(), i) == 0)
 			return aClass177_11978;
 		Class7 class7 = method10931(class167, i, false, -1179822453);
 		if (class7 != null)
-			return (Class177) class7.anObject117;
+			return (MeshRasterizer) class7.anObject117;
 		return null;
 	}
 
-	Class7 method10931(Class167 class167, int i, boolean bool, int i_2_) {
+	Class7 method10931(GraphicalRenderer class167, int i, boolean bool, int i_2_) {
 		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_11979.method70(304510135 * anInt11982, (byte) 15);
 		Class160 class160;
 		Class160 class160_3_;
@@ -85,18 +85,18 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return false;
 	}
 
-	public Class559 method9962(Class167 class167) {
+	public Class559 method9962(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		if (null == aClass559_11981)
 			aClass559_11981 = Class684.method8109((int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, method10930(class167, 0, 1995346017), (short) -12989);
 		return aClass559_11981;
 	}
 
-	void method9945(Class167 class167, int i) {
+	void method9945(GraphicalRenderer class167, int i) {
 		/* empty */
 	}
 
-	public void method382(Class167 class167) {
+	public void method382(GraphicalRenderer class167) {
 		Object object = null;
 		Class536_Sub18_Sub7 class536_sub18_sub7;
 		if (aClass536_Sub18_Sub7_11980 == null && aBool11987) {
@@ -134,11 +134,11 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aByte11984;
 	}
 
-	boolean method9939(Class167 class167, int i, int i_4_, byte i_5_) {
+	boolean method9939(GraphicalRenderer class167, int i, int i_4_, byte i_5_) {
 		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_11979.method70(304510135 * anInt11982, (byte) -13)).aClass437_8010);
 		if (null != class437)
 			return class167.method2073(i, i_4_, method7851(), class437, -1936019565);
-		Class177 class177 = method10930(class167, 131072, -960274315);
+		MeshRasterizer class177 = method10930(class167, 131072, -960274315);
 		if (null != class177) {
 			Class433 class433 = method7851();
 			return class177.method2549(i, i_4_, class433, false, 0);
@@ -154,11 +154,11 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aBool11987;
 	}
 
-	boolean method9957(Class167 class167, int i, int i_6_) {
+	boolean method9957(GraphicalRenderer class167, int i, int i_6_) {
 		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_11979.method70(304510135 * anInt11982, (byte) -82)).aClass437_8010);
 		if (null != class437)
 			return class167.method2073(i, i_6_, method7851(), class437, -1934177998);
-		Class177 class177 = method10930(class167, 131072, 1137653796);
+		MeshRasterizer class177 = method10930(class167, 131072, 1137653796);
 		if (null != class177) {
 			Class433 class433 = method7851();
 			return class177.method2549(i, i_6_, class433, false, 0);
@@ -166,7 +166,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return false;
 	}
 
-	public void method372(Class167 class167, int i) {
+	public void method372(GraphicalRenderer class167, int i) {
 		Object object = null;
 		Class536_Sub18_Sub7 class536_sub18_sub7;
 		if (null == aClass536_Sub18_Sub7_11980 && aBool11987) {
@@ -201,7 +201,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aByte11983;
 	}
 
-	public Class559 method9946(Class167 class167, int i) {
+	public Class559 method9946(GraphicalRenderer class167, int i) {
 		Class436 class436 = method7837().aClass436_4823;
 		if (null == aClass559_11981)
 			aClass559_11981 = Class684.method8109((int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, method10930(class167, 0, -1754977753), (short) -13590);
@@ -233,7 +233,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			aClass177_11978.method2467();
 	}
 
-	void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_7_, int i_8_, boolean bool, int i_9_) {
+	void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_7_, int i_8_, boolean bool, int i_9_) {
 		if (class649_sub1 instanceof Class649_Sub1_Sub3_Sub2) {
 			Class649_Sub1_Sub3_Sub2 class649_sub1_sub3_sub2 = (Class649_Sub1_Sub3_Sub2) class649_sub1;
 			if (null != aClass177_11978 && class649_sub1_sub3_sub2.aClass177_12022 != null)
@@ -257,7 +257,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aBool11987;
 	}
 
-	public void method383(Class167 class167) {
+	public void method383(GraphicalRenderer class167) {
 		Object object = null;
 		Class536_Sub18_Sub7 class536_sub18_sub7;
 		if (aClass536_Sub18_Sub7_11980 == null && aBool11987) {
@@ -272,7 +272,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			aClass553_10838.method6761(class536_sub18_sub7, aByte10840, (int) class436.aFloat4850, (int) class436.aFloat4853, null, (byte) 104);
 	}
 
-	public void method384(Class167 class167) {
+	public void method384(GraphicalRenderer class167) {
 		Object object = null;
 		Class536_Sub18_Sub7 class536_sub18_sub7;
 		if (null == aClass536_Sub18_Sub7_11980 && aBool11987) {
@@ -305,7 +305,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aClass177_11978 != null ? aClass177_11978.method2562() : 0;
 	}
 
-	Class563 method9966(Class167 class167) {
+	Class563 method9966(GraphicalRenderer class167) {
 		if (null == aClass177_11978)
 			return null;
 		Class433 class433 = method7851();
@@ -323,14 +323,14 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aByte11983;
 	}
 
-	public Class559 method9961(Class167 class167) {
+	public Class559 method9961(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		if (null == aClass559_11981)
 			aClass559_11981 = Class684.method8109((int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, method10930(class167, 0, -2117771072), (short) -2979);
 		return aClass559_11981;
 	}
 
-	public void method371(Class167 class167, int i) {
+	public void method371(GraphicalRenderer class167, int i) {
 		Object object = null;
 		Class536_Sub18_Sub7 class536_sub18_sub7;
 		if (aClass536_Sub18_Sub7_11980 == null && aBool11987) {
@@ -345,14 +345,14 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			aClass553_10838.method6761(class536_sub18_sub7, aByte10840, (int) class436.aFloat4850, (int) class436.aFloat4853, null, (byte) 115);
 	}
 
-	public Class559 method9963(Class167 class167) {
+	public Class559 method9963(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		if (null == aClass559_11981)
 			aClass559_11981 = Class684.method8109((int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, method10930(class167, 0, 1214448387), (short) -19746);
 		return aClass559_11981;
 	}
 
-	Class563 method9985(Class167 class167) {
+	Class563 method9985(GraphicalRenderer class167) {
 		if (null == aClass177_11978)
 			return null;
 		Class433 class433 = method7851();
@@ -366,7 +366,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return class563;
 	}
 
-	public Class649_Sub1_Sub5_Sub2(Class553 class553, Class167 class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_11_, int i_12_, int i_13_, int i_14_, boolean bool, int i_15_, int i_16_, int i_17_, int i_18_, int i_19_, int i_20_, boolean bool_21_, boolean bool_22_) {
+	public Class649_Sub1_Sub5_Sub2(Class553 class553, GraphicalRenderer class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_11_, int i_12_, int i_13_, int i_14_, boolean bool, int i_15_, int i_16_, int i_17_, int i_18_, int i_19_, int i_20_, boolean bool_21_, boolean bool_22_) {
 		super(class553, i, i_11_, i_12_, i_13_, i_14_, i_15_, i_16_, i_17_, i_18_, class612.anInt7996 * -1529252395 == 1, Class533.method6464(i_19_, i_20_, -918320373));
 		aClass34_Sub17_11979 = class34_sub17;
 		anInt11982 = class612.anInt8008 * -1591612999;
@@ -385,7 +385,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			i_23_ |= 0x80000;
 		Class7 class7 = method10931(class167, i_23_, aBool11987, -1978705815);
 		if (class7 != null) {
-			aClass177_11978 = (Class177) class7.anObject117;
+			aClass177_11978 = (MeshRasterizer) class7.anObject117;
 			aClass536_Sub18_Sub7_11980 = (Class536_Sub18_Sub7) class7.anObject118;
 			if (aBool11985 || class612.aBool7969) {
 				aClass177_11978 = aClass177_11978.method2623((byte) 0, i_23_, false);
@@ -402,11 +402,11 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return null != aClass177_11978 ? aClass177_11978.method2493() / 4 : 15;
 	}
 
-	void method9967(Class167 class167) {
+	void method9967(GraphicalRenderer class167) {
 		/* empty */
 	}
 
-	Class563 method9944(Class167 class167, byte i) {
+	Class563 method9944(GraphicalRenderer class167, byte i) {
 		if (null == aClass177_11978)
 			return null;
 		Class433 class433 = method7851();
@@ -426,11 +426,11 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return false;
 	}
 
-	boolean method9971(Class167 class167, int i, int i_24_) {
+	boolean method9971(GraphicalRenderer class167, int i, int i_24_) {
 		Class437 class437 = (((ObjTypeDecoder) aClass34_Sub17_11979.method70(304510135 * anInt11982, (byte) -35)).aClass437_8010);
 		if (null != class437)
 			return class167.method2073(i, i_24_, method7851(), class437, -1807015755);
-		Class177 class177 = method10930(class167, 131072, 1146411593);
+		MeshRasterizer class177 = method10930(class167, 131072, 1146411593);
 		if (null != class177) {
 			Class433 class433 = method7851();
 			return class177.method2549(i, i_24_, class433, false, 0);
@@ -450,7 +450,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return aBool11985;
 	}
 
-	void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_25_, int i_26_, boolean bool) {
+	void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_25_, int i_26_, boolean bool) {
 		if (class649_sub1 instanceof Class649_Sub1_Sub3_Sub2) {
 			Class649_Sub1_Sub3_Sub2 class649_sub1_sub3_sub2 = (Class649_Sub1_Sub3_Sub2) class649_sub1;
 			if (null != aClass177_11978 && class649_sub1_sub3_sub2.aClass177_12022 != null)
@@ -462,7 +462,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		}
 	}
 
-	void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_28_, int i_29_, boolean bool) {
+	void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_28_, int i_29_, boolean bool) {
 		if (class649_sub1 instanceof Class649_Sub1_Sub3_Sub2) {
 			Class649_Sub1_Sub3_Sub2 class649_sub1_sub3_sub2 = (Class649_Sub1_Sub3_Sub2) class649_sub1;
 			if (null != aClass177_11978 && class649_sub1_sub3_sub2.aClass177_12022 != null)
@@ -480,28 +480,28 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 			aClass177_11978.method2465(aClass177_11978.method2466() & ~0x10000);
 	}
 
-	public Class559 method9955(Class167 class167) {
+	public Class559 method9955(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		if (null == aClass559_11981)
 			aClass559_11981 = Class684.method8109((int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, method10930(class167, 0, -761982675), (short) -19006);
 		return aClass559_11981;
 	}
 
-	Class177 method10933(Class167 class167, int i) {
+	MeshRasterizer method10933(GraphicalRenderer class167, int i) {
 		if (null != aClass177_11978 && class167.method2308(aClass177_11978.method2466(), i) == 0)
 			return aClass177_11978;
 		Class7 class7 = method10931(class167, i, false, -631692932);
 		if (class7 != null)
-			return (Class177) class7.anObject117;
+			return (MeshRasterizer) class7.anObject117;
 		return null;
 	}
 
-	Class177 method10934(Class167 class167, int i) {
+	MeshRasterizer method10934(GraphicalRenderer class167, int i) {
 		if (null != aClass177_11978 && class167.method2308(aClass177_11978.method2466(), i) == 0)
 			return aClass177_11978;
 		Class7 class7 = method10931(class167, i, false, 946919754);
 		if (class7 != null)
-			return (Class177) class7.anObject117;
+			return (MeshRasterizer) class7.anObject117;
 		return null;
 	}
 
@@ -513,7 +513,7 @@ public class Class649_Sub1_Sub5_Sub2 extends Class649_Sub1_Sub5 implements Inter
 		return null != aClass177_11978 ? aClass177_11978.method2493() / 4 : 15;
 	}
 
-	void method9975(Class167 class167) {
+	void method9975(GraphicalRenderer class167) {
 		/* empty */
 	}
 

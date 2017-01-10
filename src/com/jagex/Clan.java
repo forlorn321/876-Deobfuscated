@@ -15,7 +15,7 @@ public class Clan extends Class536 {
 	public String name = null;
 	public byte talkRank;
 	public byte kickRank;
-	public static Class184 aClass184_10488;
+	public static FontRenderer aClass184_10488;
 
 	void removeMember(int i) {
 		anInt10482 -= -274940659;

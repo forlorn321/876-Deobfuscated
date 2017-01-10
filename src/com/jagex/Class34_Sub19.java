@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class34_Sub19 extends Class34 {
-	static Class184 aClass184_10977;
+	static FontRenderer aClass184_10977;
 
 	public void method810(int i) {
 		super.method810(-987511197);

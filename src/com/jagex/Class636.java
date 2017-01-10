@@ -8,7 +8,7 @@ public class Class636 {
 	float[] aFloatArray8269;
 	Class436 aClass436_8270;
 	Class625[][] aClass625ArrayArray8271;
-	Class167 aClass167_8272;
+	GraphicalRenderer aClass167_8272;
 	int anInt8273;
 	long aLong8274;
 	boolean aBool8275;
@@ -269,7 +269,7 @@ public class Class636 {
 		fs[0] = 0.0F;
 	}
 
-	public Class636(Class167 class167, JS5ResourceProvider class461, int i, int i_28_) {
+	public Class636(GraphicalRenderer class167, JS5ResourceProvider class461, int i, int i_28_) {
 		anInt8273 = -408431021;
 		aLong8274 = 0L;
 		aBool8275 = false;

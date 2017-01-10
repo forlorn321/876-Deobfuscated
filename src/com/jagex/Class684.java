@@ -58,7 +58,7 @@ public class Class684 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1779609349 * Class619.anInt8093;
 	}
 
-	static Class559 method8109(int i, int i_4_, int i_5_, Class177 class177, short i_6_) {
+	static Class559 method8109(int i, int i_4_, int i_5_, MeshRasterizer class177, short i_6_) {
 		if (null == class177)
 			return null;
 		Class559 class559 = new Class559(i, i_4_, i_5_, class177.method2493(), class177.method2563(), class177.method2483(), class177.method2562(), class177.method2497(), class177.method2498(), class177.method2499());

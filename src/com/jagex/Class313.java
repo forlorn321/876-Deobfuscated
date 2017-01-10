@@ -155,32 +155,32 @@ public class Class313 implements ConfigType {
 		return bool;
 	}
 
-	public Class180 method4188(int i) {
+	public RSMesh method4188(int i) {
 		if (null == anIntArray3491)
 			return null;
-		Class180[] class180s = new Class180[anIntArray3491.length];
+		RSMesh[] class180s = new RSMesh[anIntArray3491.length];
 		synchronized (aClass461_3493) {
 			for (int i_34_ = 0; i_34_ < anIntArray3491.length; i_34_++)
-				class180s[i_34_] = Class180.method2708(aClass461_3493, anIntArray3491[i_34_], 0);
+				class180s[i_34_] = RSMesh.decodeMesh(aClass461_3493, anIntArray3491[i_34_], 0);
 		}
 		for (int i_35_ = 0; i_35_ < anIntArray3491.length; i_35_++) {
 			if (class180s[i_35_].anInt1949 < 13)
-				class180s[i_35_].method2707(2);
+				class180s[i_35_].upscale(2);
 		}
-		Class180 class180;
+		RSMesh class180;
 		if (class180s.length == 1)
 			class180 = class180s[0];
 		else
-			class180 = new Class180(class180s, class180s.length);
+			class180 = new RSMesh(class180s, class180s.length);
 		if (class180 == null)
 			return null;
 		if (null != aShortArray3490) {
 			for (int i_36_ = 0; i_36_ < aShortArray3490.length; i_36_++)
-				class180.method2703(aShortArray3490[i_36_], aShortArray3488[i_36_]);
+				class180.recolor(aShortArray3490[i_36_], aShortArray3488[i_36_]);
 		}
 		if (aShortArray3492 != null) {
 			for (int i_37_ = 0; i_37_ < aShortArray3492.length; i_37_++)
-				class180.method2704(aShortArray3492[i_37_], aShortArray3495[i_37_]);
+				class180.retexture(aShortArray3492[i_37_], aShortArray3495[i_37_]);
 		}
 		return class180;
 	}
@@ -243,27 +243,27 @@ public class Class313 implements ConfigType {
 		}
 	}
 
-	public Class180 method4190(byte i) {
-		Class180[] class180s = new Class180[5];
+	public RSMesh method4190(byte i) {
+		RSMesh[] class180s = new RSMesh[5];
 		int i_54_ = 0;
 		synchronized (aClass461_3493) {
 			for (int i_55_ = 0; i_55_ < 5; i_55_++) {
 				if (anIntArray3496[i_55_] != -1)
-					class180s[i_54_++] = Class180.method2708(aClass461_3493, anIntArray3496[i_55_], 0);
+					class180s[i_54_++] = RSMesh.decodeMesh(aClass461_3493, anIntArray3496[i_55_], 0);
 			}
 		}
 		for (int i_56_ = 0; i_56_ < 5; i_56_++) {
 			if (null != class180s[i_56_] && class180s[i_56_].anInt1949 < 13)
-				class180s[i_56_].method2707(2);
+				class180s[i_56_].upscale(2);
 		}
-		Class180 class180 = new Class180(class180s, i_54_);
+		RSMesh class180 = new RSMesh(class180s, i_54_);
 		if (null != aShortArray3490) {
 			for (int i_57_ = 0; i_57_ < aShortArray3490.length; i_57_++)
-				class180.method2703(aShortArray3490[i_57_], aShortArray3488[i_57_]);
+				class180.recolor(aShortArray3490[i_57_], aShortArray3488[i_57_]);
 		}
 		if (null != aShortArray3492) {
 			for (int i_58_ = 0; i_58_ < aShortArray3492.length; i_58_++)
-				class180.method2704(aShortArray3492[i_58_], aShortArray3495[i_58_]);
+				class180.retexture(aShortArray3492[i_58_], aShortArray3495[i_58_]);
 		}
 		return class180;
 	}

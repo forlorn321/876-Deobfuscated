@@ -41,7 +41,7 @@ public class Class438 {
 		class536_sub18.aClass536_Sub18_10506.aClass536_Sub18_10508 = class536_sub18;
 	}
 
-	static void method5301(Class167 class167, short i) {
+	static void method5301(GraphicalRenderer class167, short i) {
 		if ((Class101.anInt1201 * 1140813693 != Class565.MY_PLAYER.aByte10839) && client.aClass515_11066.method6249(1872377919) != null) {
 			Class249.method3450(2022691806);
 			if (Class536_Sub18_Sub9.method10707(class167, Class565.MY_PLAYER.aByte10839, 1251483017))

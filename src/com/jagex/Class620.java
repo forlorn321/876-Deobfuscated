@@ -192,7 +192,7 @@ class Class620 implements Iterator {
 								continue;
 							}
 							if (-1769600535 * class251.anInt2562 == IComponentDefinitions.anInt2548 * -1730281477) {
-								Class143 class143 = Class467.method5691((byte) -9);
+								NativeSprite class143 = Class467.method5691((byte) -9);
 								if (null != class143) {
 									int i_21_ = i_2_ - i_0_;
 									int i_22_ = i_3_ - i_1_;
@@ -269,7 +269,7 @@ class Class620 implements Iterator {
 							} else if (4 == 1049444347 * class251.anInt2728) {
 								int i_32_ = 255 - (i_12_ & 0xff);
 								if (i_32_ != 0) {
-									Class184 class184 = (class251.method3469(Class196.aClass410_2202, client.anInterface51_11196, (byte) 1));
+									FontRenderer class184 = (class251.method3469(Class196.aClass410_2202, client.anInterface51_11196, (byte) 1));
 									if (null == class184) {
 										if (IComponentDefinitions.aBool2724)
 											Class668.method8011(class251, 263642117);
@@ -303,12 +303,12 @@ class Class620 implements Iterator {
 								if (2028683203 * class251.anInt2716 >= 0)
 									class251.method3472(Class459.aClass34_Sub9_5179, Class144.aClass34_Sub12_1680, (byte) -46).method6153(Class677.aClass167_8609, 0, i_10_, i_11_, class251.anInt2573 * -1606950689, 223822141 * class251.anInt2574, class251.anInt2717 * -340415797 << 3, -1504755387 * class251.anInt2718 << 3, 0, 0, (short) 8578);
 								else {
-									Class143 class143;
+									NativeSprite class143;
 									if (-1 != class251.anInt2711 * -1484799213) {
-										Class617 class617 = (class251.aBool2671 ? (Class565.MY_PLAYER.aClass617_12202) : null);
+										PlayerAppearance class617 = (class251.aBool2671 ? (Class565.MY_PLAYER.aClass617_12202) : null);
 										class143 = (Class111.aClass34_Sub13_1391.method10342(Class677.aClass167_8609, (-1484799213 * class251.anInt2711), (-1880327077 * class251.anInt2712), (1960646061 * class251.outline), (~0xffffff | (1514577167 * class251.graphicShadow)), (-1273595415 * class251.anInt2595), class617, -1895524453));
 									} else if (class251.spriteId * 11093663 != -1) {
-										class143 = ((Class143) (client.aClass199_11300.method2886((long) (11093663 * (class251.spriteId)))));
+										class143 = ((NativeSprite) (client.aClass199_11300.method2886((long) (11093663 * (class251.spriteId)))));
 										if (class143 == null && !(client.aMap11301.containsKey(Integer.valueOf(class251.spriteId * 11093663)))) {
 											try {
 												client.aMap11301.put((Integer.valueOf(class251.spriteId * 11093663)), (Class208.aClass60_2245.method990((new URL(new StringBuilder().append(client.aString10998).append("/img/image_").append((class251.spriteId) * 11093663).append(".png?a=").append(Class249.method3450(1381073741)).toString())), -1124813087)));
@@ -370,7 +370,7 @@ class Class620 implements Iterator {
 								}
 							} else if (1049444347 * class251.anInt2728 == 6) {
 								Class677.aClass167_8609.method2084();
-								Class177 class177 = null;
+								MeshRasterizer class177 = null;
 								int i_43_ = 2048;
 								if (0 != -948134625 * class251.anInt2687)
 									i_43_ |= 0x80000;

@@ -747,7 +747,7 @@ public final class JS5ResourceProvider {
 		return method5556(i_95_, i_96_, (byte) 1);
 	}
 
-	static final int method5610(Class167 class167, Class647 class647, short i) {
+	static final int method5610(GraphicalRenderer class167, Class647 class647, short i) {
 		if (-1 != class647.anInt8366 * -1198548799)
 			return -1198548799 * class647.anInt8366;
 		if (-1 != class647.anInt8365 * 22125273) {

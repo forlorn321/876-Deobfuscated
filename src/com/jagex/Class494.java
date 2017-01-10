@@ -18,7 +18,7 @@ public class Class494 {
 		throw new Error();
 	}
 
-	static void method5989(Class167 class167, int i, int i_0_, int i_1_) {
+	static void method5989(GraphicalRenderer class167, int i, int i_0_, int i_1_) {
 		if (i >= 0 && i_0_ >= 0 && null != Class70.aClass443_777) {
 			Class598 class598 = client.aClass515_11066.method6255(-1718737081);
 			Class443 class443 = class167.method2391();

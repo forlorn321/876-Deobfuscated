@@ -232,8 +232,8 @@ public class Class601 implements Interface75 {
 			if (i_16_ < 100)
 				return i_16_;
 			Class388.method4849((Class184_Sub2.aClass461_9443.method5595((Class633.aClass633_8257.anInt8258 * -848473139), -2073080638)), (byte) -90);
-			Class500.aShortArrayArray6844 = Class644.aClass628_8352.aShortArrayArray8189;
-			Class267.aShortArrayArrayArray2870 = Class644.aClass628_8352.aShortArrayArrayArray8202;
+			Class500.skinColors = Class644.aClass628_8352.aShortArrayArray8189;
+			Class267.skinColors = Class644.aClass628_8352.aShortArrayArrayArray8202;
 			Class710_Sub4.aShortArrayArray10822 = Class644.aClass628_8352.aShortArrayArray8203;
 			Class44.aShortArrayArrayArray520 = Class644.aClass628_8352.aShortArrayArrayArray8204;
 			if (-1 != Class644.aClass628_8352.anInt8209 * 40680465 && Class644.aClass628_8352.anInt8227 * -1332536013 != -1) {
@@ -295,7 +295,7 @@ public class Class601 implements Interface75 {
 			Class39.aClass450_490 = new Class450(Class459.CLIENT_PARAMS, Class576.aClass461_7687, Class711.aClass461_8849);
 			Class198.aClass32_2216 = new Class32(Class459.CLIENT_PARAMS, Class576.aClass461_7687, Class711.aClass461_8849, new Class389());
 			Class465_Sub1.aClass96_10352 = new Class96(Class532.aClass98_Sub1_Sub1_7122, Class56.aClass34_Sub14_608, Class611.aClass602_7930.method7173(-601201309));
-			Class184.method2769(2052496465);
+			FontRenderer.method2769(2052496465);
 			Class69.method1094(Class45.aClass34_Sub11_529, (byte) -114);
 			Class160.method1963(Class402.aClass397_4204, Class237.aClass396_2422, 1334437075);
 			Class652.method7868(Class602.aClass461_7857, CPUUsageSetting.aClass174_10892, Class175.anInterface24_1935, -1438323382);
@@ -306,7 +306,7 @@ public class Class601 implements Interface75 {
 		}
 		if (Class483.aClass303_5431 == Class303.aClass303_3418) {
 			int i_17_ = (Class635.method7565(Class398.aClass461_4122, (byte) -34) + Class196.aClass410_2202.method4979(true, (byte) 87));
-			int i_18_ = (Class167.method2412(1855773893) + Class196.aClass410_2202.method4978(180521832));
+			int i_18_ = (GraphicalRenderer.method2412(1855773893) + Class196.aClass410_2202.method4978(180521832));
 			if (i_17_ < i_18_)
 				return i_17_ * 100 / i_18_;
 		}

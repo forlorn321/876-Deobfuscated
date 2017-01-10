@@ -28,7 +28,7 @@ public class Class106 {
 	Class27 aClass27_1272;
 	int anInt1273;
 	IncomingPacket aClass422_1274;
-	public static Class143 aClass143_1275;
+	public static NativeSprite aClass143_1275;
 
 	final void method1407(int i) {
 		aClass708_1255.method8304(454036827);

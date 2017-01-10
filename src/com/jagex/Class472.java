@@ -21,7 +21,7 @@ public final class Class472 {
 	long aLong5366;
 	Class456 aClass456_5367;
 	AbstractQueue_Sub1 anAbstractQueue_Sub1_5368;
-	public static Class143 aClass143_5369;
+	public static NativeSprite aClass143_5369;
 
 	Class472(long l, int i, Class456 class456) {
 		aLong5366 = 3946137088025422889L * l;

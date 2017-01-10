@@ -23,7 +23,7 @@ public class Class642 {
 	int[] anIntArray8330 = new int[3];
 	float[] aFloatArray8331 = new float[3];
 	float aFloat8332;
-	static Class184 aClass184_8333;
+	static FontRenderer aClass184_8333;
 	public static Class34_Sub20 aClass34_Sub20_8334;
 
 	public Class436 method7687(int i) {

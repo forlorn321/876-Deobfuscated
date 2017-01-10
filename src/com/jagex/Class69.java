@@ -128,7 +128,7 @@ final class Class69 implements Interface51 {
 		Class652.method7869(-215565124);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 1, (byte) 1);
-		Class184.method2769(1553222404);
+		FontRenderer.method2769(1553222404);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
