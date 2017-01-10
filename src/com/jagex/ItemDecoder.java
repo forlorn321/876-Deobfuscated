@@ -264,9 +264,9 @@ public class ItemDecoder implements ConfigType {
 					}
 				}
 				for (int i_26_ = 0; i_26_ < 10; i_26_++) {
-					for (int i_27_ = 0; (i_27_ < Class710_Sub4.aShortArrayArray10822[i_26_].length); i_27_++) {
-						if (class617.anIntArray8075[i_26_] < (Class44.aShortArrayArrayArray520[i_26_][i_27_]).length)
-							class177.method2509((Class710_Sub4.aShortArrayArray10822[i_26_][i_27_]), (Class44.aShortArrayArrayArray520[i_26_][i_27_][(class617.anIntArray8075[i_26_])]));
+					for (int i_27_ = 0; (i_27_ < Class710_Sub4.skinTextures[i_26_].length); i_27_++) {
+						if (class617.textures[i_26_] < (Class44.skinTextures[i_26_][i_27_]).length)
+							class177.method2509((Class710_Sub4.skinTextures[i_26_][i_27_]), (Class44.skinTextures[i_26_][i_27_][(class617.textures[i_26_])]));
 					}
 				}
 			}
@@ -555,10 +555,10 @@ public class ItemDecoder implements ConfigType {
 						inventoryMesh.recolor((Class500.skinColors[i_83_][i_84_]), (Class267.skinColors[i_83_][i_84_][(playerAppearance.colors[i_83_])]));
 				}
 			}
-			for (int i_85_ = 0; i_85_ < 10; i_85_++) { //new skin colors
-				for (int i_86_ = 0; i_86_ < Class710_Sub4.aShortArrayArray10822[i_85_].length; i_86_++) {
-					if (playerAppearance.anIntArray8075[i_85_] < (Class44.aShortArrayArrayArray520[i_85_][i_86_]).length)
-						inventoryMesh.retexture(Class710_Sub4.aShortArrayArray10822[i_85_][i_86_], (Class44.aShortArrayArrayArray520[i_85_][i_86_][playerAppearance.anIntArray8075[i_85_]]));
+			for (int i_85_ = 0; i_85_ < 10; i_85_++) {
+				for (int i_86_ = 0; i_86_ < Class710_Sub4.skinTextures[i_85_].length; i_86_++) {
+					if (playerAppearance.textures[i_85_] < (Class44.skinTextures[i_85_][i_86_]).length)
+						inventoryMesh.retexture(Class710_Sub4.skinTextures[i_85_][i_86_], (Class44.skinTextures[i_85_][i_86_][playerAppearance.textures[i_85_]]));
 				}
 			}
 		}

@@ -77,9 +77,9 @@ public class Class536_Sub1 extends Class536 {
 					}
 				}
 				for (int i_18_ = 0; i_18_ < 10; i_18_++) {
-					for (int i_19_ = 0; (i_19_ < Class710_Sub4.aShortArrayArray10822[i_18_].length); i_19_++) {
-						if (class617.anIntArray8075[i_18_] < (Class44.aShortArrayArrayArray520[i_18_][i_19_]).length)
-							class177.method2509((Class710_Sub4.aShortArrayArray10822[i_18_][i_19_]), (Class44.aShortArrayArrayArray520[i_18_][i_19_][(class617.anIntArray8075[i_18_])]));
+					for (int i_19_ = 0; (i_19_ < Class710_Sub4.skinTextures[i_18_].length); i_19_++) {
+						if (class617.textures[i_18_] < (Class44.skinTextures[i_18_][i_19_]).length)
+							class177.method2509((Class710_Sub4.skinTextures[i_18_][i_19_]), (Class44.skinTextures[i_18_][i_19_][(class617.textures[i_18_])]));
 					}
 				}
 			}
