@@ -63,7 +63,7 @@ public class IComponentSettings {
 	}
 	
 	public IComponentSettings enableUseOptions(UseFlag... flags) {
-		Arrays.stream(flags).forEach((flag) -> enableUseOption(flag));
+		Arrays.stream(flags).forEach(this::enableUseOption);
 		return this;
 	}
 	
