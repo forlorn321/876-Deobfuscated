@@ -16,7 +16,7 @@ public abstract class Class567 {
 
 	public abstract int method6898(int i) throws IOException;
 
-	public abstract int method6899(byte[] is, int i, int i_1_, int i_2_) throws IOException;
+	public abstract int copyBuffer(byte[] is, int i, int i_1_, int i_2_) throws IOException;
 
 	public abstract void method6900();
 

@@ -154,7 +154,7 @@ public class Class625 {
 		}
 	}
 
-	void method7433(Class167 class167, Class625 class625_9_, Class625 class625_10_, float f, int i) {
+	void method7433(GraphicalRenderer class167, Class625 class625_9_, Class625 class625_10_, float f, int i) {
 		anInt8150 = Class302.method4097(class625_9_.anInt8150 * -702010885, -702010885 * class625_10_.anInt8150, 255.0F * f, -1246900406) * -570918605;
 		aFloat8141 = ((class625_10_.aFloat8141 - class625_9_.aFloat8141) * f + class625_9_.aFloat8141);
 		aFloat8137 = (f * (class625_10_.aFloat8137 - class625_9_.aFloat8137) + class625_9_.aFloat8137);

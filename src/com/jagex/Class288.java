@@ -29,7 +29,7 @@ public class Class288 {
 
 	static final void method3916(Class668 class668, int i) {
 		ClientSetting.aClass536_Sub40_8843.method9857(ClientSetting.aClass536_Sub40_8843.lightingDetailSetting, (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1 ? 1 : 0, (byte) 1);
-		Class184.method2769(1441080267);
+		FontRenderer.method2769(1441080267);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		Class27.method763(1916697484);
 		client.aBool11015 = false;

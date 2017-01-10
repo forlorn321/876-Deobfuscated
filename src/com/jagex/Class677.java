@@ -23,9 +23,9 @@ public class Class677 implements ConfigType {
 	int anInt8606;
 	public int anInt8607 = 1803903681;
 	int anInt8608;
-	public static Class167 aClass167_8609;
+	public static GraphicalRenderer aClass167_8609;
 
-	final Class177 method8043(Class167 class167, int i, boolean bool, Class160 class160, Class160 class160_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, Class688 class688, byte i_8_, int i_9_) {
+	final MeshRasterizer method8043(GraphicalRenderer class167, int i, boolean bool, Class160 class160, Class160 class160_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, Class688 class688, byte i_8_, int i_9_) {
 		int i_10_ = i;
 		bool = bool & aByte8602 != 0;
 		if (class688 != null)
@@ -36,9 +36,9 @@ public class Class677 implements ConfigType {
 			i_10_ |= 0x5;
 		if (bool)
 			i_10_ |= 0x7;
-		Class177 class177;
+		MeshRasterizer class177;
 		synchronized (aClass681_8591.aClass199_8646) {
-			class177 = ((Class177) (aClass681_8591.aClass199_8646.method2886((long) (anInt8592 * -970719055 | class167.anInt1850 * 1526643673 << 29))));
+			class177 = ((MeshRasterizer) (aClass681_8591.aClass199_8646.method2886((long) (anInt8592 * -970719055 | class167.anInt1850 * 1526643673 << 29))));
 		}
 		if (null == class177 || class167.method2308(class177.method2466(), i_10_) != 0) {
 			if (null != class177)
@@ -48,12 +48,12 @@ public class Class677 implements ConfigType {
 				i_11_ |= 0x4000;
 			if (null != aShortArray8594)
 				i_11_ |= 0x8000;
-			Class180 class180 = Class180.method2708(aClass681_8591.aClass461_8645, anInt8593 * -825664967, 0);
+			RSMesh class180 = RSMesh.decodeMesh(aClass681_8591.aClass461_8645, anInt8593 * -825664967, 0);
 			if (class180 == null)
 				return null;
 			if (class180.anInt1949 < 13)
-				class180.method2707(2);
-			class177 = class167.method2093(class180, i_11_, aClass681_8591.anInt8647 * 385850151, -618422655 * anInt8603 + 64, -1585442343 * anInt8597 + 850);
+				class180.upscale(2);
+			class177 = class167.createMeshRasterizer(class180, i_11_, aClass681_8591.anInt8647 * 385850151, -618422655 * anInt8603 + 64, -1585442343 * anInt8597 + 850);
 			if (aShortArray8595 != null) {
 				for (int i_12_ = 0; i_12_ < aShortArray8595.length; i_12_++)
 					class177.method2507(aShortArray8595[i_12_], aShortArray8596[i_12_]);
@@ -67,11 +67,11 @@ public class Class677 implements ConfigType {
 				aClass681_8591.aClass199_8646.method2881(class177, (long) (anInt8592 * -970719055 | class167.anInt1850 * 1526643673 << 29));
 			}
 		}
-		Class177 class177_14_ = class177.method2623(i_8_, i_10_, true);
+		MeshRasterizer class177_14_ = class177.method2623(i_8_, i_10_, true);
 		if (class688 != null)
 			class688.method8132(class177_14_, 0, -630825472);
 		if (anInt8601 * -1986333679 != 128 || 128 != -754018359 * anInt8605)
-			class177_14_.method2474(anInt8601 * -1986333679, -754018359 * anInt8605, -1986333679 * anInt8601);
+			class177_14_.resize(anInt8601 * -1986333679, -754018359 * anInt8605, -1986333679 * anInt8601);
 		if (1802811017 * anInt8606 != 0) {
 			if (anInt8606 * 1802811017 == 90)
 				i_4_ += 4096;
@@ -176,17 +176,17 @@ public class Class677 implements ConfigType {
 		} while (false);
 	}
 
-	public final Class177 method8045(Class167 class167, int i, Class688 class688, byte i_30_, int i_31_) {
+	public final MeshRasterizer method8045(GraphicalRenderer class167, int i, Class688 class688, byte i_30_, int i_31_) {
 		return method8043(class167, i, false, null, null, 0, 0, 0, 0, 0, 0, 0, class688, i_30_, 934687717);
 	}
 
-	public final Class177 method8046(Class167 class167, int i, int i_32_, int i_33_, int i_34_, int i_35_, Class688 class688, byte i_36_, int i_37_) {
+	public final MeshRasterizer method8046(GraphicalRenderer class167, int i, int i_32_, int i_33_, int i_34_, int i_35_, Class688 class688, byte i_36_, int i_37_) {
 		if (aByte8602 != 3)
 			return method8043(class167, i, false, null, null, 0, 0, 0, i_32_, 0, 0, 0, class688, i_36_, -1798442424);
 		return method8043(class167, i, true, null, null, 0, 0, 0, i_32_, i_33_, i_34_, i_35_, class688, i_36_, 1988042164);
 	}
 
-	public final Class177 method8047(Class167 class167, int i, int i_38_, Class160 class160, Class160 class160_39_, int i_40_, int i_41_, int i_42_, Class688 class688, byte i_43_, int i_44_) {
+	public final MeshRasterizer method8047(GraphicalRenderer class167, int i, int i_38_, Class160 class160, Class160 class160_39_, int i_40_, int i_41_, int i_42_, Class688 class688, byte i_43_, int i_44_) {
 		return method8043(class167, i, true, class160, class160_39_, i_40_, i_41_, i_42_, i_38_, 0, 0, 0, class688, i_43_, -1058445949);
 	}
 
@@ -312,9 +312,9 @@ public class Class677 implements ConfigType {
 			if (i_48_ < 0) {
 				int i_63_ = -i_48_ - 1;
 				if (i_63_ == -1791435655 * client.anInt11156)
-					class649_sub1_sub5_sub1 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+					class649_sub1_sub5_sub1 = Class565.MY_PLAYER;
 				else
-					class649_sub1_sub5_sub1 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_63_]);
+					class649_sub1_sub5_sub1 = (client.PLAYER_LIST[i_63_]);
 			} else {
 				int i_64_ = i_48_ - 1;
 				ObjectParam class536_sub13 = ((ObjectParam) client.aClass4_11050.method556((long) i_64_));

@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 
 import sun.misc.Unsafe;
 
-public class Class177_Sub2 extends Class177 {
+public class Class177_Sub2 extends MeshRasterizer {
 	byte[] aByteArray9448;
 	static final int anInt9449 = 7;
 	Class167_Sub3 aClass167_Sub3_9450;
@@ -98,7 +98,7 @@ public class Class177_Sub2 extends Class177 {
 		aBool9471 = false;
 	}
 
-	Class177_Sub2(Class167_Sub3 class167_sub3, Class180 class180, int i, int i_4_, int i_5_, int i_6_) {
+	Class177_Sub2(Class167_Sub3 class167_sub3, RSMesh class180, int i, int i_4_, int i_5_, int i_6_) {
 		this(class167_sub3, i, i_6_, true, false);
 		Class174 class174 = class167_sub3.aClass174_1852;
 		Interface47 interface47 = class167_sub3.anInterface47_1867;
@@ -674,7 +674,7 @@ public class Class177_Sub2 extends Class177 {
 		}
 	}
 
-	public Class177 method2623(byte i, int i_148_, boolean bool) {
+	public MeshRasterizer method2623(byte i, int i_148_, boolean bool) {
 		boolean bool_149_ = false;
 		Class177_Sub2 class177_sub2_150_;
 		Class177_Sub2 class177_sub2_151_;
@@ -1390,7 +1390,7 @@ public class Class177_Sub2 extends Class177 {
 		}
 	}
 
-	public void method2561(Class177 class177, int i, int i_386_, int i_387_, boolean bool) {
+	public void method2561(MeshRasterizer class177, int i, int i_386_, int i_387_, boolean bool) {
 		Class177_Sub2 class177_sub2_388_ = (Class177_Sub2) class177;
 		if (anInt9472 != 0 && class177_sub2_388_.anInt9472 != 0) {
 			int i_389_ = class177_sub2_388_.anInt9456;
@@ -1562,7 +1562,7 @@ public class Class177_Sub2 extends Class177 {
 			aClass375_9484.aBool3911 = false;
 	}
 
-	public void method2469(Class177 class177, int i, int i_431_, int i_432_, boolean bool) {
+	public void method2469(MeshRasterizer class177, int i, int i_431_, int i_432_, boolean bool) {
 		Class177_Sub2 class177_sub2_433_ = (Class177_Sub2) class177;
 		if (anInt9472 != 0 && class177_sub2_433_.anInt9472 != 0) {
 			int i_434_ = class177_sub2_433_.anInt9456;
@@ -2988,7 +2988,7 @@ public class Class177_Sub2 extends Class177 {
 			aClass348_9482.method4590();
 	}
 
-	public void method2517(Class177 class177, int i, int i_753_, int i_754_, boolean bool) {
+	public void method2517(MeshRasterizer class177, int i, int i_753_, int i_754_, boolean bool) {
 		Class177_Sub2 class177_sub2_755_ = (Class177_Sub2) class177;
 		if (anInt9472 != 0 && class177_sub2_755_.anInt9472 != 0) {
 			int i_756_ = class177_sub2_755_.anInt9456;
@@ -5038,7 +5038,7 @@ public class Class177_Sub2 extends Class177 {
 		return anInt9496;
 	}
 
-	public boolean method2480() {
+	public boolean successful() {
 		if (aShortArray9479 == null)
 			return true;
 		for (int i = 0; i < aShortArray9479.length; i++) {
@@ -5235,7 +5235,7 @@ public class Class177_Sub2 extends Class177 {
 		return anInt9478;
 	}
 
-	public void method2474(int i, int i_1322_, int i_1323_) {
+	public void resize(int i, int i_1322_, int i_1323_) {
 		for (int i_1324_ = 0; i_1324_ < anInt9456; i_1324_++) {
 			if (i != 128)
 				anIntArray9524[i_1324_] = anIntArray9524[i_1324_] * i >> 7;
@@ -5248,7 +5248,7 @@ public class Class177_Sub2 extends Class177 {
 		aBool9471 = false;
 	}
 
-	short method8695(Class180 class180, int i, int i_1325_, long l, int i_1326_, int i_1327_, int i_1328_, int i_1329_, float f, float f_1330_) {
+	short method8695(RSMesh class180, int i, int i_1325_, long l, int i_1326_, int i_1327_, int i_1328_, int i_1329_, float f, float f_1330_) {
 		int i_1331_ = anIntArray9468[i];
 		int i_1332_ = anIntArray9468[i + 1];
 		int i_1333_ = 0;
@@ -5474,7 +5474,7 @@ public class Class177_Sub2 extends Class177 {
 		method8678();
 	}
 
-	Class177 method8697(Class177_Sub2 class177_sub2_1360_, Class177_Sub2 class177_sub2_1361_, int i, boolean bool, boolean bool_1362_) {
+	MeshRasterizer method8697(Class177_Sub2 class177_sub2_1360_, Class177_Sub2 class177_sub2_1361_, int i, boolean bool, boolean bool_1362_) {
 		class177_sub2_1360_.anInt9473 = i;
 		class177_sub2_1360_.anInt9452 = anInt9452;
 		class177_sub2_1360_.aShort9494 = aShort9494;
@@ -5892,7 +5892,7 @@ public class Class177_Sub2 extends Class177 {
 		return aClass172Array9517;
 	}
 
-	public Class177 method2618(byte i, int i_1401_, boolean bool) {
+	public MeshRasterizer method2618(byte i, int i_1401_, boolean bool) {
 		boolean bool_1402_ = false;
 		Class177_Sub2 class177_sub2_1403_;
 		Class177_Sub2 class177_sub2_1404_;
@@ -5905,7 +5905,7 @@ public class Class177_Sub2 extends Class177 {
 		return method8697(class177_sub2_1403_, class177_sub2_1404_, i_1401_, bool_1402_, bool);
 	}
 
-	public Class177 method2496(byte i, int i_1405_, boolean bool) {
+	public MeshRasterizer method2496(byte i, int i_1405_, boolean bool) {
 		boolean bool_1406_ = false;
 		Class177_Sub2 class177_sub2_1407_;
 		Class177_Sub2 class177_sub2_1408_;
@@ -6152,7 +6152,7 @@ public class Class177_Sub2 extends Class177 {
 		method8678();
 	}
 
-	public Class177 method2617(byte i, int i_1463_, boolean bool) {
+	public MeshRasterizer method2617(byte i, int i_1463_, boolean bool) {
 		boolean bool_1464_ = false;
 		Class177_Sub2 class177_sub2_1465_;
 		Class177_Sub2 class177_sub2_1466_;

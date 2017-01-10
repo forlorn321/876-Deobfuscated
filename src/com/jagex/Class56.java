@@ -35,16 +35,16 @@ public class Class56 implements ConfigType {
 		} while (false);
 	}
 
-	public Class143 method958(Class167 class167, int i, boolean bool, short i_2_) {
+	public NativeSprite method958(GraphicalRenderer class167, int i, boolean bool, short i_2_) {
 		long l = (long) (1861642937 * anInt604 | i << 16 | (bool ? 262144 : 0) | 1526643673 * class167.anInt1850 << 19);
-		Class143 class143 = (Class143) aClass76_606.aClass199_821.method2886(l);
+		NativeSprite class143 = (NativeSprite) aClass76_606.aClass199_821.method2886(l);
 		if (class143 != null)
 			return class143;
 		method960(class167, i, bool, l);
-		return (Class143) aClass76_606.aClass199_821.method2886(l);
+		return (NativeSprite) aClass76_606.aClass199_821.method2886(l);
 	}
 
-	public int[] method959(Class167 class167, int i, boolean bool, int i_3_) {
+	public int[] method959(GraphicalRenderer class167, int i, boolean bool, int i_3_) {
 		if (anIntArray603 != null)
 			return anIntArray603;
 		long l = (long) (anInt604 * 1861642937 | i << 16 | (bool ? 262144 : 0) | 1526643673 * class167.anInt1850 << 19);
@@ -52,7 +52,7 @@ public class Class56 implements ConfigType {
 		return anIntArray603;
 	}
 
-	void method960(Class167 class167, int i, boolean bool, long l) {
+	void method960(GraphicalRenderer class167, int i, boolean bool, long l) {
 		if (aClass76_606.aClass461_820.method5580(anInt604 * 1861642937, -964514165)) {
 			Class179 class179 = Class181.method2718(aClass76_606.aClass461_820, anInt604 * 1861642937, 0);
 			if (class179 != null) {
@@ -84,7 +84,7 @@ public class Class56 implements ConfigType {
 					}
 				}
 			}
-			Class143 class143 = class167.method2082(class179, true);
+			NativeSprite class143 = class167.method2082(class179, true);
 			if (class143 != null)
 				aClass76_606.aClass199_821.method2881(class143, l);
 		}

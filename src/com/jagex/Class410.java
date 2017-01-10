@@ -13,7 +13,7 @@ public class Class410 implements Interface4 {
 	JS5ResourceProvider aClass461_4325;
 	int[] anIntArray4326;
 	Class199 aClass199_4327;
-	Class167 aClass167_4328;
+	GraphicalRenderer aClass167_4328;
 	Map aMap4329;
 
 	public void method4975() {
@@ -58,7 +58,7 @@ public class Class410 implements Interface4 {
 	}
 
 	public int method44(int i) {
-		Class143[] class143s = method38(aClass167_4328, i, -69529390);
+		NativeSprite[] class143s = method38(aClass167_4328, i, -69529390);
 		if (null != class143s)
 			return class143s[0].method12();
 		return 0;
@@ -91,7 +91,7 @@ public class Class410 implements Interface4 {
 		return method4995(interface51, i, true, true, (byte) 1);
 	}
 
-	public Class143[] method41(Class167 class167, int i) {
+	public NativeSprite[] method41(GraphicalRenderer class167, int i) {
 		if (null == aClass199_4327)
 			return null;
 		if (null != class167) {
@@ -101,11 +101,11 @@ public class Class410 implements Interface4 {
 		} else
 			class167 = aClass167_4328;
 		if (class167 != null) {
-			Class143[] class143s = (Class143[]) aClass199_4327.method2886((long) i);
+			NativeSprite[] class143s = (NativeSprite[]) aClass199_4327.method2886((long) i);
 			if (class143s == null) {
 				Class179[] class179s = Class181.method2720(aClass461_4325, i, 0);
 				if (null != class179s && class179s.length > 0) {
-					class143s = new Class143[class179s.length];
+					class143s = new NativeSprite[class179s.length];
 					for (int i_9_ = 0; i_9_ < class179s.length; i_9_++)
 						class143s[i_9_] = class167.method2082(class179s[i_9_], true);
 					aClass199_4327.method2881(class143s, (long) i);
@@ -137,7 +137,7 @@ public class Class410 implements Interface4 {
 			aClass199_4327.method2892(1394207003);
 	}
 
-	public Class143[] method38(Class167 class167, int i, int i_11_) {
+	public NativeSprite[] method38(GraphicalRenderer class167, int i, int i_11_) {
 		if (null == aClass199_4327)
 			return null;
 		if (null != class167) {
@@ -147,11 +147,11 @@ public class Class410 implements Interface4 {
 		} else
 			class167 = aClass167_4328;
 		if (class167 != null) {
-			Class143[] class143s = (Class143[]) aClass199_4327.method2886((long) i);
+			NativeSprite[] class143s = (NativeSprite[]) aClass199_4327.method2886((long) i);
 			if (class143s == null) {
 				Class179[] class179s = Class181.method2720(aClass461_4325, i, 0);
 				if (null != class179s && class179s.length > 0) {
-					class143s = new Class143[class179s.length];
+					class143s = new NativeSprite[class179s.length];
 					for (int i_12_ = 0; i_12_ < class179s.length; i_12_++)
 						class143s[i_12_] = class167.method2082(class179s[i_12_], true);
 					aClass199_4327.method2881(class143s, (long) i);
@@ -163,7 +163,7 @@ public class Class410 implements Interface4 {
 	}
 
 	public int method39(int i, int i_13_) {
-		Class143[] class143s = method38(aClass167_4328, i, 1495027046);
+		NativeSprite[] class143s = method38(aClass167_4328, i, 1495027046);
 		if (null != class143s)
 			return class143s[0].method12();
 		return 0;
@@ -256,7 +256,7 @@ public class Class410 implements Interface4 {
 			aClass199_4327.method2892(-451795854);
 	}
 
-	public Class143[] method40(Class167 class167, int i) {
+	public NativeSprite[] method40(GraphicalRenderer class167, int i) {
 		if (null == aClass199_4327)
 			return null;
 		if (null != class167) {
@@ -266,11 +266,11 @@ public class Class410 implements Interface4 {
 		} else
 			class167 = aClass167_4328;
 		if (class167 != null) {
-			Class143[] class143s = (Class143[]) aClass199_4327.method2886((long) i);
+			NativeSprite[] class143s = (NativeSprite[]) aClass199_4327.method2886((long) i);
 			if (class143s == null) {
 				Class179[] class179s = Class181.method2720(aClass461_4325, i, 0);
 				if (null != class179s && class179s.length > 0) {
-					class143s = new Class143[class179s.length];
+					class143s = new NativeSprite[class179s.length];
 					for (int i_17_ = 0; i_17_ < class179s.length; i_17_++)
 						class143s[i_17_] = class167.method2082(class179s[i_17_], true);
 					aClass199_4327.method2881(class143s, (long) i);
@@ -281,7 +281,7 @@ public class Class410 implements Interface4 {
 		return null;
 	}
 
-	public Class410(Class167 class167, JS5ResourceProvider class461, JS5ResourceProvider class461_18_, int[] is) {
+	public Class410(GraphicalRenderer class167, JS5ResourceProvider class461, JS5ResourceProvider class461_18_, int[] is) {
 		aClass199_4323 = new Class199(20);
 		aClass167_4328 = null;
 		aMap4329 = null;
@@ -292,7 +292,7 @@ public class Class410 implements Interface4 {
 		aClass199_4327 = new Class199(20);
 	}
 
-	public Class143[] method42(Class167 class167, int i) {
+	public NativeSprite[] method42(GraphicalRenderer class167, int i) {
 		if (null == aClass199_4327)
 			return null;
 		if (null != class167) {
@@ -302,11 +302,11 @@ public class Class410 implements Interface4 {
 		} else
 			class167 = aClass167_4328;
 		if (class167 != null) {
-			Class143[] class143s = (Class143[]) aClass199_4327.method2886((long) i);
+			NativeSprite[] class143s = (NativeSprite[]) aClass199_4327.method2886((long) i);
 			if (class143s == null) {
 				Class179[] class179s = Class181.method2720(aClass461_4325, i, 0);
 				if (null != class179s && class179s.length > 0) {
-					class143s = new Class143[class179s.length];
+					class143s = new NativeSprite[class179s.length];
 					for (int i_19_ = 0; i_19_ < class179s.length; i_19_++)
 						class143s[i_19_] = class167.method2082(class179s[i_19_], true);
 					aClass199_4327.method2881(class143s, (long) i);
@@ -318,7 +318,7 @@ public class Class410 implements Interface4 {
 	}
 
 	public int method43(int i) {
-		Class143[] class143s = method38(aClass167_4328, i, 1667859570);
+		NativeSprite[] class143s = method38(aClass167_4328, i, 1667859570);
 		if (null != class143s)
 			return class143s[0].method12();
 		return 0;
@@ -350,7 +350,7 @@ public class Class410 implements Interface4 {
 		boolean bool = false;
 		if (client.aBool10984) {
 			try {
-				Object object = (Class412.aClass412_4387.method5006((new Object[] { Integer.valueOf(Class75.anInt819 * -1158267747), Boolean.valueOf((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte12197) == 1), Integer.valueOf(class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) }), (byte) 16));
+				Object object = (Class412.aClass412_4387.method5006((new Object[] { Integer.valueOf(Class75.anInt819 * -1158267747), Boolean.valueOf((Class565.MY_PLAYER.aByte12197) == 1), Integer.valueOf(class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) }), (byte) 16));
 				if (null != object)
 					bool = ((Boolean) object).booleanValue();
 			} catch (Throwable throwable) {

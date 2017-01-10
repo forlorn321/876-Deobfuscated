@@ -83,14 +83,14 @@ public class Class709 implements Interface75 {
 					PlayerStat.method7388(class536_sub42, -1540734620);
 				}
 			}
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4501, client.aClass106_11322.aClass15_1258, 2126697068);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(class251.anInt2546 * -809980533, -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-1484799213 * class251.anInt2711, (byte) 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntLE(Class663.anInt8515 * 1625551467, 2135103946);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV1(class251.anInt2559 * -1591767037, -2042237362);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(client.anInt11184 * -678599443, -1411037171);
-			client.aClass106_11322.method1409(class536_sub23, 727408397);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4501, client.aClass106_11322.aClass15_1258, 2126697068);
+			class536_sub23.stream.writeShort(class251.anInt2546 * -809980533, -1778059594);
+			class536_sub23.stream.writeShort128(-1484799213 * class251.anInt2711, (byte) 0);
+			class536_sub23.stream.writeIntLE(Class663.anInt8515 * 1625551467, 2135103946);
+			class536_sub23.stream.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
+			class536_sub23.stream.writeIntV1(class251.anInt2559 * -1591767037, -2042237362);
+			class536_sub23.stream.writeLEShort(client.anInt11184 * -678599443, -1411037171);
+			client.aClass106_11322.writePacket(class536_sub23, 727408397);
 		}
 	}
 }

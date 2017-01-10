@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class177_Sub3 extends Class177 {
+public class Class177_Sub3 extends MeshRasterizer {
 	byte[] aByteArray9724;
 	boolean aBool9725 = false;
 	boolean aBool9726;
@@ -96,7 +96,7 @@ public class Class177_Sub3 extends Class177 {
 		return null;
 	}
 
-	Class177_Sub3(Class167_Sub1 class167_sub1, Class180 class180, int i, int i_0_, int i_1_, int i_2_) {
+	Class177_Sub3(Class167_Sub1 class167_sub1, RSMesh class180, int i, int i_0_, int i_1_, int i_2_) {
 		anInt9748 = 0;
 		anInt9749 = 0;
 		anInt9761 = 0;
@@ -602,7 +602,7 @@ public class Class177_Sub3 extends Class177 {
 		anInt9761 = 2;
 	}
 
-	public void method2469(Class177 class177, int i, int i_123_, int i_124_, boolean bool) {
+	public void method2469(MeshRasterizer class177, int i, int i_123_, int i_124_, boolean bool) {
 		Class177_Sub3 class177_sub3_125_ = (Class177_Sub3) class177;
 		if ((anInt9763 & 0x10000) != 65536)
 			throw new IllegalStateException("");
@@ -690,7 +690,7 @@ public class Class177_Sub3 extends Class177 {
 		}
 	}
 
-	Class177 method8999(Class177_Sub3 class177_sub3_142_, Class177_Sub3 class177_sub3_143_, int i, boolean bool, boolean bool_144_) {
+	MeshRasterizer method8999(Class177_Sub3 class177_sub3_142_, Class177_Sub3 class177_sub3_143_, int i, boolean bool, boolean bool_144_) {
 		class177_sub3_142_.aBool9784 = aBool9784;
 		if (aBool9784) {
 			class177_sub3_142_.aShort9790 = aShort9790;
@@ -1226,7 +1226,7 @@ public class Class177_Sub3 extends Class177 {
 		}
 	}
 
-	public void method2474(int i, int i_214_, int i_215_) {
+	public void resize(int i, int i_214_, int i_215_) {
 		if (i != 128 && (anInt9763 & 0x1) != 1)
 			throw new IllegalStateException();
 		if (i_214_ != 128 && (anInt9763 & 0x2) != 2)
@@ -2637,7 +2637,7 @@ public class Class177_Sub3 extends Class177 {
 		}
 	}
 
-	public void method2517(Class177 class177, int i, int i_604_, int i_605_, boolean bool) {
+	public void method2517(MeshRasterizer class177, int i, int i_604_, int i_605_, boolean bool) {
 		Class177_Sub3 class177_sub3_606_ = (Class177_Sub3) class177;
 		if ((anInt9763 & 0x10000) != 65536)
 			throw new IllegalStateException("");
@@ -2710,7 +2710,7 @@ public class Class177_Sub3 extends Class177 {
 		}
 	}
 
-	public void method2561(Class177 class177, int i, int i_619_, int i_620_, boolean bool) {
+	public void method2561(MeshRasterizer class177, int i, int i_619_, int i_620_, boolean bool) {
 		Class177_Sub3 class177_sub3_621_ = (Class177_Sub3) class177;
 		if ((anInt9763 & 0x10000) != 65536)
 			throw new IllegalStateException("");
@@ -4888,7 +4888,7 @@ public class Class177_Sub3 extends Class177 {
 		return aShort9788;
 	}
 
-	public boolean method2480() {
+	public boolean successful() {
 		if (aShortArray9798 == null)
 			return true;
 		for (int i = 0; i < aShortArray9798.length; i++) {
@@ -5382,7 +5382,7 @@ public class Class177_Sub3 extends Class177 {
 		anInt9761 = 0;
 	}
 
-	public Class177 method2623(byte i, int i_1281_, boolean bool) {
+	public MeshRasterizer method2623(byte i, int i_1281_, boolean bool) {
 		method8992(Thread.currentThread());
 		boolean bool_1282_ = false;
 		Class177_Sub3 class177_sub3_1283_;
@@ -5988,7 +5988,7 @@ public class Class177_Sub3 extends Class177 {
 			anInt9761 = 1;
 	}
 
-	public Class177 method2617(byte i, int i_1411_, boolean bool) {
+	public MeshRasterizer method2617(byte i, int i_1411_, boolean bool) {
 		method8992(Thread.currentThread());
 		boolean bool_1412_ = false;
 		Class177_Sub3 class177_sub3_1413_;
@@ -6002,7 +6002,7 @@ public class Class177_Sub3 extends Class177 {
 		return method8999(class177_sub3_1413_, class177_sub3_1414_, i_1411_, bool_1412_, bool);
 	}
 
-	public Class177 method2618(byte i, int i_1415_, boolean bool) {
+	public MeshRasterizer method2618(byte i, int i_1415_, boolean bool) {
 		method8992(Thread.currentThread());
 		boolean bool_1416_ = false;
 		Class177_Sub3 class177_sub3_1417_;
@@ -6016,7 +6016,7 @@ public class Class177_Sub3 extends Class177 {
 		return method8999(class177_sub3_1417_, class177_sub3_1418_, i_1415_, bool_1416_, bool);
 	}
 
-	public Class177 method2496(byte i, int i_1419_, boolean bool) {
+	public MeshRasterizer method2496(byte i, int i_1419_, boolean bool) {
 		method8992(Thread.currentThread());
 		boolean bool_1420_ = false;
 		Class177_Sub3 class177_sub3_1421_;

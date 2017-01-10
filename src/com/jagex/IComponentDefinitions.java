@@ -558,8 +558,8 @@ public class IComponentDefinitions {
 		anInt2627 = 1535001011;
 	}
 
-	public Class184 method3469(Class410 class410, Interface51 interface51, byte i) {
-		Class184 class184 = ((Class184) class410.method4980(interface51, 2003514143 * fontId, false, fontMono, (byte) -19));
+	public FontRenderer method3469(Class410 class410, Interface51 interface51, byte i) {
+		FontRenderer class184 = ((FontRenderer) class410.method4980(interface51, 2003514143 * fontId, false, fontMono, (byte) -19));
 		aBool2724 = null == class184;
 		return class184;
 	}
@@ -570,7 +570,7 @@ public class IComponentDefinitions {
 		return class2;
 	}
 
-	public void method3471(Class167 class167, Class177 class177, Class433 class433, int i, int i_32_) {
+	public void method3471(GraphicalRenderer class167, MeshRasterizer class177, Class433 class433, int i, int i_32_) {
 		class177.method2513(class433);
 		Class172[] class172s = class177.method2514();
 		Class156[] class156s = class177.method2515();
@@ -689,7 +689,7 @@ public class IComponentDefinitions {
 		return (String) param.value;
 	}
 
-	public Class244 method3478(Class167 class167, int i) {
+	public Class244 method3478(GraphicalRenderer class167, int i) {
 		long l = ((long) (-1591767037 * anInt2559) << 32 | (long) (-809980533 * anInt2546) & 0xffffffffL);
 		Class244 class244 = (Class244) aClass199_2568.method2886(l);
 		if (class244 != null) {
@@ -800,10 +800,10 @@ public class IComponentDefinitions {
 		}
 	}
 
-	public Class143 method3484(Class167 class167, int i) {
+	public NativeSprite method3484(GraphicalRenderer class167, int i) {
 		aBool2724 = false;
 		long l = (((long) (1514577167 * graphicShadow) << 40) + (((vFlip ? 1L : 0L) << 38) + (((long) (1960646061 * outline) << 36) + ((long) (graphicId * -1307221069) + ((alpha ? 1L : 0L) << 35))) + ((hFlip ? 1L : 0L) << 39)));
-		Class143 class143 = (Class143) aClass199_2552.method2886(l);
+		NativeSprite class143 = (NativeSprite) aClass199_2552.method2886(l);
 		if (class143 != null)
 			return class143;
 		Class179 class179 = Class181.method2718(Class252.aClass461_2745, -1307221069 * graphicId, 0);
@@ -1006,7 +1006,7 @@ public class IComponentDefinitions {
 		Class265.method3688(i, (byte) 81);
 	}
 
-	public Class177 method3502(Class167 class167, int i, BASTypeList class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Class34_Sub11 class34_sub11, Interface20 interface20, Interface18 interface18, Class688 class688, Class617 class617, short i_63_) {
+	public MeshRasterizer method3502(GraphicalRenderer class167, int i, BASTypeList class34_sub16, Class34_Sub2 class34_sub2, Class34_Sub7 class34_sub7, Class34_Sub13 class34_sub13, Class34_Sub11 class34_sub11, Interface20 interface20, Interface18 interface18, Class688 class688, PlayerAppearance class617, short i_63_) {
 		aBool2724 = false;
 		if (0 == 1939619399 * modelType)
 			return null;
@@ -1037,18 +1037,18 @@ public class IComponentDefinitions {
 				i |= 0x8000;
 			}
 			long l_67_ = ((long) (class167.anInt1850 * 1526643673) << 59 | (long) (1939619399 * modelType) << 55 | (long) (modelId * -2011124813) << 38 | l & 0x3fffffffffL);
-			Class177 class177 = (Class177) aClass199_2694.method2886(l_67_);
+			MeshRasterizer class177 = (MeshRasterizer) aClass199_2694.method2886(l_67_);
 			if (null == class177 || class167.method2308(class177.method2466(), i) != 0) {
 				if (class177 != null)
 					i = class167.method2068(i, class177.method2466());
-				Class180 class180 = Class180.method2708(Class537.aClass461_7152, -2011124813 * modelId, 0);
+				RSMesh class180 = RSMesh.decodeMesh(Class537.aClass461_7152, -2011124813 * modelId, 0);
 				if (class180 == null) {
 					aBool2724 = true;
 					return null;
 				}
 				if (class180.anInt1949 < 13)
-					class180.method2707(2);
-				class177 = class167.method2093(class180, i, (Class649_Sub1_Sub2_Sub1.anInt11973 * -1304267373), 64, 768);
+					class180.upscale(2);
+				class177 = class167.createMeshRasterizer(class180, i, (Class649_Sub1_Sub2_Sub1.anInt11973 * -1304267373), 64, 768);
 				if (null != aShortArray2619) {
 					for (int i_68_ = 0; i_68_ < aShortArray2619.length; i_68_++)
 						class177.method2507(aShortArray2619[i_68_], aShortArray2620[i_68_]);
@@ -1067,7 +1067,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (2 == modelType * 1939619399) {
-			Class177 class177 = (((NPCDecoder) class34_sub7.method70(modelId * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
+			MeshRasterizer class177 = (((NPCDecoder) class34_sub7.method70(modelId * -2011124813, (byte) -2)).method3981(class167, i, interface20, interface18, class688, aClass304_2583, (short) -15253));
 			if (class177 == null) {
 				aBool2724 = true;
 				return null;
@@ -1077,7 +1077,7 @@ public class IComponentDefinitions {
 		if (3 == modelType * 1939619399) {
 			if (null == class617)
 				return null;
-			Class177 class177 = class617.method7346(class167, i, class34_sub2, class34_sub7, class34_sub13, interface20, interface18, class688, -211912518);
+			MeshRasterizer class177 = class617.method7346(class167, i, class34_sub2, class34_sub7, class34_sub13, interface20, interface18, class688, -211912518);
 			if (class177 == null) {
 				aBool2724 = true;
 				return null;
@@ -1086,7 +1086,7 @@ public class IComponentDefinitions {
 		}
 		if (4 == modelType * 1939619399) {
 			ItemDecoder class1 = ((ItemDecoder) class34_sub13.method70(-2011124813 * modelId, (byte) 6));
-			Class177 class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
+			MeshRasterizer class177 = class1.method503(class167, i, 10, class617, class688, 0, 0, 0, 0, (byte) 35);
 			if (null == class177) {
 				aBool2724 = true;
 				return null;
@@ -1094,7 +1094,7 @@ public class IComponentDefinitions {
 			return class177;
 		}
 		if (1939619399 * modelType == 6) {
-			Class177 class177 = (((NPCDecoder) class34_sub7.method70(-2011124813 * modelId, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
+			MeshRasterizer class177 = (((NPCDecoder) class34_sub7.method70(-2011124813 * modelId, (byte) 24)).method3995(class167, i, class34_sub16, interface20, interface18, class688, null, null, null, 0, aClass304_2583, 978684503));
 			if (null == class177) {
 				aBool2724 = true;
 				return null;
@@ -1107,7 +1107,7 @@ public class IComponentDefinitions {
 			int i_70_ = modelId * -2011124813 >>> 16;
 			int i_71_ = modelId * -2011124813 & 0xffff;
 			int i_72_ = 2109818095 * anInt2603;
-			Class177 class177 = class617.method7347(class167, i, class34_sub2, class34_sub11, class688, i_70_, i_71_, i_72_, -1539494094);
+			MeshRasterizer class177 = class617.method7347(class167, i, class34_sub2, class34_sub11, class688, i_70_, i_71_, i_72_, -1539494094);
 			if (null == class177) {
 				aBool2724 = true;
 				return null;

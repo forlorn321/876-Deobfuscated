@@ -108,7 +108,7 @@ public final class Class6 {
 	static void method593(int i) {
 		if (null != Class483.aClass303_5431) {
 			Class192.aClass292_2177 = new Class292();
-			Class192.aClass292_2177.method3935(Class34_Sub14.aLong10970 * -1422508675219242683L, Class483.aClass303_5431.aClass38_3426.method840(Class459.aClass664_5178, 2046336227), Class483.aClass303_5431.aClass38_3426.method840(Class459.aClass664_5178, 1495148182), -1949228175 * Class483.aClass303_5431.anInt3431, Class483.aClass303_5431, 557818389);
+			Class192.aClass292_2177.method3935(Class34_Sub14.aLong10970 * -1422508675219242683L, Class483.aClass303_5431.aClass38_3426.method840(Class459.CLIENT_PARAMS, 2046336227), Class483.aClass303_5431.aClass38_3426.method840(Class459.CLIENT_PARAMS, 1495148182), -1949228175 * Class483.aClass303_5431.anInt3431, Class483.aClass303_5431, 557818389);
 			Class94.aThread1148 = new Thread(Class192.aClass292_2177, "");
 			Class94.aThread1148.start();
 		}

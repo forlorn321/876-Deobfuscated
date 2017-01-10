@@ -41,11 +41,11 @@ public class Class227 implements Interface27 {
 	}
 
 	public static void method3285(byte i) {
-		synchronized (Class617.aClass199_8081) {
-			Class617.aClass199_8081.method2892(-2002707872);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			PlayerAppearance.aClass199_8081.method2892(-2002707872);
 		}
-		synchronized (Class617.aClass199_8082) {
-			Class617.aClass199_8082.method2892(465491948);
+		synchronized (PlayerAppearance.aClass199_8082) {
+			PlayerAppearance.aClass199_8082.method2892(465491948);
 		}
 	}
 }

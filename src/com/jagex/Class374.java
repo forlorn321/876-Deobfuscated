@@ -165,8 +165,8 @@ public class Class374 {
 
 	static final void method4783(Class668 class668, int i) {
 		if (client.anInt11101 * -708374433 == 1) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4500, client.aClass106_11218.aClass15_1258, 1718207817);
-			client.aClass106_11218.method1409(class536_sub23, 743027212);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4500, client.aClass106_11218.aClass15_1258, 1718207817);
+			client.aClass106_11218.writePacket(class536_sub23, 743027212);
 		}
 	}
 

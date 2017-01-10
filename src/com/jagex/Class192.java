@@ -33,7 +33,7 @@ class Class192 implements Interface42 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.groundBlendingSetting.method10172(1602714949) ? 1 : 0;
 	}
 
-	public static void method2842(Class167 class167, long l) {
+	public static void method2842(GraphicalRenderer class167, long l) {
 		Class626.anInt8153 = 1485776131 * Class626.anInt8160;
 		Class626.anInt8160 = 0;
 		Class249.method3450(1465734066);
@@ -51,12 +51,12 @@ class Class192 implements Interface42 {
 
 	static void method2843(int i, String string, String string_0_, int i_1_) {
 		if (null != client.aClass106_11322) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4514, client.aClass106_11322.aClass15_1258, 1777800533);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort((1 + ObjTypeDecoder.method7315(string, -1311964413) + ObjTypeDecoder.method7315(string_0_, -1311964413)), -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9729(i, -1433897343);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9785(string_0_, (byte) 76);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9785(string, (byte) 85);
-			client.aClass106_11322.method1409(class536_sub23, 418524173);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4514, client.aClass106_11322.aClass15_1258, 1777800533);
+			class536_sub23.stream.writeShort((1 + ObjTypeDecoder.method7315(string, -1311964413) + ObjTypeDecoder.method7315(string_0_, -1311964413)), -1778059594);
+			class536_sub23.stream.method9729(i, -1433897343);
+			class536_sub23.stream.method9785(string_0_, (byte) 76);
+			class536_sub23.stream.method9785(string, (byte) 85);
+			client.aClass106_11322.writePacket(class536_sub23, 418524173);
 		}
 	}
 }

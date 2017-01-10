@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class247_Sub1 extends Class247 {
 	public static JS5ResourceProvider aClass461_9968;
-	public static Class143 aClass143_9969;
+	public static NativeSprite aClass143_9969;
 
 	public ConfigType method55(int i, Interface12 interface12, int i_0_) {
 		return new Class248(i, interface12, this);

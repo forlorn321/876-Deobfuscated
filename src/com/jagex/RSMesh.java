@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class180 {
+public class RSMesh {
 	public int[] anIntArray1946;
 	public int anInt1947;
 	public int[] anIntArray1948;
@@ -54,7 +54,7 @@ public class Class180 {
 	public Class156[] aClass156Array1993;
 	public Class170[] aClass170Array1994;
 
-	public Class180(byte[] is) {
+	public RSMesh(byte[] is) {
 		anInt1947 = 0;
 		anInt1951 = 0;
 		anInt1961 = 0;
@@ -448,7 +448,7 @@ public class Class180 {
 		anInt1951++;
 	}
 
-	public Class180(Class180[] class180s, int i) {
+	public RSMesh(RSMesh[] class180s, int i) {
 		anInt1947 = 0;
 		anInt1951 = 0;
 		anInt1961 = 0;
@@ -469,7 +469,7 @@ public class Class180 {
 		boolean bool_102_ = false;
 		aByte1975 = (byte) -1;
 		for (int i_103_ = 0; i_103_ < i; i_103_++) {
-			Class180 class180_104_ = class180s[i_103_];
+			RSMesh class180_104_ = class180s[i_103_];
 			if (class180_104_ != null) {
 				anInt1947 += class180_104_.anInt1947;
 				anInt1961 += class180_104_.anInt1961;
@@ -560,7 +560,7 @@ public class Class180 {
 		i_97_ = 0;
 		for (int i_109_ = 0; i_109_ < i; i_109_++) {
 			short i_110_ = (short) (1 << i_109_);
-			Class180 class180_111_ = class180s[i_109_];
+			RSMesh class180_111_ = class180s[i_109_];
 			int i_112_ = anInt1961;
 			if (class180_111_ != null) {
 				boolean[] bools = new boolean[class180_111_.anInt1947];
@@ -677,7 +677,7 @@ public class Class180 {
 		int i_133_ = 0;
 		for (/**/; i_132_ < i; i_132_++) {
 			short i_134_ = (short) (1 << i_132_);
-			Class180 class180_135_ = class180s[i_132_];
+			RSMesh class180_135_ = class180s[i_132_];
 			if (class180_135_ != null) {
 				if (bool_100_) {
 					int i_136_ = 0;
@@ -715,7 +715,7 @@ public class Class180 {
 		}
 	}
 
-	final int method2695(Class180 class180_139_, int i, short i_140_) {
+	final int method2695(RSMesh class180_139_, int i, short i_140_) {
 		int i_141_ = class180_139_.anIntArray1952[i];
 		int i_142_ = class180_139_.anIntArray1981[i];
 		int i_143_ = class180_139_.anIntArray1978[i];
@@ -844,7 +844,7 @@ public class Class180 {
 		return (byte) anInt1983++;
 	}
 
-	public Class180(int i, int i_156_, int i_157_) {
+	public RSMesh(int i, int i_156_, int i_157_) {
 		anInt1947 = 0;
 		anInt1951 = 0;
 		anInt1961 = 0;
@@ -941,14 +941,14 @@ public class Class180 {
 		return is_170_;
 	}
 
-	public void method2703(short i, short i_174_) {
+	public void recolor(short i, short i_174_) {
 		for (int i_175_ = 0; i_175_ < anInt1961; i_175_++) {
 			if (aShortArray1972[i_175_] == i)
 				aShortArray1972[i_175_] = i_174_;
 		}
 	}
 
-	public void method2704(short i, short i_176_) {
+	public void retexture(short i, short i_176_) {
 		if (aShortArray1957 != null) {
 			for (int i_177_ = 0; i_177_ < anInt1961; i_177_++) {
 				if (aShortArray1957[i_177_] == i)
@@ -977,7 +977,7 @@ public class Class180 {
 		return anInt1961++;
 	}
 
-	public void method2707(int i) {
+	public void upscale(int i) {
 		for (int i_188_ = 0; i_188_ < anInt1947; i_188_++) {
 			anIntArray1952[i_188_] <<= i;
 			anIntArray1981[i_188_] <<= i;
@@ -993,11 +993,11 @@ public class Class180 {
 		}
 	}
 
-	public static Class180 method2708(JS5ResourceProvider class461, int i, int i_190_) {
+	public static RSMesh decodeMesh(JS5ResourceProvider class461, int i, int i_190_) {
 		byte[] is = class461.method5556(i, i_190_, (byte) 1);
 		if (is == null)
 			return null;
-		return new Class180(is);
+		return new RSMesh(is);
 	}
 
 	public int method2709(int i, int i_191_, int i_192_) {

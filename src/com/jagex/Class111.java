@@ -48,7 +48,7 @@ public class Class111 {
 		Class652.method7869(-1510509322);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 0, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 4, (byte) 1);
-		Class184.method2769(2111711933);
+		FontRenderer.method2769(2111711933);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -78,7 +78,7 @@ public class Class111 {
 		Class652.method7869(1326934705);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 2, (byte) 1);
-		Class184.method2769(1870935211);
+		FontRenderer.method2769(1870935211);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -176,7 +176,7 @@ public class Class111 {
 		Class652.method7869(-13577856);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 0, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 4, (byte) 1);
-		Class184.method2769(1821597917);
+		FontRenderer.method2769(1821597917);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -206,7 +206,7 @@ public class Class111 {
 		Class652.method7869(143668129);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 1, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 3, (byte) 1);
-		Class184.method2769(1144617774);
+		FontRenderer.method2769(1144617774);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -236,7 +236,7 @@ public class Class111 {
 		Class652.method7869(204095415);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 1, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 3, (byte) 1);
-		Class184.method2769(1946089526);
+		FontRenderer.method2769(1946089526);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -266,7 +266,7 @@ public class Class111 {
 		Class652.method7869(392125796);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 2, (byte) 1);
-		Class184.method2769(1584371567);
+		FontRenderer.method2769(1584371567);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -296,7 +296,7 @@ public class Class111 {
 		Class652.method7869(-1093479371);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 1, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 3, (byte) 1);
-		Class184.method2769(1164843367);
+		FontRenderer.method2769(1164843367);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -326,7 +326,7 @@ public class Class111 {
 		Class652.method7869(-1009721860);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 2, (byte) 1);
-		Class184.method2769(1707232703);
+		FontRenderer.method2769(1707232703);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -356,7 +356,7 @@ public class Class111 {
 		Class652.method7869(1606636503);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 2, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 1, (byte) 1);
-		Class184.method2769(1740458452);
+		FontRenderer.method2769(1740458452);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}
@@ -400,7 +400,7 @@ public class Class111 {
 		Class652.method7869(-229684314);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 0, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 4, (byte) 1);
-		Class184.method2769(1977834840);
+		FontRenderer.method2769(1977834840);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}

@@ -374,11 +374,11 @@ public class Class20 implements ConfigType, Interface7 {
 	}
 
 	public static void method702(byte i) {
-		synchronized (Class617.aClass199_8081) {
-			Class617.aClass199_8081.method2884((byte) -13);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			PlayerAppearance.aClass199_8081.method2884((byte) -13);
 		}
-		synchronized (Class617.aClass199_8082) {
-			Class617.aClass199_8082.method2884((byte) -38);
+		synchronized (PlayerAppearance.aClass199_8082) {
+			PlayerAppearance.aClass199_8082.method2884((byte) -38);
 		}
 	}
 

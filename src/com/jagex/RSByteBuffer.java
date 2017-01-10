@@ -382,7 +382,7 @@ public class RSByteBuffer extends Class536 {
 		return false;
 	}
 
-	public void writeByte128(int i, byte i_69_) {
+	public void writeByte128(int i) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i + 128);
 	}
 
@@ -435,7 +435,7 @@ public class RSByteBuffer extends Class536 {
 		buffer = CircularBuffer.method8269(i, bool, -731672108);
 	}
 
-	public void write128Short(int i, int i_74_) {
+	public void write128Short(int i) {
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (128 + i);
 		buffer[(off += 516175515) * -810172525 - 1] = (byte) (i >> 8);
 	}

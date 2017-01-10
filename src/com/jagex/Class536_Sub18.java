@@ -5,7 +5,7 @@ package com.jagex;
 
 public class Class536_Sub18 extends Class536 {
 	public Class536_Sub18 aClass536_Sub18_10506;
-	public long aLong10507;
+	public long requestHash;
 	public Class536_Sub18 aClass536_Sub18_10508;
 
 	public void method9521(int i) {

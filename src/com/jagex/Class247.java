@@ -14,8 +14,8 @@ public abstract class Class247 implements Interface6 {
 		aClass199_2477 = new Class199(i);
 	}
 
-	public static Class143 method3419(JS5ResourceProvider class461, int i, int i_0_) {
-		Class143 class143 = (Class143) Class291.aClass199_3230.method2886((long) i);
+	public static NativeSprite method3419(JS5ResourceProvider class461, int i, int i_0_) {
+		NativeSprite class143 = (NativeSprite) Class291.aClass199_3230.method2886((long) i);
 		if (null == class143) {
 			if (Class310.aBool3466)
 				class143 = Class677.aClass167_8609.method2082(Class181.method2717(class461, i), true);

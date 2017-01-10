@@ -39,7 +39,7 @@ public class Class562 {
 	int anInt7577;
 	static final int anInt7578 = 2;
 
-	public Class562(Class167 class167, int i, RSByteBuffer class536_sub33, int i_0_) {
+	public Class562(GraphicalRenderer class167, int i, RSByteBuffer class536_sub33, int i_0_) {
 		if (null == Class34_Sub22.anIntArray10982)
 			Class504.method6076(-1422444650);
 		anInt7570 = class536_sub33.readUnsignedByte() * 917894701;
@@ -316,7 +316,7 @@ public class Class562 {
 		}
 	}
 
-	void method6858(Class167 class167, int i, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_) {
+	void method6858(GraphicalRenderer class167, int i, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_) {
 		aClass536_Sub19_7546 = class167.method2109(i, i_22_, i_23_, i_24_, i_25_, 1.0F);
 	}
 

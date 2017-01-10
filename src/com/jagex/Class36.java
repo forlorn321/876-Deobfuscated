@@ -70,8 +70,8 @@ class Class36 implements Iterator {
 	}
 
 	public static int method829(int i) {
-		synchronized (Class617.aClass199_8081) {
-			int i_3_ = Class617.aClass199_8081.method2887(1766307058);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			int i_3_ = PlayerAppearance.aClass199_8081.method2887(1766307058);
 			return i_3_;
 		}
 	}

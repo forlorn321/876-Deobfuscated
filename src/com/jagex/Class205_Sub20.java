@@ -22,13 +22,13 @@ public class Class205_Sub20 extends Class205 {
 
 	public static final void method9092(String string, String string_0_, int i) {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4451, class106.aClass15_1258, 1786411778);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4451, class106.aClass15_1258, 1786411778);
 		if (string_0_.length() > 30)
 			string_0_ = string_0_.substring(0, 30);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte((Class555.method6802(string, 1643476799) + Class555.method6802(string_0_, 512303196)));
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string_0_);
-		class106.method1409(class536_sub23, 973165313);
+		class536_sub23.stream.writeByte((Class555.method6802(string, 1643476799) + Class555.method6802(string_0_, 512303196)));
+		class536_sub23.stream.writeString(string);
+		class536_sub23.stream.writeString(string_0_);
+		class106.writePacket(class536_sub23, 973165313);
 	}
 
 	static void method9093(int i) {

@@ -12,17 +12,17 @@ public class Class526 {
 	static int anInt7100 = 0;
 	int[] anIntArray7101;
 	int[] anIntArray7102;
-	public Class177 aClass177_7103;
+	public MeshRasterizer aClass177_7103;
 	LinkedList aLinkedList7104;
 	boolean aBool7105;
 
-	Class177 method6413(Class167 class167, int i) {
-		Class180 class180 = Class180.method2708(Class602.aClass461_7857, anInt7099 * -1415147279, 0);
+	MeshRasterizer method6413(GraphicalRenderer class167, int i) {
+		RSMesh class180 = RSMesh.decodeMesh(Class602.aClass461_7857, anInt7099 * -1415147279, 0);
 		if (null == class180)
 			return null;
 		if (class180.anInt1949 < 13)
-			class180.method2707(2);
-		return class167.method2093(class180, 2048, anInt7100 * 92183755, 64, 768);
+			class180.upscale(2);
+		return class167.createMeshRasterizer(class180, 2048, anInt7100 * 92183755, 64, 768);
 	}
 
 	public void method6414(Class553 class553, byte i) {
@@ -87,7 +87,7 @@ public class Class526 {
 		return aBool7105;
 	}
 
-	public boolean method6419(Class167 class167, int i) {
+	public boolean method6419(GraphicalRenderer class167, int i) {
 		aClass177_7103 = method6413(class167, 293058415);
 		return aClass177_7103 != null;
 	}
@@ -96,7 +96,7 @@ public class Class526 {
 		return aBool7105;
 	}
 
-	public Class526(Class167 class167, RSByteBuffer class536_sub33, int i) {
+	public Class526(GraphicalRenderer class167, RSByteBuffer class536_sub33, int i) {
 		anInt7099 = i * -1661575151;
 		anInt7098 = class536_sub33.method9717(1138181829) * -436081483;
 		anIntArray7101 = new int[anInt7098 * 463774109];

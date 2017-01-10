@@ -162,7 +162,7 @@ public class Class3 implements Iterator {
 		Class303 class303 = Class483.aClass303_5431;
 		int i_0_ = Class601.method7169(2086284843);
 		if (class303 == Class483.aClass303_5431) {
-			Class310.aString3469 = Class483.aClass303_5431.aClass38_3426.method840(Class459.aClass664_5178, 1982223612);
+			Class310.aString3469 = Class483.aClass303_5431.aClass38_3426.method840(Class459.CLIENT_PARAMS, 1982223612);
 			Class594.aString7816 = Class310.aString3469;
 			if (Class483.aClass303_5431.aBool3427)
 				Class71.anInt795 = (-1270314255 * ((i_0_ * (Class483.aClass303_5431.anInt3429 * -1375848401 - (Class483.aClass303_5431.anInt3431 * -1949228175)) / 100) + -1949228175 * Class483.aClass303_5431.anInt3431));
@@ -176,7 +176,7 @@ public class Class3 implements Iterator {
 				Class315_Sub2.method9204(Class310.aString3472, Class87.aString872, "", false, -926219828);
 			}
 		} else {
-			Class310.aString3469 = class303.aClass38_3412.method840(Class459.aClass664_5178, 1802078994);
+			Class310.aString3469 = class303.aClass38_3412.method840(Class459.CLIENT_PARAMS, 1802078994);
 			Class594.aString7816 = Class310.aString3469;
 			if (Class483.aClass303_5431.aBool3430)
 				Class594.aString7816 = new StringBuilder().append(Class594.aString7816).append(" - ").append(class303.anInt3429 * -1375848401).append("%").toString();

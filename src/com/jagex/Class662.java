@@ -9,7 +9,7 @@ public class Class662 {
 	static char[] aCharArray8511;
 	static int[] anIntArray8512;
 	static int anInt8513;
-	public static Class143 aClass143_8514;
+	public static NativeSprite aClass143_8514;
 
 	Class662() throws Throwable {
 		throw new Error();

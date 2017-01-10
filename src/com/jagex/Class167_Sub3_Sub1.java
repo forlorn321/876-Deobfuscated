@@ -46,8 +46,8 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 	String aString11457;
 	float[] aFloatArray11458;
 	static final int anInt11459 = 3;
-	Class143 aClass143_11460;
-	Class143 aClass143_11461;
+	NativeSprite aClass143_11460;
+	NativeSprite aClass143_11461;
 	Class183_Sub2 aClass183_Sub2_11462;
 	Class488_Sub2 aClass488_Sub2_11463;
 	long[] aLongArray11464;
@@ -313,7 +313,7 @@ public final class Class167_Sub3_Sub1 extends Class167_Sub3 {
 		return new Class490(this, Class155.aClass155_1726, Class171.aClass171_1895, i, i_23_, i_24_);
 	}
 
-	public int[] method2078(int i, int i_25_, int i_26_, int i_27_) {
+	public int[] getPixelArea(int i, int i_25_, int i_26_, int i_27_) {
 		int[] is = new int[i_26_ * i_27_];
 		int i_28_ = aClass183_1849.method2726();
 		for (int i_29_ = 0; i_29_ < i_27_; i_29_++)

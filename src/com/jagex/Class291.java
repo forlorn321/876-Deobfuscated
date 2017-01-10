@@ -6,7 +6,7 @@ package com.jagex;
 public class Class291 implements Interface30 {
 	boolean aBool3224;
 	Class83 aClass83_3225;
-	Class167 aClass167_3226;
+	GraphicalRenderer aClass167_3226;
 	Interface33[] anInterface33Array3227;
 	int anInt3228;
 	int anInt3229;

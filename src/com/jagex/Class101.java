@@ -89,9 +89,9 @@ public class Class101 {
 		Class553 class553 = client.aClass515_11066.method6249(-1770614383);
 		Class34_Sub17 class34_sub17 = client.aClass515_11066.method6280(-1073841494);
 		int i_3_ = i;
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
-			int i_4_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
-			int i_5_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
+		if (Class565.MY_PLAYER != null) {
+			int i_4_ = ((Class565.MY_PLAYER.screenX[0]) >> 3);
+			int i_5_ = ((Class565.MY_PLAYER.screenY[0]) >> 3);
 			if (i_4_ >= 0 && i_4_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_5_ >= 0 && i_5_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_4_].length && Class315_Sub1_Sub1.aBoolArrayArray11398[i_4_][i_5_])
 				i_3_ = 0;
 		}
@@ -132,9 +132,9 @@ public class Class101 {
 		Class553 class553 = client.aClass515_11066.method6249(-1655549180);
 		Class34_Sub17 class34_sub17 = client.aClass515_11066.method6280(-1073841494);
 		int i_11_ = i;
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
-			int i_12_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
-			int i_13_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
+		if (Class565.MY_PLAYER != null) {
+			int i_12_ = ((Class565.MY_PLAYER.screenX[0]) >> 3);
+			int i_13_ = ((Class565.MY_PLAYER.screenY[0]) >> 3);
 			if (i_12_ >= 0 && i_12_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_13_ >= 0 && (i_13_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_].length) && Class315_Sub1_Sub1.aBoolArrayArray11398[i_12_][i_13_])
 				i_11_ = 0;
 		}
@@ -197,7 +197,7 @@ public class Class101 {
 		Class536_Sub34.method9816(Class677.aClass167_8609, Class398.aClass461_4122, (byte) 0);
 		Class706_Sub2.method10262((byte) 104);
 		Class552.method6692(-2033868655);
-		Class184.method2769(1071955793);
+		FontRenderer.method2769(1071955793);
 		if (-708374433 * client.anInt11101 == 16)
 			Class673.method8026(7, -1798113843);
 		else if (client.anInt11101 * -708374433 == 0)

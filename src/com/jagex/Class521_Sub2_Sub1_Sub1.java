@@ -271,7 +271,7 @@ public class Class521_Sub2_Sub1_Sub1 extends Class521_Sub2_Sub1 {
 		}
 	}
 
-	void method10989(Class553 class553, Class167 class167, long l) {
+	void method10989(Class553 class553, GraphicalRenderer class167, long l) {
 		int i = anInt11595 >> 12 + class553.anInt7444 * 1893698405;
 		int i_57_ = anInt11597 >> 12 + class553.anInt7444 * 1893698405;
 		int i_58_ = anInt11592 >> 12;

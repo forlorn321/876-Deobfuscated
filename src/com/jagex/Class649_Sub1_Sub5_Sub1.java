@@ -70,7 +70,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 	Class627 aClass627_11950;
 	int anInt11951;
 	public int anInt11952;
-	public Class177[] aClass177Array11953;
+	public MeshRasterizer[] aClass177Array11953;
 	int anInt11954;
 	Class234 aClass234_11955;
 	int anInt11956;
@@ -324,7 +324,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		aShort11870 = (short) (i_37_ + (int) class436.aFloat4853 >> 9);
 	}
 
-	void method10875(Class167 class167, BASTypeDecoder class589, int i, int i_38_, int i_39_, int i_40_, int i_41_) {
+	void method10875(GraphicalRenderer class167, BASTypeDecoder class589, int i, int i_38_, int i_39_, int i_40_, int i_41_) {
 		for (int i_42_ = 0; i_42_ < aClass500Array11901.length; i_42_++) {
 			byte i_43_ = 0;
 			if (0 == i_42_)
@@ -348,7 +348,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 				if (class500.anInt6838 * -1656610337 >= 0)
 					i_44_ |= 0x7;
 				if (class500.anInt6838 * -1656610337 >= 0 && null != class589.anIntArrayArray7749 && null != (class589.anIntArrayArray7749[class500.anInt6838 * -1656610337])) {
-					Class177 class177 = (aClass177Array11953[i_42_ + 1] = class677.method8045(class167, i_44_, class500.aClass688_6843, i_43_, 42697280));
+					MeshRasterizer class177 = (aClass177Array11953[i_42_ + 1] = class677.method8045(class167, i_44_, class500.aClass688_6843, i_43_, 42697280));
 					if (null != class177) {
 						int i_45_ = 0;
 						int i_46_ = 0;
@@ -382,7 +382,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 						class177.aBool1939 = false;
 					}
 				} else {
-					Class177 class177 = (aClass177Array11953[i_42_ + 1] = class677.method8046(class167, i_44_, (-610621440 * class500.anInt6840), anInt11892 * 1681595873, anInt11900 * 1915921525, anInt11891 * -2111850483, class500.aClass688_6843, i_43_, -1133280616));
+					MeshRasterizer class177 = (aClass177Array11953[i_42_ + 1] = class677.method8046(class167, i_44_, (-610621440 * class500.anInt6840), anInt11892 * 1681595873, anInt11900 * 1915921525, anInt11891 * -2111850483, class500.aClass688_6843, i_43_, -1133280616));
 					if (null != class177) {
 						if (class500.anInt6842 * -1327719167 != 0)
 							class177.method2472(0, -(class500.anInt6842 * -1327719167) << 2, 0);
@@ -671,7 +671,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 
 	abstract int method10897(int i);
 
-	void method10898(Class167 class167, Class177[] class177s, Class433 class433, boolean bool, int i) {
+	void method10898(GraphicalRenderer class167, MeshRasterizer[] class177s, Class433 class433, boolean bool, int i) {
 		if (!bool) {
 			int i_122_ = 0;
 			int i_123_ = 0;
@@ -869,7 +869,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		screenX = new int[i];
 		screenY = new int[i];
 		aByteArray11946 = new byte[i];
-		aClass177Array11953 = new Class177[6];
+		aClass177Array11953 = new MeshRasterizer[6];
 		aClass500Array11901 = new Class500[5];
 		for (int i_147_ = 0; i_147_ < 5; i_147_++)
 			aClass500Array11901[i_147_] = new Class500(this);
@@ -941,7 +941,7 @@ public abstract class Class649_Sub1_Sub5_Sub1 extends Class649_Sub1_Sub5 impleme
 		class500.aClass688_6843.method8126((i != -1 ? (((Class677) Class633.aClass34_Sub15_8260.method70(i, (byte) -20)).anInt8607) * -1078340929 : -1), i_150_ & 0xffff, i_159_, false, 1129506077);
 	}
 
-	void method10918(Class177 class177, byte i) {
+	void method10918(MeshRasterizer class177, byte i) {
 		int i_160_ = aClass62_11902.anInt700 * 897724319;
 		int i_161_ = aClass62_11942.anInt700 * 897724319;
 		if (i_160_ != 0 || i_161_ != 0) {

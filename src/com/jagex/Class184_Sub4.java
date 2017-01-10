@@ -5,7 +5,7 @@ package com.jagex;
 
 import jaggl.OpenGL;
 
-public class Class184_Sub4 extends Class184 {
+public class Class184_Sub4 extends FontRenderer {
 	Class124_Sub1_Sub1 aClass124_Sub1_Sub1_9900;
 	Class167_Sub2 aClass167_Sub2_9901;
 	Class125 aClass125_9902;

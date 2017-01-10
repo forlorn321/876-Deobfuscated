@@ -67,33 +67,33 @@ class Class154 implements Runnable {
 				if (Class45.anInt523 * -358161959 > i_0_)
 					Class442.method5336((byte) 1);
 				if (Class45.aClass42_525 == Class42.aClass42_508) {
-					client.aClass106_11218.method1420(Class506.method6146(Class23.aClass5_230.method575((byte) 20), 40000, (byte) 59), Class23.aClass5_230.aString112, -1933050734);
+					client.aClass106_11218.method1420(Class506.createRSSocket(Class23.aClass5_230.createSocket((byte) 20), 40000, (byte) 59), Class23.aClass5_230.aString112, -1933050734);
 					client.aClass106_11218.method1407(-452273809);
-					Class536_Sub23 class536_sub23 = Class458_Sub3.method9359(1304470174);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1258126983 * Class420.aClass420_4584.anInt4571);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-					int i_1_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(876, -1778059594);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1, -1778059594);
+					OutgoingPacketContainer class536_sub23 = Class458_Sub3.method9359(1304470174);
+					class536_sub23.stream.writeByte(1258126983 * Class420.aClass420_4584.connectionType);
+					class536_sub23.stream.writeShort(0, -1778059594);
+					int i_1_ = (class536_sub23.stream.off * -810172525);
+					class536_sub23.stream.writeShort(876, -1778059594);
+					class536_sub23.stream.writeShort(1, -1778059594);
 					Class45.anIntArray526 = Class62.method1053(class536_sub23, 1719876200);
-					int i_2_ = (-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off));
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeString(client.aString11004);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1051867059 * client.anInt10987, -1778059594);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt10991 * -811133827);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(client.anInt11017 * -599766855);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class210.aString2260);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class459.aClass664_5178.method78());
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(client.aClass670_11043.anInt8567 * 273023065);
-					Class502.method6042((class536_sub23.aClass536_Sub33_Sub2_10528), (byte) 87);
+					int i_2_ = (-810172525 * (class536_sub23.stream.off));
+					class536_sub23.stream.writeString(client.GAMEPACK_KEY);
+					class536_sub23.stream.writeShort(1051867059 * client.anInt10987, -1778059594);
+					class536_sub23.stream.writeInt(client.anInt10991 * -811133827);
+					class536_sub23.stream.writeInt(client.anInt11017 * -599766855);
+					class536_sub23.stream.writeString(Class210.aString2260);
+					class536_sub23.stream.writeByte(Class459.CLIENT_PARAMS.method78());
+					class536_sub23.stream.writeByte(client.aClass670_11043.anInt8567 * 273023065);
+					Class502.method6042((class536_sub23.stream), (byte) 87);
 					String string = client.aString10996;
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(null == string ? 0 : 1);
+					class536_sub23.stream.writeByte(null == string ? 0 : 1);
 					if (string != null)
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-					Class458_Sub4.aClass536_Sub38_10336.method9822(class536_sub23.aClass536_Sub33_Sub2_10528, 65536);
-					class536_sub23.aClass536_Sub33_Sub2_10528.off += -681738691;
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9725(Class45.anIntArray526, i_2_, -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off), -365428796);
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9698((-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_1_), 1082460538);
-					client.aClass106_11218.method1409(class536_sub23, 1108355328);
+						class536_sub23.stream.writeString(string);
+					Class458_Sub4.aClass536_Sub38_10336.method9822(class536_sub23.stream, 65536);
+					class536_sub23.stream.off += -681738691;
+					class536_sub23.stream.method9725(Class45.anIntArray526, i_2_, -810172525 * (class536_sub23.stream.off), -365428796);
+					class536_sub23.stream.method9698((-810172525 * (class536_sub23.stream.off) - i_1_), 1082460538);
+					client.aClass106_11218.writePacket(class536_sub23, 1108355328);
 					client.aClass106_11218.method1408(864600008);
 					Class45.aClass42_525 = Class42.aClass42_507;
 				}
@@ -101,7 +101,7 @@ class Class154 implements Runnable {
 					if (client.aClass106_11218.method1413((short) 16381) == null)
 						Class442.method5336((byte) 1);
 					else if (client.aClass106_11218.method1413((short) 16167).bitsRemaining(1, -1036446546)) {
-						client.aClass106_11218.method1413((short) -17086).method6899((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1779776192);
+						client.aClass106_11218.method1413((short) -17086).copyBuffer((client.aClass106_11218.byteBuffer.buffer), 0, 1, -1779776192);
 						Class45.aClass709_521 = ((Class709) Class682.method8091(Class184_Sub6.method9084(2053659211), ((client.aClass106_11218.byteBuffer.buffer[0]) & 0xff), 1858049507));
 						if (Class709.aClass709_8832 == Class45.aClass709_521) {
 							client.aClass106_11218.aClass15_1258 = new Class15(Class45.anIntArray526);
@@ -140,10 +140,10 @@ class Class154 implements Runnable {
 		if (class649_sub1_sub5_sub1 instanceof NPC) {
 			NPC class649_sub1_sub5_sub1_sub1 = (NPC) class649_sub1_sub5_sub1;
 			if (class649_sub1_sub5_sub1_sub1.aClass296_12174 != null)
-				Class11.method620(class649_sub1_sub5_sub1_sub1, (class649_sub1_sub5_sub1_sub1.aByte10839 != (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)), (byte) -44);
+				Class11.method620(class649_sub1_sub5_sub1_sub1, (class649_sub1_sub5_sub1_sub1.aByte10839 != (Class565.MY_PLAYER.aByte10839)), (byte) -44);
 		} else if (class649_sub1_sub5_sub1 instanceof Player) {
 			Player class649_sub1_sub5_sub1_sub2 = (Player) class649_sub1_sub5_sub1;
-			Class451.method5433(class649_sub1_sub5_sub1_sub2, (class649_sub1_sub5_sub1_sub2.aByte10839 != (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839)), 1460237797);
+			Class451.method5433(class649_sub1_sub5_sub1_sub2, (class649_sub1_sub5_sub1_sub2.aByte10839 != (Class565.MY_PLAYER.aByte10839)), 1460237797);
 		}
 	}
 
@@ -182,7 +182,7 @@ class Class154 implements Runnable {
 		Class652.method7869(-484022156);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub33_10762), 1, (byte) 1);
 		ClientSetting.aClass536_Sub40_8843.method9857((ClientSetting.aClass536_Sub40_8843.aClass710_Sub43_10780), 3, (byte) 1);
-		Class184.method2769(1160866938);
+		FontRenderer.method2769(1160866938);
 		client.aClass515_11066.method6252(1796531619).method7581((byte) 8);
 		client.aBool11026 = true;
 	}

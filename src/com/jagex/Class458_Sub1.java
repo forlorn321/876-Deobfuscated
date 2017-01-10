@@ -32,15 +32,15 @@ final class Class458_Sub1 extends Class458 {
 		if (183673691 * Class644.aClass628_8352.anInt8197 == -1)
 			return 1;
 		if (i != ClientSetting.aClass536_Sub40_8843.toolkit.method10071()) {
-			Class101.method1355(i, Class38.aClass38_403.method840(Class459.aClass664_5178, 1549341707), true, -504758393);
+			Class101.method1355(i, Class38.aClass38_403.method840(Class459.CLIENT_PARAMS, 1549341707), true, -504758393);
 			if (ClientSetting.aClass536_Sub40_8843.toolkit.method10071() != i)
 				return -1;
 		}
 		int i_3_;
 		try {
 			Dimension dimension = Class399.aCanvas4127.getSize();
-			Class306.method4120(Class38.aClass38_403.method840(Class459.aClass664_5178, 1910101812), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
-			Class180 class180 = Class180.method2708(Class602.aClass461_7857, (183673691 * Class644.aClass628_8352.anInt8197), 0);
+			Class306.method4120(Class38.aClass38_403.method840(Class459.CLIENT_PARAMS, 1910101812), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+			RSMesh class180 = RSMesh.decodeMesh(Class602.aClass461_7857, (183673691 * Class644.aClass628_8352.anInt8197), 0);
 			long l = Class249.method3450(1357261973);
 			Class677.aClass167_8609.method2051();
 			client.aClass433_11110.method5203(0.0F, 256.0F, 0.0F);
@@ -50,7 +50,7 @@ final class Class458_Sub1 extends Class458 {
 			Class677.aClass167_8609.method2390(class443);
 			Class677.aClass167_8609.method2006(1.0F);
 			Class677.aClass167_8609.method2105(16777215, 0.5F, 0.5F, 20.0F, -50.0F, 30.0F);
-			Class177 class177 = Class677.aClass167_8609.method2093(class180, 2048, 64, 64, 768);
+			MeshRasterizer class177 = Class677.aClass167_8609.createMeshRasterizer(class180, 2048, 64, 64, 768);
 			int i_4_ = 0;
 			while_54_: for (int i_5_ = 0; i_5_ < 500; i_5_++) {
 				Class677.aClass167_8609.method2000(3, 0);

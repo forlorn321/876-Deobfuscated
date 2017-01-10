@@ -342,7 +342,7 @@ public class Class593 {
 			Class574.method6946(class668, -1889842196);
 			break;
 		case 895:
-			Class561.method6850(class668, 1688949100);
+			RSInputStream.method6850(class668, 1688949100);
 			break;
 		case 310:
 			Class545.method6609(class668, -1988059504);
@@ -597,7 +597,7 @@ public class Class593 {
 			Class196.method2866(class668, -393645079);
 			break;
 		case 458:
-			Class617.method7365(class668, 2019461208);
+			PlayerAppearance.method7365(class668, 2019461208);
 			break;
 		case 967:
 			Class298.method4011(class668, 1828669705);
@@ -723,7 +723,7 @@ public class Class593 {
 			Class311.method4181(class668, (byte) 90);
 			break;
 		case 59:
-			Class184.method2766(class668, -1325704268);
+			FontRenderer.method2766(class668, -1325704268);
 			break;
 		case 644:
 			Class571.method6928(class668, -1687673905);
@@ -1038,7 +1038,7 @@ public class Class593 {
 			Class183_Sub1.method8659(class668, (byte) -23);
 			break;
 		case 1088:
-			Class184.method2765(class668, 36650657);
+			FontRenderer.method2765(class668, 36650657);
 			break;
 		case 422:
 			Class434.method5237(class668, 1483418012);
@@ -1077,7 +1077,7 @@ public class Class593 {
 			Class550.method6681(class668, (byte) 15);
 			break;
 		case 390:
-			Class561.method6849(class668, 553554808);
+			RSInputStream.method6849(class668, 553554808);
 			break;
 		case 1005:
 			Class300.method4024(class668, 1613832222);
@@ -1194,7 +1194,7 @@ public class Class593 {
 			Class476.method5748(class668, 1315926055);
 			break;
 		case 773:
-			Class167.method2413(class668, (byte) 124);
+			GraphicalRenderer.method2413(class668, (byte) 124);
 			break;
 		case 1256:
 			Class642.method7732(class668, -1087802104);
@@ -1788,7 +1788,7 @@ public class Class593 {
 			Class333.method4366(class668, (byte) 1);
 			break;
 		case 1182:
-			Class561.method6847(class668, -1724466837);
+			RSInputStream.method6847(class668, -1724466837);
 			break;
 		case 1250:
 			ColourUtils.method7666(class668, 452842640);
@@ -1896,7 +1896,7 @@ public class Class593 {
 			Class571.method6931(class668, (byte) 96);
 			break;
 		case 1173:
-			Class617.method7368(class668, 1158243215);
+			PlayerAppearance.method7368(class668, 1158243215);
 			break;
 		case 429:
 			Class289.method3921(class668, 1821681753);
@@ -2118,7 +2118,7 @@ public class Class593 {
 			Class434.method5234(class668, 128004956);
 			break;
 		case 362:
-			Class561.method6848(class668, -1558923600);
+			RSInputStream.method6848(class668, -1558923600);
 			break;
 		case 1211:
 			Class24.method726(class668, 752815129);
@@ -2172,7 +2172,7 @@ public class Class593 {
 			Class645_Sub1.method10042(class668, -2145193758);
 			break;
 		case 660:
-			Class617.method7366(class668, -1302338280);
+			PlayerAppearance.method7366(class668, -1302338280);
 			break;
 		case 681:
 			Class26.method737(class668, (byte) 13);
@@ -2256,7 +2256,7 @@ public class Class593 {
 			Class547.method6634(class668, (byte) 0);
 			break;
 		case 556:
-			Class59.method981(class668, 805668109);
+			UpdateKey.method981(class668, 805668109);
 			break;
 		case 1253:
 			Class242.method3394(class668, -1957463000);
@@ -2373,7 +2373,7 @@ public class Class593 {
 			Exception_Sub6.method10535(class668, (byte) 57);
 			break;
 		case 1252:
-			Class59.method988(class668, 1068583013);
+			UpdateKey.method988(class668, 1068583013);
 			break;
 		case 980:
 			Class33.method799(class668, 205809120);
@@ -2415,7 +2415,7 @@ public class Class593 {
 			Class640.method7675(class668, -675841203);
 			break;
 		case 315:
-			Class566.method6893(class668, (byte) -26);
+			RSOutputStream.method6893(class668, (byte) -26);
 			break;
 		case 589:
 			Class649_Sub1_Sub4_Sub2.method10956(class668, -1300558766);
@@ -2487,7 +2487,7 @@ public class Class593 {
 			IncomingPacket.method5067(class668, 819698031);
 			break;
 		case 1233:
-			Class561.method6851(class668, 1205403461);
+			RSInputStream.method6851(class668, 1205403461);
 			break;
 		case 990:
 			Class707.method8302(class668, (short) 4098);
@@ -2717,7 +2717,7 @@ public class Class593 {
 			Class198.method2874(class668, -369448145);
 			break;
 		case 626:
-			Class617.method7369(class668, 1550654881);
+			PlayerAppearance.method7369(class668, 1550654881);
 			break;
 		case 418:
 			Class710_Sub39.method10245(class668, 1815629367);
@@ -3134,7 +3134,7 @@ public class Class593 {
 			Class164.method1973(class668, 454911528);
 			break;
 		case 1245:
-			Class567_Sub1.method9875(class668, -1719771165);
+			RSSocket.method9875(class668, -1719771165);
 			break;
 		case 1139:
 			Class203.method2928(class668, -1394257329);
@@ -3149,7 +3149,7 @@ public class Class593 {
 			Class587.method7080(class668, -1743072297);
 			break;
 		case 62:
-			Class167.method2409(class668, (byte) 9);
+			GraphicalRenderer.method2409(class668, (byte) 9);
 			break;
 		case 529:
 			Class591.method7109(class668, -674903560);
@@ -3833,7 +3833,7 @@ public class Class593 {
 			Class628.method7493(class668, 1846172018);
 			break;
 		case 978:
-			Class566.method6892(class668, 2071705877);
+			RSOutputStream.method6892(class668, 2071705877);
 			break;
 		case 704:
 			Class103.method1374(class668, -835374742);

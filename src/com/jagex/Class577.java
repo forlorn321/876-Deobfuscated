@@ -12,21 +12,21 @@ public class Class577 implements Interface68 {
 	}
 
 	public void method206(int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1446497312);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(aClass63_7688.method78(), (byte) 51);
-		client.aClass106_11322.method1409(class536_sub23, 85807647);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1446497312);
+		class536_sub23.stream.writeByte128(aClass63_7688.method78());
+		client.aClass106_11322.writePacket(class536_sub23, 85807647);
 	}
 
 	public void method296() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1617783511);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(aClass63_7688.method78(), (byte) 85);
-		client.aClass106_11322.method1409(class536_sub23, 1987986403);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1617783511);
+		class536_sub23.stream.writeByte128(aClass63_7688.method78());
+		client.aClass106_11322.writePacket(class536_sub23, 1987986403);
 	}
 
 	public void method131() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1497816809);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(aClass63_7688.method78(), (byte) 124);
-		client.aClass106_11322.method1409(class536_sub23, 1743981432);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4479, client.aClass106_11322.aClass15_1258, 1497816809);
+		class536_sub23.stream.writeByte128(aClass63_7688.method78());
+		client.aClass106_11322.writePacket(class536_sub23, 1743981432);
 	}
 
 	static final void method7003(Class668 class668, int i) {
@@ -56,7 +56,7 @@ public class Class577 implements Interface68 {
 			return i_4_ - i_5_;
 		}
 		if (i == 2)
-			return Class34_Sub6.method10321(class603_sub1.method9616((byte) -19), class603_sub1_2_.method9616((byte) -15), Class459.aClass664_5178, -1675425713);
+			return Class34_Sub6.method10321(class603_sub1.method9616((byte) -19), class603_sub1_2_.method9616((byte) -15), Class459.CLIENT_PARAMS, -1675425713);
 		if (3 == i) {
 			if (class603_sub1.worldActivity.equals("-")) {
 				if (class603_sub1_2_.worldActivity.equals("-"))
@@ -65,7 +65,7 @@ public class Class577 implements Interface68 {
 			}
 			if (class603_sub1_2_.worldActivity.equals("-"))
 				return bool ? 1 : -1;
-			return Class34_Sub6.method10321(class603_sub1.worldActivity, class603_sub1_2_.worldActivity, Class459.aClass664_5178, -1675425713);
+			return Class34_Sub6.method10321(class603_sub1.worldActivity, class603_sub1_2_.worldActivity, Class459.CLIENT_PARAMS, -1675425713);
 		}
 		if (4 == i)
 			return (class603_sub1.method7195(-544818663) ? class603_sub1_2_.method7195(1319778335) ? 0 : 1 : class603_sub1_2_.method7195(662320524) ? -1 : 0);

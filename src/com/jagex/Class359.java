@@ -71,7 +71,7 @@ public class Class359 {
 		}
 	}
 
-	static void method4722(Class167 class167, int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, byte i_9_) {
+	static void method4722(GraphicalRenderer class167, int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, byte i_9_) {
 		class167.method2057(i, i_4_, i_5_, i_6_, i_7_, (short) -3620);
 		class167.method2057(1 + i, i_4_ + 1, i_5_ - 2, 16, i_8_, (short) -16168);
 		class167.method2056(i + 1, i_4_ + 18, i_5_ - 2, i_6_ - 19, i_8_, 120317252);

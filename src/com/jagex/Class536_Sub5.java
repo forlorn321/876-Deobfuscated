@@ -10,7 +10,7 @@ public class Class536_Sub5 extends Class536 {
 	int anInt10415;
 	int anInt10416;
 	int anInt10417;
-	public static Class143 aClass143_10418;
+	public static NativeSprite aClass143_10418;
 
 	Class536_Sub5(int i, int i_0_, int i_1_, int i_2_, int i_3_, boolean bool) {
 		anInt10417 = i * -1230082483;

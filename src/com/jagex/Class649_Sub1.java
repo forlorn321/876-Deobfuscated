@@ -13,7 +13,7 @@ public abstract class Class649_Sub1 extends Class649 {
 
 	abstract boolean method9938();
 
-	abstract boolean method9939(Class167 class167, int i, int i_0_, byte i_1_);
+	abstract boolean method9939(GraphicalRenderer class167, int i, int i_0_, byte i_1_);
 
 	abstract boolean method9940(int i);
 
@@ -21,17 +21,17 @@ public abstract class Class649_Sub1 extends Class649 {
 
 	abstract boolean method9942(int i);
 
-	abstract void method9943(Class167 class167, Class649_Sub1 class649_sub1_2_, int i, int i_3_, int i_4_, boolean bool, int i_5_);
+	abstract void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1_2_, int i, int i_3_, int i_4_, boolean bool, int i_5_);
 
-	abstract Class563 method9944(Class167 class167, byte i);
+	abstract Class563 method9944(GraphicalRenderer class167, byte i);
 
-	abstract void method9945(Class167 class167, int i);
+	abstract void method9945(GraphicalRenderer class167, int i);
 
-	public abstract Class559 method9946(Class167 class167, int i);
+	public abstract Class559 method9946(GraphicalRenderer class167, int i);
 
-	abstract void method9947(Class167 class167, Class649_Sub1 class649_sub1_6_, int i, int i_7_, int i_8_, boolean bool);
+	abstract void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1_6_, int i, int i_7_, int i_8_, boolean bool);
 
-	abstract boolean method9948(Class167 class167, int i);
+	abstract boolean method9948(GraphicalRenderer class167, int i);
 
 	abstract boolean method9949(int i);
 
@@ -66,11 +66,11 @@ public abstract class Class649_Sub1 extends Class649 {
 		return 0;
 	}
 
-	public abstract Class559 method9955(Class167 class167);
+	public abstract Class559 method9955(GraphicalRenderer class167);
 
 	abstract boolean method9956();
 
-	abstract boolean method9957(Class167 class167, int i, int i_15_);
+	abstract boolean method9957(GraphicalRenderer class167, int i, int i_15_);
 
 	public abstract int method9958();
 
@@ -78,21 +78,21 @@ public abstract class Class649_Sub1 extends Class649 {
 
 	public abstract int method9960(int i);
 
-	public abstract Class559 method9961(Class167 class167);
+	public abstract Class559 method9961(GraphicalRenderer class167);
 
-	public abstract Class559 method9962(Class167 class167);
+	public abstract Class559 method9962(GraphicalRenderer class167);
 
-	public abstract Class559 method9963(Class167 class167);
+	public abstract Class559 method9963(GraphicalRenderer class167);
 
 	public int method9964() {
 		return -method9960(-968128909);
 	}
 
-	abstract Class563 method9965(Class167 class167);
+	abstract Class563 method9965(GraphicalRenderer class167);
 
-	abstract Class563 method9966(Class167 class167);
+	abstract Class563 method9966(GraphicalRenderer class167);
 
-	abstract void method9967(Class167 class167);
+	abstract void method9967(GraphicalRenderer class167);
 
 	void method9968(int i, int i_16_) {
 		aClass178Array10842 = new Class178[i];
@@ -100,13 +100,13 @@ public abstract class Class649_Sub1 extends Class649 {
 			aClass178Array10842[i_17_] = new Class178();
 	}
 
-	abstract boolean method9969(Class167 class167, int i, int i_18_);
+	abstract boolean method9969(GraphicalRenderer class167, int i, int i_18_);
 
 	public boolean method9970() {
 		return true;
 	}
 
-	abstract boolean method9971(Class167 class167, int i, int i_19_);
+	abstract boolean method9971(GraphicalRenderer class167, int i, int i_19_);
 
 	Class649_Sub1(Class553 class553) {
 		aClass553_10838 = class553;
@@ -118,7 +118,7 @@ public abstract class Class649_Sub1 extends Class649 {
 
 	abstract boolean method9974(int i);
 
-	abstract void method9975(Class167 class167);
+	abstract void method9975(GraphicalRenderer class167);
 
 	abstract void method9976();
 
@@ -126,7 +126,7 @@ public abstract class Class649_Sub1 extends Class649 {
 		return 0;
 	}
 
-	abstract void method9978(Class167 class167, Class649_Sub1 class649_sub1_20_, int i, int i_21_, int i_22_, boolean bool);
+	abstract void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1_20_, int i, int i_21_, int i_22_, boolean bool);
 
 	abstract int method9979(Class536_Sub19[] class536_sub19s);
 
@@ -134,13 +134,13 @@ public abstract class Class649_Sub1 extends Class649 {
 
 	abstract int method9981(Class536_Sub19[] class536_sub19s);
 
-	abstract boolean method9982(Class167 class167);
+	abstract boolean method9982(GraphicalRenderer class167);
 
 	abstract boolean method9983();
 
 	public abstract int method9984();
 
-	abstract Class563 method9985(Class167 class167);
+	abstract Class563 method9985(GraphicalRenderer class167);
 
 	abstract void method9986(int i);
 

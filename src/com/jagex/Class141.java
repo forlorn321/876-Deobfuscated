@@ -98,7 +98,7 @@ class Class141 implements Runnable {
 			client.aClass526Array11021[i_5_] = null;
 		Class324.method4276(-1786363719);
 		for (int i_6_ = 0; i_6_ < 2048; i_6_++)
-			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_6_] = null;
+			client.PLAYER_LIST[i_6_] = null;
 		client.anInt11053 = 0;
 		client.aClass4_11050.method561(-2117553523);
 		client.anInt11164 = 0;
@@ -129,7 +129,7 @@ class Class141 implements Runnable {
 		return i_7_;
 	}
 
-	static final void method1714(Class167 class167, int i, int i_8_, int i_9_, int i_10_, int i_11_) {
+	static final void method1714(GraphicalRenderer class167, int i, int i_8_, int i_9_, int i_10_, int i_11_) {
 		class167.method2369(i, i_8_, i_9_ + i, i_10_ + i_8_);
 		class167.method2057(i, i_8_, i_9_, i_10_, -16777216, (short) -18613);
 		if (Class542_Sub1.anInt10700 * 962386111 >= 100) {
@@ -189,7 +189,7 @@ class Class141 implements Runnable {
 		class251.hasComponentHook = true;
 	}
 
-	public static void method1716(Class167 class167, long l) {
+	public static void method1716(GraphicalRenderer class167, long l) {
 		class167.method2393();
 		Class575.aLinkedList7661.clear();
 		Class575.aLinkedList7670.clear();

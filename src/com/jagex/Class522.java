@@ -11,7 +11,7 @@ public class Class522 {
 	int anInt7061;
 	int anInt7062;
 	Class536_Sub18_Sub7 aClass536_Sub18_Sub7_7063;
-	Class177 aClass177_7064;
+	MeshRasterizer aClass177_7064;
 	Class688 aClass688_7065;
 	Class688 aClass688_7066;
 	Class34_Sub17 aClass34_Sub17_7067;
@@ -50,7 +50,7 @@ public class Class522 {
 		aClass177_7064 = null;
 	}
 
-	final Class177 method6364(Class167 class167, int i, boolean bool, boolean bool_1_, int i_2_) {
+	final MeshRasterizer method6364(GraphicalRenderer class167, int i, boolean bool, boolean bool_1_, int i_2_) {
 		ObjTypeDecoder class612 = (ObjTypeDecoder) aClass34_Sub17_7067.method70(-1858685201 * anInt7061, (byte) -30);
 		if (class612.anIntArray7988 != null)
 			class612 = class612.method7293(Class465_Sub1.aClass96_10352, (4 == client.anInt11074 * 1542697723 ? (Interface18) (Class193.anInterface18_2191) : Class465_Sub1.aClass96_10352), (byte) 125);
@@ -83,7 +83,7 @@ public class Class522 {
 			class160_3_ = class553.aClass160Array7459[0];
 		else
 			class160_3_ = (aByte7058 < 3 ? class553.aClass160Array7431[1 + aByte7058] : null);
-		Class177 class177 = null;
+		MeshRasterizer class177 = null;
 		if (aClass688_7065.method8121(-2088736421)) {
 			if (bool_1_)
 				i |= 0x40000;
@@ -109,7 +109,7 @@ public class Class522 {
 				i |= aClass177_7064.method2466();
 			Class7 class7 = (class612.method7287(class167, i, anInt7069 * 1875706389 != 11 ? anInt7069 * 1875706389 : 10, (anInt7069 * 1875706389 == 11 ? 4 + anInt7062 * 1515283871 : 1515283871 * anInt7062), class160, class160_3_, (int) class436.aFloat4850, class160.method1925((int) class436.aFloat4850, (int) class436.aFloat4853, (byte) -9), (int) class436.aFloat4853, bool_1_, aClass590_7076, (byte) -29));
 			if (class7 != null) {
-				aClass177_7064 = class177 = (Class177) class7.anObject117;
+				aClass177_7064 = class177 = (MeshRasterizer) class7.anObject117;
 				if (bool_1_) {
 					aClass536_Sub18_Sub7_7063 = (Class536_Sub18_Sub7) class7.anObject118;
 					aBoolArray7059 = null;
@@ -165,11 +165,11 @@ public class Class522 {
 		anInt7057 = 264753133 * client.cycles;
 	}
 
-	void method6368(Class167 class167, int i) {
+	void method6368(GraphicalRenderer class167, int i) {
 		method6364(class167, 262144, true, true, -1338546640);
 	}
 
-	void method6369(Class167 class167, int i) {
+	void method6369(GraphicalRenderer class167, int i) {
 		if (null != aClass536_Sub18_Sub7_7063) {
 			Class436 class436 = aClass649_Sub1_7060.method7837().aClass436_4823;
 			client.aClass515_11066.method6249(787904244).method6758(aClass536_Sub18_Sub7_7063, aByte7058, (int) class436.aFloat4850, (int) class436.aFloat4853, aBoolArray7059, 2105244965);
@@ -182,7 +182,7 @@ public class Class522 {
 		return -method6362((byte) 52);
 	}
 
-	Class522(Class167 class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_4_, int i_5_, Class649_Sub1 class649_sub1, boolean bool, int i_6_, int i_7_) {
+	Class522(GraphicalRenderer class167, Class34_Sub17 class34_sub17, ObjTypeDecoder class612, int i, int i_4_, int i_5_, Class649_Sub1 class649_sub1, boolean bool, int i_6_, int i_7_) {
 		anInt7068 = 1579591191;
 		anInt7072 = 0;
 		aBool7070 = false;
@@ -287,7 +287,7 @@ public class Class522 {
 		return -method6362((byte) -49);
 	}
 
-	void method6377(Class167 class167) {
+	void method6377(GraphicalRenderer class167) {
 		method6364(class167, 262144, true, true, -2057079601);
 	}
 
@@ -295,7 +295,7 @@ public class Class522 {
 		return aBool7071;
 	}
 
-	void method6379(Class167 class167, Class177 class177, Class433 class433, int i, int i_18_, int i_19_, int i_20_, boolean bool, byte i_21_) {
+	void method6379(GraphicalRenderer class167, MeshRasterizer class177, Class433 class433, int i, int i_18_, int i_19_, int i_20_, boolean bool, byte i_21_) {
 		Class172[] class172s = class177.method2514();
 		Class156[] class156s = class177.method2515();
 		if ((null == aClass627_7075 || aClass627_7075.aBool8168) && (class172s != null || null != class156s)) {
@@ -350,9 +350,9 @@ public class Class522 {
 		else {
 			Class23.aBool224 = true;
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4440, class106.aClass15_1258, 1445634322);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(-56372019 * Class593.worldListChecksum);
-			class106.method1409(class536_sub23, -159211228);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4440, class106.aClass15_1258, 1445634322);
+			class536_sub23.stream.writeInt(-56372019 * Class593.worldListChecksum);
+			class106.writePacket(class536_sub23, -159211228);
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 0;
 		}
 	}

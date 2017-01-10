@@ -5,8 +5,8 @@ package com.jagex;
 
 public abstract class Class16 implements Interface6 {
 	boolean aBool174;
-	JS5ResourceProvider aClass461_175;
-	Language aClass664_176;
+	JS5ResourceProvider table;
+	Language language;
 	Class199 aClass199_177 = new Class199(50);
 	Class607 aClass607_178 = new Class607(250);
 	Class11 aClass11_179 = new Class11();
@@ -30,9 +30,9 @@ public abstract class Class16 implements Interface6 {
 		}
 	}
 
-	Class143 method646(Class167 class167, Class167 class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, Class184 class184, Class617 class617, Class628 class628, Interface12 interface12, int i_6_) {
+	NativeSprite renderItemSprite(GraphicalRenderer class167, GraphicalRenderer class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, FontRenderer class184, PlayerAppearance class617, Class628 class628, Interface12 interface12, int i_6_) {
 		if (!bool_4_) {
-			Class143 class143 = method666(class167_0_, i, i_1_, i_2_, i_3_, i_5_, class617, -438709473);
+			NativeSprite class143 = method666(class167_0_, i, i_1_, i_2_, i_3_, i_5_, class617, -438709473);
 			if (class143 != null)
 				return class143;
 		}
@@ -46,14 +46,14 @@ public abstract class Class16 implements Interface6 {
 			if (i_7_ != -1)
 				class1 = (ItemDecoder) interface12.method70(i_7_, (byte) -6);
 		}
-		int[] is = class1.method513(class167, class167_0_, i_1_, i_2_, i_3_, bool, i_5_, class184, class617, class628, 1983241245);
+		int[] is = class1.renderToSprite(class167, class167_0_, i_1_, i_2_, i_3_, bool, i_5_, class184, class617, class628, 1983241245);
 		if (is == null)
 			return null;
-		Class143 class143;
+		NativeSprite class143;
 		if (bool_4_)
-			class143 = class167.method2081(is, 0, 36, 36, 32, (byte) -93);
+			class143 = class167.createNativeSprite(is, 0, 36, 36, 32, (byte) -93);
 		else
-			class143 = class167_0_.method2081(is, 0, 36, 36, 32, (byte) -60);
+			class143 = class167_0_.createNativeSprite(is, 0, 36, 36, 32, (byte) -60);
 		if (!bool_4_) {
 			Class11 class11 = new Class11();
 			class11.anInt145 = class167_0_.anInt1850 * -513298993;
@@ -194,15 +194,15 @@ public abstract class Class16 implements Interface6 {
 	}
 
 	Class16(GameMode class670, Language class664, boolean bool, JS5ResourceProvider class461, Interface12 interface12) {
-		aClass664_176 = class664;
+		language = class664;
 		aBool174 = bool;
-		aClass461_175 = class461;
+		table = class461;
 		anInterface12_180 = interface12;
 		if (class670 == GameMode.aClass670_8568)
-			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(aClass664_176, 1718619298), null, null, Class38.aClass38_459.method840(aClass664_176, 1955475016) };
+			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(language, 1718619298), null, null, Class38.aClass38_459.method840(language, 1955475016) };
 		else
-			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(aClass664_176, 2096276904), null, null, null };
-		aStringArray183 = new String[] { null, null, null, null, Class38.aClass38_318.method840(aClass664_176, 2026715877) };
+			aStringArray182 = new String[] { null, null, Class38.aClass38_461.method840(language, 2096276904), null, null, null };
+		aStringArray183 = new String[] { null, null, null, null, Class38.aClass38_318.method840(language, 2026715877) };
 	}
 
 	void method663(boolean bool) {
@@ -227,7 +227,7 @@ public abstract class Class16 implements Interface6 {
 		}
 	}
 
-	Class143 method666(Class167 class167, int i, int i_11_, int i_12_, int i_13_, int i_14_, Class617 class617, int i_15_) {
+	NativeSprite method666(GraphicalRenderer class167, int i, int i_11_, int i_12_, int i_13_, int i_14_, PlayerAppearance class617, int i_15_) {
 		aClass11_179.anInt145 = class167.anInt1850 * -513298993;
 		aClass11_179.anInt139 = 387676257 * i;
 		aClass11_179.anInt141 = i_11_ * 1766411843;
@@ -235,7 +235,7 @@ public abstract class Class16 implements Interface6 {
 		aClass11_179.anInt143 = i_13_ * 478205853;
 		aClass11_179.anInt144 = -1135314035 * i_14_;
 		aClass11_179.aBool142 = null != class617;
-		return (Class143) aClass607_178.method7222(aClass11_179);
+		return (NativeSprite) aClass607_178.method7222(aClass11_179);
 	}
 
 	void method667(int i) {

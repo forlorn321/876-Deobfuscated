@@ -61,7 +61,7 @@ public class Class225 implements Interface26 {
 	}
 
 	static final void method3216(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class459.aClass664_5178.method78();
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class459.CLIENT_PARAMS.method78();
 	}
 
 	static String getColorFormatString(int color) {

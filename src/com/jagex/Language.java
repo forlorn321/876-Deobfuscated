@@ -16,14 +16,14 @@ public class Language implements Interface75 {
 	String aString8523;
 	public static Language aClass664_8524 = new Language("EN", "en", "English", Class678.aClass678_8619, 0, "GB");
 	public static Language aClass664_8525 = new Language("DE", "de", "German", Class678.aClass678_8619, 1, "DE");
-	public int anInt8526;
+	public int languageId;
 	Locale aLocale8527;
 	static Language[] aClass664Array8528;
 
 	Language(String string, String string_0_, String string_1_, Class678 class678, int i, String string_2_) {
 		aString8523 = string;
 		aString8517 = string_0_;
-		anInt8526 = -980324837 * i;
+		languageId = -980324837 * i;
 		if (null != string_2_)
 			aLocale8527 = new Locale(string_0_.substring(0, 2), string_2_);
 		else
@@ -31,7 +31,7 @@ public class Language implements Interface75 {
 	}
 
 	public int method78() {
-		return anInt8526 * -1919173613;
+		return languageId * -1919173613;
 	}
 
 	public String method7988() {
@@ -62,18 +62,18 @@ public class Language implements Interface75 {
 		Language[] class664s_5_ = class664s;
 		for (int i = 0; i < class664s_5_.length; i++) {
 			Language class664 = class664s_5_[i];
-			if (null != aClass664Array8528[class664.anInt8526 * -1919173613])
+			if (null != aClass664Array8528[class664.languageId * -1919173613])
 				throw new IllegalStateException();
-			aClass664Array8528[-1919173613 * class664.anInt8526] = class664;
+			aClass664Array8528[-1919173613 * class664.languageId] = class664;
 		}
 	}
 
 	public int method12() {
-		return anInt8526 * -1919173613;
+		return languageId * -1919173613;
 	}
 
 	public int method73() {
-		return anInt8526 * -1919173613;
+		return languageId * -1919173613;
 	}
 
 	public Locale method7991(byte i) {
@@ -137,9 +137,9 @@ public class Language implements Interface75 {
 					int i_7_ = (-(class649_sub1_sub5_sub6.anInt12144 * -2056997773) - 1);
 					Player class649_sub1_sub5_sub1_sub2;
 					if (-1791435655 * client.anInt11156 == i_7_)
-						class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1_sub2 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_7_]);
+						class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i_7_]);
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						Class436 class436 = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 						if ((int) class436.aFloat4850 >= 0 && ((int) class436.aFloat4850 < client.aClass515_11066.method6321((byte) 117) * 512) && (int) class436.aFloat4853 >= 0 && ((int) class436.aFloat4853 < (client.aClass515_11066.method6243(177401017) * 512)))

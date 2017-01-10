@@ -4,7 +4,7 @@
 package com.jagex;
 
 final class Class640 implements Runnable {
-	public static Class143 aClass143_8311;
+	public static NativeSprite aClass143_8311;
 
 	public void run() {
 		try {
@@ -44,9 +44,9 @@ final class Class640 implements Runnable {
 		int i_4_ = 0;
 		if (Class710_Sub30.method10184(string, -1506968299))
 			i_4_ = Class392.method4867(string, 39454950);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4462, client.aClass106_11322.aClass15_1258, 1729398461);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeInt(i_4_);
-		client.aClass106_11322.method1409(class536_sub23, 1969176895);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4462, client.aClass106_11322.aClass15_1258, 1729398461);
+		class536_sub23.stream.writeInt(i_4_);
+		client.aClass106_11322.writePacket(class536_sub23, 1969176895);
 	}
 
 	static final void method7672(Class668 class668, byte i) {
@@ -71,7 +71,7 @@ final class Class640 implements Runnable {
 		if (null != client.aString10986)
 			string_6_ = new StringBuilder().append("/p=").append(client.aString10986).toString();
 		String string_7_ = new StringBuilder().append(client.aClass670_11043.aString8573).append(".com").toString();
-		return new StringBuilder().append(string_5_).append(string).append(".").append(string_7_).append("/l=").append(-1919173613 * Class459.aClass664_5178.anInt8526).append("/a=").append(client.anInt10987 * 1051867059).append(string_6_).append("/").toString();
+		return new StringBuilder().append(string_5_).append(string).append(".").append(string_7_).append("/l=").append(-1919173613 * Class459.CLIENT_PARAMS.languageId).append("/a=").append(client.anInt10987 * 1051867059).append(string_6_).append("/").toString();
 	}
 
 	static final void method7674(Class668 class668, byte i) {

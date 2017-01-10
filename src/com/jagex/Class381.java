@@ -578,7 +578,7 @@ public class Class381 {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub13.anIntArray11760.length;
 	}
 
-	public static Class177 method4819(Class167 class167, int i, int i_33_, int i_34_, int i_35_, int i_36_, Class177 class177, int i_37_, int i_38_, int i_39_, int i_40_, Class688 class688, int i_41_) {
+	public static MeshRasterizer method4819(GraphicalRenderer class167, int i, int i_33_, int i_34_, int i_35_, int i_36_, MeshRasterizer class177, int i_37_, int i_38_, int i_39_, int i_40_, Class688 class688, int i_41_) {
 		if (null == class177)
 			return null;
 		int i_42_ = 2055;
@@ -587,9 +587,9 @@ public class Class381 {
 			i_42_ &= ~0x200;
 		}
 		long l = (((long) i_38_ << 48) + ((long) ((i_40_ << 24) + ((i_39_ << 16) + i_36_)) + ((long) i_37_ << 32)));
-		Class177 class177_43_;
+		MeshRasterizer class177_43_;
 		synchronized (Class49.aClass199_580) {
-			class177_43_ = (Class177) Class49.aClass199_580.method2886(l);
+			class177_43_ = (MeshRasterizer) Class49.aClass199_580.method2886(l);
 		}
 		if (null == class177_43_ || class167.method2308(class177_43_.method2466(), i_42_) != 0) {
 			if (class177_43_ != null)
@@ -597,7 +597,7 @@ public class Class381 {
 			int i_44_ = i_36_ * 3 + 6;
 			int i_45_ = 3;
 			int[] is = { 64, 96, 128 };
-			Class180 class180 = new Class180(1 + i_45_ * i_44_, 2 * (i_44_ * i_45_) - i_44_, 0);
+			RSMesh class180 = new RSMesh(1 + i_45_ * i_44_, 2 * (i_44_ * i_45_) - i_44_, 0);
 			int i_46_ = class180.method2697(0, 0, 0);
 			int[][] is_47_ = new int[i_45_][i_44_];
 			for (int i_48_ = 0; i_48_ < i_45_; i_48_++) {
@@ -624,7 +624,7 @@ public class Class381 {
 					}
 				}
 			}
-			class177_43_ = class167.method2093(class180, i_42_, Class588.anInt7740 * 1185333419, 64, 768);
+			class177_43_ = class167.createMeshRasterizer(class180, i_42_, Class588.anInt7740 * 1185333419, 64, 768);
 			synchronized (Class49.aClass199_580) {
 				Class49.aClass199_580.method2881(class177_43_, l);
 			}
@@ -635,12 +635,12 @@ public class Class381 {
 		int i_64_ = class177.method2499();
 		if (null != class688) {
 			class177_43_ = class177_43_.method2623((byte) 3, i_42_, true);
-			class177_43_.method2474(i_62_ - i_61_ >> 1, 128, i_64_ - i_63_ >> 1);
+			class177_43_.resize(i_62_ - i_61_ >> 1, 128, i_64_ - i_63_ >> 1);
 			class177_43_.method2472(i_61_ + i_62_ >> 1, 0, i_64_ + i_63_ >> 1);
 			class688.method8119(class177_43_, (byte) 64);
 		} else {
 			class177_43_ = class177_43_.method2623((byte) 3, i_42_, true);
-			class177_43_.method2474(i_62_ - i_61_ >> 1, 128, i_64_ - i_63_ >> 1);
+			class177_43_.resize(i_62_ - i_61_ >> 1, 128, i_64_ - i_63_ >> 1);
 			class177_43_.method2472(i_62_ + i_61_ >> 1, 0, i_63_ + i_64_ >> 1);
 		}
 		if (0 != i_33_)
@@ -661,11 +661,11 @@ public class Class381 {
 		if (class680 != Class680.aClass680_8638 && Class680.aClass680_8639 != class680 && class680 != Class680.aClass680_8640)
 			throw new RuntimeException("");
 		if (null != client.aClass106_11322) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4491, client.aClass106_11322.aClass15_1258, 1815077435);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(1858049507 * class598.anInt7839, -1411037171);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9729(class680.method78(), -1570457746);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(1479112045 * class598.anInt7840, -1778059594);
-			client.aClass106_11322.method1409(class536_sub23, 12804733);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4491, client.aClass106_11322.aClass15_1258, 1815077435);
+			class536_sub23.stream.writeLEShort(1858049507 * class598.anInt7839, -1411037171);
+			class536_sub23.stream.method9729(class680.method78(), -1570457746);
+			class536_sub23.stream.writeShort(1479112045 * class598.anInt7840, -1778059594);
+			client.aClass106_11322.writePacket(class536_sub23, 12804733);
 		}
 	}
 }

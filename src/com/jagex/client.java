@@ -45,7 +45,7 @@ public final class client extends GameShell {
 	static boolean aBool11001;
 	public static int anInt11002;
 	static int anInt11003;
-	static String aString11004;
+	static String GAMEPACK_KEY;
 	public static String aString11005;
 	static int[] anIntArray11006;
 	static int anInt11007;
@@ -196,7 +196,7 @@ public final class client extends GameShell {
 	public static int anInt11152;
 	public static int anInt11153;
 	public static final int anInt11154 = 2048;
-	public static Player[] aClass649_Sub1_Sub5_Sub1_Sub2Array11155;
+	public static Player[] PLAYER_LIST;
 	public static int anInt11156;
 	static Map aMap11157;
 	public static int anInt11158;
@@ -386,7 +386,7 @@ public final class client extends GameShell {
 		aBool11001 = false;
 		anInt11002 = 0;
 		anInt11003 = 2088371061;
-		aString11004 = null;
+		GAMEPACK_KEY = null;
 		aString11005 = null;
 		anInt11101 = 2098417966;
 		aClass443_11198 = new Class443();
@@ -528,7 +528,7 @@ public final class client extends GameShell {
 		anInt11298 = 331736176;
 		anInt11152 = 2081992247;
 		anInt11153 = 1576421437;
-		aClass649_Sub1_Sub5_Sub1_Sub2Array11155 = new Player[2048];
+		PLAYER_LIST = new Player[2048];
 		anInt11156 = -213831113;
 		aMap11157 = new HashMap();
 		aBool11290 = false;
@@ -689,7 +689,7 @@ public final class client extends GameShell {
 						Class353.anInt3740 = Integer.parseInt(string_0_) * -1387464143;
 						break;
 					case 49:
-						Class459.aClass664_5178 = Language.method7989(Integer.parseInt(string_0_), -894658816);
+						Class459.CLIENT_PARAMS = Language.method7989(Integer.parseInt(string_0_), -894658816);
 						break;
 					case 8:
 						if (string_0_.equalsIgnoreCase(Class40.aString492))
@@ -898,7 +898,7 @@ public final class client extends GameShell {
 						Class23.aClass5_220.anInt111 = Integer.parseInt(string_0_) * 1232605419;
 						break;
 					case 22:
-						aString11004 = string_0_;
+						GAMEPACK_KEY = string_0_;
 						break;
 					case 41:
 						Class254.aClass702_2755 = Class219.method3102(Integer.parseInt(string_0_), -1663136534);
@@ -923,7 +923,7 @@ public final class client extends GameShell {
 
 	final void method6096(byte i) {
 		if (anInt11101 * -708374433 != 2) {
-			if ((12 == anInt11101 * -708374433 || Class566.method6895(-708374433 * anInt11101, 1821020689) || Class233.method3334(-708374433 * anInt11101, (byte) -31)) && Class184_Sub2.aClass211_9442 != null)
+			if ((12 == anInt11101 * -708374433 || RSOutputStream.method6895(-708374433 * anInt11101, 1821020689) || Class233.method3334(-708374433 * anInt11101, (byte) -31)) && Class184_Sub2.aClass211_9442 != null)
 				Class184_Sub2.aClass211_9442.method3010(Class184_Sub2.aClass211_9442.method3059((byte) 84), ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(-466085069), 250797117);
 			if (aBool11067) {
 				synchronized (anObject11069) {
@@ -973,13 +973,13 @@ public final class client extends GameShell {
 							if (Class70.method1117(327619023))
 								Class316.method4218(-2076318706);
 							else
-								Class294.method3971(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method190(147366573), (byte) 24);
+								Class294.method3971(Class565.MY_PLAYER.method190(147366573), (byte) 24);
 						} else if (Class44.method882(259854151) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(359282232);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
-							Class269.method3710((Class38.aClass38_453.method840(Class459.aClass664_5178, 2087486238)), (byte) -113);
+							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 2087486238)), (byte) -113);
 					}
 					if (anInt11036 * -1621465757 < 77) {
 						anInterface63Array11037[-1621465757 * anInt11036] = interface63;
@@ -1011,7 +1011,7 @@ public final class client extends GameShell {
 				Class444.method5392(210181676);
 			} else if (Class578.method7007(-708374433 * anInt11101, -387349523))
 				aClass515_11066.method6271(1988652390);
-			if (Class566.method6895(anInt11101 * -708374433, -430748811) && !Class578.method7007(anInt11101 * -708374433, -656952535)) {
+			if (RSOutputStream.method6895(anInt11101 * -708374433, -430748811) && !Class578.method7007(anInt11101 * -708374433, -656952535)) {
 				method10374(1510506421);
 				Class154.method1871(-1503392045);
 				Class283.handleLogin(-193266476);
@@ -1052,7 +1052,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_5_ = Class66.method1077(bufferedimage, -1755254907);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_5_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -117));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_5_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -117));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(1836620767), ioexception, (byte) -26);
@@ -1097,18 +1097,18 @@ public final class client extends GameShell {
 			else if (Class578.method7007(anInt11101 * -708374433, 2027601583)) {
 				if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7036) {
 					int i_6_ = aClass515_11066.method6242((byte) -100) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1446669138)).append(Class40.aString496).append("(").append(i_6_).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1446669138)).append(Class40.aString496).append("(").append(i_6_).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7038) {
 					int i_7_ = 50 + aClass515_11066.method6257(-2104704893) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1917937501)).append(Class40.aString496).append("(").append(i_7_).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1917937501)).append(Class40.aString496).append("(").append(i_7_).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 2099732590), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 2099732590), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			} else if (9 == -708374433 * anInt11101)
 				Class315.method4213(l);
 			else if (-708374433 * anInt11101 == 17)
-				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.aClass664_5178, 1884484574)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.aClass664_5178, 2134185323)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.CLIENT_PARAMS, 1884484574)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.CLIENT_PARAMS, 2134185323)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			else if (19 == anInt11101 * -708374433)
-				Class306.method4120(Class38.aClass38_442.method840(Class459.aClass664_5178, 1909968422), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(Class38.aClass38_442.method840(Class459.CLIENT_PARAMS, 1909968422), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			if (anInt11016 * -176554429 == 3) {
 				for (int i_8_ = 0; i_8_ < anInt11245 * -5823823; i_8_++) {
 					Rectangle rectangle = aRectangleArray11249[i_8_];
@@ -1202,8 +1202,8 @@ public final class client extends GameShell {
 			method10433(4209465);
 	}
 
-	void method10373(int i, int i_10_) {
-		Class321.aSocket3543 = null;
+	void closeConnection(int i, int i_10_) {
+		Class321.HANDSHAKE_SOCKET = null;
 		Class582.aClass567_7700 = null;
 		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
@@ -1326,9 +1326,9 @@ public final class client extends GameShell {
 		for (Class521_Sub6 class521_sub6 = (Class521_Sub6) aClass695_11292.method8210(-107757342); null != class521_sub6; class521_sub6 = (Class521_Sub6) aClass695_11292.method8219(-746204591)) {
 			if ((long) (class521_sub6.anInt10362 * 1936831955) < Class249.method3450(1775755363) / 1000L - 5L) {
 				if (class521_sub6.aShort10361 > 0)
-					Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_429.method840(Class459.aClass664_5178, 1916933728)).toString(), null, -1538266173);
+					Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_429.method840(Class459.CLIENT_PARAMS, 1916933728)).toString(), null, -1538266173);
 				if (0 == class521_sub6.aShort10361)
-					Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_430.method840(Class459.aClass664_5178, 1530773236)).toString(), null, -1538266173);
+					Class635.method7564(5, 0, "", "", "", new StringBuilder().append(class521_sub6.aString10360).append(Class38.aClass38_430.method840(Class459.CLIENT_PARAMS, 1530773236)).toString(), null, -1538266173);
 				class521_sub6.method6354((byte) -35);
 			}
 		}
@@ -1338,8 +1338,8 @@ public final class client extends GameShell {
 			else if (null != aClass106_11218) {
 				aClass106_11218.anInt1265 += -768200239;
 				if (aClass106_11218.anInt1265 * -1086863567 > 50) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4521, aClass106_11218.aClass15_1258, 820394303);
-					aClass106_11218.method1409(class536_sub23, -205306058);
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4521, aClass106_11218.aClass15_1258, 820394303);
+					aClass106_11218.writePacket(class536_sub23, -205306058);
 				}
 				try {
 					aClass106_11218.method1408(1442985919);
@@ -1354,12 +1354,12 @@ public final class client extends GameShell {
 	}
 
 	static final void method10375() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_23_ = ClientSetting.aClass536_Sub40_8843.idleAnimationSetting.method10109((byte) 1);
 		boolean bool = 1 == i_23_ && i > 200 || i_23_ == 0 && i > 50;
 		for (int i_24_ = 0; i_24_ < i; i_24_++) {
-			Player class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_24_]];
+			Player class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[is[i_24_]];
 			if (!class649_sub1_sub5_sub1_sub2.method11088(1644471179))
 				class649_sub1_sub5_sub1_sub2.anInt11905 = 1239170155;
 			else if (class649_sub1_sub5_sub1_sub2.aClass623_12201.method7420(1331948679))
@@ -1370,7 +1370,7 @@ public final class client extends GameShell {
 					class649_sub1_sub5_sub1_sub2.anInt11905 = 1239170155;
 				else {
 					class649_sub1_sub5_sub1_sub2.aBool12185 = (class649_sub1_sub5_sub1_sub2.aClass688_Sub3_11914.aBool10975) ? bool : false;
-					if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == class649_sub1_sub5_sub1_sub2)
+					if (Class565.MY_PLAYER == class649_sub1_sub5_sub1_sub2)
 						class649_sub1_sub5_sub1_sub2.anInt11905 = -908313493;
 					else {
 						int i_25_ = 0;
@@ -1443,8 +1443,8 @@ public final class client extends GameShell {
 							class649_sub1_sub5_sub1_sub1.anInt11905 += 505194496;
 					}
 				} else if (10 == 2030004867 * class103.anInt1224) {
-					Player class649_sub1_sub5_sub1_sub2 = (aClass649_Sub1_Sub5_Sub1_Sub2Array11155[class103.anInt1223 * 1298998125]);
-					if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (class649_sub1_sub5_sub1_sub2.anInt11905 * 1272934333) >= 0)
+					Player class649_sub1_sub5_sub1_sub2 = (PLAYER_LIST[class103.anInt1223 * 1298998125]);
+					if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.MY_PLAYER) && (class649_sub1_sub5_sub1_sub2.anInt11905 * 1272934333) >= 0)
 						class649_sub1_sub5_sub1_sub2.anInt11905 += 505194496;
 				}
 			}
@@ -1463,8 +1463,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10377(int i) {
-		int i_33_ = -1482773169 * Class95.anInt1156;
-		int[] is = Class95.anIntArray1157;
+		int i_33_ = -1482773169 * Class95.PLAYERLIST_SIZE;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int[][] is_34_ = aClass515_11066.method6295(551067295);
 		int[][] is_35_ = aClass515_11066.method6286((byte) -116);
 		int i_36_;
@@ -1481,7 +1481,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(2116826164);
 			} else {
 				if (i_37_ < i_33_)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_37_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_37_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_37_ - i_33_])).value));
 				if (i != class649_sub1_sub5_sub1.aByte10839 || class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0 || class649_sub1_sub5_sub1.aBool11895)
@@ -1522,8 +1522,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10378(int i) {
-		int i_48_ = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i_48_ = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int[][] is_49_ = aClass515_11066.method6295(-1877925913);
 		int[][] is_50_ = aClass515_11066.method6286((byte) -104);
 		int i_51_;
@@ -1540,7 +1540,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(-442545034);
 			} else {
 				if (i_52_ < i_48_)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_52_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_52_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_52_ - i_48_])).value));
 				if (i != class649_sub1_sub5_sub1.aByte10839)
@@ -1631,8 +1631,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10380() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_67_;
 		if (1542697723 * anInt11074 == 4)
 			i_67_ = Class193.aClass189Array2180.length;
@@ -1647,7 +1647,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(1139594860);
 			} else {
 				if (i_68_ < i)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_68_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_68_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_68_ - i])).value));
 				if (class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0)
@@ -1877,10 +1877,10 @@ public final class client extends GameShell {
 										} else
 											Class22.method716(Class677.aClass167_8609, -2131423477);
 									}
-									int i_103_ = -1482773169 * Class95.anInt1156;
-									int[] is = Class95.anIntArray1157;
+									int i_103_ = -1482773169 * Class95.PLAYERLIST_SIZE;
+									int[] is = Class95.PLAYERLIST_INDICES;
 									for (int i_104_ = 0; i_104_ < i_103_; i_104_++) {
-										Player class649_sub1_sub5_sub1_sub2 = (aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_104_]]);
+										Player class649_sub1_sub5_sub1_sub2 = (PLAYER_LIST[is[i_104_]]);
 										if (null != class649_sub1_sub5_sub1_sub2) {
 											Class390.method4858(Class570.aClass570_7620, -1, -1, class649_sub1_sub5_sub1_sub2, is[i_104_], 1876527263);
 											class649_sub1_sub5_sub1_sub2.method10883(i_81_, i_82_, i_83_, i_84_, (i_79_ - (1428895931 * interfaceDefs.anInt2581)), (i_80_ - (-2092413585 * interfaceDefs.anInt2584)), i_76_, i_77_, 525244518);
@@ -1934,8 +1934,8 @@ public final class client extends GameShell {
 											i_116_ = (anInt11082 * 289882095 >> 9) + (i_114_ >> 2);
 											i_117_ = (182288133 * anInt11236 >> 9) - (i_115_ >> 2);
 										} else {
-											int i_118_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 256;
-											Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+											int i_118_ = (Class565.MY_PLAYER.method10874() - 1) * 256;
+											Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 											i_116_ = (((int) class436.aFloat4850 - i_118_) >> 9) + (i_114_ >> 2);
 											i_117_ = (((int) class436.aFloat4853 - i_118_) >> 9) - (i_115_ >> 2);
 										}
@@ -1947,7 +1947,7 @@ public final class client extends GameShell {
 												Class270.method3717(134012254);
 										} else {
 											if (GameMode.aClass670_8575 == aClass670_11043)
-												Class521_Sub6.method9389((Class38.aClass38_438.method840(Class459.aClass664_5178, 1391934685)), "", -1, 60, -1, 1L, i_116_, i_117_, true, false, 0L, true, 516175864);
+												Class521_Sub6.method9389((Class38.aClass38_438.method840(Class459.CLIENT_PARAMS, 1391934685)), "", -1, 60, -1, 1L, i_116_, i_117_, true, false, 0L, true, 516175864);
 											Class521_Sub6.method9389(Class689.aString8692, "", -1869983847 * anInt11035, 23, -1, 1L, i_116_, i_117_, true, false, 0L, true, -64780958);
 										}
 									}
@@ -2350,8 +2350,8 @@ public final class client extends GameShell {
 		try {
 			Class598 class598 = aClass515_11066.method6255(-1635943853);
 			string = new StringBuilder().append(string).append(1858049507 * class598.anInt7839).append(Class40.aString491).append(class598.anInt7840 * 1479112045).append(Class40.aString491).append(aClass515_11066.method6321((byte) 0)).append(Class40.aString491).append(aClass515_11066.method6243(177401017)).append(" ").toString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null)
-				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+			if (Class565.MY_PLAYER != null)
+				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			else
 				string = new StringBuilder().append(string).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(" ").toString();
 			string = new StringBuilder().append(string).append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).append(" ").append(ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156()).append(" ").append(Class315.method4212((byte) 36)).append(" ").append(Class144.anInt1679 * -1804846931).append(Class40.aString491).append(Class34_Sub6.anInt10965 * 589116499).append(" ").toString();
@@ -2368,8 +2368,8 @@ public final class client extends GameShell {
 			else
 				string = new StringBuilder().append(string).append(-1).toString();
 			string = new StringBuilder().append(string).append(" ").toString();
-			if (aString11004 != null)
-				string = new StringBuilder().append(string).append(aString11004).toString();
+			if (GAMEPACK_KEY != null)
+				string = new StringBuilder().append(string).append(GAMEPACK_KEY).toString();
 			else
 				string = new StringBuilder().append(string).append(Class40.aString491).toString();
 		} catch (Throwable throwable) {
@@ -2441,7 +2441,7 @@ public final class client extends GameShell {
 		Class147.method1809(Class622.anApplet8126, Class241.osName, -548497307);
 		if (Class678.aClass678_8619 != Class47.aClass678_578 && Class678.aClass678_8618 != Class47.aClass678_578)
 			aBool11314 = true;
-		aString6881 = Class38.aClass38_402.method840(Class459.aClass664_5178, 1752354939);
+		aString6881 = Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1752354939);
 		Class266.aClass503_2867 = new Class503();
 		new Thread(Class266.aClass503_2867).start();
 		Class208.aClass60_2245 = new Class60();
@@ -2511,7 +2511,7 @@ public final class client extends GameShell {
 		Class147.method1809(Class622.anApplet8126, Class241.osName, -1199868989);
 		if (Class678.aClass678_8619 != Class47.aClass678_578 && Class678.aClass678_8618 != Class47.aClass678_578)
 			aBool11314 = true;
-		aString6881 = Class38.aClass38_402.method840(Class459.aClass664_5178, 1391890372);
+		aString6881 = Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1391890372);
 		Class266.aClass503_2867 = new Class503();
 		new Thread(Class266.aClass503_2867).start();
 		Class208.aClass60_2245 = new Class60();
@@ -2581,7 +2581,7 @@ public final class client extends GameShell {
 		Class147.method1809(Class622.anApplet8126, Class241.osName, -1516717997);
 		if (Class678.aClass678_8619 != Class47.aClass678_578 && Class678.aClass678_8618 != Class47.aClass678_578)
 			aBool11314 = true;
-		aString6881 = Class38.aClass38_402.method840(Class459.aClass664_5178, 1930511470);
+		aString6881 = Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1930511470);
 		Class266.aClass503_2867 = new Class503();
 		new Thread(Class266.aClass503_2867).start();
 		Class208.aClass60_2245 = new Class60();
@@ -2620,18 +2620,18 @@ public final class client extends GameShell {
 			else if (Class578.method7007(anInt11101 * -708374433, 1815537384)) {
 				if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7036) {
 					int i = aClass515_11066.method6242((byte) -19) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1878255772)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1878255772)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7038) {
 					int i = 50 + aClass515_11066.method6257(-1421043170) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1922781871)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1922781871)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1614260358), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1614260358), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			} else if (9 == -708374433 * anInt11101)
 				Class315.method4213(l);
 			else if (-708374433 * anInt11101 == 17)
-				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.aClass664_5178, 2059767199)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.aClass664_5178, 2035308662)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.CLIENT_PARAMS, 2059767199)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.CLIENT_PARAMS, 2035308662)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			else if (19 == anInt11101 * -708374433)
-				Class306.method4120(Class38.aClass38_442.method840(Class459.aClass664_5178, 1365526410), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(Class38.aClass38_442.method840(Class459.CLIENT_PARAMS, 1365526410), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			if (anInt11016 * -176554429 == 3) {
 				for (int i = 0; i < anInt11245 * -5823823; i++) {
 					Rectangle rectangle = aRectangleArray11249[i];
@@ -2710,18 +2710,18 @@ public final class client extends GameShell {
 			else if (Class578.method7007(anInt11101 * -708374433, -230520142)) {
 				if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7036) {
 					int i = aClass515_11066.method6242((byte) -112) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1451795395)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1451795395)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7038) {
 					int i = 50 + aClass515_11066.method6257(-1135742060) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1468146662)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1468146662)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1833267639), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1833267639), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			} else if (9 == -708374433 * anInt11101)
 				Class315.method4213(l);
 			else if (-708374433 * anInt11101 == 17)
-				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.aClass664_5178, 1907839229)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.aClass664_5178, 1699949044)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.CLIENT_PARAMS, 1907839229)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.CLIENT_PARAMS, 1699949044)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			else if (19 == anInt11101 * -708374433)
-				Class306.method4120(Class38.aClass38_442.method840(Class459.aClass664_5178, 1894766631), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(Class38.aClass38_442.method840(Class459.CLIENT_PARAMS, 1894766631), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			if (anInt11016 * -176554429 == 3) {
 				for (int i = 0; i < anInt11245 * -5823823; i++) {
 					Rectangle rectangle = aRectangleArray11249[i];
@@ -2800,18 +2800,18 @@ public final class client extends GameShell {
 			else if (Class578.method7007(anInt11101 * -708374433, 762141905)) {
 				if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7036) {
 					int i = aClass515_11066.method6242((byte) -48) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1598817119)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1598817119)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else if (aClass515_11066.method6298(-2089480711) == Class516.aClass516_7038) {
 					int i = 50 + aClass515_11066.method6257(-1644216595) / 2;
-					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.aClass664_5178, 1901081286)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(new StringBuilder().append(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1901081286)).append(Class40.aString496).append("(").append(i).append("%)").toString(), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				} else
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1969069762), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1969069762), true, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			} else if (9 == -708374433 * anInt11101)
 				Class315.method4213(l);
 			else if (-708374433 * anInt11101 == 17)
-				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.aClass664_5178, 2081304229)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.aClass664_5178, 1635337144)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(new StringBuilder().append(Class38.aClass38_415.method840(Class459.CLIENT_PARAMS, 2081304229)).append(Class40.aString496).append(Class38.aClass38_405.method840(Class459.CLIENT_PARAMS, 1635337144)).toString(), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			else if (19 == anInt11101 * -708374433)
-				Class306.method4120(Class38.aClass38_442.method840(Class459.aClass664_5178, 1644549542), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+				Class306.method4120(Class38.aClass38_442.method840(Class459.CLIENT_PARAMS, 1644549542), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 			if (anInt11016 * -176554429 == 3) {
 				for (int i = 0; i < anInt11245 * -5823823; i++) {
 					Rectangle rectangle = aRectangleArray11249[i];
@@ -2863,8 +2863,8 @@ public final class client extends GameShell {
 		try {
 			Class598 class598 = aClass515_11066.method6255(-1793309352);
 			string = new StringBuilder().append(string).append(1858049507 * class598.anInt7839).append(Class40.aString491).append(class598.anInt7840 * 1479112045).append(Class40.aString491).append(aClass515_11066.method6321((byte) 46)).append(Class40.aString491).append(aClass515_11066.method6243(177401017)).append(" ").toString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null)
-				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+			if (Class565.MY_PLAYER != null)
+				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			else
 				string = new StringBuilder().append(string).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(" ").toString();
 			string = new StringBuilder().append(string).append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).append(" ").append(ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156()).append(" ").append(Class315.method4212((byte) 90)).append(" ").append(Class144.anInt1679 * -1804846931).append(Class40.aString491).append(Class34_Sub6.anInt10965 * 589116499).append(" ").toString();
@@ -2881,8 +2881,8 @@ public final class client extends GameShell {
 			else
 				string = new StringBuilder().append(string).append(-1).toString();
 			string = new StringBuilder().append(string).append(" ").toString();
-			if (aString11004 != null)
-				string = new StringBuilder().append(string).append(aString11004).toString();
+			if (GAMEPACK_KEY != null)
+				string = new StringBuilder().append(string).append(GAMEPACK_KEY).toString();
 			else
 				string = new StringBuilder().append(string).append(Class40.aString491).toString();
 		} catch (Throwable throwable) {
@@ -2896,8 +2896,8 @@ public final class client extends GameShell {
 		try {
 			Class598 class598 = aClass515_11066.method6255(-1474607626);
 			string = new StringBuilder().append(string).append(1858049507 * class598.anInt7839).append(Class40.aString491).append(class598.anInt7840 * 1479112045).append(Class40.aString491).append(aClass515_11066.method6321((byte) 62)).append(Class40.aString491).append(aClass515_11066.method6243(177401017)).append(" ").toString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null)
-				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+			if (Class565.MY_PLAYER != null)
+				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			else
 				string = new StringBuilder().append(string).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(" ").toString();
 			string = new StringBuilder().append(string).append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).append(" ").append(ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156()).append(" ").append(Class315.method4212((byte) 32)).append(" ").append(Class144.anInt1679 * -1804846931).append(Class40.aString491).append(Class34_Sub6.anInt10965 * 589116499).append(" ").toString();
@@ -2914,8 +2914,8 @@ public final class client extends GameShell {
 			else
 				string = new StringBuilder().append(string).append(-1).toString();
 			string = new StringBuilder().append(string).append(" ").toString();
-			if (aString11004 != null)
-				string = new StringBuilder().append(string).append(aString11004).toString();
+			if (GAMEPACK_KEY != null)
+				string = new StringBuilder().append(string).append(GAMEPACK_KEY).toString();
 			else
 				string = new StringBuilder().append(string).append(Class40.aString491).toString();
 		} catch (Throwable throwable) {
@@ -3038,9 +3038,9 @@ public final class client extends GameShell {
 
 	public static final void method10386() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1846041062);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class106.method1409(class536_sub23, 1168613901);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1846041062);
+		class536_sub23.stream.writeByte(0);
+		class106.writePacket(class536_sub23, 1168613901);
 	}
 
 	void method10387() {
@@ -3084,54 +3084,54 @@ public final class client extends GameShell {
 		else {
 			try {
 				if (handshakeStage * -275818405 == 0) {
-					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 3);
+					Class321.HANDSHAKE_SOCKET = Class23.aClass5_219.createSocket((byte) 3);
 					handshakeStage += -1210181677;
 				}
 				if (handshakeStage * -275818405 == 1) {
-					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 86);
-					int i = 10 + aString11004.length();
-					RSByteBuffer buffer = new RSByteBuffer(2 + i);
-					buffer.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
-					buffer.writeByte(i);
+					Class582.aClass567_7700 = Class506.createRSSocket(Class321.HANDSHAKE_SOCKET, 131072, (byte) 86);
+					int length = 10 + GAMEPACK_KEY.length();
+					RSByteBuffer buffer = new RSByteBuffer(2 + length);
+					buffer.writeByte(1258126983 * (Class420.aClass420_4572.connectionType));
+					buffer.writeByte(length);
 					buffer.writeInt(876);
 					buffer.writeInt(1);
-					buffer.writeString(aString11004);
-					buffer.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
-					Class582.aClass567_7700.method6912((buffer.buffer), 0, i + 2, (byte) 5);
+					buffer.writeString(GAMEPACK_KEY);
+					buffer.writeByte((Class459.CLIENT_PARAMS.languageId) * -1919173613);
+					Class582.aClass567_7700.method6912((buffer.buffer), 0, length + 2, (byte) 5);
 					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1485070864) * 8318299307769190309L);
 				}
 				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -458960978)) {
 						byte[] is = new byte[1];
-						int i = Class582.aClass567_7700.method6899(is, 0, 1, -508252472);
+						int i = Class582.aClass567_7700.copyBuffer(is, 0, 1, -508252472);
 						if (0 != is[0]) {
-							method10373(i, 1538512972);
+							closeConnection(i, 1538512972);
 							return;
 						}
 						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1518779264) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
-						method10373(1001, 1538512972);
+						closeConnection(1001, 1538512972);
 						return;
 					}
 				}
 				if (-275818405 * handshakeStage == 3) {
-					Class59[] class59s = Class59.method983(-2140404394);
-					int i = class59s.length * 4;
-					if (Class582.aClass567_7700.bitsRemaining(i, -2065178589)) {
-						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
-						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 239261002);
-						for (int i_155_ = 0; i_155_ < class59s.length; i_155_++)
-							class59s[i_155_].method977(class536_sub33.readInt(), 1854131966);
-						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1664510884) || Class566.method6895(anInt11101 * -708374433, 347229948) || Class233.method3334(-708374433 * anInt11101, (byte) -24));
+					UpdateKey[] keys = UpdateKey.getReferenceList();
+					int length = keys.length * 4;
+					if (Class582.aClass567_7700.bitsRemaining(length, -2065178589)) {
+						RSByteBuffer stream = new RSByteBuffer(length);
+						Class582.aClass567_7700.copyBuffer(stream.buffer, 0, stream.buffer.length, 239261002);
+						for (int idx = 0; idx < keys.length; idx++)
+							keys[idx].setValue(stream.readInt());
+						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1664510884) || RSOutputStream.method6895(anInt11101 * -708374433, 347229948) || Class233.method3334(-708374433 * anInt11101, (byte) -24));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 34);
-						Class321.aSocket3543 = null;
+						Class321.HANDSHAKE_SOCKET = null;
 						Class582.aClass567_7700 = null;
 						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
-				method10373(1002, 1538512972);
+				closeConnection(1002, 1538512972);
 			}
 		}
 	}
@@ -3249,9 +3249,9 @@ public final class client extends GameShell {
 
 	public static final void method10391() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1886826904);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class106.method1409(class536_sub23, 602324261);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1886826904);
+		class536_sub23.stream.writeByte(0);
+		class106.writePacket(class536_sub23, 602324261);
 	}
 
 	public static final void method10392() {
@@ -3294,7 +3294,7 @@ public final class client extends GameShell {
 			aClass526Array11021[i] = null;
 		Class324.method4276(-2025234968);
 		for (int i = 0; i < 2048; i++)
-			aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = null;
+			PLAYER_LIST[i] = null;
 		anInt11053 = 0;
 		aClass4_11050.method561(-2117553523);
 		anInt11164 = 0;
@@ -3439,8 +3439,8 @@ public final class client extends GameShell {
 		try {
 			Class598 class598 = aClass515_11066.method6255(-1608522450);
 			string = new StringBuilder().append(string).append(1858049507 * class598.anInt7839).append(Class40.aString491).append(class598.anInt7840 * 1479112045).append(Class40.aString491).append(aClass515_11066.method6321((byte) -25)).append(Class40.aString491).append(aClass515_11066.method6243(177401017)).append(" ").toString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null)
-				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+			if (Class565.MY_PLAYER != null)
+				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			else
 				string = new StringBuilder().append(string).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(" ").toString();
 			string = new StringBuilder().append(string).append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).append(" ").append(ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156()).append(" ").append(Class315.method4212((byte) 46)).append(" ").append(Class144.anInt1679 * -1804846931).append(Class40.aString491).append(Class34_Sub6.anInt10965 * 589116499).append(" ").toString();
@@ -3457,8 +3457,8 @@ public final class client extends GameShell {
 			else
 				string = new StringBuilder().append(string).append(-1).toString();
 			string = new StringBuilder().append(string).append(" ").toString();
-			if (aString11004 != null)
-				string = new StringBuilder().append(string).append(aString11004).toString();
+			if (GAMEPACK_KEY != null)
+				string = new StringBuilder().append(string).append(GAMEPACK_KEY).toString();
 			else
 				string = new StringBuilder().append(string).append(Class40.aString491).toString();
 		} catch (Throwable throwable) {
@@ -3468,9 +3468,9 @@ public final class client extends GameShell {
 	}
 
 	static final void method10399() {
-		int[] is = Class95.anIntArray1157;
-		for (int i = 0; i < Class95.anInt1156 * -1482773169; i++) {
-			Player class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i]];
+		int[] is = Class95.PLAYERLIST_INDICES;
+		for (int i = 0; i < Class95.PLAYERLIST_SIZE * -1482773169; i++) {
+			Player class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[is[i]];
 			if (class649_sub1_sub5_sub1_sub2 != null)
 				class649_sub1_sub5_sub1_sub2.method10905((byte) -101);
 		}
@@ -3490,9 +3490,9 @@ public final class client extends GameShell {
 	}
 
 	static final void method10400() {
-		int[] is = Class95.anIntArray1157;
-		for (int i = 0; i < Class95.anInt1156 * -1482773169; i++) {
-			Player class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i]];
+		int[] is = Class95.PLAYERLIST_INDICES;
+		for (int i = 0; i < Class95.PLAYERLIST_SIZE * -1482773169; i++) {
+			Player class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[is[i]];
 			if (class649_sub1_sub5_sub1_sub2 != null)
 				class649_sub1_sub5_sub1_sub2.method10905((byte) -100);
 		}
@@ -3512,9 +3512,9 @@ public final class client extends GameShell {
 	}
 
 	static final void method10401() {
-		int[] is = Class95.anIntArray1157;
-		for (int i = 0; i < Class95.anInt1156 * -1482773169; i++) {
-			Player class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i]];
+		int[] is = Class95.PLAYERLIST_INDICES;
+		for (int i = 0; i < Class95.PLAYERLIST_SIZE * -1482773169; i++) {
+			Player class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[is[i]];
 			if (class649_sub1_sub5_sub1_sub2 != null)
 				class649_sub1_sub5_sub1_sub2.method10905((byte) -41);
 		}
@@ -3770,12 +3770,12 @@ public final class client extends GameShell {
 	}
 
 	static final void method10416() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_195_ = ClientSetting.aClass536_Sub40_8843.idleAnimationSetting.method10109((byte) 1);
 		boolean bool = 1 == i_195_ && i > 200 || i_195_ == 0 && i > 50;
 		for (int i_196_ = 0; i_196_ < i; i_196_++) {
-			Player class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_196_]];
+			Player class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[is[i_196_]];
 			if (!class649_sub1_sub5_sub1_sub2.method11088(1644471179))
 				class649_sub1_sub5_sub1_sub2.anInt11905 = 1239170155;
 			else if (class649_sub1_sub5_sub1_sub2.aClass623_12201.method7420(1697426394))
@@ -3786,7 +3786,7 @@ public final class client extends GameShell {
 					class649_sub1_sub5_sub1_sub2.anInt11905 = 1239170155;
 				else {
 					class649_sub1_sub5_sub1_sub2.aBool12185 = (class649_sub1_sub5_sub1_sub2.aClass688_Sub3_11914.aBool10975) ? bool : false;
-					if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == class649_sub1_sub5_sub1_sub2)
+					if (Class565.MY_PLAYER == class649_sub1_sub5_sub1_sub2)
 						class649_sub1_sub5_sub1_sub2.anInt11905 = -908313493;
 					else {
 						int i_197_ = 0;
@@ -3859,8 +3859,8 @@ public final class client extends GameShell {
 							class649_sub1_sub5_sub1_sub1.anInt11905 += 505194496;
 					}
 				} else if (10 == 2030004867 * class103.anInt1224) {
-					Player class649_sub1_sub5_sub1_sub2 = (aClass649_Sub1_Sub5_Sub1_Sub2Array11155[class103.anInt1223 * 1298998125]);
-					if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (class649_sub1_sub5_sub1_sub2.anInt11905 * 1272934333) >= 0)
+					Player class649_sub1_sub5_sub1_sub2 = (PLAYER_LIST[class103.anInt1223 * 1298998125]);
+					if (class649_sub1_sub5_sub1_sub2 != null && (class649_sub1_sub5_sub1_sub2 != Class565.MY_PLAYER) && (class649_sub1_sub5_sub1_sub2.anInt11905 * 1272934333) >= 0)
 						class649_sub1_sub5_sub1_sub2.anInt11905 += 505194496;
 				}
 			}
@@ -4000,8 +4000,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10423() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_216_;
 		if (1542697723 * anInt11074 == 4)
 			i_216_ = Class193.aClass189Array2180.length;
@@ -4016,7 +4016,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(665303819);
 			} else {
 				if (i_217_ < i)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_217_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_217_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_217_ - i])).value));
 				if (class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0)
@@ -4036,8 +4036,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10424() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_219_;
 		if (1542697723 * anInt11074 == 4)
 			i_219_ = Class193.aClass189Array2180.length;
@@ -4052,7 +4052,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(852622634);
 			} else {
 				if (i_220_ < i)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_220_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_220_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_220_ - i])).value));
 				if (class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0)
@@ -4072,8 +4072,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10425() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_222_;
 		if (1542697723 * anInt11074 == 4)
 			i_222_ = Class193.aClass189Array2180.length;
@@ -4088,7 +4088,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(1380179956);
 			} else {
 				if (i_223_ < i)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_223_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_223_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_223_ - i])).value));
 				if (class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0)
@@ -4137,9 +4137,9 @@ public final class client extends GameShell {
 					int i = (-(class649_sub1_sub5_sub6.anInt12144 * -2056997773) - 1);
 					Player class649_sub1_sub5_sub1_sub2;
 					if (-1791435655 * anInt11156 == i)
-						class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1_sub2 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+						class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[i];
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						Class436 class436 = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 						if ((int) class436.aFloat4850 >= 0 && ((int) class436.aFloat4850 < aClass515_11066.method6321((byte) -33) * 512) && (int) class436.aFloat4853 >= 0 && ((int) class436.aFloat4853 < aClass515_11066.method6243(177401017) * 512))
@@ -4183,7 +4183,7 @@ public final class client extends GameShell {
 	}
 
 	void method10430(int i) {
-		Class321.aSocket3543 = null;
+		Class321.HANDSHAKE_SOCKET = null;
 		Class582.aClass567_7700 = null;
 		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
@@ -4192,7 +4192,7 @@ public final class client extends GameShell {
 
 	final void method6128() {
 		if (anInt11101 * -708374433 != 2) {
-			if ((12 == anInt11101 * -708374433 || Class566.method6895(-708374433 * anInt11101, -1247996131) || Class233.method3334(-708374433 * anInt11101, (byte) -120)) && Class184_Sub2.aClass211_9442 != null)
+			if ((12 == anInt11101 * -708374433 || RSOutputStream.method6895(-708374433 * anInt11101, -1247996131) || Class233.method3334(-708374433 * anInt11101, (byte) -120)) && Class184_Sub2.aClass211_9442 != null)
 				Class184_Sub2.aClass211_9442.method3010(Class184_Sub2.aClass211_9442.method3059((byte) 45), ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(-1844066675), -1707682181);
 			if (aBool11067) {
 				synchronized (anObject11069) {
@@ -4242,13 +4242,13 @@ public final class client extends GameShell {
 							if (Class70.method1117(-265710562))
 								Class316.method4218(-1717165789);
 							else
-								Class294.method3971(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method190(-561773182), (byte) 85);
+								Class294.method3971(Class565.MY_PLAYER.method190(-561773182), (byte) 85);
 						} else if (Class44.method882(765303365) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(1327422080);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
-							Class269.method3710((Class38.aClass38_453.method840(Class459.aClass664_5178, 1338285243)), (byte) -85);
+							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1338285243)), (byte) -85);
 					}
 					if (anInt11036 * -1621465757 < 77) {
 						anInterface63Array11037[-1621465757 * anInt11036] = interface63;
@@ -4280,7 +4280,7 @@ public final class client extends GameShell {
 				Class444.method5392(-1679511901);
 			} else if (Class578.method7007(-708374433 * anInt11101, 1359516053))
 				aClass515_11066.method6271(1818538378);
-			if (Class566.method6895(anInt11101 * -708374433, -1229205844) && !Class578.method7007(anInt11101 * -708374433, -330575497)) {
+			if (RSOutputStream.method6895(anInt11101 * -708374433, -1229205844) && !Class578.method7007(anInt11101 * -708374433, -330575497)) {
 				method10374(22069970);
 				Class154.method1871(1155307375);
 				Class283.handleLogin(-1602819907);
@@ -4321,7 +4321,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_226_ = Class66.method1077(bufferedimage, -1655573017);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_226_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -107));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_226_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -107));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(21887516), ioexception, (byte) -92);
@@ -4335,7 +4335,7 @@ public final class client extends GameShell {
 	}
 
 	void method10431(int i) {
-		Class321.aSocket3543 = null;
+		Class321.HANDSHAKE_SOCKET = null;
 		Class582.aClass567_7700 = null;
 		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
@@ -4343,8 +4343,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10432() {
-		int i = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int i_227_;
 		if (1542697723 * anInt11074 == 4)
 			i_227_ = Class193.aClass189Array2180.length;
@@ -4359,7 +4359,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(1376085863);
 			} else {
 				if (i_228_ < i)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_228_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_228_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_228_ - i])).value));
 				if (class649_sub1_sub5_sub1.anInt11905 * 1272934333 < 0)
@@ -4419,19 +4419,19 @@ public final class client extends GameShell {
 		else {
 			try {
 				if (handshakeStage * -275818405 == 0) {
-					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 40);
+					Class321.HANDSHAKE_SOCKET = Class23.aClass5_219.createSocket((byte) 40);
 					handshakeStage += -1210181677;
 				}
 				if (handshakeStage * -275818405 == 1) {
-					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 111);
-					int i_230_ = 10 + aString11004.length();
+					Class582.aClass567_7700 = Class506.createRSSocket(Class321.HANDSHAKE_SOCKET, 131072, (byte) 111);
+					int i_230_ = 10 + GAMEPACK_KEY.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i_230_);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.connectionType));
 					class536_sub33.writeByte(i_230_);
 					class536_sub33.writeInt(876);
 					class536_sub33.writeInt(1);
-					class536_sub33.writeString(aString11004);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
+					class536_sub33.writeString(GAMEPACK_KEY);
+					class536_sub33.writeByte((Class459.CLIENT_PARAMS.languageId) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i_230_ + 2, (byte) -5);
 					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1614797338) * 8318299307769190309L);
@@ -4439,34 +4439,34 @@ public final class client extends GameShell {
 				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -1483849144)) {
 						byte[] is = new byte[1];
-						int i_231_ = Class582.aClass567_7700.method6899(is, 0, 1, 1580523327);
+						int i_231_ = Class582.aClass567_7700.copyBuffer(is, 0, 1, 1580523327);
 						if (0 != is[0]) {
-							method10373(i_231_, 1538512972);
+							closeConnection(i_231_, 1538512972);
 							return;
 						}
 						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1565861518) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
-						method10373(1001, 1538512972);
+						closeConnection(1001, 1538512972);
 						return;
 					}
 				}
 				if (-275818405 * handshakeStage == 3) {
-					Class59[] class59s = Class59.method983(-2132919323);
+					UpdateKey[] class59s = UpdateKey.getReferenceList();
 					int i_232_ = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i_232_, -1160328489)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i_232_);
-						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1774523566);
+						Class582.aClass567_7700.copyBuffer(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1774523566);
 						for (int i_233_ = 0; i_233_ < class59s.length; i_233_++)
-							class59s[i_233_].method977(class536_sub33.readInt(), 1854131966);
-						boolean bool = (Class482.method5837(anInt11101 * -708374433, -486831229) || Class566.method6895(anInt11101 * -708374433, 702071024) || Class233.method3334(-708374433 * anInt11101, (byte) -20));
+							class59s[i_233_].setValue(class536_sub33.readInt());
+						boolean bool = (Class482.method5837(anInt11101 * -708374433, -486831229) || RSOutputStream.method6895(anInt11101 * -708374433, 702071024) || Class233.method3334(-708374433 * anInt11101, (byte) -20));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 47);
-						Class321.aSocket3543 = null;
+						Class321.HANDSHAKE_SOCKET = null;
 						Class582.aClass567_7700 = null;
 						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
-				method10373(1002, 1538512972);
+				closeConnection(1002, 1538512972);
 			}
 		}
 	}
@@ -4606,8 +4606,8 @@ public final class client extends GameShell {
 	}
 
 	static final void method10443(int i) {
-		int i_240_ = Class95.anInt1156 * -1482773169;
-		int[] is = Class95.anIntArray1157;
+		int i_240_ = Class95.PLAYERLIST_SIZE * -1482773169;
+		int[] is = Class95.PLAYERLIST_INDICES;
 		int[][] is_241_ = aClass515_11066.method6295(-1137308467);
 		int[][] is_242_ = aClass515_11066.method6286((byte) -77);
 		int i_243_;
@@ -4624,7 +4624,7 @@ public final class client extends GameShell {
 				class649_sub1_sub5_sub1 = class189.method2804(1086770833);
 			} else {
 				if (i_244_ < i_240_)
-					class649_sub1_sub5_sub1 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_244_]];
+					class649_sub1_sub5_sub1 = PLAYER_LIST[is[i_244_]];
 				else
 					class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) (((ObjectParam) aClass4_11050.method556((long) anIntArray11211[i_244_ - i_240_])).value));
 				if (i != class649_sub1_sub5_sub1.aByte10839)
@@ -4796,7 +4796,7 @@ public final class client extends GameShell {
 		Class147.method1809(Class622.anApplet8126, Class241.osName, -2000080347);
 		if (Class678.aClass678_8619 != Class47.aClass678_578 && Class678.aClass678_8618 != Class47.aClass678_578)
 			aBool11314 = true;
-		aString6881 = Class38.aClass38_402.method840(Class459.aClass664_5178, 1655060601);
+		aString6881 = Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1655060601);
 		Class266.aClass503_2867 = new Class503();
 		new Thread(Class266.aClass503_2867).start();
 		Class208.aClass60_2245 = new Class60();
@@ -4816,23 +4816,23 @@ public final class client extends GameShell {
 
 	public static final void method10450() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 2115671994);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class106.method1409(class536_sub23, 890056318);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 2115671994);
+		class536_sub23.stream.writeByte(0);
+		class106.writePacket(class536_sub23, 890056318);
 	}
 
 	public static final void method10451() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1090239143);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class106.method1409(class536_sub23, -172482486);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 1090239143);
+		class536_sub23.stream.writeByte(0);
+		class106.writePacket(class536_sub23, -172482486);
 	}
 
 	public static final void method10452() {
 		Class106 class106 = Class536_Sub41.method9871(2077853800);
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 701257458);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class106.method1409(class536_sub23, 575123133);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4494, class106.aClass15_1258, 701257458);
+		class536_sub23.stream.writeByte(0);
+		class106.writePacket(class536_sub23, 575123133);
 	}
 
 	public String method6092(int i) {
@@ -4840,8 +4840,8 @@ public final class client extends GameShell {
 		try {
 			Class598 class598 = aClass515_11066.method6255(-1276641382);
 			string = new StringBuilder().append(string).append(1858049507 * class598.anInt7839).append(Class40.aString491).append(class598.anInt7840 * 1479112045).append(Class40.aString491).append(aClass515_11066.method6321((byte) -94)).append(Class40.aString491).append(aClass515_11066.method6243(177401017)).append(" ").toString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null)
-				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+			if (Class565.MY_PLAYER != null)
+				string = new StringBuilder().append(string).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(class598.anInt7839 * 1858049507 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			else
 				string = new StringBuilder().append(string).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(-989431627 * Class320.anInt3539).append(Class40.aString491).append(Class320.anInt3539 * -989431627).append(Class40.aString491).append(" ").toString();
 			string = new StringBuilder().append(string).append(ClientSetting.aClass536_Sub40_8843.toolkit.method10071()).append(" ").append(ClientSetting.aClass536_Sub40_8843.defaultAntiAliasingSetting.method10156()).append(" ").append(Class315.method4212((byte) 119)).append(" ").append(Class144.anInt1679 * -1804846931).append(Class40.aString491).append(Class34_Sub6.anInt10965 * 589116499).append(" ").toString();
@@ -4858,8 +4858,8 @@ public final class client extends GameShell {
 			else
 				string = new StringBuilder().append(string).append(-1).toString();
 			string = new StringBuilder().append(string).append(" ").toString();
-			if (aString11004 != null)
-				string = new StringBuilder().append(string).append(aString11004).toString();
+			if (GAMEPACK_KEY != null)
+				string = new StringBuilder().append(string).append(GAMEPACK_KEY).toString();
 			else
 				string = new StringBuilder().append(string).append(Class40.aString491).toString();
 		} catch (Throwable throwable) {
@@ -4879,7 +4879,7 @@ public final class client extends GameShell {
 	}
 
 	void method10454(int i) {
-		Class321.aSocket3543 = null;
+		Class321.HANDSHAKE_SOCKET = null;
 		Class582.aClass567_7700 = null;
 		handshakeStage = 0;
 		Class176.aClass460_1936.anInt5195 += 971530315;
@@ -4932,19 +4932,19 @@ public final class client extends GameShell {
 		else {
 			try {
 				if (handshakeStage * -275818405 == 0) {
-					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 79);
+					Class321.HANDSHAKE_SOCKET = Class23.aClass5_219.createSocket((byte) 79);
 					handshakeStage += -1210181677;
 				}
 				if (handshakeStage * -275818405 == 1) {
-					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 125);
-					int i = 10 + aString11004.length();
+					Class582.aClass567_7700 = Class506.createRSSocket(Class321.HANDSHAKE_SOCKET, 131072, (byte) 125);
+					int i = 10 + GAMEPACK_KEY.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.connectionType));
 					class536_sub33.writeByte(i);
 					class536_sub33.writeInt(876);
 					class536_sub33.writeInt(1);
-					class536_sub33.writeString(aString11004);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
+					class536_sub33.writeString(GAMEPACK_KEY);
+					class536_sub33.writeByte((Class459.CLIENT_PARAMS.languageId) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i + 2, (byte) 21);
 					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(1936562489) * 8318299307769190309L);
@@ -4952,34 +4952,34 @@ public final class client extends GameShell {
 				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -1362771204)) {
 						byte[] is = new byte[1];
-						int i = Class582.aClass567_7700.method6899(is, 0, 1, 1621321128);
+						int i = Class582.aClass567_7700.copyBuffer(is, 0, 1, 1621321128);
 						if (0 != is[0]) {
-							method10373(i, 1538512972);
+							closeConnection(i, 1538512972);
 							return;
 						}
 						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1644644491) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
-						method10373(1001, 1538512972);
+						closeConnection(1001, 1538512972);
 						return;
 					}
 				}
 				if (-275818405 * handshakeStage == 3) {
-					Class59[] class59s = Class59.method983(-2128907348);
+					UpdateKey[] class59s = UpdateKey.getReferenceList();
 					int i = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i, -1660393165)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
-						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1622897807);
+						Class582.aClass567_7700.copyBuffer(class536_sub33.buffer, 0, class536_sub33.buffer.length, 1622897807);
 						for (int i_261_ = 0; i_261_ < class59s.length; i_261_++)
-							class59s[i_261_].method977(class536_sub33.readInt(), 1854131966);
-						boolean bool = (Class482.method5837(anInt11101 * -708374433, 1122171088) || Class566.method6895(anInt11101 * -708374433, -91207182) || Class233.method3334(-708374433 * anInt11101, (byte) -80));
+							class59s[i_261_].setValue(class536_sub33.readInt());
+						boolean bool = (Class482.method5837(anInt11101 * -708374433, 1122171088) || RSOutputStream.method6895(anInt11101 * -708374433, -91207182) || Class233.method3334(-708374433 * anInt11101, (byte) -80));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 106);
-						Class321.aSocket3543 = null;
+						Class321.HANDSHAKE_SOCKET = null;
 						Class582.aClass567_7700 = null;
 						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
-				method10373(1002, 1538512972);
+				closeConnection(1002, 1538512972);
 			}
 		}
 	}
@@ -5025,19 +5025,19 @@ public final class client extends GameShell {
 		else {
 			try {
 				if (handshakeStage * -275818405 == 0) {
-					Class321.aSocket3543 = Class23.aClass5_219.method575((byte) 26);
+					Class321.HANDSHAKE_SOCKET = Class23.aClass5_219.createSocket((byte) 26);
 					handshakeStage += -1210181677;
 				}
 				if (handshakeStage * -275818405 == 1) {
-					Class582.aClass567_7700 = Class506.method6146(Class321.aSocket3543, 131072, (byte) 61);
-					int i = 10 + aString11004.length();
+					Class582.aClass567_7700 = Class506.createRSSocket(Class321.HANDSHAKE_SOCKET, 131072, (byte) 61);
+					int i = 10 + GAMEPACK_KEY.length();
 					RSByteBuffer class536_sub33 = new RSByteBuffer(2 + i);
-					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.anInt4571));
+					class536_sub33.writeByte(1258126983 * (Class420.aClass420_4572.connectionType));
 					class536_sub33.writeByte(i);
 					class536_sub33.writeInt(876);
 					class536_sub33.writeInt(1);
-					class536_sub33.writeString(aString11004);
-					class536_sub33.writeByte((Class459.aClass664_5178.anInt8526) * -1919173613);
+					class536_sub33.writeString(GAMEPACK_KEY);
+					class536_sub33.writeByte((Class459.CLIENT_PARAMS.languageId) * -1919173613);
 					Class582.aClass567_7700.method6912((class536_sub33.buffer), 0, i + 2, (byte) -17);
 					handshakeStage += -1210181677;
 					Class95.aLong1163 = (Class249.method3450(2084433943) * 8318299307769190309L);
@@ -5045,34 +5045,34 @@ public final class client extends GameShell {
 				if (handshakeStage * -275818405 == 2) {
 					if (Class582.aClass567_7700.bitsRemaining(1, -2121696846)) {
 						byte[] is = new byte[1];
-						int i = Class582.aClass567_7700.method6899(is, 0, 1, 956205467);
+						int i = Class582.aClass567_7700.copyBuffer(is, 0, 1, 956205467);
 						if (0 != is[0]) {
-							method10373(i, 1538512972);
+							closeConnection(i, 1538512972);
 							return;
 						}
 						handshakeStage += -1210181677;
 					} else if ((Class249.method3450(1524796588) - -3305165298707384275L * Class95.aLong1163) > 30000L) {
-						method10373(1001, 1538512972);
+						closeConnection(1001, 1538512972);
 						return;
 					}
 				}
 				if (-275818405 * handshakeStage == 3) {
-					Class59[] class59s = Class59.method983(-2123212533);
+					UpdateKey[] class59s = UpdateKey.getReferenceList();
 					int i = class59s.length * 4;
 					if (Class582.aClass567_7700.bitsRemaining(i, -1560624441)) {
 						RSByteBuffer class536_sub33 = new RSByteBuffer(i);
-						Class582.aClass567_7700.method6899(class536_sub33.buffer, 0, class536_sub33.buffer.length, 471066595);
+						Class582.aClass567_7700.copyBuffer(class536_sub33.buffer, 0, class536_sub33.buffer.length, 471066595);
 						for (int i_262_ = 0; i_262_ < class59s.length; i_262_++)
-							class59s[i_262_].method977(class536_sub33.readInt(), 1854131966);
-						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1586324867) || Class566.method6895(anInt11101 * -708374433, 1794890183) || Class233.method3334(-708374433 * anInt11101, (byte) -26));
+							class59s[i_262_].setValue(class536_sub33.readInt());
+						boolean bool = (Class482.method5837(anInt11101 * -708374433, -1586324867) || RSOutputStream.method6895(anInt11101 * -708374433, 1794890183) || Class233.method3334(-708374433 * anInt11101, (byte) -26));
 						Class176.aClass460_1936.method5529((Class582.aClass567_7700), !bool, (byte) 14);
-						Class321.aSocket3543 = null;
+						Class321.HANDSHAKE_SOCKET = null;
 						Class582.aClass567_7700 = null;
 						handshakeStage = 0;
 					}
 				}
 			} catch (IOException ioexception) {
-				method10373(1002, 1538512972);
+				closeConnection(1002, 1538512972);
 			}
 		}
 	}
@@ -5124,9 +5124,9 @@ public final class client extends GameShell {
 					int i = (-(class649_sub1_sub5_sub6.anInt12144 * -2056997773) - 1);
 					Player class649_sub1_sub5_sub1_sub2;
 					if (-1791435655 * anInt11156 == i)
-						class649_sub1_sub5_sub1_sub2 = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591;
+						class649_sub1_sub5_sub1_sub2 = Class565.MY_PLAYER;
 					else
-						class649_sub1_sub5_sub1_sub2 = aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i];
+						class649_sub1_sub5_sub1_sub2 = PLAYER_LIST[i];
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						Class436 class436 = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 						if ((int) class436.aFloat4850 >= 0 && ((int) class436.aFloat4850 < aClass515_11066.method6321((byte) -19) * 512) && (int) class436.aFloat4853 >= 0 && ((int) class436.aFloat4853 < aClass515_11066.method6243(177401017) * 512))
@@ -5152,7 +5152,7 @@ public final class client extends GameShell {
 						Class353.anInt3740 = Integer.parseInt(string_263_) * -1387464143;
 						break;
 					case 49:
-						Class459.aClass664_5178 = Language.method7989(Integer.parseInt(string_263_), -1722953524);
+						Class459.CLIENT_PARAMS = Language.method7989(Integer.parseInt(string_263_), -1722953524);
 						break;
 					case 8:
 						if (string_263_.equalsIgnoreCase(Class40.aString492))
@@ -5361,7 +5361,7 @@ public final class client extends GameShell {
 						Class23.aClass5_220.anInt111 = Integer.parseInt(string_263_) * 1232605419;
 						break;
 					case 22:
-						aString11004 = string_263_;
+						GAMEPACK_KEY = string_263_;
 						break;
 					case 41:
 						Class254.aClass702_2755 = Class219.method3102(Integer.parseInt(string_263_), 1170099673);
@@ -5397,7 +5397,7 @@ public final class client extends GameShell {
 						Class353.anInt3740 = Integer.parseInt(string_265_) * -1387464143;
 						break;
 					case 49:
-						Class459.aClass664_5178 = Language.method7989(Integer.parseInt(string_265_), -1563052214);
+						Class459.CLIENT_PARAMS = Language.method7989(Integer.parseInt(string_265_), -1563052214);
 						break;
 					case 8:
 						if (string_265_.equalsIgnoreCase(Class40.aString492))
@@ -5606,7 +5606,7 @@ public final class client extends GameShell {
 						Class23.aClass5_220.anInt111 = Integer.parseInt(string_265_) * 1232605419;
 						break;
 					case 22:
-						aString11004 = string_265_;
+						GAMEPACK_KEY = string_265_;
 						break;
 					case 41:
 						Class254.aClass702_2755 = Class219.method3102(Integer.parseInt(string_265_), 871640695);
@@ -5642,7 +5642,7 @@ public final class client extends GameShell {
 						Class353.anInt3740 = Integer.parseInt(string_267_) * -1387464143;
 						break;
 					case 49:
-						Class459.aClass664_5178 = Language.method7989(Integer.parseInt(string_267_), -1119507194);
+						Class459.CLIENT_PARAMS = Language.method7989(Integer.parseInt(string_267_), -1119507194);
 						break;
 					case 8:
 						if (string_267_.equalsIgnoreCase(Class40.aString492))
@@ -5851,7 +5851,7 @@ public final class client extends GameShell {
 						Class23.aClass5_220.anInt111 = Integer.parseInt(string_267_) * 1232605419;
 						break;
 					case 22:
-						aString11004 = string_267_;
+						GAMEPACK_KEY = string_267_;
 						break;
 					case 41:
 						Class254.aClass702_2755 = Class219.method3102(Integer.parseInt(string_267_), 1300456377);
@@ -5876,7 +5876,7 @@ public final class client extends GameShell {
 
 	final void method6134() {
 		if (anInt11101 * -708374433 != 2) {
-			if ((12 == anInt11101 * -708374433 || Class566.method6895(-708374433 * anInt11101, -721406407) || Class233.method3334(-708374433 * anInt11101, (byte) -115)) && Class184_Sub2.aClass211_9442 != null)
+			if ((12 == anInt11101 * -708374433 || RSOutputStream.method6895(-708374433 * anInt11101, -721406407) || Class233.method3334(-708374433 * anInt11101, (byte) -115)) && Class184_Sub2.aClass211_9442 != null)
 				Class184_Sub2.aClass211_9442.method3010(Class184_Sub2.aClass211_9442.method3059((byte) 121), ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(-330903701), -1986261790);
 			if (aBool11067) {
 				synchronized (anObject11069) {
@@ -5926,13 +5926,13 @@ public final class client extends GameShell {
 							if (Class70.method1117(1244079993))
 								Class316.method4218(-1130375414);
 							else
-								Class294.method3971(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method190(-1838570595), (byte) 50);
+								Class294.method3971(Class565.MY_PLAYER.method190(-1838570595), (byte) 50);
 						} else if (Class44.method882(320657273) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(557142479);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
-							Class269.method3710((Class38.aClass38_453.method840(Class459.aClass664_5178, 1584865630)), (byte) -21);
+							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1584865630)), (byte) -21);
 					}
 					if (anInt11036 * -1621465757 < 77) {
 						anInterface63Array11037[-1621465757 * anInt11036] = interface63;
@@ -5964,7 +5964,7 @@ public final class client extends GameShell {
 				Class444.method5392(571772391);
 			} else if (Class578.method7007(-708374433 * anInt11101, 988297504))
 				aClass515_11066.method6271(1827350578);
-			if (Class566.method6895(anInt11101 * -708374433, 843215641) && !Class578.method7007(anInt11101 * -708374433, 916607381)) {
+			if (RSOutputStream.method6895(anInt11101 * -708374433, 843215641) && !Class578.method7007(anInt11101 * -708374433, 916607381)) {
 				method10374(-1278766367);
 				Class154.method1871(1682925767);
 				Class283.handleLogin(-1172926562);
@@ -6005,7 +6005,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_270_ = Class66.method1077(bufferedimage, -869751986);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_270_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -56));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_270_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -56));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(1184482271), ioexception, (byte) -101);
@@ -6020,7 +6020,7 @@ public final class client extends GameShell {
 
 	final void method6086() {
 		if (anInt11101 * -708374433 != 2) {
-			if ((12 == anInt11101 * -708374433 || Class566.method6895(-708374433 * anInt11101, 451421044) || Class233.method3334(-708374433 * anInt11101, (byte) -41)) && Class184_Sub2.aClass211_9442 != null)
+			if ((12 == anInt11101 * -708374433 || RSOutputStream.method6895(-708374433 * anInt11101, 451421044) || Class233.method3334(-708374433 * anInt11101, (byte) -41)) && Class184_Sub2.aClass211_9442 != null)
 				Class184_Sub2.aClass211_9442.method3010(Class184_Sub2.aClass211_9442.method3059((byte) 51), ClientSetting.aClass536_Sub40_8843.loginMusicVolumeSetting.method10213(1349538729), 1374246826);
 			if (aBool11067) {
 				synchronized (anObject11069) {
@@ -6070,13 +6070,13 @@ public final class client extends GameShell {
 							if (Class70.method1117(-141059888))
 								Class316.method4218(-56582093);
 							else
-								Class294.method3971(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method190(1044578938), (byte) 49);
+								Class294.method3971(Class565.MY_PLAYER.method190(1044578938), (byte) 49);
 						} else if (Class44.method882(666746671) && (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0)))
 							Class98_Sub1.method8393(1712997656);
 						else if (ClientSetting.aClass536_Sub40_8843.aClass710_Sub30_10786.method10180(-1647630198) == 0 || Class331_Sub2.aClass549_10049.method6638(86, (byte) 0))
-							Class167.method2414(355094633);
+							GraphicalRenderer.method2414(355094633);
 						else
-							Class269.method3710((Class38.aClass38_453.method840(Class459.aClass664_5178, 1802097441)), (byte) -16);
+							Class269.method3710((Class38.aClass38_453.method840(Class459.CLIENT_PARAMS, 1802097441)), (byte) -16);
 					}
 					if (anInt11036 * -1621465757 < 77) {
 						anInterface63Array11037[-1621465757 * anInt11036] = interface63;
@@ -6108,7 +6108,7 @@ public final class client extends GameShell {
 				Class444.method5392(602444209);
 			} else if (Class578.method7007(-708374433 * anInt11101, 629435898))
 				aClass515_11066.method6271(1799489132);
-			if (Class566.method6895(anInt11101 * -708374433, 1943401430) && !Class578.method7007(anInt11101 * -708374433, -284427533)) {
+			if (RSOutputStream.method6895(anInt11101 * -708374433, 1943401430) && !Class578.method7007(anInt11101 * -708374433, -284427533)) {
 				method10374(-1415140104);
 				Class154.method1871(714846512);
 				Class283.handleLogin(-913785170);
@@ -6149,7 +6149,7 @@ public final class client extends GameShell {
 							try {
 								BufferedImage bufferedimage = ImageIO.read(new ByteArrayInputStream(is));
 								int[] is_272_ = Class66.method1077(bufferedimage, -1112578753);
-								Class143 class143 = (Class677.aClass167_8609.method2081(is_272_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -102));
+								NativeSprite class143 = (Class677.aClass167_8609.createNativeSprite(is_272_, 0, bufferedimage.getWidth(), bufferedimage.getWidth(), bufferedimage.getHeight(), (byte) -102));
 								aClass199_11300.method2881(class143, (long) ((Integer) entry.getKey()).intValue());
 							} catch (IOException ioexception) {
 								Class81.method1165(Class313.aclient3500.method6092(-1155404374), ioexception, (byte) 23);

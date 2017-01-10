@@ -73,10 +73,10 @@ public class Class144 implements Interface75 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ClientSetting.aClass536_Sub40_8843.waterDetailSetting.method9890((byte) -83) ? 1 : 0;
 	}
 
-	static Class536_Sub23 method1795(int i) {
-		if (Class536_Sub23.anInt10532 * 1727980915 == 0)
-			return new Class536_Sub23();
-		return (Class536_Sub23.aClass536_Sub23Array10531[(Class536_Sub23.anInt10532 -= 373737403) * 1727980915]);
+	static OutgoingPacketContainer method1795(int i) {
+		if (OutgoingPacketContainer.anInt10532 * 1727980915 == 0)
+			return new OutgoingPacketContainer();
+		return (OutgoingPacketContainer.aClass536_Sub23Array10531[(OutgoingPacketContainer.anInt10532 -= 373737403) * 1727980915]);
 	}
 
 	static void method1796(Class67_Sub1 class67_sub1, byte i) {

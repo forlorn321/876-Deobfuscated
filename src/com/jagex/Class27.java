@@ -111,7 +111,7 @@ public class Class27 implements Runnable {
 	}
 
 	static final void method758(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10881((byte) 33).method7145((byte) 76);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.MY_PLAYER.method10881((byte) 33).method7145((byte) 76);
 	}
 
 	static final void method759(Class668 class668, byte i) {
@@ -127,7 +127,7 @@ public class Class27 implements Runnable {
 		client.aBool11015 = false;
 	}
 
-	static final void method761(Class167 class167, Class174 class174, int i) {
+	static final void method761(GraphicalRenderer class167, Class174 class174, int i) {
 		if (Class542_Sub1.anInt10700 * 962386111 != 100 && Class542_Sub1.aClass536_Sub18_Sub14_7202 != null) {
 			Class249.method3450(1557328514);
 			Class249.method3450(1962156685);
@@ -152,9 +152,9 @@ public class Class27 implements Runnable {
 				int[] is = new int[3];
 				int i_2_ = -1;
 				int i_3_ = -1;
-				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+				Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 				Class598 class598 = client.aClass515_11066.method6255(-2041832532);
-				if (Class542_Sub1.aClass536_Sub18_Sub14_7202.method10767(Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839, (((int) class436.aFloat4850 >> 9) + class598.anInt7839 * 1858049507), (((int) class436.aFloat4853 >> 9) + 1479112045 * class598.anInt7840), is, (byte) 5)) {
+				if (Class542_Sub1.aClass536_Sub18_Sub14_7202.method10767(Class565.MY_PLAYER.aByte10839, (((int) class436.aFloat4850 >> 9) + class598.anInt7839 * 1858049507), (((int) class436.aFloat4853 >> 9) + 1479112045 * class598.anInt7840), is, (byte) 5)) {
 					i_2_ = is[1] - Class542_Sub1.anInt7185;
 					i_3_ = is[2] - Class542_Sub1.anInt7186;
 				}
@@ -246,7 +246,7 @@ public class Class27 implements Runnable {
 				for (int i_4_ = 0; i_4_ < 3; i_4_++) {
 					for (int i_5_ = 0; i_5_ < 5; i_5_++) {
 						if (null == (Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_]) || null == (Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_])) {
-							Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_] = ((Class184) (Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), true, true, (byte) -124)));
+							Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_] = ((FontRenderer) (Class196.aClass410_2202.method4980(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), true, true, (byte) -124)));
 							Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_] = (Class196.aClass410_2202.method4981(client.anInterface51_11196, (Class542_Sub1.aClass622_7228.anIntArrayArray8107[i_4_][i_5_]), 1765934720));
 							if ((Class542_Sub1.aClass184ArrayArray10712[i_4_][i_5_]) != null && (Class542_Sub1.aClass2ArrayArray10723[i_4_][i_5_]) != null)
 								Class542_Sub1.anInt10700 += 1704445373;
@@ -263,7 +263,7 @@ public class Class27 implements Runnable {
 
 	static final void method762(Class668 class668, int i) {
 		class668.anInt8544 -= -402808782;
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class34_Sub6.method10321(((String) (class668.anObjectArray8543[366709801 * class668.anInt8544])), (String) (class668.anObjectArray8543[1 + (366709801 * class668.anInt8544)]), Class459.aClass664_5178, -1675425713);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class34_Sub6.method10321(((String) (class668.anObjectArray8543[366709801 * class668.anInt8544])), (String) (class668.anObjectArray8543[1 + (366709801 * class668.anInt8544)]), Class459.CLIENT_PARAMS, -1675425713);
 	}
 
 	public static void method763(int i) {

@@ -186,8 +186,8 @@ public class Class11 implements Interface70 {
 			}
 			if (class296.aBool3287) {
 				if (class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673 != 0) {
-					String string_10_ = (client.aClass670_11043 == GameMode.aClass670_8575 ? Class38.aClass38_441.method840((Class459.aClass664_5178), 1511247488) : Class38.aClass38_480.method840((Class459.aClass664_5178), 2072030078));
-					string = new StringBuilder().append(string).append(Class457.method5492((class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673), (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)), -2045963405)).append(Class40.aString493).append(string_10_).append(400189673 * class649_sub1_sub5_sub1_sub1.anInt12160).append(Class40.aString494).toString();
+					String string_10_ = (client.aClass670_11043 == GameMode.aClass670_8575 ? Class38.aClass38_441.method840((Class459.CLIENT_PARAMS), 1511247488) : Class38.aClass38_480.method840((Class459.CLIENT_PARAMS), 2072030078));
+					string = new StringBuilder().append(string).append(Class457.method5492((class649_sub1_sub5_sub1_sub1.anInt12160 * 400189673), (611144047 * (Class565.MY_PLAYER.anInt12186)), -2045963405)).append(Class40.aString493).append(string_10_).append(400189673 * class649_sub1_sub5_sub1_sub1.anInt12160).append(Class40.aString494).toString();
 				}
 				if (client.aBool11188 && !bool) {
 					Class73 class73 = ((Class73) (-1 != -4715005 * Class173_Sub1.anInt9384 ? (Class207.aClass34_Sub22_2244.method70(-4715005 * Class173_Sub1.anInt9384, (byte) 44)) : null));
@@ -200,7 +200,7 @@ public class Class11 implements Interface70 {
 						strings = Class154.method1874(strings, 1666836487);
 					if (strings != null) {
 						for (int i_11_ = strings.length - 1; i_11_ >= 0; i_11_--) {
-							if (null != strings[i_11_] && 0 == ((class649_sub1_sub5_sub1_sub1.anInt12176) * -666688077 & 1 << i_11_) && (0 == class296.aByte3331 || (!(strings[i_11_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 2021467060))) && !(strings[i_11_].equalsIgnoreCase(Class38.aClass38_459.method840(Class459.aClass664_5178, 1680674463)))))) {
+							if (null != strings[i_11_] && 0 == ((class649_sub1_sub5_sub1_sub1.anInt12176) * -666688077 & 1 << i_11_) && (0 == class296.aByte3331 || (!(strings[i_11_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.CLIENT_PARAMS, 2021467060))) && !(strings[i_11_].equalsIgnoreCase(Class38.aClass38_459.method840(Class459.CLIENT_PARAMS, 1680674463)))))) {
 								int i_12_ = 0;
 								int i_13_ = client.anInt11203 * 1600879063;
 								if (0 == i_11_)
@@ -218,14 +218,14 @@ public class Class11 implements Interface70 {
 								int i_14_ = class296.method4000(i_11_, -1351480258);
 								if (-1 != i_14_)
 									i_13_ = i_14_;
-								Class521_Sub6.method9389(strings[i_11_], new StringBuilder().append(Class264.method3680(16776960, -1941316713)).append(string).toString(), ((strings[i_11_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 1457926223))) ? -2119776965 * class296.anInt3310 : i_13_), i_12_, -1, (long) ((class649_sub1_sub5_sub1_sub1.anInt11889) * 1710020215), 0, 0, true, false, (long) (1710020215 * (class649_sub1_sub5_sub1_sub1.anInt11889)), false, -844962541);
+								Class521_Sub6.method9389(strings[i_11_], new StringBuilder().append(Class264.method3680(16776960, -1941316713)).append(string).toString(), ((strings[i_11_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.CLIENT_PARAMS, 1457926223))) ? -2119776965 * class296.anInt3310 : i_13_), i_12_, -1, (long) ((class649_sub1_sub5_sub1_sub1.anInt11889) * 1710020215), 0, 0, true, false, (long) (1710020215 * (class649_sub1_sub5_sub1_sub1.anInt11889)), false, -844962541);
 							}
 						}
 						if (class296.aByte3331 == 1) {
 							for (int i_15_ = 0; i_15_ < strings.length; i_15_++) {
-								if (strings[i_15_] != null && ((-666688077 * (class649_sub1_sub5_sub1_sub1.anInt12176)) & 1 << i_15_) == 0 && ((strings[i_15_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 1579540962))) || (strings[i_15_].equalsIgnoreCase(Class38.aClass38_459.method840(Class459.aClass664_5178, 1309329313))))) {
+								if (strings[i_15_] != null && ((-666688077 * (class649_sub1_sub5_sub1_sub1.anInt12176)) & 1 << i_15_) == 0 && ((strings[i_15_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.CLIENT_PARAMS, 1579540962))) || (strings[i_15_].equalsIgnoreCase(Class38.aClass38_459.method840(Class459.CLIENT_PARAMS, 1309329313))))) {
 									short i_16_ = 0;
-									if ((400189673 * (class649_sub1_sub5_sub1_sub1.anInt12160)) > (611144047 * (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186)))
+									if ((400189673 * (class649_sub1_sub5_sub1_sub1.anInt12160)) > (611144047 * (Class565.MY_PLAYER.anInt12186)))
 										i_16_ = (short) 2000;
 									short i_17_ = 0;
 									int i_18_ = 1600879063 * client.anInt11203;
@@ -246,7 +246,7 @@ public class Class11 implements Interface70 {
 									int i_19_ = class296.method4000(i_15_, -1351480258);
 									if (-1 != i_19_)
 										i_18_ = i_19_;
-									Class521_Sub6.method9389(strings[i_15_], new StringBuilder().append(Class264.method3680(16776960, -1395029045)).append(string).toString(), ((strings[i_15_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.aClass664_5178, 1436758369))) ? class296.anInt3310 * -2119776965 : i_18_), i_17_, -1, (long) ((class649_sub1_sub5_sub1_sub1.anInt11889) * 1710020215), 0, 0, true, false, (long) (1710020215 * (class649_sub1_sub5_sub1_sub1.anInt11889)), false,
+									Class521_Sub6.method9389(strings[i_15_], new StringBuilder().append(Class264.method3680(16776960, -1395029045)).append(string).toString(), ((strings[i_15_].equalsIgnoreCase(Class38.aClass38_344.method840(Class459.CLIENT_PARAMS, 1436758369))) ? class296.anInt3310 * -2119776965 : i_18_), i_17_, -1, (long) ((class649_sub1_sub5_sub1_sub1.anInt11889) * 1710020215), 0, 0, true, false, (long) (1710020215 * (class649_sub1_sub5_sub1_sub1.anInt11889)), false,
 											-1076098553);
 								}
 							}

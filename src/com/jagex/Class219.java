@@ -65,7 +65,7 @@ public class Class219 implements Interface27 {
 			if (class251.pauseText != null)
 				Class521_Sub6.method9389(class251.pauseText, "", -1, 30, -1484799213 * class251.anInt2711, 0L, -809980533 * class251.anInt2546, class251.anInt2559 * -1591767037, true, false, (long) (class251.anInt2546 * -809980533 << 0 | class251.anInt2559 * -1591767037), false, -184389048);
 			else
-				Class521_Sub6.method9389(Class38.aClass38_321.method840(Class459.aClass664_5178, 2099584897), "", -1, 30, class251.anInt2711 * -1484799213, 0L, class251.anInt2546 * -809980533, class251.anInt2559 * -1591767037, true, false, (long) (class251.anInt2546 * -809980533 << 0 | class251.anInt2559 * -1591767037), false, 2105766179);
+				Class521_Sub6.method9389(Class38.aClass38_321.method840(Class459.CLIENT_PARAMS, 2099584897), "", -1, 30, class251.anInt2711 * -1484799213, 0L, class251.anInt2546 * -809980533, class251.anInt2559 * -1591767037, true, false, (long) (class251.anInt2546 * -809980533 << 0 | class251.anInt2559 * -1591767037), false, 2105766179);
 		}
 	}
 
@@ -81,8 +81,8 @@ public class Class219 implements Interface27 {
 
 	static final void method3103(Class668 class668, short i) {
 		String string;
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null && (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aString12192))
-			string = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method11086(false, -1923065949);
+		if (Class565.MY_PLAYER != null && (null != Class565.MY_PLAYER.aString12192))
+			string = Class565.MY_PLAYER.method11086(false, -1923065949);
 		else
 			string = "";
 		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = string;
@@ -93,7 +93,7 @@ public class Class219 implements Interface27 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_7_, (byte) -33)).equipLookHideSlot) * 2087922159;
 	}
 
-	public static Class167 method3105(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_8_, int i_9_) {
+	public static GraphicalRenderer method3105(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_8_, int i_9_) {
 		int i_10_ = 0;
 		int i_11_ = 0;
 		if (null != canvas) {
@@ -101,6 +101,6 @@ public class Class219 implements Interface27 {
 			i_10_ = dimension.width;
 			i_11_ = dimension.height;
 		}
-		return Class167.method2142(i, canvas, class174, interface24, interface47, interface48, interface46, class461, i_8_, i_10_, i_11_, (byte) -12);
+		return GraphicalRenderer.method2142(i, canvas, class174, interface24, interface47, interface48, interface46, class461, i_8_, i_10_, i_11_, (byte) -12);
 	}
 }

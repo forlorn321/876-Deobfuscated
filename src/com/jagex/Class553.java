@@ -15,7 +15,7 @@ public class Class553 {
 	int anInt7419;
 	int anInt7420;
 	short[][] aShortArrayArray7421;
-	Class167 aClass167_7422;
+	GraphicalRenderer aClass167_7422;
 	byte[][] aByteArrayArray7423;
 	boolean aBool7424;
 	HashMap aHashMap7425;
@@ -81,7 +81,7 @@ public class Class553 {
 		/* empty */
 	}
 
-	public void method6695(Class184 class184, byte i) {
+	public void method6695(FontRenderer class184, byte i) {
 		/* empty */
 	}
 
@@ -1405,7 +1405,7 @@ public class Class553 {
 		return null;
 	}
 
-	public Class553(Class167 class167, int i, int i_300_, int i_301_, int i_302_, int i_303_, boolean bool, boolean bool_304_) {
+	public Class553(GraphicalRenderer class167, int i, int i_300_, int i_301_, int i_302_, int i_303_, boolean bool, boolean bool_304_) {
 		anInt7442 = 0;
 		anInt7443 = 10042;
 		anInt7446 = 5057;

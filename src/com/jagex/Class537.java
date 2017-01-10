@@ -321,7 +321,7 @@ public class Class537 {
 		} catch (Exception exception) {
 			Class598 class598 = client.aClass515_11066.method6255(-1858708269);
 			String string = new StringBuilder().append(null != class106.currentPacket ? -798865899 * class106.currentPacket.id : -1).append(Class40.aString491).append(null != class106.aClass422_1271 ? -798865899 * class106.aClass422_1271.id : -1).append(Class40.aString491).append(class106.aClass422_1274 != null ? -798865899 * class106.aClass422_1274.id : -1).append(" ").append(610303591 * class106.anInt1262).append(Class40.aString491)
-					.append(1858049507 * class598.anInt7839 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0])).append(" ").toString();
+					.append(1858049507 * class598.anInt7839 + (Class565.MY_PLAYER.screenX[0])).append(Class40.aString491).append(1479112045 * class598.anInt7840 + (Class565.MY_PLAYER.screenY[0])).append(" ").toString();
 			for (int i_33_ = 0; i_33_ < class106.anInt1262 * 610303591 && i_33_ < 50; i_33_++)
 				string = new StringBuilder().append(string).append(class106.byteBuffer.buffer[i_33_]).append(Class40.aString491).toString();
 			Class81.method1165(string, exception, (byte) 71);
@@ -360,8 +360,8 @@ public class Class537 {
 					l *= l;
 					Class671.method8018(class251, class244, i_36_, i_37_, i_42_, i_43_, class103.anInt1222 * -1060879377, l);
 				}
-				if (10 == class103.anInt1224 * 2030004867 && class103.anInt1223 * 1298998125 >= 0 && (1298998125 * class103.anInt1223 < (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155).length)) {
-					Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[1298998125 * class103.anInt1223]);
+				if (10 == class103.anInt1224 * 2030004867 && class103.anInt1223 * 1298998125 >= 0 && (1298998125 * class103.anInt1223 < (client.PLAYER_LIST).length)) {
+					Player class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[1298998125 * class103.anInt1223]);
 					if (class649_sub1_sub5_sub1_sub2 != null) {
 						Class436 class436 = (class649_sub1_sub5_sub1_sub2.method7837().aClass436_4823);
 						int i_44_ = (int) class436.aFloat4850 / 128 - i / 128;

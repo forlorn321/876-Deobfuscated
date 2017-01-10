@@ -74,7 +74,7 @@ public class Class627 {
 		aBool8169 = false;
 	}
 
-	boolean method7471(Class167 class167, long l) {
+	boolean method7471(GraphicalRenderer class167, long l) {
 		if (aLong8173 != aLong8172)
 			method7469();
 		else
@@ -110,7 +110,7 @@ public class Class627 {
 		anInt8177 = i;
 	}
 
-	public void method7474(Class167 class167, long l, Class172[] class172s, Class156[] class156s, boolean bool) {
+	public void method7474(GraphicalRenderer class167, long l, Class172[] class172s, Class156[] class156s, boolean bool) {
 		if (!aBool8168) {
 			method7479(class167, class172s, bool);
 			method7483(class156s, bool);
@@ -131,7 +131,7 @@ public class Class627 {
 		return aClass166_8180;
 	}
 
-	void method7477(Class553 class553, Class167 class167) {
+	void method7477(Class553 class553, GraphicalRenderer class167) {
 		aClass166_8180.aClass703_1841.method8254(1679461828);
 		Iterator iterator = aList8174.iterator();
 		while (iterator.hasNext()) {
@@ -169,7 +169,7 @@ public class Class627 {
 		method7466(i, bool);
 	}
 
-	void method7479(Class167 class167, Class172[] class172s, boolean bool) {
+	void method7479(GraphicalRenderer class167, Class172[] class172s, boolean bool) {
 		for (int i = 0; i < 64; i++)
 			aBoolArray8181[i] = false;
 		Iterator iterator = aList8174.iterator();

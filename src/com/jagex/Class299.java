@@ -28,8 +28,8 @@ public class Class299 {
 		Class106.method1429(2134370530);
 		Class147.method1810((byte) 0);
 		for (int i_1_ = 0; i_1_ < 2048; i_1_++)
-			client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_1_] = null;
-		Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = null;
+			client.PLAYER_LIST[i_1_] = null;
+		Class565.MY_PLAYER = null;
 		for (int i_2_ = 0; i_2_ < -1683770117 * client.anInt11164; i_2_++) {
 			Class649_Sub1_Sub5_Sub1 class649_sub1_sub5_sub1 = ((Class649_Sub1_Sub5_Sub1) client.aClass536_Sub13Array11044[i_2_].value);
 			if (class649_sub1_sub5_sub1 != null)

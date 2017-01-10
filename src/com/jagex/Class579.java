@@ -55,54 +55,54 @@ public class Class579 implements Interface66 {
 
 	static void method7011(Class106 class106, IComponentDefinitions class251, int i, int i_7_, int i_8_, int i_9_) {
 		if (1 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_1, class106.aClass15_1258, 2041686680);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_1, class106.aClass15_1258, 2041686680);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -1795564833);
-			class106.method1409(class536_sub23, 1218402730);
+			class106.writePacket(class536_sub23, 1218402730);
 		}
 		if (i == 2) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_2, class106.aClass15_1258, 1924138883);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_2, class106.aClass15_1258, 1924138883);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -1227356702);
-			class106.method1409(class536_sub23, -383131430);
+			class106.writePacket(class536_sub23, -383131430);
 		}
 		if (i == 3) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_3, class106.aClass15_1258, 1287735139);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_3, class106.aClass15_1258, 1287735139);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -851297188);
-			class106.method1409(class536_sub23, 1048624472);
+			class106.writePacket(class536_sub23, 1048624472);
 		}
 		if (i == 4) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_4, class106.aClass15_1258, 914819347);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_4, class106.aClass15_1258, 914819347);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, class251.anInt2711 * -1484799213, -1650339113);
-			class106.method1409(class536_sub23, 962542354);
+			class106.writePacket(class536_sub23, 962542354);
 		}
 		if (i == 5) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_5, class106.aClass15_1258, 1814774091);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_5, class106.aClass15_1258, 1814774091);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, class251.anInt2711 * -1484799213, -470307530);
-			class106.method1409(class536_sub23, 63328735);
+			class106.writePacket(class536_sub23, 63328735);
 		}
 		if (6 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_6, class106.aClass15_1258, 1645136160);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_6, class106.aClass15_1258, 1645136160);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -1567775664);
-			class106.method1409(class536_sub23, -1808102);
+			class106.writePacket(class536_sub23, -1808102);
 		}
 		if (7 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_7, class106.aClass15_1258, 2039381288);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_7, class106.aClass15_1258, 2039381288);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, class251.anInt2711 * -1484799213, -325522629);
-			class106.method1409(class536_sub23, -90974076);
+			class106.writePacket(class536_sub23, -90974076);
 		}
 		if (8 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_8, class106.aClass15_1258, 1533193068);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_8, class106.aClass15_1258, 1533193068);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -2105628648);
-			class106.method1409(class536_sub23, 784341533);
+			class106.writePacket(class536_sub23, 784341533);
 		}
 		if (9 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_9, class106.aClass15_1258, 1382182077);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_9, class106.aClass15_1258, 1382182077);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, -1484799213 * class251.anInt2711, -289170286);
-			class106.method1409(class536_sub23, 1916627361);
+			class106.writePacket(class536_sub23, 1916627361);
 		}
 		if (10 == i) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.ACTION_BUTTON_10, class106.aClass15_1258, 597186841);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.ACTION_BUTTON_10, class106.aClass15_1258, 597186841);
 			BrightnessSetting.method10051(class536_sub23, i_7_, i_8_, class251.anInt2711 * -1484799213, -2015062708);
-			class106.method1409(class536_sub23, 1927635583);
+			class106.writePacket(class536_sub23, 1927635583);
 		}
 	}
 }

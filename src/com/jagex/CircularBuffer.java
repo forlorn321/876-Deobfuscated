@@ -123,25 +123,25 @@ public class CircularBuffer {
 	public static void method8276(String string, int i) {
 		if (client.aBool11188 && 0 != (1686601581 * Class511.anInt6931 & 0x18)) {
 			boolean bool = false;
-			int i_8_ = -1482773169 * Class95.anInt1156;
-			int[] is = Class95.anIntArray1157;
+			int i_8_ = -1482773169 * Class95.PLAYERLIST_SIZE;
+			int[] is = Class95.PLAYERLIST_INDICES;
 			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_9_]];
-				if (null != class649_sub1_sub5_sub1_sub2.username && class649_sub1_sub5_sub1_sub2.username.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(client.anInt11184 * -678599443, (byte) 0);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeByte128(0, (byte) 125);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(Class663.anInt8515 * 1625551467, (byte) 56);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(is[i_9_], -1411037171);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
-					client.aClass106_11322.method1409(class536_sub23, 1390331548);
+				Player class649_sub1_sub5_sub1_sub2 = client.PLAYER_LIST[is[i_9_]];
+				if (null != class649_sub1_sub5_sub1_sub2.username && class649_sub1_sub5_sub1_sub2.username.equalsIgnoreCase(string) && (((class649_sub1_sub5_sub1_sub2 == Class565.MY_PLAYER) && (Class511.anInt6931 * 1686601581 & 0x10) != 0) || 0 != (1686601581 * Class511.anInt6931 & 0x8))) {
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4487, (client.aClass106_11322.aClass15_1258), 1682496297);
+					class536_sub23.stream.writeShort128(client.anInt11184 * -678599443, (byte) 0);
+					class536_sub23.stream.writeByte128(0);
+					class536_sub23.stream.writeIntV2(Class663.anInt8515 * 1625551467, (byte) 56);
+					class536_sub23.stream.writeLEShort(is[i_9_], -1411037171);
+					class536_sub23.stream.writeLEShort(-1059472497 * client.anInt11183, -1411037171);
+					client.aClass106_11322.writePacket(class536_sub23, 1390331548);
 					Class205_Sub17.method9089((class649_sub1_sub5_sub1_sub2.screenX[0]), (class649_sub1_sub5_sub1_sub2.screenY[0]), (byte) -94);
 					bool = true;
 					break;
 				}
 			}
 			if (!bool)
-				Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_431.method840(Class459.aClass664_5178, 1968862526)).append(string).toString(), -1476606329);
+				Class173_Sub1.method8634(4, new StringBuilder().append(Class38.aClass38_431.method840(Class459.CLIENT_PARAMS, 1968862526)).append(string).toString(), -1476606329);
 			if (client.aBool11188)
 				Class270.method3717(-1586741064);
 		}

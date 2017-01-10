@@ -6,7 +6,7 @@ package com.jagex;
 public class Class329 implements Interface33 {
 	JS5ResourceProvider aClass461_3597;
 	Class386 aClass386_3598;
-	Class184 aClass184_3599;
+	FontRenderer aClass184_3599;
 	JS5ResourceProvider aClass461_3600;
 	public static Class550 aClass550_3601;
 

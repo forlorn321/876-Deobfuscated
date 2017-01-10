@@ -142,11 +142,11 @@ public class Class87 {
 	static String method1212(Class536_Sub18_Sub9 class536_sub18_sub9, int i) {
 		if (class536_sub18_sub9.aString11707 == null || class536_sub18_sub9.aString11707.length() == 0) {
 			if (class536_sub18_sub9.aString11712 != null && class536_sub18_sub9.aString11712.length() > 0)
-				return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840((Class459.aClass664_5178), 1504767823)).append(class536_sub18_sub9.aString11712).toString();
+				return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840((Class459.CLIENT_PARAMS), 1504767823)).append(class536_sub18_sub9.aString11712).toString();
 			return class536_sub18_sub9.aString11716;
 		}
 		if (class536_sub18_sub9.aString11712 != null && class536_sub18_sub9.aString11712.length() > 0)
-			return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840(Class459.aClass664_5178, 1920344670)).append(class536_sub18_sub9.aString11712).append(Class38.aClass38_444.method840(Class459.aClass664_5178, 1463506862)).append(class536_sub18_sub9.aString11707).toString();
-		return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840(Class459.aClass664_5178, 1745349699)).append(class536_sub18_sub9.aString11707).toString();
+			return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840(Class459.CLIENT_PARAMS, 1920344670)).append(class536_sub18_sub9.aString11712).append(Class38.aClass38_444.method840(Class459.CLIENT_PARAMS, 1463506862)).append(class536_sub18_sub9.aString11707).toString();
+		return new StringBuilder().append(class536_sub18_sub9.aString11716).append(Class38.aClass38_444.method840(Class459.CLIENT_PARAMS, 1745349699)).append(class536_sub18_sub9.aString11707).toString();
 	}
 }

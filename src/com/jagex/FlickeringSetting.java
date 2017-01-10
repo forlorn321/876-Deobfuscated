@@ -98,9 +98,9 @@ public class FlickeringSetting extends ClientSetting {
 		Class553 class553 = client.aClass515_11066.method6249(680704183);
 		Class34_Sub17 class34_sub17 = client.aClass515_11066.method6280(-1073841494);
 		int i_5_ = i;
-		if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 != null) {
-			int i_6_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3);
-			int i_7_ = ((Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3);
+		if (Class565.MY_PLAYER != null) {
+			int i_6_ = ((Class565.MY_PLAYER.screenX[0]) >> 3);
+			int i_7_ = ((Class565.MY_PLAYER.screenY[0]) >> 3);
 			if (i_6_ >= 0 && i_6_ < Class315_Sub1_Sub1.aBoolArrayArray11398.length && i_7_ >= 0 && i_7_ < Class315_Sub1_Sub1.aBoolArrayArray11398[i_6_].length && Class315_Sub1_Sub1.aBoolArrayArray11398[i_6_][i_7_])
 				i_5_ = 0;
 		}

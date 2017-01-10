@@ -19,7 +19,7 @@ public class Class542_Sub1 extends Class542 {
 	static int anInt10709;
 	static int anInt10710;
 	static boolean aBool10711;
-	static Class184[][] aClass184ArrayArray10712;
+	static FontRenderer[][] aClass184ArrayArray10712;
 	static int anInt10713 = 0;
 	public static boolean aBool10714;
 	static HashMap aHashMap10715;
@@ -49,7 +49,7 @@ public class Class542_Sub1 extends Class542 {
 		anInt10709 = 1556558237;
 		anInt10710 = -382996535;
 		aBool10711 = false;
-		aClass184ArrayArray10712 = new Class184[3][5];
+		aClass184ArrayArray10712 = new FontRenderer[3][5];
 		aClass2ArrayArray10723 = new Class2[3][5];
 		aHashMap10719 = new HashMap();
 		aHashMap10715 = new HashMap();

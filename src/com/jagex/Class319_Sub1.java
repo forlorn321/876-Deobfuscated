@@ -4,12 +4,12 @@
 package com.jagex;
 
 public class Class319_Sub1 extends Class319 {
-	Class143 aClass143_9988;
-	Class143 aClass143_9989;
-	Class143 aClass143_9990;
-	Class143 aClass143_9991;
-	Class143 aClass143_9992;
-	Class143 aClass143_9993;
+	NativeSprite aClass143_9988;
+	NativeSprite aClass143_9989;
+	NativeSprite aClass143_9990;
+	NativeSprite aClass143_9991;
+	NativeSprite aClass143_9992;
+	NativeSprite aClass143_9993;
 
 	void method4232(boolean bool, int i, int i_0_, int i_1_) {
 		if (bool) {

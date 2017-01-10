@@ -67,7 +67,7 @@ public abstract class Class504 {
 		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (((ItemDecoder) Class111.aClass34_Sub13_1391.method70(i_2_, (byte) -87)).equipSlot) * 432606769;
 	}
 
-	static void method6079(IComponentDefinitions class251, Class161 class161, int i, int i_3_, int i_4_, int i_5_, int i_6_, String string, Class184 class184, Class2 class2, int i_7_, int i_8_) {
+	static void method6079(IComponentDefinitions class251, Class161 class161, int i, int i_3_, int i_4_, int i_5_, int i_6_, String string, FontRenderer class184, Class2 class2, int i_7_, int i_8_) {
 		int i_9_;
 		if (2 == 155362615 * Class246.anInt2474)
 			i_9_ = ((int) ((double) Class683.aClass301_Sub1_8651.method4092((byte) 3) * 2607.5945876176133) + -2011409073 * client.anInt11096) & 0x3fff;

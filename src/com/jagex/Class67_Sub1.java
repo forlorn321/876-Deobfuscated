@@ -19,16 +19,16 @@ public class Class67_Sub1 extends Class67 implements Interface68 {
 	}
 
 	public void method206(int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 2045540073);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-736289383 * anInt744, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(anInt741 * -2039657679, 1435073607);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1740372171 * anInt742, 1796457798);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(-1567276581 * anInt726, 1185890176);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1065708543 * anInt739, 2069889807);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(458702423 * anInt743, -1353838932);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt737 * -1157754649, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9754(anInt738 * 1381681467, -2141793970);
-		client.aClass106_11322.method1409(class536_sub23, 1315139892);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 2045540073);
+		class536_sub23.stream.writeShort128(-736289383 * anInt744, (byte) 0);
+		class536_sub23.stream.write24BitInt(anInt741 * -2039657679, 1435073607);
+		class536_sub23.stream.write24BitInt(1740372171 * anInt742, 1796457798);
+		class536_sub23.stream.method9753(-1567276581 * anInt726, 1185890176);
+		class536_sub23.stream.write24BitInt(1065708543 * anInt739, 2069889807);
+		class536_sub23.stream.method9729(458702423 * anInt743, -1353838932);
+		class536_sub23.stream.writeShort128(anInt737 * -1157754649, (byte) 0);
+		class536_sub23.stream.method9754(anInt738 * 1381681467, -2141793970);
+		client.aClass106_11322.writePacket(class536_sub23, 1315139892);
 	}
 
 	public void method9795(int i, int i_2_, byte i_3_) {
@@ -53,29 +53,29 @@ public class Class67_Sub1 extends Class67 implements Interface68 {
 	}
 
 	public void method296() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 1507666143);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-736289383 * anInt744, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(anInt741 * -2039657679, 1443544045);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1740372171 * anInt742, 934358407);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(-1567276581 * anInt726, 388640495);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1065708543 * anInt739, 1723433641);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(458702423 * anInt743, -1631319423);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt737 * -1157754649, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9754(anInt738 * 1381681467, -1800016851);
-		client.aClass106_11322.method1409(class536_sub23, -325112363);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 1507666143);
+		class536_sub23.stream.writeShort128(-736289383 * anInt744, (byte) 0);
+		class536_sub23.stream.write24BitInt(anInt741 * -2039657679, 1443544045);
+		class536_sub23.stream.write24BitInt(1740372171 * anInt742, 934358407);
+		class536_sub23.stream.method9753(-1567276581 * anInt726, 388640495);
+		class536_sub23.stream.write24BitInt(1065708543 * anInt739, 1723433641);
+		class536_sub23.stream.method9729(458702423 * anInt743, -1631319423);
+		class536_sub23.stream.writeShort128(anInt737 * -1157754649, (byte) 0);
+		class536_sub23.stream.method9754(anInt738 * 1381681467, -1800016851);
+		client.aClass106_11322.writePacket(class536_sub23, -325112363);
 	}
 
 	public void method131() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 664592060);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(-736289383 * anInt744, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(anInt741 * -2039657679, 405303182);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1740372171 * anInt742, 937219112);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9753(-1567276581 * anInt726, -1411592158);
-		class536_sub23.aClass536_Sub33_Sub2_10528.write24BitInt(1065708543 * anInt739, 1797865791);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9729(458702423 * anInt743, -1966702122);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(anInt737 * -1157754649, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9754(anInt738 * 1381681467, 1562390540);
-		client.aClass106_11322.method1409(class536_sub23, 1747131357);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4512, client.aClass106_11322.aClass15_1258, 664592060);
+		class536_sub23.stream.writeShort128(-736289383 * anInt744, (byte) 0);
+		class536_sub23.stream.write24BitInt(anInt741 * -2039657679, 405303182);
+		class536_sub23.stream.write24BitInt(1740372171 * anInt742, 937219112);
+		class536_sub23.stream.method9753(-1567276581 * anInt726, -1411592158);
+		class536_sub23.stream.write24BitInt(1065708543 * anInt739, 1797865791);
+		class536_sub23.stream.method9729(458702423 * anInt743, -1966702122);
+		class536_sub23.stream.writeShort128(anInt737 * -1157754649, (byte) 0);
+		class536_sub23.stream.method9754(anInt738 * 1381681467, 1562390540);
+		client.aClass106_11322.writePacket(class536_sub23, 1747131357);
 	}
 
 	public void method9796(int i) {

@@ -88,9 +88,9 @@ public class BrightnessSetting extends ClientSetting {
 			class668.anInt8564 += -1531084683 * (class668.anIntArray8537[-1640738851 * class668.anInt8564]);
 	}
 
-	static void method10051(Class536_Sub23 class536_sub23, int i, int i_2_, int i_3_, int i_4_) {
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort128(i_2_, (byte) 0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i_3_, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeIntV2(i, (byte) 33);
+	static void method10051(OutgoingPacketContainer class536_sub23, int i, int i_2_, int i_3_, int i_4_) {
+		class536_sub23.stream.writeShort128(i_2_, (byte) 0);
+		class536_sub23.stream.writeShort(i_3_, -1778059594);
+		class536_sub23.stream.writeIntV2(i, (byte) 33);
 	}
 }

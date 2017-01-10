@@ -38,7 +38,7 @@ public class Class83 {
 		if (Class390.aClass390_4054 == class390)
 			return Class306.method4119(class536_sub33, 818142368);
 		if (class390 == Class390.aClass390_4048)
-			return Class536_Sub23.method9583(class536_sub33, -683453912);
+			return OutgoingPacketContainer.method9583(class536_sub33, -683453912);
 		if (Class390.aClass390_4057 == class390)
 			return Class536_Sub39.method9849(class536_sub33, (byte) -35);
 		if (Class390.aClass390_4058 == class390)

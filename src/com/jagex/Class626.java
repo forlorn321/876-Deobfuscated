@@ -139,7 +139,7 @@ public class Class626 {
 		client.aBool11015 = false;
 	}
 
-	static void method7463(Class559 class559, int i, int i_1_, int i_2_, Class177 class177, int i_3_) {
+	static void method7463(Class559 class559, int i, int i_1_, int i_2_, MeshRasterizer class177, int i_3_) {
 		if (class177 != null)
 			class559.method6819(i, i_1_, i_2_, class177.method2493(), class177.method2563(), class177.method2483(), class177.method2562(), class177.method2497(), class177.method2498(), class177.method2499());
 	}

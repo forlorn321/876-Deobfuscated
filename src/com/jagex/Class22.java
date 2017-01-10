@@ -56,7 +56,7 @@ public final class Class22 {
 		Class99.method1326(class251, class234, class668, -213856354);
 	}
 
-	static void method716(Class167 class167, int i) {
+	static void method716(GraphicalRenderer class167, int i) {
 		if (Class70.aClass443_777 != null) {
 			class167.method2390(Class70.aClass443_777);
 			class167.method2099(Class70.aClass433_779);

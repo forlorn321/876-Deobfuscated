@@ -30,6 +30,6 @@ final class Class483 implements Interface11 {
 	}
 
 	static final void method5840(Class668 class668, int i) {
-		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = new StringBuilder().append(Class6.method594(((long) (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 60000L), Class459.aClass664_5178.method78(), true, -924388794)).append(" UTC").toString();
+		class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = new StringBuilder().append(Class6.method594(((long) (class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) * 60000L), Class459.CLIENT_PARAMS.method78(), true, -924388794)).append(" UTC").toString();
 	}
 }

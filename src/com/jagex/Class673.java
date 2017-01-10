@@ -54,8 +54,8 @@ public final class Class673 {
 			}
 			if (i == 10 || i == 16)
 				Class458_Sub3.method9357((byte) 12);
-			boolean bool = (i == 12 || Class566.method6895(i, 895161574) || Class233.method3334(i, (byte) -73));
-			boolean bool_1_ = (-708374433 * client.anInt11101 == 12 || Class566.method6895(-708374433 * client.anInt11101, 2077425752) || Class233.method3334(-708374433 * client.anInt11101, (byte) -83));
+			boolean bool = (i == 12 || RSOutputStream.method6895(i, 895161574) || Class233.method3334(i, (byte) -73));
+			boolean bool_1_ = (-708374433 * client.anInt11101 == 12 || RSOutputStream.method6895(-708374433 * client.anInt11101, 2077425752) || Class233.method3334(-708374433 * client.anInt11101, (byte) -83));
 			if (bool_1_ != bool)
 				Class176.aClass460_1936.method5530(!bool, (byte) -44);
 			if (Class578.method7007(i, 2132553946) || 17 == i || i == 19)

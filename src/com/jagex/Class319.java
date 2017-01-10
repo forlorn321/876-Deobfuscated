@@ -7,7 +7,7 @@ public abstract class Class319 implements Interface33 {
 	Class392 aClass392_3527;
 	long aLong3528;
 	JS5ResourceProvider aClass461_3529;
-	Class184 aClass184_3530;
+	FontRenderer aClass184_3530;
 	int anInt3531;
 	JS5ResourceProvider aClass461_3532;
 

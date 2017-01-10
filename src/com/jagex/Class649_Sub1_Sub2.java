@@ -19,12 +19,12 @@ public abstract class Class649_Sub1_Sub2 extends Class649_Sub1 {
 		return 1302820669 * anInt11754;
 	}
 
-	boolean method9982(Class167 class167) {
+	boolean method9982(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6601(aByte10840, ((int) class436.aFloat4850 >> aClass553_10838.anInt7444 * 1893698405), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444)));
 	}
 
-	boolean method9948(Class167 class167, int i) {
+	boolean method9948(GraphicalRenderer class167, int i) {
 		Class436 class436 = method7837().aClass436_4823;
 		return (aClass553_10838.aClass544_7426.method6601(aByte10840, ((int) class436.aFloat4850 >> aClass553_10838.anInt7444 * 1893698405), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444)));
 	}

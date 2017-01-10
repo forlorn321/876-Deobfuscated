@@ -23,7 +23,7 @@ final class Class48 implements Interface64 {
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = class251.opBase;
 	}
 
-	static void method915(Class167 class167, byte i) {
+	static void method915(GraphicalRenderer class167, byte i) {
 		if (!Class70.aBool780)
 			Class38.method847(class167, -1389444223);
 		else

@@ -252,7 +252,7 @@ public class JS5ConfigGroup {
 		if (client.aClass515_11066.method6249(136765170) == null)
 			Class677.aClass167_8609.method2057(i, i_17_, i_18_, i_19_, -16777216, (short) -25562);
 		else {
-			Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+			Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 			boolean bool_21_ = false;
 			if (3 != 1542697723 * client.anInt11074) {
 				if (!client.aBool11159)
@@ -267,7 +267,7 @@ public class JS5ConfigGroup {
 				Class677.aClass167_8609.method2057(i, i_17_, i_18_, i_19_, -16777216, (short) -1553);
 			else {
 				client.anInt11127 += 1788280359;
-				if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 && ((int) class436.aFloat4850 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 256) >> 9 == Class101.anInt1205 * -349564685 && (((int) class436.aFloat4853 - (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method10874() - 1) * 256) >> 9 == 400767477 * Class101.anInt1194)) {
+				if (null != Class565.MY_PLAYER && ((int) class436.aFloat4850 - (Class565.MY_PLAYER.method10874() - 1) * 256) >> 9 == Class101.anInt1205 * -349564685 && (((int) class436.aFloat4853 - (Class565.MY_PLAYER.method10874() - 1) * 256) >> 9 == 400767477 * Class101.anInt1194)) {
 					Class101.anInt1205 = 1245738949;
 					Class101.anInt1194 = -1934813789;
 					Class171.method2430((byte) 5);
@@ -385,10 +385,10 @@ public class JS5ConfigGroup {
 				else
 					i_38_ = (byte) 1;
 				if (Class70.method1117(-1727260073) || Class246.anInt2474 * 155362615 == 2)
-					client.aClass515_11066.method6249(-1830350637).method6730(client.cycles, 606032575 * class305.anInt3441, class305.anInt3442 * 1904157639, 1232077433 * class305.anInt3443, client.aClass515_11066.method6314((byte) -31), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, 1 + (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839), i_38_, (int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9,
+					client.aClass515_11066.method6249(-1830350637).method6730(client.cycles, 606032575 * class305.anInt3441, class305.anInt3442 * 1904157639, 1232077433 * class305.anInt3443, client.aClass515_11066.method6314((byte) -31), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, 1 + (Class565.MY_PLAYER.aByte10839), i_38_, (int) class436.aFloat4850 >> 9, (int) class436.aFloat4853 >> 9,
 							ClientSetting.aClass536_Sub40_8843.flickeringSetting.method10087(2069851228) == 0, true, 0, true);
 				else
-					client.aClass515_11066.method6249(-674673073).method6730(client.cycles, Class637.anInt8301 * -1607026219, -1598853731 * Class205_Sub21.anInt9958, -1646092097 * Class685.anInt8665, client.aClass515_11066.method6314((byte) 20), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839) + 1, i_38_, (int) class436.aFloat4850 >> 9,
+					client.aClass515_11066.method6249(-674673073).method6730(client.cycles, Class637.anInt8301 * -1607026219, -1598853731 * Class205_Sub21.anInt9958, -1646092097 * Class685.anInt8665, client.aClass515_11066.method6314((byte) 20), client.anIntArray11051, client.anIntArray11089, client.anIntArray11145, client.anIntArray11146, client.anIntArray11097, (Class565.MY_PLAYER.aByte10839) + 1, i_38_, (int) class436.aFloat4850 >> 9,
 							(int) class436.aFloat4853 >> 9, ClientSetting.aClass536_Sub40_8843.flickeringSetting.method10087(2052345428) == 0, true, 0, true);
 				client.anInt11028 += 1265757775;
 				if (!Class677.aClass167_8609.method2116() && client.anInt11101 * -708374433 == 9)
@@ -403,7 +403,7 @@ public class JS5ConfigGroup {
 					client.aBool11012 = false;
 				if (client.aBool11012) {
 					Class677.aClass167_8609.method2057(i, i_17_, i_18_, i_19_, -16777216, (short) -6740);
-					Class306.method4120(Class38.aClass38_402.method840(Class459.aClass664_5178, 1895792731), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
+					Class306.method4120(Class38.aClass38_402.method840(Class459.CLIENT_PARAMS, 1895792731), false, Class677.aClass167_8609, Clan.aClass184_10488, Class223.aClass2_2338, (byte) 0);
 				}
 				Class317.method4228(client.aClass443_11198, false, (float) (i_18_ / 2 + i), (float) (i_19_ / 2 + i_17_), (float) (client.anInt11287 * 455927939 << 1), (float) (455927939 * client.anInt11287 << 1), i_18_, i_19_, 1599693767);
 				Class677.aClass167_8609.method2390(client.aClass443_11198);

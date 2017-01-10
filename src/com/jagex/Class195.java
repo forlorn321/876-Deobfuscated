@@ -10,7 +10,7 @@ public final class Class195 {
 	Class536_Sub18 aClass536_Sub18_2198 = new Class536_Sub18();
 	Class4 aClass4_2199;
 	public static Class5 aClass5_2200;
-	public static Class143[] aClass143Array2201;
+	public static NativeSprite[] aClass143Array2201;
 
 	public Class195(int i) {
 		aClass700_2196 = new Class700();

@@ -354,7 +354,7 @@ public class PlayerSkill {
 		}
 		if ((flag & 0x4000) != 0) { //force_chat
 			String string = buffer.readString();
-			if (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 == player)
+			if (Class565.MY_PLAYER == player)
 				Class635.method7564(2, 0, player.method11085(true, (byte) 1), player.method11086(false, -2021464545), player.aString12192, string, null, -1538266173);
 			player.method11090(string, 0, 0, (byte) -93);
 		}

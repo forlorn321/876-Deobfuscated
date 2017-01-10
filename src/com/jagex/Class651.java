@@ -64,7 +64,7 @@ public class Class651 {
 		return true;
 	}
 
-	static void method7864(Class167 class167, int i, int i_5_, int i_6_, int i_7_, int i_8_, Class184 class184, Class2 class2, String string, byte i_9_) {
+	static void method7864(GraphicalRenderer class167, int i, int i_5_, int i_6_, int i_7_, int i_8_, FontRenderer class184, Class2 class2, String string, byte i_9_) {
 		int i_10_ = (255 - -1593467459 * Class42.anInt509 - 1566263285 * Class70.anInt781);
 		if (i_10_ < 0)
 			i_10_ = 0;
@@ -85,7 +85,7 @@ public class Class651 {
 			Class247_Sub1.aClass143_9969.method1728(i, i_5_);
 			Class640.aClass143_8311.method1728(i_6_ + i - Class640.aClass143_8311.method1720(), i_5_);
 		}
-		class184.renderItemAmountIThink(string, 3 + i, (-1214764847 * class2.anInt91 + i_5_ + (20 - class2.anInt91 * -1214764847) / 2), 1559126045 * Class158.anInt1743 | ~0xffffff, -1, (byte) -45);
+		class184.renderText(string, 3 + i, (-1214764847 * class2.anInt91 + i_5_ + (20 - class2.anInt91 * -1214764847) / 2), 1559126045 * Class158.anInt1743 | ~0xffffff, -1, (byte) -45);
 		class167.method2063(i, i_8_ + i_5_, i_6_, i_7_ - i_8_, i_10_ << 24 | -1070393461 * Class105.anInt1253, 1);
 	}
 }

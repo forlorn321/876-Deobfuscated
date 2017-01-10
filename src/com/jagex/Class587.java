@@ -138,7 +138,7 @@ public class Class587 implements ConfigType {
 		}
 	}
 
-	void method7068(Class167 class167, int i) {
+	void method7068(GraphicalRenderer class167, int i) {
 		JS5ResourceProvider class461 = aClass584_7712.aClass461_7705;
 		if (1810029221 * anInt7722 >= 0 && (aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221)) == null) && class461.method5580(1810029221 * anInt7722, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, anInt7722 * 1810029221);
@@ -170,18 +170,18 @@ public class Class587 implements ConfigType {
 		return string;
 	}
 
-	public Class143 method7070(Class167 class167, byte i) {
+	public NativeSprite method7070(GraphicalRenderer class167, byte i) {
 		if (anInt7722 * 1810029221 < 0)
 			return null;
-		Class143 class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
+		NativeSprite class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
 		if (null == class143) {
 			method7068(class167, 851234370);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
 		}
 		return class143;
 	}
 
-	void method7071(Class167 class167) {
+	void method7071(GraphicalRenderer class167) {
 		JS5ResourceProvider class461 = aClass584_7712.aClass461_7705;
 		if (1810029221 * anInt7722 >= 0 && (aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221)) == null) && class461.method5580(1810029221 * anInt7722, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, anInt7722 * 1810029221);
@@ -292,57 +292,57 @@ public class Class587 implements ConfigType {
 			anInt7726 = class536_sub33.readUnsignedShort() * -1024398757;
 	}
 
-	public Class143 method7073(Class167 class167, byte i) {
+	public NativeSprite method7073(GraphicalRenderer class167, byte i) {
 		if (anInt7724 * -769447179 < 0)
 			return null;
-		Class143 class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7724 * -769447179));
+		NativeSprite class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7724 * -769447179));
 		if (class143 == null) {
 			method7068(class167, 1874696550);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7724 * -769447179));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7724 * -769447179));
 		}
 		return class143;
 	}
 
-	public Class143 method7074(Class167 class167, int i) {
+	public NativeSprite method7074(GraphicalRenderer class167, int i) {
 		if (272124267 * anInt7723 < 0)
 			return null;
-		Class143 class143 = ((Class143) aClass584_7712.aClass199_7706.method2886((long) (272124267 * anInt7723)));
+		NativeSprite class143 = ((NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (272124267 * anInt7723)));
 		if (null == class143) {
 			method7068(class167, 1807208828);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7723 * 272124267));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7723 * 272124267));
 		}
 		return class143;
 	}
 
-	public Class143 method7075(Class167 class167) {
+	public NativeSprite method7075(GraphicalRenderer class167) {
 		if (anInt7722 * 1810029221 < 0)
 			return null;
-		Class143 class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
+		NativeSprite class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
 		if (null == class143) {
 			method7068(class167, 1215324507);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
 		}
 		return class143;
 	}
 
-	public Class143 method7076(Class167 class167) {
+	public NativeSprite method7076(GraphicalRenderer class167) {
 		if (anInt7722 * 1810029221 < 0)
 			return null;
-		Class143 class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
+		NativeSprite class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7722 * 1810029221));
 		if (null == class143) {
 			method7068(class167, 1302803686);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (1810029221 * anInt7722));
 		}
 		return class143;
 	}
 
-	public Class143 method7077(Class167 class167, int i) {
+	public NativeSprite method7077(GraphicalRenderer class167, int i) {
 		if (-203388529 * anInt7725 < 0)
 			return null;
-		Class143 class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7725 * -203388529));
+		NativeSprite class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7725 * -203388529));
 		if (null == class143) {
 			method7068(class167, 1165101202);
-			class143 = (Class143) aClass584_7712.aClass199_7706.method2886((long) (anInt7725 * -203388529));
+			class143 = (NativeSprite) aClass584_7712.aClass199_7706.method2886((long) (anInt7725 * -203388529));
 		}
 		return class143;
 	}

@@ -6,7 +6,7 @@ package com.jagex;
 public class Class267 {
 	public String aString2868;
 	public String aString2869;
-	public static short[][][] aShortArrayArrayArray2870;
+	public static short[][][] skinColors;
 
 	void method3697(Class269 class269) {
 		aString2868 = class269.method3709(-1000987173);

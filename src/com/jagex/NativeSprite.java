@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public abstract class Class143 implements Interface2 {
+public abstract class NativeSprite implements Interface2 {
 	public final void method1717(float f, float f_0_, float f_1_, float f_2_, float f_3_, float f_4_, int i, int i_5_, int i_6_) {
 		method1740(f, f_0_, f_1_, f_2_, f_3_, f_4_, i, i_5_, i_6_, 1);
 	}
@@ -199,7 +199,7 @@ public abstract class Class143 implements Interface2 {
 
 	public abstract void method1781(int i, int i_280_, int i_281_, int i_282_);
 
-	Class143() {
+	NativeSprite() {
 		/* empty */
 	}
 

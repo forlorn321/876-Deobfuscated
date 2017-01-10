@@ -15,26 +15,26 @@ public abstract class Class460 {
 	Class700 aClass700_5190;
 	int anInt5191;
 	long aLong5192;
-	RSByteBuffer aClass536_Sub33_5193;
+	RSByteBuffer outStream;
 	static final int anInt5194 = 5;
 	public volatile int anInt5195;
 	public volatile int anInt5196;
 	public volatile int anInt5197;
 	static final int anInt5198 = 4;
-	RSByteBuffer aClass536_Sub33_5199;
+	RSByteBuffer inStream;
 	RSByteBuffer buffer;
 	int anInt5201;
-	Class536_Sub18_Sub15_Sub2 aClass536_Sub18_Sub15_Sub2_5202;
+	JS5ArchiveRequest aClass536_Sub18_Sub15_Sub2_5202;
 	public static JS5ResourceProvider aClass461_5203;
 
 	public int method5521() {
 		return (aClass700_5185.method8246((byte) 50) + aClass700_5181.method8246((byte) 71));
 	}
 
-	Class536_Sub18_Sub15_Sub2 method5522(int i, int i_0_, byte i_1_, boolean bool, int i_2_) {
+	JS5ArchiveRequest method5522(int i, int i_0_, byte i_1_, boolean bool, int i_2_) {
 		long l = ((long) i << 32) + (long) i_0_;
-		Class536_Sub18_Sub15_Sub2 class536_sub18_sub15_sub2 = new Class536_Sub18_Sub15_Sub2();
-		class536_sub18_sub15_sub2.aLong10507 = 2122374251850846107L * l;
+		JS5ArchiveRequest class536_sub18_sub15_sub2 = new JS5ArchiveRequest();
+		class536_sub18_sub15_sub2.requestHash = 2122374251850846107L * l;
 		class536_sub18_sub15_sub2.aByte12115 = i_1_;
 		class536_sub18_sub15_sub2.aBool11778 = bool;
 		if (bool) {
@@ -119,13 +119,13 @@ public abstract class Class460 {
 		aClass700_5181 = new Class700();
 		aClass700_5187 = new Class700();
 		aClass700_5190 = new Class700();
-		aClass536_Sub33_5193 = new RSByteBuffer(6);
+		outStream = new RSByteBuffer(6);
 		aByte5182 = (byte) 0;
 		anInt5195 = 0;
 		anInt5196 = 0;
 		anInt5197 = -1688272219;
 		anInt5183 = -1278660259;
-		aClass536_Sub33_5199 = new RSByteBuffer(5);
+		inStream = new RSByteBuffer(5);
 		buffer = new RSByteBuffer(5);
 		anInt5201 = 0;
 		aClass536_Sub18_Sub15_Sub2_5202 = null;
@@ -141,7 +141,7 @@ public abstract class Class460 {
 		Class536_Sub18_Sub12 class536_sub18_sub12 = Class649_Sub1_Sub4_Sub2.method10955(i_6_, (short) -6486);
 		if (class536_sub18_sub12 != null) {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub12.anInt11729 * -966390473;
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (-1919173613 * Class459.aClass664_5178.anInt8526), 1009886607);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (-1919173613 * Class459.CLIENT_PARAMS.languageId), 1009886607);
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = 1331173969 * class536_sub18_sub12.anInt11733;
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11727 != null ? class536_sub18_sub12.aString11727 : "");
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11732 != null ? class536_sub18_sub12.aString11732 : "");

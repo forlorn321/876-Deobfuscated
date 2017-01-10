@@ -300,7 +300,7 @@ public class Class465 {
 		}
 	}
 
-	public final void method5640(Class167 class167, Class160 class160, Class160 class160_53_, int i) {
+	public final void method5640(GraphicalRenderer class167, Class160 class160, Class160 class160_53_, int i) {
 		int[][] is = new int[312855363 * anInt5242][-183622811 * anInt5284];
 		if (null == anIntArray5253 || anIntArray5253.length != -183622811 * anInt5284) {
 			anIntArray5253 = new int[anInt5284 * -183622811];
@@ -391,7 +391,7 @@ public class Class465 {
 			aClass553_5269.aClass160Array7431[i_70_].method1922();
 	}
 
-	void method5641(Class167 class167, Class160 class160, int i, int[][] is, Class160 class160_71_, Class160 class160_72_, byte i_73_) {
+	void method5641(GraphicalRenderer class167, Class160 class160, int i, int[][] is, Class160 class160_71_, Class160 class160_72_, byte i_73_) {
 		for (int i_74_ = 0; i_74_ < anInt5242 * 312855363; i_74_++) {
 			for (int i_75_ = 0; i_75_ < -183622811 * anInt5284; i_75_++) {
 				byte i_76_ = aByteArrayArrayArray5267[i][i_74_][i_75_];
@@ -582,7 +582,7 @@ public class Class465 {
 		return -1883533497 * anInt5281;
 	}
 
-	void method5643(Class167 class167, Class647 class647, Class20 class20, int i, int i_125_, byte[][] is, byte[][] is_126_, short[][] is_127_, boolean[] bools, byte i_128_) {
+	void method5643(GraphicalRenderer class167, Class647 class647, Class20 class20, int i, int i_125_, byte[][] is, byte[][] is_126_, short[][] is_127_, boolean[] bools, byte i_128_) {
 		boolean[] bools_129_ = (class647 != null && class647.aBool8371 ? aBoolArrayArray5290[anInt5302 * -312900595] : aBoolArrayArray5285[-312900595 * anInt5302]);
 		method5656(class167, class647, class20, i, i_125_, anInt5242 * 312855363, anInt5284 * -183622811, is_127_, is, is_126_, bools, 1422773388);
 		aBool5312 = class647 != null && (1648019033 * class647.anInt8364 != class647.anInt8366 * -1198548799);
@@ -667,7 +667,7 @@ public class Class465 {
 		}
 	}
 
-	void method5645(Class167 class167, int i, int i_143_, int i_144_, Class647 class647, boolean[] bools, int[] is, int[] is_145_, int[] is_146_, int[] is_147_, int[] is_148_, int[] is_149_, int[] is_150_, int[] is_151_, Class160 class160, Class160 class160_152_, Class160 class160_153_, int i_154_) {
+	void method5645(GraphicalRenderer class167, int i, int i_143_, int i_144_, Class647 class647, boolean[] bools, int[] is, int[] is_145_, int[] is_146_, int[] is_147_, int[] is_148_, int[] is_149_, int[] is_150_, int[] is_151_, Class160 class160, Class160 class160_152_, Class160 class160_153_, int i_154_) {
 		anInt5308 = -441352059;
 		anInt5306 = 1371028645;
 		anInt5248 = 253372672;
@@ -784,7 +784,7 @@ public class Class465 {
 			anInt5310 += anIntArray5272[anInt5302 * -312900595] * -430284237;
 	}
 
-	void method5646(Class167 class167, int i, int i_171_, int i_172_, int i_173_, int i_174_, Class20 class20, int i_175_, int i_176_, int i_177_, int i_178_, boolean[] bools, int[] is, int[] is_179_, int[] is_180_, int[] is_181_, int[] is_182_, int[] is_183_, int[] is_184_, int[] is_185_, int[][] is_186_, Class160 class160, Class160 class160_187_, Class160 class160_188_, byte i_189_) {
+	void method5646(GraphicalRenderer class167, int i, int i_171_, int i_172_, int i_173_, int i_174_, Class20 class20, int i_175_, int i_176_, int i_177_, int i_178_, boolean[] bools, int[] is, int[] is_179_, int[] is_180_, int[] is_181_, int[] is_182_, int[] is_183_, int[] is_184_, int[] is_185_, int[][] is_186_, Class160 class160, Class160 class160_187_, Class160 class160_188_, byte i_189_) {
 		if (class20 != null) {
 			if (i_176_ == 0)
 				i_176_ = i_175_;
@@ -1014,7 +1014,7 @@ public class Class465 {
 			method5636(i_226_, i, i_223_, i_224_, i_225_, 34710999);
 	}
 
-	public void method5653(Class167 class167, int[][][] is, int i) {
+	public void method5653(GraphicalRenderer class167, int[][][] is, int i) {
 		for (int i_227_ = 0; i_227_ < -1581600933 * anInt5241; i_227_++) {
 			int i_228_ = 0;
 			int i_229_ = 0;
@@ -1053,7 +1053,7 @@ public class Class465 {
 		}
 	}
 
-	final void method5656(Class167 class167, Class647 class647, Class20 class20, int i, int i_245_, int i_246_, int i_247_, short[][] is, byte[][] is_248_, byte[][] is_249_, boolean[] bools, int i_250_) {
+	final void method5656(GraphicalRenderer class167, Class647 class647, Class20 class20, int i, int i_245_, int i_246_, int i_247_, short[][] is, byte[][] is_248_, byte[][] is_249_, boolean[] bools, int i_250_) {
 		boolean[] bools_251_ = (null != class647 && class647.aBool8371 ? aBoolArrayArray5290[anInt5302 * -312900595] : aBoolArrayArray5285[-312900595 * anInt5302]);
 		if (i_245_ > 0) {
 			if (i > 0) {
@@ -1294,7 +1294,7 @@ public class Class465 {
 		}
 	}
 
-	void method5657(Class167 class167, Class160 class160, int i, int[][] is, Class160 class160_307_, Class160 class160_308_, int i_309_) {
+	void method5657(GraphicalRenderer class167, Class160 class160, int i, int[][] is, Class160 class160_307_, Class160 class160_308_, int i_309_) {
 		byte[][] is_310_ = aByteArrayArrayArray5267[i];
 		byte[][] is_311_ = aByteArrayArrayArray5249[i];
 		short[][] is_312_ = aShortArrayArrayArray5297[i];
@@ -1464,7 +1464,7 @@ public class Class465 {
 	}
 
 	static final void method5664(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (611144047 * Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.anInt12186);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = (611144047 * Class565.MY_PLAYER.anInt12186);
 	}
 
 	static final void method5665(Class668 class668, int i) {

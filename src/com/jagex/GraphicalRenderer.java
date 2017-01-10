@@ -7,7 +7,7 @@ import java.awt.Canvas;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-public abstract class Class167 {
+public abstract class GraphicalRenderer {
 	public static final int anInt1843 = 1;
 	public static final int anInt1844 = 1;
 	Class183_Sub2[] aClass183_Sub2Array1845;
@@ -45,7 +45,7 @@ public abstract class Class167 {
 
 	public abstract void method2000(int i, int i_0_);
 
-	Class167(Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46) {
+	GraphicalRenderer(Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46) {
 		aHashtable1859 = new Hashtable();
 		aClass183_Sub2Array1845 = new Class183_Sub2[4];
 		anInt1875 = 0;
@@ -255,7 +255,7 @@ public abstract class Class167 {
 
 	public abstract void method2049(int[] is);
 
-	public abstract Class143 method2050(int i, int i_47_, boolean bool, boolean bool_48_);
+	public abstract NativeSprite method2050(int i, int i_47_, boolean bool, boolean bool_48_);
 
 	public abstract void method2051();
 
@@ -323,17 +323,17 @@ public abstract class Class167 {
 
 	public abstract void method2077(Class536_Sub25 class536_sub25);
 
-	public abstract int[] method2078(int i, int i_117_, int i_118_, int i_119_);
+	public abstract int[] getPixelArea(int i, int i_117_, int i_118_, int i_119_);
 
 	public abstract Interface21 method2079(int i, int i_120_, int i_121_);
 
-	public abstract Class143 method2080(int[] is, int i, int i_122_, int i_123_, int i_124_, boolean bool);
+	public abstract NativeSprite method2080(int[] is, int i, int i_122_, int i_123_, int i_124_, boolean bool);
 
-	public Class143 method2081(int[] is, int i, int i_125_, int i_126_, int i_127_, byte i_128_) {
+	public NativeSprite createNativeSprite(int[] is, int i, int i_125_, int i_126_, int i_127_, byte i_128_) {
 		return method2080(is, i, i_125_, i_126_, i_127_, true);
 	}
 
-	public abstract Class143 method2082(Class179 class179, boolean bool);
+	public abstract NativeSprite method2082(Class179 class179, boolean bool);
 
 	public abstract boolean method2083();
 
@@ -353,7 +353,7 @@ public abstract class Class167 {
 
 	public abstract void method2088(int i, Class161 class161, int i_131_, int i_132_);
 
-	public abstract Class184 method2089(Class2 class2, Class179[] class179s, boolean bool);
+	public abstract FontRenderer method2089(Class2 class2, Class179[] class179s, boolean bool);
 
 	public abstract boolean method2090();
 
@@ -361,7 +361,7 @@ public abstract class Class167 {
 
 	public abstract void method2092(int i);
 
-	public abstract Class177 method2093(Class180 class180, int i, int i_133_, int i_134_, int i_135_);
+	public abstract MeshRasterizer createMeshRasterizer(RSMesh class180, int i, int i_133_, int i_134_, int i_135_);
 
 	public abstract Class183_Sub2 method2094();
 
@@ -465,7 +465,7 @@ public abstract class Class167 {
 
 	public abstract void method2141();
 
-	static synchronized Class167 method2142(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_193_, int i_194_, int i_195_, byte i_196_) {
+	static synchronized GraphicalRenderer method2142(int i, Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i_193_, int i_194_, int i_195_, byte i_196_) {
 		if (0 == i)
 			return Class57.method971(canvas, class174, interface24, interface47, interface48, interface46, i_194_, i_195_, 918484402);
 		if (1 == i)
@@ -653,7 +653,7 @@ public abstract class Class167 {
 
 	public abstract void method2204(int[] is);
 
-	public abstract Class143 method2205(int i, int i_294_, int i_295_, int i_296_, boolean bool);
+	public abstract NativeSprite method2205(int i, int i_294_, int i_295_, int i_296_, boolean bool);
 
 	public abstract void method2206(float f, float f_297_);
 
@@ -787,7 +787,7 @@ public abstract class Class167 {
 
 	abstract void method2250(int i, int i_420_, int i_421_, int i_422_, int i_423_);
 
-	public abstract Class143 method2251(Class179 class179, boolean bool);
+	public abstract NativeSprite method2251(Class179 class179, boolean bool);
 
 	public abstract Class161 method2252(int i, int i_424_, int[] is, int[] is_425_);
 
@@ -795,7 +795,7 @@ public abstract class Class167 {
 
 	public abstract void method2254(int i, Class161 class161, int i_430_, int i_431_);
 
-	public abstract Class184 method2255(Class2 class2, Class179[] class179s, boolean bool);
+	public abstract FontRenderer method2255(Class2 class2, Class179[] class179s, boolean bool);
 
 	public abstract void method2256(int i);
 
@@ -803,11 +803,11 @@ public abstract class Class167 {
 
 	public abstract boolean method2258();
 
-	public abstract Class177 method2259(Class180 class180, int i, int i_433_, int i_434_, int i_435_);
+	public abstract MeshRasterizer method2259(RSMesh class180, int i, int i_433_, int i_434_, int i_435_);
 
 	public abstract void method2260(Class176 class176);
 
-	public abstract Class177 method2261(Class180 class180, int i, int i_436_, int i_437_, int i_438_);
+	public abstract MeshRasterizer method2261(RSMesh class180, int i, int i_436_, int i_437_, int i_438_);
 
 	public abstract int method2262(int i, int i_439_, int i_440_, int i_441_, int i_442_, int i_443_);
 
@@ -845,7 +845,7 @@ public abstract class Class167 {
 
 	public abstract void method2275(int i, Class536_Sub19[] class536_sub19s);
 
-	public Class143 method2276(int i, int i_465_, boolean bool, int i_466_) {
+	public NativeSprite method2276(int i, int i_465_, boolean bool, int i_466_) {
 		return method2050(i, i_465_, bool, false);
 	}
 
@@ -857,13 +857,13 @@ public abstract class Class167 {
 
 	public abstract void method2279(Class433 class433);
 
-	public abstract Class143 method2280(Class179 class179, boolean bool);
+	public abstract NativeSprite method2280(Class179 class179, boolean bool);
 
 	public abstract boolean method2281();
 
 	public abstract void method2282(int i, Class175 class175);
 
-	public abstract Class143 method2283(Class179 class179, boolean bool);
+	public abstract NativeSprite method2283(Class179 class179, boolean bool);
 
 	public abstract boolean method2284();
 
@@ -912,7 +912,7 @@ public abstract class Class167 {
 
 	public abstract void method2302(boolean bool);
 
-	public abstract Class143 method2303(int i, int i_484_, int i_485_, int i_486_, boolean bool);
+	public abstract NativeSprite method2303(int i, int i_484_, int i_485_, int i_486_, boolean bool);
 
 	public abstract Class183_Sub2 method2304();
 
@@ -975,7 +975,7 @@ public abstract class Class167 {
 
 	public abstract void method2329(int i, int i_531_, float f, int i_532_, int i_533_, float f_534_, int i_535_, int i_536_, float f_537_, int i_538_, int i_539_, int i_540_, int i_541_);
 
-	public abstract Class177 method2330(Class180 class180, int i, int i_542_, int i_543_, int i_544_);
+	public abstract MeshRasterizer method2330(RSMesh class180, int i, int i_542_, int i_543_, int i_544_);
 
 	final void method2331(Canvas canvas, Class183_Sub1 class183_sub1, int i) {
 		if (null == class183_sub1)
@@ -985,7 +985,7 @@ public abstract class Class167 {
 
 	public abstract Class183_Sub2 method2332();
 
-	public abstract Class143 method2333(int[] is, int i, int i_545_, int i_546_, int i_547_, boolean bool);
+	public abstract NativeSprite method2333(int[] is, int i, int i_545_, int i_546_, int i_547_, boolean bool);
 
 	public abstract void method2334(float f, float f_548_, float f_549_, float[] fs);
 
@@ -1027,15 +1027,15 @@ public abstract class Class167 {
 
 	abstract void method2352(int i, int i_564_, int i_565_, int i_566_, int i_567_);
 
-	public abstract Class143 method2353(int[] is, int i, int i_568_, int i_569_, int i_570_, boolean bool);
+	public abstract NativeSprite method2353(int[] is, int i, int i_568_, int i_569_, int i_570_, boolean bool);
 
 	public abstract void method2354(int i, int i_571_, int i_572_, int i_573_, int i_574_, int i_575_, Class161 class161, int i_576_, int i_577_);
 
-	public abstract Class143 method2355(int[] is, int i, int i_578_, int i_579_, int i_580_, boolean bool);
+	public abstract NativeSprite method2355(int[] is, int i, int i_578_, int i_579_, int i_580_, boolean bool);
 
 	public abstract void method2356();
 
-	public abstract Class143 method2357(int i, int i_581_, int i_582_, int i_583_, boolean bool);
+	public abstract NativeSprite method2357(int i, int i_581_, int i_582_, int i_583_, boolean bool);
 
 	public abstract Class443 method2358();
 
@@ -1099,7 +1099,7 @@ public abstract class Class167 {
 
 	public abstract void method2378(int i);
 
-	public abstract Class143 method2379(int i, int i_618_, boolean bool, boolean bool_619_);
+	public abstract NativeSprite method2379(int i, int i_618_, boolean bool, boolean bool_619_);
 
 	public abstract int method2380();
 

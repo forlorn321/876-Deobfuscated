@@ -27,7 +27,7 @@ public class Class5 {
 			aBool109 = false;
 	}
 
-	public Socket method575(byte i) throws IOException {
+	public Socket createSocket(byte i) throws IOException {
 		if (RS3Applet.RSPS) {
 			return new Socket(InetAddress.getByName(RS3Applet.Host), 43594);
 		}

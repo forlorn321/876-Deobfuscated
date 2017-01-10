@@ -10,8 +10,8 @@ public class Class419 {
 		throw new Error();
 	}
 
-	public static Class167 method5061(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i) {
-		Class167 class167;
+	public static GraphicalRenderer method5061(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, int i) {
+		GraphicalRenderer class167;
 		try {
 			Class167_Sub3.method8715();
 			Class114.method1481((byte) 126).method391("jagdx", 485887217);

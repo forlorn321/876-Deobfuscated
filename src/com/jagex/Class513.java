@@ -15,28 +15,28 @@ public class Class513 {
 	int anInt6945;
 	static final int anInt6946 = 24;
 	int anInt6947;
-	static Class143 aClass143_6948;
+	static NativeSprite aClass143_6948;
 	static final int anInt6949 = 2;
 	int anInt6950;
 	int anInt6951;
 	int anInt6952;
 	int anInt6953;
-	Class143 aClass143_6954;
+	NativeSprite aClass143_6954;
 	int anInt6955;
 	int anInt6956;
 	int anInt6957;
 	static final int anInt6958 = 24;
 	static final int anInt6959 = 512;
 	static final int anInt6960 = 192;
-	static Class143 aClass143_6961;
+	static NativeSprite aClass143_6961;
 	int anInt6962;
 	static final int anInt6963 = 16;
-	static Class177 aClass177_6964;
+	static MeshRasterizer aClass177_6964;
 	int anInt6965;
 	static final int anInt6966 = 128;
 	static int[] anIntArray6967 = new int[4];
 
-	void method6219(Class167 class167, Class513 class513_0_) {
+	void method6219(GraphicalRenderer class167, Class513 class513_0_) {
 		method6225(class167);
 		method6229(class167);
 		class167.method2054(anIntArray6967);
@@ -71,7 +71,7 @@ public class Class513 {
 			i_2_ = i_2_ * i_7_ - i * i_6_ >> 14;
 			i = i_8_;
 		}
-		Class177 class177 = aClass177_6964.method2623((byte) 0, 51200, true);
+		MeshRasterizer class177 = aClass177_6964.method2623((byte) 0, 51200, true);
 		class177.method2509((short) 0, (short) anInt6947);
 		class167.method2006(1.0F);
 		class167.method2105(16777215, 1.0F, 1.0F, (float) i, (float) i_1_, (float) i_2_);
@@ -148,7 +148,7 @@ public class Class513 {
 		return true;
 	}
 
-	static void method6222(Class167 class167) {
+	static void method6222(GraphicalRenderer class167) {
 		if (aClass143_6948 == null) {
 			int[] is = new int[16384];
 			int[] is_21_ = new int[16384];
@@ -173,12 +173,12 @@ public class Class513 {
 					is[i_24_ + i_26_] = is[i_24_ + i_28_] = is[i_25_ + i_26_] = is[i_25_ + i_28_] = 127 - i_30_ << 24 | 0xffffff;
 				}
 			}
-			aClass143_6948 = class167.method2081(is_21_, 0, 128, 128, 128, (byte) -39);
-			aClass143_6961 = class167.method2081(is, 0, 128, 128, 128, (byte) 0);
+			aClass143_6948 = class167.createNativeSprite(is_21_, 0, 128, 128, 128, (byte) -39);
+			aClass143_6961 = class167.createNativeSprite(is, 0, 128, 128, 128, (byte) 0);
 		}
 	}
 
-	void method6223(Class167 class167, int i, int i_31_, int i_32_, int i_33_, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_) {
+	void method6223(GraphicalRenderer class167, int i, int i_31_, int i_32_, int i_33_, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_) {
 		if (aClass143_6954 != null) {
 			float[] fs = new float[3];
 			float f = (float) -(anInt6943 - i_36_ << 16);
@@ -199,8 +199,8 @@ public class Class513 {
 		}
 	}
 
-	void method6224(Class167 class167, Class513 class513_45_) {
-		Class180 class180 = Class180.method2708(Class269.aClass461_2879, anInt6947, 0);
+	void method6224(GraphicalRenderer class167, Class513 class513_45_) {
+		RSMesh class180 = RSMesh.decodeMesh(Class269.aClass461_2879, anInt6947, 0);
 		if (class180 != null) {
 			class167.method2054(anIntArray6967);
 			class167.method2369(0, 0, anInt6952, anInt6952);
@@ -239,7 +239,7 @@ public class Class513 {
 			class167.method2006(1.0F);
 			class167.method2105(anInt6965, 1.0F, 1.0F, (float) i, (float) i_46_, (float) i_47_);
 			class180.method2711(anInt6955 & 0x3fff, anInt6956 & 0x3fff, anInt6957 & 0x3fff);
-			Class177 class177 = class167.method2093(class180, 2048, 0, 64, 768);
+			MeshRasterizer class177 = class167.createMeshRasterizer(class180, 2048, 0, 64, 768);
 			int i_56_ = class177.method2483() - class177.method2563();
 			int i_57_ = class177.method2497() - class177.method2562();
 			int i_58_ = i_56_ > i_57_ ? i_56_ : i_57_;
@@ -260,9 +260,9 @@ public class Class513 {
 		}
 	}
 
-	static void method6225(Class167 class167) {
+	static void method6225(GraphicalRenderer class167) {
 		if (aClass177_6964 == null) {
-			Class180 class180 = new Class180(580, 1104, 1);
+			RSMesh class180 = new RSMesh(580, 1104, 1);
 			class180.method2712((short) 0, (short) 32767, (short) 0, (short) 1024, (short) 1024, (short) 1024, (byte) 0, (byte) 0, (byte) 0);
 			class180.method2697(0, 128, 0);
 			class180.method2697(0, -128, 0);
@@ -296,16 +296,16 @@ public class Class513 {
 			class180.anIntArray1974 = null;
 			class180.anIntArray1953 = null;
 			class180.aByteArray1969 = null;
-			aClass177_6964 = class167.method2093(class180, 51200, 33, 64, 768);
+			aClass177_6964 = class167.createMeshRasterizer(class180, 51200, 33, 64, 768);
 		}
 	}
 
-	boolean method6226(Class167 class167, Class513 class513_75_) {
+	boolean method6226(GraphicalRenderer class167, Class513 class513_75_) {
 		if (aClass143_6954 == null) {
 			if (anInt6941 == 0) {
 				if (Class218.anInterface24_2306.method137(Class599.aClass599_7843, anInt6947, Class594.aClass594_7815, 0.7F, anInt6952, anInt6952, false, 2097168017)) {
 					int[] is = (Class218.anInterface24_2306.method134(Class599.aClass599_7843, anInt6947, 0.7F, anInt6952, anInt6952, false, 215442236));
-					aClass143_6954 = class167.method2081(is, 0, anInt6952, anInt6952, anInt6952, (byte) -117);
+					aClass143_6954 = class167.createNativeSprite(is, 0, anInt6952, anInt6952, anInt6952, (byte) -117);
 				}
 			} else if (anInt6941 == 2)
 				method6224(class167, class513_75_);
@@ -419,7 +419,7 @@ public class Class513 {
 		anInt6957 = i_100_;
 	}
 
-	static void method6229(Class167 class167) {
+	static void method6229(GraphicalRenderer class167) {
 		if (aClass143_6948 == null) {
 			int[] is = new int[16384];
 			int[] is_101_ = new int[16384];
@@ -444,8 +444,8 @@ public class Class513 {
 					is[i_104_ + i_106_] = is[i_104_ + i_108_] = is[i_105_ + i_106_] = is[i_105_ + i_108_] = 127 - i_110_ << 24 | 0xffffff;
 				}
 			}
-			aClass143_6948 = class167.method2081(is_101_, 0, 128, 128, 128, (byte) -36);
-			aClass143_6961 = class167.method2081(is, 0, 128, 128, 128, (byte) -48);
+			aClass143_6948 = class167.createNativeSprite(is_101_, 0, 128, 128, 128, (byte) -36);
+			aClass143_6961 = class167.createNativeSprite(is, 0, 128, 128, 128, (byte) -48);
 		}
 	}
 
@@ -454,7 +454,7 @@ public class Class513 {
 		aClass143_6948 = null;
 	}
 
-	static void method6231(Class167 class167) {
+	static void method6231(GraphicalRenderer class167) {
 		if (aClass143_6948 == null) {
 			int[] is = new int[16384];
 			int[] is_111_ = new int[16384];
@@ -479,16 +479,16 @@ public class Class513 {
 					is[i_114_ + i_116_] = is[i_114_ + i_118_] = is[i_115_ + i_116_] = is[i_115_ + i_118_] = 127 - i_120_ << 24 | 0xffffff;
 				}
 			}
-			aClass143_6948 = class167.method2081(is_111_, 0, 128, 128, 128, (byte) -128);
-			aClass143_6961 = class167.method2081(is, 0, 128, 128, 128, (byte) -119);
+			aClass143_6948 = class167.createNativeSprite(is_111_, 0, 128, 128, 128, (byte) -128);
+			aClass143_6961 = class167.createNativeSprite(is, 0, 128, 128, 128, (byte) -119);
 		}
 	}
 
-	boolean method6232(Class167 class167, Class513 class513_121_) {
+	boolean method6232(GraphicalRenderer class167, Class513 class513_121_) {
 		return aClass143_6954 != null || method6226(class167, class513_121_);
 	}
 
-	static void method6233(Class167 class167) {
+	static void method6233(GraphicalRenderer class167) {
 		if (aClass143_6948 == null) {
 			int[] is = new int[16384];
 			int[] is_122_ = new int[16384];
@@ -513,12 +513,12 @@ public class Class513 {
 					is[i_125_ + i_127_] = is[i_125_ + i_129_] = is[i_126_ + i_127_] = is[i_126_ + i_129_] = 127 - i_131_ << 24 | 0xffffff;
 				}
 			}
-			aClass143_6948 = class167.method2081(is_122_, 0, 128, 128, 128, (byte) -25);
-			aClass143_6961 = class167.method2081(is, 0, 128, 128, 128, (byte) -85);
+			aClass143_6948 = class167.createNativeSprite(is_122_, 0, 128, 128, 128, (byte) -25);
+			aClass143_6961 = class167.createNativeSprite(is, 0, 128, 128, 128, (byte) -85);
 		}
 	}
 
-	static void method6234(Class167 class167) {
+	static void method6234(GraphicalRenderer class167) {
 		if (aClass143_6948 == null) {
 			int[] is = new int[16384];
 			int[] is_132_ = new int[16384];
@@ -543,8 +543,8 @@ public class Class513 {
 					is[i_135_ + i_137_] = is[i_135_ + i_139_] = is[i_136_ + i_137_] = is[i_136_ + i_139_] = 127 - i_141_ << 24 | 0xffffff;
 				}
 			}
-			aClass143_6948 = class167.method2081(is_132_, 0, 128, 128, 128, (byte) -40);
-			aClass143_6961 = class167.method2081(is, 0, 128, 128, 128, (byte) -19);
+			aClass143_6948 = class167.createNativeSprite(is_132_, 0, 128, 128, 128, (byte) -40);
+			aClass143_6961 = class167.createNativeSprite(is, 0, 128, 128, 128, (byte) -19);
 		}
 	}
 }

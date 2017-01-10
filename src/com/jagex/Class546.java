@@ -18,7 +18,7 @@ public class Class546 implements ConfigType {
 	public int anInt7289;
 	Class554 aClass554_7290;
 
-	void method6612(Class167 class167, int i) {
+	void method6612(GraphicalRenderer class167, int i) {
 		method6615(class167, anInt7285 * 948522675, -217659160);
 		method6615(class167, anInt7286 * 1922671995, -217659160);
 		method6615(class167, 1090904519 * anInt7280, -217659160);
@@ -65,13 +65,13 @@ public class Class546 implements ConfigType {
 			anInt7282 = class536_sub33.readBigSmart() * -784342457;
 	}
 
-	public Class143 method6614(Class167 class167, int i, int i_2_) {
+	public NativeSprite method6614(GraphicalRenderer class167, int i, int i_2_) {
 		if (i < 0)
 			return null;
-		Class143 class143 = (Class143) aClass554_7290.aClass199_7483.method2886((long) i);
+		NativeSprite class143 = (NativeSprite) aClass554_7290.aClass199_7483.method2886((long) i);
 		if (class143 == null) {
 			method6612(class167, 1404157345);
-			class143 = ((Class143) aClass554_7290.aClass199_7483.method2886((long) i));
+			class143 = ((NativeSprite) aClass554_7290.aClass199_7483.method2886((long) i));
 		}
 		return class143;
 	}
@@ -94,7 +94,7 @@ public class Class546 implements ConfigType {
 		/* empty */
 	}
 
-	void method6615(Class167 class167, int i, int i_3_) {
+	void method6615(GraphicalRenderer class167, int i, int i_3_) {
 		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
@@ -135,7 +135,7 @@ public class Class546 implements ConfigType {
 			anInt7282 = class536_sub33.readBigSmart() * -784342457;
 	}
 
-	void method6617(Class167 class167, int i) {
+	void method6617(GraphicalRenderer class167, int i) {
 		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
@@ -143,13 +143,13 @@ public class Class546 implements ConfigType {
 		}
 	}
 
-	public Class143 method6618(Class167 class167, int i) {
+	public NativeSprite method6618(GraphicalRenderer class167, int i) {
 		if (i < 0)
 			return null;
-		Class143 class143 = (Class143) aClass554_7290.aClass199_7483.method2886((long) i);
+		NativeSprite class143 = (NativeSprite) aClass554_7290.aClass199_7483.method2886((long) i);
 		if (class143 == null) {
 			method6612(class167, -1109043934);
-			class143 = ((Class143) aClass554_7290.aClass199_7483.method2886((long) i));
+			class143 = ((NativeSprite) aClass554_7290.aClass199_7483.method2886((long) i));
 		}
 		return class143;
 	}
@@ -163,7 +163,7 @@ public class Class546 implements ConfigType {
 		}
 	}
 
-	void method6619(Class167 class167) {
+	void method6619(GraphicalRenderer class167) {
 		method6615(class167, anInt7285 * 948522675, -217659160);
 		method6615(class167, anInt7286 * 1922671995, -217659160);
 		method6615(class167, 1090904519 * anInt7280, -217659160);
@@ -172,7 +172,7 @@ public class Class546 implements ConfigType {
 		method6615(class167, anInt7282 * 1594042231, -217659160);
 	}
 
-	void method6620(Class167 class167, int i) {
+	void method6620(GraphicalRenderer class167, int i) {
 		JS5ResourceProvider class461 = aClass554_7290.aClass461_7484;
 		if (i >= 0 && aClass554_7290.aClass199_7483.method2886((long) i) == null && class461.method5580(i, -964514165)) {
 			Class179 class179 = Class181.method2717(class461, i);
@@ -180,7 +180,7 @@ public class Class546 implements ConfigType {
 		}
 	}
 
-	void method6621(Class167 class167) {
+	void method6621(GraphicalRenderer class167) {
 		method6615(class167, anInt7285 * 948522675, -217659160);
 		method6615(class167, anInt7286 * 1922671995, -217659160);
 		method6615(class167, 1090904519 * anInt7280, -217659160);
@@ -221,7 +221,7 @@ public class Class546 implements ConfigType {
 			int i_22_ = (int) f_19_ >> 9;
 			int i_23_ = (int) f_21_ >> 9;
 			if (i_22_ > 0 && i_23_ > 0 && i_22_ < client.aClass515_11066.method6321((byte) -51) && i_23_ < client.aClass515_11066.method6243(177401017)) {
-				int i_24_ = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aByte10839;
+				int i_24_ = Class565.MY_PLAYER.aByte10839;
 				if (i_24_ < 3 && ((client.aClass515_11066.method6251(1164788132).aByteArrayArrayArray5154[1][i_22_][i_23_]) & 0x2) != 0)
 					i_24_++;
 				int i_25_ = class553.aClass160Array7459[i_24_].method1925((int) f_19_, (int) f_21_, (byte) 8);

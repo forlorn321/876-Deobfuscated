@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class319_Sub2 extends Class319 {
-	Class143 aClass143_10017;
+	NativeSprite aClass143_10017;
 
 	void method4230(boolean bool, int i, int i_0_, int i_1_) {
 		int i_2_ = (method4234(1019095494) * (aClass392_3527.anInt4068 * -1755858667) / 10000);

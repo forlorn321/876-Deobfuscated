@@ -7,7 +7,7 @@ public class Class320 implements Interface33 {
 	JS5ResourceProvider aClass461_3533;
 	Class394 aClass394_3534;
 	JS5ResourceProvider aClass461_3535;
-	Class184 aClass184_3536;
+	FontRenderer aClass184_3536;
 	long aLong3537 = -6788776513541852395L;
 	int anInt3538;
 	public static int anInt3539;
@@ -240,10 +240,10 @@ public class Class320 implements Interface33 {
 		if (null != class536_sub36)
 			Class690.method8185(-358726121 * class536_sub36.anInt10634, i_14_, i_15_, bool, 526373653);
 		if (class251 == client.aClass251_11195) {
-			int i_16_ = Class95.anInt1156 * -1482773169;
-			int[] is = Class95.anIntArray1157;
+			int i_16_ = Class95.PLAYERLIST_SIZE * -1482773169;
+			int[] is = Class95.PLAYERLIST_INDICES;
 			for (int i_17_ = 0; i_17_ < i_16_; i_17_++) {
-				Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_17_]]);
+				Player class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[is[i_17_]]);
 				if (class649_sub1_sub5_sub1_sub2 != null)
 					class649_sub1_sub5_sub1_sub2.method10916(i_14_, i_15_, bool, 1401753877);
 			}

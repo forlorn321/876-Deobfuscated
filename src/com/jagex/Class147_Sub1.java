@@ -105,22 +105,22 @@ public final class Class147_Sub1 extends Class147 {
 			if (aClass430Array8885 != null && 502015031 * anInt8891 < aClass430Array8885.length) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				if (class106.anInt1268 * -1444616881 <= 1200) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 2053123061);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-					int i_4_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-					class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515;
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 2053123061);
+					class536_sub23.stream.writeShort(0, -1778059594);
+					int i_4_ = (class536_sub23.stream.off * -810172525);
+					class536_sub23.stream.off += 516175515;
 					for (/**/; 502015031 * anInt8891 < aClass430Array8885.length; anInt8891 += -463941241) {
 						Class430 class430 = aClass430Array8885[anInt8891 * 502015031];
-						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1458132238)) > 1500)
+						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.stream.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1458132238)) > 1500)
 							break;
-						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.aClass536_Sub33_Sub2_10528, class430, -1999353601);
+						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.stream, class430, -1999353601);
 					}
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9698((-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_4_), 1839774223);
+					class536_sub23.stream.method9698((-810172525 * (class536_sub23.stream.off) - i_4_), 1839774223);
 					if (anInt8891 * 502015031 >= aClass430Array8885.length)
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i_4_] = (byte) 1;
+						class536_sub23.stream.buffer[i_4_] = (byte) 1;
 					else
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i_4_] = (byte) 0;
-					class106.method1409(class536_sub23, 261190615);
+						class536_sub23.stream.buffer[i_4_] = (byte) 0;
+					class106.writePacket(class536_sub23, 261190615);
 					aLong8890 = ((Class249.method3450(2086320951) + 1000L) * 994975065257756411L);
 				}
 			}
@@ -355,22 +355,22 @@ public final class Class147_Sub1 extends Class147 {
 			if (aClass430Array8885 != null && 502015031 * anInt8891 < aClass430Array8885.length) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				if (class106.anInt1268 * -1444616881 <= 1200) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 741472446);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-					int i = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-					class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515;
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 741472446);
+					class536_sub23.stream.writeShort(0, -1778059594);
+					int i = (class536_sub23.stream.off * -810172525);
+					class536_sub23.stream.off += 516175515;
 					for (/**/; 502015031 * anInt8891 < aClass430Array8885.length; anInt8891 += -463941241) {
 						Class430 class430 = aClass430Array8885[anInt8891 * 502015031];
-						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1882520645)) > 1500)
+						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.stream.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1882520645)) > 1500)
 							break;
-						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.aClass536_Sub33_Sub2_10528, class430, -1756620946);
+						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.stream, class430, -1756620946);
 					}
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9698((-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i), 1472643822);
+					class536_sub23.stream.method9698((-810172525 * (class536_sub23.stream.off) - i), 1472643822);
 					if (anInt8891 * 502015031 >= aClass430Array8885.length)
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i] = (byte) 1;
+						class536_sub23.stream.buffer[i] = (byte) 1;
 					else
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i] = (byte) 0;
-					class106.method1409(class536_sub23, 1609977395);
+						class536_sub23.stream.buffer[i] = (byte) 0;
+					class106.writePacket(class536_sub23, 1609977395);
 					aLong8890 = ((Class249.method3450(1934544773) + 1000L) * 994975065257756411L);
 				}
 			}
@@ -417,22 +417,22 @@ public final class Class147_Sub1 extends Class147 {
 			if (aClass430Array8885 != null && 502015031 * anInt8891 < aClass430Array8885.length) {
 				Class106 class106 = Class536_Sub41.method9871(2077853800);
 				if (class106.anInt1268 * -1444616881 <= 1200) {
-					Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 1398539911);
-					class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-					int i = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-					class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515;
+					OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4448, class106.aClass15_1258, 1398539911);
+					class536_sub23.stream.writeShort(0, -1778059594);
+					int i = (class536_sub23.stream.off * -810172525);
+					class536_sub23.stream.off += 516175515;
 					for (/**/; 502015031 * anInt8891 < aClass430Array8885.length; anInt8891 += -463941241) {
 						Class430 class430 = aClass430Array8885[anInt8891 * 502015031];
-						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1946544876)) > 1500)
+						if ((class106.anInt1268 * -1444616881 + -810172525 * (class536_sub23.stream.off) + Class309.aClass98_Sub1_Sub2_3465.method8387(class430, 1946544876)) > 1500)
 							break;
-						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.aClass536_Sub33_Sub2_10528, class430, -2018723110);
+						Class309.aClass98_Sub1_Sub2_3465.method8389(class536_sub23.stream, class430, -2018723110);
 					}
-					class536_sub23.aClass536_Sub33_Sub2_10528.method9698((-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i), 755469099);
+					class536_sub23.stream.method9698((-810172525 * (class536_sub23.stream.off) - i), 755469099);
 					if (anInt8891 * 502015031 >= aClass430Array8885.length)
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i] = (byte) 1;
+						class536_sub23.stream.buffer[i] = (byte) 1;
 					else
-						class536_sub23.aClass536_Sub33_Sub2_10528.buffer[i] = (byte) 0;
-					class106.method1409(class536_sub23, 1234980420);
+						class536_sub23.stream.buffer[i] = (byte) 0;
+					class106.writePacket(class536_sub23, 1234980420);
 					aLong8890 = ((Class249.method3450(2038790981) + 1000L) * 994975065257756411L);
 				}
 			}

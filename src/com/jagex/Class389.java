@@ -48,7 +48,7 @@ public class Class389 implements Interface73 {
 		return null;
 	}
 
-	public static final void method4852(Class177 class177, Class688 class688, Class688 class688_0_, int i) {
+	public static final void method4852(MeshRasterizer class177, Class688 class688, Class688 class688_0_, int i) {
 		if (class688.method8141(-456097243) && class688_0_.method8141(-464138048)) {
 			Class191 class191 = class688.aClass191_8676;
 			Class191 class191_1_ = class688_0_.aClass191_8676;

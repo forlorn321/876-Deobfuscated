@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class184_Sub6 extends Class184 {
+public class Class184_Sub6 extends FontRenderer {
 	int[] anIntArray9927;
 	byte[][] aByteArrayArray9928;
 	int[] anIntArray9929;

@@ -60,7 +60,7 @@ public class Class597 implements Interface75 {
 		Class536_Sub18_Sub12 class536_sub18_sub12 = Class172.method2433(i_3_, i_4_, 74200922);
 		if (null != class536_sub18_sub12) {
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub12.anInt11728 * 698041493;
-			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (Class459.aClass664_5178.anInt8526 * -1919173613), -45986553);
+			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = Class615.method7333((-8065906675708934543L * class536_sub18_sub12.aLong11731), (Class459.CLIENT_PARAMS.languageId * -1919173613), -45986553);
 			class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = class536_sub18_sub12.anInt11733 * 1331173969;
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11727 != null ? class536_sub18_sub12.aString11727 : "");
 			class668.anObjectArray8543[(class668.anInt8544 += 1946079257) * 366709801 - 1] = (class536_sub18_sub12.aString11732 != null ? class536_sub18_sub12.aString11732 : "");

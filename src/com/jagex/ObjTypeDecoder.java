@@ -438,7 +438,7 @@ public class ObjTypeDecoder implements ConfigType {
 		return bool;
 	}
 
-	public final synchronized Class7 method7287(Class167 class167, int i, int i_45_, int i_46_, Class160 class160, Class160 class160_47_, int i_48_, int i_49_, int i_50_, boolean bool, ObjTypeTransformation class590, byte i_51_) {
+	public final synchronized Class7 method7287(GraphicalRenderer class167, int i, int i_45_, int i_46_, Class160 class160, Class160 class160_47_, int i_48_, int i_49_, int i_50_, boolean bool, ObjTypeTransformation class590, byte i_51_) {
 		if (Class567.method6914(i_45_, (byte) 15))
 			i_45_ = ObjShapes.aClass606_7888.anInt7878 * -723459231;
 		long l = (long) ((anInt8008 * 1083959103 << 10) + (i_45_ << 3) + i_46_);
@@ -464,7 +464,7 @@ public class ObjTypeDecoder implements ConfigType {
 		synchronized (aClass608_7934.aClass199_7907) {
 			class7 = (Class7) aClass608_7934.aClass199_7907.method2886(l);
 		}
-		Class177 class177 = (Class177) (class7 != null ? class7.anObject117 : null);
+		MeshRasterizer class177 = (MeshRasterizer) (class7 != null ? class7.anObject117 : null);
 		Class536_Sub18_Sub7 class536_sub18_sub7 = null;
 		if (class177 == null || class167.method2308(class177.method2466(), i_52_) != 0) {
 			if (class177 != null)
@@ -505,7 +505,7 @@ public class ObjTypeDecoder implements ConfigType {
 		return aClass608_7934.aClass7_7903;
 	}
 
-	public final synchronized Class177 method7288(Class167 class167, int i, int i_56_, int i_57_, Class160 class160, Class160 class160_58_, int i_59_, int i_60_, int i_61_, Class688 class688, ObjTypeTransformation class590, int i_62_) {
+	public final synchronized MeshRasterizer method7288(GraphicalRenderer class167, int i, int i_56_, int i_57_, Class160 class160, Class160 class160_58_, int i_59_, int i_60_, int i_61_, Class688 class688, ObjTypeTransformation class590, int i_62_) {
 		if (Class567.method6914(i_56_, (byte) 0))
 			i_56_ = -723459231 * ObjShapes.aClass606_7888.anInt7878;
 		long l = (long) ((i_56_ << 3) + (anInt8008 * 1083959103 << 10) + i_57_);
@@ -527,9 +527,9 @@ public class ObjTypeDecoder implements ConfigType {
 		}
 		if (-723459231 * ObjShapes.aClass606_7880.anInt7878 == i_56_ && i_57_ > 3)
 			i |= 0x5;
-		Class177 class177;
+		MeshRasterizer class177;
 		synchronized (aClass608_7934.aClass199_7906) {
-			class177 = (Class177) aClass608_7934.aClass199_7906.method2886(l);
+			class177 = (MeshRasterizer) aClass608_7934.aClass199_7906.method2886(l);
 		}
 		if (class177 == null || class167.method2308(class177.method2466(), i) != 0) {
 			if (null != class177)
@@ -573,7 +573,7 @@ public class ObjTypeDecoder implements ConfigType {
 		return class177;
 	}
 
-	Class177 method7289(Class167 class167, int i, int i_64_, int i_65_, ObjTypeTransformation class590, short i_66_) {
+	MeshRasterizer method7289(GraphicalRenderer class167, int i, int i_64_, int i_65_, ObjTypeTransformation class590, short i_66_) {
 		int i_67_ = 64 + anInt7964 * -1965800891;
 		int i_68_ = 850 + 1057796189 * anInt7937;
 		int i_69_ = i;
@@ -595,7 +595,7 @@ public class ObjTypeDecoder implements ConfigType {
 			i |= 0x8000;
 		if (0 != aByte7949)
 			i |= 0x80000;
-		Class177 class177 = null;
+		MeshRasterizer class177 = null;
 		if (aByteArray7938 != null) {
 			int i_70_ = -1;
 			for (int i_71_ = 0; i_71_ < aByteArray7938.length; i_71_++) {
@@ -613,7 +613,7 @@ public class ObjTypeDecoder implements ConfigType {
 				for (int i_73_ = 0; i_73_ < i_72_; i_73_++)
 					l = (long) is[i_73_] + 67783L * l;
 				synchronized (aClass608_7934.aClass199_7904) {
-					class177 = ((Class177) aClass608_7934.aClass199_7904.method2886(l));
+					class177 = ((MeshRasterizer) aClass608_7934.aClass199_7904.method2886(l));
 				}
 				if (null != class177) {
 					if (i_67_ != class177.method2589())
@@ -625,24 +625,24 @@ public class ObjTypeDecoder implements ConfigType {
 					int i_74_ = i | 0x1f01f;
 					if (class177 != null)
 						i_74_ = class167.method2068(i_74_, class177.method2466());
-					Class180 class180 = null;
+					RSMesh class180 = null;
 					synchronized (aClass608_7934.aClass180Array7909) {
 						for (int i_75_ = 0; i_75_ < i_72_; i_75_++) {
 							byte[] is_76_ = aClass608_7934.method7255(is[i_75_], 1700856910);
 							if (is_76_ == null) {
-								Class177 class177_77_ = null;
+								MeshRasterizer class177_77_ = null;
 								return class177_77_;
 							}
-							class180 = new Class180(is_76_);
+							class180 = new RSMesh(is_76_);
 							if (class180.anInt1949 < 13)
-								class180.method2707(2);
+								class180.upscale(2);
 							if (i_72_ > 1)
 								aClass608_7934.aClass180Array7909[i_75_] = class180;
 						}
 						if (i_72_ > 1)
-							class180 = new Class180((aClass608_7934.aClass180Array7909), i_72_);
+							class180 = new RSMesh((aClass608_7934.aClass180Array7909), i_72_);
 					}
-					class177 = class167.method2093(class180, i_74_, (aClass608_7934.anInt7905 * 1548756747), i_67_, i_68_);
+					class177 = class167.createMeshRasterizer(class180, i_74_, (aClass608_7934.anInt7905 * 1548756747), i_67_, i_68_);
 					synchronized (aClass608_7934.aClass199_7904) {
 						aClass608_7934.aClass199_7904.method2881(class177, l);
 					}
@@ -651,7 +651,7 @@ public class ObjTypeDecoder implements ConfigType {
 		}
 		if (class177 == null)
 			return null;
-		Class177 class177_78_ = class177.method2623((byte) 0, i, true);
+		MeshRasterizer class177_78_ = class177.method2623((byte) 0, i, true);
 		if (i_67_ != class177.method2589())
 			class177_78_.method2502(i_67_);
 		if (i_68_ != class177.method2505())
@@ -694,7 +694,7 @@ public class ObjTypeDecoder implements ConfigType {
 		if (aByte7949 != 0)
 			class177_78_.method2510(aByte7982, aByte7947, aByte7948, aByte7949 & 0xff);
 		if (-1709845793 * anInt7975 != 128 || 1355242333 * anInt7976 != 128 || 128 != 244700949 * anInt7977)
-			class177_78_.method2474(anInt7975 * -1709845793, anInt7976 * 1355242333, 244700949 * anInt7977);
+			class177_78_.resize(anInt7975 * -1709845793, anInt7976 * 1355242333, 244700949 * anInt7977);
 		if (anInt7978 * -665217145 != 0 || anInt7979 * -1847587561 != 0 || 0 != 1153669699 * anInt7962)
 			class177_78_.method2472(-665217145 * anInt7978, anInt7979 * -1847587561, 1153669699 * anInt7962);
 		class177_78_.method2465(i_69_);

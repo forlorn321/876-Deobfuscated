@@ -20,7 +20,7 @@ public class Class302 {
 	}
 
 	public static int method4097(int i, int i_0_, float f, int i_1_) {
-		return Class59.method984(i, i_0_, (int) f, -402310046);
+		return UpdateKey.method984(i, i_0_, (int) f, -402310046);
 	}
 
 	static void method4098(Class668 class668, byte i) {
@@ -53,7 +53,7 @@ public class Class302 {
 		for (int index = 0; index < 38697745 * Class95.anInt1150; index++) {
 			buffer.readUnsignedShort();
 			int playerIndex = Class95.anIntArray1160[index];
-			Player player = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[playerIndex];
+			Player player = client.PLAYER_LIST[playerIndex];
 			int flag = buffer.readUnsignedByte();
 			if (0 != (flag & 0x80))
 				flag += buffer.readUnsignedByte() << 8;

@@ -13,7 +13,7 @@ public class PlayerStat {
 	
 	static final int MAXIMUM_XP = 2000000000;
 	static int sceneY;
-	static Class143 aClass143_8090;
+	static NativeSprite aClass143_8090;
 	static Class2 aClass2_8091;
 
 	public int getExperience() {

@@ -10,22 +10,22 @@ public class Class571 implements Interface68 {
 	int anInt7633;
 
 	public void method131() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1897283967);
-		int i = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1897283967);
+		int i = ((class536_sub23.stream.off += 516175515) * -810172525);
+		class536_sub23.stream.writeByte(aClass52_7630.method78());
+		class536_sub23.stream.writeString(aString7631);
+		class536_sub23.stream.writeShort(anInt7633 * -1085104049, -1778059594);
+		class536_sub23.stream.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
+			class536_sub23.stream.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+			class536_sub23.stream.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i), 342349724);
-		client.aClass106_11322.method1409(class536_sub23, 865485490);
+			class536_sub23.stream.writeByte(0);
+		class536_sub23.stream.method9699((-810172525 * class536_sub23.stream.off - i), 342349724);
+		client.aClass106_11322.writePacket(class536_sub23, 865485490);
 	}
 
 	Class571(Class52 class52, String string, int i, Throwable throwable) {
@@ -36,41 +36,41 @@ public class Class571 implements Interface68 {
 	}
 
 	public void method296() {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1380197153);
-		int i = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1380197153);
+		int i = ((class536_sub23.stream.off += 516175515) * -810172525);
+		class536_sub23.stream.writeByte(aClass52_7630.method78());
+		class536_sub23.stream.writeString(aString7631);
+		class536_sub23.stream.writeShort(anInt7633 * -1085104049, -1778059594);
+		class536_sub23.stream.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
+			class536_sub23.stream.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+			class536_sub23.stream.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i), -548849881);
-		client.aClass106_11322.method1409(class536_sub23, 826244600);
+			class536_sub23.stream.writeByte(0);
+		class536_sub23.stream.method9699((-810172525 * class536_sub23.stream.off - i), -548849881);
+		client.aClass106_11322.writePacket(class536_sub23, 826244600);
 	}
 
 	public void method206(int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1581434232);
-		int i_0_ = ((class536_sub23.aClass536_Sub33_Sub2_10528.off += 516175515) * -810172525);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(aClass52_7630.method78());
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(aString7631);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(anInt7633 * -1085104049, -1778059594);
-		class536_sub23.aClass536_Sub33_Sub2_10528.writeString(Class497.aString5549);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4483, client.aClass106_11322.aClass15_1258, 1581434232);
+		int i_0_ = ((class536_sub23.stream.off += 516175515) * -810172525);
+		class536_sub23.stream.writeByte(aClass52_7630.method78());
+		class536_sub23.stream.writeString(aString7631);
+		class536_sub23.stream.writeShort(anInt7633 * -1085104049, -1778059594);
+		class536_sub23.stream.writeString(Class497.aString5549);
 		if (aString7632 != null) {
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(1);
+			class536_sub23.stream.writeByte(1);
 			String string = aString7632;
 			if (string.length() > 100)
 				string = string.substring(0, 100);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
+			class536_sub23.stream.writeString(string);
 		} else
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(0);
-		class536_sub23.aClass536_Sub33_Sub2_10528.method9699((-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off - i_0_), -1289663183);
-		client.aClass106_11322.method1409(class536_sub23, 79111965);
+			class536_sub23.stream.writeByte(0);
+		class536_sub23.stream.method9699((-810172525 * class536_sub23.stream.off - i_0_), -1289663183);
+		client.aClass106_11322.writePacket(class536_sub23, 79111965);
 	}
 
 	static final void method6927(Class668 class668, int i) {

@@ -16,7 +16,7 @@ import jaclib.memory.heap.NativeHeapBuffer;
 
 import sun.misc.Unsafe;
 
-public abstract class Class167_Sub3 extends Class167 {
+public abstract class Class167_Sub3 extends GraphicalRenderer {
 	protected Class536_Sub19[] aClass536_Sub19Array9534;
 	Class341_Sub1_Sub1 aClass341_Sub1_Sub1_9535;
 	float aFloat9536;
@@ -284,13 +284,13 @@ public abstract class Class167_Sub3 extends Class167 {
 		return (aClass338Array9664[3] != null && aClass338Array9664[3].method4396());
 	}
 
-	public final Class143 method2251(Class179 class179, boolean bool) {
-		Class143 class143;
+	public final NativeSprite method2251(Class179 class179, boolean bool) {
+		NativeSprite class143;
 		if (class179.method2633() != 0 && class179.method2677() != 0) {
 			int[] is = class179.method2643(false);
-			class143 = method2081(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -54);
+			class143 = createNativeSprite(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -54);
 		} else
-			class143 = method2081(new int[] { 0 }, 0, 1, 1, 1, (byte) 0);
+			class143 = createNativeSprite(new int[] { 0 }, 0, 1, 1, 1, (byte) 0);
 		class143.method1718(class179.method2635(), class179.method2637(), class179.method2636(), class179.method2638());
 		return class143;
 	}
@@ -787,32 +787,32 @@ public abstract class Class167_Sub3 extends Class167 {
 		method2277(i, i_24_, i + i_25_, i_24_, i_26_, i_27_);
 	}
 
-	public final Class143 method2050(int i, int i_28_, boolean bool, boolean bool_29_) {
+	public final NativeSprite method2050(int i, int i_28_, boolean bool, boolean bool_29_) {
 		return new Class143_Sub3(this, i, i_28_, bool, bool_29_);
 	}
 
-	public final Class143 method2082(Class179 class179, boolean bool) {
-		Class143 class143;
+	public final NativeSprite method2082(Class179 class179, boolean bool) {
+		NativeSprite class143;
 		if (class179.method2633() != 0 && class179.method2677() != 0) {
 			int[] is = class179.method2643(false);
-			class143 = method2081(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -52);
+			class143 = createNativeSprite(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -52);
 		} else
-			class143 = method2081(new int[] { 0 }, 0, 1, 1, 1, (byte) -97);
+			class143 = createNativeSprite(new int[] { 0 }, 0, 1, 1, 1, (byte) -97);
 		class143.method1718(class179.method2635(), class179.method2637(), class179.method2636(), class179.method2638());
 		return class143;
 	}
 
-	public final Class143 method2080(int[] is, int i, int i_30_, int i_31_, int i_32_, boolean bool) {
+	public final NativeSprite method2080(int[] is, int i, int i_30_, int i_31_, int i_32_, boolean bool) {
 		return new Class143_Sub3(this, i_31_, i_32_, is, i, i_30_);
 	}
 
-	public final Class143 method2205(int i, int i_33_, int i_34_, int i_35_, boolean bool) {
+	public final NativeSprite method2205(int i, int i_33_, int i_34_, int i_35_, boolean bool) {
 		Class143_Sub3 class143_sub3 = new Class143_Sub3(this, i_34_, i_35_, bool, false);
 		class143_sub3.method1726(0, 0, i_34_, i_35_, i, i_33_);
 		return class143_sub3;
 	}
 
-	public final Class184 method2089(Class2 class2, Class179[] class179s, boolean bool) {
+	public final FontRenderer method2089(Class2 class2, Class179[] class179s, boolean bool) {
 		return new Class184_Sub5(this, class2, class179s, bool);
 	}
 
@@ -1403,7 +1403,7 @@ public abstract class Class167_Sub3 extends Class167 {
 
 	abstract Interface36 method8775(Class155 class155, int i, int i_98_, boolean bool, byte[] is, int i_99_, int i_100_);
 
-	public final Class184 method2255(Class2 class2, Class179[] class179s, boolean bool) {
+	public final FontRenderer method2255(Class2 class2, Class179[] class179s, boolean bool) {
 		return new Class184_Sub5(this, class2, class179s, bool);
 	}
 
@@ -1977,7 +1977,7 @@ public abstract class Class167_Sub3 extends Class167 {
 		return true;
 	}
 
-	public final Class143 method2303(int i, int i_221_, int i_222_, int i_223_, boolean bool) {
+	public final NativeSprite method2303(int i, int i_221_, int i_222_, int i_223_, boolean bool) {
 		Class143_Sub3 class143_sub3 = new Class143_Sub3(this, i_222_, i_223_, bool, false);
 		class143_sub3.method1726(0, 0, i_222_, i_223_, i, i_221_);
 		return class143_sub3;
@@ -2563,15 +2563,15 @@ public abstract class Class167_Sub3 extends Class167 {
 		/* empty */
 	}
 
-	public final Class177 method2259(Class180 class180, int i, int i_383_, int i_384_, int i_385_) {
+	public final MeshRasterizer method2259(RSMesh class180, int i, int i_383_, int i_384_, int i_385_) {
 		return new Class177_Sub2(this, class180, i, i_384_, i_385_, i_383_);
 	}
 
-	public final Class177 method2330(Class180 class180, int i, int i_386_, int i_387_, int i_388_) {
+	public final MeshRasterizer method2330(RSMesh class180, int i, int i_386_, int i_387_, int i_388_) {
 		return new Class177_Sub2(this, class180, i, i_387_, i_388_, i_386_);
 	}
 
-	public final Class177 method2093(Class180 class180, int i, int i_389_, int i_390_, int i_391_) {
+	public final MeshRasterizer createMeshRasterizer(RSMesh class180, int i, int i_389_, int i_390_, int i_391_) {
 		return new Class177_Sub2(this, class180, i, i_390_, i_391_, i_389_);
 	}
 
@@ -3078,15 +3078,15 @@ public abstract class Class167_Sub3 extends Class167 {
 		}
 	}
 
-	public final Class143 method2353(int[] is, int i, int i_495_, int i_496_, int i_497_, boolean bool) {
+	public final NativeSprite method2353(int[] is, int i, int i_495_, int i_496_, int i_497_, boolean bool) {
 		return new Class143_Sub3(this, i_496_, i_497_, is, i, i_495_);
 	}
 
-	public final Class143 method2333(int[] is, int i, int i_498_, int i_499_, int i_500_, boolean bool) {
+	public final NativeSprite method2333(int[] is, int i, int i_498_, int i_499_, int i_500_, boolean bool) {
 		return new Class143_Sub3(this, i_499_, i_500_, is, i, i_498_);
 	}
 
-	public final Class143 method2355(int[] is, int i, int i_501_, int i_502_, int i_503_, boolean bool) {
+	public final NativeSprite method2355(int[] is, int i, int i_501_, int i_502_, int i_503_, boolean bool) {
 		return new Class143_Sub3(this, i_502_, i_503_, is, i, i_501_);
 	}
 
@@ -3263,7 +3263,7 @@ public abstract class Class167_Sub3 extends Class167 {
 			aClass358_9563.method4702();
 	}
 
-	public final Class177 method2261(Class180 class180, int i, int i_529_, int i_530_, int i_531_) {
+	public final MeshRasterizer method2261(RSMesh class180, int i, int i_529_, int i_530_, int i_531_) {
 		return new Class177_Sub2(this, class180, i, i_530_, i_531_, i_529_);
 	}
 
@@ -3479,7 +3479,7 @@ public abstract class Class167_Sub3 extends Class167 {
 		method8720();
 	}
 
-	public final Class143 method2357(int i, int i_548_, int i_549_, int i_550_, boolean bool) {
+	public final NativeSprite method2357(int i, int i_548_, int i_549_, int i_550_, boolean bool) {
 		Class143_Sub3 class143_sub3 = new Class143_Sub3(this, i_549_, i_550_, bool, false);
 		class143_sub3.method1726(0, 0, i_549_, i_550_, i, i_548_);
 		return class143_sub3;
@@ -3832,19 +3832,19 @@ public abstract class Class167_Sub3 extends Class167 {
 
 	public abstract boolean method8900();
 
-	public final Class143 method2379(int i, int i_558_, boolean bool, boolean bool_559_) {
+	public final NativeSprite method2379(int i, int i_558_, boolean bool, boolean bool_559_) {
 		return new Class143_Sub3(this, i, i_558_, bool, bool_559_);
 	}
 
 	public abstract void method8901(Class443 class443);
 
-	public final Class143 method2283(Class179 class179, boolean bool) {
-		Class143 class143;
+	public final NativeSprite method2283(Class179 class179, boolean bool) {
+		NativeSprite class143;
 		if (class179.method2633() != 0 && class179.method2677() != 0) {
 			int[] is = class179.method2643(false);
-			class143 = method2081(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -3);
+			class143 = createNativeSprite(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -3);
 		} else
-			class143 = method2081(new int[] { 0 }, 0, 1, 1, 1, (byte) -84);
+			class143 = createNativeSprite(new int[] { 0 }, 0, 1, 1, 1, (byte) -84);
 		class143.method1718(class179.method2635(), class179.method2637(), class179.method2636(), class179.method2638());
 		return class143;
 	}
@@ -4224,13 +4224,13 @@ public abstract class Class167_Sub3 extends Class167 {
 		method8722();
 	}
 
-	public final Class143 method2280(Class179 class179, boolean bool) {
-		Class143 class143;
+	public final NativeSprite method2280(Class179 class179, boolean bool) {
+		NativeSprite class143;
 		if (class179.method2633() != 0 && class179.method2677() != 0) {
 			int[] is = class179.method2643(false);
-			class143 = method2081(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -85);
+			class143 = createNativeSprite(is, 0, class179.method2633(), class179.method2633(), class179.method2677(), (byte) -85);
 		} else
-			class143 = method2081(new int[] { 0 }, 0, 1, 1, 1, (byte) -113);
+			class143 = createNativeSprite(new int[] { 0 }, 0, 1, 1, 1, (byte) -113);
 		class143.method1718(class179.method2635(), class179.method2637(), class179.method2636(), class179.method2638());
 		return class143;
 	}

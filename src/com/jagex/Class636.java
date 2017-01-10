@@ -8,7 +8,7 @@ public class Class636 {
 	float[] aFloatArray8269;
 	Class436 aClass436_8270;
 	Class625[][] aClass625ArrayArray8271;
-	Class167 aClass167_8272;
+	GraphicalRenderer aClass167_8272;
 	int anInt8273;
 	long aLong8274;
 	boolean aBool8275;
@@ -149,13 +149,13 @@ public class Class636 {
 		Object object = null;
 		int i_10_ = -1;
 		int i_11_ = -1;
-		if (Class566.method6895(-708374433 * client.anInt11101, 2024182213) || Class233.method3334(-708374433 * client.anInt11101, (byte) -103)) {
+		if (RSOutputStream.method6895(-708374433 * client.anInt11101, 2024182213) || Class233.method3334(-708374433 * client.anInt11101, (byte) -103)) {
 			i_10_ = -1607026219 * Class637.anInt8301 >> 12;
 			i_11_ = Class685.anInt8665 * -1646092097 >> 12;
 		} else {
-			if (null != Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591) {
-				i_10_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenX[0]) >> 3;
-				i_11_ = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.screenY[0]) >> 3;
+			if (null != Class565.MY_PLAYER) {
+				i_10_ = (Class565.MY_PLAYER.screenX[0]) >> 3;
+				i_11_ = (Class565.MY_PLAYER.screenY[0]) >> 3;
 			}
 			if (i_10_ < 0 || i_10_ >= class515.method6321((byte) 0) >> 3 || i_11_ < 0 || i_11_ >= class515.method6243(177401017) >> 3) {
 				i_10_ = class515.method6321((byte) -11) >> 4;
@@ -269,7 +269,7 @@ public class Class636 {
 		fs[0] = 0.0F;
 	}
 
-	public Class636(Class167 class167, JS5ResourceProvider class461, int i, int i_28_) {
+	public Class636(GraphicalRenderer class167, JS5ResourceProvider class461, int i, int i_28_) {
 		anInt8273 = -408431021;
 		aLong8274 = 0L;
 		aBool8275 = false;

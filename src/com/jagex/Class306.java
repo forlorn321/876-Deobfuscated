@@ -419,7 +419,7 @@ public class Class306 implements Interface30 {
 		return new Class386(string, class395, class399, i_24_, i_25_, i_26_, i_27_, i_28_, i_29_, i_30_, i_31_, i_32_, i_33_);
 	}
 
-	public static void method4120(String string, boolean bool, Class167 class167, Class184 class184, Class2 class2, byte i) {
+	public static void method4120(String string, boolean bool, GraphicalRenderer class167, FontRenderer class184, Class2 class2, byte i) {
 		boolean bool_34_ = (!Class34_Sub8.aBool10968 || Class301_Sub1.method9201(-1363873811));
 		if (bool_34_) {
 			if (Class34_Sub8.aBool10968 && bool_34_) {

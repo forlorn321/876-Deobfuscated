@@ -174,8 +174,8 @@ public class Class205_Sub14 extends Class205 {
 	}
 
 	public static final void method9073(boolean bool, int i) {
-		Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4466, client.aClass106_11322.aClass15_1258, 2015744116);
-		client.aClass106_11322.method1409(class536_sub23, 1711853959);
+		OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4466, client.aClass106_11322.aClass15_1258, 2015744116);
+		client.aClass106_11322.writePacket(class536_sub23, 1711853959);
 		for (Class536_Sub36 class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method562(-1648870459)); null != class536_sub36; class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method567(-736066151))) {
 			if (!class536_sub36.method6487((byte) -55)) {
 				class536_sub36 = ((Class536_Sub36) client.aClass4_11008.method562(-2138083470));

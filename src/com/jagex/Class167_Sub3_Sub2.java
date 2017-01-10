@@ -80,7 +80,7 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 		return aBool11567 && aBool11568;
 	}
 
-	static Class167 method10605(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, Integer integer) {
+	static GraphicalRenderer method10605(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, JS5ResourceProvider class461, Integer integer) {
 		Class167_Sub3_Sub2 class167_sub3_sub2 = null;
 		Class167_Sub3_Sub2 class167_sub3_sub2_1_;
 		try {
@@ -318,7 +318,7 @@ public class Class167_Sub3_Sub2 extends Class167_Sub3 {
 		}
 	}
 
-	public int[] method2078(int i, int i_25_, int i_26_, int i_27_) {
+	public int[] getPixelArea(int i, int i_25_, int i_26_, int i_27_) {
 		method2084();
 		int[] is = null;
 		long l = IDirect3DDevice.GetRenderTarget(aLong11573, 0);

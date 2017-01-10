@@ -17,7 +17,7 @@ public class Class165 {
 		throw new Error();
 	}
 
-	public static void method1975(Class167 class167, int[] is, int i, int[] is_0_, int[] is_1_) {
+	public static void method1975(GraphicalRenderer class167, int[] is, int i, int[] is_0_, int[] is_1_) {
 		method1983(class167, is, 0, is.length, i, is_0_, is_1_);
 	}
 
@@ -217,7 +217,7 @@ public class Class165 {
 		}
 	}
 
-	static void method1983(Class167 class167, int[] is, int i, int i_51_, int i_52_, int[] is_53_, int[] is_54_) {
+	static void method1983(GraphicalRenderer class167, int[] is, int i, int i_51_, int i_52_, int[] is_53_, int[] is_54_) {
 		int[] is_55_ = new int[4];
 		class167.method2054(is_55_);
 		if (is_53_ != null && is_55_[3] - is_55_[1] != is_53_.length)
@@ -242,7 +242,7 @@ public class Class165 {
 		}
 	}
 
-	public static void method1984(Class167 class167, int[] is, int i) {
+	public static void method1984(GraphicalRenderer class167, int[] is, int i) {
 		method1983(class167, is, 0, is.length, i, null, null);
 	}
 

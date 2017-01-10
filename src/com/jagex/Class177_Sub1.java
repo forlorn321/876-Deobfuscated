@@ -7,7 +7,7 @@ import jaclib.memory.Stream;
 
 import jaggl.OpenGL;
 
-public class Class177_Sub1 extends Class177 {
+public class Class177_Sub1 extends MeshRasterizer {
 	static long[] aLongArray9042;
 	static final int anInt9043 = 7;
 	static final int anInt9044 = 1;
@@ -111,7 +111,7 @@ public class Class177_Sub1 extends Class177 {
 			aClass130_9065.anInterface15_1587 = null;
 	}
 
-	short method8483(Class180 class180, int i, long l, int i_3_, int i_4_, int i_5_, int i_6_, float f, float f_7_) {
+	short method8483(RSMesh class180, int i, long l, int i_3_, int i_4_, int i_5_, int i_6_, float f, float f_7_) {
 		int i_8_ = anIntArray9068[i];
 		int i_9_ = anIntArray9068[i + 1];
 		int i_10_ = 0;
@@ -179,7 +179,7 @@ public class Class177_Sub1 extends Class177 {
 		}
 	}
 
-	public Class177 method2623(byte i, int i_16_, boolean bool) {
+	public MeshRasterizer method2623(byte i, int i_16_, boolean bool) {
 		boolean bool_17_ = false;
 		Class177_Sub1 class177_sub1_18_;
 		Class177_Sub1 class177_sub1_19_;
@@ -868,7 +868,7 @@ public class Class177_Sub1 extends Class177 {
 		return aShort9097;
 	}
 
-	public void method2474(int i, int i_173_, int i_174_) {
+	public void resize(int i, int i_173_, int i_174_) {
 		for (int i_175_ = 0; i_175_ < anInt9058; i_175_++) {
 			if (i != 128)
 				anIntArray9059[i_175_] = anIntArray9059[i_175_] * i >> 7;
@@ -888,7 +888,7 @@ public class Class177_Sub1 extends Class177 {
 		return anInt9067;
 	}
 
-	public void method2469(Class177 class177, int i, int i_176_, int i_177_, boolean bool) {
+	public void method2469(MeshRasterizer class177, int i, int i_176_, int i_177_, boolean bool) {
 		Class177_Sub1 class177_sub1_178_ = (Class177_Sub1) class177;
 		if (anInt9118 != 0 && class177_sub1_178_.anInt9118 != 0) {
 			int i_179_ = class177_sub1_178_.anInt9058;
@@ -1115,7 +1115,7 @@ public class Class177_Sub1 extends Class177 {
 			aClass130_9065.anInterface15_1587 = null;
 	}
 
-	public boolean method2480() {
+	public boolean successful() {
 		if (aShortArray9079 == null)
 			return true;
 		for (int i = 0; i < aShortArray9079.length; i++) {
@@ -1174,7 +1174,7 @@ public class Class177_Sub1 extends Class177 {
 		return aShort9094;
 	}
 
-	public Class177 method2617(byte i, int i_240_, boolean bool) {
+	public MeshRasterizer method2617(byte i, int i_240_, boolean bool) {
 		boolean bool_241_ = false;
 		Class177_Sub1 class177_sub1_242_;
 		Class177_Sub1 class177_sub1_243_;
@@ -1908,7 +1908,7 @@ public class Class177_Sub1 extends Class177 {
 		anIntArray9114 = new int[8];
 	}
 
-	public void method2517(Class177 class177, int i, int i_441_, int i_442_, boolean bool) {
+	public void method2517(MeshRasterizer class177, int i, int i_441_, int i_442_, boolean bool) {
 		Class177_Sub1 class177_sub1_443_ = (Class177_Sub1) class177;
 		if (anInt9118 != 0 && class177_sub1_443_.anInt9118 != 0) {
 			int i_444_ = class177_sub1_443_.anInt9058;
@@ -2051,7 +2051,7 @@ public class Class177_Sub1 extends Class177 {
 		}
 	}
 
-	public void method2561(Class177 class177, int i, int i_486_, int i_487_, boolean bool) {
+	public void method2561(MeshRasterizer class177, int i, int i_486_, int i_487_, boolean bool) {
 		Class177_Sub1 class177_sub1_488_ = (Class177_Sub1) class177;
 		if (anInt9118 != 0 && class177_sub1_488_.anInt9118 != 0) {
 			int i_489_ = class177_sub1_488_.anInt9058;
@@ -3379,7 +3379,7 @@ public class Class177_Sub1 extends Class177 {
 		}
 	}
 
-	Class177 method8497(Class177_Sub1 class177_sub1_843_, Class177_Sub1 class177_sub1_844_, int i, boolean bool, boolean bool_845_) {
+	MeshRasterizer method8497(Class177_Sub1 class177_sub1_843_, Class177_Sub1 class177_sub1_844_, int i, boolean bool, boolean bool_845_) {
 		class177_sub1_843_.aByte9085 = (byte) 0;
 		class177_sub1_843_.anInt9050 = i;
 		class177_sub1_843_.anInt9051 = anInt9051;
@@ -3886,7 +3886,7 @@ public class Class177_Sub1 extends Class177 {
 		return aShort9096;
 	}
 
-	Class177_Sub1(Class167_Sub2 class167_sub2, Class180 class180, int i, int i_946_, int i_947_, int i_948_) {
+	Class177_Sub1(Class167_Sub2 class167_sub2, RSMesh class180, int i, int i_946_, int i_947_, int i_948_) {
 		aBool9056 = false;
 		anInt9057 = 0;
 		anInt9058 = 0;
@@ -6563,7 +6563,7 @@ public class Class177_Sub1 extends Class177 {
 		}
 	}
 
-	public Class177 method2618(byte i, int i_1590_, boolean bool) {
+	public MeshRasterizer method2618(byte i, int i_1590_, boolean bool) {
 		boolean bool_1591_ = false;
 		Class177_Sub1 class177_sub1_1592_;
 		Class177_Sub1 class177_sub1_1593_;
@@ -6576,7 +6576,7 @@ public class Class177_Sub1 extends Class177 {
 		return method8497(class177_sub1_1592_, class177_sub1_1593_, i_1590_, bool_1591_, bool);
 	}
 
-	public Class177 method2496(byte i, int i_1594_, boolean bool) {
+	public MeshRasterizer method2496(byte i, int i_1594_, boolean bool) {
 		boolean bool_1595_ = false;
 		Class177_Sub1 class177_sub1_1596_;
 		Class177_Sub1 class177_sub1_1597_;

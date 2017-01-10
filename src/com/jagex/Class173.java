@@ -247,16 +247,16 @@ public abstract class Class173 implements Interface24 {
 					Class30 class30 = client.aClass30Array11295[i_65_];
 					String string_66_ = class30.aString263;
 					String string_67_ = Class473.method5740(string_66_, Class302.aClass74_3406, (byte) -87);
-					if (Class184.method2764(string, string_64_, string_66_, string_67_, -1113769417)) {
+					if (FontRenderer.method2764(string, string_64_, string_66_, string_67_, -1113769417)) {
 						client.anInt11293 -= -758864271;
 						for (int i_68_ = i_65_; i_68_ < 1857706641 * client.anInt11293; i_68_++)
 							client.aClass30Array11295[i_68_] = client.aClass30Array11295[1 + i_68_];
 						client.anInt11231 = client.anInt11215 * 1286029873;
 						Class106 class106 = Class536_Sub41.method9871(2077853800);
-						Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4498, class106.aClass15_1258, 1609417092);
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(Class555.method6802(string, -299105380));
-						class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-						class106.method1409(class536_sub23, 1707200102);
+						OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4498, class106.aClass15_1258, 1609417092);
+						class536_sub23.stream.writeByte(Class555.method6802(string, -299105380));
+						class536_sub23.stream.writeString(string);
+						class106.writePacket(class536_sub23, 1707200102);
 						break;
 					}
 				}

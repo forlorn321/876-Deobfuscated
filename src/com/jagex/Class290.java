@@ -38,15 +38,15 @@ public class Class290 {
 	}
 
 	static final void method3925(Class668 class668, int i) {
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.aClass62_11940.method1047((byte) 16);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class565.MY_PLAYER.aClass62_11940.method1047((byte) 16);
 	}
 
 	static final void method3926(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_) {
 		if (1542697723 * client.anInt11074 == 3) {
-			int i_7_ = Class95.anInt1156 * -1482773169;
-			int[] is = Class95.anIntArray1157;
+			int i_7_ = Class95.PLAYERLIST_SIZE * -1482773169;
+			int[] is = Class95.PLAYERLIST_INDICES;
 			for (int i_8_ = 0; i_8_ < i_7_; i_8_++) {
-				Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[is[i_8_]];
+				Player class649_sub1_sub5_sub1_sub2 = client.PLAYER_LIST[is[i_8_]];
 				if (class649_sub1_sub5_sub1_sub2 != null)
 					class649_sub1_sub5_sub1_sub2.method10884(i, i_0_, i_1_, i_2_, i_3_, i_4_, i_5_, (byte) -65);
 			}

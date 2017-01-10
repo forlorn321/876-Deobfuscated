@@ -3,12 +3,12 @@
  */
 package com.jagex;
 
-public class Class536_Sub23 extends Class536 {
+public class OutgoingPacketContainer extends Class536 {
 	int anInt10527;
-	public RSBitBuffer aClass536_Sub33_Sub2_10528;
+	public RSBitBuffer stream;
 	OutgoingPacket aClass414_10529;
 	public int anInt10530;
-	static Class536_Sub23[] aClass536_Sub23Array10531 = new Class536_Sub23[300];
+	static OutgoingPacketContainer[] aClass536_Sub23Array10531 = new OutgoingPacketContainer[300];
 	static int anInt10532 = 0;
 
 	public void method9582(byte i) {
@@ -16,7 +16,7 @@ public class Class536_Sub23 extends Class536 {
 			aClass536_Sub23Array10531[((anInt10532 += 373737403) * 1727980915 - 1)] = this;
 	}
 
-	Class536_Sub23() {
+	OutgoingPacketContainer() {
 		/* empty */
 	}
 

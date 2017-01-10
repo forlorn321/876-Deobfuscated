@@ -12,7 +12,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 	int anInt12112;
 	int anInt12113 = 0;
 
-	boolean method9969(Class167 class167, int i, int i_0_) {
+	boolean method9969(GraphicalRenderer class167, int i, int i_0_) {
 		return false;
 	}
 
@@ -33,7 +33,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return -857366931 * anInt12107;
 	}
 
-	public Class559 method9946(Class167 class167, int i) {
+	public Class559 method9946(GraphicalRenderer class167, int i) {
 		return null;
 	}
 
@@ -50,7 +50,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return 1646167845 * anInt12113;
 	}
 
-	Class177 method11029(Class167 class167, int i, int i_2_, int i_3_) {
+	MeshRasterizer method11029(GraphicalRenderer class167, int i, int i_2_, int i_3_) {
 		Class677 class677 = ((Class677) Class633.aClass34_Sub15_8260.method70(i_2_, (byte) -67));
 		Class160 class160 = aClass553_10838.aClass160Array7459[aByte10839];
 		Class160 class160_4_ = (aByte10840 < 3 ? aClass553_10838.aClass160Array7459[1 + aByte10840] : null);
@@ -58,13 +58,13 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return ((aClass688_12110 != null && !aClass688_12110.method8135(-1207711990)) ? class677.method8047(class167, i, -866007040 * anInt12108, class160, class160_4_, (int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, aClass688_12110, (byte) 2, -747083676) : class677.method8047(class167, i, -866007040 * anInt12108, class160, class160_4_, (int) class436.aFloat4850, (int) class436.aFloat4852, (int) class436.aFloat4853, null, (byte) 2, 458431025));
 	}
 
-	void method9945(Class167 class167, int i) {
-		Class177 class177 = method11029(class167, 0, 495660189 * anInt12112, 1649475209);
+	void method9945(GraphicalRenderer class167, int i) {
+		MeshRasterizer class177 = method11029(class167, 0, 495660189 * anInt12112, 1649475209);
 		if (class177 != null)
 			method11030(class167, class177, method7851(), 639315588);
 	}
 
-	void method11030(Class167 class167, Class177 class177, Class433 class433, int i) {
+	void method11030(GraphicalRenderer class167, MeshRasterizer class177, Class433 class433, int i) {
 		class177.method2513(class433);
 		Class172[] class172s = class177.method2514();
 		Class156[] class156s = class177.method2515();
@@ -80,7 +80,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	public Class559 method9963(Class167 class167) {
+	public Class559 method9963(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -104,8 +104,8 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return 1646167845 * anInt12113;
 	}
 
-	Class563 method9966(Class167 class167) {
-		Class177 class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1259946999);
+	Class563 method9966(GraphicalRenderer class167) {
+		MeshRasterizer class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1259946999);
 		if (class177 == null)
 			return null;
 		Class433 class433 = method7851();
@@ -126,7 +126,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return 1646167845 * anInt12113;
 	}
 
-	public Class559 method9955(Class167 class167) {
+	public Class559 method9955(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -134,7 +134,7 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return (aClass688_12110 == null || aClass688_12110.method8135(-445606629));
 	}
 
-	public Class559 method9962(Class167 class167) {
+	public Class559 method9962(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -161,8 +161,8 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return (aClass688_12110 == null || aClass688_12110.method8135(-839584136));
 	}
 
-	Class563 method9965(Class167 class167) {
-		Class177 class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1931906782);
+	Class563 method9965(GraphicalRenderer class167) {
+		MeshRasterizer class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1931906782);
 		if (class177 == null)
 			return null;
 		Class433 class433 = method7851();
@@ -183,27 +183,27 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	void method9967(Class167 class167) {
-		Class177 class177 = method11029(class167, 0, 495660189 * anInt12112, -372392303);
+	void method9967(GraphicalRenderer class167) {
+		MeshRasterizer class177 = method11029(class167, 0, 495660189 * anInt12112, -372392303);
 		if (class177 != null)
 			method11030(class167, class177, method7851(), 696291395);
 	}
 
-	void method9975(Class167 class167) {
-		Class177 class177 = method11029(class167, 0, 495660189 * anInt12112, -903025287);
+	void method9975(GraphicalRenderer class167) {
+		MeshRasterizer class177 = method11029(class167, 0, 495660189 * anInt12112, -903025287);
 		if (class177 != null)
 			method11030(class167, class177, method7851(), -2117540928);
 	}
 
-	public Class559 method9961(Class167 class167) {
+	public Class559 method9961(GraphicalRenderer class167) {
 		return null;
 	}
 
-	boolean method9957(Class167 class167, int i, int i_19_) {
+	boolean method9957(GraphicalRenderer class167, int i, int i_19_) {
 		return false;
 	}
 
-	boolean method9971(Class167 class167, int i, int i_20_) {
+	boolean method9971(GraphicalRenderer class167, int i, int i_20_) {
 		return false;
 	}
 
@@ -215,8 +215,8 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	Class563 method9985(Class167 class167) {
-		Class177 class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, 1801391102);
+	Class563 method9985(GraphicalRenderer class167) {
+		MeshRasterizer class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, 1801391102);
 		if (class177 == null)
 			return null;
 		Class433 class433 = method7851();
@@ -233,11 +233,11 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		return class563;
 	}
 
-	final void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_21_, int i_22_, boolean bool) {
+	final void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_21_, int i_22_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
-	final void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_23_, int i_24_, boolean bool) {
+	final void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_23_, int i_24_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
@@ -245,8 +245,8 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 		throw new IllegalStateException();
 	}
 
-	Class563 method9944(Class167 class167, byte i) {
-		Class177 class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1102345087);
+	Class563 method9944(GraphicalRenderer class167, byte i) {
+		MeshRasterizer class177 = method11029(class167, 0x800 | (0 != anInt12108 * 641305657 ? 5 : 0), anInt12112 * 495660189, -1102345087);
 		if (class177 == null)
 			return null;
 		Class433 class433 = method7851();
@@ -295,11 +295,11 @@ public class Class649_Sub1_Sub5_Sub4 extends Class649_Sub1_Sub5 {
 			aClass627_12109.method7469();
 	}
 
-	final void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_25_, int i_26_, boolean bool, int i_27_) {
+	final void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_25_, int i_26_, boolean bool, int i_27_) {
 		throw new IllegalStateException();
 	}
 
-	boolean method9939(Class167 class167, int i, int i_28_, byte i_29_) {
+	boolean method9939(GraphicalRenderer class167, int i, int i_28_, byte i_29_) {
 		return false;
 	}
 }

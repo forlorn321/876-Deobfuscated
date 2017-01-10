@@ -11,8 +11,8 @@ public class Class536_Sub1 extends Class536 {
 	int[] anIntArray10304 = { -1 };
 	Class21[] aClass21Array10305;
 
-	final Class177 method9346(Class167 class167, int i, Class688 class688, int i_0_, boolean bool, Class617 class617, int i_1_) {
-		Class177 class177 = null;
+	final MeshRasterizer method9346(GraphicalRenderer class167, int i, Class688 class688, int i_0_, boolean bool, PlayerAppearance class617, int i_1_) {
+		MeshRasterizer class177 = null;
 		int i_2_ = i;
 		BASTypeDecoder class589 = null;
 		if (-1 != i_0_)
@@ -30,9 +30,9 @@ public class Class536_Sub1 extends Class536 {
 		}
 		if (null != class688)
 			i_2_ |= class688.method8162((byte) 17);
-		long l = method9349(is, i_0_, class617 != null ? class617.anIntArray8072 : null, bool, -407561573);
+		long l = method9349(is, i_0_, class617 != null ? class617.colors : null, bool, -407561573);
 		if (null != aClass199_10301)
-			class177 = (Class177) aClass199_10301.method2886(l);
+			class177 = (MeshRasterizer) aClass199_10301.method2886(l);
 		if (class177 == null || class167.method2308(class177.method2466(), i_2_) != 0) {
 			if (class177 != null)
 				i_2_ = class167.method2068(i_2_, class177.method2466());
@@ -44,7 +44,7 @@ public class Class536_Sub1 extends Class536 {
 			}
 			if (bool_6_)
 				return null;
-			Class180[] class180s = new Class180[is.length];
+			RSMesh[] class180s = new RSMesh[is.length];
 			for (int i_8_ = 0; i_8_ < is.length; i_8_++) {
 				if (-1 != is[i_8_])
 					class180s[i_8_] = ((ItemDecoder) Class111.aClass34_Sub13_1391.method70(is[i_8_], (byte) 2)).method509(bool, null, 2055272488);
@@ -65,15 +65,15 @@ public class Class536_Sub1 extends Class536 {
 					}
 				}
 			}
-			Class180 class180 = new Class180(class180s, class180s.length);
+			RSMesh class180 = new RSMesh(class180s, class180s.length);
 			if (class617 != null)
 				i_5_ |= 0x4000;
-			class177 = class167.method2093(class180, i_5_, 960133935 * anInt10302, 65, 853);
+			class177 = class167.createMeshRasterizer(class180, i_5_, 960133935 * anInt10302, 65, 853);
 			if (class617 != null) {
 				for (int i_16_ = 0; i_16_ < 10; i_16_++) {
-					for (int i_17_ = 0; i_17_ < Class500.aShortArrayArray6844[i_16_].length; i_17_++) {
-						if (class617.anIntArray8072[i_16_] < (Class267.aShortArrayArrayArray2870[i_16_][i_17_]).length)
-							class177.method2507(Class500.aShortArrayArray6844[i_16_][i_17_], (Class267.aShortArrayArrayArray2870[i_16_][i_17_][class617.anIntArray8072[i_16_]]));
+					for (int i_17_ = 0; i_17_ < Class500.skinColors[i_16_].length; i_17_++) {
+						if (class617.colors[i_16_] < (Class267.skinColors[i_16_][i_17_]).length)
+							class177.method2507(Class500.skinColors[i_16_][i_17_], (Class267.skinColors[i_16_][i_17_][class617.colors[i_16_]]));
 					}
 				}
 				for (int i_18_ = 0; i_18_ < 10; i_18_++) {
@@ -90,7 +90,7 @@ public class Class536_Sub1 extends Class536 {
 		}
 		if (null == class688)
 			return class177;
-		Class177 class177_20_ = class177.method2623((byte) 1, i_2_, true);
+		MeshRasterizer class177_20_ = class177.method2623((byte) 1, i_2_, true);
 		class688.method8132(class177_20_, 0, -1598107883);
 		return class177_20_;
 	}

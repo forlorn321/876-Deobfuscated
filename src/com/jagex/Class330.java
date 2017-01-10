@@ -4,7 +4,7 @@
 package com.jagex;
 
 public class Class330 implements Interface33 {
-	Class143 aClass143_3602;
+	NativeSprite aClass143_3602;
 	JS5ResourceProvider aClass461_3603;
 	Class398 aClass398_3604;
 

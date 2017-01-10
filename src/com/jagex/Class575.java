@@ -46,7 +46,7 @@ public class Class575 {
 	static int anInt7673;
 	static TwitchWebcamDevice[] aTwitchWebcamDeviceArray7674;
 	static long aLong7675;
-	static Class143 aClass143_7676;
+	static NativeSprite aClass143_7676;
 	static boolean aBool7677;
 	static final int anInt7678 = 2000;
 	static final int anInt7679 = 0;

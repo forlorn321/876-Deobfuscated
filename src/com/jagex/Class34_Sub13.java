@@ -13,8 +13,8 @@ public class Class34_Sub13 extends Class34 {
 		super.method809((byte) 115);
 	}
 
-	public Class143 method10338(Class167 class167, Class167 class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, Class184 class184, Class617 class617, Class628 class628, int i_6_) {
-		return ((Class16) anInterface6_289).method646(class167, class167_0_, i, i_1_, i_2_, i_3_, bool, bool_4_, i_5_, class184, class617, class628, this, 417372582);
+	public NativeSprite method10338(GraphicalRenderer class167, GraphicalRenderer class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, FontRenderer class184, PlayerAppearance class617, Class628 class628, int i_6_) {
+		return ((Class16) anInterface6_289).renderItemSprite(class167, class167_0_, i, i_1_, i_2_, i_3_, bool, bool_4_, i_5_, class184, class617, class628, this, 417372582);
 	}
 
 	public void method10339(int i, int i_7_) {
@@ -70,7 +70,7 @@ public class Class34_Sub13 extends Class34 {
 		((Class16) anInterface6_289).method651(i, 184541658);
 	}
 
-	public Class143 method10342(Class167 class167, int i, int i_9_, int i_10_, int i_11_, int i_12_, Class617 class617, int i_13_) {
+	public NativeSprite method10342(GraphicalRenderer class167, int i, int i_9_, int i_10_, int i_11_, int i_12_, PlayerAppearance class617, int i_13_) {
 		return ((Class16) anInterface6_289).method666(class167, i, i_9_, i_10_, i_11_, i_12_, class617, -1413666052);
 	}
 

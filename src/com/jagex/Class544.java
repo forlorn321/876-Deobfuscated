@@ -29,7 +29,7 @@ public class Class544 {
 	int[] anIntArray7259;
 	int[] anIntArray7260;
 	int anInt7261;
-	static Class167 aClass167_7262;
+	static GraphicalRenderer aClass167_7262;
 	static final int anInt7263 = 10;
 	int[] anIntArray7264;
 	int anInt7265;
@@ -163,7 +163,7 @@ public class Class544 {
 		method6584();
 	}
 
-	void method6587(Class167 class167, Class557 class557, int i) {
+	void method6587(GraphicalRenderer class167, Class557 class557, int i) {
 		aClass167_7262 = class167;
 		if (anIntArray7256 != null && class557.aByte7517 >= i) {
 			for (int i_60_ = 0; i_60_ < anIntArray7256.length; i_60_++) {
@@ -733,7 +733,7 @@ public class Class544 {
 		}
 	}
 
-	void method6603(Class167 class167, int i) {
+	void method6603(GraphicalRenderer class167, int i) {
 		aClass167_7262 = class167;
 		if (!aBool7239 || !aBool7238)
 			anInt7254 = 0;

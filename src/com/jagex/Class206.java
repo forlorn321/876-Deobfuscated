@@ -80,10 +80,10 @@ public abstract class Class206 implements Interface6 {
 			boolean bool = class536_sub33_sub2.readBits(1) == 1;
 			if (bool)
 				Class95.anIntArray1160[(Class95.anInt1150 += -1305881103) * 38697745 - 1] = i;
-			if (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] != null)
+			if (client.PLAYER_LIST[i] != null)
 				throw new RuntimeException();
 			Class43 class43 = Class95.aClass43Array1162[i];
-			Player class649_sub1_sub5_sub1_sub2 = (client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i] = (new Player(client.aClass515_11066.method6249(1569682681))));
+			Player class649_sub1_sub5_sub1_sub2 = (client.PLAYER_LIST[i] = (new Player(client.aClass515_11066.method6249(1569682681))));
 			class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i;
 			if (Class95.playerRenderData[i] != null)
 				class649_sub1_sub5_sub1_sub2.decodePlayerAppearance(Class95.playerRenderData[i]);
@@ -185,7 +185,7 @@ public abstract class Class206 implements Interface6 {
 		int i_44_ = class649_sub1_sub5_sub1_36_.method10879((byte) -69);
 		if (i_44_ != -1) {
 			Object object = null;
-			Class143 class143 = (Class143) client.aClass199_11320.method2886((long) i_44_);
+			NativeSprite class143 = (NativeSprite) client.aClass199_11320.method2886((long) i_44_);
 			if (null == class143) {
 				Class179[] class179s = Class181.method2720(Class398.aClass461_4122, i_44_, 0);
 				if (class179s == null)

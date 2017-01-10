@@ -6,7 +6,7 @@ package com.jagex;
 public class Class532 {
 	static Interface46 anInterface46_7121;
 	public static Class98_Sub1_Sub1 aClass98_Sub1_Sub1_7122;
-	static Class143 aClass143_7123;
+	static NativeSprite aClass143_7123;
 	static boolean aBool7124;
 
 	Class532() throws Throwable {
@@ -38,8 +38,8 @@ public class Class532 {
 	static final void method6445(RSBitBuffer buffer) {
 		int i_2_ = 0;
 		buffer.initBitAccess();
-		for (int i_3_ = 0; i_3_ < -1482773169 * Class95.anInt1156; i_3_++) {
-			int i_4_ = Class95.anIntArray1157[i_3_];
+		for (int i_3_ = 0; i_3_ < -1482773169 * Class95.PLAYERLIST_SIZE; i_3_++) {
+			int i_4_ = Class95.PLAYERLIST_INDICES[i_3_];
 			if (0 == (Class95.aByteArray1152[i_4_] & 0x1)) {
 				if (i_2_ > 0) {
 					i_2_--;
@@ -58,8 +58,8 @@ public class Class532 {
 		if (i_2_ != 0)
 			throw new RuntimeException();
 		buffer.initBitAccess();
-		for (int i_6_ = 0; i_6_ < Class95.anInt1156 * -1482773169; i_6_++) {
-			int i_7_ = Class95.anIntArray1157[i_6_];
+		for (int i_6_ = 0; i_6_ < Class95.PLAYERLIST_SIZE * -1482773169; i_6_++) {
+			int i_7_ = Class95.PLAYERLIST_INDICES[i_6_];
 			if (0 != (Class95.aByteArray1152[i_7_] & 0x1)) {
 				if (i_2_ > 0) {
 					i_2_--;
@@ -117,13 +117,13 @@ public class Class532 {
 		buffer.finishBitAccess(-1378748980);
 		if (0 != i_2_)
 			throw new RuntimeException();
-		Class95.anInt1156 = 0;
+		Class95.PLAYERLIST_SIZE = 0;
 		Class95.anInt1158 = 0;
 		for (int i_15_ = 1; i_15_ < 2048; i_15_++) {
 			Class95.aByteArray1152[i_15_] >>= 1;
-			Player class649_sub1_sub5_sub1_sub2 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_15_];
+			Player class649_sub1_sub5_sub1_sub2 = client.PLAYER_LIST[i_15_];
 			if (null != class649_sub1_sub5_sub1_sub2)
-				Class95.anIntArray1157[(Class95.anInt1156 += 1948535215) * -1482773169 - 1] = i_15_;
+				Class95.PLAYERLIST_INDICES[(Class95.PLAYERLIST_SIZE += 1948535215) * -1482773169 - 1] = i_15_;
 			else
 				Class95.anIntArray1159[(Class95.anInt1158 += 190489201) * -745742703 - 1] = i_15_;
 		}

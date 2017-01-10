@@ -765,7 +765,7 @@ public class Class628 {
 	}
 
 	static final void method7496(int i) {
-		if (Class233.method3334(client.anInt11101 * -708374433, (byte) -98) || Class566.method6895(-708374433 * client.anInt11101, 2069498977))
+		if (Class233.method3334(client.anInt11101 * -708374433, (byte) -98) || RSOutputStream.method6895(-708374433 * client.anInt11101, 2069498977))
 			Class275.method3737(false, -1412415318);
 		else {
 			Class605.aClass567_7872 = client.aClass106_11322.method1413((short) -13854);

@@ -54,14 +54,14 @@ public class Class470 {
 
 	public static void method5705(String string, byte i) {
 		if (-708374433 * client.anInt11101 == 11) {
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4485, client.aClass106_11218.aClass15_1258, 1865806577);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(0, -1778059594);
-			int i_8_ = (class536_sub23.aClass536_Sub33_Sub2_10528.off * -810172525);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(string);
-			class536_sub23.aClass536_Sub33_Sub2_10528.off += -681738691;
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9725(Class45.anIntArray526, i_8_, (-810172525 * class536_sub23.aClass536_Sub33_Sub2_10528.off), -869482025);
-			class536_sub23.aClass536_Sub33_Sub2_10528.method9698(-810172525 * (class536_sub23.aClass536_Sub33_Sub2_10528.off) - i_8_, 52250740);
-			client.aClass106_11218.method1409(class536_sub23, 138798278);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4485, client.aClass106_11218.aClass15_1258, 1865806577);
+			class536_sub23.stream.writeShort(0, -1778059594);
+			int i_8_ = (class536_sub23.stream.off * -810172525);
+			class536_sub23.stream.writeString(string);
+			class536_sub23.stream.off += -681738691;
+			class536_sub23.stream.method9725(Class45.anIntArray526, i_8_, (-810172525 * class536_sub23.stream.off), -869482025);
+			class536_sub23.stream.method9698(-810172525 * (class536_sub23.stream.off) - i_8_, 52250740);
+			client.aClass106_11218.writePacket(class536_sub23, 138798278);
 			Class391.aClass686_4060 = Class686.aClass686_8670;
 		}
 	}

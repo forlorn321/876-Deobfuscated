@@ -49,12 +49,12 @@ public class Class672 {
 		if (null != Class646.aClass536_Sub15_8361 && (i >= 0 && i < (Class646.aClass536_Sub15_8361.anInt10482 * 1494047173))) {
 			ClanMember class349 = Class646.aClass536_Sub15_8361.members[i];
 			Class106 class106 = Class536_Sub41.method9871(2077853800);
-			Class536_Sub23 class536_sub23 = Class213.method3075(OutgoingPacket.aClass414_4522, class106.aClass15_1258, 889229786);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(3 + Class555.method6802(class349.username, 1665491456));
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeShort(i, -1778059594);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeByte(bool ? 1 : 0);
-			class536_sub23.aClass536_Sub33_Sub2_10528.writeString(class349.username);
-			class106.method1409(class536_sub23, 877143203);
+			OutgoingPacketContainer class536_sub23 = Class213.createOutgoingPacket(OutgoingPacket.aClass414_4522, class106.aClass15_1258, 889229786);
+			class536_sub23.stream.writeByte(3 + Class555.method6802(class349.username, 1665491456));
+			class536_sub23.stream.writeShort(i, -1778059594);
+			class536_sub23.stream.writeByte(bool ? 1 : 0);
+			class536_sub23.stream.writeString(class349.username);
+			class106.writePacket(class536_sub23, 877143203);
 		}
 	}
 }

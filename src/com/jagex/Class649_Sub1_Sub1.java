@@ -4,7 +4,7 @@
 package com.jagex;
 
 public abstract class Class649_Sub1_Sub1 extends Class649_Sub1 {
-	final void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_0_, int i_1_, boolean bool) {
+	final void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_0_, int i_1_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
@@ -13,7 +13,7 @@ public abstract class Class649_Sub1_Sub1 extends Class649_Sub1 {
 		return method9950(((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444), class536_sub19s, 1498592606);
 	}
 
-	boolean method9948(Class167 class167, int i) {
+	boolean method9948(GraphicalRenderer class167, int i) {
 		Class436 class436 = method7837().aClass436_4823;
 		Class552 class552 = aClass553_10838.method6725(aByte10840, ((int) class436.aFloat4850 >> (1893698405 * aClass553_10838.anInt7444)), ((int) class436.aFloat4853 >> (aClass553_10838.anInt7444 * 1893698405)), -1002790377);
 		if (class552 != null && class552.aClass649_Sub1_Sub5_7415.aBool11866)
@@ -32,7 +32,7 @@ public abstract class Class649_Sub1_Sub1 extends Class649_Sub1 {
 		return false;
 	}
 
-	final void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_6_, int i_7_, boolean bool, int i_8_) {
+	final void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_6_, int i_7_, boolean bool, int i_8_) {
 		throw new IllegalStateException();
 	}
 
@@ -53,7 +53,7 @@ public abstract class Class649_Sub1_Sub1 extends Class649_Sub1 {
 		return false;
 	}
 
-	final void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_9_, int i_10_, boolean bool) {
+	final void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_9_, int i_10_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
@@ -80,7 +80,7 @@ public abstract class Class649_Sub1_Sub1 extends Class649_Sub1 {
 		return method9950(((int) class436.aFloat4850 >> 1893698405 * aClass553_10838.anInt7444), ((int) class436.aFloat4853 >> 1893698405 * aClass553_10838.anInt7444), class536_sub19s, 2115276713);
 	}
 
-	boolean method9982(Class167 class167) {
+	boolean method9982(GraphicalRenderer class167) {
 		Class436 class436 = method7837().aClass436_4823;
 		Class552 class552 = aClass553_10838.method6725(aByte10840, ((int) class436.aFloat4850 >> (1893698405 * aClass553_10838.anInt7444)), ((int) class436.aFloat4853 >> (aClass553_10838.anInt7444 * 1893698405)), -452021687);
 		if (class552 != null && class552.aClass649_Sub1_Sub5_7415.aBool11866)

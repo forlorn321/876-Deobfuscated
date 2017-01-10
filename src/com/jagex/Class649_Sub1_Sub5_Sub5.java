@@ -6,7 +6,7 @@ package com.jagex;
 public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 	Class526 aClass526_12116;
 
-	Class563 method9966(Class167 class167) {
+	Class563 method9966(GraphicalRenderer class167) {
 		if (aClass526_12116.aClass177_7103 == null)
 			return null;
 		Class433 class433 = class167.method2091();
@@ -20,7 +20,7 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return null;
 	}
 
-	boolean method9971(Class167 class167, int i, int i_1_) {
+	boolean method9971(GraphicalRenderer class167, int i, int i_1_) {
 		return false;
 	}
 
@@ -36,7 +36,7 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	void method9967(Class167 class167) {
+	void method9967(GraphicalRenderer class167) {
 		/* empty */
 	}
 
@@ -44,7 +44,7 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		/* empty */
 	}
 
-	Class563 method9944(Class167 class167, byte i) {
+	Class563 method9944(GraphicalRenderer class167, byte i) {
 		if (aClass526_12116.aClass177_7103 == null)
 			return null;
 		Class433 class433 = class167.method2091();
@@ -58,11 +58,11 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return null;
 	}
 
-	boolean method9939(Class167 class167, int i, int i_3_, byte i_4_) {
+	boolean method9939(GraphicalRenderer class167, int i, int i_3_, byte i_4_) {
 		return false;
 	}
 
-	public Class559 method9946(Class167 class167, int i) {
+	public Class559 method9946(GraphicalRenderer class167, int i) {
 		return null;
 	}
 
@@ -92,15 +92,15 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return aClass526_12116.aClass177_7103.method2562();
 	}
 
-	void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_5_, int i_6_, boolean bool, int i_7_) {
+	void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_5_, int i_6_, boolean bool, int i_7_) {
 		/* empty */
 	}
 
-	public Class559 method9955(Class167 class167) {
+	public Class559 method9955(GraphicalRenderer class167) {
 		return null;
 	}
 
-	Class563 method9985(Class167 class167) {
+	Class563 method9985(GraphicalRenderer class167) {
 		if (aClass526_12116.aClass177_7103 == null)
 			return null;
 		Class433 class433 = class167.method2091();
@@ -114,11 +114,11 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return null;
 	}
 
-	public Class559 method9961(Class167 class167) {
+	public Class559 method9961(GraphicalRenderer class167) {
 		return null;
 	}
 
-	public Class559 method9963(Class167 class167) {
+	public Class559 method9963(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -126,7 +126,7 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	Class563 method9965(Class167 class167) {
+	Class563 method9965(GraphicalRenderer class167) {
 		if (aClass526_12116.aClass177_7103 == null)
 			return null;
 		Class433 class433 = class167.method2091();
@@ -140,15 +140,15 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return null;
 	}
 
-	void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_10_, int i_11_, boolean bool) {
+	void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_10_, int i_11_, boolean bool) {
 		/* empty */
 	}
 
-	boolean method9969(Class167 class167, int i, int i_12_) {
+	boolean method9969(GraphicalRenderer class167, int i, int i_12_) {
 		return false;
 	}
 
-	void method9975(Class167 class167) {
+	void method9975(GraphicalRenderer class167) {
 		/* empty */
 	}
 
@@ -158,11 +158,11 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return aClass526_12116.aClass177_7103.method2562();
 	}
 
-	boolean method9957(Class167 class167, int i, int i_13_) {
+	boolean method9957(GraphicalRenderer class167, int i, int i_13_) {
 		return false;
 	}
 
-	void method9945(Class167 class167, int i) {
+	void method9945(GraphicalRenderer class167, int i) {
 		/* empty */
 	}
 
@@ -174,11 +174,11 @@ public class Class649_Sub1_Sub5_Sub5 extends Class649_Sub1_Sub5 {
 		return false;
 	}
 
-	public Class559 method9962(Class167 class167) {
+	public Class559 method9962(GraphicalRenderer class167) {
 		return null;
 	}
 
-	void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_14_, int i_15_, boolean bool) {
+	void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_14_, int i_15_, boolean bool) {
 		/* empty */
 	}
 

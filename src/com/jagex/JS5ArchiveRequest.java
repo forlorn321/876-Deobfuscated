@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class536_Sub18_Sub15_Sub2 extends Class536_Sub18_Sub15 {
+public class JS5ArchiveRequest extends Class536_Sub18_Sub15 {
 	RSByteBuffer aClass536_Sub33_12114;
 	byte aByte12115;
 
@@ -43,7 +43,7 @@ public class Class536_Sub18_Sub15_Sub2 extends Class536_Sub18_Sub15 {
 		return (aClass536_Sub33_12114.off * 587126124 / (aClass536_Sub33_12114.buffer.length - aByte12115));
 	}
 
-	Class536_Sub18_Sub15_Sub2() {
+	JS5ArchiveRequest() {
 		/* empty */
 	}
 }

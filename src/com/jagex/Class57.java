@@ -19,11 +19,11 @@ public class Class57 {
 
 	public static void method966(int i, int i_0_) {
 		Class98_Sub1_Sub1.anInt11323 = i * 1812291805;
-		synchronized (Class617.aClass199_8082) {
-			Class617.aClass199_8082.method2884((byte) -11);
+		synchronized (PlayerAppearance.aClass199_8082) {
+			PlayerAppearance.aClass199_8082.method2884((byte) -11);
 		}
-		synchronized (Class617.aClass199_8081) {
-			Class617.aClass199_8081.method2884((byte) -94);
+		synchronized (PlayerAppearance.aClass199_8081) {
+			PlayerAppearance.aClass199_8081.method2884((byte) -94);
 		}
 	}
 
@@ -60,14 +60,14 @@ public class Class57 {
 		}
 	}
 
-	public static Class167 method971(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, int i, int i_3_, int i_4_) {
+	public static GraphicalRenderer method971(Canvas canvas, Class174 class174, Interface24 interface24, Interface47 interface47, Interface48 interface48, Interface46 interface46, int i, int i_3_, int i_4_) {
 		return new Class167_Sub1(canvas, class174, interface24, interface47, interface48, interface46, i, i_3_);
 	}
 
 	static final void method972(RSBitBuffer class536_sub33_sub2, byte i) {
 		class536_sub33_sub2.initBitAccess();
 		int i_5_ = client.anInt11156 * -1791435655;
-		Player class649_sub1_sub5_sub1_sub2 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591 = client.aClass649_Sub1_Sub5_Sub1_Sub2Array11155[i_5_] = new Player(client.aClass515_11066.method6249(512040507)));
+		Player class649_sub1_sub5_sub1_sub2 = (Class565.MY_PLAYER = client.PLAYER_LIST[i_5_] = new Player(client.aClass515_11066.method6249(512040507)));
 		class649_sub1_sub5_sub1_sub2.anInt11889 = 675537735 * i_5_;
 		int i_6_ = class536_sub33_sub2.readBits(30);
 		byte i_7_ = (byte) (i_6_ >> 28);
@@ -84,8 +84,8 @@ public class Class57 {
 			class649_sub1_sub5_sub1_sub2.decodePlayerAppearance((Class95.playerRenderData[i_5_]));
 		if (Class95.iconData[i_5_] != null)
 			class649_sub1_sub5_sub1_sub2.decodeIcons((Class95.iconData[i_5_]));
-		Class95.anInt1156 = 0;
-		Class95.anIntArray1157[((Class95.anInt1156 += 1948535215) * -1482773169 - 1)] = i_5_;
+		Class95.PLAYERLIST_SIZE = 0;
+		Class95.PLAYERLIST_INDICES[((Class95.PLAYERLIST_SIZE += 1948535215) * -1482773169 - 1)] = i_5_;
 		Class95.aByteArray1152[i_5_] = (byte) 0;
 		Class95.anInt1158 = 0;
 		for (int i_10_ = 1; i_10_ < 2048; i_10_++) {

@@ -73,7 +73,7 @@ public class Class205_Sub15 extends Class205 {
 				if (client.aBoolArray11270[4] && client.anIntArray11272[4] + 128 > i_9_)
 					i_9_ = client.anIntArray11272[4] + 128;
 				int i_10_ = ((int) client.aFloat11106 + client.anInt11093 * 325051359 & 0x3fff);
-				Class436 class436 = (Class565.aClass649_Sub1_Sub5_Sub1_Sub2_7591.method7837().aClass436_4823);
+				Class436 class436 = (Class565.MY_PLAYER.method7837().aClass436_4823);
 				client.method10460(-787333673 * JS5ResourceProvider.anInt5216, (Class54.method944((int) class436.aFloat4850, (int) class436.aFloat4853, -989431627 * Class320.anInt3539, 2115814221) - client.anInt10997 * 1873552861), Class222.anInt2326 * -1817694149, i_9_, i_10_, 3 * (i_9_ >> 3) + 600 << 2, i, (byte) 3);
 				Class637.anInt8301 = (1420867453 * (int) (f * (float) (Class637.anInt8301 * -1607026219 - (2114813609 * Class184_Sub6.anInt9933)) + (float) (Class184_Sub6.anInt9933 * 2114813609)));
 				Class205_Sub21.anInt9958 = (-300318539 * (int) ((float) (Class469.anInt5356 * 351830209) + ((float) ((Class205_Sub21.anInt9958 * -1598853731) - Class469.anInt5356 * 351830209) * f)));

@@ -9,7 +9,7 @@ public class Class55 {
 	public static int method946() {
 		Canvas canvas = new Canvas();
 		canvas.setSize(100, 100);
-		Class167 class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, 246744716);
+		GraphicalRenderer class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, 246744716);
 		long l = Class249.method3450(1780210090);
 		for (int i = 0; i < 10000; i++)
 			class167.method2030(5, 10, 100.0F, 75, 50, 100.0F, 15, 90, 100.0F, -65536, -65536, -65536, 1);
@@ -26,7 +26,7 @@ public class Class55 {
 	public static int method947() {
 		Canvas canvas = new Canvas();
 		canvas.setSize(100, 100);
-		Class167 class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -143558294);
+		GraphicalRenderer class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -143558294);
 		long l = Class249.method3450(1804683468);
 		for (int i = 0; i < 10000; i++)
 			class167.method2030(5, 10, 100.0F, 75, 50, 100.0F, 15, 90, 100.0F, -65536, -65536, -65536, 1);
@@ -39,7 +39,7 @@ public class Class55 {
 	public static int method948() {
 		Canvas canvas = new Canvas();
 		canvas.setSize(100, 100);
-		Class167 class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -1910813780);
+		GraphicalRenderer class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, -1910813780);
 		long l = Class249.method3450(2141590786);
 		for (int i = 0; i < 10000; i++)
 			class167.method2030(5, 10, 100.0F, 75, 50, 100.0F, 15, 90, 100.0F, -65536, -65536, -65536, 1);
@@ -52,7 +52,7 @@ public class Class55 {
 	public static int method949() {
 		Canvas canvas = new Canvas();
 		canvas.setSize(100, 100);
-		Class167 class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, 1165809595);
+		GraphicalRenderer class167 = Class219.method3105(0, canvas, null, null, null, null, null, null, 0, 1165809595);
 		long l = Class249.method3450(1511963585);
 		for (int i = 0; i < 10000; i++)
 			class167.method2030(5, 10, 100.0F, 75, 50, 100.0F, 15, 90, 100.0F, -65536, -65536, -65536, 1);

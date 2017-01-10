@@ -54,7 +54,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		method11075(class296, true, true, true, -842937154);
 	}
 
-	public Class559 method9946(Class167 class167, int i) {
+	public Class559 method9946(GraphicalRenderer class167, int i) {
 		return null;
 	}
 
@@ -62,7 +62,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return false;
 	}
 
-	Class563 method9944(Class167 class167, byte i) {
+	Class563 method9944(GraphicalRenderer class167, byte i) {
 		if (null == aClass296_12174 || !method11074(class167, 526336, -432623570))
 			return null;
 		Class433 class433 = method7851();
@@ -91,7 +91,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_3_ = aClass296_12174.aShort3314;
 				i_4_ = aClass296_12174.aByte3315;
 			}
-			Class177 class177;
+			MeshRasterizer class177;
 			if (i_3_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1848529785) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i_1_, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_3_, i_4_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
@@ -292,7 +292,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return aBool12177 || aClass296_12174.aBool3287;
 	}
 
-	boolean method9939(Class167 class167, int i, int i_20_, byte i_21_) {
+	boolean method9939(GraphicalRenderer class167, int i, int i_20_, byte i_21_) {
 		if (aClass296_12174 == null)
 			return false;
 		if (aClass296_12174.aClass437_3291 != null)
@@ -335,7 +335,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return false;
 	}
 
-	final void method9943(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_27_, int i_28_, boolean bool, int i_29_) {
+	final void method9943(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_27_, int i_28_, boolean bool, int i_29_) {
 		throw new IllegalStateException();
 	}
 
@@ -383,7 +383,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return anInt11889 * 1710020215;
 	}
 
-	public Class559 method9963(Class167 class167) {
+	public Class559 method9963(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -452,19 +452,19 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return class425;
 	}
 
-	final void method9947(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_38_, int i_39_, boolean bool) {
+	final void method9947(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_38_, int i_39_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
-	public Class559 method9955(Class167 class167) {
+	public Class559 method9955(GraphicalRenderer class167) {
 		return null;
 	}
 
-	public Class559 method9961(Class167 class167) {
+	public Class559 method9961(GraphicalRenderer class167) {
 		return null;
 	}
 
-	boolean method9971(Class167 class167, int i, int i_40_) {
+	boolean method9971(GraphicalRenderer class167, int i, int i_40_) {
 		if (aClass296_12174 == null)
 			return false;
 		if (aClass296_12174.aClass437_3291 != null)
@@ -507,7 +507,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return anInt11889 * 1710020215;
 	}
 
-	Class563 method9985(Class167 class167) {
+	Class563 method9985(GraphicalRenderer class167) {
 		if (null == aClass296_12174 || !method11074(class167, 526336, -1346503007))
 			return null;
 		Class433 class433 = method7851();
@@ -536,7 +536,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_48_ = aClass296_12174.aShort3314;
 				i_49_ = aClass296_12174.aByte3315;
 			}
-			Class177 class177;
+			MeshRasterizer class177;
 			if (i_48_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(1694971276) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_48_, i_49_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
@@ -588,7 +588,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return class563;
 	}
 
-	Class563 method9965(Class167 class167) {
+	Class563 method9965(GraphicalRenderer class167) {
 		if (null == aClass296_12174 || !method11074(class167, 526336, -682606639))
 			return null;
 		Class433 class433 = method7851();
@@ -617,7 +617,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_54_ = aClass296_12174.aShort3314;
 				i_55_ = aClass296_12174.aByte3315;
 			}
-			Class177 class177;
+			MeshRasterizer class177;
 			if (i_54_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1399306120) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_54_, i_55_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
@@ -669,7 +669,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return class563;
 	}
 
-	Class563 method9966(Class167 class167) {
+	Class563 method9966(GraphicalRenderer class167) {
 		if (null == aClass296_12174 || !method11074(class167, 526336, -1411672573))
 			return null;
 		Class433 class433 = method7851();
@@ -698,7 +698,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 				i_60_ = aClass296_12174.aShort3314;
 				i_61_ = aClass296_12174.aByte3315;
 			}
-			Class177 class177;
+			MeshRasterizer class177;
 			if (i_60_ > -1 && ClientSetting.aClass536_Sub40_8843.textureSetting.method9885(-1533214378) == 1)
 				class177 = (Class536_Sub18_Sub1.method10480(class167, i, 1681595873 * anInt11892, 1915921525 * anInt11900, -2111850483 * anInt11891, aClass177Array11953[0], i_60_, i_61_, (class688_sub3 != null ? (Class688) class688_sub3 : class688), 980369976));
 			else
@@ -750,7 +750,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return class563;
 	}
 
-	void method9967(Class167 class167) {
+	void method9967(GraphicalRenderer class167) {
 		if (null != aClass296_12174 && (aBool11931 || method11074(class167, 0, -2081312067))) {
 			Class433 class433 = class167.method2091();
 			class433.method5190(method7851());
@@ -761,7 +761,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		}
 	}
 
-	void method9975(Class167 class167) {
+	void method9975(GraphicalRenderer class167) {
 		if (null != aClass296_12174 && (aBool11931 || method11074(class167, 0, 58272838))) {
 			Class433 class433 = class167.method2091();
 			class433.method5190(method7851());
@@ -776,7 +776,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return anInt11889 * 1710020215 + 1;
 	}
 
-	boolean method9957(Class167 class167, int i, int i_64_) {
+	boolean method9957(GraphicalRenderer class167, int i, int i_64_) {
 		if (aClass296_12174 == null)
 			return false;
 		if (aClass296_12174.aClass437_3291 != null)
@@ -828,7 +828,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return false;
 	}
 
-	boolean method11074(Class167 class167, int i, int i_70_) {
+	boolean method11074(GraphicalRenderer class167, int i, int i_70_) {
 		int i_71_ = i;
 		BASTypeDecoder class589 = method10877(1082605924);
 		Class688 class688 = ((aClass688_11925.method8121(78776499) && !aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
@@ -853,7 +853,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		if (bool_74_)
 			i |= 0x100;
 		int i_75_ = aClass62_11940.method1047((byte) 16);
-		Class177 class177 = (aClass177Array11953[0] = aClass296_12174.method3997(class167, i, Class497.aClass34_Sub16_5554, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_75_, aClass304_12163, method10897(1991099139), false, 168313574));
+		MeshRasterizer class177 = (aClass177Array11953[0] = aClass296_12174.method3997(class167, i, Class497.aClass34_Sub16_5554, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_75_, aClass304_12163, method10897(1991099139), false, 168313574));
 		if (null == class177)
 			return false;
 		anInt11908 = class177.method2562() * 1914123523;
@@ -882,7 +882,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return false;
 	}
 
-	public Class559 method9962(Class167 class167) {
+	public Class559 method9962(GraphicalRenderer class167) {
 		return null;
 	}
 
@@ -902,7 +902,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 			aClass627_11950.method7467();
 	}
 
-	boolean method11076(Class167 class167, int i) {
+	boolean method11076(GraphicalRenderer class167, int i) {
 		int i_78_ = i;
 		BASTypeDecoder class589 = method10877(1958618033);
 		Class688 class688 = ((aClass688_11925.method8121(-114152872) && !aClass688_11925.method8128(-144709969)) ? aClass688_11925 : null);
@@ -927,7 +927,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		if (bool_81_)
 			i |= 0x100;
 		int i_82_ = aClass62_11940.method1047((byte) 16);
-		Class177 class177 = (aClass177Array11953[0] = aClass296_12174.method3997(class167, i, Class497.aClass34_Sub16_5554, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_82_, aClass304_12163, method10897(1991099139), false, 1023775109));
+		MeshRasterizer class177 = (aClass177Array11953[0] = aClass296_12174.method3997(class167, i, Class497.aClass34_Sub16_5554, Class465_Sub1.aClass96_10352, Class465_Sub1.aClass96_10352, class688, class688_sub3, aClass688_Sub2_Sub1Array11947, anIntArray11918, i_82_, aClass304_12163, method10897(1991099139), false, 1023775109));
 		if (null == class177)
 			return false;
 		anInt11908 = class177.method2562() * 1914123523;
@@ -999,7 +999,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return aClass533_11903;
 	}
 
-	boolean method9969(Class167 class167, int i, int i_83_) {
+	boolean method9969(GraphicalRenderer class167, int i, int i_83_) {
 		if (aClass296_12174 == null)
 			return false;
 		if (aClass296_12174.aClass437_3291 != null)
@@ -1038,7 +1038,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return bool;
 	}
 
-	final void method9978(Class167 class167, Class649_Sub1 class649_sub1, int i, int i_89_, int i_90_, boolean bool) {
+	final void method9978(GraphicalRenderer class167, Class649_Sub1 class649_sub1, int i, int i_89_, int i_90_, boolean bool) {
 		throw new IllegalStateException();
 	}
 
@@ -1108,7 +1108,7 @@ public class NPC extends Class649_Sub1_Sub5_Sub1 {
 		return class425;
 	}
 
-	void method9945(Class167 class167, int i) {
+	void method9945(GraphicalRenderer class167, int i) {
 		if (null != aClass296_12174 && (aBool11931 || method11074(class167, 0, -416332071))) {
 			Class433 class433 = class167.method2091();
 			class433.method5190(method7851());

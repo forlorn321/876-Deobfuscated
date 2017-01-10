@@ -132,7 +132,7 @@ public class Class292 implements Runnable {
 							i_4_ = i_4_ << 24 | 0xffffff;
 							Class477.method5751((byte) -107);
 							Class677.aClass167_8609.method2000(1, 0);
-							Class143 class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -675301968));
+							NativeSprite class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -675301968));
 							Class183_Sub2 class183_sub2 = Class677.aClass167_8609.method2304();
 							class183_sub2.method9035(0, class143.method1782());
 							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
@@ -220,7 +220,7 @@ public class Class292 implements Runnable {
 							i_7_ = i_7_ << 24 | 0xffffff;
 							Class477.method5751((byte) -12);
 							Class677.aClass167_8609.method2000(1, 0);
-							Class143 class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -1172746711));
+							NativeSprite class143 = (Class677.aClass167_8609.method2276(-1804846931 * Class144.anInt1679, Class34_Sub6.anInt10965 * 589116499, true, -1172746711));
 							Class183_Sub2 class183_sub2 = Class677.aClass167_8609.method2304();
 							class183_sub2.method9035(0, class143.method1782());
 							Class677.aClass167_8609.method2028(class183_sub2, -409819235);
