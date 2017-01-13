@@ -4,17 +4,17 @@
 package com.jagex;
 
 public class AddMemberSetting extends ChangeClanSettings {
-	String uernmae;
+	String username;
 	byte rank;
 	int worldId;
 
 	AddMemberSetting(Class353 class353) {
-		uernmae = null;
+		username = null;
 	}
 
 	void applySetting(Clan clan) {
 		ClanMember member = new ClanMember();
-		member.username = uernmae;
+		member.username = username;
 		member.worldId = worldId * -1069994167;
 		member.rank = rank;
 		clan.addMember(member);
@@ -25,7 +25,7 @@ public class AddMemberSetting extends ChangeClanSettings {
 			buffer.off -= 516175515;
 			buffer.readLong();
 		}
-		uernmae = buffer.method9713(16509697);
+		username = buffer.method9713(16509697);
 		worldId = buffer.readUnsignedShort() * -1078125309;
 		rank = buffer.readByte();
 		buffer.readLong();
