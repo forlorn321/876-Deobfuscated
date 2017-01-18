@@ -537,28 +537,28 @@ public class ItemDecoder implements ConfigType {
 		if (inventoryMesh.anInt1949 < 13)
 			inventoryMesh.upscale(2);
 		if (originalModelColors != null) {
-			for (int i_81_ = 0; i_81_ < originalModelColors.length; i_81_++) {
-				if (aByteArray87 != null && i_81_ < aByteArray87.length)
-					inventoryMesh.recolor(originalModelColors[i_81_], (aShortArray14[aByteArray87[i_81_] & 0xff]));
+			for (int i = 0; i < originalModelColors.length; i++) {
+				if (aByteArray87 != null && i < aByteArray87.length)
+					inventoryMesh.recolor(originalModelColors[i], (aShortArray14[aByteArray87[i] & 0xff]));
 				else
-					inventoryMesh.recolor(originalModelColors[i_81_], modifiedModelColors[i_81_]);
+					inventoryMesh.recolor(originalModelColors[i], modifiedModelColors[i]);
 			}
 		}
 		if (null != originalTextureColors) {
-			for (int i_82_ = 0; i_82_ < originalTextureColors.length; i_82_++)
-				inventoryMesh.retexture(originalTextureColors[i_82_], modifiedTextureColors[i_82_]);
+			for (int i = 0; i < originalTextureColors.length; i++)
+				inventoryMesh.retexture(originalTextureColors[i], modifiedTextureColors[i]);
 		}
 		if (playerAppearance != null) {
-			for (int i_83_ = 0; i_83_ < 10; i_83_++) {
-				for (int i_84_ = 0; i_84_ < Class500.skinColors[i_83_].length; i_84_++) {
-					if (playerAppearance.colors[i_83_] < (Class267.skinColors[i_83_][i_84_]).length)
-						inventoryMesh.recolor((Class500.skinColors[i_83_][i_84_]), (Class267.skinColors[i_83_][i_84_][(playerAppearance.colors[i_83_])]));
+			for (int i = 0; i < 10; i++) {
+				for (int colIdx = 0; colIdx < Class500.skinColors[i].length; colIdx++) {
+					if (playerAppearance.colors[i] < (Class267.skinColors[i][colIdx]).length)
+						inventoryMesh.recolor((Class500.skinColors[i][colIdx]), (Class267.skinColors[i][colIdx][(playerAppearance.colors[i])]));
 				}
 			}
-			for (int i_85_ = 0; i_85_ < 10; i_85_++) {
-				for (int i_86_ = 0; i_86_ < Class710_Sub4.skinTextures[i_85_].length; i_86_++) {
-					if (playerAppearance.textures[i_85_] < (Class44.skinTextures[i_85_][i_86_]).length)
-						inventoryMesh.retexture(Class710_Sub4.skinTextures[i_85_][i_86_], (Class44.skinTextures[i_85_][i_86_][playerAppearance.textures[i_85_]]));
+			for (int i = 0; i < 10; i++) {
+				for (int texIdx = 0; texIdx < Class710_Sub4.skinTextures[i].length; texIdx++) {
+					if (playerAppearance.textures[i] < (Class44.skinTextures[i][texIdx]).length)
+						inventoryMesh.retexture(Class710_Sub4.skinTextures[i][texIdx], (Class44.skinTextures[i][texIdx][playerAppearance.textures[i]]));
 				}
 			}
 		}
@@ -575,19 +575,19 @@ public class ItemDecoder implements ConfigType {
 			meshRasterizer.resize(resizeX * -268256853, 1833389311 * resizeY, 622326303 * resizeZ);
 		NativeSprite sprite = null;
 		if (-1 != certTemplateId * 79208069) {
-			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 1990739153 * certId, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, -889560749);
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 1990739153 * certId, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15);
 			if (null == sprite)
 				return null;
 		} else if (-1 != -1494720165 * lendTemplateId) {
-			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 515259213 * lendId, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, 1133511832);
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 515259213 * lendId, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15);
 			if (null == sprite)
 				return null;
 		} else if (-1 != bindTemplateId * -377039411) {
-			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, bindId * 1859340953, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, 284352773);
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, bindId * 1859340953, amount, outlineSize, shadowColor, false, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15);
 			if (null == sprite)
 				return null;
 		} else if (anInt64 * 208949951 != -1) {
-			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 989214201 * anInt67, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15, -2107081638);
+			sprite = loader.renderItemSprite(hardwareRenderer, softwareRenderer, 989214201 * anInt67, 10, 1, 0, true, true, 0, fontRenderer, playerAppearance, class628, anInterface12_15);
 			if (null == sprite)
 				return null;
 		}

@@ -30,7 +30,7 @@ public abstract class Class16 implements Interface6 {
 		}
 	}
 
-	NativeSprite renderItemSprite(GraphicalRenderer class167, GraphicalRenderer class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, FontRenderer class184, PlayerAppearance class617, Class628 class628, Interface12 interface12, int i_6_) {
+	NativeSprite renderItemSprite(GraphicalRenderer class167, GraphicalRenderer class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, FontRenderer class184, PlayerAppearance class617, Class628 class628, Interface12 interface12) {
 		if (!bool_4_) {
 			NativeSprite class143 = method666(class167_0_, i, i_1_, i_2_, i_3_, i_5_, class617, -438709473);
 			if (class143 != null)

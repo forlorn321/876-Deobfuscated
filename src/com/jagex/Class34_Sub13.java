@@ -14,7 +14,7 @@ public class Class34_Sub13 extends Class34 {
 	}
 
 	public NativeSprite method10338(GraphicalRenderer class167, GraphicalRenderer class167_0_, int i, int i_1_, int i_2_, int i_3_, boolean bool, boolean bool_4_, int i_5_, FontRenderer class184, PlayerAppearance class617, Class628 class628, int i_6_) {
-		return ((Class16) anInterface6_289).renderItemSprite(class167, class167_0_, i, i_1_, i_2_, i_3_, bool, bool_4_, i_5_, class184, class617, class628, this, 417372582);
+		return ((Class16) anInterface6_289).renderItemSprite(class167, class167_0_, i, i_1_, i_2_, i_3_, bool, bool_4_, i_5_, class184, class617, class628, this);
 	}
 
 	public void method10339(int i, int i_7_) {
