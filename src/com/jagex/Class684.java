@@ -19,7 +19,7 @@ public class Class684 {
 	}
 
 	public static void method8105(Class52 class52, String string, int i, Throwable throwable, int i_1_) {
-		Class467.method5689(new Class571(class52, string, i, throwable), -1048328013);
+		ReferenceTable.method5689(new Class571(class52, string, i, throwable), -1048328013);
 	}
 
 	static final void method8106(Class668 class668, int i) {

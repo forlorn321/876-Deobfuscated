@@ -8,17 +8,17 @@ public abstract class Class459 {
 	public static Class34_Sub9 aClass34_Sub9_5179;
 	static int anInt5180;
 
-	abstract Class467 method5505(byte i);
+	abstract ReferenceTable method5505(byte i);
 
 	abstract void method5506(int i);
 
-	abstract Class467 method5507();
+	abstract ReferenceTable method5507();
 
 	abstract void method5508(int i, int i_0_);
 
-	abstract Class467 method5509();
+	abstract ReferenceTable method5509();
 
-	abstract Class467 method5510();
+	abstract ReferenceTable method5510();
 
 	Class459() {
 		/* empty */

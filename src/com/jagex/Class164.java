@@ -105,7 +105,7 @@ public class Class164 {
 		aBool1804 = class536_sub33.readUnsignedByte() == 1;
 		Class682.method8091(Class109.method1448((byte) 3), class536_sub33.readUnsignedByte(), 1858049507);
 		Class682.method8091(Class93.method1237(1364919226), class536_sub33.readUnsignedByte(), 1858049507);
-		aClass595_1805 = ((Class595) Class682.method8091(Class467.method5690(-1350402581), class536_sub33.readUnsignedByte(), 1858049507));
+		aClass595_1805 = ((Class595) Class682.method8091(ReferenceTable.method5690(-1350402581), class536_sub33.readUnsignedByte(), 1858049507));
 		if (Class595.aClass595_7818 == aClass595_1805)
 			aByte1806 = (byte) class536_sub33.readUnsignedByte();
 		int i_5_ = class536_sub33.readUnsignedByte();

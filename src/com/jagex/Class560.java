@@ -103,7 +103,7 @@ class Class560 implements Runnable {
 	}
 
 	public static void method6827(int i, byte i_5_) {
-		Class467.method5689(new Class585(i), -1392723968);
+		ReferenceTable.method5689(new Class585(i), -1392723968);
 	}
 
 	public static void method6828(boolean bool, byte i) {

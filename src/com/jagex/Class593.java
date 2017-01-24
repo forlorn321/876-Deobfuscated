@@ -114,7 +114,7 @@ public class Class593 {
 			Class519.method6333(class668, (byte) 37);
 			break;
 		case 901:
-			Class467.method5694(class668, -1796454693);
+			ReferenceTable.method5694(class668, -1796454693);
 			break;
 		case 1111:
 			Class426.method5128(class668, -1765163311);
@@ -3755,7 +3755,7 @@ public class Class593 {
 			Class458.method5501(class668, -2046982572);
 			break;
 		case 742:
-			Class467.method5693(class668, 1940749771);
+			ReferenceTable.method5693(class668, 1940749771);
 			break;
 		case 1086:
 			Class289.method3919(class668, (byte) 16);

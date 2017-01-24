@@ -67,7 +67,7 @@ public class Class484 {
 	static final void method5847(Class668 class668, short i) {
 		String string = (String) (class668.anObjectArray8543[(class668.anInt8544 -= 1946079257) * 366709801]);
 		boolean bool = ((class668.anIntArray8541[(class668.anInt8542 -= -1411037171) * 1867269829]) == 1);
-		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = Class467.method5692(string, bool, (byte) 1);
+		class668.anIntArray8541[(class668.anInt8542 += -1411037171) * 1867269829 - 1] = ReferenceTable.method5692(string, bool, (byte) 1);
 	}
 
 	static final void method5848(Class668 class668, int i) {

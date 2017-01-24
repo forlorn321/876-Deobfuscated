@@ -33,7 +33,7 @@ public class Class398 implements Interface49 {
 	}
 
 	public static void method4898(Class63 class63, byte i) {
-		Class467.method5689(new Class577(class63), -2074698737);
+		ReferenceTable.method5689(new Class577(class63), -2074698737);
 	}
 
 	public static int method4899(int i, int i_2_) {

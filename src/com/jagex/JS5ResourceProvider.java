@@ -12,7 +12,7 @@ public final class JS5ResourceProvider {
 	Object[][] anObjectArrayArray5206;
 	static int anInt5207;
 	boolean aBool5208;
-	Class467 aClass467_5209 = null;
+	ReferenceTable aClass467_5209 = null;
 	static final int anInt5210 = 0;
 	static final int anInt5211 = 2;
 	int anInt5212;

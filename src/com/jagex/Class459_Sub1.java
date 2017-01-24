@@ -20,7 +20,7 @@ public class Class459_Sub1 extends Class459 {
 	Class4 aClass4_10139 = new Class4(16);
 	static final byte aByte10140 = 1;
 	static final byte aByte10141 = -1;
-	Class467 aClass467_10142;
+	ReferenceTable aClass467_10142;
 	int anInt10143;
 	boolean aBool10144;
 	boolean aBool10145;
@@ -80,7 +80,7 @@ public class Class459_Sub1 extends Class459 {
 		return 100;
 	}
 
-	Class467 method5505(byte i) {
+	ReferenceTable method5505(byte i) {
 		if (aClass467_10142 != null)
 			return aClass467_10142;
 		if (null == aClass536_Sub18_Sub15_10134) {
@@ -95,7 +95,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, -246169895 * anInt10135, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
 				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
@@ -110,7 +110,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, anInt10135 * -246169895, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
 				aClass467_10142 = null;
@@ -235,7 +235,7 @@ public class Class459_Sub1 extends Class459 {
 		return anInt10133 * -948660157;
 	}
 
-	Class467 method5510() {
+	ReferenceTable method5510() {
 		if (aClass467_10142 != null)
 			return aClass467_10142;
 		if (null == aClass536_Sub18_Sub15_10134) {
@@ -250,7 +250,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, -246169895 * anInt10135, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
 				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
@@ -265,7 +265,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, anInt10135 * -246169895, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
 				aClass467_10142 = null;
@@ -286,7 +286,7 @@ public class Class459_Sub1 extends Class459 {
 		return aClass467_10142;
 	}
 
-	Class467 method5507() {
+	ReferenceTable method5507() {
 		if (aClass467_10142 != null)
 			return aClass467_10142;
 		if (null == aClass536_Sub18_Sub15_10134) {
@@ -301,7 +301,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, -246169895 * anInt10135, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
 				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
@@ -316,7 +316,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, anInt10135 * -246169895, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
 				aClass467_10142 = null;
@@ -337,7 +337,7 @@ public class Class459_Sub1 extends Class459 {
 		return aClass467_10142;
 	}
 
-	Class467 method5509() {
+	ReferenceTable method5509() {
 		if (aClass467_10142 != null)
 			return aClass467_10142;
 		if (null == aClass536_Sub18_Sub15_10134) {
@@ -352,7 +352,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, -246169895 * anInt10135, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
 				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
@@ -367,7 +367,7 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new Class467(is, anInt10135 * -246169895, aByteArray10136);
+				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
 				aClass467_10142 = null;

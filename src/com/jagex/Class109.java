@@ -72,7 +72,7 @@ public class Class109 {
 	}
 
 	public static void method1450(Class67_Sub1 class67_sub1, byte i) {
-		Class467.method5689(class67_sub1, -1710040755);
+		ReferenceTable.method5689(class67_sub1, -1710040755);
 	}
 
 	static void method1451(int i, byte i_5_) {

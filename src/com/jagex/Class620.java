@@ -192,7 +192,7 @@ class Class620 implements Iterator {
 								continue;
 							}
 							if (-1769600535 * class251.anInt2562 == IComponentDefinitions.anInt2548 * -1730281477) {
-								NativeSprite class143 = Class467.method5691((byte) -9);
+								NativeSprite class143 = ReferenceTable.method5691((byte) -9);
 								if (null != class143) {
 									int i_21_ = i_2_ - i_0_;
 									int i_22_ = i_3_ - i_1_;

@@ -19,27 +19,27 @@ public class Class586 {
 	}
 
 	public static void method7052(int i) {
-		Class467.method5689(new Class585(i), -1613154317);
+		ReferenceTable.method5689(new Class585(i), -1613154317);
 	}
 
 	public static void method7053(int i, int i_0_, int i_1_) {
-		Class467.method5689(new Class41_Sub1(i, i_0_, i_1_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-2015865302), Class246.aClass466_2473.method5675(1673118807)), -2045597697);
+		ReferenceTable.method5689(new Class41_Sub1(i, i_0_, i_1_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-2015865302), Class246.aClass466_2473.method5675(1673118807)), -2045597697);
 	}
 
 	public static void method7054(int i, int i_2_, int i_3_) {
-		Class467.method5689(new Class41_Sub1(i, i_2_, i_3_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1669743846), Class246.aClass466_2473.method5675(1966283679)), -1070872449);
+		ReferenceTable.method5689(new Class41_Sub1(i, i_2_, i_3_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1669743846), Class246.aClass466_2473.method5675(1966283679)), -1070872449);
 	}
 
 	public static void method7055(int i) {
-		Class467.method5689(new Class585(i), -1447475330);
+		ReferenceTable.method5689(new Class585(i), -1447475330);
 	}
 
 	public static void method7056(int i, int i_4_, int i_5_) {
-		Class467.method5689(new Class41_Sub1(i, i_4_, i_5_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-919492330), Class246.aClass466_2473.method5675(1988536340)), -1722800986);
+		ReferenceTable.method5689(new Class41_Sub1(i, i_4_, i_5_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(-919492330), Class246.aClass466_2473.method5675(1988536340)), -1722800986);
 	}
 
 	public static void method7057(int i, int i_6_, int i_7_) {
-		Class467.method5689(new Class41_Sub1(i, i_6_, i_7_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1481059752), Class246.aClass466_2473.method5675(1414919576)), -1047665384);
+		ReferenceTable.method5689(new Class41_Sub1(i, i_6_, i_7_, client.handshakeStage * -275818405, -2073269917 * Class176.aClass460_1936.anInt5195, 917679433 * Class176.aClass460_1936.anInt5196, Class176.aClass460_1936.method5528((byte) 1), Class176.aClass460_1936.method5523(1481059752), Class246.aClass466_2473.method5675(1414919576)), -1047665384);
 	}
 
 	public static void method7058() {
