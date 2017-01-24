@@ -578,7 +578,7 @@ public class Class106 {
 				for (int i_86_ = 0; i_86_ < 8; i_86_++) {
 					if (0 != (i_84_ & 1 << i_86_)) {
 						is[i_86_] = buffer.readBigSmart();
-						is_85_[i_86_] = (short) buffer.readSmart();
+						is_85_[i_86_] = (short) buffer.readSmart4();
 					} else {
 						is[i_86_] = -1;
 						is_85_[i_86_] = (short) -1;

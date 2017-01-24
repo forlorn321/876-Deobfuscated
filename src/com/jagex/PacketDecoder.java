@@ -1058,7 +1058,7 @@ public class PacketDecoder {
 		if (class106.currentPacket == IncomingPacket.WORLD_LIST) {
 			boolean bool = stream.readUnsignedByte() == 1;
 			byte[] is = new byte[610303591 * class106.anInt1262 - 1];
-			stream.method9716(is, 0, 610303591 * class106.anInt1262 - 1, 745475045);
+			stream.readToByteArray(is, 0, 610303591 * class106.anInt1262 - 1);
 			Class380.method4808(bool, is, (byte) 110);
 			class106.currentPacket = null;
 			return true;

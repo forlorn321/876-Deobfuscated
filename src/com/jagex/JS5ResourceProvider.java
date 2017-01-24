@@ -27,10 +27,10 @@ public final class JS5ResourceProvider {
 			return false;
 		if (null == anObjectArray5205[i])
 			return false;
-		int i_2_ = aClass467_5209.anIntArray5340[i];
-		int[] is_3_ = aClass467_5209.anIntArrayArray5341[i];
+		int i_2_ = aClass467_5209.validFileIds[i];
+		int[] is_3_ = aClass467_5209.files[i];
 		if (null == anObjectArrayArray5206[i])
-			anObjectArrayArray5206[i] = new Object[aClass467_5209.anIntArray5344[i]];
+			anObjectArrayArray5206[i] = new Object[aClass467_5209.fileSizes[i]];
 		Object[] objects = anObjectArrayArray5206[i];
 		boolean bool = true;
 		for (int i_4_ = 0; i_4_ < i_2_; i_4_++) {
@@ -58,9 +58,9 @@ public final class JS5ResourceProvider {
 			is_6_ = Class51.method931(anObjectArray5205[i], false, -83088320);
 		byte[] is_10_;
 		try {
-			is_10_ = Class469.method5700(is_6_, (byte) -48);
+			is_10_ = Class469.method5700(is_6_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class646.method7810(runtimeexception, new StringBuilder().append(null != is).append(" ").append(i).append(" ").append(is_6_.length).append(" ").append(Class536_Sub25.method9592(is_6_, is_6_.length, (byte) 0)).append(" ").append(Class536_Sub25.method9592(is_6_, is_6_.length - 2, (byte) 0)).append(" ").append(aClass467_5209.anIntArray5334[i]).append(" ").append(217760821 * aClass467_5209.anInt5342).toString());
+			throw Class646.method7810(runtimeexception, new StringBuilder().append(null != is).append(" ").append(i).append(" ").append(is_6_.length).append(" ").append(Class536_Sub25.method9592(is_6_, is_6_.length, (byte) 0)).append(" ").append(Class536_Sub25.method9592(is_6_, is_6_.length - 2, (byte) 0)).append(" ").append(aClass467_5209.crcs[i]).append(" ").append(217760821 * aClass467_5209.anInt5342).toString());
 		}
 		if (aBool5208)
 			anObjectArray5205[i] = null;
@@ -184,7 +184,7 @@ public final class JS5ResourceProvider {
 	public synchronized boolean method5553(int i, int i_40_, int i_41_) {
 		if (!method5575((byte) -71))
 			return false;
-		if (i < 0 || i_40_ < 0 || i >= aClass467_5209.anIntArray5344.length || i_40_ >= aClass467_5209.anIntArray5344[i]) {
+		if (i < 0 || i_40_ < 0 || i >= aClass467_5209.fileSizes.length || i_40_ >= aClass467_5209.fileSizes[i]) {
 			if (aBool5214)
 				throw new IllegalArgumentException(new StringBuilder().append(i).append(" ").append(i_40_).toString());
 			return false;
@@ -230,7 +230,7 @@ public final class JS5ResourceProvider {
 		if (null != is_48_) {
 			if (1 == anInt5212 * 628056261) {
 				anObjectArrayArray5206[i][i_46_] = null;
-				if (1 == aClass467_5209.anIntArray5344[i])
+				if (1 == aClass467_5209.fileSizes[i])
 					anObjectArrayArray5206[i] = null;
 			} else if (628056261 * anInt5212 == 2)
 				anObjectArrayArray5206[i] = null;
@@ -275,8 +275,8 @@ public final class JS5ResourceProvider {
 		if (!method5575((byte) -97))
 			return false;
 		boolean bool = true;
-		for (int i_53_ = 0; i_53_ < aClass467_5209.anIntArray5330.length; i_53_++) {
-			int i_54_ = aClass467_5209.anIntArray5330[i_53_];
+		for (int i_53_ = 0; i_53_ < aClass467_5209.validArchiveIds.length; i_53_++) {
+			int i_54_ = aClass467_5209.validArchiveIds[i_53_];
 			if (anObjectArray5205[i_54_] == null) {
 				method5554(i_54_, (byte) 64);
 				if (anObjectArray5205[i_54_] == null)
@@ -300,7 +300,7 @@ public final class JS5ResourceProvider {
 		int i_56_ = 0;
 		int i_57_ = 0;
 		for (int i_58_ = 0; i_58_ < anObjectArray5205.length; i_58_++) {
-			if (aClass467_5209.anIntArray5340[i_58_] > 0) {
+			if (aClass467_5209.validFileIds[i_58_] > 0) {
 				i_56_ += 100;
 				i_57_ += method5562(i_58_, -2059642827);
 			}
@@ -318,11 +318,11 @@ public final class JS5ResourceProvider {
 	public boolean method5565(int i, int i_60_) {
 		if (!method5575((byte) -44))
 			return false;
-		if (1 == aClass467_5209.anIntArray5344.length)
+		if (1 == aClass467_5209.fileSizes.length)
 			return method5553(0, i, -1584969042);
 		if (!method5605(i, (byte) 21))
 			return false;
-		if (aClass467_5209.anIntArray5344[i] == 1)
+		if (aClass467_5209.fileSizes[i] == 1)
 			return method5553(i, 0, -2071786910);
 		throw new RuntimeException();
 	}
@@ -330,7 +330,7 @@ public final class JS5ResourceProvider {
 	public int method5566(int i, int i_61_) {
 		if (!method5605(i, (byte) 81))
 			return 0;
-		return aClass467_5209.anIntArray5344[i];
+		return aClass467_5209.fileSizes[i];
 	}
 
 	public int method5567(String string, int i) {
@@ -351,11 +351,11 @@ public final class JS5ResourceProvider {
 	public void method5569(boolean bool, boolean bool_64_, byte i) {
 		if (method5575((byte) -42)) {
 			if (bool) {
-				aClass467_5209.anIntArray5328 = null;
+				aClass467_5209.nameHashes = null;
 				aClass467_5209.aClass260_5325 = null;
 			}
 			if (bool_64_) {
-				aClass467_5209.anIntArrayArray5327 = null;
+				aClass467_5209.fileNameHashes = null;
 				aClass467_5209.aClass260Array5335 = null;
 			}
 		}
@@ -364,7 +364,7 @@ public final class JS5ResourceProvider {
 	public int method5570(int i) {
 		if (!method5575((byte) -13))
 			return -1;
-		return aClass467_5209.anIntArray5344.length;
+		return aClass467_5209.fileSizes.length;
 	}
 
 	public int method5571(String string, int i) {
@@ -412,11 +412,11 @@ public final class JS5ResourceProvider {
 
 	synchronized boolean method5575(byte i) {
 		if (null == aClass467_5209) {
-			aClass467_5209 = aClass459_5213.method5505((byte) -85);
+			aClass467_5209 = aClass459_5213.getReferenceTable((byte) -85);
 			if (aClass467_5209 == null)
 				return false;
-			anObjectArray5205 = new Object[aClass467_5209.anInt5333 * 608172963];
-			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.anInt5333][];
+			anObjectArray5205 = new Object[aClass467_5209.archiveSize * 608172963];
+			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.archiveSize][];
 		}
 		return true;
 	}
@@ -447,11 +447,11 @@ public final class JS5ResourceProvider {
 
 	synchronized boolean method5578() {
 		if (null == aClass467_5209) {
-			aClass467_5209 = aClass459_5213.method5505((byte) -110);
+			aClass467_5209 = aClass459_5213.getReferenceTable((byte) -110);
 			if (aClass467_5209 == null)
 				return false;
-			anObjectArray5205 = new Object[aClass467_5209.anInt5333 * 608172963];
-			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.anInt5333][];
+			anObjectArray5205 = new Object[aClass467_5209.archiveSize * 608172963];
+			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.archiveSize][];
 		}
 		return true;
 	}
@@ -465,11 +465,11 @@ public final class JS5ResourceProvider {
 	public synchronized boolean method5580(int i, int i_76_) {
 		if (!method5575((byte) -89))
 			return false;
-		if (aClass467_5209.anIntArray5344.length == 1)
+		if (aClass467_5209.fileSizes.length == 1)
 			return method5558(0, i, -1477142998);
 		if (!method5605(i, (byte) -4))
 			return false;
-		if (1 == aClass467_5209.anIntArray5344[i])
+		if (1 == aClass467_5209.fileSizes[i])
 			return method5558(i, 0, -119763655);
 		throw new RuntimeException();
 	}
@@ -496,7 +496,7 @@ public final class JS5ResourceProvider {
 	public int method5585(int i) {
 		if (!method5605(i, (byte) 6))
 			return 0;
-		return aClass467_5209.anIntArray5344[i];
+		return aClass467_5209.fileSizes[i];
 	}
 
 	public void method5586(int i) {
@@ -506,17 +506,17 @@ public final class JS5ResourceProvider {
 	public int method5587() {
 		if (!method5575((byte) -86))
 			return -1;
-		return aClass467_5209.anIntArray5344.length;
+		return aClass467_5209.fileSizes.length;
 	}
 
 	public synchronized boolean method5588(int i) {
 		if (!method5575((byte) -123))
 			return false;
-		if (aClass467_5209.anIntArray5344.length == 1)
+		if (aClass467_5209.fileSizes.length == 1)
 			return method5558(0, i, -848402773);
 		if (!method5605(i, (byte) 46))
 			return false;
-		if (1 == aClass467_5209.anIntArray5344[i])
+		if (1 == aClass467_5209.fileSizes[i])
 			return method5558(i, 0, -1588316381);
 		throw new RuntimeException();
 	}
@@ -550,11 +550,11 @@ public final class JS5ResourceProvider {
 	public synchronized boolean method5591(int i) {
 		if (!method5575((byte) -123))
 			return false;
-		if (aClass467_5209.anIntArray5344.length == 1)
+		if (aClass467_5209.fileSizes.length == 1)
 			return method5558(0, i, -619691630);
 		if (!method5605(i, (byte) 105))
 			return false;
-		if (1 == aClass467_5209.anIntArray5344[i])
+		if (1 == aClass467_5209.fileSizes[i])
 			return method5558(i, 0, 1093739731);
 		throw new RuntimeException();
 	}
@@ -581,8 +581,8 @@ public final class JS5ResourceProvider {
 		if (!method5575((byte) -63))
 			return false;
 		boolean bool = true;
-		for (int i = 0; i < aClass467_5209.anIntArray5330.length; i++) {
-			int i_79_ = aClass467_5209.anIntArray5330[i];
+		for (int i = 0; i < aClass467_5209.validArchiveIds.length; i++) {
+			int i_79_ = aClass467_5209.validArchiveIds[i];
 			if (anObjectArray5205[i_79_] == null) {
 				method5554(i_79_, (byte) 53);
 				if (anObjectArray5205[i_79_] == null)
@@ -595,11 +595,11 @@ public final class JS5ResourceProvider {
 	public synchronized byte[] method5595(int i, int i_80_) {
 		if (!method5575((byte) -34))
 			return null;
-		if (1 == aClass467_5209.anIntArray5344.length)
+		if (1 == aClass467_5209.fileSizes.length)
 			return method5556(0, i, (byte) 1);
 		if (!method5605(i, (byte) -40))
 			return null;
-		if (aClass467_5209.anIntArray5344[i] == 1)
+		if (aClass467_5209.fileSizes[i] == 1)
 			return method5556(i, 0, (byte) 1);
 		throw new RuntimeException();
 	}
@@ -610,7 +610,7 @@ public final class JS5ResourceProvider {
 		int i = 0;
 		int i_81_ = 0;
 		for (int i_82_ = 0; i_82_ < anObjectArray5205.length; i_82_++) {
-			if (aClass467_5209.anIntArray5340[i_82_] > 0) {
+			if (aClass467_5209.validFileIds[i_82_] > 0) {
 				i += 100;
 				i_81_ += method5562(i_82_, -2081223319);
 			}
@@ -627,7 +627,7 @@ public final class JS5ResourceProvider {
 		int i = 0;
 		int i_84_ = 0;
 		for (int i_85_ = 0; i_85_ < anObjectArray5205.length; i_85_++) {
-			if (aClass467_5209.anIntArray5340[i_85_] > 0) {
+			if (aClass467_5209.validFileIds[i_85_] > 0) {
 				i += 100;
 				i_84_ += method5562(i_85_, -2142928869);
 			}
@@ -673,9 +673,9 @@ public final class JS5ResourceProvider {
 	public synchronized int[] method5603(int i, byte i_88_) {
 		if (!method5605(i, (byte) -105))
 			return null;
-		int[] is = aClass467_5209.anIntArrayArray5341[i];
+		int[] is = aClass467_5209.files[i];
 		if (null == is) {
-			is = new int[aClass467_5209.anIntArray5340[i]];
+			is = new int[aClass467_5209.validFileIds[i]];
 			for (int i_89_ = 0; i_89_ < is.length; i_89_++)
 				is[i_89_] = i_89_;
 		}
@@ -694,7 +694,7 @@ public final class JS5ResourceProvider {
 	synchronized boolean method5605(int i, byte i_91_) {
 		if (!method5575((byte) -6))
 			return false;
-		if (i < 0 || i >= aClass467_5209.anIntArray5344.length || aClass467_5209.anIntArray5344[i] == 0) {
+		if (i < 0 || i >= aClass467_5209.fileSizes.length || aClass467_5209.fileSizes[i] == 0) {
 			if (aBool5214)
 				throw new IllegalArgumentException(Integer.toString(i));
 			return false;
@@ -704,11 +704,11 @@ public final class JS5ResourceProvider {
 
 	synchronized boolean method5606() {
 		if (null == aClass467_5209) {
-			aClass467_5209 = aClass459_5213.method5505((byte) -4);
+			aClass467_5209 = aClass459_5213.getReferenceTable((byte) -4);
 			if (aClass467_5209 == null)
 				return false;
-			anObjectArray5205 = new Object[aClass467_5209.anInt5333 * 608172963];
-			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.anInt5333][];
+			anObjectArray5205 = new Object[aClass467_5209.archiveSize * 608172963];
+			anObjectArrayArray5206 = new Object[608172963 * aClass467_5209.archiveSize][];
 		}
 		return true;
 	}

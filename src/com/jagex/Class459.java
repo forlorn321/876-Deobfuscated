@@ -8,7 +8,7 @@ public abstract class Class459 {
 	public static Class34_Sub9 aClass34_Sub9_5179;
 	static int anInt5180;
 
-	abstract ReferenceTable method5505(byte i);
+	abstract ReferenceTable getReferenceTable(byte i);
 
 	abstract void method5506(int i);
 

@@ -157,7 +157,7 @@ public class Class71 {
 						for (int i_14_ = 0; i_14_ < i_11_; i_14_++) {
 							int i_15_ = class536_sub33.readInt();
 							is[i_14_] = new byte[i_15_];
-							class536_sub33.method9716(is[i_14_], 0, i_15_, 281229313);
+							class536_sub33.readToByteArray(is[i_14_], 0, i_15_);
 						}
 					}
 					class536_sub34.anIntArray10622[i_6_] = i_7_;
@@ -240,7 +240,7 @@ public class Class71 {
 						for (int i_29_ = 0; i_29_ < i_26_; i_29_++) {
 							int i_30_ = class536_sub33.readInt();
 							is[i_29_] = new byte[i_30_];
-							class536_sub33.method9716(is[i_29_], 0, i_30_, -1323820340);
+							class536_sub33.readToByteArray(is[i_29_], 0, i_30_);
 						}
 					}
 					class536_sub34.anIntArray10622[i_21_] = i_22_;

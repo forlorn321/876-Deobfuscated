@@ -176,7 +176,7 @@ public class NPCDecoder implements ConfigType {
 					aShortArray3301[i_23_] = (short) -1;
 				} else {
 					anIntArray3300[i_23_] = class536_sub33.readBigSmart();
-					aShortArray3301[i_23_] = (short) class536_sub33.readSmart();
+					aShortArray3301[i_23_] = (short) class536_sub33.readSmart4();
 				}
 			}
 		} else if (i == 103)
@@ -441,7 +441,7 @@ public class NPCDecoder implements ConfigType {
 					aShortArray3301[i_62_] = (short) -1;
 				} else {
 					anIntArray3300[i_62_] = class536_sub33.readBigSmart();
-					aShortArray3301[i_62_] = (short) class536_sub33.readSmart();
+					aShortArray3301[i_62_] = (short) class536_sub33.readSmart4();
 				}
 			}
 		} else if (i == 103)
@@ -931,7 +931,7 @@ public class NPCDecoder implements ConfigType {
 					aShortArray3301[i_119_] = (short) -1;
 				} else {
 					anIntArray3300[i_119_] = class536_sub33.readBigSmart();
-					aShortArray3301[i_119_] = (short) class536_sub33.readSmart();
+					aShortArray3301[i_119_] = (short) class536_sub33.readSmart4();
 				}
 			}
 		} else if (i == 103)
@@ -1198,7 +1198,7 @@ public class NPCDecoder implements ConfigType {
 					aShortArray3301[i_156_] = (short) -1;
 				} else {
 					anIntArray3300[i_156_] = class536_sub33.readBigSmart();
-					aShortArray3301[i_156_] = (short) class536_sub33.readSmart();
+					aShortArray3301[i_156_] = (short) class536_sub33.readSmart4();
 				}
 			}
 		} else if (i == 103)
@@ -1454,7 +1454,7 @@ public class NPCDecoder implements ConfigType {
 					aShortArray3301[i_193_] = (short) -1;
 				} else {
 					anIntArray3300[i_193_] = class536_sub33.readBigSmart();
-					aShortArray3301[i_193_] = (short) class536_sub33.readSmart();
+					aShortArray3301[i_193_] = (short) class536_sub33.readSmart4();
 				}
 			}
 		} else if (i == 103)

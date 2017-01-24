@@ -61,7 +61,7 @@ public class Class158 {
 						for (int i_10_ = 0; i_10_ < i_7_; i_10_++) {
 							int i_11_ = class536_sub33.readInt();
 							is[i_10_] = new byte[i_11_];
-							class536_sub33.method9716(is[i_10_], 0, i_11_, -1013284220);
+							class536_sub33.readToByteArray(is[i_10_], 0, i_11_);
 						}
 					}
 					class536_sub34.anIntArray10622[i_2_] = i_3_;

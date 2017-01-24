@@ -16,26 +16,19 @@ public class Class459_Sub1 extends Class459 {
 	int anInt10135;
 	byte[] aByteArray10136;
 	byte[] aByteArray10137;
-	static final byte aByte10138 = 0;
 	Class4 aClass4_10139 = new Class4(16);
-	static final byte aByte10140 = 1;
-	static final byte aByte10141 = -1;
-	ReferenceTable aClass467_10142;
+	ReferenceTable table;
 	int anInt10143;
 	boolean aBool10144;
 	boolean aBool10145;
 	boolean aBool10146;
-	static final int anInt10147 = 2;
 	int anInt10148 = 0;
 	static final int anInt10149 = 250;
 	Class708 aClass708_10150 = new Class708();
 	boolean aBool10151;
 	Class708 aClass708_10152;
-	static final int anInt10153 = 1000;
 	Class547 aClass547_10154;
 	static CRC32 aCRC32_10155 = new CRC32();
-	static final int anInt10156 = 0;
-	static final int anInt10157 = 1;
 	Class449 aClass449_10158;
 
 	void method5506(int i) {
@@ -47,15 +40,6 @@ public class Class459_Sub1 extends Class459 {
 			Class536 class536 = new Class536();
 			class536.aLong7133 = -6756113042487376355L * (long) i;
 			aClass708_10150.method8335(class536, -159209604);
-		}
-	}
-
-	public void method9231() {
-		if (aClass449_10158 == null && null != aClass547_10132) {
-			aBool10145 = true;
-			aBool10144 = true;
-			if (null == aClass708_10152)
-				aClass708_10152 = new Class708();
 		}
 	}
 
@@ -72,7 +56,7 @@ public class Class459_Sub1 extends Class459 {
 	}
 
 	public int method9232(byte i) {
-		if (method5505((byte) -68) == null) {
+		if (getReferenceTable((byte) -68) == null) {
 			if (null == aClass536_Sub18_Sub15_10134)
 				return 0;
 			return aClass536_Sub18_Sub15_10134.method10770(-1513050973);
@@ -80,9 +64,9 @@ public class Class459_Sub1 extends Class459 {
 		return 100;
 	}
 
-	ReferenceTable method5505(byte i) {
-		if (aClass467_10142 != null)
-			return aClass467_10142;
+	ReferenceTable getReferenceTable(byte i) {
+		if (table != null)
+			return table;
 		if (null == aClass536_Sub18_Sub15_10134) {
 			if (aClass460_10129.method5528((byte) 1))
 				return null;
@@ -95,11 +79,11 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
-				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
+				table = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
+				if (table.revision * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -110,10 +94,10 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
+				table = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -125,10 +109,10 @@ public class Class459_Sub1 extends Class459 {
 		}
 		aClass536_Sub18_Sub15_10134 = null;
 		if (null != aClass547_10132) {
-			aByteArray10137 = new byte[aClass467_10142.anInt5333 * 608172963];
+			aByteArray10137 = new byte[table.archiveSize * 608172963];
 			anInt10133 = 0;
 		}
-		return aClass467_10142;
+		return table;
 	}
 
 	byte[] method5514(int i, int i_0_) {
@@ -140,15 +124,11 @@ public class Class459_Sub1 extends Class459 {
 		return is;
 	}
 
-	public boolean method9233() {
-		return aBool10144;
-	}
-
 	void method9234(int i) {
-		if (null != aClass708_10152 && method5505((byte) -81) != null) {
+		if (null != aClass708_10152 && getReferenceTable((byte) -81) != null) {
 			for (Class536 class536 = aClass708_10150.method8308(1867269829); null != class536; class536 = aClass708_10150.method8311(1457014802)) {
 				int i_1_ = (int) (class536.aLong7133 * -6909195213925454795L);
-				if (i_1_ < 0 || i_1_ >= 608172963 * aClass467_10142.anInt5333 || aClass467_10142.anIntArray5340[i_1_] == 0)
+				if (i_1_ < 0 || i_1_ >= 608172963 * table.archiveSize || table.validFileIds[i_1_] == 0)
 					class536.method6484();
 				else {
 					if (0 == aByteArray10137[i_1_])
@@ -162,14 +142,10 @@ public class Class459_Sub1 extends Class459 {
 		}
 	}
 
-	public int method9235() {
-		return anInt10133 * -948660157;
-	}
-
 	public int method9236(int i) {
-		if (aClass467_10142 == null)
+		if (table == null)
 			return 0;
-		return aClass467_10142.anInt5329 * 1483398979;
+		return table.validArchivesCount * 1483398979;
 	}
 
 	void method9237(int i, byte[] is, int i_2_, int i_3_, int i_4_) {
@@ -177,7 +153,7 @@ public class Class459_Sub1 extends Class459 {
 			anInt10135 = i * 452649321;
 			aByteArray10136 = is;
 			anInt10128 = -365533665 * i_2_;
-			aClass467_10142 = null;
+			table = null;
 			aClass536_Sub18_Sub15_10134 = null;
 			if (!aClass460_10129.method5528((byte) 1))
 				aClass536_Sub18_Sub15_10134 = aClass460_10129.method5522(255, -1029966251 * anInt10143, (byte) 0, true, 1099044667);
@@ -185,10 +161,10 @@ public class Class459_Sub1 extends Class459 {
 	}
 
 	public int method9238(byte i) {
-		if (aClass467_10142 == null)
+		if (table == null)
 			return 0;
 		if (!aBool10146)
-			return 1483398979 * aClass467_10142.anInt5329;
+			return 1483398979 * table.validArchivesCount;
 		Class536 class536 = aClass708_10152.method8308(1867269829);
 		if (null == class536)
 			return 0;
@@ -236,8 +212,8 @@ public class Class459_Sub1 extends Class459 {
 	}
 
 	ReferenceTable method5510() {
-		if (aClass467_10142 != null)
-			return aClass467_10142;
+		if (table != null)
+			return table;
 		if (null == aClass536_Sub18_Sub15_10134) {
 			if (aClass460_10129.method5528((byte) 1))
 				return null;
@@ -250,11 +226,11 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
-				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
+				table = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
+				if (table.revision * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -265,10 +241,10 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
+				table = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -280,15 +256,15 @@ public class Class459_Sub1 extends Class459 {
 		}
 		aClass536_Sub18_Sub15_10134 = null;
 		if (null != aClass547_10132) {
-			aByteArray10137 = new byte[aClass467_10142.anInt5333 * 608172963];
+			aByteArray10137 = new byte[table.archiveSize * 608172963];
 			anInt10133 = 0;
 		}
-		return aClass467_10142;
+		return table;
 	}
 
 	ReferenceTable method5507() {
-		if (aClass467_10142 != null)
-			return aClass467_10142;
+		if (table != null)
+			return table;
 		if (null == aClass536_Sub18_Sub15_10134) {
 			if (aClass460_10129.method5528((byte) 1))
 				return null;
@@ -301,11 +277,11 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
-				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
+				table = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
+				if (table.revision * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -316,10 +292,10 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
+				table = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -331,15 +307,15 @@ public class Class459_Sub1 extends Class459 {
 		}
 		aClass536_Sub18_Sub15_10134 = null;
 		if (null != aClass547_10132) {
-			aByteArray10137 = new byte[aClass467_10142.anInt5333 * 608172963];
+			aByteArray10137 = new byte[table.archiveSize * 608172963];
 			anInt10133 = 0;
 		}
-		return aClass467_10142;
+		return table;
 	}
 
 	ReferenceTable method5509() {
-		if (aClass467_10142 != null)
-			return aClass467_10142;
+		if (table != null)
+			return table;
 		if (null == aClass536_Sub18_Sub15_10134) {
 			if (aClass460_10129.method5528((byte) 1))
 				return null;
@@ -352,11 +328,11 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
-				if (aClass467_10142.anInt5343 * 1548762795 != anInt10128 * -416049697)
+				table = new ReferenceTable(is, -246169895 * anInt10135, aByteArray10136);
+				if (table.revision * 1548762795 != anInt10128 * -416049697)
 					throw new RuntimeException();
 			} catch (RuntimeException runtimeexception) {
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -367,10 +343,10 @@ public class Class459_Sub1 extends Class459 {
 			try {
 				if (null == is)
 					throw new RuntimeException();
-				aClass467_10142 = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
+				table = new ReferenceTable(is, anInt10135 * -246169895, aByteArray10136);
 			} catch (RuntimeException runtimeexception) {
 				aClass460_10129.method5527(255, -1029966251 * anInt10143, -1100540231);
-				aClass467_10142 = null;
+				table = null;
 				if (aClass460_10129.method5528((byte) 1))
 					aClass536_Sub18_Sub15_10134 = null;
 				else
@@ -382,14 +358,10 @@ public class Class459_Sub1 extends Class459 {
 		}
 		aClass536_Sub18_Sub15_10134 = null;
 		if (null != aClass547_10132) {
-			aByteArray10137 = new byte[aClass467_10142.anInt5333 * 608172963];
+			aByteArray10137 = new byte[table.archiveSize * 608172963];
 			anInt10133 = 0;
 		}
-		return aClass467_10142;
-	}
-
-	boolean method9243() {
-		return aClass449_10158 != null;
+		return table;
 	}
 
 	void method5515(int i) {
@@ -422,10 +394,6 @@ public class Class459_Sub1 extends Class459 {
 		aClass449_10158.method5405(bool, (byte) 8);
 	}
 
-	public int method9245() {
-		return anInt10133 * -948660157;
-	}
-
 	boolean method9246(int i, byte[] is, int i_7_, int i_8_, byte i_9_) {
 		if (-246169895 * anInt10135 == i && anInt10128 * -416049697 == i_7_) {
 			boolean bool = true;
@@ -441,18 +409,9 @@ public class Class459_Sub1 extends Class459 {
 		return false;
 	}
 
-	public int method9247() {
-		if (method5505((byte) -50) == null) {
-			if (null == aClass536_Sub18_Sub15_10134)
-				return 0;
-			return aClass536_Sub18_Sub15_10134.method10770(-1654882711);
-		}
-		return 100;
-	}
-
 	void method9248(int i) {
 		if (aClass708_10152 != null) {
-			if (method5505((byte) -107) == null)
+			if (getReferenceTable((byte) -107) == null)
 				return;
 			if (aBool10146) {
 				boolean bool = true;
@@ -465,11 +424,11 @@ public class Class459_Sub1 extends Class459 {
 					else
 						bool = false;
 				}
-				while (anInt10148 * -256279131 < aClass467_10142.anIntArray5340.length) {
-					if (0 == (aClass467_10142.anIntArray5340[-256279131 * anInt10148]))
+				while (anInt10148 * -256279131 < table.validFileIds.length) {
+					if (0 == (table.validFileIds[-256279131 * anInt10148]))
 						anInt10148 += 1171333677;
 					else {
-						if (2126553935 * aClass466_10131.anInt5320 >= 250) {
+						if (2126553935 * aClass466_10131.anInt5320 >= anInt10149) {
 							bool = false;
 							break;
 						}
@@ -499,8 +458,8 @@ public class Class459_Sub1 extends Class459 {
 					else
 						bool = false;
 				}
-				while (anInt10148 * -256279131 < aClass467_10142.anIntArray5340.length) {
-					if (0 == (aClass467_10142.anIntArray5340[anInt10148 * -256279131]))
+				while (anInt10148 * -256279131 < table.validFileIds.length) {
+					if (0 == (table.validFileIds[anInt10148 * -256279131]))
 						anInt10148 += 1171333677;
 					else {
 						if (aClass460_10129.method5523(-1127686085)) {
@@ -540,15 +499,6 @@ public class Class459_Sub1 extends Class459 {
 		}
 	}
 
-	public int method9249() {
-		if (method5505((byte) -74) == null) {
-			if (null == aClass536_Sub18_Sub15_10134)
-				return 0;
-			return aClass536_Sub18_Sub15_10134.method10770(35258762);
-		}
-		return 100;
-	}
-
 	byte[] method5512(int i) {
 		Class536_Sub18_Sub15 class536_sub18_sub15 = method9256(i, 0, 1835366357);
 		if (class536_sub18_sub15 == null)
@@ -556,18 +506,6 @@ public class Class459_Sub1 extends Class459 {
 		byte[] is = class536_sub18_sub15.method10771(2125064494);
 		class536_sub18_sub15.method6484();
 		return is;
-	}
-
-	public int method9250() {
-		if (aClass467_10142 == null)
-			return 0;
-		return aClass467_10142.anInt5329 * 1483398979;
-	}
-
-	public int method9251() {
-		if (aClass467_10142 == null)
-			return 0;
-		return aClass467_10142.anInt5329 * 1483398979;
 	}
 
 	Class459_Sub1(int i, Class547 class547, Class547 class547_13_, Class460 class460, Class449 class449, Class466 class466, int i_14_, byte[] is, int i_15_, boolean bool, int i_16_) {
@@ -592,41 +530,6 @@ public class Class459_Sub1 extends Class459 {
 			aClass536_Sub18_Sub15_10134 = aClass466_10131.method5669(-1029966251 * anInt10143, aClass547_10154, 1935681493);
 	}
 
-	public int method9252() {
-		return anInt10133 * -948660157;
-	}
-
-	public int method9253() {
-		if (aClass467_10142 == null)
-			return 0;
-		if (!aBool10146)
-			return 1483398979 * aClass467_10142.anInt5329;
-		Class536 class536 = aClass708_10152.method8308(1867269829);
-		if (null == class536)
-			return 0;
-		return (int) (-6909195213925454795L * class536.aLong7133);
-	}
-
-	public int method9254() {
-		if (aClass467_10142 == null)
-			return 0;
-		if (!aBool10146)
-			return 1483398979 * aClass467_10142.anInt5329;
-		Class536 class536 = aClass708_10152.method8308(1867269829);
-		if (null == class536)
-			return 0;
-		return (int) (-6909195213925454795L * class536.aLong7133);
-	}
-
-	public void method9255() {
-		if (aClass449_10158 == null && null != aClass547_10132) {
-			aBool10145 = true;
-			aBool10144 = true;
-			if (null == aClass708_10152)
-				aClass708_10152 = new Class708();
-		}
-	}
-
 	Class536_Sub18_Sub15 method9256(int i, int i_17_, int i_18_) {
 		Class536_Sub18_Sub15 class536_sub18_sub15 = (Class536_Sub18_Sub15) aClass4_10139.method556((long) i);
 		if (null != class536_sub18_sub15 && 0 == i_17_ && !class536_sub18_sub15.aBool11778 && class536_sub18_sub15.aBool11777) {
@@ -638,7 +541,7 @@ public class Class459_Sub1 extends Class459 {
 				if (aClass547_10132 != null && aByteArray10137[i] != -1)
 					class536_sub18_sub15 = aClass466_10131.method5669(i, aClass547_10132, -982300169);
 				else if (aClass449_10158 != null) {
-					class536_sub18_sub15 = aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, (aClass467_10142.anIntArray5334[i]), (aClass467_10142.anIntArray5337[i]), 55237047);
+					class536_sub18_sub15 = aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, (table.crcs[i]), (table.anIntArray5337[i]), 55237047);
 					if (class536_sub18_sub15 == null)
 						return null;
 				} else if (!aClass460_10129.method5528((byte) 1))
@@ -675,10 +578,10 @@ public class Class459_Sub1 extends Class459 {
 				aCRC32_10155.reset();
 				aCRC32_10155.update(is, 0, is.length - 2);
 				int i_20_ = (int) aCRC32_10155.getValue();
-				if (i_20_ != aClass467_10142.anIntArray5334[i])
+				if (i_20_ != table.crcs[i])
 					throw new RuntimeException();
-				if (null != aClass467_10142.aByteArrayArray5336 && aClass467_10142.aByteArrayArray5336[i] != null) {
-					byte[] is_21_ = aClass467_10142.aByteArrayArray5336[i];
+				if (null != table.whirlpools && table.whirlpools[i] != null) {
+					byte[] is_21_ = table.whirlpools[i];
 					byte[] is_22_ = Class601.method7165(is, 0, is.length - 2, (byte) -116);
 					for (int i_23_ = 0; i_23_ < 64; i_23_++) {
 						if (is_22_[i_23_] != is_21_[i_23_])
@@ -686,7 +589,7 @@ public class Class459_Sub1 extends Class459 {
 					}
 				}
 				int i_24_ = ((is[is.length - 1] & 0xff) + ((is[is.length - 2] & 0xff) << 8));
-				if (i_24_ != (aClass467_10142.anIntArray5337[i] & 0xffff))
+				if (i_24_ != (table.anIntArray5337[i] & 0xffff))
 					throw new RuntimeException();
 				if (1 != aByteArray10137[i]) {
 					if (aByteArray10137[i] != 0) {
@@ -704,7 +607,7 @@ public class Class459_Sub1 extends Class459 {
 				if (class536_sub18_sub15.aBool11778) {
 					if (null != aClass449_10158) {
 						if (!aClass449_10158.method5406((byte) -1)) {
-							Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3 = (aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, aClass467_10142.anIntArray5334[i], aClass467_10142.anIntArray5337[i], -1247600037));
+							Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3 = (aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, table.crcs[i], table.anIntArray5337[i], -1247600037));
 							if (class536_sub18_sub15_sub3 != null)
 								aClass4_10139.method560(class536_sub18_sub15_sub3, (long) i);
 						}
@@ -728,10 +631,10 @@ public class Class459_Sub1 extends Class459 {
 			aCRC32_10155.reset();
 			aCRC32_10155.update(is, 0, is.length - 2);
 			int i_25_ = (int) aCRC32_10155.getValue();
-			if (i_25_ != aClass467_10142.anIntArray5334[i])
+			if (i_25_ != table.crcs[i])
 				throw new RuntimeException();
-			if (null != aClass467_10142.aByteArrayArray5336 && aClass467_10142.aByteArrayArray5336[i] != null) {
-				byte[] is_26_ = aClass467_10142.aByteArrayArray5336[i];
+			if (null != table.whirlpools && table.whirlpools[i] != null) {
+				byte[] is_26_ = table.whirlpools[i];
 				byte[] is_27_ = Class601.method7165(is, 0, is.length - 2, (byte) -120);
 				for (int i_28_ = 0; i_28_ < 64; i_28_++) {
 					if (is_26_[i_28_] != is_27_[i_28_])
@@ -748,7 +651,7 @@ public class Class459_Sub1 extends Class459 {
 			if (class536_sub18_sub15.aBool11778) {
 				if (null != aClass449_10158) {
 					if (!aClass449_10158.method5406((byte) -1)) {
-						Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3 = (aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, aClass467_10142.anIntArray5334[i], aClass467_10142.anIntArray5337[i], 707598905));
+						Class536_Sub18_Sub15_Sub3 class536_sub18_sub15_sub3 = (aClass449_10158.method5413(anInt10143 * -1029966251, i, (byte) 2, true, table.crcs[i], table.anIntArray5337[i], 707598905));
 						if (class536_sub18_sub15_sub3 != null)
 							aClass4_10139.method560(class536_sub18_sub15_sub3, (long) i);
 					}
@@ -759,8 +662,8 @@ public class Class459_Sub1 extends Class459 {
 			}
 			return null;
 		}
-		is[is.length - 2] = (byte) (aClass467_10142.anIntArray5337[i] >>> 8);
-		is[is.length - 1] = (byte) aClass467_10142.anIntArray5337[i];
+		is[is.length - 2] = (byte) (table.anIntArray5337[i] >>> 8);
+		is[is.length - 1] = (byte) table.anIntArray5337[i];
 		if (null != aClass547_10132) {
 			aClass466_10131.method5670(i, is, aClass547_10132, (byte) 100);
 			if (aByteArray10137[i] != 1) {
@@ -771,50 +674,6 @@ public class Class459_Sub1 extends Class459 {
 		if (!class536_sub18_sub15.aBool11778)
 			class536_sub18_sub15.method6484();
 		return class536_sub18_sub15;
-	}
-
-	public int method9257() {
-		if (aClass467_10142 == null)
-			return 0;
-		return aClass467_10142.anInt5329 * 1483398979;
-	}
-
-	public boolean method9258() {
-		return aBool10144;
-	}
-
-	void method9259(boolean bool) {
-		aClass449_10158.method5405(bool, (byte) 8);
-	}
-
-	void method9260() {
-		if (null != aClass708_10152 && method5505((byte) -16) != null) {
-			for (Class536 class536 = aClass708_10150.method8308(1867269829); null != class536; class536 = aClass708_10150.method8311(1408717133)) {
-				int i = (int) (class536.aLong7133 * -6909195213925454795L);
-				if (i < 0 || i >= 608172963 * aClass467_10142.anInt5333 || aClass467_10142.anIntArray5340[i] == 0)
-					class536.method6484();
-				else {
-					if (0 == aByteArray10137[i])
-						method9256(i, 1, 893344163);
-					if (aByteArray10137[i] == -1)
-						method9256(i, 2, 2113830374);
-					if (aByteArray10137[i] == 1)
-						class536.method6484();
-				}
-			}
-		}
-	}
-
-	boolean method9261() {
-		return aClass449_10158 != null;
-	}
-
-	boolean method9262() {
-		return aClass449_10158 != null;
-	}
-
-	public boolean method9263() {
-		return aBool10144;
 	}
 
 	public static final void method9264(int i) {

@@ -15,7 +15,7 @@ public class Class469 {
 		int i = class536_sub33.readUnsignedByte();
 		class536_sub33.off += -1655631760 * i;
 		byte[] is = new byte[(class536_sub33.buffer.length - -810172525 * class536_sub33.off)];
-		class536_sub33.method9716(is, 0, is.length, -1269729029);
+		class536_sub33.readToByteArray(is, 0, is.length);
 		byte[] is_1_;
 		if (biginteger == null || biginteger_0_ == null)
 			is_1_ = is;
@@ -39,7 +39,7 @@ public class Class469 {
 			int i_9_ = class536_sub33.readInt();
 			int i_10_ = class536_sub33.readInt();
 			byte[] is_11_ = new byte[64];
-			class536_sub33.method9716(is_11_, 0, 64, 134064015);
+			class536_sub33.readToByteArray(is_11_, 0, 64);
 			aClass448Array5355[i_6_] = new Class448(i_7_, i_9_, i_8_, i_10_, is_11_);
 		}
 	}
@@ -58,7 +58,7 @@ public class Class469 {
 		Class471.method5715(class251, class234, class668, 984458878);
 	}
 
-	static final byte[] method5700(byte[] is, byte i) {
+	static final byte[] method5700(byte[] is) {
 		RSByteBuffer class536_sub33 = new RSByteBuffer(is);
 		Class454 class454 = new Class454(class536_sub33);
 		Class463 class463 = class454.method5450(-1601920795);
@@ -67,7 +67,7 @@ public class Class469 {
 			throw new RuntimeException();
 		if (Class463.aClass463_5222 == class463) {
 			byte[] is_14_ = new byte[i_13_];
-			class536_sub33.method9716(is_14_, 0, i_13_, 1344095787);
+			class536_sub33.readToByteArray(is_14_, 0, i_13_);
 			return is_14_;
 		}
 		int i_15_ = class454.method5455((byte) -57);

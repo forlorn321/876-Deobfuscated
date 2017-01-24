@@ -440,7 +440,7 @@ public class Class2 {
 			throw new RuntimeException("");
 		boolean bool = class536_sub33.readUnsignedByte() == 1;
 		aByteArray88 = new byte[256];
-		class536_sub33.method9716(aByteArray88, 0, 256, -741920053);
+		class536_sub33.readToByteArray(aByteArray88, 0, 256);
 		if (bool) {
 			int[] is_73_ = new int[256];
 			int[] is_74_ = new int[256];
