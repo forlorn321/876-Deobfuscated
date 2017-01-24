@@ -6,11 +6,11 @@ package com.jagex;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-public class Class536_Sub18_Sub15_Sub3 extends Class536_Sub18_Sub15 {
+public class Class536_Sub18_Sub15_Sub3 extends MainFile {
 	Future aFuture12158;
 	int anInt12159;
 
-	int method10770(int i) {
+	int getCompletionPercent() {
 		if (aFuture12158 == null)
 			return 0;
 		return aFuture12158.isDone() ? 100 : 0;
@@ -35,7 +35,7 @@ public class Class536_Sub18_Sub15_Sub3 extends Class536_Sub18_Sub15 {
 		return null;
 	}
 
-	byte[] method10771(int i) {
+	byte[] getData(int i) {
 		do {
 			if (aFuture12158.isDone()) {
 				byte[] is;

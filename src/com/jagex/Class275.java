@@ -6,7 +6,7 @@ package com.jagex;
 import java.io.IOException;
 
 final class Class275 implements Interface29 {
-	public static Class459_Sub1[] aClass459_Sub1Array3024;
+	public static Index[] aClass459_Sub1Array3024;
 
 	public long method168(String string, int i) {
 		return Class30.method780(string, (byte) -24);

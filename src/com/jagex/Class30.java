@@ -77,7 +77,7 @@ public class Class30 {
 
 	public static JS5ResourceProvider method785(JS5Archive class46, boolean bool, int i, boolean bool_8_, boolean bool_9_, byte i_10_) {
 		if (Class275.aClass459_Sub1Array3024 == null) {
-			Class275.aClass459_Sub1Array3024 = new Class459_Sub1[Class319.method4240(-1974867093)];
+			Class275.aClass459_Sub1Array3024 = new Index[Class319.method4240(-1974867093)];
 			Class211.aMap2292 = new HashMap();
 		}
 		Class547 class547 = null;

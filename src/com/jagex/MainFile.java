@@ -3,14 +3,14 @@
  */
 package com.jagex;
 
-public abstract class Class536_Sub18_Sub15 extends Class536_Sub18 {
+public abstract class MainFile extends Class536_Sub18 {
 	volatile boolean aBool11777 = true;
 	boolean aBool11778;
 	boolean aBool11779;
 
-	abstract int method10770(int i);
+	abstract int getCompletionPercent();
 
-	abstract byte[] method10771(int i);
+	abstract byte[] getData(int i);
 
 	abstract int method10772();
 
@@ -20,7 +20,7 @@ public abstract class Class536_Sub18_Sub15 extends Class536_Sub18 {
 
 	abstract int method10775();
 
-	Class536_Sub18_Sub15() {
+	MainFile() {
 		/* empty */
 	}
 }

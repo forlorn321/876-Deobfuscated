@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class Class536_Sub18_Sub15_Sub1 extends Class536_Sub18_Sub15 {
+public class Class536_Sub18_Sub15_Sub1 extends MainFile {
 	Class547 aClass547_12096;
 	static final int anInt12097 = 2;
 	static final int anInt12098 = 3;
@@ -11,13 +11,13 @@ public class Class536_Sub18_Sub15_Sub1 extends Class536_Sub18_Sub15 {
 	static final int anInt12100 = 1;
 	byte[] aByteArray12101;
 
-	byte[] method10771(int i) {
+	byte[] getData(int i) {
 		if (aBool11777)
 			throw new RuntimeException();
 		return aByteArray12101;
 	}
 
-	int method10770(int i) {
+	int getCompletionPercent() {
 		if (aBool11777)
 			return 0;
 		return 100;

@@ -22,7 +22,7 @@ public class Class438 {
 	}
 
 	static final void method5298(Class668 class668, int i) {
-		Class459_Sub1.method9264(-2119124480);
+		Index.method9264(-2119124480);
 	}
 
 	static final void method5299(Class668 class668, int i) {

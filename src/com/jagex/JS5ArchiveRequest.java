@@ -3,7 +3,7 @@
  */
 package com.jagex;
 
-public class JS5ArchiveRequest extends Class536_Sub18_Sub15 {
+public class JS5ArchiveRequest extends MainFile {
 	RSByteBuffer aClass536_Sub33_12114;
 	byte aByte12115;
 
@@ -13,13 +13,13 @@ public class JS5ArchiveRequest extends Class536_Sub18_Sub15 {
 		return (aClass536_Sub33_12114.off * 587126124 / (aClass536_Sub33_12114.buffer.length - aByte12115));
 	}
 
-	byte[] method10771(int i) {
+	byte[] getData(int i) {
 		if (aBool11777 || (-810172525 * aClass536_Sub33_12114.off < aClass536_Sub33_12114.buffer.length - aByte12115))
 			throw new RuntimeException();
 		return aClass536_Sub33_12114.buffer;
 	}
 
-	int method10770(int i) {
+	int getCompletionPercent() {
 		if (aClass536_Sub33_12114 == null)
 			return 0;
 		return (aClass536_Sub33_12114.off * 587126124 / (aClass536_Sub33_12114.buffer.length - aByte12115));

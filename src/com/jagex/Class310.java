@@ -202,9 +202,9 @@ public class Class310 {
 		if (Class483.aClass303_5431 == Class303.aClass303_3415) {
 			boolean bool = Class161.aClass461_1770.method5561(-1376011786);
 			boolean bool_1_ = Class184_Sub2.aClass461_9443.method5561(-1376011786);
-			int i = Class275.aClass459_Sub1Array3024[JS5Archive.LOADING_SCREENS.method903(-550413157)].method9232((byte) 81);
-			i = i + Class275.aClass459_Sub1Array3024[(aBool3466 ? JS5Archive.LOADING_SPRITES_RAW.method903(561001597) : JS5Archive.LOADING_SPRITES.method903(-526800832))].method9232((byte) 37);
-			i += Class275.aClass459_Sub1Array3024[JS5Archive.FONT_METRICS.method903(-1037879971)].method9232((byte) 120);
+			int i = Class275.aClass459_Sub1Array3024[JS5Archive.LOADING_SCREENS.method903(-550413157)].getCompletionPercent();
+			i = i + Class275.aClass459_Sub1Array3024[(aBool3466 ? JS5Archive.LOADING_SPRITES_RAW.method903(561001597) : JS5Archive.LOADING_SPRITES.method903(-526800832))].getCompletionPercent();
+			i += Class275.aClass459_Sub1Array3024[JS5Archive.FONT_METRICS.method903(-1037879971)].getCompletionPercent();
 			i = i + (bool_1_ ? 100 : Class184_Sub2.aClass461_9443.method5563(1521097131));
 			i = i + (bool ? 100 : Class161.aClass461_1770.method5563(38645376));
 			if (500 != i)
@@ -280,7 +280,7 @@ public class Class310 {
 			int i_5_ = 0;
 			for (int i_6_ = 0; i_6_ < Class275.aClass459_Sub1Array3024.length; i_6_++) {
 				if (Class275.aClass459_Sub1Array3024[i_6_] != null) {
-					i += Class275.aClass459_Sub1Array3024[i_6_].method9232((byte) 44);
+					i += Class275.aClass459_Sub1Array3024[i_6_].getCompletionPercent();
 					i_5_++;
 				}
 			}

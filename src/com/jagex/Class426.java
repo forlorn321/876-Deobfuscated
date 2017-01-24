@@ -7,7 +7,7 @@ import java.math.BigInteger;
 
 public class Class426 {
 	Class469 aClass469_4800;
-	Class459_Sub1[] aClass459_Sub1Array4801;
+	Index[] aClass459_Sub1Array4801;
 	Class466 aClass466_4802;
 	BigInteger aBigInteger4803;
 	BigInteger aBigInteger4804;
@@ -28,10 +28,10 @@ public class Class426 {
 		}
 		if (aClass536_Sub18_Sub15_Sub2_4805.aBool11777)
 			return false;
-		RSByteBuffer class536_sub33 = new RSByteBuffer(aClass536_Sub18_Sub15_Sub2_4805.method10771(1989491128));
+		RSByteBuffer class536_sub33 = new RSByteBuffer(aClass536_Sub18_Sub15_Sub2_4805.getData(1989491128));
 		aClass469_4800 = new Class469(class536_sub33, aBigInteger4803, aBigInteger4804);
 		if (aClass459_Sub1Array4801 == null)
-			aClass459_Sub1Array4801 = new Class459_Sub1[aClass469_4800.aClass448Array5355.length];
+			aClass459_Sub1Array4801 = new Index[aClass469_4800.aClass448Array5355.length];
 		else {
 			for (int i_0_ = 0; i_0_ < aClass459_Sub1Array4801.length; i_0_++) {
 				if (aClass459_Sub1Array4801[i_0_] != null) {
@@ -46,11 +46,11 @@ public class Class426 {
 		return true;
 	}
 
-	public Class459_Sub1 method5123(int i, Class547 class547, Class547 class547_1_, boolean bool, int i_2_) {
+	public Index method5123(int i, Class547 class547, Class547 class547_1_, boolean bool, int i_2_) {
 		return method5124(i, class547, class547_1_, true, bool, (byte) -48);
 	}
 
-	Class459_Sub1 method5124(int i, Class547 class547, Class547 class547_3_, boolean bool, boolean bool_4_, byte i_5_) {
+	Index method5124(int i, Class547 class547, Class547 class547_3_, boolean bool, boolean bool_4_, byte i_5_) {
 		if (null == aClass469_4800)
 			throw new RuntimeException();
 		if (i < 0 || i >= aClass459_Sub1Array4801.length)
@@ -58,7 +58,7 @@ public class Class426 {
 		if (null != aClass459_Sub1Array4801[i])
 			return aClass459_Sub1Array4801[i];
 		Class448 class448 = aClass469_4800.aClass448Array5355[i];
-		Class459_Sub1 class459_sub1 = new Class459_Sub1(i, class547, class547_3_, aClass460_4807, bool_4_ ? aClass449_4810 : null, aClass466_4802, class448.anInt4923 * 1535951545, class448.aByteArray4922, class448.anInt4925 * 1857151345, bool, class448.anInt4924 * -1573408083);
+		Index class459_sub1 = new Index(i, class547, class547_3_, aClass460_4807, bool_4_ ? aClass449_4810 : null, aClass466_4802, class448.anInt4923 * 1535951545, class448.aByteArray4922, class448.anInt4925 * 1857151345, bool, class448.anInt4924 * -1573408083);
 		aClass459_Sub1Array4801[i] = class459_sub1;
 		if (null != aClass469_4808 && bool_4_) {
 			Class448 class448_6_ = aClass469_4808.aClass448Array5355[i];
@@ -83,7 +83,7 @@ public class Class426 {
 				if (aClass536_Sub18_Sub15_Sub3_4806 == null)
 					aClass536_Sub18_Sub15_Sub3_4806 = aClass449_4810.method5404(743924120);
 				else if (!aClass536_Sub18_Sub15_Sub3_4806.aBool11777) {
-					byte[] is = aClass536_Sub18_Sub15_Sub3_4806.method10771(1958572390);
+					byte[] is = aClass536_Sub18_Sub15_Sub3_4806.getData(1958572390);
 					try {
 						aClass469_4808 = new Class469(new RSByteBuffer(is), aBigInteger4803, aBigInteger4804);
 						for (int i_9_ = 0; i_9_ < aClass459_Sub1Array4801.length; i_9_++) {
@@ -133,7 +133,7 @@ public class Class426 {
 				if (aClass536_Sub18_Sub15_Sub3_4806 == null)
 					aClass536_Sub18_Sub15_Sub3_4806 = aClass449_4810.method5404(473201792);
 				else if (!aClass536_Sub18_Sub15_Sub3_4806.aBool11777) {
-					byte[] is = aClass536_Sub18_Sub15_Sub3_4806.method10771(2023029335);
+					byte[] is = aClass536_Sub18_Sub15_Sub3_4806.getData(2023029335);
 					try {
 						aClass469_4808 = new Class469(new RSByteBuffer(is), aBigInteger4803, aBigInteger4804);
 						for (int i = 0; i < aClass459_Sub1Array4801.length; i++) {

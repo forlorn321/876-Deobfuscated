@@ -122,9 +122,9 @@ public class Class601 implements Interface75 {
 		if (Class483.aClass303_5431 == Class303.aClass303_3415) {
 			boolean bool = Class161.aClass461_1770.method5561(-1376011786);
 			boolean bool_7_ = Class184_Sub2.aClass461_9443.method5561(-1376011786);
-			int i_8_ = Class275.aClass459_Sub1Array3024[JS5Archive.LOADING_SCREENS.method903(1859216960)].method9232((byte) 112);
-			i_8_ = i_8_ + Class275.aClass459_Sub1Array3024[(Class310.aBool3466 ? JS5Archive.LOADING_SPRITES_RAW.method903(-437999709) : JS5Archive.LOADING_SPRITES.method903(-1566797578))].method9232((byte) 112);
-			i_8_ += Class275.aClass459_Sub1Array3024[JS5Archive.FONT_METRICS.method903(-867625406)].method9232((byte) 42);
+			int i_8_ = Class275.aClass459_Sub1Array3024[JS5Archive.LOADING_SCREENS.method903(1859216960)].getCompletionPercent();
+			i_8_ = i_8_ + Class275.aClass459_Sub1Array3024[(Class310.aBool3466 ? JS5Archive.LOADING_SPRITES_RAW.method903(-437999709) : JS5Archive.LOADING_SPRITES.method903(-1566797578))].getCompletionPercent();
+			i_8_ += Class275.aClass459_Sub1Array3024[JS5Archive.FONT_METRICS.method903(-867625406)].getCompletionPercent();
 			i_8_ = i_8_ + (bool_7_ ? 100 : Class184_Sub2.aClass461_9443.method5563(1366896953));
 			i_8_ = i_8_ + (bool ? 100 : Class161.aClass461_1770.method5563(859090222));
 			if (500 != i_8_)
@@ -200,7 +200,7 @@ public class Class601 implements Interface75 {
 			int i_14_ = 0;
 			for (int i_15_ = 0; i_15_ < Class275.aClass459_Sub1Array3024.length; i_15_++) {
 				if (Class275.aClass459_Sub1Array3024[i_15_] != null) {
-					i_13_ += Class275.aClass459_Sub1Array3024[i_15_].method9232((byte) 36);
+					i_13_ += Class275.aClass459_Sub1Array3024[i_15_].getCompletionPercent();
 					i_14_++;
 				}
 			}
