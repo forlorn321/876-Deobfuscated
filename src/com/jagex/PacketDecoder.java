@@ -459,7 +459,7 @@ public class PacketDecoder {
 			int interfaceId = interfaceHash >> 16;
 			int componentId = interfaceHash & 0xFFFF;
 			if (RS3Applet.DUMP)
-				System.out.println(new com.IComponentSettings(interfaceId, componentId, fromSlot, toSlot, value).toString());
+//				System.out.println(new com.IComponentSettings(interfaceId, componentId, fromSlot, toSlot, value).toString());
 //				System.out.println("player.getPackets().sendIComponentSettings("+interfaceId+", "+componentId+", "+fromSlot+", "+toSlot+", "+value+");");
 			for (int i_79_ = fromSlot; i_79_ <= toSlot; i_79_++) {
 				long l = ((long) interfaceHash << 32) + (long) i_79_;
